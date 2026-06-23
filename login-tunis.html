@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fr" data-auth-page="tunis">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Connexion Tunisie &ndash; Prepa Residanat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    :root {
+      --accent: #b91c1c;
+      --accent-dark: #7f1d1d;
+      --accent-soft: #fee2e2;
+      --bg: #f7f8fb;
+      --paper: #ffffff;
+      --ink: #111827;
+      --muted: #667085;
+      --line: #e5e7eb;
+      --field: #f9fafb;
+      --accent-border: rgba(185, 28, 28, 0.2);
+      --accent-shadow: rgba(185, 28, 28, 0.28);
+      --focus-ring: rgba(185, 28, 28, 0.14);
+      --success: #15803d;
+      --warning: #b45309;
+      --info: #2563eb;
+    }
+
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0;
+      background: linear-gradient(180deg, var(--bg), #eef2f7);
+      color: var(--ink);
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, input { font: inherit; }
+
+    .auth-shell {
+      min-height: 100dvh;
+      width: min(100%, 940px);
+      margin: 0 auto;
+      padding: max(18px, env(safe-area-inset-top)) 16px max(18px, env(safe-area-inset-bottom));
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .back-link {
+      width: fit-content;
+      color: var(--accent-dark);
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 8px 0;
+    }
+
+    .layout {
+      flex: 1;
+      display: grid;
+      align-content: center;
+      gap: 14px;
+    }
+
+    .hero,
+    .auth-panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    }
+
+    .hero {
+      padding: 22px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .mark {
+      width: 54px;
+      height: 54px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background: var(--accent);
+      color: white;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      flex: none;
+    }
+
+    .eyebrow {
+      margin: 0 0 4px;
+      color: var(--accent-dark);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 8vw, 46px);
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .access-strip {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      border: 1px solid var(--accent-border);
+    }
+
+    .access-strip small {
+      color: var(--accent-dark);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .access-main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .price {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+    .whatsapp-link {
+      color: var(--accent-dark);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+    }
+
+    .auth-panel {
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .segmented {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      padding: 4px;
+      background: #eef2f7;
+      border-radius: 8px;
+    }
+
+    .seg-btn {
+      min-height: 42px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .seg-btn[aria-pressed="true"] {
+      background: var(--paper);
+      color: var(--ink);
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
+    }
+
+    .message {
+      margin: 0;
+      padding: 12px;
+      border-radius: 8px;
+      background: #fef2f2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .message[data-type="success"] { background: #f0fdf4; border-color: #bbf7d0; color: var(--success); }
+    .message[data-type="warning"] { background: #fffbeb; border-color: #fde68a; color: var(--warning); }
+    .message[data-type="info"] { background: #eff6ff; border-color: #bfdbfe; color: var(--info); }
+
+    form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .field {
+      display: grid;
+      gap: 6px;
+    }
+
+    .field span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .field input {
+      width: 100%;
+      min-height: 50px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--field);
+      color: var(--ink);
+      padding: 0 13px;
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    .field input:focus {
+      border-color: var(--accent);
+      background: var(--paper);
+      box-shadow: 0 0 0 4px var(--focus-ring);
+    }
+
+    .primary-btn,
+    .ghost-btn {
+      width: 100%;
+      min-height: 50px;
+      border-radius: 8px;
+      font-weight: 800;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .primary-btn {
+      border: 0;
+      background: var(--accent);
+      color: white;
+      box-shadow: 0 10px 24px var(--accent-shadow);
+    }
+
+    .primary-btn:disabled { opacity: 0.65; cursor: wait; }
+    .primary-btn:active,
+    .ghost-btn:active { transform: translateY(1px); }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      height: 1px;
+      flex: 1;
+      background: var(--line);
+    }
+
+    .ghost-btn {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--accent-dark);
+    }
+
+    .footnote {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      text-align: center;
+    }
+
+    @media (min-width: 820px) {
+      .layout {
+        grid-template-columns: 1fr 380px;
+        align-items: stretch;
+      }
+
+      .hero {
+        align-content: space-between;
+        padding: 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="auth-shell">
+    <a class="back-link" id="backBtn" href="./index.html">Retour au portail</a>
+
+    <div class="layout">
+      <section class="hero" aria-labelledby="authTitle">
+        <div>
+          <div class="brand-row">
+            <div class="mark" aria-hidden="true">FMT</div>
+            <div>
+              <p class="eyebrow">Residanat Tunisie</p>
+              <h1 id="authTitle">Connexion</h1>
+            </div>
+          </div>
+          <p class="subtitle" id="authSubtitle">Connectez-vous avec votre compte approuve.</p>
+        </div>
+
+        <div class="access-strip">
+          <small>Acces annuel</small>
+          <div class="access-main">
+            <span class="price">1 000 MRU / environ 80 TND</span>
+            <a id="whatsappLink" class="whatsapp-link" href="https://wa.me/27265400">WhatsApp 27265400</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="auth-panel" aria-label="Connexion Tunisie">
+        <div class="segmented" role="tablist" aria-label="Mode d'authentification">
+          <button id="signinTab" class="seg-btn" role="tab" aria-pressed="true" type="button">Connexion</button>
+          <button id="signupTab" class="seg-btn" role="tab" aria-pressed="false" type="button">Inscription</button>
+        </div>
+
+        <p id="authMessage" class="message" hidden></p>
+
+        <form id="signinForm">
+          <label class="field">
+            <span>Adresse e-mail</span>
+            <input id="signinEmail" class="field-input" type="email" autocomplete="email" required>
+          </label>
+          <label class="field">
+            <span>Mot de passe</span>
+            <input id="signinPassword" class="field-input" type="password" autocomplete="current-password" required>
+          </label>
+          <button class="primary-btn" type="submit">Se connecter</button>
+          <button class="ghost-btn" type="button" id="forgotBtn" style="margin-top:-4px; font-size:13px; min-height:40px; border:0; background:transparent; color:var(--accent-dark); text-decoration:underline; cursor:pointer;">Mot de passe oublie ?</button>
+        </form>
+
+        <form id="signupForm" hidden>
+          <label class="field">
+            <span>Nom complet</span>
+            <input id="signupName" type="text" autocomplete="name" required>
+          </label>
+          <label class="field">
+            <span>Adresse e-mail</span>
+            <input id="signupEmail" class="field-input" type="email" autocomplete="email" required>
+          </label>
+          <label class="field">
+            <span>Mot de passe</span>
+            <input id="signupPassword" class="field-input" type="password" autocomplete="new-password" minlength="6" required>
+          </label>
+          <button class="primary-btn" type="submit">Demander l'acces</button>
+        </form>
+
+        <div class="divider">ou</div>
+        <button id="guestButton" class="ghost-btn" type="button">Entrer comme invite</button>
+        <p class="footnote">Les nouveaux comptes sont valides par l'administrateur avant activation.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="auth-tunis.js?v=7"></script>
+  <script>
+    async function loadWhatsappNumber() {
+      try {
+        const client = window.tunisSupabase || supabase.createClient("https://rsnbcgrtrjfvnoczildf.supabase.co", "sb_publishable_x8DaZHPwJORpR2tE5eClMA_yUsD2NTD");
+        const { data } = await client
+          .from("app_settings")
+          .select("value")
+          .eq("key", "whatsapp_number")
+          .maybeSingle();
+        const num = (data && data.value) || "27265400";
+        const link = document.getElementById("whatsappLink");
+        if (link) {
+          link.textContent = `WhatsApp ${num}`;
+          link.href = `https://wa.me/${num}`;
+        }
+      } catch (err) {
+        console.error("Error loading settings:", err);
+      }
+    }
+    setTimeout(loadWhatsappNumber, 300);
+  </script>
+</body>
+</html>

@@ -1,0 +1,1353 @@
+{
+  "lectureId": "48",
+  "number": "48",
+  "title": "Intoxications par le CO, les organophosphorés et les psychotropes",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Concernant le transport des gaz respiratoires dans le sang, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'oxygène est principalement transporté sous forme dissoute dans le plasma.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le gaz carbonique est majoritairement transporté sous forme de bicarbonates dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hémoglobine est le principal transporteur de l'oxygène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une faible quantité d'oxygène reste dissoute dans le plasma et le cytoplasme des globules rouges.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le transport de l’oxygène se fait essentiellement sous forme combinée, lié à l’hémoglobine dans les globules rouges (97%). Une faible quantité reste dissoute dans le plasma et le cytoplasme des globules rouges (3%). Le transport du gaz carbonique se fait sous forme dissoute (5-10%), lié à l’hémoglobine (30%) et sous forme combinée après réaction chimique avec les bicarbonates dans le plasma (60-65%)."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques physiques du monoxyde de carbone (CO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est inodore et incolore.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est plus dense que l'air.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est non irritant et non suffocant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est inflammable et potentiellement détonant.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le CO est un gaz inodore, incolore, insipide, non irritant, non suffocant, inflammable et potentiellement détonant. Sa densité, très proche de celle de l’air, est de 0,967, ce qui signifie qu'il est légèrement moins dense que l'air, et non plus dense."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les signes fonctionnels les plus fréquemment rapportés lors d'une intoxication oxycarbonée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des vertiges.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des nausées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des céphalées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une perte de conscience.",
+          "correct": false
+        }
+      ],
+      "explanation": "La triade classique est faite de céphalées (80% des cas), nausées (51% des cas) et vertiges (75% des cas). La perte de conscience est un signe d'exposition plus importante, survenant dans 3 à 13% des cas."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme principal de la toxicité du monoxyde de carbone (CO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il se fixe de manière irréversible à la myoglobine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il diminue l'affinité de l'hémoglobine pour le CO2.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il se lie à l'hémoglobine avec une affinité bien supérieure à celle de l'oxygène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il provoque une augmentation de la libération d'oxygène aux tissus périphériques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’hémoglobine (Hb) s’associe préférentiellement avec le CO (affinité 230 fois plus grande) plutôt qu’avec l’oxygène. Cette liaison est stable mais réversible, et non irréversible comme mentionné dans l'option A. Le CO inactive une proportion de l'hémoglobine, la rendant incapable de transporter l'oxygène, et déplace l'oxygène de l'oxyhémoglobine, entraînant une anoxémie et une asphyxie."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux syndromes cliniques caractérisant l'intoxication aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome sérotoninergique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome muscarinique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome nicotinique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome encéphalique (central).",
+          "correct": true
+        }
+      ],
+      "explanation": "Cette intoxication est caractérisée par trois syndromes cliniques : muscarinique, nicotinique et encéphalique (central)."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quel est l'antidote de première intention en cas d'intoxication aux organophosphorés, en présence de signes muscariniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La naloxone.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le flumazénil.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le sulfate d'atropine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le méthylsulfate de pralidoxime.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sulfate d'atropine est le traitement de choix et de première intention en présence de myosis, hypersudation, bronchorrhée/bronchospasme gênant la ventilation, bradycardie, hypotension. Il a un effet antagoniste compétitif de l’acétylcholine au niveau des récepteurs muscariniques et centraux."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales classes de psychotropes selon la classification de Delay et Deniker ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les psycholeptiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les psychoanaleptiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les psychodysleptiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les thymorégulateurs.",
+          "correct": true
+        }
+      ],
+      "explanation": "La classification de Delay et Deniker distingue les substances sédatives ou « psycholeptiques », les composés qui élèvent le tonus mental ou « psychoanaleptiques », les perturbateurs de l’activité mentale ou « psychodysleptiques ». Les thymorégulateurs ont été inclus dans la classification actualisée."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les effets pharmacologiques des neuroleptiques liés au blocage des récepteurs alpha 1 adrénergiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sédation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une prise de poids.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypotension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des troubles de la mémoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le blocage des récepteurs alpha 1 adrénergiques est à l'origine en périphérie d'une hypotension artérielle majorée à l'orthostatisme. La sédation et la prise de poids sont liées au blocage des récepteurs H1 à l'histamine, et les troubles de la mémoire au blocage des récepteurs cholinergiques muscariniques M1."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques du syndrome atropinique (anticholinergique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bradycardie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Myosis.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sécheresse buccale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rétention urinaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques du syndrome atropinique incluent une accélération cardiaque (tachycardie), une dilatation des pupilles (mydriase), une diminution du péristaltisme (constipation), une rétention urinaire, une réduction des sécrétions (sécheresse buccale et oculaire, peau sèche et chaude)."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est le taux sanguin 'normal' de carboxyhémoglobine (HbCO) chez un sujet sain non-fumeur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 0.3%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 2 et 5%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entre 8 et 10%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Supérieur à 15%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un taux sanguin « normal » de carboxyhémoglobine est de 2 à 5% chez les sujets sains (8 à 10% chez les fumeurs)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelles sont les voies d'entrée possibles des organophosphorés dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie transcutanée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Voie oculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Voie pulmonaire (inhalation).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Voie digestive (ingestion).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les organophosphorés sont toxiques par voie transcutanée, oculaire, pulmonaire en cas d’inhalation et digestive (en cas d’ingestion). Ces portes d’entrée peuvent s’associer chez le même patient."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal du traitement curatif de l'intoxication aiguë au CO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduire la production endogène de CO.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rétablir rapidement un niveau d'oxygénation tissulaire adéquat.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prévenir les complications rénales à long terme.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Corriger l'acidose métabolique par l'administration de bicarbonates.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement curatif des intoxications aigues au CO et gaz d’Hydrocarbures a pour objectif principal de rétablir le plus rapidement et le plus efficacement un niveau d’oxygénation tissulaire adéquat, en espérant que l’anoxie n’a été ni trop intense ni trop prolongée pour provoquer des lésions neurologiques."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques du syndrome muscarinique lors d'une intoxication aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mydriase.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypersialorrhée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bradycardie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diarrhées profuses.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome muscarinique est à l'origine d'une hypersécrétion de toutes les glandes (salivaire, sudorale, digestive, bronchique), d'une bradycardie, d'une hypotension, d'une incontinence anale avec diarrhées, d'une incontinence urinaire, d'un myosis serré, de troubles de l'accommodation oculaire, d'une photophobie, d'une bronchoconstriction, de vomissements, nausées et spasmes gastro-intestinaux. La mydriase est un signe nicotinique."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les critères majeurs du syndrome malin des neuroleptiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fièvre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La rigidité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypotension.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'augmentation des CPK.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les 3 critères majeurs du syndrome malin des neuroleptiques sont la fièvre, la rigidité et l’augmentation des CPK. L'hypotension est un signe général mais pas un critère majeur."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Concernant la courbe de dissociation de l'oxyhémoglobine (courbe de Barcroft), quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle met en relation la saturation de l'hémoglobine et la pression partielle en oxygène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sa forme sigmoïde garantit une captation maximale d'oxygène aux PO2 pulmonaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un déplacement vers la droite de la courbe indique une affinité augmentée de l'hémoglobine pour l'oxygène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La transition entre la phase ascendante et le plateau se situe aux environs d'une PO2 de 60 mmHg.",
+          "correct": true
+        }
+      ],
+      "explanation": "La courbe de dissociation de l’oxyhémoglobine met en relation la saturation de l’hémoglobine et la pression partielle en oxygène. Sa forme sigmoïde est très avantageuse sur le plan physiologique, garantissant une captation maximale d’oxygène aux PO2 pulmonaires. La transition entre ces deux comportements très différents se situe aux environs d’une PO2 de 60 mmHg. Un déplacement vers la droite de la courbe signifie que l’hémoglobine présente une affinité diminuée pour l’oxygène."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels facteurs physiologiques sont susceptibles de déplacer la courbe de dissociation de l'oxyhémoglobine vers la gauche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation de la température tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une acidose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypocapnie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une concentration abaissée de 2,3 Diphosphoglycérates (DPG).",
+          "correct": true
+        }
+      ],
+      "explanation": "Un déplacement de la courbe de dissociation de l’oxyhémoglobine vers la gauche existe en hypothermie, en situation d’alcalose ou d’hypocapnie, et lorsque la concentration intra-érythrocytaire de 2-3 DPG est abaissée. L'augmentation de la température et l'acidose déplacent la courbe vers la droite."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les circonstances de survenue d'une intoxication oxycarbonée domestique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une combustion de mauvaise qualité avec production accrue de CO.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une aération excessive du local.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une raréfaction de l'oxygène dans l'enceinte, augmentant la production de CO.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une atmosphère toxique échappant à la vigilance des victimes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les scénarios de l’intoxication oxycarbonée domestique incluent une combustion de mauvaise qualité, une évolution exponentielle de la production de CO en raison de la raréfaction de l’oxygène dans l’enceinte (consommé et non renouvelé), et une atmosphère toxique échappant à la vigilance des victimes. Une aération insuffisante, et non excessive, est un facteur de risque."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes de l'anoxie tissulaire diffuse induite par le CO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le CO se fixe sur l'hémoglobine avec une affinité 200 à 250 fois supérieure à celle de l'oxygène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le CO altère divers pigments et enzymes respiratoires comme la myoglobine et les cytochromes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le CO provoque une augmentation de la libération d'oxygène par l'hémoglobine aux tissus.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le CO induit une histotoxicité locale par perturbations microcirculatoires.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mécanismes de l’anoxie sont multiples et conjuguent leurs effets. Le défaut du transport de l’oxygène vers les tissus périphériques par l’hémoglobine en est le facteur essentiel, car elle est accaparée par le CO vis-à-vis duquel elle exerce une affinité 200 à 250 fois supérieure à celle de l’oxygène. De plus, le CO altère divers pigments et enzymes respiratoires (myoglobine, cytochrome, peroxydases, catalase…) et engendrerait une histotoxicité locale, par le biais de perturbations micro circulatoires. La présence de CO rend la libération d'O2 plus difficile, et non plus facile."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de l'intoxication au CO chez la femme enceinte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La liaison du CO avec l'hémoglobine fœtale est plus rapide que celle de l'hémoglobine maternelle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La liaison du CO avec l'hémoglobine fœtale est plus intense et plus prolongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le fœtus est particulièrement sensible à l'anoxie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'oxygénothérapie hyperbare est systématiquement préconisée, même si l'HbCO maternelle est normale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La liaison du CO avec l’hémoglobine fœtale est retardée de plusieurs heures par rapport à celle de l’hémoglobine maternelle ; elle est surtout plus intense et plus prolongée, menaçant pendant de plus longs délais des tissus particulièrement sensibles à l’anoxie. L’oxygénothérapie hyperbare est ainsi préconisée de manière systématique même quand l’HbCO maternelle est revenue à des taux infra toxiques."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques et paracliniques peuvent être observés lors d'une intoxication au CO sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un coma hypertonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une coloration rouge vif des téguments persistante après oxygénation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un œdème pulmonaire, pouvant survenir de manière différée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une rhabdomyolyse avec élévation des CPK.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le coma hypertonique, trismus, convulsions sont des signes de gravité extrême. Un œdème pulmonaire est rapporté dans 15 à 30% des intoxications au CO et peut survenir de manière immédiate ou différée (jusqu’au 10ème jour). La souffrance anoxique peut aboutir à une rhabdomyolyse d’intensité variable (élévation des CPK). La couleur rouge vif des téguments s’estompe rapidement sous l’effet de l’oxygénation."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de gravité d'une intoxication au CO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un taux d'HbCO supérieur ou égal à 25%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une prise en charge tardive (> 24h).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une hypothermie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome coronarien aigu.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les éléments de gravité incluent un taux d’HbCO > ou = 25%, une prise en charge tardive > 24h, un syndrome coronarien aigu, l’infarctus du myocarde, la myocardite, le coma hypertonique, la détresse respiratoire, la rhabdomyolyse. L'hyperthermie, et non l'hypothermie, est un signe de gravité."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'oxygénothérapie hyperbare (OHB) dans l'intoxication au CO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toute grossesse, quelle qu'en soit la gravité initiale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une perte de connaissance même brève.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un taux d'HbCO inférieur à 10%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La présence de troubles de la repolarisation à l'ECG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de l’OHB sont : perte de connaissance même brève, troubles de la conscience, coma, convulsions, signes neurologiques, toute grossesse quelle qu’en soit la gravité initiale, pathologie cardio-pulmonaire préexistante et/ou modification de l’ECG (trouble de la repolarisation, de la conduction). Un taux d’HbCO > 25% est discutable, mais un taux inférieur à 10% n'est pas une indication."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Concernant la physiopathologie de l'intoxication aux organophosphorés, quelles sont les affirmations exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les organophosphorés inhibent de façon irréversible les cholinestérases par phosphorylation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'inhibition des cholinestérases entraîne une accumulation d'acétylcholine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le phénomène d'« aging » rend l'enzyme non fonctionnelle et non réactivable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les organophosphorés agissent uniquement sur les récepteurs muscariniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les organophosphorés se fixent de façon covalente aux cholinestérases, les phosphorylant et s’opposant à l’hydrolyse physiologique de l’acétylcholine. Dans un deuxième temps, la phosphorylation devient irréversible par déalkylation (phénomène d’« aging »), rendant l'enzyme non fonctionnelle et non réactivable. Le résultat est l’accumulation d’acétylcholine. L'acétylcholine est le médiateur chimique au niveau des récepteurs nicotiniques et muscariniques, ainsi que du système nerveux central."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques du syndrome nicotinique lors d'une intoxication aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthénie et fasciculations musculaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bradycardie et myosis.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tachycardie et hypertension.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperglycémie et hypokaliémie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome nicotinique est secondaire à l’accumulation d’acétylcholine au niveau des espaces synaptiques nicotiniques. Il se manifeste par une atteinte des muscles striés (asthénie, paresthésies, crampes, fasciculations, parésie, paralysie) et une stimulation sympathique (tachycardie, hypertension, mydriase rare). Sur le plan biologique, on observe hyperleucocytose, hypokaliémie, hyperglycémie. Bradycardie et myosis sont des signes muscariniques."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors de l'anamnèse d'une intoxication aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les circonstances de découverte du patient et le délai écoulé depuis l'exposition.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La nature exacte du produit organophosphoré, si possible.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une lettre d'adieux, suggérant une intoxication volontaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les antécédents pathologiques et traitements en cours du patient.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un interrogatoire minutieux doit identifier les circonstances de découverte, l’heure supposée de l’ingestion ou de l’exposition, le délai écoulé, les preuves d’une ingestion/inhalation/badigeonnage/projection (emballages, odeur, lettre d'adieux), la nature exacte du produit OP, et la recherche des antécédents pathologiques, comorbidités et traitements en cours."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Concernant le dosage des cholinestérases dans le diagnostic des intoxications aux organophosphorés, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le dosage des pseudocholinestérases plasmatiques est très spécifique des OP.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le dosage des cholinestérases globulaires (ACG) est un marqueur de gravité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La régénération des pseudocholinestérases plasmatiques prend plusieurs mois.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La régénération des cholinestérases globulaires est lente, de l'ordre de 120 jours.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le dosage des cholinestérases plasmatiques est sensible mais peu spécifique. Le dosage des cholinestérases globulaires (ACG) est un outil de confirmation diagnostique et un marqueur de gravité. La régénération des cholinestérases plasmatiques se fait en quelques semaines (30 à 40 jours), tandis que celle des cholinestérases globulaires est beaucoup plus longue, de l’ordre de 90 à 120 jours."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications au lavage gastrique dans la prise en charge d'une intoxication aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ingestion de produits caustiques ou pétroliers associés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de varices œsophagiennes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un délai de plus de 2 heures après l'ingestion.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La présence de troubles de la conscience non protégés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les contre-indications au lavage gastrique sont l’association à des produits caustiques/pétroliers associés, la présence de varices œsophagiennes, et les troubles de la conscience (nécessitant une protection des voies aériennes). Un lavage gastrique tardif au-delà de 12 heures est controversé, mais le délai maximal recommandé est de 2 heures, pas une contre-indication absolue au-delà."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Concernant le méthylsulfate de pralidoxime (PAM-2) dans l'intoxication aux organophosphorés, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il agit en libérant les cholinestérases désactivées par l'organophosphoré.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est efficace même après le phénomène d'« aging » de l'enzyme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est contre-indiqué chez la femme enceinte et les enfants.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Son efficacité dépend de la nature de l'organophosphoré et du délai de prise en charge.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le méthylsulfate de pralidoxime libère les cholinestérases désactivées par l’organophosphoré. Il doit être utilisé précocement avant le vieillissement de l’enzyme (aging). Il n’est pas contre-indiqué chez les enfants et la femme enceinte. Son efficacité dépend de la nature de l’organophosphoré en cause, du délai de prise en charge et de la dose."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications neurologiques à moyen et long terme de l'intoxication aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome intermédiaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome extrapyramidal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La neuropathie tardive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des troubles du comportement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications neurologiques incluent le syndrome intermédiaire (atteinte neuromusculaire 24 à 96h après), le syndrome extrapyramidal (hypertonie, tremblement de repos), la neuropathie tardive (polyneuropathie sensitivomotrice 1 à 3 semaines après) et des troubles du comportement (baisse des performances intellectuelles)."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets secondaires des antidépresseurs tricycliques en cas d'intoxication ou de surdosage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Action anticholinergique centrale entraînant un état confusionnel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Action adrénolytique alpha entraînant une hypertension orthostatique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Effets cardiaques incluant tachycardie et arythmies.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'effets anticholinergiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets secondaires des antidépresseurs tricycliques incluent une action anticholinergique centrale (état confusionnel) et périphérique (sécheresse de la bouche), une action adrénolytique alpha (hypotension orthostatique), et des effets cardiaques (tachycardie, arythmies). L'absence d'effets anticholinergiques caractérise les IMAO, pas les tricycliques."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques du syndrome sérotoninergique aigu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "État confusionnel ou maniaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Myoclonies et hyperréflexivité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bradycardie et myosis.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypotension ou hypertension et diarrhée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome sérotoninergique se traduit par des symptômes psychiques (état confusionnel ou maniaque), moteurs (myoclonies, hypertonicité, hyperréflexivité, tremblements, incoordination) et neuro-végétatifs (hypotension ou hypertension, diarrhée). La bradycardie et le myosis ne sont pas des signes caractéristiques de ce syndrome."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cardiovasculaires les plus graves du syndrome imipraminique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles du rythme (tachycardie, torsade de pointes).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles de la conduction (BAV, bloc intraventriculaire).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles de la repolarisation à l'ECG.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les troubles cardiovasculaires sont les plus graves et incluent les troubles du rythme (tachycardie, torsade de pointes), les troubles de la conduction (Bloc auriculo ventriculaire, bloc intraventriculaire) et les troubles de la repolarisation (observés sur ECG). L'hypotension, et non l'hypertension, est un signe cardiovasculaire du syndrome imipraminique."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de gravité cliniques et paracliniques d'une intoxication aux psychotropes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une détresse respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une défaillance circulatoire avec état de choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un coma hypertonique et des convulsions.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypothermie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les éléments de gravité incluent une détresse respiratoire, une défaillance circulatoire avec état de choc, une hypertension artérielle parfois résistante, des signes ECG (tachycardie, troubles du rythme, troubles de la repolarisation, infarctus), un coma hypertonique, trismus, convulsions, une hyperthermie, sueurs et coloration « cochenille » des téguments (rare et grave), une rhabdomyolyse puis insuffisance rénale aiguë."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du test au flumazénil (Anexate®) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intoxication par les benzodiazépines ou apparentés avec coma calme, hypotonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Intoxication polymédicamenteuse avec association d'antidépresseurs tricycliques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Présence de signes cardio-vasculaires ou ECG en faveur d'une intoxication par antidépresseurs polycycliques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chez l'adulte et l'enfant de plus de 6 ans, après vérification de la normalité de l'ECG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le test au flumazénil est indiqué en situation d’urgence chez les patients suspectés d’intoxication par les benzodiazépines ou apparentés et présentant un coma calme, hypotonique, sans signe de localisation, non compliqué et après avoir vérifié la normalité de l’ECG. Il est contre-indiqué dans les intoxications polymédicamenteuses avec association d’antidépresseurs tri ou tétracycliques (risque de convulsions) ou lorsqu’il existe des signes cardio-vasculaires et/ou ECG en faveur d’une intoxication par les antidépresseurs polycycliques (risque de troubles du rythme cardiaque)."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Un patient intoxiqué au CO est sous oxygène pur normobare. Combien de temps faut-il pour que la demi-vie de l'HbCO soit réduite à 90 minutes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En air ambiant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En oxygène pur normobare.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En oxygène hyperbare à 3 atmosphères.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La demi-vie de l'HbCO est toujours de 4 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "La demi-vie de l’HbCO est de 4H en air ambiant, 90min en oxygène pur normobare et 20 à 25min en oxygène hyperbare à 3 atmosphères."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Un patient présente des signes d'intoxication aux organophosphorés. Quels sont les éléments qui conditionnent la gravité du tableau clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le terrain du patient.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La nature du produit organophosphoré.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dose ingérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le délai de prise en charge.",
+          "correct": true
+        }
+      ],
+      "explanation": "Hormis le terrain, la nature du produit, et la dose ingérée sont les deux éléments qui conditionnent la gravité du tableau clinique. Le délai de prise en charge est également un élément de gravité pour les complications immédiates."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication aux organophosphorés. Il présente un myosis serré, une hypersialorrhée et une bradycardie. Quel traitement spécifique doit être initié en priorité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de méthylsulfate de pralidoxime (PAM-2) en bolus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lavage gastrique immédiat sans protection des voies aériennes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Administration de sulfate d'atropine en IVD, à répéter si nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration de charbon activé pour limiter l'absorption.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes décrits (myosis, hypersialorrhée, bradycardie) sont des signes muscariniques. Le sulfate d'atropine est le traitement de choix et de première intention pour ces signes. Le lavage gastrique doit être pratiqué après stabilisation du malade et protection de ses voies aériennes. Le charbon activé n'est pas recommandé car son efficacité n'a pas été prouvée. Le PAM-2 est un complément à l'atropine et doit être utilisé précocement, mais l'atropine est la première intention pour les signes muscariniques."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Un patient intoxiqué aux organophosphorés développe un syndrome intermédiaire. Quelles sont ses caractéristiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il survient habituellement après rétrocession des signes d'imprégnation cholinergique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il se manifeste par une atteinte paralytique des muscles proximaux des membres et respiratoires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il réagit bien à l'atropine et aux oximes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il régresse spontanément en 4 à 18 jours.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome intermédiaire est une atteinte neuromusculaire survenant 24 à 96 heures après l’intoxication aiguë, habituellement après rétrocession des signes d’imprégnation cholinergique. Il se manifeste par des paralysies des muscles proximaux des membres, des fléchisseurs de la nuque, des muscles à innervation céphalique et des muscles respiratoires. Il ne réagit ni à l'atropine, ni aux oximes, mais régresse spontanément en 4 à 18 jours."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication aux neuroleptiques. Quels sont les signes cliniques qui orientent vers une intoxication par les phénothiazines à chaîne aliphatique (ex: chlorpromazine) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un coma calme, hypotonique et prolongé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de myosis.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypotension par effet alpha-bloquant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un coma hypertonique avec risque de troubles de conduction.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les phénothiazines à chaîne aliphatique, comme la chlorpromazine, provoquent un coma calme, hypotonique, souvent prolongé, qui s'accompagne de myosis, d’hypotension (vasoplégie par effet alpha-bloquant) et d'hypothermie. Les comas hypertoniques avec troubles de conduction sont associés aux phénothiazines pipérazinés."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Un patient est intoxiqué par des antidépresseurs polycycliques. Quels signes ECG sont caractéristiques de l'effet stabilisant de membrane (ESM) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un élargissement du QRS (>0.12s).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une déviation de l'axe à droite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un allongement du QT, premier signe à apparaître.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une bradycardie sinusale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’action directe des tricycliques à doses toxiques sur le myocarde est représentée par un effet stabilisant de membrane (ESM), qui se traduit typiquement par un élargissement du QRS (>012s), une déviation de l'axe à droite, et un allongement du QT. L'allongement de QT est le premier signe à apparaître. Une tachycardie sinusale est plus fréquente que la bradycardie."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Un patient est suspecté d'intoxication par des opiacés. Le test à la naloxone est envisagé. Quelles sont les conditions d'utilisation et les précautions à prendre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le patient doit présenter un coma calme hypotonique, myosis serré et bradypnée < 12/min.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La naloxone est contre-indiquée en cas d'intoxication à la buprénorphine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La durée d'action de la naloxone est généralement plus longue que celle des opiacés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de non-réponse à la naloxone, il faut suspecter une intoxication associée à d'autres psychotropes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le test à la naloxone est indiqué chez les patients suspects d’intoxication par les opiacés et morphinomimétiques, se présentant avec un coma calme hypotonique, avec un myosis serré et une bradypnée < 12/min. Il est contre-indiqué dans les intoxications à la buprénorphine en raison de sa trop forte affinité pour les récepteurs μ. La durée d’action de la naloxone est courte (30 min) en comparaison de celle de l’héroïne, de la morphine (4 h) ou de la méthadone (25h). En cas de non-réponse, il faut suspecter une intoxication associée ou une autre étiologie de coma."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication au lithium. Quels sont les signes de gravité qui imposent le recours à l'épuration extrarénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confusion et somnolence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tremblements et dysarthrie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Encéphalopathie et convulsions.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diabète insipide néphrogénique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les principaux symptômes sont neurologiques, associant confusion, somnolence, dysarthrie, tremblements, myoclonies, hypertonie pyramidal, encéphalopathie et convulsions qui représentent des signes de gravité et qui imposent le recours à l'épuration extrarénale. Le diabète insipide néphrogénique est une complication possible mais n'est pas cité comme une indication directe d'épuration extrarénale au même titre que les signes neurologiques sévères."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication au CO. Le bilan biologique révèle une acidose métabolique. Quelle est la signification de ce signe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un signe de gravité de l'intoxication.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cela indique une hypokaliémie associée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Cela est dû à une alcalose respiratoire compensatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cela suggère une atteinte hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les gaz du sang montrant une acidose métabolique sont un signe de gravité. L'hypokaliémie est une possibilité à l'ionogramme sanguin, mais n'est pas directement liée à l'acidose métabolique comme cause ou conséquence directe dans ce contexte. L'acidose métabolique n'est pas due à une alcalose respiratoire, et n'indique pas spécifiquement une atteinte hépatique, bien que des élévations enzymatiques hépatiques puissent être observées."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication aux organophosphorés. La surveillance biologique doit inclure le dosage des cholinestérases. Quelles sont les caractéristiques de leur régénération ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les cholinestérases plasmatiques se régénèrent en quelques semaines (30 à 40 jours).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les cholinestérases globulaires sont plus rapides à revenir à la normale que les plasmatiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Au cours des 24 premières heures, il y a déjà régénération de 10% des cholinestérases plasmatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cholinestérases globulaires nécessitent 90 à 120 jours pour revenir à leur taux normal.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cholinestérases plasmatiques se régénèrent en quelques semaines (30 à 40 jours en moyenne). Au cours des 24 premières heures, il y a déjà régénération de 10%. Les cholinestérases globulaires sont beaucoup plus longs à revenir à leur taux normal et il faut attendre 90 à 120 jours."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications cardiovasculaires possibles lors d'une intoxication aiguë aux organophosphorés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles du rythme supraventriculaires et ventriculaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Allongement du segment QT favorisant les torsades de pointes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance circulatoire gravissime multifactorielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un état hyperkinétique secondaire aux effets muscariniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications cardiovasculaires incluent des troubles du rythme supraventriculaires et ventriculaires, des torsades de pointes favorisées par un allongement du segment QT, ainsi que d'autres troubles de conduction. Une insuffisance circulatoire gravissime est possible, multifactorielle. L'état hyperkinétique est secondaire aux effets nicotiniques et au traitement par l'atropine, et non muscariniques."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication aux psychotropes. Le bilan toxicologique est envisagé. Dans quels cas l'analyse toxicologique quantitative est-elle indispensable et systématique en urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lorsqu'elle conditionne l'administration d'un antidote.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lorsqu'elle conditionne un traitement épurateur particulier (ex: hémodialyse).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour toutes les intoxications symptomatiques, à titre conservatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Lorsque le clinicien suspecte une intoxication par des antidépresseurs tétracycliques.",
+          "correct": false
+        }
+      ],
+      "explanation": "En urgence, l’analyse toxicologique quantitative est indispensable et systématique dans certaines intoxications car elle conditionne la prise en charge thérapeutique : administration d’un antidote ou d’un chélateur, traitement épurateur particulier (épuration extrarénale, doses répétées de charbon activé par voie digestive, diurèse alcaline). Pour toute intoxication symptomatique, un prélèvement sanguin à titre conservatoire est conseillé, mais l'analyse quantitative n'est pas systématique. Les antidépresseurs tétracycliques ne sont pas détectés par les méthodes immunoenzymatiques courantes, donc le dosage n'est pas systématique."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une intoxication aux benzodiazépines. Il présente un coma calme hypotonique. Quelles sont les complications possibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dépression respiratoire secondaire à une hypoventilation centrale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Obstruction des voies aériennes supérieures et pneumopathies d'inhalation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Agitation et hallucinations au réveil, notamment avec le lorazépam.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un état de choc vasoplégique réfractaire dans les cas les plus graves.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’IA aux benzodiazépines peut entraîner une dépression respiratoire secondaire à une hypoventilation centrale, une obstruction des voies aériennes supérieures expliquant la fréquence des pneumopathies d’inhalation. Une agitation, des hallucinations sont fréquentes avec le lorazépam au réveil du coma ou à la phase initiale. Dans les cas les plus graves, un coma profond et prolongé peut s'associer à un collapsus cardiovasculaire, voire un état de choc vasoplégique réfractaire."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives essentielles pour éviter les intoxications au monoxyde de carbone en milieu domestique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurer une aération suffisante de tout local où s'effectue une combustion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vérifier la qualité du combustible utilisé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Installer des détecteurs de CO dans toutes les pièces.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prévenir la fuite de gaz ou la production excessive de CO en vérifiant la ventilation du foyer de combustion.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement préventif repose sur le respect en milieu domestique des mesures préventives simples : assurer une aération suffisante à tout local où s’effectue une combustion et prévenir la fuite de gaz ou la production excessive de CO en vérifiant la qualité du combustible et la ventilation du foyer de combustion. L'installation de détecteurs de CO n'est pas mentionnée dans le texte comme une mesure préventive, bien qu'elle soit une pratique courante."
+    }
+  ]
+}

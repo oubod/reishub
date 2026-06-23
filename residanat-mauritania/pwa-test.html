@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Test - Objectif Résidanat</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#007AFF">
+    <link rel="manifest" href="manifest.json?v=3">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; text-align: center; }
+        .install-btn { background: #007AFF; color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; margin: 20px; }
+        .install-btn:hover { background: #0056b3; }
+        .status { margin: 20px 0; padding: 15px; background: #f0f0f0; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Objectif Résidanat NKTT</h1>
+    <p>Test d'installation PWA</p>
+    
+    <div class="status" id="status">
+        <h3>Statut PWA:</h3>
+        <p id="pwa-status">Vérification en cours...</p>
+    </div>
+    
+    <button class="install-btn" id="install-btn" style="display: none;">
+        Installer l'App
+    </button>
+    
+    <div id="debug-info"></div>
+    
+    <script>
+        let deferredPrompt;
+        const installBtn = document.getElementById('install-btn');
+        const statusDiv = document.getElementById('pwa-status');
+        const debugDiv = document.getElementById('debug-info');
+        
+        // Check PWA status
+        function checkPWAStatus() {
+            const isHTTPS = location.protocol === 'https:' || location.hostname === 'localhost';
+            const hasServiceWorker = 'serviceWorker' in navigator;
+            const hasManifest = document.querySelector('link[rel="manifest"]');
+            const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+            
+            let status = `HTTPS: ${isHTTPS ? '✅' : '❌'}<br>`;
+            status += `Service Worker: ${hasServiceWorker ? '✅' : '❌'}<br>`;
+            status += `Manifest: ${hasManifest ? '✅' : '❌'}<br>`;
+            status += `Standalone: ${isStandalone ? '✅' : '❌'}<br>`;
+            status += `Hostname: ${location.hostname}<br>`;
+            status += `Protocol: ${location.protocol}`;
+            
+            statusDiv.innerHTML = status;
+            
+            if (isHTTPS && hasServiceWorker && hasManifest && !isStandalone) {
+                installBtn.style.display = 'block';
+            }
+        }
+        
+        // PWA Install handlers
+        window.addEventListener('beforeinstallprompt', (e) => {
+            console.log('beforeinstallprompt fired!');
+            e.preventDefault();
+            deferredPrompt = e;
+            installBtn.style.display = 'block';
+            debugDiv.innerHTML += '<p>✅ beforeinstallprompt event received</p>';
+        });
+        
+        window.addEventListener('appinstalled', () => {
+            console.log('App installed!');
+            installBtn.style.display = 'none';
+            debugDiv.innerHTML += '<p>✅ App installed successfully</p>';
+        });
+        
+        installBtn.addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                console.log('Install outcome:', outcome);
+                debugDiv.innerHTML += `<p>Install outcome: ${outcome}</p>`;
+            } else {
+                alert('Installation manuelle requise. Vérifiez le menu du navigateur.');
+            }
+        });
+        
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js?v=3')
+                .then(registration => {
+                    console.log('SW registered:', registration);
+                    debugDiv.innerHTML += '<p>✅ Service Worker registered</p>';
+                })
+                .catch(error => {
+                    console.error('SW registration failed:', error);
+                    debugDiv.innerHTML += `<p>❌ Service Worker failed: ${error.message}</p>`;
+                });
+        }
+        
+        // Check status on load
+        checkPWAStatus();
+    </script>
+</body>
+</html>

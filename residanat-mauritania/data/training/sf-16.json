@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-16",
+  "title": "Groupe H.L.A",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles affirmations décrivent correctement le système HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est l'équivalent chez l'homme du Complexe Majeur d'Histocompatibilité (CMH).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est principalement impliqué dans la régulation de la pression artérielle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est caractérisé par un polymorphisme génétique extrême.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est au cœur de la réponse immunitaire adaptative.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est codé par des gènes situés sur le chromosome 15.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système HLA est l'équivalent humain du CMH, caractérisé par un polymorphisme génétique extrême et jouant un rôle central dans la réponse immunitaire adaptative. Les gènes HLA sont situés sur le bras court du chromosome 6, non le chromosome 15."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les gènes de classe I du système HLA mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-DR",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-A",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HLA-DQ",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "HLA-B",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "HLA-C",
+          "correct": true
+        }
+      ],
+      "explanation": "Les gènes de classe I du système HLA sont HLA-A, HLA-B et HLA-C. HLA-DR et HLA-DQ sont des gènes de classe II."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les fonctions principales des molécules HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Synthétiser des anticorps spécifiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Présenter des fragments peptidiques aux lymphocytes T.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Reconnaître et éliminer les cellules infectées ou anormales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Servir de marqueurs pour la coagulation sanguine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Discriminer le soi du non-soi.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fonction primordiale des molécules HLA est de présenter des peptides aux lymphocytes T, leur permettant de reconnaître et d'éliminer les cellules infectées ou anormales, et ainsi de discriminer le soi du non-soi."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Où sont situés les gènes HLA et comment sont-ils transmis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont situés sur le bras long du chromosome 6.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont situés sur le bras court du chromosome 6.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont transmis individuellement pour chaque allèle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont transmis en bloc depuis chaque parent sous forme d'un haplotype.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont situés sur le chromosome 15.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les gènes HLA sont situés sur le bras court du chromosome 6 et sont transmis en bloc depuis chaque parent sous forme d'un haplotype."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des molécules HLA de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont composées d'une chaîne lourde α et d'une β2-microglobuline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont exprimées sur toutes les cellules nucléées de l'organisme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles sont composées de deux chaînes, α et β, toutes deux polymorphes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur sillon est ouvert aux deux extrémités.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles lient des peptides de 8-10 acides aminés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe II sont composées de deux chaînes, α et β, toutes deux polymorphes, et leur sillon est ouvert aux deux extrémités, leur permettant de lier des peptides plus longs (13-25 acides aminés). Les autres options décrivent les molécules de classe I ou leur expression."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la présentation de l'antigène par les molécules HLA de classe I, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont exprimées uniquement sur les Cellules Présentatrices d'Antigènes (CPA) professionnelles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles présentent des peptides issus de protéines endogènes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les complexes peptide-HLA I sont reconnus par les lymphocytes T CD8+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le message transmis est 'Voici ce que j'ai trouvé dans l'environnement'.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont exprimées sur la membrane de toutes les cellules nucléées de l'organisme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I sont exprimées sur toutes les cellules nucléées, présentent des peptides endogènes et sont reconnues par les lymphocytes T CD8+. Le message 'Voici ce que j'ai trouvé dans l'environnement' est associé aux molécules de classe II."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques structurelles des molécules HLA de classe I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont composées de deux chaînes, α et β, toutes deux polymorphes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont associées à une β2-microglobuline non polymorphe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur sillon peut lier des peptides de 13-25 acides aminés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles possèdent une chaîne lourde α polymorphe.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le gène de la β2-microglobuline est codé sur le chromosome 6.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I sont composées d'une chaîne lourde α polymorphe associée à une β2-microglobuline non polymorphe. Elles lient de petits peptides (8-10 acides aminés). La β2-microglobuline est codée sur le chromosome 15, pas le 6."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le contexte de la transplantation, quelles sont les implications de la disparité HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est le principal facteur de risque de rejet de greffe.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est sans conséquence pour la survie du greffon.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'intensité de la réponse de rejet est proportionnelle au nombre de différences HLA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle ne concerne que les greffes de cellules souches hématopoïétiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est médiée par les lymphocytes B du receveur.",
+          "correct": false
+        }
+      ],
+      "explanation": "La disparité HLA est le principal facteur de risque de rejet de greffe, et l'intensité de la réponse est proportionnelle au nombre de différences HLA. Le rejet est médié par les lymphocytes T du receveur."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les gènes de classe II du système HLA mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-DR",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HLA-B",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "HLA-DQ",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "HLA-DP",
+          "correct": true
+        }
+      ],
+      "explanation": "Les gènes de classe II du système HLA sont HLA-DR, HLA-DQ et HLA-DP. HLA-A et HLA-B sont des gènes de classe I."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des peptides présentés par les molécules HLA de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont issus de protéines endogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont dégradés par le protéasome dans le cytoplasme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont issus de protéines exogènes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils ont été phagocytés ou endocytés par la CPA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont généralement de petite taille (8-10 acides aminés).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe II présentent des peptides issus de protéines exogènes qui ont été phagocytées ou endocytées par la CPA. Les peptides endogènes dégradés par le protéasome sont présentés par les molécules de classe I."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les cellules qui expriment les molécules HLA de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toutes les cellules nucléées de l'organisme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules dendritiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les macrophages.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les lymphocytes B.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les cellules musculaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe II sont exprimées uniquement sur les Cellules Présentatrices d'Antigènes (CPA) professionnelles, telles que les cellules dendritiques, les macrophages et les lymphocytes B."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle des lymphocytes T CD4+ dans la réponse immunitaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils reconnaissent les complexes peptide-HLA I.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils tuent les cellules infectées ou cancéreuses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont activés par la reconnaissance des complexes peptide-HLA II.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils orchestrent la réponse immunitaire globale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont également appelés lymphocytes T cytotoxiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lymphocytes T CD4+ (auxiliaires ou 'helpers') reconnaissent les complexes peptide-HLA II, sont activés par cette reconnaissance et orchestrent la réponse immunitaire globale. Les lymphocytes T CD8+ sont cytotoxiques et reconnaissent les complexes peptide-HLA I."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi le typage HLA est-il important en transplantation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour augmenter le risque de rejet de greffe.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour trouver la meilleure compatibilité possible entre donneur et receveur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour minimiser le risque de rejet.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour identifier les alloantigènes du receveur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour réduire le traitement immunosuppresseur nécessaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le typage HLA est réalisé pour trouver la meilleure compatibilité possible, minimiser le risque de rejet et permettre de réduire le traitement immunosuppresseur. Les alloantigènes sont ceux du donneur."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les associations fortes entre allèles HLA et maladies auto-immunes mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-B27 et polyarthrite rhumatoïde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-DR4 et/ou DR1 et spondylarthrite ankylosante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "HLA-B27 et spondylarthrite ankylosante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "HLA-DR3 et/ou DR4 et diabète de type 1.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "HLA-DQ2 et/ou DQ8 et maladie cœliaque.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les associations fortes mentionnées sont HLA-B27 avec la spondylarthrite ankylosante, HLA-DR3 et/ou DR4 avec le diabète de type 1, et HLA-DQ2 et/ou DQ8 avec la maladie cœliaque. HLA-DR4 et/ou DR1 sont associés à la polyarthrite rhumatoïde."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle des lymphocytes T CD8+ dans la réponse immunitaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils reconnaissent les complexes peptide-HLA II.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont également appelés lymphocytes T auxiliaires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils tuent les cellules infectées ou cancéreuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont activés par la reconnaissance de peptides anormaux présentés par les molécules de classe I.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils orchestrent la réponse immunitaire globale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lymphocytes T CD8+ (cytotoxiques) reconnaissent les complexes peptide-HLA I et tuent les cellules infectées ou cancéreuses si le peptide présenté est anormal. Ils ne reconnaissent pas les complexes peptide-HLA II et n'orchestre pas la réponse globale."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du polymorphisme génétique du système HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est faible, avec peu d'allèles différents.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est extrême, avec des milliers d'allèles différents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il contribue à la 'carte d'identité' immunologique de chaque individu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il explique son rôle crucial en transplantation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est sans lien avec la susceptibilité aux maladies auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système HLA est caractérisé par un polymorphisme génétique extrême (des milliers d'allèles), ce qui constitue une 'carte d'identité' immunologique et explique son rôle crucial en transplantation et son implication dans la susceptibilité aux maladies auto-immunes."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les locus HLA pour lesquels la compatibilité est surtout recherchée dans le cas d'une greffe d'organes solides (rein, cœur) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-DQ",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-A",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HLA-B",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "HLA-DR",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "HLA-DP",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les greffes d'organes solides, la compatibilité est surtout recherchée pour les locus HLA-A, HLA-B et HLA-DR."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'hypothèse principale expliquant l'association entre certains allèles HLA et les maladies auto-immunes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ces allèles causent directement la maladie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ces allèles sont plus aptes à présenter des auto-antigènes aux lymphocytes auto-réactifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ces allèles sont moins efficaces pour présenter des antigènes d'un pathogène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ces allèles favorisent la persistance d'une infection qui pourrait déclencher une auto-immunité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ces allèles protègent contre les maladies auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypothèse principale est que ces allèles particuliers sont plus aptes à présenter des auto-antigènes aux lymphocytes auto-réactifs, ou sont moins efficaces pour présenter des antigènes d'un pathogène, favorisant la persistance d'une infection qui pourrait déclencher une auto-immunité. La possession de ces allèles prédispose à la maladie, mais ne la cause pas directement."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des peptides liés par les molécules HLA de classe I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont généralement longs (13-25 acides aminés).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont issus de protéines exogènes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont de petits peptides (8-10 acides aminés).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont issus de protéines endogènes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont dégradés par le protéasome dans le cytoplasme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I lient de petits peptides (8-10 acides aminés) issus de protéines endogènes (du soi ou virales) dégradées par le protéasome dans le cytoplasme."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés à retenir concernant le système HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il code pour des protéines de surface présentant des peptides antigéniques aux lymphocytes B.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les molécules HLA de classe I présentent des peptides endogènes aux lymphocytes T CD8+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les molécules HLA de classe II présentent des peptides exogènes aux lymphocytes T CD4+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son polymorphisme en fait la principale barrière immunologique en transplantation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il n'existe aucune association entre les allèles HLA et la susceptibilité aux maladies auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système HLA code pour des protéines présentant des peptides antigéniques aux lymphocytes T. Les molécules de classe I présentent des peptides endogènes aux LT CD8+, et les molécules de classe II présentent des peptides exogènes aux LT CD4+. Son polymorphisme est la principale barrière en transplantation, et il existe de fortes associations avec les maladies auto-immunes."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le contexte de la greffe de cellules souches hématopoïétiques, quelles sont les exigences de compatibilité et les risques spécifiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une compatibilité parfaite ou quasi-parfaite est exigée pour les locus de classe I et II.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le risque de rejet du greffon par le receveur est inexistant.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il existe un risque de GvHD (Graft-versus-Host Disease).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le donneur idéal est un jumeau identique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compatibilité est surtout recherchée pour les locus HLA-A, HLA-B et HLA-DR uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les greffes de cellules souches hématopoïétiques, une compatibilité parfaite ou quasi-parfaite est exigée pour les locus de classe I et II. Il existe un risque de rejet du greffon et un risque de GvHD. Le donneur idéal est un jumeau identique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des molécules HLA de classe II concernant la liaison des peptides ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles lient de petits peptides (8-10 acides aminés).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Leur sillon est ouvert aux deux extrémités.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles lient des peptides plus longs (13-25 acides aminés).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur sillon est fermé aux deux extrémités.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles lient uniquement des peptides viraux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe II ont un sillon ouvert aux deux extrémités, leur permettant de lier des peptides plus longs (13-25 acides aminés). Les molécules de classe I lient de petits peptides (8-10 acides aminés)."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce qu'un haplotype HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une combinaison aléatoire d'allèles HLA sur des chromosomes différents.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une combinaison des allèles HLA présents sur un même chromosome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un ensemble de gènes HLA non polymorphes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La séquence d'acides aminés d'un peptide antigénique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un bloc de gènes transmis en héritage depuis chaque parent.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un haplotype HLA est une combinaison des allèles présents sur un même chromosome, transmis en bloc depuis chaque parent."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles physiologiques fondamentaux du système HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La régulation de la glycémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La présentation de l'antigène aux lymphocytes T.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La reconnaissance immunitaire spécifique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La surveillance immunitaire des cellules infectées ou cancéreuses.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La production d'hormones.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les rôles physiologiques fondamentaux du système HLA incluent la présentation de l'antigène aux lymphocytes T, la reconnaissance immunitaire spécifique et la surveillance immunitaire des cellules infectées ou cancéreuses."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des molécules HLA en tant que glycoprotéines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont des protéines intracellulaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont des glycoprotéines de surface cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur fonction est de présenter des fragments peptidiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont uniquement présentes dans le cytoplasme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont impliquées dans la reconnaissance des antigènes par les lymphocytes T.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules HLA sont des glycoprotéines de surface cellulaire dont la fonction est de présenter des fragments peptidiques (antigènes) aux lymphocytes T, leur permettant ainsi de reconnaître les antigènes."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une spondylarthrite ankylosante. Quelles affirmations concernant le rôle de l'allèle HLA-B27 dans cette pathologie sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence de HLA-B27 est un facteur de risque génétique, mais ne cause pas directement la maladie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plus de 90% des patients atteints de spondylarthrite ankylosante sont porteurs de l'allèle HLA-B27.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le risque relatif de développer la maladie en présence de HLA-B27 est d'environ 8%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La recherche de HLA-B27 est un test de dépistage recommandé en population générale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'allèle HLA-B27 pourrait être plus apte à présenter des auto-antigènes aux lymphocytes auto-réactifs.",
+          "correct": true
+        }
+      ],
+      "explanation": "La possession de HLA-B27 est un facteur de risque génétique (prédispose, ne cause pas), et plus de 90% des patients atteints de spondylarthrite ankylosante sont porteurs de cet allèle. Le risque relatif est d'environ 90. La recherche de HLA-B27 est un outil diagnostique dans un contexte clinique évocateur, mais pas un test de dépistage en population générale. L'hypothèse est que ces allèles sont plus aptes à présenter des auto-antigènes."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors d'une greffe d'organes solides, une bonne compatibilité HLA est recherchée. Quelles en sont les conséquences bénéfiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle augmente la survie du greffon.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle permet de réduire le traitement immunosuppresseur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle élimine complètement le risque de rejet.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est surtout recherchée pour les locus HLA-DQ et HLA-DP.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle diminue l'intensité de la réponse immunitaire du receveur.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une bonne compatibilité HLA améliore la survie du greffon, permet de réduire le traitement immunosuppresseur et diminue l'intensité de la réponse immunitaire du receveur. Elle ne supprime pas complètement le risque de rejet. Les locus principalement recherchés sont HLA-A, HLA-B et HLA-DR."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est diagnostiqué avec une maladie cœliaque. Quels allèles HLA sont fortement associés à cette pathologie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-B27",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-DR4",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "HLA-DQ2",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "HLA-DR1",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "HLA-DQ8",
+          "correct": true
+        }
+      ],
+      "explanation": "La quasi-totalité des patients atteints de maladie cœliaque sont porteurs de l'allèle HLA-DQ2 et/ou HLA-DQ8. HLA-B27 est associé à la spondylarthrite ankylosante, et HLA-DR4/DR1 à la polyarthrite rhumatoïde."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences clés entre la présentation antigénique par les molécules de classe I et de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les molécules de classe I présentent des peptides exogènes, tandis que celles de classe II présentent des peptides endogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les molécules de classe I sont exprimées sur toutes les cellules nucléées, celles de classe II sur les CPA professionnelles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les molécules de classe I ciblent les lymphocytes T CD8+, celles de classe II les lymphocytes T CD4+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les peptides liés par les molécules de classe I sont plus longs que ceux liés par les molécules de classe II.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les molécules de classe I sont associées à la surveillance du contenu cellulaire, celles de classe II à l'orchestration de la réponse immunitaire globale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules de classe I présentent des peptides endogènes et sont exprimées sur toutes les cellules nucléées, ciblant les LT CD8+ pour la surveillance cellulaire. Les molécules de classe II présentent des peptides exogènes, sont exprimées sur les CPA, ciblent les LT CD4+ pour orchestrer la réponse immunitaire. Les peptides de classe I sont plus courts (8-10 AA) que ceux de classe II (13-25 AA)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est atteint de polyarthrite rhumatoïde. Quels allèles HLA sont associés à cette maladie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-B27",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-DR4",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HLA-DQ2",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "HLA-DR1",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "HLA-DR3",
+          "correct": false
+        }
+      ],
+      "explanation": "La polyarthrite rhumatoïde est associée aux allèles HLA-DR4 et/ou DR1. HLA-B27 est lié à la spondylarthrite ankylosante, HLA-DQ2 à la maladie cœliaque, et HLA-DR3 au diabète de type 1."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels les lymphocytes T du receveur reconnaissent les molécules HLA du donneur lors d'un rejet de greffe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les lymphocytes B du receveur produisent des anticorps anti-HLA.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les lymphocytes T du receveur reconnaissent les molécules HLA du donneur comme du 'non-soi'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les molécules HLA du donneur sont appelées alloantigènes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le rejet est médié par les lymphocytes T du receveur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les lymphocytes T CD4+ du receveur reconnaissent les peptides endogènes du donneur.",
+          "correct": false
+        }
+      ],
+      "explanation": "En transplantation, les molécules HLA du donneur (appelées alloantigènes) sont reconnues comme du 'non-soi' par le système immunitaire du receveur, déclenchant une réponse de rejet médiée par les lymphocytes T du receveur."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est diagnostiqué avec un diabète de type 1. Quels allèles HLA sont associés à cette pathologie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HLA-B27",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HLA-DR4",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HLA-DQ2",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "HLA-DR3",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "HLA-DP",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète de type 1 est associé aux allèles HLA-DR3 et/ou DR4. HLA-B27 est lié à la spondylarthrite ankylosante, et HLA-DQ2 à la maladie cœliaque."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications du typage HLA pour la greffe de cellules souches hématopoïétiques par rapport à la greffe d'organes solides ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La compatibilité est moins stricte pour les cellules souches hématopoïétiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une compatibilité parfaite ou quasi-parfaite est exigée pour les locus de classe I et II pour les cellules souches.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le risque de GvHD est spécifique aux greffes de cellules souches hématopoïétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le donneur idéal pour les cellules souches est un jumeau identique ou un frère/sœur HLA-identique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour les organes solides, seuls les locus HLA-DR sont importants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les greffes de cellules souches hématopoïétiques, une compatibilité parfaite ou quasi-parfaite est exigée pour les locus de classe I et II, et il existe un risque de GvHD. Le donneur idéal est un jumeau identique ou un frère/sœur HLA-identique. Pour les organes solides, la compatibilité est recherchée pour HLA-A, HLA-B et HLA-DR, et la compatibilité est moins stricte."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un médecin envisage de demander un test HLA-B27 pour un patient. Dans quelles situations cliniques ce test est-il pertinent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Comme test de dépistage systématique en population générale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans un contexte clinique évocateur de spondylarthrite ankylosante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour confirmer un diagnostic de polyarthrite rhumatoïde.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Comme outil diagnostique pour une maladie auto-immune spécifique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour évaluer le risque de rejet de greffe rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche d'un allèle HLA (comme le B27) peut être un outil diagnostique dans un contexte clinique évocateur (ex: spondylarthrite ankylosante), mais ne constitue pas un test de dépistage en population générale. Il n'est pas mentionné pour la polyarthrite rhumatoïde ou le rejet de greffe rénale."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des molécules HLA de classe I concernant leur structure et la liaison des peptides ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont composées de deux chaînes α et β polymorphes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont associées à une β2-microglobuline codée sur le chromosome 15.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles possèdent une chaîne lourde α polymorphe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur sillon est ouvert aux deux extrémités.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles lient des peptides de 8 à 10 acides aminés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I sont composées d'une chaîne lourde α polymorphe associée à une β2-microglobuline non polymorphe (codée sur le chromosome 15). Elles possèdent une 'niche' ou sillon pouvant lier de petits peptides (8-10 acides aminés). Le sillon ouvert et les deux chaînes polymorphes sont des caractéristiques de la classe II."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment le système HLA contribue-t-il à la diversité immunologique de chaque individu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par la transmission aléatoire de gènes HLA non polymorphes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par un polymorphisme génétique extrême, avec des milliers d'allèles différents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chaque individu possède une combinaison quasi unique d'allèles HLA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En étant codé sur le chromosome 15, qui est très variable.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En constituant une véritable 'carte d'identité' immunologique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le système HLA est caractérisé par un polymorphisme génétique extrême (milliers d'allèles), chaque individu possédant une combinaison quasi unique d'allèles HLA, ce qui constitue une véritable 'carte d'identité' immunologique. Les gènes HLA sont sur le chromosome 6."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une disparité HLA importante entre donneur et receveur en transplantation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution du risque de rejet.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une puissante réponse de rejet déclenchée par le système immunitaire du receveur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une intensité de la réponse proportionnelle au nombre de différences HLA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une meilleure survie du greffon.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La reconnaissance des molécules HLA du donneur comme du 'non-soi'.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une disparité HLA importante déclenche une puissante réponse de rejet, dont l'intensité est proportionnelle au nombre de différences HLA, car les molécules HLA du donneur sont reconnues comme du 'non-soi'. Cela diminue la survie du greffon et augmente le risque de rejet."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de la surveillance immunitaire assurée par les molécules HLA de classe I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles présentent des peptides issus de protéines exogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles présentent des peptides issus de protéines virales synthétisées à l'intérieur de la cellule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles présentent des peptides issus de protéines du 'soi'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les lymphocytes T CD8+ tuent la cellule infectée ou cancéreuse si le peptide est anormal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles activent les lymphocytes B pour produire des anticorps.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I présentent des peptides issus de protéines endogènes (du 'soi' ou virales). Si le peptide est anormal (viral, tumoral), le LT CD8+ tue la cellule infectée ou cancéreuse, assurant la surveillance immunitaire."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications du message 'Voici ce que j'ai trouvé dans l'environnement' transmis par les molécules HLA de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est reconnu par les lymphocytes T CD8+.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il active les lymphocytes T CD4+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il conduit à la destruction directe de la cellule présentatrice d'antigène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il orchestre la réponse immunitaire globale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il implique la présentation de peptides issus de bactéries ou débris cellulaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le message 'Voici ce que j'ai trouvé dans l'environnement' est transmis par les molécules HLA de classe II, qui présentent des peptides issus de protéines exogènes (bactéries, débris cellulaires). La reconnaissance par le LT CD4+ active ce dernier, qui va alors orchestrer la réponse immunitaire globale."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques génétiques des gènes HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont situés sur le bras long du chromosome 6.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont extrêmement polymorphes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont transmis en bloc sous forme d'un haplotype.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il existe seulement quelques dizaines d'allèles différents.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont codés sur le chromosome 15.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les gènes HLA sont situés sur le bras court du chromosome 6. Ils sont extrêmement polymorphes (milliers d'allèles) et sont transmis en bloc sous forme d'un haplotype. La β2-microglobuline est codée sur le chromosome 15, pas les gènes HLA eux-mêmes."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une maladie auto-immune. Quelles sont les hypothèses physiopathologiques concernant le rôle des allèles HLA dans la prédisposition à ces maladies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les allèles HLA causent directement la maladie en produisant des toxines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Certains allèles HLA sont plus aptes à présenter des auto-antigènes aux lymphocytes auto-réactifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Certains allèles HLA sont moins efficaces pour présenter des antigènes d'un pathogène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La persistance d'une infection, favorisée par certains allèles HLA, pourrait déclencher une auto-immunité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les allèles HLA protègent systématiquement contre les maladies auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La possession de certains allèles HLA prédispose à la maladie, mais ne la cause pas. L'hypothèse est que ces allèles sont plus aptes à présenter des auto-antigènes aux lymphocytes auto-réactifs, ou sont moins efficaces pour présenter des antigènes d'un pathogène, favorisant la persistance d'une infection qui pourrait déclencher une auto-immunité."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications du polymorphisme génétique extrême du système HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chaque individu possède une combinaison quasi unique d'allèles HLA.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il rend le système HLA moins efficace dans la reconnaissance antigénique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il constitue une véritable 'carte d'identité' immunologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est la principale barrière immunologique en transplantation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est sans lien avec la susceptibilité aux maladies auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le polymorphisme génétique extrême du système HLA signifie que chaque individu possède une combinaison quasi unique d'allèles, constituant une 'carte d'identité' immunologique. Cette diversité explique son rôle crucial en transplantation (principale barrière immunologique) et son implication dans la susceptibilité à de nombreuses maladies auto-immunes."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des lymphocytes T CD4+ et CD8+ dans la réponse immunitaire adaptative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les LT CD4+ reconnaissent les peptides endogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les LT CD8+ reconnaissent les peptides exogènes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les LT CD4+ (auxiliaires) orchestrent la réponse immunitaire globale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les LT CD8+ (cytotoxiques) tuent les cellules infectées ou cancéreuses.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les deux types de lymphocytes T reconnaissent les complexes peptide-HLA I.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les LT CD4+ (auxiliaires) reconnaissent les complexes peptide-HLA II (peptides exogènes) et orchestrent la réponse immunitaire globale. Les LT CD8+ (cytotoxiques) reconnaissent les complexes peptide-HLA I (peptides endogènes) et tuent les cellules infectées ou cancéreuses."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences de structure entre les molécules HLA de classe I et de classe II concernant leurs chaînes et leur sillon de liaison ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les molécules de classe I ont deux chaînes polymorphes (α et β).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les molécules de classe II ont une chaîne lourde α polymorphe et une β2-microglobuline non polymorphe.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le sillon des molécules de classe I est ouvert aux deux extrémités.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le sillon des molécules de classe II est ouvert aux deux extrémités, permettant de lier des peptides plus longs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les molécules de classe I ont une chaîne lourde α polymorphe et une β2-microglobuline non polymorphe.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules de classe I sont composées d'une chaîne lourde α polymorphe associée à une β2-microglobuline non polymorphe, avec un sillon liant de petits peptides (8-10 AA). Les molécules de classe II sont composées de deux chaînes, α et β, toutes deux polymorphes, et leur sillon est ouvert aux deux extrémités, leur permettant de lier des peptides plus longs (13-25 AA)."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une GvHD (Graft-versus-Host Disease) dans le cadre d'une greffe de cellules souches hématopoïétiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les lymphocytes T du greffon attaquent les tissus du receveur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le receveur rejette le greffon.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est un risque spécifique aux greffes d'organes solides.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est minimisée par une compatibilité parfaite ou quasi-parfaite des locus de classe I et II.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est une complication où les lymphocytes du receveur attaquent le greffon.",
+          "correct": false
+        }
+      ],
+      "explanation": "La GvHD est un risque spécifique aux greffes de cellules souches hématopoïétiques, où les lymphocytes T du greffon attaquent les tissus du receveur. Elle est minimisée par une compatibilité parfaite ou quasi-parfaite des locus de classe I et II. Le rejet du greffon par le receveur est un autre risque distinct."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des peptides présentés par les molécules HLA de classe I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont issus de protéines exogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont dégradés par le protéasome dans le cytoplasme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont de petits peptides (8-10 acides aminés).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont issus de protéines du 'soi'.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont issus de protéines virales synthétisées à l'intérieur de la cellule.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I présentent de petits peptides (8-10 acides aminés) issus de protéines endogènes (protéines du 'soi' ou protéines virales synthétisées à l'intérieur de la cellule), qui sont dégradées par le protéasome dans le cytoplasme."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des peptides présentés par les molécules HLA de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont issus de protéines endogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont dégradés par le protéasome.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont des peptides plus longs (13-25 acides aminés).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont issus de protéines exogènes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils ont été phagocytés ou endocytés par la CPA.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les molécules HLA de classe II présentent des peptides plus longs (13-25 acides aminés) issus de protéines exogènes qui ont été phagocytées ou endocytées par la CPA. Les peptides endogènes dégradés par le protéasome sont présentés par les molécules de classe I."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications du système HLA dans la susceptibilité aux maladies auto-immunes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La possession de certains allèles HLA cause directement la maladie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il s'agit d'un facteur de risque génétique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Certains allèles HLA peuvent favoriser la persistance d'une infection déclenchant l'auto-immunité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Certains allèles HLA sont plus aptes à présenter des auto-antigènes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le système HLA protège toujours contre les maladies auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La possession de certains allèles HLA ne cause pas la maladie, mais y prédispose, agissant comme un facteur de risque génétique. L'hypothèse est que ces allèles sont plus aptes à présenter des auto-antigènes ou sont moins efficaces pour présenter des antigènes d'un pathogène, favorisant la persistance d'une infection qui pourrait déclencher une auto-immunité."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui soulignent l'importance du système HLA dans la réponse immunitaire adaptative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est le principal déterminant du rejet de greffe.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sa fonction est de présenter des fragments peptidiques aux lymphocytes B.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il permet aux lymphocytes T de reconnaître et d'éliminer les cellules infectées ou anormales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est caractérisé par un polymorphisme génétique extrême.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est au cœur de la discrimination du soi et du non-soi.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le système HLA est le principal déterminant du rejet de greffe, permet aux lymphocytes T de reconnaître et d'éliminer les cellules infectées ou anormales, est caractérisé par un polymorphisme génétique extrême, et est au cœur de la discrimination du soi et du non-soi. Sa fonction est de présenter des fragments peptidiques aux lymphocytes T, non B."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales différences d'expression cellulaire entre les molécules HLA de classe I et de classe II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les molécules de classe I sont exprimées uniquement sur les cellules présentatrices d'antigènes (CPA).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les molécules de classe II sont exprimées sur toutes les cellules nucléées de l'organisme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les molécules de classe I sont exprimées sur la membrane de toutes les cellules nucléées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les molécules de classe II sont exprimées uniquement sur les CPA professionnelles (cellules dendritiques, macrophages, lymphocytes B).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les deux classes de molécules sont exprimées de manière ubiquitaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les molécules HLA de classe I sont exprimées sur la membrane de toutes les cellules nucléées de l'organisme. Les molécules HLA de classe II sont exprimées uniquement sur les Cellules Présentatrices d'Antigènes (CPA) professionnelles (cellules dendritiques, macrophages, lymphocytes B)."
+    }
+  ]
+}

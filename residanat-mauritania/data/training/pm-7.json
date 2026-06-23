@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-7",
+  "title": "HTA : diagnostic, bilan, complications",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la prévalence de l'hypertension artérielle (HTA) chez les adultes de plus de 18 ans en France ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 10%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 20%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 30%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Environ 50%",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HTA touche environ 30% des personnes de plus de 18 ans en France."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les facteurs de risque cardiovasculaire (FdRCV) suivants, lesquels sont directement liés à l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque d'AVC",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Risque d'insuffisance cardiaque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque d'insuffisance coronaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque d'artériopathie oblitérante des membres inférieurs (AOMI)",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HTA est le FdRCV le plus grave, augmentant le risque d'AVC (x7), d'insuffisance cardiaque (x4), d'insuffisance coronaire (x3) et d'AOMI (x2)."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel système régulateur de la pression artérielle agit à court terme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système rénine-angiotensine-aldostérone (SRAA)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les peptides natriurétiques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le système nerveux sympathique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La natriurèse de pression",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système nerveux sympathique, via les baroréflexes et les centres vasopresseurs, est un régulateur de la PA à court terme."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des céphalées pouvant être associées à l'HTA non compliquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont généralement frontales et pulsatiles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont souvent occipitales et matinales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles s'aggravent généralement au lever.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont un signe de gravité et de retentissement viscéral.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les céphalées associées à l'HTA non compliquée sont souvent occipitales, matinales, légèrement battantes et cédant au lever ou au cours de la matinée. Elles ne sont pas un signe de gravité si modérées."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon les mesures au cabinet, quels seuils définissent une HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PAS ≥ 120 mmHg et/ou PAD ≥ 80 mmHg",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PAS ≥ 130 mmHg et/ou PAD ≥ 85 mmHg",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "PAS ≥ 140 mmHg et/ou PAD ≥ 90 mmHg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAS ≥ 150 mmHg et/ou PAD ≥ 95 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HTA est définie par une PAS ≥ 140 mmHg et/ou une PAD ≥ 90 mmHg mesurée au cabinet."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Lors de la mesure de la tension artérielle au cabinet, quelles sont les recommandations à suivre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le sujet doit avoir consommé du café dans l'heure précédant la mesure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La mesure doit être effectuée une seule fois pour confirmer le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le brassard doit être adapté à la morphologie du bras.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise de tension doit être effectuée aux deux bras, en retenant la valeur la plus basse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le brassard doit être adapté à la morphologie, le sujet doit être au repos, sans prise de café ou d'alcool dans l'heure, et la prise doit être effectuée aux deux bras en retenant la valeur la plus haute."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Comment est définie une Pression Artérielle (PA) normale haute selon les stades de l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PAS < 120 mmHg et PAD < 80 mmHg",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PAS entre 120-130 mmHg et/ou PAD entre 80-85 mmHg",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "PAS entre 130-140 mmHg et/ou PAD entre 85-90 mmHg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAS ≤ 160 mmHg et/ou PAD < 100 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "La PA normale haute est définie par une PAS entre 130-140 mmHg et/ou une PAD entre 85-90 mmHg."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de PAS à partir duquel une HTA est diagnostiquée chez un sujet de plus de 80 ans ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PAS ≥ 130 mmHg",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PAS ≥ 140 mmHg",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "PAS ≥ 150 mmHg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAS ≥ 160 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le sujet de plus de 80 ans, le seuil de PAS pour le diagnostic d'HTA est ≥ 150 mmHg."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs tensionnels généraux du traitement de l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PAS = 120 à 130 mmHg et PAD < 80 mmHg",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PAS = 130 à 140 mmHg et PAD < 90 mmHg",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PAS = 140 à 150 mmHg et PAD < 90 mmHg",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "PAS < 120 mmHg et PAD < 70 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "L'objectif général est une PAS de 130 à 140 mmHg et une PAD < 90 mmHg (ou 135/85 en auto-mesure)."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les complications neuro-sensorielles de l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance cardiaque systolique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "AVC ischémique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rétinopathie hypertensive",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sténose athéromateuse de l'artère rénale",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications neuro-sensorielles incluent l'AVC ischémique, l'hémorragie cérébrale, l'encéphalopathie hypertensive, les lacunes cérébrales et la rétinopathie hypertensive."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques pouvant évoquer une HTA secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Triade de Ménard (céphalées, sueurs, palpitations)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Faiblesse musculaire et tétanie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Palpation rénale anormale (polykystose, hydronéphrose)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Cushing",
+          "correct": true
+        }
+      ],
+      "explanation": "La triade de Ménard évoque un phéochromocytome, la faiblesse musculaire et tétanie un hyperaldostéronisme primaire, une palpation rénale anormale une polykystose ou hydronéphrose, et le syndrome de Cushing est une cause endocrinienne d'HTA secondaire."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les examens du bilan OMS systématiquement recommandés lors du diagnostic d'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glycémie à jeun",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan lipidique (EAL)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Kaliémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Échographie trans-thoracique (ETT)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan OMS inclut la glycémie à jeun, le bilan lipidique (EAL), la kaliémie, la créatininémie, la BU et l'ECG de repos. L'ETT est indiquée selon le contexte."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les Recommandations Hygiéno-Diététiques (RHD) essentielles pour les patients hypertendus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consommation illimitée de sel",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réduction pondérale en cas de surcharge",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Limitation de la consommation d'alcool",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exercice physique intense et ponctuel",
+          "correct": false
+        }
+      ],
+      "explanation": "Les RHD incluent la réduction pondérale, la normalisation de la consommation sodée (< 6 g/jour), la limitation de l'alcool (3 verres/j homme, 2 verres/j femme) et l'exercice physique régulier en endurance."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales classes thérapeutiques antihypertensives dont l'efficacité est démontrée sur la réduction de la mortalité et morbidité cardiovasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diurétiques thiazidiques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bêta-bloquants",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhibiteurs de l'enzyme de conversion (IEC)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Alpha1-bloquants",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diurétiques thiazidiques, bêta-bloquants, IEC, ARA2 et inhibiteurs calciques sont les principales classes dont l'efficacité est démontrée. Les alpha1-bloquants sont des traitements d'appoint."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les contre-indications absolues des IEC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Goutte",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asthme",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Grossesse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Angioedème bradykinique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les contre-indications absolues des IEC sont la grossesse, l'angioedème bradykinique, l'hyperkaliémie et la sténose bilatérale des artères rénales. La goutte est une CI des diurétiques thiazidiques et l'asthme des bêta-bloquants."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Une élévation de la PAS de 20 mmHg ou de la PAD de 10 mmHg a quel impact sur le risque cardiovasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le risque cardiovasculaire diminue de moitié.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le risque cardiovasculaire reste inchangé.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le risque cardiovasculaire double.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque d'AVC diminue d'un tiers.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque cardiovasculaire double pour une élévation de PAS de 20 mmHg ou de la PAD de 10 mmHg."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels systèmes régulateurs de la pression artérielle agissent à moyen terme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système nerveux sympathique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le système rénine-angiotensine-aldostérone (SRAA)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les peptides natriurétiques (ANP et BNP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le système arginine-vasopressine",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SRAA et les peptides natriurétiques (ANP et BNP) sont des régulateurs de la PA à moyen terme. Le système nerveux sympathique agit à court terme et le système arginine-vasopressine à long terme."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quel cas est-il recommandé de débuter un traitement antihypertenseur d'emblée sans confirmation par MAPA ou auto-mesure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de PA normale haute",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'HTA légère (grade 1)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas d'HTA sévère (≥ 180/110 mmHg)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de suspicion d'HTA blouse blanche",
+          "correct": false
+        }
+      ],
+      "explanation": "Sauf en cas d'HTA sévère ≥ 180/110 mmHg, il est recommandé de débuter le traitement antihypertenseur sous contrôle rapproché."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères diagnostiques de l'HTA par Mesure Ambulatoire de la Pression Artérielle (MAPA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moyenne des 24h ≥ 130/80 mmHg",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Moyenne à l'éveil ≥ 135/85 mmHg",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Moyenne au sommeil ≥ 120/70 mmHg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Moyenne des 24h ≥ 140/90 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HTA est diagnostiquée par MAPA si la moyenne des 24h est ≥ 130/80 mmHg, ou à l'éveil ≥ 135/85 mmHg, ou au sommeil ≥ 120/70 mmHg."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications cardiovasculaires de l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance cardiaque systolique ou diastolique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cardiopathie ischémique (SCA, angor, IDM)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fibrillation atriale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Encéphalopathie hypertensive",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications cardiovasculaires incluent l'insuffisance cardiaque systolique ou diastolique, la cardiopathie ischémique, la fibrillation atriale et les troubles du rythme ventriculaire. L'encéphalopathie hypertensive est une complication neuro-sensorielle."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque cardiovasculaire (FdRCV) à rechercher lors du bilan d'une HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge > 50 ans chez l'homme ou > 60 ans chez la femme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tabagisme actif ou sevré < 3 ans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diabète de type 2",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédents familiaux d'accident cardiovasculaire précoce",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces éléments sont des FdRCV à rechercher : âge, tabagisme, diabète, dyslipidémie et antécédents familiaux d'accident cardiovasculaire précoce."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'atteinte d'organe cible (AOC) rénale de l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hausse discrète de créatininémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale modérée avec clairance > 60 mL/min",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Microalbuminurie (30 à 300 mg/24h)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Protéinurie > 500 mg/j",
+          "correct": false
+        }
+      ],
+      "explanation": "La hausse discrète de créatininémie, l'insuffisance rénale modérée avec clairance > 60 mL/min et la microalbuminurie (30 à 300 mg/24h) sont des AOC rénales. Une protéinurie > 500 mg/j est considérée comme une maladie rénale associée."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le cadre de la stratification du risque cardiovasculaire global, quelles situations confèrent d'emblée un risque 'Très fort' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA grade 1 sans aucun FdRCV",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HTA grade 2 avec 1 ou 2 FdRCV",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "HTA grade 3 quel que soit le nombre de FdRCV",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'une atteinte cardiaque, cérébrale, vasculaire, rénale et/ou oculaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Une HTA grade 3 confère toujours un risque très fort. De même, la présence d'une atteinte cardiaque, cérébrale, vasculaire, rénale et/ou oculaire classe le patient en risque très fort, quelle que soit la PA."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications privilégiées des IEC/ARA2 dans le traitement de l'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sujet âgé avec HTA systolique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protéinurie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance cardiaque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diabète",
+          "correct": true
+        }
+      ],
+      "explanation": "Les IEC/ARA2 sont privilégiés en cas de protéinurie, insuffisance rénale, post-infarctus, insuffisance cardiaque, HVG, athérome, syndrome métabolique et diabète. Chez le sujet âgé avec HTA systolique, les diurétiques et inhibiteurs calciques sont préférés."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications absolues des bêta-bloquants ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bloc auriculo-ventriculaire (BAV) de grade 2 ou 3",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Artériopathie oblitérante des membres inférieurs (AOMI)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Syndrome métabolique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthme et le BAV 2/3 sont des contre-indications absolues des bêta-bloquants. L'AOMI et le syndrome métabolique sont des contre-indications relatives."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles associations de médicaments antihypertenseurs sont déconseillées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diurétique + IEC/ARA2",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "IEC + ARA2",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bêta-bloquant + IEC/ARA2",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bêta-bloquant + inhibiteur calcique bradycardisant",
+          "correct": true
+        }
+      ],
+      "explanation": "Les associations déconseillées sont IEC + ARA2, bêta-bloquant + IEC/ARA2, et bêta-bloquant + inhibiteur calcique bradycardisant. L'association diurétique + IEC/ARA2 est synergique."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'HTA chez le sujet âgé de plus de 80 ans ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA plus fréquemment systolique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la pression pulsée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque élevé d'hypotension orthostatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Objectif de PAS < 130 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le sujet âgé, l'HTA est plus fréquemment systolique, avec augmentation de la pression pulsée et un risque élevé d'hypotension orthostatique. L'objectif de PAS est < 150 mmHg sans hypotension orthostatique."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes évocateurs d'une HTA réno-vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA d'évolution rapide, mal contrôlée chez la femme jeune",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypokaliémie avec hyperaldostéronisme secondaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Souffle lombaire au niveau du flanc",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rein hypotrophique inexpliqué",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes sont évocateurs d'une HTA réno-vasculaire : HTA rapide/mal contrôlée (surtout femme jeune), hypokaliémie avec hyperaldostéronisme secondaire, souffle lombaire, OAP flash, rein hypotrophique inexpliqué, IRA sous IEC/ARA2, contexte athéromateux."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hyperaldostéronisme primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénome surrénalien de Conn",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperplasie bilatérale des surrénales",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeur sécrétante de rénine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Carcinome ovarien ou surrénalien",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes d'hyperaldostéronisme primaire sont l'adénome surrénalien de Conn, l'hyperplasie bilatérale des surrénales, l'hyperaldostéronisme familial et le carcinome (ovarien ou surrénalien). Une tumeur sécrétante de rénine est une cause d'hyperaldostéronisme secondaire."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques de l'hyperaldostéronisme primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperkaliémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypokaliémie sévère à kaliurèse conservée avec alcalose métabolique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activité rénine plasmatique élevée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rapport aldostérone/rénine active > 30",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hyperaldostéronisme primaire se caractérise par une hypokaliémie sévère (inconstante) à kaliurèse conservée avec alcalose métabolique, une activité rénine plasmatique basse (rétrocontrôle) et un rapport aldostérone/rénine active > 30."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques du phéochromocytome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA permanente ou paroxystique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Poussées hypertensives avec triade de Ménard (céphalée pulsatile, palpitations, sueurs)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypotension orthostatique fréquente",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Crises déclenchées par la manipulation de la tumeur ou le tabac",
+          "correct": true
+        }
+      ],
+      "explanation": "Le phéochromocytome se manifeste par une HTA permanente ou paroxystique, des poussées hypertensives avec la triade de Ménard, une hypotension orthostatique fréquente et des crises déclenchées par divers facteurs comme le stress, l'anesthésie, la manipulation de la tumeur, le tabac ou la caféine."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels médicaments peuvent déséquilibrer une HTA équilibrée ou induire une HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AINS",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Corticoïdes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Oestroprogestatifs",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhibiteurs calciques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AINS, corticoïdes et oestroprogestatifs peuvent déséquilibrer une HTA ou en induire une. Les inhibiteurs calciques sont des antihypertenseurs."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques évocateurs d'une coarctation aortique chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA aux membres supérieurs",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypotension aux membres inférieurs",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pouls fémoraux augmentés",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Souffle systolique ou continu para-sternal gauche",
+          "correct": true
+        }
+      ],
+      "explanation": "La coarctation aortique se manifeste par une HTA aux membres supérieurs, une hypotension aux membres inférieurs avec diminution/abolition des pouls fémoraux, et un souffle systolique ou continu para-sternal gauche ou inter-scapulo-vertébral."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une urgence hypertensive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Élévation rapide de la TA sans retentissement viscéral aigu",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HTA maligne",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HTA avec retentissement neurologique (encéphalopathie, AVC)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "HTA toxique liée à l'usage d'amphétamines",
+          "correct": true
+        }
+      ],
+      "explanation": "Une urgence hypertensive est une crise hypertensive avec retentissement viscéral aigu, mettant en jeu le pronostic vital à court terme. Cela inclut l'HTA maligne, les retentissements cardio-vasculaires ou neurologiques, le phéochromocytome, l'HTA toxique et la pré-éclampsie sévère. L'élévation rapide de la TA sans retentissement viscéral est une crise hypertensive sans urgence."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de souffrance viscérale dans le cadre d'une HTA maligne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œdème papillaire au fond d'œil (stade 4)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance ventriculaire gauche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale aiguë avec protéinurie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Céphalées isolées et modérées",
+          "correct": false
+        }
+      ],
+      "explanation": "La souffrance viscérale de l'HTA maligne inclut l'œdème papillaire, l'insuffisance ventriculaire gauche, l'insuffisance rénale aiguë avec protéinurie et l'encéphalopathie hypertensive. Les céphalées isolées et modérées ne sont pas un signe de gravité ou de retentissement viscéral aigu."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une réduction de la PAS de 10 mmHg et de la PAD de 5 mmHg permet de réduire le risque de quelles complications ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le risque d'AVC d'un tiers",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le risque d'insuffisance cardiaque de moitié",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le risque d'insuffisance coronaire d'un sixième",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque d'AOMI de 20%",
+          "correct": false
+        }
+      ],
+      "explanation": "Une réduction de PAS de 10 mmHg et de PAD de 5 mmHg diminue le risque d'AVC d'un tiers et d'insuffisance coronaire d'un sixième."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hypothèses physiopathologiques multifactorielles de l'HTA essentielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Défaut d'excrétion du sodium à long terme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Surcharge calcique de la paroi artérielle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperactivité du système nerveux sympathique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Déficience en peptides natriurétiques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hypothèses pathologiques multifactorielles incluent un défaut d'excrétion du sodium à long terme et une surcharge calcique de la paroi artérielle via le système nerveux autonome et le SRA. L'hyperactivité sympathique et la déficience en peptides natriurétiques sont des mécanismes mais pas les hypothèses pathologiques principales mentionnées comme multifactorielles."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la Mesure Ambulatoire de la Pression Artérielle (MAPA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grande variabilité de la PA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "PA élevée en consultation chez un patient à bas risque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Discordance entre PA en consultation et au domicile",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Suspicion d'hypotension",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de la MAPA sont la grande variabilité de la PA, la PA élevée en consultation chez un patient à bas risque, la discordance entre PA en consultation et au domicile, l'HTA résistante et la suspicion d'hypotension."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères d'Hypertrophie Ventriculaire Gauche (HVG) échographique considérés comme une atteinte d'organe cible (AOC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Masse ventriculaire ≥ 125 g/m2 chez l'homme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Masse ventriculaire ≥ 110 g/m2 chez la femme",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Indice de Sokolow > 35 mm à l'ECG",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dysfonction diastolique sans HVG",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HVG échographique est une AOC si la masse ventriculaire est ≥ 125 g/m2 chez l'homme ou ≥ 110 g/m2 chez la femme. L'indice de Sokolow > 35 mm est un critère d'HVG électrique à l'ECG, également une AOC."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la classification de Kirkendall pour la rétinopathie hypertensive, quels stades incluent des hémorragies, exsudats cotonneux ou œdème papillaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stade 1",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Stade 2",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Stade 3",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stade 4",
+          "correct": true
+        }
+      ],
+      "explanation": "Le stade 3 inclut hémorragie et exsudat cotonneux, et le stade 4 l'œdème papillaire. Le stade 1 est un rétrécissement artériolaire et le stade 2 le signe du croisement."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel cas est-il recommandé de débuter un traitement antihypertenseur médicamenteux d'emblée, sans période de RHD seule ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA grade 1 avec aucun FdRCV",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HTA grade 2 avec 1 ou 2 FdRCV",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "HTA grade 3",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diabète, atteinte d'organe cible ou maladie cardiovasculaire associée",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement d'emblée est indiqué pour l'HTA grade 3, et en présence de diabète, d'atteinte d'organe cible ou de maladie associée, quel que soit le grade de l'HTA."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications privilégiées des inhibiteurs calciques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sujet âgé, HTA systolique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Angor",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance cardiaque",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Grossesse",
+          "correct": true
+        }
+      ],
+      "explanation": "Les inhibiteurs calciques sont privilégiés chez le sujet âgé avec HTA systolique, en cas d'angor, d'athérome, de syndrome métabolique et pendant la grossesse. Ils sont contre-indiqués en cas d'insuffisance cardiaque pour les bradycardisants."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications absolues des inhibiteurs calciques bradycardisants (type vérapamil) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Goutte",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asthme",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "BAV 2/3",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance cardiaque",
+          "correct": true
+        }
+      ],
+      "explanation": "Les inhibiteurs calciques bradycardisants sont contre-indiqués en cas de BAV 2/3 et d'insuffisance cardiaque. La goutte est une CI des diurétiques thiazidiques et l'asthme des bêta-bloquants."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où une association de 2 médicaments antihypertenseurs à faible dose peut être envisagée d'emblée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA de grade 1 avec risque cardiovasculaire faible",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HTA ≥ 160/100 mmHg",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque cardiovasculaire élevé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Objectif tensionnel < 130/80 mmHg",
+          "correct": true
+        }
+      ],
+      "explanation": "Une bithérapie à faible dose peut être envisagée d'emblée si HTA ≥ 160/100 mmHg, risque cardiovasculaire élevé ou objectif tensionnel < 130/80 mmHg. Pour l'HTA grade 1 à faible risque, une monothérapie est la première étape."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de fausse HTA résistante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA « blouse blanche »",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pseudo-hypertension par rigidité artérielle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Brassard inadapté",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mauvaise observance du traitement",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes de fausse HTA résistante incluent l'HTA « blouse blanche », la pseudo-hypertension (rigidité artérielle), un brassard inadapté, des doses insuffisantes d'antihypertenseur, une mauvaise observance du traitement et des RHD non suivies."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations cliniques qui doivent faire évoquer une HTA secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient jeune < 30 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "HTA sévère d'emblée (≥ 180/110 mmHg)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "HTA s'aggravant rapidement",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "HTA résistante",
+          "correct": true
+        }
+      ],
+      "explanation": "Une HTA secondaire doit être évoquée en cas d'orientation étiologique, chez un patient jeune (< 30 ans), en cas d'HTA sévère d'emblée ou s'aggravant rapidement, ou d'HTA résistante."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes évocateurs d'un Syndrome d'Apnées Obstructives du Sommeil (SAOS) comme cause d'HTA secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypersomnie diurne",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asthénie matinale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Élévation nocturne de la PA (patient non dipper)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Triade céphalées + sueurs + palpitations",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SAOS est évoqué en cas d'hypersomnie diurne, asthénie matinale, élévation nocturne de la PA (non dipper), céphalées, surpoids, bronchopathie, pauses respiratoires nocturnes et HTA résistante. La triade céphalées + sueurs + palpitations évoque un phéochromocytome."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs déclenchants d'une crise aiguë hypertensive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt de traitement antihypertenseur (notamment centraux)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prise de toxiques sympathomimétiques (cocaïne, amphétamine)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prise concomitante de médicaments diminuant l'efficacité antihypertensive (AINS)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fièvre ou douleur aiguë",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces éléments sont des facteurs déclenchants de crise aiguë hypertensive : arrêt de traitement, toxiques sympathomimétiques, médicaments diminuant l'efficacité antihypertensive, éléments intercurrents (fièvre, douleur, AVC, etc.) et phéochromocytome."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors de la prise en charge d'une urgence hypertensive, quelles sont les mesures thérapeutiques initiales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation en USI avec surveillance continue",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Remplissage prudent par SSI en présence d'OAP",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Baisse rapide de la PAM de 50% en 1 heure",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traitement par urapidil IV ou nicardipine IV",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hospitalisation en USI avec surveillance continue est essentielle. Le remplissage par SSI est prudent et uniquement en l'absence d'OAP. L'objectif est une baisse progressive de la PAM de 20 à 25% maximum en 2h, pas une baisse rapide de 50%. L'urapidil IV ou la nicardipine IV sont des choix de première intention."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements spécifiques des complications associées à une urgence hypertensive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dissection aortique : transfert en chirurgie et contrôle optimal de la PA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Éclampsie : sulfate de magnésium IV et extraction fœtale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "OAP : diurétiques associés",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phéochromocytome : bêta-bloqueur seul",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la dissection aortique, c'est le transfert en chirurgie et le contrôle optimal de la PA. Pour l'éclampsie, sulfate de magnésium IV et extraction fœtale. Pour l'OAP, diurétiques associés. Pour le phéochromocytome, c'est l'association alpha + bêta-bloqueur (labétalol IV), les bêta-bloqueurs seuls étant contre-indiqués."
+    }
+  ]
+}

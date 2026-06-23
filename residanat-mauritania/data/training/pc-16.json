@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-16",
+  "title": "Diagnostic d'une dysphagie",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition correcte de la dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur lors de la déglutition.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une sensation de brûlure rétrosternale après les repas.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une sensation de gêne ou d’obstacle à la progression du bol alimentaire survenant au cours de la déglutition.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une difficulté à initier la digestion des aliments.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une perte d'appétit persistante.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie est définie comme la sensation de gêne ou d’obstacle à la progression du bol alimentaire survenant au cours de la déglutition."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques distinctives de la dysphagie oropharyngée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se manifeste par une sensation de blocage au niveau rétrosternal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle implique une difficulté à initier la déglutition.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La gêne ou le blocage est localisé au niveau de la région cervicale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est typiquement causée par des pathologies œsophagiennes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une perte de poids rapide.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie oropharyngée se caractérise par une difficulté à initier la déglutition et à propulser le bol alimentaire dans l’œsophage, avec une gêne ou un blocage localisé au niveau de la région cervicale."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la première étape de la démarche diagnostique d'une dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La réalisation systématique d'une endoscopie oeso-gastro-duodénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'interrogatoire du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La prescription d'un scanner thoracique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La réalisation d'une manométrie œsophagienne haute résolution.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La recherche d'une lésion organique par transit baryté.",
+          "correct": false
+        }
+      ],
+      "explanation": "La première étape de la démarche diagnostique est l'interrogatoire du patient, qui permet de recueillir des informations clés sur l'électivité et les caractéristiques de la dysphagie."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Concernant l'électivité de la dysphagie, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dysphagie sélective pour les solides est évocatrice d'une cause fonctionnelle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dysphagie associée aux liquides est qualifiée de sélective.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une dysphagie élective pour les liquides est appelée dysphagie paradoxale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dysphagie paradoxale est généralement d'origine organique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une dysphagie sélective pour les solides est évocatrice d'une cause organique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dysphagie sélective pour les solides est évocatrice d'une cause organique. Une dysphagie élective pour les liquides est appelée dysphagie paradoxale et est de nature fonctionnelle."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen clé pour la recherche d'une lésion organique de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le scanner thoracique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'écho-endoscopie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le transit baryté.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'endoscopie oeso-gastro-duodénale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La manométrie œsophagienne haute résolution.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie oeso-gastro-duodénale est l'examen clé pour le diagnostic de tumeur de l’œsophage ou d’œsophagite, avec biopsie systématique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations le scanner thoracique est-il discuté dans le cadre du diagnostic d'une dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de sténose œsophagienne infranchissable.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour évaluer l'extension pariétale d'une tumeur œsophagienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour différencier une lésion intra-murale sous-muqueuse d'une compression extrinsèque.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas d'aspect de compression extrinsèque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour analyser le péristaltisme œsophagien.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner thoracique est discuté si une sténose est infranchissable ou en cas d'aspect de compression extrinsèque. Il permet d'évaluer une lésion médiastinale, l'extension pariétale, médiastinale et les adénopathies d'un cancer."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'écho-endoscopie dans le bilan d'une dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En présence d'une sténose œsophagienne infranchissable.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour évaluer l'extension pariétale des tumeurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour différencier une lésion intra-murale sous-muqueuse d'une compression extrinsèque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour le diagnostic initial d'une œsophagite à éosinophiles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour la recherche d'adénopathies métastatiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'écho-endoscopie est utilisée en l'absence de sténose pour évaluer l'extension pariétale des tumeurs, rechercher des adénopathies métastatiques et différencier une lésion intra-murale sous-muqueuse d'une compression extrinsèque."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quel contexte le transit baryté est-il indiqué en deuxième intention pour le diagnostic d'une dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de suspicion d'achalasie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour le diagnostic initial d'une œsophagite peptique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de sténose œsophagienne infranchissable à l'endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour évaluer la motricité œsophagienne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour la recherche d'une œsophagite médicamenteuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le transit baryté est réalisé en deuxième intention en cas de sténose infranchissable à l'endoscopie."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions préalables à la réalisation d'une manométrie œsophagienne haute résolution ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le patient doit être à jeun depuis au moins 12 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'endoscopie oeso-gastro-duodénale doit être normale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les biopsies œsophagiennes doivent être normales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le patient doit être en position assise.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'arrêt des médicaments modifiant la motricité digestive est nécessaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La manométrie œsophagienne haute résolution est réalisée en cas d’endoscopie oeso-gastro-duodénale normale et de biopsies normales. Le patient doit être à jeun (6h) et avoir arrêté les médicaments modifiant la motricité digestive."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes sont évocateurs d'une dysphagie lésionnelle (sténose organique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dysphagie prédominante pour les liquides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une aggravation progressive de la dysphagie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un retentissement sur l'état général.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dysphagie capricieuse et intermittente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une dysphagie prédominante sur les solides.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes évocateurs d'une dysphagie lésionnelle sont une dysphagie prédominante sur les solides, une aggravation progressive et un retentissement sur l'état général."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de sténose tumorale de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une œsophagite peptique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un cancer œsophagien épidermoïde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un adénocarcinome sur endobrachyoesophagie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur extrinsèque comme un cancer bronchique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un anneau de Schatzki.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de sténose tumorale incluent le cancer œsophagien (épidermoïde, adénocarcinome sur endobrachyoesophagie), le cancer cardial étendu à l’œsophage et les tumeurs extrinsèques (adénopathies, cancer bronchique, masse médiastinale)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une sténose œsophagienne due à une œsophagite peptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement irrégulière et excentrée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est le plus souvent régulière et centrée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle se situe typiquement à la jonction du tiers moyen et inférieur de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent associée à une carence martiale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours infranchissable à l'endoscopie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œsophagite peptique est la cause la plus fréquente de sténose non tumorale, se présentant comme une sténose régulière, centrée, à la jonction du tiers moyen et inférieur de l’œsophage."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les associations possibles avec un anneau de Schatzki ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une œsophagite à éosinophiles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un reflux gastro-œsophagien (RGO).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une carence martiale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une achalasie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une œsophagite caustique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anneau de Schatzki est un aspect de diaphragme du tiers inférieur de l’œsophage, associé à un RGO ou plus rarement à une carence martiale (syndrome de Plummer-Vinson/Kelly-Paterson)."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels aspects endoscopiques peuvent être observés en cas d'œsophagite à éosinophiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une muqueuse normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un aspect de granité blanchâtre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des fissures linéaires verticales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un aspect en 'pseudo-trachée'.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des sténoses toujours uniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie peut être normale ou montrer un granité blanchâtre, une muqueuse épaissie avec fissures linéaires verticales, des sténoses uniques ou multiples, ou un aspect en 'pseudo-trachée'."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le critère biopsique de confirmation d'une œsophagite à éosinophiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence de cellules géantes multinucléées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une infiltration lymphocytaire dense.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une infiltration à éosinophiles supérieure à 15 par champ.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La détection de levures de Candida.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une atrophie de la muqueuse œsophagienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "La confirmation biopsique (systématique) de l'œsophagite à éosinophiles repose sur une infiltration à éosinophiles supérieure à 15 par champ."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels médicaments sont mentionnés comme pouvant causer une œsophagite médicamenteuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les inhibiteurs de la pompe à protons.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La cycline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'aspirine/AINS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'alendronate.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les bêta-bloquants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les médicaments mentionnés comme causes d'œsophagite médicamenteuse sont la cycline, l'aspirine/AINS et l'alendronate, ainsi que le chlorure de potassium."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Chez quels types de patients les œsophagites infectieuses sont-elles généralement observées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les patients atteints de reflux gastro-œsophagien chronique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les patients immunodéprimés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les patients diabétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les patients souffrant d'allergies alimentaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les patients avec une hernie hiatale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les œsophagites infectieuses sont généralement observées chez les patients immunodéprimés ou diabétiques."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques physiopathologiques de l'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertonie du sphincter inférieur de l'œsophage (SIO) au repos.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une relaxation complète du SIO lors de la déglutition.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une absence complète de péristaltisme dans le corps de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la pression œsophagienne en réponse à la déglutition.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une cause toujours identifiée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'achalasie est caractérisée par une absence complète de péristaltisme dans le corps de l’œsophage, généralement associée à une relaxation du SIO absente ou incomplète à la déglutition et une hypertonie au repos."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes évocateurs de l'achalasie à l'interrogatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dysphagie sélective pour les solides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dysphagie paradoxale (élective pour les liquides).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une dysphagie capricieuse et intermittente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des régurgitations dues à une stase œsophagienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une douleur rétro-sternale de type brûlure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes évocateurs de l'achalasie incluent une dysphagie paradoxale (élective pour les liquides), capricieuse, intermittente, inopinée, ainsi que des régurgitations (stase œsophagienne) et une douleur rétro-sternale constrictive."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment l'endoscopie évolue-t-elle dans le diagnostic de l'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle montre toujours un méga-œsophage dès le début.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est généralement normale au début de la maladie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle révèle un œsophage dilaté et atone à un stade avancé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle met en évidence des sténoses multiples et serrées.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle permet de visualiser des ondes péristaltiques anormales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie est normale au début de l'achalasie, puis révèle un méga-œsophage (dilaté, atone) à un stade avancé."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le critère manométrique obligatoire pour le diagnostic d'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertonie du SIO au repos.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une absence de relaxation du SIO.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une absence totale de péristaltisme du corps de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des contractions non propagées d'amplitude très importante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une pressurisation de l'œsophage en réponse à la déglutition.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'absence totale de péristaltisme du corps de l’œsophage est un critère manométrique obligatoire pour le diagnostic d'achalasie."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle caractéristique manométrique est associée à l'achalasie 'vigoureuse' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une absence totale de péristaltisme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypertonie du SIO sans relaxation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des contractions non propagées d'amplitude très importante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une pressurisation de l'œsophage par compression du bolus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une absence d'augmentation de la pression œsophagienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'achalasie 'vigoureuse' est caractérisée par des contractions non propagées d'amplitude très importante."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux diagnostics différentiels de l'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'œsophagite à éosinophiles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La tumeur infiltrante du cardia.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La maladie de Chagas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'anneau de Schatzki.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La maladie des spasmes diffus de l'œsophage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels de l'achalasie incluent la tumeur infiltrante du cardia (pouvant causer une pseudo-achalasie néoplasique) et la maladie de Chagas (pseudo-achalasie due à Trypanosoma cruzi)."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas doit-on rechercher une tumeur infiltrante du cardia en cas de suspicion d'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si le patient est âgé de moins de 30 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si la dysphagie est de début tardif (plus de 50 ans).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En présence d'une hyperpression importante du SIO.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si la dysphagie est paradoxale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Si l'endoscopie initiale est normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une tumeur infiltrante du cardia (pseudo-achalasie néoplasique) doit être recherchée par TDM ou écho-endoscopie si le début est tardif (> 50 ans) ou s'il y a une hyperpression importante du SIO."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options thérapeutiques non chirurgicales pour l'achalasie visant à réduire la pression du SIO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La section musculaire chirurgicale par cœlioscopie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La dilatation pneumatique sous endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'infiltration intra-sphinctérienne per-endoscopique de toxine botulique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prescription d'inhibiteurs de la pompe à protons.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'administration de dérivés nitrés sublinguaux.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les traitements non chirurgicaux pour réduire la pression du SIO incluent la dilatation pneumatique sous endoscopie et les traitements pharmacologiques (efficacité inférieure) comme les dérivés nitrés sublinguaux et l'infiltration intra-sphinctérienne per-endoscopique de toxine botulique."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels types de médicaments doivent être arrêtés avant une manométrie œsophagienne haute résolution ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les antibiotiques à large spectre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les neuroleptiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les prokinétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les anticholinergiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les inhibiteurs calciques.",
+          "correct": true
+        }
+      ],
+      "explanation": "Avant une manométrie œsophagienne, il est nécessaire d'arrêter les médicaments modifiant la motricité digestive, notamment les neuroleptiques, prokinétiques, anticholinergiques, dérivés nitrés et inhibiteurs calciques."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les types histologiques de cancer œsophagien mentionnés comme causes de sténose tumorale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le carcinome à petites cellules.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le cancer épidermoïde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'adénocarcinome.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le lymphome œsophagien.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le sarcome œsophagien.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les types de cancer œsophagien mentionnés sont l'épidermoïde (souvent sur terrain alcoolo-tabagique) et l'adénocarcinome (souvent sur endobrachyoesophagie)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel syndrome est associé à un anneau de Schatzki et une carence martiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome de Zollinger-Ellison.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome de Plummer-Vinson.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome de Kelly-Paterson.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de Barrett.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le syndrome de Mallory-Weiss.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anneau de Schatzki est associé à un RGO ou plus rarement à une carence martiale, formant le syndrome de Plummer-Vinson ou de Kelly-Paterson."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques et épidémiologiques de l'œsophagite à éosinophiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une prédominance féminine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une atopie associée dans 50% des cas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une prédominance masculine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une association fréquente avec le diabète.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une association avec l'asthme et la dermatite.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'œsophagite à éosinophiles présente une prédominance masculine et une atopie associée dans 50% des cas, incluant l'asthme et la dermatite."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels agents infectieux sont spécifiquement mentionnés comme causes d'œsophagite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Helicobacter pylori.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Candida.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cytomégalovirus (CMV).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Herpès.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Staphylococcus aureus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les agents infectieux mentionnés sont la candidose, le CMV et l'herpès, généralement chez l'immunodéprimé ou le diabétique."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques manométriques de l'achalasie de Type 1 (classique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pressurisation de l'œsophage par compression du bolus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une absence totale de péristaltisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une absence d'augmentation de la pression œsophagienne en réponse à la déglutition.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un défaut de relaxation de la jonction œso-gastrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des ondes œsophagiennes non propagées de grande amplitude.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'achalasie de Type 1 (classique) est caractérisée par une absence totale de péristaltisme, aucune augmentation de la pression œsophagienne en réponse à la déglutition et un défaut de relaxation de la jonction œso-gastrique."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment se manifeste manométriquement l'achalasie de Type 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par des ondes œsophagiennes non propagées de grande amplitude.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par une absence totale de péristaltisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par une pressurisation de l'œsophage par compression du bolus ingéré.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par un obstacle fonctionnel cardial (SIO).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Par une relaxation complète du SIO.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'achalasie de Type 2 se caractérise par une absence totale de péristaltisme, une pressurisation de l’œsophage par compression du bolus ingéré entre le sphincter inférieur et l’obstacle fonctionnel cardial (SIO)."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques manométriques de l'achalasie de Type 3 (spastique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une absence totale de péristaltisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des ondes œsophagiennes non propagées de grande amplitude.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une pressurisation de l'œsophage par compression du bolus.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypertonie du SIO sans relaxation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une absence d'augmentation de la pression œsophagienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'achalasie de Type 3 (spastique) est définie par une absence totale de péristaltisme et des ondes œsophagiennes non propagées de grande amplitude."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels examens complémentaires sont recommandés pour rechercher une pseudo-achalasie néoplasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La manométrie œsophagienne haute résolution.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le scanner thoracique (TDM).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'écho-endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le transit baryté.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'endoscopie oeso-gastro-duodénale avec biopsies systématiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche d'une tumeur infiltrante du cardia (pseudo-achalasie néoplasique) se fait par TDM ou écho-endoscopie, notamment si le début est tardif (> 50 ans) ou en cas d'hyperpression importante du SIO."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel parasite est responsable de la maladie de Chagas, une cause de pseudo-achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entamoeba histolytica.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Giardia lamblia.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Trypanosoma cruzi.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leishmania donovani.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Schistosoma mansoni.",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Chagas, une pseudo-achalasie, est due à un parasite d'Amérique du Sud, Trypanosoma cruzi."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la technique chirurgicale mentionnée pour le traitement de l'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fundoplicature de Nissen.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La gastrectomie partielle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La section musculaire chirurgicale par cœlioscopie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'œsophagectomie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La pose d'une prothèse œsophagienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical de l'achalasie mentionné est la section musculaire chirurgicale par cœlioscopie."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements pharmacologiques de l'achalasie, dont l'efficacité est jugée inférieure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les inhibiteurs de la pompe à protons.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les dérivés nitrés sublinguaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les anti-acides.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'infiltration intra-sphinctérienne per-endoscopique de toxine botulique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les prokinétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements pharmacologiques de l'achalasie, dont l'efficacité est inférieure, sont les dérivés nitrés sublinguaux et l'infiltration intra-sphinctérienne per-endoscopique de toxine botulique."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques manométriques de la maladie des spasmes diffus de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des ondes péristaltiques anormales (non propagées, amples et répétitives).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un sphincter inférieur de l'œsophage (SIO) hypertonique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plus de 10% des ondes enregistrées sont anormales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une absence totale de péristaltisme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une alternance avec un péristaltisme normal.",
+          "correct": true
+        }
+      ],
+      "explanation": "La maladie des spasmes diffus de l’œsophage est caractérisée par des ondes péristaltiques anormales (non propagées, amples et répétitives) représentant plus de 10% des ondes enregistrées, alternant avec un péristaltisme normal, et un SIO normal."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques manométriques de l'œsophage « casse-noisette » ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des ondes péristaltiques anormales, prolongées et de très grandes amplitudes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une prédominance des ondes anormales dans la partie distale de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un sphincter inférieur de l'œsophage (SIO) hypertonique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une absence totale de péristaltisme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un SIO normal.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'œsophage « casse-noisette » est défini par des ondes péristaltiques anormales (prolongées, de très grandes amplitudes), prédominant dans la partie distale de l’œsophage, avec un SIO normal."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de dysphagie fonctionnelle secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le reflux gastro-œsophagien (RGO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les collagénoses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les atteintes nerveuses ou musculaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les sténoses caustiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les tumeurs extrinsèques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie fonctionnelle secondaire peut être causée par le RGO, les collagénoses et les atteintes nerveuses ou musculaires."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles collagénoses sont spécifiquement mentionnées comme causes de dysphagie fonctionnelle secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La polyarthrite rhumatoïde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La sclérodermie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dermatomyosite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le lupus.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le syndrome de Gougerot-Sjögren.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les collagénoses mentionnées comme causes de dysphagie fonctionnelle secondaire sont la sclérodermie, la dermatomyosite et le lupus."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles atteintes nerveuses ou musculaires sont citées comme causes de dysphagie fonctionnelle secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La maladie de Parkinson.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le diabète.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'amylose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La myasthénie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La sclérose en plaques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les atteintes nerveuses ou musculaires mentionnées sont le diabète, l'amylose et la myasthénie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes typiques de la dysphagie oropharyngée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des causes ORL.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des causes neurologiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des sténoses œsophagiennes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des troubles moteurs œsophagiens.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des œsophagites infectieuses.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie oropharyngée est typiquement liée à des causes ORL ou neurologiques."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels éléments sont à considérer dans le diagnostic différentiel de la dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'odynophagie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La striction cervicale liée à l'anxiété.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'anorexie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La satiété précoce.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le reflux gastro-œsophagien (RGO).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic différentiel de la dysphagie inclut l'odynophagie (douleur), les troubles de la déglutition, la striction cervicale liée à l’anxiété, l'anorexie et la satiété précoce."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle des biopsies lors d'une endoscopie oeso-gastro-duodénale pour une dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont systématiques en cas de lésion suspecte.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles permettent le diagnostic d'une œsophagite à éosinophiles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont uniquement réalisées en cas de sténose infranchissable.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles peuvent être guidées par colorants vaporisés en spray.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont inutiles si l'aspect endoscopique est normal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les biopsies sont systématiques lors de l'endoscopie, notamment pour le diagnostic d'œsophagite, y compris l'œsophagite à éosinophiles, et peuvent être guidées par colorants vaporisés en spray (lugol, acide acétique)."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels colorants peuvent être utilisés en spray pour guider les biopsies lors d'une endoscopie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le bleu de méthylène.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le lugol.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'acide acétique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'indigo carmin.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le vert d'indocyanine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les biopsies peuvent être guidées par colorants vaporisés en spray tels que le lugol et l'acide acétique."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelle position le patient doit-il être pour la réalisation d'une manométrie œsophagienne haute résolution ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En position assise.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En décubitus dorsal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En décubitus latéral gauche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En position de Trendelenburg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En position semi-assise.",
+          "correct": false
+        }
+      ],
+      "explanation": "La manométrie œsophagienne haute résolution est réalisée en décubitus dorsal ou latéral gauche (position horizontale de l’œsophage)."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les aspects endoscopiques possibles de l'œsophagite à éosinophiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Muqueuse normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Muqueuse épaissie avec fissures linéaires verticales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aspect en 'pseudo-trachée'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sténoses uniques ou multiples.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ulcérations profondes et hémorragiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie peut être normale ou montrer un granité blanchâtre, une muqueuse épaissie avec fissures linéaires verticales, des sténoses uniques ou multiples, ou un aspect en 'pseudo-trachée'."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments analysés par la manométrie œsophagienne haute résolution dans le diagnostic d'un trouble moteur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression de repos du sphincter inférieur de l'œsophage (SIO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La relaxation du SIO lors de la déglutition.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'analyse du péristaltisme œsophagien.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence de reflux gastro-œsophagien.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La détection de lésions muqueuses.",
+          "correct": false
+        }
+      ],
+      "explanation": "La manométrie œsophagienne haute résolution est l'examen clé pour l'analyse de la pression de repos du SIO, de sa relaxation lors de la déglutition et du péristaltisme œsophagien."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'endoscopie peut-elle évoluer dans le temps en cas d'achalasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours normale, même à un stade avancé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle peut être normale au début de la maladie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut révéler un méga-œsophage à un stade avancé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle peut montrer un œsophage dilaté et atone à un stade avancé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle met en évidence des signes d'œsophagite peptique sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie est normale au début de l'achalasie, mais à un stade avancé, elle peut révéler un méga-œsophage, c'est-à-dire un œsophage dilaté et atone."
+    }
+  ]
+}

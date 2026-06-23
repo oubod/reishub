@@ -1,0 +1,1378 @@
+{
+  "lectureId": "05",
+  "number": "05",
+  "title": "Arrêt cardio-circulatoire",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les ions majoritairement présents dans le milieu intracellulaire des cellules cardiaques au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sodium (Na+)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Potassium (K+)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calcium (Ca++)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chlore (Cl-)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le milieu intracellulaire est riche en K+ (×30) tandis que le milieu extracellulaire est riche en Na+ (×10) et Ca++ (×10-100)."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelle est la valeur normale de la fréquence sinusale au repos chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 60 battements/minute",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 60 et 100 battements/minute",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus de 100 battements/minute",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Entre 40 et 50 battements/minute",
+          "correct": false
+        }
+      ],
+      "explanation": "La fréquence sinusale au repos se situe entre 60 à 100/minute. Une bradycardie sinusale est définie par une fréquence <60/minute et une tachycardie sinusale >100/minute."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le premier geste prioritaire par lequel débute la réanimation cardiopulmonaire (RCP) de base ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La défibrillation précoce",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les compressions thoraciques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'administration d'adrénaline",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La ventilation bouche à bouche",
+          "correct": false
+        }
+      ],
+      "explanation": "Les compressions thoraciques ou le massage cardiaque externe (MCE) sont un geste prioritaire par lequel débute la RCP."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques permettant de diagnostiquer un arrêt cardio-respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inconscience",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence de respiration normale ou présence d’une respiration agonique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'un pouls central faible",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence de pouls central",
+          "correct": true
+        }
+      ],
+      "explanation": "Un sujet en ACR est un sujet inconscient qui ne respire pas et qui n’a pas d’activité cardiaque spontanée (absence de pouls central)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelle est la profondeur recommandée pour les compressions thoraciques chez l'adulte lors d'un MCE ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 à 3 cm",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "3 à 4 cm",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "5 à 6 cm",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 7 cm",
+          "correct": false
+        }
+      ],
+      "explanation": "Les caractéristiques des compressions thoraciques incluent une profondeur de 5 à 6 cm."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelle est la fréquence recommandée pour les compressions thoraciques chez l'adulte lors d'un MCE ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "60-80 compressions/min",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "80-100 compressions/min",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "100-120 compressions/min",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 120 compressions/min",
+          "correct": false
+        }
+      ],
+      "explanation": "Les caractéristiques des compressions thoraciques incluent une fréquence de 100–120 compressions/min."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est le rythme de compressions/insufflations recommandé pour la RCP de base chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 compressions pour 2 insufflations",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "30 compressions pour 2 insufflations",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "5 compressions pour 1 insufflation",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Compressions continues sans insufflations",
+          "correct": false
+        }
+      ],
+      "explanation": "La RCP de base est poursuivie avec un rythme de 30 compressions pour deux insufflations."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelle est la durée normale de l'intervalle PR sur un ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 0.10 s",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 0.12 et 0.20 s",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus de 0.20 s",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Entre 0.04 et 0.10 s",
+          "correct": false
+        }
+      ],
+      "explanation": "Les valeurs normales de l'intervalle PR sont de 0.12-0.20 s."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les rythmes cardiaques considérés comme 'choquables' en cas d'arrêt cardio-circulatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrillation ventriculaire (FV)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asystolie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tachycardie ventriculaire (TV)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Activité électrique sans pouls (AESP)",
+          "correct": false
+        }
+      ],
+      "explanation": "Les rythmes choquables sont la fibrillation ventriculaire (FV) et la tachycardie ventriculaire (TV)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelle est la voie d'accès de référence pour l'administration des médicaments lors d'une RCP avancée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie intra-osseuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie intra-musculaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Voie veineuse périphérique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Voie endo-trachéale",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie veineuse périphérique est la voie d’accès de référence. Elle doit être mise en place le plus rapidement possible."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est l'effet de la noradrénaline sur la fréquence cardiaque via les récepteurs β1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet chronotrope négatif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Effet chronotrope positif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet inotrope négatif",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Effet dromotrope négatif",
+          "correct": false
+        }
+      ],
+      "explanation": "La noradrénaline via les récepteurs β1, stimule les canaux If, les canaux Ca L, favorise le recyclage du Ca++ et diminue la perméabilité membranaire au K+. Par conséquent, le système nerveux sympathique accélère la fréquence cardiaque: effet chronotrope positif."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelle est la vitesse standard de déroulement du papier pour un enregistrement ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 mm/s",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "25 mm/s",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "50 mm/s",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "100 mm/s",
+          "correct": false
+        }
+      ],
+      "explanation": "La vitesse de déroulement du papier est habituellement de 25 mm/seconde."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal de la chaîne de survie en cas d'arrêt cardio-circulatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduire le temps de transport à l'hôpital",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Améliorer la survie des patients en ACR",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Minimiser les coûts de la réanimation",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Standardiser les procédures administratives",
+          "correct": false
+        }
+      ],
+      "explanation": "Le respect et l’optimisation de chaque maillon de la chaine permet d’améliorer la survie des patients en ACR."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes ioniques responsables de la phase 0 (dépolarisation rapide) du potentiel d'action de la cellule contractile cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entrée massive de Na+ dans la cellule",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sortie massive de K+ de la cellule",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ouverture des canaux calciques lents",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Inactivation des canaux à Na+",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 0 est une dépolarisation rapide due à l'excitation de la membrane cellulaire entraînant une ouverture des canaux sodiques rapides voltage dépendants et une entrée massive de Na+ dans la cellule."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du potentiel d'action des cellules des nœuds sino-atrial (SA) et auriculo-ventriculaire (AV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une phase 0 beaucoup plus lente sous la dépendance d'un courant entrant calcique lent",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une phase 4 stable",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une phase 3 de repolarisation sans phase 1 et pratiquement sans plateau",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une amplitude élevée avec un sommet pointu",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fibres à réponse lente (cellules des nœuds SA et AV) ont un PA de faible amplitude à sommet arrondi avec une phase 0 beaucoup plus lente sous la dépendance d'un courant entrant calcique lent, une phase 3 de repolarisation sans phase 1 et pratiquement sans plateau (phase 2), et une phase 4 instable."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets du système nerveux sympathique sur l'activité électrique et contractile du cœur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accélère la fréquence cardiaque",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminue la force de contraction du myocarde",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmente l’excitabilité du cœur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminue la vitesse de conduction",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmente la vitesse de relaxation",
+          "correct": true
+        }
+      ],
+      "explanation": "Le système nerveux sympathique accélère la fréquence cardiaque (chronotrope positif), augmente la force de contraction du myocarde (inotrope positif), augmente l’excitabilité du cœur (bathmotrope positif), augmente la vitesse de conduction (dromotrope positif) et augmente la vitesse de relaxation (lusitrope positif)."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes de la méthode VES pour évaluer la respiration d'une victime en ACR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voir la cage thoracique respirer",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Écouter le bruit de respiration",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sentir le souffle de la victime au niveau de la joue du sauveteur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vérifier la couleur des lèvres",
+          "correct": false
+        }
+      ],
+      "explanation": "La méthode VES consiste à Voir la cage thoracique respirer, Écouter le bruit de respiration et Sentir le souffle de la victime au niveau de la joue du sauveteur."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences cellulaires immédiates de l'anoxie due à l'ACR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération enzymatique et vacuolisation cytoplasmique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimulation du métabolisme aérobie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Accumulation rapide d'ions acides",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du stock en ATP",
+          "correct": false
+        }
+      ],
+      "explanation": "Au niveau de la cellule, l'anoxie va entraîner une libération enzymatique et une vacuolisation cytoplasmique puis une lyse du noyau. Sur le plan biochimique, il existe une consommation rapide de l'oxygène présent, une stimulation du métabolisme anaérobie et un épuisement énergétique. L’accumulation rapide d'ions acides aboutit à une dette irréversible en oxygène (O2), à une acidose et à une diminution du stock en ATP."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de la chaîne de survie en cas d'ACR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La reconnaissance précoce et l’appel à l’aide",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La réanimation cardio-pulmonaire de base précoce",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La défibrillation précoce",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La réanimation cardio-pulmonaire spécialisée",
+          "correct": true
+        }
+      ],
+      "explanation": "La chaîne de survie est composée de quatre maillons : la reconnaissance précoce et l’appel à l’aide, la réanimation cardio-pulmonaire de base précoce, la défibrillation précoce et la réanimation cardio-pulmonaire spécialisée."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes réversibles d'un ACR regroupées sous les '4H' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoxie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypovolémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperthermie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypothermie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperkaliémie ou Hypokaliémie",
+          "correct": true
+        }
+      ],
+      "explanation": "Les 4H sont : Hypoxie, Hypovolémie, Hypothermie, Hyperkaliémie, Hypokaliémie ou autre trouble métabolique."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes réversibles d'un ACR regroupées sous les '4T' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tamponnade",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Traumatisme crânien",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pneumothorax sous tension",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toxiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Causes Thromboemboliques",
+          "correct": true
+        }
+      ],
+      "explanation": "Les 4T sont : Tamponnade, pneumoThorax sous tension, Toxiques, Causes Thromboemboliques (syndromes coronariens et embolie pulmonaire)."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une fibrillation ventriculaire (FV) sur un ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activité électrique d’origine ventriculaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rythme régulier à complexes QRS larges",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Activité irrégulière, de fréquence et d’amplitude aléatoire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Peut être à larges mailles ou à fines mailles",
+          "correct": true
+        }
+      ],
+      "explanation": "La fibrillation ventriculaire (FV) est une activité électrique d’origine ventriculaire, irrégulière, de fréquence et d’amplitude aléatoire décrite comme anarchique, qui peut être à larges mailles ou à fines mailles."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quand l'administration d'adrénaline est-elle indiquée dans l'algorithme ALS pour les rythmes choquables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès le début de la RCP",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Après le 1er choc si le rythme choquable persiste",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Après le 3ème choc si le rythme choquable persiste",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toutes les 3 à 5 minutes (un cycle sur deux)",
+          "correct": true
+        }
+      ],
+      "explanation": "L’administration d’adrénaline (1 mg) est indiquée après le 3ème choc si le rythme choquable persiste. L’administration de 1mg d’adrénaline est poursuivie toutes les 3 à 5 minutes soit un cycle sur deux."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'intubation orotrachéale lors de la prise en charge d'un ACR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès que possible par un opérateur expérimenté pour sécuriser les voies aériennes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Uniquement en cas d'échec des dispositifs supra-glottiques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pour éviter les interruptions du MCE",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de ventilation en pression positive inefficace ou prolongée",
+          "correct": true
+        }
+      ],
+      "explanation": "L’intubation orotrachéale est indiquée dès que possible par un opérateur expérimenté afin de sécuriser les voies aériennes. Elle est également indiquée en cas de ventilation en pression positive inefficace (Fc<60batt/min au bout de 30s de VPP), prolongée (VPP >60s) ou d’emblée en cas de contre-indication à la ventilation au masque."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la capnographie pendant la réanimation avancée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmer l’emplacement correct de la sonde trachéale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Monitorer la qualité des compressions thoraciques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diagnostiquer le retour à une circulation spontanée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évaluer la profondeur de l'anesthésie",
+          "correct": false
+        }
+      ],
+      "explanation": "Pendant la réanimation avancée, il est recommandé d’utiliser la capnographie pour confirmer l’emplacement correct de la sonde trachéale, pour monitorer la qualité des compressions thoraciques et diagnostiquer le retour à une circulation spontanée."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures à prendre en cas d'hypothermie lors d'un ACR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réchauffement par extraction de l'environnement froid",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Isolation du corps avec des couvertures chauffantes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arrêt immédiat de la réanimation si la température est inférieure à 30°C",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Doubler l'intervalle entre les doses de médicaments si la température est entre 30 et 35°C",
+          "correct": true
+        }
+      ],
+      "explanation": "On procède à un réchauffement : extraction de l’environnement froid, isolation du corps grâce à des couvertures chauffantes ou par feuille d’Aluminium et un environnement chaud. La réanimation est prolongée tant que le corps est en hypothermie. Si la température < 30° : pas de médicaments. Si la température est entre 30 et 35° : doubler l’intervalle entre les doses. Au-delà de 35° : protocole normal."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la ventilation à pression positive (VPP) au masque chez le nouveau-né en salle de naissance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de ventilation spontanée efficace",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Apnée ou gasps",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fréquence cardiaque < 100 bpm",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence de liquide méconial épais",
+          "correct": false
+        }
+      ],
+      "explanation": "Les trois indications de la VPP au masque sont : absence de ventilation spontanée efficace, apnée ou gasps, et fréquence cardiaque < 100 bpm. Le liquide méconial n’est plus une contre-indication à la ventilation au masque depuis 2015."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque périnataux liés à la mère associés à la réanimation du nouveau-né en salle de naissance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grossesse mal ou non suivie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédent de mort fœtale in utero",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Macrosomie fœtale",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "HTA gravidique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Médicaments influant sur la fonction respiratoire ou circulatoire",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque liés à la mère incluent : grossesse mal ou non suivie, antécédent de mort fœtale in utero ou enfant mort-né, pathologie maternelle chronique, HTA gravidique, prééclampsie / éclampsie, placenta prævia, médicaments influant sur la fonction respiratoire ou circulatoire. La macrosomie fœtale est un risque lié au fœtus."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'onde P normale sur un ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrondie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hauteur de 2.5 mm",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Largeur de 0.10 s",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toujours négative en V1",
+          "correct": false
+        }
+      ],
+      "explanation": "L’onde P est arrondie, sa hauteur est de 2.5 mm et sa largeur de 0.10 s. Elle est le mieux visible en II ou V1, elle est positive en I et II et en général biphasique en V1."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les lésions de reperfusion myocardique décrites après un arrêt circulatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles de rythme ventriculaires",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Arythmies de reperfusion",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sidération myocardique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nécrose myocardique irréversible",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe 4 formes de lésions de reperfusion : les troubles de rythme ventriculaires, les arythmies de reperfusion, la sidération myocardique et l’hibernation myocardique. La nécrose n'est pas une caractéristique de la sidération ou de l'hibernation."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions à entreprendre si le choc n'est pas indiqué par le DAE ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Redémarrer immédiatement les compressions en alternance avec les insufflations",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vérifier le pouls central pendant 10 secondes",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Attendre l'arrivée des secours spécialisés",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administrer une dose d'adrénaline",
+          "correct": false
+        }
+      ],
+      "explanation": "Si le choc n’est pas indiqué, redémarrer immédiatement les compressions en alternance avec les insufflations."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications absolues à la ventilation à pression positive (VPP) au masque chez le nouveau-né ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hernie diaphragmatique diagnostiquée en anténatale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pneumothorax",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Défect de la paroi abdominale (laparoschisis, omphalocèle)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Liquide méconial",
+          "correct": false
+        }
+      ],
+      "explanation": "Les trois contre-indications absolues sont : la hernie diaphragmatique diagnostiquée en anténatale, le pneumothorax et le défect de la paroi abdominale (laparoschisis, omphalocèle...). Le liquide méconial n’est plus une contre-indication."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des fibres à réponse rapide (cellules du faisceau de His et fibres de Purkinje) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un potentiel d'action de faible amplitude",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des phases 0, 1, 2 et 3 identiques à celles des fibres musculaires cardiaques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une phase 4 instable",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une phase 0 dépendante d'un courant calcique lent",
+          "correct": false
+        }
+      ],
+      "explanation": "Le PA des fibres à réponse rapide (cellules du faisceau de His et fibres de Purkinje) a des phases 0, 1, 2 et 3 identiques à celle des fibres musculaires cardiaques et une phase 4 instable."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes ioniques qui déterminent la phase de dépolarisation diastolique au niveau du tissu nodal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution progressive de la perméabilité au K+",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ouverture des canaux Na+f (If: Funny)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ouverture de canaux Ca2+ de type L",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ouverture de canaux Ca2+ de type T (transitoire)",
+          "correct": true
+        }
+      ],
+      "explanation": "La phase de dépolarisation diastolique est déterminée par trois mécanismes : diminution progressive de la perméabilité au K+, ouverture des canaux Na+f (If: Funny) et ouverture de canaux Ca2+ de type T (transitoire). Les canaux Ca2+ de type L sont impliqués dans la phase 0 des fibres à réponse lente."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des périodes réfractaires du potentiel d'action cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La période réfractaire absolue couvre les phases 0, 1, 2 et la moitié de la phase 3",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pendant la période réfractaire efficace, il n'y a pas de réponse propagée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La période réfractaire relative permet une réponse locale puis propagée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pendant la période réfractaire absolue, une stimulation intense peut déclencher une réponse normale",
+          "correct": false
+        }
+      ],
+      "explanation": "La période réfractaire absolue couvre les phases 0, 1, 2 et la moitié de la phase 3, sans réponse. La période réfractaire efficace ne permet pas de réponse propagée. La période réfractaire relative permet une réponse locale puis propagée. Pendant la période réfractaire absolue, il n'y a pas de réponse normale quel que soit l'intensité de la stimulation."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de la reperfusion sur le plan cellulaire après une période d'anoxie prolongée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Production de radicaux libres de l’oxygène",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Synthèse accrue d'ATP par la chaîne respiratoire mitochondriale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Lésions directes des membranes cellulaires et mitochondriales",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Activation des PNN, C3 et C5 du complément",
+          "correct": true
+        }
+      ],
+      "explanation": "La reperfusion réintroduit brutalement de l’oxygène en grande quantité dans la cellule. La chaîne respiratoire mitochondriale fonctionnellement endommagée ne peut plus utiliser convenablement cet excès d’O2, aboutissant à une production de radicaux libres de l’oxygène au lieu de la synthèse de l’ATP. Ces radicaux libres vont induire des lésions directes des membranes cellulaires et en particulier de la membrane mitochondriale et participent à l’activation des PNN, C3 et C5 du complément qui vont promouvoir et amplifier la réaction inflammatoire."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions nécessaires pour une interprétation correcte d'un ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'étalonnage doit être correct (1 millivolt = 1 cm)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La vitesse de déroulement doit être connue (habituellement 25 mm/seconde)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La ligne isoélectrique doit être parfaitement nette et horizontale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le tracé doit comporter au minimum les 6 dérivations précordiales",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour être correctement interprété, un ECG doit remplir certaines conditions : l'étalonnage doit être correct (1 millivolt doit correspondre à la hauteur 1 cm), la vitesse de déroulement doit être connue (habituellement 25 mm/seconde), la ligne isoélectrique doit être horizontale et parfaitement nette, et le tracé doit comporter les 12 dérivations principales au minimum."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hibernation myocardique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Forme d’autoprotection du myocarde ischémié",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le myocarde devient hypocontractile pour adapter sa consommation d’O2",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de nécrose étendue",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fonction stimulable par des catécholamines",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Récupérable en cas de revascularisation si la cause est un syndrome coronarien",
+          "correct": true
+        }
+      ],
+      "explanation": "L’hibernation myocardique est une forme d’autoprotection dans laquelle le myocarde ischémié devient hypocontractile pour adapter sa consommation d’O2 au faible transport d’O2. L’étendue est variable, mais il n’y a pas de nécrose. La fonction de ce myocarde est stimulable par des catécholamines; elle est récupérable en cas de geste de revascularisation, si la cause est un syndrome coronarien, en quelques heures à quelques jours."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de mise en place des électrodes d'un défibrillateur externe automatisé (DAE) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une électrode au-dessous de la clavicule droite à côté du sternum",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une électrode sous axillaire gauche en basithoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les électrodes doivent être placées sur le dos et la poitrine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le MCE doit être interrompu pendant l'application des électrodes",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut appliquer les électrodes sur la poitrine du patient : une au-dessous de la clavicule droite à côté du sternum et une sous axillaire gauche en basithoracique. Si plus d’un secouriste est présent, la RCP devrait être poursuivie pendant que les électrodes sont collées sur la poitrine."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les actions à réaliser en cas de pneumothorax sous tension comme cause réversible d'ACR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diagnostic est principalement clinique (asymétrie ou silence auscultatoire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement consiste en une péricardiocentèse échoguidée",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le traitement initial est une exsufflation à l’aiguille",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mise en place d'un drain thoracique est nécessaire après l'exsufflation",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic du pneumothorax sous tension est clinique (asymétrie ou silence auscultatoire), survenant dans un contexte de traumatisme. Le traitement est l'exsufflation à l’aiguille puis la mise en place d’un drain thoracique. La péricardiocentèse est pour la tamponnade."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures spécifiques à prendre pour la réanimation d'un nouveau-né prématuré de moins de 32 semaines d'aménorrhée (SA) en salle de naissance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le nouveau-né est directement enveloppé dans un sac en polyéthylène",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un séchage préalable est essentiel avant l'enveloppement",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La FiO2 est initiée à 21 %",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La FiO2 est initiée entre 21 et 30 %",
+          "correct": true
+        }
+      ],
+      "explanation": "Le prématuré de moins de 32 semaines d’aménorrhée (SA) est directement enveloppé dans un sac en polyéthylène, sans séchage préalable. La FiO2 est initiée à 21 % chez les nouveau-nés à terme et entre 21 et 30 % chez ceux de moins de 35 SA."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les actions à entreprendre si la fréquence cardiaque du nouveau-né ne remonte pas et que le thorax ne se soulève pas après 30 secondes de VPP au masque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vérification du matériel et repositionnement du masque (Fuites)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aspiration ou ouverture de la bouche (Obstruction)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des pressions d'insufflation si insuffisantes (Pressions)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Passer immédiatement aux compressions thoraciques",
+          "correct": false
+        }
+      ],
+      "explanation": "Si la FC ne remonte pas et que le thorax ne se soulève pas, l’acronyme FOP guide les actions : F (Fuites : vérification du matériel, repositionnement du masque), O (Obstruction : aspiration, ouverture de la bouche), P (Pressions sont-elles insuffisantes ou excessives)."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quand l'adrénaline est-elle indiquée chez le nouveau-né en salle de naissance et par quelles voies peut-elle être administrée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lorsque la FC persiste <60 bpm après 30 secondes de CT coordonnées avec une VPP à 100 % FiO2",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par voie intraveineuse prioritairement via un cathéter veineux ombilical (KTVO)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par voie intra-osseuse (IO)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par voie endo-trachéale à une dose plus faible que l'IV/IO",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adrénaline est indiquée lorsque la FC persiste <60 bpm après 30 secondes de CT coordonnées avec une VPP utilisant une FIO2 à 100 %. Elle peut être administrée par voie intraveineuse prioritairement à travers un cathéter veineux ombilical (KTVO), ou intra-osseuse (IO) à la dose de 10-30 μg/kg/prise. Une dose plus élevée (50-100μg/kg/prise) peut être administrée par voie endo-trachéale."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la phase 2 (plateau) du potentiel d'action de la cellule contractile cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à l'inactivation progressive des canaux à Na+",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle résulte d'une ouverture lente mais durable des canaux calciques lents",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'entrée de Ca2+ équilibre le flux sortant de K+",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle ramène le potentiel de membrane à zéro",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 2 (plateau) résulte d’une ouverture plus lente mais plus durable des canaux calciques lents voltage-dépendants. L’entrée de Ca2+ qui vient équilibrer le flux sortant de K+ permet de maintenir le potentiel de membrane en plateau."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences du syndrome post-arrêt cardiaque sur le plan neurologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les lésions neurologiques anoxo-ischémiques entraînent la majorité des décès",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ces lésions sont habituellement décelées dès le 1er jour de prise en charge",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les dégâts tissulaires cérébraux s'accentuent au cours de la phase de reperfusion",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une réaction hyperhémique peut contribuer à la constitution d'un œdème cérébral",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lésions neurologiques anoxo-ischémiques entraînent la majorité des décès observés chez les patients réanimés d’un arrêt circulatoire. Ces lésions neurologiques peuvent habituellement être décelées à partir du 3ème jour de prise en charge post-arrêt. Les dégâts tissulaires cérébraux initiés par l’interruption circulatoire s’accentuent au cours de la phase de reperfusion. Une réaction hyperhémique peut contribuer à la constitution d'un œdème cérébral."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les propriétés pharmacocinétiques et les doses de l'adrénaline utilisées en RCP avancée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dose de 1 mg en IV ou IO",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dose de 300 mg en IV",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Administrée toutes les 3 à 5 minutes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mécanisme d'action : agoniste alpha et bêta adrénergique",
+          "correct": true
+        }
+      ],
+      "explanation": "L'adrénaline est un agoniste alpha et bêta adrénergique, administrée à 1 mg en IV ou IO, toutes les 3 à 5 minutes. La dose de 300 mg est celle de l'amiodarone."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les propriétés pharmacocinétiques et les doses de l'amiodarone utilisées en RCP avancée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dose initiale de 1 mg en IV",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dose initiale de 300 mg en IV",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administrée après le 3ème choc si le rythme choquable persiste",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une deuxième dose de 150 mg est administrée après le 5ème choc",
+          "correct": true
+        }
+      ],
+      "explanation": "L’administration d’amiodarone (300 mg) est indiquée après le 3ème choc si le rythme choquable persiste. Une deuxième dose d’amiodarone de 150 mg est administrée après le 5ème choc."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les actions à réaliser en cas d'hypovolémie avérée ou de suspicion d'hémorragie aiguë chez le nouveau-né en salle de naissance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expansion par sérum salé isotonique à 10 ml/kg en première intention",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion de culots globulaires de groupe O rhésus négatif en attente",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administration d'adrénaline en bolus rapide",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation immédiate de la FiO2 à 100%",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de suspicion d’hémorragie aiguë (pâleur) ou d’hypovolémie avérée, une expansion par sérum salé isotonique à 10 ml/kg est utilisée en première intention, en attendant une transfusion de culots globulaires de groupe O rhésus négatif."
+    }
+  ]
+}

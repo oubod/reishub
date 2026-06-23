@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-47",
+  "title": "États dépressifs",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la durée minimale de persistance des symptômes dépressifs pour définir un épisode dépressif caractérisé (EDC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins d'une semaine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Au moins deux semaines",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Au moins un mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Au moins six mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Plus d'un an",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épisode dépressif caractérisé est défini par la persistance de symptômes dépressifs sur une période d'au moins deux semaines."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les symptômes suivants, lesquels sont considérés comme cardinaux et obligatoires pour le diagnostic d'un épisode dépressif caractérisé (EDC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perte ou gain de poids significatif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Humeur dépressive",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insomnie ou hypersomnie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Anhédonie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fatigue ou perte d'énergie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les symptômes cardinaux obligatoires sont l'humeur dépressive et/ou l'anhédonie (perte marquée de l'intérêt ou du plaisir). Au moins l'un des deux doit être présent."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement médicamenteux de première intention recommandé pour un épisode dépressif caractérisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibiteurs de la recapture de la sérotonine et de la noradrénaline (IRSNa)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Antidépresseurs tricycliques (ATC)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Inhibiteurs sélectifs de la recapture de la sérotonine (ISRS)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Benzodiazépines",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Neuroleptiques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les Inhibiteurs Sélectifs de la Recapture de la Sérotonine (ISRS) sont le traitement médicamenteux de première intention pour l'EDC."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon les données épidémiologiques, quelle est la prévalence vie entière de l'épisode dépressif caractérisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "5-10%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "15-20%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "25-30%",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Plus de 30%",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévalence vie entière de l'EDC est estimée à 15-20%, en faisant l'un des troubles psychiatriques les plus courants."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "L'évaluation du risque suicidaire chez un patient présentant un épisode dépressif caractérisé doit être :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réalisée uniquement si le patient en parle spontanément",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Systématique et prioritaire à chaque consultation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effectuée seulement en cas de dépression sévère",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Déléguée à un membre de la famille",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Reportée après l'instauration du traitement",
+          "correct": false
+        }
+      ],
+      "explanation": "L'évaluation du risque suicidaire est systématique et prioritaire à chaque consultation."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Le diagnostic d'épisode dépressif caractérisé (EDC) est purement clinique et requiert la présence d'au moins combien de symptômes sur les 9 listés par le DSM-5, presque tous les jours, pendant au moins 2 semaines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 symptômes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "4 symptômes",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "5 symptômes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "6 symptômes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "7 symptômes",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic d'EDC requiert la présence d'au moins 5 des 9 symptômes listés, presque tous les jours, pendant au moins 2 semaines, avec l'un des deux symptômes cardinaux obligatoire."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon le modèle bio-psycho-social, quels neurotransmetteurs sont principalement impliqués dans l'hypothèse monoaminergique de la dépression ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acétylcholine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sérotonine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "GABA",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Noradrénaline",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dopamine",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypothèse monoaminergique suggère un déficit en sérotonine, noradrénaline et dopamine."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "La triade cognitive de Beck, un facteur psychologique de la dépression, inclut une vision négative de :",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'entourage familial",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Soi-même",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Du monde",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "De l'avenir",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des traitements médicaux",
+          "correct": false
+        }
+      ],
+      "explanation": "La triade de Beck comprend une vision négative de soi-même, du monde et de l'avenir."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les symptômes suivants, lesquels sont des critères diagnostiques de l'EDC selon le DSM-5, en plus des symptômes cardinaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perte ou gain de poids significatif (> 5% en un mois)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la libido",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Agitation ou ralentissement psychomoteur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sentiment de dévalorisation ou de culpabilité excessive",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de l'aptitude à se concentrer",
+          "correct": false
+        }
+      ],
+      "explanation": "Les autres symptômes incluent la perte ou le gain de poids significatif, l'agitation ou le ralentissement psychomoteur, et le sentiment de dévalorisation ou de culpabilité excessive et inappropriée. L'augmentation de la libido et de l'aptitude à se concentrer ne sont pas des symptômes dépressifs."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors de l'évaluation du risque suicidaire, quelles questions directes doivent être explorées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les idées de mort",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les antécédents familiaux de maladies chroniques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les idées suicidaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le scénario suicidaire (plan, moyens, intentionnalité)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les préférences alimentaires",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut poser des questions directes et explorer les idées de mort, les idées suicidaires et le scénario suicidaire (plan, accès aux moyens, intentionnalité)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes organiques pouvant mimer un épisode dépressif caractérisé (dépression secondaire) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysthyroïdie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Parkinson",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Carence en vitamine B12",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperparathyroïdie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Syndrome paranéoplasique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes organiques incluent la dysthyroïdie (surtout hypothyroïdie), la maladie de Parkinson, la carence en vitamine B12/B9, et le syndrome paranéoplasique. L'hyperparathyroïdie n'est pas mentionnée comme cause directe dans le texte."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels médicaments sont cités comme pouvant induire une dépression iatrogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corticoïdes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Interféron",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Certains bêta-bloquants",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Isotrétinoïne",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Paracétamol",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes iatrogènes mentionnées sont les corticoïdes, l'interféron, certains bêta-bloquants et l'isotrétinoïne."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le diagnostic différentiel psychiatrique le plus important à écarter avant de conclure à un EDC primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouble obsessionnel compulsif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trouble bipolaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Trouble de la personnalité borderline",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Trouble panique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Phobie sociale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trouble bipolaire est le diagnostic différentiel le plus important, nécessitant la recherche systématique d'antécédents d'épisodes maniaques ou hypomaniaques."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le délai d'action habituel des antidépresseurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quelques heures",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1 à 2 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "2 à 4 semaines",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "1 à 2 mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Plus de 3 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "Le délai d'action des antidépresseurs est de 2 à 4 semaines."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les phases du traitement antidépresseur mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phase d'induction",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Phase aiguë",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phase de continuation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phase de maintenance",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Phase de sevrage",
+          "correct": false
+        }
+      ],
+      "explanation": "Les phases du traitement sont la phase aiguë (6-12 semaines), la phase de continuation (4-9 mois) et la phase de maintenance (> 1 an)."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les psychothérapies structurées dont l'efficacité est prouvée dans la prise en charge de l'EDC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Psychanalyse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thérapie Cognitivo-Comportementale (TCC)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thérapie Interpersonnelle (TIP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypnose régressive",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Thérapie familiale systémique",
+          "correct": false
+        }
+      ],
+      "explanation": "La Thérapie Cognitivo-Comportementale (TCC) et la Thérapie Interpersonnelle (TIP) sont des psychothérapies structurées dont l'efficacité est prouvée."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles mesures d'hygiène de vie sont recommandées dans la prise en charge de l'EDC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activité physique régulière",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Régulation du sommeil",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alimentation équilibrée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Consommation modérée d'alcool",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Arrêt total des activités sociales",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures d'hygiène de vie incluent l'activité physique régulière, la régulation du sommeil et une alimentation équilibrée."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'impact de l'épisode dépressif caractérisé (EDC) sur la santé mondiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est la deuxième cause mondiale d'incapacité selon l'OMS.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "C'est la première cause mondiale d'incapacité selon l'OMS.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Son impact est négligeable sur la santé publique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il touche principalement les pays développés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il n'est pas associé à une mortalité significative.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'EDC est la première cause mondiale d'incapacité selon l'OMS."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le sex-ratio de l'épisode dépressif caractérisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 femme pour 2 hommes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1 femme pour 1 homme",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "2 femmes pour 1 homme",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "3 femmes pour 1 homme",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "4 femmes pour 1 homme",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sex-ratio est de 2 femmes pour 1 homme."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs principaux du traitement de l'épisode dépressif caractérisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obtenir la rémission complète",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévenir les récidives",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Guérir toutes les comorbidités psychiatriques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Éliminer toute forme de tristesse future",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rétablir une qualité de vie satisfaisante",
+          "correct": true
+        }
+      ],
+      "explanation": "Le but du traitement est d'obtenir la rémission complète, de prévenir les récidives et de restaurer une qualité de vie satisfaisante."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs biologiques impliqués dans la physiopathologie de la dépression ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysrégulation des systèmes de neurotransmetteurs",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperactivité de l'axe hypothalamo-hypophyso-surrénalien",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "État pro-inflammatoire chronique de bas grade",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vulnérabilité génétique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Schémas cognitifs négatifs",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs biologiques incluent la dysrégulation des neurotransmetteurs, l'hyperactivité de l'axe HPA, l'état pro-inflammatoire et la vulnérabilité génétique. Les schémas cognitifs négatifs sont des facteurs psychologiques."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs psychologiques contribuant à la dépression ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Événements de vie stressants",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Schémas cognitifs négatifs",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traits de personnalité comme le neuroticisme",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traumatismes infantiles",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Isolement social",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs psychologiques sont les schémas cognitifs négatifs, les traits de personnalité (neuroticisme) et l'histoire personnelle (traumatismes infantiles, carences affectives). Les événements de vie stressants et l'isolement social sont des facteurs sociaux/environnementaux."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Le suivi d'un patient sous traitement pour un EDC est fondamental pour évaluer :",
+      "options": [
+        {
+          "id": "A",
+          "text": "La réponse au traitement",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'observance",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le risque suicidaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les préférences musicales du patient",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La situation financière du patient",
+          "correct": false
+        }
+      ],
+      "explanation": "Le suivi est fondamental pour évaluer la réponse au traitement, l'observance et le risque suicidaire."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "La psychoéducation du patient et de sa famille doit inclure quels messages clés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dépression est une vraie maladie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dépression est un manque de volonté",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'importance de dédramatiser la prise de traitement",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La nécessité d'une alliance thérapeutique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les détails techniques de la pharmacocinétique des antidépresseurs",
+          "correct": false
+        }
+      ],
+      "explanation": "La psychoéducation doit expliquer que la dépression est une vraie maladie (pas un manque de volonté), dédramatiser la prise de traitement et souligner l'importance de l'alliance thérapeutique."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les exemples d'ISRS (Inhibiteurs Sélectifs de la Recapture de la Sérotonine) cités comme traitement de première intention ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Venlafaxine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sertraline",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Escitalopram",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Duloxétine",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Fluoxétine",
+          "correct": true
+        }
+      ],
+      "explanation": "Les ISRS cités sont la Sertraline, l'Escitalopram et la Fluoxétine. La Venlafaxine et la Duloxétine sont des IRSNa."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un épisode dépressif caractérisé (EDC) doit être distingué de la tristesse normale ou du deuil non compliqué. Quelles sont les caractéristiques du deuil normal qui le différencient d'un EDC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tristesse est quasi-permanente et douloureuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'estime de soi est préservée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les pensées de mort sont récurrentes et avec un plan précis.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La réaction est centrée sur le défunt.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il entraîne une altération significative du fonctionnement social et professionnel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le deuil normal est une réaction attendue à une perte, centrée sur le défunt, avec une estime de soi préservée. L'humeur dépressive quasi-permanente, les idées suicidaires avec plan et l'altération significative du fonctionnement sont des caractéristiques de l'EDC."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant la physiopathologie biologique de la dépression, quelles anomalies sont mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la neuroplasticité",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyperactivité de l'axe hypothalamo-hypophyso-surrénalien avec hypercortisolémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anomalies des circuits neuronaux (cortex préfrontal, hippocampe, amygdale)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "État pro-inflammatoire chronique de bas grade",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Héritabilité estimée à ~10%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies biologiques incluent l'hyperactivité de l'axe HPA avec hypercortisolémie, les anomalies des circuits neuronaux (cortex préfrontal, hippocampe, amygdale) et un état pro-inflammatoire chronique de bas grade. Il y a une diminution de la neuroplasticité, et l'héritabilité est estimée à ~40%."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une perte de poids de 6% en un mois, une fatigue constante, et des difficultés de concentration. Pour poser le diagnostic d'EDC, quels autres symptômes doivent être présents, en tenant compte des critères DSM-5 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une humeur dépressive ou une anhédonie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des pensées de mort récurrentes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de l'appétit",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une insomnie de fin de nuit ou une hypersomnie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un sentiment de dévalorisation ou de culpabilité excessive",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour atteindre les 5 symptômes requis (perte de poids, fatigue, difficultés de concentration étant 3), il faut obligatoirement l'un des deux symptômes cardinaux (humeur dépressive ou anhédonie). Les pensées de mort, l'insomnie/hypersomnie et le sentiment de dévalorisation/culpabilité sont d'autres symptômes qui peuvent compléter le tableau. L'augmentation de l'appétit est une modification de l'appétit, mais doit être associée à d'autres symptômes pour atteindre le seuil."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas de risque suicidaire élevé (plan élaboré, forte intentionnalité), quelle est la conduite à tenir immédiate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescrire une dose plus élevée d'antidépresseurs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Proposer une psychothérapie individuelle en urgence",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'hospitalisation est une urgence",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si besoin, l'hospitalisation peut se faire sous contrainte (soins psychiatriques sans consentement)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Demander au patient de rentrer chez lui et de revenir le lendemain",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de risque élevé, l'hospitalisation est une urgence, et si besoin, elle peut se faire sous contrainte (soins psychiatriques sans consentement)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de suicide mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sexe féminin",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Isolement social",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Comorbidités (addictions, troubles de la personnalité)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Désespoir intense",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Présence d'enfants à charge",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque incluent le sexe masculin (non féminin), l'isolement, les comorbidités (addictions, troubles de la personnalité) et le désespoir intense. Les enfants à charge sont un facteur protecteur."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs protecteurs contre le suicide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Soutien social",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédents de tentatives de suicide",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Enfants à charge",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Alliance thérapeutique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Comorbidités psychiatriques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs protecteurs sont le soutien social, les enfants à charge et l'alliance thérapeutique. Les antécédents de tentatives de suicide et les comorbidités psychiatriques sont des facteurs de risque."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pour différencier un EDC d'un trouble bipolaire, que faut-il rechercher systématiquement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des antécédents d'épisodes maniaques ou hypomaniaques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des antécédents de troubles anxieux",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des antécédents de troubles de l'usage de substances",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des antécédents de traumatismes infantiles",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des antécédents de maladies neurologiques",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est crucial de rechercher systématiquement des antécédents d'épisodes maniaques ou hypomaniaques pour différencier un EDC d'un trouble bipolaire."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'arrêt du traitement antidépresseur, quelle est la recommandation principale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'arrêt doit être brutal dès la disparition des symptômes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'arrêt doit être progressif sur plusieurs semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'arrêt n'est jamais recommandé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'arrêt doit être progressif sur quelques jours.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'arrêt doit être décidé uniquement par le patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arrêt du traitement antidépresseur doit toujours être progressif sur plusieurs semaines pour éviter un syndrome de sevrage."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée et l'objectif de la phase de continuation du traitement antidépresseur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6-12 semaines pour la rémission",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "4-9 mois pour éviter la rechute",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "> 1 an pour éviter la récidive",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Quelques jours pour évaluer la tolérance",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Indéfinie pour les cas sévères",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase de continuation dure 4-9 mois et a pour objectif d'éviter la rechute."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée et l'objectif de la phase de maintenance du traitement antidépresseur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6-12 semaines pour la rémission",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "4-9 mois pour éviter la rechute",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "> 1 an pour éviter la récidive",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Quelques jours pour évaluer la tolérance",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Indéfinie pour les cas légers",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase de maintenance dure plus d'un an et a pour objectif d'éviter la récidive."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'efficacité des psychothérapies (TCC, TIP) dans l'EDC, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont inefficaces sans traitement médicamenteux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Leur efficacité est équivalente aux médicaments pour les formes légères à modérées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'association des psychothérapies et des médicaments est supérieure dans les formes modérées à sévères.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont uniquement indiquées pour les dépressions résistantes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours supérieures aux médicaments, quelle que soit la sévérité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les psychothérapies ont une efficacité prouvée, équivalente aux médicaments pour les formes légères à modérées. L'association des deux est supérieure dans les formes modérées à sévères."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pour les dépressions sévères et/ou résistantes, quelles approches thérapeutiques spécifiques sont mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Électroconvulsivothérapie (ECT)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimulation Magnétique Transcrânienne répétitive (rTMS)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Eskétamine (voie intranasale)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thérapie Cognitivo-Comportementale (TCC) seule",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation des doses d'ISRS à l'infini",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les dépressions sévères et/ou résistantes, l'ECT, la rTMS et l'Eskétamine sont des approches spécifiques. La TCC seule n'est pas spécifiquement mentionnée comme traitement de première intention pour les formes sévères/résistantes."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "L'alliance thérapeutique est un facteur pronostique majeur dans la prise en charge de l'EDC. Qu'implique-t-elle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une relation de confiance entre le patient et le soignant",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La prescription systématique de tous les traitements disponibles",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'absence de toute discussion sur les effets secondaires",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une adhésion aveugle du patient aux décisions médicales",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La capacité du patient à gérer seul sa maladie",
+          "correct": false
+        }
+      ],
+      "explanation": "L'alliance thérapeutique implique l'établissement d'une relation de confiance, qui est un facteur pronostique majeur."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment le suivi du patient doit-il être organisé en début de traitement pour un EDC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mensuel",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trimestriel",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hebdomadaire, puis espacé progressivement",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement à la demande du patient",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Annuel",
+          "correct": false
+        }
+      ],
+      "explanation": "Le suivi doit être rapproché, hebdomadaire en début de traitement, puis espacé progressivement."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi l'observance de la durée du traitement antidépresseur est-elle cruciale, même après la disparition des symptômes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour éviter un syndrome de sevrage",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour prévenir les rechutes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour prévenir les récidives",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour augmenter la dépendance au traitement",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour tester l'efficacité à long terme",
+          "correct": false
+        }
+      ],
+      "explanation": "La durée du traitement doit être respectée même après la disparition des symptômes pour prévenir les rechutes et les récidives."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "L'épisode dépressif caractérisé (EDC) est un trouble de l'humeur qui, au-delà des symptômes, doit entraîner :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une souffrance cliniquement significative",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une altération du fonctionnement social",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une altération du fonctionnement professionnel",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une altération du fonctionnement familial",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une amélioration des performances cognitives",
+          "correct": false
+        }
+      ],
+      "explanation": "L'EDC entraîne une souffrance cliniquement significative et/ou une altération du fonctionnement social, professionnel ou familial."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs sociaux et environnementaux mentionnés comme contribuant à la dépression ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Événements de vie stressants (deuil, perte d'emploi, séparation)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Isolement social et manque de soutien",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Conditions socio-économiques défavorables",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Neuroticisme",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypercortisolémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs sociaux et environnementaux incluent les événements de vie stressants, l'isolement social et le manque de soutien, ainsi que les conditions socio-économiques défavorables. Le neuroticisme est un facteur psychologique et l'hypercortisolémie un facteur biologique."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Parmi les symptômes de l'EDC, la modification de l'appétit ou du poids est significative si elle correspond à :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perte ou un gain de poids de 1% en un mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une perte ou un gain de poids de 3% en un mois",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une perte ou un gain de poids de plus de 5% en un mois",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une perte ou un gain de poids de 10% en six mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Toute modification de l'appétit, quelle que soit son ampleur",
+          "correct": false
+        }
+      ],
+      "explanation": "Le critère est une perte ou un gain de poids significatif (> 5% en un mois) ou une modification de l'appétit."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Le ralentissement ou l'agitation psychomotrice, en tant que symptôme de l'EDC, doit être :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ressenti uniquement par le patient",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Observable par les autres",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mesurable par des tests psychométriques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Présent uniquement le matin",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Uniquement une agitation",
+          "correct": false
+        }
+      ],
+      "explanation": "L'agitation ou le ralentissement psychomoteur doit être observable par les autres."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Les pensées de mort récurrentes ou les idées suicidaires, comme symptôme de l'EDC, peuvent se manifester par :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des pensées de mort sans plan précis",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des idées suicidaires avec un plan précis",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tentative de suicide",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une simple peur de la mort",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des pensées positives sur la fin de vie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pensées de mort récurrentes, les idées suicidaires (sans ou avec plan précis), ou une tentative de suicide sont des manifestations de ce symptôme."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à explorer concernant le scénario suicidaire lors de l'évaluation du risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le plan ('Comment ? Où ? Quand ?')",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'accès aux moyens ('Avez-vous ce qu'il faut pour le faire ?')",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'intentionnalité ('Êtes-vous décidé(e) à le faire ?')",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les antécédents familiaux de dépression",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les habitudes de sommeil du patient",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scénario suicidaire implique l'exploration du plan, de l'accès aux moyens et de l'intentionnalité."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Parmi les causes organiques de dépression secondaire, quelles sont les affections neurologiques spécifiques mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie d'Alzheimer",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Parkinson",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sclérose en plaques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Accident vasculaire cérébral (AVC)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tumeur cérébrale",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes neurologiques mentionnées sont la maladie de Parkinson, la sclérose en plaques, l'AVC et la tumeur cérébrale. La maladie d'Alzheimer n'est pas spécifiquement citée dans ce contexte."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les exemples d'IRSNa (Inhibiteurs de la Recapture de la Sérotonine et de la Noradrénaline) cités comme traitement de deuxième intention ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sertraline",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Venlafaxine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Escitalopram",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Duloxétine",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fluoxétine",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IRSNa cités sont la Venlafaxine et la Duloxétine. La Sertraline, l'Escitalopram et la Fluoxétine sont des ISRS."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "L'électroconvulsivothérapie (ECT ou sismothérapie) est le traitement le plus efficace dans quelles formes de dépression ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dépressions légères",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dépressions sévères",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dépressions mélancoliques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dépressions psychotiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dépressions résistantes aux ISRS seuls",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ECT est le traitement le plus efficace dans les dépressions sévères, mélancoliques ou psychotiques."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Au-delà du traitement de l'épisode aigu, quels sont les objectifs à long terme de la prise en charge de l'EDC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accompagner le patient sur le long terme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévenir les rechutes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Restaurer une qualité de vie satisfaisante",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Éliminer toute vulnérabilité génétique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Maintenir le patient sous traitement à vie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le but n'est pas seulement de traiter l'épisode aigu, mais aussi d'accompagner le patient sur le long terme pour prévenir les rechutes et restaurer une qualité de vie satisfaisante."
+    }
+  ]
+}

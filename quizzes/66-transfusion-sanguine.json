@@ -1,0 +1,1358 @@
+{
+  "lectureId": "66",
+  "number": "66",
+  "title": "Transfusion sanguine",
+  "partie": "J2",
+  "specialty": "Hématologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des antigènes du système ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont de nature protidique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont ubiquitaires dans l'organisme, y compris sur les GR, lymphocytes et plaquettes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur expression est d'emblée mature à la naissance.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont retrouvés sous forme soluble dans le plasma et diverses sécrétions.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les antigènes ABO sont de nature glucidique (sucres branchés sur glycolipides ou glycoprotéines membranaires). Ils sont ubiquitaires dans l'organisme (GR, lymphocytes, plaquettes, autres tissus sauf conjonctif, cornée, os, SNC) et retrouvés sous forme soluble dans le plasma et les sécrétions. Leur maturation est post-natale."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Concernant les anticorps naturels du système ABO, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont à prédominance IgG.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils apparaissent spontanément chez le nourrisson entre 3 et 6 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont dirigés contre les antigènes absents du globule rouge.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils traversent la barrière placentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps naturels du système ABO sont à prédominance IgM, apparaissent spontanément chez le nourrisson entre 3 et 6 mois, et sont dirigés contre les antigènes absents du globule rouge. Les IgM ne traversent pas le placenta."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelle est l'indication principale d'un Concentré de Globules Rouges (CGR) standard ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévention des réactions frissons-hyperthermie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Anémies cliniquement mal supportées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit en IgA avec anticorps anti-IgA.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prévention de l'allo-immunisation aux antigènes leuco-plaquettaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les CGR standard sont indiqués pour les anémies cliniquement mal supportées ou n'ayant pas de traitement médical. Les autres options sont des indications pour des CGR transformés (déleucocytés, déplasmatisés)."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les antigènes les plus importants du système Rhésus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A et B",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "D, C, E, c, e",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "K et k",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "M et N",
+          "correct": false
+        }
+      ],
+      "explanation": "Les antigènes les plus importants du système Rhésus sont D, C, E, c, e. Les antigènes A et B appartiennent au système ABO, et K et k au système Kell, M et N au système MNSs."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Un sujet est considéré comme RhD positif si la recherche de l'antigène D faible est positive. Dans quelles situations cette recherche est-elle obligatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez les donneurs de sang RhD négatifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez les femmes enceintes RhD négatives.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le nouveau-né RhD négatif de mère RhD négative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez tous les receveurs de sang.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche du D faible est obligatoire chez les donneurs de sang RhD négatifs, les femmes enceintes RhD négatives et le nouveau-né RhD négatif de mère RhD négative. Si elle est positive, le sujet est considéré RhD positif."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des antigènes du système Rhésus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont de nature glucidique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont propres à l'homme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont ubiquitaires dans l'organisme.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont d'emblée matures à la naissance.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les antigènes Rhésus sont de nature protidique, propres à l'homme et propres aux GR. Ils sont d'emblée matures à la naissance."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelles sont les indications du Plasma Frais Congelé (PFC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CIVD grave avec effondrement des facteurs de coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémorragie aiguë avec déficit global des facteurs de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficits complexes et rares en facteurs de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Solution de remplissage en cas de choc non hémorragique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le PFC est indiqué en cas de CIVD grave, d'hémorragie aiguë avec déficit global des facteurs de la coagulation, et de déficits complexes et rares en facteurs de la coagulation. Il ne doit plus être utilisé comme solution de remplissage."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux signes cliniques d'une hémolyse aiguë intravasculaire post-transfusionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céphalées et rougeur de la face.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur lombaire et frissons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémoglobinurie (urines noires).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ictère précoce.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de l'hémolyse aiguë intravasculaire incluent céphalées, rougeur de la face, douleur lombaire, frissons, hyperthermie, état de choc, CIVD et hémoglobinurie. L'ictère est tardif."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelle est la durée de validité d'une Recherche d'Anticorps Irréguliers (RAI) en l'absence d'événement immunisant dans les 6 mois précédents l'acte transfusionnel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "72 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "21 jours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "6 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "La durée de validité d'une RAI est de 72 heures. Cependant, en l'absence d'événement immunisant (grossesse, transfusion, greffe, transplantation) dans les 6 mois précédents l'acte transfusionnel, la durée de validité d'une RAI est de 21 jours."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal de la transfusion sanguine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apporter au receveur les constituants du sang qui lui manquent.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévenir les complications post-transfusionnelles immédiates.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Corriger une perte ou un déficit sanguin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Assurer la compatibilité immunologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La transfusion sanguine a pour objectif d'apporter au receveur les constituants du sang qui lui manquent pour corriger une perte ou un déficit. Les autres options sont des aspects de la sécurité transfusionnelle ou des conséquences."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelles sont les indications du CGR déleucocyté (filtré) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévention de l'alloimmunisation aux antigènes leuco-plaquettaires (HLA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévention des réactions frissons-hyperthermie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prévention de la transmission de virus contenus dans les leucocytes (CMV, HTLVI).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit en IgA avec anticorps anti-IgA.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CGR déleucocyté est indiqué pour la prévention de l'alloimmunisation aux antigènes HLA, la prévention des réactions frissons-hyperthermie et la prévention de la transmission de virus comme le CMV et le HTLVI. Le déficit en IgA est une indication pour le CGR déplasmatisé."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme physiopathologique de la surcharge en citrate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la kaliémie du produit sanguin.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chélation du calcium par le citrate de la solution anticoagulante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfusion rapide et/ou massive de produits sanguins.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dépôt de fer au niveau des tissus.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surcharge en citrate est due à la chélation du calcium par le citrate de la solution anticoagulante, provoquant une acidose et une hypocalcémie. La transfusion rapide/massive est un facteur favorisant, mais pas le mécanisme direct. L'augmentation de la kaliémie est liée à la surcharge en potassium, et le dépôt de fer à l'hémochromatose."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques d'une réaction allergique bénigne post-transfusionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rougeur de la peau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prurit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Urticaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Crise d'asthme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques bénins des réactions allergiques incluent rougeur de la peau, prurit et urticaire, souvent accompagnés de frissons et hyperthermie. La crise d'asthme est un signe de réaction grave."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelle est la règle de compatibilité ABO pour la transfusion de plasma frais congelé (PFC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ne pas apporter les anticorps correspondants à un antigène présent sur les GR du receveur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les GR à transfuser doivent être compatibles avec les anticorps naturels du receveur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le donneur doit être O dangereux.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le receveur doit être de groupe O.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la transfusion de PFC, la règle est de ne pas apporter les anticorps correspondants à un antigène présent sur les GR du receveur. La règle pour les GR est l'inverse. Le donneur O dangereux est une exception pour les GR, pas une règle pour le plasma."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences immuno-hématologiques des hémolysines anti-A ou anti-B (Ac immuns) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont actives à 37°C et fortement hémolysantes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont responsables d'accidents d'hémolyse où les Ac du donneur agressent les GR du receveur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles ne traversent pas la barrière fœto-placentaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont le plus souvent observées chez le sujet de groupe O.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les hémolysines anti-A ou anti-B sont des IgG actives à 37°C et fortement hémolysantes. Elles sont dangereuses en transfusion (les Ac du donneur agressent les GR du receveur) et peuvent traverser la barrière fœto-placentaire, causant des maladies hémolytiques du nouveau-né. Elles sont le plus souvent observées chez le sujet O."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Concernant les variants de l'antigène D, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le D faible est une anomalie qualitative de la structure de l'Ag RhD.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le D partiel peut entraîner le développement d'anticorps anti-D.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le D faible est caractérisé par un nombre réduit de molécules antigéniques D à la surface du GR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La distinction entre D faible et D partiel est impossible sérologiquement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le D faible est une anomalie quantitative (nombre de molécules antigéniques D plus faible). Le D partiel est une anomalie qualitative (structure de l'Ag RhD modifiée) et peut entraîner le développement d'anticorps anti-D. Sérologiquement, la distinction entre D faible et D partiel est impossible, seule la biologie moléculaire le permet."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du CGR irradié ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévention de l'allo-immunisation aux antigènes leuco-plaquettaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Patients immunodéprimés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfusion in-utéro.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit en IgA avec anticorps anti-IgA.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CGR irradié est indiqué pour bloquer la mitose des leucocytes et prévenir la réaction du greffon contre l'hôte chez les patients immunodéprimés et pour la transfusion in-utéro. La prévention de l'allo-immunisation HLA est une indication du CGR déleucocyté, et le déficit en IgA du CGR déplasmatisé."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les systèmes de groupes sanguins érythrocytaires considérés comme les plus importants en pratique transfusionnelle en dehors du système ABO et Rhésus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lewis.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Kell.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Duffy.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Kidd.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les systèmes Kell, Duffy et Kidd sont considérés comme les plus importants en pratique transfusionnelle car très immunogènes et pouvant être responsables d'accidents hémolytiques et de MHNN. Le système Lewis a peu d'intérêt en transfusion."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du phénotypage Rhésus et Kell en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez la petite fille depuis la naissance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez la femme en âge de procréer.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le polytransfusé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez tous les donneurs de sang.",
+          "correct": false
+        }
+      ],
+      "explanation": "En Tunisie, le phénotypage Rhésus et Kell est indiqué chez la petite fille (depuis la naissance), la femme en âge de procréer et le polytransfusé. Il n'est pas mentionné comme obligatoire pour tous les donneurs de sang."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques des réactions frissons-hyperthermie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence chez le receveur d'Ac anti-leuco-plaquettaires (anti-HLA, anti-plaquettaire).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Libération de cytokines pyrogènes (IL-1β, IL-6, IL-8, TNFα) au cours de la conservation des PSL.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation de la cascade du complément par des Ac du receveur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Présence d'Ac anti-IgA chez le receveur.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les réactions frissons-hyperthermie sont liées soit à la présence chez le receveur d'Ac anti-leuco-plaquettaires (anti-HLA, anti-plaquettaire), soit à la libération de cytokines pyrogènes et autres modificateurs de la réponse biologique par les leucocytes ou plaquettes au cours de la conservation. L'activation du complément est liée à l'hémolyse aiguë, et les Ac anti-IgA aux réactions anaphylactiques."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives de la surcharge volémique (OAP, TACO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion lente des produits sanguins.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Injection de diurétiques chez les patients à risque (insuffisants cardiaques ou pulmonaires).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance régulière du patient pendant la transfusion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation de CGR déplasmatisés.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention de la surcharge volémique repose sur une transfusion lente, l'injection de diurétiques si besoin chez les patients exposés (insuffisants cardiaques ou pulmonaires) et une surveillance régulière du patient. L'utilisation de CGR déplasmatisés est pour les réactions allergiques."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des anticorps immuns du système Rhésus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont à prédominance IgM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils apparaissent après stimulation antigénique (transfusion ou grossesse).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont dirigés contre l'antigène immunisant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils peuvent entraîner une maladie hémolytique du nouveau-né.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les anticorps immuns du système Rhésus sont des IgG, apparaissent après stimulation antigénique (alloimmunisation), sont dirigés contre l'antigène immunisant et peuvent entraîner une maladie hémolytique du nouveau-né car les IgG traversent le placenta."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du Test de Coombs Direct (TCD) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise en évidence d'auto-anticorps dans les anémies hémolytiques auto-immunes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en évidence d'anticorps maternels fixés sur les GR du nouveau-né dans la MHNN.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recherche d'anticorps irréguliers (RAI).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Accident hémolytique post-transfusionnel.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le TCD est indiqué pour la mise en évidence d'auto-anticorps dans les anémies hémolytiques auto-immunes, d'anticorps maternels fixés sur les GR du nouveau-né dans la MHNN et en cas d'accident hémolytique post-transfusionnel. La RAI est une application du Test de Coombs Indirect (TCI)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives de l'hémochromatose chez les polytransfusés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de CGR déplasmatisés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chélation du fer systématiquement associée aux transfusions.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administration de déféroxamine par voie injectable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration de défériprone ou déférasirox par voie orale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention de l'hémochromatose chez les polytransfusés repose sur la chélation du fer systématiquement associée aux transfusions, avec des agents comme la déféroxamine (injectable) ou la défériprone/déférasirox (orale). Le CGR déplasmatisé est pour les réactions allergiques."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du système Lewis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est un système de groupe sanguin au sens strict du terme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les antigènes Lewis sont absents des hématies fœtales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les anticorps anti-Lewis sont des IgM et ont peu d'intérêt en transfusion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est impliqué dans la maladie hémolytique du nouveau-né (MHNN).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système Lewis n'est pas un système de groupe sanguin au sens strict, mais un système de sécrétion. Les antigènes Lewis sont absents des hématies fœtales, et les anticorps anti-Lewis (IgM) ont peu d'intérêt en transfusion et ne sont pas impliqués dans la MHNN."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures à prendre en charge en cas de choc septique post-transfusionnel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter immédiatement la transfusion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Garder la voie d'abord veineuse pour la perfusion d'un soluté.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Adresser le PSL incriminé au laboratoire de bactériologie pour examen direct et culture.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réaliser des hémocultures chez le patient.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de choc septique, il faut arrêter immédiatement la transfusion, maintenir la voie d'abord, adresser le PSL incriminé au laboratoire de bactériologie et réaliser des hémocultures chez le patient. Le traitement et la surveillance doivent être entamés."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du phénotype étendu (Duffy, Kidd, MNSs) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez les receveurs alloimmunisés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez les patients polytransfusés (drépanocytaires, thalassémiques).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les femmes enceintes RhD négatives.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chez les donneurs de sang RhD négatifs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le phénotype étendu est indiqué chez les receveurs alloimmunisés (pour transfuser des CGR dépourvus de l'Ag correspondant) et chez les patients polytransfusés (drépanocytaires, thalassémiques) en raison de leur susceptibilité à développer des alloanticorps. Les autres options concernent la recherche du D faible ou le groupage RhD."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives de la transmission du CMV par transfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de PSL déleucocytés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion de PSL CMV négatifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Exclusion des donneurs ayant séjourné en zone d'endémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dépistage systématique de l'Ag HBs chez tout donneur de sang.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention de l'infection à CMV repose sur la transfusion de PSL déleucocytés et/ou CMV négatifs. L'exclusion des donneurs en zone d'endémie est pour le paludisme, et le dépistage de l'Ag HBs pour l'hépatite B."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du CGR déplasmatisé (lavé) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficit en IgA avec anticorps anti-IgA.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réaction allergique post-transfusionnelle sévère ou résistante à la prémédication.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prévention de l'alloimmunisation aux antigènes leuco-plaquettaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Greffe de moelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CGR déplasmatisé est indiqué pour éliminer les protéines plasmatiques, notamment en cas de déficit en IgA avec anticorps anti-IgA (risque de choc anaphylactique) ou de réaction allergique post-transfusionnelle sévère ou résistante à la prémédication. Les autres options sont pour le CGR déleucocyté et le CGR irradié."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du purpura post-transfusionnel aigu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survenue brutale d'une thrombopénie profonde au 8ème jour post-transfusionnel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est rare mais sévère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il survient chez les femmes multipares et les polytransfusés.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est dû à une alloimmunisation anti-HLA.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le purpura post-transfusionnel aigu est rare mais sévère, se manifestant par une thrombopénie profonde au 8ème jour post-transfusionnel, principalement chez les femmes multipares et les polytransfusés. Il est secondaire à une immunisation contre un antigène plaquettaire (ex: anti-HPA-1a), pas anti-HLA."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes de l'épreuve ultime au lit du malade ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contrôle de la concordance de l'identité et des documents.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contrôle direct de la compatibilité entre plasma du patient et CGR à transfuser.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contrôle du groupe ABO du patient et du CGR à transfuser par une épreuve globulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche d'anticorps irréguliers (RAI).",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épreuve ultime au lit du malade comporte une 1ère étape obligatoire de contrôle de l'identité et des documents, et une 2ème étape de contrôle ultime de compatibilité (épreuve globulaire pour le groupe ABO ou contrôle direct de compatibilité plasma/CGR). La RAI est un examen pré-transfusionnel en laboratoire."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives de la réaction du greffon contre l'hôte (GvH) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de PSL irradiés chez les immunodéprimés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion de PSL déleucocytés.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de dons de sang d'hommes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Éviction des femmes multipares du don de plasma.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention de la GvH repose sur la transfusion de PSL irradiés chez les immunodéprimés pour bloquer la mitose des lymphocytes T. Les PSL déleucocytés préviennent l'alloimmunisation anti-HLA et les réactions frissons-hyperthermie. L'utilisation de dons d'hommes et l'éviction des femmes multipares du don de plasma sont des mesures préventives du TRALI."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications des immunoglobulines humaines polyvalentes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficits immunitaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cytopénies immunologiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prévention de l'alloimmunisation à l'Ag D.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prévention de l'hépatite B en cas de contamination accidentelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les immunoglobulines humaines polyvalentes sont indiquées pour les déficits immunitaires et les cytopénies immunologiques. La prévention de l'alloimmunisation à l'Ag D (Ig anti-D) et la prévention de l'hépatite B (Ig anti-HBs) sont des indications d'immunoglobulines spécifiques."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Concernant la biosynthèse des antigènes ABO, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le gène H code pour une fucosyl-transférase qui ajoute un fucose pour former l'antigène H.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'allèle h à l'état homozygote détermine le phénotype Bombay caractérisé par l'absence de l'Ag H.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La synthèse des antigènes A et B nécessite la présence de l'antigène H.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'allèle O est non fonctionnel et conduit à l'absence d'Ag A ou B sur les GR à l'état hétérozygote.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le gène H code pour une fucosyl-transférase formant l'Ag H. L'allèle h homozygote détermine le phénotype Bombay (absence d'Ag H). La synthèse des Ag A et B nécessite la présence de l'Ag H. L'allèle O est non fonctionnel et conduit à l'absence d'Ag A ou B sur les GR à l'état homozygote (phénotype O), pas hétérozygote."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Un patient de groupe sanguin A2B peut-il développer des anticorps anti-A1 ? Si oui, quelles en sont les conséquences transfusionnelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, des Ac anti-A1 naturels irréguliers peuvent exister chez les sujets A2B.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Non, les sujets A2B ne peuvent pas développer d'Ac anti-A1.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ces Ac anti-A1 ont des conséquences transfusionnelles graves.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ces Ac anti-A1 n'ont aucune conséquence transfusionnelle.",
+          "correct": true
+        }
+      ],
+      "explanation": "Des Ac anti-A1 naturels irréguliers peuvent exister chez des sujets A2 et A2B. Cependant, le cours précise qu'ils n'ont aucune conséquence transfusionnelle. En pratique transfusionnelle, il n'y a aucun intérêt à la subdivision du groupe A en sous-groupes A1 et A2."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques de la lésion pulmonaire aiguë post-transfusionnelle (TRALI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mécanisme immunologique impliquant des anticorps anti-HLA classe I et/ou anti-granulocytes du donneur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mécanisme non immunologique lié à l'accumulation de lipides biologiquement actifs dans les produits sanguins.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaction du greffon contre l'hôte par les cellules immunocompétentes du donneur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Surcharge volémique due à une transfusion rapide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TRALI est expliqué par deux mécanismes : un mécanisme immunologique (Ac anti-HLA ou anti-granulocytes du donneur entraînant une dégranulation des granulocytes du receveur dans le poumon) et un mécanisme non immunologique (accumulation de lipides biologiquement actifs dans les PSL conservés). La GvH et la surcharge volémique sont d'autres effets indésirables."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Un patient de groupe O dangereux est un donneur universel. Quelles sont les implications de cette qualification ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il possède des hémolysines anti-A ou anti-B immunes (IgG).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ses produits sanguins labiles doivent être transfusés en isogroupe ABO (receveurs O).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ses anticorps peuvent traverser la barrière fœto-placentaire et causer des MHNN.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est dangereux en transfusion car ses anticorps agressent les GR du receveur.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un sujet de groupe O dangereux possède des hémolysines (Ac anti-A ou anti-B immuns, IgG) actives à 37°C. Ces Ac sont dangereux en transfusion (les Ac du donneur agressent les GR du receveur) et peuvent traverser la barrière fœto-placentaire. Les PSL issus de ces dons doivent être transfusés en isogroupe ABO (receveurs O)."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'ictère post-transfusionnel précoce ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est dû à une hémolyse transfusionnelle subaiguë par Ac anti-érythrocytaires de titre et d'affinité faibles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le conflit Ag-Ac est responsable d'une hémolyse intravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il apparaît généralement le lendemain de la transfusion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il ne doit pas être confondu avec l'ictère dû à l'hémolyse normale du sang transfusé.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ictère post-transfusionnel précoce est dû à une hémolyse transfusionnelle subaiguë secondaire à des Ac anti-érythrocytaires de titre et d'affinité faibles, n'activant pas la cascade du complément jusqu'au complexe d'attaque des membranes. Le conflit Ag-Ac est responsable d'une hémolyse intra-tissulaire. Il apparaît le lendemain de la transfusion et doit être distingué de l'ictère physiologique."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les règles de compatibilité Rhésus D pour la transfusion érythrocytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les CGR RhD négatifs sont réservés aux sujets RhD négatifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les sujets RhD positifs peuvent recevoir des CGR RhD négatifs.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La compatibilité Rhésus D est obligatoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les sujets RhD négatifs peuvent recevoir des CGR RhD positifs en cas d'urgence vitale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La compatibilité Rhésus D est obligatoire. Les CGR RhD négatifs sont réservés aux sujets RhD négatifs en raison de la rareté du phénotype. Les sujets RhD négatifs ne doivent pas recevoir de CGR RhD positifs, sauf situations très particulières non détaillées comme règle générale ici."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'alloimmunisation anti-HLA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mauvais rendement transfusionnel des concentrés plaquettaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réaction de frissons contre l'hôte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rejet de greffe en cas de transplantation d'organe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Purpura post-transfusionnel aigu.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'alloimmunisation anti-HLA peut entraîner un mauvais rendement transfusionnel, des réactions de frissons contre l'hôte et un rejet de greffe en cas de transplantation d'organe. Le purpura post-transfusionnel aigu est lié à des anticorps anti-plaquettaires (ex: anti-HPA-1a)."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures à prendre en cas d'accident hémolytique aigu intravasculaire post-transfusionnel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt immédiat de la transfusion et maintien de la voie d'abord.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Traitement du choc (oxygénothérapie, remplissage, amines vasopressives).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance de la diurèse et traitement de l'insuffisance rénale (Lasilix).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Envoi de toutes les poches de sang (transfusées et non transfusées) à la banque de sang.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prise en charge d'une hémolyse aiguë intravasculaire inclut l'arrêt immédiat de la transfusion, le maintien de la voie d'abord, le traitement du choc, la surveillance de la diurèse, le traitement de l'insuffisance rénale, et l'envoi des poches de sang à la banque de sang pour investigation. Un bilan d'hémolyse et la déclaration de l'incident sont également nécessaires."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'accident hémolytique retardé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est dû à la réactivation d'un anticorps préexistant ou à l'apparition d'un anticorps d'allo-immunisation primaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est habituellement bénin et infraclinique, souvent non diagnostiqué.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il se manifeste par une hémolyse au 5ème-6ème jour après la transfusion avec ictère et fièvre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic biologique repose sur un TCD et l'élution des Ac fixés in vivo par une RAI.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'accident hémolytique retardé est dû à la réactivation d'un Ac préexistant ou à l'apparition d'un Ac de novo. Il est souvent bénin et infraclinique, mais peut se manifester par une hémolyse au 5ème-6ème jour avec ictère et fièvre. Le diagnostic biologique implique un TCD et l'élution des Ac fixés in vivo par une RAI."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les antigènes érythrocytaires dont l'immunogénicité est la plus élevée, selon l'ordre décroissant mentionné ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "D.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "K.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "E.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "c.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "S.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'immunogénicité des antigènes érythrocytaires décroît dans l'ordre suivant : D > K > E > c > Fya > Jka > S > s. Donc D, K, E, c sont parmi les plus immunogènes, S est moins immunogène que les précédents."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions qui peuvent dépasser la capacité de l'organisme à réparer une surcharge en citrate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion massive et/ou rapide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nouveau-né.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les systèmes de réparation de la surcharge en citrate (foie, rein, Ca++ osseux) peuvent être dépassés en cas de transfusion massive et/ou rapide, d'insuffisance hépatique ou chez le nouveau-né. L'insuffisance rénale est plus spécifiquement associée à la surcharge en potassium."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les règles de compatibilité ABO pour la transfusion érythrocytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un receveur de groupe A peut recevoir du sang de groupe O.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un receveur de groupe O peut recevoir du sang de groupe A.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un receveur de groupe AB peut recevoir du sang de groupe B.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un receveur de groupe B peut recevoir du sang de groupe AB.",
+          "correct": false
+        }
+      ],
+      "explanation": "La règle est de ne jamais transfuser des GR correspondant à l'Ac présent dans le plasma du receveur. Un receveur A (Ac anti-B) peut recevoir O. Un receveur O (Ac anti-A et anti-B) ne peut pas recevoir A. Un receveur AB (pas d'Ac) peut recevoir B. Un receveur B (Ac anti-A) ne peut pas recevoir AB."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les applications du Test de Coombs Indirect (TCI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recherche d'anticorps irréguliers (RAI).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Test de compatibilité au laboratoire (EDCL).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Détermination de certains phénotypes érythrocytaires, notamment le D faible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mise en évidence d'auto-anticorps dans les anémies hémolytiques auto-immunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les applications du TCI incluent la Recherche d'Anticorps Irréguliers (RAI), le Test de Compatibilité au Laboratoire (EDCL) et la détermination de certains phénotypes érythrocytaires, en particulier le D faible. La mise en évidence d'auto-anticorps dans les anémies hémolytiques auto-immunes est une indication du Test de Coombs Direct (TCD)."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives des réactions allergiques post-transfusionnelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescription systématique d'antihistaminiques avant la transfusion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion de CGR déplasmatisés chez les patients ayant des réactions sévères ou un déficit en IgA.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de PSL déleucocytés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Éviction des femmes multipares du don de plasma.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention des réactions allergiques inclut la prescription systématique d'antihistaminiques avant la transfusion et la transfusion de CGR déplasmatisés chez les patients ayant déjà développé des réactions allergiques importantes et sévères ou ayant un déficit en IgA. Les PSL déleucocytés et l'éviction des femmes multipares sont pour d'autres types de complications (frissons-hyperthermie, TRALI)."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques génétiques du système Rhésus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les gènes RHD et RHCE sont localisés sur le chromosome 1.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le gène RHD code pour l'Ag D, déterminant le phénotype RhD positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La délétion du locus RHD à l'état homozygote conduit à l'absence de production de l'Ag D.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les Ag C et c sont antithétiques, ainsi que les Ag E et e.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les antigènes Rhésus sont codés par deux gènes homologues, RHD et RHCE, adjacents, localisés sur le chromosome 1. Le gène RHD exprime la protéine RhD (Ag D), et sa délétion homozygote conduit à l'absence d'Ag D. Les antigènes C et c sont antithétiques, de même que E et e, signifiant que si l'un est absent, l'autre est présent (ou les deux coexprimés en cas d'hétérozygotie)."
+    }
+  ]
+}

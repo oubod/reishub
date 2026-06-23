@@ -1,0 +1,1409 @@
+{
+  "lectureId": "36",
+  "number": "36",
+  "title": "Hydatidoses hépatiques et pulmonaires",
+  "partie": "J1",
+  "specialty": "Chirurgie générale",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Concernant l'épidémiologie de l'échinococcose kystique en Tunisie, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle sévit sur un mode hyper-endémique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La localisation pulmonaire est la principale localisation chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les régions hyper-endémiques incluent Kasserine, Sidi Bouzid et Kairouan.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'incidence chirurgicale annuelle est d'environ 1,26/100 000 habitants.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échinococcose kystique sévit en Tunisie sur un mode hyper-endémique, notamment dans les régions de Kasserine, Sidi Bouzid et Kairouan. La localisation hépatique est la principale chez l'adulte (60%), suivie par la pulmonaire. L'incidence chirurgicale annuelle est d'environ 12,6/100 000 habitants."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les hôtes impliqués dans le cycle naturel d'Echinococcus granulosus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'homme est l'hôte définitif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le chien est l'hôte définitif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les herbivores (ovins, bovins) sont des hôtes intermédiaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'homme est un hôte intermédiaire accidentel.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le chien et certains canidés sauvages sont les hôtes définitifs, abritant le parasite adulte. Les herbivores (ovins, bovins, caprins, camélidés) sont les hôtes intermédiaires, abritant la forme larvaire. L'homme est un hôte intermédiaire accidentel, une impasse parasitaire."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de l'œuf d'Echinococcus granulosus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il mesure 30 à 50 microns de diamètre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est entouré d'une coque externe épaisse et striée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il contient un embryon hexacanthe muni de trois paires de crochets.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sa longévité est de quelques heures dans le milieu extérieur.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les œufs mesurent 30 à 50 microns de diamètre et sont entourés d'une coque interne épaisse et striée appelée embryophore. Ils contiennent un embryon hexacanthe muni de trois paires de crochets. Leur longévité est d'au moins 18 mois sur le sol."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelles sont les couches constituant la larve hydatique (kyste hydatique) de l'extérieur vers l'intérieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La couche germinale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La couche adventitielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La couche stratifiée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le liquide hydatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "De l'extérieur vers l'intérieur, la larve hydatique est composée de la couche adventitielle (réaction de l'hôte), de la couche stratifiée (cuticule anhiste et résistante) et de la couche germinale (membrane proligère fertile). Le liquide hydatique remplit la cavité."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelles sont les voies de migration de l'embryon hexacanthe après ingestion par l'homme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La voie lymphatique, cheminant directement vers la circulation pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La voie portale, emportant les embryons vers le foie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La voie cave, via des shunts porto-caves physiologiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La voie biliaire directe.",
+          "correct": false
+        }
+      ],
+      "explanation": "Après avoir traversé la paroi intestinale, les embryons peuvent emprunter la voie lymphatique (via le canal thoracique), la voie cave (via shunts porto-caves) ou la voie portale (voie principale vers le foie)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelle est la localisation la plus fréquente de l'échinococcose kystique chez l'adulte et chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez l'adulte : pulmonaire (60%).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez l'adulte : hépatique (60%).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez l'enfant : hépatique (47-77%).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chez l'enfant : pulmonaire (47-77%).",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez l'adulte, la localisation hépatique est la principale (60% des cas). Chez l'enfant, la localisation pulmonaire est la première (47 à 77% des cas)."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs d'hyper-endémicité de l'échinococcose kystique en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'intensité d'élevage ovin traditionnel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La densité du réservoir canin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'abattage non contrôlé en zone rurale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un climat tempéré, assez humide dans les zones d'élevage.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs d'hyper-endémicité en Tunisie incluent l'intensité d'élevage traditionnel, la densité du réservoir canin, la difficulté de ramassage des carcasses, l'abattage non contrôlé et le climat tempéré et humide dans les zones d'élevage."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques du liquide hydatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est normalement limpide et aseptique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est riche en protoscolex.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il possède de grandes propriétés antigéniques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est constitué uniquement de produits du métabolisme du parasite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le liquide hydatique est normalement limpide, aseptique, avec un pH neutre, et très riche en protoscolex. Il est constitué de produits de l'hôte dialysés et de produits du métabolisme du parasite, d'où ses grandes propriétés antigéniques."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments du sable hydatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des protoscolex.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des crochets libres.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des vésicules proligères.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des fragments de la couche adventitielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sable hydatique est l'ensemble des éléments parasitaires baignant dans le liquide hydatique après décantation. Il comporte des protoscolex, des crochets libres, des vésicules proligères et des vésicules filles (endogènes ou exogènes)."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les signes radiologiques d'un kyste hydatique pulmonaire non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une opacité ronde, homogène, à limites nettes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un aspect en 'boulet de canon'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le signe de Nemenoff (allongement inspiratoire et élargissement expiratoire).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une image de membrane flottante.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un kyste hydatique pulmonaire non compliqué apparaît à la radiographie comme une opacité ronde, homogène, à limites nettes, réalisant un aspect en 'boulet de canon'. Le signe de Nemenoff peut être observé. L'image de membrane flottante est un signe de kyste rompu."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques d'un kyste hydatique pulmonaire non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une vomique hydatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une douleur thoracique sourde en cas de kyste périphérique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une toux sèche, tenace et quinteuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dyspnée dans les kystes géants de l'enfant.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le kyste hydatique pulmonaire non compliqué est généralement asymptomatique. Des signes fonctionnels non spécifiques peuvent inclure une douleur thoracique sourde, une toux sèche et une dyspnée pour les kystes volumineux. La vomique hydatique est un signe de rupture."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelle est la principale complication de l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La rupture dans le péricarde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'ouverture dans les voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La rupture dans un organe creux comme l'estomac.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La rupture au niveau de la peau.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ouverture dans les voies biliaires est la complication la plus fréquente de l'échinococcose kystique hépatique."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments à rechercher lors de l'interrogatoire pour le diagnostic d'une échinococcose kystique pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'origine géographique en zone d'endémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La profession à risque (ouvrier agricole, berger).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La notion de contact avec des chiens ou des moutons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La notion de vomique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'interrogatoire doit rechercher l'origine géographique, la profession à risque, la notion de contage hydatique (contact avec chiens/moutons) et la notion de vomique, qui est un signe pathognomonique."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles de la sérologie dans le diagnostic et le suivi de l'échinococcose kystique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle permet le diagnostic parasitologique direct.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est utile dans les cas douteux pour le diagnostic positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle permet le suivi post-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle permet le dépistage précoce d'une récidive hydatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La sérologie est un diagnostic parasitologique indirect, utile pour le diagnostic positif dans les cas douteux. Elle est également essentielle pour le suivi post-opératoire et le dépistage précoce d'une récidive hydatique."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelles sont les indications du traitement chirurgical pour les kystes hydatiques pulmonaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est la règle pour les kystes symptomatiques uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est le seul traitement curatif efficace.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il doit être précoce pour éviter les complications.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il doit être conservateur tout en respectant les impératifs de sécurité.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement chirurgical est la règle pour les kystes hydatiques pulmonaires, qu'ils soient symptomatiques ou non, et représente le seul traitement curatif efficace. Il doit être précoce et conservateur."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du ver adulte d'Echinococcus granulosus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il vit dans l'intestin grêle de l'homme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il mesure 4 à 7 mm de long.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa tête est munie de 4 ventouses et d'une double couronne de crochets.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son corps comprend 3 ou 4 anneaux, dont le dernier est ovigère et contient les œufs.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le ver adulte vit dans l'intestin grêle du chien (hôte définitif). Il mesure 4 à 7 mm de long. Sa tête (scolex) est munie de 4 ventouses, d'un rostre saillant et d'une double couronne de crochets. Son corps (strobile) comprend 3 ou 4 anneaux, dont le dernier (germinatif ou ovigère) contient les œufs."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les modes de contamination de l'homme par Echinococcus granulosus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ingestion d'œufs par voie orale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contact avec des chiens parasités (caresses, léchage).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ingestion de crudités souillées par des déjections de chiens.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Consommation de viande d'herbivores contaminés.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contamination de l'homme se fait toujours par voie orale après ingestion d'œufs d'E. granulosus. Elle est favorisée par le contact avec des chiens parasités, l'ingestion de crudités ou d'eau contaminées, ou le contact avec un sol souillé. La consommation de viande d'herbivores contaminés concerne la contamination du chien."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les propriétés de la couche stratifiée (cuticule) de la larve hydatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est anhiste et hyaline.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est très résistante et de couleur 'blanc d'œuf cuit'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est imperméable aux bactéries et aux macromolécules.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est responsable de la pérennisation de l'espèce.",
+          "correct": false
+        }
+      ],
+      "explanation": "La couche stratifiée (cuticule) est anhiste, hyaline, très résistante, de couleur 'blanc d'œuf cuit'. Elle permet des échanges par osmose, est imperméable aux bactéries et macromolécules, mais laisse filtrer les éléments minéraux et organiques. La couche germinale est responsable de la pérennisation de l'espèce."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les modifications anatomo-pathologiques observées au stade avancé de l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La couche adventitielle s'épaissit et devient scléreuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La couche germinale peut se décoller.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les protoscolex se vacuolisent, formant des vésicules filles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le kyste est toujours univésiculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au stade avancé, la couche adventitielle s'épaissit et devient scléreuse, perdant sa perméabilité aux échanges. La couche germinale peut souffrir et se décoller. Les protoscolex se vacuolisent, formant des vésicules filles (endogènes ou exogènes), rendant le kyste multivésiculaire."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une rupture de kyste hydatique pulmonaire dans les bronches ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un choc anaphylactique immédiat.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La libération de scolex et vésicules filles générant d'autres kystes secondaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une inondation bronchique bilatérale avec détresse respiratoire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une pleurésie hydatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La rupture intra-bronchique peut provoquer un choc anaphylactique, la dissémination de scolex et vésicules filles (kystes secondaires), une inondation bronchique bilatérale, une hémorragie foudroyante ou une pneumopathie hydatique d'hypersensibilité. La pleurésie hydatique est une complication de rupture dans la plèvre."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les aspects radiologiques d'un kyste hydatique pulmonaire rompu dans les bronches avec rétention de membrane et de liquide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'image du double croissant aérique (Ivassinevitch).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'image de membrane flottante ('signe du nénuphar').",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'image de niveau hydro-aérique horizontal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'image en grelot.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de rétention de membrane, de liquide et d'air, on peut observer l'image du double croissant aérique, l'image de membrane flottante ('signe du nénuphar') ou l'image de niveau hydro-aérique horizontal. L'image en grelot correspond à une rétention sèche de membrane et d'air."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la tomodensitométrie (TDM) thoracique pour l'échinococcose kystique pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est de pratique courante pour le diagnostic des kystes non compliqués dans les pays endémiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est indiquée en cas de kyste compliqué ou multiple.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est utile en cas de kyste proximal avec contact médiastinal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle permet de préciser l'état du parenchyme adjacent et de guider la décision thérapeutique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La TDM n'est pas de pratique courante pour les kystes non compliqués. Elle est surtout indiquée en cas de kyste compliqué, multiple, de kyste proximal avec contact médiastinal, de rupture dans la plèvre, et pour préciser l'état du parenchyme adjacent afin de guider la décision thérapeutique."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de l'échinococcose kystique pulmonaire chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est la localisation hydatique la plus fréquente (40-60%).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est toujours multivésiculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La croissance kystique est très rapide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les kystes géants peuvent entraîner un infantilisme hydatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez l'enfant, l'EKP est la localisation la plus fréquente (40-60%), toujours uniloculaire et a un meilleur pronostic. La croissance est très rapide. Les kystes géants peuvent entraîner une déformation thoracique, une anémie, un retard pubertaire ou de croissance (infantilisme hydatique)."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les formes de dissémination de l'échinococcose kystique pulmonaire multiple secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dissémination 'métastatique' par voie hématogène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dissémination bronchogénique par ensemencement de l'arbre bronchique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dissémination par rupture directe dans une séreuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dissémination par voie lymphatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La forme secondaire de l'EKP multiple se fait par voie hématogène ('métastatique') ou par voie muqueuse bronchogénique. La rupture directe dans une séreuse est une cause d'hydatidose secondaire, mais pas spécifiquement de la forme multiple pulmonaire secondaire décrite ici. La voie lymphatique est une voie de contamination primaire."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les diagnostics différentiels à considérer devant une opacité pulmonaire arrondie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un cancer ou une métastase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un tuberculome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un infarctus pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un abcès pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Devant une opacité arrondie, les diagnostics différentiels incluent le cancer ou les métastases, le tuberculome, l'infarctus pulmonaire et les tumeurs bénignes ou malformations broncho-vasculaires. L'abcès pulmonaire est un diagnostic différentiel devant une image hydro-aérique."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les solutions protoscolicides couramment utilisées en chirurgie de l'échinococcose kystique pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le sérum hypertonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'eau oxygénée (H2O2).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'alcool éthylique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La bétadine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les solutions protoscolicides les plus couramment employées pour la protection du champ opératoire et la stérilisation du kyste sont le sérum hypertonique et l'eau oxygénée (H2O2)."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les techniques chirurgicales de traitement du parasite pour les kystes hydatiques pulmonaires non compliqués ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'énucléation selon Ugon.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La kystectomie selon Barrett.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La périkystectomie totale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La lobectomie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les kystes non compliqués, deux techniques sont proposées : l'énucléation selon Ugon (expulsion du kyste intact) et la kystectomie selon Barrett (ponction-stérilisation, aspiration, kystotomie et extraction de la membrane). La périkystectomie et la lobectomie sont des traitements de la cavité résiduelle ou des exérèses réglées."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principes du traitement de la cavité résiduelle après extraction du parasite pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fermeture systématique des fistules bronchiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La périkystectomie est toujours totale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le capitonnage doit être systématique s'il n'entrave pas la fonction du lobe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les exérèses réglées sont à privilégier pour préserver le parenchyme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la cavité résiduelle implique la fermeture systématique des fistules bronchiques. La périkystectomie peut être totale ou subtotale. Le capitonnage est systématique s'il n'entrave pas la fonction du lobe. Les exérèses réglées doivent être évitées au maximum pour préserver le parenchyme fonctionnel."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications post-opératoires immédiates de la chirurgie de l'échinococcose kystique pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le bullage prolongé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La suppuration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La persistance d'une cavité résiduelle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La récidive hydatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications post-opératoires immédiates sont dominées par le bullage prolongé et la suppuration. La persistance d'une cavité résiduelle et la récidive hydatique sont des complications tardives."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les segments hépatiques du secteur latéral gauche selon la segmentation fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Segment 1.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Segment 2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Segment 3.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Segment 4.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le secteur latéral gauche comporte un seul segment, le segment 2. Le segment 1 est entre la VCI et la bifurcation du tronc porte. Les segments 3 et 4 font partie du secteur paramédian gauche."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et physiques d'une échinococcose kystique hépatique à développement antérieur non compliquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur de l'hypochondre droit à type de pesanteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Voussure au niveau de l'épigastre ou de l'hypocondre droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Masse à surface lisse, régulière, indolore, tendue, rénitente à la palpation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fièvre et ictère sont des signes fréquents.",
+          "correct": false
+        }
+      ],
+      "explanation": "Cette forme est souvent latente. Les signes cliniques mineurs incluent une douleur de l'hypochondre droit et des troubles dyspeptiques. L'examen physique peut révéler une voussure et une masse palpable, lisse, régulière, indolore, tendue, rénitente. L'absence de fièvre et d'ictère est caractéristique de la forme non compliquée."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification échographique de Gharbi, quelles sont les caractéristiques du Type II et du Type III ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Type II : image liquidienne pure à contours nets.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Type II : collection liquidienne à paroi dédoublée (décollement de membrane).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Type III : collection liquidienne avec septa (aspect en nid d'abeille).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les Types II et III sont pathognomoniques de l'échinococcose kystique hépatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le Type I de Gharbi est l'image liquidienne pure. Le Type II est une collection liquidienne à paroi dédoublée (décollement de membrane). Le Type III est une collection liquidienne avec septa (aspect en nid d'abeille). Les Types II et III sont considérés comme pathognomoniques de l'échinococcose kystique hépatique."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'IRM hépatique pour l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématiquement indiquée pour toutes les formes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est utile pour le diagnostic de la forme pseudo-tumorale (Type IV de Gharbi).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La bili-IRM est indiquée en cas de suspicion d'ouverture dans les voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle offre de meilleures performances diagnostiques pour analyser le contenu du kyste.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de l'IRM hépatique sont limitées. Elle est particulièrement utile pour le diagnostic du kyste hydatique dans sa forme pseudo-tumorale (Type IV de Gharbi) et pour analyser le contenu du kyste. La bili-IRM est indiquée en cas de suspicion d'ouverture dans les voies biliaires."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la sérologie hydatique pour l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est positive dans 80 à 90% des cas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent négative en cas de kyste calcifié.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des faux négatifs peuvent se voir en cas de kystes jeunes ou intra-parenchymateux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La technique ELISA est la technique de choix pour l'immuno-diagnostic dans les zones d'endémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sérologie est positive dans 80 à 90% des cas d'EKH. Elle est souvent négative pour les kystes calcifiés, jeunes ou intra-parenchymateux. Le Western Blot est la technique de choix pour l'immuno-diagnostic dans les zones d'endémie en raison de sa meilleure sensibilité et spécificité, tandis que l'ELISA est utilisée en première intention."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications mécaniques de l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome de Budd-Chiari par compression des veines sus-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypertension portale par compression de la veine porte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ictère obstructif par compression de la voie biliaire principale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le choc anaphylactique par passage de liquide hydatique dans la circulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications mécaniques incluent les compressions (veines sus-hépatiques, veine cave inférieure, veine porte, voie biliaire principale) et les ruptures. Le choc anaphylactique est une complication toxique, non mécanique."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une large fistule kysto-biliaire (≥ 5 mm) dans le cadre d'une échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle permet le passage de matériel hydatique dans la voie biliaire principale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle peut entraîner un tableau d'angiocholite hydatique aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours asymptomatique et découverte peropératoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle ne permet que le passage de bile infectée dans le kyste, sans matériel hydatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une large fistule kysto-biliaire (≥ 5 mm) permet le passage de matériel hydatique dans la voie biliaire principale, pouvant entraîner un tableau d'angiocholite hydatique aiguë (douleur, fièvre, ictère). Elle peut être asymptomatique mais n'est pas toujours le cas, et elle permet le passage de matériel hydatique, contrairement aux fissurations de petite taille."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications spécifiques d'une échinococcose kystique hépatique du dôme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compression de la veine cave inférieure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Compression du carrefour cavo-sus-hépatique (syndrome de Budd-Chiari).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ouverture dans le thorax (plèvre, bronches).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Biliptysie en cas de fistule kysto-bilio-bronchique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les KHF du dôme peuvent entraîner une compression du carrefour cavo-sus-hépatique (syndrome de Budd-Chiari) et une ouverture dans le thorax (plèvre ou bronches). La biliptysie est un signe évocateur d'une fistule kysto-bilio-bronchique, complication des KHF du dôme. La compression de la VCI est plutôt associée aux KHF à développement postérieur."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une rupture de kyste hydatique hépatique dans le péritoine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si brutale, elle peut provoquer une péritonite et un choc anaphylactique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si à bas bruit, elle peut entraîner une hydatidose péritonéale secondaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours asymptomatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours de découverte opératoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une rupture brutale dans le péritoine peut entraîner un tableau dramatique de péritonite et de choc anaphylactique. Une rupture à bas bruit peut conduire à une hydatidose péritonéale secondaire avec de multiples masses abdominales. Elle n'est pas toujours asymptomatique ni de découverte opératoire."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la cholangiographie peropératoire (CPO) lors de la chirurgie d'une échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique en cas de contenu kystique bilieux ou purulent.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est indiquée en présence d'une large fistule kysto-biliaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est indiquée en cas de suspicion préopératoire de complications biliaires (cholestase, voies biliaires dilatées).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est systématique pour tous les kystes de moins de 5 cm.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CPO est systématique en cas de contenu kystique bilieux ou purulent, en présence d'une large fistule kysto-biliaire, en cas de suspicion préopératoire de complications biliaires, ou pour les gros kystes (> 10 cm). Elle n'est pas systématique pour tous les kystes de moins de 5 cm."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les méthodes chirurgicales radicales de traitement de la cavité résiduelle hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La résection du dôme saillant (kystectomie partielle).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La périkystectomie totale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La périkystectomie subtotale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hépatectomie (résection anatomique d'un segment ou secteur).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les méthodes radicales incluent la périkystectomie totale (résection complète du kyste et du périkyste), la périkystectomie subtotale (laissant une pastille au contact d'une structure noble), la périkysto-résection (emportant une petite partie du foie) et l'hépatectomie (résection anatomique). La résection du dôme saillant est une méthode conservatrice."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications de la procédure PAIR (Ponction Aspiration Injection Réaspiration) pour l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ouverture dans les voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un kyste inaccessible à la ponction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des rapports vasculaires étroits.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un kyste de type I de Gharbi.",
+          "correct": false
+        }
+      ],
+      "explanation": "La PAIR est contre-indiquée en cas d'ouverture dans les voies biliaires, de kyste inaccessible (superficiel sans parenchyme sain de sécurité ou non accessible à la ponction) ou de rapports vasculaires étroits. Un kyste de type I de Gharbi (CE1 OMS) est une indication privilégiée de la PAIR."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la sphinctérotomie endoscopique dans le traitement de l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traitement d'attente en cas d'angiocholite aiguë grave liée à une EKH ouverte dans les voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Évacuation définitive d'une EKH de petite taille et de topographie centrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traitement des complications biliaires postopératoires (matériel résiduel, fistule biliaire prolongée).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traitement de première intention pour tous les kystes hépatiques non compliqués.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sphinctérotomie endoscopique est réservée au kyste ouvert dans les voies biliaires. Elle est indiquée comme traitement d'attente en cas d'angiocholite aiguë grave, pour l'évacuation définitive d'une EKH de petite taille et centrale, et pour les complications biliaires postopératoires. Ce n'est pas un traitement de première intention pour tous les kystes non compliqués."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications thérapeutiques pour une échinococcose kystique hépatique non compliquée de 5 à 10 cm ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour un kyste de type I ou II de Gharbi, la PAIR ou la chirurgie sont possibles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour un kyste de type III de Gharbi, la chirurgie est indiquée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour un kyste de type IV ou V de Gharbi, une surveillance est proposée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le traitement médical est privilégié en première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les kystes de 5 à 10 cm : type I ou II (CE1, CE2 OMS), PAIR ou chirurgie ; type III (CE3a, CE3b OMS), chirurgie ; type IV ou V (CE4, CE5 OMS), surveillance. Le traitement médical est privilégié pour les kystes entre 3 et 5 cm."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention concernant le mouton dans la lutte contre l'échinococcose kystique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'institutionnalisation des abattoirs et le contrôle vétérinaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La saisie et la destruction effective des viscères parasités par incinération ou cuisson.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'abattage des animaux jeunes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vaccination des chiens par le Praziquantel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures de prévention concernant le mouton incluent l'institutionnalisation des abattoirs, l'interdiction des abattages non contrôlés, le contrôle vétérinaire, la saisie et destruction des viscères parasités (incinération, cuisson, enterrement à >1m), et l'abattage des animaux jeunes. La vaccination des chiens par Praziquantel est une mesure concernant le chien."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention concernant l'homme dans la lutte contre l'échinococcose kystique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'application des mesures d'hygiène générale (lavage des mains et des crudités).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le dépistage systématique des populations à risque par sérologie en zone d'endémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'information et l'éducation du public, notamment des éleveurs et bouchers.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mise à disposition des chiens des viscères non parasités.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures de prévention pour l'homme incluent l'hygiène générale (lavage des mains, crudités, contrôle de l'eau), l'information et l'éducation du public pour éviter la contamination des chiens, et le dépistage des populations à risque par sérologie. Il ne faut jamais mettre à disposition des chiens des viscères, qu'ils soient parasités ou non, pour éviter la contamination."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications post-opératoires tardives de la chirurgie de l'échinococcose kystique pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La persistance d'une cavité résiduelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La récidive hydatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hydatidose pleurale secondaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le bullage prolongé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications post-opératoires tardives incluent la persistance d'une cavité résiduelle (pouvant entraîner hémoptysie, surinfection, greffe aspergillaire), la récidive hydatique (par réinfestation ou dissémination bronchogénique), l'hydatidose pleurale secondaire et la dilatation des bronches. Le bullage prolongé est une complication immédiate."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de la classification de l'OMS de l'échinococcose kystique hépatique par rapport à celle de Gharbi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle introduit la notion de 'cystic lesion' (CL) pour les petites lésions uniloculaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle s'appuie uniquement sur les données échographiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle prend en compte l'activité parasitaire du kyste.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle inverse les types II et III des deux classifications.",
+          "correct": true
+        }
+      ],
+      "explanation": "La classification de l'OMS introduit la notion de 'cystic lesion' (CL), s'appuie sur l'échographie et la TDM, et prend en compte l'activité parasitaire. Elle inverse également les types II et III par rapport à la classification de Gharbi."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour un traitement chirurgical radical de l'échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kystes périphériques détruisant tout un segment ou secteur latéral du foie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Kystes multiples.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Kystes présentant un rapport étroit avec les gros vaisseaux ou voies biliaires de gros calibre.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Kystes situés dans les segments V, VI ou dans le lobe gauche.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une approche radicale (kystectomie totale ou subtotale, hépatectomie) est recommandée pour les kystes périphériques, notamment ceux des segments V, VI ou du lobe gauche, détruisant tout un segment ou secteur. Une approche conservatrice est préférable pour les kystes multiples ou ceux en rapport étroit avec des structures nobles."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à surveiller à long terme après traitement chirurgical d'une échinococcose kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un examen clinique rigoureux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une sérologie hydatique régulière.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une sérologie qui devient positive ou une réascension après diminution doit faire suspecter une récidive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La sérologie doit être négative dès le 6ème mois post-opératoire pour exclure une récidive.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance à long terme inclut un examen clinique rigoureux et une sérologie hydatique régulière. La sérologie peut rester positive jusqu'à 2-5 ans après l'intervention. Au-delà de cette période, une sérologie positive ou une réascension après diminution doit faire suspecter une récidive."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention concernant le chien dans la lutte contre l'échinococcose kystique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éviter la déambulation des chiens dans les lieux publics.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dépister et traiter les chiens domestiques par le Praziquantel trois fois par an.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Empêcher l'accès des abattoirs aux chiens.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mettre à leur disposition les viscères non parasités pour leur alimentation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures de prévention concernant le chien incluent d'éviter leur déambulation, d'institutionnaliser les fourrières, de dépister et traiter les chiens domestiques par Praziquantel (trois fois par an), d'empêcher leur accès aux abattoirs et de ne jamais leur donner de viscères hydatifères infectés. Il ne faut jamais mettre à leur disposition les viscères, qu'ils soient parasités ou non, pour éviter la contamination."
+    }
+  ]
+}

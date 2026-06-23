@@ -1,0 +1,1409 @@
+{
+  "lectureId": "21",
+  "number": "21",
+  "title": "Diarrhées chroniques",
+  "partie": "J1",
+  "specialty": "Gastrologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon la définition clinique, quels sont les critères d'une diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un poids des selles supérieur à 300g par 24 heures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une durée d'évolution supérieure à deux semaines.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'émission de plus de 3 selles par 24 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des selles molles à liquides selon l'OMS.",
+          "correct": true
+        }
+      ],
+      "explanation": "La diarrhée chronique est définie par un poids des selles supérieur à 300g/24h et une durée d'évolution supérieure à quatre semaines. En pratique clinique, elle correspond à l'émission de plus de 3 selles par 24h, molles à liquides selon l'OMS."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels éléments peuvent orienter vers une 'fausse diarrhée' chez un patient se plaignant de diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence de fécalome au toucher rectal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des antécédents de constipation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La notion de suintement en dehors de la défécation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des selles hétérogènes constituées de liquide fécal ou de glaires précédées de selles dures.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fausse diarrhée des constipés est orientée par des antécédents de constipation, des matières hétérogènes avec liquide fécal ou glaires précédées de selles dures (syballes), et la présence de fécalome au toucher rectal. L'incontinence anale, une autre forme de fausse diarrhée, est suspectée devant un suintement en dehors de la défécation."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelles structures anatomiques contribuent à l'agrandissement de la surface d'absorption de l'intestin grêle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les valvules conniventes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les villosités intestinales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La bordure en brosse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cryptes intestinales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les capacités d'absorption de l'intestin grêle sont très grandes grâce à une surface agrandie par les valvules conniventes, les villosités intestinales et la bordure en brosse."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux processus d'absorption impliqués dans l'intestin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le passage trans-cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le passage para-cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La digestion luminale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La sécrétion active.",
+          "correct": false
+        }
+      ],
+      "explanation": "Plusieurs processus d'absorption sont impliqués : des passages trans- et para- cellulaires. La digestion luminale est une étape préalable à l'absorption, et la sécrétion active est un processus inverse de l'absorption."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les mécanismes de transport trans-cellulaire qui nécessitent de l'énergie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La diffusion passive simple.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La diffusion facilitée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'absorption active primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absorption active secondaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'absorption active, qu'elle soit primaire (ex: Na+/K+ ATPase) ou secondaire (ex: co-transport glucose/Na+), nécessite de l'énergie et un transporteur. La diffusion passive et facilitée ne nécessitent pas d'énergie spécifique."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel est le site principal d'absorption des nutriments dans l'intestin grêle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le duodénum.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le jéjunum.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'iléon.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le côlon.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le site principal d’absorption des nutriments se situe dans le jéjunum. L’iléon est le site exclusif de la réabsorption des sels biliaires et de l’absorption de la vitamine B12."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les hexoses résultant de la digestion des glucides qui peuvent être absorbés par l'intestin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le glucose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le fructose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le galactose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le saccharose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les glucides sont transformés en 3 hexoses (glucose, fructose, galactose) qui peuvent être absorbés. Le saccharose est un disaccharide qui doit être clivé avant absorption."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est le rôle des sels biliaires dans l'absorption des lipides ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils dégradent les triglycérides en acides gras.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils permettent une émulsification fine des lipides.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils favorisent l'action des enzymes hydrophiles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils forment des chylomicrons.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les sels biliaires permettent une émulsification plus fine des lipides, ce qui augmente l’interface huile-eau et favorise l’action des enzymes hydrophiles. La dégradation des triglycérides est le rôle des lipases, et la formation des chylomicrons se fait dans l'entérocyte."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Où se déroule principalement la sécrétion d'eau et d'ions dans l'intestin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les villosités.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans les cryptes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dans le jéjunum.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dans l'iléon.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’absorption et la sécrétion intestinale sont séparées spatialement : la sécrétion a lieu dans les cryptes, alors que l’absorption est villositaire."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques associés à rechercher devant une diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un amaigrissement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des douleurs abdominales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des rectorragies.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome carentiel clinique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les principaux signes associés à rechercher devant une diarrhée chronique sont l'amaigrissement, l'asthénie, l'anorexie, l'altération de l'état général, la fièvre, un syndrome carentiel clinique, des douleurs abdominales, des rectorragies, un syndrome rectal, des vomissements, un syndrome hémorragique, des douleurs articulaires et des signes vasomoteurs."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les examens biologiques de première intention utiles pour explorer une diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La numération et formule sanguine (NFS).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La protéine C réactive (CRP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'albuminémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La chromogranine A.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les examens biologiques de première intention incluent la NFS, la ferritinémie, la CRP, la VS, l'ionogramme sanguin, le bilan de la fonction rénale, la vitamine B12 et les folates sériques, le bilan phosphocalcique, la magnésémie, l'albuminémie, le TP, la cholestérolémie, l'électrophorèse des protéines, la TSH, la sérologie VIH et la sérologie de la maladie cœliaque, ainsi que l'examen parasitologique des selles. La chromogranine A est un examen de deuxième intention."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de stéatorrhée considéré comme pathologique chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Supérieur ou égal à 3g/24h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supérieur ou égal à 7g/24h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Supérieur ou égal à 10g/24h.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Supérieur ou égal à 14g/24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "La stéatorrhée est pathologique si elle est ≥ 7g/24h. Au-delà de 14 g/jour, elle témoigne d’une malabsorption sévère."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux facteurs de risque de la giardiose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les voyages dans les pays endémiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La consommation d'eau du robinet.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le contact avec des jeunes enfants portant des couches.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La consommation de végétaux crus.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les principaux facteurs de risque de la giardiose sont les voyages dans les pays endémiques, la consommation d’eau du robinet, de végétaux crus (salades) et le contact avec des jeunes enfants portant des couches."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques cliniques d'une diarrhée motrice ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Selles nombreuses et fractionnées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Émissions impérieuses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'aliments non digérés ingérés le jour même.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Efficacité des ralentisseurs du transit.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une diarrhée motrice est évoquée devant des selles nombreuses, volontiers fractionnées, de faibles volumes, matinales, des émissions impérieuses avec parfois pseudo-incontinence, un horaire postprandial, la présence d’aliments non digérés ingérés le jour même, et l'efficacité des ralentisseurs du transit et du jeûne."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de malabsorption chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diarrhée chronique avec des selles volumineuses et pâteuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un ballonnement abdominal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cassure de la courbe pondérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une modification du caractère (apathie, tristesse).",
+          "correct": true
+        }
+      ],
+      "explanation": "Le tableau typique de malabsorption chez l'enfant associe une diarrhée chronique avec des selles volumineuses, pâteuses et un ballonnement abdominal, une anorexie avec parfois des vomissements, une cassure de la courbe pondérale puis de la taille, une modification du caractère (apathie, tristesse) et une pâleur."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des jonctions serrées (tight junctions) dans le passage paracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles assurent le passage des ions et des petites molécules comme les acides aminés et le glucose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles permettent le passage de molécules de poids moléculaire inférieur à 350.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont les plus importantes pour les échanges d'eau et d'électrolytes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont non saturables.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les jonctions serrées (ou tight junctions) permettent le passage de molécules de PM<350. L'eau et les électrolytes passent via des jonctions dont les plus importantes pour les échanges sont les jonctions communicantes et les jonctions serrées. Les jonctions communicantes (gap junctions) assurent le passage des ions et des petites molécules (aa, glucose)."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'absorption des glucides, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le glucose et le galactose sont transportés activement avec le sodium via SGTL1.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le fructose est absorbé par diffusion facilitée via GLUT5 et GLUT2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absorption intestinale des glucides est totale, y compris pour la cellulose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'apport conjoint de glucose et de sodium optimise l'absorption du grêle.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le glucose et le galactose sont pris en charge par un transport actif secondaire nommé SGTL1 qui couple le passage du glucose et du galactose avec celui du Na+. Pour le fructose, les deux protéines impliquées sont GLUT5 (lumière intestinale) et GLUT2 (membrane basolatérale), par diffusion facilitée. L’absorption intestinale des glucides est totale sauf pour la cellulose qui parvient non digérée dans le côlon. L’absorption couplée du glucose et du sodium explique l’intérêt d’un apport conjoint de glucose et de sodium dans les mélanges de réhydratation."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'absorption des protéines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La digestion des protéines débute par l'action des enzymes gastriques comme la pepsine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les oligopeptides sont clivés en acides aminés, dipeptides ou tripeptides au niveau de la bordure en brosse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absorption des protides est totale, sans perte fécale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les systèmes de transport des acides aminés sont souvent associés au Na+ ou à H+.",
+          "correct": true
+        }
+      ],
+      "explanation": "La digestion des protéines démarre par l’action des enzymes gastriques (pepsine) et pancréatiques, puis au niveau de la bordure en brosse de l’entérocyte, les enzymes clivent les oligopeptides en acides aminés, dipeptides ou rarement en tripeptides. Il existe plusieurs systèmes de co-transport des acides aminés associés au Na+ ou à H+. L’absorption des protides n’est pas totale (90 à 95 %), avec une perte fécale de 5 à 10 %."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'absorption de l'eau et des électrolytes, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le duodénum absorbe peu d'eau en raison de l'hypertonicité du chyme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'absorption active du sodium et des nutriments dans le jéjunum et l'iléon favorise l'absorption d'eau.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'intestin absorbe environ 10 litres d'eau par jour.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le chlore peut être sécrété dans la lumière intestinale via le canal CFTR.",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans le duodénum, l’eau est peu absorbée à cause de l’hypertonicité du chyme. Dans le jéjunum et l’iléon, l’absorption active du sodium et des nutriments crée un gradient osmotique qui favorise l’absorption d’eau. L'intestin absorbe 9 litres d'eau par jour (10L entrants, 1L à la valvule iléo-caecale). Certains électrolytes comme le chlore (canal CFTR), le potassium et le bicarbonate peuvent être sécrétés dans la lumière intestinale."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de l'examen physique qui peuvent orienter vers un mécanisme spécifique de diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence de sang dans les selles oriente vers une diarrhée sécrétoire lésionnelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diarrhée graisseuse associée à un syndrome carentiel oriente vers un syndrome de malabsorption.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des selles nombreuses, impérieuses, contenant des aliments non digérés, améliorées par les ralentisseurs du transit évoquent une diarrhée motrice.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypotension orthostatique sans accélération du pouls évoque une diarrhée osmotique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La présence de sang dans les selles oriente vers une diarrhée sécrétoire lésionnelle. Une diarrhée graisseuse associée à un syndrome carentiel oriente vers un syndrome de malabsorption. Des selles nombreuses (> 5 selles/24heures), impérieuses, contenant des aliments non digérés et ingérés le jour même, d’horaire matinal ou post prandial sans douleurs abdominales ni altération de l’état général et améliorées par les ralentisseurs du transit évoquent une diarrhée motrice. Une hypotension orthostatique sans accélération supplémentaire du pouls évoque une dysautonomie diabétique, cause de diarrhée motrice."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les tests fonctionnels de deuxième intention utilisés dans l'exploration d'une diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mesure de l'osmolarité fécale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le dosage de la calprotectine fécale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le test respiratoire au glucose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dosage de la TSH.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les tests fonctionnels de deuxième intention incluent le fécalogramme (mesure de l'osmolarité fécale, stéatorrhée), la clairance de l’alpha-1-antitrypsine, la concentration fécale en élastase pancréatique, le dosage de la calprotectine fécale, le test au rouge carmin, le test respiratoire au glucose et le test d’absorption du D-Xylose. Le dosage de la TSH est un examen biologique de première intention."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Comment le trou osmotique fécal peut-il orienter le diagnostic étiologique d'une diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un trou osmotique bas (< 50 mOsm/kg) oriente vers une diarrhée sécrétoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un trou osmotique élevé (> 125 mOsm/kg) oriente vers une diarrhée osmotique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une osmolarité fécale basse traduit une diarrhée factice.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le trou osmotique est normalement toujours supérieur à 125 mOsm/kg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trou osmotique [290 - 2 X (concentration fécale en sodium + en potassium)] varie normalement entre 50 et 125 mOsm/kg. Lorsqu’il est supérieur à 125 mOsm/kg, il oriente vers une diarrhée osmotique. Lorsqu’il est inférieur à 50 mOsm/kg, il oriente vers une diarrhée sécrétoire. Une osmolarité fécale basse traduit une diarrhée factice."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens endoscopiques de première intention dans l'exploration d'une diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'endoscopie digestive haute avec biopsies duodénales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La coloscopie totale avec iléoscopie rétrograde et biopsies étagées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'entéroscopie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'examen du grêle par vidéocapsule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les examens endoscopiques de première intention sont l’endoscopie digestive haute (pour explorer l’estomac et le duodénum et réaliser des biopsies duodénales) et la coloscopie totale avec iléoscopie rétrograde (pour explorer le côlon et l’iléon et réaliser des biopsies iléales et coliques étagées). L'entéroscopie et la vidéocapsule sont indiquées en l'absence d'étiologie évidente après les examens précédents."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques évocateurs d'une malabsorption ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie microcytaire ferriprive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypoalbuminémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation des phosphatases alcalines d'origine osseuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypercalcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes biologiques évocateurs de malabsorption sont une anémie (microcytaire ferriprive, dimorphe, ou par carence en B12), une hypoalbuminémie, une hypocalciurie, une hypocalcémie, une hypophosphorémie ou une hypomagnésémie, une augmentation des phosphatases alcalines (d'origine osseuse), une sidéropénie avec ferritinémie basse, et une chute des facteurs de coagulation vitamine K-dépendants."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la maladie cœliaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une entéropathie auto-immune sensible au gluten.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est associée dans 99% des cas aux groupes HLA DQ2 ou DQ8.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La prévalence des formes typiques est d'environ 1/200 dans la population générale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic est confirmé par le dosage des anticorps anti-transglutaminases de type IgG en cas de déficit en IgA.",
+          "correct": true
+        }
+      ],
+      "explanation": "La maladie cœliaque est une entéropathie auto-immune sensible au gluten, se développant chez des sujets génétiquement prédisposés (99% des cas HLA DQ2 ou DQ8). La prévalence réelle (incluant toutes les formes cliniques) est autour de 1/200, tandis que celle des formes typiques est autour de 1/2000. En cas de déficit en IgA, le dosage des anticorps anti-transglutaminases de type IgG est utile au diagnostic."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes histologiques les plus caractéristiques de la maladie cœliaque sur les biopsies duodénales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une atrophie villositaire subtotale ou totale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation des lymphocytes intra-épithéliaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperplasie des cryptes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un infiltrat inflammatoire lympho-plasmocytaire du chorion.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères de certitude diagnostique reposent sur l’examen anatomopathologique des biopsies duodénales qui montre dans les cas typiques : une atrophie villositaire subtotale ou totale, une augmentation des lymphocytes intra-épithéliaux (le stigmate le plus précoce et le plus spécifique), une hyperplasie des cryptes et un infiltrat inflammatoire lympho-plasmocytaire du chorion avec présence de polynucléaires éosinophiles."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de diarrhée chronique par malabsorption entérocytaire pouvant donner une atrophie villositaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La maladie de Crohn grélique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La sprue tropicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le lymphome du grêle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le déficit commun variable.",
+          "correct": true
+        }
+      ],
+      "explanation": "Outre la maladie cœliaque et les parasitoses, d'autres causes de diarrhée chronique par malabsorption entérocytaire pouvant donner une atrophie villositaire sont la maladie de Crohn grélique, la sprue tropicale, l'entéropathie radique, le lymphome du grêle, le déficit commun variable et le déficit sélectif en IgA."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales causes de colonisation bactérienne chronique du grêle (CBCG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'achlorhydrie gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le reflux des bactéries coliques après exérèse de la valvule de Bauhin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome de l'anse stagnante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypermotricité intestinale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CBCG est favorisée par la stase intestinale ou la diminution des défenses de l'organisme. Les principales causes sont l'achlorhydrie ou l'hypochlorhydrie gastrique, le reflux des bactéries coliques consécutif à l'exérèse chirurgicale de la valvule de Bauhin, le syndrome de l'anse stagnante, la stase en amont d'une sténose incomplète, la diverticulose du grêle, l'hypomotricité et les déficits immunitaires. L'hypermotricité n'est pas une cause de stase."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de la colonisation bactérienne chronique du grêle (CBCG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déshydroxylation et déconjugaison des sels biliaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Effets sécrétoires des sels biliaires déconjugués entraînant une diarrhée hydro-électrolytique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Altération de la bordure en brosse des entérocytes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de l'absorption des graisses.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CBCG est à l’origine de la déshydroxylation et déconjugaison des sels biliaires, des effets sécrétoires des sels biliaires déconjugués entraînant une diarrhée hydro-électrolytique, et l’altération de la bordure en brosse des entérocytes. Elle peut donner un syndrome de malabsorption complet, donc une diminution de l'absorption des graisses."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes endocriniennes de diarrhée motrice ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hyperthyroïdie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le cancer médullaire de la thyroïde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome carcinoïde.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diabète avec dysautonomie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes endocriniennes de diarrhée motrice sont l'hyperthyroïdie, le cancer médullaire de la thyroïde et le syndrome carcinoïde. Le diabète avec dysautonomie est une cause neurologique de diarrhée motrice."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de Rome IV pour le diagnostic du syndrome de l'intestin irritable (SII) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur abdominale récurrente au moins une fois par semaine durant les 3 derniers mois.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur associée à un changement dans la fréquence des selles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur associée à un changement dans la consistance des selles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les symptômes doivent avoir commencé il y a au moins 3 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de SII est basé sur les critères de Rome IV : douleur abdominale récurrente en moyenne au moins une fois par semaine durant les 3 derniers mois associée à 2 ou plus des critères suivants : en relation avec la défécation, associée à un changement dans la fréquence des selles, associée à un changement dans la consistance des selles. Les symptômes doivent avoir commencé à se manifester il y a au moins 6 mois."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une diarrhée osmotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est hydrique et cède au jeûne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à l'ingestion de solutés peu ou pas absorbables.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est associée à une altération de l'état général et une malabsorption.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle peut être associée à des flatulences et un météorisme si la substance est fermentescible.",
+          "correct": true
+        }
+      ],
+      "explanation": "La diarrhée osmotique est due à l’ingestion méconnue ou volontaire de solutés peu ou pas absorbables, donc osmotiquement actifs, exerçant un appel d’eau dans la lumière intestinale. Elle est hydrique, sans altération de l’état général ni malabsorption, et cède lorsque les agents osmotiques ne sont plus présents dans la lumière intestinale. Elle peut être associée à des flatulences, borborygmes et un météorisme si la substance est fermentescible."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques essentielles des diarrhées sécrétoires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Selles abondantes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Trou osmotique inférieur à 50 mOsm/kg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résistance à l'épreuve de jeûne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fréquence élevée d'hyperkaliémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les caractéristiques essentielles des diarrhées sécrétoires sont des selles abondantes, un trou osmotique < 50 mOsm/kg, une résistance à l’épreuve de jeûne, et une fréquence élevée d’hypokaliémie et d’acidose métabolique."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de diarrhées sécrétoires sans lésions intestinales macroscopiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les colites microscopiques (collagène et lymphocytaire).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La prise de laxatifs irritants.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les vipomes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cancers coliques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diarrhées sécrétoires sans lésions intestinales macroscopiques incluent les colites microscopiques (colite collagène et colite lymphocytaire), certains médicaments (biguanides, colchicine, laxatifs irritants), certaines parasitoses (cryptosporidiose, microsporidioses, cystoisosporose) et les tumeurs endocrines sécrétant du VIP (vipomes) ou les mastocytoses. Les cancers coliques sont des causes de diarrhées sécrétoires avec lésions intestinales macroscopiques."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de retentissement hydro-électrolytique d'une diarrhée chronique chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes de déshydratation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypokaliémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyponatrémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Acidose métabolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le retentissement hydro-électrolytique d'une diarrhée chronique inclut les signes de déshydratation et l'hypokaliémie. L'acidose métabolique est une conséquence possible mais n'est pas directement citée comme un signe de retentissement hydro-électrolytique dans cette section, bien qu'elle soit mentionnée comme fréquente dans les diarrhées sécrétoires."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Une diarrhée chronique chez une femme de plus de 50 ans, dans un contexte auto-immun ou rhumatologique avec prise d'AINS, doit faire évoquer en particulier quelle étiologie et quels examens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une maladie cœliaque, à rechercher par sérologie et biopsies duodénales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une colite microscopique, à rechercher par coloscopie avec biopsies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome de l'intestin irritable, à diagnostiquer par les critères de Rome IV.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une insuffisance pancréatique exocrine, à explorer par dosage de l'élastase fécale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une diarrhée apparaissant, parfois de façon soudaine, avec selles réparties et parfois nocturnes, chez les femmes de plus de 50 ans, dans un contexte auto-immun ou rhumatologique avec prise d’anti-inflammatoires non stéroïdiens doit faire évoquer en particulier une colite microscopique et faire chercher par l’interrogatoire le facteur déclenchant tel qu’un médicament. Le diagnostic est posé à l’examen histologique des biopsies coliques réalisées de manière systématique lors de la coloscopie."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et biologiques qui orientent fortement vers une diarrhée par malabsorption ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des selles volumineuses, bouseuses, anormalement nauséabondes et flottantes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un amaigrissement et des œdèmes déclives.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une anémie dimorphe et une hypocalcémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une stéatorrhée physiologique de 3g/24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "On doit évoquer une malabsorption si on constate des signes cliniques de syndrome carentiel (amaigrissement, pâleur cutanéo-muqueuse, œdèmes déclives, douleurs osseuses, crises de tétanie, syndrome hémorragique, altérations de la peau et des phanères) et des selles réparties, volumineuses, bouseuses, parfois visiblement graisseuses, anormalement nauséabondes, flottantes et collantes. Biologiquement, une anémie (ferriprive, dimorphe, B12), une hypoalbuminémie, une hypocalcémie, une hypophosphorémie, une hypomagnésémie, une augmentation des phosphatases alcalines, une sidéropénie et une chute des facteurs de coagulation vitamine K-dépendants sont évocateurs. Une stéatorrhée physiologique est de 3g/24h, une stéatorrhée pathologique est ≥ 7g/24h."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications de la maladie cœliaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le lymphome invasif ou une sprue réfractaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les ulcérations duodéno-jéjuno-iléales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ostéopénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyposplénisme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic de la maladie cœliaque peut être fait devant des complications telles que le lymphome invasif ou une sprue réfractaire, les ulcérations duodéno-jéjuno-iléales, la sprue collagène, l’ostéopénie (présente dans 50% des cas), l’hyposplénisme et la cavitation ganglionnaire."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Concernant la maladie de Whipple, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est secondaire à une infection par Tropheryma Wippllei.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est responsable d'une atteinte multi-systémique incluant le tube digestif, le cœur et le système nerveux central.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le diagnostic se base sur des biopsies duodénales montrant un infiltrat histiocytaire PAS+ et Gram+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La polyarthrite séronégative est une manifestation tardive et rare.",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Whipple est une maladie rare secondaire à une infection par un bacille appelé Tropheryma Wippllei. Elle est responsable d’une atteinte multi systémique : le tube digestif, le cœur, le poumon, le système nerveux central. Elle associe une polyarthrite séronégative d’évolution capricieuse et prolongée et une diarrhée chronique dont l’apparition peut être tardive. Le diagnostic se base sur les biopsies duodénales ou jéjunales montrant un infiltrat histiocytaire au niveau de chorion constitué par des cellules à cytoplasme abondant, spumeux finement granuleux, PAS+ et Gram+ (corpuscules de SIERACKI)."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et biologiques d'une entéropathie exsudative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence d'œdèmes et polysérite dans les formes sévères.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypoalbuminémie et lymphopénie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypocholestérolémie et carence sérique en immunoglobulines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une clairance de l’α1-antitrypsine inférieure à 20 mL/jour.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les entéropathies exsudatives se caractérisent dans les formes sévères par la présence des œdèmes, une polysérite et une hypo-albuminémie. Biologiquement, il existe une hypoalbuminémie, une lymphopénie, une hypocholestérolémie et une carence sérique en immunoglobulines. La diarrhée exsudative est confirmée par une clairance de l’α1-antitrypsine supérieure à 20 mL/jour."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les arguments diagnostiques de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte continue du rectum s'étendant vers le cæcum, respectant le grêle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Muqueuse rouge, granitée, fragile, saignant au contact à l'endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de granulomes épithélioïdes et gigantocellulaires sans nécrose caséeuse à l'histologie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Signes de chronicité et d'activité (abcès cryptiques, déplétion en mucine) à l'histologie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic de rectocolite hémorragique repose sur un faisceau d’arguments. L’aspect endoscopique caractéristique est une atteinte continue, commençant dès la jonction ano-rectale, s’étendant plus ou moins loin vers l’amont et s’interrompant de façon assez brusque. La muqueuse est rouge, granitée, fragile, saignant au contact. En histologie, on trouve des signes de chronicité (dystrophies architecturales, hyperplasie lymphoïde, augmentation des cellules inflammatoires mononucléées) associée à des signes d’activité (congestion vasculaire, déplétion en mucine, infiltrats riches en polynucléaires, cryptite, abcès cryptiques, ulcérations). Les granulomes épithélioïdes et gigantocellulaires sont évocateurs de la maladie de Crohn."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les arguments les plus forts pour le diagnostic positif de la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le caractère discontinu et multi-segmentaire des lésions.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les fissures transmurales histologiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le granulome épithélioïde et gigantocellulaire quand il est présent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'atteinte constamment rectale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les arguments les plus forts du diagnostic positif de maladie de Crohn sont le caractère discontinu et multi-segmentaire des lésions, les fissures transmurales histologiques et le granulome épithélioïde et gigantocellulaire quand il est présent. L'atteinte constamment rectale est une caractéristique de la rectocolite hémorragique, non de la maladie de Crohn."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes de retentissement carentiel liés à une malabsorption chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleurs osseuses en rapport avec une ostéomalacie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles visuels à type d'héméralopie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome anémique (carence en fer, folates, B12).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pellagre associant dermatose, diarrhée et démence.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le retentissement lié au syndrome de malabsorption inclut : dénutrition sévère, œdèmes ou anasarque (carence en protéines), douleurs osseuses (ostéomalacie par carence en vitamine D), crises de tétanie (carence en calcium et/ou magnésium), troubles visuels (héméralopie par carence en vitamine A), aménorrhée/stérilité, syndrome anémique (carence en fer, folates, B12), glossite (carence en B12), troubles neurologiques (neuropathie périphérique par carence en vitamine E, syndrome médullaire par carence en B12), syndrome hémorragique (carence en vitamine K), pellagre (carence en vitamine PP), altération de la peau et des phanères (acrodermatite par carence en Zinc, koilonychie par carence en fer), anomalies dentaires."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Chez l'enfant, quels sont les éléments de l'interrogatoire à rechercher spécifiquement en cas de diarrhée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les antécédents familiaux de consanguinité ou de pathologie connue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'analyse de la courbe de croissance staturo-pondérale sur le carnet de santé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'enquête alimentaire (durée de l'allaitement maternel, diversification, introduction des PLV et du gluten).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La date d'apparition des anomalies des selles et leur aspect qualitatif (odeur, pH, glaires, sang).",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez l’enfant, l'interrogatoire doit particulièrement chercher les antécédents familiaux (consanguinité, atopie, pathologie familiale connue, décès en bas âge), les antécédents personnels (infections à répétition, broncho-pneumopathies récidivantes, analyse de la courbe de croissance staturo-pondérale), et l'enquête alimentaire. La description des selles (date d'apparition, aspect qualitatif et quantitatif, évolution) est également essentielle."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des selles qui orientent vers une maldigestion chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Selles plus pâteuses ou molles que liquides, homogènes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Selles franchement grasses, pâles (mastic), très fétides.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une perte fécale massive des trois catégories de nutriments.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une stéatorrhée atteignant 5-10g/24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "La diarrhée par maldigestion est remarquable par des caractères macroscopiques : elle est faite de selles plus pâteuses ou molles que liquides, homogènes, franchement grasses, pâles (mastic), très fétides. Elle témoigne d’une perte fécale le plus souvent massive des 3 catégories de nutriments. L’analyse d’une seule selle peut parfois suffire au diagnostic, mettant en évidence une stéatorrhée atteignant 20 à 30g/24h en rapport avec une insuffisance pancréatique externe (IPE). Une stéatorrhée de 5-10g/24h est modérée et peut être associée à une malabsorption généralisée."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments diagnostiques de l'allergie aux protéines du lait de vache (APLV) chez le nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les signes cliniques apparaissent le plus souvent avant l'âge de 3 mois.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le tableau clinique peut simuler une maladie cœliaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les tests cutanés (Prick-test) et les IgE spécifiques sont le plus souvent positifs dans les formes retardées.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic positif repose essentiellement sur l'épreuve d'éviction-réintroduction.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques de l'APLV apparaissent le plus souvent avant l’âge de 3 mois. Le tableau clinique peut simuler une maladie cœliaque. Les tests cutanés (Prick-test) et le dosage des IgE spécifiques sont le plus souvent négatifs dans les formes retardées. Le diagnostic positif repose essentiellement sur des critères cliniques, notamment l’épreuve d’éviction-réintroduction."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la diarrhée de fermentation chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est aqueuse et acide (pH<5).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Son abondance est proportionnelle aux quantités de sucres ingérés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est caractérisée par une excrétion importante des acides volatils et lactique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est le plus souvent primitive, avec une muqueuse intestinale normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La diarrhée de fermentation est aqueuse, acide (pH<5) et son abondance est proportionnelle aux quantités de sucres ingérés. Elle est caractérisée par une excrétion importante des acides volatils et lactique. Elle est le plus souvent secondaire à des lésions entérocytaires (gastro-entérite, autres causes de diarrhée chronique) qui s’accompagnent d’une diminution des activités enzymatiques entérocytaires. Elle est très rarement primitive."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de diarrhée d'origine colique chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La maladie de Crohn.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La rectocolite hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La tuberculose iléo-cæcale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La colite chronique post-amibienne.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes de diarrhée d’origine colique chez l'enfant incluent la maladie de Crohn, la rectocolite hémorragique, la tuberculose iléo-cæcale, et plus rarement une colite chronique post-amibienne, une colite à collagène ou une colite microscopique."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes rares de diarrhée chronique à début néonatal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'atrophie micro-villositaire congénitale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dysplasie épithéliale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La diarrhée chlorée congénitale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mucoviscidose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diarrhées à début néonatal, souvent graves et héréditaires, incluent l’atrophie micro-villositaire congénitale, la dysplasie épithéliale, la diarrhée chlorée congénitale et la diarrhée sodée congénitale. La mucoviscidose est une cause de maldigestion mais n'est pas spécifiquement classée comme une diarrhée à début néonatal dans cette section."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui permettent d'évoquer une diarrhée fonctionnelle chez un adulte jeune (<50 ans) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diarrhée modérée très ancienne d'allure motrice.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'absence d'altération de l'état général.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absence d'anomalie à l'examen clinique et biologique de première intention.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une bonne réponse au traitement symptomatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une diarrhée modérée très ancienne d’allure motrice chez un adulte jeune (<50 ans), sans altération de l’état général, sans aucune anomalie à l’examen clinique et biologique et répondant bien au traitement symptomatique, peut être souvent considérée comme de nature fonctionnelle, sans pousser plus loin les explorations."
+    }
+  ]
+}

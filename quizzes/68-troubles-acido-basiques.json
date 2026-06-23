@@ -1,0 +1,1535 @@
+{
+  "lectureId": "68",
+  "number": "68",
+  "title": "Troubles acido-basiques",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Selon la théorie de Bröensted, comment sont définis un acide et une base ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un acide est un accepteur de protons [H+].",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une base est un donneur de protons [H+].",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un acide est un donneur de protons [H+].",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une base est un accepteur de protons [H+].",
+          "correct": true
+        }
+      ],
+      "explanation": "Selon la théorie de Bröensted, un acide est un donneur de protons [H+] tandis qu’une base est un accepteur de protons."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des acides forts et faibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les acides forts sont partiellement dissociés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les acides faibles sont complètement dissociés.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plus un acide est dissocié, plus il est dit fort.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'acide carbonique (H2CO3) est un acide fort.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'acide chlorhydrique (HCl) est un acide fort.",
+          "correct": true
+        }
+      ],
+      "explanation": "On distingue les acides forts qui sont complétement dissociés (HCl) et les acides faibles qui ne sont que partiellement dissociés (acide carbonique (H2CO3)). Plus l’acide est dissocié, plus il donne des ions H+, plus il est dit fort."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le principal acide volatile produit par le métabolisme cellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'acide lactique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'acide sulfurique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le dioxyde de carbone (CO2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'acide phosphorique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les corps cétoniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La source la plus importante d’acide est la production de CO2 liée au métabolisme aérobie qu’on appelle acidité volatile. Elle est produite par les combustions métaboliques des glucides, des lipides et protides dans les mitochondries."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales voies d'élimination des acides de l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le CO2 est éliminé par les reins.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les acides fixes sont éliminés par les poumons.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le CO2 est éliminé par les poumons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les acides fixes sont éliminés par les reins.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les sorties sont assurées par deux voies : le CO2 est éliminé par le poumon (10 mmol/min de CO2) et les acides fixes par le rein (60-80 mmol/J)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Pourquoi la concentration en ions H+ est-elle étroitement régulée dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour maintenir la température corporelle constante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les protéines intracellulaires sont très sensibles au pH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les modifications de pH n'affectent pas l'excitabilité neuronale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les déséquilibres potassiques peuvent créer des troubles de l'excitabilité cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pH n'influence pas la concentration en ion K+.",
+          "correct": false
+        }
+      ],
+      "explanation": "La concentration H+ est étroitement régulée car les protéines intracellulaires, enzymes et canaux membranaires sont très sensibles au pH (modification de leur structure et donc de leur activité). De plus, il y a des modifications de la concentration en ion K+ du fait des échanges H+ K+, et le déséquilibre potassique crée des troubles de l'excitabilité notamment cardiaque."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les critères d'efficacité d'un système tampon ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pKA éloigné du pH du milieu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une concentration élevée du tampon.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un pKA proche du pH du milieu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une faible concentration du tampon.",
+          "correct": false
+        }
+      ],
+      "explanation": "Deux critères d’efficacité d’un tampon (pouvoir tampon) sont un pKA proche du pH du milieu et une concentration élevée."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est le principal système tampon du milieu extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système tampon phosphate inorganique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le système tampon bicarbonate/acide carbonique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le système tampon des protéines plasmatiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le système tampon de l'hémoglobine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système tampon bicarbonate/acide carbonique est le tampon du milieu extracellulaire le plus important."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques du système tampon bicarbonate/acide carbonique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un système tampon fermé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Son équation d'équilibre chimique est H+ + HCO3–⇔ H2CO3 ⇔ H2O + CO2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est accéléré par l'anhydrase carbonique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est efficace surtout si le pH augmente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est soumis à un double contrôle par les poumons et les reins.",
+          "correct": true
+        }
+      ],
+      "explanation": "C’est le seul tampon ouvert de l’organisme dont l’équation d’équilibre chimique est H+ + HCO3–⇔ H2CO3 ⇔ H2O + CO2. Elle est accélérée par l’anhydrase carbonique. Il est soumis à un double contrôle de la forme acide et de la forme basique par deux systèmes régulateurs indépendants (poumon, rein). Il est efficace surtout dans l’acidose et peu efficace si le pH augmente."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quels sont les trois mécanismes par lesquels le rein assure la régulation de l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La filtration glomérulaire des protéines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La réabsorption tubulaire des bicarbonates.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'excrétion des ions H+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La régénération des bicarbonates.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La production d'aldostérone.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rôle des reins s'exerce par un triple mécanisme : La réabsorption tubulaire des bicarbonates, l'excrétion des ions H+ et la régénération des bicarbonates."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Dans les conditions physiologiques, quelle proportion des bicarbonates filtrés est réabsorbée par le tubule proximal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "100%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "5%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "20%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "70%",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans les conditions physiologiques, 70% du HCO3- est réabsorbé au niveau du tube proximal."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelles sont les formes sous lesquelles l'excrétion rénale d'acide est réalisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sous forme d'acide carbonique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sous forme libre (H+ libre).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Liée aux phosphates.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Liée à l'ammoniac.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Liée aux corps cétoniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’excrétion rénale d’acide est faite sous trois formes : libre, liée aux phosphates et à l’ammoniac."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelle est la première ligne de défense de l'organisme face aux variations de pH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La régulation rénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'augmentation de la ventilation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les systèmes tampons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les synthèses hépatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les systèmes tampons sont la première ligne de défense limitant les grandes variations."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les acides fixes produits par le métabolisme et leurs quantités journalières ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'acide carbonique est un acide fixe produit à 15000 mmol/J.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'acide sulfurique est un acide fixe, représentant 80% de la production journalière d'acides fixes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La production journalière d'acides fixes est de l'ordre de 1 mmol/Kg/J.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'acide lactique et les corps cétoniques jouent un rôle majeur dans les conditions physiologiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'acide phosphorique est libéré par le métabolisme des phosphoprotéines.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les acides fixes sont produits à partir du métabolisme des protides, phospholipides et purines. La production journalière est de l’ordre de 1 mmol/Kg/J (60-80 mmol/J) et elle est composée d'acide sulfurique (80%) et d'acide phosphorique. L'acide lactique et les corps cétoniques jouent un rôle minime dans les conditions physiologiques. Le CO2 est l'acide volatile."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Comment le CO2 est-il transporté dans le sang ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Principalement sous forme dissoute dans le plasma (70%).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sous forme combinée après réaction chimique (60-70%) dans le plasma et les hématies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sous forme dissoute (10%) dans le plasma et le cytoplasme intra-érythrocytaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sous forme combinée à l'hémoglobine (20-30%) dans les hématies.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'anhydrase carbonique est présente en abondance dans le plasma pour la réaction H2O + CO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CO2 est transporté dans le plasma (70%) (sous forme dissoute et combinée après réaction chimique) et dans les hématies (30%) (forme dissoute, combinée à l’hémoglobine et après réaction chimique). Plus précisément, CO2 dissous (10%), CO2 combiné après réaction chimique (60-70%), CO2 combiné à l’hémoglobine (20-30%). Il n'y a pas d'anhydrase carbonique dans le plasma, mais elle est abondante dans les GR."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une acidose sur la concentration en potassium et l'excitabilité neuronale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'acidose entraîne une réabsorption rénale de K+.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'acidose provoque une hyperexcitabilité neuronale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'acidose favorise l'excrétion rénale de H+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'acidose peut entraîner une dépression du système nerveux central.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'alcalose entraîne une excrétion rénale de K+.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'acidose entraîne une excrétion rénale de H+ et une réabsorption de K+. L'acidose provoque une dépression du système nerveux central. L'alcalose entraîne une réabsorption rénale de H+ et une excrétion de K+."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Concernant le système tampon phosphate inorganique, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un système ouvert.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sa 2ème dissociation (HPO42– + H+ ⇔ H2PO4–) a un pKA de 6.8, jouant un rôle important dans l'équilibre acido-basique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est fortement concentré en extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il a une activité tampon importante en intracellulaire et dans l'urine tubulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est le principal tampon du liquide extracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système tampon phosphate inorganique est un système fermé. Sa 2ème dissociation (HPO42– + H+ ⇔ H2PO4–) ayant un pKA de 6.8, très voisin du pH intracellulaire, est la seule ayant un rôle dans l’équilibre acide-base. Il est fortement concentré dans les cellules et à faible concentration en extracellulaire. Il a une activité tampon importante en intracellulaire et dans l’urine tubulaire."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hémoglobine en tant que système tampon ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle a un pouvoir tampon 6 fois inférieur à celui des protéines plasmatiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sa concentration est quatre fois plus importante que les autres protéines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est trois fois plus riche en histidine que l'albumine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'effet Haldane amplifie ses capacités tampon.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Son pKA diminue lors de la désoxygénation.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémoglobine a un pouvoir tampon 6 fois supérieur à celui des protéines plasmatiques, une concentration quatre fois plus importante que les autres protéines et est trois fois plus riche en histidine que l’albumine. Ses capacités tampon sont encore amplifiées par l’effet Haldane. Le pKA augmente lors de la désoxygénation et diminue lors de l’oxygénation."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle des cristaux d'hydroxyapatite et de carbonate de calcium dans l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils interviennent rapidement dans les désordres acido-basiques aigus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Leur capacité tampon est négligeable.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils jouent un rôle majeur dans les surcharges acides chroniques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une acidose prolongée peut contribuer à une déminéralisation osseuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont des tampons extracellulaires primordiaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ces tampons osseux ne sont que très lentement mobilisables, et ils interviennent peu dans les désordres acido-basiques aigus. Par contre, leur capacité tampon est considérable (50 000 mosm) et ils jouent un rôle majeur dans les surcharges acides chroniques. Lors de charges acides prolongées, l'os libère du carbonate de calcium et du phosphate de calcium en échange d'ions H+, contribuant à une déminéralisation osseuse et une ostéoporose."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux tampons dans les différents compartiments de l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système bicarbonate a le pouvoir tampon le plus important dans le liquide extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les protéines et les phosphates inorganiques sont les principaux tampons dans le liquide intracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hémoglobine est le principal tampon dans les globules rouges.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les bicarbonates sont les tampons prédominants dans le muscle et l'os.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le pouvoir tampon intracellulaire prend en charge moins de 50% de la charge acide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système bicarbonate a le pouvoir tampon le plus important dans le liquide extracellulaire et les protéines et les phosphates inorganiques dans le liquide intracellulaire. Enfin, dans les globules rouges, l’hémoglobine est le principal tampon. Sur le plan intracellulaire (principalement musculaire et osseux), les phosphates inorganiques prédominent sur les bicarbonates et les protéines. Le pouvoir tampon intracellulaire est primordial puisqu'il prend en charge plus de 50% de la charge acide."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des chémorécepteurs périphériques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont situés au plancher du 4ème ventricule.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont moins sensibles que les chémorécepteurs centraux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont sensibles à la variation du pH, de la PaCO2 et surtout à la PaO2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils permettent d'accélérer la régulation en cas de variations rapides du métabolisme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La baisse du pH stimule ces récepteurs, entraînant une hypoventilation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les chémorécepteurs périphériques (aortique et sino-carotidiens) sont moins sensibles mais très rapides. Ils sont sensibles à la variation du pH et de la PaCO2 mais surtout à la PaO2. La baisse du pH stimule ces récepteurs (↗ de la PaCO2 et ↘ de la PaO2) d’où une hyperventilation et une élimination accrue du CO2."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels facteurs peuvent augmenter le taux de réabsorption tubulaire des bicarbonates ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypovolémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'expansion des liquides extracellulaires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La déplétion potassique avec hypokaliémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypercapnie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hyperkaliémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'augmentation du taux de réabsorption des bicarbonates est favorisée par l'hypovolémie, la déplétion potassique avec hypokaliémie, l'hypercapnie et la déplétion en chlorure. L'expansion des liquides extracellulaires et l'hyperkaliémie diminuent le taux de réabsorption."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'excrétion d'acidité titrable par le rein, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est essentiellement assurée par le phosphate monosodique (H2PO4-).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est une forme régulée d'élimination de la charge acide.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est maximale à pH urinaire alcalin.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle ne dépasse pas un tiers de l'excrétion totale des ions H+ dans les conditions habituelles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un ion H+ est excrété et un ion HCO3- est réabsorbé pour chaque mmole de HPO42- transformée en H2PO4-.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'excrétion d'acidité titrable est essentiellement assurée par le phosphate monosodique (H2PO4-). Il s’agit d’une forme non régulée d’élimination de la charge acide, mais modulée par le pH urinaire (l’acidité titrable est maximale à pH urinaire acide). L'excrétion d'ions H+ sous cette forme ne dépasse pas dans les conditions habituelles un tiers de l'excrétion totale des ions H+. Au bilan, pour chaque mmole de HPO42- transformée en H2PO4- un ion H+ est excrété et un ion HCO3- est réabsorbé."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui favorisent la diffusion tubulaire de l'ammoniac (NH3) et stimulent sa production ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'alcalose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'augmentation du débit urinaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La déplétion en K+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'acidose prolongée.",
+          "correct": true
+        }
+      ],
+      "explanation": "La diffusion tubulaire du NH3 est favorisée par l'acidose, l'augmentation du débit urinaire, la déplétion en K+ et l'aldostérone. L'acidose prolongée, la déplétion potassique et l'augmentation de l'aldostérone stimulent la production de NH3."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes de la démarche diagnostique devant un désordre acido-basique objectivé à la gazométrie artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déterminer le pH urinaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Valider la gazométrie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Reconnaître le trouble acido-basique primitif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évaluer la réponse prévisible au trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déterminer précisément le ou les troubles.",
+          "correct": true
+        }
+      ],
+      "explanation": "La démarche à suivre devant tout désordre acidobasique objectivé à la gazométrie artérielle suit quatre étapes : 1ère étape : Valider la gazométrie, 2ème étape : Reconnaître le trouble acidobasique primitif, 3ème étape : Évaluation de la réponse prévisible au trouble primaire, 4ème étape : Détermination précise du ou des troubles."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Comment se définit une acidose métabolique selon la méthode classique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par une concentration plasmatique de bicarbonate supérieure à 26 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par une concentration plasmatique de bicarbonate inférieure à 20-22 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par une augmentation du pH sanguin.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'acidémie est souvent décrite comme « sévère » lorsque le pH est inférieur ou égal à 7,20.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pH dépend uniquement de la concentration en bicarbonates.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’acidose métabolique est définie, selon la méthode classique dite de Henderson-Hasselbalch, par la présence d’un trouble acido-basique en lien avec une concentration plasmatique de bicarbonate inférieure à 20-22 mmol/L. L’acidémie est souvent décrite comme « sévère » lorsque le pH est inférieur ou égal à 7,20. Le pH dépend de la profondeur de l’acidose et de la compensation respiratoire (PaCO2)."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques des acidoses métaboliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perte primitive de bicarbonates.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une accumulation d'un acide indosé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la PaCO2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surcharge en bases.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il convient de distinguer deux mécanismes physiopathologiques différents : l’accumulation d’un acide indosé (donneur d’ion H+) et la perte primitive de bicarbonates."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de l'acidose métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La polypnée est le seul signe clinique spécifique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une respiration de type Kussmaul.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des signes neurologiques (obnubilation, coma) n'apparaissent qu'en cas d'acidose sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une action inotrope positive sur le cœur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des nausées et vomissements.",
+          "correct": true
+        }
+      ],
+      "explanation": "La polypnée est le seul signe clinique spécifique de l’acidose métabolique. La respiration de type Kussmaul (hyperventilation ample, régulière et profonde) est le seul signe pratiquement constant. Les signes neurologiques n'apparaissent que lors d'acidoses sévères. L'acidose sévère (pH < 7,20) a une action inotrope négative. Les signes digestifs sont dominés par les nausées, les vomissements voire une diarrhée."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de gravité d'une acidose métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH > 7,25.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperkaliémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la contractilité cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une résistance à l'insuline.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une détresse respiratoire par épuisement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les éléments de gravité incluent un pH < 7,25 (ou < 7,20) et/ou HCO3- < 15 (ou < 10) mmol/L, la présence d’une détresse respiratoire par épuisement, une hyperkaliémie menaçante, une diminution de la contractilité cardiaque, une résistance à l’insuline, et des troubles neurologiques (confusion, désorientation, coma)."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies des acidoses métaboliques à trou anionique plasmatique (TAP) élevé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les diarrhées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les cétoacidoses (diabétique, alcoolique, de jeûne).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les intoxications au méthanol ou à l'éthylène glycol.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'insuffisance rénale chronique avancée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les étiologies des acidoses métaboliques à TAP élevé incluent la production endogène aiguë d’H+ (acidose lactique, cétoacidoses), la surcharge exogène aiguë d’H+ (intoxications au méthanol, éthylène glycol, aspirine) et le défaut d’élimination des H+ (insuffisance rénale chronique avancée). Les diarrhées sont une cause d'acidose métabolique à TAP normal."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hyperlactatémie de type A ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diabète sucré.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le choc septique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'anémie sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'intoxication au cyanure.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'exercice physique violent.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperlactatémie de type A est due à l'hypoxie tissulaire, par diminution du transport d'O2 (baisse de débit cardiaque comme le choc septique, ou baisse du contenu artériel en O2 comme l'anémie sévère) ou par altération de l'extraction/utilisation d'O2 (sepsis grave, intoxication au cyanure). Le diabète sucré est de type B1, l'exercice physique violent est de type B3."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Comment peut-on distinguer l'origine digestive ou rénale d'une acidose métabolique à TAP normal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En mesurant la PaCO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En calculant le trou anionique urinaire (TAU).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si le TAU est positif, l'origine est rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si le TAU est négatif, l'origine est digestive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En dosant les corps cétoniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour reconnaître l’origine digestive ou rénale de cette acidose, on peut s’aider par les éléments cliniques et par le trou anionique urinaire (TAU) : = Na+ + K+ - Cl-. Quand le TAU est positif l’origine de cette acidose est rénale et s’il est négatif l’origine est plutôt digestive."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'acidose tubulaire distale de type I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à un abaissement de la capacité de réabsorption des bicarbonates par le tubule proximal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle se caractérise par une incapacité d'acidifier les urines en dessous d'un pH à 5.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle s'accompagne d'une hyperkaliémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle peut s'associer à une néphrocalcinose et une hypokaliémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est la plus fréquente des acidoses tubulaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acidose tubulaire distale de type I est due à un déficit de sécrétion des H+ par les cellules intercalaires du canal collecteur. L’acidose se caractérise par une incapacité d'acidifier les urines en dessous d'un pH à 5. Elle s'accompagne d'un retard de croissance, de néphrocalcinose, de néphrolithiases et d’une hypokaliémie. L'acidose tubulaire proximale (type II) est due à un abaissement de la capacité de réabsorption des bicarbonates par le tubule proximal. L'acidose tubulaire distale de type IV est la plus fréquente et est hyperkaliémique."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences physiopathologiques de l'hypercapnie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle périphérique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution du débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypertension intracrânienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation du débit sanguin cérébral.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypersécrétion de catécholamines et d'aldostérone.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’hypercapnie aiguë entraîne une hypertension artérielle périphérique, une augmentation du débit cardiaque, une hypertension intracrânienne et une augmentation du débit sanguin cérébral. L'acidose respiratoire aiguë s'accompagne d'une hypersécrétion de catécholamines, de glucocorticoïdes, de rénine, d'aldostérone et d'ADH plasmatiques avec rétention hydrosodée."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes neurologiques centraux qui apparaissent en cas d'acidose respiratoire aiguë et à partir de quelle PaCO2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des nausées et vomissements.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des céphalées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un flapping tremor.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une agitation et confusion.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ces signes apparaissent généralement pour une PaCO2 > 60 mm Hg.",
+          "correct": true
+        }
+      ],
+      "explanation": "Plus l'hypercapnie est d'installation rapide, plus les signes neurologiques centraux sont importants : nausées, vomissements, céphalées, flapping tremor, agitation, confusion, obnubilation, coma, crises comitiales... Ces signes neurologiques apparaissent en général pour une PaCO2 > 60 mm Hg."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de gravité d'une acidose respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le risque est lié à l'acidose elle-même plus qu'à l'hypoventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pH < 7.35 en cas de pathologie pulmonaire chronique doit inciter à une prise en charge spécifique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toute dyspnée avec normocapnie en cas de pathologie neuromusculaire doit être considérée comme sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une acidose respiratoire non compensée en cas de pathologie neuromusculaire est un signe de gravité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pronostic vital n'est pas immédiatement mis en jeu.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque est lié à l’hypoventilation alvéolaire plus qu’à l’acidose elle-même. Il s’agit d’une situation urgente où le pronostic vital est immédiatement mis en jeu. En cas de pathologie pulmonaire chronique, un pH < 7.35 doit inciter à une prise en charge spécifique. En cas de pathologie neuromusculaire (myasthénie, polyradiculonévrite aiguë), toute dyspnée avec normocapnie ou toute acidose respiratoire non compensée doivent être considérées comme sévères et surveillées en soins intensifs."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'acidoses respiratoires aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un bronchospasme sévère.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une anesthésie générale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome de Guillain-Barré.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un œdème pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une sclérose latérale amyotrophique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les acidoses respiratoires aiguës peuvent être causées par une obstruction des voies aériennes (bronchospasme sévère), une dépression des centres respiratoires (anesthésie générale), des déficits neuromusculaires (syndrome de Guillain-Barré) ou des défaillances cardiovasculaires (œdème pulmonaire). La sclérose latérale amyotrophique est une cause d'acidose respiratoire chronique."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques neurologiques et cardiovasculaires des alcaloses métaboliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles de la vigilance et convulsions.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Faiblesse musculaire et tétanie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du débit sanguin cérébral.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Syndrome coronarien aigu.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Troubles du rythme auriculaire ou ventriculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes neurologiques incluent troubles de la vigilance, convulsions, délire (liés à la baisse du débit sanguin cérébral), faiblesse musculaire, tétanie, myoclonies (liés à la baisse du calcium ionisé). Les signes cardiovasculaires incluent le syndrome coronarien aigu (diminution du débit sanguin coronaire) et des troubles du rythme auriculaire ou ventriculaire (complications de l’hypokaliémie de transfert)."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des alcaloses métaboliques chlorosensibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont dues à une rétention rénale en sodium.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont associées à une déshydratation extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont caractérisées par une hypochlorémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les diurétiques chlorurétiques peuvent en être la cause.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont dites à pool chloré conservé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les alcaloses métaboliques chlorosensibles sont des alcaloses métaboliques à déplétion chlorée. Elles sont le résultat de la perte de chlore, d'origine digestive (vomissements, aspirations gastriques) ou rénale (diurétiques chlorurétiques). Elles s'accompagnent d'une déshydratation extracellulaire et d'une hypochlorémie. Les alcaloses normochlorémiques sont dites chlororésistantes et sont dues à une rétention rénale en sodium."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les principaux facteurs d'entretien de l'alcalose métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'augmentation de la filtration glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La diminution du volume extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypokaliémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypochlorémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'aldostérone.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs d'entretien de l'alcalose métabolique incluent la baisse de la filtration glomérulaire (diminution du volume extracellulaire, hypokaliémie), l'hypokaliémie (qui augmente la réabsorption tubulaire de bicarbonates), l'hypochlorémie (qui diminue la filtration glomérulaire et augmente l'excrétion d'H+), et l'aldostérone (qui augmente l'excrétion sodium-indépendante d'ions H+)."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Comment se caractérise la phase d'entretien de l'alcalose métabolique sur le plan biologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par une alcalurie paradoxale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par une acidurie paradoxale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par un pH urinaire inférieur à 6.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La chlorurèse reste élevée pour les alcaloses d'origine rénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La chlorurèse devient basse pour les alcaloses d'origine rénale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La phase d’entretien est toujours d’origine rénale et résulte d’une réabsorption tubulaire des bicarbonates avec excrétion d’ions H+. C’est ce qu’on appelle l’« acidurie paradoxale » qui est caractéristique de cette phase. Cette phase d’entretien se caractérise, sur le plan biologique, par un pH urinaire inférieur à 6. La chlorurèse reste basse pour les alcaloses métaboliques hypochlorémiques d’origine digestive, mais elle devient basse également pour celles d’origine rénale car le pool chloré finit par être très bas."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Comment s'opère la correction des alcaloses métaboliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour les alcaloses chlorosensibles, la correction apparaît avec la normalisation du pool chloré.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour les alcaloses chlorosensibles, la bicarbonaturie disparaît.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pour les alcaloses chlororésistantes, la correction repose sur la normalisation du pool potassique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour les alcaloses chlororésistantes, la correction repose sur la normalisation des concentrations plasmatiques minéralocorticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pH urinaire devient inférieur à 6 lors de la correction des alcaloses chlorosensibles.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les alcaloses métaboliques chlorosensibles, la phase de correction apparaîtra avec la normalisation du pool chloré : la chlorémie remonte, les HCO3– et le pH se normalisent ; la bicarbonaturie réapparaît et le pH urinaire devient supérieur à 6. La correction des alcaloses métaboliques chlororésistantes repose avant tout sur la normalisation du pool potassique et des concentrations plasmatiques minéralocorticoïdes."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations neurologiques d'une alcalose respiratoire aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céphalées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Confusion mentale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Crises comitiales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fourmillements des extrémités.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation du flux sanguin cérébral.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une alcalose respiratoire aigüe peut se manifester par des céphalées, une confusion mentale, voire des crises comitiales. D'autres manifestations neurologiques sont possibles (fourmillements des extrémités, signe de Chvosteck...) en rapport avec les perturbations biologiques associées : baisse de la fraction ionisée du calcium, hypophosphorémie. Ces signes sont en rapport avec une baisse du flux sanguin cérébral."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences cardiovasculaires d'une hypocapnie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une baisse du débit cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la pression artérielle systémique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une baisse de la pression artérielle systémique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du débit sanguin coronaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypocapnie aiguë entraîne une baisse du débit cardiaque et de la pression artérielle systémique. L'alcalose métabolique peut entraîner une diminution du débit sanguin coronaire."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes et étiologies des alcaloses respiratoires d'origine centrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'anxiété et la douleur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les atteintes neurologiques comme le traumatisme crânien ou l'encéphalite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les toxiques comme les salicylés ou les catécholamines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La grossesse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hypoxie tissulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les alcaloses respiratoires d'origine centrale sont dues à une hyperventilation alvéolaire d'origine centrale. Les étiologies incluent l'anxiété, la douleur, les atteintes neurologiques (traumatisme crânien, encéphalite, méningite, tumeur cérébrale, accident vasculaire cérébral), les toxiques (salicylés, aminophylline, catécholamines), la fièvre, les syndromes septiques et la grossesse. L'hypoxie tissulaire est un mécanisme d'hyperventilation alvéolaire par hypoxie tissulaire."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies des alcaloses respiratoires par hypoxie tissulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le séjour en altitude.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'intoxication au CO.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'anémie intense.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un trouble du rapport ventilation/perfusion.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une ventilation mécanique mal conduite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les alcaloses respiratoires par hypoxie tissulaire sont causées par une hyperventilation alvéolaire due à une baisse de la FiO2, un séjour en altitude, une intoxication au CO, une anémie intense, un shunt droite-gauche, un trouble du rapport ventilation/perfusion ou une fibrose pulmonaire. Une ventilation mécanique mal conduite est une autre cause d'alcalose respiratoire."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'acidose tubulaire distale de type IV (hyperkaliémique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est la plus fréquente des acidoses tubulaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est induite par une carence ou une résistance à l'aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle s'accompagne d'une hypokaliémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le pH urinaire est généralement supérieur à 5,5.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le trou anionique urinaire (TAU) est généralement très positif (>> 0).",
+          "correct": false
+        }
+      ],
+      "explanation": "C'est l'acidose tubulaire la plus fréquente. Elle est induite par une carence d’aldostérone ou une résistance à l’action de l’aldostérone. Elle s'accompagne d'une hyperkaliémie. Le pH urinaire est généralement inférieur à 5,5. Le TAU est généralement très positif (>> 0)."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'acidose métabolique à TAP normal avec un TAU positif (>0) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les diarrhées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'acidose tubulaire proximale (type II).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'acidose tubulaire distale de type I.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'acidose tubulaire distale de type IV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'apport excessif de sérum salé isotonique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les acidoses métaboliques à TAP normal avec un TAU positif (>0) sont d'origine rénale. Cela inclut l'acidose tubulaire proximale (type II), l'acidose tubulaire distale de type I et l'acidose tubulaire distale de type IV. Les diarrhées et l'apport excessif de sérum salé isotonique sont des causes d'acidose métabolique à TAP normal avec un TAU négatif (<<0)."
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-13",
+  "title": "Insuffisances respiratoires aiguës",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de la dyspnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perception anormale et désagréable de la respiration.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la fréquence respiratoire au-delà de 25/min.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la fréquence respiratoire en dessous de 15/min.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une douleur thoracique intense irradiant vers le bras gauche.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une toux persistante avec expectorations purulentes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée est définie comme une perception anormale et désagréable de la respiration, souvent accompagnée d'une gêne respiratoire subjective et angoissante."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel type de dyspnée est typiquement associé à une pathologie des voies aériennes supérieures (pharyngée, laryngée ou trachéale) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dyspnée expiratoire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La dyspnée de Küssmaul.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dyspnée inspiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La dyspnée de Cheyne-Stokes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'orthopnée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée inspiratoire, ou du temps inspiratoire, est caractéristique des pathologies des voies aériennes supérieures (pharyngée, laryngée ou trachéale)."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel terme décrit une dyspnée qui est augmentée par la position couchée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Platypnée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Antépnée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dyspnée de Küssmaul.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Orthopnée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dyspnée expiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'orthopnée est une dyspnée augmentée par la position couchée, souvent observée en cas d'insuffisance cardiaque, de dysfonction diaphragmatique ou d'obésité."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les trois examens considérés comme indispensables en cas de dyspnée aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échocardiographie, D-dimères, TDM thoracique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Radiographie pulmonaire de face, Électrocardiogramme, Gaz du sang.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fibroscopie bronchique, NT-pro-BNP, Hémocultures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bilan hépatique, Bilan rénal, Ionogramme sanguin.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Spirométrie, Test de marche de 6 minutes, Oxymétrie de pouls.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les trois examens indispensables en cas de dyspnée aiguë sont la radiographie pulmonaire de face, l'électrocardiogramme et les gaz du sang."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle dysrythmie respiratoire est caractérisée par des mouvements respiratoires de plus en plus amples et rapides, souvent suivis d'une pause prolongée, et est associée à une affection neurologique sévère ou une insuffisance cardiaque grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dyspnée de Küssmaul.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La dyspnée inspiratoire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dyspnée de Cheyne-Stokes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La bradypnée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La polypnée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée de Cheyne-Stokes est une dyspnée anarchique avec des mouvements respiratoires de plus en plus amples et rapides, souvent suivis d'une pause prolongée, et est associée à une affection neurologique sévère ou une insuffisance cardiaque grave."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui influencent la respiration ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La stimulation des mécanorécepteurs thoraciques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le contenu artériel en oxygène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pH sanguin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La température corporelle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La glycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La respiration dépend de la stimulation des mécanorécepteurs thoraciques, du contenu artériel en oxygène (fonction du taux d’Hb, de la SaO2 et du débit cardiaque) et du pH sanguin (récepteurs dans le SNC)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques sont indicatifs d'une détresse respiratoire aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyanose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sueurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tirage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Respiration abdominale paradoxale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tachycardie > 110 bpm.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de détresse respiratoire aiguë incluent la cyanose, les sueurs (choc, hypercapnie), la polypnée/bradypnée, le tirage, la mise en jeu des muscles respiratoires accessoires et la respiration abdominale paradoxale. La tachycardie > 110 bpm est un signe de retentissement hémodynamique."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels indices contextuels peuvent suggérer une embolie pulmonaire (EP) chez un patient présentant une dyspnée aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interruption d'un régime hyposodé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Notion de voyage aérien récent.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chirurgie récente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exposition allergénique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Syndrome infectieux.",
+          "correct": false
+        }
+      ],
+      "explanation": "La notion de voyage aérien ou de chirurgie récente est un facteur de risque à rechercher en cas de suspicion d'embolie pulmonaire."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente une dyspnée aiguë avec des râles sibilants à l'auscultation. Quelles étiologies doivent être envisagées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthme aigu.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exacerbation aiguë de BPCO.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance cardiaque gauche (pseudo-asthme cardiaque).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumopathie infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pneumothorax.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée aiguë avec râles sibilants peut être due à un asthme aigu, une exacerbation aiguë de BPCO ou un pseudo-asthme cardiaque (insuffisance cardiaque gauche)."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles conditions sont associées à une dyspnée aiguë avec des râles crépitants ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance cardiaque gauche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pneumopathie infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Détresse Respiratoire Aiguë (SDRA).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumopathie d'hypersensibilité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Embolie pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les râles crépitants en cas de dyspnée aiguë peuvent être observés dans l'insuffisance cardiaque gauche, la pneumopathie infectieuse, le SDRA et la pneumopathie d'hypersensibilité. L'embolie pulmonaire a souvent une auscultation normale."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles étiologies de dyspnée aiguë sont caractérisées par une abolition du murmure vésiculaire du côté atteint ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épanchement pleural liquidien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atélectasie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumopathie infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Asthme aigu.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'abolition du murmure vésiculaire du côté atteint est un signe d'un pneumothorax, d'un épanchement pleural liquidien ou d'une atélectasie aiguë."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Chez un patient présentant une dyspnée aiguë avec une auscultation pulmonaire normale, quelles étiologies cardiovasculaires doivent être considérées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embolie pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Trouble du rythme cardiaque aigu.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épanchement péricardique abondant de constitution récente (tamponnade).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance cardiaque gauche.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pseudo-asthme cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Avec une auscultation normale, les causes cardiovasculaires de dyspnée aiguë incluent l'embolie pulmonaire, les troubles du rythme cardiaque aigus et l'épanchement péricardique abondant de constitution récente (tamponnade). L'IC gauche et le pseudo-asthme cardiaque sont associés à des râles."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le bilan minimal recommandé devant une dyspnée chronique isolée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dosage de l'hémoglobine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Radiographie pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épreuves fonctionnelles respiratoires (EFR).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Électrocardiogramme (ECG).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "TDM thoracique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan minimal devant une dyspnée chronique isolée comprend le dosage de l'Hb, la RP, les EFR et l'ECG, avec une échocardiographie possible en complément."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles caractéristiques différencient la BPCO de l'asthme dans le contexte de la dyspnée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La BPCO est souvent associée au tabagisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'asthme est souvent associé à un terrain atopique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le trouble ventilatoire obstructif (TVO) de la BPCO est non réversible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le TVO de l'asthme est réversible.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La BPCO se manifeste par une dyspnée à début brutal.",
+          "correct": false
+        }
+      ],
+      "explanation": "La BPCO est liée au tabagisme avec un TVO non réversible, tandis que l'asthme est associé à un terrain atopique et un TVO réversible. La dyspnée de la BPCO est progressive, non brutale."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'appel ou les signes à l'examen physique de l'hypertension pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée d'effort progressive inexpliquée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur thoracique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syncope d'effort.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Éclat du B2 au foyer pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Râles crépitants diffus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes d'appel de l'hypertension pulmonaire incluent la dyspnée d'effort progressive inexpliquée, la douleur thoracique et la syncope d'effort. À l'examen physique, un éclat du B2 au foyer pulmonaire et un souffle d'insuffisance tricuspide peuvent être présents. Les râles crépitants diffus ne sont pas mentionnés comme un signe direct de l'HTAP."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles conditions sont classées comme des anomalies de transport de l'oxygène pouvant causer une dyspnée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie chronique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Intoxication à l'oxyde de carbone (CO).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Méthémoglobinémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sulfhémoglobinémie acquise.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Acidose métabolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies de transport de l'oxygène incluent l'anémie chronique, l'intoxication à l'oxyde de carbone, la méthémoglobinémie et la sulfhémoglobinémie acquise. L'acidose métabolique est une cause de dyspnée aiguë avec auscultation normale, mais pas une anomalie de transport de l'oxygène."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle caractéristique est typique de la dyspnée de Küssmaul ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mouvements respiratoires de plus en plus amples et rapides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Souvent associée à une affection neurologique sévère.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En 4 temps : inspiration profonde – pause – expiration profonde – pause.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentée par la position couchée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Associée à des sifflements intra-thoraciques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée de Küssmaul est caractérisée par une respiration en 4 temps : inspiration profonde – pause – expiration profonde – pause, et est souvent associée à une acidose métabolique."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes indiquent un retentissement hémodynamique en cas de dyspnée aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tachycardie > 110 bpm.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Marbrures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Oligurie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Collapsus (PAS < 90 mmHg).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Angoisse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le retentissement hémodynamique se manifeste par une tachycardie > 110 bpm, des signes de choc (marbrures, oligurie, extrémités froides), un collapsus (PAS < 90 mmHg) et des signes d'insuffisance cardiaque droite aiguë. L'angoisse est un signe de retentissement neurologique."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes suggèrent un retentissement neurologique en cas de dyspnée aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Angoisse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Agitation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Torpeur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Astérixis.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cyanose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le retentissement neurologique peut se traduire par de l'angoisse, de l'agitation, une torpeur, un astérixis, voire un coma. La cyanose est un signe de détresse respiratoire aiguë."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles conditions peuvent provoquer une dyspnée aiguë inspiratoire ou mixte due à un obstacle laryngé ou trachéal haut ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur pharyngée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épiglottite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œdème glottique suraigu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhalation de corps étranger.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Exacerbation aiguë de BPCO.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un obstacle laryngé ou trachéal haut peut être causé par une tumeur (pharyngée, laryngée, trachéale, goitre), une infection (épiglottite aiguë, laryngite aiguë virale), une réaction allergique (œdème glottique suraigu) ou l'inhalation d'un corps étranger. L'exacerbation de BPCO cause des râles sibilants."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'anémie aiguë pouvant entraîner une dyspnée avec auscultation normale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémolyse bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémolyse paludique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémolyse auto-immune.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Saignement occulte.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie aiguë peut résulter d'une hémorragie aiguë ou d'une hémolyse aiguë (bactérienne, paludisme, toxique, immuno-allergique, auto-immune ou mécanique). Le saignement occulte est une cause d'anémie chronique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles conditions peuvent entraîner une acidose métabolique, cause de dyspnée aiguë avec auscultation normale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidocétose diabétique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perte de bicarbonates digestive (diarrhée aiguë importante).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Intoxication à l'oxyde de carbone.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acidose métabolique peut être causée par une acidocétose diabétique, une acidose lactique, une insuffisance rénale aiguë ou une perte de bicarbonates digestive (diarrhée aiguë importante). L'intoxication à l'oxyde de carbone est une anomalie de transport de l'oxygène."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles conditions neurologiques peuvent causer une dyspnée aiguë avec auscultation normale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accident vasculaire cérébral (AVC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Neuropathie périphérique (syndrome de Guillain-Barré).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Crise aiguë myasthénique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Affection neurologique sévère avec dyspnée de Küssmaul.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dysfonction aiguë des cordes vocales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes neurologiques de dyspnée aiguë avec auscultation normale incluent l'AVC (avec dyspnée de Cheyne-Stokes), la neuropathie périphérique (notamment le syndrome de Guillain-Barré) et la crise aiguë myasthénique. La dyspnée de Küssmaul est associée à l'acidose métabolique, et la dysfonction des cordes vocales est une cause d'obstacle laryngé."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles conditions sont listées comme causes de trouble ventilatoire restrictif (TVR) dans le contexte d'une dyspnée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyphoscoliose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Grande obésité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésion spinale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Myopathie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Asthme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de TVR incluent l'hypoventilation pariétale (cyphoscoliose, grande obésité) et les pathologies neuromusculaires (lésion spinale, myopathie, SLA, centrale). L'asthme est une cause de TVO."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels types de maladies cardiaques chroniques peuvent entraîner une dyspnée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cardiopathie ischémique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cardiopathie hypertensive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Myocardiopathie restrictive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Valvulopathie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Épanchement péricardique aigu.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance cardiaque chronique, quelle qu'en soit la cause (ischémique, hypertensive, myocardiopathie restrictive, valvulopathie, péricardite constrictive), peut entraîner une dyspnée chronique. L'épanchement péricardique aigu est une cause de dyspnée aiguë."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une dyspnée aiguë avec des râles crépitants. Le contexte suggère un œdème pulmonaire lésionnel (SDRA). Quelles sont les étiologies possibles du SDRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhalation de gaz toxique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pancréatite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Brûlure.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cardiopathie ischémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SDRA est un œdème pulmonaire lésionnel dont les causes peuvent être des gaz toxiques, une infection respiratoire ou extra-respiratoire, un traumatisme, une pancréatite, une inhalation ou une brûlure. La cardiopathie ischémique est une cause d'insuffisance cardiaque gauche, qui est un œdème pulmonaire hémodynamique."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles conditions sont des exemples de pneumopathie d'hypersensibilité, pouvant causer une dyspnée aiguë avec des râles crépitants ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poumon de fermier.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie des éleveurs d'oiseaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pneumopathie médicamenteuse aiguë.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pneumopathie infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hémorragie intra-alvéolaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le poumon de fermier et la maladie des éleveurs d'oiseaux sont des exemples de pneumopathies d'hypersensibilité. Les autres options sont des causes distinctes de râles crépitants."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente des crises de dyspnée aiguë récidivantes, diurnes, à début et fin brutal, mimant une crise d'asthme. Quelle condition est la plus probable, caractérisée par une fermeture paradoxale des cordes vocales à l'inspiration ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œdème glottique suraigu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Laryngite aiguë virale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dysfonction aiguë des cordes vocales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhalation de corps étranger.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tumeur laryngée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysfonction aiguë des cordes vocales est une cause rare de dyspnée aiguë inspiratoire ou mixte, caractérisée par des crises récidivantes, diurnes, à début et fin brutal, avec une fermeture paradoxale des cordes vocales à l'inspiration."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles caractéristiques sont associées au pseudo-asthme cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concerne souvent le patient âgé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Râles crépitants souvent associés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contexte de cardiopathie ischémique ou valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réponse favorable aux bronchodilatateurs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Terrain atopique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pseudo-asthme cardiaque (insuffisance cardiaque gauche) touche souvent le patient âgé, est associé à des râles crépitants et survient dans un contexte de cardiopathie (HTA, ischémique ou valvulaire). Il ne répond pas aux bronchodilatateurs comme l'asthme et n'est pas lié à un terrain atopique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon l'échelle de Sadoul, que signifie le Stade V de dyspnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée pour des efforts importants.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dyspnée à la marche rapide ou en pente légère.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dyspnée à la marche à plat à allure normale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dyspnée à la marche lente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dyspnée au moindre effort.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le Stade V de l'échelle de Sadoul correspond à une dyspnée au moindre effort."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon l'échelle du Medical Research Council (MRC), que signifie le Stade 4 de dyspnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée pour des efforts soutenus (montée de ≥ 2 étages).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dyspnée lors de la marche rapide à plat ou en pente légère.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dyspnée obligeant à s'arrêter pour reprendre son souffle après quelques minutes ou 100 mètres sur terrain plat.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dyspnée au moindre effort.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dyspnée à la marche sur terrain plat en suivant quelqu'un du même âge.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Stade 4 de l'échelle MRC signifie une dyspnée au moindre effort."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles caractéristiques sont associées à la dyspnée chronique psychogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnostic d'élimination.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Souvent chez une jeune femme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contexte d'anxiété avec attaque de panique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence de pauses et soupirs répétés.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Acidose respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée chronique psychogène est un diagnostic d'élimination, souvent observée chez une jeune femme, dans un contexte d'anxiété avec attaque de panique, et caractérisée par des pauses et soupirs répétés, entraînant une alcalose respiratoire. L'acidose respiratoire est incorrecte."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles conditions sont associées à l'orthopnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dysfonction diaphragmatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Obésité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome hépato-pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Asthme nocturne.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'orthopnée est augmentée par la position couchée et est associée à l'insuffisance cardiaque, la dysfonction diaphragmatique et l'obésité. Le syndrome hépato-pulmonaire cause la platypnée, et l'asthme nocturne est une dyspnée nocturne mais pas spécifiquement orthopnée."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles conditions sont associées à la platypnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome hépato-pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Shunt intra-pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Malformation artério-veineuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Obésité.",
+          "correct": false
+        }
+      ],
+      "explanation": "La platypnée est augmentée par l'orthostatisme et est associée au syndrome hépato-pulmonaire, au shunt intra-pulmonaire et aux malformations artério-veineuses. L'insuffisance cardiaque et l'obésité sont associées à l'orthopnée."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les 'signes respiratoires' associés à la dyspnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation ou diminution des vibrations vocales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en jeu des muscles inspiratoires du cou.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Respiration abdominale paradoxale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Wheezing.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cornage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes respiratoires associés incluent l'augmentation ou la diminution des vibrations vocales, la mise en jeu des muscles inspiratoires du cou et la respiration abdominale paradoxale. Le wheezing et le cornage sont des symptômes associés."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Chez l'enfant, quelle étiologie est la plus fréquemment associée à une dyspnée aiguë inspiratoire ou mixte due à un obstacle laryngé ou trachéal haut ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur laryngée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Épiglottite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Goitre.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dysfonction aiguë des cordes vocales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Œdème glottique suraigu.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez l'enfant, l'infection (épiglottite aiguë, laryngite aiguë virale) est une cause fréquente d'obstacle laryngé ou trachéal haut. Les tumeurs sont plus fréquentes chez l'adulte."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Chez l'adulte, quelle étiologie est la plus fréquemment associée à une dyspnée aiguë inspiratoire ou mixte due à un obstacle laryngé ou trachéal haut ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épiglottite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Laryngite aiguë virale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tumeur pharyngée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhalation de corps étranger.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Œdème glottique suraigu.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez l'adulte, l'obstacle tumoral (tumeur pharyngée, laryngée, trachéale, goitre) est une cause fréquente d'obstacle laryngé ou trachéal haut. Les infections sont plus fréquentes chez l'enfant."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel indice contextuel est spécifiquement mentionné comme étant associé à un OAP en cas de dyspnée aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Notion de voyage aérien récent.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chirurgie récente.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Interruption de régime hyposodé ou de traitement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exposition allergénique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inhalation d'un corps étranger.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'interruption de régime hyposodé ou de traitement est un contexte évocateur d'OAP ou d'asthme."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels signes sont caractéristiques d'une pneumopathie infectieuse causant une dyspnée aiguë avec des râles crépitants ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome infectieux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Terrain favorisant (âge, alcoolisme, ID).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Râles crépitants en foyer.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Souffle tubaire en regard de la condensation pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tableau d'OAP.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pneumopathie infectieuse se caractérise par un syndrome infectieux, un terrain favorisant, des râles crépitants en foyer et un souffle tubaire en regard de la condensation pulmonaire. Le tableau d'OAP est associé à l'insuffisance cardiaque gauche."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est l'examen de certitude pour le diagnostic de l'hypertension pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échocardiographie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TDM thoracique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Cathétérisme cardiaque droit.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Épreuves fonctionnelles respiratoires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Gaz du sang.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de certitude de l'hypertension pulmonaire est établi par le cathétérisme cardiaque droit. L'échocardiographie est un examen de dépistage."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon l'échelle fonctionnelle de la NYHA, que signifie la Classe 4 concernant le retentissement fonctionnel sur l'activité physique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aucune limitation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Limitation légère à modérée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Limitation marquée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Limitation au moindre effort ou au repos.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dyspnée pour des efforts importants.",
+          "correct": false
+        }
+      ],
+      "explanation": "La classe 4 de l'échelle fonctionnelle de la NYHA indique une limitation au moindre effort ou au repos."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment sont définies la polypnée et l'hypopnée en relation avec la ventilation-minute ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La polypnée est une diminution de la ventilation-minute, l'hypopnée une augmentation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La polypnée est une augmentation de la ventilation-minute, l'hypopnée une diminution.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La polypnée est une augmentation de la fréquence respiratoire, l'hypopnée une diminution.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La polypnée est une respiration profonde, l'hypopnée une respiration superficielle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ces termes décrivent des dysrythmies respiratoires spécifiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La polypnée correspond à une augmentation de la ventilation-minute (VC x FR), tandis que l'hypopnée correspond à une diminution."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles caractéristiques sont associées à la dyspnée expiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pathologie des voies aériennes supérieures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pathologie bronchique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sifflements intra-thoraciques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cornage.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Bradypnée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée expiratoire est associée à une pathologie bronchique et peut s'accompagner de sifflements intra-thoraciques. La pathologie des voies aériennes supérieures et le cornage sont liés à la dyspnée inspiratoire."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles conditions sont listées comme causes de trouble ventilatoire obstructif (TVO) chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BPCO.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asthme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cyphoscoliose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Myopathie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pneumopathie interstitielle diffuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de TVO chronique sont la BPCO et l'asthme. La cyphoscoliose et la myopathie sont des causes de TVR, et la pneumopathie interstitielle diffuse est une autre maladie pulmonaire chronique."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte de la dyspnée chronique, à quelle catégorie d'étiologies appartient l'intoxication à l'oxyde de carbone (CO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie pulmonaire chronique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Maladie cardiaque chronique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Anomalie de transport de l'oxygène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dyspnée psychogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pathologie neuromusculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intoxication à l'oxyde de carbone (CO) est classée comme une anomalie de transport de l'oxygène."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de méthémoglobinémie pouvant entraîner une dyspnée chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intoxication aux nitrates/nitrites.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Engrais azoté.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cause congénitale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Intoxication à l'oxyde de carbone.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hémolyse chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La méthémoglobinémie peut être causée par une intoxication aux nitrates/nitrites, les engrais azotés ou être congénitale. L'intoxication au CO et l'hémolyse chronique sont d'autres anomalies de transport de l'oxygène ou causes d'anémie chronique."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes associés à l'auscultation pulmonaire en cas de dyspnée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abolition du murmure vésiculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bruits surajoutés (sibilants, ronchi, crépitants).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur thoracique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Toux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Fièvre.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'auscultation pulmonaire peut révéler une abolition du murmure vésiculaire ou des bruits surajoutés (sibilants, ronchi, crépitants). La douleur thoracique, la toux et la fièvre sont des symptômes ou signes extra-respiratoires associés."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles étiologies de dyspnée aiguë sont spécifiquement mentionnées comme étant associées à une douleur thoracique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pleurésie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pneumopathie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "OAP.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Embolie pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur thoracique est un signe associé à la dyspnée aiguë dans le contexte d'un pneumothorax, d'une pleurésie, d'une pneumopathie ou d'un OAP."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon l'échelle de Borg, quelle sensation de dyspnée correspond à un score de 7 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nulle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Légère.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Modérée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Forte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Très forte.",
+          "correct": true
+        }
+      ],
+      "explanation": "Sur l'échelle de Borg, une sensation de dyspnée 'très forte' correspond à un score de 7."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement recommandé pour la dyspnée chronique psychogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antidépresseurs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Anxiolytiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Rééducation respiratoire par kiné spécialisé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bronchodilatateurs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Oxygénothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la dyspnée chronique psychogène mentionné est la rééducation respiratoire par kiné spécialisé."
+    }
+  ]
+}

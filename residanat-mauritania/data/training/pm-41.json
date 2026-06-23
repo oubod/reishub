@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-41",
+  "title": "Diabète sucré",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition biologique du diabète sucré selon les critères français ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une glycémie à jeun inférieure à 1,10 g/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une glycémie à jeun comprise entre 1,10 g/L et 1,26 g/L.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une glycémie à jeun égale ou supérieure à 1,26 g/L sur deux prélèvements à quelques jours d'intervalle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une glycémie aléatoire supérieure à 1,26 g/L sans signes cliniques d'hyperglycémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une HbA1c égale ou supérieure à 6,5%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de diabète sucré est posé si la glycémie à jeun est égale ou supérieure à 1,26 g/L à deux reprises à quelques jours d'intervalle. Une glycémie aléatoire ≥ 2 g/L avec signes cliniques d'hyperglycémie est également diagnostique. L'HbA1c ≥ 6,5% n'est pas recommandée en France pour le diagnostic."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les propositions suivantes, laquelle est une caractéristique typique du diabète de type 1 lors de sa survenue ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un début lent et insidieux, souvent asymptomatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une survenue généralement après 35 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hyperglycémie majeure supérieure à 3 g/L avec cétose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence de complications dégénératives dans 50% des cas au diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surcharge pondérale ou obésité fréquente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète de type 1 se caractérise par un début rapide ou explosif avec une symptomatologie bruyante et une hyperglycémie majeure > 3 g/L avec cétose. Il survient généralement avant 35 ans et le poids est normal ou maigre. Les complications dégénératives sont absentes au diagnostic."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le reflet de la glycémie moyenne sur une période de 3 mois ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fructosamine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La glycémie à jeun.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La glycémie post-prandiale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hémoglobine glyquée (HbA1c).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La cétonémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HbA1c est le reflet de la glycémie moyenne sur 3 mois, en raison de la fixation non enzymatique et irréversible du glucose sur l'hémoglobine dont la demi-vie est d'environ 3 mois."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les symptômes cardinaux de l'hyperglycémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bradycardie, hypotension, hypothermie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Polyurie, polydipsie, déshydratation, amaigrissement avec polyphagie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleurs thoraciques, dyspnée d'effort, œdèmes des membres inférieurs.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Céphalées, troubles visuels, paresthésies.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Nausées, vomissements, diarrhée, douleurs abdominales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cardinaux de l'hyperglycémie sont la polyurie, la polydipsie, la déshydratation et l'amaigrissement avec polyphagie."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de mortalité chez les patients atteints de diabète de type 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insuffisance rénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les maladies cardiovasculaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les infections aiguës.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les cancers.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les complications neurologiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cause principale de mortalité dans le diabète de type 2 est la maladie cardiovasculaire."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations où le diagnostic de diabète sucré peut être posé sur un seul prélèvement de glycémie veineuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une glycémie à jeun ≥ 1,26 g/L sans signes cliniques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une glycémie aléatoire ≥ 2 g/L avec signes cliniques d'hyperglycémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une glycémie à jeun entre 1,10 g/L et 1,26 g/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une glycémie aléatoire ≥ 2 g/L sans signes cliniques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une glycémie à jeun ≥ 1,26 g/L avec une cétonurie positive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de diabète sucré peut être posé sur un seul prélèvement si la glycémie aléatoire est ≥ 2 g/L avec des signes cliniques d'hyperglycémie. Une glycémie à jeun ≥ 1,26 g/L nécessite deux prélèvements."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les médicaments suivants, lesquels sont connus pour induire un diabète secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les bêta-bloquants.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les diurétiques thiazidiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les inhibiteurs de l'enzyme de conversion (IEC).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les statines.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les corticoïdes, les diurétiques thiazidiques et les statines sont mentionnés comme des médicaments pouvant induire un diabète secondaire. Les immunosuppresseurs, stéroïdes sexuels, inhibiteurs de protéase, neuroleptiques atypiques, pentamidine, L-asparaginase, streptozotocine et raticide pyrinuron sont également cités."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du diabète de type 2 au moment du diagnostic ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survenue typiquement avant 35 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Début lent et insidieux, souvent asymptomatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de cétose fréquente.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperglycémie généralement inférieure à 2 g/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Complications dégénératives présentes dans 50% des cas.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diabète de type 2 survient généralement après 35 ans, a un début lent et insidieux, est souvent asymptomatique, présente une hyperglycémie < 2 g/L sans cétose, et des complications dégénératives sont présentes dans 50% des cas au diagnostic."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions qui peuvent modifier la valeur de l'HbA1c en la diminuant faussement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hémolyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'anémie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insuffisance rénale chronique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le sujet âgé.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La splénectomie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémolyse et l'anémie aiguë diminuent la demi-vie de l'hémoglobine, ce qui peut fausser la valeur de l'HbA1c à la baisse. L'insuffisance rénale chronique, le sujet âgé et la splénectomie sont des facteurs qui augmentent faussement l'HbA1c."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens font partie du bilan annuel de surveillance du patient diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un examen ophtalmologique bilatéral complet avec fond d'œil.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une recherche de microalbuminurie si la protéinurie à la BU est négative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un électromyogramme (EMG) systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un bilan lipidique complet.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une angiographie à la fluorescéine systématique dès la découverte d'un DT1.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan annuel inclut un examen ophtalmologique complet avec FO, la recherche de microalbuminurie si la BU est négative, et un bilan lipidique complet. L'EMG n'est pas recommandé sauf forme atypique. L'angiographie à la fluorescéine est recommandée dès la découverte d'un DT2, au bout de 5 ans de DT1 ou si anomalie au fond d'œil, pas systématiquement dès la découverte d'un DT1."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes endocriniennes de diabète secondaire mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypercorticisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le phéochromocytome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hémochromatose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'acromégalie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La mucoviscidose.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypercorticisme, le phéochromocytome et l'acromégalie sont des causes endocriniennes de diabète secondaire. L'hémochromatose et la mucoviscidose sont des maladies pancréatiques exocrines."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance trimestrielle du patient diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La créatininémie avec calcul de la clairance.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La fréquence de survenue d'hypoglycémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le poids.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'HbA1c.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'examen des pieds.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance trimestrielle inclut la fréquence de survenue d'hypoglycémie, le poids et l'HbA1c tous les 3 mois. La créatininémie et l'examen des pieds font partie du bilan annuel."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs déclenchants d'une acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un déficit absolu en insuline, comme un arrêt volontaire d'insulinothérapie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une infection surajoutée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un infarctus du myocarde.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une corticothérapie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une prise excessive de boissons sucrées.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acidocétose diabétique est due à un déficit en insuline, absolu (inaugural du DT1, arrêt d'insulinothérapie) ou relatif (facteur surajouté comme une infection, un infarctus, une corticothérapie, une chirurgie). La prise excessive de boissons sucrées est un facteur de risque de coma hyperosmolaire."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques biologiques du coma hyperosmolaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperglycémie majeure > 6 g/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Osmolarité plasmatique > 320 mOsm/kg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de cétonurie ++ ou +++.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Natrémie corrigée > 155 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Acidose métabolique à trou anionique augmenté.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le coma hyperosmolaire se caractérise par une hyperglycémie majeure > 6 g/L, une osmolarité > 320 mOsm/kg et une natrémie corrigée > 155 mmol/L. Il n'y a pas de cétonurie significative (ou traces) ni d'acidose métabolique."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque d'hypoglycémie chez un patient diabétique sous traitement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un repas sauté ou insuffisant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un effort physique sans adaptation de l'insuline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une prise d'alcool.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une insuffisance rénale sous sulfamides.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une lipodystrophie au site d'injection d'insuline.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous ces éléments sont des facteurs déclenchants d'hypoglycémie : repas sauté, insuffisant ou retardé, effort physique sans adaptation de l'insuline, prise d'alcool, surdosage de sulfamides en cas d'insuffisance rénale, et résorption trop rapide de l'insuline due à une lipodystrophie."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies génétiques de la fonction des cellules β mentionnées comme causes de diabète ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les diabètes MODY.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome de Klinefelter.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les diabètes mitochondriaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de Wolfram.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les anomalies du gène de l'insuline.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les diabètes MODY, les diabètes mitochondriaux et les anomalies du gène de l'insuline sont des anomalies génétiques de la fonction des cellules β. Le syndrome de Klinefelter et le syndrome de Wolfram sont des syndromes génétiques plus larges pouvant inclure le diabète."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le seuil de glycémie à jeun qui marque l'intolérance au glucose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 1,10 g/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 1,10 g/L et 1,26 g/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Égal ou supérieur à 1,26 g/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Supérieur à 2 g/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Égal ou supérieur à 6,5% d'HbA1c.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intolérance au glucose est définie par une glycémie à jeun comprise entre 1,10 g/L et 1,26 g/L."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de la phase de cétose dans l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polypnée de Kussmaul.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Aggravation brutale du syndrome cardinal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles digestifs (nausées, vomissements, douleurs abdominales).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Haleine acétonique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Coma profond sans signe de localisation.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase de cétose se manifeste par une aggravation brutale du syndrome cardinal, des troubles digestifs (nausées, vomissements, douleurs abdominales) et une haleine acétonique. La polypnée de Kussmaul et le coma sont des signes de la phase d'acidocétose."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations où la fructosamine peut être utile pour le suivi de la glycémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En pratique courante pour le suivi trimestriel.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour refléter la glycémie moyenne sur 3 mois.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Lorsque l'HbA1c est faussée par une hémolyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour évaluer la glycémie sur une période de 3 semaines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas de modification structurelle de l'hémoglobine (Hb S ou Hb C).",
+          "correct": true
+        }
+      ],
+      "explanation": "La fructosamine reflète la glycémie sur une période de 3 semaines et peut être utile lorsque l'HbA1c est faussée (par exemple par hémolyse ou modification structurelle de l'Hb). Elle n'est pas indiquée en pratique courante pour le suivi régulier."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors de l'examen des pieds chez un patient diabétique dans le cadre du bilan annuel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hyperkératose et les plaies cutanées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La température et l'aspect des pieds.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les pouls périphériques et l'IPS (Index de Pression Systolique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le test au mono-filament et au diapason.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La recherche de déformations et d'appuis anormaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen des pieds est complet et inclut l'évaluation cutanée (hyperkératose, plaie, intertrigo), neurologique (test au mono-filament et au diapason, réflexes), vasculaire (température, aspect, pouls périphériques, IPS) et morphologique (déformation, appuis anormaux, chaussage)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de diabète secondaire liées à une maladie pancréatique exocrine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pancréatite chronique calcifiante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le cancer du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le glucagonome.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La mucoviscidose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hémochromatose.",
+          "correct": true
+        }
+      ],
+      "explanation": "La pancréatite chronique calcifiante, le cancer du pancréas, la mucoviscidose et l'hémochromatose sont des maladies pancréatiques exocrines pouvant causer un diabète secondaire. Le glucagonome est une maladie endocrinienne."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de gravité d'une acidocétose diabétique nécessitant un transfert en réanimation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH veineux ou artériel inférieur à 7.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperkaliémie supérieure à 6 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypokaliémie inférieure à 4 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une instabilité tensionnelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une non-reprise de la diurèse après 3 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous ces éléments sont des signes de gravité d'une acidocétose diabétique : pH < 7, hyperkaliémie > 6 mmol/L, hypokaliémie < 4 mmol/L, instabilité tensionnelle, non-reprise de la diurèse après 3h, coma profond, sujet âgé, vomissements incoercibles."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention de l'acidocétose diabétique chez un patient sous insulinothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le maintien des injections d'insuline même en l'absence de prise alimentaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La supplémentation systématique en insuline rapide en cas de glycémie élevée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La recherche systématique d'acétonurie si la glycémie est supérieure à 2,5 g/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'arrêt de l'insulinothérapie en cas de vomissements.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La réduction de la dose d'insuline en cas de fièvre.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention de l'acidocétose repose sur le maintien des injections d'insuline même en l'absence de prise alimentaire, la supplémentation en insuline rapide si nécessaire, et la recherche systématique d'acétonurie si la glycémie est > 2,5 g/L."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de coma hyperosmolaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge supérieur à 80 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une infection aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La prise de diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une mauvaise accessibilité aux boissons.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une corticothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous les éléments listés sont des facteurs de risque de coma hyperosmolaire : âge > 80 ans, infection aiguë, diurétiques, mauvaise accessibilité aux boissons, corticothérapie."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies génétiques de résistance à l'insuline mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insulinorésistance de type A.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome de Rabson-Mendenhall.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les diabètes MODY.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le lépréchaunisme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les diabètes lipoatrophiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'insulinorésistance de type A, le syndrome de Rabson-Mendenhall, le lépréchaunisme et les diabètes lipoatrophiques sont des anomalies génétiques de résistance à l'insuline. Les diabètes MODY sont des anomalies génétiques de la fonction des cellules β."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une glycémie à jeun de 1,15 g/L à deux reprises, sans signes cliniques. Quel est le diagnostic le plus approprié selon les critères français ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diabète sucré.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Intolérance au glucose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glycémie normale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diabète de type 2 débutant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Nécessité d'une HbA1c pour confirmer le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une glycémie à jeun comprise entre 1,10 g/L et 1,26 g/L correspond à une intolérance au glucose. Le diabète est diagnostiqué à partir de 1,26 g/L à jeun sur deux prélèvements. L'HbA1c n'est pas recommandée en France pour le diagnostic."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 1 est admis aux urgences pour une acidocétose. Sa kaliémie initiale est de 3,0 mmol/L. Quelle est la conduite à tenir concernant l'insulinothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Débuter l'insulinothérapie IVSE immédiatement à 0,1 U/kg/h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Corriger l'hypokaliémie avant de débuter l'insulinothérapie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administrer des apports potassiques uniquement si la kaliémie descend en dessous de 2,5 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ne pas administrer d'insuline tant que la glycémie n'est pas inférieure à 2,5 g/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administrer des bicarbonates de sodium avant l'insuline.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hypokaliémie < 3,3 mmol/L, il est impératif de corriger l'hypokaliémie avant de débuter l'insulinothérapie pour éviter une aggravation de l'hypokaliémie qui pourrait être fatale."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors de la réhydratation d'une acidocétose diabétique, quelle est la stratégie initiale recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer 1 à 1,5 L de NaCl 9 g/L la première heure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Débuter la réhydratation après l'insulinothérapie pour éviter une surcharge.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Utiliser du G5% dès le début pour corriger l'hyperglycémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administrer 4 à 7 L de NaCl 9 g/L sur les 2 premières heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Limiter la réhydratation à 2 L sur les 24 premières heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réhydratation doit être débutée avant l'insulinothérapie en cas d'hypovolémie, avec 1 à 1,5 L de NaCl 9 g/L la première heure, puis 0,5-1 L/2h sur les 2h suivantes, puis adaptée. Le total est de 4 à 7L."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 2 âgé de 85 ans est admis avec une hyperglycémie à 7 g/L, une osmolarité plasmatique à 340 mOsm/kg, une natrémie corrigée à 160 mmol/L et une cétonurie à 1+. Quel est le diagnostic le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidocétose diabétique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Coma hyperosmolaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypoglycémie sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diabète de type 1 inaugural.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cétonurie de jeun.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères d'hyperglycémie majeure (> 6 g/L), hyperosmolarité (> 320 mOsm/kg), natrémie corrigée élevée (> 155 mmol/L), l'âge avancé et l'absence d'acidose significative (cétonurie à 1+ n'indiquant pas une acidocétose) sont caractéristiques du coma hyperosmolaire."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous sulfamides présente un coma hypoglycémique. Quelle est la prise en charge immédiate la plus appropriée en milieu hospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Injection immédiate de glucagon par voie sous-cutanée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administration de 2 à 4 ampoules de G30% IVD, suivie d'une perfusion de G10% IVL sur 1h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Resucrage oral par 15-20 g de glucides simples.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Attendre la vérification de la glycémie capillaire avant toute intervention.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administrer des bicarbonates de sodium.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de coma hypoglycémique chez un patient sous sulfamides, le glucagon est inefficace. La prise en charge hospitalière consiste en l'administration de 2 à 4 ampoules de G30% IVD, suivie d'une perfusion de G10% IVL sur 1h en raison de l'effet prolongé des sulfamides."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions qui peuvent fausser l'HbA1c à la hausse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hémolyse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'insuffisance rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sujet âgé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La carence en fer.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le traitement par EPO.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance rénale chronique, le sujet âgé et la carence en fer sont des facteurs qui augmentent faussement l'HbA1c. L'hémolyse et le traitement par EPO diminuent faussement l'HbA1c."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 2 est suivi annuellement. Quels sont les examens cardiovasculaires recommandés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un examen cardiovasculaire complet avec prise de TA debout/couché.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un ECG de repos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un Doppler des TSA (Troncs Supra-Aortiques) systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un bilan lipidique complet.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un Doppler des membres inférieurs systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan cardiovasculaire annuel inclut un examen complet avec prise de TA debout/couché, un ECG de repos et un bilan lipidique complet. Les Dopplers des TSA et des MI sont réalisés selon indication, pas systématiquement."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 1 présente une acidocétose. Après 1 heure de réanimation, le pH est toujours inférieur à 7,1. Quelle est la conduite à tenir concernant l'administration de bicarbonates de sodium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer systématiquement 1L de bicarbonate de sodium isotonique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administrer du bicarbonate de sodium isotonique si l'acidose majeure persiste après 1h de réanimation, avec un maximum de 1L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les bicarbonates de sodium sont contre-indiqués dans l'acidocétose diabétique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administrer du bicarbonate de sodium uniquement si la kaliémie est normalisée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administrer du bicarbonate de sodium uniquement si la glycémie est inférieure à 2,5 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'administration de bicarbonate de sodium isotonique est possible si l'acidose est majeure (pH < 7,1) et persiste après 1h de réanimation, avec un maximum de 1L. Ce n'est pas systématique et ne dépend pas de la kaliémie ou de la glycémie pour son indication initiale."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications iatrogènes possibles d'un traitement trop rapide de l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'œdème cérébral.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La surcharge hydrosodée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypokaliémie sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hypoglycémie rebond.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'acidose lactique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications iatrogènes mentionnées sont l'œdème cérébral en cas de correction trop rapide et la surcharge hydrosodée."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 1 est admis pour acidocétose. La cétonémie capillaire est à 4 mmol/L. L'insulinothérapie IVSE doit être maintenue tant que la cétonémie est supérieure à quel seuil ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,1 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "0,5 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "1,0 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "2,0 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "3,0 mmol/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insulinothérapie IVSE doit être maintenue tant que la cétonémie est supérieure à 0,5 mmol/L. Le relais par insuline sous-cutanée est envisagé lorsque les bicarbonates sont > 18, le trou anionique < 12, la cétonurie négative et la cétonémie < 0,5 mmol/L."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du coma acidocétosique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calme et profond.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Avec des signes de localisation neurologique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Souvent précédé d'un syndrome confusionnel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Associé à une déshydratation à prédominance intracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Caractérisé par une polypnée de Kussmaul.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le coma acidocétosique est décrit comme calme, profond, sans signe de localisation. Il peut être précédé d'un état stuporeux ou d'un syndrome confusionnel. La déshydratation est globale, à prédominance extracellulaire. La polypnée de Kussmaul est un signe de la phase d'acidocétose."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 2 est sous traitement par ADO. Il est admis pour un coma hyperosmolaire. Quelle est la dose d'insulinothérapie IVSE recommandée initialement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,1 U/kg/h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "5-10 U/h.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "2-3 U/h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "1 U/h.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pas d'insulinothérapie nécessaire si la glycémie diminue avec la réhydratation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le coma hyperosmolaire, l'insulinothérapie IVSE est de 2-3 U/h, avec maintien d'une glycémie > 2,5 g/L. La dose de 0,1 U/kg/h ou 5-10 U/h est celle de l'acidocétose."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où le syndrome neurovégétatif (adrénergique) de l'hypoglycémie peut être atténué ou absent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'épisodes d'hypoglycémies itératifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En présence d'une neuropathie végétative évoluée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lors de la prise de bêta-bloquants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez les patients diabétiques de type 2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de glycémie inférieure à 0,6 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome neurovégétatif peut être atténué ou absent en cas d'épisodes d'hypoglycémies itératifs, de neuropathie végétative évoluée ou de prise de bêta-bloquants."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique conscient présente une hypoglycémie. Il a consommé 15g de glucides simples. Quand doit-on vérifier sa glycémie et quelle est la conduite à tenir si l'hypoglycémie persiste ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vérification à 30 minutes, répéter la prise si hypoglycémie persistante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Vérification à 15 minutes, répéter la prise si hypoglycémie persistante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vérification à 15 minutes, puis collation avec sucres lents systématiquement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Vérification à 60 minutes, puis appel aux urgences si hypoglycémie persistante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pas de vérification nécessaire si les symptômes disparaissent.",
+          "correct": false
+        }
+      ],
+      "explanation": "La glycémie doit être vérifiée à 15 minutes après le resucrage oral. Si l'hypoglycémie persiste, la prise de glucides doit être répétée. Une collation avec sucres lents est conseillée si le repas suivant est dans plus de 1-2h."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la principale cause de mortalité dans le diabète de type 1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les maladies cardiovasculaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les complications aiguës comme l'acidocétose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les infections.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les complications neurologiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cause principale de mortalité dans le diabète de type 1 est l'insuffisance rénale."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 2 est diagnostiqué. Quand doit être réalisée l'angiographie à la fluorescéine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès la découverte du diabète de type 2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Au bout de 5 ans de diabète de type 2.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Si une anomalie est détectée au fond d'œil.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Systématiquement chaque année.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Uniquement si le patient présente une baisse d'acuité visuelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiographie à la fluorescéine est recommandée dès la découverte d'un DT2 ou si une anomalie est détectée au fond d'œil. Pour le DT1, c'est au bout de 5 ans."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les circonstances de découverte du diabète sucré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen systématique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Découverte fortuite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Symptômes cardinaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Complication aiguë.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Complication chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète peut être découvert de manière asymptomatique (examen systématique, découverte fortuite) ou symptomatique (symptômes cardinaux, complication aiguë, complication chronique)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le seuil de glycémie à partir duquel apparaît la microangiopathie diabétique (rétinopathie) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1,10 g/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1,26 g/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "2 g/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "2,5 g/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "6,5% d'HbA1c.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le seuil de glycémie à 1,26 g/L est le seuil d'apparition de la microangiopathie diabétique (rétinopathie)."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de déshydratation pouvant déclencher un coma hyperosmolaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vomissements.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prise de diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome polyuro-polydipsique (SPUPD).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Prise de boissons sucrées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de déshydratation pouvant déclencher un coma hyperosmolaire incluent la diarrhée, les vomissements, les diurétiques et le SPUPD. La prise de boissons sucrées est une cause d'hyperglycémie, pas directement de déshydratation."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 1 est admis pour acidocétose. Sa kaliémie est de 4,5 mmol/L. Quand doit-on débuter les apports potassiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès que la kaliémie est inférieure à 5 mmol/L, sauf en cas d'hyperkaliémie avec signes ECG ou d'anurie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Uniquement si la kaliémie est inférieure à 3,3 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Systématiquement dès l'admission, quelle que soit la kaliémie initiale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Après la normalisation de la glycémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Après le relais de l'insuline IVSE par l'insuline SC.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les apports potassiques sont systématiques dès que la kaliémie est inférieure à 5 mmol/L, sauf en cas d'hyperkaliémie avec signes ECG ou d'anurie. Si la kaliémie est < 3,3 mmol/L, il faut corriger l'hypokaliémie avant l'insulinothérapie."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les syndromes génétiques mentionnés comme causes de diabète secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trisomie 21.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Klinefelter.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Turner.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Wolfram.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de l'homme raide (stiff man).",
+          "correct": false
+        }
+      ],
+      "explanation": "La Trisomie 21, le syndrome de Klinefelter, le syndrome de Turner et le syndrome de Wolfram sont des syndromes génétiques. Le syndrome de l'homme raide est un diabète auto-immun ou infectieux."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la physiopathologie de l'hyperosmolarité extracellulaire dans l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficit absolu en insuline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyperglycémie par néoglucogenèse et glycogénolyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Défaut de captation du glucose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lipolyse avec libération d'acides gras.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Perte urinaire d'eau et de sodium due à la glycosurie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperglycémie par néoglucogenèse et glycogénolyse, ainsi que le défaut de captation du glucose, sont à l'origine de l'hyperosmolarité extracellulaire. Le déficit en insuline est la cause primaire. La lipolyse mène à la cétose. La glycosurie avec perte urinaire d'eau et de sodium est à l'origine d'une déshydratation extracellulaire."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan rénal annuel chez un patient diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Créatininémie avec calcul de la clairance (MDRD).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Protéinurie à la BU.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recherche de microalbuminurie si la protéinurie à la BU est négative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Confirmation par protéinurie des 24h si la protéinurie à la BU est positive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Échographie rénale systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan rénal annuel comprend la créatininémie avec calcul de la clairance (MDRD), la protéinurie à la BU, la recherche de microalbuminurie si la BU est négative, et la confirmation par protéinurie des 24h si la BU est positive. L'échographie rénale n'est pas mentionnée comme systématique."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 1 est admis pour acidocétose. La surveillance horaire doit inclure quels paramètres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glycémie capillaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "BU (glycosurie ± cétonurie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "ECG.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ionogramme sanguin.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pression artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance horaire de l'acidocétose inclut la BU et la glycémie capillaire. L'ECG et l'ionogramme sont surveillés toutes les 4h. La pression artérielle est un élément de surveillance générale mais n'est pas spécifiquement mentionnée comme horaire dans le texte."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la principale différence physiopathologique entre l'acidocétose diabétique et le coma hyperosmolaire concernant la cétogenèse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'acidocétose est due à un déficit absolu en insuline, tandis que le coma hyperosmolaire présente une insulinémie résiduelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'acidocétose est caractérisée par une lipolyse majeure, absente dans le coma hyperosmolaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le coma hyperosmolaire est toujours associé à une cétonurie de jeun, absente dans l'acidocétose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'acidocétose est une complication du DT2, le coma hyperosmolaire du DT1.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'acidocétose implique une hyperosmolarité intracellulaire, le coma hyperosmolaire une hyperosmolarité extracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acidocétose diabétique est due à un déficit en insuline (absolu ou relatif) entraînant une lipolyse et une production de corps cétoniques. Le coma hyperosmolaire se caractérise par une hyperglycémie avec hyperosmolarité mais sans libération majeure de corps cétoniques, en raison d'une insulinémie résiduelle suffisante pour inhiber la cétogenèse."
+    }
+  ]
+}

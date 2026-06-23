@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-10",
+  "title": "Fonction thyroïdienne",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la localisation anatomique de la glande thyroïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "À la base du crâne",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans la cavité abdominale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "À la base du cou",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Au niveau du thorax",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dans la région lombaire",
+          "correct": false
+        }
+      ],
+      "explanation": "La glande thyroïde est située à la base du cou."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les deux principales hormones produites par la glande thyroïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insuline et le glucagon",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La thyroxine (T4) et la triiodothyronine (T3)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'adrénaline et la noradrénaline",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cortisol et l'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'œstrogène et la progestérone",
+          "correct": false
+        }
+      ],
+      "explanation": "La glande thyroïde produit la thyroxine (T4) et la triiodothyronine (T3)."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le rôle principal des hormones thyroïdiennes dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réguler la glycémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Contrôler la pression artérielle",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Réguler le métabolisme de base",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Gérer la réponse au stress",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Maintenir l'équilibre hydrique",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes régulent le métabolisme de base de la quasi-totalité des cellules."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme de régulation de la production des hormones thyroïdiennes par l'axe hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un rétrocontrôle positif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un rétrocontrôle négatif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une régulation paracrine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une régulation autocrine",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une régulation juxtacrine",
+          "correct": false
+        }
+      ],
+      "explanation": "La production des hormones thyroïdiennes est finement contrôlée par l'axe hypothalamo-hypophysaire via un système de rétrocontrôle négatif."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est l'unité fonctionnelle de la glande thyroïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le néphron",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'alvéole",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le follicule thyroïdien",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le lobule hépatique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le neurone",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyroïde est constituée d'unités fonctionnelles appelées follicules thyroïdiens."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants d'un follicule thyroïdien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des cellules épithéliales (thyréocytes)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une substance gélatineuse appelée colloïde",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des cellules parafolliculaires",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des îlots de Langerhans",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des cellules de Leydig",
+          "correct": false
+        }
+      ],
+      "explanation": "Un follicule est une sphère de cellules épithéliales (les thyréocytes) entourant une substance gélatineuse, la colloïde, riche en thyroglobuline."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de la thyroglobuline (Tg) dans la synthèse des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle capte activement l'iodure circulant",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est synthétisée par les thyréocytes et exocytée dans la colloïde",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle sert de support pour la fixation de l'iode sur ses résidus tyrosine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est clivée par des protéases pour libérer T3 et T4",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle convertit la T4 en T3 dans les tissus périphériques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les thyréocytes synthétisent la Tg et l'exocytent dans la colloïde. L'iode est greffé sur les résidus tyrosine de la Tg. Sous stimulation de la TSH, la Tg est clivée par des protéases pour libérer T3 et T4."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions de l'enzyme thyroperoxydase (TPO) dans la synthèse des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Captation de l'iodure par les thyréocytes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oxydation de l'iodure en iode (I2)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Greffe de l'iode sur les résidus tyrosine de la thyroglobuline",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Couplage des monoiodotyrosines (MIT) et diiodotyrosines (DIT)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Libération des hormones T3 et T4 dans la circulation",
+          "correct": false
+        }
+      ],
+      "explanation": "Au pôle apical, l'enzyme thyroperoxydase (TPO) oxyde l'iodure en iode (I2) et le greffe sur les résidus tyrosine de la Tg. La TPO couple ensuite ces précurseurs (MIT et DIT)."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la production et l'activité des hormones thyroïdiennes, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La thyroïde produit majoritairement de la T3",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La T4 est une pro-hormone",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La T3 est 3 à 4 fois plus active biologiquement que la T4",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La T4 est convertie en T3 active dans les tissus périphériques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les désiodases sont responsables de la synthèse de la T4",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyroïde produit majoritairement de la T4 (~80%), qui est une pro-hormone. La T3, bien que produite en plus faible quantité, est 3 à 4 fois plus active biologiquement. La T4 est convertie en T3 active dans les tissus périphériques par des enzymes appelées désiodases."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les acteurs de l'axe thyréotrope et leurs sécrétions respectives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypothalamus sécrète la TSH",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'antéhypophyse sécrète la TRH",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'hypothalamus sécrète la TRH",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'antéhypophyse sécrète la TSH",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La thyroïde sécrète la TRH",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypothalamus sécrète la TRH (Thyrotropin-Releasing Hormone). En réponse à la TRH, les cellules thyréotropes de l'antéhypophyse sécrètent la TSH (Thyroid-Stimulating Hormone)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment la TSH agit-elle sur la thyroïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle inhibe la captation de l'iodure",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle stimule toutes les étapes de la synthèse des hormones T3 et T4",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle stimule la libération des hormones T3 et T4",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle diminue la production de thyroglobuline",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle n'a aucun effet direct sur la thyroïde",
+          "correct": false
+        }
+      ],
+      "explanation": "La TSH est le principal stimulateur de la thyroïde. Elle agit sur toutes les étapes de la synthèse et de la libération des hormones T3 et T4."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets des hormones thyroïdiennes sur le métabolisme de base ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la consommation d'oxygène",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la production de chaleur (effet calorigène)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stimulation de l'activité de la pompe Na+/K+ ATPase",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la lipolyse",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution du catabolisme du cholestérol",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes augmentent la consommation d'oxygène et la production de chaleur (effet calorigène) en stimulant l'activité de la pompe Na+/K+ ATPase."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets des hormones thyroïdiennes sur le système cardiovasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet chronotrope négatif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Effet inotrope positif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du débit cardiaque",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la fréquence cardiaque",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la force de contraction cardiaque",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes ont un effet chronotrope et inotrope positif (augmentation de la fréquence et de la force de contraction cardiaques), et augmentent le débit cardiaque."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le test de première intention et le plus sensible pour dépister un dysfonctionnement thyroïdien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le dosage de la T4 libre (T4L)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le dosage de la T3 libre (T3L)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le dosage de la TSH",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dosage des anticorps anti-TPO",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le dosage des anticorps anti-récepteurs de la TSH",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dosage de la TSH est le test de première intention et le plus sensible pour dépister un dysfonctionnement thyroïdien."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment la TSH varie-t-elle par rapport aux hormones thyroïdiennes en raison du rétrocontrôle négatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "De manière linéaire et directe",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "De manière logarithmique et inverse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "De manière exponentielle et directe",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "De manière aléatoire",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "De manière constante",
+          "correct": false
+        }
+      ],
+      "explanation": "Grâce au rétrocontrôle, la TSH varie de manière logarithmique et inverse par rapport aux hormones thyroïdiennes."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une TSH élevée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle indique une hyperthyroïdie primaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle indique une hypothyroïdie primaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle signifie que la thyroïde ne répond pas à la stimulation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle signifie que la thyroïde produit trop d'hormones",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une T4L élevée",
+          "correct": false
+        }
+      ],
+      "explanation": "Une TSH élevée indique une hypothyroïdie primaire (la thyroïde ne répond pas à la stimulation)."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la T4 libre (T4L) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente la fraction biologiquement inactive de la T4",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est liée aux protéines de transport",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est dosée en première intention pour le dépistage",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle représente la fraction biologiquement active de la T4",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est utilisée pour confirmer le diagnostic et évaluer la sévérité",
+          "correct": true
+        }
+      ],
+      "explanation": "La T4L représente la fraction biologiquement active de la T4 (non liée aux protéines de transport). On la dose en deuxième intention pour confirmer le diagnostic et en évaluer la sévérité."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets des hormones thyroïdiennes sur le métabolisme glucidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet globalement hypoglycémiant",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Stimulation de la néoglucogenèse hépatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stimulation de la glycogénolyse hépatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du stockage du glycogène",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de l'absorption intestinale des glucides",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes ont un effet globalement hyperglycémiant (stimulent la néoglucogenèse et la glycogénolyse hépatiques)."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets des hormones thyroïdiennes sur le métabolisme lipidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulation de la lipogenèse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Stimulation de la lipolyse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la libération d'acides gras",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du catabolisme du cholestérol",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation du stockage des triglycérides",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes stimulent la lipolyse (libération d'acides gras) et augmentent le catabolisme du cholestérol."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle de l'iode dans la synthèse des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est un composant structurel de la thyroglobuline",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est capté activement par les thyréocytes sous forme d'iodure (I-)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est oxydé en iode (I2) avant d'être greffé sur la thyroglobuline",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est directement libéré dans la circulation sanguine sous forme d'hormone",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est nécessaire pour la conversion de T3 en T4",
+          "correct": false
+        }
+      ],
+      "explanation": "Les thyréocytes captent activement l'iodure (I-) circulant. L'enzyme thyroperoxydase (TPO) oxyde l'iodure en iode (I2) et le greffe sur les résidus tyrosine de la Tg."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une TSH basse (voire indétectable) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle indique une hypothyroïdie primaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle indique une hyperthyroïdie primaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle signifie que la thyroïde produit trop d'hormones",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle signifie que l'hypophyse est freinée",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une T4L basse",
+          "correct": false
+        }
+      ],
+      "explanation": "Une TSH basse (voire indétectable) indique une hyperthyroïdie primaire (la thyroïde produit trop d'hormones, freinant l'hypophyse)."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets des hormones thyroïdiennes sur le système nerveux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont essentielles pour le développement et la maturation du système nerveux central chez le fœtus et le nouveau-né",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles diminuent la vivacité intellectuelle chez l'adulte",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles ralentissent la rapidité des réflexes chez l'adulte",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles n'ont aucun rôle sur le système nerveux",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles favorisent la neurodégénérescence",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes sont essentielles pour le développement et la maturation du système nerveux central chez le fœtus et le nouveau-né. Chez l'adulte, elles maintiennent la vivacité intellectuelle et la rapidité des réflexes."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des hormones thyroïdiennes dans la croissance et le développement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles agissent en synergie avec l'hormone de croissance (GH)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont essentielles pour la croissance osseuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles inhibent la maturation du squelette",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles n'ont aucun impact sur la croissance",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont les seules hormones impliquées dans la croissance osseuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes agissent en synergie avec l'hormone de croissance (GH) pour la croissance osseuse et la maturation du squelette."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes de libération des hormones T3 et T4 dans la circulation sanguine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exocytose directe des thyréocytes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Endocytose de la colloïde par les thyréocytes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fusion des vésicules endocytées avec des lysosomes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Clivage de la thyroglobuline par des protéases",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diffusion passive à travers la membrane cellulaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Sous la stimulation de la TSH, les thyréocytes endocytent la colloïde. Les lysosomes fusionnent avec ces vésicules et des protéases clivent la Tg, libérant T3 et T4 dans la circulation sanguine."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle du symporteur sodium/iodure (NIS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est situé au pôle apical des thyréocytes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il capte activement l'iodure (I-) circulant",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est responsable de l'oxydation de l'iodure",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est situé au pôle basal des thyréocytes",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il libère les hormones T3 et T4 dans la circulation",
+          "correct": false
+        }
+      ],
+      "explanation": "Les thyréocytes captent activement l'iodure (I-) circulant grâce à un symporteur sodium/iodure (NIS) situé à leur pôle basal."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente des symptômes d'hyperactivité métabolique. Quels résultats biologiques de première intention seraient les plus évocateurs d'une hyperthyroïdie primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TSH élevée, T4L normale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TSH basse, T4L élevée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "TSH normale, T4L basse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "TSH élevée, T4L basse",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "TSH basse, T4L normale",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hyperthyroïdie primaire est caractérisée par une TSH basse (voire indétectable) et une T4L élevée, car la production excessive d'hormones thyroïdiennes freine l'hypophyse via le rétrocontrôle négatif."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences physiologiques d'une augmentation des taux de T3/T4 sur l'axe hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la sécrétion de TRH",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la sécrétion de TSH",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stimulation de la production thyroïdienne",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la sécrétion de TRH",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Maintien des concentrations hormonales stables par rétrocontrôle positif",
+          "correct": false
+        }
+      ],
+      "explanation": "Si les taux de T3/T4 augmentent, la sécrétion de TRH et de TSH diminue, ce qui freine la production thyroïdienne. C'est le principe du rétrocontrôle négatif."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels les hormones thyroïdiennes exercent leurs effets pléiotropes sur l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles agissent uniquement sur des récepteurs membranaires",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles modulent la transcription de nombreux gènes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles agissent sur des récepteurs nucléaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles ont des effets limités à quelques organes cibles",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles se lient directement à l'ADN sans intermédiaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes agissent sur des récepteurs nucléaires dans la quasi-totalité des cellules, modulant la transcription de nombreux gènes. Leurs effets sont donc multiples (pléiotropes)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une TSH élevée et une T4L basse. Quels sont les éléments clés de cette situation clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une hyperthyroïdie primaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La thyroïde ne répond pas adéquatement à la stimulation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypophyse est freinée par un excès d'hormones thyroïdiennes",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il s'agit d'une hypothyroïdie primaire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le métabolisme de base est probablement augmenté",
+          "correct": false
+        }
+      ],
+      "explanation": "Une TSH élevée et une T4L basse sont les marqueurs d'une hypothyroïdie primaire, où la thyroïde ne répond pas à la stimulation, entraînant une augmentation compensatoire de la TSH."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étapes de la synthèse des hormones thyroïdiennes qui se déroulent spécifiquement au niveau du pôle apical des thyréocytes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Captation de l'iodure par le symporteur NIS",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Synthèse de la thyroglobuline",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Oxydation et organification de l'iode par la TPO",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Couplage des MIT et DIT par la TPO",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Libération des hormones T3 et T4 dans la circulation",
+          "correct": false
+        }
+      ],
+      "explanation": "Au pôle apical, l'enzyme thyroperoxydase (TPO) oxyde l'iodure en iode (I2) et le greffe sur les résidus tyrosine de la Tg (organification). La TPO couple ensuite ces précurseurs (MIT et DIT)."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment les hormones thyroïdiennes contribuent-elles à l'effet calorigène de l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En diminuant la consommation d'oxygène",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En stimulant l'activité de la pompe Na+/K+ ATPase",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En inhibant la production de chaleur",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En augmentant la consommation d'oxygène",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En réduisant le métabolisme de base",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes augmentent la consommation d'oxygène et la production de chaleur (effet calorigène) en stimulant l'activité de la pompe Na+/K+ ATPase."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une carence sévère en hormones thyroïdiennes chez le fœtus et le nouveau-né ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Développement accéléré du système nerveux central",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Retard de croissance osseuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maturation précoce du squelette",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Retard de développement du système nerveux central",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la vivacité intellectuelle",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes sont essentielles pour le développement et la maturation du système nerveux central chez le fœtus et le nouveau-né, ainsi que pour la croissance osseuse et la maturation du squelette. Une carence entraînerait donc un retard dans ces domaines."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la T3 par rapport à la T4 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est produite en plus grande quantité par la thyroïde",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est une pro-hormone",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est 3 à 4 fois plus active biologiquement",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est majoritairement convertie à partir de la T4 dans les tissus périphériques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est moins importante pour le rétrocontrôle négatif",
+          "correct": false
+        }
+      ],
+      "explanation": "La T3 est produite en plus faible quantité par la thyroïde, mais est 3 à 4 fois plus active biologiquement. La T4 est convertie en T3 active dans les tissus périphériques par des désiodases. La T3 est la principale hormone exerçant le rétrocontrôle négatif."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Le rétrocontrôle négatif exercé par les hormones thyroïdiennes (principalement T3) a pour effet de :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimuler la sécrétion de TRH et de TSH si les taux de T3/T4 augmentent",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Freiner la production thyroïdienne si les taux de T3/T4 diminuent",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Maintenir les concentrations hormonales dans une fourchette stable",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminuer la sécrétion de TRH et de TSH si les taux de T3/T4 augmentent",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmenter la sécrétion de TRH et de TSH si les taux de T3/T4 diminuent",
+          "correct": true
+        }
+      ],
+      "explanation": "Le rétrocontrôle négatif permet de maintenir les concentrations hormonales dans une fourchette stable. Si les taux de T3/T4 augmentent, la sécrétion de TRH et de TSH diminue. Si les taux de T3/T4 diminuent, la sécrétion de TRH et de TSH augmente."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui caractérisent l'exploration biologique de la fonction thyroïdienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le dosage de la TSH est le test le moins sensible",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La T4L est dosée en première intention pour le dépistage",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La TSH varie de manière logarithmique et inverse par rapport aux hormones thyroïdiennes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dosage de la T4L représente la fraction biologiquement active de la T4",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les anticorps anti-TPO sont utilisés pour le diagnostic de sévérité",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dosage de la TSH est de première intention et le plus sensible. La TSH varie de manière logarithmique et inverse par rapport aux hormones thyroïdiennes. La T4L représente la fraction biologiquement active de la T4 et est dosée en deuxième intention pour confirmer le diagnostic et évaluer la sévérité. Les anticorps anti-TPO sont pour le diagnostic étiologique."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le processus de synthèse des hormones thyroïdiennes, quelles sont les molécules qui sont couplées par la TPO pour former la T3 et la T4 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deux molécules de monoiodotyrosine (MIT) pour former la T3",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une molécule de diiodotyrosine (DIT) et une molécule de monoiodotyrosine (MIT) pour former la T3",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Deux molécules de diiodotyrosine (DIT) pour former la T4",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une molécule de DIT et une molécule de MIT pour former la T4",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Deux molécules de MIT pour former la T4",
+          "correct": false
+        }
+      ],
+      "explanation": "La TPO couple DIT + DIT pour former la T4 (thyroxine) et DIT + MIT pour former la T3 (triiodothyronine)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets des hormones thyroïdiennes sur le tube digestif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la motilité intestinale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la motilité intestinale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhibition de l'absorption des nutriments",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Stimulation de la sécrétion gastrique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aucun effet significatif",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes augmentent la motilité intestinale."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une production insuffisante d'hormones thyroïdiennes (hypothyroïdie) peut avoir des répercussions systémiques profondes. Quelles sont les manifestations possibles liées aux effets physiologiques des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du métabolisme de base",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bradycardie (ralentissement du rythme cardiaque)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Constipation (diminution de la motilité intestinale)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perte de poids inexpliquée",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ralentissement intellectuel",
+          "correct": true
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes augmentent le métabolisme de base, ont un effet chronotrope positif, augmentent la motilité intestinale et maintiennent la vivacité intellectuelle. Une hypothyroïdie entraînerait les effets inverses : diminution du métabolisme, bradycardie, constipation et ralentissement intellectuel."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles de la TSH dans la régulation de la fonction thyroïdienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est sécrétée par l'hypothalamus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est le principal stimulateur de la thyroïde",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle agit sur la captation de l'iodure par les thyréocytes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle stimule la synthèse de la thyroglobuline",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle inhibe la libération des hormones T3 et T4",
+          "correct": false
+        }
+      ],
+      "explanation": "La TSH est le principal stimulateur de la thyroïde. Elle agit sur toutes les étapes de la synthèse et de la libération des hormones T3 et T4, ce qui inclut la captation de l'iodure et la synthèse de la thyroglobuline."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels les hormones thyroïdiennes ont un effet hyperglycémiant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulation de la néoglucogenèse hépatique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Inhibition de la glycogénolyse hépatique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la sensibilité à l'insuline",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Stimulation de la glycogénolyse hépatique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution de l'absorption intestinale du glucose",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes ont un effet globalement hyperglycémiant en stimulant la néoglucogenèse et la glycogénolyse hépatiques."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi la TSH est-elle considérée comme le test le plus sensible pour dépister un dysfonctionnement thyroïdien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Car elle est la seule hormone dosable de l'axe thyréotrope",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Car elle varie de manière logarithmique et inverse par rapport aux hormones thyroïdiennes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Car ses variations sont plus précoces et plus amples que celles des hormones thyroïdiennes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Car elle est directement produite par la thyroïde",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Car elle n'est pas influencée par le rétrocontrôle négatif",
+          "correct": false
+        }
+      ],
+      "explanation": "La TSH est le test le plus sensible car elle varie de manière logarithmique et inverse par rapport aux hormones thyroïdiennes, ce qui signifie que de petites variations des hormones thyroïdiennes entraînent des variations importantes et précoces de la TSH."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments essentiels à la synthèse des hormones thyroïdiennes mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le calcium",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'iode",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La thyroglobuline",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vitamine D",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La thyroperoxydase (TPO)",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cours souligne le rôle clé de l'iode et mentionne la thyroglobuline et la thyroperoxydase (TPO) comme étant essentielles à la synthèse des hormones thyroïdiennes."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le stockage et la libération des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les hormones T3 et T4 sont stockées libres dans la colloïde",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les hormones T3 et T4 restent attachées à la thyroglobuline pour le stockage",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La libération des hormones est stimulée par la TRH",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les thyréocytes endocytent la colloïde sous stimulation de la TSH",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des protéases lysosomales clivent la thyroglobuline pour libérer T3 et T4",
+          "correct": true
+        }
+      ],
+      "explanation": "Les hormones T3 et T4 restent attachées à la Tg et sont stockées dans la colloïde. Sous la stimulation de la TSH, les thyréocytes endocytent la colloïde. Les lysosomes fusionnent avec ces vésicules et des protéases clivent la Tg, libérant T3 et T4 dans la circulation sanguine."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une production excessive d'hormones thyroïdiennes (hyperthyroïdie) sur le système cardiovasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la fréquence cardiaque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la force de contraction cardiaque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du débit cardiaque",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la fréquence cardiaque",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Effet inotrope négatif",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes ont un effet chronotrope et inotrope positif (augmentation de la fréquence et de la force de contraction cardiaques), et augmentent le débit cardiaque. Une hyperthyroïdie amplifierait ces effets."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Le cours mentionne que la thyroïde agit comme le 'thermostat' de l'organisme. Quelles actions des hormones thyroïdiennes justifient cette analogie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leur rôle dans la régulation de la glycémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'augmentation de la consommation d'oxygène",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La stimulation de la production de chaleur (effet calorigène)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur impact sur la croissance osseuse",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Leur effet sur la motilité intestinale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'analogie du 'thermostat' est justifiée par l'augmentation de la consommation d'oxygène et la production de chaleur (effet calorigène) par les hormones thyroïdiennes, qui régulent ainsi le métabolisme de base et la température corporelle."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les tests biologiques complémentaires de deuxième intention ou pour le diagnostic étiologique de dysfonctionnements thyroïdiens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dosage de la TSH",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dosage de la T4 libre (T4L)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dosage de la T3 libre (T3L)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dosage des anticorps anti-TPO",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dosage des anticorps anti-récepteurs de la TSH",
+          "correct": true
+        }
+      ],
+      "explanation": "Le dosage de la TSH est de première intention, et la T4L de deuxième intention pour confirmer et évaluer la sévérité. D'autres tests (T3L, anticorps anti-TPO, anti-récepteurs de la TSH) sont utilisés pour le diagnostic étiologique."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Si un patient présente une TSH basse et une T4L normale, quelle est l'interprétation la plus probable selon les principes du rétrocontrôle négatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothyroïdie primaire compensée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyperthyroïdie primaire débutante ou subclinique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypothyroïdie centrale (d'origine hypophysaire ou hypothalamique)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperthyroïdie centrale",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dysfonctionnement thyroïdien sans signification clinique",
+          "correct": false
+        }
+      ],
+      "explanation": "Une TSH basse indique que l'hypophyse est freinée. Si la T4L est encore normale, cela suggère une hyperthyroïdie primaire débutante ou subclinique, où la thyroïde commence à produire trop d'hormones, mais pas encore suffisamment pour élever la T4L au-delà des valeurs de référence, tout en ayant déjà un impact sur la TSH via le rétrocontrôle négatif."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des désiodases dans le métabolisme des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont responsables de la synthèse de la T4",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles convertissent la T4 en T3 active dans les tissus périphériques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont localisées uniquement dans la thyroïde",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont essentielles pour la captation de l'iode",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont des enzymes qui modifient l'activité biologique des hormones thyroïdiennes",
+          "correct": true
+        }
+      ],
+      "explanation": "La T4 est convertie en T3 active dans les tissus périphériques par des enzymes appelées désiodases. Elles modifient donc l'activité biologique de la T4 en la transformant en T3, qui est 3 à 4 fois plus active."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes cellulaires impliqués dans la captation de l'iodure par les thyréocytes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diffusion passive à travers la membrane apicale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transport actif via le symporteur sodium/iodure (NIS)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Localisation du NIS au pôle basal de la cellule",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation de l'ATP pour le transport",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Échange avec le chlore au pôle apical",
+          "correct": false
+        }
+      ],
+      "explanation": "Les thyréocytes captent activement l'iodure (I-) circulant grâce à un symporteur sodium/iodure (NIS) situé à leur pôle basal. Le transport actif implique généralement une dépense d'énergie, souvent indirectement via le gradient de sodium créé par la pompe Na+/K+ ATPase, mais le texte ne mentionne pas directement l'ATP pour le NIS."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une diminution des taux de T3/T4 sur l'axe hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la sécrétion de TRH",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la sécrétion de TSH",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Freinage de la production thyroïdienne",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion de TRH",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Maintien des concentrations hormonales stables par rétrocontrôle négatif",
+          "correct": true
+        }
+      ],
+      "explanation": "Si les taux de T3/T4 diminuent, la sécrétion de TRH et de TSH augmente, ce qui stimule la production thyroïdienne. Ce système permet de maintenir les concentrations hormonales dans une fourchette stable grâce au rétrocontrôle négatif."
+    }
+  ]
+}

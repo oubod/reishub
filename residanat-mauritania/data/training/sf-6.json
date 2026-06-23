@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-6",
+  "title": "La fonction glomérulaire",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les fonctions principales du rein mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintenir l'homéostasie du milieu intérieur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Produire des hormones régulant la pression artérielle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Initier la formation de l'urine par filtration glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Synthétiser des protéines plasmatiques essentielles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dégrader les toxines et les médicaments.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rein est un organe vital dont la fonction principale est de maintenir l'homéostasie du milieu intérieur. Cette fonction est initiée par la première étape de la formation de l'urine, la filtration glomérulaire."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les composants de la barrière de filtration glomérulaire (BFG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'endothélium capillaire glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La membrane basale glomérulaire (MBG).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les cellules mésangiales.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les podocytes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les cellules tubulaires proximales.",
+          "correct": false
+        }
+      ],
+      "explanation": "La BFG est composée de trois couches successives : l'endothélium capillaire glomérulaire, la membrane basale glomérulaire (MBG) et les podocytes."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de l'endothélium capillaire glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est fenêtré, avec des pores de 70 à 100 nm de diamètre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il retient les petites protéines et les solutés.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sa surface est recouverte d'un glycocalyx chargé négativement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est la principale barrière à la filtration des grosses protéines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est constitué de pédicelles interdigités.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endothélium capillaire glomérulaire est fenêtré, c'est-à-dire percé de pores de 70 à 100 nm de diamètre. La surface de l'endothélium est recouverte d'un glycocalyx chargé négativement."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les propriétés de sélectivité de la barrière de filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sélectivité de taille, laissant passer les molécules de moins de 70 kDa.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une sélectivité de charge, repoussant les molécules chargées négativement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une sélectivité de forme, filtrant les molécules sphériques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une sélectivité de densité, filtrant les molécules légères.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une sélectivité de pH, filtrant les molécules acides.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ensemble de ces structures assure une double sélectivité : une sélectivité de taille (laissant passer les molécules < 70 kDa) et une sélectivité de charge (repoussant les molécules chargées négativement)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les forces de Starling qui s'opposent à la filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression hydrostatique capillaire glomérulaire (Pcg).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La pression hydrostatique dans la chambre de Bowman (Pcb).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pression oncotique capillaire glomérulaire (πcg).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La pression oncotique dans la chambre de Bowman.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La pression artérielle systémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les forces s'opposant à la filtration sont la pression hydrostatique dans la chambre de Bowman (Pcb ~ 15 mmHg) et la pression oncotique capillaire glomérulaire (πcg ~ 30 mmHg)."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la membrane basale glomérulaire (MBG), quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est une structure acellulaire issue de la fusion des membranes basales de l'endothélium et des podocytes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est principalement composée de collagène de type IV, de laminine et de protéoglycanes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle constitue la principale barrière à la filtration des petites protéines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ses charges négatives repoussent les protéines anioniques comme l'albumine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est la barrière de taille ultime pour les protéines.",
+          "correct": false
+        }
+      ],
+      "explanation": "La MBG est une structure acellulaire issue de la fusion des membranes basales de l'endothélium et des podocytes. Elle est principalement composée de collagène de type IV, de laminine, et de protéoglycanes riches en héparane sulfate. La MBG constitue la principale barrière à la filtration des grosses protéines, notamment grâce à sa sélectivité de taille et sa sélectivité de charge (les charges négatives des protéoglycanes repoussent les protéines anioniques comme l'albumine)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des podocytes dans la barrière de filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ce sont des cellules endothéliales fenêtrées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils possèdent des prolongements primaires qui émettent des pédicelles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les pédicelles s'interdigitent, laissant des fentes de filtration de 25-60 nm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diaphragme de fente constitue une barrière de taille ultime pour les protéines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont responsables de la production du glycocalyx.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les podocytes sont des cellules épithéliales viscérales qui entourent les capillaires. Ils possèdent des prolongements primaires qui émettent des prolongements secondaires appelés pédicelles. Les pédicelles de podocytes adjacents s'interdigitent, laissant entre eux des espaces appelés fentes de filtration (25-60 nm). Ces fentes sont pontées par une fine membrane, le diaphragme de fente, qui constitue une barrière de taille ultime pour les protéines."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la pression nette de filtration (PNF) et le Débit de Filtration Glomérulaire (DFG), quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La PNF est calculée comme Pcg - (Pcb + πcg).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une PNF normale est d'environ 10 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le DFG est le produit de la PNF et du coefficient de filtration (Kf).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un DFG normal est d'environ 180 L/jour.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La Pcg est la seule force favorisant la filtration.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pression nette de filtration (PNF) est donc PNF = Pcg - (Pcb + πcg). PNF ~ 55 - (15 + 30) = 10 mmHg. Le DFG est le produit de cette PNF et du coefficient de filtration (Kf). Le DFG normal est d'environ 120 mL/min/1.73m2, soit 180 L/jour."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels mécanismes contribuent à l'autorégulation du DFG pour le maintenir stable malgré les variations de pression artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le réflexe myogénique de l'artériole afférente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le rétrocontrôle tubulo-glomérulaire impliquant la macula densa.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La libération d'angiotensine II par la macula densa.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La vasoconstriction de l'artériole efférente en cas d'augmentation de pression.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La détection de la concentration en NaCl par le tubule proximal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DFG est maintenu remarquablement stable grâce à des mécanismes d'autorégulation intrinsèques au rein : le réflexe myogénique et le rétrocontrôle tubulo-glomérulaire."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un marqueur idéal pour mesurer exactement le DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il doit être librement filtré par le glomérule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il ne doit être ni réabsorbé, ni sécrété par le tubule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il doit être métabolisé par le rein pour être éliminé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sa clairance doit être égale au DFG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il doit être un marqueur endogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour qu'une substance permette de mesurer exactement le DFG, elle doit être un marqueur idéal : librement filtrée, ni réabsorbée, ni sécrétée, ni métabolisée par le rein. Dans ce cas, sa clairance est égale au DFG."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les méthodes de référence pour la mesure du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La clairance de l'inuline.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La clairance de la créatinine endogène.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La clairance de marqueurs radioactifs comme le 51Cr-EDTA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'estimation par la formule CKD-EPI.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La clairance de marqueurs non radioactifs comme l'iohexol.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les méthodes de référence utilisent des marqueurs exogènes. La clairance de l'inuline est le gold standard historique. La clairance de marqueurs radioactifs (51Cr-EDTA, 99mTc-DTPA) ou non radioactifs (iohexol) est plus utilisée aujourd'hui."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la créatinine comme marqueur de la fonction rénale, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est le marqueur endogène le plus utilisé pour estimer le DFG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est librement filtrée par le glomérule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est légèrement sécrétée par les tubules, ce qui peut surestimer le DFG.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sa concentration plasmatique est indépendante de la masse musculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une créatininémie dans les normes exclut toujours une insuffisance rénale débutante.",
+          "correct": false
+        }
+      ],
+      "explanation": "La créatinine est le marqueur le plus utilisé. Elle est librement filtrée mais aussi légèrement sécrétée par les tubules, ce qui surestime le DFG, surtout quand celui-ci est bas. Sa concentration plasmatique dépend de la masse musculaire, de l'âge, du sexe, de l'ethnie et de l'alimentation. Une créatininémie dans les normes n'exclut pas une insuffisance rénale débutante."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les limites de la créatininémie seule pour l'évaluation de la fonction rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sa concentration plasmatique dépend de la masse musculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est influencée par l'âge et le sexe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est un marqueur tardif de l'atteinte de la fonction rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est un marqueur idéal, ni réabsorbé ni sécrété.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours fiable, même en cas de dénutrition.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les limites de la créatinine sont que sa concentration plasmatique dépend de la masse musculaire, de l'âge, du sexe, de l'ethnie et de l'alimentation. Une créatininémie dans les normes n'exclut pas une insuffisance rénale débutante, ce qui en fait un marqueur tardif."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la formule CKD-EPI pour l'estimation du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est la formule de référence actuelle recommandée par les sociétés savantes internationales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est plus précise que la formule MDRD, notamment pour les DFG > 60 mL/min/1.73m2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle intègre la créatininémie, l'âge, le sexe et l'ethnie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle estime directement la clairance de la créatinine et non le DFG.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est déconseillée pour le diagnostic de la maladie rénale chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La formule CKD-EPI est la formule de référence actuelle recommandée par les sociétés savantes internationales. Elle est plus précise que le MDRD, notamment pour les DFG > 60 mL/min/1.73m2. Elle intègre la créatininémie, l'âge, le sexe et l'ethnie."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations la cystatine C est-elle un marqueur complémentaire utile pour l'estimation du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de dénutrition sévère.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez les patients amputés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En présence de cirrhose hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aux âges extrêmes (très jeunes ou très âgés).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lorsque la créatininémie est très élevée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dosage de la cystatine C est utile dans les situations où la créatinine est peu fiable (dénutrition, amputation, cirrhose, âges extrêmes)."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les propriétés de la cystatine C ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une protéine produite par toutes les cellules nucléées de l'organisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est produite à un taux constant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est moins dépendante de la masse musculaire que la créatinine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est un marqueur endogène idéal, sans aucune limite.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est utilisée seule pour le calcul du DFG dans toutes les formules.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cystatine C est une protéine produite par toutes les cellules nucléées de l'organisme à un taux constant. Elle est moins dépendante de la masse musculaire que la créatinine. Des formules d'estimation basées sur la cystatine C seule ou combinée à la créatinine (CKD-EPI créatinine-cystatine C) existent."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant le Débit de Filtration Glomérulaire (DFG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est l'indicateur le plus important pour évaluer la fonction rénale globale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sa diminution signe une maladie rénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est toujours mesuré directement en pratique clinique courante.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sa valeur normale est d'environ 120 mL/min/1.73m2.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est indépendant des forces de Starling.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DFG est l'indicateur le plus important pour évaluer la fonction rénale globale en pratique clinique. Sa diminution signe une maladie rénale. Sa valeur normale est d'environ 120 mL/min/1.73m2. En pratique clinique, le DFG n'est pas mesuré mais estimé (eDFG)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un processus passif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le liquide obtenu est appelé ultrafiltrat ou urine primitive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est régie par les forces de Starling.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est un processus actif nécessitant de l'énergie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est indépendante du gradient de pression.",
+          "correct": false
+        }
+      ],
+      "explanation": "La filtration glomérulaire est le processus passif par lequel le plasma est filtré à travers la BFG sous l'effet d'un gradient de pression. Le liquide obtenu est appelé ultrafiltrat ou urine primitive. Ce processus est gouverné par les forces de Starling."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions du glycocalyx de l'endothélium capillaire glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est chargé négativement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il permet le passage des éléments cellulaires du sang.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il contribue à la sélectivité de charge de la BFG.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il retient les petites protéines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est une barrière de taille ultime.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surface de l'endothélium est recouverte d'un glycocalyx chargé négativement. Cette charge négative contribue à la sélectivité de charge de la BFG en repoussant les molécules chargées négativement."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les implications cliniques de l'évaluation du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est cruciale pour le diagnostic de la maladie rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est essentielle pour le suivi de la maladie rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle permet la stadification de la maladie rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est uniquement utilisée pour la recherche clinique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est sans importance pour l'ajustement des doses de médicaments.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DFG est le meilleur indice de la fonction rénale globale. Son évaluation est cruciale pour le diagnostic, le suivi et la stadification de la maladie rénale chronique."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la formule de Cockcroft-Gault ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est historique et estime la clairance de la créatinine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle n'est pas indexée à la surface corporelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est aujourd'hui déconseillée pour le diagnostic de la maladie rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est la formule de référence actuelle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est plus précise que la formule CKD-EPI.",
+          "correct": false
+        }
+      ],
+      "explanation": "La formule de Cockcroft-Gault est historique ; elle estime la clairance de la créatinine (pas directement le DFG) et n'est pas indexée à la surface corporelle. Elle est aujourd'hui déconseillée pour le diagnostic et la stadification de la maladie rénale chronique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les différences entre la formule MDRD et la formule CKD-EPI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La formule MDRD est plus précise que CKD-EPI pour les DFG élevés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La formule CKD-EPI est plus précise que MDRD, notamment pour les DFG > 60 mL/min/1.73m2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La formule MDRD tend à sous-estimer le DFG aux valeurs élevées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La formule CKD-EPI est la formule de référence actuelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les deux formules sont équivalentes en termes de précision.",
+          "correct": false
+        }
+      ],
+      "explanation": "La formule MDRD est plus précise que Cockcroft-Gault, mais tend à sous-estimer le DFG aux valeurs élevées. La formule CKD-EPI est la formule de référence actuelle recommandée par les sociétés savantes internationales. Elle est plus précise que le MDRD, notamment pour les DFG > 60 mL/min/1.73m2."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments intégrés dans les formules d'estimation du DFG (eDFG) pour pallier les limites de la créatininémie seule ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La créatininémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'âge.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sexe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ethnie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le poids corporel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour pallier les limites de la créatininémie seule, des formules ont été développées. Elles intègrent la créatininémie, l'âge, le sexe et l'ethnie."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment la pression oncotique capillaire glomérulaire (πcg) évolue-t-elle le long du capillaire glomérulaire et pourquoi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle augmente le long du capillaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle diminue le long du capillaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle reste constante le long du capillaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle augmente à mesure que le plasma se concentre en protéines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement exercée par les petites molécules filtrées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pression oncotique capillaire glomérulaire (πcg) augmente le long du capillaire à mesure que le plasma se concentre en protéines (principalement l'albumine) qui ne sont pas filtrées et restent dans le capillaire."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une augmentation du DFG sur le rétrocontrôle tubulo-glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la concentration en NaCl à la macula densa.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Libération d'adénosine par la macula densa.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vasoconstriction de l'artériole afférente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasodilatation de l'artériole afférente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réduction du DFG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une augmentation du DFG entraîne une augmentation du NaCl à la macula densa, qui libère de l'adénosine provoquant la vasoconstriction de l'artériole afférente, réduisant ainsi le DFG."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une augmentation de la pression artérielle systémique. Quels mécanismes d'autorégulation rénale sont activés pour maintenir un DFG stable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'étirement de la paroi de l'artériole afférente déclenche sa vasoconstriction.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La macula densa détecte une diminution du NaCl dans le fluide tubulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La libération d'adénosine provoque une vasodilatation de l'artériole afférente.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le réflexe myogénique limite l'augmentation de la pression hydrostatique capillaire glomérulaire (Pcg).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le rétrocontrôle tubulo-glomérulaire réduit le DFG en cas d'augmentation.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'augmentation de la pression artérielle, le réflexe myogénique (étirement de l'artériole afférente) déclenche sa vasoconstriction, ce qui limite l'augmentation de la Pcg et maintient le DFG stable. Le rétrocontrôle tubulo-glomérulaire, bien que plus souvent décrit pour une augmentation du DFG, vise également à stabiliser le DFG en réponse à des variations."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un marqueur est considéré comme idéal pour la mesure du DFG. Quelles sont les implications de cette qualification ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est librement filtré par le glomérule sans restriction.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il n'est ni réabsorbé ni sécrété par les tubules rénaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa concentration urinaire est directement proportionnelle à son débit de filtration.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sa clairance rénale est égale au DFG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est métabolisé de manière significative par le rein.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour qu'une substance permette de mesurer exactement le DFG, elle doit être un marqueur idéal : librement filtrée, ni réabsorbée, ni sécrétée, ni métabolisée par le rein. Dans ce cas, sa clairance est égale au DFG."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une protéinurie significative. Quels éléments de la barrière de filtration glomérulaire pourraient être altérés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le glycocalyx de l'endothélium capillaire glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La membrane basale glomérulaire (MBG) et ses protéoglycanes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le diaphragme de fente des podocytes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les fenestrations de l'endothélium.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La pression hydrostatique capillaire glomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La protéinurie suggère une altération de la sélectivité de charge ou de taille. Le glycocalyx (chargé négativement), la MBG (protéoglycanes chargés négativement, barrière de taille et de charge) et le diaphragme de fente (barrière de taille ultime) sont les principaux éléments responsables de la rétention des protéines."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un laboratoire rend un résultat de créatininémie accompagné d'un eDFG calculé par la formule CKD-EPI. Quelles sont les raisons de cette pratique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La créatininémie seule est un marqueur insuffisant et tardif de l'atteinte rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La formule CKD-EPI est la méthode de référence actuelle pour l'estimation du DFG.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'eDFG est plus précis que la créatininémie pour le diagnostic et la stadification de la maladie rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La formule CKD-EPI est la seule formule validée pour l'estimation du DFG.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La créatininémie est un marqueur idéal du DFG.",
+          "correct": false
+        }
+      ],
+      "explanation": "La créatininémie seule est un marqueur insuffisant et tardif de l'atteinte de la fonction rénale. La formule CKD-EPI, basée sur la créatininémie, l'âge, le sexe et l'ethnie, est la méthode de référence pour l'estimation du DFG. Les laboratoires doivent rendre le résultat de la créatininémie accompagné de l'eDFG calculé par cette formule car il est un meilleur indicateur global de la fonction rénale."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est sous traitement médicamenteux nécessitant un ajustement posologique en fonction de la fonction rénale. Quelles sont les meilleures approches pour évaluer cette fonction ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Utiliser la formule CKD-EPI pour estimer le DFG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mesurer la clairance de l'inuline si une grande précision est requise.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Se fier uniquement à la créatininémie plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Considérer la cystatine C si la créatinine est peu fiable.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Utiliser la formule de Cockcroft-Gault pour la stadification de la maladie rénale chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'estimation du DFG par la formule CKD-EPI est la méthode de référence en routine. La mesure du DFG par clairance de l'inuline (ou autres marqueurs exogènes) est réservée aux situations cliniques spécifiques nécessitant une grande précision. La cystatine C est un marqueur complémentaire utile lorsque l'estimation par la créatinine est mise en défaut. La créatininémie seule est insuffisante et la formule de Cockcroft-Gault est déconseillée pour le diagnostic et la stadification de la maladie rénale chronique."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs qui peuvent influencer la concentration plasmatique de la créatinine et limiter sa fiabilité comme marqueur unique du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La masse musculaire de l'individu.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'âge du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sexe du patient.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'alimentation (apport en protéines).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence d'une hypertension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La concentration plasmatique de la créatinine dépend de la masse musculaire, de l'âge, du sexe, de l'ethnie et de l'alimentation. Ces facteurs limitent sa fiabilité comme marqueur unique du DFG."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une diminution du DFG. Quelles pourraient être les conséquences physiopathologiques directes au niveau glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la pression nette de filtration (PNF).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une altération du coefficient de filtration (Kf).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la pression hydrostatique dans la chambre de Bowman (Pcb).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la pression oncotique capillaire glomérulaire (πcg) due à une filtration accrue.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la pression hydrostatique capillaire glomérulaire (Pcg).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DFG est le produit de la PNF et du Kf. Une diminution du DFG peut être due à une diminution de la PNF (par exemple, par une augmentation de la Pcb ou une diminution de la Pcg) ou une altération du Kf (diminution de la perméabilité ou de la surface de filtration). Une augmentation de la πcg par filtration accrue n'est pas une cause directe de diminution du DFG, mais plutôt une conséquence de la concentration du plasma si la filtration se maintient."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les raisons pour lesquelles la clairance de l'inuline est considérée comme le 'gold standard' historique pour la mesure du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'inuline est librement filtrée par le glomérule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'inuline n'est ni réabsorbée ni sécrétée par les tubules rénaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'inuline n'est pas métabolisée par le rein.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'inuline est un marqueur endogène facile à doser.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'inuline est peu coûteuse et simple à utiliser en routine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La clairance de l'inuline est le gold standard historique car l'inuline est un polysaccharide végétal qui remplit parfaitement les critères du marqueur idéal : librement filtrée, ni réabsorbée, ni sécrétée, ni métabolisée par le rein. Elle n'est pas un marqueur endogène et sa mesure est coûteuse et complexe."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une maladie rénale chronique. Quels sont les objectifs pédagogiques pertinents pour un médecin concernant l'évaluation de sa fonction glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Comprendre l'importance clinique du DFG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Différencier la mesure de la clairance d'un marqueur exogène de l'estimation du DFG par des formules.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Citer les principaux marqueurs endogènes et leurs limites pour l'estimation du DFG.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Interpréter les résultats des explorations de la fonction glomérulaire en pratique clinique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Décrire en détail la structure des cellules tubulaires proximales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs pédagogiques mentionnés dans le cours incluent : Définir le DFG et comprendre son importance clinique ; Différencier la mesure de la clairance d'un marqueur exogène de l'estimation du DFG par des formules ; Citer les principaux marqueurs endogènes (créatinine, cystatine) et leurs limites pour l'estimation du DFG ; Interpréter les résultats des explorations de la fonction glomérulaire en pratique clinique."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des protéoglycanes riches en héparane sulfate dans la membrane basale glomérulaire (MBG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils contribuent à la sélectivité de taille de la MBG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils sont responsables des charges négatives de la MBG.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils repoussent les protéines anioniques comme l'albumine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont les principaux composants des fenestrations endothéliales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils forment le diaphragme de fente des podocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La MBG est principalement composée de collagène de type IV, de laminine, et de protéoglycanes riches en héparane sulfate. La MBG constitue la principale barrière à la filtration des grosses protéines, notamment grâce à sa sélectivité de taille et sa sélectivité de charge (les charges négatives des protéoglycanes repoussent les protéines anioniques comme l'albumine)."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une diminution de la pression hydrostatique capillaire glomérulaire (Pcg). Quelles pourraient être les conséquences sur la filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la pression nette de filtration (PNF).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution du Débit de Filtration Glomérulaire (DFG).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la filtration glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Activation du réflexe myogénique pour augmenter la Pcg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la pression oncotique capillaire glomérulaire (πcg).",
+          "correct": false
+        }
+      ],
+      "explanation": "La Pcg est la force principale qui pousse le liquide hors des capillaires et favorise la filtration. Une diminution de la Pcg entraînerait une diminution de la PNF (PNF = Pcg - (Pcb + πcg)) et par conséquent une diminution du DFG (DFG = Kf x PNF)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les raisons pour lesquelles les méthodes de mesure du DFG utilisant des marqueurs exogènes sont réservées à des situations cliniques spécifiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont précises mais coûteuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont complexes à mettre en œuvre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles nécessitent des injections et des prélèvements sanguins multiples.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont moins fiables que les formules d'estimation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont utilisées en routine pour le diagnostic de la maladie rénale chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ces méthodes (clairance de l'inuline, 51Cr-EDTA, iohexol) utilisent des marqueurs exogènes et sont précises mais coûteuses et complexes, nécessitant des injections et des prélèvements sanguins multiples. Elles sont réservées à la recherche ou à des situations cliniques spécifiques (ex: don de rein)."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est dénutri et a subi une amputation. Quelle approche est la plus appropriée pour évaluer sa fonction rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Utiliser la créatininémie seule pour estimer le DFG.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Calculer l'eDFG en utilisant une formule basée sur la créatinine seule.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Utiliser des formules d'estimation basées sur la cystatine C seule ou combinée à la créatinine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mesurer la clairance de l'inuline si disponible et justifié.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Se fier à la formule de Cockcroft-Gault.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dosage de la cystatine C est utile dans les situations où la créatinine est peu fiable (dénutrition, amputation). Des formules d'estimation basées sur la cystatine C seule ou combinée à la créatinine (CKD-EPI créatinine-cystatine C) existent et sont les plus précises. La mesure du DFG par clairance de l'inuline est une méthode de référence précise si nécessaire. La créatininémie seule et les formules basées uniquement sur elle sont moins fiables dans ces contextes."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une augmentation du NaCl au niveau de la macula densa sur la régulation du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération d'adénosine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vasoconstriction de l'artériole afférente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réduction du DFG.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasodilatation de l'artériole efférente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la Pcg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une augmentation du DFG entraîne une augmentation du NaCl à la macula densa, qui libère de l'adénosine provoquant la vasoconstriction de l'artériole afférente, réduisant ainsi le DFG."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales différences entre la mesure du DFG et son estimation en pratique clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mesure utilise des marqueurs exogènes, l'estimation des marqueurs endogènes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La mesure est plus précise mais coûteuse, l'estimation est moins précise mais courante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La mesure est réservée à la recherche, l'estimation à la routine clinique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'estimation est toujours plus fiable que la mesure.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La mesure ne nécessite qu'un seul prélèvement sanguin.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mesure du DFG utilise des marqueurs exogènes (inuline, 51Cr-EDTA, iohexol) et est précise mais coûteuse et complexe, réservée à la recherche ou à des situations spécifiques. L'estimation du DFG utilise des marqueurs endogènes (créatinine, cystatine C) via des formules, est moins précise mais courante en pratique clinique."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une maladie glomérulaire entraînant une altération de la sélectivité de charge de la BFG. Quelles en seraient les conséquences ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Passage accru de protéines anioniques comme l'albumine dans l'ultrafiltrat.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la filtration des molécules chargées négativement.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la protéinurie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Altération des fenestrations endothéliales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la filtration des molécules de grande taille.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sélectivité de charge de la BFG repousse les molécules chargées négativement (comme l'albumine). Une altération de cette sélectivité entraînerait un passage accru de ces protéines dans l'ultrafiltrat, se manifestant par une augmentation de la protéinurie."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du coefficient de filtration (Kf) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il représente la perméabilité hydraulique de la BFG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il représente la surface de filtration glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est un facteur dans le calcul du DFG (DFG = Kf x PNF).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est directement mesurable en routine clinique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est indépendant de l'état pathologique du glomérule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Débit de Filtration Glomérulaire (DFG) est le produit de cette PNF et du coefficient de filtration (Kf), qui représente la perméabilité hydraulique et la surface de filtration. Il n'est pas directement mesurable en routine et peut être altéré dans les pathologies glomérulaires."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui composent la membrane basale glomérulaire (MBG) et contribuent à sa fonction de barrière ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collage de type IV.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Laminine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Protéoglycanes riches en héparane sulfate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cellules endothéliales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pédicelles des podocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La MBG est principalement composée de collagène de type IV, de laminine, et de protéoglycanes riches en héparane sulfate. Ces composants contribuent à sa fonction de barrière de taille et de charge."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une insuffisance rénale débutante. Pourquoi la créatininémie seule pourrait-elle ne pas être un indicateur fiable de cette condition ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La créatininémie peut rester dans les normes malgré une insuffisance rénale débutante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La créatinine est légèrement sécrétée par les tubules, ce qui peut masquer une baisse du DFG.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La masse musculaire du patient peut influencer la créatininémie, même à DFG réduit.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La créatinine est un marqueur idéal, donc toujours fiable.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les formules d'estimation du DFG sont moins précises que la créatininémie seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une créatininémie dans les normes n'exclut pas une insuffisance rénale débutante, car la créatinine est un marqueur tardif. De plus, elle est légèrement sécrétée par les tubules, ce qui surestime le DFG, surtout quand celui-ci est bas. Sa concentration plasmatique dépend également de la masse musculaire, de l'âge, du sexe et de l'alimentation."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les forces de Starling qui favorisent la filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression hydrostatique capillaire glomérulaire (Pcg).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pression hydrostatique dans la chambre de Bowman (Pcb).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La pression oncotique capillaire glomérulaire (πcg).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La pression oncotique dans la chambre de Bowman (qui est négligeable).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La pression artérielle systémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pression hydrostatique capillaire glomérulaire (Pcg ~ 55 mmHg) est la force principale qui pousse le liquide hors des capillaires. La pression oncotique dans la chambre de Bowman est négligeable car l'ultrafiltrat ne contient pas de protéines."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des fentes de filtration des podocytes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont des espaces entre les pédicelles de podocytes adjacents.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Leur taille est d'environ 25-60 nm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont pontées par le diaphragme de fente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont la principale barrière à la filtration des grosses protéines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont des fenestrations de l'endothélium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pédicelles de podocytes adjacents s'interdigitent, laissant entre eux des espaces appelés fentes de filtration (25-60 nm). Ces fentes sont pontées par une fine membrane, le diaphragme de fente, qui constitue une barrière de taille ultime pour les protéines ayant traversé la MBG."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les raisons pour lesquelles la formule CKD-EPI est devenue la référence actuelle pour l'estimation du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est plus précise que la formule MDRD, en particulier pour les DFG > 60 mL/min/1.73m2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle intègre des variables comme l'âge, le sexe et l'ethnie pour une meilleure individualisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle a été validée par des sociétés savantes internationales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est la seule formule qui utilise la créatininémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est plus simple à calculer manuellement que les autres formules.",
+          "correct": false
+        }
+      ],
+      "explanation": "La formule CKD-EPI est la formule de référence actuelle recommandée par les sociétés savantes internationales. Elle est plus précise que le MDRD, notamment pour les DFG > 60 mL/min/1.73m2. Elle intègre la créatininémie, l'âge, le sexe et l'ethnie."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui composent l'ultrafiltrat glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Solutés de petite taille.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Petites protéines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématies.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Grosses protéines comme l'albumine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endothélium fenêtré permet le passage de l'eau, des solutés et de petites protéines. La BFG assure une sélectivité de taille (laissant passer les molécules < 70 kDa) et de charge (repoussant les molécules chargées négativement). L'ultrafiltrat est donc composé d'eau, de solutés et de petites protéines, mais retient les éléments cellulaires et les grosses protéines."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une maladie rénale chronique avancée. Quelles sont les limites de l'utilisation de la créatininémie pour le suivi de sa fonction rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La créatinine surestime le DFG lorsque celui-ci est bas en raison de la sécrétion tubulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les variations de la masse musculaire peuvent masquer l'évolution réelle du DFG.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une créatininémie stable ne garantit pas un DFG stable en cas de perte musculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La créatininémie est un indicateur très sensible des petites variations du DFG.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La créatininémie est un marqueur idéal pour le suivi des maladies rénales avancées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La créatinine est légèrement sécrétée par les tubules, ce qui surestime le DFG, surtout quand celui-ci est bas. Sa concentration plasmatique dépend de la masse musculaire, de l'âge, du sexe, de l'ethnie et de l'alimentation, ce qui peut masquer l'évolution réelle du DFG. Une créatininémie dans les normes n'exclut pas une insuffisance rénale débutante, et sa stabilité ne garantit pas un DFG stable en cas de perte musculaire."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles du diaphragme de fente des podocytes dans la filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il constitue une barrière de taille ultime pour les protéines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est une fine membrane pontant les fentes de filtration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est la principale barrière à la filtration des grosses protéines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est composé de collagène de type IV et de laminine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est responsable de la sélectivité de charge de la BFG.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fentes de filtration sont pontées par une fine membrane, le diaphragme de fente, qui constitue une barrière de taille ultime pour les protéines ayant traversé la MBG. La MBG est la principale barrière pour les grosses protéines et est composée de collagène de type IV et laminine, et est responsable de la sélectivité de charge."
+    }
+  ]
+}

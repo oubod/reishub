@@ -1,0 +1,1438 @@
+{
+  "lectureId": "pc-20",
+  "title": "Entorse du genou",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle structure ligamentaire freine la translation antérieure du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Ligament Croisé Postérieur (LCP)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le Ligament Croisé Antérieur (LCA)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Ligament Latéral Interne (LLI)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le Ligament Latéral Externe (LLE)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le LCA freine spécifiquement la translation antérieure du genou."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel signe fonctionnel est évocateur d'une entorse grave du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur légère à la palpation",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un craquement audible",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une simple gêne à la marche",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une sensation de chaleur locale",
+          "correct": false
+        }
+      ],
+      "explanation": "Un craquement audible est un signe fonctionnel de gravité, au même titre qu'un déboitement ou une impotence totale et immédiate."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel test clinique est pathognomonique d'une lésion du LCA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le test de Lachman",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le signe du tiroir postérieur",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le Jerk test",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le choc rotulien",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Jerk test est décrit comme pathognomonique du LCA. Le test de Lachman est pour le tiroir antérieur lié au LCA, mais le Jerk test est spécifiquement pathognomonique."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est l'indication principale d'une artériographie ou d'un Doppler artériel en urgence lors d'une entorse du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diagnostic positif d'une lésion méniscale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La recherche d'une hémarthrose",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le risque de lésion de l'artère poplitée en cas de luxation du genou",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'évaluation de la laxité ligamentaire",
+          "correct": false
+        }
+      ],
+      "explanation": "L'artériographie ou le Doppler artériel est indiqué en urgence en cas de luxation du genou en raison du risque de lésion de l'artère poplitée (40%)."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification anapathologique, qu'est-ce qu'une lésion de degré 1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une vraie rupture avec laxité clinique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une rupture sans laxité clinique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une micro rupture ou élongation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une atteinte du pivot central",
+          "correct": false
+        }
+      ],
+      "explanation": "Le degré 1 des lésions anapathologiques correspond à une micro rupture ou une élongation."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel mécanisme traumatique est typiquement associé à une lésion isolée du LLI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un choc direct antéropostérieur",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un traumatisme en varus",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un traumatisme en valgus",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperextension du genou",
+          "correct": false
+        }
+      ],
+      "explanation": "Une lésion du LLI est généralement causée par un traumatisme en valgus."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme le plus fréquent de lésion du LCP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une torsion en valgus-flexion-rotation externe (VALFE)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un traumatisme en varus",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome du tableau de bord (choc direct antéropostérieur)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperextension du genou avec rotation interne",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome du tableau de bord, impliquant un choc direct antéropostérieur, est le mécanisme typique de lésion du LCP."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale d'une entorse bénigne du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte du pivot central avec laxité rotatoire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atteinte d'un plan périphérique avec laxité frontale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Atteinte isolée d'un plan (capsulo-ligamentaire ou périphérique) sans laxité",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rupture de plusieurs ligaments croisés",
+          "correct": false
+        }
+      ],
+      "explanation": "L'entorse bénigne se caractérise par une atteinte isolée d'un plan (capsulo-ligamentaire ou périphérique) sans laxité clinique."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Combien de temps l'immobilisation est-elle recommandée pour une entorse bénigne du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "45 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "15 à 21 jours",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus de 2 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Aucune immobilisation n'est nécessaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une entorse bénigne, une attelle ou genouillère est recommandée pendant 15 à 21 jours."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est un signe clinique de gravité immédiate après un traumatisme du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une légère ecchymose",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un choc rotulien",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une douleur uniquement à la flexion",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une raideur matinale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc rotulien, signe d'hémarthrose, est un signe clinique de gravité."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le rôle du LCP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Freiner la rotation externe",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Freiner la translation postérieure",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Freiner la translation antérieure",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Freiner la rotation interne",
+          "correct": false
+        }
+      ],
+      "explanation": "Le LCP freine la translation postérieure du genou."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le premier geste à réaliser en cas de luxation du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une ligamentoplastie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une immobilisation stricte pendant 45 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une réduction en urgence sous anesthésie générale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une rééducation précoce",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de luxation du genou (pentades), la réduction en urgence sous anesthésie générale est le premier geste."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quand la reprise du sport est-elle envisagée après une entorse bénigne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immédiatement après le traumatisme",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Après 45 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Entre J21 et J30",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Après 2 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "La reprise du sport est possible entre J21 et J30 pour une entorse bénigne."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale caractéristique d'une lésion anapathologique de degré 3 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Micro rupture",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rupture sans laxité clinique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Vraie rupture avec laxité clinique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Élongation ligamentaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le degré 3 correspond à une vraie rupture avec laxité clinique."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du pivot central du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Ligament Latéral Interne (LLI)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le Ligament Croisé Antérieur (LCA)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Ligament Croisé Postérieur (LCP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Point d’Angle Postéro Interne (PAPI)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pivot central est constitué du LCA et du LCP."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de gravité d'une entorse du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc rotulien",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Laxité frontale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur isolée à la palpation du LLI",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Recurvatum",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques de gravité incluent le choc rotulien (hémarthrose), la laxité frontale et le recurvatum (signe de rupture des coques condyliennes)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les informations fournies par l'IRM dans le cadre d'une entorse du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est indiquée en urgence pour le diagnostic",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle permet un diagnostic positif (hyperT2)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle identifie les lésions associées (méniscales)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle évalue le risque de lésion artérielle poplitée",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IRM permet un diagnostic positif (hyperT2) et la recherche de lésions associées, notamment méniscales. Elle n'est pas indiquée en urgence et n'évalue pas le risque de lésion artérielle poplitée, qui est du ressort de l'artériographie/Doppler."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les plans pouvant être intéressés par une entorse du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le plan méniscal et capsulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le plan périphérique (ligamentaire médial ou latéral)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pivot central (LCA ou LCP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le plan musculaire de la cuisse",
+          "correct": false
+        }
+      ],
+      "explanation": "L'entorse du genou peut intéresser le plan méniscal et capsulaire, le plan périphérique (ligamentaire médial ou latéral) et le pivot central (LCA ou LCP)."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une entorse semi-bénigne du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte isolée d'un plan sans laxité",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atteinte d'un plan périphérique avec laxité frontale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Immobilisation stricte pendant 45 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Appui non interdit",
+          "correct": true
+        }
+      ],
+      "explanation": "L'entorse semi-bénigne se caractérise par l'atteinte d'un plan périphérique avec laxité frontale. Le traitement inclut une immobilisation plus stricte pendant 45 jours, et l'appui n'est pas interdit."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants de la Triade interne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LCP",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "LLI",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAPI",
+          "correct": true
+        }
+      ],
+      "explanation": "La Triade interne est composée du LCA, du LLI et du PAPI."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes pouvant entraîner une lésion du LCA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperextension du genou (shoot) et rotation interne",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Torsion en valgus-flexion-rotation externe (VALFE)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Torsion en varus-flexion-rotation interne (VARFI)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Choc direct antéropostérieur",
+          "correct": false
+        }
+      ],
+      "explanation": "Le LCA peut être lésé par hyperextension et rotation interne, torsion en VALFE ou torsion en VARFI. Le choc direct antéropostérieur est typique du LCP."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une entorse grave du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte du pivot central",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Laxité rotatoire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Immobilisation pendant 21 à 45 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ligamentoplastie du LCA après 1 à 2 mois du trauma",
+          "correct": true
+        }
+      ],
+      "explanation": "L'entorse grave implique une atteinte du pivot central avec laxité rotatoire. Le traitement comprend une immobilisation de 21 à 45 jours et une ligamentoplastie du LCA après 1 à 2 mois du trauma."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les structures qui freinent la rotation externe du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le LLI",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le LLE",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le PAPI",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le PAPE",
+          "correct": false
+        }
+      ],
+      "explanation": "Le plan capsulo-ligamentaire interne, composé du LLI et du PAPI, freine la rotation externe."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes fonctionnels de gravité d'une entorse du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Craquement audible",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déboitement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Impotence totale et immédiate",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Douleur à la palpation",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes fonctionnels de gravité sont le craquement audible, le déboitement et l'impotence totale et immédiate."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les lésions associées fréquentes en cas de luxation du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions ligamentaires",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions nerveuses",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésions vasculaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésions méniscales isolées",
+          "correct": false
+        }
+      ],
+      "explanation": "Les luxations du genou, secondaires à un traumatisme violent, s'accompagnent de lésions ligamentaires, nerveuses et vasculaires."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants de la Triade externe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LCP",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "LLE",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAPE",
+          "correct": true
+        }
+      ],
+      "explanation": "La Triade externe est composée du LCA, du LLE et du PAPE."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des luxations du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toujours secondaires à un traumatisme violent",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Impliquent une rupture du pivot central et du plan périphérique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nécessitent une chirurgie en urgence différée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque de rupture de l'artère poplitée est de 40%",
+          "correct": true
+        }
+      ],
+      "explanation": "Les luxations du genou sont toujours secondaires à un traumatisme violent, impliquent une rupture du pivot central et du plan périphérique (pentades), nécessitent une chirurgie en urgence différée (>48h) et présentent un risque de rupture de l'artère poplitée de 40%."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de traitement médical pour une entorse bénigne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glaçon",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antalgiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rééducation précoce",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Immobilisation stricte pendant 45 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement médical de l'entorse bénigne inclut le glaçon, les antalgiques et une rééducation précoce. L'immobilisation stricte de 45 jours est pour l'entorse semi-bénigne."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les structures qui freinent la rotation interne du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le LLI",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le LLE",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le PAPI",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le PAPE",
+          "correct": true
+        }
+      ],
+      "explanation": "Le plan capsulo-ligamentaire externe, composé du LLE et du PAPE, freine la rotation interne."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une lésion anapathologique de degré 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Micro rupture",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rupture sans laxité clinique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vraie rupture avec laxité clinique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Élongation",
+          "correct": false
+        }
+      ],
+      "explanation": "Le degré 2 des lésions anapathologiques correspond à une rupture sans laxité clinique."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le test clinique permettant de diagnostiquer une rupture du LCA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le signe du tiroir postérieur",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le test de Lachman",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Jerk test",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le choc rotulien",
+          "correct": false
+        }
+      ],
+      "explanation": "Le test de Lachman (tiroir antérieur) et le Jerk test sont des tests pour le LCA."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les composantes de la Pentade interne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LCP",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PAPI",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "LLI",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Coques condyliennes",
+          "correct": true
+        }
+      ],
+      "explanation": "La Pentade interne est composée du LCA, du LCP, du PAPI, du LLI et des Coques condyliennes."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel type d'entorse est caractérisé par une atteinte du pivot central et une laxité rotatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entorse bénigne",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entorse semi-bénigne",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Entorse grave",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Luxation du genou",
+          "correct": false
+        }
+      ],
+      "explanation": "L'entorse grave est définie par une atteinte du pivot central et une laxité rotatoire."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le délai recommandé pour la chirurgie en urgence différée des luxations du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les 24 heures",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans les 48 heures",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plus de 48 heures",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Après 1 à 2 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "La chirurgie en urgence différée pour les luxations du genou est recommandée après 48 heures."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les composantes de la Pentade externe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCP",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LCA",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PAPE",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "LLE",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Coques condyliennes",
+          "correct": true
+        }
+      ],
+      "explanation": "La Pentade externe est composée du LCP, du LCA, du PAPE, du LLE et des Coques condyliennes."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les triades d'entorse grave du genou impliquant le LCA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCA + PAPI + LLI",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LCP + PAPE + LLE",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "LCA + PAPE + LLE",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "LCP + PAPI + LLI",
+          "correct": false
+        }
+      ],
+      "explanation": "Les triades impliquant le LCA sont la Triade A-I (LCA + PAPI + LLI) et la Triade A-E (LCA + PAPE + LLE)."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du plan capsulo-ligamentaire interne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le LCA",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le LLI",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le PAPI",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le LCP",
+          "correct": false
+        }
+      ],
+      "explanation": "Le plan capsulo-ligamentaire interne est composé du LLI et du PAPI."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes traumatiques pouvant entraîner une Pentade interne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Torsion en valgus-flexion-rotation externe (VALFE)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Torsion en varus-flexion-rotation interne (VARFI)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Choc direct antéropostérieur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperextension du genou",
+          "correct": false
+        }
+      ],
+      "explanation": "La Pentade interne peut résulter d'une torsion en VALFE (impliquant LCA, LLI, PAPI, LCP, Coques) ou d'un choc direct antéropostérieur (syndrome du tableau de bord, impliquant LCP et pouvant s'étendre aux pentades)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la Triade P-I (postéro-interne) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est très rare",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à un valgus forcé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle implique le LCA",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle implique le LCP, le PAPI et le LLI",
+          "correct": true
+        }
+      ],
+      "explanation": "La Triade P-I est très rare, due à un valgus forcé, et implique le LCP, le PAPI et le LLI."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du plan capsulo-ligamentaire externe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le LLE",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le PAPE",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le LCA",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le LLI",
+          "correct": false
+        }
+      ],
+      "explanation": "Le plan capsulo-ligamentaire externe est composé du LLE et du PAPE."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les triades d'entorse grave du genou impliquant le LCP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCA + PAPI + LLI",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "LCP + PAPE + LLE",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "LCA + PAPE + LLE",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "LCP + PAPI + LLI",
+          "correct": true
+        }
+      ],
+      "explanation": "Les triades impliquant le LCP sont la Triade P-E (LCP + PAPE + LLE) et la Triade P-I (LCP + PAPI + LLI)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes traumatiques pouvant entraîner une Pentade externe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Torsion en valgus-flexion-rotation externe (VALFE)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Torsion en varus-flexion-rotation interne (VARFI)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Choc direct antéropostérieur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperextension du genou",
+          "correct": false
+        }
+      ],
+      "explanation": "La Pentade externe peut résulter d'une torsion en VARFI (impliquant LCA, LLE, PAPE, LCP, Coques) ou d'un choc direct antéropostérieur (syndrome du tableau de bord, impliquant LCP et pouvant s'étendre aux pentades)."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la Triade A-E (antéro-externe) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est très rare",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle implique le LCA",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle implique le LCP",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle implique le PAPE et le LLE",
+          "correct": true
+        }
+      ],
+      "explanation": "La Triade A-E est très rare, implique le LCA, le PAPE et le LLE."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les lésions ligamentaires spécifiques d'une luxation du genou ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rupture du pivot central",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rupture du plan périphérique entier latéral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rupture du plan périphérique entier médial",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésion isolée du LLI",
+          "correct": false
+        }
+      ],
+      "explanation": "Les luxations du genou sont définies par la rupture du pivot central et du plan périphérique (pentades), ce qui peut inclure des plans entiers latéral et/ou médial."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques pour les pentades (luxation du genou) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduction en urgence sous anesthésie générale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Attelle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chirurgie en urgence différée (> 48h)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réinsertion ou plasties du pivot et des plans périphériques",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement des pentades (luxation du genou) comprend la réduction en urgence sous AG, l'attelle, la chirurgie en urgence différée (> 48h) avec réinsertion ou plasties du pivot et des plans périphériques."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la triade d'entorse grave la plus fréquente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCA + PAPI + LLI (Triade A-I)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LCP + PAPE + LLE (Triade P-E)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "LCA + PAPE + LLE (Triade A-E)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "LCP + PAPI + LLI (Triade P-I)",
+          "correct": false
+        }
+      ],
+      "explanation": "La Triade A-I (LCA + PAPI + LLI) est la plus fréquente des entorses graves."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments anatomiques qui freinent le recurvatum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le LCA",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le LCP",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les coques condyliennes médiales",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les coques condyliennes latérales",
+          "correct": true
+        }
+      ],
+      "explanation": "Les coques condyliennes médiales et latérales freinent le recurvatum."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la Triade P-E (postéro-externe) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est rare",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle implique le LCP",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle implique le PAPE et le LLE",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est la plus fréquente",
+          "correct": false
+        }
+      ],
+      "explanation": "La Triade P-E est rare, implique le LCP, le PAPE et le LLE. Elle n'est pas la plus fréquente."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les lésions associées à une rupture des coques condyliennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Laxité frontale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Recurvatum",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tiroir antérieur",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hémarthrose",
+          "correct": false
+        }
+      ],
+      "explanation": "La rupture des coques condyliennes est associée au recurvatum."
+    }
+  ]
+}

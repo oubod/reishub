@@ -1,0 +1,1584 @@
+{
+  "lectureId": "15",
+  "number": "15",
+  "title": "Cancers colorectaux",
+  "partie": "J1",
+  "specialty": "Chirurgie générale",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques épidémiologiques des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont le premier cancer digestif dans le monde.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'âge moyen de survenue est généralement inférieur à 40 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont le premier cancer digestif en Tunisie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La majorité se développe à partir d'un polype adénomateux.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cancers colorectaux sont le premier cancer digestif dans le monde et en Tunisie. L'âge moyen de survenue est supérieur à 50 ans, et la majorité se développe sur un état précancéreux, le polype adénomateux."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Parmi les facteurs suivants, lesquels sont considérés comme des facteurs de risque exogènes pour les cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une alimentation riche en fibres végétales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La consommation d'alcool.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'obésité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'activité physique régulière.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque exogènes incluent l'alcool et l'obésité. Une alimentation riche en fibres végétales et une activité physique régulière sont des facteurs protecteurs."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quel est le type histologique le plus fréquent des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lymphome",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sarcome",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Adénocarcinome",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeur carcinoïde",
+          "correct": false
+        }
+      ],
+      "explanation": "Le type histologique le plus fréquent des cancers colorectaux est l'adénocarcinome, représentant 95% des cas."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les signes évocateurs fréquents de découverte des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des troubles du transit (constipation, diarrhée ou alternance).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hémorragie digestive faite de sang rouge, peu abondante mais répétée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des douleurs abdominales vagues et bien localisées.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome de Koenig.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes évocateurs incluent les troubles du transit, les hémorragies digestives (sang rouge, peu abondantes mais répétées) et le syndrome de Koenig. Les douleurs abdominales sont vagues, mal localisées et n'ont pas de valeur localisatrice."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelle est la principale voie d'extension hématogène des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie pulmonaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie portale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Voie osseuse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Voie cérébrale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'extension hématogène se fait principalement par voie portale, aboutissant surtout à des métastases hépatiques."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel examen est indispensable pour le diagnostic positif du cancer colorectal et la confirmation de sa nature ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scanner thoraco-abdomino-pelvien",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dosage du marqueur tumoral (ACE)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Coloscopie totale avec biopsies",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Échographie endorectale",
+          "correct": false
+        }
+      ],
+      "explanation": "La coloscopie totale avec biopsies des lésions suspectes est l'examen indispensable pour le diagnostic positif et la confirmation de la nature du cancer colorectal."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque de dégénérescence d'un polype adénomateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un type histologique tubuleux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une taille inférieure à 1 cm.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une dysplasie de haut grade.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une forme pédiculée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque de dégénérescence d'un polype adénomateux dépend du degré de dysplasie, le haut grade étant le plus risqué. Un type villeux, une taille supérieure à 1 cm et une forme plane sont également des facteurs de risque plus importants."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les segments du côlon considérés comme fixes d'un point de vue chirurgical ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cæcum.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le côlon ascendant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le côlon transverse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le côlon descendant.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les segments fixes du côlon sont le côlon ascendant, les angles coliques, le côlon descendant et iliaque, fixés par des fascias. Le cæcum, le côlon transverse et le sigmoïde sont mobiles."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal du traitement adjuvant après chirurgie à visée curative pour un cancer colique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduire la taille de la tumeur avant la chirurgie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réduire le risque de récidive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prolonger la survie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traiter les métastases à distance.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement adjuvant (post-opératoire) a pour but de réduire le risque de récidive et de prolonger la survie. Il s'agit d'une chimiothérapie adjuvante."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est le rôle du mésorectum dans le pronostic des cancers du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son envahissement est un facteur pronostic majeur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est un tissu cellulo-graisseux et lymphatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est situé entre la musculeuse rectale et le fascia recti.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sa résection complète n'a pas d'impact significatif sur les récidives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mésorectum est un tissu cellulo-graisseux et lymphatique dont l'envahissement constitue un facteur pronostic majeur. Sa résection extra-fasciale complète réduit significativement les récidives locorégionales."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les critères d'Amsterdam II utilisés pour suspecter le syndrome de Lynch ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Au moins un cas de cancer de spectre de Lynch diagnostiqué avant 50 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Trois cas ou plus de cancer de spectre de Lynch histologiquement prouvés dans les antécédents familiaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancer de spectre de Lynch touchant au moins deux générations successives.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence de plus de 100 polypes colorectaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères d'Amsterdam II incluent : trois cas ou plus de cancer de spectre de Lynch dans les antécédents familiaux (dont un lié au premier degré avec les deux autres), cancer de spectre de Lynch touchant au moins deux générations successives, et au moins un cas de cancer de spectre de Lynch diagnostiqué avant 50 ans. La présence de plus de 100 polypes est caractéristique de la PAF floride."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelle est la principale artère vascularisant le côlon droit ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'artère mésentérique inférieure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'artère colique supérieure gauche.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'artère mésentérique supérieure.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le tronc des artères sigmoïdiennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le côlon droit est vascularisé par les branches droites de l'artère mésentérique supérieure (AMS), qui donne l'artère colique supérieure droite, l'artère iléocolique et l'artère colique moyenne."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est le rythme de surveillance recommandé pour un patient traité pour cancer colorectal pendant les deux premières années ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Annuel.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Semestriel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Trimestriel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tous les 5 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rythme de surveillance est trimestriel pendant les deux premières années, puis semestriel pendant les trois années suivantes."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelle est la classification histopronostique utilisée pour les cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classification de Dukes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Classification de Astler-Coller.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Classification TNM (UICC, 8ème édition, 2017).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Classification de Bormann.",
+          "correct": false
+        }
+      ],
+      "explanation": "La classification utilisée est la classification TNM (UICC, 8ème édition, 2017)."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelle est la survie relative à 5 ans pour un cancer colorectal diagnostiqué au stade I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "47%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "80%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "94%",
+          "correct": true
+        }
+      ],
+      "explanation": "Le taux de survie relative à 5 ans est de 94% pour les cancers diagnostiqués au stade I."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de dégénérescence d'un polype adénomateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un type histologique tubuleux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une taille supérieure à 1 cm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une dysplasie de haut grade.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une forme pédiculée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une durée d'évolution de moins d'un an.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque de dégénérescence augmente avec un type histologique villeux (plus que tubuleux), une dysplasie de haut grade, une taille supérieure à 1 cm, une forme plane (plus que sessile ou pédiculée) et une durée d'évolution moyenne de 5 ans (3 à 10 ans)."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Concernant le dépistage des cancers colorectaux, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour la population générale de plus de 50 ans, le dépistage organisé repose sur un test de recherche de sang occulte dans les selles tous les 2 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour les sujets à risque élevé, une coloscopie est recommandée à partir de 45 ans ou 10 ans avant l'âge du diagnostic du cas index, puis tous les 5 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les sujets atteints de polypose adénomateuse familiale relèvent d'un dépistage par coloscopie tous les 10 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de test de recherche de sang occulte positif, une coloscopie est indiquée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le dépistage dans les maladies inflammatoires chroniques de l'intestin suit un protocole de surveillance endoscopique et biopsique spécifique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le dépistage pour la population générale (>50 ans) utilise le test de recherche de sang occulte tous les 2 ans, suivi d'une coloscopie si positif. Pour les sujets à risque élevé, la coloscopie est à partir de 45 ans ou 10 ans avant le cas index, puis tous les 5 ans. Les sujets à risque très élevé (comme la PAF) relèvent d'une prise en charge spécialisée incluant une consultation oncogénétique et une chromo coloscopie, pas une coloscopie tous les 10 ans."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la Polypose Recto-colique Familiale (PAF) floride ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est responsable de 10% des cancers colorectaux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par plus de 100 polypes colorectaux disséminés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dégénérescence est inéluctable en l'absence de traitement chirurgical préventif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'âge de survenue du cancer est généralement inférieur à 40 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est liée à la mutation du gène MUTYH dans la majorité des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "La PAF floride est caractérisée par plus de 100 polypes colorectaux, une dégénérescence inéluctable sans traitement chirurgical préventif, et un âge de survenue du cancer inférieur à 40 ans. Elle est responsable de 1% des cancers colorectaux et est le plus souvent liée à la mutation du gène APC (chromosome 5), et non MUTYH (qui représente 10% des PAF et est à transmission autosomique récessive)."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rapports anatomiques du côlon ascendant et de l'angle colique droit ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le côlon ascendant répond en avant aux anses grêles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La face postérieure du côlon ascendant est en rapport avec le rein droit et l'uretère droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'angle colique droit est au contact de la 2ème portion du duodénum.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'angle colique droit est en rapport avec le pôle inférieur de la rate.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le côlon ascendant est fixé dans le flanc droit par le fascia de Toldt droit.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le côlon ascendant répond en avant aux anses grêles et est fixé par le fascia de Toldt droit. Sa face postérieure est en rapport avec le rein droit et l'uretère droit. L'angle colique droit est au contact de la 2ème portion du duodénum et de la face inférieure du foie. L'angle colique gauche est en rapport avec le pôle inférieur de la rate."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les branches de l'artère mésentérique supérieure qui vascularisent le côlon droit et les 2/3 du transverse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'artère colique supérieure gauche.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'artère iléocolique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'artère colique moyenne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'artère colique supérieure droite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'artère rectale supérieure.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'AMS donne l'artère colique supérieure droite, l'artère iléocolique (ou iléo-caeco-colo-appendiculaire) et l'artère colique moyenne (inconstante) pour vasculariser le côlon droit et les 2/3 du transverse. L'artère colique supérieure gauche et l'artère rectale supérieure sont des branches de l'artère mésentérique inférieure."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Concernant le drainage lymphatique du côlon, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les lymphatiques suivent les axes artérioveineux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le groupe épicolique est au contact de l'arcade bordante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le groupe principal est à l'origine des branches coliques de l'artère mésentérique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le groupe central est péri-aortico-cave.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il existe 3 groupes principaux de ganglions lymphatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lymphatiques suivent les axes artérioveineux et se répartissent en 5 groupes : épicolique (contact paroi colique), paracolique (contact arcade bordante), intermédiaire (le long du pédicule colique), principal (origine des branches coliques de l'artère mésentérique) et central (péri-aortico-cave)."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques macroscopiques des cancers coliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils siègent le plus souvent sur le côlon transverse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont le plus souvent de forme ulcéro-infiltrante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Au niveau du côlon droit, l'aspect est souvent bourgeonnant et peu ulcéré.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans les segments plus étroits (côlon gauche), l'aspect est souvent une sténose ulcérée (en virole).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils siègent par ordre de fréquence décroissante sur le cæcum et le côlon ascendant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cancers coliques sont le plus souvent de forme ulcéro-infiltrante. L'aspect est bourgeonnant et peu ulcéré au côlon droit, et sténosant (en virole) au côlon gauche. Ils siègent par ordre de fréquence décroissante sur le côlon sigmoïde, le cæcum et le côlon ascendant, étant plus rares sur le côlon transverse et descendant."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les types histologiques d'adénocarcinome mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénocarcinome lieberkhunien.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adénocarcinome colloïde muqueux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Adénocarcinome avec contingent de cellules en bague à chatons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lymphome.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sarcome.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les types histologiques d'adénocarcinome mentionnés sont l'ADK lieberkhunien, l'ADK colloïde muqueux et l'ADK avec contingent de cellules en bague à chatons. Lymphome et Sarcome sont d'autres types histologiques possibles mais ne sont pas des adénocarcinomes."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les modes d'extension extra-murale des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par contiguïté aux organes de voisinage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par voie lymphatique de proche en proche.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par voie hématogène, principalement vers le foie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par voie péritonéale, pouvant entraîner une carcinose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Par extension sous-cutanée jusqu'à 4 cm de la tumeur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'extension extra-murale se fait par contiguïté (organes de voisinage), par voie lymphatique (de proche en proche, sans saut de relais), par voie hématogène (métastases hépatiques, pulmonaires, etc.) et par voie péritonéale (carcinose, métastases ovariennes). L'extension sous-cutanée est un mode d'extension intra-murale en hauteur."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification TNM, quelles sont les caractéristiques d'un cancer colorectal de stade III ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "T1 ou T2, N0, M0.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "T3 ou T4, N0, M0.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Présence de métastases à distance (M+).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Atteinte ganglionnaire régionale (N+).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Peut concerner n'importe quel stade T.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le stade III est défini par la présence d'une atteinte ganglionnaire régionale (N+), quel que soit le stade T (∀ T, N+, M0). Le stade I est T1 ou T2, N0, M0. Le stade II est T3 ou T4, N0, M0. Le stade IV est caractérisé par la présence de métastases à distance (M+)."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels signes moins évocateurs peuvent révéler un cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une altération de l'état général (asthénie, anorexie, amaigrissement).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une anémie hypochrome microcytaire régénérative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une fièvre au long cours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hépatomégalie douloureuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un ganglion de Troisier palpable.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes moins évocateurs incluent l'altération de l'état général, une anémie hypochrome microcytaire régénérative et une fièvre au long cours. L'hépatomégalie douloureuse et le ganglion de Troisier sont des signes de métastases, qui peuvent être révélatrices mais sont des complications évolutives, pas des signes moins évocateurs au sens strict."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles informations le toucher rectal doit-il préciser pour un cancer du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le siège de la tumeur par rapport à la marge anale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La taille de la tumeur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La fixité de la tumeur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'extension locale aux organes de voisinage.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence de métastases hépatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le toucher rectal doit préciser le siège de la tumeur (distance de la marge anale), sa taille, sa fixité et son extension locale aux organes de voisinage. La présence de métastases hépatiques est recherchée par l'examen clinique abdominal et l'imagerie, pas directement par le toucher rectal."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens complémentaires spécifiques au bilan d'extension d'un cancer du moyen ou bas rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coloscopie totale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Scanner thoraco-abdomino-pelvien.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Écho-endoscopie rectale (EER).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "IRM pelvienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dosage de l'ACE.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un cancer du moyen ou du bas rectum doit bénéficier en plus d'une écho-endoscopie ou d'une IRM pelvienne. La coloscopie totale, le scanner TAP et le dosage de l'ACE sont des examens du bilan initial ou d'extension générale, mais pas spécifiques au moyen/bas rectum."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la chimiothérapie adjuvante pour les cancers coliques après chirurgie à visée curative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeurs classées stade I (T1 ou T2, N0, M0).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeurs classées stade II (T3T4N0M0) avec facteurs de mauvais pronostic.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeurs classées stade III (T, N+, M0).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeurs classées stade IV (T, N, M+).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tumeurs bien différenciées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La chimiothérapie adjuvante est le traitement standard pour les tumeurs classées stade III (T, N+, M0) pendant 6 mois. Pour les tumeurs classées stade II (T3T4N0M0), elle est discutée au cas par cas en RCP en fonction des facteurs de mauvais pronostic."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de mauvais pronostic pour les cancers colorectaux mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un stade TNM précoce.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La présence d'emboles vasculaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'engainement tumoral péri-nerveux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dédifférenciation histologique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une forte instabilité des microsatellites (MSI).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de mauvais pronostic incluent l'envahissement vasculaire (emboles), l'engainement tumoral péri-nerveux, la dédifférenciation histologique et l'aneuploïdie. Une forte instabilité des microsatellites (MSI) est associée à un pronostic plus favorable."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs de la surveillance post-thérapeutique d'un patient traité pour cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recherche d'adénomes ou de cancer métachrone.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dépistage de récidives (métastatiques ou locorégionales) à un stade précoce.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmenter la survie par une deuxième résection à visée curative si nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évaluer la réponse au traitement néoadjuvant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Confirmer le diagnostic initial.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance a pour objectif d'augmenter la survie par la recherche d'adénomes ou de cancer métachrone et le dépistage de récidives (métastatiques ou locorégionales) à un stade précoce permettant une deuxième résection à visée curative. L'évaluation de la réponse au traitement néoadjuvant et la confirmation du diagnostic initial font partie du bilan pré-thérapeutique ou diagnostique."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications évolutives des cancers colorectaux qui peuvent être révélatrices ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Occlusion intestinale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Perforation tumorale in situ.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémorragie cataclysmique de grande abondance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Koenig.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Altération de l'état général.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications évolutives révélatrices incluent l'occlusion intestinale aiguë, la perforation tumorale (in situ ou diastatique) et l'hémorragie cataclysmique. Le syndrome de Koenig et l'altération de l'état général sont des signes évocateurs ou moins évocateurs, mais pas des complications évolutives au sens strict."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du traitement néoadjuvant dans les cancers du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cancers du haut rectum non métastatiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cancers du moyen rectum non métastatiques classés T3 ou T4.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancers du bas rectum non métastatiques classés N+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeurs T1N0M0 du bas rectum.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tumeurs métastatiques d'emblée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement néoadjuvant est indiqué dans les cancers du moyen et bas rectum non métastatiques classés T3, T4 et/ou N+. Les cancers du haut rectum sont traités comme les cancers du sigmoïde et ne nécessitent pas de traitement néoadjuvant spécifique. Les tumeurs T1N0M0 peuvent bénéficier d'exérèses locales. Les tumeurs métastatiques d'emblée relèvent d'une prise en charge spécifique."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les modalités de radiothérapie préopératoire pour les cancers du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiothérapie longue délivrant 45 Gy en fractions de 1,8 Gy en 5 semaines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Radiothérapie courte (protocole Suédois) délivrant 25 Gy en fractions de 5 Gy en 5 jours.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiothérapie postopératoire systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Radiothérapie concomitante à une chimiothérapie (RCT).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Radiothérapie à visée palliative uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La radiothérapie préopératoire peut être de type longue (45 Gy en 5 semaines) ou courte (25 Gy en 5 jours, protocole Suédois). La chimiothérapie peut être administrée pendant la radiothérapie (RCT concomitante). La radiothérapie postopératoire n'est pas systématique et la radiothérapie n'est pas uniquement palliative."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments inclus dans la surveillance post-thérapeutique d'un patient traité pour cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen clinique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Échographie abdominale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiographie du thorax.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Scanner thoraco-abdomino-pelvien alterné.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dosage des ACE.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance comporte un examen clinique, une échographie abdominale, une radiographie du thorax, un scanner thoraco-abdomino-pelvien alterné et un dosage des ACE."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de dégénérescence de la rectocolite ulcéro-hémorragique (RCH) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge jeune lors du diagnostic de la RCH (< 35 ans).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une étendue limitée de la RCH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une durée d'évolution courte de la RCH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'association de la RCH à une dysplasie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'association de la RCH à une cholangite sclérosante primitive (CSP).",
+          "correct": true
+        }
+      ],
+      "explanation": "Le risque de dégénérescence de la RCH augmente avec un âge jeune lors du diagnostic (< 35 ans), l'étendue de la RCH, la durée d'évolution de la RCH, l'association à une dysplasie et l'association à une cholangite sclérosante primitive (CSP)."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Concernant l'anatomie chirurgicale du rectum, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le rectum est divisé en deux parties par le péritoine : une partie supérieure intrapéritonéale et une partie inférieure sous-péritonéale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le mésorectum est un tissu cellulo-graisseux et lymphatique entourant le rectum, surtout sur sa face postérieure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La clairance latérale est la distance entre la limite externe de la tumeur et le fascia recti.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le rectum pelvien est le segment terminal du tube digestif qui se termine à la ligne ano-cutanée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le cul-de-sac de Douglas est formé par la réflexion du péritoine sur la face postérieure du dôme vaginal et l'utérus chez l'homme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rectum est divisé en une partie supérieure partiellement intrapéritonéale et une partie inférieure sous-péritonéale. Le mésorectum est un tissu cellulo-graisseux et lymphatique dont l'envahissement est un facteur pronostic majeur, et la clairance latérale est la distance entre la tumeur et le fascia recti. Le rectum se termine à la ligne ano-cutanée, mais le rectum pelvien est la partie supérieure, le canal anal étant le rectum périnéal. Le cul-de-sac de Douglas est formé par la réflexion du péritoine sur les organes génitaux, notamment le dôme vaginal et l'utérus chez la femme, et entre le rectum et la vessie/vésicules séminales chez l'homme."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de la vascularisation artérielle du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'artère rectale supérieure est une branche terminale de l'artère mésentérique inférieure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les artères rectales moyennes sont des branches constantes des artères iliaques internes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'artère rectale inférieure naît de l'artère pudendale (honteuse interne).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'artère sacrée médiane est une branche inconstante de la bifurcation aortique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'artère rectale supérieure vascularise uniquement la muqueuse du canal anal.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'artère rectale supérieure est la branche terminale de l'AMI. Les artères rectales moyennes sont inconstantes et rarement bilatérales. L'artère rectale inférieure naît de l'artère pudendale. L'artère sacrée médiane est inconstante. L'artère rectale supérieure vascularise la totalité du rectum pelvien et la muqueuse du canal anal."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les rapports antérieurs du rectum sous-péritonéal chez l'homme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cul-de-sac de Douglas.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'aponévrose prostato-péritonéale de Denonvilliers.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La partie terminale des canaux déférents.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La face postérieure de la prostate.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les vésicules séminales.",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez l'homme, le segment sous-péritonéal du rectum répond à l'aponévrose prostato-péritonéale de Denonvilliers, à la partie terminale des canaux déférents, à la base prostatique, aux vésicules séminales et à la face postérieure de la prostate. Le cul-de-sac de Douglas répond à la partie supérieure, péritonisée du rectum."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'extension intra-murale des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'extension en profondeur est à la base des classifications histo-pronostiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La propagation latérale vers les parois pelviennes s'observe surtout pour les tumeurs du rectum sous-péritonéal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La clairance latérale est la mesure de la distance entre la tumeur et le fascia recti.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'extension en largeur forme une tumeur circonférentielle avec risque de sténose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'extension en hauteur peut atteindre au maximum 10 cm de part et d'autre de la tumeur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'extension en profondeur est à la base des classifications histo-pronostiques. La propagation latérale s'observe surtout pour les tumeurs du rectum sous-péritonéal, et la clairance latérale mesure cette extension. L'extension en largeur peut former une tumeur circonférentielle avec risque de sténose. L'extension en hauteur peut atteindre au maximum 4 cm de part et d'autre de la tumeur, et non 10 cm."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options chirurgicales pour un cancer du côlon gauche compliqué d'occlusion qui ne cède pas sous réanimation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémi-colectomie droite avec anastomose iléo-transverse immédiate.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mise en place d'une prothèse colique endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stomie de dérivation (colostomie de proche amont).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Intervention de Hartmann.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Colectomie totale ou subtotale avec anastomose iléo-rectale en un temps.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour une occlusion du côlon gauche ne cédant pas, les options sont : prothèse colique endoscopique (alternative à la chirurgie pour opérer à froid), stomie de dérivation (colostomie de proche amont, alternative de premier choix), chirurgie de résection en deux temps (Hartmann, Bouilly Volkmann) ou, plus rarement, en un temps (colectomie totale/subtotale avec anastomose iléo-rectale ou iléo-sigmoïdienne, ou colectomie segmentaire avec lavage colique peropératoire). L'hémi-colectomie droite est pour les occlusions du côlon droit."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les principes généraux de la chirurgie des cancers du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'exérèse du mésorectum doit être complète pour les tumeurs du tiers moyen et inférieur du rectum.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La marge de sécurité distale doit être égale ou supérieure à 1 cm sur pièce non fixée et sans traction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La conservation des nerfs pelviens est un critère de qualité de l'intervention.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cancers du haut rectum ont les mêmes évolutions et pronostic que les cancers du sigmoïde.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une distance de 5 cm entre le sphincter et le bord inférieur de la tumeur est toujours nécessaire pour conserver la fonction sphinctérienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'exérèse complète du mésorectum est recommandée pour les tumeurs du tiers moyen et inférieur du rectum. La marge de sécurité distale doit être ≥ 1 cm. La conservation des nerfs pelviens est un critère de qualité. Les cancers du haut rectum sont traités comme les cancers du sigmoïde. La marge de sécurité distale pour la conservation sphinctérienne a diminué, une distance de 1 cm étant suffisante si l'objectif carcinologique est satisfait."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quels sont les protocoles de traitement néoadjuvant validés pour les cancers du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protocole Rapido (RT courte puis CT puis chirurgie).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Protocole Prodige 23 (CT néoadjuvante puis RCT longue puis chirurgie puis CT adjuvante).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Protocole CAP 50 (RT longue en concomitant à une chimiothérapie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie seule sans radiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Radiothérapie seule sans chimiothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les protocoles validés sont Rapido (RT courte, CT, chirurgie), Prodige 23 (CT néoadjuvante, RCT longue, chirurgie, CT adjuvante) et CAP 50 (RT longue concomitante à une chimiothérapie). La chimiothérapie seule ou la radiothérapie seule ne sont pas les protocoles les plus validés pour les cancers du rectum T3, T4 et/ou N+."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options chirurgicales pour un cancer du bas rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Résection antérieure avec anastomose colo-anale protégée si une marge distale macroscopique d'au moins 1 cm est obtenue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Amputation abdomino-périnéale si la marge distale est inférieure à 1 cm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résection antérieure avec exérèse complète du mésorectum pour les tumeurs du haut rectum.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Colectomie segmentaire basse avec anastomose colorectale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Exérèse locale pour toutes les tumeurs T1N0M0.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un cancer du bas rectum, une résection antérieure avec anastomose colo-anale protégée est réalisée si une marge distale macroscopique d'au moins 1 cm est obtenue. Si la marge distale est inférieure à 1 cm, une amputation abdomino-périnéale est indiquée. La résection antérieure pour le haut rectum est différente, et la colectomie segmentaire basse est pour le sigmoïde. Les exérèses locales pour T1N0M0 sont sous conditions strictes (taille < 3cm, histologie favorable)."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les stratégies de prise en charge des métastases hépatiques de cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si les métastases sont résécables, chirurgie de la tumeur primitive et des métastases encadrée par une chimiothérapie péri-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si les métastases sont non résécables d'emblée, chimiothérapie avec thérapie ciblée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La chirurgie de la tumeur primitive est toujours réalisée d'emblée, même si les métastases sont non résécables et asymptomatiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La stratégie thérapeutique est toujours discutée en RCP.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La destruction percutanée et la radiologie interventionnelle peuvent faire partie de la prise en charge.",
+          "correct": true
+        }
+      ],
+      "explanation": "Si les métastases hépatiques sont résécables, une chirurgie de la tumeur primitive et des métastases est réalisée, encadrée par une chimiothérapie péri-opératoire. Si elles sont non résécables d'emblée, une chimiothérapie avec thérapie ciblée est initiée, et la stratégie chirurgicale est discutée en fonction de la réponse. La chirurgie de la tumeur primitive peut être réalisée d'emblée si elle est symptomatique (occlusion, surinfection), mais pas systématiquement si asymptomatique et métastases non résécables. La prise en charge est multimodale et discutée en RCP, incluant destruction percutanée et radiologie interventionnelle."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs pronostiques histologiques de mauvais pronostic pour les cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'emboles carcinomateux lymphatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d'emboles vasculaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'engainement péri-nerveux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un haut grade histologique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence de ganglions métastatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs histologiques de mauvais pronostic associent la présence d'emboles carcinomateux lymphatiques et vasculaires, d'engainements péri-nerveux, le haut grade histologique et la présence de ganglions métastatiques. L'absence de ganglions métastatiques est un facteur de bon pronostic."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications d'une colectomie totale dans le traitement des cancers coliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de cancer synchrone à droite et à gauche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de polypose recto-colique familiale dégénérée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de perforation diastatique en amont d'une lésion du côlon gauche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de cancer du côlon transverse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de cancer du côlon droit non compliqué.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une colectomie totale est préconisée en cas de cancer synchrone à droite et à gauche, en cas de polypose recto-colique familiale dégénérée (avec anastomose iléo-anale), et en cas de perforation diastatique en amont d'une lésion du côlon gauche. Pour le cancer du côlon transverse, on pousse le sacrifice vers la droite ou la gauche (hémi-colectomie). Pour le cancer du côlon droit non compliqué, c'est une hémi-colectomie droite."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications de la radiothérapie néoadjuvante pour les cancers du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Séquelles sexuelles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dégradation du résultat fonctionnel (diarrhée).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cystite radique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Entérite radique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Occlusion intestinale aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications sont surtout secondaires à la radiothérapie et incluent les séquelles sexuelles, la dégradation du résultat fonctionnel (diarrhée), la cystite et l'entérite radique. L'occlusion intestinale aiguë est une complication évolutive du cancer lui-même, non de la radiothérapie."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions pour une exérèse locale d'une tumeur rectale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur classée T1N0M0.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Taille de la tumeur inférieure à 3 cm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeur bas située.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeur confinée à la paroi rectale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Type histologique favorable à la biopsie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les exérèses locales s'adressent à des tumeurs T1N0M0, dont la taille est inférieure à 3 cm, surtout bas situées, confinées à la paroi rectale, et de type histologique favorable à la biopsie. L'examen histologique définitif doit confirmer l'exérèse totale."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui ont contribué à l'amélioration du pronostic des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les progrès de la chirurgie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les progrès de la chimiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La radiothérapie dans les cancers du rectum.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La thérapie ciblée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le traitement des métastases hépatiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pronostic s'est amélioré avec les progrès de la chirurgie, de la chimiothérapie, la radiothérapie dans les cancers du rectum, la thérapie ciblée et le traitement des métastases hépatiques."
+    }
+  ]
+}

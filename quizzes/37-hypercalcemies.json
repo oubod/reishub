@@ -1,0 +1,1405 @@
+{
+  "lectureId": "37",
+  "number": "37",
+  "title": "Hypercalcémies",
+  "partie": "J2",
+  "specialty": "Médecine interne",
+  "questions": [
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Parmi les fractions suivantes, laquelle représente la forme métaboliquement active du calcium plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calcium lié aux protéines",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Calcium complexé aux anions",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Calcium ionisé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Calcium total",
+          "correct": false
+        }
+      ],
+      "explanation": "Seul le calcium ionisé représente la fraction métaboliquement active et est soumis à une stricte régulation."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelles sont les deux étiologies dominantes de l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperparathyroïdie primaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pathologies néoplasiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale chronique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypothyroïdie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les deux étiologies dominantes de l'hypercalcémie sont l'hyperparathyroïdie primaire et les pathologies néoplasiques."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Comment l'élévation de l'albuminémie peut-elle influencer la calcémie totale mesurée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle diminue la calcémie totale mesurée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle augmente la calcémie totale mesurée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle n'a aucun impact sur la calcémie totale mesurée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle augmente le calcium ionisé mais pas le calcium total",
+          "correct": false
+        }
+      ],
+      "explanation": "L'élévation de 1g/l d'albumine au-delà de 40g/l s'accompagne de l'élévation de la calcémie totale de 0,02 mmol/l, et inversement. C'est une cause de fausse hypercalcémie."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quels sont les besoins journaliers en calcium pour une femme enceinte ou allaitante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "800 mg",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1000 mg",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "1200 mg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "1500 mg",
+          "correct": false
+        }
+      ],
+      "explanation": "Les besoins journaliers en calcium pour une femme enceinte ou allaitante sont de 1200 mg."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles physiologiques importants du calcium dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Développement de la matrice osseuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Coagulation sanguine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Régulation de la sécrétion de PTH",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perméabilité membranaire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Contraction musculaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Le calcium assure le développement de la matrice osseuse, exerce les rôles de tampon extracellulaire et intracellulaire, intervient dans la perméabilité membranaire, la coagulation sanguine, la libération des transmetteurs, la contraction musculaire et la régulation de la sécrétion de PTH."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelle hormone a une action hypocalcémiante en inhibant l'ostéoclastose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parathormone (PTH)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Calcitriol (1,25 (OH)2 D3)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Calcitonine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vitamine D3",
+          "correct": false
+        }
+      ],
+      "explanation": "La calcitonine a une action hypocalcémiante en inhibant l'ostéoclastose et diminue la résorption osseuse."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques les plus constants d'une hypercalcémie, même modérée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anorexie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asthénie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Soif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Convulsions",
+          "correct": false
+        }
+      ],
+      "explanation": "Des signes généraux comme l'anorexie, l'asthénie et la soif sont les plus constants, même en cas d'hypercalcémie modérée."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures générales indispensables dans la prise en charge symptomatique de toute hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suppression des médicaments contenant de la vitamine D et du calcium",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suppression des digitaliques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réhydratation et rééquilibration hydro-électrolytique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Suppression des aliments riches en calcium",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mesures générales indispensables incluent la suppression de certains médicaments (vitamine D, calcium, thiazidiques, digitaliques, alcalins), la suppression des aliments riches en calcium, et la réhydratation et rééquilibration hydro-électrolytique."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est l'effet de l'acidose sur le calcium ionisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle diminue le calcium ionisé",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle augmente le calcium ionisé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle n'a aucun effet sur le calcium ionisé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle augmente la fraction liée à l'albumine",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acidose augmente le calcium ionisé et réduit la fraction liée à l'albumine. Le calcium ionisé s'élève de 0,04 mmol/l dans le plasma quand le pH s'abaisse de 0,1 UI."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est le principal régulateur hormonal de la capacité de réabsorption tubulaire du calcium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calcitonine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Vitamine D",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Parathormone",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cortisol",
+          "correct": false
+        }
+      ],
+      "explanation": "La parathormone est le principal régulateur de la capacité de réabsorption tubulaire du calcium."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux compartiments où le calcium est présent dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compartiment extracellulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Compartiment intracellulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Principalement sous forme soluble dans le plasma",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement dans l'os",
+          "correct": false
+        }
+      ],
+      "explanation": "Le calcium est présent dans les deux compartiments extracellulaire et intracellulaire, essentiellement sous forme non soluble extracellulaire au niveau de l'os."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelle est la principale voie d'excrétion du calcium chez un sujet sain ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie rénale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie digestive",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par la sueur",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Par la fixation osseuse",
+          "correct": false
+        }
+      ],
+      "explanation": "L'excrétion du calcium se fait principalement par voie digestive (deux tiers) et accessoirement par voie rénale."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques pouvant induire une hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de l'absorption calcique digestive",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la résorption osseuse",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Diminution de l'excrétion rénale du calcium",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résorption osseuse accrue",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypercalcémie est le résultat d'une dérégulation entre les flux entrant et sortant du calcium. Elle est due soit à l'augmentation de l'absorption calcique digestive, à une résorption osseuse accrue, ou à une diminution de l'excrétion rénale du calcium."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets de la parathormone (PTH) sur le rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la réabsorption du calcium",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la phosphaturie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la clairance des bicarbonates",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhibition de l'activité de l'enzyme 25 (OH)-1- hydroxylase",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la clairance de l'eau libre",
+          "correct": true
+        }
+      ],
+      "explanation": "La PTH augmente la réabsorption du calcium, augmente la phosphaturie en inhibant le cotransport sodium-phosphate, majore la clairance des bicarbonates et augmente la clairance de l'eau libre. Elle favorise également l'activité de l'enzyme 25 (OH)-1- hydroxylase."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences cardiovasculaires d'une hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raccourcissement du segment ST et de l'intervalle QT à l'ECG",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bradycardie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hypertension artérielle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque de troubles du rythme ventriculaires",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypercalcémie entraîne un raccourcissement du segment ST et de l'intervalle QT à l'ECG, une hypertension artérielle par augmentation des résistances vasculaires systémiques, et est à l'origine de troubles du rythme ventriculaires (ESV, TV, FV) en aigu, et de blocs auriculo-ventriculaires et fibrillation auriculaire en chronique."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations rénales de l'hypercalcémie chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lithiase rénale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dysfonction tubulaire (syndrome polyuropolydipsique)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale aiguë ou chronique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la capacité rénale à concentrer les urines",
+          "correct": false
+        }
+      ],
+      "explanation": "L'atteinte rénale dépend de l'intensité et de la durée de l'hypercalcémie, se manifestant par la lithiase rénale, la dysfonction tubulaire (nycturie, syndrome polyuropolydipsique, diabète insipide néphrogénique) et l'insuffisance rénale aiguë ou chronique."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hypercalcémie modérée (2,6 à 3 mmol/l) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Souvent de découverte fortuite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Généralement asymptomatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évolue sur un mode aigu",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Nécessite un traitement urgent en réanimation",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypercalcémie modérée (entre 2,6 et 3 mmol/l) est souvent de découverte fortuite, asymptomatique et évolue sur un mode chronique."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui augmentent la fréquence et la sévérité des signes cliniques de l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Terrain fragile (sujet âgé, mauvais état général)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Installation rapide de l'hypercalcémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Taux de calcium élevé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypercalcémie chronique",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques sont d'autant plus fréquents et sévères que le terrain est fragile, l'installation de l'hypercalcémie est rapide et le taux de calcium est élevé."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes iatrogènes d'hypercalcémie mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excès de sels de calcium",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Apport de vitamine D excessif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurétiques de l'anse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diurétiques thiazidiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lithium",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes iatrogènes incluent l'excès de sels de calcium, l'apport excessif de vitamine D, les diurétiques thiazidiques, l'intoxication chronique par la vitamine A et le lithium."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques caractéristiques de l'hyperparathyroïdie primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypophosphorémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypercalciurie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution des phosphatases alcalines",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Acidose hyperchlorémique",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hyperparathyroïdie primaire se caractérise biologiquement par une hypercalcémie, une hypophosphorémie, une hypercalciurie, une augmentation des phosphatases alcalines et une acidose hyperchlorémique."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes d'action des bisphosphonates dans le traitement de l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition de la fonction des ostéoclastes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la viabilité des ostéoclastes",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Inhibition de la dissolution des cristaux minéraux osseux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de l'absorption intestinale de calcium",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bisphosphonates inhibent la fonction des ostéoclastes, diminuent leur viabilité et inhibent la dissolution des cristaux minéraux par les enzymes ostéoclastiques."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la crise hypercalcémique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calcémie supérieure à 3,5 mmol/l",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypochlorémie avec hypokaliémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale fonctionnelle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de signes neurologiques",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Risque d'arrêt cardiaque par fibrillation ventriculaire",
+          "correct": true
+        }
+      ],
+      "explanation": "La crise hypercalcémique aiguë se manifeste par une calcémie > 3,5 mmol/l, agitation, délire, convulsions, coma, vomissements incoercibles, déshydratation sévère avec insuffisance rénale fonctionnelle, fièvre, hypochlorémie avec hypokaliémie et risque d'arrêt cardiaque par fibrillation ventriculaire."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes radiologiques évocateurs d'une hyperparathyroïdie primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déminéralisation osseuse diffuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Résorption osseuse sous-périostée des houppes phalangiennes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aspect vermoulu poivre et sel du crâne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la lamina dura",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tumeurs brunes",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes radiologiques incluent une déminéralisation osseuse diffuse, une résorption osseuse sous-périostée des houppes phalangiennes, un aspect vermoulu poivre et sel du crâne, un amincissement de la lamina dura, des géodes, lacunes osseuses et tumeurs brunes."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques des hypercalcémies malignes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie des hémopathies malignes et des tumeurs solides avec métastases osseuses",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypercalcémie humorale paranéoplasique due à la sécrétion de PTH-rp",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécrétion de calcitonine par les cellules tumorales",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sécrétion de 1,25 (OH)2 D3 par les cellules lymphomateuses",
+          "correct": true
+        }
+      ],
+      "explanation": "Les hypercalcémies malignes peuvent être dues à des lésions osseuses destructrices avec ostéolyse locale (hémopathies, métastases osseuses), à la sécrétion humorale paranéoplasique de PTH-rp, ou à la sécrétion de 1,25 (OH)2 D3 par les cellules lymphomateuses."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences physiopathologiques de l'hypercalcémie sur le rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition de l'hydroxylation en 1α de la vitamine D au niveau du tube proximal",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la réabsorption de calcium et magnésium dans la BAAH",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Action diurétique expliquant la déshydratation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réduction de la capacité rénale à concentrer les urines",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypercalcémie inhibe l'hydroxylation en 1α de la vitamine D, diminue la réabsorption de calcium et magnésium dans la BAAH, exerce une action diurétique et réduit la capacité rénale à concentrer les urines."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors de l'interrogatoire pour l'enquête étiologique d'une hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prises médicamenteuses (sels de calcium, vitamine D, thiazidiques, lithium)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédents familiaux d'hypercalcémie (NEM, HHF)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antécédents personnels de cancer, myélome, sarcoïdose, lithiase rénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signes orientant vers une hyperthyroïdie ou une sarcoïdose",
+          "correct": true
+        }
+      ],
+      "explanation": "L'interrogatoire doit s'enquérir des prises médicamenteuses, des antécédents familiaux (NEM, HHF), des antécédents personnels de maladies pourvoyeuses d'hypercalcémie et des signes généraux ou fonctionnels orientant vers certaines étiologies."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du Cinacalcet (Mimpara®) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie des insuffisants rénaux dialysés (hyperparathyroïdie tertiaire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancer de la parathyroïde",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperparathyroïdie primaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypercalcémie maligne ne répondant pas aux bisphosphonates",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Cinacalcet est indiqué dans l'hypercalcémie des insuffisants rénaux dialysés (hyperparathyroïdie tertiaire), le cancer de la parathyroïde et l'hyperparathyroïdie primaire."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables potentiels du phosphore per os utilisé pour traiter l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bonne tolérance digestive",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Vomissements",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diarrhée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dépôts calciques tissulaires",
+          "correct": true
+        }
+      ],
+      "explanation": "Les effets indésirables du phosphore per os incluent une mauvaise tolérance digestive (vomissements, diarrhée) et des dépôts calciques tissulaires."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes endocriniennes d'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperthyroïdie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance surrénalienne aiguë",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acromégalie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypothyroïdie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes endocriniennes d'hypercalcémie incluent l'hyperthyroïdie, l'insuffisance surrénalienne aiguë, l'acromégalie, le phéochromocytome et le VIPome."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quel est le mécanisme d'action des glucocorticoïdes dans le traitement de l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la résorption osseuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Baisse de l'absorption intestinale de calcium",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'excrétion rénale de calcium",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Inhibition de la synthèse de PTH",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mécanisme essentiel des glucocorticoïdes est une baisse de l'absorption intestinale de calcium, particulièrement utile dans les hypercalcémies par hyperabsorption intestinale (sarcoïdose, intoxication par la vitamine D)."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes digestifs pouvant être associés à une hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Constipation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome pseudo-occlusif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ulcères gastriques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pancréatite aiguë",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diarrhée",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes digestifs incluent constipation, syndrome pseudo-occlusif, vomissements, météorisme, ulcères gastriques (par stimulation de la gastrine) et pancréatite aiguë en cas d'hypercalcémie sévère."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de la carence en vitamine D associée à l'hyperparathyroïdie primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taux de PTH plus élevés",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Calcémies plus élevées",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du risque fracturaire",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Risque post-opératoire accru de 'hungry bone syndrome'",
+          "correct": true
+        }
+      ],
+      "explanation": "La carence en vitamine D associée à l'hyperparathyroïdie est corrélée à des taux de PTH et des calcémies plus élevés, une plus grande fréquence d'ostéopénie/ostéoporose, une taille plus importante des adénomes parathyroïdiens et un risque post-opératoire accru de 'hungry bone syndrome'."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Dans le cadre de l'hypercalcémie humorale paranéoplasique, quelles sont les caractéristiques biologiques et étiologiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie avec PTH normale ou basse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypophosphorémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence d'atteinte osseuse secondaire directe",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les tumeurs les plus souvent en cause sont d'origine hématologique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La PTH-rp est une molécule identique à la PTH",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypercalcémie humorale paranéoplasique est une pseudohyperparathyroïdie avec hypercalcémie, hypophosphorémie et PTH normale ou basse (car la PTH-rp n'est pas reconnue par le dosage de la PTH). Il n'y a pas d'atteinte osseuse secondaire directe. Les tumeurs les plus souvent en cause sont d'origine épidermoïde (poumon, œsophage, col utérin, peau) mais aussi rein, vessie, ovaire. La PTH-rp est une protéine apparentée à la PTH mais codée par un gène différent, avec une analogie de structure et des effets biologiques similaires."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypercalcémie hypocalciurique familiale (HHF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie congénitale autosomique dominante",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypercalcémie modérée associée à une hypermagnésémie possible",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PTH toujours très élevée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ratio clairance du calcium/clairance de la créatinine inférieur ou égal à 0,01",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Amélioration significative de la calcémie après parathyroïdectomie",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HHF est une maladie congénitale autosomique dominante. Elle se caractérise biologiquement par une hypercalcémie modérée (parfois avec hypermagnésémie), une PTH 'anormalement' normale ou peu élevée, et un ratio clairance du calcium/clairance de la créatinine inférieur ou égal à 0,01. Il n'y a pas d'amélioration de la calcémie après chirurgie."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels l'hypercalcémie peut entraîner une insuffisance rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vasoconstriction rénale en situation aiguë",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déshydratation secondaire aux vomissements et à la fuite rénale de sodium",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Néphropathie chronique hypercalcémique avec fibrose interstitielle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la filtration glomérulaire",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Obstruction par néphrocalcinose ou lithiase",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypercalcémie peut entraîner une insuffisance rénale par baisse de la filtration glomérulaire due à la vasoconstriction rénale et la déshydratation (vomissements, fuite de sodium). En chronique, elle cause une néphropathie chronique hypercalcémique avec nécrose et atrophie tubulaire, fibrose interstitielle, et l'obstruction par néphrocalcinose ou lithiase y participe."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'hypercalcémie par production ectopique de calcitriol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sarcoïdose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tuberculose",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Histoplasmose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperparathyroïdie primaire",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Myélome multiple",
+          "correct": false
+        }
+      ],
+      "explanation": "La production ectopique de calcitriol par une 1α hydroxylase extra-rénale des macrophages activés est observée dans les granulomatoses comme la sarcoïdose, la tuberculose, l'histoplasmose, la bérylliose et la lèpre."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypercalcémie liée à l'intoxication au lithium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie modérée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Souvent asymptomatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calciurie élevée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la réabsorption tubulaire de calcium",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Effet direct sur les cellules parathyroïdiennes",
+          "correct": true
+        }
+      ],
+      "explanation": "L'intoxication au lithium est responsable d'une hypercalcémie modérée, asymptomatique, de découverte systématique. Elle peut être due à un effet direct sur les cellules parathyroïdiennes (augmentation du seuil de calcémie entraînant une suppression de la PTH par le CaSR) et par augmentation de la réabsorption tubulaire de calcium (calciurie basse)."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque surajoutés au syndrome des suppléments de calcium chez les femmes âgées traitées pour ostéoporose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge avancé",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déshydratation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de diurétiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation d'inhibiteurs de l'enzyme de conversion",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Utilisation d'anti-inflammatoires non stéroïdiens",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque surajoutés au syndrome des suppléments de calcium incluent l'âge avancé, une déshydratation, l'utilisation de diurétiques, d'inhibiteurs de l'enzyme de conversion, d'antagonistes du système rénine angiotensine ou d'anti-inflammatoires non stéroïdiens."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hyperparathyroïdie tertiaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle survient après une hyperparathyroïdie secondaire prolongée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les glandes parathyroïdes s'autonomisent",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent observée chez les patients ayant une insuffisance rénale prolongée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La production de PTH devient appropriée à la calcémie",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperparathyroïdie tertiaire se développe chez des patients ayant une hyperparathyroïdie secondaire prolongée (notamment en cas d'insuffisance rénale prolongée). Les glandes parathyroïdes s'autonomisent et ne répondent plus de façon appropriée à la calcémie, produisant de la PTH de façon continue à l'origine d'une hypercalcémie."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels la réhydratation par sérum isotonique diminue la calcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dilution du calcium sanguin",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la masse de calcium filtré par augmentation de la filtration glomérulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la réabsorption de Na et Ca au niveau du tube contourné proximal",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la réabsorption de Na et Ca au niveau du tube contourné proximal",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la diurèse et de la calciurèse",
+          "correct": true
+        }
+      ],
+      "explanation": "La restauration de l'état volémique entraîne une baisse de la calcémie par dilution, augmentation de la masse de calcium filtré par augmentation de la filtration glomérulaire, diminution de la réabsorption de Na et Ca au niveau du tube contourné proximal et augmentation de la diurèse et de la calciurèse."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Dans le myélome multiple, quels sont les facteurs contribuant à l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sécrétion locale de cytokines par les cellules myélomateuses",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation des ostéoclastes par l'Ostéoclast Activating Factor (OAF)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécrétion de PTH-rp",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prostaglandines synthétisées par les cellules tumorales",
+          "correct": true
+        }
+      ],
+      "explanation": "Au cours du myélome, l'hypercalcémie est attribuée à des cytokines secrétées localement dans l'os par les cellules myélomateuses (OAF, interleukines 1, 6) et des prostaglandines, capables de stimuler la résorption osseuse."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'épuration extrarénale dans le traitement de l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémies modérées bien tolérées",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypercalcémies menaçantes où les autres traitements ont échoué",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale oligo-anurique associée à une hypercalcémie sévère",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traitement de première intention des hypercalcémies importantes",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épuration extrarénale est le terme ultime de l'escalade thérapeutique, réservée aux hypercalcémies menaçantes au cours desquelles les autres traitements ont échoué, notamment en cas d'insuffisance rénale oligo-anurique."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan phospho-calcique à réaliser pour l'enquête étiologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calcémie sur 3 jours consécutifs",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Phosphorémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calciurie sur les urines de 24h",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phosphaturie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dosage de la PTH",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan phospho-calcique inclut la calcémie (3 jours de suite), la phosphorémie, la calciurie et la phosphaturie, les phosphatases alcalines, et le dosage de la PTH."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'hypercalcémie sur le système nerveux central en cas d'atteinte majeure (> 3,5 mmol/l) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Torpeur progressive",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Céphalées",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coma entrecoupé de phases d'agitation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Convulsions",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Signes de localisation neurologique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypercalcémie majeure (> 3,5 mmol/l) entraîne une torpeur progressive avec des céphalées, puis un coma entrecoupé de phases d'agitation et de convulsions. Il n'existe pas de signe de localisation comme c'est le cas dans les encéphalopathies d'origine métabolique."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales différences entre les NEM1 et NEM2 en termes de manifestations cliniques associées à l'hyperparathyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NEM1 associe hyperparathyroïdie à des tumeurs de l'hypophyse et du pancréas",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "NEM2 associe hyperparathyroïdie à un carcinome médullaire de la thyroïde et un phéochromocytome",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome de Zollinger-Ellison est caractéristique de la NEM2",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le dosage systématique de la thyrocalcitonine est pertinent dans l'enquête familiale de la NEM1",
+          "correct": false
+        }
+      ],
+      "explanation": "La NEM1 (polyadénomatose de Werner) associe hyperparathyroïdie, tumeurs de l'hypophyse (acromégalie, adénome à prolactine) et des cellules endocriniennes du pancréas (gastrinome, ulcères peptiques à répétition - syndrome de Zollinger Ellison). La NEM2 associe hyperparathyroïdie, carcinome médullaire de la thyroïde et phéochromocytome, d'où l'intérêt du dosage systématique de la thyrocalcitonine dans l'enquête familiale de la NEM2."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels l'hypercalcémie induit une alcalose métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la réabsorption tubulaire des bicarbonates",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de l'excrétion d'acides",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contraction des volumes extracellulaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la clairance des bicarbonates par la PTH",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypercalcémie induit une acidurie par augmentation de la réabsorption tubulaire des bicarbonates et de l'excrétion d'acides qui, avec la contraction des volumes extracellulaires, sont responsables de l'alcalose métabolique souvent associée à l'hypercalcémie. La PTH, par contre, majore la clairance des bicarbonates, ce qui peut entraîner une acidose tubulaire en cas d'hyperparathyroïdie chronique."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de traitement en fonction de la sévérité de l'hypercalcémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie modérée (< 3 mmol/l) : régime sans calcium, boissons abondantes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypercalcémie entre 3 et 3,5 mmol/l : réhydratation rapide + Furosémide, associés à calcitonine ou bisphosphonates",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypercalcémie > 3,5 mmol/l : urgence en soins intensifs avec réhydratation, diurétiques, bisphosphonates et/ou calcitonine, voire épuration extrarénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Denosumab est toujours le traitement de première intention pour les hypercalcémies malignes",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une hypercalcémie modérée (< 3 mmol/l), le traitement ambulatoire inclut régime sans calcium et boissons abondantes. Entre 3 et 3,5 mmol/l, hospitalisation, réhydratation rapide + Furosémide, souvent associés à calcitonine, corticoïdes ou bisphosphonates. Si > 3,5 mmol/l, urgence en soins intensifs avec réhydratation, diurétiques, bisphosphonates et/ou calcitonine, voire Denosumab ou épuration extrarénale si insuffisance rénale oligo-anurique. Le Denosumab est indiqué si hypercalcémie néoplasique ne répondant pas aux bisphosphonates ou en première intention, mais pas 'toujours' de première intention."
+    }
+  ]
+}

@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pc-8",
+  "title": "Appendicite aiguë",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la cause la plus fréquente d'obstruction de l'appendice menant à une appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un corps étranger",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperplasie lymphoïde",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un stercolithe",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une inflammation pariétale due à la maladie de Crohn",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que l'obstruction de l'appendice est souvent due à un stercolithe (résidu de matière fécale calcifiés) ou à une hyperplasie lymphoïde, le stercolithe étant généralement considéré comme la cause la plus fréquente."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Chez quelle tranche d'âge l'appendicite aiguë est-elle majoritairement observée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 3 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 20 et 30 ans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le sujet âgé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chez les nourrissons",
+          "correct": false
+        }
+      ],
+      "explanation": "La majorité des cas d'appendicite aiguë survient chez l'adolescent et le jeune adulte de 20 à 30 ans, étant rare avant 3 ans ou chez le sujet âgé."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le signe clinique le plus caractéristique de l'appendicite aiguë typique à la palpation abdominale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le signe de Murphy",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La douleur provoquée ou défense au point de Mc Burney",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La douleur à la décompression brutale de la fosse iliaque droite",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une masse pulsatile en fosse iliaque droite",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la douleur provoquée ou défense au point de Mc Burney comme un signe clinique de l'appendicite aiguë typique à la palpation."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal paramètre biologique qui, associé à la CRP, indique un syndrome inflammatoire dans l'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperleucocytose à polynucléaires",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une thrombopénie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypoglycémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome inflammatoire biologique est caractérisé par une augmentation de la CRP et une hyperleucocytose à polynucléaires."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen d'imagerie est à privilégier en première intention chez la femme jeune en cas de suspicion d'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le scanner abdominal",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La radiographie de l'abdomen sans préparation",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'échographie abdominale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'IRM abdominale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie abdominale est à privilégier en première intention chez la femme jeune pour le diagnostic différentiel et son caractère non irradiant."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le diamètre de l'appendice considéré comme un signe échographique d'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 5 mm",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supérieur à 7-8 mm",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entre 3 et 5 mm",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Indifférent",
+          "correct": false
+        }
+      ],
+      "explanation": "Un diamètre de l'appendice supérieur à 7-8 mm est un signe échographique d'appendicite aiguë."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen de référence en cas de doute diagnostique pour l'appendicite aiguë, notamment chez le sujet âgé ou obèse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'échographie abdominale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le scanner abdominal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La radiographie de l'abdomen sans préparation",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'endoscopie digestive",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner abdominal est l'examen de référence en cas de doute diagnostique, indiqué chez le sujet âgé, le sujet peu échogène (obèse) ou si l'échographie n'est pas contributive."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale caractéristique de la douleur dans l'appendicite aiguë typique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle débute d'emblée dans la fosse iliaque gauche",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est à type de brûlure et irradie vers le dos",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle débute à l'épigastre puis migre vers la fosse iliaque droite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est constante et ne varie pas d'intensité",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur débute d'emblée dans la fosse iliaque droite ou à début épigastrique puis migrante, augmentant progressivement d'intensité les 24 premières heures."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel signe clinique est associé à une appendicite rétro-caecale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur hypogastrique droite",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une douleur de l'hypochondre droit",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une douleur lombaire droite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une masse douloureuse en fosse iliaque droite",
+          "correct": false
+        }
+      ],
+      "explanation": "L'appendicite rétro-caecale se manifeste par une douleur lombaire droite et une position antalgique en psoïtis."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement chirurgical de l'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une colectomie droite",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une appendicectomie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cholécystectomie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une résection iléale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical de l'appendicite aiguë est l'appendicectomie, réalisable par laparotomie ou coelioscopie."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'un des signes digestifs fréquemment associés à l'appendicite aiguë typique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée abondante",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Nausées",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémorragies digestives",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Polyphagie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes digestifs incluent les nausées (50%), les vomissements (30%) et la constipation (30%)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la température corporelle typique observée dans une appendicite aiguë non compliquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieure à 37°C",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 37,5°C et 38,5°C",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Supérieure à 39°C avec frissons",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Variable sans valeur diagnostique",
+          "correct": false
+        }
+      ],
+      "explanation": "Une fébricule de 37,5°C à 38,5°C est observée dans 60% des cas d'appendicite aiguë typique."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le diagnostic différentiel gynécologique à considérer chez la femme jeune présentant une douleur en fosse iliaque droite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pyélonéphrite droite",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une salpingite",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une adénolymphite mésentérique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une diverticulite du colon droit",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels gynécologiques incluent la salpingite, la torsion d'annexe, la GEU, l'ovulation douloureuse et l'endométriose."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal risque évolutif de l'appendicite chez le nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une évolution lente vers la guérison spontanée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une évolution rapide vers la perforation et la péritonite généralisée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une symptomatologie normale et facile à diagnostiquer",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une complication rare et bénigne",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le nourrisson, l'évolution est rapide vers la perforation et la péritonite généralisée, avec un tableau clinique souvent trompeur."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'un des signes échographiques d'appendicite aiguë, en plus du diamètre de l'appendice ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une paroi appendiculaire inférieure à 2 mm",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une graisse péri-appendiculaire hypoéchogène",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un aspect en cocarde",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence de stercolithe appendiculaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes échographiques incluent un diamètre de l'appendice > 7-8 mm, une graisse péri-appendiculaire hyperéchogène, une paroi appendiculaire > 3 mm, la présence d'un stercolithe appendiculaire et un aspect en cocarde."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques de l'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pullulation microbienne suite à une obstruction de la base de l'appendice",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des lésions muqueuses et pan-pariétales de l'appendice",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des lésions infectieuses et ischémiques de la paroi appendiculaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation de l'appendice sans inflammation",
+          "correct": false
+        }
+      ],
+      "explanation": "L'obstruction de la base de l'appendice entraîne une pullulation microbienne, puis des lésions muqueuses, pan-pariétales, infectieuses et ischémiques."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques pouvant orienter vers une appendicite pelvienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur lombaire droite",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une douleur hypogastrique droite",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des signes urinaires comme la pollakiurie ou la dysurie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des signes rectaux comme le ténesme ou les faux besoins",
+          "correct": true
+        }
+      ],
+      "explanation": "L'appendicite pelvienne se caractérise par une douleur hypogastrique droite, souvent associée à un fébricule, et de possibles signes urinaires et/ou rectaux."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de la triade diagnostique permettant de définir des niveaux de probabilité d'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une défense en fosse iliaque gauche",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperleucocytose supérieure à 10 G/L",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une CRP supérieure à 8",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une défense en fosse iliaque droite",
+          "correct": true
+        }
+      ],
+      "explanation": "La triade diagnostique est composée d'une défense en fosse iliaque droite, une hyperleucocytose > 10 G/L et une CRP > 8."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas le scanner abdominal est-il indiqué pour le diagnostic d'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez la femme jeune en première intention",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez le sujet âgé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le sujet obèse (peu échogène)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si l'échographie n'est pas contributive",
+          "correct": true
+        }
+      ],
+      "explanation": "Le scanner abdominal est indiqué chez le sujet âgé, le sujet peu échogène (obèse) ou si l'échographie n'est pas contributive. L'échographie est privilégiée chez la femme jeune."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et biologiques d'un abcès appendiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur localisée, parfois pulsatile",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une fièvre élevée (> 39°C) sans frissons",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperleucocytose importante (> 15 000/mm3)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une masse douloureuse en fosse iliaque droite avec le reste de l'abdomen souple",
+          "correct": true
+        }
+      ],
+      "explanation": "L'abcès appendiculaire se manifeste par une douleur localisée (possiblement diffuse ou postérieure), parfois pulsatile, une fièvre élevée (> 39°C) sans frissons, un état général altéré, un iléus réflexe fréquent, une masse douloureuse en FID et une hyperleucocytose importante (> 15 000/mm3)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une appendicite sous-hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle simule une cholécystite aiguë",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle se manifeste par une douleur de l'hypochondre droit",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent diagnostiquée par échographie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à une jaunisse",
+          "correct": false
+        }
+      ],
+      "explanation": "L'appendicite sous-hépatique simule une cholécystite aiguë, avec douleur de l'hypochondre droit, fièvre et défense. Le diagnostic est souvent échographique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes échographiques ou scanographiques d'un abcès appendiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une collection liquidienne entourée d'une coque prenant le contraste",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une réaction inflammatoire des mésos et des organes adjacents",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un iléus réflexe",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un appendice de diamètre normal",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TDM (ou l'écho à défaut) montre une collection liquidienne entourée d'une coque prenant le contraste, une réaction inflammatoire des mésos et des organes adjacents, et un iléus réflexe."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques d'un plastron appendiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur de la fosse iliaque droite assez diffuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une sensation d'empâtement douloureux en fosse iliaque droite",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une peau rouge et chaude en regard de la fosse iliaque droite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome infectieux marqué avec fièvre > 38,5°C et hyperleucocytose importante",
+          "correct": true
+        }
+      ],
+      "explanation": "Le plastron appendiculaire se manifeste par une douleur de la FID assez diffuse, une sensation d'empâtement douloureux, une peau rouge et chaude en regard, et un syndrome infectieux marqué (fièvre > 38,5°, hyperleucocytose importante)."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications post-opératoires possibles d'une appendicectomie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un iléus prolongé",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un hématome ou abcès de paroi",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un abcès intra-abdominal",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une occlusion sur bride à distance",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications post-opératoires incluent l'iléus prolongé, l'hématome ou abcès de paroi, l'abcès intra-abdominal, l'abcès du Douglas ou péritonite post-opératoire, et à distance, l'occlusion sur bride ou l'éventration."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de la mise en condition pré-opératoire pour une appendicectomie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise à jeun",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pose d'une VVP et hydratation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Perfusion d'antalgique et d'antispasmodique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Consultation pré-anesthésie en urgence",
+          "correct": true
+        }
+      ],
+      "explanation": "La mise en condition comprend la mise à jeun, la pose d'une VVP, l'hydratation, la perfusion d'antalgique et d'antispasmodique, et la consultation pré-anesthésie en urgence."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'une péritonite généralisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur débutant en fosse iliaque droite puis diffusant à tout l'abdomen",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une fièvre supérieure à 38,5°C avec signes généraux marqués",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une irritation péritonéale avec contracture ou défense généralisée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une absence de pneumopéritoine à l'ASP",
+          "correct": true
+        }
+      ],
+      "explanation": "La péritonite généralisée se caractérise par une douleur débutant en FID puis diffusant à tout l'abdomen, une fièvre > 38,5°C avec signes généraux marqués, une irritation péritonéale (contracture, défense généralisée, douleur intense au TR) et une hyperleucocytose importante. L'ASP montre une absence de pneumopéritoine."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les arguments évocateurs d'une adénolymphite mésentérique chez l'enfant, la distinguant d'une appendicite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un antécédent récent de rhinopharyngite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une fièvre supérieure à 39°C",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une douleur sans réelle défense de la fosse iliaque droite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperleucocytose à polynucléaires très élevée",
+          "correct": false
+        }
+      ],
+      "explanation": "Les arguments évocateurs d'une adénolymphite mésentérique sont un antécédent récent de rhinopharyngite, une fièvre > 39°C (trop élevée pour une appendicite non compliquée) et une douleur sans réelle défense de la FID."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à surveiller dans les suites d'une appendicectomie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'examen de la paroi abdominale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La température corporelle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La leucocytose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La reprise de l'alimentation",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance post-opératoire inclut l'examen de la paroi (recherche d'abcès), la température et la leucocytose. La reprise de l'alimentation est généralement à J1."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'obstruction de l'appendice mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un stercolithe",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperplasie lymphoïde",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un bouchon muqueux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur carcinoïde de l'appendice",
+          "correct": false
+        }
+      ],
+      "explanation": "L'obstruction de l'appendice peut être due à un stercolithe, une hyperplasie lymphoïde, un bouchon muqueux, un corps étranger ou une inflammation pariétale (maladie de Crohn)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les diagnostics différentiels urologiques de l'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pyélonéphrite droite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cystite",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une torsion d'annexe",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une colique néphrétique",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels urologiques sont la pyélonéphrite droite et la cystite, nécessitant une BU ± ECBU systématique et une échographie."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de l'appendicite chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur et une réaction péritonéale moins marquées",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un diagnostic souvent tardif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une évolution rapide vers la perforation",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un diagnostic différentiel avec une tumeur colique droite infectée",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le sujet âgé, la douleur et la réaction péritonéale sont moins marquées, le diagnostic est souvent tardif (stade gangréneux ou abcès), et une tumeur colique droite infectée est un diagnostic différentiel important."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour une appendicectomie sans imagerie selon la stratégie diagnostique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez l'homme jeune de moins de 30 ans avec une probabilité très probable (3/3 de la triade)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez la femme jeune avec une probabilité intermédiaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Chez le sujet âgé avec une probabilité peu probable",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chez tout patient présentant une douleur en fosse iliaque droite",
+          "correct": false
+        }
+      ],
+      "explanation": "La possibilité d'une appendicectomie sans imagerie est envisagée chez l'homme jeune de moins de 30 ans avec une probabilité très probable (3/3 de la triade)."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes scanographiques d'une appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la taille de l'appendice et de sa paroi",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infiltration de la graisse du méso-appendice",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'un stercolithe",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de complications",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes scanographiques incluent l'augmentation de la taille de l'appendice et de sa paroi, l'infiltration de la graisse du méso-appendice et la présence d'un stercolithe."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de l'appendicite chez la femme enceinte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Au 1er trimestre, la symptomatologie est normale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Au 2ème ou 3ème trimestre, l'appendice peut être refoulé vers l'hypochondre droit",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'échographie est particulièrement utile aux 2ème et 3ème trimestres",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une appendicite compliquée est particulièrement grave",
+          "correct": true
+        }
+      ],
+      "explanation": "Au 1er trimestre, la symptomatologie est normale. Aux 2ème et 3ème trimestres, l'appendice est refoulé vers l'hypochondre droit, rendant l'échographie très utile. Une appendicite compliquée est particulièrement grave pour le pronostic de la grossesse."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher systématiquement lors d'une appendicectomie si l'appendice est normal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diverticulite de Meckel",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cholécystite aiguë",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une torsion d'annexe",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur carcinoïde de l'appendice",
+          "correct": false
+        }
+      ],
+      "explanation": "Si l'appendice est normal lors de l'intervention, le déroulement des dernières anses grêles doit être systématique à la recherche d'une diverticulite de Meckel."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cadre de la stratégie diagnostique, quelles sont les conduites à tenir en fonction de la probabilité d'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si peu probable (0/3 de la triade), surveillance 24h sans bilan d'imagerie possible",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si intermédiaire (1 ou 2/3 de la triade), échographie et/ou scanner abdominal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si très probable (3/3 de la triade) chez l'homme jeune < 30 ans, possibilité d'appendicectomie sans imagerie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si intermédiaire chez la femme jeune, privilégier le scanner abdominal",
+          "correct": false
+        }
+      ],
+      "explanation": "Si peu probable (0/3), surveillance 24h sans imagerie. Si intermédiaire (1 ou 2/3), ou sujet âgé, ou femme jeune, échographie (privilégiée chez la femme jeune) et/ou scanner (privilégié chez sujet âgé/obèse/écho négative). Si très probable (3/3) chez l'homme jeune < 30 ans, appendicectomie sans imagerie possible. Le scanner n'est pas privilégié chez la femme jeune en cas de probabilité intermédiaire, c'est l'échographie."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la torsion de frange épiploïque (appendalgite) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur de fosse iliaque droite de début brutal",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence de signes péritonéaux",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence de signe infectieux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome inflammatoire sans hyperleucocytose",
+          "correct": true
+        }
+      ],
+      "explanation": "La torsion de frange épiploïque se manifeste par une douleur de FID de début brutal, des signes péritonéaux, mais sans signe infectieux et avec un syndrome inflammatoire sans hyperleucocytose."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements d'un abcès appendiculaire volumineux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Drainage par voie percutanée radiologique scanno-guidé",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antibiothérapie pendant 7 jours, probabiliste puis adaptée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Appendicectomie en urgence",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Appendicectomie après 2 à 4 mois si évolution favorable",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour un abcès volumineux, le traitement consiste en un drainage percutané radiologique scanno-guidé, une antibiothérapie pendant 7 jours (probabiliste puis adaptée), et une appendicectomie après 2 à 4 mois si l'évolution est favorable. L'appendicectomie en urgence est pour les petits abcès ou en présence de signes péritonéaux."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'appendicite méso-coeliaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un iléus réflexe variable en contexte fébrile",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un tableau clinique imposant une intervention en urgence",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un diagnostic TDM facile et rapide",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une douleur lombaire droite prédominante",
+          "correct": false
+        }
+      ],
+      "explanation": "L'appendicite méso-coeliaque se caractérise par un iléus réflexe (variable) en contexte fébrile, un tableau imposant une intervention en urgence, et un diagnostic TDM difficile. La douleur lombaire droite est caractéristique de l'appendicite rétro-caecale."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du traitement chirurgical d'une péritonite généralisée d'origine appendiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appendicectomie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lavage abondant et soigneux de la cavité péritonéale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antibiothérapie parentérale par C3G + métronidazole poursuivie pendant au moins 5 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Drainage percutané radiologique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement d'une péritonite généralisée est une urgence chirurgicale incluant l'appendicectomie, un lavage abondant et soigneux de la cavité péritonéale (possible sous coelioscopie), et une antibiothérapie parentérale (C3G + métronidazole) poursuivie pendant au moins 5 jours. Le drainage percutané est pour les abcès volumineux."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où l'échographie abdominale n'a de valeur négative que si l'appendice est correctement visualisé dans sa totalité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez la femme jeune",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez le sujet obèse",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de doute diagnostique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dans tous les cas",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte précise que l'échographie n'a de valeur négative que si l'appendice est correctement visualisé dans sa totalité, ce qui est une règle générale pour l'interprétation de cet examen pour l'appendice."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'appendicectomie chirurgicale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle peut être réalisée par laparotomie ou coelioscopie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une antibioprophylaxie per-opératoire est systématique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des prélèvements bactériologiques sont effectués si épanchement louche ou purulent",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un examen histologique systématique est réalisé pour confirmation diagnostique et recherche de diagnostics différentiels",
+          "correct": true
+        }
+      ],
+      "explanation": "L'appendicectomie peut être par laparotomie ou coelioscopie, avec antibioprophylaxie per-opératoire (Augmentin®), prélèvements bactériologiques si épanchement louche ou purulent, lavage du cul-de-sac de Douglas et de la gouttière pariéto-colique droite, et examen histologique systématique."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui rendent la dissection abdominale difficile et augmentent le risque de plaie et de fistule du grêle en cas de plastron appendiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les signes inflammatoires locaux",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'iléus",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une masse bien limitée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'absence d'hyperleucocytose",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de plastron, les signes inflammatoires locaux et l'iléus rendent la dissection abdominale difficile et augmentent le risque de plaie et de fistule du grêle."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les diagnostics différentiels digestifs de l'appendicite aiguë, autres que l'adénolymphite mésentérique et la torsion de frange épiploïque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastroentérite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diverticule de Meckel",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diverticulite du colon droit",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Invagination intestinale",
+          "correct": true
+        }
+      ],
+      "explanation": "Les diagnostics différentiels digestifs incluent la gastroentérite, le diverticule de Meckel, la diverticulite du colon droit, le diverticule du sigmoïde avec boucle sigmoïdienne en FID, l'iléo-colite (Crohn, tuberculose) et l'invagination intestinale."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel cas aucun examen d'imagerie n'est nécessaire pour le diagnostic de péritonite généralisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de tableau clinique typique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si la fièvre est inférieure à 38°C",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Si l'hyperleucocytose est absente",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Si la douleur est localisée en fosse iliaque droite",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de tableau typique de péritonite généralisée, aucun examen d'imagerie n'est nécessaire pour le diagnostic."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'obstruction de l'appendice, plus rarement rencontrées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un stercolithe",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un bouchon muqueux",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un corps étranger",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une inflammation pariétale (maladie de Crohn)",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte mentionne que le bouchon muqueux, le corps étranger et l'inflammation pariétale (maladie de Crohn) sont des causes plus rarement rencontrées d'obstruction de l'appendice, par opposition au stercolithe et à l'hyperplasie lymphoïde qui sont plus fréquentes."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et biologiques qui, pris individuellement, n'ont pas une valeur diagnostique suffisamment élevée pour confirmer ou exclure l'appendicite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fièvre",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'apyrexie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La CRP",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperleucocytose",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte stipule qu'aucun symptôme (y compris la fièvre ou l'apyrexie) ou paramètre biologique (comme la CRP ou l'hyperleucocytose) n'a de valeur diagnostique individuelle suffisamment élevée pour confirmer ou exclure le diagnostic."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement initial d'un plastron appendiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation pour antibiothérapie IV",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Appendicectomie en urgence",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Appendicectomie ultérieure après résolution des symptômes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Drainage percutané radiologique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement initial d'un plastron appendiculaire est l'hospitalisation pour antibiothérapie IV probabiliste, suivie d'une appendicectomie à froid après 2 à 4 mois en cas de résolution rapide des symptômes."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent être révélés par l'examen histologique systématique de l'appendice après appendicectomie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La confirmation du diagnostic d'appendicite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le stade de l'appendicite (catarrhale, suppurée, gangréneuse)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un diagnostic différentiel comme une tumeur carcinoïde de l'appendice",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence d'une maladie de Crohn",
+          "correct": true
+        }
+      ],
+      "explanation": "L'examen histologique systématique permet la confirmation du diagnostic, la détermination du stade (catarrhale, suppurée, gangréneuse) et le diagnostic différentiel (tumeur carcinoïde de l'appendice, Crohn...)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques trompeurs de l'appendicite chez le nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agitation et insomnie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anorexie et diarrhée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Température élevée et altération de l'état général",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déshydratation",
+          "correct": true
+        }
+      ],
+      "explanation": "Le tableau clinique chez le nourrisson est souvent trompeur, incluant agitation, insomnie, anorexie, diarrhée, température élevée, AEG et déshydratation, menant à un diagnostic tardif dans 50% des cas."
+    }
+  ]
+}

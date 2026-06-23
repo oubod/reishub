@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-8",
+  "title": "Embolies pulmonaires",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la proportion des embolies pulmonaires (EP) par rapport à l'ensemble des maladies thromboemboliques veineuses (MTEV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 2/3 des cas",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 1/3 des cas",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Moins de 10% des cas",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 50% des cas",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que les embolies pulmonaires représentent environ 1/3 des cas de maladie thromboembolique veineuse, tandis que la thrombose veineuse profonde représente 2/3 des cas."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon le texte, quels facteurs de risque cardiovasculaires ne sont PAS des facteurs de risque de maladie thromboembolique veineuse (MTEV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le tabac",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les dyslipidémies",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypertension artérielle (HTA)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'obésité",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte précise explicitement que 'Les FdR cardiovasculaires (tabac, dyslipidémies, HTA) ne sont pas des FdR de MTEV'. L'obésité est un facteur de risque mineur de MTEV."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les trois éléments de la triade de Virchow, expliquant la thrombose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stase veineuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions endothéliales",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anomalie de l’hémostase",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "La physiopathologie de la thrombose est décrite par la triade de Virchow, qui inclut la stase veineuse, les lésions endothéliales et une anomalie de l’hémostase."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale origine des thrombi responsables d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les veines superficielles des membres supérieurs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les artères pulmonaires",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les veines profondes des membres inférieurs et du pelvis",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cavités cardiaques gauches",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que 'La plupart des thrombi vient des veines profondes des membres inférieurs et du pelvis'."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le symptôme le plus fréquemment rapporté par les patients présentant une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémoptysie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Douleur thoracique pleurale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dyspnée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syncope",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée est présente chez 75% des patients, ce qui en fait le symptôme le plus fréquent, devant la douleur thoracique pleurale (65%)."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Un test D-dimères négatif (< 500 µg/L) permet d'exclure le diagnostic d'embolie pulmonaire dans quelles situations de probabilité clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Probabilité clinique faible",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Probabilité clinique intermédiaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Probabilité clinique forte",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Toutes les probabilités cliniques",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte précise qu'un test D-dimères négatif (< 500 µg/L) exclut le diagnostic si la probabilité clinique est faible ou intermédiaire. Il ne faut pas doser les D-dimères si la probabilité clinique est forte en raison du risque de faux négatifs."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la durée minimale recommandée pour le traitement anticoagulant en phase d'entretien d'une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "3 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "6 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "1 an",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que la phase d'entretien du traitement par AVK ou AOD a une 'durée minimale = 3 mois'."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les contre-indications absolues à la fibrinolyse en cas d'embolie pulmonaire grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie active",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Accouchement récent (< 10 jours)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "AVC ischémique < 2 mois",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle sévère (> 180/120 mmHg)",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications absolues à la fibrinolyse incluent l'hémorragie active et l'AVC < 2 mois. L'accouchement récent et l'HTA sévère sont des contre-indications relatives."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen de première intention pour confirmer le diagnostic d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie-doppler veineuse des membres inférieurs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Scintigraphie pulmonaire de ventilation-perfusion",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Angioscanner spiralé thoracique multibarrette",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Électrocardiogramme (ECG)",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angioscanner spiralé thoracique multibarrette est l'examen de 1ère intention pour la confirmation diagnostique de l'EP."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de thrombose veineuse profonde (TVP) surale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur du mollet",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fièvre modérée retardée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œdème de la cheville tardif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signe d'Homans",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de TVP surale incluent une douleur du mollet, une fièvre modérée retardée et un œdème de la cheville tardif. Le signe d'Homans est un signe clinique général de TVP, mais peu sensible et peu spécifique."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale complication précoce de l'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypertension pulmonaire post-embolique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome post-thrombotique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Décès ou mort subite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infarctus pulmonaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le décès et la mort subite sont listés comme des complications précoces de l'EP. L'HTAP post-embolique est une complication à plus long terme (chronique)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de D-dimères pour exclure le diagnostic d'EP si la probabilité clinique est faible ou intermédiaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "< 100 µg/L",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "< 250 µg/L",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "< 500 µg/L",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "< 1000 µg/L",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique qu'un test négatif (< 500 µg/L) exclut le diagnostic si la probabilité clinique est faible ou intermédiaire."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux signes cliniques d'une embolie pulmonaire grave avec état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syncope",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lipothymie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tachycardie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques d'un état de choc lié à une EP grave incluent la syncope, la lipothymie, la tachycardie et l'hypotension (non l'hypertension)."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale contre-indication à l'utilisation des héparines de bas poids moléculaire (HBPM) et des héparines non fractionnées (HNF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale sévère",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thrombopénie à l'héparine (TIH)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Grossesse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Risque hémorragique élevé",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombopénie à l'héparine est une contre-indication aux HNF et HBPM. L'insuffisance rénale sévère est une indication pour les HNF plutôt que les HBPM, mais pas une contre-indication absolue aux deux."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le risque de mortalité associé à une embolie pulmonaire grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 1%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 3 et 15%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Supérieur à 15%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Environ 5%",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que l'EP grave est associée à un 'Risque de mortalité élevé > 15%'."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque acquis transitoires majeurs de maladie thromboembolique veineuse (MTEV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chirurgie récente < 3 mois",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contraception oestroprogestative",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Traumatisme des membres inférieurs < 3 mois",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hospitalisation pour affection médicale aiguë < 3 mois",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque acquis transitoires majeurs (RR > 6) sont la chirurgie récente < 3 mois, le traumatisme des membres inférieurs < 3 mois et l'hospitalisation pour affection médicale aiguë < 3 mois. La contraception oestroprogestative est un facteur de risque modéré."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences hémodynamiques d'une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la pression artérielle pulmonaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la post-charge du ventricule droit",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du travail et de la consommation en O2 du ventricule droit",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la précharge du ventricule gauche",
+          "correct": true
+        }
+      ],
+      "explanation": "L'EP entraîne une augmentation de la pression artérielle pulmonaire, une augmentation de la post-charge du VD, une augmentation du travail et de la consommation en O2 du VD, et une diminution de la précharge du VG par compression du VG par le VD."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la douleur thoracique de type pleurale en cas d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Souvent brutale, en coup de poignard",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Irradiant largement",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentée à l'inspiration profonde",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Soulagée par une position antalgique",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur thoracique pleurale est souvent brutale, en coup de poignard ou point de côté, basi- ou latéro-thoracique, irradiant peu, prolongée, sans position antalgique et augmentée à l'inspiration profonde."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes électrocardiographiques (ECG) pouvant évoquer une souffrance du ventricule droit en cas d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ondes T négatives en V1 à V4",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bloc de branche droit (BBD)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sus-décalage du segment ST en inférieur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ondes Q en V1-V3",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de souffrance du VD incluent les ondes T négatives en V1 à V4, le BBD, et le sus-ST inférieur. Le signe S1Q3 est également mentionné, mais pas les ondes Q en V1-V3."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs biologiques pronostiques d'une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des CPK",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la troponine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du BNP",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la créatinine",
+          "correct": false
+        }
+      ],
+      "explanation": "Les marqueurs pronostiques mentionnés sont l'augmentation des CPK, de la troponine, du BNP et du NT-pro-BNP. La créatinine est un marqueur de fonction rénale, non pronostique direct de l'EP."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le score de Genève simplifié, quels critères sont pris en compte pour évaluer la probabilité clinique d'une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge ≥ 65 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédent de MTEV",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémoptysie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fréquence cardiaque ≥ 75 bpm",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères du score de Genève simplifié sont : âge ≥ 65 ans (+1), antécédent de MTEV (+1), chirurgie sous AG ou fracture du MI < 1 mois (+1), cancer actif ou rémission < 1 an (+1), douleur unilatérale d’un MI (+1), hémoptysie (+1), FC ≥ 75 (+1) ou FC ≥ 95 (+2), douleur à la palpation d’un trajet veineux et/ou œdème unilatéral d’un MI (+1)."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les limites de l'échographie-doppler veineuse des membres inférieurs dans le diagnostic d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Spécificité faible pour les veines proximales",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sensibilité faible (50%)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rentabilité faible (positif dans 10% des EP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ne permet pas de confirmer l'EP si la thrombose est distale",
+          "correct": true
+        }
+      ],
+      "explanation": "L'échographie-doppler a une spécificité excellente pour les veines proximales, mais une sensibilité faible (50%) et une rentabilité faible (positif dans 10% des EP). De plus, la présence d'une thrombose distale ne permet pas de confirmer l'EP."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans la stratégie diagnostique de l'EP, si la probabilité clinique est forte, quelle est la première étape ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dosage des D-dimères",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Angioscanner thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échographie-doppler veineuse des membres inférieurs",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Scintigraphie pulmonaire de ventilation-perfusion",
+          "correct": false
+        }
+      ],
+      "explanation": "Si la probabilité clinique est forte, l'angioscanner est la première étape. Les D-dimères ne sont pas recommandés dans ce cas en raison du risque de faux négatifs."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de la prise en charge diagnostique de l'embolie pulmonaire chez la femme enceinte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les D-dimères sont toujours négatifs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'échographie veineuse est l'examen de première intention",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La scintigraphie de perfusion est réalisée seule, complétée par une ventilation si anormale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les AVK sont contre-indiqués",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez la femme enceinte, les D-dimères sont moins souvent négatifs mais excluent le diagnostic si négatifs et probabilité faible/moyenne. L'échographie veineuse est en 1ère intention, suivie du scanner ou de la scintigraphie (perfusion seule, complétée si anormale). Les AVK sont contre-indiqués."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de cœur pulmonaire chronique post-embolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents d'EP",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Âge jeune",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte diffuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "EP idiopathique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque de cœur pulmonaire chronique post-embolique sont les antécédents d'EP, l'âge jeune, l'atteinte diffuse et l'EP idiopathique."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées au traitement curatif de l'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repos au lit strict pendant toute la durée de l'hospitalisation",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oxygénothérapie nasale adaptée à la saturation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bas de contention (classe 3) en cas de TVP, pour une durée minimale de 2 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maintien de la contraception oestroprogestative si elle est bien tolérée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le repos au lit strict est recommandé pour au moins 24h d'anticoagulation, puis mobilisation précoce. L'oxygénothérapie et les bas de contention (classe 3 pour 2 ans minimum en cas de TVP) sont indiqués. La contraception oestroprogestative doit être arrêtée et est contre-indiquée."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à l'anticoagulation curative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thrombopénie < 30 G/L",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémophilie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémorragie intracrânienne spontanée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chirurgie récente (délai selon le type)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les contre-indications incluent une coagulopathie sévère (thrombopénie < 30 G/L, hémophilie, TP < 30%), une hémorragie intracrânienne spontanée, une hémorragie active non contrôlable et une chirurgie récente (délai variable)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations les héparines non fractionnées (HNF) sont-elles privilégiées par rapport aux HBPM/fondaparinux pour le traitement initial de l'EP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale avec DFG < 30 ml/min",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Haut risque hémorragique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombolyse préalable",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grossesse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les HNF sont privilégiées en cas d'insuffisance rénale sévère (DFG < 30 ml/min), de haut risque hémorragique (post-opératoire) ou de thrombolyse préalable. Les HBPM sont généralement préférées pour leur simplicité et leur moindre risque de TIH."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions pour arrêter le traitement injectable lors du relais par les AVK ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Au moins 3 jours de chevauchement",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Au moins 5 jours de chevauchement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un INR entre 2 et 3 à 24h d'intervalle",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Deux INR entre 2 et 3 à 24h/48h d'intervalle",
+          "correct": true
+        }
+      ],
+      "explanation": "L'arrêt du traitement injectable nécessite un minimum de 5 jours de chevauchement et deux INR entre 2 et 3 à 24h/48h d'intervalle."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la pose d'un filtre cave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contre-indication absolue aux anticoagulants",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Récidive d'EP prouvée sous traitement anticoagulant bien conduit",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Après embolectomie chirurgicale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "EP grave avec état de choc",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications du filtre cave sont une contre-indication absolue ou temporaire aux anticoagulants, une récidive d'EP sous traitement bien conduit, et systématiquement après embolectomie chirurgicale."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan étiologique systématique pour la recherche d'un cancer méconnu en cas de TVP proximale ou EP non provoquée ou récidivante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interrogatoire et examen clinique complet",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Numération formule sanguine (NFS) et vitesse de sédimentation (VS)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiographie pulmonaire (RP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche de sang dans les selles",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan systématique comprend l'interrogatoire, l'examen clinique complet (avec touchers pelviens), NFS, VS, RP, et recherche de sang dans les selles. Des examens plus spécifiques (PSA, mammographie, échographie pelvienne) sont ajoutés selon le sexe."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour la recherche d'une thrombophilie constitutionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Premier épisode de TVP proximale ou EP idiopathique < 60 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Premier épisode de TVP distale idiopathique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Récidive de TVP proximale ou EP provoquée < 60 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombose artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications incluent un 1er épisode de TVP proximale ou EP idiopathique < 60 ans, ou provoquée chez la femme en âge de procréer, ou localisation inexpliquée. Une récidive de TVP proximale ou EP provoquée < 60 ans, ou TVP distale idiopathique < 60 ans est aussi une indication. La TVP distale idiopathique en 1er épisode et la thrombose artérielle ne sont pas des indications."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention de la MTEV en milieu médical en cas d'immobilisation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescription d'HBPM ou HNF pendant toute la durée d'immobilisation (7 à 14 jours)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Compression veineuse élastique (moyenne : 20-30 mmHg)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aucune prévention si le patient a une insuffisance cardiaque",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le fondaparinux est contre-indiqué",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention inclut la prescription d'anticoagulants (HBPM, HNF, fondaparinux) pendant 7 à 14 jours et la compression veineuse élastique. L'insuffisance cardiaque est un facteur de risque, non une contre-indication à la prévention. Le fondaparinux est une option de prévention."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une phlegmatia caerulea dolens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œdème important, dur, jambe froide",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Jambe bleue avec taches purpuriques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des pouls artériels",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Douleurs modérées",
+          "correct": false
+        }
+      ],
+      "explanation": "La phlegmatia caerulea se manifeste par un œdème important, dur, une jambe froide et bleue avec des taches purpuriques, une diminution ou abolition des pouls artériels et des douleurs violentes."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une thrombose veineuse profonde (TVP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extension de la thrombose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Embolie pulmonaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome veineux post-phlébitique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Récidive",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications de la TVP incluent l'extension de la thrombose, l'embolie pulmonaire (fréquente), le syndrome veineux post-phlébitique et la récidive."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque constitutionnels de thrombophilie à risque élevé (RR = 10) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficit en antithrombine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficit en protéine C",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit en protéine S",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mutation Leiden du facteur V",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque constitutionnels à risque élevé (RR = 10) sont le déficit en antithrombine (1% des MTEV), le déficit en protéine C (3% des MTEV) et le déficit en protéine S (1 à 2% des MTEV). La mutation Leiden du facteur V est un risque modéré (RR ≤ 5)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences respiratoires d'une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet espace-mort initial",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la ventilation dans les territoires embolisés",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Effet shunt avec rapport ventilation/perfusion abaissé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypoxémie sévère réfractaire en cas d'ouverture d'un foramen ovale perméable",
+          "correct": true
+        }
+      ],
+      "explanation": "L'EP entraîne un effet espace-mort initial, puis une diminution de la ventilation dans les territoires embolisés avec redistribution du débit de perfusion, aboutissant à un effet shunt. L'hypoxémie est généralement modérée mais peut être sévère et réfractaire en cas de shunt vrai via un foramen ovale perméable."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes radiologiques pulmonaires (RP) évocateurs d'une embolie pulmonaire grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opacité alvéolaire périphérique triangulaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyperclarté systématisée d'un territoire vasculaire (signe de Westermarck)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épanchement pleural isolé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ascension d'une coupole diaphragmatique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le signe de Westermarck (hyperclarté systématisée d'un territoire vasculaire) est un signe d'EP grave. Les autres signes sont peu spécifiques ou liés à un infarctus pulmonaire (opacité alvéolaire)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le score de Wells, quels critères attribuent +3 points pour la probabilité clinique de TVP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes cliniques de TVP",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diagnostic alternatif moins probable que la TVP",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chirurgie récente ou immobilisation",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Antécédent de MTEV",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de TVP et un diagnostic alternatif moins probable attribuent chacun +3 points dans le score de Wells. La chirurgie récente ou immobilisation et l'antécédent de MTEV attribuent +1,5 points."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel cas la scintigraphie pulmonaire de ventilation-perfusion est-elle particulièrement utile pour le diagnostic d'EP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de contre-indication au produit de contraste iodé",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si le résultat est non diagnostique (50 à 70% des cas)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Si la probabilité clinique est forte et le résultat positif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si la probabilité clinique est faible et le résultat positif",
+          "correct": false
+        }
+      ],
+      "explanation": "La scintigraphie est utile en cas de CI au produit de contraste (insuffisance rénale, allergie à l'iode). Elle affirme le diagnostic si le résultat est positif et la probabilité clinique est forte. Un résultat non diagnostique est fréquent, et si le résultat est positif avec une probabilité clinique faible, une confirmation par un autre examen est nécessaire."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anticoagulants oraux directs (AOD) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition spécifique réversible du facteur Xa ou IIa",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécessitent un contrôle biologique régulier de l'effet",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Action rapide permettant une prescription d'emblée sans héparine initiale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Disponibilité d'antidotes pour tous les AOD",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AOD inhibent spécifiquement le facteur Xa (ou IIa pour le dabigatran), sont administrés à dose fixe sans contrôle biologique régulier, ont une action rapide et peuvent être prescrits d'emblée. Seul le dabigatran dispose d'un antidote (idarucizumab)."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque hémorragique majeurs à prendre en compte pour la durée du traitement anticoagulant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge ≥ 75 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédents d'hémorragies digestives",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diabète",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prise d'antiagrégants",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque hémorragique majeurs incluent l'âge ≥ 75 ans, les antécédents d'hémorragies digestives, l'AVC, l'alcoolisme chronique, le diabète, la prise d'antiagrégants, les AVK mal équilibrés et le polymorphisme P450."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'embolectomie chirurgicale pour une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EP massive s'aggravant malgré un traitement optimal du choc et une fibrinolyse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "EP massive avec contre-indication absolue à la fibrinolyse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "EP grave compliquée d'état de choc",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "EP à risque intermédiaire fort",
+          "correct": false
+        }
+      ],
+      "explanation": "L'embolectomie chirurgicale est exceptionnelle et indiquée en cas d'EP massive s'aggravant malgré un traitement optimal du choc et une fibrinolyse, ou en cas d'EP massive avec contre-indication absolue à la fibrinolyse. L'EP grave compliquée d'état de choc est une indication de fibrinolyse en première intention."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prise en charge anticoagulante spécifique chez le patient cancéreux présentant une MTEV ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relai AVK systématique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "HBPM à visée curative (à dose légèrement diminuée)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Durée minimale de traitement de 3 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Surveillance des plaquettes avec interruption temporaire de l'HBPM si thrombopénie < 50 G/L",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le patient cancéreux, il n'y a pas de relai AVK (risque élevé de récidive). Les HBPM à visée curative (dose légèrement diminuée) sont utilisées pour une durée ≥ 6 mois (minimum 3 mois) et poursuivies tant que le cancer est présent ou en traitement. La surveillance des plaquettes est essentielle, avec interruption si thrombopénie < 50 G/L."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs confondants pouvant fausser le dosage des marqueurs de thrombophilie constitutionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'héparine peut diminuer l'antithrombine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les AVK et AOD peuvent diminuer les protéines C et S",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les oestroprogestatifs et la grossesse peuvent diminuer la protéine S",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le facteur V Leyden est influencé par les anticoagulants",
+          "correct": false
+        }
+      ],
+      "explanation": "L'héparine peut diminuer l'antithrombine. Les AVK et AOD peuvent diminuer les protéines C et S. Les oestroprogestatifs et la grossesse peuvent diminuer la protéine S, l'antithrombine, le facteur VIII et la RPCA. Le facteur V Leyden est une mutation génétique, non influencée par les anticoagulants."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures prophylactiques de la MTEV en post-opératoire pour un patient à risque élevé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HNF : 5000 UI x 2/jour",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Enoxaparine : 4000 UI/jour",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fondaparinux : 2,5 mg/jour",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "AOD si chirurgie de hanche ou du genou",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour un risque élevé, les options sont HNF 5000 UI x 3/jour, Enoxaparine 4000 UI/jour, Fondaparinux 2,5 mg/jour, ou AOD si chirurgie de hanche ou du genou. HNF 5000 UI x 2/jour est pour le risque modéré."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications d'hospitalisation pour une thrombose veineuse profonde (TVP) proximale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspicion d'EP associée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale sévère (DFG < 30 ml/min)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mauvaise compliance prévisible",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Localisation ilio-cave",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications d'hospitalisation pour TVP proximale incluent la suspicion d'EP associée, l'insuffisance rénale sévère, une mauvaise compliance prévisible, un risque hémorragique, une suspicion de thrombophilie, un syndrome obstructif sévère ou une localisation ilio-cave."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cadre du traitement des TVP proximales, quand est-il recommandé de rechercher une thrombophilie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si TVP proximale non provoquée < 60 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si TVP proximale provoquée chez la femme en âge de procréer",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si récidive provoquée ou non de TVP < 60 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si TVP distale non provoquée",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche de thrombophilie est indiquée si TVP proximale non provoquée < 60 ans, TVP proximale provoquée ou non chez la femme en âge de procréer, récidive provoquée ou non de TVP < 60 ans ou récidive de TVP distale non provoquée. La TVP distale non provoquée en 1er épisode n'est pas une indication."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de thrombolyse IV pour une TVP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toute TVP proximale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome obstructif sévère",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phlegmatia caerulea en situation de sauvetage de membre",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "TVP distale étendue",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombolyse IV est réservée aux cas de syndrome obstructif sévère ou de phlegmatia caerulea en situation de sauvetage de membre. Elle n'est pas indiquée pour toutes les TVP proximales ou distales."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée du traitement anticoagulant pour une thrombose veineuse superficielle (TVS) étendue à la jonction grande saphène-veines fémorales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 semaines",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "7 à 30 jours",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "3 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "6 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement anticoagulant curatif pour une TVS étendue à la jonction grande saphène-veines fémorales est de 7 à 30 jours. Les durées de 6 semaines, 3 mois ou 6 mois sont plutôt pour les TVP distales ou proximales selon le contexte."
+    }
+  ]
+}

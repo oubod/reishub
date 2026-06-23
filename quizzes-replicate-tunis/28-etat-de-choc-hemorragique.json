@@ -1,0 +1,1409 @@
+{
+  "lectureId": "28",
+  "number": "28",
+  "title": "Etat de choc hémorragique",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de l'état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du volume sanguin circulant entraînant une hyperperfusion tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution du volume sanguin circulant responsable d'une hypoperfusion tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une inadéquation entre les apports et les besoins en oxygène au niveau cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une déviation anaérobie du métabolisme cellulaire avec survenue d'une acidose lactique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'état de choc hémorragique est défini par une diminution du volume sanguin circulant responsable d'une hypoperfusion tissulaire. Cette hypoperfusion entraîne une inadéquation entre les apports et les besoins en oxygène, menant à une anoxie cellulaire, une déviation anaérobie du métabolisme et une acidose lactique."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs principaux de la prise en charge d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contrôler la source de saignement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Restaurer le volume intravasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmenter la pression artérielle systolique au-delà de 120 mmHg rapidement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Restaurer la capacité de transport de l'oxygène.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les objectifs de la prise en charge sont de contrôler la source de saignement et de restaurer le volume intravasculaire ainsi que la capacité de transport de l'oxygène. Une augmentation trop rapide et excessive de la pression artérielle peut aggraver le saignement si la source n'est pas contrôlée."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques d'insuffisance circulatoire aiguë pouvant orienter vers un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bradycardie avec pouls fort.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oligoanurie (<0.5 ml/kg/h).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vasoconstriction cutanée (marbrures, temps de recoloration allongé).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle avec différentielle élargie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes d'insuffisance circulatoire aiguë incluent une tachycardie avec pouls filant, une oligoanurie et une vasoconstriction cutanée (marbrures, temps de recoloration cutané allongé, extrémités froides, teint livide, sueurs)."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le rôle principal de la réaction sympathique lors de la phase initiale d'une hémorragie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provoquer une vasodilatation artériolaire et veineuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entraîner une vasoconstriction artériolaire et veineuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminuer le débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Faire chuter rapidement la pression artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La principale réponse à l'hémorragie est la réaction sympathique qui entraîne une vasoconstriction artériolaire et veineuse, visant à maintenir la pression artérielle."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les organes prioritaires en termes de redistribution du flux sanguin lors de la phase sympatho-excitatrice du choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Peau et muscles squelettiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Circulations cérébrales et coronaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Territoire splanchnique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Circulations rénales.",
+          "correct": true
+        }
+      ],
+      "explanation": "La redistribution vasculaire complexe privilégie les circulations cérébrales, coronaires et rénales dans un premier temps, aux dépens des territoires non vitaux (peau, muscles squelettiques, circulation splanchnique), puis uniquement cérébrales et coronaires."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel est l'examen biologique le plus corrélé à la sévérité du choc et à la mortalité des patients en état de choc hémorragique traumatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le taux de prothrombine (TP).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La numération plaquettaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le taux de lactate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La créatininémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le taux de lactate à la prise en charge en milieu hospitalier des patients en état de choc hémorragique traumatique est corrélé à la sévérité du choc et à la mortalité des patients, car il est la traduction métabolique de l'anaérobiose."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments du monitorage simple et fonctionnel nécessaires à la surveillance des paramètres vitaux d'un patient en état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ECG à trois ou cinq dérivations.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Analyse de la SpO2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mesure de la pression artérielle non invasive (PANI).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Monitorage du débit cardiaque par cathéter de Swan-Ganz.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le monitorage simple et fonctionnel comporte un ECG à trois ou cinq dérivations, une analyse de la SpO2 et une mesure de la pression artérielle non invasive (PANI)."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les types de solutés de remplissage principalement utilisés pour la réanimation d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les cristalloïdes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les colloïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les solutions hypertoniques de glucose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les solutions de bicarbonate de sodium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les solutés de remplissage utilisés sont principalement de deux types : les cristalloïdes (sérum physiologique, Ringer lactates) et les colloïdes."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de la transfusion de produits sanguins labiles au cours du choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La restauration d'une hémostase favorable à la coagulation biologique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La restitution d'un transport en oxygène adéquat.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La diminution de la pression artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'augmentation de la diurèse uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'objectif de la transfusion de produits sanguins labiles est double : la restauration d'une hémostase favorable à la coagulation biologique et la restitution d'un transport en oxygène adéquat."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est l'antifibrinolytique recommandé en cas d'état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'héparine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'acide tranéxamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La warfarine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le clopidogrel.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acide tranéxamique est un antifibrinolytique recommandé, à administrer dès que possible à la dose de 1 g en bolus IV suivi de 1 g perfusé sur 8 h."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures de prévention de l'hypothermie lors de la réanimation d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réchauffement des solutés de remplissage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réchauffement cutané externe par système à air chaud pulsé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la température de la salle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administration de médicaments vasodilatateurs.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention de l'hypothermie passe par le réchauffement des solutés de remplissage et des produits sanguins via des accélérateurs-réchauffeurs et un réchauffement cutané externe par un système à air chaud pulsé. La température de la salle doit être adaptée autour de 24°C."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le délai maximal recommandé pour initier l'administration d'acide tranéxamique après la survenue du choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 heure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "3 heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "6 heures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "12 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'administration d'acide tranéxamique ne devrait pas être initiée au-delà de la 3ème heure suivant la survenue du choc hémorragique."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques subtils pouvant apparaître au cours de l'évolution d'un choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles de la conscience (confusion, agitation).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Polypnée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cyanose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bradycardie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au cours de l'évolution du choc, on peut noter des troubles de la conscience (confusion, agitation, désorientation) par hypoperfusion cérébrale, une polypnée signant l'acidose métabolique ou une cyanose."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quel est le calibre minimal recommandé pour les voies veineuses périphériques (VVP) en cas d'état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "22 gauge (G).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "20 gauge (G).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "18 gauge (G).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "24 gauge (G).",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est recommandé d'équiper le patient d'au minimum deux voies veineuses périphériques du plus gros calibre possible : 16 gauge (G) et 14 (G), à défaut au moins 18 G."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments de la triade mortelle chez les patients traumatisés présentant une hémorragie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coagulopathie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcalose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hypothermie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acidose.",
+          "correct": true
+        }
+      ],
+      "explanation": "La coagulopathie, l'acidose et l'hypothermie forment la triade mortelle chez les patients traumatisés présentant une hémorragie aiguë."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiologiques de compensation mis en jeu lors de la phase sympatho-excitatrice d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de l'activité sympathique périphérique efférente.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Activation du système nerveux adrénergique périphérique par les baro-, volo- et chémorécepteurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vasoconstriction périphérique compensatrice.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du débit cardiaque par augmentation de la fréquence et de la contractilité cardiaque.",
+          "correct": true
+        }
+      ],
+      "explanation": "La phase sympatho-excitatrice se caractérise par l'activation du système nerveux adrénergique périphérique via les baro-, volo- et chémorécepteurs, entraînant une vasoconstriction périphérique compensatrice et une augmentation du débit cardiaque par augmentation de la fréquence et de la contractilité cardiaque."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une vasoconstriction splanchnique prolongée lors d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protection des organes non vitaux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du flux sanguin vers le cerveau.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Risque de choc irréversible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque de syndrome de défaillance multiviscérale (SDMV).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les conséquences de la vasoconstriction dans les territoires non vitaux, et en particulier la vasoconstriction splanchnique lorsqu'elle se prolonge, sont particulièrement importantes et pourraient être à l'origine du choc irréversible et du syndrome de défaillance multiviscérale (SDMV)."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs hormonaux impliqués dans la phase sympatho-excitatrice du choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération importante d'ADH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Libération d'adrénaline par la médullosurrénale jouant un rôle majeur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Activation du système rénine-angiotensine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Libération d'angiotensine II.",
+          "correct": true
+        }
+      ],
+      "explanation": "Au cours de cette phase initiale, la libération d'adrénaline par la médullosurrénale ne joue pas un rôle important, ni l'ADH. Seul le système rénine-angiotensine (libération de l'angiotensine II) semble impliqué."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la phase sympatho-inhibitrice d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survient pour une réduction de la masse sanguine de 10 à 20 %.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Se traduit par une chute de la pression artérielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Est associée à une bradycardie paradoxale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Est liée à une augmentation brutale des résistances systémiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Cette phase survient pour une réduction de la masse sanguine de 30 à 50 % et se traduit par une chute de la pression artérielle avec bradycardie paradoxale. Cette chute de la pression artérielle est liée à la chute brutale des résistances systémiques."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes contribuant à la coagulopathie aiguë précoce associée au choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déperdition des facteurs de la coagulation liée à l'hémorragie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dilution des facteurs de coagulation due au remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysfonctionnement des facteurs de coagulation lié à l'acidose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dysfonctionnement des facteurs de l'hémostase lié à l'hyperthermie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mécanismes de la coagulopathie incluent la déperdition et la consommation des facteurs de coagulation, la dilution des facteurs par le remplissage, le dysfonctionnement des facteurs dû à l'acidose, et le dysfonctionnement des facteurs de l'hémostase lié à l'hypothermie."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments anamnestiques à rechercher lors de l'évaluation d'un patient en état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les circonstances de l'accident.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les antécédents médicaux et chirurgicaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les traitements en cours pouvant interférer avec la compensation ou aggraver le saignement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le groupe sanguin du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'interrogatoire vise à reconstituer les circonstances de l'accident, reconnaître les antécédents médicaux et chirurgicaux, et préciser les traitements observés qui peuvent interférer avec les mécanismes de compensation ou aggraver un saignement."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification de l'ATLS, à partir de quelle perte de volume sanguin circulant l'hypotension artérielle apparaît-elle chez un sujet normal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 15 %.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 20 %.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Au moins 30 %.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 40 %.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypotension artérielle n'apparaît qu'à partir d'une perte d'au moins 30% du volume sanguin circulant chez un sujet normal, ce qui en fait un signe insensible à un stade précoce."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens biologiques à réaliser en urgence lors de la prise en charge d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupage ABO et détermination Rhésus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Recherche d'agglutinines irrégulières (RAI).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Numération de la formule sanguine (NFS) et numération plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bilan hépatique complet (transaminases, PAL, Gamma-GT, bilirubine).",
+          "correct": false
+        }
+      ],
+      "explanation": "En urgence, il faut réaliser le groupage ABO, Rhésus, la recherche d'agglutinines irrégulières, une NFS, la numération plaquettaire, un bilan d'hémostase (TP, TCA, INR, fibrinogène), un ionogramme plasmatique, urée, créatininémie, glycémie, calcémie, gazométrie artérielle, lactatémie, excès de base. Le bilan hépatique est moins prioritaire en première intention."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques d'une expansion volémique excessive avant le contrôle du saignement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Favoriser et entretenir le saignement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Induire une hémodilution.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Provoquer une hypothermie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Améliorer l'hémostase.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le remplissage vasculaire est à l'origine d'une hémodilution et d'une hypothermie qui peuvent avoir des conséquences néfastes sur l'hémostase (coagulopathie induite par le remplissage par dilution des facteurs de la coagulation). Une pression artérielle trop importante alors que le saignement n'est pas contrôlé peut favoriser le saignement en empêchant la formation du caillot."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs tensionnels recommandés pour un patient en état de choc hémorragique sans traumatisme crânien grave, avant le contrôle de l'hémostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression artérielle systolique entre 80 et 90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression artérielle moyenne entre 60 et 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pression artérielle systolique supérieure à 120 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pression artérielle moyenne supérieure à 80 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les recommandations exigent de tolérer un certain degré d'hypotension artérielle pour minimiser les risques d'aggravation du saignement tant que l'hémostase chirurgicale et/ou par radiologie interventionnelle n'est pas réalisée, avec un objectif de pression artérielle systolique entre 80-90 mmHg (ou pression artérielle moyenne entre 60-65 mmHg)."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations l'utilisation de catécholamines est-elle indiquée lors de la prise en charge d'un choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Devant une expansion volémique inefficace (30 ml/kg).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Devant un état de choc prolongé et persistant malgré une réanimation hémodynamique adéquate et contrôle de la source de saignement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En première intention systématique pour tout choc hémorragique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En association avec un traumatisme crânien.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les catécholamines sont indiquées devant une expansion volémique inefficace, un état de choc prolongé et persistant malgré une réanimation adéquate et contrôle de la source de saignement, lors de l'induction anesthésique, ou en association avec un traumatisme crânien."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les modalités de transfusion en cas d'urgence vitale immédiate, sans connaissance préalable du groupe sanguin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de sang O négatif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Attendre impérativement les résultats du groupage et des RAI.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transfusion de sang AB positif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prélèvements sanguins à destinée transfusionnelle effectués immédiatement avant l'administration des culots globulaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'urgence vitale immédiate, le patient peut et doit être transfusé sans la connaissance préalable de son groupe et la recherche d'agglutinines irrégulières (RAI) en sang O négatif. Les prélèvements sanguins à destinée transfusionnelle seront tout de même effectués immédiatement avant l'administration des culots globulaires en urgence."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi une hypocalcémie ionisée peut-elle survenir lors d'une transfusion massive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En raison du citrate utilisé comme anticoagulant dans les produits sanguins labiles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En raison d'une augmentation du métabolisme du citrate par le foie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'utilisation des colloïdes peut aussi jouer un rôle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est sans conséquence sur la défaillance cardiovasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hypocalcémie ionisée peut survenir lors d'une transfusion massive en raison du citrate utilisé comme anticoagulant dans les produits sanguins labiles (surtout le PFC). L'utilisation des colloïdes peut aussi jouer un rôle. L'existence d'un bas débit sanguin hépatique au cours de l'état de choc entrave le métabolisme du citrate."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations l'intubation et la ventilation mécanique s'imposent-elles chez un patient en état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Altération de l'état de conscience (GCS < 8).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Détresse respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Geste d'hémostase invasif décidé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "SpO2 > 92%.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intubation et la ventilation mécanique s'imposent en cas d'altération de l'état de conscience (GCS < 8), de détresse respiratoire ou de geste d'hémostase invasif décidé."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principes de la stratégie de Damage Control Resuscitation (DCR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Limiter le remplissage par les cristalloïdes au juste nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfuser par du sang dès que possible.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Respecter le ratio 01 CG/ 01 PFC/ 01 CP en cas de transfusion massive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administrer précocement des agents hémostatiques anti-fibrinolytiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "La DCR est basée sur la limitation du remplissage par les cristalloïdes, la transfusion précoce de sang, le respect du ratio 01 CG/ 01 PFC/ 01 CP en cas de transfusion massive, et l'administration précoce d'agents hémostatiques anti-fibrinolytiques."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de gravité d'une hémorragie secondaire à un surdosage en anti-vitamines K ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'abondance du saignement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une localisation pouvant engager un pronostic vital ou fonctionnel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absence de contrôle par des moyens usuels.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La nécessité d'une transfusion massive.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères de gravité sont l'abondance du saignement, une localisation pouvant engager un pronostic vital ou fonctionnel, l'absence de contrôle par des moyens usuels et la nécessité d'une transfusion massive."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance clinique d'un patient en état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suivi de l'état neurologique (score de Glasgow).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maintien d'une PA stable hors amines ou à dose faible et stationnaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Normalisation des lactates.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Reprise d'une bonne diurèse (0.5-1 ml/kg/H).",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance clinique repose sur le suivi de l'état neurologique, la stabilisation hémodynamique (PA stable, normalisation des lactates), la reprise d'une bonne diurèse, l'état respiratoire et l'absence d'autres défaillances."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui peuvent modifier les mécanismes de compensation de l'organisme face à un choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les comorbidités cardio-pulmonaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'âge du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les médicaments interférant avec le système rénal et cardio-vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le sexe du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "La variation des mécanismes de compensation de l'organisme dépend des comorbidités cardio-pulmonaires, de l'âge du patient et des médicaments qui interfèrent avec le système rénal et cardio-vasculaire."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'un état de choc hémorragique qui peuvent être absents ou masqués chez certains patients ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tachycardie en cas de prise de traitement bradycardisant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypotension artérielle chez un patient sévèrement hypertendu d'habitude.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'oligoanurie en cas de diabète insipide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les marbrures chez un patient à peau foncée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tachycardie peut manquer en cas de prise de traitement bradycardisant. Le choc peut être patent malgré des chiffres de pression artérielle subnormaux chez un patient sévèrement hypertendu d'habitude."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement étiologique de référence pour les hémorragies digestives secondaires à la rupture de varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La chirurgie d'urgence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'endoscopie digestive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'embolisation artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'administration de PPSB.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie digestive est le traitement de référence pour les hémorragies secondaires à la rupture de varices œsophagiennes, à un ulcère gastroduodénal, à des malformations vasculaires ou à un syndrome de Mallory-Weiss."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Comment la pression artérielle est-elle un mauvais reflet de la sévérité de l'état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle chute très rapidement dès le début de l'hémorragie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est maintenue par la vasoconstriction sympathique, ne chutant que tardivement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours normale même en cas de choc sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est influencée uniquement par le volume sanguin et non par les mécanismes compensateurs.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pression artérielle est un mauvais reflet de la sévérité de l'état de choc car les mécanismes de régulation, notamment la réaction sympathique entraînant une vasoconstriction, maintiennent la pression artérielle, qui ne chute que tardivement."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes à l'origine de la bradycardie paradoxale observée lors de la phase sympatho-inhibitrice du choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une stimulation directe des barorécepteurs à haute pression.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une boucle réflexe vago-vagale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La stimulation des mécanorécepteurs intracardiaques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation du volume télésystolique du ventricule gauche.",
+          "correct": false
+        }
+      ],
+      "explanation": "La bradycardie observée est due à une boucle réflexe vago-vagale, elle-même due à la stimulation des mécanorécepteurs intracardiaques. Ces mécanorécepteurs sont stimulés par les distorsions mécaniques du ventricule gauche dont le volume télésystolique devient pratiquement nul et les pressions de remplissage diminuent nettement."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Décrivez l'évolution de la microcirculation lors d'un choc hémorragique non contrôlé.",
+      "options": [
+        {
+          "id": "A",
+          "text": "La densité de capillaires perfusés et la vitesse des globules rouges restent toujours bien préservées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dégradation microcirculatoire est observée avec des conséquences sur l'oxygénation tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'organisme maintient indéfiniment une consommation d'O2 constante grâce à l'extraction tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Au-delà d'un seuil critique, la consommation en O2 baisse proportionnellement au transport en oxygène.",
+          "correct": true
+        }
+      ],
+      "explanation": "Si la phase initiale n'est pas rapidement contrôlée, une dégradation microcirculatoire sera observée avec ses conséquences en termes d'oxygénation tissulaire. Initialement, l'extraction en O2 augmente, mais au-delà d'un seuil critique, l'extraction ne peut être augmentée et la consommation en O2 baisse proportionnellement au transport en oxygène."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets délétères possibles d'une utilisation inadéquate des vasoconstricteurs dans le choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une vasoconstriction trop intense peut retentir sur les circulations rénales et splanchniques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils peuvent masquer une hypovolémie persistante ou une source de saignement non contrôlée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils augmentent toujours le débit cardiaque de manière bénéfique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont toujours sans danger si l'hypovolémie n'est pas corrigée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une vasoconstriction trop intense est susceptible de retentir sur les circulations rénales et splanchniques, d'autant plus que l'hypovolémie n'est pas corrigée. Des doses élevées de catécholamines témoignent le plus souvent de la persistance d'une hypovolémie (entre autres d'une source de saignement non encore contrôlée) ou d'un véritable choc septique associé."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les seuils transfusionnels d'hémoglobine recommandés pour un patient en état de choc hémorragique avec ou sans traumatisme crânien associé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sans TC associé : Hb ≥ 7g/dl.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Avec TC associé : Hb ≥ 7g/dl.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sans TC associé : Hb ≥ 10g/dl.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Avec TC associé : Hb ≥ 10g/dl.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les seuils transfusionnels sont : Hb ≥ 7g/dl pour un état de choc hémorragique sans traumatisme crânien associé, et Hb ≥ 10g/dl pour un état de choc hémorragique avec traumatisme crânien associé."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle du PPSB (complexe prothrombinique) dans le traitement étiologique du choc hémorragique sur surdosage en anti-vitamines K ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il inhibe l'action des facteurs de la coagulation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est un concentré des facteurs II, VII, IX et X.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est utilisé pour augmenter l'INR.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est administré pour corriger la carence en vitamine K.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement étiologique fait appel au PPSB ou complexe prothrombinique, qui est un concentré des facteurs II (prothrombine), VII (proconvertine), IX (facteur antihémophilique B) et X (facteur Stuart)."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan biologique de surveillance nécessaires au cours de la réanimation d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mesure de l'hémoglobine capillaire au lit du malade.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Numération de la formule sanguine (NFS) + numération plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Taux de prothrombine (TP) et temps de céphaline activée (TCA) ; l'INR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dosage du fibrinogène.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance biologique inclut la mesure de l'hémoglobine capillaire, la NFS, la numération plaquettaire, le TP, le TCA, l'INR, le dosage du fibrinogène, l'ionogramme plasmatique, l'urée, la créatininémie, la calcémie, la gazométrie artérielle, la lactatémie et le bilan hépatique."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Pourquoi la surveillance de la diurèse est-elle importante et comment est-elle assurée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle reflète l'état d'hydratation du patient.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle nécessite souvent la mise en place d'une sonde vésicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de traumatisme du bassin, un cathéter sus-pubien peut être envisagé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diurèse normale indique toujours une perfusion rénale adéquate.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance de la diurèse nécessite assez souvent la mise en place d'une sonde vésicale. En cas de traumatisme du bassin, on peut envisager un cathéter sus-pubien. Une oligoanurie est un signe d'insuffisance circulatoire aiguë."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les lésions hémorragiques prioritaires en cas de polytraumatisme avec instabilité hémodynamique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les lésions hémorragiques intracrâniennes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les lésions hémorragiques à l'origine de l'instabilité hémodynamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les fractures des membres inférieurs.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les contusions pulmonaires isolées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lésions hémorragiques à l'origine d'une instabilité hémodynamique sont toujours prioritaires sur un saignement intracrânien."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs tensionnels spécifiques pour les patients traumatisés crâniens graves (Coma Glasgow Score ≤8) en choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression artérielle systolique entre 80-90 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pression artérielle moyenne ≥ 80 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pression artérielle systolique de l'ordre de 120 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tolérer une hypotension pour limiter le saignement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les patients traumatisés crâniens graves (Coma Glasgow Score ≤8) en choc hémorragique, il est recommandé d'avoir un objectif de pression artérielle moyenne ≥80 mmHg, avant de disposer d'un monitorage cérébral. Les objectifs tensionnels sont généralement plus élevés avec une PA systolique de l'ordre de 120 mmHg afin de maintenir une pression de perfusion cérébrale."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Comment l'hypothermie aggrave-t-elle la coagulopathie du traumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par dysfonction des facteurs de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par dysfonction plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par activation de la fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par augmentation de la thermogénèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypothermie favorise le saignement par dysfonction des facteurs de la coagulation, par dysfonction plaquettaire, dysfonction endothéliale et activation de la fibrinolyse. Elle aggrave donc la coagulopathie du traumatisé."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments clés de l'approche systématisée ABCDE de l'ATLS/ALS pour l'évaluation initiale d'un patient en état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A (Airway) : Assurer la liberté des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B (Breathing) : Évaluer la respiration et l'oxygénation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C (Circulation) : Contrôler l'hémorragie et restaurer la volémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D (Disability) : Évaluer l'état neurologique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'approche ABCDE permet de diagnostiquer et traiter rapidement les lésions menaçant le pronostic vital : A (Airway), B (Breathing), C (Circulation), D (Disability), E (Environment)."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques associés à l'utilisation des colloïdes pour le remplissage vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles de la coagulation, notamment avec les hydroxyéthylamidons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque allergique avec les gélatines fluides.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la pression artérielle sans risque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets indésirables rapportés suite à l'utilisation des colloïdes incluent l'insuffisance rénale et les troubles de la coagulation notamment avec les hydroxyéthylamidons, ainsi que le risque allergique avec les gélatines fluides."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quel est le principe de la 'Damage Control Surgery' (DCS) dans la prise en charge des traumatisés graves avec choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser une réparation définitive de toutes les lésions en une seule intervention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Contrôler les lésions de façon à assurer la survie du patient en maîtrisant les hémorragies et le risque infectieux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaliser la réparation définitive des lésions lors d'une deuxième intervention chirurgicale après stabilisation physiologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ignorer l'acidose métabolique et l'hypothermie pendant la première phase.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principe de la DCS est de 'contrôler' les lésions de façon à assurer la survie du patient en maîtrisant les hémorragies et le risque infectieux. La réparation définitive des lésions est réalisée lors d'une deuxième intervention chirurgicale après stabilisation des désordres physiologiques (hémostase, température et l'acidose métabolique)."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les seuils transfusionnels de plaquettes et de fibrinogène recommandés pour un patient en état de choc hémorragique avec ou sans traumatisme crânien associé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plaquettes sans TC associé : ≥ 50000.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plaquettes avec TC associé : ≥ 50000.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fibrinogène sans TC associé : > 1.5 g/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fibrinogène avec TC associé : > 1.5 g/L.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les seuils transfusionnels sont : Plaquettes ≥ 50000 sans TC associé et ≥ 100000 avec TC associé. Fibrinogène > 1.5 g/L dans les deux cas (sans et avec TC associé). À noter qu'en cas d'hémorragie du post-partum, le fibrinogène doit être supérieur à 2g/L."
+    }
+  ]
+}

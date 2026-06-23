@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-19",
+  "title": "Arthrites septiques",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est une infection articulaire d'évolution lente, sur plusieurs semaines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est généralement d'origine virale avec une inoculation directe.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est une urgence diagnostique et thérapeutique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle ne survient que chez les patients immunodéprimés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement diagnostiquée par l'imagerie seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arthrite septique est une urgence diagnostique et thérapeutique, grevée d'une morbidité importante. Elle évolue en quelques heures ou quelques jours et est généralement d'origine bactérienne avec une inoculation hématogène."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les propositions suivantes, quel est l'examen clé pour confirmer le diagnostic d'arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La radiographie standard de l'articulation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'échographie articulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La ponction articulaire avec analyse du liquide synovial.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les hémocultures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La tomodensitométrie articulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ponction articulaire est l'examen clé, il permet de confirmer le diagnostic s'il isole le germe."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les deux volets thérapeutiques indissociables de la prise en charge d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La physiothérapie et l'immobilisation prolongée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'antibiothérapie et le drainage articulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les anti-inflammatoires non stéroïdiens et la chirurgie reconstructive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La corticothérapie et la rééducation intensive.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les analgésiques et la surveillance biologique seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement repose sur deux volets importants et indissociables : l'antibiothérapie et l'évacuation du pus des articulations infectées, c'est-à-dire le drainage."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le germe le plus fréquemment en cause dans les arthrites septiques chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Neisseria gonorrhoeae.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Streptococcus pneumoniae.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Haemophilus influenzae.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Staphylococcus aureus.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Mycobacterium tuberculosis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez l'adulte, Staphylococcus aureus tend à être la cause la plus fréquente (37 à 56%) d'arthrite septique."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques locaux classiques d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pâleur, froideur locale, hypoesthésie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tuméfaction, rougeur, chaleur locale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atrophie musculaire, déformation progressive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cyanose, ulcération cutanée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypotonie, hyperlaxité articulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes inflammatoires locaux classiques sont la tuméfaction, la rougeur et la chaleur locale."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes d'inoculation des micro-organismes infectieux dans une articulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par pénétration directe (traumatisme, geste chirurgical).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par propagation d'une infection de voisinage (ostéomyélite, abcès).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par dissémination hématogène à partir d'un site à distance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par réaction auto-immune sans présence de germes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par contact cutané simple sans effraction.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les micro-organismes infectieux atteignent les articulations soit par pénétration directe (traumatisme, morsure, geste chirurgical, arthrographie, infiltration), soit par propagation d'une infection de voisinage (ostéomyélite, abcès des tissus mous, plaie infectée), soit par dissémination hématogène d'un site à distance de l'articulation infectée."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs favorisant la survenue d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'absence d'antécédent articulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une arthropathie préexistante (arthrose, arthrite inflammatoire).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un traitement immunosuppresseur (inhibiteurs du TNF, corticostéroïdes).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diabète et l'éthylisme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une bonne hygiène de vie et une alimentation équilibrée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs favorisants locaux incluent l'arthropathie préexistante. Les facteurs généraux incluent la dépression immunitaire, le diabète, l'éthylisme, la corticothérapie, la polyarthrite rhumatoïde, le traitement immunosuppresseur, la toxicomanie, l'infection VIH, la néoplasie, l'hypogammaglobulinémie et l'hémodialyse."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la physiopathologie de l'arthrite septique, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les micro-organismes se fixent dans la membrane synoviale richement vascularisée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le passage des agents infectieux en intra-articulaire est facilité par la présence d'une membrane basale épaisse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La phagocytose des bactéries par les polynucléaires libère des enzymes lysosomales qui causent des lésions articulaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cartilage articulaire est détruit en plusieurs mois, voire années.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les endotoxines des bactéries Gram négatives diminuent la réaction inflammatoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les micro-organismes infectieux se fixent dans la membrane synoviale richement vascularisée. Leur passage en intra-articulaire est facilité par l'absence de membrane basale. La phagocytose des bactéries entraîne la destruction des polynucléaires, libérant des enzymes lysosomales dans l'articulation, ce qui cause des lésions de la synoviale, des ligaments et du cartilage. Le cartilage articulaire peut être détruit en quelques heures ou quelques jours. Les produits bactériens (endotoxine des bactéries Gram négatives, etc.) augmentent la réaction inflammatoire."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments cliniques qui orientent vers une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur articulaire d'apparition progressive et modérée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une atteinte le plus souvent monoarticulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des signes généraux tels que fièvre et frissons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une impotence fonctionnelle avec limitation des mouvements actifs et passifs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une absence totale de signes inflammatoires locaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'atteinte est le plus souvent monoarticulaire. Les signes généraux incluent fièvre, frissons, altération de l'état général. L'impotence fonctionnelle se manifeste par une limitation des mouvements actifs et passifs, avec des mouvements très douloureux et une attitude antalgique de l'articulation. La douleur est généralement aiguë, brutale et intense. Des signes inflammatoires locaux sont présents."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors de l'étude du liquide synovial, quelles caractéristiques sont typiques d'une arthrite septique (AS) par rapport à un liquide normal ou arthrosique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un aspect citrin et une faible abondance.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une viscosité élevée et une coagulation difficile.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un aspect trouble ou purulent et une coagulation facile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un taux de protides inférieur à 25g/l.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un nombre de cellules inférieur à 10000 PNN non altérés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une AS, le liquide synovial est très abondant, d'aspect trouble ou purulent, coagule facilement, a un taux de protides supérieur à 35g/l et un nombre de cellules supérieur à 50000 PNN altérés. Un liquide normal est citrin, de faible abondance, avec une viscosité élevée et des protides <25g/l et <300 cellules."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la radiographie standard dans le diagnostic d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique, même si les signes radiologiques sont tardifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle permet de visualiser la déminéralisation sous-chondrale dès les premières heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle peut montrer un pincement global de l'interligne articulaire à un stade précoce.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est utile pour objectiver un épanchement chez l'enfant au niveau de la hanche ou de l'épaule.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est l'examen de choix pour différencier une AS d'une arthrite inflammatoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La radiographie est systématique même s'il existe un décalage radio-clinique avec apparition tardive des signes RX. Au début, on observe une déminéralisation sous-chondrale, puis un pincement global de l'interligne articulaire. Chez l'enfant, l'épanchement peut être objectivé à la RX (hanche et épaule) avec un élargissement de l'interligne ou un bombement de la capsule articulaire."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Chez les jeunes adultes et les adolescents, quel germe est le plus fréquemment en cause dans les arthrites septiques, souvent associé à des infections génitales concomitantes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylococcus aureus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Streptococcus pneumoniae.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Neisseria gonorrhoeae.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Escherichia coli.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pseudomonas aeruginosa.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les jeunes adultes et les adolescents, Neisseria gonorrhoeae (gonocoque) est le germe le plus fréquent. Ces patients ont souvent des infections génitales concomitantes à Chlamydia trachomatis."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du syndrome inflammatoire biologique observé dans une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la VS et de la CRP.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperleucocytose à polynucléaires neutrophiles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome inflammatoire biologique non spécifique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une leucopénie avec lymphocytose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une normalisation rapide des marqueurs inflammatoires en quelques heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe un syndrome inflammatoire biologique (non spécifique), avec augmentation de la VS et de la CRP, et une hyperleucocytose à PNN à la NFS."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le cadre de la prise en charge thérapeutique, quand l'antibiothérapie devrait-elle être démarrée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immédiatement après l'admission du patient, sans attendre les prélèvements.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Après au moins deux hémocultures et une ponction articulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Après confirmation radiologique des lésions articulaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement après l'identification du germe et l'antibiogramme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dès que le patient présente de la fièvre, sans autre investigation.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie ne devrait être démarrée qu'après au moins deux hémocultures et une ponction articulaire."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une arthrite septique non gonococcique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une destruction du cartilage articulaire en quelques heures ou jours.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une ankylose articulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une luxation septique invétérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une épiphysiodèse chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une guérison spontanée sans séquelles dans la majorité des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les arthrites aiguës bactériennes non gonococciques peuvent détruire le cartilage articulaire, endommager définitivement l'articulation en quelques heures ou quelques jours. Les séquelles incluent la raideur articulaire, l'ankylose, la luxation septique invétérée et, chez l'enfant, les épiphysiodèses pouvant entraîner des inégalités de longueurs des membres ou des déviations axiales."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères du score qSOFA (quick Sequential Organ Failure Assessment) utilisé pour identifier les patients à risque de complications graves en cas d'infection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une fréquence cardiaque > 100 bpm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une fréquence respiratoire > 22/min.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une altération de l'état de conscience (GCS < 15).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une pression artérielle systolique < 100 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une température corporelle > 38.5°C.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le score qSOFA repose sur trois critères simples : une fréquence respiratoire > 22/min, une altération de l'état de conscience (GCS < 15) et une pression artérielle systolique < 100 mmHg. Un score de 2 ou plus suggère un risque accru de sepsis sévère."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le traitement d'une arthrite septique, quelles sont les caractéristiques de l'antibiothérapie de première intention ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle doit être principalement bactériostatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle doit avoir une bonne diffusion articulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent administrée par voie intraveineuse initialement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est adaptée après identification du germe et antibiogramme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sa durée est généralement courte, de quelques jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiotique doit être bactéricide avec une bonne diffusion articulaire, souvent IV initialement, adapté après identification du germe et antibiogramme, et sa durée est prolongée (classiquement 45 à 90 jours, tendance actuelle à 6 semaines)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les méthodes de drainage du pus articulaire mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La ponction-lavage (unique ou itérative).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'arthroscopie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'arthrotomie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La simple immobilisation de l'articulation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'application de compresses chaudes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le drainage peut se faire de différentes façons : soit par ponction-lavage (unique ou itérative), soit par arthroscopie, soit, le plus souvent, par arthrotomie."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités des arthrites septiques chez le nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La hanche est l'articulation la plus touchée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'atteinte est souvent monoarticulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le tableau clinique peut être trompeur (asymétrie de mobilité, œdème).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prématurité et le séjour en milieu hospitalier sont des facteurs favorisants.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours associées à une fièvre importante et des frissons.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le nourrisson, la hanche est l'articulation la plus touchée mais l'atteinte est souvent multifocale. Le tableau clinique peut être trompeur (une simple asymétrie de mobilité articulaire ou d'un pli, un œdème ou un empâtement articulaire). Les facteurs favorisants sont la prématurité et le séjour en milieu hospitalier."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'arthrite gonococcique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle s'intègre souvent dans un syndrome dermatite-polyarthrite-ténosynovite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle n'abîme habituellement pas les articulations de façon définitive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours monoarticulaire et touche les grosses articulations.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est causée par Staphylococcus aureus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par une douleur articulaire progressive et modérée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arthrite gonococcique peut s'intégrer dans un syndrome caractéristique dermatite-polyarthrite-ténosynovite. Elle n'abîme habituellement pas les articulations de façon définitive. Elle est causée par Neisseria gonorrhoeae et peut être unique ou multiple."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures adjuvantes importantes dans la prise en charge d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'immobilisation de courte durée à visée antalgique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement de la porte d'entrée de l'infection.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La rééducation avec mobilisation passive rapide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prévention des thrombophlébites si immobilisation du membre inférieur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'immobilisation prolongée pour favoriser la cicatrisation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures adjuvantes incluent l'immobilisation à visée antalgique (de courte durée), le traitement de la porte d'entrée, la rééducation avec mobilisation passive rapide, et la prévention des thrombophlébites si immobilisation du membre inférieur. Le repos immédiat de l'articulation et les mises-en décharge sont également importants."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes radiographiques tardifs d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une déminéralisation sous-chondrale isolée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pincement global de l'interligne articulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'apparition de macro-géodes confluentes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La destruction des épiphyses et leur luxation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une ankylose articulaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Plus tardivement, on observe l'apparition de macro-géodes confluentes aboutissant à la destruction des épiphyses et à leur luxation. Rarement, la RX peut mettre en évidence une ankylose (formes négligées). La déminéralisation sous-chondrale et le pincement de l'interligne sont des signes plus précoces."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le cas d'une arthrite septique sur matériel d'ostéosynthèse ou sur prothèse, quelles sont les affirmations exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'inoculation est toujours hématogène et retardée (> 6 mois).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un biofilm se forme autour du métal après 3 semaines d'infection.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La documentation bactériologique est primordiale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ablation ou le changement du matériel est souvent nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'antibiothérapie seule est toujours suffisante pour éradiquer l'infection.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inoculation peut être péri-opératoire précoce (<3 mois) ou retardée (hématogène >6 mois). Au-delà de 3 semaines d'infection sur matériel, un biofilm se forme autour du métal, protégeant le germe et imposant l'ablation ou le changement du matériel ou de la prothèse. La documentation bactériologique est primordiale."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales différences entre une arthrite septique et une bursite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La bursite est une atteinte strictement intra-articulaire, contrairement à l'AS.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans une bursite, la mobilisation douce est possible et indolore.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'AS est toujours d'origine infectieuse, tandis que la bursite est toujours inflammatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les examens complémentaires comme l'échographie ou l'IRM sont inutiles pour les bursites profondes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La bursite ne présente jamais de signes inflammatoires locaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bursites, qu'elles soient inflammatoires ou infectieuses, sont des atteintes strictement extra-articulaires. La mobilisation douce est possible et indolore, et c'est ce qui les différencie des AS. Pour certaines localisations profondes, des examens complémentaires sont nécessaires (échographie voire IRM)."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'utilité principale de l'échographie dans le diagnostic d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle permet de visualiser les lésions osseuses sous-chondrales de manière détaillée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est l'examen de référence pour l'étude des lésions cartilagineuses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle permet de détecter des épanchements peu abondants, notamment au niveau de la hanche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est indispensable pour différencier une AS d'une arthrite microcristalline.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement utilisée pour guider les infiltrations de corticoïdes.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie permet de détecter des épanchements peu abondants et est très utile pour certaines articulations comme la hanche. Elle permet également de guider des ponctions articulaires."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une arthrite septique avec une porte d'entrée cutanée. Quelle antibiothérapie de première intention est recommandée, en l'absence d'examen direct du liquide synovial ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céfotaxime ou Ceftriaxone.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Amoxicilline seule.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Oxacilline ou Céfazoline (+ gentamicine chez l'enfant).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fluoroquinolone + Rifampicine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Vancomycine seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon le tableau de choix de l'antibiotique en première intention, pour une porte d'entrée cutanée, l'Oxacilline ou la Céfazoline (+ gentamicine chez l'enfant) est recommandée. En l'absence de porte d'entrée identifiée, l'Oxacilline ou Céfazoline (+ gentamicine chez l'enfant) est également une option, ou Fluoroquinolone + Rifampicine pour l'adulte."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient adulte avec une arthrite septique a un examen direct du liquide synovial négatif. Après 3 jours de traitement par Oxacilline + Gentamicine, il n'y a pas d'amélioration clinique ni biologique. Quelle est la conduite à tenir recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter l'antibiothérapie et attendre les résultats de la culture.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Continuer le même traitement pendant 7 jours supplémentaires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Passer à une association Fluoroquinolone + Rifampicine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmenter les doses d'Oxacilline et Gentamicine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ajouter de l'Amoxicilline au traitement en cours.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon la conduite du traitement, si l'examen direct est négatif et qu'il n'y a pas d'amélioration clinique et biologique à J3, il est recommandé de passer à une association Fluoroquinolone + Rifampicine (chez l'adulte) ou Céfotaxime + Fosfomycine (chez l'enfant)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant l'IRM dans le diagnostic des arthrites septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est l'examen de première intention pour confirmer le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle permet de visualiser une synovite et des abcès.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut différencier une arthrite septique d'une autre arthrite inflammatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est utile pour l'élimination de diagnostics différentiels comme les tumeurs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est rarement indiquée.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'IRM est rarement indiquée. Elle permet de confirmer l'existence d'un épanchement, de visualiser une synovite, des abcès et d'étudier les lésions de l'os sous-chondral. Cependant, elle ne peut pas différencier les arthrites septiques des autres arthrites inflammatoires. Elle permet l'élimination de diagnostics différentiels (tumeurs)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des formes graves d'arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une fièvre modérée et de courte durée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des atteintes multifocales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une évolution rapide vers l'ostéoarthrite visible à la radiographie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un risque de staphylococcie pleuropulmonaire et d'états de choc septiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome inflammatoire biologique peu marqué.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les formes graves sont caractérisées par une fièvre importante et prolongée, des signes locaux plus accentués, des atteintes multifocales, une évolution rapide vers l'ostéoarthrite (RX), et un risque d'évolution vers la staphylococcie pleuropulmonaire et les états de choc septiques. Le syndrome inflammatoire biologique est très important (CRP, VS et hyperleucocytose)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une arthrite septique avec un examen direct du liquide synovial montrant des cocci Gram positif en amas. Quelle antibiothérapie de première intention est recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céfotaxime ou Ceftriaxone.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Amoxicilline (+ gentamicine chez l'enfant).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Oxacilline ou Céfazoline (+ gentamicine chez l'enfant).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fluoroquinolone + Rifampicine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Vancomycine seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon la conduite du traitement, si l'examen direct est positif et montre des CGP en amas, l'Oxacilline ou la Céfazoline (+ gentamicine chez l'enfant) est recommandée."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les séquelles potentielles d'une arthrite septique non gonococcique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une raideur articulaire avec douleurs résiduelles importantes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une ankylose articulaire, avec disparition de la douleur mais perte de fonction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une luxation septique invétérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des épiphysiodèses chez l'enfant, entraînant des inégalités de longueur des membres.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une récupération fonctionnelle complète sans aucune intervention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toute atteinte d'un cartilage peut résulter en une raideur articulaire, avec des douleurs résiduelles importantes dans les articulations portantes. L'ankylose représente le stade ultime de la raideur et fige l'articulation dans une seule position ; la douleur disparaît alors, au détriment de la fonction. Une luxation septique invétérée pourrait constituer une séquelle très handicapante. Chez l'enfant, la proximité du cartilage de croissance peut donner des épiphysiodèses, qui elles-mêmes pourraient aboutir à des inégalités de longueurs des membres ou à des déviations axiales des membres."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des arthrites bactériennes non gonococciques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La douleur articulaire est généralement progressive, modérée à sévère.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La fièvre est absente ou modérée dans une proportion allant jusqu'à 50% des patients.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont monoarticulaires dans 80% des cas chez l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les microorganismes moins virulents (staphylocoques coagulase négatifs) provoquent une arthrite d'évolution très rapide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'atteinte polyarticulaire est plus fréquente chez le patient immunodéprimé.",
+          "correct": true
+        }
+      ],
+      "explanation": "La douleur articulaire est progressive, modérée à sévère, nettement aggravée par le mouvement ou la palpation. La fièvre est absente ou modérée dans une proportion allant jusqu'à 50% des patients. Dans 80% des cas, l'arthrite est monoarticulaire et touche habituellement une articulation périphérique. Les microorganismes virulents (p. ex., S. aureus, Pseudomonas aeruginosa) sont généralement responsables d'une arthrite d'évolution très rapide, tandis que les microrganismes moins virulents provoquent une arthrite moins explosive. L'atteinte polyarticulaire est légèrement plus fréquente chez le patient immunodéprimé ou ayant une arthropathie chronique sous-jacente, ou chez le patient présentant une infection à streptocoques."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le diagnostic différentiel des arthrites septiques, quelles sont les caractéristiques des arthrites microcristallines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles atteignent essentiellement les personnes jeunes et en bonne santé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La goutte et la chondrocalcinose sont les plus fréquentes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles peuvent simuler des arthrites septiques dans certaines formes atypiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mise en évidence de cristaux dans le liquide articulaire redresse le diagnostic.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours polyarticulaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "La goutte (dépôts d'urates de sodium), la chondrocalcinose et les dépôts d'hydroxyapatite sont les plus fréquentes. Elles atteignent essentiellement les personnes âgées, avec plusieurs pathologies associées. Certaines formes atypiques et inaugurales peuvent simuler des AS. La mise en évidence de cristaux dans le liquide articulaire redresse le diagnostic."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement immunosuppresseur développe une arthrite septique. Quels agents pathogènes moins courants peuvent être en cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylococcus aureus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Neisseria gonorrhoeae.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Mycobacterium tuberculosis.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Champignons.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Streptococcus pneumoniae.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de traitement immunosuppresseur (inhibiteurs du TNF ou corticostéroïdes), l'arthrite septique peut être causée par des agents pathogènes moins courants (mycobactéries, champignons)."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée totale recommandée pour l'antibiothérapie d'une arthrite septique, selon les tendances actuelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "7 jours.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "14 jours.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "3 semaines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "6 semaines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "90 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "Classiquement la durée totale recommandée est de 45 à 90 jours. La tendance actuelle est à la diminution, avec une durée totale de 6 semaines."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cas d'une allergie à la pénicilline, quel antibiotique est recommandé pour le traitement d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céfotaxime.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Amoxicilline.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Vancomycine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ciprofloxacine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Gentamicine.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'allergie à la pénicilline, la Vancomycine est recommandée."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'étude histologique d'une arthrite septique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle met en évidence une inflammation avec afflux de polynucléaires neutrophiles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle permet d'affirmer le caractère septique de la synovite dans tous les cas.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle montre une érosion de la synoviale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence de granulomes induits par mycobactéries ou champignons apporte une spécificité diagnostique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est inutile si le liquide synovial est analysable.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'étude histologique met en évidence une inflammation avec afflux de polynucléaires neutrophiles et érosion de la synoviale, sans pouvoir affirmer le caractère septique de la synovite. Seule la présence de granulomes induits par certains pathogènes (mycobactéries ou champignons) peut apporter une spécificité diagnostique. Elle a un intérêt si le liquide synovial n'est pas analysable."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant les fluoroquinolones (FQ) dans le traitement des arthrites septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles peuvent être utilisées en monothérapie pour les infections à staphylocoques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont recommandées en association avec la rifampicine en cas d'examen direct négatif et de non-amélioration à J3 chez l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La ciprofloxacine est une FQ couramment utilisée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont toujours prescrites en association avec l'acide fusidique ou la fosfomycine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont contre-indiquées chez l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fluoroquinolones ne doivent jamais être utilisées en monothérapie pour les infections à staphylocoques. Elles sont recommandées en association avec la rifampicine en cas d'examen direct négatif et de non-amélioration à J3 chez l'adulte. La ciprofloxacine est une FQ mentionnée avec une dose journalière. Le texte ne dit pas qu'elles sont toujours prescrites avec acide fusidique ou fosfomycine, mais que ces trois derniers sont toujours prescrits en association."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des arthrites réactionnelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont toujours associées à une infection bactérienne concomitante (Shigella, Salmonella, Chlamydia).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le rhume de hanche est une forme d'arthrite réactionnelle chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles présentent toujours un syndrome inflammatoire biologique prononcé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La ponction articulaire montre un liquide synovial inflammatoire avec présence de germes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le traitement est principalement chirurgical.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les arthrites réactionnelles sont caractérisées par la notion d'infection bactérienne (Shigella, Salmonella, Chlamydia) concomitante. Le rhume de hanche (synovite aiguë transitoire) est une forme chez l'enfant. Elles ne présentent pas toujours un syndrome inflammatoire biologique prononcé. La ponction montre un liquide synovial inflammatoire avec absence de germes. Le traitement est médical."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint de polyarthrite rhumatoïde développe une arthrite septique. Quel est le pronostic fonctionnel et de mortalité dans ce cas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le pronostic fonctionnel est excellent et la mortalité est faible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le pronostic fonctionnel est particulièrement mauvais et la mortalité est plus élevée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La polyarthrite rhumatoïde protège l'articulation des séquelles de l'AS.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le traitement de l'AS est simplifié chez ces patients.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il n'y a pas de différence significative par rapport à un patient sans PR.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de polyarthrite rhumatoïde, le pronostic fonctionnel des arthrites septiques est particulièrement mauvais et la mortalité est plus élevée."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant la Vancomycine dans le traitement des arthrites septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est administrée en perfusion discontinue pour éviter les effets secondaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des fortes doses (jusqu'à 100 mg/kg/j) sont utilisées pour améliorer la diffusion osseuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des concentrations sériques permanentes de 35-40 µg/ml sont recherchées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dose de charge de 12 mg/kg/j est administrée pendant 3 jours.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est un traitement de première intention pour les arthrites gonococciques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Vancomycine est administrée en perfusion continue et à fortes doses (jusqu'à 100 mg/kg/j) pour améliorer la diffusion osseuse. La nécessité d'obtention de concentrations sériques permanentes de 35-40 µg/ml est mentionnée. Une dose de charge de 12 mg/kg/j pendant 3 jours est également indiquée. Elle est utilisée en cas d'allergie à la pénicilline, pas spécifiquement pour les gonocoques."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la tomodensitométrie (TDM) dans le bilan d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Évaluer l'étendue et l'importance des lésions osseuses satellites.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Visualiser un œdème local et des foyers d'ostéite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Permettre la ponction pour certains sites profonds (hanche, sacro-iliaque).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Différencier les arthrites septiques des autres arthrites inflammatoires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est l'examen de choix pour l'étude des épanchements peu abondants.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intérêt principal de la TDM est d'évaluer l'étendue et l'importance des lésions osseuses satellites des arthrites septiques. Elle permet la visualisation d'un œdème local, d'érosions osseuses, et de foyers d'ostéite. Elle permet également la ponction pour certains sites (hanche, sternoclaviculaire, sacro-iliaque, articulaire postérieure)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une arthrite septique avec une porte d'entrée urinaire. Quelle antibiothérapie de première intention est recommandée, en l'absence d'examen direct du liquide synovial ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxacilline ou Céfazoline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Céfotaxime ou Ceftriaxone (+ gentamicine chez l'enfant).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Amoxicilline seule.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Vancomycine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pristinamycine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon le tableau de choix de l'antibiotique en première intention, pour une porte d'entrée urinaire, le Céfotaxime ou la Ceftriaxone (+ gentamicine chez l'enfant) est recommandé."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant les arthrites virales dans le diagnostic différentiel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles provoquent des symptômes similaires à l'arthrite aiguë bactérienne non gonococcique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont plus volontiers polyarticulaires que l'arthrite bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le diagnostic est fait par l'étude des sérologies ou la PCR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont toujours purulentes à la ponction articulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles nécessitent une antibiothérapie prolongée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arthrite virale provoque parfois des symptômes similaires à ceux de l'arthrite aiguë bactérienne non gonococcique, mais elle est plus volontiers polyarticulaires que l'arthrite bactérienne. Le diagnostic peut être fait par l'étude des sérologies ou la PCR. Elles ne sont pas purulentes et ne nécessitent pas d'antibiothérapie."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions requises pour la réalisation d'une ponction articulaire dans le cadre d'une arthrite septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle doit être réalisée sous anesthésie générale systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une asepsie rigoureuse est indispensable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ensemencement doit se faire immédiatement dans des flacons d'hémocultures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le prélèvement doit être acheminé rapidement au laboratoire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours réalisée à l'aveugle, sans guidage échographique ou scanner.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ponction articulaire doit être réalisée dans des conditions d'asepsie rigoureuses. L'ensemencement doit se faire immédiatement dans des flacons d'hémocultures et le prélèvement acheminé rapidement au laboratoire. La ponction est parfois réalisée sous échographie ou scanner pour certaines articulations."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant la gestion de l'immobilisation dans le traitement des arthrites septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle doit être de courte durée pour éviter les raideurs articulaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est réalisée par des attelles ou des orthèses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dans les arthrites dépassées, elle peut se faire dans un but d'arthrodèse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours chirurgicale (fixateur externe) en position de fonction.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement destinée à la rééducation précoce.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'immobilisation à visée antalgique doit être de courte durée afin d'éviter les raideurs articulaires. Elle est réalisée par des attelles ou des orthèses. Dans les arthrites dépassées, l'immobilisation peut se faire dans un but d'arthrodèse, soit chirurgicale (fixateur externe) soit orthopédique (plâtre circulaire) en position de fonction."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une arthrite septique avec un examen direct du liquide synovial montrant des bacilles Gram négatifs (BGN). Quelle antibiothérapie de première intention est recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxacilline ou Céfazoline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Amoxicilline.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Céfotaxime ou Ceftriaxone (+ gentamicine chez l'enfant).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vancomycine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rifampicine seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon la conduite du traitement, si l'examen direct est positif et montre des BGN, le Céfotaxime ou la Ceftriaxone (+ gentamicine chez l'enfant) est recommandé."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant la culture du liquide synovial ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle permet l'isolement des germes pyogènes banals dans 75-95% des cas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle permet l'isolement des germes fragiles (gonocoque, staphylocoque à coagulase négative) dans 10-50% des cas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours négative en cas d'arthrite gonococcique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est inutile si l'examen direct est positif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est le seul moyen de confirmer le diagnostic d'arthrite septique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La culture du liquide synovial permet dans 75-95% des cas l'isolement des germes pyogènes banals et dans 10 à 50% des cas, celui des germes plus fragiles (gonocoque, staphylocoque à coagulase négative, corynébactérie). Elle est essentielle pour l'identification du germe et l'antibiogramme, même si l'examen direct est positif."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences physiopathologiques de la destruction des polynucléaires dans l'articulation infectée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération d'enzymes lysosomales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions de la membrane synoviale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésions des ligaments articulaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Destruction du cartilage articulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la réaction inflammatoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phagocytose des bactéries entraîne la destruction des polynucléaires, libérant des enzymes lysosomales dans l'articulation, ce qui cause des lésions de la synoviale, des ligaments et du cartilage. Les polynucléaires peuvent donc être à l'origine de lésions articulaires."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une bactériémie associée à une arthrite septique, quelle est la conduite à tenir essentielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter immédiatement l'antibiothérapie pour éviter la résistance.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rechercher activement la porte d'entrée de l'infection.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rechercher d'éventuelles localisations secondaires pouvant engager le pronostic vital.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Se concentrer uniquement sur le traitement de l'articulation affectée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Procéder à une arthrodèse immédiate.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de bactériémie, il faut s'acharner à rechercher la porte d'entrée et les éventuelles localisations secondaires pouvant engager le pronostic vital."
+    }
+  ]
+}

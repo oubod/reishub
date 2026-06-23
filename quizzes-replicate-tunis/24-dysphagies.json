@@ -1,0 +1,1494 @@
+{
+  "lectureId": "24",
+  "number": "24",
+  "title": "Dysphagies",
+  "partie": "J1",
+  "specialty": "Gastrologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition correcte de la dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur ressentie lors de la déglutition, sans arrêt des aliments.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une sensation de blocage ou de gêne au passage du bol alimentaire lors de la déglutition.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une perte de l'appétit avec dégoût alimentaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une sensation de boule dans la gorge, indépendante des repas.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie est définie comme une sensation de blocage ou de gêne au passage du bol alimentaire lors de la déglutition. L'odynophagie est une douleur à la déglutition, l'anorexie est la perte d'appétit, et le globus hystericus est la sensation de boule dans la gorge indépendante des repas."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une dysphagie oro-pharyngée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est localisée au niveau de la région rétro-sternale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle se traduit par une difficulté à initier la déglutition.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est fréquemment associée à des fausses routes nasales et/ou trachéales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle relève essentiellement de causes ORL ou neuro-musculaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dysphagie oro-pharyngée se traduit par une difficulté à initier la déglutition, est localisée dans la région cervicale, et est fréquemment associée à des fausses routes nasales et/ou trachéales. Elle relève essentiellement de causes ORL ou neuro-musculaires. La localisation rétro-sternale est caractéristique de la dysphagie œsophagienne."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelle est la longueur moyenne de l'œsophage chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 15 cm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 20 cm.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 25 cm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Environ 30 cm.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œsophage mesure 25 cm de long."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "À quelle distance de l'arcade dentaire supérieure se termine l'œsophage au niveau de l'incisure cardiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "15 cm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "21 cm.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "37 cm.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "40 cm.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'œsophage se termine au niveau de l'incisure cardiale, à 40 cm de l'arcade dentaire supérieure."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les segments de l'œsophage décrits dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cervical.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Thoracique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abdominal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pharyngé.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œsophage est divisé en 3 segments : cervical, thoracique et abdominal. Le segment pharyngé fait partie de la déglutition mais n'est pas un segment de l'œsophage lui-même."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quels sont les rétrécissements physiologiques de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rétrécissement cricoïdien.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rétrécissement aortique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rétrécissement bronchique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rétrécissement diaphragmatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Rétrécissement pylorique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œsophage présente quatre rétrécissements : cricoïdien (C6), aortique (T4), bronchique (T5) et diaphragmatique (T10). Le rétrécissement pylorique concerne l'estomac."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelle est la couche la plus interne de la paroi œsophagienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La musculeuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La sous-muqueuse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'adventice.",
+          "correct": false
+        }
+      ],
+      "explanation": "La paroi œsophagienne est formée de quatre tuniques concentriques, de dedans en dehors : la muqueuse, la sous-muqueuse, la musculeuse et l'adventice."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel type d'épithélium caractérise la muqueuse œsophagienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épithélium cylindrique simple.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Épithélium pavimenteux pluri-stratifié non kératinisé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épithélium glandulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Épithélium cubique simple.",
+          "correct": false
+        }
+      ],
+      "explanation": "La muqueuse œsophagienne est de type malpighien (épithélium pavimenteux pluri-stratifié non kératinisé)."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quel est le rôle principal du sphincter inférieur de l'œsophage (SIO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Propulser le bol alimentaire vers l'estomac.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Assurer la continence gastro-œsophagienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Initier la déglutition.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Empêcher les fausses routes trachéales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sphincter inférieur de l'œsophage (SIO) est à l'origine de la continence gastro-œsophagienne et joue un rôle majeur dans la lutte contre le reflux gastro-œsophagien."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une dysphagie mécanique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est capricieuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle s'aggrave progressivement et continuellement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle apparaît d'abord pour les grosses bouchées solides.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est calmée par des déglutitions répétées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie de type mécanique est d'aggravation progressive et continue, apparaissant d'abord pour les grosses bouchées solides pour s'aggraver régulièrement. Les autres options décrivent une dysphagie fonctionnelle."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est le type histologique le plus fréquent du cancer de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénocarcinome.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Carcinome à petites cellules.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Carcinome épidermoïde.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sarcome.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le type histologique le plus fréquent du cancer de l'œsophage est le carcinome épidermoïde (75% des cas)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel examen est de première intention devant toute dysphagie, quel que soit son type ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La manométrie œsophagienne.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le transit baryté de l'œsophage.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'endoscopie œso-gastro-duodénale (EOGD).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le scanner thoracique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'EOGD est l'examen de première intention devant toute dysphagie quel que soit son type."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques évocateurs d'un cancer de l'hypopharynx ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysphagie unilatérale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Otalgie réflexe ipsilatérale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Adénopathie cervicale du même côté.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Amaigrissement et altération de l'état général.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cancer de l'hypopharynx se manifeste par une dysphagie unilatérale, une otalgie réflexe, une adénopathie cervicale du même côté, et souvent une altération de l'état général."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Qu'est-ce que l'achalasie primitive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sténose œsophagienne tumorale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un trouble moteur primitif de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une œsophagite infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une compression extrinsèque de l'œsophage.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'achalasie primitive est une pathologie qui représente le trouble moteur primitif de l'œsophage le plus fréquent et le mieux caractérisé."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque du carcinome épidermoïde de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diabète.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'intoxication alcoolo-tabagique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le reflux gastro-œsophagien (RGO).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'obésité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome épidermoïde de l'œsophage se développe sur un terrain alcoolo-tabagique."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les différences entre une dysphagie œsophagienne organique et fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dysphagie organique est due à un obstacle mécanique, tandis que la fonctionnelle est due à un trouble moteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dysphagie organique est localisée dans la région cervicale, la fonctionnelle est rétro-sternale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dysphagie organique prédomine aux solides, la fonctionnelle peut être paradoxale (plus marquée pour les liquides).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La dysphagie fonctionnelle est souvent d'aggravation progressive et continue, la dysphagie organique est capricieuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie œsophagienne organique est due à un obstacle mécanique et prédomine aux solides. La dysphagie fonctionnelle est due à un trouble moteur et peut être paradoxale (plus marquée pour les liquides). La localisation rétro-sternale est pour la dysphagie œsophagienne en général. La dysphagie organique est d'aggravation progressive, tandis que la fonctionnelle est capricieuse."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments anatomiques définissant le sphincter supérieur de l'œsophage (SSO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le muscle crico-pharyngien.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le muscle constricteur inférieur du pharynx.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le plexus myentérique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le muscle de Rouget.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sphincter supérieur de l'œsophage (SSO) est constitué par le muscle constricteur inférieur du pharynx et le muscle crico-pharyngien. Le plexus myentérique est dans la musculeuse et le muscle de Rouget participe au SIO."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs anatomo-physiologiques contribuant au bon fonctionnement du sphincter inférieur de l'œsophage (SIO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La morphologie de l'hiatus œsophagien.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La situation intra-abdominale de la jonction œso-gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'implantation de l'œsophage sur le cardia formant un angle aigu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'épaississement des fibres musculaires lisses autour du cardia.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le triangle de Killian.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs contribuant au SIO sont la morphologie de l'hiatus œsophagien, la situation intra-abdominale de la jonction œso-gastrique, l'implantation de l'œsophage sur le cardia (incisure cardiale/angle de His), et l'épaississement des fibres musculaires lisses autour du cardia (cravate de Suisse). Le triangle de Killian est une zone de faiblesse du SSO."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels signes associés à une dysphagie doivent alerter le clinicien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amaigrissement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Régurgitations alimentaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fausses routes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Otalgie réflexe.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypersialorrhée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes (amaigrissement, régurgitations, fausses routes, otalgie réflexe, hypersialorrhée, hématémèse, dysphonie, hoquet, douleurs thoraciques, dyspnée) sont des signes associés qui doivent alerter le clinicien."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une dysphagie fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est capricieuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est aggravée par le froid.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est calmée par des déglutitions répétées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle apparaît autant pour les liquides que pour les solides, voire plus pour les liquides.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dysphagie fonctionnelle est capricieuse, apparaît aussi bien pour les liquides que pour les solides (voire plus pour les liquides, dite paradoxale), est déclenchée par les émotions ou les repas rapides, aggravée par le froid, et calmée souvent par des déglutitions répétées ou l'expiration forcée."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'obstacles mécaniques dans la dysphagie oro-pharyngée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeurs du pharynx.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Goitre thyroïdien volumineux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Corps étranger.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Séquelles de radiothérapie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les obstacles mécaniques oro-pharyngés incluent les tumeurs du pharynx (bénignes ou malignes), les compressions extrinsèques (goitre thyroïdien, adénopathie, ostéophyte cervical), les corps étrangers, et les séquelles de radiothérapie."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies tumorales de la dysphagie œsophagienne lésionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cancer de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancer du cardia.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Compression tumorale extrinsèque de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Léiomyome de l'œsophage.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les étiologies tumorales incluent le cancer de l'œsophage (carcinome épidermoïde, adénocarcinome), le cancer du cardia, les compressions tumorales extrinsèques (poumon, médiastin, adénopathies), et les tumeurs bénignes comme le léiomyome."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la sténose peptique de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle complique un RGO avec œsophagite sévère ancienne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dysphagie est progressive avec un amaigrissement modéré.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'EOGD retrouve une sténose régulière, centrée, d'allure bénigne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours précédée de pyrosis et de régurgitations.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sténose peptique complique un RGO ancien, la dysphagie est progressive avec amaigrissement modéré, et l'EOGD montre une sténose régulière, centrée, d'allure bénigne. Cependant, les symptômes de RGO (pyrosis, régurgitations) peuvent parfois être absents."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'œsophagites non sténosantes pouvant entraîner une dysphagie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œsophagite peptique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œsophagite médicamenteuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œsophagite mycotique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Œsophagite à éosinophiles.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les œsophagites non sténosantes incluent l'œsophagite peptique, médicamenteuse, infectieuse (mycotique, virale) et à éosinophiles."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes évocateurs d'un diverticule pharyngo-œsophagien de Zenker ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysphagie haute intermittente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Régurgitations d'aliments non digérés, parfois ingérés la veille.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bruits hydro-aériques dans le cou.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Halitose à un stade avancé.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diverticule de Zenker se manifeste par une dysphagie haute intermittente, des régurgitations d'aliments non digérés, des bruits hydro-aériques dans le cou et une halitose à un stade avancé."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'achalasie primitive à la manométrie conventionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence totale de péristaltisme dans le corps de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence de relaxation du sphincter inférieur de l'œsophage en fin de déglutition.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypertonie du SIO (>45 mmHg).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Contractions œsophagiennes propagées de grande amplitude.",
+          "correct": false
+        }
+      ],
+      "explanation": "La manométrie conventionnelle met en évidence l'absence totale de péristaltisme, l'absence de relaxation du SIO en fin de déglutition et une hypertonie du SIO (>45 mmHg). Les contractions propagées de grande amplitude ne sont pas caractéristiques de l'achalasie primitive."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes radiologiques de l'achalasie primitive au transit œsophagien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de la poche à air gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dilatation de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rétrécissement progressif régulier court du bas œsophage en 'bec d'oiseau'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aspect en 'pile d'assiette'.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le transit œsophagien montre l'absence de poche à air gastrique, la dilatation de l'œsophage, et un rétrécissement progressif régulier court du bas œsophage en 'bec d'oiseau'. L'aspect en 'pile d'assiette' est caractéristique du spasme œsophagien."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles de l'achalasie primitive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complications respiratoires (broncho-pneumopathie).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œsophagite de stase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dégénérescence en carcinome épidermoïde.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hernie hiatale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de l'achalasie incluent les complications respiratoires (inhalation), l'œsophagite de stase (avec greffe candidosique possible) et la dégénérescence en carcinome épidermoïde après plusieurs années d'évolution. La hernie hiatale n'est pas une complication directe de l'achalasie."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas doit-on suspecter une achalasie secondaire (pseudo-achalasie) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Achalasie d'apparition récente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence d'un amaigrissement important.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sujet âgé (> 65 ans).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédent de RGO ancien.",
+          "correct": false
+        }
+      ],
+      "explanation": "Devant tout tableau d'achalasie récent, ou avec amaigrissement, ou chez un sujet âgé (> 65 ans), il faut éliminer une achalasie secondaire, souvent d'origine néoplasique."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels examens complémentaires sont utiles pour le diagnostic d'une achalasie secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scanner.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "EOGD (Endoscopie Œso-Gastro-Duodénale).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échoendoscopie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Manométrie œsophagienne à haute résolution.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour éliminer une achalasie secondaire, il faut réaliser un scanner, une EOGD et une échoendoscopie. La manométrie permet de diagnostiquer l'achalasie mais ne distingue pas primitive et secondaire."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'œsophagite à éosinophiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est fréquente chez l'enfant et l'adulte jeune.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent associée à un terrain allergique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle se manifeste par des épisodes d'impaction alimentaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic histologique repose sur une hyper éosinophilie intra-épithéliale (> 15 par champ à fort grossissement).",
+          "correct": true
+        }
+      ],
+      "explanation": "L'œsophagite à éosinophiles est fréquente chez l'enfant et l'adulte jeune, souvent associée à un terrain allergique, se manifestant par des impactions alimentaires. Le diagnostic histologique est confirmé par une hyper éosinophilie intra-épithéliale (> 15 par champ à fort grossissement)."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments anamnestiques qui orientent vers une dysphagie fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déclenchée par les émotions ou les repas rapides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aggravée par le froid.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calmée par des déglutitions répétées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Progression rapide et continue de la dysphagie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie fonctionnelle est déclenchée par les émotions ou les repas rapides, aggravée par le froid, et calmée par des déglutitions répétées. Une progression rapide et continue est plus évocatrice d'une dysphagie mécanique."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de dysphagie oro-pharyngée d'origine neuro-musculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accident vasculaire cérébral (AVC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Parkinson.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Myasthénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diabète (neuropathies périphériques).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les troubles neuro-musculaires incluent les atteintes du système nerveux central (AVC, Parkinson, Sclérose en plaque, SLA, TC, tumeur cérébrale, démence), les neuropathies périphériques (diabète, amylose, polyradiculonévrite) et les maladies neuro-musculaires (myasthénie, myasthénie de Steinert, myopathies mitochondriales, dermatopolymyosite, polymyosite, lupus, Sjogren, hypothyroïdie)."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'œsophagite médicamenteuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symptomatologie d'apparition récente et brutale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Association de douleurs rétrosternales et d'odynophagie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Localisation des ulcérations au niveau du tiers moyen de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évolution le plus souvent favorable à l'arrêt du médicament.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'œsophagite médicamenteuse se caractérise par une symptomatologie récente et brutale, associant douleurs rétrosternales et odynophagie, avec des ulcérations souvent localisées au tiers moyen de l'œsophage. L'évolution est généralement favorable à l'arrêt du médicament."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés de l'exploration d'une dysphagie à endoscopie normale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réalisation de biopsies œsophagiennes étagées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Recherche d'une œsophagite à éosinophiles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Manométrie œsophagienne pour rechercher un trouble moteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transit baryté de l'œsophage en première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de dysphagie à endoscopie normale, il est indispensable de réaliser des biopsies œsophagiennes (au moins 5 étagées) à la recherche d'une œsophagite à éosinophiles. Si les biopsies sont négatives, la manométrie œsophagienne est l'examen clé pour rechercher un trouble moteur. Le transit baryté est plutôt utilisé en cas de sténose infranchissable par le fibroscope."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les correspondances endoscopiques des limites de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'œsophage fait suite à l'hypopharynx à 15 cm de l'arcade dentaire supérieure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La limite entre l'œsophage cervical et thoracique est à 21 cm de l'arcade dentaire supérieure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La limite entre l'œsophage thoracique et abdominal est à 37 cm de l'arcade dentaire supérieure.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'incisure cardiale est à 40 cm de l'arcade dentaire supérieure.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'œsophage fait suite à l'hypopharynx à 15 cm de l'arcade dentaire supérieure. La limite cervical/thoracique est à 21 cm. La limite thoracique/abdominal (hiatus œsophagien) est à 37 cm. L'incisure cardiale est à 40 cm."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de la paroi œsophagienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La muqueuse est la couche la plus solide et constitue le plan d'appui fondamental pour les sutures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La sous-muqueuse contient le plexus de Meissner et des réseaux veineux et lymphatiques importants.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La musculeuse est constituée de fibres musculaires striées dans sa moitié supérieure et lisses dans sa moitié inférieure.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'œsophage possède une séreuse propre sur toute sa longueur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le plexus d'Auerbach est situé entre les deux couches de la musculeuse.",
+          "correct": true
+        }
+      ],
+      "explanation": "La muqueuse est la couche la plus solide. La sous-muqueuse contient le plexus de Meissner. La musculeuse a des fibres striées en haut et lisses en bas. Le plexus d'Auerbach est entre les couches de la musculeuse. L'œsophage n'a pas de séreuse propre, mais un plan adventitiel lâche, sauf la face antérieure de l'œsophage abdominal qui est péritonisée."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Concernant la jonction pharyngo-œsophagienne, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est une zone de transition entre le pharynx et l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est marquée par l'intrication de fibres musculaires striées et lisses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le triangle de Killian est un point de faiblesse fonctionnel situé au-dessus du muscle crico-pharyngien.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le triangle de Laimer est un point de faiblesse anatomique situé au-dessous du muscle crico-pharyngien.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est située en regard du bord supérieur du cartilage cricoïde.",
+          "correct": false
+        }
+      ],
+      "explanation": "La jonction pharyngo-œsophagienne est une zone de transition entre le pharynx et l'œsophage, marquée par l'intrication de fibres musculaires striées et lisses. Le triangle de Killian est supérieur et fonctionnel, le triangle de Laimer est inférieur et anatomique. Elle est située en regard du bord inférieur du cartilage cricoïde (C6)."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la dysphagie post-chirurgie anti-reflux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est quasi-constante après l'intervention.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dysphagie précoce persiste 6 à 12 semaines après la chirurgie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dysphagie précoce peut être liée à une valve trop serrée ou un trouble moteur préexistant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La dysphagie tardive peut être due à une récidive du RGO avec sténose peptique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le TOGD est surtout performant pour le diagnostic de sténose anastomotique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagie est quasi-constante après chirurgie anti-reflux. La dysphagie précoce persiste 6 à 12 semaines et peut être liée à une anomalie du montage ou un trouble moteur préexistant. La dysphagie tardive peut être due à une altération du montage ou une récidive du RGO avec sténose peptique. Le TOGD est surtout performant pour le diagnostic de hernie para-œsophagienne, l'EOGD pour les anomalies anatomiques post-opératoires."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de la dysphagie lusoria ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est causée par une artère sous-clavière droite aberrante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est une malformation de la crosse aortique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle comprime la paroi postérieure de l'œsophage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent asymptomatique avant 40 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est une cause fréquente de dysphagie chez l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphagia lusoria est causée par une artère sous-clavière droite aberrante, une malformation de la crosse aortique, qui comprime la paroi postérieure de l'œsophage. Elle est souvent asymptomatique mais peut devenir responsable d'une dysphagie surtout après 40 ans. Elle n'est pas une cause fréquente chez l'enfant."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments diagnostiques de l'œsophagite à Candida albicans ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contexte d'immunodépression (SIDA, diabète, chimiothérapie).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence d'une candidose buccale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Odynophagie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "FOGD montrant des plaques blanchâtres, adhérentes, diffuses, en 'rail'.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'examen histologique est toujours nécessaire pour confirmer le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œsophagite à Candida albicans est favorisée par l'immunodépression, s'évoque devant une candidose buccale et odynophagie. La FOGD montre des plaques blanchâtres, adhérentes, diffuses, en 'rail', aspect quasi-pathognomonique, rendant l'examen histologique pas toujours nécessaire."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome de Plummer-Vinson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie rare, touchant surtout la femme jeune (35-60 ans).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Associée à une anémie ferriprive hypochrome microcytaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'un anneau (membrane) de l'œsophage supérieur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque principal est la dégénérescence en cancer de l'hypopharynx ou de l'œsophage cervical.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le traitement repose uniquement sur la supplémentation martiale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Plummer-Vinson est rare, touche la femme jeune, associe dysphagie cervicale, anémie ferriprive et un anneau de l'œsophage supérieur. Il est un facteur de risque de cancer de l'hypopharynx et de l'œsophage cervical. Le traitement repose sur la dilatation endoscopique ET la supplémentation martiale."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques de l'achalasie primitive à un stade évolué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dysphagie devient permanente, affectant solides et liquides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Amaigrissement important.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Régurgitations tardives et d'odeur fétide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Douleurs thoraciques rétro-sternales fréquentes chez le sujet jeune.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le score d'Eckardt est utilisé pour apprécier la sévérité des symptômes.",
+          "correct": true
+        }
+      ],
+      "explanation": "À un stade évolué, la dysphagie de l'achalasie devient permanente, affectant solides et liquides, entraînant un amaigrissement important. Les régurgitations deviennent tardives et d'odeur fétide. Les douleurs thoraciques sont fréquentes chez le sujet jeune ou en cas d'achalasie vigoureuse. Le score d'Eckardt est utilisé pour évaluer la sévérité des symptômes."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques manométriques de l'achalasie à haute résolution (MHR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression de relaxation intégrée (PRI) du SIO > 15 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le type I (classique) présente une pressurisation pan œsophagienne.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le type II présente aucune contraction dans l'œsophage.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le type III (spastique) présente des ondes œsophagiennes non propagées et de grande amplitude.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La PRI correspond à la pression moyenne la plus faible enregistrée pendant 4 secondes au niveau de la JOG lors des déglutitions.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'achalasie est définie par une PRI du SIO > 15 mmHg. La PRI est la pression moyenne la plus faible enregistrée pendant 4 secondes au niveau de la JOG. Le type I (classique) n'a aucune contraction. Le type II a une pressurisation pan œsophagienne. Le type III (spastique) a des ondes non propagées de grande amplitude."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques manométriques du spasme œsophagien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contractions œsophagiennes simultanées de grande amplitude (> 20% des déglutitions).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Temps de latence distale < 4,5 sec.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "SIO normal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PRI du SIO > 15 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aspect en 'chaussette' au transit œsophagien.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le spasme œsophagien est caractérisé par des contractions œsophagiennes simultanées de grande amplitude (> 20% des déglutitions), un temps de latence distale < 4,5 sec, et un SIO normal. Une PRI > 15 mmHg est pour l'achalasie. L'aspect en 'chaussette' est pour l'achalasie avancée, l'aspect en 'pile d'assiette' pour le spasme."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de troubles moteurs secondaires de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome paranéoplasique (anticorps anti plexus myentérique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Envahissement du plexus myentérique par un cancer (œsophage, gastrique, cardia).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maladie de Chagas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sclérodermie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Polymyosite.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les troubles moteurs secondaires incluent l'achalasie secondaire (syndrome paranéoplasique ou envahissement tumoral du plexus myentérique), les atteintes neurologiques diffuses (pseudo obstruction intestinale chronique, amylose, maladie de Chagas) et les maladies de système (sclérodermie, polymyosite, lupus, polyarthrite rhumatoïde)."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles de l'écho-endoscopie dans l'exploration des dysphagies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Explorer précisément la paroi œsophagienne en cas de tumeur sous-muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Apprécier l'extension pariétale des tumeurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Détecter les adénopathies métastatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Différencier les lésions sous-muqueuses intra-murales des compressions extrinsèques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est l'examen de première intention en cas de sténose infranchissable.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'écho-endoscopie explore précisément la paroi œsophagienne, apprécie l'extension pariétale des tumeurs, détecte les adénopathies métastatiques et différencie les lésions sous-muqueuses des compressions extrinsèques. L'existence d'une sténose en limite les performances, et ce n'est pas l'examen de première intention en cas de sténose infranchissable (plutôt le transit baryté)."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications et les apports du transit baryté de l'œsophage dans l'exploration des dysphagies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est fait en deuxième intention en cas de sténose non franchie par le fibroscope.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il précise la topographie, l'aspect et l'étendue de la sténose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est l'examen clé pour le diagnostic des troubles moteurs œsophagiens.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il peut montrer l'aspect en 'bec d'oiseau' dans l'achalasie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est performant pour le diagnostic de hernie para-œsophagienne.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le transit baryté est fait en deuxième intention en cas de sténose non franchie par le fibroscope, précisant sa topographie, aspect et étendue. Il montre l'aspect en 'bec d'oiseau' dans l'achalasie et est performant pour les hernies para-œsophagiennes. La manométrie est l'examen clé pour les troubles moteurs."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'œsophage marteau-piqueur (jack-hammer oesophagus) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est caractérisé par la présence d'au moins une contraction hypertonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'intégrale de contraction distale (ICD) est > 8 000 mmHg.s.cm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les contractions hypertoniques sont souvent répétitives.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les symptômes révélateurs peuvent inclure la dysphagie, des signes de reflux et des douleurs thoraciques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours idiopathique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œsophage marteau-piqueur est caractérisé par au moins une contraction hypertonique avec une ICD > 8 000 mmHg.s.cm, et ces contractions sont souvent répétitives. Les symptômes incluent dysphagie, reflux et douleurs thoraciques. Il peut être secondaire à un obstacle, un reflux acide, une œsophagite à éosinophiles ou être idiopathique."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales causes de dysphagie œsophagienne organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sténose œsophagienne tumorale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sténose peptique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œsophagite à éosinophiles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diverticule de Zenker.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Achalasie primitive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de dysphagie œsophagienne organique incluent les sténoses tumorales et non tumorales (peptique, caustique, radique, post-chirurgicale, corps étranger, compressions extrinsèques), les œsophagites non sténosantes (peptique, médicamenteuse, infectieuse, à éosinophiles), et les anomalies anatomiques comme les diverticules (Zenker) et les anneaux. L'achalasie primitive est un trouble moteur, donc une cause de dysphagie fonctionnelle."
+    }
+  ]
+}

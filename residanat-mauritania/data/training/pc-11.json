@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pc-11",
+  "title": "Cancer de l'estomac",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la position du cancer de l'estomac en termes de mortalité mondiale par cancer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1ère cause de mortalité mondiale par cancer",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "2ème cause de mortalité mondiale par cancer",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "3ème cause de mortalité mondiale par cancer",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "4ème cause de mortalité mondiale par cancer",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer de l'estomac est la 2ème cause de mortalité mondiale par cancer."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type histologique le plus fréquent des tumeurs épithéliales malignes de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lymphome malin non hodgkinien",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeur stromale (GIST)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Adénocarcinome",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeur endocrine",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénocarcinome représente 90% des tumeurs épithéliales malignes de l'estomac."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification de Lauren, quel type d'adénocarcinome gastrique est le plus fréquent chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le type diffus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le type intestinal glandulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le type à cellules indépendantes muco-sécrétantes",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le type linitique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénocarcinome de type intestinal glandulaire (90%) est surtout retrouvé chez le sujet âgé."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque d'adénocarcinome et de lymphome gastrique mentionné ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La consommation élevée de fruits et légumes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le tabac",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Helicobacter pylori",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La surcharge pondérale",
+          "correct": false
+        }
+      ],
+      "explanation": "Helicobacter pylori est un facteur de risque d'adénocarcinome et de lymphome gastrique."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes cliniques suivants, lesquels sont des signes d'appel peu spécifiques et souvent tardifs du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amaigrissement",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anorexie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome ulcéreux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome dyspeptique",
+          "correct": true
+        }
+      ],
+      "explanation": "L'AEG avec amaigrissement et dénutrition, l'anorexie, le syndrome ulcéreux ou dyspeptique sont des signes d'appel peu spécifiques et souvent tardifs."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen est le bilan d'extension de référence pour le cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'écho-endoscopie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La cœlioscopie exploratrice",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La TDM thoraco-abdomino-pelvienne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La radiographie pulmonaire",
+          "correct": false
+        }
+      ],
+      "explanation": "La TDM thoraco-abdomino-pelvienne est le bilan d'extension de référence pour évaluer la résécabilité et les métastases."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification TNM, qu'indique un stade T1 pour le cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Envahissement de la musculeuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Envahissement de la sous-séreuse",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Envahissement de la muqueuse ou de la sous-muqueuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Envahissement de la séreuse",
+          "correct": false
+        }
+      ],
+      "explanation": "T1 signifie que la tumeur est limitée à la muqueuse (a) ou à la sous-muqueuse (b)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal du traitement chirurgical curatif du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pose d'une prothèse métallique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'exérèse complète de la tumeur avec curage ganglionnaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La radiothérapie hémostatique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La chimiothérapie seule",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical curatif consiste en l'exérèse complète de la tumeur avec un curage ganglionnaire (≥ 15 ganglions)."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est l'indication principale de la mucosectomie ou dissection sous-muqueuse dans le traitement du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénocarcinome de type diffus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Adénocarcinome intestinal limité à la muqueuse (T1a), non ulcéré",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeur volumineuse de résécabilité douteuse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Adénocarcinome avec envahissement ganglionnaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement endoscopique (mucosectomie ou dissection sous-muqueuse) est indiqué pour l'adénocarcinome intestinal limité à la muqueuse (T1a), non ulcéré."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur pronostique du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge du patient",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le type histologique de Lauren",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'envahissement ganglionnaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La localisation de la tumeur",
+          "correct": false
+        }
+      ],
+      "explanation": "Le facteur pronostique principal est l'envahissement ganglionnaire, avec une survie de 60% si N0, 35% si N1, 10% si N2."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Combien de temps la surveillance est-elle recommandée après un traitement curatif du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 an",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "2 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "3 ans",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "5 ans",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance est recommandée pendant 5 ans après un traitement curatif chez tout patient susceptible de supporter une réintervention ou une chimiothérapie."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'un des risques accrus chez les femmes porteuses de la mutation CDH1 associée à l'ADK gastrique diffus héréditaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cancer du côlon",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cancer du sein",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancer du pancréas",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cancer de l'ovaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les femmes porteuses de la mutation CDH1, il existe un risque accru de cancer du sein."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage de survie à 5 ans pour le cancer de l'estomac, tous stades confondus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plus de 90%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "60%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "35%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "15%",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cancer de l'estomac est de mauvais pronostic, avec 15% de survie à 5 ans tous stades confondus."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal symptôme qui révèle souvent l'adénocarcinome du cardia ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des vomissements",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dysphagie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une anémie ferriprive",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une masse palpable",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénocarcinome du cardia est souvent révélé par une dysphagie."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement de première intention pour un lymphome gastrique du MALT de bas grade lié à Helicobacter pylori ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La chirurgie d'exérèse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La polychimiothérapie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'éradication de H. pylori",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La radiothérapie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome gastrique du MALT de bas grade est lié à H. pylori, et une régression est observée dans 70% des cas après éradication de H. pylori."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les zones géographiques considérées comme à haut risque pour le cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Europe de l'Ouest",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Amérique du Nord",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Asie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Amérique du Sud et centrale",
+          "correct": true
+        }
+      ],
+      "explanation": "Les zones à haut risque sont l'Asie, l'Amérique du Sud et centrale, tandis que l'Europe de l'Ouest et l'Amérique du Nord sont des zones à bas risque."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'adénocarcinome de type diffus selon la classification de Lauren ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prédominance chez le sujet âgé",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Prédominance féminine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Constitué de cellules indépendantes muco-sécrétantes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Représente environ 90% des adénocarcinomes",
+          "correct": false
+        }
+      ],
+      "explanation": "Le type diffus (10%) est surtout chez le sujet jeune, à prédominance féminine, et est constitué de cellules indépendantes muco-sécrétantes (dont les linites)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes de la progression vers l'adénocarcinome distal de type intestinal en cas d'infection à Helicobacter pylori ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrite chronique atrophique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Métaplasie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysplasie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ulcère gastrique",
+          "correct": false
+        }
+      ],
+      "explanation": "La progression est : gastrite # gastrite chronique atrophique # métaplasie # dysplasie # adénocarcinome distal, généralement de type intestinal."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas une consultation oncogénétique est-elle recommandée pour le cancer gastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents familiaux de cancer gastrique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Survenue précoce du cancer gastrique avant 40 ans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'une infection à Helicobacter pylori",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Niveau socio-économique bas",
+          "correct": false
+        }
+      ],
+      "explanation": "Une consultation oncogénétique est indiquée en cas d'antécédents familiaux de cancer gastrique ou de survenue précoce avant 40 ans."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs environnementaux reconnus comme facteurs de risque de cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consommation élevée de fruits et légumes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tabac",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Consommation élevée de sel et de nitrites",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Niveau socio-économique bas",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs environnementaux incluent le tabac, la consommation élevée de sel et de nitrites (charcuterie), une faible consommation de fruits et légumes, et un niveau socio-économique bas."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les lésions pré-cancéreuses de l'estomac mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrite chronique atrophique et métaplasie intestinale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Biermer",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Polype gastrique adénomateux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ulcère gastrique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lésions pré-cancéreuses incluent la gastrite chronique atrophique et métaplasie intestinale, la maladie de Biermer, la gastrectomie partielle pour affection bénigne, l'ulcère gastrique, la maladie de Ménétrier et le polype gastrique adénomateux."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles du cancer de l'estomac révélatrices de la maladie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie digestive",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Péritonite par perforation gastrique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome obstructif",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Anémie ferriprive",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications révélatrices sont l'hémorragie digestive (anémie ferriprive, méléna, hématémèse) et la péritonite par perforation gastrique. Le syndrome obstructif est un signe clinique, pas une complication au sens strict ici."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les localisations métastatiques révélatrices du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ganglion de Troisier",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Métastase hépatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Métastase pulmonaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Métastase ovarienne (Krukenberg)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les métastases révélatrices peuvent être le ganglion de Troisier, des métastases hépatiques, pulmonaires, ovariennes (Krukenberg) ou une carcinose péritonéale."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'écho-endoscopie dans le bilan d'extension du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspicion de linite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tumeur superficielle (pour mucosectomie éventuelle)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Avant traitement néo-adjuvant",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bilan de résécabilité des métastases",
+          "correct": false
+        }
+      ],
+      "explanation": "L'écho-endoscopie est utile en cas de suspicion de linite, de tumeur superficielle (pour une éventuelle mucosectomie) ou avant un traitement néo-adjuvant. Le bilan de résécabilité des métastases est plutôt du ressort de la TDM."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification TNM, qu'indique un stade N3b ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 à 2 ADP régionales",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "3 à 6 ADP régionales",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "7 à 15 ADP régionales",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "≥ 15 ADP régionales",
+          "correct": true
+        }
+      ],
+      "explanation": "N3b correspond à ≥ 15 ADP régionales."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la chimiothérapie néo-adjuvante (péri-opératoire) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur de stade IA",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeur de stade ≥ II",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Adénocarcinome intestinal limité à la muqueuse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Tumeur non résécable",
+          "correct": false
+        }
+      ],
+      "explanation": "La chimiothérapie péri-opératoire est proposée à tout malade de stade ≥ II (≥ T1N2, T2N1 ou T3N0)."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas une radio-chimiothérapie adjuvante post-opératoire est-elle indiquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si aucune chimiothérapie pré-opératoire n'a été réalisée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de curage insuffisant et tumeur de stade ≥ 2",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'envahissement ganglionnaire pN2 ou pN3 quel que soit le curage",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas d'envahissement ganglionnaire pN1 avec curage suffisant",
+          "correct": false
+        }
+      ],
+      "explanation": "La radio-chimiothérapie adjuvante est indiquée si aucune chimiothérapie pré-opératoire et un curage insuffisant avec tumeur de stade ≥ 2, ou un envahissement ganglionnaire pN2 ou pN3 quel que soit le curage. Elle est à discuter si pN1 avec curage suffisant."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options de traitement palliatif symptomatique en cas de cancer de l'estomac avancé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chirurgie d'exérèse palliative si tumeur symptomatique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Radiothérapie hémostatique si hémorragie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pose de prothèse métallique expansive si occlusion tumorale haute",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie seule",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements palliatifs symptomatiques incluent la chirurgie d'exérèse palliative (hémorragie ou sténose), la radiothérapie hémostatique (hémorragie) et la pose de prothèse métallique expansive (occlusion tumorale haute)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance annuelle après gastrectomie totale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen clinique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Échographie abdominale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "NFS (pour anémie carentielle)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "RP ou TDM",
+          "correct": true
+        }
+      ],
+      "explanation": "Annuellement, il est recommandé de réaliser une NFS (pour anémie post-gastrectomie : carence martiale ou en vitamine B12) et une RP ou TDM. L'examen clinique et l'échographie abdominale sont tous les 6 mois."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications spécifiques possibles après une gastrectomie totale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dumping syndrome",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anémie carentielle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome du petit estomac",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ulcère anastomotique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications après gastrectomie totale incluent le dumping syndrome, l'anémie carentielle (nécessitant une supplémentation IM en vitamine B12), le syndrome du petit estomac, la diarrhée chronique, l'œsophagite (reflux biliaire), la dénutrition et l'ulcère anastomotique."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'adénocarcinome superficiel de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il dépasse la sous-muqueuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est de bon pronostic (survie à 5 ans > 90%)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il peut se présenter sous forme pseudo-ulcéreuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son traitement peut être une mucosectomie endoscopique",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ADK superficiel ne dépasse pas la sous-muqueuse, est de bon pronostic (>90% survie à 5 ans), peut être pseudo-ulcéreux, et peut être traité par mucosectomie endoscopique s'il respecte la muscularis mucosae (T1)."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques et paracliniques de la linite gastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Souvent révélée par un AEG avec amaigrissement",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Endoscopie montrant des gros plis rigides sans aspect tumoral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Biopsies souvent positives (sensibilité > 90%)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "TDM ou TOGD montrant un aspect figé et rétréci de l'estomac",
+          "correct": true
+        }
+      ],
+      "explanation": "La linite est souvent révélée par un AEG avec amaigrissement. L'endoscopie montre des gros plis rigides et l'insufflation est incomplète. Les biopsies sont souvent négatives (Se = 50%). La TDM ou TOGD montre un aspect figé et rétréci de l'estomac."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du lymphome gastrique du MALT ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est de haut grade de malignité",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est lié à l'infection chronique à Helicobacter pylori",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est d'évolution très lente",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il régresse dans 70% des cas après éradication de H. pylori",
+          "correct": true
+        }
+      ],
+      "explanation": "Le lymphome gastrique du MALT est de bas grade de malignité, lié à H. pylori, d'évolution très lente, et régresse dans 70% des cas après éradication de H. pylori."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la tumeur stromale (GIST) de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est d'origine épithéliale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est située dans 2/3 des cas au niveau de la couche musculeuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent asymptomatique de découverte fortuite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle exprime le récepteur membranaire c-kit",
+          "correct": true
+        }
+      ],
+      "explanation": "La GIST est une tumeur mésenchymateuse, située dans 2/3 des cas au niveau de la couche musculeuse, souvent asymptomatique et exprime le récepteur membranaire c-kit."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des tumeurs endocrines gastriques survenant dans le cadre d'une maladie de Biermer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont généralement uniques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont de petite taille",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles ont une évolution lente",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les métastases sont exceptionnelles",
+          "correct": true
+        }
+      ],
+      "explanation": "Les tumeurs endocrines sur maladie de Biermer sont multiples, de petite taille, d'évolution lente, et les métastases sont exceptionnelles."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En France, quelles sont les tendances épidémiologiques récentes concernant le cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des formes distales",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution des formes proximales (cardia)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des formes diffuses (linite)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution des adénocarcinomes (ADK) en général",
+          "correct": false
+        }
+      ],
+      "explanation": "Il y a une augmentation des formes proximales (cardia) et diffuses (linite) et une diminution des formes distales et ADK (par diminution des FdR alimentaires et H. pylori)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une infection à Helicobacter pylori, pourquoi une sérologie peut-elle être nécessaire pour rechercher l'infection même si les biopsies gastriques d'un cancer sont négatives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La sérologie est plus sensible que les biopsies pour l'infection active",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "H. pylori peut être éliminé secondairement après avoir causé le cancer",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les biopsies ne sont pas fiables pour détecter H. pylori",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La sérologie permet de distinguer les souches virulentes de H. pylori",
+          "correct": false
+        }
+      ],
+      "explanation": "H. pylori peut ne pas être retrouvé sur les biopsies gastriques d'un cancer et quand même être la cause (élimination secondaire), d'où la recherche d'une infection par sérologie."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères d'évocation d'un adénocarcinome gastrique diffus héréditaire lié à une mutation du gène CDH1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 cas de cancer gastrique dont 1 < 50 ans sur 2 générations successives",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "3 cas de cancer gastrique indépendamment de l'âge au 1er ou 2nd degré",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un seul cas de cancer gastrique avant 40 ans",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un antécédent familial de cancer du sein chez une femme",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut évoquer cette mutation si 2 cas de cancer gastrique dont 1 < 50 ans sur 2 générations successives ou 3 cas indépendamment de l'âge au 1er ou 2nd degré."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la conduite à tenir pour un porteur sain de la mutation CDH1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrectomie prophylactique après 20 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suivi par endoscopie gastrique avec chromo-endoscopie et biopsies",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chimiothérapie préventive",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Surveillance annuelle par TDM",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un porteur sain, les options sont la gastrectomie prophylactique après 20 ans (pénétrance élevée) ou un suivi par endoscopie gastrique avec chromo-endoscopie et biopsies."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment doit être recherchée et traitée systématiquement une infection à Helicobacter pylori selon l'âge du patient ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par test respiratoire à l'urée quel que soit l'âge",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par endoscopie digestive haute + biopsie chez les patients de moins de 45 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Par test respiratoire à l'urée chez les patients de moins de 45 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par endoscopie digestive haute + biopsie chez les patients de plus de 45 ans",
+          "correct": true
+        }
+      ],
+      "explanation": "La recherche et le traitement systématique d'une infection à Helicobacter pylori se fait par test respiratoire à l'urée chez les moins de 45 ans ou par endoscopie digestive haute + biopsie chez les plus de 45 ans."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels syndromes paranéoplasiques peuvent être associés au cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie thromboembolique veineuse (MTEV)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Acanthosis nigricans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anémie hémolytique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glomérulonéphrite extra-membraneuse",
+          "correct": true
+        }
+      ],
+      "explanation": "Les syndromes paranéoplasiques incluent la MTEV, l'acanthosis nigricans, l'anémie hémolytique, la dermatomyosite, la glomérulonéphrite extra-membraneuse et la neuropathie périphérique."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors de l'endoscopie œso-gastro-duodénale pour un cancer de l'estomac, quelles sont les informations essentielles à recueillir ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le siège de la lésion et son étendue",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La distance par rapport au cardia et au pylore",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'aspect macroscopique (ulcéro-végétante, végétante, ulcérante, infiltrante)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le nombre de ganglions envahis",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie doit préciser le siège et l'étendue de la lésion, sa distance par rapport au cardia et au pylore, et son aspect macroscopique. Le nombre de ganglions envahis est évalué par le bilan d'extension (TDM, écho-endoscopie)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les métastases à distance (M1) selon la classification TNM ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ADP sus-claviculaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "ADP mésentérique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "ADP rétro-pancréatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "ADP para-aortique",
+          "correct": true
+        }
+      ],
+      "explanation": "M1 inclut les ADP sus-claviculaires, mésentériques, rétro-pancréatiques et para-aortiques, en plus des métastases classiques."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel stade TNM correspond à un stade IIA du cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "T1N0",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "T1N2 ou T2N1 ou T3N0",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "T1N3 ou T2N2 ou T3N1 ou T4aN0",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "T4aN1 ou T2N3 ou T3N2-3",
+          "correct": false
+        }
+      ],
+      "explanation": "Le stade IIA correspond à T1N2 ou T2N1 ou T3N0."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la stratégie chirurgicale recommandée pour une localisation tumorale à l'antre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrectomie totale avec anse grêle montée en Y",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Gastrectomie des 4/5ème avec anastomose gastro-jéjunale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mucosectomie endoscopique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Gastrectomie partielle sans curage ganglionnaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une localisation à l'antre, une gastrectomie des 4/5ème avec anastomose gastro-jéjunale est recommandée."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le protocole de chimiothérapie péri-opératoire standard mentionné ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5FU seul",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Épirucibine + 5FU + cisplatine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Trastuzumab seul",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Imatinib",
+          "correct": false
+        }
+      ],
+      "explanation": "La chimiothérapie péri-opératoire standard est à base d'épirucibine + 5FU + cisplatine."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de surveillance tous les 6 mois après un traitement curatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen clinique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Échographie abdominale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "NFS",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "TDM",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous les 6 mois, un examen clinique et une échographie abdominale sont recommandés. La NFS et la TDM sont annuelles."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi les biopsies endoscopiques de la linite gastrique ont-elles une faible sensibilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La linite est une tumeur sous-muqueuse difficile à atteindre",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La muqueuse est souvent respectée par l'envahissement tumoral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les cellules en bague à chaton sont difficiles à identifier",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hypertrophie des plis gastriques masque les lésions",
+          "correct": false
+        }
+      ],
+      "explanation": "La sensibilité des biopsies est de 50% car la muqueuse est fréquemment respectée par l'envahissement tumoral, qui se développe principalement dans les couches profondes."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement chirurgical recommandé pour une tumeur stromale (GIST) de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrectomie totale avec curage ganglionnaire extensif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Exérèse chirurgicale monobloc sans curage ganglionnaire extensif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mucosectomie endoscopique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie néo-adjuvante systématique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la GIST est l'exérèse chirurgicale monobloc sans curage ganglionnaire extensif."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel cas la thérapie ciblée par trastuzumab (Herceptin®) est-elle indiquée en chimiothérapie palliative pour le cancer de l'estomac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de lymphome gastrique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de surexpression d'HER2",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour toutes les tumeurs de type diffus",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de tumeur stromale (GIST)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trastuzumab (Herceptin®) est une thérapie ciblée utilisée si surexpression d'HER2 (< 20% des cas)."
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Residanat Mauritanie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f9ff;
+      --ink: #081830;
+      --muted: #485a70;
+      --line: rgba(111, 132, 158, .24);
+      --primary: #006fc8;
+      --primary-soft: #daeeff;
+      --surface: rgba(255, 255, 255, .94);
+      --surface-low: #eef6ff;
+      --ok: #007e70;
+      --bad: #ba1a1a;
+      --shadow: 0 18px 38px rgba(16, 52, 92, .12);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(218, 238, 255, .95), transparent 34rem),
+        linear-gradient(180deg, #f6f9ff 0%, #eef6ff 100%);
+    }
+
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    .icon { font-family: "Material Symbols Outlined"; font-weight: normal; font-style: normal; line-height: 1; font-size: 24px; }
+
+    .app {
+      display: grid;
+      grid-template-columns: 296px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 18px;
+      border-right: 1px solid var(--line);
+      background: rgba(255, 255, 255, .74);
+      backdrop-filter: blur(18px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 8px 18px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .mark {
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      border-radius: 16px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .brand strong { display: block; font-size: 18px; color: var(--primary); }
+    .brand span { color: var(--muted); font-size: 13px; }
+
+    nav {
+      display: grid;
+      gap: 8px;
+      padding-top: 18px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      min-height: 52px;
+      padding: 0 14px;
+      border: 1px solid transparent;
+      border-radius: 16px;
+      background: transparent;
+      color: var(--muted);
+      text-align: left;
+      font-weight: 650;
+    }
+
+    .nav.active {
+      background: rgba(0, 111, 200, .1);
+      color: var(--primary);
+      border-color: rgba(0, 111, 200, .16);
+    }
+
+    main {
+      width: min(100%, 1120px);
+      margin: 0 auto;
+      padding: 28px clamp(16px, 4vw, 48px) 44px;
+    }
+
+    header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .kicker {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.05;
+      letter-spacing: -.02em;
+    }
+
+    .summary {
+      margin: 10px 0 0;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .search {
+      position: relative;
+      min-width: min(380px, 100%);
+    }
+
+    .search .icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+
+    .search input {
+      width: 100%;
+      min-height: 48px;
+      padding: 0 14px 0 44px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--surface);
+      color: var(--ink);
+      outline: none;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, .9) inset;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .group {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .group-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      background: var(--surface-low);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .group-head strong { color: var(--primary); }
+    .count { color: var(--muted); font-size: 13px; font-weight: 650; }
+
+    .row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 16px;
+      border: 0;
+      border-bottom: 1px solid rgba(111, 132, 158, .18);
+      background: transparent;
+      color: inherit;
+      text-align: left;
+    }
+
+    .row:last-child { border-bottom: 0; }
+    .row:hover { background: rgba(218, 238, 255, .48); }
+    .row.locked { opacity: .58; cursor: not-allowed; }
+    .row.locked:hover { background: transparent; }
+
+    .badge {
+      flex: 0 0 auto;
+      min-width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .row h3 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 750;
+      line-height: 1.25;
+    }
+
+    .row p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .chev { margin-left: auto; color: var(--muted); }
+    .view { display: none; }
+    .view.active { display: block; }
+
+    body.clean-mode aside,
+    body.clean-mode main > header {
+      display: none;
+    }
+
+    body.clean-mode .app {
+      grid-template-columns: 1fr;
+    }
+
+    body.clean-mode main {
+      width: min(100%, 1180px);
+      padding-top: 16px;
+    }
+
+    .reader-clean {
+      min-height: calc(100vh - 32px);
+    }
+
+    .panel {
+      margin-top: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: center;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface-low);
+    }
+
+    .panel-head h2 { margin: 0; font-size: 18px; }
+    .panel-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      color: var(--primary);
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .btn.primary { border-color: var(--primary); background: var(--primary); color: #fff; }
+
+    iframe {
+      width: 100%;
+      height: min(72vh, 780px);
+      border: 0;
+      background: #fff;
+    }
+
+    .quiz-card {
+      padding: 18px;
+    }
+
+    .quiz-meta {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .question {
+      margin: 10px 0 16px;
+      font-size: 20px;
+      font-weight: 750;
+      line-height: 1.35;
+    }
+
+    .options {
+      display: grid;
+      gap: 10px;
+    }
+
+    .option {
+      display: flex;
+      gap: 12px;
+      align-items: start;
+      width: 100%;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      text-align: left;
+    }
+
+    .option.selected { border-color: var(--primary); background: var(--primary-soft); }
+    .option.correct { border-color: rgba(0, 126, 112, .4); background: #c9f8ef; }
+    .option.wrong { border-color: rgba(186, 26, 26, .35); background: #ffdad6; }
+
+    .letter {
+      flex: 0 0 auto;
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 10px;
+      background: var(--surface-low);
+      color: var(--primary);
+      font-weight: 800;
+    }
+
+    .explain {
+      margin-top: 14px;
+      padding: 14px;
+      border-radius: 16px;
+      background: var(--surface-low);
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .empty {
+      padding: 24px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 840px) {
+      .app { grid-template-columns: 1fr; }
+      aside {
+        position: sticky;
+        z-index: 10;
+        height: auto;
+        padding: 10px 12px;
+      }
+      .brand { padding-bottom: 10px; }
+      nav { grid-template-columns: 1fr 1fr; padding-top: 10px; }
+      main { padding-top: 18px; }
+      header { display: grid; }
+      .search { min-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <nav>
+        <button class="nav active" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
+        <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
+      </nav>
+    </aside>
+
+    <main>
+      <header>
+        <div>
+          <p class="kicker">Mauritanie</p>
+          <h1 id="title">Lectures</h1>
+          <p id="subtitle" class="summary">Cours et QCM de la partie Mauritanie, dans une interface simple.</p>
+        </div>
+        <label class="search">
+          <span class="icon">search</span>
+          <input id="search" type="search" placeholder="Rechercher...">
+        </label>
+      </header>
+
+      <section id="lectures" class="view active">
+        <div id="lectureList" class="grid"></div>
+      </section>
+
+      <section id="quiz" class="view">
+        <div id="quizList" class="grid"></div>
+      </section>
+
+      <section id="reader" class="view reader-clean"></section>
+      <section id="quizRunner" class="view reader-clean"></section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/portal-auth.js"></script>
+  <script>
+    const state = { view: "lectures", query: "", source: {}, lectures: [], session: null };
+    const $ = (id) => document.getElementById(id);
+    const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const icon = (name) => `<span class="icon">${name}</span>`;
+
+    async function readJson(path) {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`${path}: ${res.status}`);
+      return res.json();
+    }
+
+    function flatten(data) {
+      return Object.entries(data).flatMap(([category, items]) =>
+        (items || []).map((item, index) => ({ ...item, category, number: index + 1 }))
+      );
+    }
+
+    function matches(item) {
+      const q = state.query.trim().toLowerCase();
+      if (!q) return true;
+      return [item.id, item.title, item.category].join(" ").toLowerCase().includes(q);
+    }
+
+    function group(items) {
+      return Object.entries(items.reduce((map, item) => {
+        (map[item.category] ||= []).push(item);
+        return map;
+      }, {}));
+    }
+
+    async function portalLogout() {
+      localStorage.removeItem("portalGuest");
+      if (window.supabaseClient) await supabaseClient.auth.signOut();
+      window.location.replace("login.html");
+    }
+
+    function isGuestMode() {
+      return Boolean(window.portalAuthProfile?.isGuest || localStorage.getItem("portalGuest") === "mauritania");
+    }
+
+    function guestAllowedLectureIds() {
+      const allowed = new Set();
+      Object.values(state.source || {}).forEach((items) => {
+        const first = (items || []).find((item) => item?.id);
+        if (first) allowed.add(first.id);
+      });
+      return allowed;
+    }
+
+    function isAllowedForGuest(item) {
+      return !isGuestMode() || guestAllowedLectureIds().has(item.id);
+    }
+
+    function showGuestLocked() {
+      alert("Mode invite: creez un compte approuve pour debloquer tous les cours et quiz.");
+    }
+
+    function renderGrouped(target, items, row) {
+      const groups = group(items.filter(matches));
+      $(target).innerHTML = groups.length ? groups.map(([category, list]) => `
+        <section class="group">
+          <div class="group-head"><strong>${esc(category)}</strong><span class="count">${list.length} cours</span></div>
+          ${list.map(row).join("")}
+        </section>
+      `).join("") : `<div class="empty">Aucun resultat.</div>`;
+    }
+
+    function lectureRow(item) {
+      const locked = !isAllowedForGuest(item);
+      return `
+        <button class="row${locked ? " locked" : ""}" type="button" onclick="${locked ? "showGuestLocked()" : `openLecture('${esc(item.id)}')`}">
+          <span class="badge">${locked ? icon("lock") : esc(item.id.split("-")[0].toUpperCase())}</span>
+          <span><h3>${esc(item.title)}</h3><p>${locked ? "Verrouille - compte approuve requis" : esc(item.category)}</p></span>
+          <span class="chev">${icon(locked ? "lock" : "chevron_right")}</span>
+        </button>
+      `;
+    }
+
+    function quizRow(item) {
+      const locked = !isAllowedForGuest(item);
+      return `
+        <button class="row${locked ? " locked" : ""}" type="button" onclick="${locked ? "showGuestLocked()" : `startQuiz('${esc(item.id)}')`}">
+          <span class="badge">${icon(locked ? "lock" : "play_circle")}</span>
+          <span><h3>${esc(item.title)}</h3><p>${locked ? "Verrouille - compte approuve requis" : `${esc(item.category)} - demarrer directement`}</p></span>
+          <span class="chev">${icon(locked ? "lock" : "chevron_right")}</span>
+        </button>
+      `;
+    }
+
+    function findLecture(id) {
+      return state.lectures.find((item) => item.id === id);
+    }
+
+    function openLecture(id) {
+      const item = findLecture(id);
+      if (!item) return;
+      if (!isAllowedForGuest(item)) return showGuestLocked();
+      $("reader").innerHTML = `
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <button class="btn" type="button" onclick="go('lectures')">${icon("arrow_back")}Retour</button>
+            </div>
+            <div class="panel-actions">
+              <a class="btn" href="${esc(item.pdf)}" target="_blank" rel="noreferrer">${icon("open_in_new")}PDF</a>
+              <button class="btn primary" type="button" onclick="go('quiz'); startQuiz('${esc(item.id)}')">${icon("quiz")}Quiz</button>
+            </div>
+          </div>
+          <div class="quiz-card">
+            <p class="quiz-meta">${esc(item.category)}</p>
+            <h2 style="margin:6px 0 14px">${esc(item.title)}</h2>
+          </div>
+          <iframe src="${esc(item.pdf)}" title="${esc(item.title)}"></iframe>
+        </div>
+      `;
+      go("reader");
+    }
+
+    function normalizeQuestions(payload) {
+      return (payload.questions || []).map((question, index) => ({
+        id: question.id || `q${index + 1}`,
+        question: question.question || question.prompt || "",
+        explanation: question.explanation || question.correction || "",
+        options: (question.options || []).map((option, optionIndex) => {
+          const id = String(option.id || "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[optionIndex] || optionIndex + 1).toUpperCase();
+          return { id, text: option.text || option.label || String(option), correct: Boolean(option.correct) };
+        })
+      })).filter((question) => question.question && question.options.length);
+    }
+
+    async function startQuiz(id) {
+      const item = findLecture(id);
+      if (!item?.training) return;
+      if (!isAllowedForGuest(item)) return showGuestLocked();
+      $("quizRunner").innerHTML = `<div class="panel"><div class="empty">Chargement du quiz...</div></div>`;
+      go("quizRunner");
+      try {
+        const payload = await readJson(item.training);
+        const questions = normalizeQuestions(payload);
+        state.session = { item, questions, index: 0, selected: new Set(), checked: false, score: 0 };
+        renderQuestion();
+      } catch {
+        $("quizRunner").innerHTML = `<div class="panel"><div class="empty">Impossible de charger ce quiz.</div></div>`;
+      }
+    }
+
+    function renderQuestion() {
+      const s = state.session;
+      if (!s) return;
+      if (s.index >= s.questions.length) {
+        $("quizRunner").innerHTML = `
+          <div class="panel">
+            <div class="panel-head">
+              <button class="btn" type="button" onclick="go('quiz')">${icon("arrow_back")}Retour aux quiz</button>
+            </div>
+            <div class="quiz-card">
+              <p class="quiz-meta">${esc(s.item.title)}</p>
+              <p class="question">Score: ${s.score}/${s.questions.length}</p>
+              <button class="btn primary" type="button" onclick="startQuiz('${esc(s.item.id)}')">${icon("restart_alt")}Recommencer</button>
+            </div>
+          </div>
+        `;
+        return;
+      }
+      const q = s.questions[s.index];
+      $("quizRunner").innerHTML = `
+        <div class="panel">
+          <div class="panel-head">
+            <button class="btn" type="button" onclick="go('quiz')">${icon("arrow_back")}Retour aux quiz</button>
+            <span class="count">Question ${s.index + 1}/${s.questions.length}</span>
+          </div>
+          <div class="quiz-card">
+            <p class="quiz-meta">${esc(s.item.title)}</p>
+            <div class="question">${esc(q.question)}</div>
+            <div class="options">
+              ${q.options.map((opt) => optionMarkup(opt)).join("")}
+            </div>
+            <div class="panel-actions" style="margin-top:16px">
+              <button class="btn primary" type="button" onclick="${s.checked ? "nextQuestion()" : "checkAnswer()"}">${s.checked ? icon("arrow_forward") + "Suivant" : icon("check_circle") + "Valider"}</button>
+            </div>
+            ${s.checked && q.explanation ? `<div class="explain">${esc(q.explanation)}</div>` : ""}
+          </div>
+        </div>
+      `;
+    }
+
+    function optionMarkup(opt) {
+      const s = state.session;
+      let cls = s.selected.has(opt.id) ? " selected" : "";
+      if (s.checked && opt.correct) cls += " correct";
+      if (s.checked && s.selected.has(opt.id) && !opt.correct) cls += " wrong";
+      return `
+        <button class="option${cls}" type="button" onclick="toggleOption('${esc(opt.id)}')" ${s.checked ? "disabled" : ""}>
+          <span class="letter">${esc(opt.id)}</span>
+          <span>${esc(opt.text)}</span>
+        </button>
+      `;
+    }
+
+    function toggleOption(id) {
+      const s = state.session;
+      if (!s || s.checked) return;
+      s.selected.has(id) ? s.selected.delete(id) : s.selected.add(id);
+      renderQuestion();
+    }
+
+    function checkAnswer() {
+      const s = state.session;
+      const q = s.questions[s.index];
+      const correct = new Set(q.options.filter((opt) => opt.correct).map((opt) => opt.id));
+      const ok = s.selected.size === correct.size && [...correct].every((id) => s.selected.has(id));
+      if (ok) s.score += 1;
+      s.checked = true;
+      renderQuestion();
+    }
+
+    function nextQuestion() {
+      const s = state.session;
+      s.index += 1;
+      s.selected = new Set();
+      s.checked = false;
+      renderQuestion();
+    }
+
+    function go(view) {
+      state.view = view;
+      document.querySelectorAll(".view").forEach((node) => node.classList.toggle("active", node.id === view));
+      document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active", node.dataset.view === view || (view === "quizRunner" && node.dataset.view === "quiz")));
+      document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
+      $("title").textContent = view === "quiz" ? "Quiz" : "Lectures";
+      $("subtitle").textContent = view === "quiz" ? "Touchez un cours pour commencer le quiz directement." : "Cours de la partie Mauritanie avec lecture PDF.";
+      location.hash = view;
+      scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function render() {
+      renderGrouped("lectureList", state.lectures, lectureRow);
+      renderGrouped("quizList", state.lectures.filter((item) => item.training), quizRow);
+    }
+
+    document.querySelectorAll(".nav").forEach((btn) => btn.addEventListener("click", () => go(btn.dataset.view)));
+    $("search").addEventListener("input", (event) => {
+      state.query = event.target.value;
+      render();
+    });
+
+    readJson("data/lectures.json").then((data) => {
+      state.source = data;
+      state.lectures = flatten(data);
+      render();
+      if (location.hash === "#quiz") go("quiz");
+    }).catch(() => {
+      $("lectureList").innerHTML = `<div class="empty">Impossible de charger data/lectures.json.</div>`;
+    });
+  </script>
+</body>
+</html>

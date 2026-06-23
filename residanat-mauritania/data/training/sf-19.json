@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-19",
+  "title": "Le gène : structures et fonctions",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Qu'est-ce qu'un gène selon sa définition fondamentale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un segment d'ADN contenant l'information pour un produit fonctionnel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une protéine régulatrice de la transcription.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une séquence d'ARN ribosomal.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'ensemble des chromosomes d'une cellule.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une région du chromosome qui relie les chromatides sœurs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un gène est défini comme un segment d'ADN qui contient l'information nécessaire à la synthèse d'un produit fonctionnel, le plus souvent une protéine, mais parfois aussi un ARN fonctionnel."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les deux étapes majeures de l'expression d'un gène, selon le dogme central de la biologie moléculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réplication et mutation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transcription et traduction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épissage et maturation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Condensation et ségrégation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réparation et recombinaison.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'expression d'un gène se fait en deux étapes majeures : la transcription et la traduction."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Comment est défini le caryotype humain ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La séquence complète de l'ADN d'un individu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La représentation ordonnée de l'ensemble des chromosomes d'une cellule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ensemble des gènes codant pour des protéines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La structure d'un chromosome métaphasique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le processus de réplication de l'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le caryotype est la représentation ordonnée de l'ensemble des chromosomes d'une cellule."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la formule chromosomique normale pour une femme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "46,XY.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "47,XX,+21.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "45,X.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "46,XX.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "47,XXY.",
+          "correct": false
+        }
+      ],
+      "explanation": "La formule chromosomique normale est 46,XX pour une femme et 46,XY pour un homme."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les deux grandes catégories d'anomalies chromosomiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mutations ponctuelles et insertions.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Anomalies de nombre et de structure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Polymorphismes et délétions.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Réplications et transcriptions.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Épissages et traductions.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies chromosomiques sont des altérations du nombre ou de la structure des chromosomes."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les composantes de la structure d'un gène codant pour une protéine chez les eucaryotes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exons.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Introns.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Promoteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Télomères.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Centromère.",
+          "correct": false
+        }
+      ],
+      "explanation": "La structure d'un gène codant pour une protéine chez les eucaryotes est morcelée et comprend des exons, des introns et un promoteur. Les télomères et le centromère sont des composantes du chromosome."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant les exons et les introns dans un gène eucaryote, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les exons sont des séquences non-codantes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les introns sont éliminés de l'ARN pré-messager par épissage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les exons se retrouvent dans l'ARN messager final.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les introns sont transcrits mais non traduits.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les exons sont toujours plus longs que les introns.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les exons sont les séquences codantes qui seront exprimées et se retrouveront dans l'ARN messager final. Les introns sont les séquences non-codantes, intercalées entre les exons, qui sont transcrits mais ensuite éliminés de l'ARN pré-messager par épissage."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'étape de transcription ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se déroule dans le cytoplasme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'enzyme ARN polymérase synthétise l'ARN pré-messager.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ADN sert de matrice.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'Uracile remplace la Thymine dans l'ARN.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle aboutit directement à une protéine fonctionnelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La transcription se déroule dans le noyau. L'enzyme ARN polymérase synthétise une molécule d'ARN pré-messager en utilisant un des deux brins de l'ADN du gène comme matrice. L'ARN est complémentaire de l'ADN, à la différence que l'Uracile (U) remplace la Thymine (T). Elle n'aboutit pas directement à une protéine."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles modifications subit l'ARN pré-messager lors de sa maturation dans le noyau ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ajout d'une 'coiffe' en 5'.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ajout d'une 'queue poly-A' en 3'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épissage des introns.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traduction en protéine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réplication de l'ARN.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ARN pré-messager subit plusieurs modifications : ajout d'une 'coiffe' en 5', ajout d'une 'queue poly-A' en 3' et épissage (les introns sont excisés et les exons sont raboutés). La traduction se fait dans le cytoplasme."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'étape de traduction ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se déroule dans le noyau.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'ARNm mature est exporté dans le cytoplasme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les ribosomes lisent la séquence de l'ARNm par codons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les ARN de transfert (ARNt) apportent les acides aminés correspondants.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle forme une chaîne polypeptidique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ARNm mature est exporté dans le cytoplasme. Les ribosomes lisent la séquence de l'ARNm par groupes de trois nucléotides (les codons). Chaque codon spécifie un acide aminé. Les ARN de transfert (ARNt) apportent les acides aminés correspondants, qui sont assemblés en une chaîne polypeptidique."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un chromosome métaphasique est composé de quelles structures ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deux chromatides sœurs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un centromère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des télomères.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des histones.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des introns.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un chromosome métaphasique est composé de deux chromatides sœurs, d'un centromère et de télomères. Les histones sont des protéines autour desquelles l'ADN est enroulé pour former la chromatine, et les introns sont des séquences géniques."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles du centromère dans un chromosome métaphasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protéger les extrémités du chromosome de la dégradation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Relier les deux chromatides sœurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Initier la transcription du gène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Coder pour une protéine spécifique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Essentiel à la ségrégation des chromosomes lors de la division cellulaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le centromère est la région qui relie les deux chromatides sœurs et qui est essentielle à la ségrégation des chromosomes lors de la division cellulaire."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du caryotype des cellules somatiques humaines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont haploïdes (n).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles contiennent 23 paires de chromosomes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles ont 22 paires d'autosomes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles ont 2 paires de chromosomes sexuels.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La formule normale est 46,XY pour une femme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cellules somatiques humaines sont diploïdes (2n) et contiennent 23 paires de chromosomes, dont 22 paires d'autosomes et 1 paire de chromosomes sexuels. La formule normale est 46,XX pour une femme."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quand surviennent le plus souvent les anomalies chromosomiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lors de la réplication de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lors de la formation des gamètes (méiose).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pendant la traduction des protéines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Au cours de l'épissage de l'ARN.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Lors de la condensation de la chromatine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies chromosomiques surviennent le plus souvent accidentellement lors de la formation des gamètes (méiose)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques associées à la Trisomie 21 (syndrome de Down) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Petite taille.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Déficience intellectuelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysmorphie faciale caractéristique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque accru de malformations cardiaques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Atrophie testiculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Trisomie 21 est caractérisée par une déficience intellectuelle, une dysmorphie faciale caractéristique et un risque accru de malformations cardiaques. La petite taille et l'atrophie testiculaire sont associées à d'autres syndromes."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du Syndrome de Turner (monosomie X) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il touche les garçons.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La formule chromosomique est 45,X.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est caractérisé par une petite taille.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il entraîne une infertilité due à une dysgénésie ovarienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est associé à une grande taille.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Syndrome de Turner touche les filles, sa formule est 45,X. Il se caractérise par une petite taille et une infertilité (dysgénésie ovarienne), et parfois des malformations cardiaques ou rénales."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques du Syndrome de Klinefelter (47,XXY) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il touche les filles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Grande taille.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atrophie testiculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infertilité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dysmorphie faciale caractéristique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Syndrome de Klinefelter touche les garçons et se manifeste par une grande taille, une atrophie testiculaire (infertilité) et des difficultés d'apprentissage."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant les aneuploïdies, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La plupart des aneuploïdies sont viables.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La Trisomie 21 est la seule trisomie autosomique viable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Monosomie X est la seule monosomie viable chez l'homme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les aneuploïdies des chromosomes sexuels sont moins sévères que celles des autosomes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles résultent d'une duplication chromosomique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La plupart des aneuploïdies sont non viables. La Trisomie 21 est la seule trisomie autosomique viable. La Monosomie X est la seule monosomie viable chez l'homme. Les aneuploïdies des chromosomes sexuels sont plus fréquentes et moins sévères que celles des autosomes. Elles résultent d'une non-disjonction, pas d'une duplication."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce qu'une délétion chromosomique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'échange de matériel entre deux chromosomes non homologues.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La perte d'un segment de chromosome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'un segment de chromosome en double.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un segment de chromosome retourné 'tête-bêche'.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'absence d'un chromosome entier.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une délétion est la perte d'un segment de chromosome."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment se caractérise une duplication chromosomique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par la perte d'un segment de chromosome.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par la présence d'un segment de chromosome en double.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par l'échange de matériel entre chromosomes homologues.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Par l'inversion d'un segment chromosomique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par l'ajout d'un chromosome entier.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une duplication est la présence d'un segment de chromosome en double."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce qu'une translocation chromosomique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La perte d'un segment chromosomique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La présence d'un chromosome supplémentaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'échange de matériel entre deux chromosomes non homologues.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le retournement d'un segment chromosomique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'absence d'un chromosome.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une translocation est l'échange de matériel entre deux chromosomes non homologues."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment est définie une inversion chromosomique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un segment de chromosome est perdu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un segment de chromosome est présent en double.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un segment de chromosome est retourné 'tête-bêche'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un chromosome entier est manquant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Deux chromosomes homologues échangent du matériel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une inversion est un segment de chromosome retourné 'tête-bêche'."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment l'ADN est-il compacté pour tenir dans le noyau ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est directement enroulé sur lui-même.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est enroulé autour de protéines appelées histones.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est fragmenté en petits segments.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est lié à des ARN de transfert.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est dégradé puis reconstitué.",
+          "correct": false
+        }
+      ],
+      "explanation": "La longue molécule d'ADN est enroulée autour de protéines appelées histones, formant la chromatine, pour tenir dans le noyau."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "À quel stade la chromatine se condense-t-elle de manière extrême pour former les chromosomes visibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pendant l'interphase.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lors de la division cellulaire (mitose).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Au cours de la transcription.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pendant la traduction.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Lors de la réplication de l'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors de la division cellulaire (mitose), la chromatine se condense de manière extrême pour former les chromosomes visibles."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel(s) type(s) de produit(s) fonctionnel(s) un gène peut-il coder ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uniquement des protéines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Uniquement des ARN messagers.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une protéine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un ARN de transfert.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un ARN ribosomal.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un gène contient l'information nécessaire à la synthèse d'un produit fonctionnel, le plus souvent une protéine, mais parfois aussi un ARN fonctionnel (ARN de transfert, ARN ribosomal)."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Décrivez l'ordre correct des événements du gène à la protéine chez les eucaryotes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transcription de l'ADN en ARN pré-messager.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maturation de l'ARN pré-messager en ARNm mature.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Export de l'ARNm mature vers le noyau.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traduction de l'ARNm en chaîne polypeptidique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réplication de l'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'expression d'un gène commence par la transcription de l'ADN en ARN pré-messager dans le noyau. Cet ARN pré-messager subit ensuite une maturation en ARNm mature (toujours dans le noyau). L'ARNm mature est ensuite exporté dans le cytoplasme pour la traduction en chaîne polypeptidique. La réplication de l'ADN est un processus distinct."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant le promoteur d'un gène, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une séquence codante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est situé en aval du gène.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'ARN polymérase s'y fixe pour initier la transcription.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "C'est une séquence régulatrice.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est éliminé lors de l'épissage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le promoteur est une séquence régulatrice située en amont du gène, sur laquelle se fixe l'ARN polymérase pour initier la transcription. Ce n'est pas une séquence codante et il n'est pas éliminé lors de l'épissage."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Où se déroulent les étapes clés du dogme central de la biologie moléculaire chez les eucaryotes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La transcription se déroule dans le noyau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La maturation de l'ARN se déroule dans le cytoplasme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La traduction se déroule dans le noyau.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'export de l'ARNm se fait du noyau vers le cytoplasme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'épissage a lieu dans le noyau.",
+          "correct": true
+        }
+      ],
+      "explanation": "La transcription se déroule dans le noyau. La maturation de l'ARN (incluant l'épissage) se déroule également dans le noyau. L'ARNm mature est ensuite exporté dans le cytoplasme pour la traduction."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors de la transcription, quelles sont les différences moléculaires entre l'ADN matrice et l'ARN pré-messager synthétisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ARN contient de la désoxyribose, l'ADN du ribose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'ARN est bicaténaire, l'ADN est monocaténaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'Uracile (U) dans l'ARN remplace la Thymine (T) de l'ADN.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ARN est complémentaire d'un des brins de l'ADN.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'ARN contient de la Guanine, l'ADN de l'Adénine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ARN est complémentaire d'un des deux brins de l'ADN, à la différence que l'Uracile (U) remplace la Thymine (T). L'ARN est monocaténaire et contient du ribose, tandis que l'ADN est bicaténaire et contient de la désoxyribose. Les deux contiennent Guanine et Adénine."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des ribosomes et des ARN de transfert (ARNt) dans la traduction ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les ribosomes synthétisent l'ARN pré-messager.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les ribosomes lisent la séquence de l'ARNm par codons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les ARNt apportent les acides aminés correspondants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les ARNt forment la chaîne polypeptidique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les ribosomes excisent les introns.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les ribosomes lisent la séquence de l'ARNm par groupes de trois nucléotides (les codons). Les ARN de transfert (ARNt) apportent les acides aminés correspondants, qui sont assemblés en une chaîne polypeptidique par les ribosomes. L'ARN polymérase synthétise l'ARN pré-messager et l'épissage est réalisé par d'autres complexes."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant les chromatides sœurs d'un chromosome métaphasique, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont des copies d'ADN identiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont le résultat de la réplication de l'ADN.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont reliées par les télomères.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles se séparent lors de la transcription.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont formées après la mitose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les chromatides sœurs sont deux copies d'ADN identiques, résultats de la réplication de l'ADN avant la mitose. Elles sont reliées par le centromère et se séparent lors de la division cellulaire."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle des télomères ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relier les chromatides sœurs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protéger les extrémités des chromosomes de la dégradation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Initier la réplication de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Coder pour des protéines essentielles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Servir de point d'attache pour les fuseaux mitotiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les télomères sont des séquences répétées aux extrémités des chromosomes qui les protègent de la dégradation."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des chromosomes humains ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les autosomes sont numérotés de 1 à 22, du plus grand au plus petit.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La paire de chromosomes sexuels est XX chez l'homme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les cellules somatiques sont diploïdes (2n).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il y a 23 paires d'autosomes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les gonosomes déterminent le sexe.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les autosomes sont numérotés de 1 (le plus grand) à 22 (le plus petit). Les cellules somatiques humaines sont diploïdes (2n) et contiennent 23 paires de chromosomes, dont 22 paires d'autosomes et 1 paire de chromosomes sexuels (gonosomes) qui déterminent le sexe (XX chez la femme, XY chez l'homme)."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une non-disjonction des chromosomes lors de la méiose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Formation de gamètes avec un nombre anormal de chromosomes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du risque de malformations congénitales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Apparition d'anomalies de structure chromosomique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la viabilité des embryons.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réarrangement équilibré du matériel génétique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les aneuploïdies (anomalies de nombre) résultent d'une non-disjonction des chromosomes lors de la méiose, entraînant la formation de gamètes avec un nombre anormal de chromosomes. La plupart sont non viables et sont une cause majeure de malformations congénitales. Les anomalies de structure résultent de cassures et réarrangements, non de non-disjonction."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant la Trisomie 21, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sa formule chromosomique peut être 47,XX,+21.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est la seule trisomie autosomique viable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est associée à une déficience intellectuelle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est caractérisée par une atrophie testiculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une anomalie de structure.",
+          "correct": false
+        }
+      ],
+      "explanation": "La formule de la Trisomie 21 est 47,XX,+21 ou 47,XY,+21. C'est la seule trisomie autosomique viable et elle est caractérisée par une déficience intellectuelle, une dysmorphie faciale et un risque accru de malformations cardiaques. L'atrophie testiculaire est associée au syndrome de Klinefelter. C'est une anomalie de nombre, pas de structure."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques et cytogénétiques du Syndrome de Turner ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Formule chromosomique 45,X.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Touche les garçons.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Petite taille.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infertilité due à une dysgénésie ovarienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Difficultés d'apprentissage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Syndrome de Turner a une formule 45,X, touche les filles et se caractérise par une petite taille, une infertilité (dysgénésie ovarienne) et parfois des malformations cardiaques ou rénales. Les difficultés d'apprentissage sont associées au syndrome de Klinefelter."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du Syndrome de Klinefelter ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Formule chromosomique 47,XXY.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Touche les filles.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Grande taille.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atrophie testiculaire et infertilité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dysmorphie faciale caractéristique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Syndrome de Klinefelter a une formule 47,XXY, touche les garçons et se manifeste par une grande taille, une atrophie testiculaire (infertilité) et des difficultés d'apprentissage. La dysmorphie faciale est associée à la Trisomie 21."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comparez les aneuploïdies des chromosomes sexuels et celles des autosomes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les aneuploïdies des chromosomes sexuels sont généralement plus sévères.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les aneuploïdies des autosomes sont plus fréquentes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La plupart des aneuploïdies autosomiques sont non viables.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Trisomie 21 est une exception à la règle de non-viabilité des aneuploïdies autosomiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le syndrome de Turner est une aneuploïdie autosomique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les aneuploïdies des chromosomes sexuels sont plus fréquentes et moins sévères que celles des autosomes. La plupart des aneuploïdies autosomiques sont non viables, la Trisomie 21 étant la seule trisomie autosomique viable. Le syndrome de Turner est une aneuploïdie gonosomique (chromosome sexuel)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant les anomalies de structure chromosomique, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles résultent de cassures chromosomiques suivies de réarrangements anormaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une translocation équilibrée n'entraîne jamais de risque pour la descendance.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une délétion est une perte de matériel génétique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une duplication est un gain de matériel génétique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les inversions sont toujours déséquilibrées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies de structure résultent de cassures chromosomiques suivies de réarrangements anormaux. Elles peuvent être équilibrées ou déséquilibrées. Une translocation équilibrée rend le porteur généralement sain mais avec un risque élevé d'avoir des enfants avec une anomalie déséquilibrée. Une délétion est une perte et une duplication est un gain de matériel. Les inversions peuvent être équilibrées."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Le syndrome du cri du chat est un exemple de quelle anomalie chromosomique et quelle en est la cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une trisomie du chromosome 5.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une délétion du bras court du chromosome 5.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une translocation équilibrée impliquant le chromosome 5.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une inversion du chromosome 5.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une monosomie du chromosome 5.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome du cri du chat est causé par une délétion du bras court du chromosome 5."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un individu porteur d'une translocation équilibrée présente quelles caractéristiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est généralement sain.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il a un risque élevé d'avoir des enfants avec une anomalie déséquilibrée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il a perdu du matériel génétique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il a gagné du matériel génétique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il présente toujours des malformations congénitales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si la translocation est équilibrée, le porteur est généralement sain mais a un risque élevé d'avoir des enfants avec une anomalie déséquilibrée. Il n'y a pas de perte ni de gain net de matériel génétique dans une translocation équilibrée."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Qu'est-ce qu'une aneuploïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une altération de la structure d'un chromosome.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une altération du nombre de chromosomes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'un chromosome supplémentaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence d'un chromosome.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un échange de matériel entre chromosomes non homologues.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les aneuploïdies sont des anomalies de nombre de chromosomes. Elles incluent la trisomie (présence d'un chromosome supplémentaire) et la monosomie (absence d'un chromosome). L'échange de matériel est une translocation (anomalie de structure)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "L'information contenue dans un gène code pour quoi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La séquence de nucléotides de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La séquence d'acides aminés de la protéine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La structure des histones.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La formation des télomères.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La régulation de l'épissage.",
+          "correct": false
+        }
+      ],
+      "explanation": "La séquence de nucléotides de l'ADN code pour la séquence d'acides aminés de la protéine."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "L'intégrité de l'information génétique est essentielle pour quelles raisons ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le développement de l'être vivant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le fonctionnement de l'être vivant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La reproduction de l'être vivant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prévention des aberrations chromosomiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La compaction de l'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'information qui dicte le développement, le fonctionnement et la reproduction de tout être vivant est contenue dans son matériel génétique. L'intégrité de cette information génétique est essentielle."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences majeures des aberrations chromosomiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Malformations congénitales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficience intellectuelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infertilité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la durée de vie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Amélioration des fonctions cognitives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des erreurs dans la quantité ou la structure des chromosomes (aberrations chromosomiques) sont une cause majeure de malformations congénitales, de déficience intellectuelle et d'infertilité."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Décrivez la relation entre l'ADN, la chromatine et les chromosomes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ADN est enroulé autour d'histones pour former la chromatine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La chromatine se condense pour former les chromosomes visibles lors de la mitose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les chromosomes sont des unités fonctionnelles d'information génétique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La chromatine est visible au microscope pendant l'interphase.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les histones sont des segments d'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "La longue molécule d'ADN est enroulée autour de protéines appelées histones, formant la chromatine. Lors de la division cellulaire (mitose), la chromatine se condense de manière extrême pour former les chromosomes visibles. Les gènes sont les unités fonctionnelles."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'information génétique est-elle lue lors de la traduction ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par des groupes de deux nucléotides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par des groupes de trois nucléotides (codons).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chaque codon spécifie un acide aminé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les ribosomes lisent la séquence de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les ARNt lisent directement l'ARNm.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les ribosomes lisent la séquence de l'ARNm par groupes de trois nucléotides (les codons). Chaque codon spécifie un acide aminé. Les ARNt apportent les acides aminés, ils ne lisent pas l'ARNm directement dans le sens de la lecture des codons."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment sont numérotés les autosomes humains ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "De 1 à 22, du plus petit au plus grand.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "De 1 à 22, du plus grand au plus petit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "De 1 à 23, incluant les chromosomes sexuels.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils ne sont pas numérotés, seulement classés par taille.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par ordre alphabétique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les 22 paires d'autosomes sont numérotées de 1 (le plus grand) à 22 (le plus petit)."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les aneuploïdies viables citées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trisomie 21.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Monosomie 21.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Turner.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Klinefelter.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Trisomie 18.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les aneuploïdies viables citées sont la Trisomie 21, le Syndrome de Turner (Monosomie X) et le Syndrome de Klinefelter (47,XXY). La Monosomie 21 et la Trisomie 18 ne sont pas mentionnées comme viables dans le texte."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Parmi les anomalies de structure suivantes, lesquelles impliquent un échange de matériel génétique entre chromosomes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Délétion.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Duplication.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Translocation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inversion.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aneuploïdie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une translocation est un échange de matériel entre deux chromosomes non homologues. Les délétions, duplications et inversions sont des réarrangements au sein d'un même chromosome ou une perte/gain de segment. L'aneuploïdie est une anomalie de nombre."
+    }
+  ]
+}

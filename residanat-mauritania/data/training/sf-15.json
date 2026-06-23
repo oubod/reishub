@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-15",
+  "title": "Physiologie de l'hémostase",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs principaux de l'hémostase dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévenir les saignements spontanés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maintenir le sang fluide dans les vaisseaux intacts.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer l'arrêt des hémorragies en cas de brèche vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dégrader les caillots sanguins formés spontanément.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmenter la viscosité sanguine pour une meilleure perfusion.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémostase est l'ensemble des mécanismes physiologiques qui assurent la prévention des saignements spontanés et l'arrêt des hémorragies en cas de brèche vasculaire, tout en maintenant le sang fluide dans les vaisseaux intacts. La dégradation des caillots est le rôle de la fibrinolyse, une étape de l'hémostase, mais pas l'objectif principal de l'hémostase dans son ensemble. L'hémostase ne vise pas à augmenter la viscosité sanguine."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les trois grandes étapes successives de l'hémostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hémostase primaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vasodilatation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'érythropoïèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémostase se déroule classiquement en trois temps : l'hémostase primaire, la coagulation et la fibrinolyse. La vasodilatation est l'inverse de la vasoconstriction initiale et l'érythropoïèse est la production de globules rouges, sans lien direct avec les étapes de l'hémostase."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels éléments sont impliqués dans l'hémostase primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La paroi vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les plaquettes sanguines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le facteur von Willebrand (vWF).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le fibrinogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La plasmine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémostase primaire implique la paroi vasculaire, les plaquettes sanguines et le facteur von Willebrand (vWF). Le fibrinogène est impliqué dans l'agrégation plaquettaire mais est un facteur de coagulation, et la plasmine est l'enzyme clé de la fibrinolyse."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les tests d'exploration de l'hémostase mentionnés pour évaluer la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Temps de Céphaline Activée (TCA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Taux de Prothrombine (TP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'INR (International Normalized Ratio).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Temps de Saignement (TS).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Numération plaquettaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TCA, le TP et l'INR sont les tests d'exploration de la coagulation mentionnés. Le Temps de Saignement et la Numération plaquettaire explorent l'hémostase primaire."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels facteurs de coagulation sont dépendants de la vitamine K pour leur synthèse fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le facteur II (prothrombine).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le facteur VII.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le facteur IX.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le facteur X.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le facteur VIII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le foie a besoin de vitamine K pour synthétiser des formes fonctionnelles des facteurs II, VII, IX, X. Le facteur VIII n'est pas vitamine K-dépendant."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'un déséquilibre du système de l'hémostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypocoagulabilité peut conduire à des hémorragies.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypercoagulabilité peut conduire à des thromboses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypocoagulabilité peut conduire à des thromboses.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypercoagulabilité peut conduire à des hémorragies.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un déséquilibre entraîne toujours une fibrinolyse excessive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un déséquilibre du système de l'hémostase peut conduire soit à des hémorragies (hypocoagulabilité), soit à des thromboses (hypercoagulabilité). Les autres propositions sont incorrectes."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du 'clou plaquettaire' formé lors de l'hémostase primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est également appelé thrombus blanc.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est formé rapidement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est initialement fragile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est consolidé par un réseau de fibrine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est principalement composé de globules rouges.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le processus d'hémostase primaire aboutit à la formation rapide mais fragile du 'clou plaquettaire' ou thrombus blanc, qui colmate initialement la brèche. Sa consolidation par un réseau de fibrine relève de la coagulation. Il n'est pas principalement composé de globules rouges."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles du facteur von Willebrand (vWF) dans l'hémostase primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il se lie au collagène exposé du sous-endothélium.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il change de conformation après liaison au collagène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il permet aux plaquettes de se lier via leur récepteur glycoprotéique (GP) Ib.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il active directement le facteur X de la coagulation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est un activateur du plasminogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le facteur von Willebrand (vWF) se lie au collagène et change de conformation, permettant aux plaquettes de s'y lier via leur récepteur glycoprotéique (GP) Ib. L'activation du facteur X est le rôle du complexe FT-VIIa et le vWF n'est pas un activateur du plasminogène."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les événements qui caractérisent l'activation plaquettaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les plaquettes changent de forme, devenant sphériques avec des pseudopodes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les plaquettes libèrent le contenu de leurs granules, incluant l'ADP et la sérotonine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les plaquettes libèrent du thromboxane A2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'activation expose le récepteur plaquettaire GPIIb/IIIa.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La liaison au vWF/collagène est la seule cause d'activation.",
+          "correct": false
+        }
+      ],
+      "explanation": "La liaison au vWF/collagène active les plaquettes. Elles changent de forme (deviennent sphériques avec des pseudopodes), et libèrent le contenu de leurs granules (ADP, sérotonine, thromboxane A2). L'activation expose également le récepteur plaquettaire GPIIb/IIIa. D'autres médiateurs peuvent aussi activer les plaquettes."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles du fibrinogène dans l'agrégation plaquettaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il se lie aux récepteurs GPIIb/IIIa exposés sur les plaquettes activées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il forme des ponts entre les plaquettes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il permet l'agrégation des plaquettes les unes aux autres.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est converti en fibrine par la thrombine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il active directement le facteur XII.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'activation plaquettaire expose le récepteur plaquettaire GPIIb/IIIa. Le fibrinogène se lie à ces récepteurs et forme des ponts entre les plaquettes, les agrégeant les unes aux autres. Sa conversion en fibrine est le rôle de la thrombine dans la coagulation, et il n'active pas le facteur XII."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les tests d'exploration de l'hémostase primaire et leurs caractéristiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La numération plaquettaire vérifie le nombre de plaquettes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La norme de la numération plaquettaire est de 150-400 G/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Temps de Saignement (TS) est un ancien test in vivo.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le PFA-100® explore l'adhésion et l'agrégation in vitro.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une thrombopénie est une cause mineure d'anomalie de l'hémostase primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La numération plaquettaire vérifie que le nombre de plaquettes est suffisant (norme 150-400 G/L). Le Temps de Saignement (TS) est un ancien test in vivo, aujourd'hui largement remplacé par des tests de fonction plaquettaire (PFA-100®) qui explorent l'adhésion et l'agrégation in vitro. Une thrombopénie est une cause majeure d'anomalie de l'hémostase primaire."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la coagulation (hémostase secondaire) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une cascade de réactions enzymatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle implique des protéines plasmatiques appelées facteurs de coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Son but final est de transformer le fibrinogène soluble en fibrine insoluble.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle vise à renforcer le clou plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est la réponse immédiate à une brèche vasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La coagulation est une cascade de réactions enzymatiques impliquant des protéines plasmatiques appelées facteurs de coagulation. Le but final est de transformer le fibrinogène soluble en fibrine insoluble, qui vient renforcer le clou plaquettaire. La réponse immédiate à une brèche vasculaire est l'hémostase primaire."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés de la voie extrinsèque de la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est déclenchée par une lésion tissulaire qui expose le Facteur Tissulaire (FT).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Facteur Tissulaire (FT) active le facteur VII.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le complexe FT-VIIa active directement le facteur X.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "C'est une voie rapide et explosive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est activée par le contact avec des surfaces chargées négativement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie extrinsèque est déclenchée par une lésion tissulaire qui expose le Facteur Tissulaire (FT). Le FT active le facteur VII. Le complexe FT-VIIa active directement le facteur X. C'est une voie rapide et explosive. L'activation par contact avec des surfaces chargées négativement caractérise la voie intrinsèque."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels facteurs de coagulation sont impliqués dans la voie intrinsèque de la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le facteur XII.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le facteur XI.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le facteur IX.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le facteur VIII.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le facteur VII.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie intrinsèque implique les facteurs XII, XI, IX, et VIII. Le facteur VII est impliqué dans la voie extrinsèque."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de la thrombine (facteur IIa) dans la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est l'enzyme clé de la voie commune.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle clive le fibrinogène en monomères de fibrine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle active la voie intrinsèque in vivo.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est convertie à partir de la prothrombine (facteur II).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est activée par le complexe FT-VIIa.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombine est l'enzyme clé. Elle clive le fibrinogène (facteur I) en monomères de fibrine. Elle active la voie intrinsèque in vivo. Elle est convertie à partir de la prothrombine (facteur II) par le complexe prothrombinase. Le complexe FT-VIIa active le facteur X, pas directement la thrombine."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments constitutifs du complexe prothrombinase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le facteur Xa.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le facteur Va.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le facteur II (prothrombine).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le facteur VIIa.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le facteur tissulaire (FT).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le facteur Xa, avec son cofacteur le facteur Va, forme le complexe prothrombinase. Ce complexe convertit la prothrombine (facteur II) en thrombine. Les facteurs VIIa et tissulaire sont impliqués dans la voie extrinsèque."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du Temps de Céphaline Activée (TCA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il explore la voie intrinsèque de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il explore la voie commune de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est allongé en cas de déficit en facteur VIII.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est allongé en cas de traitement par héparine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est particulièrement sensible au facteur VII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TCA explore la voie intrinsèque et la voie commune. Il est allongé en cas de déficit en FVIII (hémophilie A), F.IX (hémophilie B), FXI, FXII, ou en cas de traitement par héparine. Le TP est particulièrement sensible au facteur VII."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du Taux de Prothrombine (TP) et de l'INR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le TP explore la voie extrinsèque de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le TP explore la voie commune de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le TP est particulièrement sensible au facteur VII.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'INR est utilisé pour le suivi des traitements par AVK.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le TP est allongé en cas de déficit en facteur XII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TP explore la voie extrinsèque et la voie commune. Il est particulièrement sensible au facteur VII, qui a la demi-vie la plus courte. L'INR (International Normalized Ratio) est utilisé pour le suivi des traitements par AVK. Le déficit en facteur XII allonge le TCA, pas le TP."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de coagulation dont le déficit peut allonger le TP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Facteur VII.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Facteur X.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Facteur V.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Facteur II.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Facteur VIII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TP est allongé en cas de déficit en FVII, FX, FV, FII, ou en cas de traitement par AVK. Le facteur VIII est impliqué dans la voie intrinsèque et son déficit allonge le TCA."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les acteurs clés de la fibrinolyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le plasminogène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le t-PA (tissue Plasminogen Activator).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La plasmine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le fibrinogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le facteur tissulaire (FT).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les acteurs clés de la fibrinolyse sont le plasminogène (précurseur inactif), le t-PA (activateur du plasminogène) et la plasmine (enzyme active). Le fibrinogène est un substrat de la coagulation et le facteur tissulaire est un initiateur de la coagulation."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions de la plasmine dans la fibrinolyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est l'enzyme active de la fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle dégrade la fibrine en petits fragments solubles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle produit les Produits de Dégradation de la Fibrine (PDF).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est convertie à partir du plasminogène par le t-PA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle active le plasminogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "La plasmine est l'enzyme active. Elle dégrade la fibrine en petits fragments solubles, les Produits de Dégradation de la Fibrine (PDF), dont les D-dimères sont les plus spécifiques. Elle est convertie à partir du plasminogène par le t-PA. Elle n'active pas le plasminogène, elle en est le produit."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les régulateurs de la fibrinolyse mentionnés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le PAI-1 (Plasminogen Activator Inhibitor-1).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'alpha2-antiplasmine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le t-PA (tissue Plasminogen Activator).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le plasminogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La thrombine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des inhibiteurs, comme le PAI-1 (Plasminogen Activator Inhibitor-1) et l'alpha2-antiplasmine, empêchent une fibrinolyse excessive et systémique. Le t-PA et le plasminogène sont des acteurs clés de la fibrinolyse, pas des inhibiteurs. La thrombine est une enzyme de la coagulation."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du dosage des D-dimères ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un taux élevé signe l'activation conjointe de la coagulation et de la fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est un marqueur très sensible d'événements thrombo-emboliques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C'est un marqueur peu spécifique d'événements thrombo-emboliques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont les produits de dégradation spécifiques de la fibrine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un taux élevé indique une fibrinolyse excessive sans coagulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un taux élevé de D-dimères signe l'activation conjointe de la coagulation (formation de fibrine) et de la fibrinolyse. C'est un marqueur très sensible (mais peu spécifique) d'événements thrombo-emboliques (thrombose veineuse profonde, embolie pulmonaire). Les D-dimères sont les produits de dégradation les plus spécifiques de la fibrine. Un taux élevé indique une activation des deux processus, pas seulement une fibrinolyse excessive."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant les voies de la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La voie extrinsèque est la voie d'initiation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La voie intrinsèque est la voie d'amplification.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les deux voies convergent vers l'activation du facteur X.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La voie extrinsèque est déclenchée par le Facteur Tissulaire (FT).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La voie intrinsèque est activée uniquement in vitro par des surfaces chargées négativement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie extrinsèque est la voie d'initiation, déclenchée par le Facteur Tissulaire (FT). La voie intrinsèque est la voie d'amplification. Les deux voies convergent vers l'activation du facteur X en Xa. La voie intrinsèque est activée par le contact avec des surfaces chargées négativement (in vitro) ou par la thrombine (in vivo), donc pas uniquement in vitro."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions de la paroi vasculaire dans l'hémostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle participe à la vasoconstriction réflexe initiale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle expose le collagène du sous-endothélium après une lésion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ses cellules endothéliales libèrent le t-PA pour la fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est le site principal de production du facteur von Willebrand.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est la seule structure impliquée dans l'hémostase primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La paroi vasculaire participe à la vasoconstriction réflexe locale qui limite le flux sanguin. Le sous-endothélium exposé, notamment le collagène, est un site d'adhésion plaquettaire. Les cellules endothéliales libèrent le t-PA (tissue Plasminogen Activator) pour la fibrinolyse. Le facteur von Willebrand est une protéine plasmatique. La paroi vasculaire n'est pas la seule structure impliquée dans l'hémostase primaire, les plaquettes et le vWF le sont aussi."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement anticoagulant par AVK présente un allongement du TP/INR. Quels facteurs de coagulation sont principalement affectés par ce traitement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Facteur II (prothrombine).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Facteur VII.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Facteur IX.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Facteur X.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Facteur VIII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AVK ciblent les facteurs vitamine K-dépendants, qui sont les facteurs II, VII, IX et X. Un allongement du TP/INR est attendu car ces facteurs sont essentiels aux voies extrinsèque et commune que le TP explore. Le facteur VIII n'est pas vitamine K-dépendant et n'est pas directement affecté par les AVK."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors d'une lésion vasculaire, quelles sont les étapes chronologiques correctes de l'hémostase primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vasoconstriction réflexe.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adhésion plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Agrégation plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Formation du réseau de fibrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les étapes de l'hémostase primaire sont la vasoconstriction réflexe, suivie de l'adhésion plaquettaire, puis de l'activation plaquettaire, et enfin de l'agrégation plaquettaire. La formation du réseau de fibrine est l'étape suivante, relevant de la coagulation."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un allongement isolé du TCA. Quelles pourraient être les causes possibles, en l'absence de traitement anticoagulant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficit en facteur VIII.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficit en facteur IX.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit en facteur XI.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit en facteur XII.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déficit en facteur VII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TCA explore la voie intrinsèque et la voie commune. Il est allongé en cas de déficit en FVIII (hémophilie A), F.IX (hémophilie B), FXI, FXII. Un déficit en facteur VII affecterait le TP, pas le TCA de manière isolée."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels les plaquettes activées contribuent à l'hémostase primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles changent de forme pour augmenter leur surface de contact.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles libèrent des médiateurs (ADP, sérotonine, thromboxane A2) qui activent d'autres plaquettes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles exposent le récepteur GPIIb/IIIa pour l'agrégation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles se lient directement au collagène via le vWF.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles convertissent le fibrinogène en fibrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les plaquettes activées changent de forme (deviennent sphériques avec des pseudopodes), libèrent le contenu de leurs granules (ADP, sérotonine, thromboxane A2) qui activent d'autres plaquettes, et exposent le récepteur GPIIb/IIIa pour l'agrégation. Elles se lient au vWF qui lui-même est lié au collagène, pas directement au collagène. La conversion du fibrinogène en fibrine est le rôle de la thrombine."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous héparine présente un allongement du TCA. Quels facteurs de coagulation sont directement ou indirectement ciblés par l'héparine, expliquant cet allongement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Facteur XII.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Facteur XI.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Facteur IX.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Facteur VIII.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Facteur VII.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TCA explore la voie intrinsèque et la voie commune. L'héparine agit en potentialisant l'antithrombine, qui inhibe plusieurs facteurs de la coagulation, notamment la thrombine (FIIa) et le FXa, mais aussi les facteurs de la voie intrinsèque comme le FXIIa, FXIa, FIXa. Par conséquent, un traitement par héparine allonge le TCA en affectant les facteurs XII, XI, IX et VIII (via l'inhibition de FIXa). Le facteur VII est de la voie extrinsèque et n'est pas la cible principale de l'héparine pour l'allongement du TCA."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant la régulation de la fibrinolyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fibrinolyse doit être parfaitement équilibrée avec la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le PAI-1 (Plasminogen Activator Inhibitor-1) empêche une fibrinolyse excessive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'alpha2-antiplasmine empêche une fibrinolyse systémique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le t-PA est un inhibiteur de la plasmine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La plasmine est régulée uniquement par sa production.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fibrinolyse doit être parfaitement équilibrée avec la coagulation. Des inhibiteurs, comme le PAI-1 et l'alpha2-antiplasmine, empêchent une fibrinolyse excessive et systémique. Le t-PA est un activateur du plasminogène, pas un inhibiteur de la plasmine. La plasmine est régulée par sa production et par des inhibiteurs."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une thrombopénie sévère. Quels tests d'exploration de l'hémostase seraient les plus susceptibles d'être anormaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La numération plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Temps de Saignement (TS).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les tests de fonction plaquettaire (PFA-100®).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Temps de Céphaline Activée (TCA).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le Taux de Prothrombine (TP).",
+          "correct": false
+        }
+      ],
+      "explanation": "Une thrombopénie est une cause majeure d'anomalie de l'hémostase primaire. Elle affecterait directement la numération plaquettaire, le Temps de Saignement (qui explore l'hémostase primaire) et les tests de fonction plaquettaire (qui explorent l'adhésion et l'agrégation). Le TCA et le TP explorent la coagulation et ne seraient pas directement affectés par une thrombopénie isolée."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant la conversion du fibrinogène en fibrine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le fibrinogène est un facteur de coagulation (facteur I).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La thrombine (facteur IIa) est l'enzyme qui clive le fibrinogène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les monomères de fibrine se polymérisent pour former un réseau stable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cette étape est le but final de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle se produit avant la formation du clou plaquettaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le fibrinogène est le facteur I. La thrombine (facteur IIa) est l'enzyme clé qui clive le fibrinogène en monomères de fibrine, qui se polymérisent ensuite pour former un réseau stable. C'est le but final de la coagulation. La formation du clou plaquettaire précède la consolidation par la fibrine."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un allongement du TP et du TCA. Quelles pourraient être les causes possibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficit en facteur V.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficit en facteur X.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit en facteur II (prothrombine).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit en facteur VII isolé.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Déficit en facteur VIII isolé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un allongement simultané du TP et du TCA indique un problème affectant la voie commune, ou des déficits multiples. Les facteurs V, X et II sont des facteurs de la voie commune, donc leur déficit allongerait les deux tests. Un déficit isolé en facteur VII n'allongerait que le TP. Un déficit isolé en facteur VIII n'allongerait que le TCA."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des médiateurs libérés par les plaquettes activées (ADP, sérotonine, thromboxane A2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils activent d'autres plaquettes circulantes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils renforcent la vasoconstriction locale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils favorisent l'agrégation plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils initient la voie extrinsèque de la coagulation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils dégradent la fibrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ces médiateurs activent d'autres plaquettes circulantes, contribuant ainsi à l'amplification de l'agrégation plaquettaire. La sérotonine et le thromboxane A2 sont également des vasoconstricteurs, renforçant la vasoconstriction locale. Ils n'initient pas la voie extrinsèque et ne dégradent pas la fibrine."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la voie intrinsèque de la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est activée par le contact avec des surfaces chargées négativement in vitro.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle peut être activée par la thrombine in vivo.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle implique les facteurs XII, XI, IX et VIII.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est considérée comme la voie d'amplification.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est déclenchée par le Facteur Tissulaire (FT).",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie intrinsèque est activée par le contact avec des surfaces chargées négativement (in vitro) ou par la thrombine (in vivo). Elle implique les facteurs XII, XI, IX, et VIII et est considérée comme la voie d'amplification. La voie extrinsèque est déclenchée par le Facteur Tissulaire (FT)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un taux élevé de D-dimères est un marqueur de quels événements physiopathologiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation conjointe de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation conjointe de la fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Formation de fibrine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombose veineuse profonde.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémophilie A.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un taux élevé de D-dimères signe l'activation conjointe de la coagulation (formation de fibrine) et de la fibrinolyse. C'est un marqueur très sensible d'événements thrombo-emboliques comme la thrombose veineuse profonde et l'embolie pulmonaire. L'hémophilie A est un trouble de la coagulation qui n'entraîne pas directement une élévation des D-dimères."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle du foie dans la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le foie synthétise les facteurs vitamine K-dépendants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le foie a besoin de vitamine K pour la synthèse fonctionnelle de certains facteurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les protéines C et S, anticoagulants naturels, sont synthétisées par le foie et sont vitamine K-dépendantes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une insuffisance hépatique peut entraîner un allongement du TP et du TCA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le foie est le seul organe impliqué dans la production des facteurs de coagulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le foie a besoin de vitamine K pour synthétiser des formes fonctionnelles des facteurs II, VII, IX, X (ainsi que les protéines C et S, des anticoagulants naturels). Une insuffisance hépatique peut donc affecter la synthèse de ces facteurs et entraîner un allongement du TP et du TCA. Le foie n'est pas le seul organe impliqué, par exemple, le facteur VIII est produit par les cellules endothéliales."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'un déficit en facteur VII ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allongement du Taux de Prothrombine (TP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Allongement de l'INR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Affecte principalement la voie extrinsèque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Peut entraîner des saignements.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Allongement du Temps de Céphaline Activée (TCA).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TP explore la voie extrinsèque et la voie commune et est particulièrement sensible au facteur VII. Un déficit en FVII allongera donc le TP et l'INR, affectant principalement la voie extrinsèque et pouvant conduire à des hémorragies. Le TCA explore la voie intrinsèque et ne serait pas affecté par un déficit isolé en FVII."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle du t-PA (tissue Plasminogen Activator) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est libéré par les cellules endothéliales au site de la lésion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il convertit le plasminogène en plasmine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est un activateur du plasminogène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est un inhibiteur de la fibrinolyse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est incorporé dans le caillot lors de sa formation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le t-PA est principalement libéré par les cellules endothéliales au site de la lésion. Il convertit le plasminogène en plasmine, étant ainsi un activateur du plasminogène. Il n'est pas un inhibiteur de la fibrinolyse, mais un de ses acteurs clés. Le plasminogène est incorporé dans le caillot, pas le t-PA."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la prothrombine (facteur II) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un facteur vitamine K-dépendant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est convertie en thrombine (facteur IIa) par le complexe prothrombinase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est un précurseur inactif de l'enzyme clé de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son déficit peut allonger le TP et le TCA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est activée par le facteur tissulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prothrombine (facteur II) est un facteur vitamine K-dépendant. Elle est convertie en thrombine (facteur IIa) par le complexe prothrombinase, étant ainsi un précurseur inactif de l'enzyme clé de la coagulation. Étant un facteur de la voie commune, son déficit peut allonger le TP et le TCA. Elle n'est pas activée directement par le facteur tissulaire, mais par le complexe prothrombinase."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle du collagène dans l'hémostase primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est exposé au sous-endothélium après une lésion vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il sert de site de liaison pour le facteur von Willebrand (vWF).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La liaison du vWF au collagène est une étape de l'adhésion plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il active directement les plaquettes sans l'intermédiaire du vWF.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est un facteur de coagulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sous-endothélium est exposé, notamment le collagène, après une lésion. Le facteur von Willebrand (vWF) se lie au collagène, et cette liaison permet aux plaquettes de s'y lier via leur récepteur GPIb, ce qui est l'étape d'adhésion. La liaison au vWF/collagène active les plaquettes, mais le collagène n'active pas directement les plaquettes sans le vWF. Le collagène n'est pas un facteur de coagulation."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du plasminogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est le précurseur inactif de l'enzyme de la fibrinolyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est présent dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est incorporé dans le caillot lors de sa formation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est converti en plasmine par le t-PA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est un produit de dégradation de la fibrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le plasminogène est le précurseur inactif de l'enzyme de la fibrinolyse. Il est présent dans le plasma et est incorporé dans le caillot lors de sa formation. Le t-PA le convertit en plasmine. Les produits de dégradation de la fibrine sont les PDF, dont les D-dimères."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant les antivitamines K (AVK) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles ciblent la synthèse des facteurs vitamine K-dépendants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont utilisées pour le traitement des thromboses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont suivies par l'INR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles peuvent entraîner un allongement du TP.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles agissent en potentialisant l'antithrombine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AVK ciblent la synthèse des facteurs vitamine K-dépendants (II, VII, IX, X) et sont utilisées pour le traitement des thromboses. L'INR est utilisé pour leur suivi, et elles entraînent un allongement du TP. L'héparine agit en potentialisant l'antithrombine, pas les AVK."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles du facteur V et du facteur VIII dans la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le facteur Va est un cofacteur du facteur Xa dans le complexe prothrombinase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le facteur VIIIa est un cofacteur du facteur IXa dans la voie intrinsèque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le facteur V et le facteur VIII sont des facteurs vitamine K-dépendants.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le déficit en facteur V allonge le TP et le TCA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le déficit en facteur VIII allonge le TP.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le facteur Xa, avec son cofacteur le facteur Va, forme le complexe prothrombinase. La voie intrinsèque implique le facteur VIII comme cofacteur du facteur IXa. Les facteurs V et VIII ne sont pas vitamine K-dépendants. Le déficit en facteur V (voie commune) allonge le TP et le TCA. Le déficit en facteur VIII (voie intrinsèque) allonge le TCA, pas le TP."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences entre le Temps de Saignement (TS) et le PFA-100® ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le TS est un test in vivo, tandis que le PFA-100® est un test in vitro.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le TS est un test ancien, largement remplacé par le PFA-100®.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les deux tests explorent l'adhésion et l'agrégation plaquettaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le PFA-100® est plus sensible aux anomalies de la numération plaquettaire que le TS.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le TS évalue la coagulation, tandis que le PFA-100® évalue l'hémostase primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Temps de Saignement (TS) est un ancien test in vivo, aujourd'hui largement remplacé par des tests de fonction plaquettaire (PFA-100®) qui explorent l'adhésion et l'agrégation in vitro. Les deux tests explorent l'hémostase primaire. Le PFA-100® est un test de fonction plaquettaire, donc il est sensible aux anomalies de la fonction et du nombre de plaquettes, tout comme le TS. Le TS n'évalue pas la coagulation."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle de la thrombine (facteur IIa) dans la cascade de la coagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est produite par le complexe prothrombinase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle clive le fibrinogène en monomères de fibrine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle active le facteur V en Va.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle active le facteur VIII en VIIIa.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle active le facteur VII.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombine est convertie à partir de la prothrombine par le complexe prothrombinase. Elle clive le fibrinogène en monomères de fibrine. Elle active également les cofacteurs V et VIII (en Va et VIIIa), amplifiant ainsi la coagulation. Elle n'active pas le facteur VII, qui est activé par le facteur tissulaire."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'INR (International Normalized Ratio) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est utilisé pour le suivi des traitements par AVK.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est un ratio normalisé du Taux de Prothrombine (TP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il permet de standardiser les résultats du TP entre différents laboratoires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un INR élevé indique une hypocoagulabilité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il explore la voie intrinsèque de la coagulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'INR est l'International Normalized Ratio, utilisé pour le suivi des traitements par AVK. C'est un ratio normalisé du TP qui permet de standardiser les résultats entre différents laboratoires. Un INR élevé indique un allongement du TP, donc une hypocoagulabilité. Il explore la voie extrinsèque et commune, pas la voie intrinsèque."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes qui limitent l'extension du caillot sanguin et le résorbent une fois la réparation tissulaire achevée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'action de la plasmine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dégradation de la fibrine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La production de Produits de Dégradation de la Fibrine (PDF).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'action des inhibiteurs de la fibrinolyse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vasoconstriction réflexe.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fibrinolyse est le processus qui dégrade le caillot de fibrine une fois la paroi vasculaire réparée, afin de restaurer le flux sanguin. Cela se fait via l'action de la plasmine, qui dégrade la fibrine en petits fragments solubles, les Produits de Dégradation de la Fibrine (PDF). Les inhibiteurs de la fibrinolyse empêchent une fibrinolyse excessive, mais ne sont pas les mécanismes de limitation et de résorption du caillot. La vasoconstriction réflexe est une étape initiale de l'hémostase primaire."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle du facteur tissulaire (FT) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est exposé suite à une lésion tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il initie la voie extrinsèque de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il active le facteur VII.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il forme un complexe avec le facteur VIIa qui active le facteur X.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est un facteur plasmatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie extrinsèque est déclenchée par une lésion tissulaire qui expose le Facteur Tissulaire (FT). Le FT active le facteur VII. Le complexe FT-VIIa active directement le facteur X. Le facteur tissulaire n'est pas un facteur plasmatique, mais une protéine membranaire exposée par les tissus lésés."
+    }
+  ]
+}

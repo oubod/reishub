@@ -1,0 +1,1659 @@
+{
+  "lectureId": "52",
+  "number": "52",
+  "title": "Méningites bactériennes et virales",
+  "partie": "J2",
+  "specialty": "Infectiologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une méningite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une inflammation du parenchyme cérébral",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une inflammation des méninges et du liquide cérébro-spinal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une infection exclusivement bactérienne des enveloppes cérébrales",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une maladie chronique sans urgence diagnostique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une inflammation du système nerveux périphérique",
+          "correct": false
+        }
+      ],
+      "explanation": "La méningite est définie comme l'inflammation des méninges et du liquide cérébro-spinal (LCS) circulant dans les espaces sous-arachnoïdiens. Elle peut être aiguë ou chronique et avoir diverses causes, y compris bactériennes, virales ou parasitaires, ou être non infectieuse. Elle est une urgence diagnostique et thérapeutique."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux mécanismes d'infection du liquide cérébro-spinal (LCS) par un germe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection par voie digestive directe",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Infection par voie hématogène",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection par contiguïté à partir d'un foyer voisin",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection par inoculation directe accidentelle",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Infection par voie lymphatique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cours décrit trois mécanismes essentiels d’infection du LCS : l'infection par voie hématogène, l'infection par contiguïté à partir d'un foyer infecté de voisinage, et l'infection par inoculation directe (accidentelle)."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quel est l'aspect typique du liquide cérébro-spinal (LCS) en cas de méningite bactérienne purulente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clair, eau de roche",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Xanthochromique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Trouble voire purulent",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémorragique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Incoagulable",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen macroscopique du LCS en cas de méningite bactérienne purulente révèle un aspect trouble voire franchement purulent. Cependant, un aspect clair ne doit pas éliminer une méningite d’origine bactérienne."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le trépied méningitique fonctionnel classique chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre, diarrhée, vomissements",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Céphalées, vomissements, fièvre",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Raideur de la nuque, photophobie, somnolence",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Convulsions, coma, déficit moteur",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Constipation, frissons, céphalées",
+          "correct": false
+        }
+      ],
+      "explanation": "La forme type de la méningite aiguë de l'adulte non compliquée associe un début brutal ou rapide avec une fièvre élevée, un syndrome méningé franc dont le trépied fonctionnel est constitué de céphalées, vomissements et fièvre."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quel est le signe physique fondamental de la raideur méningée chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le signe de Babinski bilatéral",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'exagération diffuse des réflexes ostéo-tendineux",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La raideur douloureuse à la flexion passive de la nuque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'obnubilation",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'attitude en chien de fusil",
+          "correct": false
+        }
+      ],
+      "explanation": "La raideur méningée constitue le signe fondamental mis en évidence par la raideur douloureuse à la flexion passive de la nuque, qui entraîne parfois la flexion involontaire des membres inférieurs (signe de Brudzinski)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelle est la cellularité normale du liquide cérébro-spinal (LCS) chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 1 élément par mm3",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Moins de 5 éléments par mm3",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Moins de 10 éléments par mm3",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Moins de 30 éléments par mm3",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Moins de 50 éléments par mm3",
+          "correct": false
+        }
+      ],
+      "explanation": "Un LCS normal contient moins de cinq éléments par mm3. Le diagnostic de méningite est confirmé par une pléiocytose supérieure à 10 éléments/mm3 pour l'adulte, l'enfant et le nourrisson."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quel est le germe le plus fréquemment en cause dans les méningites purulentes d'origine communautaire chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Neisseria meningitidis",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pseudomonas aeruginosa",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Streptococcus agalactiae",
+          "correct": false
+        }
+      ],
+      "explanation": "Les germes les plus fréquemment en cause dans les méningites purulentes d'origine communautaire sont le méningocoque et le pneumocoque, suivis par Haemophilus influenzae, Listeria monocytogenes, Escherichia coli et streptocoque B. Pour l'adulte spécifiquement, le cours mentionne pneumocoque et méningocoque."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelle est la durée de traitement recommandée pour une méningite à méningocoque avec une évolution rapidement favorable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "21 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "14 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "10 jours",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "7 jours",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "4 jours",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour une méningite à méningocoque, le traitement est de 7 jours, mais une durée plus courte de 4 jours est envisagée si l'évolution est rapidement favorable dès H48."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de méningite virale en contexte épidémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Virus de la rubéole",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Adénovirus",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Virus des oreillons",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Entérovirus",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Virus West Nile",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans 70 à 80% des cas, la méningite est due à une infection virale, généralement dans un contexte épidémique. Les virus les plus fréquents sont les entérovirus (Echo, Coxsackie)."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelle est la valeur normale de la protéinorachie chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,10 g/l à 0,20 g/l",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "0,20 g/l à 0,40 g/l",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "0,40 g/l à 0,60 g/l",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "0,60 g/l à 0,80 g/l",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inférieure à 0,10 g/l",
+          "correct": false
+        }
+      ],
+      "explanation": "La valeur normale de la protéinorachie est de 0,20 g/l à 0,40 g/l. Pour le nouveau-né, la valeur normale est ≤ 1,2 g/l."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de gravité systémique d'une méningite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céphalées intenses",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Altération hémodynamique (signes de choc)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome hémorragique et purpura extensif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Raideur de la nuque",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Vomissements en jet",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de gravité d'ordre systémique incluent l'altération hémodynamique (signes d'hypoperfusion périphérique jusqu'à signes de choc) et le syndrome hémorragique et purpura extensif (CIVD, purpura fulminans)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelle est la principale contre-indication à la ponction lombaire liée à l'hémostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prise d'antiagrégants plaquettaires",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Troubles de l'hémostase connus (plaquettes < 50 000/mm3)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antécédent de saignements spontanés",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traitement par héparine à dose préventive",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Absence de bilan d'hémostase récent",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications à la ponction lombaire incluent les troubles de l'hémostase connus (hémophilie, autre coagulopathie, nombre de plaquettes inférieur à 50 000/mm3) et la prise de traitement anticoagulant à dose efficace. La prise d'antiagrégants plaquettaires ne contre-indique pas la PL."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est le germe dominant en cas de méningite récurrente due à une brèche ostéoméningée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méningocoque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pneumocoque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Listeria monocytogenes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méningites récurrentes sont dues à une brèche ostéoméningée dans 60% des cas, et dans ce cas, le pneumocoque est le germe dominant."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelle est la durée de traitement recommandée pour une méningite à pneumocoque avec une évolution rapidement favorable et une CMI C3G ≤ 0,5 mg/l ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "7 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "10 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "14 jours",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "21 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une méningite à pneumocoque, la durée de traitement est de 10-14 jours, mais une durée plus courte de 10 jours est envisagée si l'évolution est rapidement favorable (dès H48) et la CMI C3G ≤ 0,5 mg/l."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelle est la principale complication neurologique des méningites purulentes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyponatrémie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ventriculite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles hydro-électrolytiques",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Décompensation d'une comorbidité",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications neurologiques des méningites purulentes incluent l'encéphalite, la ventriculite, la suppuration intra-cérébrale (abcès, empyème), le cloisonnement méningé, l'hydrocéphalie, la thrombophlébite cérébrale et la vascularite cérébrale."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs favorisant l'invasion des bactéries dans le liquide cérébro-spinal (LCS) par voie hématogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La richesse du LCS en anticorps",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La présence d'une capsule antiphagocytaire chez le micro-organisme",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une infection virale préalable",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La pauvreté du LCS en cellules phagocytaires",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le franchissement de la barrière hémato-méningée intacte",
+          "correct": false
+        }
+      ],
+      "explanation": "Les micro-organismes échappent aux phagocytes circulants grâce à une capsule antiphagocytaire. L'invasion des bactéries est souvent facilitée par une infection virale. Le LCS est trop pauvre en anticorps et en cellules phagocytaires pour empêcher l’invasion des germes."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les agents infectieux les plus fréquemment responsables de méningites purulentes chez le nouveau-né et le petit nourrisson (moins de 3 mois) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumocoque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Streptococcus agalactiae (groupe B)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Escherichia coli K1",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Listeria monocytogenes",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le nouveau-né et le petit nourrisson (moins de 3 mois), les agents les plus fréquents sont Streptococcus agalactiae (groupe B), Escherichia coli K1, les entérovirus, et plus rarement Listeria monocytogenes."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques évocateurs d'une méningite chez le nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un syndrome méningé franc avec raideur de la nuque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des troubles de comportement (agité, somnolent)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un bombement de la fontanelle antérieure en dehors des cris",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypotonie axiale",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un refus de l'alimentation",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le nourrisson, le tableau clinique est souvent non spécifique et trompeur. Il peut s'agir d'un enfant fébrile avec troubles de comportement (agité, somnolent), fixité du regard, refus de l'alimentation, algique supportant mal les manipulations et geignard. L'examen doit chercher un bombement de la fontanelle antérieure en dehors des cris en position assise et une hypotonie axiale qui remplace souvent la raideur rachidienne à cet âge."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations un scanner cérébral doit-il précéder la ponction lombaire (PL) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de céphalées intenses",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'altération profonde de l'état de conscience (GSG ≤ 10)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de convulsions hémi corporelles avant l'âge de 5 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de signes neurologiques de localisation",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas de purpura fulminans",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner cérébral doit précéder la PL en cas d'altération profonde de l'état de conscience (GSG ≤ 10), en cas de convulsions hémi corporelles avant l'âge de 5 ans et quel que soit le type de convulsions après cet âge, ou en cas de signes neurologiques de localisation (risque d'engagement cérébral en cas d'hypertension intracrânienne)."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du liquide cérébro-spinal (LCS) en cas de méningite purulente bactérienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liquide clair",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pléiocytose importante (>500 élé/mm3) à prédominance de PNN",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperprotéinorachie importante (> 1 g/l)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glycorachie normale",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Examen direct positif dans un tiers des cas",
+          "correct": true
+        }
+      ],
+      "explanation": "Les méningites purulentes bactériennes se caractérisent par un liquide trouble ou franchement purulent, une pléiocytose importante (>500 élé/mm3) avec prédominance de PNN, une hyperprotéinorachie importante (> 1 g/l), et fréquemment une hypoglycorachie. L'examen direct est positif dans un tiers des cas."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de mauvais pronostic d'une méningite purulente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge entre 2 et 60 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le retard d'un traitement adapté",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'un coma à l'admission",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence de crises convulsives à l'admission",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le germe en cause (staphylocoques, BGN, Listeria, pneumocoque)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les principaux éléments de mauvais pronostic sont le retard d'un traitement adapté, l'âge < 2 ans et > 60 ans, le germe en cause (staphylocoques, BGN, Listeria, pneumocoque), et la présence à l'admission (pendant les premières 24h) d'un coma, de crises convulsives ou de signes neurologiques de localisation, ou d'un état de choc."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les germes les plus fréquemment en cause dans les méningites purulentes nosocomiales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méningocoque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pneumocoque",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Staphylocoques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bacilles à Gram négatif",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Haemophilus influenzae",
+          "correct": false
+        }
+      ],
+      "explanation": "Les germes les plus fréquemment en cause dans les méningites purulentes d'origine nosocomiale sont surtout les staphylocoques, mais aussi les bacilles à Gram négatif. Ces germes sont souvent résistants aux antibiotiques."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques qui doivent faire suspecter une méningite chez le nouveau-né ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refus de téter",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypotonie axiale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fièvre ou hypothermie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fontanelle bombante",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Raideur de la nuque",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le nouveau-né, la présentation clinique n'est pas spécifique et peut inclure un refus de téter, une hypotonie axiale, une fièvre ou hypothermie, des troubles de la réactivité, des troubles de la conscience, des convulsions, des troubles respiratoires (apnée, irrégularité respiratoire), des accès de cyanose et une fontanelle bombante."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la ponction lombaire de contrôle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique après 48-72h de traitement",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'évolution clinique défavorable",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de méningite à pneumocoque dont la CMI > 0,5 mg/l pour les C3G",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour les méningites à bactéries inhabituelles",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas de persistance de la fièvre après 24h de traitement",
+          "correct": false
+        }
+      ],
+      "explanation": "La PL de contrôle (à 48-72h) n'est pas systématique. Elle est indiquée dans 3 situations : en cas d'évolution clinique défavorable (absence d'amélioration des troubles de la vigilance ou persistance de la fièvre, précédée d'imagerie), en cas de méningite à pneumocoque dont la CMI > 0,5 mg/l pour les C3G, et elle peut se discuter pour les méningites à bactéries inhabituelles (autres que méningocoque, pneumocoque, H. influenzae et Listeria)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du liquide cérébro-spinal (LCS) en cas de méningite virale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liquide trouble",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pléiocytose à prédominance lymphocytaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperprotéinorachie modérée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glycorachie normale",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Examen direct positif",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méningites virales (lymphocytaires, normoglycorachiques) se caractérisent par un liquide clair, une pléiocytose avec formule lymphocytaire, une hyperprotéinorachie modérée et une glycorachie normale."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les germes à évoquer en premier lieu dans un contexte post-traumatique immédiat ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méningocoque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pneumocoque",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Staphylocoque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Listeria monocytogenes",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans un contexte post-traumatique immédiat, le staphylocoque est à évoquer en premier. Pour une brèche dure-mère spontanée ou post-traumatique, le pneumocoque est le germe dominant."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la corticothérapie associée à l'antibiothérapie initiale dans les méningites purulentes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méningite bactérienne de l'adulte (présumée)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Méningite du nourrisson (3 à 12 mois) (présumée)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Méningites de l'adulte à pneumocoque ou méningocoque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Méningites du nourrisson et de l'enfant à Haemophilus influenzae",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Méningites néonatales",
+          "correct": false
+        }
+      ],
+      "explanation": "La corticothérapie est indiquée pour le diagnostic présumé de méningite bactérienne de l'adulte et du nourrisson (de 3 à 12 mois) jusqu'aux résultats microbiologiques, les méningites de l'adulte à pneumocoque ou méningocoque, et les méningites du nourrisson et de l'enfant à pneumocoque (présumé ou trouvé) ou à Haemophilus influenzae."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'engagement cérébral qui contre-indiquent la ponction lombaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mydriase unilatérale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hoquet",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles ventilatoires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Céphalées intenses",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Vomissements en jet",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques d'engagement cérébral à type de mydriase unilatérale, hoquet, troubles ventilatoires sont des contre-indications à la ponction lombaire."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les germes responsables de méningites chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Streptococcus agalactiae",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pneumocoque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Méningocoque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Listeria monocytogenes",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Haemophilus influenzae",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le sujet âgé, les germes en cause sont surtout le pneumocoque, le méningocoque, et plus rarement Listeria monocytogenes."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une méningite puriforme aseptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liquide d'aspect clair ou trouble",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pléiocytose à prédominance lymphocytaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pléiocytose à prédominance de polynucléaires neutrophiles",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Examen direct négatif",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cultures négatives",
+          "correct": true
+        }
+      ],
+      "explanation": "Une méningite puriforme aseptique se caractérise par un liquide d'aspect variable (clair ou trouble), une pléiocytose à prédominance de polynucléaires neutrophiles (rarement altérés), une hyperprotéinorachie, un examen direct négatif et des cultures négatives."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance clinique d'une méningite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La température",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'état neurologique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'état hémodynamique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'examen cutané",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La mesure quotidienne du périmètre crânien chez l'adulte",
+          "correct": false
+        }
+      ],
+      "explanation": "Les paramètres de surveillance clinique incluent la température, l'état neurologique, l'état hémodynamique, l'examen cutané. Pour le nouveau-né et le nourrisson, la mesure quotidienne du périmètre crânien et la prise de poids sont également importantes."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'antibioprophylaxie pour les contacts d'un cas de méningite à méningocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toutes les personnes ayant été en contact avec le cas index",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les personnes vivant dans le même domicile",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les personnes exposées aux sécrétions naso-pharyngées dans les 10 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tout l'établissement scolaire si plus de 2 élèves dans 2 classes sont atteints",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le personnel soignant ayant réalisé une intubation sans masque",
+          "correct": true
+        }
+      ],
+      "explanation": "L'antibioprophylaxie est indiquée pour les contacts étroits (personnes vivant dans le même domicile ou exposées aux sécrétions naso-pharyngées ≤ 10j). Dans un établissement scolaire, si ≥ 1 élève/classe, toute la classe; si ≥ 2 élèves dans 2 classes, tout l'établissement. Pour les enfants en bas âge (crèches), tous les enfants et adultes de ces structures. Pour le personnel soignant, sont considérés comme contact les personnes ayant réalisé le bouche à bouche, une intubation, ou une aspiration trachéale sans masque."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques de la méningo-encéphalite herpétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre élevée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles du comportement et confusion",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles mnésiques et phasiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Céphalées et vomissements au premier plan",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Syndrome méningé franc",
+          "correct": false
+        }
+      ],
+      "explanation": "La méningo-encéphalite herpétique se manifeste par une fièvre élevée (39-41°C), des troubles du comportement, confusion, hallucinations auditives, olfactives, des troubles mnésiques et phasiques, et des convulsions. Les céphalées et vomissements sont au second plan."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations où l'antibiothérapie doit être instaurée avant la ponction lombaire (PL) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de céphalées intenses et photophobie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de purpura fulminans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si forte suspicion de méningite bactérienne et hôpital distant de plus de 90 minutes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas d'impossibilité de faire la PL",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas d'aspect macroscopique clair du LCS",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie doit être instaurée avant la PL dans les situations suivantes : purpura fulminans qui contre-indique temporairement la PL jusqu'à la stabilisation hémodynamique, si forte suspicion de méningite bactérienne et hôpital distant de plus de 90 minutes, ou en cas d'impossibilité de faire la PL ou contre-indication à sa réalisation. L'antibiothérapie sera débutée immédiatement en cas d'aspect macroscopique trouble du LCS."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les germes responsables de méningites chez le nourrisson (>3 mois) et l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Streptococcus agalactiae",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "S. pneumoniae (pneumocoque)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "N. meningitidis (méningocoque)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Haemophilus influenzae",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Escherichia coli K1",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le nourrisson (>3 mois) et l'enfant, les germes responsables sont S. pneumoniae (pneumocoque), N. meningitidis (méningocoque) et Haemophilus influenzae."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'examen direct du LCS permettant d'orienter vers le germe en cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cocci Gram négatif en diplocoques en grain de café : Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cocci Gram positif en diplocoques en flammes de bougie : Neisseria meningitidis",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bacilles Gram négatif : Haemophilus influenzae (bacilles polymorphes)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bacilles Gram positif : Listeria monocytogenes",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cocci Gram positif en chainettes chez un nouveau-né : streptocoque du groupe B",
+          "correct": true
+        }
+      ],
+      "explanation": "L'examen direct du LCS peut révéler : Cocci Gram négatif en diplocoques en grain de café pour Neisseria meningitidis ; Cocci Gram positif en diplocoques en flammes de bougie pour Streptococcus pneumoniae ; Bacilles Gram négatif pour Haemophilus influenzae (bacilles polymorphes) ou Escherichia coli (nouveau-né) ; Bacilles Gram positif pour Listeria monocytogenes ; Cocci Gram positif en chainettes chez un nouveau-né pour streptocoque du groupe B."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la recherche d'antigènes solubles dans le LCS par immunochromatographie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est possible pour tous les germes neuropathogènes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle permet de conforter un examen direct positif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle permet de porter rapidement le diagnostic lorsque la coloration de Gram ne révèle aucune bactérie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est très utile en cas de méningite décapitée par une antibiothérapie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est le gold standard pour le diagnostic étiologique",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche d'antigènes solubles est possible uniquement pour le pneumocoque (immunochromatographie). Elle permet de conforter un examen direct positif, de porter rapidement le diagnostic lorsque la coloration de Gram ne révèle aucune bactérie et est très utile en cas de méningite décapitée par une antibiothérapie."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du LCS en cas de méningite à Listeria ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LCS typiquement purulent",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "LCS typiquement panaché",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prédominance lymphocytaire possible",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prédominance polynucléaire possible",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperprotéinorachie et hypoglycorachie nettes",
+          "correct": true
+        }
+      ],
+      "explanation": "Le LCS est typiquement panaché mais il peut être à prédominance lymphocytaire ou polynucléaire. L'hyperprotéinorachie et l'hypoglycorachie sont nettes en cas de méningite à Listeria."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de traitement de la méningite à Listeria ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céphalosporine de 3ème génération seule pendant 7 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pénicilline A (21 jours) + aminoside (5 jours)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cotrimoxazole (21 jours)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vancomycine seule",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ciprofloxacine pendant 5 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la méningite à Listeria est la pénicilline A (21 jours) + aminoside (5 jours) ou le cotrimoxazole (21 jours)."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de l'antibioprophylaxie pour les contacts d'un cas de méningite à méningocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rifampicine PO pendant 48h (600 mg x2/j chez l'adulte)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ceftriaxone 250 mg IM ou IV en dose unique (adulte)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ciprofloxacine 500 mg voie orale en dose unique (adulte)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prophylaxie est inutile au-delà de 5 jours après le dernier contact",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La prophylaxie doit être débutée dans les plus brefs délais, si possible dans les 24 à 48h",
+          "correct": true
+        }
+      ],
+      "explanation": "L'antibioprophylaxie doit être débutée dans les plus brefs délais, si possible dans les 24 à 48h après le diagnostic. Elle est inutile au-delà de 10 jours après le dernier contact. Les options sont : Rifampicine PO pendant 48h (600 mg x2/j chez l'adulte), Ceftriaxone 250 mg IM ou IV en dose unique (adulte), ou Ciprofloxacine 500 mg voie orale en dose unique (adulte)."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les germes à considérer en cas de méningite purulente aseptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Germe fragile ou difficile à cultiver",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection bactérienne décapitée par une antibiothérapie antérieure",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Processus expansif au contact des méninges",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Méningocoque",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pneumocoque",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méningites purulentes aseptiques sont des méningites authentiques décapitées par une antibiothérapie antérieure ou dues à un germe fragile ou difficile à cultiver. Il faut également évoquer une infection bactérienne voire un processus expansif au contact des méninges et demander une TDM cérébrale."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les séquelles neurologiques fréquentes des méningites ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Séquelles motrices (mono ou hémiparésie)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Séquelles sensorielles (cécité ou surdité)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épilepsie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles de caractère",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hydrocéphalie à pression normale",
+          "correct": true
+        }
+      ],
+      "explanation": "Les séquelles sont fréquentes et peuvent être à type de séquelles motrices (mono ou hémiparésie), séquelles sensorielles par atteinte des nerfs crâniens (cécité ou surdité, surtout chez le nourrisson), séquelles psychomotrices à type d'épilepsie, de trouble de caractère ou d'hydrocéphalie à pression normale ou de troubles de la mémoire."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelle est la posologie de la dexaméthasone chez l'adulte pour la corticothérapie associée à l'antibiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0,15 mg/kg/6 heures pendant 4 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "10 mg/6 heures pendant 4 jours",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "10 mg/jour pendant 7 jours",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "20 mg/12 heures pendant 2 jours",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "5 mg/kg/jour pendant 5 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "Le schéma de corticothérapie repose sur la dexaméthasone injectable, à débuter avant ou de façon concomitante à l'antibiothérapie. La posologie est de 10 mg/6 heures pendant 4 jours chez l'adulte."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les agents étiologiques des méningites virales en Tunisie, notamment en fin d'été et début d'automne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entérovirus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Virus des oreillons",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Virus West Nile (VWN)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Virus de la rubéole",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Adénovirus",
+          "correct": false
+        }
+      ],
+      "explanation": "Les arbovirus neurotropes sont également des agents étiologiques des méningites virales; en Tunisie le principal arbovirus impliqué dans les méningites est le virus West Nile (VWN), la survenue de méningites à VWN est plus fréquente au cours des épidémies qui peuvent survenir surtout en fin d’été et au début de l’automne."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les germes à considérer en cas de méningite chez un sujet porteur d'un implant cochléaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pseudomonas",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pneumocoque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Méningocoque",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Haemophilus influenzae",
+          "correct": false
+        }
+      ],
+      "explanation": "Les sujets porteurs d'un implant cochléaire (dans le traitement de la surdité) sont particulièrement à risque de méningite à pneumocoque (pneumocoque++)."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée de traitement recommandée pour une méningite à Streptococcus agalactiae (Streptocoque B) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "7 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "10 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "14 à 21 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "21 jours",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "28 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour Streptococcus agalactiae (Streptocoque B), le traitement recommandé est la pénicilline A pendant 14 à 21 jours."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent altérer la barrière hémato-méningée (BHM) et faciliter le passage des bactéries ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du débit sanguin cérébral",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Altération de la perméabilité",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vascularite",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la pression intracrânienne",
+          "correct": false
+        }
+      ],
+      "explanation": "Le franchissement de la barrière hémato-méningée (BHM) par les bactéries est facilité par son altération, notamment par une perméabilité accrue, une thrombose ou une vascularite."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les germes dominants en cas de méningite récurrente due à un déficit immunitaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumocoque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Méningocoque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Germes encapsulés",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méningites récurrentes sont dues à un déficit immunitaire dans 35% des cas, et dans ce cas, les germes dominants sont les germes encapsulés, en particulier le méningocoque."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelle est la conduite à tenir en cas de méningite à pneumocoque (présumé ou trouvé) chez le nourrisson et l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer uniquement une C3G à forte dose",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Associer la vancomycine (60 mg/kg/jour) à une C3G à forte dose",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arrêter la vancomycine si la CMI pour les C3G < 0,5 mg/l",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Baisser la dose de C3G si la CMI pour les C3G < 0,5 mg/l",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administrer de la ciprofloxacine",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le nourrisson et l'enfant, en cas de méningite à pneumocoque (présumé ou trouvé), il faut associer la vancomycine (60 mg/kg/jour) à une C3G à forte dose. Si la CMI pour les C3G < 0,5 mg/l, on arrêtera la vancomycine et on baissera la dose de C3G."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les diagnostics différentiels à considérer devant un tableau de méningite typique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie méningée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Méningisme",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abcès du cerveau",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fièvre typhoïde",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Purpura fébrile",
+          "correct": false
+        }
+      ],
+      "explanation": "Devant un tableau de méningite typique, les deux diagnostics différentiels à envisager, le problème étant résolu par la PL, sont l'hémorragie méningée et le 'méningisme'. Les autres options sont des formes atypiques de présentation de méningite ou des diagnostics différentiels de formes atypiques."
+    }
+  ]
+}

@@ -1,0 +1,1409 @@
+{
+  "lectureId": "46",
+  "number": "46",
+  "title": "Insuffisance rénale aiguë",
+  "partie": "J2",
+  "specialty": "Néphrologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon la définition, quelles sont les caractéristiques de l'insuffisance rénale aiguë (IRA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution brusque du débit de filtration glomérulaire (DFG)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rétention azotée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles hydroélectrolytiques et acido-basiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évolution toujours irréversible",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IRA se caractérise par une diminution brusque (en quelques heures ou jours) du DFG, entraînant une rétention azotée et de nombreux troubles hydroélectrolytiques et acido-basiques. Elle est habituellement réversible après un traitement symptomatique et/ou étiologique."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux types d'insuffisance rénale aiguë (IRA) mentionnés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IRA obstructive",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "IRA fonctionnelle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "IRA parenchymateuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "IRA chronique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IRA peut être d’origine obstructive (post-rénale), fonctionnelle (pré-rénale) ou organique (rénale/parenchymateuse)."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelles sont les urgences thérapeutiques à rechercher systématiquement en cas d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hyperkaliémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'acidose métabolique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'œdème aigu des poumons (OAP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypoglycémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut rechercher systématiquement en cas d’IRA des complications qui sont des urgences thérapeutiques : l’hyperkaliémie (faire un ECG systématiquement), l’acidose métabolique et l’œdème aigu des poumons (OAP)."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le rôle principal du glomérule dans la formation des urines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La réabsorption des substances essentielles",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La sécrétion de déchets métaboliques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La filtration glomérulaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La régulation de la pression artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "Le glomérule assure la première étape de la formation des urines qui est la FILTRATION GLOMERULAIRE."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelles sont les fonctions principales du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conservation des substances essentielles à la vie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Excrétion des déchets du métabolisme protéique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Homéostasie du milieu intérieur (pH, osmolarité, volémie, kaliémie, PA, calcémie)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rôle endocrine (synthèse d'érythropoïétine, formation de vitamine D active)",
+          "correct": true
+        }
+      ],
+      "explanation": "Le rein contrôle étroitement la composition du milieu intérieur et assure la conservation des substances essentielles, l'excrétion des déchets, l'homéostasie du milieu intérieur (pH, osmolarité, volémie, kaliémie, pression artérielle moyenne, calcémie) et un rôle endocrine (érythropoïétine, vitamine D active)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelle est la proportion du débit cardiaque que les reins reçoivent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 10%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 20 à 25%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Environ 50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les reins, 0.5% du poids corporel, reçoivent environ 20 à 25% du débit cardiaque (1.2 l/min)."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelles sont les couches de la barrière de filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Endothélium capillaire glomérulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Membrane basale glomérulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cellules épithéliales (podocytes)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cellules mésangiales",
+          "correct": false
+        }
+      ],
+      "explanation": "La barrière de filtration comporte trois couches successives de dedans en-dehors : l'endothélium capillaire glomérulaire, la membrane basale glomérulaire et les cellules épithéliales (podocytes)."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est le critère de certitude du caractère aigu d'une insuffisance rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie présente",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypocalcémie présente",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La présence dans les 3 mois précédents d'une valeur normale de la fonction rénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des reins de taille diminuée à l'échographie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le critère de certitude du caractère aigu est la présence dans les 3 mois précédents l’épisode actuel d’une valeur normale de la fonction rénale."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les signes ECG pouvant indiquer une hyperkaliémie grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ondes T amples, pointues et symétriques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Allongement de l'espace PR",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aplatissement de l'onde P",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Élargissement de QRS",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes retrouvés à l’ECG sont : troubles de repolarisation (onde T amples pointues et symétriques), puis des troubles de la conduction (allongement de l’espace PR, aplatissement de l’onde P, élargissement de QRS), blocs sino-auriculaires ou auriculoventriculaires, rythme idioventriculaire lent."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments cliniques et morphologiques qui orientent vers une IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents de lithiase urinaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence d'un globe vésical à l'examen clinique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dilatation des cavités pyélocalicielles à l'échographie rénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Reins de taille diminuée à l'échographie",
+          "correct": false
+        }
+      ],
+      "explanation": "L’IRA obstructive doit être évoquée devant des antécédents de lithiase ou cancers pelviens, la recherche d'un globe vésical à l'examen clinique, et est confirmée par la présence d’une dilatation des cavités pyélocalicielles à l’échographie rénale."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les circonstances de survenue les plus fréquentes des IRA fonctionnelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déshydratations extracellulaires importantes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypovolémies relatives (insuffisance cardiaque, cirrhose, syndrome néphrotique)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles de l'hémodynamique intrarénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nécrose tubulaire aiguë",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IRA fonctionnelles surviennent le plus souvent au cours des déshydratations extracellulaires importantes (hypovolémies vraies), des hypovolémies relatives (insuffisance cardiaque congestive, décompensations œdémato-ascitiques des cirrhoses, syndrome néphrotique) et des troubles de l’hémodynamique intrarénale."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le symptôme majeur des IRA fonctionnelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypertension artérielle",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oligoanurie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hématurie macroscopique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Douleur lombaire intense",
+          "correct": false
+        }
+      ],
+      "explanation": "Le symptôme majeur est l’oligoanurie d’apparition plus ou moins rapide selon l’étiologie en cause."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les signes biologiques urinaires caractéristiques d'une IRA fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Natriurèse faible (<20 mmol/L)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rapport Na+/K+ urinaire <1",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Osmolarité urinaire > 500 mosm/l",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rapport Urée urinaire / Urée plasmatique <10",
+          "correct": false
+        }
+      ],
+      "explanation": "La natriurèse est faible (<20 mmol/L) avec un rapport Na+/K+ urinaire <1. Les urines sont très concentrées riches en urée et en osmoles avec une osmolarité urinaire > 500 mosm/l et un rapport Urée urinaire / Urée plasmatique >10."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales causes de nécrose tubulaire aiguë (NTA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Origine ischémique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Origine toxique ou médicamenteuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Obstruction tubulaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glomérulonéphrite aiguë",
+          "correct": false
+        }
+      ],
+      "explanation": "Au cours des NTA, trois mécanismes sont le plus souvent en cause et souvent associés : ischémique, toxique et obstructif."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures préventives essentielles de l'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintien d'une volémie et d'une pression de perfusion efficace",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adaptation posologique des médicaments",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Éviction de la prescription abusive de médicaments néphrotoxiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation systématique de produits de contraste iodés",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement préventif repose sur le maintien d’une volémie et d’une pression de perfusion efficace, l’adaptation posologique des médicaments, l’éviction de la prescription abusive de médicaments néphrotoxiques et de produits contrastes iodés sauf en cas de nécessité."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la barrière de filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est triplement sélective : de poids, de taille et de charge.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'endothélium capillaire glomérulaire assure une restriction de taille importante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La membrane basale glomérulaire repousse les charges négatives.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les podocytes empêchent le passage de protéines de poids supérieur à 60 KD.",
+          "correct": true
+        }
+      ],
+      "explanation": "La barrière de filtration glomérulaire est triplement sélective : sélectivité de poids, de taille et de charge. La membrane basale glomérulaire, riche en glycoprotéines anioniques, repousse les charges négatives. Les podocytes assurent l’ensemble de la restriction au passage de taille empêchant notamment le passage de protéines de poids supérieur à 60 KD. L'endothélium capillaire glomérulaire est largement fenêstré et n'assure aucune restriction de taille (excepté les éléments du sang)."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les déterminants de la filtration glomérulaire selon la loi de Starling ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression hydrostatique capillaire glomérulaire favorise la filtration.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pression oncotique des protéines dans le plasma s'oppose à la filtration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pression hydrostatique dans la capsule de Bowman favorise la filtration.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La pression oncotique dans la capsule de Bowman est significative et s'oppose à la filtration.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pression hydrostatique capillaire favorise la filtration alors que la pression oncotique des protéines dans le plasma (π onc cap) et la pression hydrostatique dans la capsule de Bowman (PCB) s’y opposent. La quantité de protéines traversant la barrière de filtration étant négligeable (π onc CB ≈ 0)."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Comment la vasomotricité des artérioles glomérulaires influence-t-elle le débit de filtration glomérulaire (DFG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une vasoconstriction de l'artériole afférente diminue le DFG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une vasoconstriction de l'artériole efférente augmente le DFG.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une vasodilatation de l'artériole afférente diminue le DFG.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une vasodilatation de l'artériole efférente augmente le DFG.",
+          "correct": false
+        }
+      ],
+      "explanation": "Vasoconstriction de l’artériole afférente : Baisse du débit sanguin rénal, pression en aval, pression hydrostatique glomérulaire et débit de filtration glomérulaire. Vasoconstriction de l’artériole efférente : débit sanguin rénal diminue, pression en amont augmente, pression hydrostatique glomérulaire accrue ainsi que le débit de filtration glomérulaire."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels facteurs peuvent augmenter le coefficient de perméabilité (Kf) de la barrière de filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le facteur natriurétique atrial (FNA)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le monoxyde d'azote (NO)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'angiotensine II (AII)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les glucocorticoïdes",
+          "correct": true
+        }
+      ],
+      "explanation": "Le facteur natriurétique atrial (FNA), le monoxyde d'azote (NO) augmentent Kf en inhibant la contraction des cellules mésangiales glomérulaires. Les glucocorticoïdes augmentent également Kf. L'AII, la vasopressine, l'endothéline au contraire diminuent Kf."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Concernant la clairance de la créatinine, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est un indicateur fiable du DFG en toutes circonstances.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est proche de celle de l'inuline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "À forte concentration (insuffisance rénale), la créatinine est également sécrétée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La formule de Cockcroft est fiable chez les enfants et les sujets obèses.",
+          "correct": false
+        }
+      ],
+      "explanation": "La créatinine a une clairance proche de celle de l’inuline, de sorte qu’elle peut être utilisée en pratique clinique pour évaluer la filtration glomérulaire. Cependant, à forte concentration (exercice physique, insuffisance rénale), la créatinine est également sécrétée et ne peut être utilisée comme indicateur du DFG. La formule de Cockcroft est peu fiable chez les enfants, les sujets obèses, les sujets âgés et les femmes en période de grossesse."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes impliqués dans l'autorégulation rénale du DSR et du DFG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un mécanisme myogénique des artérioles afférentes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un rétrocontrôle tubulo-glomérulaire par la macula densa.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une stimulation sympathique rénale intense.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'action des hormones rénales vaso-actives.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’autorégulation du DSR est secondaire à deux mécanismes principaux : myogénique et le rétrocontrôle tubulo-glomérulaire par l’intermédiaire de la macula densa. Les hormones synthétisées au niveau du rein jouent également un rôle dans le maintien de la stabilité du DSR et du DFG. La stimulation sympathique rénale intense est une régulation extrinsèque qui réduit le DSR et le DFG."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets de l'angiotensine II produite localement dans le rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vasoconstriction de l'artériole efférente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du débit sanguin glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Baisse du coefficient de filtration glomérulaire (Kf).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasoconstriction médullaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’angiotensine II produite localement entraîne : une vasoconstriction de l’artériole efférente à l’origine d’une chute du débit sanguin glomérulaire et une augmentation de la fraction de filtration ; une contraction des cellules mésangiales glomérulaires et une baisse du coefficient de filtration glomérulaire (Kf) ; une vasoconstriction médullaire."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères KDIGO 2012 pour le diagnostic d'une IRA de stade 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la créatininémie >26 µmol/L en 48 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Créatininémie multipliée par 2 en 7 jours.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurèse < 0,5 ml/kg/h pendant 6 à 12 heures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diurèse < 0,5 ml/kg/h pendant au moins 12 heures.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour le stade 2, la créatininémie est multipliée par 2 en 7 jours ou la diurèse est < 0,5 ml/kg/h pendant au moins 12 heures. L'augmentation de la créatininémie >26 µmol/L en 48 heures ou >50% en 7 jours, et la diurèse < 0,5 ml/kg/h pendant 6 à 12 heures correspondent au stade 1."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques impliqués dans l'IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la pression hydrostatique intra-tubulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Blocage de la filtration glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Redistribution du flux sanguin rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de l'effet de l'ADH.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d’obstacle, l’hyperpression dans les voies urinaires bloque la filtration glomérulaire, entraîne une redistribution du flux sanguin rénal et empêche la constitution du gradient osmotique cortico-médullaire nécessaire à l’effet de l’ADH. La Pression hydrostatique intra tubulaire augmente et annule la pression de filtration."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes distinctifs entre une IRA et une insuffisance rénale chronique (IRC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'IRA s'installe rapidement (heures, jours ou semaines), l'IRC lentement (mois, années).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'anémie est habituellement absente en IRA, souvent présente en IRC.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypocalcémie est présente en IRA, absente en IRC.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La taille des reins est conservée en IRA, diminuée en IRC.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'IRA s'installe rapidement (heures, jours ou semaines) tandis que l'IRC s'installe lentement (mois, années). L'anémie est habituellement absente en IRA et souvent présente en IRC. L'hypocalcémie est absente en IRA et présente en IRC. La taille des reins est conservée en IRA et diminuée en IRC."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations l'absence de dilatation des cavités pyélocalicielles n'exclut-elle pas une IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obstacle s'installant brutalement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rein unique fonctionnel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Obstacle bilatéral.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Obstacle chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutefois, l’absence de dilatation des cavités ne permet pas d’exclure une origine obstructive à l’IRA notamment quand l’obstacle s’est installé brutalement."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'IRA fonctionnelle liées à une perturbation de l'hémodynamique intrarénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Utilisation d'AINS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utilisation de bloqueurs du système rénine angiotensine (IEC, ARAII).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déshydratation extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Choc cardiogénique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les perturbations de l’hémodynamique intrarénale sont causées par l'utilisation des AINS et/ou des bloqueurs du système rénine angiotensine : IEC, ou des antagonistes des récepteurs AT1 de l’angiotensine II (ARAII). La déshydratation extracellulaire et le choc cardiogénique sont des causes d'hypoperfusion rénale globale."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et biologiques d'une IRA secondaire à une rhabdomyolyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œdèmes et douleurs musculaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Urines foncées (myoglobinurie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des enzymes musculaires (CPK, LDH, Aldolases).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypocalcémie initiale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Cliniquement, il existe des œdèmes et des douleurs musculaires avec émission d’urines foncées (myoglobinurie). Biologiquement, il existe une augmentation des enzymes musculaires (CPK, LDH, Aldolases), une augmentation relativement plus importante de la créatininémie par rapport à l’urée sanguine, une élévation inhabituellement rapide de la kaliémie, de la phosphorémie et une hypocalcémie initiale."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des néphrites interstitielles aiguës (NIA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IRA à diurèse conservée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypertension artérielle fréquente.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Leucocyturie aseptique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Protéinurie >1 g/24 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les NIA sont caractérisées par une IRA à diurèse conservée sans hypertension artérielle ni œdèmes. Biologiquement, on trouve une leucocyturie aseptique et une protéinurie <1 g/24 heures."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du syndrome néphritique aigu, typique d'une glomérulonéphrite aiguë post-infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hématurie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Protéinurie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic est évoqué devant un syndrome néphritique aigu (associant au complet une hématurie, une protéinurie, une IR, une oligurie, une HTA et des œdèmes)."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications d'hémodialyse en urgence en cas d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperkaliémie supérieure à 6,5 mmol/L avec ou sans signes électriques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Acidose métabolique extrême (pH < 7,2, bicarbonate <10mmol/l).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œdème aigu du poumon (OAP) ne répondant pas aux diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Urée plasmatique à 25 mmol/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dialyse est indispensable et urgente quand : Hyperkaliémie supérieure à 6,5 mmol/L avec ou sans signes électriques ; Acidose métabolique extrême (pH < 7,2, bicarbonate <10mmol/l) ; OAP ne répondant pas aux diurétiques ou chez un patient ayant une IRAO ; Épuration d’un toxique. Une urée plasmatique à 25 mmol/L ne justifie pas une dialyse en urgence, l'objectif prophylactique étant de la maintenir sous 30 mmol/L."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements médicaux de l'hyperkaliémie grave (avec signes ECG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gluconate de calcium 10% en IVL.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuline ordinaire et G10% en IV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bicarbonates de sodium à 42 %°.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résine échangeuse d'ions (kayexalate) par voie orale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement est l’hémodialyse en urgence avec un traitement médical de l’hyperkaliémie qui comprend : Gluconate de calcium 10% en IVL, Insuline ordinaire (10 UI) et 250 cc G10 % à passer en 30 minutes, Bicarbonates de sodium à 42 %°. Les résines échangeuses d'ions sont utilisées pour prévenir la récidive mais ne sont pas un traitement d'urgence en cas de signes de gravité."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les modalités de drainage des urines en cas d'IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sondage vésical pour obstacle bas situé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cathéter sus-pubien pour obstacle bas situé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sonde urétérale (double J) pour obstacle haut situé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Néphrostomie percutanée pour obstacle haut situé.",
+          "correct": true
+        }
+      ],
+      "explanation": "Lorsque l’obstacle est bas situé (vessie, urètre, prostate), le drainage est réalisé par un sondage vésical ou par la pose d’un cathéter sus-pubien. Lorsque l’obstacle est plus haut situé, deux techniques de drainage sont disponibles : la mise en place d’une sonde urétérale (extériorisée transvésicale, ou non extériorisée type sonde en double J) et la néphrostomie percutanée."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs favorisant la néphrotoxicité aux produits de contraste iodés (PCI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sujets âgés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale chronique préexistante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diabète.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation de PCI de faible osmolarité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs favorisants la néphrotoxicité aux produits de contraste et donc la survenue d’IRA sont liés au patient (sujets âgés, insuffisance rénale chronique, diabète, myélome multiple, déshydratation extracellulaire, insuffisance cardiaque, traitements néphrotoxiques concomitants) et au PCI (quantité, osmolarité). L'utilisation de PCI de faible osmolarité est une mesure préventive, non un facteur favorisant."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives de la néphrotoxicité médicamenteuse des aminosides ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adapter la posologie journalière à la fonction rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adapter la dose journalière aux concentrations résiduelles en cas de prescription prolongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prescrire des aminosides pendant plus de 48h sans surveillance.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ne pas utiliser d'aminosides chez les patients à risque.",
+          "correct": false
+        }
+      ],
+      "explanation": "La posologie journalière et la durée des aminosides doit être adaptée à la fonction rénale. En cas de prescription prolongée (plus de 48 h), la dose journalière doit être adaptée aux concentrations résiduelles."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques de la nécrose tubulaire aiguë (NTA) post-ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vasoconstriction intrarénale pré et post-glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécrose des cellules épithéliales tubulaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation du rétrocontrôle tubulo-glomérulaire par l'excès de Na+ à la macula densa.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la pression dans le capillaire glomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La baisse du flux sanguin rénal est à l’origine d’une ischémie rénale, créant une vasoconstriction intrarénale pré et post-glomérulaire majeure. La conséquence est la nécrose des cellules épithéliales tubulaires. L’excès de Na+ au niveau de la macula densa, lié au défaut de réabsorption tubulaire du Na+ par le tubule ischémique, pourrait activer le « feed-back » tubulo-glomérulaire, et expliquer la vasoconstriction préglomérulaire. La baisse de la pression dans le capillaire glomérulaire est une conséquence de la vasoconstriction, non une augmentation."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la ponction biopsie rénale (PBR) au cours d'une IRA organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tableau évoquant une néphropathie glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tableau évoquant certaines atteintes vasculaires ou interstitielles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "NTA dont les circonstances d'apparition ne sont pas évidentes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "NTA avec fonction rénale ne s'améliorant pas après 3 à 4 semaines.",
+          "correct": true
+        }
+      ],
+      "explanation": "La PBR est réalisée quand le tableau évoquerait une néphropathie glomérulaire, certaines atteintes vasculaires ou interstitielles. Devant un tableau de NTA, la PBR est indiquée lorsque les circonstances d’apparition ne sont pas évidentes, ou plus tardivement lorsque la fonction rénale ne s’améliore pas après 3 à 4 semaines après l’apparition de l’IRA."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la phase d'urémie confirmée (anurique) d'une NTA oligoanurique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'anurie domine le tableau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence de protéinurie et d'hématurie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Urines pauvres en osmoles (osmolarité urinaire < 350 mosmol/l).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rapport Na+ / K+ urinaire > 1.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’anurie domine le tableau. Il n’y a pas de protéinurie ni d’hématurie. Les urines sont pauvres en osmoles (osmolarité urinaire inférieure à 350mosmol/l). Le rapport Na+ / K+ urinaire > 1 et le rapport Urée urinaire / Urée plasmatique < 10."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des glomérulonéphrites rapidement progressives (GNRP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale rapidement progressive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hématurie constante (microscopique ou macroscopique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Protéinurie d'abondance modérée (<3 g/24 heures).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle marquée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau clinique est celui d’une insuffisance rénale rapidement progressive associée à des signes d’atteinte glomérulaire caractérisée par : une hématurie constante microscopique abondante voir macroscopique, une protéinurie d’abondance modérée <3 g/24 heures, et par l’absence ou la discrétion de l’HTA."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments diagnostiques d'une thrombose artérielle rénale bilatérale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur lombaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hématurie macroscopique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des LDH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Confirmation par échographie-doppler ou angio-IRM.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le tableau clinique et biologique comprend douleur lombaire, hématurie macroscopique, fièvre, une augmentation des LDH. Le diagnostic est confirmé par l’échographie-doppler, ou une angio-IRM."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et biologiques du syndrome hémolytique et urémique (SHU) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypertension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anémie hémolytique régénérative de type mécanique (schizocytes).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des LDH et baisse de l'haptoglobine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombopénie avec signes de CIVD.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome hémolytique et urémique (SHU) se caractérise par une HTA, une anémie hémolytique régénérative de type mécanique (présence de schizocytes), une augmentation des LDH, une baisse de l’haptoglobine et une thrombopénie sans signes de CIVD."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la nécrose corticale rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contexte d'infection généralisée grave ou obstétrical avec CIVD.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence de reprise de la diurèse dans les délais habituels de 3 à 4 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atrophie rénale rapide avec apparition précoce de calcifications corticales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cortex hyperéchogène à l'échographie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le contexte étiologique est celui d’une infection généralisée grave (septicémie à bacille gram négatif) ou celui d’un contexte obstétrical avec CIVD. Le tableau clinique est compatible avec celui d’une NTA mais sans reprise de la diurèse dans les délais habituels de 3 à 4 semaines. L’atrophie rénale s’installe rapidement avec apparition précoce de calcifications corticales rénales (à l’AUSP). Le diagnostic peut être évoqué sur l’échographie devant un cortex hyperéchogène souligné par une échogénicité normale de la zone sous-capsulaire et juxta-médullaire."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes et les signes cliniques de la nécrose papillaire rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pyélonéphrite aiguë par obstacle, notamment chez le diabétique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drépanocytose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abus d'analgésiques ou d'AINS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anurie fréquente avec douleurs lombaires intenses et hématurie macroscopique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La nécrose papillaire est la conséquence d’une ischémie de la papille rénale. Elle se voit souvent en cas de pyélonéphrite aiguë par obstacle notamment chez le diabétique, de drépanocytose, ou d'abus d’analgésiques ou d’AINS. Cliniquement, l’anurie est fréquente. Il existe des douleurs lombaires intenses associées à une hématurie macroscopique."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Comment prendre en charge une IRA fonctionnelle par déshydratation et hypovolémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restauration d'une volémie efficace par hydratation parentérale (soluté salé isotonique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Correction d'un collapsus ou choc par des colloïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Interruption temporaire des diurétiques et des médicaments entravant l'autorégulation intrarénale (AINS, IEC).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Surveillance basée sur la courbe de poids, la pression artérielle et la reprise de la diurèse.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement des IRA fonctionnelles repose sur la restauration d’une volémie efficace par une hydratation parentérale le plus souvent par du soluté salé isotonique, une correction d’un éventuel collapsus ou choc par des colloïdes, une interruption temporaire des médicaments incriminés (diurétiques) et les médicaments entravant l’autorégulation intrarénale (AINS, IEC). La surveillance est basée sur la courbe de poids, la pression artérielle et surtout la reprise de la diurèse."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les spécificités de la prise en charge des IRA fonctionnelles avec syndrome œdémateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le traitement est essentiellement étiologique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'expansion volémique est contre-indiquée en cas d'insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de syndrome hépato-rénal, l'expansion volémique par albumine est indiquée si hypoalbuminémie < 20 g/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans le syndrome néphrotique, la perfusion d'albumine est toujours nécessaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement est essentiellement étiologique. L’expansion volémique est contre-indiquée en cas d’insuffisance cardiaque. L’objectif du traitement du syndrome hépato-rénal est de restaurer une volémie efficace en entraînant une expansion volémique par de l’albumine en cas d’hypoalbuminémie < 20 g/L. Au cours du syndrome néphrotique, la perfusion d’albumine est nécessaire uniquement lorsque l’hypoalbuminémie est profonde."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives de la tubulopathie aux produits de contraste iodés (PCI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt préalable des AINS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Arrêt des diurétiques si l'état clinique le permet.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hydratation correcte (per os ou perfusion de soluté salé isotonique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation de PCI de faible osmolarité ou iso-osmolaires en limitant le volume.",
+          "correct": true
+        }
+      ],
+      "explanation": "Si l’administration de produits de contraste iodés (PCI) ne peut être évitée, il est indispensable d’en prévenir la toxicité par l’arrêt préalable des AINS, l’arrêt des diurétiques si l’état clinique le permet, une hydratation correcte soit per os, par perfusion de soluté salé isotonique à 9g/L, et par l’utilisation des PCI de faible osmolarité ou iso-osmolaires en limitant le volume de PCI administrés."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les précautions à prendre lors de la prescription d'IEC et ARAII pour prévenir les IRA fonctionnelles médicamenteuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les prescrire avec prudence chez le sujet âgé et les patients à risque vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les interrompre transitoirement en situation de déshydratation (ex: gastro-entérite).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les AINS sont contre-indiqués au cours de l'insuffisance rénale chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les IEC et ARAII peuvent être maintenus en cas de déshydratation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IEC et les antagonistes des récepteurs de l’angiotensine II doivent être prescrits avec prudence chez le sujet âgé et chez les patients à risque vasculaire, et doivent être transitoirement interrompus en situation de déshydratation (ex : gastro-entérite,…). Les AINS sont contre-indiqués au cours de l’insuffisance rénale chronique."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels le facteur atrial natriurétique (FAN) influence la filtration glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du DFG sans augmentation significative du DSR.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vasodilatation de l'artériole afférente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vasoconstriction marquée de l'artériole efférente.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du coefficient d'ultrafiltration (Kf).",
+          "correct": true
+        }
+      ],
+      "explanation": "Le FAN entraîne une augmentation du DFG sans augmentation significative du DSR. Il provoque une vasodilatation de l’artériole afférente et une vasoconstriction plus modérée de l’artériole efférente entraînant une augmentation de la pression hydrostatique glomérulaire. Il augmente également le coefficient d’ultrafiltration (Kf) secondaire au relâchement des cellules mésangiales."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire suspecter une IRA chez un patient ayant une IRC connue ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypocalcémie précoce et profonde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des reins de taille normale ou augmentée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une exposition récente à des produits de contraste iodés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une IRA peut survenir chez des patients ayant une IRC, par exemple après une injection de produits de contraste iodés ou lors de la prise d’anti-inflammatoires non stéroïdiens. L’IRA peut être associée à une anémie, en cas d’hémolyse aiguë ou de choc hémorragique. L’IRA peut être associée à une hypocalcémie précoce et parfois profonde au cours des IRA secondaires à une rhabdomyolyse ou à une pancréatite aiguë. Des reins de taille normale ou augmentée peuvent se voir dans certaines étiologies d’IRC (diabète, myélome, amylose rénale, polykystose rénale), ce qui rend ce critère moins discriminant pour le caractère aigu sur IRC."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de nécrose tubulaire aiguë (NTA) par précipitation intratubulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Précipitation de myoglobine (rhabdomyolyse).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Précipitation d'hémoglobine (hémolyses massives).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Précipitation de chaînes légères d'immunoglobulines (myélomes).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Précipitation de certains médicaments (aciclovir, méthotrexate).",
+          "correct": true
+        }
+      ],
+      "explanation": "Cette atteinte rénale survient au cours de la précipitation intratubulaire de la myoglobine (rhabdomyolyse), de l’hémoglobine (hémolyses massives), des chaînes légères d’immunoglobulines (myélomes) ou encore de certains médicaments (aciclovir, sulfadiazine, méthotrexate, indinavir)."
+    }
+  ]
+}

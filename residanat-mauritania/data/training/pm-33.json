@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-33",
+  "title": "Septicémie",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Un sepsis avec défaillance d'organe sans hypotension.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Un sepsis sévère avec hypotension artérielle persistante malgré le remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une infection généralisée sans signe de défaillance circulatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypotension artérielle isolée sans foyer infectieux identifié.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Un syndrome de réponse inflammatoire systémique d'origine non infectieuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc septique est défini comme un sepsis sévère avec hypotension artérielle persistante malgré le remplissage vasculaire."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les critères du score qSOFA qui suggèrent une suspicion de sepsis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une fréquence cardiaque supérieure à 100 battements/minute.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Un score de Glasgow inférieur à 13.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une fréquence respiratoire supérieure à 22 cycles/minute.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une pression artérielle systolique inférieure à 100 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une température corporelle supérieure à 38,5°C.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dépistage du sepsis par le score qSOFA est positif si au moins 2 critères sur 3 sont présents : Glasgow < 13, FR > 22/min, ou PAS < 100 mmHg."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes suivants, lesquels sont des signes cliniques de dysfonction circulatoire dans le cadre d'un choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Tachycardie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Hypertension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Marbrures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Oligo-anurie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Bradypnée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de dysfonction circulatoire incluent la tachycardie, l'hypotension artérielle, les marbrures, la polypnée et l'oligo-anurie."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les premières mesures thérapeutiques à mettre en œuvre systématiquement en phase 1 de la prise en charge du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Administration de dobutamine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Oxygénothérapie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Remplissage vasculaire par NaCl isotonique 9‰.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Administration d'hémisuccinate d'hydrocortisone.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Pose d'un cathéter pulmonaire droit.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 1 du traitement symptomatique du choc comprend l'oxygénothérapie systématique avec un objectif de saturation > 95% et le remplissage vasculaire systématique par NaCl isotonique 9‰."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle surveillance est essentielle en phase 1 de la prise en charge du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Surveillance de la pression artérielle (PA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Surveillance de la saturation en oxygène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Surveillance de la diurèse via une sonde urinaire (SAD).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Surveillance de la pression veineuse centrale (PVC).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Surveillance de la pression artérielle pulmonaire (PAP).",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance en phase 1 inclut le scope, la PA, la saturation et la SAD pour la diurèse."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels systèmes cellulaires sont activés dans la physiopathologie complexe du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Les cellules musculaires lisses.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Les macrophages.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Les leucocytes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Les cellules hépatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Les neurones.",
+          "correct": false
+        }
+      ],
+      "explanation": "La physiopathologie du choc septique implique l'activation de systèmes cellulaires tels que les macrophages, les leucocytes, les plaquettes et les cellules endothéliales."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "L'hypovolémie observée dans le choc septique est caractérisée par :",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une hypovolémie absolue due à une diminution des pertes insensibles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Une hypovolémie relative due à une vasoconstriction périphérique prédominante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Une hypovolémie absolue due à l'hyperperméabilité capillaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypovolémie relative due à une vasodilatation périphérique prédominante.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une hypovolémie absolue due à une augmentation du volume intravasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypovolémie est absolue (hyperperméabilité capillaire, augmentation des pertes insensibles et du 3ème secteur) et relative (vasodilatation périphérique prédominante)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la caractéristique de l'atteinte myocardique précoce dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une altération irréversible de la fonction systolique ventriculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Une altération de la fonction diastolique ventriculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Une altération de la fonction systolique ventriculaire, réversible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypertrophie ventriculaire gauche.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une ischémie myocardique primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il y a une atteinte myocardique précoce caractérisée par une altération de la fonction systolique ventriculaire, qui est réversible."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels marqueurs biologiques sont typiquement élevés dans le bilan inflammatoire d'un choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La procalcitonine (PCT).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La protéine C réactive (CRP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La créatinine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Les leucocytes (hyperleucocytose).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'albumine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan inflammatoire peut montrer une hyperleucocytose (ou neutropénie provisoire), une augmentation de la CRP et une augmentation de la PCT."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations biologiques de dysfonction organique dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Hypoxémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Alcalose métabolique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Hyperlactatémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Insuffisance rénale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Cholestase hépatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les dysfonctions organiques se manifestent par l'hypoxémie, l'acidose métabolique, l'hyperlactatémie, l'insuffisance rénale aiguë, la cytolyse et la cholestase hépatique, ainsi qu'une coagulopathie de consommation."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les portes d'entrée infectieuses les plus fréquemment identifiées dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Cutanée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Hépato-digestive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Urinaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Méningée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les portes d'entrée les plus fréquentes sont pulmonaires (50%), hépato-digestives (20%) et urinaires (10%)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant les hémocultures dans le diagnostic du choc septique :",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elles doivent être réalisées après l'antibiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Deux paires d'hémocultures sont recommandées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elles doivent être réalisées avant l'antibiothérapie, sans la retarder.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La bactériémie est présente dans la majorité des cas (plus de 70%).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elles ne sont pas nécessaires si un foyer clinique est évident.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut réaliser 2 paires d'hémocultures avant l'antibiothérapie, sans la retarder. La bactériémie n'est présente que dans 30% des cas."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs de la prise en charge symptomatique du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Maintenir une pression artérielle moyenne (PAM) inférieure à 60 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Obtenir une diurèse supérieure ou égale à 0,5 ml/kg/h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Maintenir une lactatémie inférieure à 2 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Obtenir une saturation veineuse centrale en O2 supérieure à 70%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Maintenir une fréquence cardiaque inférieure à 80 battements/minute.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs sont une PAM ≥ 65 mmHg, une diurèse ≥ 0,5 ml/kg/h, une lactatémie < 2 mmol/L et une saturation veineuse centrale en O2 > 70%."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment doit être réalisé le remplissage vasculaire initial en phase 1 du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Par des volumes de 100 mL sur une période de 5 minutes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Avec du Ringer Lactate uniquement.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Sur une voie veineuse de bon calibre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Par volumes de 500 mL sur une période de 15 minutes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Il doit être limité à 1 litre au total.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le remplissage vasculaire se fait par NaCl isotonique 9‰, sur voie veineuse de bon calibre, par volumes de 500 mL sur une période de 15 minutes, répétés si besoin."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels outils de monitoring sont mentionnés pour les 2ème et 3ème phases de prise en charge en réanimation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Échographie cardiaque (ETT/ETO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Mesure de la pression artérielle non invasive uniquement.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Cathétérisme pulmonaire droit.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Électrocardiogramme (ECG) en continu.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Mesure de la température corporelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "En réanimation, le monitoring peut inclure l'échographie cardiaque (ETT/ETO) et le cathétérisme pulmonaire droit."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées au traitement anti-infectieux du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Drainage d'un foyer infectieux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Intervention chirurgicale si nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Retrait de cathéter infecté.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Antibiothérapie probabiliste après 24h d'observation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Antibiothérapie à spectre étroit d'emblée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement anti-infectieux inclut le drainage ou l'intervention chirurgicale selon le foyer, et le retrait de cathéter. L'antibiothérapie probabiliste doit être administrée en urgence."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du choc méningococcique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Il est caractérisé par une pullulation bactérienne méningococcique uniquement méningée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Il entraîne une coagulopathie de consommation majeure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Il est souvent associé à un purpura extensif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. C'est un choc septique de gravité modérée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Il est toujours d'origine virale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc méningococcique est un choc septique gravissime caractérisé par une pullulation bactérienne méningococcique méningée et périphérique, entraînant une coagulopathie de consommation majeure, avec purpura extensif."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment doit être gérée la prise en charge du choc méningococcique en extrahospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Transport médicalisé par SAMU vers le service de réanimation le plus proche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Antibiothérapie différée après confirmation bactériologique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Antibiothérapie en extrême urgence, sans prélèvement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Antibiothérapie uniquement si l'état hémodynamique est stable.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Administration de corticoïdes à forte dose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc méningococcique nécessite un transport médicalisé par SAMU vers le service de réanimation le plus proche et une antibiothérapie en extrême urgence en extrahospitalier, sans prélèvement, quel que soit l'état hémodynamique."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles cytokines pro-inflammatoires sont libérées sous l'action de l'endotoxine dans la physiopathologie du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. TNFα.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. IL1β.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. IL4.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. IL10.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Récepteurs solubles du TNF.",
+          "correct": false
+        }
+      ],
+      "explanation": "Sous l'action de l'endotoxine, des cytokines pro-inflammatoires comme le TNFα et l'IL1β sont libérées, entraînant la libération de nombreux médiateurs."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels médiateurs sont libérés en réponse à l'activation des systèmes cellulaires et humoraux dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Monoxyde d'azote (NO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Molécules d'adhérence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Médiateurs lipidiques (PAF).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. IL4.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. IL10.",
+          "correct": false
+        }
+      ],
+      "explanation": "La libération de cytokines pro-inflammatoires entraîne la libération de nombreux médiateurs tels que le NO, les molécules d'adhérence et les médiateurs lipidiques (PAF)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de la mal-distribution des débits sanguins régionaux dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Augmentation de la perfusion tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Altération de la microcirculation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Dysfonctions organiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Diminution des besoins en O2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Amélioration de l'extraction d'O2.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mal-distribution des débits sanguins régionaux entraîne une diminution de la perfusion tissulaire, une altération de la microcirculation et des dysfonctions organiques."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques du syndrome infectieux dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Frissons.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Fièvre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Hypothermie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Bradycardie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hypertension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome infectieux se manifeste par des frissons, de la fièvre ou une hypothermie, et des signes spécifiques d'une infection localisée."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de l'encéphalopathie septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Agitation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Confusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Troubles de conscience.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Convulsions généralisées.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Rigidité nucale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'encéphalopathie septique peut se manifester par de l'agitation, de la confusion et des troubles de conscience pouvant aller jusqu'au coma."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le risque thrombo-embolique chez les patients en choc septique et comment est-il prévenu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le risque est faible et ne nécessite pas de prévention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Le risque est élevé et nécessite une anticoagulation préventive par héparine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le risque est élevé mais la prévention est contre-indiquée en raison de la CIVD.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le risque est modéré et est prévenu par des antiagrégants plaquettaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Le risque est élevé et est prévenu par des bas de contention uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque thrombo-embolique est élevé chez les patients en choc septique, et une anticoagulation préventive par héparine est recommandée."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'antibiothérapie probabiliste initiale dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle doit être administrée après 24 heures d'observation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elle doit être à large spectre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle doit être bactéricide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est généralement une monothérapie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle doit être administrée par voie orale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie probabiliste doit être administrée en urgence, après prélèvements bactériologiques, et est généralement une double antibiothérapie IV à large spectre et bactéricide."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une pression artérielle diastolique (PAD) basse doit faire évoquer quel processus dans le contexte d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une augmentation des résistances artérielles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Une baisse des résistances artérielles, suggérant un processus septique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une défaillance cardiaque isolée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypovolémie pure.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une hypertension pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une pression artérielle diastolique basse doit faire évoquer une baisse des résistances artérielles, et donc un processus septique."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle affirmation est correcte concernant le syndrome inflammatoire dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'absence de syndrome inflammatoire élimine formellement l'origine infectieuse d'un état de choc.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. L'absence de syndrome inflammatoire n'élimine pas l'origine infectieuse d'un état de choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Un syndrome inflammatoire est toujours présent et intense.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Seule l'hyperleucocytose est un signe fiable de syndrome inflammatoire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La neutropénie est un signe d'exclusion du sepsis.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'absence de syndrome inflammatoire n'élimine pas l'origine infectieuse d'un état de choc."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelle proportion des cas de sepsis sévère/choc septique la bactériémie est-elle documentée par hémocultures ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Environ 10%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Environ 30%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Environ 50%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Environ 70%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Plus de 90%.",
+          "correct": false
+        }
+      ],
+      "explanation": "La bactériémie est uniquement présente dans 30% des cas d'hémocultures positives."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle proportion de patients présentant un sepsis sévère ou un choc septique n'auront pas de documentation bactériologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Moins de 10%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Environ 1/3.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Environ la moitié.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Plus de 75%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Tous les patients ont une documentation bactériologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un tiers des patients présentant un sepsis sévère/choc septique n'auront pas de documentation bactériologique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations la Noradrénaline doit-elle être introduite en phase 1 du traitement du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. D'emblée en cas de pression artérielle diastolique (PAD) inférieure à 40 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Si la pression artérielle moyenne (PAM) est inférieure à 65 mmHg après 20 à 30 ml/kg de remplissage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. En première intention, avant tout remplissage vasculaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Si la fréquence cardiaque est supérieure à 120 battements/minute.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. En cas d'oligurie isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Noradrénaline (0,5 µg/kg/min) est indiquée d'emblée en cas de PAD < 40 mmHg, ou si la PAM < 65 mmHg après 20 à 30 ml/kg de remplissage."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels médicaments n'ont aucune indication à la phase aiguë du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Noradrénaline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Dobutamine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. NaCl isotonique 9‰.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Adrénaline.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il n'y a aucune indication de dobutamine ou de corticoïdes à la phase aiguë du choc septique."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quand la Dobutamine peut-elle être introduite dans la prise en charge du choc septique en réanimation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. D'emblée, en première intention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. En cas de forte composante de défaillance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Pour augmenter la pression artérielle moyenne.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. En cas d'insuffisance rénale aiguë persistante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Pour compenser l'acidose lactique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Dobutamine est introduite en réanimation en cas de forte composante de défaillance cardiaque."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelle situation l'Hémisuccinate d'hydrocortisone (200 mg) peut-il être introduit dans le traitement du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Systématiquement à la phase aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. En cas de choc réfractaire (discuté).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. En cas d'hypotension artérielle isolée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Pour prévenir le SDRA.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Pour traiter l'acidose métabolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Hémisuccinate d'hydrocortisone (200 mg) est introduite en cas de choc réfractaire, bien que son utilisation soit discutée."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas d'intubation d'un patient en choc septique, quelles sont les recommandations concernant la ventilation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Maintenir une ventilation minute élevée pour compenser l'acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Utiliser un volume courant élevé pour améliorer l'oxygénation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Maintenir une ventilation minute basse pour économiser l'énergie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Titrer la pression expiratoire positive (PEP).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Ne pas utiliser de PEP pour éviter la surdistension.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'intubation, il faut maintenir une ventilation minute élevée pour compenser l'acidose lactique et titrer la pression expiratoire positive (PEP)."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles mesures sont recommandées pour la prévention du SDRA chez un patient intubé en choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Utiliser un faible volume courant (< 6 à 8 ml/kg de poids idéal théorique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Maintenir une pression expiratoire positive (PEP) élevée et fixe.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Titrer la pression expiratoire positive (PEP).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Utiliser un volume courant supérieur à 10 ml/kg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Éviter toute forme de PEP.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour prévenir le SDRA, il est recommandé d'utiliser un faible volume courant (< 6 à 8 ml/kg de poids idéal théorique selon la taille) et de titrer la pression expiratoire positive (PEP)."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En l'absence de foyer infectieux évident, quelle association d'antibiotiques est généralement recommandée pour l'antibiothérapie probabiliste ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une monothérapie par C3G.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Une C3G (Céphalosporine de 3ème génération) et un aminoside.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une fluoroquinolone et un macrolide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une pénicilline et un glycopeptide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une Céfotaxime et une Vancomycine.",
+          "correct": false
+        }
+      ],
+      "explanation": "En l'absence de foyer infectieux évident, l'antibiothérapie probabiliste recommandée est une C3G + aminoside."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est l'impact du délai d'administration de l'antibiothérapie après l'hypotension dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le délai n'a pas d'impact significatif sur la mortalité.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. La mortalité augmente de 10% par heure de délai entre l'hypotension et la première administration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La mortalité diminue de 10% par heure de délai.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le délai est critique uniquement si l'antibiothérapie est administrée après 6 heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Le délai est important uniquement pour les infections à Gram positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie doit être administrée dans l'heure, ou à défaut dans les 3 heures, car la mortalité augmente de 10% par heure de délai entre l'hypotension et la première administration."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le critère définissant le purpura fulminans dans le contexte du choc méningococcique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Au moins 3 éléments pétéchiaux de moins de 1 mm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Au moins 1 élément nécrotique ou ecchymotique de plus de 3 mm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une éruption maculopapuleuse généralisée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une éruption urticarienne diffuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Des lésions vésiculeuses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le purpura fulminans est défini par la présence d'au moins 1 élément nécrotique ou ecchymotique de ≥ 3 mm."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les doses d'antibiothérapie recommandées pour la Ceftriaxone en cas de choc méningococcique en extrahospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. 500 mg chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. 1 à 2 g chez l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. 10 mg/kg chez l'enfant sans dépasser 500 mg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. 50 à 100 mg/kg chez l'enfant sans dépasser 1 g.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. 200 mg/kg chez l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Ceftriaxone est administrée à 1 à 2 g chez l'adulte et 50 à 100 mg/kg chez l'enfant sans dépasser 1 g."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les doses d'antibiothérapie recommandées pour le Céfotaxime en cas de choc méningococcique en extrahospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. 500 mg chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. 1 g chez l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. 10 mg/kg chez l'enfant sans dépasser 500 mg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. 50 mg/kg chez l'enfant sans dépasser 1 g.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. 200 mg/kg chez l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Céfotaxime est administré à 1 g chez l'adulte et 50 mg/kg chez l'enfant sans dépasser 1 g."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques contribuant à l'hypovolémie absolue dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Augmentation de la perméabilité capillaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Diminution des pertes insensibles.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Séquestration liquidienne dans le 3ème secteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Vasodilatation périphérique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Diminution de la diurèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypovolémie absolue est due à l'hyperperméabilité capillaire, à l'augmentation des pertes insensibles et à la séquestration liquidienne dans le 3ème secteur."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes responsables des troubles de l'oxygénation tissulaire dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Diminution des besoins en O2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Besoins en O2 accrus (tachycardie, hyperthermie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Troubles de l'extraction de l'O2 par dysfonction mitochondriale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Augmentation de la capacité de transport d'O2 du sang.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Amélioration de la microcirculation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les besoins en O2 sont accrus (tachycardie, hyperthermie) et il existe des troubles de l'extraction de l'O2 par dysfonction mitochondriale."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Parmi les affections suivantes, lesquelles peuvent être des causes de SRIS non infectieux d'origine lésionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Pancréatite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Thrombose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Insuffisance surrénalienne aiguë.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Hémorragie méningée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Poussée de lupus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes lésionnelles de SRIS non infectieux incluent la chirurgie, les traumatismes, les thromboses, les embolies, l'ischémie (IDM), la pancréatite, l'hémorragie méningée et le rejet de greffe."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont des causes de SRIS non infectieux d'origine endocrinienne ou inflammatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Thyrotoxicose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Insuffisance surrénalienne aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Maladie de Still.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Syndrome de lyse tumorale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hémorragie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes endocriniennes incluent la thyrotoxicose et l'insuffisance surrénalienne aiguë. Les causes inflammatoires incluent la maladie de Still, la poussée de lupus, le SAPL catastrophique, la microangiopathie thrombotique, le purpura thrombopénique idiopathique et le syndrome hémolytique et urémique."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont des causes de SRIS non infectieux d'origine iatrogène ou néoplasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Hypersensibilité médicamenteuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Syndrome malin des neuroleptiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Cancer solide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Pancréatite.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Rejet de greffe.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes iatrogènes incluent l'hypersensibilité médicamenteuse, l'érythrodermie, l'administration de cytokines/biothérapie, le syndrome malin des neuroleptiques et l'hyperthermie maligne. Les causes néoplasiques incluent le cancer solide, l'hémopathie et le syndrome de lyse tumorale."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs de la prise en charge du choc septique concernant la pression artérielle moyenne (PAM) et la diurèse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. PAM inférieure à 60 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. PAM supérieure ou égale à 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Diurèse inférieure à 0,5 ml/kg/h.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Diurèse supérieure ou égale à 0,5 ml/kg/h.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. PAM entre 50 et 55 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs sont une PAM ≥ 65 mmHg et une diurèse ≥ 0,5 ml/kg/h."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs de la prise en charge du choc septique concernant la lactatémie et la saturation veineuse centrale en O2 (SvO2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Lactatémie supérieure à 4 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Lactatémie inférieure à 2 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. SvO2 inférieure à 60%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. SvO2 supérieure à 70%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Lactatémie entre 2 et 4 mmol/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs sont une lactatémie < 2 mmol/L et une saturation veineuse centrale en O2 > 70%."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'antibiothérapie probabiliste en urgence pour le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle doit être administrée après prélèvements bactériologiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle doit être administrée dans l'heure suivant l'admission.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est généralement une double antibiothérapie IV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est à spectre étroit pour éviter la résistance.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est toujours une monothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie probabiliste doit être administrée en urgence, après prélèvements bactériologiques (dans l'heure suivant l'admission), et est généralement une double antibiothérapie IV à large spectre et bactéricide."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les pourcentages des portes d'entrée les plus fréquentes dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Pulmonaire : 50%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Hépato-digestive : 10%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Urinaire : 20%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Sans porte d'entrée identifiée : 15-20%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Liée à un cathéter : 5%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les portes d'entrée sont pulmonaires (50%), hépato-digestives (20%), urinaires (10%), et sans porte d'entrée identifiée (15-20%)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels systèmes humoraux sont activés dans la physiopathologie du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le système du complément.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le système de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le système des protéases.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le système rénine-angiotensine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Le système nerveux autonome.",
+          "correct": false
+        }
+      ],
+      "explanation": "La physiopathologie du choc septique implique l'activation de systèmes humoraux tels que le complément, la coagulation et les protéases."
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objectif Résidanat - Instructions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/instructions.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="instructions-container">
+        <!-- Header -->
+        <header class="instructions-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1 class="app-title">Objectif Résidanat</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Progress Indicator -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="step-indicators">
+                <div class="step-indicator active" data-step="1">
+                    <span class="step-number">1</span>
+                    <span class="step-label">Cours</span>
+                </div>
+                <div class="step-indicator" data-step="2">
+                    <span class="step-number">2</span>
+                    <span class="step-label">Quiz</span>
+                </div>
+                <div class="step-indicator" data-step="3">
+                    <span class="step-number">3</span>
+                    <span class="step-label">Accès</span>
+                </div>
+                <div class="step-indicator" data-step="4">
+                    <span class="step-number">4</span>
+                    <span class="step-label">Paiement</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="instructions-main">
+            <div class="steps-wrapper">
+                <!-- Step 1: Courses -->
+                <section class="step-page active" data-step="1">
+                    <div class="step-content">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <h2 class="step-title">Cours Complets</h2>
+                        </div>
+                        
+                        <div class="step-body">
+                            <p class="step-description">Accédez à plus de 115 cours PDF détaillés couvrant tous les aspects essentiels de la médecine pour votre préparation au résidanat.</p>
+                            
+                            <div class="features-grid">
+                                <div class="feature-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <div class="feature-text">
+                                        <h4>115+ Cours PDF</h4>
+                                        <p>Contenu médical complet</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-search"></i>
+                                    <div class="feature-text">
+                                        <h4>Lecture Optimisée</h4>
+                                        <p>Interface mobile-friendly</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-download"></i>
+                                    <div class="feature-text">
+                                        <h4>Téléchargement</h4>
+                                        <p>Accès hors ligne</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="step-actions">
+                                <!-- navigation handled by the Prev / Suivant buttons below -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Step 2: Quizzes -->
+                <section class="step-page" data-step="2">
+                    <div class="step-content">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h2 class="step-title">Quiz Interactifs</h2>
+                        </div>
+                        
+                        <div class="step-body">
+                            <p class="step-description">Testez vos connaissances avec plus de 7000 questions QCM et 3000 QROC pour une préparation complète et efficace.</p>
+                            
+                            <div class="features-grid">
+                                <div class="feature-item">
+                                    <i class="fas fa-list-ul"></i>
+                                    <div class="feature-text">
+                                        <h4>7000+ QCM</h4>
+                                        <p>Questions à choix multiples</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-edit"></i>
+                                    <div class="feature-text">
+                                        <h4>3000+ QROC</h4>
+                                        <p>Questions ouvertes</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-clock"></i>
+                                    <div class="feature-text">
+                                        <h4>Mode Examen</h4>
+                                        <p>Simulation d'examen</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="step-actions">
+                                    <!-- navigation handled by the Prev / Suivant buttons below -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Step 3: Access -->
+                <section class="step-page" data-step="3">
+                    <div class="step-content">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <h2 class="step-title">Accès Flexible</h2>
+                        </div>
+                        
+                        <div class="step-body">
+                            <p class="step-description">Commencez avec un accès invité gratuit ou créez un compte complet pour débloquer toutes les fonctionnalités.</p>
+                            
+                            <div class="access-options">
+                                <div class="access-option">
+                                    <div class="access-icon">
+                                        <i class="fas fa-user-clock"></i>
+                                    </div>
+                                    <div class="access-content">
+                                        <h4>Essai Gratuit</h4>
+                                        <p>Accès aux 2 premiers cours de chaque section</p>
+                                        <span class="access-badge">GRATUIT</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="access-option">
+                                    <div class="access-icon">
+                                        <i class="fas fa-crown"></i>
+                                    </div>
+                                    <div class="access-content">
+                                        <h4>Accès Complet</h4>
+                                        <p>Tous les cours + tous les quiz</p>
+                                        <span class="access-badge premium">500 MRU</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="step-actions">
+                                    <!-- navigation handled by the Prev / Suivant buttons below -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Step 4: Payment -->
+                <section class="step-page" data-step="4">
+                    <div class="step-content">
+                        <div class="step-header">
+                            <div class="step-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <h2 class="step-title">Comment Payer</h2>
+                        </div>
+                        
+                        <div class="step-body">
+                            <div class="payment-info">
+                                <div class="payment-amount">
+                                    <h3>Montant à payer:</h3>
+                                    <div class="amount-display">
+                                        <span class="amount">500 MRU</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="bank-info">
+                                    <h4>Numéro de compte:</h4>
+                                    <div class="bank-number">
+                                        <span class="bank-value">27265400</span>
+                                        <button class="copy-btn" onclick="copyBankNumber()">
+                                            <i class="fas fa-copy"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="payment-steps">
+                                    <div class="payment-step">
+                                        <div class="step-number">1</div>
+                                        <div class="step-content">
+                                            <h5>Envoyez 500 MRU</h5>
+                                            <p>au numéro 27265400</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="payment-step">
+                                        <div class="step-number">2</div>
+                                        <div class="step-content">
+                                            <h5>Prenez une capture</h5>
+                                            <p>d'écran de la transaction</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="payment-step">
+                                        <div class="step-number">3</div>
+                                        <div class="step-content">
+                                            <h5>Créez votre compte</h5>
+                                            <p>et envoyez la capture</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="payment-step">
+                                        <div class="step-number">4</div>
+                                        <div class="step-content">
+                                            <h5>Attendez l'approbation</h5>
+                                            <p>dans quelques heures</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Navigation -->
+        <nav class="step-navigation">
+            <button class="nav-btn prev-btn" id="prev-btn" disabled>
+                <i class="fas fa-chevron-left"></i>
+                <span>Précédent</span>
+            </button>
+            
+            <div class="nav-dots">
+                <span class="nav-dot active" data-step="1"></span>
+                <span class="nav-dot" data-step="2"></span>
+                <span class="nav-dot" data-step="3"></span>
+                <span class="nav-dot" data-step="4"></span>
+            </div>
+            
+            <button class="nav-btn next-btn" id="next-btn">
+                <span>Suivant</span>
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </nav>
+
+    </div>
+
+    <script src="js/instructions.js"></script>
+</body>
+</html>

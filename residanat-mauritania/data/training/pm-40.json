@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-40",
+  "title": "Maladie de Hodgkin",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale d'une adénopathie périphérique suspecte de lymphome, selon les critères cliniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est douloureuse à la palpation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est de petite taille, inférieure à 1 cm.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est ferme, non inflammatoire et indolore.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est récente, apparue il y a moins d'une semaine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une adénopathie suspecte de lymphome est généralement ferme, non inflammatoire, non adhérente et indolore, sauf dans le lymphome de Hodgkin où elle peut être douloureuse à l'ingestion d'alcool. Elle est suspecte si elle est supérieure à 2 cm et ancienne (> 1 mois)."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les symptômes suivants, lesquels sont considérés comme des 'symptômes B' dans le cadre d'un lymphome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une fièvre inexpliquée supérieure à 38°C pendant plus de 3 semaines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une perte de poids involontaire de moins de 5% du poids corporel en 6 mois.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des sueurs nocturnes profuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un prurit cutané localisé et transitoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les symptômes B incluent une fièvre au long cours inexpliquée (> 38°C pendant > 3 semaines), des sueurs nocturnes profuses et un prurit inexpliqué. L'amaigrissement doit être supérieur à 10% du poids en 6 mois pour être un symptôme B."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen diagnostique de référence pour confirmer un lymphome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une ponction ganglionnaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une biopsie-exérèse chirurgicale du ganglion le plus suspect.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tomographie par émission de positons (PET-scanner).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une numération formule sanguine (NFS).",
+          "correct": false
+        }
+      ],
+      "explanation": "La biopsie-exérèse chirurgicale du ganglion le plus suspect est l'examen diagnostique de référence. La ponction ganglionnaire n'offre qu'une orientation diagnostique. Le PET-scanner et la NFS sont des examens complémentaires pour le bilan d'extension et d'évolutivité."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle cellule est caractéristique du lymphome de Hodgkin et quels sont ses marqueurs immunophénotypiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cellule de Reed-Sternberg, CD15+, CD30+, CD45-.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le lymphocyte B mature, CD20+, CD3-.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La cellule de Reed-Sternberg, CD15-, CD30-, CD45+.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le lymphocyte T immature, CD3+, CD4-.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Hodgkin est caractérisé par la présence de la cellule de Reed-Sternberg, qui est CD15+, CD30+ et CD45-."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen d'imagerie est systématiquement recommandé pour le bilan d'extension d'un lymphome agressif ou d'un lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une radiographie pulmonaire de face seule.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une échographie abdominale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un PET-scanner.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une IRM cérébrale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un PET-scanner est systématiquement recommandé pour le bilan d'extension d'un lymphome agressif ou d'un lymphome de Hodgkin."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification d'Ann-Arbor, qu'est-ce qui caractérise un stade I ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte de deux territoires ganglionnaires du même côté du diaphragme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atteinte ganglionnaire sus- et sous-diaphragmatique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un seul territoire ganglionnaire atteint ou une seule atteinte extra-ganglionnaire (1E).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteinte viscérale avec une atteinte ganglionnaire à distance.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le stade I d'Ann-Arbor correspond à l'atteinte d'un seul territoire ganglionnaire ou d'une seule atteinte extra-ganglionnaire (1E)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pronostic général du lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guérison exceptionnelle, survie longue.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Guérison dans 50% des cas par un traitement lourd.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "90% de guérison dans les formes précoces, 50% dans les formes étendues.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toujours fatal à court terme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Hodgkin a un bon pronostic, avec 90% de guérison dans les formes précoces et 50% dans les formes étendues."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'anticorps monoclonal utilisé dans les lymphomes non hodgkiniens B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Brentuximab-védotine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rituximab.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dacarbazine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bléomycine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Rituximab (Mabthera®) est un anticorps monoclonal anti-CD20 efficace dans les lymphomes non hodgkiniens B."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les complications aiguës courantes de la chimiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alopécie et nausées/vomissements.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Néoplasie secondaire et hypofertilité.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fibrose pulmonaire et hypothyroïdie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance coronarienne et péricardite.",
+          "correct": false
+        }
+      ],
+      "explanation": "À court terme, les complications communes de la chimiothérapie incluent l'alopécie, les nausées/vomissements, la cytopénie, l'anorexie et la mucite."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque infectieux associé au lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Virus de l'hépatite C (VHC).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Helicobacter pylori.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Virus d'Epstein-Barr (EBV).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Virus de l'immunodéficience humaine (VIH).",
+          "correct": false
+        }
+      ],
+      "explanation": "Environ 40% des cas de lymphome de Hodgkin sont associés à l'EBV, avec un risque accru dans les 5 ans suivant une mononucléose infectieuse symptomatique."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la localisation ganglionnaire la plus fréquente du lymphome de Hodgkin au diagnostic ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inguinale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mésentérique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sus-diaphragmatique, notamment cervicale ou sus-claviculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rétropéritonéale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Hodgkin débute généralement au niveau ganglionnaire sus-diaphragmatique, le plus souvent cervical ou sus-claviculaire (80% des ADP périphériques)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement de première ligne pour les formes localisées (stade I-II) du lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimiothérapie exclusive par BEACOPP.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Radiothérapie seule sur les sites envahis.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Chimiothérapie par ABVD suivie d'une radiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chirurgie d'exérèse des ganglions atteints.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les formes localisées (stade I-II) du lymphome de Hodgkin, le traitement consiste en 3-4 cycles de chimiothérapie ABVD suivis d'une radiothérapie de 30 Gy sur les sites ganglionnaires initialement envahis."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'âge médian au diagnostic du lymphome malin non hodgkinien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "25 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "40 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "65 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 70 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'âge médian au diagnostic du lymphome malin non hodgkinien est de 65 ans."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel type de lymphome non hodgkinien est considéré comme une urgence thérapeutique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lymphome folliculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lymphome diffus à grandes cellules.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Lymphome de Burkitt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lymphome de la zone marginale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Burkitt est classé comme très agressif et constitue une urgence thérapeutique."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pronostic des lymphomes non hodgkiniens indolents ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guérison dans 50% des cas.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Guérison exceptionnelle, avec une survie médiane de 10 à 20 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toujours fatal en moins de 5 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Guérison dans 90% des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lymphomes non hodgkiniens indolents ont une guérison exceptionnelle, avec une survie médiane de 10 à 20 ans, mais des rechutes constantes."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations cliniques qui peuvent révéler une urgence dans le contexte d'un lymphome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un œdème en pèlerine avec turgescence jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des douleurs abdominales avec un syndrome occlusif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une claudication médullaire intermittente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une adénopathie cervicale isolée de moins de 2 cm.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome cave supérieur (œdème en pèlerine, turgescence jugulaire), une masse abdominale rapidement progressive (douleurs, syndrome occlusif) et une compression radiculo-médullaire (claudication médullaire, troubles sphinctériens) sont des urgences. Une adénopathie isolée de petite taille n'est pas une urgence en soi."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors d'une biopsie-exérèse ganglionnaire pour suspicion de lymphome, quelles sont les recommandations importantes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixer le ganglion dans du formol avant envoi au laboratoire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Privilégier l'exérèse d'une adénopathie inguinale pour sa facilité d'accès.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Envoyer le ganglion non fixé pour permettre des examens complémentaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Choisir le ganglion le plus suspect et le plus facile d'accès.",
+          "correct": true
+        }
+      ],
+      "explanation": "Il est recommandé d'envoyer le ganglion non fixé pour permettre des études ultérieures (cytogénétique, biologie moléculaire, congélation tumorale). Il faut choisir le ganglion le plus suspect et le plus facile d'accès, en évitant l'exérèse d'une ADP inguinale en raison du risque de lymphoedème."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles anomalies biologiques peuvent être fréquemment observées dans le bilan d'extension d'un lymphome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie inflammatoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperleucocytose avec présence de cellules tumorales dans le sang.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une lymphopénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une polynucléose neutrophile.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan d'extension peut révéler une anémie inflammatoire, une lymphopénie et/ou une polynucléose neutrophile. Généralement, le lymphome n'est pas leucémique, c'est-à-dire qu'il n'y a pas de cellules tumorales dans le sang."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les paramètres inclus dans le bilan d'évolutivité d'un lymphome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le taux de LDH (lactate déshydrogénase).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La β2-microglobuline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La créatinine sérique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La vitesse de sédimentation (VS) et la CRP.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan d'évolutivité comprend les LDH, la β2-microglobuline, la VS/CRP et le fibrinogène. La créatinine fait partie du bilan pré-thérapeutique."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les sérologies virales systématiquement réalisées dans le bilan pré-thérapeutique d'un lymphome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VIH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "EBV.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "VHB.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VHC.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les sérologies VIH, VHB et VHC sont systématiquement réalisées. L'EBV, HTLV1, HHV8 sont réalisés selon le type de lymphome."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification d'Ann-Arbor, quelles sont les caractéristiques d'un stade II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte d'un seul territoire ganglionnaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atteinte de deux territoires ganglionnaires ou plus du même côté du diaphragme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte ganglionnaire avec une atteinte extra-ganglionnaire de contiguïté (2E).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteinte ganglionnaire sus- et sous-diaphragmatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le stade II correspond à l'atteinte d'au moins deux territoires ganglionnaires du même côté du diaphragme, ou à une atteinte ganglionnaire avec une atteinte extra-ganglionnaire de contiguïté (2E)."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs pronostiques initiaux liés à la maladie dans les lymphomes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge du patient.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le stade Ann-Arbor.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une masse tumorale volumineuse (Bulky).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le taux de LDH élevé.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs pronostiques liés à la maladie incluent le stade Ann-Arbor, la masse tumorale volumineuse (Bulky), l'anémie et les LDH élevés. L'âge est un facteur lié au terrain."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications tardives non malignes du traitement des lymphomes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Myélodysplasie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypothyroïdie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fibrose pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance coronarienne.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications tardives non malignes incluent les atteintes cardiaques (insuffisance coronarienne, péricardite), l'hypothyroïdie, l'hypofertilité/stérilité et la fibrose pulmonaire. La myélodysplasie est une complication maligne."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs immunophénotypiques du lymphome de Hodgkin classique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CD30+.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "CD15+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "CD45+.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "CD20+.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Hodgkin classique est CD30+, CD15+, CD45- et CD20-. Le LH à prédominance lymphocytaire nodulaire a un immunophénotype différent (CD30-, CD15-, CD45+, CD20+)."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs pronostiques défavorables pour un lymphome de Hodgkin à un stade localisé (I ou II) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une VS > 50 mm à la 1ère heure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un âge > 50 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une masse médiastinale > 10 cm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un sexe masculin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs pronostiques défavorables pour un stade localisé sont une VS > 50 mm (ou > 30 mm avec symptômes B), un âge > 50 ans et une masse médiastinale > 10 cm (ou rapport médiastino-thoracique > 0,35). Le sexe masculin est un facteur pour le stade disséminé."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées importantes dans la prise en charge du lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La conservation de sperme chez l'homme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'arrêt du tabac impératif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La contraception efficace chez la femme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La chirurgie d'exérèse des ganglions atteints.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures associées incluent la conservation de sperme (CECOS) chez l'homme, une contraception efficace chez la femme et l'arrêt impératif du tabac en raison du risque important de cancers secondaires. La chirurgie d'exérèse n'a pas d'intérêt dans le traitement du lymphome de Hodgkin."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque infectieux viraux des lymphomes non hodgkiniens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EBV.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "VIH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VHC.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Helicobacter pylori.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les infections virales associées aux LNH sont l'EBV (Burkitt, immunodéprimé), le VIH (LNH agressif) et le VHC (lymphome de la zone marginale). Helicobacter pylori est une infection bactérienne."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les types de lymphomes non hodgkiniens classés comme 'indolents' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lymphome folliculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lymphome diffus à grandes cellules.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Lymphome de la zone marginale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lymphome lymphocytique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lymphomes indolents incluent le lymphome folliculaire, de la zone marginale, lymphocytique et lympho-plasmocytaire. Le lymphome diffus à grandes cellules est agressif."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles anomalies cytogénétiques sont associées à des types spécifiques de lymphomes non hodgkiniens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "t(14;18) ou Bcl-2 réarrangé pour le lymphome folliculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "t(11;14) ou Bcl-1 réarrangé pour le lymphome du manteau.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "t(8;14) ou C-myc réarrangé pour le lymphome de Burkitt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aucune anomalie génétique n'est associée aux lymphomes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des anomalies cytogénétiques spécifiques sont associées à certains LNH : t(14;18) pour le lymphome folliculaire, t(11;14) pour le lymphome du manteau et t(8;14) (ou variants) pour le lymphome de Burkitt."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque inclus dans l'Index Pronostique International (IPI) pour les lymphomes diffus à grandes cellules ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge > 60 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stade III ou IV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Taux de LDH élevé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nombre d'atteintes nodales ≥ 4.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IPI inclut l'âge > 60 ans, le stade III ou IV, un taux de LDH élevé, un index de performance OMS ≥ 2 et l'atteinte de ≥ 2 sites extra-nodaux. Le nombre d'atteintes nodales ≥ 4 est un facteur du FLIPI."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'indication thérapeutique pour un lymphome non hodgkinien indolent de faible masse tumorale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimiothérapie intensive.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Abstention thérapeutique avec surveillance.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiothérapie à visée curative.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Autogreffe de cellules souches.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un LNH indolent de faible masse tumorale, l'abstention thérapeutique avec surveillance est l'approche recommandée."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants du protocole de chimiothérapie CHOP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyclophosphamide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adriamycine (hydroxy-doxorubicine).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vinblastine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prednisone.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le protocole CHOP est composé de Cyclophosphamide, Adriamycine (hydroxy-doxorubicine), Vincristine (Oncovin®) et Prednisone. La Vinblastine fait partie du protocole ABVD."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la forme endémique africaine du lymphome de Burkitt ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est liée à l'EBV dans plus de 95% des cas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle touche principalement l'adulte jeune.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle se manifeste surtout par une localisation maxillo-faciale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est rarement associée à l'EBV.",
+          "correct": false
+        }
+      ],
+      "explanation": "La forme endémique africaine du lymphome de Burkitt est liée à l'EBV (> 95%), touche le jeune enfant et se manifeste surtout par une localisation maxillo-faciale."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques possibles du lymphome lymphoblastique T ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome cave supérieur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épanchement pleural.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épanchement péricardique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteinte osseuse avec hypercalcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome lymphoblastique T peut se manifester par un syndrome cave supérieur, un épanchement pleural ou un épanchement péricardique, souvent en lien avec une masse médiastinale importante. L'atteinte osseuse avec hypercalcémie est caractéristique du myélome, pas du lymphome lymphoblastique T."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la maladie de Waldenström ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infiltration lympho-plasmocytaire médullaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sécrétion d'une Ig monoclonale de type IgM.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'une atteinte osseuse avec hypercalcémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Manifestations auto-immunes comme la cryoglobulinémie.",
+          "correct": true
+        }
+      ],
+      "explanation": "La maladie de Waldenström est un lymphome B lympho-plasmocytaire caractérisé par une infiltration lympho-plasmocytaire médullaire (± sanguine, splénique et ganglionnaire) et la sécrétion d'une Ig monoclonale, généralement de type IgM. Elle se distingue du myélome par l'absence d'atteinte osseuse et d'hypercalcémie. Des manifestations auto-immunes sont possibles."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une adénopathie cervicale. Quels éléments cliniques et paracliniques orientent fortement vers un lymphome de Hodgkin plutôt qu'un lymphome non hodgkinien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur ganglionnaire à l'ingestion d'alcool.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de cellules de Reed-Sternberg à la biopsie ganglionnaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un immunophénotypage CD20+ et CD45+ des cellules tumorales.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une extension de proche en proche aux territoires ganglionnaires adjacents.",
+          "correct": true
+        }
+      ],
+      "explanation": "La douleur ganglionnaire à l'ingestion d'alcool est rare mais spécifique du lymphome de Hodgkin. La présence de cellules de Reed-Sternberg est diagnostique du LH. L'extension de proche en proche par voie lymphatique est typique du LH. Un immunophénotypage CD20+ et CD45+ est caractéristique du LH à prédominance lymphocytaire nodulaire (qui est considéré comme un LNH B indolent) ou de certains LNH B, mais pas du LH classique (CD20-, CD45-)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications spécifiques de la Bléomycine, un agent chimiothérapeutique utilisé dans le protocole ABVD ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nécrose cutanée en cas d'extravasation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Toxicité pulmonaire aiguë immuno-allergique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toxicité cutanée avec photosensibilité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Neuropathie périphérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Bléomycine est associée à une toxicité pulmonaire aiguë (immuno-allergique) et retardée (fibrose), ainsi qu'à une toxicité cutanée (photosensibilité, traces brunes). La nécrose cutanée si extravasation est une complication de l'Adriamycine. La neuropathie périphérique est une complication de la Vinblastine."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint d'un lymphome de Hodgkin est au stade III. Quel protocole de chimiothérapie est le plus souvent indiqué et quelles sont les particularités de sa prise en charge ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimiothérapie exclusive par 6 cures de BEACOPP.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chimiothérapie par 3-4 cycles d'ABVD suivie d'une radiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Surveillance clinique rapprochée sans traitement immédiat.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Conservation de sperme ou d'ovaire est une mesure associée essentielle.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour les formes disséminées (stade III-IV) du lymphome de Hodgkin, une chimiothérapie exclusive par 6 cures de BEACOPP (ou 8 cures d'ABVD) est indiquée. La conservation de sperme ou d'ovaire est une mesure associée importante pour préserver la fertilité en raison des traitements. La radiothérapie n'est pas systématique pour les formes disséminées. La surveillance sans traitement n'est pas adaptée à un stade III."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences clés entre le lymphome de Hodgkin classique et le lymphome de Hodgkin à prédominance lymphocytaire nodulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le LH classique représente 95% des cas, le LH à prédominance lymphocytaire nodulaire 5%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le LH classique est CD30+, CD15+, CD45-, tandis que le LH à prédominance lymphocytaire nodulaire est CD30-, CD15-, CD45+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le LH à prédominance lymphocytaire nodulaire est considéré comme un lymphome B indolent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le LH classique présente un aspect en « pop-corn » des cellules tumorales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le LH classique est le plus fréquent (95%) et a un immunophénotype CD30+, CD15+, CD45-. Le LH à prédominance lymphocytaire nodulaire est plus rare (5%), a un immunophénotype CD30-, CD15-, CD45+ (et CD20+), et est considéré comme un lymphome B indolent. L'aspect en « pop-corn » est caractéristique des cellules tumorales du LH à prédominance lymphocytaire nodulaire."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque pronostiques défavorables pour un lymphome de Hodgkin à un stade disséminé (III ou IV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge > 45 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un sexe masculin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypoalbuminémie < 40 g/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperleucocytose > 15 G/L.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs pronostiques défavorables pour un stade disséminé sont l'âge > 45 ans, le sexe masculin, le stade IV, une hypoalbuminémie < 40 g/L, une anémie < 10,5 g/dL, une hyperleucocytose > 15 G/L et une lymphopénie < 0,6 G/L ou < 8%."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications malignes tardives des traitements du lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Myélodysplasie et leucémie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lymphome malin non hodgkinien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeur solide (sein, poumon, thyroïde).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypofertilité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications malignes tardives incluent la myélodysplasie et la leucémie aiguë, le lymphome malin non hodgkinien et les tumeurs solides (sein, poumon, thyroïde). L'hypofertilité est une complication non maligne."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque bactériens associés à certains lymphomes non hodgkiniens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Helicobacter pylori et lymphome du MALT gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Campylobacter jejuni et MALT du grêle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Borrelia burgdorferi et MALT cutané.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chlamydia psittaci et MALT oculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Helicobacter pylori est associé au lymphome du MALT gastrique. Le rôle de Campylobacter jejuni (MALT du grêle), Borrelia burgdorferi (MALT cutané) et Chlamydia psittaci (MALT oculaire) est discuté mais mentionné dans le texte comme des associations possibles."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques morphologiques et immunophénotypiques utilisées pour le diagnostic des lymphomes non hodgkiniens sur biopsie ganglionnaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'architecture nodulaire ou diffuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La taille cellulaire (petites ou grandes cellules).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le type B (CD20+) ou T (CD3+).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence de cellules de Reed-Sternberg.",
+          "correct": false
+        }
+      ],
+      "explanation": "La morphologie évalue l'architecture (nodulaire/diffuse) et la taille cellulaire (petites/grandes cellules). L'immunophénotypage détermine le type B (CD20+) ou T (CD3+). La cellule de Reed-Sternberg est caractéristique du lymphome de Hodgkin."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque inclus dans le Follicular Lymphoma International Prognostic Index (FLIPI) pour les lymphomes folliculaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge > 60 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stade III ou IV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Taux de LDH élevés.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteinte de ≥ 2 sites extra-nodaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le FLIPI inclut l'âge > 60 ans, le stade III ou IV, un taux de LDH élevés, ≥ 4 atteintes nodales et une Hb < 12 g/dL. L'atteinte de ≥ 2 sites extra-nodaux est un facteur de l'IPI."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour une prophylaxie neuro-méningée par méthotrexate intrathécal dans les lymphomes non hodgkiniens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de lymphome indolent.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de lymphome agressif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de lymphome de Burkitt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de lymphome lymphoblastique T.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prophylaxie neuro-méningée par méthotrexate intrathécal est indiquée en cas de lymphome agressif, notamment le lymphome de Burkitt et le lymphome lymphoblastique T, en raison du risque élevé d'envahissement du système nerveux central."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du lymphome de Burkitt sporadique (pays occidentaux) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il touche l'enfant ou l'adulte jeune.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est le plus souvent associé à l'EBV.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il se manifeste le plus souvent par une masse abdominale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il présente un risque occlusif.",
+          "correct": true
+        }
+      ],
+      "explanation": "La forme sporadique du lymphome de Burkitt touche l'enfant ou l'adulte jeune, se manifeste le plus souvent par une masse abdominale avec un risque occlusif, et est rarement associée à l'EBV."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments diagnostiques et pronostiques importants du lymphome de Burkitt ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La translocation t(8;14) ou ses variants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le réarrangement de c-myc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un envahissement médullaire et neuro-méningé fréquent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La corticothérapie avant tout prélèvement histologique est recommandée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic repose sur la t(8;14) ou ses variants et le réarrangement de c-myc, avec un Ki67 élevé. L'envahissement médullaire et neuro-méningé est fréquent et constitue un facteur pronostique. Il faut éviter la corticothérapie avant tout prélèvement histologique car elle gêne le diagnostic."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations cliniques et biologiques de l'hyperviscosité dans la maladie de Waldenström ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une Ig monoclonale supérieure à 40 g/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypervolémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des hémorragies.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une atteinte osseuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperviscosité dans la maladie de Waldenström est associée à une Ig monoclonale > 40 g/L, une hypervolémie et des hémorragies. L'atteinte osseuse n'est pas une caractéristique de la maladie de Waldenström, mais du myélome."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui distinguent un lymphome malin d'une leucémie aiguë de Burkitt ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le lymphome de Burkitt s'apparente à la leucémie aiguë de Burkitt.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le lymphome de Burkitt présente un envahissement médullaire inférieur à 20%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La leucémie aiguë de Burkitt est une prolifération blastique de type T.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le lymphome de Burkitt est toujours lié à l'EBV.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Burkitt s'apparente à la leucémie aiguë de Burkitt, mais avec un envahissement médullaire inférieur à 20%. La leucémie aiguë de Burkitt est de type B. Le lymphome de Burkitt n'est pas toujours lié à l'EBV, notamment la forme sporadique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'extension du lymphome de Hodgkin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il débute généralement au niveau ganglionnaire sus-diaphragmatique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'extension se fait de proche en proche par voie lymphatique aux territoires adjacents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dissémination hématogène est la voie principale d'extension initiale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est le plus souvent disséminé au diagnostic (stade III ou IV).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lymphome de Hodgkin débute généralement au niveau ganglionnaire, souvent sus-diaphragmatique, et son extension se fait de proche en proche par voie lymphatique aux territoires ganglionnaires adjacents. La dissémination hématogène est possible secondairement. Au diagnostic, il est le plus souvent localisé (2/3 au stade I ou II)."
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-23",
+  "title": "Ulcères gastrique et duodénal",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'un ulcère gastroduodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une atteinte limitée à la muqueuse gastrique ou duodénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une perte de substance de la paroi gastrique ou duodénale atteignant la musculeuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une lésion inflammatoire superficielle de la sous-muqueuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une érosion de la paroi digestive sans atteinte de la musculeuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une atteinte de la sous-muqueuse sans dépasser la musculeuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un ulcère est défini comme une perte de substance de la paroi gastrique ou duodénale atteignant en profondeur la musculeuse. Il se différencie de l'érosion (atteinte limitée à la muqueuse) et de l'ulcération (atteinte limitée à la sous-muqueuse)."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de protection de la barrière muqueuse gastrique stimulé par les prostaglandines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le flux sanguin muqueux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules épithéliales de surface.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le mucus et le bicarbonate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'activité uréasique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La sécrétion acide.",
+          "correct": false
+        }
+      ],
+      "explanation": "La barrière muqueuse est stimulée par les prostaglandines et comprend une composante pré-épithéliale (mucus, bicarbonate, phospholipides), épithéliale (cellules de surface) et sous-épithéliale (flux sanguin muqueux). Le mucus et le bicarbonate sont des éléments clés de la barrière pré-épithéliale."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale de la douleur épigastrique typique d'un syndrome ulcéreux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est soulagée par la prise d'aliments ou d'antiacide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle irradie systématiquement vers le dos.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est constante et non rythmée par les repas.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est de type brûlure intense et persistante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle s'aggrave systématiquement après la prise d'aliments.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome ulcéreux typique se manifeste par une douleur épigastrique à type de crampe ou faim douloureuse, calmée par la prise d’aliments ou d’antiacide, et rythmée par les repas avec un intervalle libre de 1 à 3 heures."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le risque de transformation cancéreuse pour un ulcère duodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un risque élevé, nécessitant des biopsies systématiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un risque modéré, surtout en cas d'infection à H. pylori.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Aucun risque de transformation cancéreuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un risque faible, mais une surveillance endoscopique est recommandée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un risque comparable à celui de l'ulcère gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ulcère duodénal ne présente aucun risque de transformation cancéreuse, ce qui rend les biopsies inutiles pour cette localisation."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale caractéristique de Helicobacter pylori qui lui permet de résister à l'acidité gastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sa capacité à former des spores résistantes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Son activité uréasique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa forme de bacille gram positif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sa localisation exclusive dans le fundus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sa capacité à produire des toxines neutralisantes.",
+          "correct": false
+        }
+      ],
+      "explanation": "H. pylori est un bacille Gram négatif (BGN) résistant à l’acidité gastrique grâce à son activité uréasique, qui lui permet de neutraliser l'acide environnant."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques endoscopiques typiques d'un ulcère gastrique ou duodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perte de substance creusante, à fond pseudo-membraneux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des bords irréguliers, indurés et hémorragiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une forme généralement ronde ou ovalaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un fond nécrotique de couleur noire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des bords réguliers, surélevés et érythémateux.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ulcère est une perte de substance creusante, de forme généralement ronde/ovalaire, à fond pseudo-membraneux (blanchâtre), parfois nécrotique (noir), à bords réguliers, surélevés et érythémateux."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque d'ulcère non lié à Helicobacter pylori ou aux AINS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome de Zollinger-Ellison.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La consommation excessive d'alcool.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le tabac.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un terrain génétique prédisposant.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La consommation de café.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes d'ulcère non lié à H. pylori ou aux AINS incluent le syndrome de Zollinger-Ellison, le tabac et un terrain génétique. L'alcool et le café ne sont pas des facteurs de risque d'ulcère."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations la sérologie H. pylori est-elle particulièrement utile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'antibiothérapie récente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lorsqu'une hémorragie digestive est présente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'atrophie gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour le contrôle de l'éradication après traitement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de prise récente d'IPP.",
+          "correct": true
+        }
+      ],
+      "explanation": "La sérologie H. pylori est utilisée en cas de situation diminuant la sensibilité des techniques sur biopsies, telles que la prise d'IPP ou une antibiothérapie récente, une hémorragie ou une atrophie gastrique. Le test respiratoire est le contrôle de l'éradication."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une infection à Helicobacter pylori ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ulcère gastroduodénal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Adénocarcinome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lymphome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Gastrite chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les conséquences de l'infection à H. pylori incluent la gastrite aiguë évoluant vers la gastrite chronique, l'ulcère gastroduodénal, l'adénocarcinome et le lymphome."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque d'hémorragie digestive liée à un ulcère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge supérieur à 65 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La prise d'antiagrégants plaquettaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des antécédents d'ulcère compliqué ou non.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise d'AINS.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence d'un ulcère duodénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque d'hémorragie digestive sont la prise d'AINS, d'antiagrégants ou d'anticoagulants, des antécédents d'ulcère (compliqué ou non) et l'âge > 65 ans."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques d'une perforation ulcéreuse en péritoine libre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur épigastrique intense en coup de poignard de début brutal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une disparition de la matité pré-hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une contracture épigastrique puis généralisée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fièvre élevée et persistante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des nausées et vomissements.",
+          "correct": true
+        }
+      ],
+      "explanation": "La perforation en péritoine libre se manifeste par une douleur épigastrique intense en coup de poignard de début brutal, des nausées et vomissements, des signes de choc, une disparition de la matité pré-hépatique (inconstante) et une contracture épigastrique puis généralisée. La fièvre n'est pas un signe typique initial."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la méthode de Taylor (traitement médical) pour un ulcère perforé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un diagnostic certain de perforation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un terrain favorable du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une survenue de la perforation à jeun depuis plus de 6 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence de fièvre, de choc ou d'hémorragie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un traitement débuté dans les 12 heures suivant la perforation.",
+          "correct": false
+        }
+      ],
+      "explanation": "La méthode de Taylor est possible si le diagnostic est certain, le terrain favorable, la perforation survenue à jeun (> 6h), sans fièvre, choc ou hémorragie, et le traitement débuté dans les < 6h."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la gastrite chronique auto-immune (Type A) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est limitée au corps de l'estomac.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est plus fréquente chez la femme de 50 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est caractérisée par un infiltrat lympho-plasmocytaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est associée à des anticorps sériques anti-cellules pariétales.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est la cause principale des ulcères duodénaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrite chronique auto-immune (Type A) est limitée au corps, plus fréquente chez la femme de 50 ans, caractérisée par un infiltrat lympho-plasmocytaire et une atrophie progressive des glandes du fundus, et associée à des anticorps sériques anti-cellules pariétales et anti-facteur intrinsèque. Elle n'est pas la cause principale des ulcères duodénaux."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de recherche de Helicobacter pylori en dehors des ulcères ou situations à risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lors de toute endoscopie gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une carence en fer inexpliquée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une carence en vitamine B12.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un purpura thrombopénique immunologique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un souhait du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de recherche de H. pylori incluent lors de toute endoscopie gastrique, une carence en fer inexpliquée, une carence en vitamine B12, un purpura thrombopénique immunologique et le souhait du patient."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la gastropathie d'hypertension portale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un aspect en mosaïque de la muqueuse fundique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de pétéchies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence de varices cardio-tubérositaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un aspect en 'estomac pastèque'.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une infiltration à PNE de la paroi gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastropathie d'hypertension portale se caractérise par un aspect en mosaïque de la muqueuse fundique, des pétéchies et des varices cardio-tubérositaires. L'aspect en 'estomac pastèque' est associé au syndrome d'ectasie vasculaire antrale. L'infiltration à PNE est caractéristique de la gastrite à éosinophiles."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le principal risque associé à une gastrite chronique atrophiante à Helicobacter pylori chez un sujet hypo-sécréteur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ulcère duodénal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Adénocarcinome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lymphome gastrique du MALT.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Gastrite antrale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ulcère gastrique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez un sujet hypo-sécréteur, la pangastrite avec atrophie multifocale à H. pylori est associée à un risque d'ulcère gastrique, d'adénocarcinome gastrique et plus rarement de lymphome gastrique du MALT. L'ulcère duodénal et la gastrite antrale sont plutôt associés aux sujets hyper-sécréteurs."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de la classification de Forrest indiquant un risque élevé de resaignement nécessitant une hémostase endoscopique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IA : jet artériel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "IB : suintement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "IIC : tâche noire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "IIA : vaisseau visible.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "IIB : caillot adhérent.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hémostase endoscopique est indiquée si saignement persistant en jet/en nappe (IA, IB), vaisseau visible (IIA) ou caillot adhérent (IIB). La tâche noire (IIC) et l'absence de signe (III) sont des signes de faible risque de resaignement."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions nécessaires pour le contrôle de l'éradication de H. pylori par test respiratoire à l'urée marquée au 13C ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Être à jeun depuis au moins 6 heures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Arrêter les anti-acides 1 semaine avant le test.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arrêter les IPP 2 semaines avant le test.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Arrêter les antibiotiques 4 semaines avant le test.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réaliser le test immédiatement après la fin du traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le test respiratoire à l'urée marquée au 13C doit être réalisé à jeun (6h), après arrêt des anti-acides (1 semaine), des IPP (2 semaines) et des antibiotiques (4 semaines)."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles de gastrite granulomateuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie de Crohn.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sarcoïdose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tuberculose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection parasitaire (anisakiase).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Reflux biliaire duodéno-gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrite granulomateuse peut être causée par la maladie de Crohn, la sarcoïdose, la tuberculose, la syphilis, des parasitoses (anisakiase, cryptosporidiose), des mycoses, des corps étrangers ou être idiopathique. Le reflux biliaire est une cause de gastropathie chimique."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques associés au stade d'atrophie fundique sévère dans la gastrite chronique auto-immune ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carence en facteur intrinsèque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Malabsorption de vitamine B12.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anémie macrocytaire arégénérative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque d'adénocarcinome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Risque de tumeur endocrine du corps gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au stade d'atrophie fundique sévère, il y a une carence en facteur intrinsèque entraînant une malabsorption de vitamine B12, une anémie macrocytaire arégénérative, une glossite et des signes neurologiques. Il existe également un risque d'adénocarcinome et de tumeur endocrine du corps gastrique."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'ulcère de stress ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il survient chez les patients en réanimation avec défaillance viscérale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il se manifeste par des ulcérations multiples nécrotico-hémorragiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'intubation et la ventilation mécanique > 48h sont des facteurs de risque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est favorisé par les troubles de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est généralement unique et de grande taille.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ulcère de stress survient chez les patients en réanimation avec défaillance viscérale, se manifestant par des ulcérations multiples nécrotico-hémorragiques. Les facteurs de risque incluent l'intubation et la ventilation mécanique > 48h, les troubles de coagulation, les brûlures étendues et les traumatismes crâniens. Il n'est pas généralement unique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la poursuite d'IPP à dose pleine pendant 6 semaines après l'éradication de H. pylori ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ulcère gastrique systématiquement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ulcère duodénal si poursuite d'un AINS.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ulcère duodénal si persistance de douleurs épigastriques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ulcère duodénal si poursuite d'un anticoagulant.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ulcère duodénal si l'ulcère était initialement non compliqué.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IPP à dose pleine pendant 6 semaines sont systématiques pour l'ulcère gastrique. Pour l'ulcère duodénal, c'est si poursuite d'un AINS, anticoagulant ou antiagrégant, persistance de douleurs épigastriques ou ulcère initialement compliqué."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques endoscopiques de la gastrite aiguë à Helicobacter pylori ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions prédominantes de l'antre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Muqueuse érythémateuse et œdématiée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de lésions pétéchiales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aspect nodulaire de la muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Atrophie sévère des glandes fundiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrite aiguë à H. pylori présente des lésions prédominantes de l'antre, une muqueuse érythémateuse, œdématiée, nodulaire avec des lésions pétéchiales, érosives ou ulcéro-nécrotiques. L'atrophie sévère des glandes fundiques est associée à la gastrite chronique auto-immune ou à la pangastrite chronique à H. pylori."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de gastropathie chimique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prise excessive d'alcool.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Reflux biliaire duodéno-gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection à Helicobacter pylori.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prise d'AINS.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypertension portale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastropathie chimique est réactionnelle à une prise excessive d'alcool ou à un reflux biliaire duodéno-gastrique (après gastrectomie). L'infection à H. pylori cause une gastrite, les AINS une gastropathie aux AINS, et l'hypertension portale une gastropathie congestive."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et d'examen d'une sténose ulcéreuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vomissements post-prandiaux tardifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Risque de déshydratation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Clapotage gastrique à jeun.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ondes péristaltiques visibles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleur épigastrique en coup de poignard.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sténose ulcéreuse se manifeste par des vomissements post-prandiaux tardifs, un risque de déshydratation et de troubles ioniques. À l'examen, on peut retrouver un clapotage gastrique à jeun et des ondes péristaltiques. La douleur en coup de poignard est caractéristique de la perforation."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une douleur épigastrique atypique, non rythmée par l'alimentation, avec un siège sous-costal droit. Quelle est la conduite à tenir diagnostique la plus appropriée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescrire un traitement anti-acide et réévaluer dans 2 semaines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réaliser une endoscopie digestive haute avec biopsies systématiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Demander un test respiratoire à l'urée marquée pour H. pylori.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Effectuer une sérologie H. pylori en première intention.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Procéder à une échographie abdominale pour éliminer une pathologie biliaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un syndrome ulcéreux atypique est plus fréquent et peut se manifester par un siège sous-costal droit ou gauche, une hyperalgie pseudo-chirurgicale ou fruste, non rythmée par l'alimentation. L'endoscopie digestive haute est l'examen clé pour le diagnostic d'ulcère, permettant la visualisation et les biopsies systématiques pour les ulcères gastriques et la recherche de H. pylori. Les autres options sont soit insuffisantes, soit non prioritaires dans ce contexte."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous AINS au long cours développe un ulcère gastrique. Quel est le traitement curatif et préventif recommandé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IPP pendant 4 semaines, avec arrêt systématique des AINS.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "IPP pendant 8 semaines, avec contrôle endoscopique systématique de cicatrisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "IPP à demi-dose en continu, sans contrôle endoscopique si l'ulcère est duodénal.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Antibiothérapie séquentielle pour H. pylori, même si le test est négatif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Gastrectomie partielle si l'ulcère ne cicatrise pas après 2 mois d'IPP.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un ulcère gastrique aux AINS, le traitement curatif est un IPP pendant 8 semaines. Un contrôle endoscopique de cicatrisation est systématique en cas d'ulcère gastrique. Les AINS peuvent être maintenus si nécessaire, mais une prévention par IPP est alors indiquée. L'éradication de H. pylori n'est pas indiquée si le test est négatif. La chirurgie est envisagée après 3-4 mois d'échec de traitement médical."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est diagnostiqué avec un ulcère gastrique. Quelles sont les démarches diagnostiques et de suivi essentielles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Biopsies des berges de l'ulcère systématiques (6 à 12 selon la taille).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Biopsies de l'antre et du fundus systématiques pour recherche de H. pylori.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contrôle endoscopique systématique 4 semaines après la fin du traitement IPP et antibiotiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Biopsie de la zone cicatricielle lors du contrôle endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Test respiratoire à l'urée marquée pour le contrôle de l'éradication de H. pylori.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un ulcère gastrique, les biopsies des berges sont systématiques (6 à 12 selon la taille) en raison du risque de cancer. Les biopsies de l'antre et du fundus sont également systématiques pour la recherche de H. pylori et le degré de gastrite. Le contrôle systématique 4 semaines après la fin du traitement IPP et antibiotiques est essentiel, et pour l'ulcère gastrique, il doit inclure une endoscopie avec biopsies antrales, fundiques et de la zone cicatricielle (pour éliminer un cancer ulcériforme). Le test respiratoire est pour l'ulcère duodénal."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hémorragie digestive haute par ulcère gastrique. Quelles sont les mesures de prise en charge initiales et endoscopiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correction du choc hémorragique avant l'endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réalisation d'une hémostase endoscopique si saignement persistant en jet ou en nappe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réalisation d'une hémostase endoscopique si un vaisseau visible est présent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réalisation d'une hémostase endoscopique si un caillot adhérent est observé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administration systématique d'IPP à forte dose par voie orale avant l'endoscopie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge initiale d'une hémorragie digestive haute par ulcère implique la correction du choc hémorragique avant l'endoscopie. L'hémostase endoscopique est indiquée si un saignement persistant en jet/en nappe (Forrest IA, IB), un vaisseau visible (Forrest IIA) ou un caillot adhérent (Forrest IIB) est observé. L'administration d'IPP à forte dose est généralement IV dans ce contexte, pas orale."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement par aspirine à dose antiagrégante présente un ulcère gastrique compliqué. Quelle est la stratégie de traitement préventif à long terme des IPP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IPP à dose pleine en continu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "IPP à demi-dose en continu.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arrêt systématique de l'aspirine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "IPP à dose pleine pendant 6 semaines, puis arrêt.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "IPP à demi-dose uniquement si l'ulcère est duodénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un ulcère gastrique compliqué si poursuite d'un traitement par aspirine, la recommandation est un IPP à demi-dose en continu. L'arrêt systématique de l'aspirine n'est pas toujours possible ou souhaitable en fonction du risque cardiovasculaire."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un ulcère duodénal post-bulbaire. Quelles étiologies rares doivent être évoquées en priorité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome de Zollinger-Ellison.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Crohn.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vascularite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection à Helicobacter pylori.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Prise d'AINS.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une localisation post-bulbaire de l'ulcère duodénal est très rare et évocatrice de causes spécifiques comme le syndrome de Zollinger-Ellison, la maladie de Crohn ou une vascularite. H. pylori et les AINS sont des causes plus fréquentes d'ulcères bulbaires classiques."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est traité pour une éradication de H. pylori par antibiothérapie séquentielle. Quel est le protocole recommandé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IPP à double dose pendant 10 jours.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Amoxicilline de J1 à J5.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Clarithromycine de J6 à J10.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Métronidazole de J6 à J10.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antibiothérapie + IPP pendant 14 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie séquentielle consiste en IPP à double dose pendant 10 jours, amoxicilline de J1 à J5, puis clarithromycine + métronidazole de J6 à J10. La dernière option décrit le traitement non séquentiel, qui est également recommandé."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de recherche de Helicobacter pylori dans le cadre de la prévention du cancer gastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédent personnel de cancer gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédent familial au 1er degré de cancer gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Lynch.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lymphome du MALT gastrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lésion gastrique pré-néoplasique (atrophie, métaplasie, dysplasie).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de recherche de H. pylori pour la prévention du cancer gastrique incluent un antécédent personnel ou familial au 1er degré de cancer gastrique, le syndrome de Lynch, le lymphome du MALT gastrique et les lésions gastriques pré-néoplasiques (atrophie, métaplasie, dysplasie)."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une sténose ulcéreuse pyloro-bulbaire. Quelle est la séquence de prise en charge thérapeutique recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traitement médical initial par SNG, perfusion et IPP IV.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dilatation endoscopique au ballonnet si échec du traitement médical.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Biopsies de la zone sténosée lors de la dilatation endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traitement chirurgical (antrectomie-vagotomie avec anastomose gastro-jéjunale) si échec de la dilatation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Gastrectomie partielle en première intention pour éviter les récidives.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge d'une sténose ulcéreuse pyloro-bulbaire débute par un traitement médical (évacuation de la stase gastrique par SNG, perfusion et IPP IV). En cas d'échec, un traitement endoscopique par dilatation au ballonnet est proposé, avec biopsies de la zone sténosée. Si la dilatation échoue, un traitement chirurgical (antrectomie-vagotomie avec anastomose gastro-jéjunale) est envisagé."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la gastropathie hypertrophique de la maladie de Ménétrier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tableau de gastropathie exsudative avec syndrome œdémateux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épaississement majeur de la muqueuse fundique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperplasie des cryptes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aspect endoscopique de plis fundiques géants, cérébriformes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Risque de transformation adéno-carcinomateuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Ménétrier se caractérise par un tableau de gastropathie exsudative avec syndrome œdémateux par fuite protéique. On observe un épaississement majeur de la muqueuse fundique avec hyperplasie des cryptes, et un aspect endoscopique de plis fundiques géants, cérébriformes. Il existe un risque de transformation adéno-carcinomateuse."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un ulcère gastrique non cicatrisé après 3 mois de traitement médical bien conduit. Quelle est la prochaine étape thérapeutique à envisager ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poursuivre le traitement médical avec un autre IPP pendant 3 mois supplémentaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Envisager une gastrectomie partielle ou une antrectomie, éventuellement associée à une vagotomie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaliser une nouvelle endoscopie avec des biopsies plus profondes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmenter la dose d'IPP et ajouter un prokinétique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Discuter une vagotomie hyper-sélective seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de traitement chirurgical pour un ulcère gastrique incluent un ulcère non cicatrisé après 3-4 mois de traitement ou avec une dysplasie sévère. Une gastrectomie partielle ou une antrectomie, éventuellement associée à une vagotomie, est alors envisagée."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences physiopathologiques principales entre l'ulcère gastrique et l'ulcère duodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ulcère gastrique est surtout lié à une altération des défenses muqueuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'ulcère duodénal est surtout lié à des situations d'hypersécrétion acide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les AINS altèrent les défenses et sont une cause fréquente d'ulcère gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La gastrite antrale à H. pylori est une cause d'hypersécrétion acide favorisant l'ulcère duodénal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'atrophie glandulaire est une cause majeure d'ulcère duodénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ulcère gastrique est surtout dû à une altération des défenses (AINS, atrophie glandulaire, tabac, pan-gastrite à H. pylori). L'ulcère duodénal est surtout lié à des situations d'hypersécrétion acide (AINS, gastrite antrale à H. pylori). L'atrophie glandulaire est plutôt associée à l'ulcère gastrique."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un ulcère perforé. Quelles sont les mesures de réanimation et les traitements médicamenteux à instaurer en urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation en réanimation et conditionnement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pose d'une sonde naso-gastrique en aspiration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antibiothérapie probabiliste large spectre (aérobies et anaérobies digestifs).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "IPP forte dose : bolus de 80 mg IVL puis 8 mg/h.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réalisation d'une endoscopie digestive haute pour confirmer le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'ulcère perforé, l'hospitalisation en urgence en réanimation et le conditionnement sont primordiaux. Il faut poser une sonde naso-gastrique en aspiration, instaurer une antibiothérapie probabiliste large spectre (active sur les aérobies et anaérobies digestifs) et des IPP à forte dose (bolus de 80 mg IVL puis 8 mg/h). L'endoscopie est une contre-indication absolue en cas de perforation en péritoine libre."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la recherche de Helicobacter pylori avant une chirurgie pour by-pass gastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévention du cancer gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Impossibilité de réaliser une endoscopie après la chirurgie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réduction du risque d'ulcère anastomotique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Évaluation de la gastrite préexistante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Détection d'une carence en vitamine B12.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche de H. pylori est indiquée avant une chirurgie pour by-pass gastrique dans le cadre de la prévention du cancer gastrique et en raison de l'impossibilité de réaliser une endoscopie après l'intervention."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un ulcère gastrique lymphomateux. Quels sont les éléments diagnostiques endoscopiques et histologiques à rechercher ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aspect ulcériforme à l'endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Biopsies des berges de l'ulcère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de granulomes épithélioïdes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Infiltrat inflammatoire à PNN.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Recherche de H. pylori sur les biopsies.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic différentiel endoscopique inclut l'ulcère gastrique lymphomateux, qui peut avoir un aspect ulcériforme. Les biopsies des berges de l'ulcère sont systématiques pour tout ulcère gastrique afin d'éliminer une malignité. La recherche de H. pylori est également importante car il est un facteur de risque de lymphome du MALT. Les granulomes épithélioïdes sont caractéristiques de la gastrite granulomateuse, et l'infiltrat à PNN de la gastrite aiguë."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la gastropathie radique chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle survient plus de 6 mois après une irradiation > 45 Gy.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle se manifeste par des ulcérations.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut entraîner des télangiectasies souvent hémorragiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est caractérisée par un œdème avec érosion hémorragique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des biopsies multiples sont nécessaires pour éliminer une récidive tumorale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La gastropathie radique chronique survient après plus de 6 mois post-irradiation (> 45 Gy) et se manifeste par des ulcérations et des télangiectasies souvent hémorragiques. L'œdème avec érosion hémorragique est une complication aiguë. Des biopsies multiples sont nécessaires pour éliminer une récidive tumorale."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient a un échec d'éradication de H. pylori après une première ligne de traitement. Quelle est la conduite à tenir recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Switch de la stratégie thérapeutique (par exemple, passer à la quadrithérapie bismuthée).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réaliser une endoscopie avec culture pour antibiogramme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Prescrire des IPP à dose préventive au long cours.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Répéter la même ligne de traitement pendant une durée plus longue.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Envisager une chirurgie si l'ulcère est duodénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'échec d'éradication après une première ligne de traitement, la recommandation est de 'switcher' la stratégie thérapeutique (c'est-à-dire, passer à une autre ligne de traitement, comme la quadrithérapie bismuthée si la séquentielle a échoué). L'endoscopie avec culture pour antibiogramme est réservée au second échec. Les IPP au long cours sont pour les échecs multiples."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications exceptionnelles du traitement chirurgical pour un ulcère duodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechutes fréquentes sous IPP.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mauvaise observance du traitement médical.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ulcère non cicatrisé après 3-4 mois de traitement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Présence d'une dysplasie sévère.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Échec formel de l'éradication de H. pylori.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications chirurgicales pour l'ulcère duodénal sont exceptionnelles et incluent les rechutes fréquentes sous IPP et la mauvaise observance. Pour l'ulcère gastrique, le non-cicatrisation après 3-4 mois ou la dysplasie sévère sont des indications chirurgicales. L'échec d'éradication de H. pylori est géré par des lignes d'antibiothérapie successives."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une gastrite chronique à Helicobacter pylori. Quelles sont les conséquences possibles en fonction du profil sécrétoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez un sujet hyper-sécréteur, risque d'ulcère duodénal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez un sujet hypo-sécréteur, risque de pangastrite avec atrophie multifocale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez un sujet hypo-sécréteur, risque d'ulcère gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez un sujet hypo-sécréteur, risque d'adénocarcinome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Chez un sujet hyper-sécréteur, risque de lymphome gastrique du MALT.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez un sujet hyper-sécréteur, la gastrite antrale à H. pylori entraîne un risque d'ulcère duodénal. Chez un sujet hypo-sécréteur, elle évolue vers une pangastrite avec atrophie multifocale, augmentant le risque d'ulcère gastrique et d'adénocarcinome gastrique. Le lymphome gastrique du MALT peut survenir plus rarement, indépendamment du profil sécrétoire."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les diagnostics différentiels cliniques d'un syndrome ulcéreux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénocarcinome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur pancréatique ou biliaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance coronarienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dyspepsie non ulcéreuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Maladie de Crohn gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels cliniques incluent l'adénocarcinome/lymphome gastrique, la douleur pancréatique ou biliaire, l'insuffisance coronarienne, la péricardite, l'ischémie mésentérique, la douleur vertébrale projetée et la dyspepsie non ulcéreuse. La maladie de Crohn gastrique est un diagnostic différentiel endoscopique."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous IPP au long cours (> 6 mois) doit-il faire l'objet d'une recherche de Helicobacter pylori ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, c'est une indication de recherche de H. pylori pour la prévention du cancer gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Non, la prise d'IPP diminue la sensibilité des tests et rend la recherche inutile.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Oui, mais uniquement par sérologie H. pylori.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Non, sauf en cas d'antécédent familial de cancer gastrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Oui, mais après un arrêt des IPP de 2 semaines pour le test respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement au long cours par IPP (> 6 mois) est une indication de recherche de H. pylori dans le cadre de la prévention du cancer gastrique. Bien que les IPP puissent diminuer la sensibilité des tests sur biopsies, cela ne rend pas la recherche inutile, mais peut orienter vers d'autres méthodes ou nécessiter un arrêt temporaire des IPP pour certains tests."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui différencient un ulcère d'une érosion ou d'une ulcération ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ulcère atteint la musculeuse en profondeur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'érosion est limitée à la muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ulcération est limitée à la sous-muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ulcère est toujours chronique, contrairement aux autres.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'érosion et l'ulcération sont toujours asymptomatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ulcère est une perte de substance atteignant la musculeuse. L'érosion est une atteinte limitée à la muqueuse. L'ulcération est une atteinte limitée à la sous-muqueuse. Le texte ne dit pas que l'ulcère est toujours chronique ou que les autres sont toujours asymptomatiques."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de développer un ulcère aux AINS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'activité anti-COX1 des AINS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La diminution de la production de prostaglandines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'altération des défenses muqueuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'utilisation d'AINS sélectifs (coxibs) qui suppriment totalement le risque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'aspirine à dose antiagrégante.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les AINS agissent par leur activité anti-COX1, ce qui diminue la production de prostaglandines et altère les défenses muqueuses, favorisant l'ulcère. Les AINS sélectifs (coxibs) réduisent le risque d'ulcère compliqué de 50% mais ne le suppriment pas. L'aspirine à dose antiagrégante a un potentiel ulcérogène et augmente le risque hémorragique."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient avec une gastrite chronique auto-immune (Type A) au stade d'atrophie fundique sévère doit faire l'objet d'une surveillance endoscopique. Quelles sont les modalités de cette surveillance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance endoscopique systématique tous les 3 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cette surveillance est indiquée si le patient a moins de 70 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cette surveillance est indiquée si le patient est en bon état général.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La surveillance vise à détecter un adénocarcinome gastrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La surveillance vise à détecter une tumeur endocrine du corps gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au stade d'atrophie fundique sévère de la gastrite chronique auto-immune, une surveillance endoscopique systématique est recommandée tous les 3 ans, si le patient a moins de 70 ans et est en bon état général. Cette surveillance vise à détecter un risque d'adénocarcinome et de tumeur endocrine du corps gastrique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la principale différence entre une gastrite et une gastropathie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La gastrite est une atteinte inflammatoire histologique, la gastropathie est une affection diffuse sans infiltrat inflammatoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La gastrite est toujours aiguë, tandis que la gastropathie est toujours chronique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La gastrite est diagnostiquée par endoscopie, la gastropathie par biopsie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La gastrite est toujours symptomatique, la gastropathie est asymptomatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La gastrite est causée par H. pylori, la gastropathie par les AINS.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrite est définie histologiquement comme une atteinte inflammatoire aiguë ou chronique de la muqueuse de l'estomac. La gastropathie est une affection diffuse de la muqueuse gastrique sans infiltrat inflammatoire, constituant un diagnostic différentiel des gastrites."
+    }
+  ]
+}

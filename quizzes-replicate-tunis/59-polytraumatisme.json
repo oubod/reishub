@@ -1,0 +1,1409 @@
+{
+  "lectureId": "59",
+  "number": "59",
+  "title": "Polytraumatisme",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition classique d'un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un patient présentant une seule lésion menaçant le pronostic vital.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un patient atteint de deux lésions ou plus, dont une au moins menace le pronostic vital.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un patient avec des lésions multiples, mais aucune ne menace le pronostic vital.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un patient ayant subi un traumatisme grave, quelle que soit la nature des lésions.",
+          "correct": false
+        }
+      ],
+      "explanation": "La définition classique d’un polytraumatisé est celle d’un patient atteint de deux lésions ou plus, dont une au moins menace le pronostic vital."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Pourquoi la notion de mécanisme et de violence du traumatisme est-elle importante dans l'évaluation initiale d'un traumatisé grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle permet de prédire la durée de l'hospitalisation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle aide à orienter la démarche diagnostique vers des lésions non évidentes cliniquement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est uniquement pertinente pour les traumatismes directs.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle n'a pas d'intérêt pratique à la phase initiale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Connaître le mécanisme lésionnel permet d’orienter la démarche diagnostique vers la recherche de lésions qui ne s’expriment pas cliniquement de façon évidente. Il est très important d’inclure la notion de mécanisme et la violence du traumatisme dans la notion de traumatisme grave, au moins lors de la phase initiale de l’évaluation."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs principaux de la prise en charge préhospitalière d'un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser un bilan lésionnel complet et exhaustif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Établir un bilan initial focalisé sur les fonctions vitales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer le ramassage et le transport sans aggraver les lésions.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Surveiller le blessé et poursuivre les soins pendant le transport.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’objectif de la prise en charge préhospitalière est double : établir un bilan initial qui doit se focaliser sur les 3 fonctions vitales (respiratoire, circulatoire et neurologique), réaliser les gestes adaptés et assurer le ramassage et le transport au centre hospitalier le plus approprié sans aggraver les lésions préexistantes, et surveiller le blessé et poursuivre les soins pendant le transport."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs essentiels exposant un traumatisé thoracique à l'hypoxémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La contusion pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La douleur liée aux fractures de côtes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les troubles de la mécanique ventilatoire (ex: volet thoracique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les épanchements pleuraux (hémo- et/ou pneumothorax).",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traumatisé thoracique est exposé à l’hypoxémie par le biais de quatre facteurs essentiels : la contusion pulmonaire, la douleur liée aux fractures de côtes, les troubles de la mécanique ventilatoire en rapport avec un volet thoracique, et les épanchements pleuraux (hémo- et/ou pneumothorax par fractures de côtes ou rupture trachéo-bronchique)."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelle est la cause la plus fréquente de détresse circulatoire chez le polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le choc cardiogénique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypovolémie d'origine hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le choc vasoplégique par lésion médullaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La tamponnade cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "La détresse circulatoire est le plus souvent en rapport avec une hypovolémie (80 % des cas) surtout d’origine hémorragique."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quels sont les critères de gravité extrême associés à une mortalité très élevée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression artérielle systolique < 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Score de Glasgow = 3.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Saturation en O2 < 80 % ou imprenable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Âge > 65 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des critères de gravité extrême étaient définis car associés à une mortalité très élevée : pression artérielle systolique < 65 mmHg (mortalité : 65 %), score de Glasgow = 3 (mortalité : 62 %), et saturation en O2 < 80 % ou imprenable (mortalité 76 %)."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les gestes initiaux à réaliser sur le lieu du traumatisme pour la prise en charge préhospitalière ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurer la liberté des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Instaurer une oxygénothérapie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arrêter une hémorragie externe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Immobiliser les fractures et stabiliser le rachis cervical.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une mise en condition initiale sur le lieu du traumatisme est nécessaire et elle consiste à : assurer la liberté des voies aériennes, instaurer une oxygénothérapie (6 à 8 L/min), arrêter une hémorragie externe, immobiliser les fractures sous analgésie et stabiliser le rachis cervical systématiquement."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs de la réanimation respiratoire en préhospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurer la liberté des voies aériennes supérieures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Assurer une ventilation alvéolaire efficace.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer la vacuité pleurale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maintenir une SpO2 > 98%.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réanimation respiratoire vise à assurer 3 objectifs : assurer la liberté des voies aériennes supérieures, assurer une ventilation alvéolaire efficace, et assurer la vacuité pleurale."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques en faveur d'un état de choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pâleur cutanéo-conjonctivale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions périphériques qui saignent (ex: plaie du scalp).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes suspectant une contusion abdominale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bradycardie paradoxale à un stade ultime.",
+          "correct": true
+        }
+      ],
+      "explanation": "En faveur d’un état de choc hémorragique : l’existence d’une pâleur cutanéo-conjonctivale, de lésions périphériques qui saignent (plaie du scalpe, épistaxis…) et/ou de signes qui font suspecter une contusion abdominale. À un stade ultime apparaît une bradycardie paradoxale."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les solutés de remplissage de choix en préhospitalier pour un choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les colloïdes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cristalloïdes (sérum salé isotonique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sérum salé hypertonique à 7,5% en bolus unique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le plasma frais congelé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cristalloïdes (sérum salé isotonique (NaCl 0,9 %)) sont actuellement les solutés de remplissage de choix. Le sérum salé hypertonique à 7,5% est recommandé à la dose de 250ml en bolus non renouvelable dans les traumatismes crâniens avec choc hémorragique."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs de la rééducation fonctionnelle d'un polytraumatisé au décours de la phase aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévention et traitement des complications liées à l'alitement prolongé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Restauration progressive de l'autonomie fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réduction immédiate de toutes les douleurs résiduelles.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prévention des infections nosocomiales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’objectif principal de la Rééducation Fonctionnelle d’un polytraumatisé au décours de la phase aiguë est la Prévention et le traitement des complications liées à l’alitement prolongé. Les autres objectifs sont dominés par la restauration progressive de l’autonomie fonctionnelle."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelles sont les localisations préférentielles des escarres en décubitus dorsal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Occiput.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épines des scapula.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Région sacro-fessière (sacrum, fesses).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Talons.",
+          "correct": true
+        }
+      ],
+      "explanation": "En décubitus dorsal, les localisations préférentielles des escarres sont : occiput, épines des scapula, coudes, rachis dorsal, région sacro-fessière (sacrum, fesses) et talons."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les complications musculaires de l'immobilité prolongée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduction du volume musculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Perte de la force de contraction maximale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Raccourcissement musculaire (rétraction).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la masse musculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’immobilité entraîne des complications musculaires telles que la réduction du volume musculaire, la perte de la force de contraction maximale et le raccourcissement musculaire (appelé rétraction)."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les nerfs périphériques les plus vulnérables à la compression en cas d'immobilisation prolongée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le nerf ulnaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le nerf radial.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le nerf fibulaire commun.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le nerf fémoral.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les nerfs les plus vulnérables sont : le nerf ulnaire dans la gouttière épitrochléo-olécranienne, le radial dans la gouttière humérale et le nerf fibulaire commun en regard du col de la fibula."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures préventives de la constipation chez un patient alité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance du nombre de selles hebdomadaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Verticalisation précoce.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de laxatifs osmotiques ou lubrifiants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Apport hydrique suffisant.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention de la constipation associe : une surveillance du nombre de selles hebdomadaires, la verticalisation précoce, l’utilisation de laxatifs osmotiques ou lubrifiants, et un apport hydrique suffisant."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Un patient défenestré de trois étages, n'ayant apparemment qu'une fracture de cheville, doit être considéré comme un polytraumatisé jusqu'à preuve du contraire. Quelle est la justification principale de cette approche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fracture de cheville est une lésion menaçant le pronostic vital.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le mécanisme et la violence du traumatisme suggèrent l'existence de lésions graves non apparentes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La définition classique du polytraumatisme s'applique dans ce cas.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est impératif de réaliser un bilan lésionnel complet et rapide pour exclure d'autres lésions.",
+          "correct": true
+        }
+      ],
+      "explanation": "À la phase initiale, un traumatisé grave est un patient dont le mécanisme ou la violence du traumatisme laissent penser que des lésions menaçant le pronostic vital ou fonctionnel existent. Un défenestré de trois étages est un polytraumatisé jusqu’à preuve du contraire, c’est-à-dire jusqu’à la réalisation d’un bilan lésionnel complet et rapide."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des traumatismes indirects et les lésions qu'ils peuvent générer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont toujours responsables de lésions pariétales évidentes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La décélération peut causer des ruptures d'organes pleins et des arrachements de pédicules vasculaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'onde de choc (blast) est responsable de lésions des organes creux et des alvéoles pulmonaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperflexion-extension brutale du rachis cervical peut entraîner des lésions vertébro-médullaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les traumatismes indirects génèrent des lésions internes ou à distance, sans atteinte pariétale obligatoire. La décélération donne des contusions, dilacérations, rupture des organes pleins, arrachements des pédicules vasculaires (foie, rate, cerveau, isthme aortique, vaisseaux mésentériques). L’onde de choc de l’effet de souffle (blast) donne des lésions des organes creux et des alvéoles pulmonaires. L’hyperflexion-extension brutale du rachis cervical est responsable de lésions vertébro-médullaires."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les phénomènes d'interférence entre les lésions dans le polytraumatisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phénomène de sommation des lésions, où des blessures isolément peu graves compromettent le pronostic vital ensemble.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Phénomène d'occultation, où une atteinte au premier plan masque une autre lésion qui se révélera tardivement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phénomène d'aggravation mutuelle, où une lésion peut aggraver une autre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phénomène de compensation, où les lésions s'annulent mutuellement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe des interférences entre les lésions qui tendent à aggraver l’état du patient. Ces interférences peuvent être de plusieurs types : phénomène de sommation des lésions, phénomène d’occultation (ex: coma masquant une atteinte du rachis), et phénomène d’aggravation d’une lésion (ex: insuffisance respiratoire aiguë et atteinte neurologique)."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les contenus du médiastin supérieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les veines brachiocéphaliques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La crosse de l'aorte et ses branches.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'arc de la veine azygos.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cœur et le péricarde.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le médiastin supérieur contient de part et d’autre de la trachée : en avant les vv brachiocéphaliques, les nerfs phréniques et le thymus ou ses reliquats ; en avant et à gauche la crosse de l’aorte et ses branches ; à droite l’arc de la v azygos ; en arrière le n récurrent laryngé gauche, l’œsophage, les nerfs vagues et le conduit thoracique. Le cœur et le péricarde sont dans le médiastin moyen (inférieur)."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels organes sont en rapport avec la région épigastrique de l'abdomen ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le pylore.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le lobe gauche du foie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La rate.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La vessie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La région épigastrique répond au pylore et au lobe gauche du foie. La rate est dans l'hypochondre gauche et la vessie dans la région hypogastrique."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de cinétique considérés comme critères de gravité selon Vittel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éjection d'un véhicule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Autre passager décédé dans le même véhicule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chute > 6 m.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Victime projetée ou écrasée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les éléments de cinétique des critères de Vittel incluent : éjection d’un véhicule, autre passager décédé dans le même véhicule, chute > 6 m, victime projetée ou écrasée, appréciation globale (déformation du véhicule, vitesse estimée, absence de casque, absence de ceinture de sécurité), et blast."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les lésions anatomiques considérées comme critères de gravité selon Vittel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fracture isolée du bras.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Volet thoracique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Brûlure sévère avec inhalation de fumées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Suspicion d'atteinte médullaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lésions anatomiques des critères de Vittel incluent : l’abdomen, du bassin, du bras ou de la cuisse (fracture), volet thoracique, brûlure sévère, inhalation de fumées associée, fracas du bassin, suspicion d’atteinte médullaire, amputation au niveau du poignet, de la cheville, ou au-dessus, et ischémie aiguë de membre."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de détresse respiratoire chez un traumatisé crânien grave ou maxillo-facial ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chute de la langue en arrière.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Perte des réflexes de protection (risque d'inhalation).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Obstruction des voies aériennes supérieures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Paralysie diaphragmatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traumatisé crânien grave (Glasgow ≤ 8) est exposé aux risques de chute de la langue en arrière et de perte des réflexes de protection (menace d’inhalation bronchique). Le traumatisme maxillo-facial peut être responsable d’obstruction des voies aériennes supérieures. La paralysie diaphragmatique est liée aux lésions médullaires hautes."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hypotension artérielle par vasoplégie chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions du tronc cérébral.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lésions médullaires hautes siégeant au-dessus de T6.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pneumothorax compressif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hémopéricarde.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des lésions médullaires hautes siégeant au-dessus de T6 peuvent être responsables d’une hypotension artérielle par vasoplégie, liée à la perte du tonus sympathique. Les lésions du tronc cérébral sont rarement responsables de détresse circulatoire. Le pneumothorax compressif et l'hémopéricarde causent une diminution du retour veineux."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications larges d'une intubation endotrachéale et d'une assistance respiratoire en préhospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Détresse respiratoire grave (polypnée avec signes de lutte, bradypnée).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Détresse neurologique avec score de Glasgow altéré ≤ 8.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Détresse circulatoire malgré une réanimation adéquate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Besoin d'une analgésie sédation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications d’une intubation endotrachéale et l’assistance respiratoire doivent êtres très larges : une détresse respiratoire grave, une détresse neurologique (score de Glasgow altéré ≤ 8), une détresse circulatoire malgré une réanimation adéquate, et le besoin d’une analgésie sédation."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques en faveur d'un état de choc vasoplégique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Existence de para ou de tétraplégie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Baisse conjointe de la PA systolique et diastolique avec maintien de la différentielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bradycardie (atteinte du rachis cervicale).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pâleur cutanéo-conjonctivale.",
+          "correct": false
+        }
+      ],
+      "explanation": "En faveur d’un état de choc vasoplégique (traumatisme médullaire) : l’existence de para ou de tétraplégie, une baisse conjointe de la PA systolique et diastolique avec maintien de la différentielle, une bradycardie (atteinte du rachis cervicale). La pâleur est plus caractéristique du choc hémorragique."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques en faveur d'un état de choc obstructif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suffocation chez le blessé conscient.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Turgescence des jugulaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Emphysème sous-cutané.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution des bruits du cœur à l'auscultation.",
+          "correct": true
+        }
+      ],
+      "explanation": "En faveur d’un état de choc obstructif : l’existence de signe en faveur de pneumothorax compressif (suffocation chez le blessé conscient, turgescence des jugulaires, emphysème sous cutané, abolition des murmures vésiculaire à l’auscultation pulmonaire) ou d’une tamponnade cardiaque (suffocation chez le blessé conscient, turgescence des jugulaires, diminution des bruits du cœur à l’auscultation)."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors de l'examen clinique d'une détresse neurologique en préhospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perte de connaissance initiale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Score de Glasgow.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réflexes du tronc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signes neurologiques de localisation (pupilles, motricité).",
+          "correct": true
+        }
+      ],
+      "explanation": "L’examen clinique doit préciser : rechercher une perte de connaissance initiale, établir le score de Glasgow, rechercher les réflexes du tronc, rechercher les signes neurologiques de localisation (pupilles et motricité des membres) ainsi que les lésions médullaires."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les agressions cérébrales secondaires d'origines systémiques (ACSOS) à éviter chez le traumatisé crânien sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypotension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypoxémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypercapnie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hyperglycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les agressions qu’il faut éviter sont essentiellement l'hypotension artérielle et l’hypoxémie. Le contrôle des ACSOS permet d’améliorer le pronostic des patients."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les tâches à réaliser à l'accueil du blessé polytraumatisé à l'hôpital ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Installation du patient sur le brancard de déchocage en respectant l'axe tête-cou-tronc.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réévaluation des fonctions vitales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Installation d'un monitorage cardiorespiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mise en place d'une sonde gastrique, en évitant la voie nasale en cas de traumatisme crânien.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un certain nombre de taches doivent être réalisées à l’accueil du blessé : installation du patient sur le brancard de déchocage en respectant l’axe tête -cou- tronc, réévaluation des fonctions vitales, installation d’un monitorage, mise en place d’une sonde gastrique en contre-indiquant la voie nasale en cas de traumatisme crânien ou maxillo-facial."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs théoriques à atteindre concernant la pression artérielle moyenne (PAM) chez un polytraumatisé à l'hôpital ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si l'hémorragie est non contrôlée : maintien d'une PAM proche de 60-70 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si l'hémorragie est contrôlée : PAM à 80-90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le jeune traumatisé crânien et/ou médullaire grave : PAM > 90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAM toujours supérieure à 100 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les valeurs admises sont: si l’hémorragie est non contrôlée : maintien d’une PAM proche de 60 - 70 mmHg ; si l’hémorragie est contrôlée : PAM à 80-90 mmHg ; chez le jeune traumatisé crânien et/ou médullaire grave : PAM> 90mmHg."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs biologiques à atteindre chez un polytraumatisé à l'hôpital ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémoglobine : 7-8 g/dL (ou > 9-10 g/dL si traumatisme crânien sévère).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plaquettes sanguines > 50 000 par mm3 (ou > 100 000 si traumatisme crânien associé).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "TP > 50% (et 70% si traumatisme crânien associé).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fibrinogène > 1,5-2 g/L.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les objectifs biologiques sont : hémoglobine : 7- 8 g <–> hématocrite : 25 –30 %, cet objectif du taux est souvent révisé à la hausse en traumatologie, soit en raison de l’intensité de l’hémorragie nécessitant une anticipation, soit en raison d’un traumatisme crânien sévère (> 9-10 g/dL) ; plaquettes sanguines > 50 000 par mm3,(>100 000 par mm3 en cas de traumatisme crânien associé) ; TP > 50% et 70% si traumatisme crânien associé ; fibrinogène>1,5-2 g/l."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens essentiels d'imagerie à effectuer sans délai à l'arrivée du polytraumatisé à l'hôpital ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie du thorax.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Radiographie du bassin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échographie abdominale (FAST).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Scanner cérébral sans injection.",
+          "correct": false
+        }
+      ],
+      "explanation": "Très rapidement, trois examens essentiels sont effectués sans délai, sur le brancard, et sans mobiliser le traumatisé : radiographie du thorax, radiographie du bassin, et échographie abdominale (selon la technique FAST). Le scanner cérébral fait partie du bilan complet ultérieur."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications cardiovasculaires liées à l'alitement prolongé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œdème des membres inférieurs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Thrombose veineuse profonde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Désadaptation à l'effort.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications cardio-vasculaires incluent la prévention de l’œdème des membres inférieurs, la prévention de la thrombose veineuse profonde (HBPM), et la prévention de la désadaptation à l’effort."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications orthopédiques de l'immobilité prolongée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ostéoporose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Enraidissement articulaire (rétractions ligamentaires et capsulaires).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ossifications ectopiques (paraostéoarthropathies).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndromes régionaux douloureux complexes (algodystrophie).",
+          "correct": true
+        }
+      ],
+      "explanation": "L’immobilité entraîne : une ostéoporose, un enraidissement articulaire (rétractions ligamentaires et capsulaires), des complications comme les ossifications ectopiques (paraostéoarthropathies) ou les syndromes régionaux douloureux complexes (algodystrophie)."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Le syndrome d'écrasement expose à des risques spécifiques. Quelles sont les mesures préventives mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prévention de l'insuffisance rénale secondaire par alcalinisation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévention du risque de levée de garrot par remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administration systématique d'antibiotiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immobilisation immédiate des membres écrasés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome d’écrasement expose au risque d’une levée de garrot (prévenu par le remplissage), puis à l’insuffisance rénale secondaire (alcalinisation préventive)."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Le médiastin inférieur est divisé en trois espaces. Quels sont ces espaces et leurs contenus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Médiastin antérieur : contient les vaisseaux thoraciques internes et du tissu cellulo-graisseux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Médiastin moyen : occupé par le cœur, le péricarde, les nerfs phréniques et les vaisseaux péricardiaco-phréniques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Médiastin postérieur : loge l'œsophage, les nerfs vagues, le conduit thoracique et l'aorte thoracique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Médiastin supérieur : contient la bifurcation trachéale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le médiastin inférieur est divisé lui-même en 3 espaces : le médiastin antérieur (espace étroit en avant du cœur et du péricarde, qui contient les vaisseaux thoraciques internes et leurs chaînes lymphatiques, et du tissu cellulo-graisseux) ; le médiastin moyen (occupé par le cœur et le péricarde ainsi que les nerfs phréniques et les vaisseaux péricardiaco-phréniques) ; le médiastin postérieur (loge l’œsophage, les nerfs vagues, le conduit thoracique, l’aorte thoracique et contre la colonne thoracique les vaisseaux intercostaux postérieurs, le système azygos et les troncs sympathiques). Le médiastin supérieur est un étage distinct."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "La cavité abdominale est subdivisée en cavités péritonéale et rétropéritonéale. La cavité péritonéale est elle-même divisée en deux étages. Quels sont ces étages et leurs contenus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'étage sus-méso-colique contient le foie, l'estomac, la partie supérieure du duodénum, la rate et la majeure partie du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'étage sous-méso-colique contient les anses grêles, les colons ascendant, descendant et sigmoïde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La cavité rétropéritonéale contient la vessie et le fundus utérin.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le méso-côlon transverse sépare l'étage sus-méso-colique de l'étage sous-méso-colique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La cavité péritonéale est elle-même divisée en 2 étages par le méso-côlon transverse : l’étage sus-méso-colique qui contient le foie, l’estomac, la partie supérieure du duodénum (reliés par le petit omentum), la rate et la majeure partie du pancréas ; l’étage sous-méso-colique qui contient les anses grêles (recouvertes par le grand omentum), les colons ascendant, descendant et sigmoïde. La vessie et le fundus utérin sont dans la région hypogastrique du pelvis."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques principales du traumatisé grave qui rendent sa prise en charge complexe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La gravité des lésions ne s'additionne pas mais se multiplie par potentialisation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La sous-estimation de la gravité des lésions est un piège mortel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'oubli de certaines lésions peut avoir des conséquences vitales ou fonctionnelles dramatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les solutions thérapeutiques peuvent être contradictoires, impliquant des choix stratégiques difficiles.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les caractéristiques principales du traumatisé graves peuvent être résumées ainsi : la gravité des lésions ne s’additionne pas mais se multiplie, la sous-estimation de la gravité des lésions est un piège mortel, l’oubli de certaines lésions traumatiques peut avoir des conséquences vitales ou fonctionnelles dramatiques, et les solutions thérapeutiques rendues nécessaires par certaines lésions peuvent être contradictoires impliquant des choix stratégiques difficiles."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs de pression artérielle systolique (PA systolique) en préhospitalier pour le remplissage vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ramener la PA systolique aux alentours de 80 mmHg en l'absence de traumatisme crânien.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maintenir la PA systolique supérieure à 110-120 mmHg en cas de traumatisme crânien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toujours viser une PA systolique normale (120 mmHg) quel que soit le contexte.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ne pas dépasser 90 mmHg de PA systolique pour éviter l'hyperperfusion.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’objectif du remplissage en préhospitalier est de ramener la PA systolique au alentour de 80 mm Hg en absence de traumatisme crânien et supérieur à 110 -120 mm Hg en cas de traumatisme crânien."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "L'acide tranexamique est recommandé dans la prise en charge du choc hémorragique post-traumatique. Quelles sont ses modalités d'administration et son bénéfice ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il doit être administré dans les 3 heures du traumatisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dose est de 1g sur 10 min puis 1g sur 8 heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il réduit la mortalité précoce chez les patients traumatisés avec choc hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est un agent procoagulant direct.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’acide tranexamique (anti-fibrinolytique) a fait la preuve de son utilité dans le traitement de la coagulopathie post-traumatique. Il doit être administré dans les 3 heures du traumatisme à raison de 1g sur 10 min puis 1g sur 8 heures. Les études ont montré qu’il permet de réduire la mortalité précoce chez ces patients."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Chez le traumatisé crânien et/ou médullaire grave, l'altération de l'autorégulation cérébrale impose des objectifs spécifiques. Lesquels ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avoir au minimum une pression artérielle systolique de 110-120 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Avoir une pression artérielle moyenne (PAM) > 90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Avoir une pression de perfusion cérébrale de 70-80 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maintenir une SpO2 > 92 % et une PaCO2 entre 35 et 40 mmHg.",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le traumatisé crânien et/ou médullaire grave, l’altération de l’autorégulation cérébrale impose d’avoir au minimum une pression artérielle systolique de 110-120 mmHg (PAM> 90 mmHg) pour espérer avoir une pression de perfusion cérébrale de 70-80 mmHg. L’oxygénation doit être la plus précoce possible avec pour objectifs une SpO2 > 92 % et une ETCO2 30 - 35 mmHg et une PaCO2 entre 35 et 40 mmHg."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les voies veineuses à privilégier ou à éviter à l'accueil du polytraumatisé à l'hôpital ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Privilégier les abords périphériques et jugulaires externes avec des cathéters courts et de gros diamètre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La voie fémorale doit être privilégiée lorsqu'une voie centrale est requise pour un remplissage rapide et une transfusion massive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La voie sous-clavière est interdite dans ce contexte.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La voie jugulaire interne est toujours contre-indiquée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Vérification des voies veineuses voir l’adjonction de voies supplémentaires, en privilégiant les abords périphériques et jugulaires externes en utilisant des cathéters courts et de gros diamètre (14 à 16 gauge). Lorsqu’une voie centrale est requise pour un remplissage rapide et une transfusion massive, la voie fémorale doit être privilégiée, la voie sous-clavière est interdite dans ce contexte. La voie jugulaire interne est possible mais nécessite la mobilisation cervicale."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les informations essentielles apportées par l'échographie cardiaque transoesophagienne (ETO) dans le bilan initial d'un polytraumatisé en choc sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recherche d'un épanchement péricardique et évaluation de son retentissement hémodynamique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Évaluation de la volémie du traumatisé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recherche d'une contusion myocardique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche d'une rupture éventuelle de l'isthme aortique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’échographie cardiaque transoesophagienne (ETO) est parfois associée dans ce bilan initial, en particulier pour les patients en choc sévère et pour les traumatismes graves du thorax, car l’ETO apporte des renseignements essentiels. Elle permet bien sûr de rechercher un épanchement péricardique (hémopéricarde) et d’évaluer son retentissement hémodynamique (tamponnade), mais aussi d’évaluer sans délai la volémie du traumatisé, de rechercher une contusion myocardique et une rupture éventuelle de l’isthme aortique."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Le scanner occupe une place essentielle dans le bilan complémentaire du polytraumatisé. Quelles sont ses indications et apports spécifiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scanner cérébral sans injection pour diagnostiquer les urgences neurochirurgicales et préciser les lésions cérébrales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Scanner abdominal avec injection pour compléter l'échographie et diagnostiquer les hématomes rétropéritonéaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Scanner thoracique avec injection pour un diagnostic précis des pneumothorax méconnus à la radiographie et évaluation du médiastin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Scanner du rachis en cas de fractures vertébrales.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le scanner occupe une place essentielle dans ce bilan complémentaire : scanner cérébral sans injection, scanner abdominal avec injection, scanner thoracique avec injection, et scanner du rachis en cas de fractures vertébrales. Il permet de diagnostiquer les urgences neurochirurgicales, préciser les lésions cérébrales, compléter les données de l’échographie sur les organes pleins, diagnostiquer les hématomes rétropéritonéaux, diagnostiquer les pneumothorax méconnus à la radiographie, évaluer les contusions pulmonaires, les hémothorax de faible abondance et le médiastin."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les grands principes qui guident la stratégie opératoire chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La détresse ventilatoire prime sur la détresse circulatoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La détresse circulatoire prime sur la détresse neurologique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La lésion qui engage le pronostic vital prime sur celle qui engage le pronostic fonctionnel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toutes les lésions doivent être traitées simultanément.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est possible de dégager quelques grands principes : la détresse ventilatoire prime sur la détresse circulatoire, et celle-ci prime sur la détresse neurologique. La lésion qui engage le pronostic vital prime sur celle qui engage le pronostic fonctionnel."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives des escarres chez un sujet à risque en décubitus ou immobilisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduction des durées d'appui par le changement de position.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévenir toute macération.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer des apports nutritionnels suffisants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation de supports adaptés diminuant les pressions (matelas à eau, à air).",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention des escarres (systématique chez un sujet à risque en décubitus ou immobilisé) repose sur : la réduction des durées d’appui par le changement de position, la prévention de toute macération, l'assurance d'apports nutritionnels suffisants, et l’utilisation de supports adaptés diminuant les pressions (matelas à eau, à air)."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives des raideurs articulaires et des complications musculaires liées à l'immobilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Positionnement correct des patients alités.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Application de postures alternées (flexion et extension de hanches).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réalisation de mobilisations articulaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Correction de la perte protidique par une supplémentation.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention des raideurs articulaires repose sur un positionnement correct des patients alités, l’application de postures alternées et la réalisation des mobilisations articulaires. La prévention des complications musculaires repose sur : l’installation correcte du patient, la correction de la perte protidique par une supplémentation protidique, des étirements musculaires et des mobilisations articulaires, et le renforcement musculaire (statique puis dynamique)."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments clés d'une structure d'accueil hospitalière adaptée à la prise en charge d'un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une équipe pluridisciplinaire et une structure adaptée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Proximité de l'entrée des urgences.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Larges dimensions et abondant équipement technique de la salle de déchocage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Disponibilité permanente d'un large éventail de compétences médicales et non médicales.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prise en charge hospitalière du polytraumatisé ne s’improvise pas. Elle nécessite à la fois une équipe pluridisciplinaire et une structure adaptée. La salle de déchocage ou salle d’accueil des urgences vitales est théoriquement caractérisée par sa proximité de l’entrée des urgences, ses larges dimensions, son abondant équipement technique et sa dotation en personnel. Il faut assurer une organisation efficace et une disponibilité permanente du plus large éventail possible de compétences médicales et non médicales."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Dans quel cas une décision d'accueil direct au bloc opératoire peut-elle être prise pour un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lorsque l'état hémodynamique du patient est critique malgré la réanimation préhospitalière.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lorsque la cause de la détresse circulatoire est évidente (ex: plaie par balle, amputation traumatique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement après un bilan lésionnel complet par scanner.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Si le patient est stable et conscient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un accueil direct au bloc opératoire peut être organisé en cas d’instabilité hémodynamique et de lésion hémorragique facilement identifiable. Cette décision doit être prise lorsque l’état hémodynamique du patient est critique malgré la réanimation préhospitalière et que la cause de la détresse circulatoire est évidente (plaie par balle, plaie par arme blanche, amputation traumatique)."
+    }
+  ]
+}

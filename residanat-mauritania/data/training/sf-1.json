@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-1",
+  "title": "Électrophysiologie cardiaque",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux éléments qui maintiennent le potentiel de membrane de repos stable du myocyte ventriculaire contractile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perméabilité élevée au sodium (Na+).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'activité de la pompe Na+/K+-ATPase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une perméabilité élevée au potassium (K+).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ouverture massive des canaux calciques de type L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le courant 'Funny' (If).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potentiel de membrane de repos stable du myocyte ventriculaire contractile, d'environ -90 mV, est maintenu principalement par une perméabilité élevée au potassium (K+) et l'activité de la pompe Na+/K+-ATPase."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de la phase 0 de dépolarisation rapide du potentiel d'action du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est principalement médiée par l'ouverture des canaux calciques de type L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à une entrée rapide de Na+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle provoque une inversion du potentiel membranaire jusqu'à +20 mV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est caractérisée par l'ouverture des canaux potassiques transitoires (Ito).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est absente dans les myocytes contractiles.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 0 de dépolarisation rapide du myocyte ventriculaire est caractérisée par l'ouverture massive des canaux sodiques (Na+) rapides voltage-dépendants, provoquant une entrée rapide de Na+ et une inversion du potentiel membranaire jusqu'à +20 mV."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les fonctions principales du nœud sinusal dans le système de conduction cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il ralentit physiologiquement la conduction de l'influx.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est le pacemaker principal du cœur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il initie l'impulsion électrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il distribue l'impulsion très rapidement à l'ensemble du myocarde ventriculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est le seul passage électrique entre les atriums et les ventricules.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le nœud sinusal est le pacemaker principal et initie l'impulsion électrique, agissant comme le générateur de rythme du cœur."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels événements électrophysiologiques sont représentés par l'onde P et le complexe QRS sur l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'onde P représente la repolarisation des ventricules.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le complexe QRS représente la dépolarisation des atriums.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'onde P représente la dépolarisation des atriums.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le complexe QRS représente la dépolarisation des ventricules.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'onde P représente le ralentissement au niveau du nœud AV.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'onde P représente la dépolarisation des atriums, initiée par le nœud sinusal. Le complexe QRS représente la dépolarisation des ventricules."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques distinctives du potentiel d'action des cellules nodales par rapport à celui des myocytes contractiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les cellules nodales possèdent un potentiel de repos stable à -90 mV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules nodales ont la capacité d'automatisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les cellules nodales peuvent se dépolariser spontanément.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cellules nodales présentent une phase de plateau longue et caractéristique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La dépolarisation rapide des cellules nodales est principalement médiée par les canaux sodiques rapides.",
+          "correct": false
+        }
+      ],
+      "explanation": "Contrairement aux myocytes contractiles, les cellules du tissu nodal possèdent la capacité d'automatisme, c'est-à-dire qu'elles peuvent se dépolariser spontanément et générer un potentiel d'action sans stimulation externe."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles cruciaux de la phase de plateau (phase 2) du potentiel d'action du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est responsable de la dépolarisation rapide initiale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à un équilibre entre un courant entrant de calcium et un courant sortant de potassium.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est essentielle pour le couplage excitation-contraction.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle crée une période réfractaire absolue protégeant contre la tétanisation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement médiée par l'ouverture des canaux sodiques rapides.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 2 (plateau) est due à un équilibre entre un courant entrant de calcium (Ca2+) via les canaux calciques de type L et un courant sortant de K+ via les canaux potassiques rectifiants retardés. L'entrée de Ca2+ est cruciale pour le couplage excitation-contraction. La longue durée du PA, notamment la phase de plateau, crée une période réfractaire absolue protégeant le cœur contre la tétanisation et les arythmies de réentrée."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes ioniques impliqués dans la phase 4 de dépolarisation diastolique lente des cellules nodales (potentiel pacemaker) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un courant entrant de Na+ appelé 'Funny Current' (If).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une entrée de Ca2+ via les canaux de type T (transitoires).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une sortie massive de K+ via les canaux rectifiants retardés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'ouverture des canaux sodiques rapides voltage-dépendants.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'inactivation des canaux Na+.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 4 de dépolarisation diastolique lente est la clé de l'automatisme des cellules nodales. Elle est due à un courant entrant de Na+ appelé 'Funny Current' (If), qui s'active à l'hyperpolarisation, ainsi qu'à une entrée de Ca2+ via les canaux de type T (transitoires)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences physiologiques du ralentissement de la conduction de l'influx au niveau du nœud atrio-ventriculaire (NAV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il permet aux ventricules de se remplir complètement de sang avant leur contraction.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est représenté par l'onde T sur l'ECG.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il assure une contraction ventriculaire synchronisée et puissante.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est crucial pour le couplage excitation-contraction.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est reflété par l'intervalle PR sur l'ECG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le nœud atrio-ventriculaire (NAV) ralentit physiologiquement la conduction de l'influx (délai AV). Ce délai est crucial car il permet aux ventricules de se remplir complètement de sang avant leur contraction. Ce ralentissement est principalement reflété par l'intervalle PR sur l'ECG."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles du système nerveux autonome dans la modulation du rythme cardiaque généré par le nœud sinusal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système sympathique ralentit le rythme en diminuant les courants If et ICa.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le système parasympathique accélère le rythme en augmentant les courants If et ICa.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le système sympathique accélère le rythme en augmentant les courants If et ICa.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le système parasympathique ralentit le rythme en diminuant les courants If et ICa.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le système parasympathique augmente le courant K+ pour ralentir le rythme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le système nerveux autonome module le rythme du nœud sinusal : le système sympathique l'accélère (augmentation des courants If et ICa) et le parasympathique le ralentit (diminution des mêmes courants et augmentation du courant K+)."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la phase 3 de repolarisation rapide du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à une entrée massive de Ca2+.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les canaux Ca2+ se ferment.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les canaux K+ rectifiants retardés restent ouverts.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle entraîne une sortie massive de K+.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle ramène la cellule vers son potentiel de repos.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pendant la phase 3 de repolarisation rapide, les canaux Ca2+ se ferment tandis que les canaux K+ rectifiants retardés restent ouverts, entraînant une sortie massive de K+ qui repolarise la cellule et la ramène vers son potentiel de repos."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants du système de conduction cardiaque qui assurent une propagation rapide de l'impulsion électrique aux ventricules ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le nœud sinusal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le faisceau de His.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les branches du faisceau.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le réseau de Purkinje.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le nœud atrio-ventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le faisceau de His, les branches du faisceau (droite et gauche) et le réseau de Purkinje sont les composants qui conduisent et distribuent rapidement l'influx électrique aux ventricules, assurant une contraction synchronisée et puissante."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la dépolarisation des cellules nodales (nœud sinusal) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est principalement médiatisée par l'ouverture des canaux sodiques rapides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La pente de la phase 0 est moins abrupte que dans les myocytes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est principalement médiatisée par l'ouverture des canaux calciques de type L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle atteint un potentiel membranaire de +20 mV.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les phases 1 et 2 sont absentes.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dépolarisation lente (phase 0) des cellules nodales est principalement médiée par l'ouverture des canaux calciques de type L, et non par les canaux sodiques rapides, ce qui rend la pente moins abrupte. De plus, les phases 1 et 2 sont absentes dans le PA nodal."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les événements électrophysiologiques qui se produisent pendant l'intervalle QT sur l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dépolarisation des atriums.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La dépolarisation des ventricules.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La repolarisation des ventricules.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le ralentissement de la conduction au niveau du nœud AV.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La durée totale de la systole électrique ventriculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'intervalle QT mesure la durée totale de la systole électrique ventriculaire, qui inclut la dépolarisation (complexe QRS) et la repolarisation (onde T) des ventricules."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions du réseau de Purkinje dans le système de conduction cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il initie l'impulsion électrique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il distribue l'impulsion très rapidement à l'ensemble du myocarde ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il assure une contraction ventriculaire synchronisée et puissante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est situé à la jonction des atriums et des ventricules.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il conduit l'influx de l'endocarde vers l'épicarde.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le réseau de Purkinje est constitué de fibres terminales qui distribuent l'impulsion très rapidement à l'ensemble du myocarde ventriculaire, de l'endocarde vers l'épicarde, assurant une contraction ventriculaire synchronisée et puissante."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui contribuent à la repolarisation des cellules cardiaques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ouverture massive des canaux sodiques rapides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La sortie brève de K+ via les canaux potassiques transitoires (Ito) en phase 1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La sortie massive de K+ via les canaux K+ rectifiants retardés en phase 3.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'entrée de Ca2+ via les canaux calciques de type L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'ouverture des canaux potassiques (Ix) en phase 3 des cellules nodales.",
+          "correct": true
+        }
+      ],
+      "explanation": "La repolarisation implique la sortie de K+. En phase 1 du myocyte, des canaux potassiques transitoires (Ito) s'ouvrent. En phase 3 du myocyte, les canaux K+ rectifiants retardés restent ouverts, entraînant une sortie massive de K+. Dans les cellules nodales, la phase 3 de repolarisation est due à l'ouverture des canaux potassiques (Ix)."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations exactes concernant le segment ST sur l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il représente la dépolarisation des ventricules.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est une période d'isoélectricité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il se situe entre la fin de la dépolarisation et le début de la repolarisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il correspond à la phase 2 (plateau) du potentiel d'action ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est masqué par la repolarisation atriale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le segment ST est une période d'isoélectricité entre la fin de la dépolarisation et le début de la repolarisation ventriculaire. Il correspond à la phase 2 (plateau) du potentiel d'action ventriculaire."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de l'entrée de Ca2+ via les canaux calciques de type L dans le myocarde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est cruciale pour le couplage excitation-contraction dans les myocytes ventriculaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est la cause principale de la dépolarisation rapide en phase 0 des myocytes ventriculaires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle contribue à la phase 2 (plateau) du potentiel d'action ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est la principale médiatrice de la dépolarisation lente en phase 0 des cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est responsable de la repolarisation rapide des cellules.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'entrée de Ca2+ via les canaux calciques de type L est cruciale pour le couplage excitation-contraction et contribue à la phase 2 (plateau) du potentiel d'action ventriculaire. Elle est également la principale médiatrice de la dépolarisation lente en phase 0 des cellules nodales."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui distinguent le potentiel d'action des cellules nodales de celui des myocytes contractiles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'un potentiel de repos stable à -90 mV dans les cellules nodales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'absence de phases 1 et 2 dans les cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une dépolarisation diastolique lente (phase 4) dans les cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dépolarisation rapide en phase 0 médiée par les canaux sodiques rapides dans les cellules nodales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un potentiel diastolique maximal instable d'environ -60 mV dans les cellules nodales.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cellules nodales se distinguent par l'absence de phases 1 et 2, une dépolarisation diastolique lente (phase 4) due au courant 'Funny' et aux canaux Ca2+ de type T, et un potentiel diastolique maximal instable d'environ -60 mV, sans véritable potentiel de repos stable."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les événements électrophysiologiques qui se produisent pendant l'intervalle PR sur l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dépolarisation des ventricules.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le temps entre le début de la dépolarisation atriale et le début de la dépolarisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le ralentissement de la conduction au niveau du nœud AV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La repolarisation des atriums.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La dépolarisation du nœud sinusal.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intervalle PR mesure le temps entre le début de la dépolarisation atriale et le début de la dépolarisation ventriculaire. Il reflète principalement le ralentissement au niveau du nœud AV."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la période réfractaire absolue du myocyte cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à la longue durée du potentiel d'action, notamment la phase de plateau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pendant cette période, la cellule peut être ré-excitée par une stimulation forte.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle protège le cœur contre la tétanisation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle protège le cœur contre les arythmies de réentrée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement due à l'ouverture des canaux potassiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La longue durée du PA (200-300 ms), notamment la phase de plateau, crée une période réfractaire absolue pendant laquelle la cellule ne peut pas être ré-excitée, protégeant ainsi le cœur contre la tétanisation et les arythmies de réentrée."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles du système de conduction cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurer une contraction hémodynamiquement efficace.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Permettre une propagation coordonnée de l'impulsion électrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Générer le potentiel de repos stable des myocytes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ralentir la conduction de l'influx au niveau du faisceau de His.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Initier la dépolarisation atriale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système de conduction cardiaque a pour rôle d'assurer une contraction hémodynamiquement efficace en permettant une propagation coordonnée de l'impulsion électrique à travers le cœur."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant la repolarisation atriale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est représentée par l'onde P sur l'ECG.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle a lieu en même temps que la dépolarisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est masquée par le complexe QRS sur l'ECG.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est représentée par l'onde T sur l'ECG.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est initiée par le nœud sinusal.",
+          "correct": false
+        }
+      ],
+      "explanation": "La repolarisation atriale a lieu en même temps que la dépolarisation ventriculaire mais est masquée par le complexe QRS sur l'ECG."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les canaux ioniques impliqués dans la phase 1 de repolarisation initiale brève du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les canaux sodiques (Na+) rapides voltage-dépendants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les canaux potassiques transitoires (Ito).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les canaux calciques de type L (lents).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les canaux potassiques rectifiants retardés (Ix).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le courant 'Funny' (If).",
+          "correct": false
+        }
+      ],
+      "explanation": "En phase 1 de repolarisation initiale brève, les canaux Na+ s'inactivent et des canaux potassiques transitoires (Ito) s'ouvrent, entraînant une sortie brève de K+."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la phase 4 du potentiel de repos du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le potentiel de membrane est instable.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le potentiel de membrane est stable à -90 mV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est maintenue par la pompe Na+/K+-ATPase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est maintenue par les courants K+ entrants (IK1).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par une dépolarisation diastolique lente.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase 4 du myocyte ventriculaire est le potentiel de repos. Le potentiel de membrane est stable à -90 mV, maintenu par la pompe Na+/K+-ATPase et les courants K+ entrants (IK1)."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui contribuent à la morphologie fine et à la courte durée du complexe QRS sur l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dépolarisation lente des cellules nodales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La conduction rapide via le système His-Purkinje.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le ralentissement de la conduction au niveau du nœud AV.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La distribution très rapide de l'impulsion à l'ensemble du myocarde ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La repolarisation atriale masquée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La morphologie fine et la courte durée du complexe QRS témoignent de la conduction rapide via le système His-Purkinje et de la distribution très rapide de l'impulsion à l'ensemble du myocarde ventriculaire, assurant une contraction synchronisée."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une arythmie de réentrée. Quels mécanismes électrophysiologiques sous-jacents sont potentiellement impliqués dans la protection contre ce type d'arythmie en conditions normales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dépolarisation diastolique lente des cellules nodales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La longue durée du potentiel d'action des myocytes contractiles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La période réfractaire absolue des myocytes cardiaques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'équilibre entre le courant entrant de Ca2+ et le courant sortant de K+ pendant la phase de plateau.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La conduction rapide via le faisceau de His.",
+          "correct": false
+        }
+      ],
+      "explanation": "La longue durée du PA (200-300 ms), notamment la phase de plateau, crée une période réfractaire absolue pendant laquelle la cellule ne peut pas être ré-excitée, protégeant ainsi le cœur contre la tétanisation et les arythmies de réentrée. La phase de plateau est due à un équilibre entre un courant entrant de calcium (Ca2+) et un courant sortant de K+."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un médicament qui inhibe sélectivement les canaux calciques de type L aurait quels effets sur l'électrophysiologie cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la pente de la phase 0 de dépolarisation des cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une prolongation de la phase 2 (plateau) du potentiel d'action ventriculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une réduction de l'entrée de Ca2+ cruciale pour le couplage excitation-contraction.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un ralentissement du rythme de dépolarisation spontanée du nœud sinusal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une accélération de la repolarisation rapide des myocytes ventriculaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les canaux calciques de type L sont responsables de la dépolarisation lente en phase 0 des cellules nodales et de l'entrée de Ca2+ pendant la phase de plateau des myocytes, essentielle au couplage excitation-contraction. Leur inhibition diminuerait la pente de la phase 0 nodale, réduirait l'entrée de Ca2+ pour le couplage excitation-contraction et ralentirait le rythme du nœud sinusal (le système parasympathique ralentit le rythme en diminuant les courants If et ICa)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un bloc atrio-ventriculaire du premier degré. Quels sont les événements électrophysiologiques et les corrélations ECG attendus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un allongement de l'intervalle PR.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un ralentissement excessif de la conduction au niveau du nœud AV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une absence de l'onde P sur l'ECG.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une altération de la dépolarisation ventriculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la durée de la systole électrique ventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intervalle PR reflète principalement le ralentissement au niveau du nœud AV. Un bloc atrio-ventriculaire du premier degré se caractérise par un allongement de l'intervalle PR, indiquant un ralentissement excessif de la conduction au niveau du nœud AV."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes ioniques et les phases du potentiel d'action qui sont ciblés par le système nerveux sympathique pour accélérer le rythme cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du courant 'Funny' (If) en phase 4 des cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de l'entrée de Ca2+ (ICa) en phase 4 des cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du courant K+ en phase 3 des cellules nodales.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la perméabilité au K+ en phase 4 des myocytes contractiles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Accélération de l'inactivation des canaux Na+ en phase 1 des myocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système sympathique accélère le rythme en augmentant les courants If et ICa. Ces courants sont actifs pendant la phase 4 de dépolarisation diastolique lente des cellules nodales, qui est la clé de l'automatisme."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une ischémie myocardique affectant principalement les myocytes ventriculaires. Quels changements électrophysiologiques sont les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la durée de la période réfractaire absolue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une altération de la phase 0 de dépolarisation rapide.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une perturbation de l'équilibre des courants ioniques en phase 2 (plateau).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la pente de la phase 4 de dépolarisation diastolique lente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de l'efficacité du couplage excitation-contraction.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ischémie peut affecter la fonction des canaux ioniques et des pompes. Une perturbation de l'équilibre des courants ioniques en phase 2 (plateau) (Ca2+ entrant, K+ sortant) est probable, ce qui peut diminuer la durée de la période réfractaire absolue et altérer le couplage excitation-contraction, car l'entrée de Ca2+ est cruciale pour ce processus."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une conduction ventriculaire anormale ou ralentie, telle qu'observée dans un bloc de branche, sur l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un allongement de l'intervalle PR.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un élargissement du complexe QRS.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une modification de la morphologie du complexe QRS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une absence de l'onde P.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un raccourcissement de l'intervalle QT.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le complexe QRS représente la dépolarisation des ventricules et sa morphologie fine et courte durée témoignent de la conduction rapide via le système His-Purkinje. Une conduction ventriculaire anormale ou ralentie (comme dans un bloc de branche) entraînerait un élargissement et une modification de la morphologie du complexe QRS."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement médicamenteux présente un allongement significatif de l'intervalle QT. Quels sont les mécanismes ioniques et les phases du potentiel d'action qui pourraient être affectés par ce médicament ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une inhibition des canaux sodiques rapides en phase 0.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une prolongation de la phase 2 (plateau) du potentiel d'action ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une inhibition des canaux potassiques rectifiants retardés en phase 3.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une accélération de la dépolarisation diastolique lente en phase 4 des cellules nodales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de l'entrée de Ca2+ en phase 2.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intervalle QT mesure la durée totale de la systole électrique ventriculaire (dépolarisation et repolarisation). Un allongement du QT suggère une prolongation de la repolarisation ventriculaire, ce qui peut être causé par une prolongation de la phase 2 (plateau) ou une inhibition des canaux potassiques rectifiants retardés en phase 3, qui sont responsables de la sortie de K+ et de la repolarisation."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une dysfonction du nœud sinusal sur le rythme cardiaque et l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un rythme cardiaque plus rapide que la normale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une absence ou une morphologie anormale de l'onde P.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une prise de relais par un pacemaker subsidiaire (par exemple, le nœud AV).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un allongement de l'intervalle PR.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une dépolarisation ventriculaire spontanée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le nœud sinusal est le pacemaker principal et initie l'onde P (dépolarisation atriale). Une dysfonction entraînerait une absence ou une morphologie anormale de l'onde P. En cas de défaillance, un pacemaker subsidiaire (comme le nœud AV) prendrait le relais, mais à un rythme plus lent."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyperkaliémie sévère. Quels sont les effets attendus sur le potentiel d'action du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyperpolarisation du potentiel de repos.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la pente de la phase 0 de dépolarisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un raccourcissement de la durée du potentiel d'action.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une altération de la repolarisation due à une modification du gradient de K+.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de l'entrée de Na+ en phase 0.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potentiel de repos est maintenu par une perméabilité élevée au K+ et les courants K+ entrants. Une hyperkaliémie réduit le gradient de K+ transmembranaire, ce qui peut dépolariser le potentiel de repos, inactivant partiellement les canaux Na+ et diminuant la pente de la phase 0. Elle altère également la repolarisation en réduisant la sortie de K+."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles spécifiques du nœud atrio-ventriculaire (NAV) dans la coordination de la contraction cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il initie l'impulsion électrique principale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il assure le seul passage électrique entre les atriums et les ventricules.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il ralentit la conduction de l'influx pour permettre le remplissage ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est le pacemaker principal du cœur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est reflété par l'intervalle PR sur l'ECG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le NAV ralentit physiologiquement la conduction de l'influx (délai AV), ce qui est crucial pour permettre aux ventricules de se remplir complètement de sang avant leur contraction. Ce délai est principalement reflété par l'intervalle PR sur l'ECG."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un médicament qui bloque les canaux potassiques rectifiants retardés (Ix) aurait quels effets sur l'ECG et le potentiel d'action ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un raccourcissement de l'intervalle QT.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un allongement de l'intervalle QT.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une prolongation de la phase 3 de repolarisation rapide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une accélération de la phase 0 de dépolarisation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la durée de la phase 2 (plateau).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les canaux K+ rectifiants retardés (Ix) sont responsables de la sortie massive de K+ en phase 3, entraînant la repolarisation rapide. Leur blocage prolongerait la phase 3, ce qui se traduirait par un allongement de l'intervalle QT sur l'ECG."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences fondamentales entre la phase 0 de dépolarisation des myocytes ventriculaires et celle des cellules nodales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La phase 0 des myocytes est médiée par les canaux calciques de type L, tandis que celle des cellules nodales est médiée par les canaux sodiques rapides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La phase 0 des myocytes est plus abrupte que celle des cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La phase 0 des myocytes atteint un potentiel plus positif (+20 mV) que celle des cellules nodales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La phase 0 des cellules nodales est principalement médiée par les canaux calciques de type L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La phase 0 des myocytes est due à une entrée rapide de Na+.",
+          "correct": true
+        }
+      ],
+      "explanation": "La phase 0 des myocytes est une dépolarisation rapide due à l'entrée massive de Na+ via les canaux sodiques rapides, atteignant +20 mV. La phase 0 des cellules nodales est une dépolarisation lente principalement médiée par l'ouverture des canaux calciques de type L, avec une pente moins abrupte."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une fibrillation atriale. Quels sont les événements électrophysiologiques et les corrélations ECG attendus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une onde P régulière et bien définie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une activité atriale désorganisée et rapide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un complexe QRS régulier et étroit.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une absence d'onde P identifiable, remplacée par des oscillations de la ligne de base.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une conduction ventriculaire irrégulière.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fibrillation atriale se caractérise par une activité atriale désorganisée et rapide. Sur l'ECG, cela se traduit par une absence d'onde P identifiable, remplacée par des oscillations de la ligne de base, et une conduction ventriculaire irrégulière due à la transmission variable des impulsions au NAV."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes qui assurent la synchronisation de la contraction ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le ralentissement de la conduction au niveau du nœud AV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La propagation rapide de l'impulsion à travers les branches du faisceau.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La distribution très rapide de l'impulsion par le réseau de Purkinje.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La conduction de l'endocarde vers l'épicarde par le réseau de Purkinje.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La dépolarisation spontanée du nœud sinusal.",
+          "correct": false
+        }
+      ],
+      "explanation": "La synchronisation de la contraction ventriculaire est assurée par la conduction rapide via les branches du faisceau et la distribution très rapide de l'impulsion par le réseau de Purkinje à l'ensemble du myocarde ventriculaire, de l'endocarde vers l'épicarde."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un médicament qui augmente l'activité de la pompe Na+/K+-ATPase aurait quels effets sur le potentiel de repos du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dépolarisation du potentiel de repos.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperpolarisation du potentiel de repos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la perméabilité au sodium.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un maintien plus efficace du potentiel de membrane stable à -90 mV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la perméabilité au potassium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potentiel de repos stable à -90 mV est maintenu par la pompe Na+/K+-ATPase. Une augmentation de son activité entraînerait une hyperpolarisation du potentiel de repos et un maintien plus efficace de ce potentiel stable."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une augmentation du courant 'Funny' (If) sur l'électrophysiologie du nœud sinusal et le rythme cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la pente de la phase 4 de dépolarisation diastolique lente.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une accélération du rythme de dépolarisation spontanée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la fréquence cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une prolongation de l'intervalle PR.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de l'entrée de Na+ en phase 4.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le courant 'Funny' (If) est responsable de la dépolarisation diastolique lente (phase 4) des cellules nodales, clé de l'automatisme. Une augmentation de ce courant accélérerait la pente de la phase 4, entraînant une accélération du rythme de dépolarisation spontanée et donc une augmentation de la fréquence cardiaque."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les événements électrophysiologiques qui se produisent pendant la systole électrique ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dépolarisation atriale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La dépolarisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La repolarisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le ralentissement de la conduction au niveau du nœud AV.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La période réfractaire absolue des myocytes ventriculaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "La systole électrique ventriculaire est mesurée par l'intervalle QT et comprend la dépolarisation (complexe QRS) et la repolarisation (onde T) des ventricules. La période réfractaire absolue des myocytes ventriculaires, due à la longue durée du PA, se déroule également pendant cette phase, protégeant le cœur."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une bradycardie sinusale. Quels sont les mécanismes physiologiques qui pourraient être en cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation de l'activité sympathique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de l'activité parasympathique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une diminution des courants If et ICa dans le nœud sinusal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation du courant K+ dans le nœud sinusal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une accélération de la dépolarisation diastolique lente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système parasympathique ralentit le rythme en diminuant les courants If et ICa et en augmentant le courant K+. Une bradycardie sinusale pourrait donc résulter d'une diminution des courants If et ICa ou d'une augmentation du courant K+ dans le nœud sinusal."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une inactivation précoce des canaux sodiques rapides voltage-dépendants dans les myocytes ventriculaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dépolarisation plus rapide en phase 0.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de l'amplitude du potentiel d'action.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une altération de la phase 1 de repolarisation initiale brève.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une prolongation de la phase 2 (plateau).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la vitesse de conduction de l'influx.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'inactivation précoce des canaux Na+ en phase 1 est normale. Cependant, si l'inactivation est excessive ou précoce dès la phase 0, cela réduirait l'entrée de Na+, diminuant l'amplitude du PA et la vitesse de dépolarisation, ce qui pourrait altérer la phase 1 et la vitesse de conduction de l'influx."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui contribuent à la longue durée du potentiel d'action du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La phase 0 de dépolarisation rapide.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La phase 1 de repolarisation initiale brève.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La phase 2 (plateau) due à l'équilibre des courants Ca2+ et K+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La phase 3 de repolarisation rapide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'entrée de Ca2+ via les canaux calciques de type L.",
+          "correct": true
+        }
+      ],
+      "explanation": "La longue durée du PA (200-300 ms) est principalement due à la phase de plateau (phase 2). Cette phase est caractérisée par un équilibre entre un courant entrant de calcium (Ca2+) via les canaux calciques de type L et un courant sortant de K+."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une mutation génétique affectant les canaux potassiques transitoires (Ito). Quels sont les effets attendus sur le potentiel d'action du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une altération de la phase 0 de dépolarisation rapide.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une modification de la phase 1 de repolarisation initiale brève.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une prolongation de la phase 2 (plateau).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un raccourcissement de la phase 3 de repolarisation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la sortie brève de K+ en phase 1.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les canaux potassiques transitoires (Ito) s'ouvrent en phase 1, entraînant une sortie brève de K+ et une repolarisation initiale. Une mutation les affectant modifierait cette phase 1. Si cette sortie de K+ est diminuée, cela pourrait prolonger la phase 2 (plateau) en retardant la repolarisation."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques électrophysiologiques qui rendent le nœud sinusal le pacemaker principal du cœur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son potentiel de repos stable à -90 mV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sa capacité à se dépolariser spontanément.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Son rythme de dépolarisation spontanée le plus rapide (60-100 bpm).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence de phases 1 et 2 dans son potentiel d'action.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sa localisation dans la paroi supérieure de l'atrium droit.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le nœud sinusal est le pacemaker principal car il possède la capacité d'automatisme (se dépolariser spontanément) et son rythme de dépolarisation spontanée est le plus rapide (60-100 bpm) par rapport aux autres tissus nodaux."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les événements électrophysiologiques qui se produisent pendant la propagation atriale de l'impulsion électrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'initiation de l'impulsion par le nœud AV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La dépolarisation des deux atriums.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La contraction des atriums.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le ralentissement de la conduction de l'influx.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La génération du complexe QRS.",
+          "correct": false
+        }
+      ],
+      "explanation": "Après l'initiation par le nœud sinusal, l'impulsion se propage à travers les deux atriums, provoquant leur dépolarisation (onde P sur l'ECG) et leur contraction."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles du faisceau de His dans le système de conduction cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est le pacemaker principal du cœur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est le seul passage électrique entre les atriums et les ventricules.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il se divise rapidement en branches pour conduire l'influx aux ventricules.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il ralentit physiologiquement la conduction de l'influx.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il distribue l'impulsion très rapidement à l'ensemble du myocarde ventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le faisceau de His est le seul passage électrique entre les atriums et les ventricules. Il se divise rapidement en une branche droite et une branche gauche pour conduire rapidement l'influx vers l'apex du cœur."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une hypokaliémie sévère sur le potentiel de repos et la repolarisation du myocyte ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dépolarisation du potentiel de repos.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperpolarisation du potentiel de repos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un allongement de la durée du potentiel d'action.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une accélération de la repolarisation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la perméabilité au K+.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potentiel de repos est maintenu par une perméabilité élevée au K+ et les courants K+ entrants. Une hypokaliémie augmente le gradient de K+ transmembranaire, ce qui peut hyperpolariser le potentiel de repos. Elle peut également ralentir la repolarisation (diminution de la sortie de K+), entraînant un allongement de la durée du potentiel d'action."
+    }
+  ]
+}

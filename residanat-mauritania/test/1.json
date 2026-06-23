@@ -1,0 +1,53 @@
+{
+  "id": 1,
+  "title": "Électrophysiologie Cardiaque : Des Canaux Ioniques au Rythme Normal",
+  "type": "fondamental",
+  "metadata": {
+    "duration": "45 min",
+    "level": "1er Cycle - Physiologie",
+    "keywords": [
+      "Électrophysiologie",
+      "Potentiel d'action cardiaque",
+      "ECG",
+      "Système de conduction",
+      "Myocyte",
+      "Canal ionique"
+    ]
+  },
+  "objectives": [
+    "Décrire les bases ioniques du potentiel de repos et du potentiel d'action des myocytes contractiles.",
+    "Distinguer le potentiel d'action des cellules nodales (pacemaker) de celui des cellules contractiles.",
+    "Expliquer l'anatomie et la fonction séquentielle du système de conduction cardiaque.",
+    "Corréler les principaux événements électrophysiologiques avec les ondes et intervalles de l'électrocardiogramme (ECG)."
+  ],
+  "introduction": "<p>Le cœur est une pompe électromécanique sophistiquée dont l'efficacité repose sur une activité électrique parfaitement orchestrée. Chaque battement cardiaque est le résultat d'une vague de dépolarisation électrique qui se propage de manière séquentielle à travers le myocarde, déclenchant sa contraction. Ce cours de sciences fondamentales explore les principes de l'électrophysiologie cardiaque, depuis le niveau microscopique des canaux ioniques et des potentiels d'action cellulaires jusqu'au niveau macroscopique du système de conduction et de sa traduction sur l'électrocardiogramme (ECG). Comprendre ces mécanismes est essentiel pour interpréter l'ECG et appréhender la physiopathologie des arythmies cardiaques.</p>",
+  "sections": [
+    {
+      "title": "Le Potentiel d'Action du Myocyte Ventriculaire",
+      "content": "<p>La cellule myocardique contractile possède un potentiel de membrane de repos stable d'environ -90 mV, maintenu principalement par une perméabilité élevée au potassium (K+) et l'activité de la pompe Na+/K+-ATPase. Le potentiel d'action (PA) est une séquence rapide de changements de ce potentiel, divisée en 5 phases.</p><ul><li><strong>Phase 0 : Dépolarisation rapide.</strong> Suite à une stimulation, les canaux sodiques (Na+) rapides voltage-dépendants s'ouvrent massivement, provoquant une entrée rapide de Na+ et une inversion du potentiel membranaire jusqu'à +20 mV.</li><li><strong>Phase 1 : Repolarisation initiale brève.</strong> Les canaux Na+ s'inactivent et des canaux potassiques transitoires (I<sub>to</sub>) s'ouvrent, entraînant une sortie brève de K+.</li><li><strong>Phase 2 : Plateau.</strong> Cette phase longue est caractéristique du myocyte cardiaque. Elle est due à un équilibre entre un courant entrant de calcium (Ca2+) via les canaux calciques de type L (lents) et un courant sortant de K+ via les canaux potassiques rectifiants retardés (I<sub>K</sub>). L'entrée de Ca2+ est cruciale pour le couplage excitation-contraction.</li><li><strong>Phase 3 : Repolarisation rapide.</strong> Les canaux Ca2+ se ferment tandis que les canaux K+ rectifiants retardés restent ouverts, entraînant une sortie massive de K+ qui repolarise la cellule et la ramène vers son potentiel de repos.</li><li><strong>Phase 4 : Potentiel de repos.</strong> Le potentiel de membrane est stable à -90 mV, maintenu par la pompe Na+/K+-ATPase et les courants K+ entrants (I<sub>K1</sub>).</li></ul><p>La longue durée du PA (200-300 ms), notamment la phase de plateau, crée une <em>période réfractaire absolue</em> pendant laquelle la cellule ne peut pas être ré-excitée, protégeant ainsi le cœur contre la tétanisation et les arythmies de réentrée.</p>"
+    },
+    {
+      "title": "Automatisme et Potentiel d'Action des Cellules Nodales",
+      "content": "<p>Contrairement aux myocytes contractiles, les cellules du tissu nodal (nœud sinusal, nœud atrio-ventriculaire) possèdent la capacité d'automatisme : elles peuvent se dépolariser spontanément et générer un potentiel d'action sans stimulation externe.</p><h4>Caractéristiques du PA Nodal (Nœud Sinusal) :</h4><ul><li><strong>Potentiel de repos instable :</strong> Il n'y a pas de véritable potentiel de repos. Le potentiel diastolique maximal est d'environ -60 mV.</li><li><strong>Phase 4 : Dépolarisation diastolique lente (potentiel pacemaker).</strong> C'est la clé de l'automatisme. Elle est due à un courant entrant de Na+ appelé 'Funny Current' (I<sub>f</sub>), qui s'active à l'hyperpolarisation, ainsi qu'à une entrée de Ca2+ via les canaux de type T (transitoires).</li><li><strong>Phase 0 : Dépolarisation lente.</strong> Elle est principalement médiée par l'ouverture des canaux calciques de type L (lents), et non par les canaux sodiques rapides. La pente est donc moins abrupte que dans les myocytes.</li><li><strong>Phases 1 et 2 absentes :</strong> Il n'y a pas de repolarisation précoce ni de plateau distinct.</li><li><strong>Phase 3 : Repolarisation.</strong> Elle est due à l'ouverture des canaux potassiques (I<sub>K</sub>), comme dans les myocytes.</li></ul><p>Le rythme de dépolarisation spontanée est le plus rapide au niveau du <strong>nœud sinusal</strong> (60-100 bpm), qui agit donc comme le <em>pacemaker principal</em> du cœur. Le système nerveux autonome module ce rythme : le système sympathique l'accélère (augmentation des courants I<sub>f</sub> et I<sub>Ca</sub>) et le parasympathique le ralentit (diminution des mêmes courants et augmentation du courant K+).</p>"
+    },
+    {
+      "title": "Le Système de Conduction Cardiaque",
+      "content": "<p>Pour assurer une contraction hémodynamiquement efficace, l'impulsion électrique doit se propager de manière coordonnée à travers le cœur. C'est le rôle du système de conduction, une séquence de tissus spécialisés.</p><ol><li><strong>Nœud Sinusal (ou sino-atrial, NSA) :</strong> Situé dans la paroi supérieure de l'atrium droit, il est le pacemaker principal et initie l'impulsion.</li><li><strong>Propagation atriale :</strong> L'impulsion se propage à travers les deux atriums, provoquant leur contraction.</li><li><strong>Nœud Atrio-Ventriculaire (NAV) :</strong> Situé à la jonction des atriums et des ventricules. Il ralentit physiologiquement la conduction de l'influx (délai AV). Ce délai est crucial car il permet aux ventricules de se remplir complètement de sang avant leur contraction.</li><li><strong>Faisceau de His :</strong> Seul passage électrique entre les atriums et les ventricules. Il se divise rapidement.</li><li><strong>Branches du faisceau :</strong> Une branche droite et une branche gauche (qui se subdivise) pour conduire rapidement l'influx vers l'apex du cœur.</li><li><strong>Réseau de Purkinje :</strong> Fibres terminales qui distribuent l'impulsion très rapidement à l'ensemble du myocarde ventriculaire, de l'endocarde vers l'épicarde, assurant une contraction ventriculaire synchronisée et puissante.</li></ol>"
+    },
+    {
+      "title": "Corrélation avec l'Électrocardiogramme (ECG)",
+      "content": "<p>L'ECG est l'enregistrement de l'activité électrique globale du cœur, captée par des électrodes à la surface du corps. Chaque deflection (onde) représente la somme des potentiels d'action de millions de cellules.</p><ul><li><strong>Onde P :</strong> Représente la <strong>dépolarisation des atriums</strong>, initiée par le nœud sinusal.</li><li><strong>Intervalle PR :</strong> Mesure le temps entre le début de la dépolarisation atriale et le début de la dépolarisation ventriculaire. Il reflète principalement le <strong>ralentissement au niveau du nœud AV</strong>.</li><li><strong>Complexe QRS :</strong> Représente la <strong>dépolarisation des ventricules</strong>. Sa morphologie fine et sa courte durée témoignent de la conduction rapide via le système His-Purkinje. La repolarisation atriale a lieu en même temps mais est masquée par le QRS.</li><li><strong>Segment ST :</strong> Période d'isoelectricité entre la fin de la dépolarisation et le début de la repolarisation ventriculaire. Il correspond à la <strong>phase 2 (plateau)</strong> du potentiel d'action ventriculaire.</li><li><strong>Onde T :</strong> Représente la <strong>repolarisation des ventricules</strong>.</li><li><strong>Intervalle QT :</strong> Mesure la durée totale de la systole électrique ventriculaire (dépolarisation + repolarisation).</li></ul>"
+    }
+  ],
+  "summaryPoints": [
+    "Le potentiel d'action du myocyte contractile se caractérise par une phase de plateau (phase 2) due à l'entrée de Ca2+, essentielle au couplage excitation-contraction et à la longue période réfractaire.",
+    "Les cellules nodales (pacemaker) possèdent un automatisme grâce à une dépolarisation diastolique lente (phase 4) médiée par le courant 'funny' (If).",
+    "Le système de conduction (nœud sinusal → nœud AV → His-Purkinje) assure une propagation séquentielle et coordonnée de l'impulsion électrique, avec un délai crucial au niveau du nœud AV.",
+    "L'ECG est une représentation graphique de l'activité électrique cardiaque : l'onde P correspond à la dépolarisation atriale, le complexe QRS à la dépolarisation ventriculaire, et l'onde T à la repolarisation ventriculaire."
+  ],
+  "bibliography": [
+    "Berne RM, Levy MN, et al. Berne & Levy Physiology. 7th ed. Elsevier, 2017.",
+    "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier, 2020.",
+    "Lilly LS. Pathophysiology of Heart Disease: A Collaborative Project of Medical Students and Faculty. 7th ed. Lippincott Williams & Wilkins, 2020."
+  ]
+}

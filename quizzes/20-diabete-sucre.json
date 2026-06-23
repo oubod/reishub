@@ -1,0 +1,1659 @@
+{
+  "lectureId": "20",
+  "number": "20",
+  "title": "Diabète sucré",
+  "partie": "J2",
+  "specialty": "Endocrinologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon la définition de l'OMS, quelles sont les caractéristiques du diabète sucré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un groupe de maladies métaboliques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est caractérisé par une hyperglycémie chronique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il résulte d'un défaut de la sécrétion d'insuline.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il résulte d'un défaut de l'action de l'insuline.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours réversible avec un traitement adapté.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète sucré est défini par l’OMS comme un groupe de maladies métaboliques, caractérisé par une hyperglycémie chronique de degré variable résultant d’un défaut de la sécrétion de l’insuline ou de l’action de l’insuline ou des deux anomalies conjuguées. Il n'est pas toujours réversible."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quelles sont les circonstances de découverte clinique d'un diabète sucré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lors de l'apparition de signes cardinaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lors de la découverte de complications chroniques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lors d'une affection intercurrente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lors d'un dépistage systématique ou ciblé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Uniquement en présence d'une cétose inaugurale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic clinique d’un diabète sucré peut se poser dans 4 circonstances : les signes cardinaux du diabète, la découverte de complications, une affection intercurrente ou lors d’un dépistage. La cétose est une urgence métabolique qui peut être inaugurale, mais pas la seule circonstance de découverte."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cardinaux du diabète sucré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthénie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome polyuropolydipsique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Amaigrissement rapide avec appétit conservé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prise de poids rapide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleurs abdominales intenses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cardinaux du diabète sont l'asthénie, le syndrome polyuropolydipsique et l'amaigrissement rapide qui contraste avec un appétit conservé."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de glycémie veineuse aléatoire qui permet de poser le diagnostic de diabète en présence de signes cardinaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "≥ 1,26 g/L (7 mmol/L).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "≥ 2 g/L (11 mmol/L).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entre 1 g/L et 1,25 g/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "≥ 1,40 g/L (7,8 mmol/L).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inférieur à 1 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "En présence de signes cardinaux, une seule glycémie veineuse aléatoire (à n’importe quel moment de la journée) ≥ 2 g/L (11 mmol/L) suffit pour poser le diagnostic."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les critères diagnostiques du prédiabète ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glycémie à jeun entre 1 g/L et 1,25 g/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Glycémie 2 heures après charge glucosée orale entre 1,4 g/L et 1,99 g/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémoglobine glyquée (HbA1c) entre 5,7% et 6,4%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glycémie à jeun supérieure ou égale à 1,26 g/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Glycémie 2 heures après charge glucosée orale supérieure ou égale à 2 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le prédiabète est défini par une glycémie à jeun entre 1 et 1,25 g/l (hyperglycémie modérée à jeun), ou une glycémie 2 heures après charge glucosée orale entre 1,4 et 1,99 g/l (intolérance au glucose), ou une hémoglobine glyquée entre 5,7 et 6,4%."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Selon la classification de l'OMS, quels sont les principaux types de diabète sucré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diabète de type 1.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diabète de type 2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diabètes spécifiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diabète gestationnel.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diabète insulinodépendant.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’OMS classe le diabète sucré en 4 types : le diabète de type 1, le diabète de type 2, les diabètes spécifiques et le diabète gestationnel. Les anciennes appellations comme 'diabète insulinodépendant' sont remplacées."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelle est la prévalence du diabète de type 1 (DT1) par rapport à l'ensemble des diabètes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 5%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 10%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Environ 20%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Environ 50%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Environ 80%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DT1 représente 10% de l’ensemble des diabètes."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux facteurs étiopathogéniques du diabète de type 1 (DT1) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une destruction auto-immune des cellules β pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une susceptibilité génétique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des facteurs environnementaux déclenchants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une insulinorésistance prédominante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un déficit de l'insulinosécrétion lié à l'âge.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DT1 est dû à une destruction auto-immune des cellules β pancréatiques, aboutissant à un déficit de l’insulinosécrétion. La réaction auto-immune survient sur un terrain génétique de susceptibilité, à la faveur de facteurs déclenchants."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les auto-anticorps dirigés contre certains antigènes pancréatiques, marqueurs du processus auto-immun dans le DT1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anticorps anti-GAD-65.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Auto-anticorps anti-insuline (IAA).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anticorps anti-IA2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anticorps Zinc transporter 8.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Anticorps anti-récepteur de l'insuline.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps produits sont essentiellement : les anticorps anti-GAD-65, les auto-anticorps anti-insuline (IAA), l’anticorps anti-IA2 et l’anticorps Zinc transporter 8. Les anticorps anti-récepteur de l'insuline sont des formes rares de diabète auto-immun spécifique."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est le principal gène de prédisposition au diabète de type 1 (DT1) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le gène de la glucokinase.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le gène codant la molécule CTLA-4.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le Complexe Majeur d’Histocompatibilité (HLA) sur le chromosome 6.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le VNTR du gène de l'insuline.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le gène TNPN12.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principal gène de prédisposition se situe sur le chromosome 6. Il est représenté par le Complexe Majeur d’Histocompatibilité, en liaison avec les antigènes de classe 2 : HLA DR3, DR4, DQB1*0201 et DQB1*0302."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs environnementaux associés au développement du diabète de type 1 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infections virales (Coxsackie B, CMV, EBV, rubéole, oreillons).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Introduction précoce de lait de vache avant 3 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le stress.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'obésité juvénile.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La consommation excessive de graisses saturées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Plusieurs germes ont été associés au DT1 (CMV, EBV, rubéole, oreillons, Coxsackie virus B). L'alimentation (lait de vache précoce), le stress et l'obésité juvénile sont également évoqués. La consommation excessive de graisses saturées est plutôt un facteur de risque du DT2."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques du diabète de type 2 (DT2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperglycémie chronique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance de la capacité du pancréas endocrine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Souvent en rapport avec un surpoids.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lié à une destruction auto-immune des cellules β.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Début brutal avec cétose fréquente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète de type 2 (DT2) est caractérisé par une hyperglycémie chronique, due à une insuffisance de la capacité du pancréas endocrine à faire face à un état d’insulinorésistance, le plus souvent en rapport avec un surpoids. La destruction auto-immune et le début brutal avec cétose sont caractéristiques du DT1."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs favorisant la survenue d'un diabète de type 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un état de prédiabète.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hérédité de diabète et de résistance à l'insuline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'un ou de plusieurs troubles du syndrome métabolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des antécédents de diabète gestationnel transitoire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une infection à Coxsackie virus B.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs favorisant la survenue d’un diabète de type 2 sont : un état de prédiabète, l’hérédité de diabète et de résistance à l’insuline, la présence d’un ou de plusieurs troubles du syndrome métabolique, des antécédents de diabète gestationnel transitoire, une prise médicamenteuse, un stress ou une maladie aiguë. L'infection à Coxsackie virus B est associée au DT1."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelles sont les deux anomalies métaboliques principales impliquées dans la physiopathologie du diabète de type 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insulinorésistance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les anomalies de l'insulinosécrétion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La destruction auto-immune des cellules β.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hyperproduction de glucagon.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La carence en vitamine D.",
+          "correct": false
+        }
+      ],
+      "explanation": "La physiopathologie du DT2 fait intervenir deux anomalies métaboliques : l’insulinorésistance et les anomalies de l’insulinosécrétion."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Qu'est-ce que l'insulinorésistance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la sensibilité à l'efficacité de l'insuline au niveau des tissus périphériques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la production de glucose à jeun au niveau du foie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du nombre de récepteurs membranaires à l'insuline.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une destruction des cellules bêta pancréatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypersécrétion d'insuline en réponse au glucose.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’insulinorésistance est définie comme une diminution de la sensibilité à l’efficacité de l’insuline au niveau des tissus périphériques pour l’utilisation du glucose. Elle se traduit au niveau des tissus cibles de l’insuline par une diminution du nombre de récepteurs membranaires à l’insuline et une augmentation de la production de glucose à jeun au niveau du foie."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "En l'absence de signes cardinaux, quels critères permettent de confirmer le diagnostic de diabète sucré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deux glycémies veineuses à jeun ≥ 1,26 g/L (7 mmol/L).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une glycémie 2 heures après HGPO ≥ 2 g/L (11,1 mmol/L).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hémoglobine glyquée (HbA1c) ≥ 6,5% (technique validée).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une seule glycémie veineuse aléatoire ≥ 2 g/L (11 mmol/L).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une glycémie capillaire aléatoire ≥ 2 g/L (11 mmol/L).",
+          "correct": false
+        }
+      ],
+      "explanation": "En l’absence de signes cardinaux, le diagnostic de diabète est posé par deux glycémies réalisées après 8 heures de jeûne calorique, supérieures ou égales à 1,26 g/L. Une glycémie 2 heures après une HGPO supérieure ou égale à 2 g/L permet de poser le diagnostic. Une HbA1c supérieure ou égale à 6,5% (avec technique validée) est également un critère. Une glycémie veineuse aléatoire ≥ 2 g/L est suffisante en présence de signes cardinaux, et une glycémie capillaire ≥ 2 g/L nécessite des examens de diagnostic de certitude mais ne pose pas le diagnostic seule."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affections pouvant modifier le taux d'hémoglobine glyquée (HbA1c) et limiter son utilisation diagnostique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carences martiales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémoglobinopathies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maladies aiguës.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les repas récents.",
+          "correct": false
+        }
+      ],
+      "explanation": "Plusieurs affections peuvent modifier le taux d'HbA1c comme les carences martiales, les hémoglobinopathies ou encore l’insuffisance rénale. Son taux n’est pas influencé par les maladies aiguës et les repas, ce qui est un avantage pour le diagnostic."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques du diabète de type 1 lent (LADA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge de survenue > 30 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence de cétose au moment du diagnostic.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anticorps anti-pancréas positifs (surtout anti-GAD65).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nécessité de recourir à l'insuline dans les 6 mois suivant le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Début brutal avec signes cardinaux intenses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic du diabète de type 1 lent est retenu en présence des quatre critères suivants : âge de survenue > 30 ans, absence de cétose au moment du diagnostic, anticorps positifs (surtout anti-GAD65, anti IA2, anti ZnT8, anti insuline…), et pas de nécessité de recourir à l’insuline dans les 6 mois suivants le diagnostic. Le début brutal est caractéristique du DT1 aigu cétosique."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies qualitatives de la cinétique de sécrétion de l'insuline observées dans le diabète de type 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disparition du pic précoce de sécrétion en réponse à un stimulus glucosé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Phase tardive conservée mais émoussée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abolition de la pulsatilité sécrétoire de l'insuline.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypersécrétion d'insuline en réponse à l'hyperglycémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation du rapport insulinémie/glycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies qualitatives de la cinétique de sécrétion de l’insuline en réponse à l’hyperglycémie incluent la disparition du pic précoce de sécrétion, une phase tardive conservée mais émoussée, et l'abolition de la pulsatilité sécrétoire de l’insuline. Il existe une élévation des concentrations plasmatiques d’insuline, mais ces concentrations sont insuffisamment élevées par rapport à la glycémie (le rapport insulinémie/glycémie est bas)."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Selon les recommandations de l'ADA 2025, chez quels adultes le dépistage du diabète de type 2 doit-il être systématique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tout adulte quel que soit son âge, présentant un surpoids ou une obésité (IMC ≥ 25 kg/m2) avec au moins un autre facteur de risque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de prédiabète.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'antécédents de diabète gestationnel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si l'âge est ≥ 35 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Uniquement chez les personnes asymptomatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dépistage du diabète de type 2 doit être systématique chez tout adulte présentant un surpoids ou une obésité avec au moins un autre facteur de risque, en cas de prédiabète, en cas d’antécédents de diabète gestationnel, et si l’âge est ≥ 35 ans. Le dépistage peut concerner des personnes asymptomatiques, mais la présence de facteurs de risque élargit la population à dépister."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du diabète de type MODY (Maturity Onset Diabetes of the Young) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survenue avant l'âge de 25 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transmission autosomique dominante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anticorps anti-pancréas négatifs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lié à une mutation d'un gène unique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Toujours asymptomatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète de type MODY est caractérisé par sa survenue précoce (âge < 25 ans), par sa transmission autosomique dominante (atteinte de trois générations successives) et l’absence de caractéristiques typiques du diabète de type 1 ou de type 2. Les anticorps anti pancréas sont négatifs. Il est lié à la mutation d’un gène unique. Le tableau clinique est très variable allant de formes asymptomatiques à des formes aiguës cétosiques."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de diabète pancréatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pancréatites aiguës et chroniques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancer du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémochromatose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mucoviscidose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Cushing.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutes les maladies qui touchent le pancréas de manière diffuse peuvent se compliquer de diabète : chirurgie pancréatique, pancréatite aiguë et chronique, mucoviscidose, hémochromatose primitive ou secondaire, cancer du pancréas. Le syndrome de Cushing est une endocrinopathie."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels médicaments peuvent induire une hyperglycémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glucocorticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œstro-progestatifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurétiques thiazidiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antipsychotiques de 2ème génération.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Inhibiteurs de l'enzyme de conversion (IEC).",
+          "correct": false
+        }
+      ],
+      "explanation": "Plusieurs médicaments peuvent induire une hyperglycémie : les glucocorticoïdes, les œstro-progestatifs, les diurétiques hypokaliémiants (thiazidiques, diurétiques de l'anse), les β bloqueurs non cardiosélectifs, le diazoxide, la phénytoïne, la pentamidine, les antipsychotiques de 2ème génération, les antirétroviraux et les anti rejets de greffe. Les IEC préviennent le diabète."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications immédiates du diabète gestationnel pour le fœtus et le nouveau-né ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Macrosomie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypoglycémie néo-natale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Détresse respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Malformations fœtales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Toxémie gravidique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’organogenèse étant déjà effectuée, il n’existe pas de risque de malformation fœtale. Le risque est principalement lié à l’hyperinsulinisme fœtal et aura pour principales conséquences, la macrosomie et les complications néo-natales (hypoglycémie sévère, détresse respiratoire). La toxémie gravidique est une complication obstétricale pour la mère."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères diagnostiques du diabète gestationnel lors d'une HGPO 75 entre 24 et 28 semaines d'aménorrhée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glycémie à jeun ≥ 0,92 g/l (5,1 mmol/l).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Glycémie à 1 heure ≥ 1,80 g/l (10,0 mmol/l).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glycémie à 2 heures ≥ 1,53 g/l (8,5 mmol/l).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glycémie à jeun entre 1 g/L et 1,25 g/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "HbA1c ≥ 6,5%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète gestationnel est retenu lorsqu’une seule de ces valeurs-seuil est franchie : Glycémie à jeun ≥ 0,92 g/l (5,1 mmol/l), Glycémie à 1 heure ≥ 1,80 g/l (10,0 mmol/l), Glycémie à 2 heures ≥ 1,53 g/l (8,5 mmol/l). Les autres options sont des critères de prédiabète ou de diabète patent hors grossesse."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs physiopathologiques de l'hyperglycémie dans l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la captation et de l'oxydation du glucose par les tissus insulinosensibles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en jeu de la néoglucogenèse hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glycogénolyse hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypersécrétion d'hormones hyperglycémiantes (glucagon, adrénaline, cortisol).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la lipolyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperglycémie est liée à trois facteurs en relation avec la carence insulinique : la diminution de la captation et de l’oxydation du glucose, la mise en jeu de la néoglucogenèse hépatique et la glycogénolyse hépatique. À la carence en insuline, s’associe une hypersécrétion d'hormones hyperglycémiantes. L'augmentation de la lipolyse est liée à la cétose."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs déclenchants de l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt de l'insulinothérapie ou erreurs de dose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infections sévères (pulmonaires, urinaires, cutanées).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Accidents cardio-vasculaires (AVC, IDM).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prise de corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypoglycémie sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs déclenchants de l'acidocétose incluent les erreurs de traitement (arrêt ou réduction de l'insuline), les infections, les accidents cardio-vasculaires (AVC, IDM), le stress physique ou psychique, la pancréatite aiguë et la prise de certains médicaments comme les corticoïdes. L'hypoglycémie est une complication métabolique distincte."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de gravité d'une céto-acidose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée de Kussmaul.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Odeur cétonique de l'haleine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Altération de l'état de conscience.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déshydratation extracellulaire et/ou intracellulaire sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Glycémie < 2,5 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une céto-acidose est jugée grave lors de la présence des signes cliniques suivants : une dyspnée de Kussmaul, une odeur cétonique de l’haleine, une altération de l’état de conscience, une déshydratation extracellulaire et/ou intracellulaire sévère. La glycémie est généralement modérée (> 2,5 g/L)."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères biologiques diagnostiques de l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glycémie > 2,5 g/L (13,75 mmol/L).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Glycosurie et cétonurie ≥ ++.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "pH < 7,3.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bicarbonates < 15 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Trou anionique plasmatique normal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères diagnostiques de l’acidocétose diabétique sont : glycémie > 2,5 g/L, glycosurie et cétonurie ≥ ++, pH < 7,3, bicarbonates < 15 mmol/L. Le trou anionique plasmatique est augmenté (> 16 mmol/l) dans l'acidocétose."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs physiopathologiques de la déshydratation dans le coma hyperosmolaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polyurie osmotique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pertes digestives (vomissements, diarrhée).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pertes sudorales (fièvre, canicule).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Manque d'apport hydrique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Carence insulinique profonde.",
+          "correct": false
+        }
+      ],
+      "explanation": "La déshydratation est la conséquence de plusieurs facteurs intriqués : la polyurie osmotique, les pertes digestives, les pertes sudorales et un manque d’apport hydrique. L'absence de cétogenèse serait expliquée par la persistance d’une sécrétion résiduelle d’insuline, insuffisante pour permettre la pénétration intracellulaire du glucose, mais suffisante pour inhiber la lipolyse, ce n'est donc pas une carence insulinique profonde comme dans l'acidocétose."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques du coma hyperosmolaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Terrain : sujet âgé, porteur d'un DT2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Développement progressif sur plusieurs jours à semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'une hyperglycémie majeure (> 6 g/L).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'acidose métabolique (pas de dyspnée de Kussmaul ni d'odeur acétonique).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cétonurie massive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le coma hyperosmolaire survient électivement chez le sujet âgé, porteur d’un DT2. Son développement est progressif. Il associe une hyperglycémie majeure (> 6 g/L) et une hyperosmolarité plasmatique (> 320 mOsm/l). Il n’y a pas d’acidose : pas de dyspnée, ni d’odeur acétonique de l’haleine. L'examen des urines objective une glycosurie massive, sans cétonurie."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'alarme neurovégétatifs de l'hypoglycémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tremblements.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Palpitations.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transpiration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anxiété.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Difficultés de concentration.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les symptômes neurovégétatifs de l'hypoglycémie incluent tremblements, palpitations, transpiration, anxiété, faim, nausées, paresthésies. Les difficultés de concentration sont des signes neuroglucopéniques."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les circonstances de survenue des hypoglycémies chez le diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jeûne (Ramadan, saut de repas).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pratique d'un effort physique imprévu.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Erreurs de technique d'injection d'insuline (dose excessive, lipodystrophie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dégradation de la fonction rénale ou insuffisance hépatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Prise d'alcool.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les circonstances de survenue des hypoglycémies sont multiples : cause diététique (jeûne, saut de repas), effort physique imprévu, erreurs d'injection d'insuline, associations médicamenteuses aux sulfamides (aspirine, IEC, fibrates, alcool), dégradation de la fonction rénale ou insuffisance hépatique, insuffisance endocrinienne, malabsorption."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une hypoglycémie prolongée et non traitée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Souffrance cérébrale et séquelles neurologiques irréversibles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du seuil de perception des symptômes d'alerte adrénergique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Accidents cardiovasculaires (IDM, AVC, mort subite).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Encéphalopathie hypoglycémique (comitialité, déclin cognitif).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperglycémie réactionnelle (rebond hyperglycémique).",
+          "correct": true
+        }
+      ],
+      "explanation": "La prolongation de la neuroglucopénie corticale peut laisser des séquelles cérébrales irréversibles. La récidive des hypoglycémies graves est responsable d’une encéphalopathie hypoglycémique. Le principal risque des hypoglycémies répétées est l’abaissement du seuil de la contre-régulation aboutissant à l’absence de perception des symptômes d’alerte adrénergique. Des manifestations cardio-vasculaires ont été documentées. Le rebond hyperglycémique est une conséquence des hypoglycémies fréquentes."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention de l'hypoglycémie chez le patient diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respecter les apports glucidiques au cours des repas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adapter le traitement en cas d'activité physique ou sportive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contrôler la glycémie capillaire avant de conduire un véhicule.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Avoir toujours sur soi 3 à 6 morceaux de sucre.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Jeûner le Ramadan sans consultation médicale préalable.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention repose sur le respect des apports glucidiques, l'adaptation du traitement en cas d'activité physique (collation, diminution d'insuline), le contrôle de la glycémie avant de conduire, la reconnaissance des signes et les moyens de resucrage. Le jeûne du Ramadan est interdit aux diabétiques de type 1 et aux femmes enceintes diabétiques, et nécessite une consultation médicale préalable pour les autres."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes biologiques de gravité d'une céto-acidose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "pH < 7.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Taux de bicarbonates < 10 mmol/l.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Trou anionique > 16 mmol/l.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance rénale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperglycémie > 2,5 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une céto-acidose est jugée grave lors de la présence des signes biologiques suivants : un pH < 7, un taux de bicarbonates < 10 mmol/l, un trou anionique > 16 mmol/l, une insuffisance rénale aiguë et une dyskaliémie. L'hyperglycémie > 2,5 g/L est un critère diagnostique mais pas nécessairement de gravité sévère à elle seule."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Concernant la réhydratation dans le traitement de l'acidocétose diabétique, quelles sont les recommandations ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le déficit hydrique est d'environ 10% du poids corporel sur 24 heures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La moitié du déficit hydrique doit être restaurée au cours des 8 premières heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sérum salé à 9‰ est le principal soluté de réhydratation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dès que la glycémie s'abaisse en dessous de 2,5 g/L, le sérum salé est remplacé par du sérum glucosé à 5%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les solutions hypotoniques et un débit trop rapide sont à privilégier pour une correction rapide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le déficit hydrique est d’environ 10% du poids corporel (soit 6 à 8 litres en 24 heures). La moitié de ce déficit est à restaurer au cours des 8 premières heures. La réhydratation repose principalement sur le sérum salé à 9‰. Dès que la glycémie s’abaisse en dessous de 2,5 g/L, le sérum salé est remplacé par du sérum glucosé à 5%, enrichi en NaCl. Il faut éviter les solutions hypotoniques et le débit trop rapide en raison du risque d'œdème cérébral."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la perfusion de bicarbonates dans l'acidocétose diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique pour corriger l'acidose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est réservée aux acidoses sévères (pH < 7,1).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle doit être faite en début de perfusion, parallèlement au soluté de remplissage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle risque d'aggraver l'hypokaliémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est contre-indiquée en présence d'une insuffisance rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La perfusion de bicarbonates est remise en question car elle risque d’aggraver l’hypokaliémie. En pratique, elle reste réservée aux acidoses sévères (si pH < 7,1) et se fera en début de perfusion, parallèlement au soluté de remplissage."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de la neuropathie diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La durée du diabète.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le mauvais équilibre du diabète.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'âge (> 50 ans).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le sexe masculin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La grande taille.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les deux principaux facteurs sont la durée du diabète et le mauvais équilibre du diabète. D’autres facteurs de susceptibilité individuelle interviennent également : l’âge, le sexe masculin, la grande taille, un tabagisme ou un alcoolisme associés, des facteurs nutritionnels et l’hérédité."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations de la neuropathie autonome gastro-intestinale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastroparésie (pesanteur épigastrique, nausées, vomissements).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Achlorydrie gastrique favorisant la pullulation microbienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diarrhée motrice (hydrique, fécale, indolore, impérieuse).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Constipation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleurs abdominales intenses et aiguës.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastroparésie est le plus souvent asymptomatique, mais peut se traduire par des troubles digestifs post prandiaux. L’achlorydrie gastrique peut favoriser la pullulation microbienne. La diarrhée motrice est hydrique, fécale, indolore, impérieuse, et peut s'accompagner d'incontinence anale. L'évolution se fait par poussées suivies d'un retour du transit à la normale ou fréquemment d'une constipation."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications de la rétinopathie diabétique proliférante sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie prérétinienne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémorragie intra-vitréenne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Décollement de la rétine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prolifération de néovaisseaux sur l'iris (rubéose irienne).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Glaucome néo-vasculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La rétinopathie proliférante compliquée peut entraîner une hémorragie prérétinienne, intra-vitréenne, un décollement de la rétine, une prolifération de néovaisseaux sur l’iris (rubéose irienne) et dans l’angle irido-cornéen (glaucome néo-vasculaire)."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications d'une biopsie rénale en cas de néphropathie diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de rétinopathie diabétique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aggravation rapide de la fonction rénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hématurie d'origine non diabétique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signes extra-rénaux orientant vers une maladie systémique autre que le diabète.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Micro-albuminurie isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La biopsie rénale est indiquée en cas d'absence de rétinopathie diabétique, d'aggravation rapide de la fonction rénale, d'hématurie d’origine non diabétique ou de signes extra-rénaux orientant vers une maladie systémique ou générale autre que le diabète. La micro-albuminurie isolée ne justifie pas une biopsie rénale."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications des biguanides (metformine) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale (clairance de la créatinine < 30 ml/mn).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance hépato-cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypoxie sévère (insuffisance respiratoire chronique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédents d'acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Grossesse.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les biguanides sont formellement contre-indiqués en cas d’insuffisance rénale (clairance de la créatinine inférieure à 30 ml/mn), d’insuffisance hépatique, d’insuffisance cardiaque ou respiratoire (hypoxie sévère), d’alcoolisme, d’antécédents d’acidose lactique et de grossesse."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les précautions à prendre concernant l'utilisation des biguanides (metformine) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interruption au moins 48 heures avant une anesthésie générale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Interruption au moins 48 heures avant un examen radiologique avec produit de contraste iodé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Interruption immédiate lors de la survenue inopinée d'une agression aiguë (IDM, infection sévère).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réduction de la dose si clairance de la créatinine entre 45 et 60 ml/mn.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Poursuite du traitement en cas de jeune prolongé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les biguanides doivent être interrompus au moins 48 heures avant une anesthésie générale ou une intervention chirurgicale ou un examen radiologique avec un produit de contraste iodé. Ils doivent être interrompus immédiatement lors de la survenue inopinée d’une agression aiguë. La dose est réduite si la clairance de la créatinine est entre 45 et 60 ml/mn. Le jeune prolongé est un facteur favorisant l'acidose lactique, donc la metformine doit être interrompue."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets secondaires des inhibiteurs de la SGLT-2 (gliflozines) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infections génitales et urinaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Acidocétoses euglycémiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte osseuse (pour canagliflozine et dapagliflozine).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque accru d'amputations.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypoglycémies fréquentes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets secondaires incluent les infections génitales et urinaires, des cas d’acidocétoses euglycémiques, une atteinte osseuse pour la canagliflozine et la dapagliflozine, et un risque accru d’amputations. Ces médicaments ont un mécanisme d’action indépendant de l’insuline et ne causent pas d’hypoglycémies."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'insulinothérapie dans le diabète de type 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intolérance ou contre-indications aux antidiabétiques oraux (ADO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Échappement aux ADO (insulinorequérance).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infections sévères.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Neuropathie hyperalgique ou artériopathie compliquée (gangrène).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Interventions chirurgicales.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’insulinothérapie dans le diabète de type 2 est indiquée en cas d’intolérance ou de contre-indications aux ADO, d’échappement aux ADO (insulinorequérance), d'infections sévères, de neuropathie hyperalgique ou artériopathie compliquée, d'interventions chirurgicales, de contre-indications transitoires à un traitement antidiabétique oral, de mise en route d’un traitement hyperglycémiant ou de complications aiguës vasculaires."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs glycémiques stricts recommandés pour une patiente diabétique en période de grossesse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HbA1c < 6%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fructosamine normale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glycémies < 0,95 g/l avant les repas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glycémies < 1,20 g/l en post prandial.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Glycémies entre 0,80 et 1,30 g/l avant les repas.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pendant la grossesse, les objectifs sont stricts : HbA1c < 6% et fructosamine normale, glycémies < 0,95 g/l avant les repas, glycémies < 1,20 g/l en post prandial. Les glycémies entre 0,80 et 1,30 g/l avant les repas sont des objectifs pour la majorité des DT1, mais pas pour la grossesse."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes impliqués dans les lésions du pied diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Neuropathie (perte de sensibilité, déficit moteur, atteinte végétative).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ischémie résultant de l'artériopathie des membres inférieurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection (souvent polymicrobienne, de diffusion rapide).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperglycémie chronique isolée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Traumatismes mineurs non perçus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Trois mécanismes, diversement associés, peuvent être impliqués : la neuropathie (perte de sensibilité, déficit moteur, atteinte végétative), l'ischémie résultant de l'artériopathie des membres inférieurs et l'infection (souvent polymicrobienne et de diffusion rapide). Les traumatismes mineurs sont des facteurs déclenchants, non des mécanismes pathogéniques intrinsèques."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les conseils à donner à un patient diabétique pour la protection de ses pieds ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspecter chaque jour ses pieds, au besoin à l'aide d'un miroir.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Se laver chaque jour les pieds à l'eau tiède et au savon, bien sécher entre les orteils.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Appliquer une crème hydratante neutre en cas de peau sèche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Porter des chaussettes en fibres naturelles, changées tous les jours.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Couper les ongles très courts pour éviter les blessures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut inspecter chaque jour ses pieds, se laver chaque jour les pieds à l'eau tiède et au savon en séchant bien entre les orteils, appliquer une crème hydratante en cas de peau sèche, poncer les zones d'hyperkératose avec une pierre-ponce, et porter des chaussettes en fibres naturelles. Il ne faut pas couper les ongles trop courts, mais les limer."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs thérapeutiques personnalisés pour un patient diabétique de type 2 âgé, compliqué et/ou avec une atteinte vasculaire avérée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HbA1c à 7,5% voire 8%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Glycémie à jeun ≤ 1,5 g/l.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glycémie post prandiale ≤ 2 g/l.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "HbA1c à 6,5%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Glycémie post prandiale ≤ 1,6 g/l.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lorsque le diabète est ancien chez un patient compliqué et/ou une atteinte vasculaire avérée et/ou un risque hypoglycémique important et/ou âgé, l’objectif doit être allégé avec une HbA1c à 7,5 voire 8%, ce qui correspond à une glycémie à jeun ≤ 1,5 g/l et une glycémie post prandiale ≤ 2 g/l. L'objectif d'HbA1c à 6,5% et une glycémie post prandiale ≤ 1,6 g/l sont pour les patients jeunes, indemnes et non compliqués."
+    }
+  ]
+}

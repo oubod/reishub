@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-26",
+  "title": "Rectocolite hémorragique",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la prévalence de la maladie de Crohn et de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/1000 pour la maladie de Crohn et 1/500 pour la rectocolite hémorragique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1/500 pour les deux pathologies",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "1/1000 pour les deux pathologies",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "1/2000 pour la maladie de Crohn et 1/1000 pour la rectocolite hémorragique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique une prévalence de 1/1000 pour la maladie de Crohn et également 1/1000 pour la rectocolite hémorragique."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel facteur de risque est reconnu pour la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'appendicectomie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le tabagisme actif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une alimentation riche en fibres",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'absence d'antécédents familiaux",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tabagisme actif est un facteur de risque reconnu pour la maladie de Crohn. L'appendicectomie est un facteur protecteur pour la rectocolite hémorragique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les phases d'évolution de l'atteinte digestive dans la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inflammatoire, ulcéreuse et cicatricielle",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inflammatoire, sténosante et perforante",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aiguë, chronique et récidivante",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Superficielle, profonde et transmurale",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Crohn évolue en 3 phases : inflammatoire, sténosante et perforante."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est un signe évocateur de la maladie de Crohn selon le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur abdominale expliquée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diarrhée aiguë de courte durée",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une lésion proctologique atypique ou récidivante",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une constipation chronique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne qu'une lésion proctologique atypique/récidivante est évocatrice de la maladie de Crohn, tout comme une diarrhée prolongée ou une douleur abdominale inexpliquée."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type d'atteinte histologique caractéristique de la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte muqueuse superficielle",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atteinte transmurale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte séreuse isolée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Atteinte uniquement des villosités",
+          "correct": false
+        }
+      ],
+      "explanation": "L'histologie de la maladie de Crohn est caractérisée par une atteinte trans-murale (pan-colite)."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen est toujours atteint en cas de rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'iléon terminal",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le caecum",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le rectum",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'estomac",
+          "correct": false
+        }
+      ],
+      "explanation": "La rectocolite hémorragique est une maladie inflammatoire chronique du côlon atteignant constamment le rectum."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est un facteur protecteur reconnu pour la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le tabagisme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les antécédents familiaux",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La mutation du gène CARD15-NOD2",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La consommation d'AINS",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tabac et l'appendicectomie sont des facteurs protecteurs pour la rectocolite hémorragique."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique de l'atteinte macroscopique de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions discontinues avec intervalles de muqueuse saine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atteinte continue, commençant dès la jonction anorectale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ulcérations profondes et fissures",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sténoses et fistules fréquentes",
+          "correct": false
+        }
+      ],
+      "explanation": "La macroscopie de la rectocolite hémorragique montre une atteinte continue, qui commence dès la jonction anorectale et s'étend plus ou moins loin, s'interrompant de façon brusque."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement de première intention pour les poussées de rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les analogues de purine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les corticoïdes systémiques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le 5-ASA par voie orale ou locale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les anti-TNFα",
+          "correct": false
+        }
+      ],
+      "explanation": "Le 5-ASA (dérivés 5-amino-salicylés) par voie orale ou locale est le traitement de première intention pour les poussées de rectocolite hémorragique."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal du traitement d'entretien dans la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Induire une poussée inflammatoire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Maintenir une rémission profonde, durable et sans corticoïdes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Accélérer l'évolution vers la chirurgie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traiter uniquement les symptômes",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement d'entretien dans la maladie de Crohn vise le maintien d'une rémission profonde, durable et sans corticoïdes."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est un signe clinique digestif fréquent de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur abdominale isolée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diarrhée prolongée, surtout hémorragique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des lésions ano-périnéales",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome de Köenig",
+          "correct": false
+        }
+      ],
+      "explanation": "La diarrhée prolongée, surtout hémorragique, est un signe clinique digestif de la rectocolite hémorragique."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale caractéristique endoscopique de la colite microscopique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des ulcérations profondes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une muqueuse d'aspect normal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des sténoses multiples",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des pseudo-polypes cicatriciels",
+          "correct": false
+        }
+      ],
+      "explanation": "La colite microscopique se caractérise par un aspect endoscopique muqueux normal malgré une diarrhée chronique."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est un critère de poussée sévère de rectocolite hémorragique selon Truelove-Witts ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 4 évacuations par 24h",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Température inférieure à 37,5°C",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémoglobine supérieure ou égale à 10,5 g/dl",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 6 évacuations par 24h",
+          "correct": true
+        }
+      ],
+      "explanation": "Une poussée sévère de RCH est définie par au moins 6 évacuations par 24h, des rectorragies importantes, une température ≥ 37,5°C, une fréquence cardiaque ≥ 90 bpm, une hémoglobine < 10,5 g/dl et une VS ≥ 30."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement chirurgical de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une résection segmentaire de l'intestin grêle",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une colectomie partielle",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une colo-proctectomie totale avec reconstruction par anastomose iléo-anale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une appendicectomie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical de la RCH est la colo-proctectomie totale avec reconstruction par anastomose iléo-anale avec réservoir."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est une complication fréquente de la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cholangite sclérosante primitive isolée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'occlusion sur sténose inflammatoire ou fibreuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La colite microscopique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'anémie hémolytique auto-immune",
+          "correct": false
+        }
+      ],
+      "explanation": "L'occlusion sur sténose inflammatoire ou fibreuse est une complication de la maladie de Crohn."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes extra-digestifs communs à la maladie de Crohn et à la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthénie et amaigrissement",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Retard de croissance chez l'enfant",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte articulaire de type spondylarthropathie axiale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anémie hémolytique auto-immune",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthénie, l'amaigrissement, le retard de croissance ou pubertaire, l'anémie, le syndrome inflammatoire, ainsi que les atteintes articulaires, oculaires et cutanées sont identiques entre Crohn et RCH. L'anémie hémolytique auto-immune est spécifiquement mentionnée pour la RCH."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des lésions macroscopiques de la maladie de Crohn à l'endoscopie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions continues avec perte du réseau vasculaire muqueux",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ulcérations aphtoïdes, superficielles ou profondes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Intervalle de muqueuse saine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fissures, fistules et sténoses",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lésions macroscopiques de la maladie de Crohn sont discontinues avec intervalles de muqueuse saine. Elles incluent des ulcérations (aphtoïdes, superficielles ou profondes), et peuvent évoluer vers des fissures, fistules et sténoses."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments biologiques qui peuvent orienter vers une maladie de Crohn ou une rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du taux fécal de calprotectine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence d'ASCA",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'ANCA",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypo-albuminémie",
+          "correct": true
+        }
+      ],
+      "explanation": "L'augmentation du taux fécal de calprotectine indique une inflammation digestive. Les ASCA sont positifs dans 50% des Crohn et 5% des RCH. Les ANCA sont positifs dans 20% des Crohn et 70% des RCH. L'hypo-albuminémie est un signe d'inflammation (EPS)."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la chirurgie dans la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de complication mécanique comme une perforation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour prévenir les récidives",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de sténose symptomatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de fistule symptomatique",
+          "correct": true
+        }
+      ],
+      "explanation": "La chirurgie est indiquée en cas de complication mécanique (perforation, sténose ou fistule symptomatique). Elle n'empêche pas les récidives."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de diarrhée chez un patient atteint de MICI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une poussée inflammatoire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une surinfection à Clostridium difficile",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une malabsorption due à un grêle court",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise d'AINS",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes de diarrhée chez une MICI incluent une poussée inflammatoire, une infection (colonisation chronique, surinfection à C. difficile ou CMV), des causes anatomiques (grêle court, malabsorption, fistule interne) et iatrogènes (AINS, antibiothérapie)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'atteinte iléale distale à l'entéro-scanner ou entéro-IRM dans la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épaississement des parois avec ulcérations",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperhémie des mésos (signe du peigne)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésions diffuses et symétriques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Épaississement de la graisse mésentérique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lésions sont caractérisées par un épaississement des parois avec ulcérations, une hyperhémie des mésos (signe du peigne), un épaississement de la graisse mésentérique et parfois des ADP de voisinage. Elles sont segmentaires et asymétriques, non diffuses et symétriques."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments histologiques caractéristiques de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte transmurale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bifurcation et distorsion glandulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infiltrat lympho-plasmocytaire du chorion",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Granulome épithélioïde et giganto-cellulaire",
+          "correct": false
+        }
+      ],
+      "explanation": "L'histologie de la RCH montre une atteinte muqueuse superficielle avec bifurcation et distorsion glandulaire, infiltrat lympho-plasmocytaire du chorion et plasmocytose basale. L'atteinte transmurale et les granulomes sont caractéristiques de la maladie de Crohn."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie digestive basse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Colectasie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Perforation avec péritonite stercorale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Adénocarcinome en zone affectée",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications de la RCH incluent l'hémorragie digestive basse, la colectasie (méga-côlon toxique), la perforation (péritonite stercorale), les accidents thrombo-emboliques et le risque augmenté de cancer colorectal."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de cancer colorectal chez un patient atteint de rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une atteinte étendue et ancienne (> 10 ans)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cholangite sclérosante associée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une proctite isolée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un traitement par 5-ASA",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de cancer colorectal dans la RCH sont une atteinte étendue et ancienne (> 10 ans) et une cholangite sclérosante associée."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements d'entretien possibles pour la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le 5-ASA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les analogues de purine (azathioprine, 6-mercaptopurine)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les corticoïdes systémiques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les anticorps anti-TNFα",
+          "correct": true
+        }
+      ],
+      "explanation": "Le 5-ASA est suffisant chez 50% des malades. Les analogues de purine et/ou les anticorps anti-TNFα sont utilisés en seconde intention. Les corticoïdes sont pour les poussées sévères."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la colo-proctectomie totale dans la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échec du traitement médical en cas de colite aiguë grave",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Forme chronique réfractaire au traitement médical",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésion pré-néoplasique ou cancer colorectal",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prévention des récidives",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de la chirurgie sont l'échec du traitement médical (colectomie de sauvetage en cas de colite aiguë grave, chirurgie programmée en cas de forme chronique réfractaire) et les lésions pré-néoplasiques ou cancer colorectal. La chirurgie ne protège pas des récidives dans la maladie de Crohn, mais il est dit 'Aucune récidive après chirurgie' pour la RCH, ce qui est une distinction importante."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la colite microscopique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée chronique souvent abondante",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aspect endoscopique muqueux normal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Terrain : femme de moins de 30 ans",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Associée à des maladies auto-immunes dans 50% des cas",
+          "correct": true
+        }
+      ],
+      "explanation": "La colite microscopique se manifeste par une diarrhée chronique souvent abondante avec un aspect endoscopique muqueux normal. Elle touche plus souvent les femmes de plus de 50 ans et est associée à une maladie auto-immune dans 50% des cas."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les types histologiques de la colite microscopique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Colite granulomateuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Colite lymphocytaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Colite collagène",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Colite ulcéreuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe deux types histologiques de colite microscopique : la colite lymphocytaire et la colite collagène."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui différencient la maladie de Crohn de la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'intervalles de muqueuse saine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'atteinte rectale constante",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La présence de granulomes épithélioïdes à l'histologie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La positivité des ANCA",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Crohn présente des intervalles de muqueuse saine et des granulomes épithélioïdes (30% des cas), tandis que la RCH a une atteinte continue et jamais de granulomes. L'atteinte rectale est constante dans la RCH mais présente dans seulement 25% des cas de Crohn. Les ANCA sont souvent positifs dans la RCH (70%) et négatifs dans la maladie de Crohn (20%)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements des poussées de maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corticoïdes locaux (budésonide) pour poussée modérée iléale terminale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Corticoïdes systémiques (1 mg/kg) pour poussée sévère",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traitement nutritionnel (alimentation entérale ou parentérale exclusive)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "5-ASA en première intention",
+          "correct": false
+        }
+      ],
+      "explanation": "Les corticoïdes locaux (budésonide) sont en 1ère intention pour poussée modérée de topographie iléale terminale ou iléo-colique. Les corticoïdes systémiques sont d'emblée si poussée sévère ou non accessible aux corticoïdes locaux. Le traitement nutritionnel est également une option. Le 5-ASA n'est pas mentionné comme traitement des poussées de Crohn."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan pré-thérapeutique à réaliser avant un traitement pour MICI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "β-hCG",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activité et génotype TPMT",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bilan anti-TNFα",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Coproculture systématique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan pré-thérapeutique inclut β-hCG, l'activité et le génotype TPMT (pour l'azathioprine ou 6-mercaptopurine) et le bilan anti-TNFα. La coproculture est un examen diagnostique général, pas spécifiquement pré-thérapeutique."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'érythème noueux dans la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éruption douloureuse bilatérale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Papules surélevées et nodules érythémato-violacés",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Localisation sur les faces d'extension des bras et des jambes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Associé à une atteinte colique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'érythème noueux est une éruption douloureuse bilatérale, avec des papules surélevées, des nodules érythémato-violacés, fermes et mobiles, de quelques mm/cm, sur les faces d'extension des bras et des jambes. Le pyoderma gangrenosum est associé à une atteinte colique dans la maladie de Crohn, pas l'érythème noueux."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors du diagnostic différentiel d'une iléite aiguë isolée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection à Yersinia enterocolitica",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection à Campylobacter",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection parasitaire (Anisakis simplex)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tuberculose intestinale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'iléite aiguë isolée peut être due à une infection intestinale, notamment à Yersinia enterocolitica, plus rarement à Campylobacter, Salmonella ou parasitaire (Anisakis simplex). La tuberculose intestinale est un diagnostic différentiel plus large, mais pas spécifiquement d'une iléite aiguë isolée dans ce contexte."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les arguments en faveur d'une tuberculose intestinale lors du diagnostic différentiel d'une MICI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contexte de contage ou facteurs de risque (migrant, immunodépression)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence de nécrose caséeuse dans les granulomes à la biopsie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte principalement iléo-caecale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PCR BK sur biopsie intestinale avec une forte valeur diagnostique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le contexte (contage, FdR), la nécrose caséeuse dans les granulomes (spécifique, 50% des cas) et l'atteinte principalement iléo-caecale sont des arguments. La PCR BK a une valeur diagnostique faible sur biopsie intestinale."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées au traitement de la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sevrage total et définitif du tabac",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Traitement symptomatique incluant des AINS",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Prise en charge nutritionnelle avec consultation diététique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antidiarrhéiques en cas de poussée inflammatoire",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures associées incluent le sevrage total et définitif du tabac et une prise en charge nutritionnelle. Les AINS doivent être évités, et les antidiarrhéiques sont symptomatiques mais ne traitent pas la poussée inflammatoire elle-même."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une diarrhée persistante depuis 4 jours sous traitement symptomatique, avec des lésions iléo-coliques à l'endoscopie. Quelle est la conduite à tenir la plus appropriée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mettre en route un traitement corticoïde/immunosuppresseur immédiatement",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réaliser des biopsies en zone saine et pathologique pour explorer la diarrhée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Considérer une iléite aiguë isolée et débuter une antibiothérapie par quinolone",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Attendre 6 mois pour confirmer le diagnostic de maladie de Crohn",
+          "correct": false
+        }
+      ],
+      "explanation": "Une diarrhée persistante > 3 jours sous traitement symptomatique, avec des lésions iléo-coliques, doit être explorée par endoscopie avec biopsies en zone saine et pathologique. La mise en route à tort d'un traitement corticoïde/immunosuppresseur pour une colite infectieuse non diagnostiquée peut avoir des conséquences graves. L'antibiothérapie est pour l'iléite aiguë fébrile. Attendre 6 mois est pour l'histologie non discriminante entre infection ou Crohn."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la spondylarthropathie axiale associée à la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est corrélée aux poussées intestinales",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est non corrélée à l'évolution intestinale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle fait partie des atteintes articulaires périphériques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle peut se manifester par un hippocratisme digital",
+          "correct": false
+        }
+      ],
+      "explanation": "La spondylarthropathie axiale est une atteinte articulaire non corrélée à l'évolution intestinale. La polyarthrite périphérique est corrélée aux poussées intestinales. L'hippocratisme digital est une ostéoarthropathie hypertrophiante."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint de rectocolite hémorragique présente une anomalie du bilan hépatique. Quel examen est indiqué pour le dépistage d'une complication spécifique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une échographie hépatique simple",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une biopsie hépatique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une Bili-IRM",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une cholangiographie rétrograde endoscopique (CPRE)",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'anomalie du bilan hépatique chez un patient atteint de RCH, une Bili-IRM est indiquée pour le dépistage de la cholangite sclérosante primitive, qui est associée dans 90% des cas à une RCH."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de la colite aiguë grave dans la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 6 évacuations par 24h",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fréquence cardiaque inférieure à 90 bpm",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémoglobine inférieure à 10,5 g/dl",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VS supérieure ou égale à 30",
+          "correct": true
+        }
+      ],
+      "explanation": "La colite aiguë grave correspond à une poussée sévère de RCH, définie par ≥ 6 évacuations/24h, rectorragies importantes, température ≥ 37,5°C, fréquence cardiaque ≥ 90 bpm, hémoglobine < 10,5 g/dl et VS ≥ 30."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint de colite aiguë grave réfractaire à la corticothérapie systémique IV après 3 jours. Quelle est la conduite à tenir ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduire des analogues de purine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ajouter de la ciclosporine ou un anti-TNFα",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaliser une colectomie chirurgicale",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmenter la dose de corticoïdes IV",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'échec à 3 jours de la corticothérapie systémique IV pour une colite aiguë grave, la ciclosporine ou un anti-TNFα doit être introduit. La colectomie chirurgicale est envisagée si échec à 5 jours."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences concernant l'atteinte ano-périnéale et les ulcérations iléales entre la maladie de Crohn et la rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'atteinte ano-périnéale est fréquente dans la maladie de Crohn (50% des cas) et absente dans la RCH",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les ulcérations iléales sont présentes dans 60% des cas de maladie de Crohn et jamais dans la RCH",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'atteinte ano-périnéale est présente dans 25% des cas de RCH",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les ulcérations iléales sont fréquentes dans les deux pathologies",
+          "correct": false
+        }
+      ],
+      "explanation": "L'atteinte ano-périnéale est présente dans 50% des cas de maladie de Crohn et jamais dans la RCH. Les ulcérations iléales sont présentes dans 60% des cas de maladie de Crohn et jamais dans la RCH."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une diarrhée chronique avec un aspect endoscopique muqueux normal. L'histologie révèle une augmentation de l'épaisseur de la bande collagène sous-épithélial > 10 µm. Quel est le diagnostic le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie de Crohn",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rectocolite hémorragique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Colite lymphocytaire",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Colite collagène",
+          "correct": true
+        }
+      ],
+      "explanation": "Une muqueuse d'aspect normal à l'endoscopie avec une diarrhée chronique et une augmentation de l'épaisseur de la bande collagène sous-épithélial > 10 µm est caractéristique de la colite collagène, un type de colite microscopique."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements symptomatiques recommandés pour la diarrhée chronique dans la colite microscopique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ralentisseur du transit",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Racécadotril",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Colestyramine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Corticoïdes systémiques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements symptomatiques incluent les ralentisseurs du transit, le racécadotril et la colestyramine. Le budésonide à libération intestinale et colique peut être utilisé, mais les corticoïdes systémiques ne sont pas mentionnés comme traitement symptomatique de première ligne."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la particularité de la cholangite sclérosante primitive par rapport aux MICI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est associée dans 90% des cas à une maladie de Crohn",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est plus fréquemment associée à une rectocolite hémorragique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle n'entraîne pas de risque de cholangiocarcinome",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est une complication digestive directe des MICI",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholangite sclérosante primitive est associée dans 90% des cas à une RCH, plus rarement à un Crohn, et entraîne un risque de cholangiocarcinome et de cirrhose biliaire secondaire."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint de maladie de Crohn présente une polyarthrite périphérique. Quelle est sa particularité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est non corrélée aux poussées intestinales",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent bilatérale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est corrélée aux poussées intestinales",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est plus fréquente chez la femme",
+          "correct": false
+        }
+      ],
+      "explanation": "La polyarthrite périphérique est corrélée aux poussées intestinales, contrairement à la spondylarthropathie axiale. L'uvéite antérieure aiguë est souvent bilatérale et plus fréquente chez la femme."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments histologiques qui, s'ils sont présents, orientent fortement vers une maladie de Crohn plutôt qu'une rectocolite hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abcès cryptiques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Villosités irrégulières",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Granulome épithélioïde et giganto-cellulaire sans nécrose caséeuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plasmocytose basale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le granulome épithélioïde et giganto-cellulaire sans nécrose caséeuse est présent dans 30% des cas de Crohn et jamais dans la RCH. Les abcès cryptiques, villosités irrégulières et plasmocytose basale peuvent être présents dans les deux, mais la plasmocytose basale est plus caractéristique de la RCH."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une iléite aiguë fébrile. Quelle est la conduite à tenir initiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser une iléo-coloscopie immédiate avec biopsies",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Débuter une antibiothérapie par quinolone après coproculture et hémoculture",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mettre en place un traitement d'épreuve antituberculeux",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Attendre la persistance des symptômes pendant 6 mois pour confirmer le diagnostic",
+          "correct": false
+        }
+      ],
+      "explanation": "Devant une iléite aiguë fébrile, la CAT initiale est une antibiothérapie par quinolone après coproculture et hémoculture. L'iléo-coloscopie + biopsie est si les symptômes persistent. Le traitement d'épreuve antituberculeux est en cas de doute persistant sur une tuberculose. Attendre 6 mois est pour l'histologie non discriminante entre infection ou Crohn."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'atteinte oculaire dans la maladie de Crohn ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est plus fréquente chez la femme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est plus fréquente en cas d'atteinte colique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'uvéite antérieure aiguë est souvent bilatérale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle se manifeste principalement par une conjonctivite",
+          "correct": false
+        }
+      ],
+      "explanation": "L'atteinte oculaire (< 10%) est plus fréquente chez la femme ou en cas d'atteinte colique. L'uvéite antérieure aiguë est souvent bilatérale, et l'épisclérite est également une manifestation."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire évoquer une colite inclassée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence d'ASCA positifs et ANCA négatifs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Impossibilité de différencier la maladie de Crohn de la rectocolite hémorragique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte transmurale avec granulomes",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Atteinte continue du rectum sans intervalles sains",
+          "correct": false
+        }
+      ],
+      "explanation": "Une colite inclassée correspond à 10 à 20% des cas où le diagnostic différentiel entre maladie de Crohn et rectocolite hémorragique n'est pas possible. Les autres options sont des caractéristiques spécifiques de Crohn ou RCH."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement pour une MICI développe une diarrhée. Quels sont les éléments à considérer pour en déterminer la cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechercher une poussée inflammatoire de la MICI",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Effectuer une coproculture pour éliminer une surinfection (ex: C. difficile)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évaluer la présence d'une complication anatomique (ex: fistule interne)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vérifier la prise récente d'AINS ou d'une antibiothérapie",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces options sont des causes possibles de diarrhée chez un patient atteint de MICI et doivent être considérées : poussée inflammatoire, cause infectieuse (colonisation chronique, surinfection à C. difficile ou CMV), cause anatomique (grêle court, malabsorption, fistule interne) ou iatrogène (AINS, antibiothérapie, intolérance médicamenteuse)."
+    }
+  ]
+}

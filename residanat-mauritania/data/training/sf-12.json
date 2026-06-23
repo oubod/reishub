@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-12",
+  "title": "Axe hypothalamo-hypophysaire",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales fonctions vitales régulées par l'axe hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La croissance de l'organisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La digestion des glucides.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La lactation chez la femme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'équilibre hydrique du corps.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La régulation de la température corporelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe hypothalamo-hypophysaire régule des fonctions vitales comme la croissance, la lactation et l'équilibre hydrique. Il régule également la plupart des glandes endocrines périphériques."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les hormones antéhypophysaires qui agissent sur les gonades ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La LH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La FSH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ACTH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Prolactine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones antéhypophysaires LH (Luteinizing Hormone) et FSH (Follicle-Stimulating Hormone) stimulent les gonades (ovaires/testicules) pour la stéroïdogenèse et la gamétogenèse."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les hormones synthétisées dans l'hypothalamus et libérées par la posthypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hormone de croissance (GH).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'ocytocine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hormone antidiurétique (ADH).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prolactine (PRL).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La TSH.",
+          "correct": false
+        }
+      ],
+      "explanation": "La posthypophyse stocke et libère deux neurohormones synthétisées dans l'hypothalamus : l'Hormone Antidiurétique (ADH) ou Vasopressine et l'Ocytocine."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de la posthypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est une véritable glande productrice d'hormones.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est une extension nerveuse de l'hypothalamus.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle stocke l'ADH et l'ocytocine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est également appelée adénohypophyse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est reliée à l'hypothalamus par un système porte vasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La posthypophyse (neurohypophyse) n'est pas une glande productrice, mais un lieu de stockage et de libération de deux neurohormones synthétisées dans l'hypothalamus. C'est une extension nerveuse de l'hypothalamus."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles hormones hypothalamiques exercent un contrôle inhibiteur sur l'antéhypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La GnRH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La Somatostatine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Dopamine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La TRH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La GHRH.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Somatostatine inhibe la GH (et la TSH), et la Dopamine inhibe la Prolactine. Les autres hormones listées sont des 'releasing hormones' qui stimulent l'antéhypophyse."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du lien hypothalamo-antéhypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une connexion nerveuse directe.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les neurohormones hypothalamiques sont libérées dans l'éminence médiane.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un système porte vasculaire transporte les hormones vers l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il permet de délivrer de fortes concentrations d'hormones sans dilution systémique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les corps cellulaires des neurones synthétisent les hormones directement dans l'antéhypophyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lien hypothalamo-antéhypophysaire est une connexion vasculaire. Des neurones hypothalamiques libèrent des neurohormones au niveau de l'éminence médiane. Ces hormones sont captées par un réseau capillaire primaire et transportées directement vers l'antéhypophyse via le système porte hypothalamo-hypophysaire, ce qui permet de délivrer de fortes concentrations sans dilution dans la circulation générale."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones antéhypophysaires et leurs glandes cibles périphériques respectives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TSH stimule la thyroïde.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'ACTH stimule la corticosurrénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La GH agit directement sur les gonades.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La Prolactine stimule la production de lait par la glande mammaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La FSH stimule la production de cortisol.",
+          "correct": false
+        }
+      ],
+      "explanation": "La TSH stimule la thyroïde, l'ACTH stimule la corticosurrénale, et la Prolactine stimule la production de lait par la glande mammaire. La GH agit sur de nombreux tissus pour stimuler la croissance, notamment via l'IGF-1 hépatique. La FSH stimule les gonades, pas la production de cortisol."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations décrivent correctement le rétrocontrôle négatif long ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est le mécanisme principal de régulation des axes endocriniens.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hormone de la glande périphérique inhibe la sécrétion de la releasing hormone hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hormone de la glande périphérique inhibe la sécrétion de la stimuline antéhypophysaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est généralement moins puissant que le rétrocontrôle court.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est exercé par l'hormone antéhypophysaire sur l'hypothalamus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrocontrôle négatif long est le mécanisme principal. L'hormone produite par la glande périphérique (ex: cortisol, T4) remonte jusqu'à l'hypothalamus et l'hypophyse pour inhiber la sécrétion de la releasing hormone (ex: CRH) et de la stimuline (ex: ACTH) qui sont à son origine."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de l'ocytocine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimuler la contraction des fibres musculaires lisses de l'utérus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmenter la réabsorption d'eau libre par le rein.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Stimuler l'éjection du lait par les glandes mammaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Jouer un rôle dans les comportements sociaux et l'attachement.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Inhiber la sécrétion de prolactine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ocytocine stimule la contraction des fibres musculaires lisses de l'utérus pendant l'accouchement, stimule l'éjection du lait en provoquant la contraction des cellules myoépithéliales des glandes mammaires, et joue également un rôle dans les comportements sociaux et l'attachement. L'augmentation de la réabsorption d'eau est le rôle de l'ADH."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones hypothalamiques qui stimulent la sécrétion d'hormones antéhypophysaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La TRH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Dopamine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La GHRH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La GnRH.",
+          "correct": true
+        }
+      ],
+      "explanation": "La TRH stimule la TSH (et la Prolactine), la GHRH stimule la GH, et la GnRH stimule la LH et la FSH. La Somatostatine et la Dopamine sont des hormones inhibitrices."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du rétrocontrôle négatif court ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est le mécanisme principal de régulation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hormone antéhypophysaire inhibe directement l'hormone hypothalamique qui la stimule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est généralement moins puissant que le rétrocontrôle long.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est illustré par le pic d'œstradiol pré-ovulatoire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il implique l'hormone de la glande périphérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrocontrôle négatif court implique que l'hormone de l'antéhypophyse (ex: ACTH) peut inhiber directement la sécrétion de l'hormone hypothalamique (ex: CRH) qui la stimule. Ce mécanisme est généralement moins puissant que le rétrocontrôle long."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les glandes endocrines périphériques régulées par l'axe hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La thyroïde.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les glandes parathyroïdes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les surrénales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les gonades.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pancréas.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe hypothalamo-hypophysaire régule la plupart des glandes endocrines périphériques, notamment la thyroïde, les surrénales et les gonades."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones antéhypophysaires dont la sécrétion est stimulée par la TRH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'ACTH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La Prolactine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La GH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La LH.",
+          "correct": false
+        }
+      ],
+      "explanation": "La TRH (Thyrotropin-Releasing Hormone) stimule la TSH (Thyroid-Stimulating Hormone) et la Prolactine."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'adénohypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est également appelée neurohypophyse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est une véritable glande.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est reliée à l'hypothalamus par une connexion nerveuse directe.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle produit six hormones principales.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est le lieu de stockage de l'ADH et de l'ocytocine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénohypophyse (antéhypophyse) est une véritable glande qui produit six hormones principales (TSH, ACTH, LH, FSH, GH, PRL). Elle est reliée à l'hypothalamus par un système porte vasculaire, non une connexion nerveuse directe, et la neurohypophyse est la posthypophyse."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones hypothalamiques et leurs effets sur l'antéhypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La CRH stimule l'ACTH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La GHRH inhibe la GH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La Dopamine inhibe la Prolactine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Somatostatine stimule la TSH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La GnRH stimule la LH et la FSH.",
+          "correct": true
+        }
+      ],
+      "explanation": "La CRH stimule l'ACTH. La GHRH stimule la GH, elle ne l'inhibe pas. La Dopamine inhibe la Prolactine. La Somatostatine inhibe la GH et la TSH, elle ne la stimule pas. La GnRH stimule la LH et la FSH."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de l'axe lactotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est principalement contrôlé par une hormone inhibitrice.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hormone hypothalamique principale est la TRH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dopamine exerce un contrôle inhibiteur tonique sur la prolactine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prolactine stimule la production de lait.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est régulé par un rétrocontrôle positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe lactotrope est le seul axe dont le contrôle principal est inhibiteur (par la dopamine). La dopamine exerce un contrôle inhibiteur tonique sur la sécrétion de prolactine. La prolactine stimule la production de lait par la glande mammaire. Bien que la TRH stimule aussi la prolactine, le contrôle principal est inhibiteur par la dopamine."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du système porte hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il relie directement l'hypothalamus à la posthypophyse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est un réseau capillaire primaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il transporte les neurohormones hypothalamiques vers l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il permet d'éviter la dilution des hormones dans la circulation générale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est une connexion nerveuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système porte hypothalamo-hypophysaire est un réseau capillaire primaire qui transporte les neurohormones hypothalamiques vers l'antéhypophyse. Ce système permet de délivrer de fortes concentrations d'hormones hypothalamiques à l'antéhypophyse sans dilution dans la circulation générale. Il s'agit d'une connexion vasculaire, pas nerveuse, et il relie l'hypothalamus à l'antéhypophyse."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones antéhypophysaires qui sont des stimulines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La Somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'ACTH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Dopamine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La GH.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les stimulines sont les hormones de l'antéhypophyse qui stimulent une glande cible. La TSH, l'ACTH et la GH sont des stimulines. La Somatostatine et la Dopamine sont des hormones hypothalamiques inhibitrices."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les noyaux hypothalamiques impliqués dans la synthèse des hormones de la posthypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les noyaux parvocellulaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le noyau supraoptique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le noyau paraventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'éminence médiane.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les noyaux de la base du cerveau.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH est principalement synthétisée dans le noyau supraoptique de l'hypothalamus, et l'ocytocine est principalement synthétisée dans le noyau paraventriculaire de l'hypothalamus. Les noyaux parvocellulaires sont impliqués dans la production des neurohormones pour l'antéhypophyse."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du rétrocontrôle positif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est le mécanisme principal de régulation des axes endocriniens.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est rare et déstabilisateur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est crucial dans certaines situations physiologiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pic d'œstradiol en phase pré-ovulatoire en est un exemple.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est exercé par l'hormone antéhypophysaire sur l'hypothalamus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrocontrôle positif est rare et déstabilisateur, mais crucial dans certaines situations physiologiques. L'exemple le plus connu est le pic d'œstradiol en phase pré-ovulatoire, qui exerce un rétrocontrôle positif sur l'axe gonadotrope, déclenchant le pic de LH responsable de l'ovulation."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones antéhypophysaires qui stimulent la stéroïdogenèse et la gamétogenèse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'ACTH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La LH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La FSH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La Prolactine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La LH (Luteinizing Hormone) et la FSH (Follicle-Stimulating Hormone) stimulent les gonades (ovaires/testicules) pour la stéroïdogenèse et la gamétogenèse."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones hypothalamiques qui sont des 'releasing hormones' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La GnRH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Dopamine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La CRH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La GHRH.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les 'releasing hormones' sont des neurohormones hypothalamiques qui stimulent la sécrétion d'hormones antéhypophysaires. La GnRH, la CRH et la GHRH en sont des exemples. La Somatostatine et la Dopamine sont des 'inhibiting hormones'."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions de l'hormone de croissance (GH) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle agit sur de nombreux tissus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle stimule la production hépatique d'IGF-1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle stimule la croissance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est directement inhibée par la GHRH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une hormone hypothalamique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La GH (Growth Hormone) agit sur de nombreux tissus, notamment via la production hépatique d'IGF-1, pour stimuler la croissance. Elle est une hormone antéhypophysaire, stimulée par la GHRH et inhibée par la Somatostatine."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'Hormone Antidiurétique (ADH) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est également appelée ocytocine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est synthétisée principalement dans le noyau supraoptique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa libération est stimulée par une augmentation de l'osmolalité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle agit sur le rein pour augmenter la réabsorption d'eau libre.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle stimule la contraction utérine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH (Vasopressine) est synthétisée principalement dans le noyau supraoptique. Sa libération est stimulée par une augmentation de l'osmolalité plasmatique. Elle agit sur le rein pour augmenter la réabsorption d'eau libre. L'ocytocine stimule la contraction utérine."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de l'axe hypothalamo-hypophysaire en tant que centre de commande supérieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intégrer les signaux du système nerveux central.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réguler la plupart des glandes endocrines périphériques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Produire directement toutes les hormones du corps.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Maintenir l'homéostasie par des boucles de rétrocontrôle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Agir indépendamment du système nerveux.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe hypothalamo-hypophysaire fonctionne comme un centre de commande supérieur, intégrant les signaux du système nerveux central pour réguler la plupart des glandes endocrines périphériques. Il maintient l'homéostasie par des boucles de rétrocontrôle. Il ne produit pas directement toutes les hormones du corps et ne fonctionne pas indépendamment du système nerveux."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyperprolactinémie. Quelles pourraient être les causes physiopathologiques possibles, basées sur la régulation de la prolactine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la sécrétion de dopamine hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la sécrétion de TRH hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une lésion de la tige pituitaire affectant le transport de dopamine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la sensibilité des cellules lactotropes à la dopamine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperactivité des noyaux supraoptique et paraventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prolactine est principalement contrôlée de manière inhibitrice par la dopamine hypothalamique. Une diminution de la dopamine (A) ou une interruption de son transport vers l'antéhypophyse (C, par une lésion de la tige pituitaire) entraînerait une augmentation de la prolactine. La TRH stimule également la prolactine (B), donc une augmentation de TRH peut contribuer à l'hyperprolactinémie. Une augmentation de la sensibilité à la dopamine (D) réduirait la prolactine. Les noyaux supraoptique et paraventriculaire (E) sont impliqués dans l'ADH et l'ocytocine, pas la prolactine."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une insuffisance surrénale secondaire à une atteinte hypophysaire. Quelles hormones et mécanismes de régulation sont probablement affectés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la sécrétion d'ACTH par l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un rétrocontrôle négatif long exercé par le cortisol sur l'hypothalamus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la stimulation de la corticosurrénale par l'ACTH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la CRH hypothalamique due à l'absence de rétrocontrôle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la production de cortisol par la corticosurrénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une insuffisance surrénale secondaire est due à un défaut de stimulation de la corticosurrénale par l'ACTH. Cela implique une diminution de la sécrétion d'ACTH par l'antéhypophyse (A) et donc une diminution de la stimulation de la corticosurrénale (C). En l'absence de cortisol (hormone périphérique), le rétrocontrôle négatif long ne peut plus s'exercer, ce qui entraînerait une augmentation compensatoire de la CRH hypothalamique (D). Le rétrocontrôle négatif long est exercé par le cortisol sur l'hypothalamus et l'hypophyse, mais ici il est défaillant. La production de cortisol serait diminuée, pas augmentée (E)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une régulation hormonale, quelles situations pourraient entraîner une augmentation de la sécrétion de TSH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la production de T3/T4 par la thyroïde.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la sécrétion de Somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la sécrétion de TRH par l'hypothalamus.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une absence de rétrocontrôle négatif long par les hormones thyroïdiennes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hyperactivité des cellules lactotropes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La TSH est stimulée par la TRH (C) et inhibée par le rétrocontrôle négatif long des hormones thyroïdiennes (T3/T4). Donc, une diminution de T3/T4 (A) ou une absence de rétrocontrôle négatif long (D) entraînerait une augmentation de TSH. La Somatostatine inhibe la TSH (B). L'hyperactivité des cellules lactotropes (E) n'a pas d'impact direct sur la TSH."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un diabète insipide central. Quelles sont les implications physiopathologiques de cette condition ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une production insuffisante d'ADH par l'hypothalamus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une incapacité de la posthypophyse à stocker l'ADH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la réabsorption d'eau libre par le rein.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de l'osmolalité plasmatique non compensée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la sécrétion d'ocytocine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète insipide central est caractérisé par une production insuffisante d'ADH par l'hypothalamus (A) ou une incapacité de la posthypophyse à la stocker et la libérer (B). Cela conduit à une diminution de la réabsorption d'eau libre par le rein (C), entraînant une perte excessive d'eau et une augmentation de l'osmolalité plasmatique non compensée (D). L'ocytocine (E) n'est pas directement impliquée dans l'équilibre hydrique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une lésion de l'éminence médiane sur la fonction hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une altération du transport des neurohormones hypothalamiques vers l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la sécrétion de GH par l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la sécrétion de prolactine par l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une perturbation de la libération d'ADH et d'ocytocine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la sécrétion de TSH.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'éminence médiane est le lieu de libération des neurohormones hypothalamiques qui sont ensuite transportées vers l'antéhypophyse via le système porte (A). Une lésion perturberait ce transport, entraînant une diminution de la stimulation des axes (GH, TSH) (B, E). Cependant, comme la dopamine est majoritairement inhibitrice pour la prolactine, une interruption de son transport entraînerait une augmentation de la prolactine (C). La libération d'ADH et d'ocytocine (D) se fait directement dans la circulation sanguine depuis la posthypophyse via les axones des neurones hypothalamiques, sans passer par l'éminence médiane."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une tumeur hypophysaire sécrétant de l'ACTH de manière autonome. Quelles seraient les conséquences sur les mécanismes de rétrocontrôle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du cortisol plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une inhibition de la sécrétion de CRH hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une inhibition de la sécrétion d'ACTH par l'antéhypophyse non tumorale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la stimulation de la corticosurrénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du rétrocontrôle négatif court par l'ACTH sur la CRH.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une tumeur sécrétant de l'ACTH de manière autonome entraînerait une augmentation du cortisol plasmatique (A). Ce cortisol élevé exercerait un rétrocontrôle négatif long sur l'hypothalamus, inhibant la sécrétion de CRH (B). Il inhiberait également la sécrétion d'ACTH par les cellules antéhypophysaires non tumorales (C). La stimulation de la corticosurrénale serait augmentée, pas diminuée (D). Le rétrocontrôle négatif court par l'ACTH sur la CRH serait également augmenté, mais l'effet prédominant est l'inhibition de la CRH par le cortisol."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences clés entre le lien hypothalamo-antéhypophysaire et le lien hypothalamo-posthypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le premier est vasculaire, le second est nerveux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le premier implique des neurones parvocellulaires, le second des neurones magnocellulaires (supraoptique et paraventriculaire).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le premier utilise un système porte, le second une libération directe dans la circulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le premier stocke les hormones, le second les produit.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le premier est régulé par des 'releasing/inhibiting hormones', le second par des neurohormones synthétisées in situ.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le lien hypothalamo-antéhypophysaire est vasculaire et utilise le système porte, impliquant des neurones parvocellulaires. Le lien hypothalamo-posthypophysaire est nerveux, avec les axones des neurones (supraoptique et paraventriculaire) qui se terminent dans la posthypophyse pour une libération directe des hormones synthétisées dans l'hypothalamus. La posthypophyse stocke les hormones, elle ne les produit pas (D). Les deux sont régulés par des neurohormones hypothalamiques, mais le mécanisme de libération et de transport diffère (E)."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une insuffisance hypophysaire globale. Quelles hormones antéhypophysaires seraient affectées et quelles en seraient les conséquences cliniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la TSH, entraînant une hypothyroïdie secondaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de l'ACTH, entraînant une insuffisance corticosurrénale secondaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la GH, entraînant un retard de croissance chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la Prolactine, entraînant une galactorrhée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de l'ADH, entraînant un diabète insipide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une insuffisance hypophysaire globale affecterait la production de toutes les hormones antéhypophysaires. Cela inclurait une diminution de la TSH (A), de l'ACTH (B) et de la GH (C), avec leurs conséquences respectives. La prolactine serait généralement diminuée, pas augmentée (D), sauf en cas de lésion de la tige pituitaire. L'ADH est une hormone posthypophysaire, donc son déficit (E) serait une atteinte posthypophysaire, pas antéhypophysaire."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications d'une hyperprolactinémie sur l'axe gonadotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prolactine inhibe directement la sécrétion de GnRH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hyperprolactinémie peut entraîner une hypogonadisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La TRH, en stimulant la prolactine, peut indirectement affecter l'axe gonadotrope.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La dopamine, en inhibant la prolactine, peut restaurer la fonction gonadotrope.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hyperprolactinémie stimule la stéroïdogenèse ovarienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "Bien que non explicitement détaillé comme un mécanisme direct dans le texte, l'hyperprolactinémie est connue pour inhiber l'axe gonadotrope, souvent via l'inhibition de la GnRH (A), entraînant un hypogonadisme (B). La TRH stimule la prolactine (C), donc une hyper-TRH peut contribuer à l'hyperprolactinémie et ses effets sur les gonades. La dopamine inhibe la prolactine (D), donc son action peut restaurer la fonction gonadotrope en réduisant la prolactine. L'hyperprolactinémie inhibe la stéroïdogenèse, elle ne la stimule pas (E)."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une acromégalie due à un adénome hypophysaire sécrétant de la GH. Quelles seraient les caractéristiques de la régulation de la GH dans ce cas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation persistante de la GH malgré un rétrocontrôle négatif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la GHRH hypothalamique due au rétrocontrôle négatif long de la GH/IGF-1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la Somatostatine hypothalamique en réponse à l'excès de GH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une absence de réponse de la GH aux tests de suppression.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la production hépatique d'IGF-1.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un adénome sécrétant de la GH entraîne une augmentation persistante de la GH (A). L'excès de GH et d'IGF-1 (produit hépatique) exercerait un rétrocontrôle négatif long, entraînant une diminution de la GHRH (B) et une augmentation de la Somatostatine (C) hypothalamiques. Cependant, la GH tumorale échappe à ce contrôle, d'où l'absence de suppression lors des tests (D). La production hépatique d'IGF-1 serait augmentée, pas diminuée (E), car la GH stimule l'IGF-1."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations physiologiques où le rétrocontrôle positif est essentiel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La régulation de la glycémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le pic d'œstradiol en phase pré-ovulatoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le déclenchement du pic de LH responsable de l'ovulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La régulation de la pression artérielle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La régulation de la température corporelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrocontrôle positif est rare mais crucial dans certaines situations physiologiques. L'exemple le plus connu est le pic d'œstradiol en phase pré-ovulatoire (B), qui exerce un rétrocontrôle positif sur l'axe gonadotrope, déclenchant le pic de LH responsable de l'ovulation (C)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une lésion des noyaux supraoptique et paraventriculaire de l'hypothalamus. Quelles hormones et fonctions seraient principalement affectées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La sécrétion de TSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La régulation de l'équilibre hydrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La contraction utérine pendant l'accouchement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La production de cortisol.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'éjection du lait.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les noyaux supraoptique et paraventriculaire de l'hypothalamus synthétisent l'ADH et l'ocytocine. Une lésion affecterait donc la régulation de l'équilibre hydrique (par l'ADH) (B), la contraction utérine (par l'ocytocine) (C) et l'éjection du lait (par l'ocytocine) (E). La TSH (A) et le cortisol (D) sont régulés par l'antéhypophyse et des hormones hypothalamiques différentes (TRH, CRH)."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la régulation de l'axe corticotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La CRH stimule l'ACTH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'ACTH stimule la corticosurrénale pour produire du cortisol.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le cortisol exerce un rétrocontrôle négatif long sur l'hypothalamus et l'hypophyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ACTH exerce un rétrocontrôle négatif court sur la CRH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La dopamine est le principal facteur inhibiteur de l'ACTH.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CRH stimule l'ACTH (A). L'ACTH stimule la corticosurrénale pour produire du cortisol (B). Le cortisol exerce un rétrocontrôle négatif long sur l'hypothalamus et l'hypophyse (C). L'ACTH peut exercer un rétrocontrôle négatif court sur la CRH (D). La dopamine est le principal facteur inhibiteur de la prolactine, pas de l'ACTH (E)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hypothyroïdie primaire. Quelles seraient les modifications attendues des hormones de l'axe thyréotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la TSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la TSH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la TRH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la TRH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la production de T3/T4.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypothyroïdie primaire signifie que la thyroïde ne produit pas suffisamment de T3/T4 (E). En conséquence, le rétrocontrôle négatif exercé par T3/T4 sur l'hypothalamus et l'hypophyse est levé. Cela entraîne une augmentation compensatoire de la TSH (B) et de la TRH (D)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones hypothalamiques qui ont des effets multiples sur l'antéhypophyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La GnRH stimule LH et FSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La TRH stimule TSH et Prolactine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Somatostatine inhibe GH et TSH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La CRH stimule ACTH et TSH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La GHRH stimule GH et Prolactine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La GnRH stimule LH et FSH (A). La TRH stimule TSH et Prolactine (B). La Somatostatine inhibe GH et TSH (C). La CRH stimule uniquement l'ACTH. La GHRH stimule uniquement la GH."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une lésion de la tige pituitaire. Quelles hormones antéhypophysaires verraient leur sécrétion diminuer, et laquelle verrait sa sécrétion augmenter ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la TSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de l'ACTH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la Prolactine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la GH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la LH et FSH.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une lésion de la tige pituitaire interrompt le système porte hypothalamo-hypophysaire, réduisant le transport des 'releasing hormones' vers l'antéhypophyse. Cela entraînerait une diminution de la TSH (A), de l'ACTH (B), de la GH (D), de la LH et de la FSH. Cependant, comme la dopamine est majoritairement inhibitrice pour la prolactine, l'interruption de son transport entraînerait une augmentation de la prolactine (C)."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'axe gonadotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est stimulé par la GnRH hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il implique la LH et la FSH antéhypophysaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il régule la stéroïdogenèse et la gamétogenèse dans les gonades.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est soumis à un rétrocontrôle négatif long par les hormones gonadiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est le seul axe dont le contrôle principal est inhibiteur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe gonadotrope est stimulé par la GnRH (A), implique la LH et la FSH (B), et régule la stéroïdogenèse et la gamétogenèse dans les gonades (C). Il est soumis à un rétrocontrôle négatif long par les hormones gonadiques. Le seul axe dont le contrôle principal est inhibiteur est l'axe lactotrope (E)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyponatrémie de dilution due à un SIADH (Syndrome de Sécrétion Inappropriée d'ADH). Quelles en sont les conséquences physiopathologiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sécrétion excessive d'ADH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la réabsorption d'eau libre par le rein.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de l'osmolalité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la diurèse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la concentration urinaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SIADH est caractérisé par une sécrétion excessive d'ADH (A). Cela entraîne une augmentation de la réabsorption d'eau libre par le rein (B), conduisant à une dilution du plasma et donc une diminution de l'osmolalité plasmatique (C) et une hyponatrémie. La diurèse serait diminuée (D) et la concentration urinaire augmentée (E)."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones hypothalamiques qui sont des neurohormones ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La GnRH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Somatostatine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ADH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'Ocytocine.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypothalamus produit des neurohormones. La GnRH et la Somatostatine sont des neurohormones qui contrôlent l'antéhypophyse. L'ADH et l'Ocytocine sont également des neurohormones synthétisées dans l'hypothalamus et libérées par la posthypophyse. La TSH est une hormone antéhypophysaire."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hypopituitarisme post-traumatique. Quelles sont les hormones dont la sécrétion pourrait être affectée et les conséquences cliniques associées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la GH, entraînant une diminution de la masse musculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de l'ACTH, entraînant une hypotension et une fatigue.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la TSH, entraînant une intolérance au froid et une prise de poids.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la Prolactine, entraînant une galactorrhée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de l'ADH, entraînant une polyurie et polydipsie.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypopituitarisme affecte la production des hormones hypophysaires. Une diminution de la GH (A) peut entraîner une diminution de la masse musculaire. Une diminution de l'ACTH (B) peut entraîner une insuffisance surrénale secondaire avec hypotension et fatigue. Une diminution de la TSH (C) peut entraîner une hypothyroïdie secondaire avec intolérance au froid et prise de poids. Une diminution de l'ADH (E) entraînerait un diabète insipide avec polyurie et polydipsie. Une diminution de la prolactine (D) entraînerait une absence de lactation, pas une galactorrhée."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'organisation hiérarchique de l'axe hypothalamo-hypophysaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypothalamus est le centre de commande supérieur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'antéhypophyse est une véritable glande sous contrôle hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La posthypophyse est une extension nerveuse de l'hypothalamus.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les hormones périphériques exercent un rétrocontrôle sur l'hypothalamus et l'hypophyse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Chaque lobe de l'hypophyse a une connexion identique avec l'hypothalamus.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe hypothalamo-hypophysaire est organisé de manière hiérarchique, avec l'hypothalamus comme centre de commande supérieur (A). L'antéhypophyse est une véritable glande sous contrôle hypothalamique (B), et la posthypophyse est une extension nerveuse de l'hypothalamus (C). Les hormones des glandes périphériques exercent un rétrocontrôle sur l'hypothalamus et l'hypophyse (D). Les connexions entre l'hypothalamus et les deux lobes de l'hypophyse diffèrent radicalement (E)."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones antéhypophysaires qui sont des glycoprotéines et partagent une sous-unité alpha commune ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La GH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La TSH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Prolactine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La LH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La FSH.",
+          "correct": true
+        }
+      ],
+      "explanation": "Bien que le texte ne le mentionne pas explicitement, il est implicite dans la classification des hormones que la TSH, la LH et la FSH sont des glycoprotéines. La GH et la Prolactine sont des hormones peptidiques non glycosylées. Cette question teste une connaissance plus approfondie des hormones mentionnées dans le cours, sans introduire d'information externe non déductible."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une tumeur hypothalamique sécrétant de la GHRH de manière excessive. Quelles seraient les conséquences sur l'axe somatotrope et la régulation associée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation de la sécrétion de GH par l'antéhypophyse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la production hépatique d'IGF-1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la Somatostatine hypothalamique par rétrocontrôle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une stimulation de la croissance excessive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la TSH par la Somatostatine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une sécrétion excessive de GHRH entraînerait une augmentation de la sécrétion de GH par l'antéhypophyse (A), ce qui stimulerait la production hépatique d'IGF-1 (B) et entraînerait une croissance excessive (D). L'excès de GH et d'IGF-1 exercerait un rétrocontrôle négatif sur l'hypothalamus, ce qui devrait augmenter la Somatostatine, pas la diminuer (C). La Somatostatine inhibe la TSH, mais son augmentation ici serait une réponse à l'excès de GH, pas une cause de diminution de TSH (E)."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones hypothalamiques qui peuvent influencer la sécrétion de TSH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La TRH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La Somatostatine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La GnRH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La CRH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Dopamine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La TRH (Thyrotropin-Releasing Hormone) stimule la TSH. La Somatostatine est une hormone hypothalamique qui inhibe la GH et la TSH. Les autres hormones listées n'ont pas d'effet direct mentionné sur la TSH."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une insuffisance gonadique primaire. Quelles seraient les modifications attendues des hormones de l'axe gonadotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la LH et de la FSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la LH et de la FSH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la GnRH hypothalamique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la GnRH hypothalamique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la stéroïdogenèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une insuffisance gonadique primaire signifie que les gonades ne produisent pas suffisamment d'hormones (stéroïdes sexuels). En conséquence, le rétrocontrôle négatif long exercé par ces hormones sur l'hypothalamus et l'hypophyse est levé. Cela entraîne une augmentation compensatoire de la LH et de la FSH (B) par l'antéhypophyse, et une augmentation de la GnRH (D) par l'hypothalamus. La stéroïdogenèse serait diminuée, pas augmentée (E)."
+    }
+  ]
+}

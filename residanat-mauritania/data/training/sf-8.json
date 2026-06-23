@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-8",
+  "title": "Équilibre hydro-électrolytique",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux cations des compartiments intracellulaire et extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le potassium (K+) est le cation principal du secteur intracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le sodium (Na+) est le cation principal du secteur intracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Le sodium (Na+) est le cation principal du secteur extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le calcium (Ca2+) est le cation principal du secteur extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Le magnésium (Mg2+) est le cation principal du secteur intracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potassium (K+) est le cation principal du secteur intracellulaire, tandis que le sodium (Na+) est le cation principal du secteur extracellulaire."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles essentiels des électrolytes comme le sodium et le potassium dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Ils sont cruciaux pour la régulation de la température corporelle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Ils sont essentiels au potentiel de membrane.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Ils sont fondamentaux pour la transmission nerveuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Ils sont indispensables à la contraction musculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Ils sont les principaux constituants des os.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les électrolytes comme le sodium (Na+) et le potassium (K+) sont essentiels au potentiel de membrane, à la transmission nerveuse et à la contraction musculaire."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux mécanismes de régulation de l'osmolalité plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La soif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La sécrétion d'Hormone Anti-Diurétique (ADH).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le système rénine-angiotensine-aldostérone.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. La régulation de la glycémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. L'activité physique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'osmorégulation vise à maintenir l'osmolalité plasmatique constante en ajustant le bilan de l'eau. Les deux mécanismes clés sont la soif et la sécrétion d'Hormone Anti-Diurétique (ADH)."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de l'eau corporelle totale (ECT) et sa répartition ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'eau constitue environ 60% du poids corporel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le secteur intracellulaire (SIC) représente 1/3 de l'ECT.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Le secteur extracellulaire (SEC) représente 2/3 de l'ECT.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le secteur intracellulaire (SIC) représente environ 40% du poids corporel.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le secteur extracellulaire (SEC) représente environ 20% du poids corporel.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'eau constitue environ 60% du poids corporel. Le secteur intracellulaire (SIC) représente 2/3 de l'ECT (environ 40% du poids corporel). Le secteur extracellulaire (SEC) représente 1/3 de l'ECT (environ 20% du poids corporel)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques d'une déshydratation extracellulaire (DEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Œdèmes périphériques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Pli cutané.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Hypertension artérielle (HTA).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Tachycardie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Perte de poids.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques d'une déshydratation extracellulaire (DEC) incluent le pli cutané, l'hypotension, la tachycardie et la perte de poids."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations exactes concernant l'osmolalité et la tonicité plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'osmolalité est la concentration de toutes les particules osmotiquement actives dans une solution.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La tonicité prend en compte toutes les osmoles, y compris celles qui traversent librement la membrane.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Le sodium est le principal déterminant de l'osmolalité extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'urée contribue à la tonicité mais pas à l'osmolalité.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La tonicité est principalement déterminée par le sodium et le glucose.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'osmolalité est la concentration de toutes les particules osmotiquement actives. Le sodium est le principal déterminant de l'osmolalité extracellulaire. La tonicité ne prend en compte que les osmoles efficaces (qui ne traversent pas librement la membrane), principalement le Na+ et le glucose. L'urée contribue à l'osmolalité mais pas à la tonicité."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'Hormone Anti-Diurétique (ADH) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est synthétisée par la post-hypophyse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est libérée en réponse à une diminution de l'osmolalité plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Elle se fixe sur les récepteurs V2 du tube collecteur rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle provoque l'insertion d'aquaporines-2 à la membrane apicale des cellules.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Son action dilue le plasma et concentre les urines.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ADH est synthétisée par l'hypothalamus et libérée par la post-hypophyse en réponse à une augmentation de l'osmolalité plasmatique. Elle se fixe sur les récepteurs V2 du tube collecteur rénal, provoquant l'insertion d'aquaporines-2, ce qui augmente la perméabilité à l'eau et entraîne une réabsorption d'eau libre, diluant le plasma et concentrant les urines."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui stimulent la soif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'hypovolémie via l'angiotensine II.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'hyperosmolalité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'hyponatrémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. L'hyperhydratation extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La diminution de l'ADH.",
+          "correct": false
+        }
+      ],
+      "explanation": "La soif est stimulée par l'hyperosmolalité et par l'hypovolémie via l'angiotensine II. C'est le mécanisme de défense ultime contre la déshydratation en stimulant les apports en eau."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes clés de l'activation du Système Rénine-Angiotensine-Aldostérone (SRAA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'appareil juxtaglomérulaire libère de la rénine en réponse à une hypovolémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La rénine convertit l'angiotensine I en angiotensine II.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. L'enzyme de conversion de l'angiotensine (ECA) convertit l'angiotensinogène en angiotensine I.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. L'angiotensine II stimule la corticosurrénale qui libère l'aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'angiotensinogène est produit par le foie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le SRAA est activé par une baisse du volume extracellulaire (hypovolémie). L'appareil juxtaglomérulaire libère de la rénine. La rénine convertit l'angiotensinogène (produit par le foie) en angiotensine I. L'ECA convertit l'angiotensine I en angiotensine II. L'angiotensine II stimule la corticosurrénale qui libère l'aldostérone."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions de l'angiotensine II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. C'est un puissant vasodilatateur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elle stimule la soif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle stimule la libération d'aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle diminue la réabsorption proximale de Na+.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle stimule la libération d'ADH.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'angiotensine II est un puissant vasoconstricteur, stimule la soif, stimule la libération d'aldostérone et d'ADH, et augmente la réabsorption proximale de Na+."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hyponatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est définie par une natrémie supérieure à 145 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est toujours associée à une hyperhydratation intracellulaire (HIC).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est toujours associée à une hyperosmolalité plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elle représente un excès relatif d'eau par rapport au sodium.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'évaluation clinique du volume extracellulaire (VEC) est cruciale pour son diagnostic.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hyponatrémie (< 135 mmol/L) est un excès relatif d'eau par rapport au sodium. Elle est toujours associée à une hyperhydratation intracellulaire (HIC) et à une hypo-osmolalité plasmatique. L'évaluation clinique du VEC est cruciale pour le diagnostic."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles d'une hypernatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une perte d'eau non compensée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Un apport excessif de sodium.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Un syndrome de sécrétion inappropriée d'ADH (SIADH).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une potomanie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une insuffisance cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypernatrémie (> 145 mmol/L) est un déficit en eau par rapport au sodium. La cause est soit une perte d'eau non compensée (diabète insipide, pertes insensibles), soit un apport excessif de sodium. Le SIADH, la potomanie et l'insuffisance cardiaque sont des causes d'hyponatrémie."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions de l'aldostérone dans la régulation hydro-électrolytique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle agit sur le tube contourné distal et le canal collecteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle stimule la réabsorption active de Na+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle stimule la sécrétion de K+ et H+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle diminue la réabsorption d'eau.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est libérée directement par l'appareil juxtaglomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aldostérone agit sur le tube contourné distal et le canal collecteur. Elle stimule la réabsorption active de Na+ (suivie passivement par l'eau) en échange d'une sécrétion de K+ et H+. Elle est libérée par la corticosurrénale, stimulée par l'angiotensine II."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les subdivisions du secteur extracellulaire (SEC) et leurs proportions ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le secteur interstitiel représente 75% du SEC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le secteur plasmatique représente 75% du SEC.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Le secteur interstitiel est le compartiment intravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le secteur plasmatique représente 25% du SEC.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le secteur extracellulaire représente 1/3 de l'eau corporelle totale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le secteur extracellulaire (SEC) représente 1/3 de l'eau corporelle totale. Il se subdivise en secteur interstitiel (75% du SEC, liquide entourant les cellules) et secteur plasmatique (25% du SEC, compartiment intravasculaire)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui contribuent à l'osmolalité plasmatique calculée selon la formule ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La concentration de potassium (K+).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. La concentration de sodium (Na+).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La concentration d'urée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La concentration de glucose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. La concentration de calcium (Ca2+).",
+          "correct": false
+        }
+      ],
+      "explanation": "L'osmolalité plasmatique calculée (mOsm/L) est donnée par la formule : 2 x [Na+] + [Urée] + [Glucose] (en mmol/L)."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une hypernatrémie sur les compartiments hydriques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est toujours associée à une déshydratation intracellulaire (DIC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est toujours associée à une hyperosmolalité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est un excès relatif d'eau par rapport au sodium.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elle entraîne une hyperhydratation intracellulaire (HIC).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est un déficit en eau par rapport au sodium.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypernatrémie (> 145 mmol/L) est un déficit en eau par rapport au sodium. Elle est toujours associée à une déshydratation intracellulaire (DIC) et à une hyperosmolalité."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une hyperhydratation extracellulaire (HEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Pli cutané.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Œdèmes périphériques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Perte de poids.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Prise de poids.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Hypertension artérielle (HTA).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques d'une hyperhydratation extracellulaire (HEC) incluent les œdèmes périphériques, la prise de poids et l'hypertension artérielle (HTA)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions du système rénine-angiotensine-aldostérone (SRAA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Il est le principal acteur de la volorégulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Il vise à maintenir la stabilité du volume extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Il est activé par une augmentation du volume extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Il est un système de rétention de sodium et d'eau.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Il est le principal acteur de l'osmorégulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SRAA est le principal acteur de la volorégulation, visant à maintenir la stabilité du volume extracellulaire et de la pression artérielle en ajustant le bilan du sodium. Il est activé par une baisse du volume extracellulaire (hypovolémie) et est un système de rétention de sodium et d'eau."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant la membrane cellulaire et les compartiments hydriques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La membrane cellulaire est imperméable à l'eau.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. La membrane cellulaire est perméable aux solutés.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. L'eau se déplace librement à travers les membranes cellulaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'eau se déplace pour équilibrer l'osmolalité entre le SIC et le SEC.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le sodium est le principal déterminant du volume intracellulaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La membrane cellulaire est perméable à l'eau mais pas aux solutés. L'eau se déplace librement à travers les membranes cellulaires pour équilibrer l'osmolalité entre le SIC et le SEC. Le sodium est le principal déterminant de l'osmolalité extracellulaire, et donc du volume intracellulaire."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'osmolalité plasmatique normale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est normalement comprise entre 280 et 295 mOsm/kg H2O.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est le reflet de l'hydratation intracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est régulée par le bilan du sodium.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est principalement déterminée par l'urée et le glucose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est maintenue constante par l'osmorégulation.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'osmolalité plasmatique normale est de 280-295 mOsm/kg H2O. Elle est le reflet de l'hydratation intracellulaire et est maintenue constante par l'osmorégulation, qui ajuste le bilan de l'eau."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs pédagogiques liés à l'équilibre hydro-électrolytique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Décrire la répartition de l'eau et des électrolytes dans les compartiments.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Expliquer les mécanismes de régulation de l'osmolalité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Définir et classer les troubles de l'hydratation et de la natrémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Interpréter un ionogramme sanguin et urinaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Maîtriser la chirurgie des glandes surrénales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs pédagogiques incluent la description de la répartition de l'eau et des électrolytes, l'explication des mécanismes de régulation de l'osmolalité plasmatique (ADH, soif), la description du rôle du SRAA dans la régulation du VEC, la définition et la classification des troubles de l'hydratation et de la natrémie, et l'interprétation d'un ionogramme sanguin et urinaire."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant la régulation du bilan de l'eau et du sodium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'osmorégulation ajuste le bilan de l'eau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La volorégulation ajuste le bilan du sodium.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'osmorégulation est principalement contrôlée par le SRAA.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. La volorégulation est principalement contrôlée par l'ADH et la soif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. L'équilibre hydro-électrolytique dépend de la régulation distincte de ces deux bilans.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'équilibre hydro-électrolytique dépend de la régulation distincte du bilan de l'eau (osmorégulation) et du bilan du sodium (volorégulation). L'osmorégulation est régulée par le couple soif/ADH, tandis que la volorégulation est principalement régulée par le SRAA."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels l'ADH corrige l'hyperosmolalité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle augmente la perméabilité à l'eau du tube collecteur rénal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle provoque la réabsorption d'eau libre (sans soluté).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle concentre les urines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle dilue le plasma.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Elle stimule la sécrétion de sodium.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH se fixe sur les récepteurs V2 du tube collecteur rénal, provoquant l'insertion d'aquaporines-2 et augmentant massivement la perméabilité à l'eau. Il en résulte une réabsorption d'eau libre, ce qui concentre les urines et dilue le plasma, corrigeant ainsi l'hyperosmolalité."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés de l'homéostasie du milieu intérieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le maintien d'un équilibre hydro-électrolytique stable.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La régulation indépendante du volume des compartiments (bilan du sodium).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La régulation indépendante de la concentration des compartiments (bilan de l'eau).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La production d'hormones thyroïdiennes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La régulation de la température corporelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'homéostasie du milieu intérieur repose sur le maintien d'un équilibre hydro-électrolytique stable. L'organisme contrôle indépendamment le volume des compartiments (bilan du sodium) et leur concentration (bilan de l'eau)."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'angiotensinogène et de l'ECA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'angiotensinogène est produit par le foie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'angiotensinogène est converti en angiotensine II par la rénine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. L'ECA est principalement pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'ECA convertit l'angiotensine I en angiotensine II.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'ECA est libérée par l'appareil juxtaglomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiotensinogène est produit par le foie. La rénine convertit l'angiotensinogène en angiotensine I. L'enzyme de conversion de l'angiotensine (ECA), surtout pulmonaire, convertit l'angiotensine I en angiotensine II, la molécule active."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une natrémie à 130 mmol/L. Quelles sont les étiologies possibles de cette hyponatrémie, en fonction de l'évaluation clinique du volume extracellulaire (VEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une perte de sel et d'eau avec compensation par boisson hypotonique, entraînant une hyponatrémie avec DEC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Un syndrome de sécrétion inappropriée d'ADH (SIADH), entraînant une hyponatrémie avec VEC normal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une insuffisance cardiaque, entraînant une hyponatrémie avec HEC.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Un diabète insipide, entraînant une hyponatrémie avec DIC.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une potomanie, entraînant une hyponatrémie avec HEC.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyponatrémie (< 135 mmol/L) est un excès relatif d'eau par rapport au sodium. Elle peut être associée à une DEC (pertes digestives avec compensation hypotonique), à un VEC normal (excès d'eau pure comme dans le SIADH ou la potomanie), ou à une HEC (inflation hydro-sodée avec excès d'eau prédominant comme dans l'insuffisance cardiaque ou la cirrhose). La potomanie est une cause d'hyponatrémie avec VEC normal, pas HEC. Le diabète insipide est une cause d'hypernatrémie."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une osmolalité plasmatique calculée à 310 mOsm/L. Quelles sont les conséquences physiologiques attendues et les mécanismes de régulation activés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une déshydratation intracellulaire (DIC) est attendue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La libération d'ADH par la post-hypophyse sera stimulée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La soif sera inhibée pour réduire les apports hydriques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. L'insertion d'aquaporines-2 dans le tube collecteur rénal sera augmentée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le système rénine-angiotensine-aldostérone sera activé en premier lieu.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une osmolalité plasmatique élevée (> 295 mOsm/kg H2O) indique une hyperosmolalité, qui entraîne une déshydratation intracellulaire. Cette hyperosmolalité stimule les osmorécepteurs hypothalamiques, entraînant la libération d'ADH par la post-hypophyse et l'activation de la soif. L'ADH augmente l'insertion d'aquaporines-2, favorisant la réabsorption d'eau libre. Le SRAA est principalement activé par l'hypovolémie, non par l'hyperosmolalité seule."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hypovolémie. Quels sont les mécanismes de compensation qui seront mis en jeu pour restaurer le volume extracellulaire et la pression artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'appareil juxtaglomérulaire libérera de la rénine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'angiotensine II provoquera une vasodilatation systémique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. L'aldostérone augmentera la réabsorption de sodium et d'eau au niveau rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'angiotensine II stimulera la libération d'ADH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. La soif sera stimulée via l'angiotensine II.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une hypovolémie active le SRAA. L'appareil juxtaglomérulaire libère de la rénine. L'angiotensine II, formée, est un puissant vasoconstricteur (pas vasodilatateur), stimule la soif, stimule la libération d'aldostérone et d'ADH, et augmente la réabsorption proximale de Na+. L'aldostérone augmente la réabsorption de Na+ et d'eau au niveau du tube contourné distal et du canal collecteur."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un ionogramme sanguin révèle une natrémie à 128 mmol/L, une kaliémie à 3.8 mmol/L, une urée à 5 mmol/L et une glycémie à 5.5 mmol/L. Quelles sont les conclusions possibles concernant l'osmolalité et la tonicité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'osmolalité plasmatique calculée est inférieure à la normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La tonicité plasmatique est probablement normale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. L'urée contribue à l'osmolalité mais pas à la tonicité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Cette hyponatrémie est associée à une hyperosmolalité.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Le sodium est le principal déterminant de la tonicité plasmatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Osmolalité calculée = 2 x [Na+] + [Urée] + [Glucose] = 2 x 128 + 5 + 5.5 = 256 + 5 + 5.5 = 266.5 mOsm/L. Cette valeur est inférieure à la normale (280-295 mOsm/kg H2O), indiquant une hypo-osmolalité. L'urée contribue à l'osmolalité mais pas à la tonicité car elle diffuse librement. Le sodium est le principal déterminant de la tonicité. Une hyponatrémie est associée à une hypo-osmolalité, pas une hyperosmolalité."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pli cutané persistant, une tachycardie et une perte de poids. Quels sont les troubles hydro-électrolytiques et les mécanismes physiopathologiques sous-jacents les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une déshydratation extracellulaire (DEC) due à un bilan sodé négatif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Une hyperhydratation extracellulaire (HEC) due à un bilan sodé positif.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Une hypovolémie, activant le système rénine-angiotensine-aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypernatrémie due à un déficit en eau par rapport au sodium.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une hyponatrémie avec VEC normal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pli cutané, la tachycardie et la perte de poids sont des signes cliniques de déshydratation extracellulaire (DEC), qui résulte d'un bilan sodé négatif et d'une hypovolémie. L'hypovolémie active le SRAA. Une DEC peut s'accompagner d'une hypernatrémie si la perte d'eau est prédominante ou non compensée, ou d'une hyponatrémie si la compensation se fait par boisson hypotonique. L'HEC et l'hyponatrémie avec VEC normal ne correspondent pas à ces signes cliniques."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant la régulation du volume intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le volume intracellulaire est principalement déterminé par l'osmolalité extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le sodium est le principal déterminant du volume intracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'eau se déplace librement à travers les membranes cellulaires pour équilibrer l'osmolalité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypernatrémie entraîne une hyperhydratation intracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une hyponatrémie entraîne une déshydratation intracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le volume intracellulaire est principalement déterminé par l'osmolalité extracellulaire, dont le sodium est le principal déterminant. L'eau se déplace librement à travers les membranes cellulaires pour équilibrer l'osmolalité entre le SIC et le SEC. Une hypernatrémie (hyperosmolalité) entraîne une déshydratation intracellulaire (DIC), et une hyponatrémie (hypo-osmolalité) entraîne une hyperhydratation intracellulaire (HIC)."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hypernatrémie et une polyurie. Quels diagnostics étiologiques doivent être envisagés en priorité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Diabète insipide central.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Diabète insipide néphrogénique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Potomanie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Syndrome de sécrétion inappropriée d'ADH (SIADH).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Apport excessif de sodium.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypernatrémie est un déficit en eau par rapport au sodium, causé par une perte d'eau non compensée (comme dans le diabète insipide central ou néphrogénique, qui se manifeste par une polyurie) ou un apport excessif de sodium. La potomanie et le SIADH sont des causes d'hyponatrémie."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une activation prolongée du système rénine-angiotensine-aldostérone (SRAA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Rétention de sodium et d'eau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Augmentation du volume extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Hypertension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Diminution de la soif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Vasodilatation systémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SRAA est un système de rétention de sodium et d'eau pour corriger une hypovolémie. Une activation prolongée entraîne une rétention de sodium et d'eau, une augmentation du volume extracellulaire et, par conséquent, une hypertension artérielle. L'angiotensine II stimule la soif et est un puissant vasoconstricteur."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est en état de choc hypovolémique. Quels sont les mécanismes de régulation qui seront activés pour tenter de compenser cette situation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Activation des barorécepteurs de l'artériole afférente du glomérule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Libération de rénine par l'appareil juxtaglomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Stimulation de la soif par l'angiotensine II.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Augmentation de la sécrétion d'ADH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Inhibition de la réabsorption de sodium au niveau proximal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc hypovolémique est une baisse sévère du volume extracellulaire. Cela active les barorécepteurs de l'artériole afférente du glomérule, entraînant la libération de rénine et l'activation du SRAA. L'angiotensine II stimule la soif et la libération d'ADH. L'angiotensine II augmente également la réabsorption proximale de Na+, et non l'inhibe."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences fondamentales entre l'osmolalité et la tonicité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'osmolalité inclut toutes les particules osmotiquement actives, tandis que la tonicité n'inclut que les osmoles efficaces.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'urée contribue à la tonicité mais pas à l'osmolalité.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Les osmoles efficaces ne traversent pas librement la membrane cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le sodium et le glucose sont des osmoles efficaces.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'osmolalité est le principal déterminant du volume intracellulaire, tandis que la tonicité est le principal déterminant du volume extracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'osmolalité est la concentration de toutes les particules osmotiquement actives. La tonicité ne prend en compte que les osmoles efficaces, celles qui ne traversent pas librement la membrane et créent un gradient osmotique (principalement Na+ et glucose). L'urée contribue à l'osmolalité mais pas à la tonicité car elle diffuse librement. Le sodium est le principal déterminant de l'osmolalité extracellulaire et donc du volume intracellulaire."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyponatrémie avec un VEC normal. Quelles sont les causes possibles de ce tableau clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Syndrome de sécrétion inappropriée d'ADH (SIADH).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Potomanie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Pertes digestives importantes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Insuffisance cardiaque congestive.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Diabète insipide.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyponatrémie avec VEC normal est due à un excès d'eau pure. Les exemples cités sont le SIADH et la potomanie. Les pertes digestives importantes entraînent une hyponatrémie avec DEC. L'insuffisance cardiaque congestive entraîne une hyponatrémie avec HEC. Le diabète insipide est une cause d'hypernatrémie."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels l'aldostérone contribue à la volorégulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle stimule la réabsorption active de Na+ dans le tube contourné distal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle entraîne une sécrétion de K+ et H+ en échange de Na+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle augmente directement la perméabilité à l'eau des cellules du tube collecteur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est libérée en réponse à une augmentation de l'osmolalité plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est un puissant vasoconstricteur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aldostérone agit sur le tube contourné distal et le canal collecteur. Elle stimule la réabsorption active de Na+ (suivie passivement par l'eau) en échange d'une sécrétion de K+ et H+. L'augmentation de la perméabilité à l'eau est le rôle de l'ADH. L'aldostérone est libérée en réponse à l'angiotensine II (elle-même stimulée par l'hypovolémie), et l'angiotensine II est le vasoconstricteur."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente des œdèmes périphériques, une prise de poids et une hypertension artérielle. Quelles sont les conclusions cliniques et physiopathologiques les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Hyperhydratation extracellulaire (HEC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Bilan sodé positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Déshydratation intracellulaire (DIC).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Activation du système rénine-angiotensine-aldostérone (SRAA) pour corriger une hypovolémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hyponatrémie avec HEC.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les œdèmes périphériques, la prise de poids et l'HTA sont des signes d'hyperhydratation extracellulaire (HEC), résultant d'un bilan sodé positif. Une HEC peut s'accompagner d'une hyponatrémie si l'excès d'eau est prédominant (ex: insuffisance cardiaque, cirrhose). La DIC est associée à l'hypernatrémie. Le SRAA est activé par l'hypovolémie, pas l'hypervolémie."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant la régulation de l'équilibre hydro-électrolytique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le bilan du sodium contrôle principalement le volume des compartiments.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le bilan de l'eau contrôle principalement la concentration des compartiments.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'ADH et la soif régulent l'osmolalité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le système rénine-angiotensine-aldostérone régule le volume extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Les dysnatrémies sont des troubles du bilan du sodium.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'organisme contrôle indépendamment le volume des compartiments (bilan du sodium) et leur concentration (bilan de l'eau). L'osmolalité plasmatique est régulée par le couple soif/ADH. Le volume extracellulaire (VEC) est déterminé par le stock de sodium et est régulé principalement par le SRAA. Les dysnatrémies sont des troubles du bilan de l'eau, non du sodium."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une natrémie à 150 mmol/L. Quelles sont les implications pour l'hydratation intracellulaire et les mécanismes de compensation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Il s'agit d'une hypernatrémie, indiquant un déficit en eau par rapport au sodium.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Une déshydratation intracellulaire (DIC) est présente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'osmolalité plasmatique est probablement basse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. La libération d'ADH sera stimulée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. La soif sera inhibée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une natrémie à 150 mmol/L est une hypernatrémie (> 145 mmol/L), signifiant un déficit en eau par rapport au sodium. Elle est toujours associée à une déshydratation intracellulaire (DIC) et à une hyperosmolalité plasmatique. L'hyperosmolalité stimule la libération d'ADH et la soif."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant les compartiments hydriques et leur composition ionique principale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le secteur intracellulaire (SIC) représente 2/3 de l'eau corporelle totale (ECT).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le secteur extracellulaire (SEC) représente 20% du poids corporel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le cation principal du SIC est le sodium (Na+).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le cation principal du SEC est le potassium (K+).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La membrane cellulaire est perméable à l'eau mais pas aux solutés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le secteur intracellulaire (SIC) représente 2/3 de l'ECT (environ 40% du poids corporel). Le secteur extracellulaire (SEC) représente 1/3 de l'ECT (environ 20% du poids corporel). Le cation principal du SIC est le potassium (K+), et celui du SEC est le sodium (Na+). La membrane cellulaire est perméable à l'eau mais pas aux solutés."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyponatrémie avec HEC. Quelles sont les étiologies les plus probables de ce tableau ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Cirrhose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Syndrome néphrotique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Diabète insipide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Pertes digestives.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyponatrémie avec HEC est due à une inflation hydro-sodée mais avec un excès d'eau prédominant. Les exemples cités sont l'insuffisance cardiaque et la cirrhose. Le syndrome néphrotique peut causer une HEC, mais le texte ne le mentionne pas spécifiquement comme cause d'hyponatrémie avec HEC. Le diabète insipide est une cause d'hypernatrémie, et les pertes digestives entraînent une hyponatrémie avec DEC."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles de l'angiotensine II dans la régulation de l'équilibre hydro-électrolytique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Puissant vasoconstricteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Stimule la soif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Stimule la libération d'aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Augmente la réabsorption proximale de Na+.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Inhibe la libération d'ADH.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiotensine II est un puissant vasoconstricteur, stimule la soif, stimule la libération d'aldostérone et d'ADH, et augmente la réabsorption proximale de Na+."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant la régulation de l'ADH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'ADH est synthétisée par l'hypothalamus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'ADH est libérée par la post-hypophyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La libération d'ADH est stimulée par une augmentation de l'osmolalité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Les osmorécepteurs hypothalamiques détectent les variations d'osmolalité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'ADH agit sur les récepteurs V1 pour augmenter la perméabilité à l'eau.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH est synthétisée par l'hypothalamus et libérée par la post-hypophyse en réponse à une augmentation de l'osmolalité plasmatique, détectée par des osmorécepteurs hypothalamiques. L'ADH se fixe sur les récepteurs V2 du tube collecteur rénal pour augmenter la perméabilité à l'eau."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une déshydratation extracellulaire (DEC). Quelles sont les conséquences attendues sur le bilan sodé et les signes cliniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le bilan sodé est négatif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le patient présentera des œdèmes périphériques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Une hypotension artérielle est probable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une perte de poids est un signe fréquent.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le volume extracellulaire est augmenté.",
+          "correct": false
+        }
+      ],
+      "explanation": "La déshydratation extracellulaire (DEC) est caractérisée par un bilan sodé négatif. Les signes cliniques incluent le pli cutané, l'hypotension, la tachycardie et la perte de poids. Le volume extracellulaire est diminué, et les œdèmes périphériques sont des signes d'hyperhydratation extracellulaire."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant l'interprétation d'un ionogramme dans le contexte des troubles hydro-électrolytiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une natrémie inférieure à 135 mmol/L définit une hyponatrémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Une natrémie supérieure à 145 mmol/L définit une hypernatrémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'évaluation clinique du VEC est fondamentale pour orienter le diagnostic étiologique d'une dysnatrémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'ionogramme permet de distinguer directement les troubles du bilan de l'eau des troubles du bilan du sodium.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. L'ionogramme sanguin seul est suffisant pour un diagnostic étiologique complet.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyponatrémie est définie par une natrémie < 135 mmol/L et l'hypernatrémie par une natrémie > 145 mmol/L. L'évaluation clinique du VEC (pli cutané, œdèmes) est une étape fondamentale pour orienter le diagnostic étiologique d'une dysnatrémie. L'ionogramme sanguin et urinaire, combiné à la clinique, est nécessaire pour le diagnostic étiologique, et il ne distingue pas directement les troubles du bilan de l'eau des troubles du bilan du sodium sans l'évaluation clinique."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiologiques qui contribuent à la concentration des urines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'action de l'ADH sur les récepteurs V2 du tube collecteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'insertion d'aquaporines-2 à la membrane apicale des cellules rénales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La réabsorption d'eau libre (sans soluté).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La diminution de la perméabilité à l'eau du tube collecteur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La sécrétion de rénine par l'appareil juxtaglomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La concentration des urines est le résultat de l'action de l'ADH sur les récepteurs V2 du tube collecteur rénal, qui provoque l'insertion d'aquaporines-2 à la membrane apicale des cellules, augmentant massivement la perméabilité à l'eau et entraînant la réabsorption d'eau libre (sans soluté)."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle du sodium dans l'équilibre hydro-électrolytique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le sodium est le cation principal du secteur extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le sodium est le principal déterminant de l'osmolalité extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le stock de sodium de l'organisme détermine le volume extracellulaire (VEC).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le bilan du sodium est régulé principalement par le système rénine-angiotensine-aldostérone.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le sodium est le principal déterminant de l'hydratation intracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sodium (Na+) est le cation principal du secteur extracellulaire et le principal déterminant de l'osmolalité extracellulaire, et donc du volume intracellulaire. Le stock de sodium de l'organisme détermine le volume extracellulaire (VEC), qui est régulé principalement par le système rénine-angiotensine-aldostérone."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une hypo-osmolalité plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est toujours associée à une hyperhydratation intracellulaire (HIC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est toujours associée à une hyponatrémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle stimule la libération d'ADH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elle inhibe la soif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Elle entraîne une déshydratation intracellulaire (DIC).",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypo-osmolalité plasmatique est toujours associée à une hyponatrémie et à une hyperhydratation intracellulaire (HIC). Elle inhibe la libération d'ADH et la soif pour favoriser l'élimination de l'eau et corriger la dilution. La DIC est associée à l'hyperosmolalité."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de régulation qui agissent sur le bilan de l'eau et du sodium pour maintenir l'homéostasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'ADH agit sur le bilan de l'eau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La soif agit sur le bilan de l'eau.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'aldostérone agit sur le bilan du sodium.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'angiotensine II agit sur le bilan du sodium et de l'eau.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le système rénine-angiotensine-aldostérone agit sur le bilan de l'eau uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH et la soif sont les mécanismes clés de l'osmorégulation, ajustant le bilan de l'eau. L'aldostérone agit sur le bilan du sodium en stimulant sa réabsorption. L'angiotensine II a des actions multiples, incluant la stimulation de la soif et de l'ADH (bilan de l'eau) et l'augmentation de la réabsorption proximale de Na+ (bilan du sodium). Le SRAA est un système de rétention de sodium et d'eau."
+    }
+  ]
+}

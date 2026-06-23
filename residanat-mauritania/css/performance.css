@@ -1,0 +1,339 @@
+/* Performance Optimization CSS */
+/* Add this file to improve rendering performance */
+
+/* ===== GPU ACCELERATION ===== */
+.modal-overlay,
+.sidebar,
+#loader-overlay,
+.action-card,
+.quiz-card,
+.btn {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/* ===== SMOOTH ANIMATIONS ===== */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== OPTIMIZE TRANSITIONS ===== */
+.modal-overlay,
+#sidebar-overlay {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform, opacity;
+}
+
+/* Remove will-change after transition */
+.modal-overlay:not(.active),
+#sidebar-overlay:not(.active) {
+    will-change: auto;
+}
+
+/* Sidebar transitions only on mobile */
+@media (max-width: 768px) {
+    #sidebar {
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+    }
+    
+    #sidebar:not(.active) {
+        will-change: auto;
+    }
+}
+
+/* ===== REDUCE REPAINTS ===== */
+.action-card:hover,
+.btn:hover,
+.quiz-option:hover {
+    transform: translateY(-2px) translateZ(0);
+    will-change: transform;
+}
+
+/* ===== OPTIMIZE SCROLLING ===== */
+#content-area,
+#session-view,
+.modal-box {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+/* Contain layout shifts */
+#content-area {
+    contain: layout style paint;
+}
+
+/* ===== LAZY LOADING IMAGES ===== */
+img[data-src] {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ===== OPTIMIZE FONTS ===== */
+body {
+    font-display: swap;
+    text-rendering: optimizeLegibility;
+}
+
+/* ===== REDUCE PAINT AREAS ===== */
+.quiz-card,
+.action-card,
+.analytics-card {
+    contain: layout style;
+}
+
+/* ===== OPTIMIZE SHADOWS ===== */
+.action-card,
+.quiz-card,
+.btn,
+.modal-box {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.action-card:hover,
+.quiz-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== OPTIMIZE BACKDROP BLUR ===== */
+@supports (backdrop-filter: blur(10px)) {
+    .modal-overlay {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+}
+
+/* Fallback for browsers without backdrop-filter */
+@supports not (backdrop-filter: blur(10px)) {
+    .modal-overlay {
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* ===== OPTIMIZE GRID LAYOUTS ===== */
+.dashboard-grid,
+.analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    contain: layout;
+}
+
+/* ===== REDUCE COMPLEXITY FOR MOBILE ===== */
+@media (max-width: 768px) {
+    /* Disable expensive effects on mobile */
+    .action-card:hover,
+    .btn:hover {
+        transform: none;
+    }
+    
+    /* Simplify shadows */
+    .action-card,
+    .quiz-card,
+    .btn,
+    .modal-box {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Disable backdrop blur on mobile */
+    .modal-overlay {
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* ===== OPTIMIZE LOADER ===== */
+#loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    contain: strict;
+}
+
+#loader-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ===== OPTIMIZE SPINNER ===== */
+.loader-spinner,
+.progress-spinner,
+.pdf-spinner,
+.drive-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007AFF;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    will-change: transform;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ===== OPTIMIZE PDF CANVAS ===== */
+#pdf-canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* ===== REDUCE LAYOUT SHIFTS ===== */
+.quiz-option {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.action-card {
+    min-height: 150px;
+}
+
+/* ===== OPTIMIZE BUTTON STATES ===== */
+.btn {
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+.btn:active {
+    transform: scale(0.98) translateZ(0);
+}
+
+/* ===== OPTIMIZE MODALS ===== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    contain: layout style paint;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-box {
+    transform: scale(0.9) translateZ(0);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-overlay.active .modal-box {
+    transform: scale(1) translateZ(0);
+}
+
+/* ===== OPTIMIZE SIDEBAR ===== */
+/* Only hide sidebar on mobile - desktop should show it by default */
+@media (max-width: 768px) {
+    #sidebar {
+        transform: translateX(-100%) translateZ(0);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        contain: layout style paint;
+    }
+
+    #sidebar.active {
+        transform: translateX(0) translateZ(0);
+    }
+}
+
+/* Desktop sidebar optimization */
+@media (min-width: 769px) {
+    #sidebar {
+        transform: translateZ(0);
+        contain: layout style paint;
+    }
+}
+
+/* ===== CONTENT VISIBILITY ===== */
+@supports (content-visibility: auto) {
+    .quiz-card,
+    .action-card,
+    .analytics-card {
+        content-visibility: auto;
+        contain-intrinsic-size: 200px;
+    }
+}
+
+/* ===== OPTIMIZE SCROLL PERFORMANCE ===== */
+#nav-list,
+#bookmarks-list,
+#print-quizzes-selection-list {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ===== REDUCE MOTION FOR ACCESSIBILITY ===== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ===== OPTIMIZE FOCUS STATES ===== */
+:focus-visible {
+    outline: 2px solid #007AFF;
+    outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* ===== OPTIMIZE PRINT ===== */
+@media print {
+    #sidebar,
+    #main-header,
+    .btn,
+    #loader-overlay,
+    .modal-overlay {
+        display: none !important;
+    }
+    
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}

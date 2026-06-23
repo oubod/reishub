@@ -1,0 +1,1632 @@
+{
+  "lectureId": "pm-36",
+  "title": "Paludisme",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale espèce de Plasmodium responsable des cas de paludisme d'importation en France ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasmodium vivax",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plasmodium ovale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plasmodium falciparum",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plasmodium malariae",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que Plasmodium falciparum est responsable de 80% des cas de paludisme d’importation en France."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le vecteur du paludisme chez l'homme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le moustique Aedes aegypti",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La tique Ixodes ricinus",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'anophèle femelle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le moustique Culex pipiens",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vecteur du paludisme est l'anophèle femelle, qui est hématophage et pique la nuit."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la durée minimale d'incubation pour Plasmodium falciparum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 à 15 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "7 jours",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "3 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 10 ans",
+          "correct": false
+        }
+      ],
+      "explanation": "L'incubation minimale est de 7 jours pour P. falciparum et 10 à 15 jours pour les autres espèces."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les espèces de Plasmodium pouvant entraîner des rechutes tardives par persistance d'hypnozoïtes hépatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasmodium falciparum et Plasmodium knowlesi",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plasmodium vivax et Plasmodium ovale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plasmodium malariae et Plasmodium falciparum",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plasmodium knowlesi et Plasmodium malariae",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la persistance prolongée d’hypnozoïtes (ou cryptozoïtes) pour P. vivax et P. ovale, responsables des accès de reviviscence."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal signe biologique d'orientation quasi-constant en cas de paludisme non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperéosinophilie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thrombopénie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leucocytose",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperglycémie",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombopénie est quasi-constante et d’intensité variable dans le paludisme non compliqué."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la méthode de diagnostic parasitologique la plus sensible pour le diagnostic positif du paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le frottis sanguin",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La goutte épaisse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les tests immunologiques de diagnostic rapide",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La sérologie",
+          "correct": false
+        }
+      ],
+      "explanation": "La goutte épaisse est plus sensible pour le diagnostic positif car elle permet une micro-concentration après hémolyse."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale mesure préventive contre le paludisme pour les voyageurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La vaccination systématique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La chimioprophylaxie seule",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La protection contre les piqûres d'anophèle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise d'antibiotiques à large spectre",
+          "correct": false
+        }
+      ],
+      "explanation": "La protection contre les piqûres d’anophèle est la principale mesure préventive et doit être appliquée strictement dès le coucher du soleil."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le réservoir principal du Plasmodium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les singes macaques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les oiseaux migrateurs",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Strictement humain",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les bovins",
+          "correct": false
+        }
+      ],
+      "explanation": "Le réservoir est strictement humain, à l'exception de P. knowlesi qui touche aussi le singe."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle espèce de Plasmodium est associée à une fièvre quarte bénigne avec un cycle de 78h ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasmodium falciparum",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plasmodium vivax",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plasmodium ovale",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plasmodium malariae",
+          "correct": true
+        }
+      ],
+      "explanation": "P. malariae est caractérisé par une fièvre quarte bénigne avec un cycle de 78h."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le critère de gravité neurologique le plus pertinent pour un paludisme grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céphalées isolées",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trouble de conscience (obnubilation, coma)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vertiges transitoires",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Insomnie",
+          "correct": false
+        }
+      ],
+      "explanation": "Toute défaillance neurologique, comme l'obnubilation, la confusion, la somnolence, la prostration ou un coma avec Glasgow < 11, est un critère de gravité."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel antipaludéen est contre-indiqué chez la femme enceinte pour les formes non compliquées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quinine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atovaquone-proguanil",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Méfloquine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Artémisine",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte indique que l'Artémisine est contre-indiquée chez la femme enceinte pour le paludisme non compliqué."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale zone géographique où Plasmodium falciparum est prédominant et responsable de 90% des cas mondiaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amérique du Sud",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asie du Sud-Est",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Afrique sub-saharienne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Europe",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Afrique sub-saharienne représente 90% des cas mondiaux, majoritairement à P. falciparum."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de parasitémie définissant un critère de gravité pour le paludisme à P. falciparum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parasitémie > 1%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Parasitémie > 2%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Parasitémie > 4%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Parasitémie > 0,5%",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hyperparasitémie est définie par une parasitémie > 4% comme critère de gravité."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'effet indésirable fréquent et transitoire de la quinine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie hémolytique retardée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Allongement du QT",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Cinchonisme",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phototoxicité",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cinchonisme (acouphène, vertiges, nausées, céphalées, hyperacousie, amaurose) est un effet indésirable fréquent et transitoire de la quinine."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la durée de la chimioprophylaxie après le retour d'une zone d'endémie pour l'atovaquone-proguanil ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 semaines",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "3 semaines",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "1 semaine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "2 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour l'atovaquone-proguanil, la durée de la chimioprophylaxie après le retour est de 1 semaine."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations concernant le cycle de Plasmodium chez l'homme sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cycle asexué (schizogonique) se déroule uniquement dans les érythrocytes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les sporozoïtes sont la forme infectante inoculée par l'anophèle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les hypnozoïtes sont des formes quiescentes intra-hépatiques spécifiques à P. falciparum.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les schizogonies hépatiques sont généralement asymptomatiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'éclatement des érythrocytes libère des gamétocytes et des mérozoïtes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les sporozoïtes sont bien la forme infectante. Les schizogonies hépatiques sont asymptomatiques. L'éclatement des érythrocytes libère des mérozoïtes et des gamétocytes. Le cycle asexué se déroule dans les hépatocytes puis dans les érythrocytes. Les hypnozoïtes sont spécifiques à P. vivax et P. ovale, pas P. falciparum."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de protection naturelle contre le paludisme mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le groupe sanguin O",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le trait drépanocytaire (hétérozygotie AS)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le déficit en G6PD",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le groupe Duffy négatif",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'immunité acquise après une première infection",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs érythrocytaires de protection naturelle sont le trait drépanocytaire, le déficit en G6PD et le groupe Duffy négatif. L'immunité acquise est un autre type de protection, mais pas un facteur érythrocytaire naturel."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques classiques d'un paludisme non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre par accès avec frissons et sueurs",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Splénomégalie constante et précoce",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Céphalées et myalgies",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles digestifs (nausées, vomissements, diarrhée)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ictère cutanéo-muqueux",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre par accès, les céphalées, les myalgies et les troubles digestifs sont des signes classiques. La splénomégalie est inconstante et apparaît après un certain temps d'évolution. L'ictère est un signe de gravité."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères biologiques d'orientation pour un paludisme non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperéosinophilie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thrombopénie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome inflammatoire marqué (CRP > 100)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anémie hémolytique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Leucocytose avec neutrophilie",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombopénie, le syndrome inflammatoire marqué et l'anémie hémolytique sont des signes biologiques d'orientation. La numération leucocytaire est normale ou leucopénique, sans hyperéosinophilie."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des tests immunologiques de diagnostic rapide (TDR) pour le paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils nécessitent une expertise microscopique pour l'interprétation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils détectent des antigènes comme HRP2 ou pLDH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur sensibilité est corrélée à la parasitémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils peuvent être utilisés pour le diagnostic de rechute après traitement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils permettent un diagnostic rapide sur sang total.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les TDR détectent les antigènes HRP2 et pLDH, leur sensibilité est corrélée à la parasitémie et ils permettent un diagnostic rapide sans expertise. Ils ne peuvent pas être utilisés pour le diagnostic de rechute car les antigènes peuvent persister 2 à 3 semaines."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les terrains à risque de développer une forme grave de paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enfant",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Femme enceinte",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sujet jeune et en bonne santé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sujet asplénique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sujet immunodéprimé",
+          "correct": true
+        }
+      ],
+      "explanation": "Les terrains à risque sont l'enfant, la femme enceinte, le sujet âgé, l'asplénie, l'immunodéprimé ou les comorbidités."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de gravité hématologiques ou hépatiques du paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie profonde (Hb < 7 g/dL chez l'adulte)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Thrombopénie < 50 G/L",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ictère clinique ou bilirubine > 50 µmol/L",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cytolyse hépatique > 10N",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hémoglobinurie macroscopique",
+          "correct": true
+        }
+      ],
+      "explanation": "L'anémie profonde, l'ictère et l'hémoglobinurie macroscopique sont des critères de gravité. La thrombopénie n'est pas un signe de gravité, bien qu'une thrombopénie < 50 G/L soit un critère d'hospitalisation. La cytolyse hépatique est généralement < 10N dans le paludisme non compliqué, et n'est pas listée comme critère de gravité spécifique."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de gravité rénaux ou métaboliques du paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Créatinine > 265 µmol/L",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diurèse < 400 mL/24h malgré réhydratation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperglycémie > 2,2 mmol/L",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Acidose métabolique (bicarbonates < 15 mmol/L)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperlactatémie > 5 mmol/L",
+          "correct": true
+        }
+      ],
+      "explanation": "L'insuffisance rénale (créatinine > 265 ou diurèse < 400 mL/24h), l'acidose métabolique (bicarbonates < 15 mmol/L) et l'hyperlactatémie (> 5 mmol/L) sont des critères de gravité. L'hypoglycémie (< 2,2 mmol/L) est un critère de gravité, pas l'hyperglycémie."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels antipaludéens sont des dérivés de l'artémisine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chloroquine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Artésunate",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Artéméther",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dihydroartémisine",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Quinine",
+          "correct": false
+        }
+      ],
+      "explanation": "L'artésunate, l'artéméther et la dihydroartémisine sont des dérivés de l'artémisine. La chloroquine et la quinine sont des dérivés quinoléiques."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications de la méfloquine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grossesse au 1er trimestre",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Allaitement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Enfant de moins de 15 ans ou moins de 5 kg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédent de convulsions",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Troubles psychiatriques",
+          "correct": true
+        }
+      ],
+      "explanation": "La méfloquine est contre-indiquée en cas d'allaitement, chez l'enfant < 15 ans ou < 5 kg, et en cas d'antécédent de convulsions ou de troubles psychiatriques. Elle est déconseillée en cas de pratique de plongée."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'hospitalisation pour un paludisme à P. falciparum non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parasitémie > 2%",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Thrombopénie < 50 G/L",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Créatininémie > 150 µmol/L",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de vomissements",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Terrain à risque (grossesse, enfant, asplénie)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères d'hospitalisation incluent une parasitémie > 2%, une thrombopénie < 50 G/L, une créatininémie > 150 µmol/L et un terrain à risque. L'absence de vomissements permettrait un traitement oral ambulatoire, donc n'est pas un critère d'hospitalisation."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements de première intention pour un accès palustre à P. falciparum non compliqué et sans vomissements ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quinine orale pendant 7 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dihydroartémisine-pipéraquine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arthémeter-luméfantrine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atovaquone-proguanil",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Méfloquine sur 1 jour",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements de première intention sont la dihydroartémisine-pipéraquine, l'arthémeter-luméfantrine et l'atovaquone-proguanil. La quinine et la méfloquine sont des traitements de seconde intention."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de protection contre les piqûres d'anophèle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Port de vêtements amples et couvrants",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utilisation de répulsifs cutanés (DEET)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Moustiquaire imprégnée de perméthrine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation d'insecticides domestiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Application de répulsif cutané chez le nourrisson de 3 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "Le port de vêtements couvrants, les répulsifs (DEET), les moustiquaires imprégnées et les insecticides domestiques sont des mesures de protection. Les répulsifs cutanés sont contre-indiqués chez l'enfant de moins de 6 mois."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les espèces de Plasmodium associées à une fièvre tierce ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plasmodium falciparum",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plasmodium vivax",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plasmodium ovale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plasmodium malariae",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Plasmodium knowlesi",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre tierce est classiquement associée à P. falciparum (peu marquée), P. vivax et P. ovale."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'immunité acquise contre le paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est rapide à s'établir après une première exposition.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est non stérilisante, n'empêchant pas la réplication du parasite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est définitive et protège à vie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle empêche la survenue de formes graves.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est perdue en 2 à 3 ans en zone non impaludée.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'immunité acquise est lente, non stérilisante, non définitive et empêche la survenue de formes graves. Elle est perdue en 2 à 3 ans en zone non impaludée."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'une défaillance respiratoire grave dans le paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PaO2 < 60 mmHg",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "SpO2 < 90%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Polypnée > 32/min",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Image radiologique interstitielle ou alvéolaire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "PaO2/FiO2 > 300 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de défaillance respiratoire sont PaO2 < 60 mmHg, SpO2 < 90%, polypnée > 32/min et signes radiologiques. Un PaO2/FiO2 < 300 mmHg est un critère, pas > 300 mmHg."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements associés à envisager en cas de paludisme grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apports hydro-électrolytiques modérés",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion de CGR si Hb < 7 g/dL",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antibiotiques en cas d'acidose ou de sepsis grave",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Oxygénothérapie et assistance ventilatoire si besoin",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administration systématique de corticoïdes",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements associés incluent des apports hydro-électrolytiques modérés, la transfusion de CGR si Hb < 7 g/dL, des antibiotiques si acidose ou sepsis grave, et l'oxygénothérapie/assistance ventilatoire si nécessaire. Les corticoïdes ne sont pas mentionnés comme traitement associé systématique."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions permettant un traitement ambulatoire du paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de tout signe de gravité",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Parasitémie < 2%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombopénie > 50 G/L",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Créatininémie < 150 µmol/L",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Vomissements rendant impossible un traitement oral",
+          "correct": false
+        }
+      ],
+      "explanation": "Un traitement ambulatoire est possible en l'absence de signes de gravité, avec une parasitémie < 2%, une thrombopénie > 50 G/L et une créatininémie < 150 µmol/L. La présence de vomissements rend impossible le traitement oral et nécessite une hospitalisation."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les antipaludéens contre-indiqués en cas de grossesse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Halofantrine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Doxycycline",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dérivés de l'artémisine (sauf forme grave)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Quinine",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Atovaquone-proguanil",
+          "correct": false
+        }
+      ],
+      "explanation": "L'halofantrine, la doxycycline et les dérivés de l'artémisine (sauf pour les formes graves) sont des contre-indications absolues pendant la grossesse. La quinine et l'atovaquone-proguanil sont des options pour la femme enceinte."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les zones géographiques où le risque de paludisme est considéré comme élevé en Amérique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amérique du Nord",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Amérique Centrale (P. vivax)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Amérique du Sud (notamment Guyane française hors villes)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antilles (Martinique et Guadeloupe)",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Bassin amazonien",
+          "correct": true
+        }
+      ],
+      "explanation": "Le risque est élevé en Amérique du Sud, notamment à P. falciparum (dont la Guyane française, hors villes) et dans le bassin amazonien. Le risque est faible en Amérique Centrale et nul en Amérique du Nord et aux Caraïbes."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient revient d'une zone d'endémie palustre et présente une fièvre. Il a pris correctement sa chimioprophylaxie. Quelle est la conduite à tenir ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Écarter le diagnostic de paludisme car la chimioprophylaxie est efficace à 100%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rechercher un paludisme en urgence, car la chimioprophylaxie n'élimine pas totalement le risque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Attendre 48h pour voir si la fièvre régresse spontanément.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prescrire un traitement symptomatique de la fièvre sans investigation spécifique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réaliser un frottis sanguin et une goutte épaisse en urgence.",
+          "correct": true
+        }
+      ],
+      "explanation": "Toute fièvre au décours d’un séjour en zone d’endémie palustre doit faire évoquer le diagnostic de paludisme, même si la chimioprophylaxie a été correctement prise. Le biologiste doit être averti et rendre le résultat en < 2 heures, ce qui implique de réaliser un frottis sanguin et une goutte épaisse en urgence."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un paludisme grave avec un neuro-paludisme. Quelles sont les caractéristiques cliniques possibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouble de conscience constant, de l'obnubilation au coma calme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Comitialité généralisée ou localisée, surtout chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hypotonie avec réflexes ostéo-tendineux (ROT) abolis.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Décès en 2 à 3 jours sans traitement.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Raideur et opisthotonos avec ROT vifs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trouble de conscience est constant. Le décès survient en 2 à 3 jours sans traitement. La comitialité est surtout chez l'enfant. Le trouble du tonus évolue d'une hypotonie avec ROT vifs vers une raideur, opisthotonos et ROT abolis."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est traité par quinine IV pour un paludisme grave. Quels sont les éléments de surveillance et les effets indésirables à anticiper ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance de la glycémie en raison d'un risque d'hypoglycémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Surveillance ECG pour un allongement du QT.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dosage de la quinine si voie IV ou insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque de veinite au point d'injection.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aggravation transitoire de la parasitémie dans les 24h, signe de mauvais pronostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "La quinine peut provoquer une hypoglycémie et une veinite. Un dosage est nécessaire si voie IV ou insuffisance rénale. L'allongement du QT est un EI de l'halofantrine et de l'arthémeter-luméfantrine/dihydroartémisine-pipéraquine, pas de la quinine. Une aggravation transitoire de la parasitémie dans les 24h après le début d'un traitement par quinine n'a pas de signification péjorative."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un paludisme à P. vivax avec vomissements. Quel est le traitement de première intention et quelle mesure supplémentaire doit être envisagée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chloroquine orale pendant 3 jours.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Quinine IV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Artésunate IV.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traitement des hypnozoïtes hépatiques par primaquine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Atovaquone-proguanil oral.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de vomissements pour un paludisme à P. vivax, la quinine IV est indiquée. De plus, dès le 1er accès palustre à P. vivax ou ovale, un traitement des hypnozoïtes hépatiques par primaquine doit être envisagé (sous ATU et en l'absence de déficit en G6PD)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations nécessitant une déclaration obligatoire de paludisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tout paludisme d'importation en France métropolitaine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tout paludisme autochtone en métropole.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tout paludisme d'importation dans les DOM-TOM (hors Guyane).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tout paludisme autochtone en Guyane.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tout paludisme grave à P. falciparum.",
+          "correct": false
+        }
+      ],
+      "explanation": "La déclaration obligatoire concerne tout paludisme autochtone en métropole et dans les DOM-TOM (dont la Guyane), ainsi que tout paludisme d'importation dans les DOM-TOM (hors Guyane). Le paludisme d'importation en métropole n'est pas mentionné comme déclaration obligatoire."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient doit se rendre en zone 3 de chimioprophylaxie. Quelles options de chimioprophylaxie sont possibles et quelles sont leurs durées après le retour ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chloroquine-proguanil, 4 semaines après le retour.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Atovaquone-proguanil, 1 semaine après le retour.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Doxycycline, 4 semaines après le retour.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Méfloquine, 3 semaines après le retour.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Chloroquine, 4 semaines après le retour.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le groupe 3, les options sont l'atovaquone-proguanil (1 semaine après le retour), la doxycycline (4 semaines après le retour) et la méfloquine (3 semaines après le retour). La chloroquine et la chloroquine-proguanil sont pour les groupes 1 et 2 respectivement."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un paludisme à P. falciparum avec vomissements. Quel est le traitement initial et son relai ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quinine IV en IVL ou IVSE.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Relai oral par quinine ou antipaludéen de 1ère intention dès l'arrêt des vomissements.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alternative : quinine + clindamycine IV pendant 3 jours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Artésunate IV directement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Méfloquine orale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement initial est la quinine IV. Le relai oral se fait par quinine ou antipaludéen de 1ère intention dès l'arrêt des vomissements. Une alternative est quinine + clindamycine IV pendant 3 jours. L'artésunate IV est pour les formes graves, et la méfloquine orale est une 2nde intention sans vomissements."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de Plasmodium falciparum concernant sa schizogonie érythrocytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se déroule quasi-exclusivement dans les capillaires viscéraux, notamment cérébraux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle n'atteint que les hématies jeunes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle entraîne une parasitémie généralement faible.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est responsable d'une fièvre tierce peu marquée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle ne produit pas de gamétocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La schizogonie érythrocytaire de P. falciparum se déroule quasi-exclusivement dans les capillaires viscéraux, notamment cérébraux, et atteint toutes les hématies, quelle que soit leur âge, entraînant une parasitémie élevée. Elle est responsable d'une fièvre tierce peu marquée. Elle produit bien des gamétocytes."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à surveiller après un traitement par artésunate IV ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fonction rénale uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La NFS pendant 1 mois en raison d'une hémolyse retardée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les troubles digestifs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le frottis/goutte épaisse de contrôle à J3, J7 et J28.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La température corporelle.",
+          "correct": true
+        }
+      ],
+      "explanation": "Après traitement par artésunate IV, une surveillance de la NFS pendant 1 mois est nécessaire en raison d'une hémolyse retardée. La surveillance clinique (température, troubles digestifs) et biologique (NFS, iono, créat) est générale, ainsi que les frottis/goutte épaisse de contrôle à J3, J7 et J28."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques épidémiologiques du paludisme en France ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 4000 cas d'importation par an.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "95% des cas sont contractés en Asie du Sud-Est.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "10 à 20 décès par an.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le paludisme d'aéroport est une forme fréquente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les sujets réceptifs sont principalement les jeunes enfants vivant en zone endémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La France enregistre 4000 cas d'importation/an et 10 à 20 décès/an. 95% des cas sont contractés en Afrique subsaharienne. Le paludisme d'aéroport est rare. Les sujets réceptifs incluent aussi les migrants retournant en zone d'endémie, les touristes et les expatriés."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications ou précautions d'emploi des répulsifs cutanés chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contre-indiqués avant 6 mois.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Application limitée à la plus petite surface de peau non couverte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ne pas enduire les lèvres, paupières, doigts.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ne pas appliquer sur une zone de peau lésée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Utilisation sans restriction chez l'enfant de plus de 2 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les répulsifs cutanés sont contre-indiqués avant 6 mois. L'application doit être limitée à la plus petite surface de peau non couverte, en évitant les lèvres, paupières, doigts et zones de peau lésée."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du paludisme viscéral évolutif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il touche principalement les autochtones vivant en zone impaludée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il se manifeste par une anémie et une splénomégalie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La température est généralement normale ou fébricule, avec des poussées thermiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est associé à une sérologie fortement positive.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est une complication aiguë du paludisme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le paludisme viscéral évolutif touche l'enfant ou l'adulte non prémuni, se manifeste par une anémie, une splénomégalie, une température normale ou fébricule avec poussées thermiques et un retard staturo-pondéral. La sérologie est positive. La splénomégalie palustre hyperréactive touche les autochtones et est associée à une sérologie fortement positive."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes d'action des différentes classes d'antipaludéens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les dérivés quinoléiques interfèrent avec l'utilisation de l'hémoglobine par le parasite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les dérivés de l'artémisine inhibent le métabolisme de l'acide folique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le proguanil interfère avec les fonctions mitochondriales du parasite.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'atovaquone interfère avec les fonctions mitochondriales du parasite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La doxycycline agit sur les formes hépatiques du parasite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les dérivés quinoléiques et de l'artémisine interfèrent avec l'utilisation de l'hémoglobine. Le proguanil inhibe le métabolisme de l'acide folique. L'atovaquone interfère avec les fonctions mitochondriales. La plupart des antipaludéens (sauf atovaquone-proguanil) n'agissent que sur les formes érythrocytaires."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les recommandations pour la chimioprophylaxie en cas de séjour long (> 3 mois) en zone d'endémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La chimioprophylaxie est contre-indiquée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle doit être poursuivie pendant toute la durée du séjour.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est recommandée pendant 6 mois, puis non poursuivie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un traitement de réserve est systématiquement prescrit en remplacement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La chimioprophylaxie n'est pas indispensable si le séjour est répété.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un séjour long (> 3 mois), la chimioprophylaxie est recommandée pendant 6 mois, puis non poursuivie. Un séjour court et/ou répété peut ne pas nécessiter de chimioprophylaxie sous réserve de consultation rapide en cas de fièvre."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas de doute sur l'espèce de Plasmodium lors du diagnostic, quelle est la conduite thérapeutique recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traiter comme un paludisme à P. vivax.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Traiter comme un paludisme à P. ovale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Traiter comme un paludisme à P. falciparum.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Attendre la confirmation de l'espèce avant d'initier le traitement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administrer uniquement un traitement symptomatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de doute sur le diagnostic de l’espèce, il est recommandé de traiter comme un paludisme à P. falciparum en raison de sa gravité potentielle."
+    }
+  ]
+}

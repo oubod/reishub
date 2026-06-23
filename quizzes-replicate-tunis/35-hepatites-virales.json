@@ -1,0 +1,1659 @@
+{
+  "lectureId": "35",
+  "number": "35",
+  "title": "Hépatites virales",
+  "partie": "J1",
+  "specialty": "Gastrologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une hépatite virale selon les informations fournies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une atteinte inflammatoire diffuse du foie causée par des virus hépatotropes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une infection hépatique toujours chronique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une maladie exclusivement transmise par voie sanguine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une affection dont les lésions hépatiques sont principalement dues à une toxicité virale directe.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une maladie non soumise à déclaration obligatoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatite virale est définie comme une atteinte inflammatoire diffuse du foie consécutive à une infection par des virus dont le tropisme principal est la cellule hépatique (virus hépatotropes). Les lésions sont essentiellement liées à un mécanisme immunitaire, et l'affection est à déclaration obligatoire."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Parmi les virus suivants, lesquels sont considérés comme les cinq virus principalement responsables des hépatites virales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Virus de l'hépatite A (VHA)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Virus de l'hépatite B (VHB)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Virus de l'hépatite C (VHC)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Virus de l'hépatite D (VHD)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Virus de l'hépatite E (VHE)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cinq virus principalement en cause dans les hépatites virales sont les virus des hépatites A, B, C, D et E."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quel est le mode de transmission principal du virus de l'hépatite A (VHA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie sanguine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie sexuelle",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Voie entérale (féco-orale)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Voie materno-fœtale",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contact direct avec des animaux infectés",
+          "correct": false
+        }
+      ],
+      "explanation": "La transmission du VHA se fait essentiellement par voie entérale : féco-orale, principalement par ingestion d'eaux ou d'aliments contaminés ou par contact direct (manuportage, relations sexuelles oro-anales)."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques virologiques du VHA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il appartient à la famille des Picornaviridæ.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Son génome est un ADN circulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C'est un virus enveloppé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Son cycle de multiplication est nucléaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Son génome est un ARN monocaténaire de polarité positive.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le VHA appartient à la famille des Picornaviridæ, est un virus nu (sans enveloppe) et possède un génome ARN monocaténaire de polarité positive. Son cycle de multiplication est cytoplasmique."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs de risque de l'hépatite A ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le séjour ou le voyage en régions endémiques avec des conditions d'hygiène déficientes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'absence de vaccination dans un pays où la circulation virale existe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insuffisance des mesures d'hygiène personnelles ou collectives.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le travail dans les stations d'assainissement.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La consommation de viande crue ou insuffisamment cuite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque du VHA incluent le séjour en régions endémiques, l'absence de vaccination, l'insuffisance des mesures d'hygiène et le travail dans les stations d'assainissement. La consommation de viande crue est un facteur de risque pour le VHE zoonotique."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel est le réservoir principal du virus de l'hépatite B (VHB) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Strictement humain",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Animal (porc, sanglier)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environnement (eau, sol)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Insectes vecteurs",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aliments contaminés",
+          "correct": false
+        }
+      ],
+      "explanation": "Le réservoir du VHB est strictement humain."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales voies de transmission du VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parentérale (sanguine)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sexuelle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Verticale (de la mère à l'enfant)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Féco-orale",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aérienne",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe trois modes de contamination principaux du VHB : parentérale (sanguine), sexuelle et verticale (de la mère à l’enfant)."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel marqueur sérologique est utilisé pour le diagnostic d'une hépatite A aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ac anti HVA de type IgM",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ac anti HBc de type IgG",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "ARN du VHC",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ac anti VHD",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic d'une hépatite A aiguë repose sur la détection des Ac anti HVA de type IgM."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques virologiques du VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il appartient à la famille des Hepadnaviridae.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Son génome est un ADN circulaire partiellement bicaténaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C'est un virus nu (sans enveloppe).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est caractérisé par une faible variabilité génétique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est considéré comme un virus oncogène.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le VHB appartient à la famille des Hepadnaviridae, possède un génome ADN circulaire partiellement bicaténaire, est un virus enveloppé, et est caractérisé par une grande variabilité génétique. C'est un virus oncogène."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est le marqueur d'infection par le VHB détectable dans le sérum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ac anti-HBs",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ag HBc",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ac anti-HBe",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "ADN du VHB",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Ag HBs est le marqueur d'infection par le VHB. L'Ag HBc n'est pas détectable dans le sérum."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage de guérison d'une hépatite aiguë à VHA chez un patient immunocompétent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "20%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "50%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "90%",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "99.9%",
+          "correct": true
+        }
+      ],
+      "explanation": "La guérison survient dans 99.9% des cas pour le VHA."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quels sont les virus des hépatites qui peuvent évoluer vers la chronicité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VHA",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "VHB",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VHC",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VHD",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "VHE chez l'immunocompétent",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hépatites aiguës virales B, D, C et également le E (génotype 3, immunodéprimé et transplanté d’organes) peuvent passer vers la chronicité. Le VHA ne passe pas à la chronicité."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est le principal mécanisme physiopathologique des lésions hépatocytaires dans les hépatites virales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Action cytotoxique directe du virus sur les hépatocytes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réponse immunitaire cellulaire dirigée contre les hépatocytes infectés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dépôt de complexes immuns dans le foie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Obstruction des voies biliaires par le virus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Production excessive de toxines par le virus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au cours des hépatites virales, les lésions hépatocytaires sont essentiellement la conséquence de la réponse immunitaire cellulaire. Les hépatocytes infectés exposent des antigènes viraux contre lesquels est dirigée cette réponse."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les virus des hépatites pour lesquels un vaccin est disponible en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VHA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "VHB",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VHC",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "VHD",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "VHE",
+          "correct": false
+        }
+      ],
+      "explanation": "En Tunisie, le vaccin contre le VHA est obligatoire chez le nourrisson et l'enfant, et le vaccin contre le VHB est systématique depuis 1995 pour les nouveaux nés. Il n'y a pas de vaccin disponible en Tunisie pour le VHC, VHD ou VHE."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les marqueurs de réplication virale pour le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ac anti-HBs",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ag HBe",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "ADN du VHB",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ac anti-HBc de type IgM",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Ag HBe et l'ADN du VHB sont des marqueurs de réplication virale. L'Ag HBs est un marqueur d'infection, l'Ac anti-HBs de résolution et protection, et l'Ac anti-HBc de type IgM d'infection aiguë."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'épidémiologie du VHA, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les pays à faible niveau d'hygiène, la contamination est souvent inapparente chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En Tunisie, plus de 50% de la population est immunisée contre le VHA à l'âge de 15 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dans les pays riches, la contamination est plus tardive et souvent liée aux voyages.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Tunisie est en transition épidémiologique d'un pays de forte endémicité vers une faible endémicité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'endémicité intermédiaire est associée à un risque accru de formes symptomatiques et graves.",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans les pays à faible niveau d'hygiène, la contamination est précoce et souvent inapparente chez l'enfant. En Tunisie, moins de 50% sont immunisés à 15 ans, ce qui indique un recul de l'âge de contact. La Tunisie est en transition épidémiologique. L'endémicité intermédiaire retarde la primo-infection, augmentant le risque de formes symptomatiques et graves."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du virus de l'hépatite E (VHE) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il appartient à la famille des Hepeviridae.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Son génome est un ARN monocaténaire de polarité négative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C'est un virus enveloppé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les génotypes 1 et 2 sont exclusivement humains.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les génotypes 3 et 4 sont zoonotiques et peuvent infecter l'homme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le VHE appartient à la famille des Hepeviridae, possède un génome ARN monocaténaire de polarité négative et est un virus nu (sans enveloppe). Les génotypes 1 et 2 sont exclusivement humains, tandis que les génotypes 3 et 4 sont zoonotiques et peuvent infecter l'homme."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Concernant la transmission du VHE, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La voie féco-orale est la principale voie de transmission dans les zones de forte endémicité pour les virus humains.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La transmission sanguine est possible pour les virus humains.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La transmission materno-fœtale est possible, surtout au 3ème trimestre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La consommation de viande infectée crue ou insuffisamment cuite est une voie de transmission pour les virus zoonotiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le VHE est un virus enveloppé, ce qui explique sa fragilité dans l'environnement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie féco-orale est la principale voie de transmission pour les virus humains (génotypes 1-2). La transmission sanguine et materno-fœtale sont également possibles. Pour les virus zoonotiques, la consommation de viande crue ou le contact direct avec des animaux infectés sont des voies de transmission. Le VHE est un virus nu, ce qui lui confère une résistance importante."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les groupes à risque d'infection par le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patients hémodialysés ou polytransfusés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Personnel de santé exposé au sang.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toxicomanes par voie IV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sujets ayant des partenaires sexuels multiples.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Enfants nés de mère Ag HBs (+).",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous les groupes mentionnés sont considérés à risque d'infection par le VHB : patients hémodialysés/transfusés, personnels de santé, toxicomanes IV, sujets avec partenaires sexuels multiples, et enfants nés de mère Ag HBs (+)."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'épidémiologie du VHB en Tunisie, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Tunisie est une zone de forte endémicité pour le VHB.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La prévalence est estimée à 1,7% dans la population générale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'introduction de la vaccination systématique en 1995 a contribué à la diminution de la prévalence.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le génotype D est prédominant.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une disparité régionale est notée avec une prévalence plus élevée dans certains gouvernorats du centre et du sud.",
+          "correct": true
+        }
+      ],
+      "explanation": "La Tunisie est passée d'une zone d'endémicité intermédiaire vers un pays à faible endémicité pour le VHB, avec une prévalence estimée à 1,7%. La vaccination systématique en 1995 a joué un rôle clé. Le génotype D est prédominant, et des disparités régionales existent."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques virologiques du VHD ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un virus défectif nécessitant le VHB pour sa réplication.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Son génome est un ARN circulaire de polarité négative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il possède sa propre enveloppe virale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il appartient au genre Deltavirus.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sa réplication est autonome et ne fait pas intervenir le VHB.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VHD est un virus défectif, ou virus satellite, dont la réplication est autonome mais qui nécessite le VHB pour l'assemblage des particules virales (il utilise l'enveloppe du VHB avec son AgHBs). Son génome est un ARN circulaire de polarité négative et il appartient au genre Deltavirus."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques virologiques du VHC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il appartient à la famille des Flaviridae.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Son génome est un ARN monocaténaire de polarité positive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C'est un virus nu (sans enveloppe).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il présente une très importante variabilité génétique, formant des « Quasi-espèces ».",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il existe 6 génotypes principaux avec plusieurs sous-types.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le VHC appartient à la famille des Flaviridae, possède un génome ARN monocaténaire de polarité positive et est un virus enveloppé. Il présente une très importante variabilité génétique (quasi-espèces) et compte 6 génotypes principaux avec des sous-types."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques pouvant être observées pendant la phase pré-ictérique d'une hépatite virale aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthénie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Céphalées",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fièvre",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Arthralgies",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ictère",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase pré-ictérique peut présenter un syndrome pseudo-grippal avec asthénie, céphalées, myalgies, anorexie, nausées, douleurs abdominales, fièvre, arthralgies et éruptions cutanées (urticaire). L'ictère caractérise la phase suivante."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles anomalies biologiques sont caractéristiques d'une hépatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Élévation des aminotransférases dépassant 10 fois la limite supérieure de la normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilirubinémie élevée prédominant sur la bilirubine non conjuguée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Gamma GT et phosphatases alcalines très fortement augmentées.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Taux de prothrombine et facteur V normaux ou modérément abaissés (> 50%).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Leuconeutropénie à l'hémogramme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une hépatite aiguë se caractérise par une élévation des aminotransférases (>10N), une bilirubinémie élevée prédominant sur la bilirubine conjuguée, des gamma GT et PAL normales ou modérément augmentées, un TP et facteur V normaux ou modérément abaissés (>50%), et parfois une leuconeutropénie."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quel est le profil virologique d'une co-infection aiguë B+D ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs (+)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ac anti HBc IgM (+)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anti VHD (+)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "ARN du VHD (+)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ac anti HBc IgG (+)",
+          "correct": false
+        }
+      ],
+      "explanation": "Une co-infection aiguë B+D se caractérise par Ag HBs (+), Ac anti HBc IgM (+), Anti VHD (+) et ARN du VHD (+). L'Ac anti HBc IgG (+) est typique d'une infection ancienne ou chronique, comme dans la surinfection."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Concernant le diagnostic d'hépatite C aiguë, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les Ac anti VHC apparaissent en moyenne 2 mois après la contamination.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le diagnostic repose essentiellement sur la présence de l'ARN du VHC.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ARN du VHC apparaît à partir de 2 semaines après la contamination.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les Ac anti VHC sont toujours positifs dès le début de l'infection.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'échographie est l'examen clé pour le diagnostic étiologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les Ac anti VHC peuvent être négatifs au début et apparaissent en moyenne 2 mois après la contamination. Le diagnostic repose essentiellement sur la présence de l'ARN du VHC, qui apparaît à partir de 2 semaines après la contamination. L'échographie n'est pas utile pour le diagnostic étiologique de l'hépatite virale aiguë."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des formes latentes ou asymptomatiques d'hépatite virale aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont les plus fréquentes (85%).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont souvent découvertes fortuitement par la mise en évidence de marqueurs sérologiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles évoluent plus fréquemment vers la chronicité pour le VHB et VHC.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles ne constituent jamais une source de contamination pour l'entourage.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours associées à un ictère discret.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les formes latentes ou asymptomatiques sont les plus fréquentes (85%), souvent découvertes fortuitement, et évoluent plus fréquemment vers la chronicité pour le VHB et VHC. Elles constituent une source de contamination pour l'entourage et sont par définition asymptomatiques, donc sans ictère."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations extra-hépatiques pouvant être associées aux hépatites virales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arthralgies ou polyarthrite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Urticaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aplasie médullaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glomérulonéphrite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Guillain Barré.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les manifestations extra-hépatiques peuvent être rhumatologiques (arthralgies, polyarthrite), dermatologiques (urticaires), hématologiques (aplasie médullaire), rénales (glomérulonéphrite), neuromusculaires (méningite, syndrome de Guillain Barré) ou cardio-pulmonaires (péricardite, pleurésie)."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Concernant les formes d'hépatite virale chez la femme enceinte, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les hépatites A, B et C n'ont pas de gravité particulière pour la mère.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hépatite E compromet le pronostic vital au 3ème trimestre avec un risque de forme fulminante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hépatite B expose à la transmission materno-infantile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toutes les hépatites virales sont toujours plus graves chez la femme enceinte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La transmission materno-fœtale du VHB est négligeable même sans prévention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hépatites A, B et C n'ont pas de gravité particulière pour la mère, mais l'hépatite E compromet le pronostic vital au 3ème trimestre avec un risque de forme fulminante dans 20% des cas. L'hépatite B expose à la transmission materno-infantile, mais le risque est négligeable si le programme de prévention est appliqué."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères définissant la sévérité d'une hépatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chute du TP (et/ou facteur V) au-dessous de 50%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence d'un ictère intense.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des transaminases au-delà de 10N.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Association d'une encéphalopathie hépatique et d'un TP < 50%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Durée de l'ictère supérieure à 6 semaines.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sévérité est définie par une chute du TP (et/ou facteur V) au-dessous de 50%. Les formes graves sont définies par l'association d'une encéphalopathie hépatique et d'un TP < 50%."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quel est le risque d'hépatite fulminante en cas d'hépatite aiguë ictérique selon l'agent étiologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VHA : 0.1 %",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "VHB : 1 %",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Co-infection aiguë B+D : > 1 %",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VHC : risque exceptionnel",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "VHE chez la femme enceinte : 20 %",
+          "correct": true
+        }
+      ],
+      "explanation": "Les risques d'hépatite fulminante sont : VHA (0.1%), VHB (1%), co-infection aiguë B+D (>1%), VHC (exceptionnel), VHE (0.5 à 4%, et 20% chez la femme enceinte)."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan initial devant un portage chronique de l'Ag HBs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sérologie B complète (AgHBs, Ac anti HBc IgG, AgHBe, Ac anti-HBe).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dosage de l'ADN du virus B par PCR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évaluation de la sévérité de l'atteinte hépatique par moyens non invasifs (Fibrotest®, Fibroscan®).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche systématique de co-infections (VHD, VHC, VIH, VHA).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ponction Biopsie Hépatique systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan initial comprend une sérologie B complète, le dosage de l'ADN du VHB, l'évaluation de la sévérité par moyens non invasifs, et la recherche de co-infections. La PBH n'est pas indispensable et n'est réalisée que dans des situations particulières."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les modalités de surveillance d'un malade atteint d'hépatite aiguë non sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance clinique de l'ictère, de l'asthénie et recherche de signes de gravité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Surveillance biologique basée sur le bilan hépatique avec TP.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance virologique à 6 mois du diagnostic pour les virus B, C et D.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hospitalisation systématique pour surveillance rapprochée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dosage quotidien de la glycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance d'une hépatite non sévère inclut la surveillance clinique (ictère, asthénie, signes de gravité), biologique (bilan hépatique, TP) et virologique à 6 mois pour VHB, VHC, VHD. L'hospitalisation et le dosage quotidien de la glycémie sont réservés aux formes sévères."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement recommandé pour une hépatite C aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pas de traitement spécifique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Traitement antiviral pangénotypique associant Sofosbuvir + Velpatasvir.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Interféron Pégylé seul.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ribavirine seule.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Traitement pendant 8 semaines.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'hépatite aiguë C, le traitement repose sur un traitement antiviral pangénotypique associant Sofosbuvir + Velpatasvir 1 cp/j pendant 8 semaines."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la vaccination contre le VHA en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obligatoire chez le nourrisson et l'enfant selon le calendrier vaccinal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez les sujets contacts d'un patient atteint d'hépatite aiguë A.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Proposée aux personnes voyageant dans les pays à forte endémie d'hépatite A.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Proposée aux sujets ayant des professions à risque de contamination (stations d'assainissement).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Systématique pour tous les adultes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin contre le VHA est obligatoire chez le nourrisson et l'enfant, et chez les sujets contacts d'un patient atteint d'hépatite aiguë A. Il peut être proposé aux voyageurs en zones endémiques et aux professionnels à risque."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Un patient présente un Ag HBs positif, des Ac anti HBc IgG positifs, des Anti VHD positifs et un ARN du VHD positif. Quel est le diagnostic le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hépatite aiguë D de type co-infection.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hépatite aiguë D de type surinfection.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hépatite chronique virale D.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Guérison d'une hépatite D.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Portage chronique du VHB sans infection D.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le profil Ag HBs (+), Ac anti HBc IgG (+), Anti VHD (+) et ARN du VHD (+) est caractéristique d'une hépatite chronique virale D. La co-infection aiguë D se caractérise par des Ac anti HBc IgM (+), et la surinfection aiguë D par des Ac anti HBc IgG (+) mais dans un contexte aigu. La guérison d'une hépatite D impliquerait un ARN du VHD négatif."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications du traitement antiviral dans l'hépatite chronique B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patients avec fibrose sévère F3 ou cirrhose compensée/décompensée, avec ADN viral détectable quel que soit son niveau.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Patients avec ADN viral B > 20 000 UI/mL et ALAT > 2N, indépendamment de la sévérité des lésions hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Patients avec ADN du VHB > 2000 UI/ml, cytolyse et lésions hépatiques modérées à sévères (Fibroscan® > 9 KPa ou Métavir ≥ A2 et/ou ≥ F2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tous les patients porteurs chroniques de l'Ag HBs, quel que soit leur profil.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Uniquement les patients Ag HBe positifs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications du traitement antiviral dans l'hépatite chronique B sont : fibrose sévère/cirrhose avec ADN détectable ; ADN viral B > 20 000 UI/mL et ALAT > 2N ; ou ADN du VHB > 2000 UI/ml associé à une cytolyse et des lésions hépatiques modérées à sévères."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hépatite aiguë avec un TP à 40% et une encéphalopathie hépatique de stade II. Quel est le diagnostic et la prise en charge immédiate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hépatite sévère, nécessitant une hospitalisation et surveillance rapprochée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hépatite fulminante si le délai d'apparition de l'encéphalopathie par rapport à l'ictère est inférieur à 2 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hépatite subfulminante si le délai d'apparition de l'encéphalopathie par rapport à l'ictère est supérieur à 2 semaines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le seul traitement efficace est la transplantation hépatique en urgence.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un traitement par analogues nucléos(t)idiques est toujours indiqué d'emblée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une chute du TP < 50% définit une hépatite sévère nécessitant hospitalisation. L'association à une encéphalopathie définit une forme grave, qualifiée de fulminante ou subfulminante selon le délai d'apparition de l'encéphalopathie par rapport à l'ictère. Le seul traitement efficace pour l'hépatite fulminante est la transplantation hépatique en urgence. Le traitement par analogues n'est pas toujours indiqué d'emblée pour toutes les hépatites aiguës graves."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Concernant la surveillance d'un malade atteint d'hépatite sévère, quelles sont les modalités ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation systématique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Surveillance quotidienne de l'état de conscience et recherche de signes d'encéphalopathie hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance quotidienne du TP et de la glycémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche d'une atrophie hépatique par la flèche hépatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les enzymes hépatiques (ASAT, ALAT) et la bilirubinémie sont surveillées de manière rapprochée.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'hépatite sévère (TP < 50%), le malade doit être hospitalisé. La surveillance clinique est quotidienne (état de conscience, flèche hépatique, ictère, syndrome hémorragique). La surveillance biologique est rapprochée et inclut TP/jour, glycémie/jour, enzymes hépatiques et bilirubinémie."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de traitement de l'hépatite chronique virale B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les analogues nucléosidiques et nucléotidiques à haute barrière de résistance sont recommandés en première intention.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'Interféron Pégylé est utilisé par voie sous-cutanée pendant 48 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement par analogues doit être maintenu à vie si le malade est au stade de cirrhose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le traitement par analogues est arrêté 12 mois après la séroconversion HBe si le malade est Ag HBe positif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le traitement par analogues est arrêté dès que l'ADN viral est indétectable.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les analogues nucléosidiques/nucléotidiques à haute barrière de résistance sont recommandés. L'INF pégylé est une option de 48 semaines. Le traitement par analogues est à vie en cas de cirrhose, et jusqu'à 12 mois après séroconversion HBe pour les Ag HBe positifs. L'arrêt ne se fait pas uniquement sur l'indétectabilité de l'ADN viral."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Concernant la prévention de la transmission verticale du VHB, quelles mesures sont recommandées chez les femmes enceintes Ag HBs (+) avec charge virale B élevée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prophylaxie par Ténofovir 1 cp/j à partir de la 24ème semaine de grossesse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maintien du Ténofovir jusqu'à au moins 12 semaines après l'accouchement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sérovaccination du nouveau-né dans les 12 à 24 premières heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vaccination du nouveau-né selon le schéma J0-J45-M3-M6.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'allaitement maternel est contre-indiqué.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les femmes enceintes Ag HBs (+) avec charge virale élevée, la prophylaxie par Ténofovir est recommandée de la 24ème semaine jusqu'à au moins 12 semaines post-accouchement. Le nouveau-né doit recevoir une sérovaccination dans les 12-24h et suivre un schéma vaccinal spécifique (J0-J45-M3-M6). Le risque de transmission par le lait maternel est négligeable si la prévention est appliquée."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quel est le profil sérologique d'un sujet vacciné contre le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs positif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ac Anti-HBs positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ac anti-HBc de type IgG négatif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ac anti-HBc de type IgM négatif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ag HBe positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un sujet vacciné contre le VHB présente des Ac Anti-HBs positifs (marqueur de protection) et des Ac anti-HBc de type IgG et IgM négatifs (absence de contact avec le virus sauvage). L'Ag HBs et l'Ag HBe sont négatifs."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures prophylactiques non spécifiques pour les virus B, D et C ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contre-indication du partage de matériel d'injection chez les usagers de drogues.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utilisation de matériel à usage unique ou stérile pour tatouage ou piercing.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Port de gants lors des prélèvements en milieu de santé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation de préservatifs chez les sujets à partenaires sexuels multiples.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Contre-indication du partage des objets d'hygiène personnelle (brosse à dents, rasoir).",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces mesures sont des prophylaxies non spécifiques importantes pour prévenir la transmission des virus B, D et C, qui partagent des modes de transmission similaires (parentérale, sexuelle, contact étroit)."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hépatite chronique virale E ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est caractérisée par des Ac anti-VHE (+).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par la persistance de l'ARN du VHE > 6 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les transplantés, la persistance de l'ARN du VHE > 3 mois est un critère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle ne survient que chez les patients immunodéprimés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le traitement se base essentiellement sur la Ribavirine.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hépatite chronique virale E est caractérisée par des Ac anti-VHE (+) et la persistance de l'ARN du VHE > 6 mois (> 3 mois chez les transplantés). Elle survient principalement chez l'immunodéprimé (génotype 3, transplanté d'organes). Le traitement repose sur la Ribavirine."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Un patient présente un Ag HBe négatif et des Ac anti HBe positifs avec un ADN du VHB détectable. Quel est le profil sérologique de l'infection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection à virus sauvage.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Infection à virus mutant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Guérison de l'hépatite B.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Portage inactif du VHB.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réactivation d'une hépatite B.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lorsque l'hépatite B est réplicative (ADN détectable), un profil AgHBe négatif et Ac anti HBe positif indique une infection à virus mutant (mutation du gène préC/C entraînant l'arrêt de la synthèse de l'AgHBe sans altération de la réplication)."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les circonstances de découverte d'une hépatite chronique virale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le plus souvent asymptomatique, découverte fortuitement lors d'un bilan.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Découverte devant un bilan biologique hépatique perturbé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "À l'occasion d'une asthénie, symptôme le plus fréquent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exceptionnellement devant des manifestations extra-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Toujours associée à un ictère franc.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatite chronique virale est le plus souvent asymptomatique, découverte fortuitement ou devant un bilan hépatique perturbé. L'asthénie est le symptôme le plus fréquent. Des manifestations extra-hépatiques peuvent être une circonstance de découverte. L'ictère est habituellement discret, sauf dans les formes cholestatiques rares."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences épidémiologiques entre le VHA et le VHE en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Tunisie est en transition épidémiologique pour le VHA, passant d'une forte à une faible endémicité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La Tunisie est un pays endémique pour le VHE.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La prévalence du VHE en Tunisie se situe entre 4 et 12% chez l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cas d'hépatite E rapportés en Tunisie sont sporadiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le VHA infecte l'adulte essentiellement, tandis que le VHE infecte préférentiellement l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Tunisie est en transition épidémiologique pour le VHA. Pour le VHE, la prévalence est entre 4 et 12% chez l'adulte, mais les cas sont sporadiques, la Tunisie n'étant pas un pays endémique. Le VHE infecte l'adulte essentiellement, tandis que le VHA peut infecter les enfants précocement dans les pays à faible hygiène."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la Ponction Biopsie Hépatique (PBH) dans le diagnostic des hépatites virales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle n'est habituellement pas indiquée dans l'hépatite virale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dans l'hépatite aiguë, les lésions peuvent inclure un infiltrat inflammatoire et des altérations hépatocytaires, mais jamais de fibrose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est l'examen de référence pour confirmer le diagnostic d'une hépatite chronique virale et évaluer la sévérité des lésions.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans les hépatites chroniques virales, elle est toujours indispensable pour la prise en charge.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Certains signes histologiques peuvent orienter l'étiologie (ex: hépatocytes en verre dépoli pour VHB, nodules lymphoïdes pour VHC).",
+          "correct": true
+        }
+      ],
+      "explanation": "La PBH n'est pas indiquée dans l'hépatite aiguë, où il n'y a jamais de fibrose. Elle est l'examen de référence pour l'hépatite chronique pour confirmer le diagnostic et évaluer la sévérité, mais n'est pas toujours indispensable en raison des moyens non invasifs. Des signes histologiques peuvent orienter l'étiologie."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de traitement de l'hépatite chronique virale C en Tunisie depuis Avril 2023 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le traitement repose sur une association pangénotypique par Sofosbuvir + Velpatasvir.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La durée du traitement est de 12 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement est indiqué chez tous les patients ayant une hépatite chronique C, indépendamment de la virémie et du stade de fibrose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La détermination du génotype est systématiquement recommandée avant le traitement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La bithérapie par IFN Peg et Ribavirine est toujours la première ligne de traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Depuis Avril 2023 en Tunisie, le traitement de l'hépatite chronique C repose sur une association pangénotypique (Sofosbuvir + Velpatasvir) pendant 12 semaines. Il est indiqué chez tous les patients, indépendamment de la virémie et du stade de fibrose. La détermination du génotype n'est plus systématiquement recommandée, et les antiviraux à action directe ont remplacé l'IFN Peg et la Ribavirine."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les marqueurs sérologiques de la guérison d'une hépatite B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs négatif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ac anti HBs positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ac anti HBc de type IgM négatif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ac anti HBc de type IgG positif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ag HBe positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "La guérison d'une hépatite B est caractérisée par la disparition de l'Ag HBs, l'apparition des Ac anti HBs (protection), la négativation des Ac anti HBc de type IgM (fin de l'infection aiguë) et la persistance des Ac anti HBc de type IgG (témoin de contact passé). L'Ag HBe doit être négatif."
+    }
+  ]
+}

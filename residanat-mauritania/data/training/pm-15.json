@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-15",
+  "title": "Accidents vasculaires cérébraux",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les affirmations suivantes concernant les accidents vasculaires cérébraux (AVC), lesquelles sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les AVC sont la première cause de handicap moteur acquis de l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les AVC ischémiques représentent environ 50% des cas.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La thrombophlébite cérébrale est une forme fréquente d'AVC.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les AVC touchent majoritairement les individus de moins de 65 ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le pronostic des AVC dépend principalement de la qualité de la prise en charge à la phase aiguë.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les AVC sont la première cause de handicap moteur acquis de l'adulte. Le pronostic dépend principalement de la qualité de prévention primaire et secondaire, et de la rapidité de prise en charge à la phase aiguë. Les AVC ischémiques représentent 80% des cas, et la thrombophlébite cérébrale est rare. 75% des cas surviennent chez des personnes de plus de 65 ans."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale caractéristique d'un accident ischémique transitoire (AIT) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'un épisode de dysfonction neurologique focale avec lésion cérébrale identifiable en imagerie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les symptômes durent typiquement plus de 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est considéré comme une situation d'urgence et un syndrome de menace cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est toujours précédé d'une perte de connaissance.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il ne nécessite pas de bilan étiologique en urgence.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un AIT est un épisode bref, typiquement < 1h, de dysfonction neurologique due à une ischémie focale cérébrale ou rétinienne, sans lésion cérébrale identifiable en imagerie. C'est une situation d'urgence et un syndrome de menace cérébrale. Le bilan et le traitement sont identiques à un AVC, incluant une imagerie cérébrale en urgence et un bilan étiologique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le rôle principal de la zone de 'pénombre' dans un infarctus cérébral ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle correspond à la zone de nécrose immédiate et irréversible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par des perturbations réversibles si le débit sanguin est rapidement rétabli.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est uniquement présente dans les infarctus d'origine hémodynamique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est la zone la plus résistante à l'ischémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une hémorragie cérébrale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La zone de 'pénombre' est la zone périphérique de l'infarctus cérébral où les perturbations sont réversibles si le débit sanguin est rétabli rapidement. La zone centrale correspond à la nécrose immédiate."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque modifiable des AVC, mentionné comme ayant le plus fort risque relatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le tabac",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypercholestérolémie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le diabète",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hypertension artérielle (HTA)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'obésité",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypertension artérielle (HTA) est le principal facteur de risque, avec un risque relatif (RR) de 4, et est présente dans plus de 50% des AVC. Le tabac a un RR de 2, l'hypercholestérolémie et le diabète ont un RR de 1,5."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Concernant le pronostic des AVC, quelle affirmation est correcte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mortalité à 1 mois est d'environ 40%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La majorité des patients retrouvent leur état antérieur sans aucune séquelle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La récupération fonctionnelle la plus importante se produit généralement après 6 mois.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un AVC hémorragique de même taille qu'un AVC ischémique a un pronostic fonctionnel généralement plus favorable.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'âge avancé est un facteur de bon pronostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un AVC hémorragique de même taille qu'un AVC ischémique a un pronostic fonctionnel généralement plus favorable (refoulement sans destruction). La mortalité est de 20% à 1 mois et 40% à 1 an. Un tiers des patients retrouvent l'état antérieur, un tiers gardent des séquelles et un tiers deviennent dépendants. La majorité de la récupération fonctionnelle se fait dans les 3 premiers mois, poursuivie jusqu'à 6 mois. L'âge jeune est un facteur de bon pronostic."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques d'un infarctus sylvien superficiel de l'hémisphère majeur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hémiplégie à prédominance crurale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une aphasie de Broca en cas d'atteinte antérieure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des troubles sensitifs dans le territoire paralysé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome d'Anton-Babinski.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hémianopsie latérale homonyme.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'infarctus sylvien superficiel de l'hémisphère majeur se caractérise par une hémiplégie à prédominance brachio-faciale, des troubles sensitifs dans le territoire paralysé, une hémianopsie latérale homonyme ou quadranopsie controlatérale, et une aphasie (Broca si atteinte antérieure, Wernicke si atteinte postérieure). Le syndrome d'Anton-Babinski est associé à l'hémisphère mineur. L'hémiplégie à prédominance crurale est typique de l'infarctus cérébral antérieur."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques qui ne sont jamais retrouvés dans le tableau d'une lacune ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouble du champ visuel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémiplégie motrice pure.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Vertige.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dysarthrie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aphasie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lacunes ne sont jamais associées à un trouble du champ visuel, un vertige, une diplopie, un nystagmus ou une aphasie. Elles peuvent se manifester par une hémiplégie motrice pure, une hémianesthésie pure, une dysarthrie associée à une main malhabile, ou une hémiparésie avec hémi-ataxie."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente une cécité monoculaire et des troubles moteurs unilatéraux. Quel type d'AIT est le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AIT vertébro-basilaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "AIT carotidien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "AIT non évocateur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "AIT possible.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "AIT lacunaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un AIT carotidien se manifeste par une cécité monoculaire, une aphasie, ou des troubles moteurs et/ou sensitifs unilatéraux. Les AIT vertébro-basilaires impliquent des troubles bilatéraux ou à bascule, une hémianopsie latérale homonyme ou une cécité corticale."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments pris en compte dans le score ABCD2 pour évaluer le risque d'AVC à 48h après un AIT ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge du patient.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d'une fibrillation auriculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La tension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La durée des symptômes de l'AIT.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le type de déficit clinique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le score ABCD2 prend en compte l'âge (> 60 ans), la tension artérielle (PA > 140/90), la durée des symptômes (< 10 min, 10-60 min, > 60 min), et le type de déficit clinique (moteur unilatéral, trouble du langage isolé). Le diabète est également un critère, mais la fibrillation auriculaire n'est pas directement un critère du score ABCD2 lui-même, bien qu'elle soit une cause majeure d'AVC."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les localisations privilégiées de l'athérosclérose dans la circulation antérieure, pouvant être à l'origine d'un AVC ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'origine des artères vertébrales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'origine des carotides internes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les siphons carotidiens.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le tronc basilaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'origine des artères sylviennes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans la circulation antérieure, les localisations privilégiées de l'athérosclérose sont l'origine des carotides internes, les siphons carotidiens et l'origine des artères sylviennes. L'origine des artères vertébrales et le tronc basilaire concernent la circulation postérieure."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour un contrôle de la tension artérielle par Urapidil, labétalol ou nicardipine IV à la phase aiguë d'un AVC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AVC ischémique avec PA > 220/120 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "AVC hémorragique avec PA > 140/80 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Préparation à une thrombolyse avec PA > 185/110 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tout AVC avec PA > 160/90 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "AVC ischémique avec PA < 120/70 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de contrôle de la TA sont : AVC ischémique avec PA > 220/120 mmHg, préparation à une thrombolyse avec PA > 185/110 mmHg, et AVC hémorragique avec PA > 140/80 mmHg. Le traitement doit être progressif pour éviter les doses de charge."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures générales de prise en charge à la phase aiguë d'un AVC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alitement strict avec redressement de la tête à 30°.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise au fauteuil systématique dès l'admission.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Contrôle des ACSOS (hyperthermie, hypoxie, hyperglycémie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Suspension de l'alimentation orale en cas de trouble de déglutition.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Kinésithérapie et orthophonie précoce.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mesures générales incluent l'alitement strict avec redressement de la tête à 30°, le contrôle des ACSOS (hyperthermie > 37,5°, hypoxie, hyperglycémie > 10 mmol/L, hypoglycémie < 0,5 g/L, hyponatrémie), la recherche systématique de trouble de déglutition avec suspension de l'alimentation orale si nécessaire, et la kinésithérapie et orthophonie précoce. La mise au fauteuil n'est faite qu'après exclusion d'une sténose artérielle serrée."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un infarctus cérébral lacunaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est généralement de grande taille, supérieur à 15 mm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est souvent dû à une occlusion d'une artériole par lipo-hyalinose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est favorisé principalement par l'hypertension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il se localise préférentiellement dans les noyaux gris centraux, la capsule interne ou le pied de la protubérance.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours associé à des troubles du champ visuel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un infarctus lacunaire est un petit infarctus profond de diamètre < 15 mm, dû à l'occlusion d'une artériole par lipo-hyalinose, favorisée principalement par l'HTA. Ses localisations préférentielles sont les noyaux gris centraux, la capsule interne et le pied de la protubérance. Il n'est jamais associé à des troubles du champ visuel."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications à distance possibles après un AVC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Récidive d'AVC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Algodystrophie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Démence vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome parkinsonien vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Crise épileptique systématiquement traitée préventivement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications à distance incluent la récidive d'AVC, les troubles cognitifs (démence vasculaire), la dépression post-AVC, les douleurs neuropathiques, l'algodystrophie, l'épilepsie vasculaire et le syndrome parkinsonien vasculaire. Il n'y a pas de traitement préventif systématique pour les crises épileptiques, le traitement est discuté en cas de première crise isolée."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes locaux évocateurs d'une dissection carotidienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céphalées périorbitaires homolatérales à la dissection.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Claude Bernard-Horner controlatéral à la dissection.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Paralysie des nerfs crâniens bas (IX, X, XI) homolatérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acouphène pulsatile.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémiplégie à prédominance crurale.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de dissection carotidienne, les signes locaux évocateurs sont homolatéraux à la dissection : cervicalgie/céphalée (périorbitaire pour la carotidienne), syndrome de Claude Bernard-Horner douloureux, paralysie des nerfs crâniens bas (IX, X, XI) et acouphène pulsatile. L'hémiplégie est un signe d'ischémie d'aval, non un signe local direct de la dissection elle-même."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui orientent vers une cardiopathie emboligène comme étiologie d'un AVC ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un infarctus jonctionnel unilatéral.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des AVC ischémiques simultanés dans des territoires artériels différents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un infarctus sous-cortical de moins de 15 mm.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des AVC ischémiques distincts dans des territoires artériels différents.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence d'une fibrillation auriculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une cardiopathie emboligène est à évoquer en cas d'AVC ischémiques simultanés ou distincts dans des territoires artériels différents. La fibrillation auriculaire est la cause la plus fréquente (plus de 50%). L'infarctus jonctionnel unilatéral évoque une sténose artérielle, et l'infarctus sous-cortical de moins de 15 mm évoque un infarctus lacunaire."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les séquences IRM cérébrales utilisées en urgence pour le diagnostic d'un AVC, et leurs apports ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La séquence T1 pour visualiser l'infarctus précoce.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La séquence Diffusion (DWI) pour l'hypersignal de l'infarctus en quelques minutes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La séquence T2/FLAIR pour l'identification d'AVC anciens et d'anomalies de la substance blanche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La séquence T2* (écho de gradient) pour la visualisation de lésions hémorragiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La séquence Time of flight (3D-ToF) pour la recherche d'une occlusion artérielle intracérébrale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le protocole d'urgence IRM comprend la DWI (hypersignal de l'infarctus précoce), T2/FLAIR (infarctus récent, AVC anciens, leuco-encéphalopathie), T2* (lésions hémorragiques) et 3D-ToF (occlusion artérielle). La séquence T1 n'est pas mentionnée comme principale pour l'infarctus précoce en urgence."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'un AIT vertébro-basilaire probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cécité monoculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Troubles moteurs et/ou sensitifs bilatéraux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles moteurs et/ou sensitifs à bascule.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémianopsie latérale homonyme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aphasie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un AIT vertébro-basilaire probable se manifeste par des troubles moteurs et/ou sensitifs bilatéraux ou à bascule, touchant la face et/ou les membres, une hémianopsie latérale homonyme ou une cécité corticale. La cécité monoculaire et l'aphasie sont des signes d'AIT carotidien."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes et facteurs de risque généraux de thrombose veineuse cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La période post-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La grossesse et le post-partum.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'utilisation de contraceptifs oraux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une infection systémique comme une septicémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypertension artérielle chronique isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes et facteurs de risque généraux de thrombose veineuse cérébrale incluent la période post-opératoire, la grossesse et le post-partum, la contraception orale, les affections hématologiques, les troubles de l'hémostase, les infections (septicémie, endocardite), le cancer, les maladies inflammatoires, la déshydratation, la cirrhose et le syndrome néphrotique. L'HTA chronique n'est pas listée comme un facteur de risque général de TVC."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'objectif d'HbA1c recommandé pour la prévention secondaire des AVC ischémiques chez les patients diabétiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 6%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inférieur à 7% après 6 mois.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Inférieur à 8% pendant 6 mois, puis inférieur à 7%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Supérieur à 8%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il n'y a pas d'objectif spécifique mentionné.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la prévention secondaire des AVC ischémiques chez les diabétiques, l'objectif est une HbA1c < 8% pendant 6 mois, puis < 7%."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la symptomatologie d'une thrombose veineuse cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Installation toujours aiguë, en moins de 2 jours.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Céphalées subaiguës, intenses ou modérées, permanentes ou intermittentes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Crises épileptiques partielles ou généralisées, parfois hémi-corporelles à bascules.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit neurologique focal inconstant, pouvant être moteur à bascule.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La triade céphalées + crises d'épilepsie + déficit neurologique focal est fortement évocatrice.",
+          "correct": true
+        }
+      ],
+      "explanation": "La symptomatologie peut être aiguë (< 2 jours), subaiguë (> 2 jours) ou chronique (> 30 jours). Les céphalées subaiguës sont fréquentes, ainsi que les crises épileptiques (parfois hémi-corporelles à bascules). Un déficit neurologique focal est inconstant, pouvant être moteur à bascule. La triade céphalées + crises d'épilepsie + déficit neurologique focal est fortement évocatrice."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de bon pronostic fonctionnel après un AVC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge jeune.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un infarctus cérébral de grande taille.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un entourage aidant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un AVC hémorragique plutôt qu'ischémique à taille égale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une récupération fonctionnelle majoritaire après 6 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de bon pronostic sont un âge jeune, un infarctus cérébral de petite taille ou peu sévère, un entourage aidant, et un AVC hémorragique plutôt qu'ischémique à taille égale (refoulement sans destruction). La majorité de la récupération fonctionnelle se fait dans les 3 premiers mois, poursuivie jusqu'à 6 mois."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement anti-thrombotique recommandé à la phase aiguë d'un AVC ischémique, en l'absence de thrombolyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Héparine curative systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Aspirine 160-300 mg/j dès l'arrivée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Clopidogrel en première intention.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "HBPM préventive en cas d'alitement dû au déficit du membre inférieur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Anticoagulants oraux directs (AOD).",
+          "correct": false
+        }
+      ],
+      "explanation": "Dès l'arrivée (ou après 24h et un scanner éliminant un saignement en cas de thrombolyse), une prévention d'une récidive précoce par aspirine 160-300 mg/j est recommandée. Le clopidogrel est en seconde intention. Une HBPM préventive est indiquée en cas d'alitement dû au déficit du membre inférieur (débutée > 24h en cas de thrombolyse). L'héparine curative est rarement prescrite en raison du risque hémorragique, et les AOD sont pour la prévention secondaire des cardiopathies emboligènes."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'un infarctus cérébral antérieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémiplégie à prédominance brachio-faciale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hémiplégie à prédominance crurale avec troubles sensitifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Apraxie idéomotrice de la main.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome frontal (adynamie, syndrome dysexécutif).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aphasie de Wernicke.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infarctus cérébral antérieur se manifeste par une hémiplégie à prédominance crurale avec troubles sensitifs (atteinte du lobule para-central), une apraxie idéomotrice de la main et un syndrome frontal (adynamie, syndrome dysexécutif). L'hémiplégie brachio-faciale est typique de l'infarctus sylvien superficiel, et l'aphasie de Wernicke d'une atteinte postérieure de l'hémisphère majeur."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors du bilan étiologique d'un AVC ischémique en cas de suspicion de cardiopathie emboligène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un écho-Doppler des TSA.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un ECG à l'admission.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un Holter-ECG si l'ECG initial est négatif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une échographie trans-thoracique (ETT) rapide en l'absence de cause évidente.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une ponction lombaire systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une cardiopathie emboligène, il faut réaliser un ECG à l'admission, un scope-ECG ou Holter-ECG si négatif, et une ETT rapide en l'absence de cause évidente. L'écho-Doppler des TSA est pour la macroangiopathie. La ponction lombaire est réalisée selon le contexte, notamment pour la thrombophilie ou les artérites, mais pas systématiquement pour une cardiopathie emboligène."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hémiplégie massive proportionnelle, une hémianesthésie à tous les modes et une hémianopsie latérale homonyme. Quelle est la localisation la plus probable de l'infarctus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infarctus sylvien superficiel.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Infarctus cérébral antérieur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Infarctus sylvien profond.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Infarctus choroïdien antérieur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Infarctus sylvien total.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'infarctus choroïdien antérieur se caractérise par une hémiplégie massive et proportionnelle (atteinte du bras postérieur de la capsule interne), une hémianesthésie à tous les modes (atteinte des radiations thalamiques) et une hémianopsie latérale homonyme (atteinte des radiations optiques). L'infarctus sylvien total présente également une hémiplégie massive proportionnelle, hémianesthésie et hémianopsie latérale homonyme, avec en plus une aphasie globale si hémisphère majeur et déviation conjuguée de la tête et des yeux."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de contre-indication à la thrombolyse intraveineuse par rt-PA altéplase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un déficit neurologique brutal dont l'heure de début est inconnue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une coagulopathie ou un traitement anticoagulant en cours.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un antécédent d'AVC, de traumatisme crânien ou de chirurgie récente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypertension artérielle supérieure à 185/110 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un infarctus cérébral massif avec troubles de la vigilance ou NIHSS > 25.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutes les propositions sont des contre-indications à la thrombolyse intraveineuse. Les critères incluent un déficit neurologique brutal dont l'heure de début est exactement connue (donc inconnue est une CI), l'absence de coagulopathie ou de traitement anticoagulant, l'absence d'AVC, TC ou chirurgie récente, une HTA > 185/110 mmHg, et un infarctus cérébral massif (troubles de la vigilance, NIHSS > 25)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une paralysie du III et une hémiplégie controlatérale touchant la face. Quel syndrome alterne est le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome de Wallenberg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Millard-Grüber.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Weber.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome bulbaire médian.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Parinaud.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Weber (pédoncule) se caractérise par une paralysie du III et une hémiplégie controlatérale touchant la face. Le syndrome de Millard-Grüber (protubérance) associe une PFP et une hémiplégie controlatérale épargnant la face. Le syndrome bulbaire médian associe une paralysie du XII et une hémiplégie controlatérale respectant la face. Le syndrome de Wallenberg est un syndrome alterne sensitif. Le syndrome de Parinaud est une paralysie de fonction oculomotrice (verticalité et convergence)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de neurochirurgie en cas d'AVC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infarctus cérébral malin du sujet jeune nécessitant une craniectomie de décompression.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hématome volumineux superficiel (temporal, frontal, cérébelleux) avec trouble de conscience.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hématome ou infarctus cérébelleux avec compression du tronc cérébral ou du 4ème ventricule.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématome lobaire du sujet âgé sans effet de masse important.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hydrocéphalie aiguë associée à un AVC.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de neurochirurgie incluent l'infarctus cérébral malin du sujet jeune (craniectomie de décompression), les hématomes volumineux superficiels (temporal, frontal, cérébelleux) avec trouble de conscience, les hématomes ou infarctus cérébelleux avec compression du tronc cérébral ou du 4ème ventricule, et l'hydrocéphalie aiguë. Un avis neurochirurgical est également recommandé pour un hématome lobaire du sujet jeune ou un effet de masse important avec dégradation neurologique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un syndrome de Claude Bernard-Horner homolatéral, un hémi-syndrome cérébelleux statique homolatéral, une anesthésie de l'hémiface homolatérale et une anesthésie thermoalgique de l'hémicorps controlatéral épargnant la face. Quel syndrome est le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome de Weber.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Millard-Grüber.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Wallenberg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infarctus postérieur profond.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Infarctus grave du tronc cérébral.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Wallenberg (infarctus de la partie latérale de la moelle allongée) est un syndrome alterne sensitif caractérisé par un syndrome de Claude Bernard-Horner homolatéral, un hémi-syndrome cérébelleux à prédominance statique homolatéral, une atteinte du VIII vestibulaire, une atteinte des nerfs mixtes IX et X (troubles de phonation et déglutition, signe du rideau), une atteinte du V (anesthésie de l'hémiface homolatérale) et une anesthésie thermoalgique de l'hémicorps controlatéral épargnant la face."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les cardiopathies à risque emboligène élevé (> 5%/an) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prothèse valvulaire mécanique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rétrécissement mitral sans fibrillation auriculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Infarctus du myocarde à la phase aiguë ou récent (< 4 semaines).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fibrillation auriculaire ou flutter avec facteurs de risque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Foramen ovale perméable.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cardiopathies à risque emboligène élevé (> 5%/an) incluent les prothèses valvulaires mécaniques, l'IDM à la phase aiguë ou récent (< 4 semaines), le rétrécissement mitral avec FA, l'akinésie segmentaire étendue du VG, la FA ou flutter avec FdR, la cardiomyopathie dilatée, le thrombus OG/VG, l'endocardite infectieuse et le myxome de l'OG. Le rétrécissement mitral sans FA et le foramen ovale perméable sont à risque modéré/mal déterminé."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient de 55 ans présente un AVC ischémique étendu 'malin' avec un NIHSS > 16 et des troubles de la vigilance. Quelle option thérapeutique peut être envisagée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une thrombolyse intraveineuse au-delà de 4h30.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une craniectomie de décompression.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une héparinothérapie curative systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une anticoagulation orale immédiate.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une osmothérapie seule, sans autre intervention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une craniectomie de décompression est réservée aux patients de moins de 60 ans avec un NIHSS > 16 et des troubles de la vigilance en cas d'AVC ischémique étendu 'malin'. La thrombolyse IV est limitée à 4h30 (ou 3h si > 80 ans). L'héparinothérapie curative est rarement prescrite en raison du risque hémorragique. L'anticoagulation orale est différée de plusieurs semaines en cas d'AVC massif. L'osmothérapie est utilisée en cas d'HTIC sévère ou d'engagement, mais la craniectomie est une option spécifique pour l'AVC malin."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'œdème cérébral post-AVC ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est initialement vasogénique, puis cytotoxique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il apparaît vers la 24ème heure et est maximal à J4.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est toujours asymptomatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il peut nécessiter une osmothérapie en cas d'HTIC sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est une complication rare des AVC ischémiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œdème cérébral est initialement cytotoxique par anoxie tissulaire, puis vasogénique par rupture de la barrière hémato-encéphalique. Il apparaît vers la 24ème heure et est maximal à J4. Il peut entraîner une HTIC sévère et nécessiter une osmothérapie. C'est une complication fréquente des AVC ischémiques."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'un infarctus postérieur profond (syndrome thalamique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémianopsie latérale homonyme au premier plan.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Troubles sensitifs à tous les modes de l'hémicorps controlatéral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleurs intenses d'apparition secondaire, voire hyperpathie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cécité corticale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Mouvements anormaux de la main, rarement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome thalamique (infarctus postérieur profond) se caractérise par des troubles sensitifs à tous les modes de l'hémicorps controlatéral, parfois des douleurs intenses (voire hyperpathie) d'apparition secondaire, et rarement des mouvements anormaux de la main. L'hémianopsie latérale homonyme est au premier plan dans l'infarctus postérieur superficiel. La cécité corticale est associée à un infarctus postérieur bilatéral."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'héparine curative dans la prise en charge de l'AVC ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématiquement prescrite en cas d'infarctus cérébral étendu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est discutée en cas de cardiopathie emboligène à haut risque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est contre-indiquée en cas d'AVC hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est discutée en cas de dissection artérielle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est contre-indiquée en cas d'endocardite infectieuse.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'héparine curative est rarement prescrite en raison du risque hémorragique. Elle est discutée en cas de cardiopathie emboligène à haut risque ou de dissection artérielle. Elle est contre-indiquée en cas d'infarctus cérébral étendu, d'AVC hémorragique ou d'endocardite infectieuse."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un infarctus cérébelleux de grande taille. Quels sont les risques vitaux associés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémisyndrome cérébelleux controlatéral.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Compression du tronc cérébral par l'œdème cérébelleux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hydrocéphalie par compression du 4ème ventricule.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Wallenberg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Locked-in syndrome.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un infarctus cérébelleux de grande taille présente un risque vital par compression du tronc cérébral par l'œdème cérébelleux ou hydrocéphalie par compression du 4ème ventricule. L'hémisyndrome cérébelleux est homolatéral à la lésion. Le syndrome de Wallenberg et le locked-in syndrome sont associés à des lésions du tronc cérébral."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan étiologique d'un AVC hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IRM cérébrale systématique pour éliminer une malformation vasculaire ou une tumeur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan de coagulation (NFS, plaquettes, TP/TCA).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Angiographie des artères crâniennes (angio-TDM/IRM) si aucun argument en faveur d'une HTA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ponction lombaire systématique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Écho-Doppler des TSA.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan étiologique d'un AVC hémorragique comprend une IRM cérébrale systématique (à répéter à distance) pour éliminer une malformation vasculaire ou une tumeur, un bilan de coagulation (NFS, plaquettes, TP/TCA) et une angiographie des artères crâniennes (angio-TDM/IRM) si aucun argument en faveur d'une HTA. La ponction lombaire n'est pas systématique, et l'écho-Doppler des TSA est pour les AVC ischémiques macroangiopathiques."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'angio-IRM cérébrale dans le diagnostic de thrombose veineuse cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypersignal T1 et T2 du sinus thrombosé à la phase d'état.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyposignal T2* du sinus thrombosé à la phase d'état.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'un flux normal dans le sinus occlus en ARM.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Signe du delta après injection de gadolinium en cas de thrombose du sinus longitudinal supérieur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Visualisation d'un œdème vasogénique ou d'un infarctus veineux.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'angio-IRM montre un hypersignal T1 et T2 et un hyposignal T2* du sinus thrombosé à la phase d'état, une absence de flux dans le sinus occlus en ARM, le signe du delta après injection de gadolinium (pour le sinus longitudinal supérieur), et un retentissement cérébral (œdème vasogénique, infarctus veineux ± remaniement hémorragique)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous AVK présente un AVC hémorragique. Quelle est la prise en charge de l'antagonisation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de vitamine K seule.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administration de PPSB (concentré de complexe prothrombique) et de vitamine K.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Objectif d'INR < 2,5.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administration d'idarucizumab si le patient est sous dabigatran.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administration de Feiba® si le patient est sous AOD activés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les AVK, l'antagonisation se fait par PPSB + vitamine K, avec un objectif d'INR < 1,5. L'idarucizumab est spécifique au dabigatran (un AOD), et Feiba® est pour les AOD activés, pas pour les AVK."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les recommandations pour la prévention secondaire des AVC ischémiques liés à une sténose carotidienne serrée symptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'endartériectomie est la technique de référence si la sténose est de 50 à 70%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'endartériectomie est recommandée si la sténose de la carotide interne extra-crânienne est > 70%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'intervention doit être réalisée préférentiellement dans les 15 jours suivant l'AVC ou l'AIT.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'angioplastie carotidienne avec stent est recommandée pour les sténoses de la carotide intracrânienne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'angioplastie carotidienne avec stent est une option si le patient est à haut risque chirurgical.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'endartériectomie est la technique de référence pour une sténose de carotide interne extra-crânienne > 70%, et doit être réalisée préférentiellement dans les 15 jours suivant l'AVC ou l'AIT. Elle est discutée au cas par cas si la sténose est de 50 à 70%. L'angioplastie carotidienne avec stent est une alternative si le patient est à haut risque chirurgical ou si la sténose n'est pas accessible. Elle n'est pas recommandée pour les sténoses de la carotide intracrânienne."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les symptômes d'un infarctus sylvien total ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémiplégie massive proportionnelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémianesthésie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémianopsie latérale homonyme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aphasie globale si atteinte de l'hémisphère majeur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déviation conjuguée de la tête et des yeux vers le côté controlatéral à la lésion.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infarctus sylvien total se caractérise par une hémiplégie massive proportionnelle, une hémianesthésie, une hémianopsie latérale homonyme, une aphasie globale si atteinte de l'hémisphère majeur, une déviation conjuguée de la tête et des yeux vers la lésion (et non controlatérale), et des troubles de conscience initiaux fréquents."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un syndrome de Gerstmann. Quelle est la localisation de la lésion et les signes associés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte pariétale postérieure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Agnosie digitale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Indistinction droite-gauche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acalculie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aphasie de Broca.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Gerstmann est associé à une atteinte pariétale postérieure et se caractérise par une agnosie digitale, une indistinction droite-gauche, une acalculie et une agraphie. L'aphasie de Broca est une atteinte antérieure de l'hémisphère majeur."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques de l'infarctus cérébral ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thrombotique ou thromboembolique par occlusion artérielle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémodynamique par augmentation de la perfusion cérébrale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémodynamique par chute de la PA, régionale ou systémique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nécrose immédiate dans la zone de pénombre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Occlusion veineuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les deux mécanismes principaux sont le thrombotique ou thromboembolique (occlusion artérielle) et l'hémodynamique (rare), dû à une chute de la PA, régionale (sténose aiguë pré-occlusive) ou systémique (ACR). La zone de pénombre est une zone de perturbations réversibles, pas de nécrose immédiate. L'occlusion veineuse est une thrombophlébite cérébrale, une autre pathologie vasculaire."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les symptômes d'un infarctus postérieur bilatéral ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémianopsie latérale homonyme isolée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cécité corticale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles mnésiques de type syndrome de Korsakoff.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome thalamique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Prosopagnosie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infarctus postérieur bilatéral se manifeste par une cécité corticale et des troubles mnésiques de type syndrome de Korsakoff par atteinte temporale interne bilatérale. L'hémianopsie latérale homonyme isolée est typique de l'infarctus postérieur superficiel unilatéral. Le syndrome thalamique est associé à l'infarctus postérieur profond. La prosopagnosie est un signe d'atteinte de l'hémisphère mineur dans l'infarctus postérieur superficiel."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes locales infectieuses de thrombose veineuse cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Otite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mastoïdite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sinusite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection buccodentaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Traumatisme crânien.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes locales infectieuses incluent les infections de voisinage comme l'otite, la mastoïdite, la sinusite, l'infection buccodentaire, ainsi que les infections intracrâniennes (abcès, empyème sous-dural, méningite). Le traumatisme crânien est une cause locale non infectieuse."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour différer l'introduction d'une anticoagulation orale (AVK ou AOD) après un AVC ischémique lié à une cardiopathie emboligène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un AVC de petite taille.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un AVC massif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un risque de resaignement élevé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une cardiopathie à risque embolique modéré.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une dissection artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AVK ou AOD sont à introduire 5 à 28 jours après l'AVC (risque de resaignement). En cas d'AVC massif, l'anticoagulation doit être différée de plusieurs semaines. Pour une cardiopathie à risque embolique modéré, un antiagrégant plaquettaire est suffisant. La dissection artérielle a son propre protocole de traitement."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'un état lacunaire, résultant de la répétition d'AVC lacunaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome pseudo-bulbaire (troubles de déglutition et phonation, rires et pleurs spasmodiques).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Marche à petit pas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles sphinctériens.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles cognitifs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Troubles du champ visuel.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'état lacunaire se caractérise par un syndrome pseudo-bulbaire (troubles de déglutition et phonation, rires et pleurs spasmodiques), une marche à petit pas, des troubles sphinctériens et des troubles cognitifs. Les troubles du champ visuel ne sont jamais retrouvés dans les lacunes."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les symptômes qui, s'ils sont isolés, ne doivent pas faire retenir le diagnostic d'AIT en première intention, mais peuvent le rendre probable s'ils sont associés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertige.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diplopie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysarthrie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perte de connaissance.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Symptômes sensitifs isolés d'une partie d'un membre ou d'une hémiface.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le vertige, la diplopie, la dysarthrie, les troubles de déglutition, la perte d'équilibre, les symptômes sensitifs isolés d'une partie d'un membre/d'une hémiface, et le drop attack sont des symptômes compatibles mais ne doivent pas faire retenir le diagnostic d'AIT en première intention s'ils sont isolés. Le diagnostic d'AIT devient probable si ces signes s'associent entre eux ou aux signes d'AIT probable. La perte de connaissance est un symptôme non évocateur d'AIT."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du diagnostic étiologique d'un AVC ischémique qui orientent vers une microangiopathie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un infarctus jonctionnel unilatéral.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un infarctus sous-cortical de moins de 15 mm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une leuco-encéphalopathie associée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un patient hypertendu avec une clinique évocatrice.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des sténoses artérielles multiples et diffuses.",
+          "correct": true
+        }
+      ],
+      "explanation": "La microangiopathie est suspectée chez un patient hypertendu avec une clinique évocatrice, un petit infarctus profond de diamètre < 15 mm (lacunaire), une leuco-encéphalopathie associée. Des sténoses artérielles multiples et diffuses peuvent évoquer une artérite primitive du SNC ou secondaire touchant les petites artères distales. L'infarctus jonctionnel unilatéral est évocateur d'une sténose artérielle (macroangiopathie)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'infarctus grave du tronc cérébral par occlusion complète du tronc basilaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coma, pouvant aller jusqu'au décès.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Atteinte motrice bilatérale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Locked-in syndrome par infarctus bilatéral du pied de la protubérance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Conscience altérée dans le locked-in syndrome.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Paralysie du III et hémiplégie controlatérale touchant la face.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'occlusion complète du tronc basilaire peut entraîner un coma, jusqu'au décès, une atteinte motrice bilatérale, voire un locked-in syndrome par infarctus bilatéral du pied de la protubérance. Dans le locked-in syndrome, la conscience est normale, contrairement à ce qui est suggéré par l'option D. La paralysie du III et l'hémiplégie controlatérale touchant la face correspondent au syndrome de Weber, qui est une atteinte du pédoncule, pas nécessairement une occlusion complète du tronc basilaire."
+    }
+  ]
+}

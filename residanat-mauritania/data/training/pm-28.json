@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-28",
+  "title": "Syndrome néphrotique",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est l'anomalie primaire caractérisant le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyperperméabilité de la membrane basale glomérulaire aux protéines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la filtration glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une inflammation systémique des vaisseaux.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypoperfusion rénale chronique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une obstruction des voies urinaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome néphrotique est caractérisé par une hyperperméabilité de la membrane basale glomérulaire aux protéines, entraînant une protéinurie massive."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le signe clinique le plus caractéristique du syndrome néphrotique durant sa phase active ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle persistante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des douleurs abdominales aiguës.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des œdèmes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fièvre élevée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hématurie macroscopique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Cliniquement, le syndrome néphrotique est caractérisé par des œdèmes durant la phase active (poussées)."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les trois éléments biologiques essentiels pour définir le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protéinurie massive, hyperprotidémie, hyperalbuminémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protéinurie massive, hypoprotidémie, hypoalbuminémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hématurie, hypoprotidémie, hypoalbuminémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Protéinurie sélective, hypoprotidémie, hypoalbuminémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Protéinurie massive, normoprotidémie, normoalbuminémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome néphrotique se définit par l'association d'une protéinurie massive, d'une hypoprotidémie (< 60 g/l) et d'une hypoalbuminémie (< 30 g/l)."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la néphropathie glomérulaire la plus fréquente chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La glomérulonéphrite aiguë post-infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome d'Alport.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome néphrotique idiopathique (Néphrose lipoïdique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La néphropathie à IgA.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La glomérulosclérose segmentaire et focale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome néphrotique idiopathique (SNI) de l'enfant, ou Néphrose lipoïdique, est la néphropathie glomérulaire la plus fréquente chez l'enfant."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques histologiques des lésions glomérulaires minimes (LGM) observées dans le syndrome néphrotique idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence de dépôts immuns en immunofluorescence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Glomérules optiquement normaux avec fusion des pieds des podocytes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prolifération mésangiale diffuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sclérose segmentaire et focale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Atrophie tubulaire et fibrose interstitielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lésions glomérulaires minimes (LGM) sont caractérisées par des glomérules optiquement normaux, une fusion des pieds des podocytes et un effacement des diaphragmes de fentes, sans dépôts en immunofluorescence."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères permettant d'objectiver une protéinurie massive dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un rapport Protéines urinaires/Créatinine urinaire inférieur à 2000 mg/g.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une bandelette urinaire montrant 3 croix (+).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une protéinurie sur 24h mesurée à 250 mg/kg/24h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un rapport Protéines urinaires/Créatinine urinaire de 200 mg/mmol.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une protéinurie sur 24h mesurée à 100 mg/kg/24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "La protéinurie massive est objectivée par une bandelette urinaire à 3 croix (+), une protéinurie sur 24h ≥ 250 mg/kg/24h (ou 240 mg/m²/heure), ou un rapport Protéines urinaires/Créatinine urinaire ≥ 2000 mg/g (ou ≥ 200 mg/mmol ou ≥ 300 mg/dl)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments d'orientation en faveur d'un syndrome néphrotique génétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une apparition après l'âge de 12 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des antécédents familiaux de cas similaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cortico-résistance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des syndromes malformatifs associés (oculaires, SNC, osseux).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une apparition entre 1 et 12 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les éléments d'orientation en faveur d'un syndrome néphrotique génétique incluent un âge d'apparition précoce (< 1 an), des syndromes malformatifs associés, une cortico-résistance et des antécédents familiaux de cas similaires."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques épidémiologiques du syndrome néphrotique idiopathique (SNI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une prédominance féminine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un âge de survenue typique entre 3 et 8 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une incidence égale entre les sexes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une prédominance masculine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un âge de survenue typique après 12 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SNI présente une prédominance masculine (Garçon > fille) et un âge de survenue typique entre 3 et 8 ans (1-10 ans)."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon l'hypothèse du sous-remplissage (underfill), quelle est la séquence physiopathologique menant à la formation des œdèmes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoalbuminémie → augmentation pression oncotique → flux liquide interstitiel vers vasculaire → œdèmes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protéinurie massive → hypoalbuminémie → baisse pression oncotique → flux liquide vasculaire vers interstitiel → œdèmes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation SRAA → augmentation natriurèse → hypovolémie → œdèmes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypervolémie primitive → hypoalbuminémie → œdèmes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Protéinurie massive → hyperprotidémie → augmentation pression oncotique → œdèmes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mécanisme de sous-remplissage implique qu'une protéinurie massive entraîne une hypoalbuminémie, puis une baisse de la pression oncotique, résultant en un flux de liquide du milieu vasculaire vers le milieu interstitiel, d'où la formation d'œdèmes."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques caractéristiques du syndrome œdémateux dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Œdèmes rouges, chauds et douloureux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Œdèmes d'apparition brutale, blancs, mous et indolores.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œdèmes prenant le godet, localisés au visage et aux membres inférieurs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une perte de poids rapide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des épanchements des séreuses.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome œdémateux est d'installation brutale, avec prise de poids, des œdèmes d'aspect rénal, blancs, mous, indolores, prenant le godet (visage, membres inférieurs), et parfois des épanchements des séreuses."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les résultats attendus à l'électrophorèse des protides plasmatiques chez un patient atteint de syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des gammaglobulines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution des alpha2-globulines.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des alpha2-globulines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution des gammaglobulines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Normalisation de toutes les fractions protéiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'électrophorèse des protides plasmatiques montre une augmentation des alpha2-globulines et une diminution des gammaglobulines, ce qui favorise les infections."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies de la coagulation observées dans le syndrome néphrotique qui favorisent les accidents thrombo-emboliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de l'antithrombine III.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution des facteurs V, VII, VIII, von Willebrand et X.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du fibrinogène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution des protéines C et S.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution du facteur X.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les perturbations de la coagulation incluent une diminution de l'antithrombine III, une augmentation des facteurs V, VII, VIII, von Willebrand, X et du fibrinogène, ainsi qu'une baisse des protéines C et S, favorisant l'hypercoagulabilité."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications infectieuses les plus fréquemment rencontrées dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infections à Staphylococcus aureus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Péritonite à pneumocoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Méningite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infections urinaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Infections à Candida albicans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les infections fréquentes incluent celles à pneumocoque (avec une forme particulière, la péritonite médicale), streptocoque, pneumonie, méningite et infections urinaires."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures thérapeutiques symptomatiques importantes à mettre en place dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un repos strict au lit.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une restriction hydrosodée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un régime désodé strict durant les poussées œdémateuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une restriction des apports protéiques alimentaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des apports hydriques systématiquement augmentés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements symptomatiques incluent la restriction hydrosodée et un régime désodé strict durant les poussées œdémateuses et les phases de corticothérapie à fortes doses. Il n'y a pas de repos strict ni de restriction des protéines alimentaires. Les apports hydriques doivent être adaptés, pas systématiquement augmentés."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations la perfusion d'albumine est-elle indiquée chez un patient atteint de syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'hypertension artérielle sévère.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'hypovolémie symptomatique (hypotension artérielle, tachycardie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de douleurs abdominales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de syndrome œdémateux majeur (ICT).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas d'hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La perfusion d'albumine est indiquée en cas d'hypovolémie symptomatique (TA, FC), de douleurs abdominales, de malaises ou de syndrome œdémateux majeur (ICT)."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour une anticoagulation préventive dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un taux d'albumine sérique supérieur à 30 g/l.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un taux de fibrinogène supérieur à 6 g/l.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un taux d'antithrombine III inférieur à 70%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperplaquettose isolée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un taux d'albumine sérique inférieur à 20 g/l.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications pour une anticoagulation préventive sont un taux d'albumine < 20 g/l, un fibrinogène > 6 g/l et une antithrombine III < 70%."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'attitude recommandée concernant la vaccination chez l'enfant atteint de syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt de toutes les vaccinations.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Intensification des vaccinations contre certains germes comme le pneumocoque et la grippe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Temporisation des vaccins vivants atténués pendant la corticothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vaccination systématique avec tous les vaccins disponibles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Vaccination antigrippale annuelle de l'enfant et de son entourage.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'attitude préventive proposée est l'intensification des vaccinations contre certains germes (vaccin anti-pneumocoque dès le début de la maladie, vaccination antigrippale annuelle de l'enfant et son entourage) et la temporisation pour les vaccins vivants atténués durant la corticothérapie et les phases actives, et jusqu'à 2 ans après la rémission."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le principal traitement étiopathogénique de la première poussée du syndrome néphrotique idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les diurétiques seuls.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La perfusion d'albumine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La corticothérapie orale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les immunosuppresseurs d'emblée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La plasmaphérèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la majorité des cas (95%), la mise en route d'une corticothérapie orale (prednisone/prednisolone) est l'unique possibilité thérapeutique pour la première poussée."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les adjuvants obligatoires de la corticothérapie dans le traitement du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les pansements gastriques ou IPP systématiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le carbonate de calcium.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La vitamine D.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les antibiotiques prophylactiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les diurétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les adjuvants obligatoires de la corticothérapie sont le carbonate de calcium (30 à 50 mg/kg/j) et la vitamine D (400 à 800 UI/j ou une dose de charge). Les pansements gastriques ou IPP ne sont pas systématiques."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment est définie une rechute complète du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une protéinurie à la bandelette urinaire de 1 croix pendant 3 jours consécutifs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une protéinurie supérieure à 50 mg/kg/j.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypoalbuminémie supérieure à 25 g/l.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une protéinurie à la bandelette urinaire de 2-3 croix pendant 3 jours consécutifs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une normalisation de l'albuminémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une rechute complète est définie par une protéinurie à la bandelette urinaire ≥ 2-3 croix pendant 3 jours consécutifs, confirmée par une protéinurie supérieure à 50 mg/kg/j et une hypoalbuminémie < 25 g/l."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la ponction biopsie rénale (PBR) dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un syndrome néphrotique idiopathique cortico-sensible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un syndrome néphrotique chez un enfant de 5 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome néphrotique impur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome néphrotique cortico-résistant.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome néphrotique secondaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de la PBR incluent tous les SN secondaires, tous les SN impurs et le SN cortico-résistant. L'âge est aussi un critère (< 1 an et > 12 ans)."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs circulants impliqués dans la physiopathologie immunologique du syndrome néphrotique idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des facteurs qui augmentent les charges négatives anioniques de la MBG.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des cytokines comme les interleukines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des enzymes et de l'histamine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des facteurs qui déstructurent les diaphragmes de fentes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des facteurs qui augmentent la perméabilité glomérulaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'origine immunologique implique la production de facteurs circulants (cytokines comme les interleukines, enzymes, histamine) qui modifient la perméabilité glomérulaire et déstructurent les diaphragmes de fentes, entraînant une perte des charges négatives anioniques."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales causes de syndrome néphrotique secondaire mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diabète et le lupus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les infections virales (VHB, VHC, VIH).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les néoplasies (lymphomes, Hodgkin).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de Galloway.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La sclérose mésangiale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes secondaires incluent des maladies générales (diabète, lupus, amylose, vascularites), des infections virales (VHB, VHC, VIH), bactériennes ou parasitaires, et des néoplasies (lymphomes, Hodgkin)."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'impureté d'un syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un taux normal du complément sérique C3.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une absence d'HTA persistante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hématurie persistante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une protéinurie non sélective.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une fonction rénale normale en dehors de toute hypovolémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères d'impureté sont un taux normal du complément sérique C3, la présence d'HTA persistante, une fonction rénale anormale (hors IRA fonctionnelle), une hématurie persistante et une protéinurie non sélective. Donc, l'hématurie persistante et la protéinurie non sélective sont des critères d'impureté."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications carentielles pouvant survenir au cours du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dénutrition.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une ostéopénie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une anémie par fuite urinaire de la transferrine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperthyroïdie clinique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypercalcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les syndromes carentiels incluent la dénutrition, l'ostéopénie, l'anémie (par fuite urinaire de la transferrine) et l'hypothyroïdie infraclinique (avec TSH élevée)."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon l'hypothèse du sur-remplissage (overfill), quels sont les mécanismes intra-rénaux primitifs stimulés par la protéinurie néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Désactivation de la pompe Na+/K+/ATP du canal ENAC dans le tube collecteur cortical.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Activation de la pompe Na+/K+/ATP du canal ENAC amiloride-sensible dans le tube collecteur cortical.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation de la sécrétion sodée dans la partie médullaire du tube collecteur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Désactivation de la sécrétion sodée dans la partie médullaire du tube collecteur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la natriurèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mécanisme de sur-remplissage implique l'activation de deux pompes à Na (pompe Na+/K+/ATP du canal ENAC amiloride-sensible) activant la réabsorption sodée dans la partie corticale du tube collecteur et désactivant la sécrétion dans la partie médullaire."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les résultats attendus concernant la fonction rénale, la natrémie et les paramètres urinaires dans le syndrome néphrotique non compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une fonction rénale toujours altérée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une natrémie normale ou diminuée (inflation hydrique et hémodilution).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la natriurèse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une inversion du rapport Na/K urinaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une fonction rénale normale, sauf en cas d'hypovolémie majeure.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fonction rénale est normale sauf si hypovolémie majeure (IRA fonctionnelle). La natrémie est normale ou diminuée (inflation hydrique et hémodilution). Au niveau urinaire, on observe une rétention sodée avec baisse de la natriurèse et inversion du rapport Na/K urinaire."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prise en charge spécifique de la péritonite médicale à pneumocoque, une complication fréquente du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une intervention chirurgicale d'urgence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une antibiothérapie à base de C3G uniquement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une antibiothérapie associée à des corticoïdes à fortes doses.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie prophylactique prolongée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surveillance sans traitement spécifique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péritonite médicale à pneumocoque est traitée uniquement par une antibiothérapie à base de C3G."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations la restriction hydrique est-elle spécifiquement indiquée dans le traitement symptomatique du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si la natrémie est supérieure à 145 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si la natrémie est inférieure à 130 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En présence d'œdèmes modérés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de diurèse abondante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de prise de poids rapide.",
+          "correct": false
+        }
+      ],
+      "explanation": "La restriction hydrique est indiquée si la natrémie est inférieure à 130 mmol/L."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle des aquarétiques, comme le Tolvaptan, dans le traitement du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils induisent une aquarèse efficace pour corriger les hyponatrémies de dilution sans hypovolémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils augmentent la réabsorption sodée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont utilisés en première intention pour tous les œdèmes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont des antagonistes sélectifs des récepteurs V1 de la vasopressine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils provoquent une hypovolémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les aquarétiques comme le Tolvaptan, antagoniste sélectif des récepteurs V2 de la vasopressine, induisent une aquarèse efficace capable de corriger les hyponatrémies de dilution sans hypovolémie."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le pourcentage de rémission spontanée possible lors de la première poussée du syndrome néphrotique idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "95%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "50%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "5%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "25%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "10%.",
+          "correct": false
+        }
+      ],
+      "explanation": "La rémission spontanée (résolution de la protéinurie et normalisation de l'albuminémie) est possible chez 5% des cas lors de la première poussée."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le protocole de la Société Française de Néphrologie Pédiatrique (SNP), dans quel cas les bolus intraveineux de méthylprednisolone (solumédrol) sont-ils utilisés pour la première poussée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement au début du traitement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de non-réponse après un mois de traitement oral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour toutes les formes cortico-sensibles.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de rechute précoce.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour prévenir les complications infectieuses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bolus intraveineux de méthylprednisolone (solumédrol) sont utilisés uniquement par la SNP en cas de non-réponse après un mois de traitement oral."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Décrivez la phase initiale du protocole de corticothérapie orale de la SNP pour la première poussée du syndrome néphrotique idiopathique.",
+      "options": [
+        {
+          "id": "A",
+          "text": "60 mg/m²/j (ou 2 mg/kg/j) pendant 2 semaines en une prise par jour.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "60 mg/m²/j (ou 2 mg/kg/j) pendant 4 semaines en 2 prises par jour.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "30 mg/m²/j (ou 1 mg/kg/j) pendant 4 semaines en une prise par jour.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "60 mg/m²/j un jour sur deux pendant 2 mois.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "1 g/1,73m² de surface corporelle de solumédrol en bolus IV.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le protocole de la SNP débute par 60 mg/m²/j (ou 2 mg/kg/j) pendant 4 semaines, en 2 prises tous les jours."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment est définie la cortico-résistance (SNCR) dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réponse après 4 semaines de corticothérapie orale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Absence de réponse après 4 semaines de corticothérapie orale et 3 bolus de méthylprednisolone.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réponse après 3 bolus de méthylprednisolone uniquement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence de réponse après 2 semaines de corticothérapie orale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rémission sans corticoïdes pendant plus de 2 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cortico-résistance (SNCR) est définie par l'absence de réponse après 4 semaines de corticothérapie orale et 3 bolus de méthylprednisolone."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment est définie la cortico-dépendance dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 2 rechutes au cours de la dégresssion des corticoïdes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Au moins 2 rechutes au cours de la dégresssion des corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une rechute plus de 14 jours après la fin du traitement de la première poussée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Au moins 2 rechutes moins de 14 jours après la fin du traitement de la première poussée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une rémission sans corticoïdes pendant plus de 2 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cortico-dépendance est définie par au moins 2 rechutes au cours de la dégresssion des corticoïdes ou moins de 14 jours après la fin du traitement de la première poussée."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour l'utilisation de thérapeutiques épargneuses de stéroïdes dans le traitement des rechutes du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'effets secondaires majeurs des corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de rechutes peu fréquentes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de rechutes cortico-dépendantes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de rechutes fréquentes ou précoces.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas de première poussée cortico-sensible.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les thérapeutiques épargneuses de stéroïdes sont utilisées en cas d'effets secondaires majeurs des corticoïdes, de rechutes cortico-dépendantes, ou de rechutes fréquentes ou précoces."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les exemples de thérapeutiques épargneuses de stéroïdes mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le furosémide.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le mycophénolate mofétil (MMF).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le lévamisole.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les inhibiteurs de la calcineurine (ciclosporine, tacrolimus).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le rituximab (Anti-CD20).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les épargneurs stéroïdiens incluent le MMF, le lévamisole, les immunosuppresseurs toxiques comme les inhibiteurs de la calcineurine (ciclosporine, tacrolimus), le cyclophosphamide, et les nouvelles thérapeutiques comme l'Anti-CD20 (rituximab)."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications spécifiques de la ponction biopsie rénale (PBR) en dehors des critères de pureté/impureté et de cortico-résistance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avant tout traitement par immunosuppresseurs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Deux ans après un traitement par ciclosporine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez un enfant de 10 ans avec un SNI cortico-sensible.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de rémission complète.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de rechute tardive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de la PBR incluent également avant tout traitement par immunosuppresseurs et 2 ans après un traitement par ciclosporine."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques à long terme associés aux formes cortico-résistantes du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un risque accru de maladie rénale chronique (MRC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un risque de maladie rénale au stade terminal (MRT).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La nécessité d'une épuration extra-rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un risque non négligeable de rechute sur rein transplanté.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une guérison spontanée à l'âge adulte.",
+          "correct": false
+        }
+      ],
+      "explanation": "La forme cortico-résistante pose le problème des thérapeutiques de seconde ligne avec leurs effets secondaires et le risque de maladie rénale chronique (MRC), de maladie rénale au stade terminal (MRT) nécessitant une épuration extra-rénale, voire une transplantation rénale avec un risque non négligeable de rechute sur rein transplanté."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui orientent vers un syndrome néphrotique secondaire selon l'âge d'apparition ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apparition précoce avant l'âge de 1 an.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Apparition entre 1 et 12 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Apparition après 12 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence dès la naissance.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Début entre 3 mois et 1 an.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'âge d'apparition peut orienter vers l'origine génétique si apparition précoce avant l'âge de 1 an, idiopathique entre 1-12 ans, ou secondaire après 12 ans."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du calcium sérique dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le calcium ionisé est diminué.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le calcium total est augmenté.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le calcium ionisé est normal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le calcium total est diminué.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il n'y a pas d'anomalie du calcium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le calcium ionisé est normal mais le calcium total est diminué."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs favorisant les complications thromboemboliques dans le syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'immobilisation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypocalcémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les anomalies de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperplaquettose par l'hypovolémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hyperalbuminémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications thromboemboliques sont favorisées par l'immobilisation, l'hypocalcémie, les anomalies de coagulation et l'hyperplaquettose par l'hypovolémie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée totale du protocole de corticothérapie de la SNP pour la première poussée du syndrome néphrotique idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "4 semaines.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "4,5 mois.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "6 mois.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "12 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "La durée totale du protocole de la SNP est de 4,5 mois."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Si la protéinurie ne se négative pas après les 4 premières semaines de traitement selon le protocole SNP, quelle est la prochaine étape ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter la corticothérapie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administrer 3 bolus IV de solumédrol à raison de 1 gramme/1,73m² de surface corporelle un jour sur deux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmenter la dose de prednisone orale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Passer directement aux immunosuppresseurs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réduire la dose de prednisone orale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si pas de négativation de la protéinurie au bout des 4 premières semaines du traitement, trois (3) bolus IV de solumédrol sont donnés à raison de 1 gramme/1,73m² de surface corporelle un jour sur deux."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment est définie une rechute fréquente du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 2 rechutes pour les 6 premiers mois de la poussée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Au moins 2 rechutes pour les 6 premiers mois de la poussée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus de 3 rechutes durant une année de suivi.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Moins de 4 rechutes durant une année de suivi.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une seule rechute par an.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les rechutes fréquentes sont définies par ≥ 2 rechutes pour les 6 premiers mois de la poussée ou > 3 rechutes durant une année de suivi."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets secondaires majeurs de la corticothérapie prolongée que les traitements épargneurs de stéroïdes visent à éviter ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le retard de croissance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La cataracte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ostéoporose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperactivité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hypotension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements épargneurs de stéroïdes sont utilisés en cas d'effets secondaires majeurs des corticoïdes, tels que le retard de croissance, la cataracte, l'ostéoporose et l'hyperactivité."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les nouveaux essais thérapeutiques mentionnés pour les rechutes du syndrome néphrotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Régime sans gluten.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Régime riche en protéines de lait de vache.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Zinc pour son effet immunomodulateur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Azithromycine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Anti-H2 (antiallergiques).",
+          "correct": true
+        }
+      ],
+      "explanation": "De nouveaux essais thérapeutiques pour les rechutes incluent le régime sans gluten, le régime sans protéines de lait de vache, le zinc (pour son effet immunomodulateur), l'azithromycine et les antiallergiques (anti-H2)."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'évolution du syndrome néphrotique idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son évolution est toujours prévisible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est généralement cortico-sensible et de bon pronostic à l'âge adulte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La maladie reste active durant les 5 premières années de survenue.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les rechutes finissent par être espacées pour se tarir à un âge adulte.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les rechutes persistent toujours sous forme de protéinurie intermittente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Son évolution est imprévisible, mais il est généralement cortico-sensible et de bon pronostic à un âge adulte. La maladie reste active durant les 5 premières années de survenue, et les rechutes finissent par être espacées pour se tarir à un âge adulte ou persister (sous formes de protéinurie intermittente ou SN)."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les types de glomérulopathies primitives pouvant être observées à la PBR dans le syndrome néphrotique idiopathique, en dehors des lésions glomérulaires minimes (LGM) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La glomérulonéphrite membraneuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La hyalinose segmentaire et focale (HSF).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La prolifération mésangiale diffuse (PMD).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La glomérulonéphrite extra-membraneuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La glomérulonéphrite à dépôts d'IgA.",
+          "correct": false
+        }
+      ],
+      "explanation": "La définition anatomoclinique du SNI inclut les lésions glomérulaires minimes (LGM) dans 90% des cas, mais aussi la hyalinose segmentaire et focale (HSF) ou la prolifération mésangiale diffuse (PMD)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques de la perte des charges négatives anioniques de la membrane basale glomérulaire dans le SNI ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Production de facteurs circulants modifiant la perméabilité glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Destructuration des diaphragmes de fentes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation des lymphocytes T et B.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la pression oncotique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la filtration glomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'origine immunologique du SNI implique les lymphocytes T et B, avec production de facteurs circulants (cytokines, enzymes, histamine) qui modifient la perméabilité glomérulaire et déstructurent les diaphragmes de fentes, entraînant une perte des charges négatives anioniques."
+    }
+  ]
+}

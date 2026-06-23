@@ -1,0 +1,1659 @@
+{
+  "lectureId": "22",
+  "number": "22",
+  "title": "Douleurs thoraciques aiguës",
+  "partie": "J1",
+  "specialty": "Cardiologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelles pathologies sont considérées comme des urgences vitales immédiates devant une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome coronarien aigu",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'embolie pulmonaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La tamponnade cardiaque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La dissection aortique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le reflux gastro-œsophagien",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pathologies à risque vital immédiat incluent le syndrome coronarien aigu, l'embolie pulmonaire, la tamponnade, la dissection aortique, le pneumothorax compressif et la perforation œsophagienne. Le reflux gastro-œsophagien n'est pas une urgence vitale immédiate."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les signes de gravité immédiate à rechercher chez un patient présentant une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des signes de détresse respiratoire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un état de choc",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des troubles neurologiques comme une syncope ou une lipothymie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fièvre isolée",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une douleur pariétale reproductible à la palpation",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de gravité immédiate devant une douleur thoracique sont respiratoires (signes de détresse respiratoire), cardiovasculaires (état de choc) et neurologiques (syncope, lipothymie). La fièvre isolée ou une douleur pariétale ne sont pas des signes de gravité immédiate."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Lors de l'interrogatoire d'une douleur thoracique, quelles caractéristiques orientent vers une origine coronarienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur constrictive",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une irradiation vers le cou, la mâchoire et les bras",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un déclenchement à l'effort",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un soulagement rapide par la trinitrine en moins de 3 minutes",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une douleur en coup de poignard",
+          "correct": false
+        }
+      ],
+      "explanation": "Une douleur constrictive, irradiant vers le cou, la mâchoire et les bras, déclenchée à l'effort et soulagée rapidement par la trinitrine (en moins de 3 minutes) évoque une origine coronarienne. Une douleur en coup de poignard est plutôt pulmonaire."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quel signe physique est pathognomonique d'une péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un souffle diastolique d'insuffisance aortique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un frottement péricardique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une asymétrie tensionnelle",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des râles crépitants",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un pouls paradoxal de Kussmaul",
+          "correct": false
+        }
+      ],
+      "explanation": "Un frottement péricardique est pathognomonique d'une péricardite. Les autres signes sont associés à d'autres pathologies (dissection aortique, pneumopathie, tamponnade ou embolie pulmonaire)."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les signes électrocardiographiques typiques d'un syndrome coronarien aigu avec sus-décalage persistant de ST ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un sus-décalage du segment ST convexe en haut, localisé dans un territoire systématisé",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un sous-décalage du segment ST diffus",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un bloc de branche gauche récent ou présumé récent",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des ondes T négatives de V1 à V4",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un sus-décalage de ST concave vers le haut, diffus",
+          "correct": false
+        }
+      ],
+      "explanation": "Un SCA ST+ se caractérise par un sus-décalage du segment ST convexe en haut, localisé dans un territoire systématisé, avec image en miroir, ou un bloc de branche gauche récent ou présumé récent. Le sous-décalage de ST ou les ondes T négatives sont plutôt associés au SCA sans sus-décalage persistant de ST ou à l'embolie pulmonaire. Le sus-décalage concave et diffus est typique de la péricardite."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel est le marqueur biologique le plus sensible et le plus spécifique de l'ischémie myocardique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les D-Dimères",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La CRP",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La troponine ultrasensible",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La lipasémie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La NFS",
+          "correct": false
+        }
+      ],
+      "explanation": "La troponine ultrasensible est le marqueur le plus sensible et le plus spécifique de l'ischémie myocardique. Les D-Dimères sont pour l'EP ou la DA, la CRP est un marqueur inflammatoire non spécifique, la lipasémie pour la pancréatite et la NFS pour l'anémie ou l'hyperleucocytose."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les signes radiologiques thoraciques pouvant orienter vers une dissection aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un élargissement du médiastin supérieur",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une image en « double contour » aortique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cardiomégalie symétrique en théière",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un foyer pulmonaire",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surélévation d'une coupole diaphragmatique",
+          "correct": false
+        }
+      ],
+      "explanation": "La radiographie de thorax peut montrer un élargissement médiastinal ou une image en « double contour » aortique en faveur d'une dissection de l'aorte. La cardiomégalie en théière est pour l'épanchement péricardique, le foyer pulmonaire pour la pneumonie, et la surélévation diaphragmatique pour l'embolie pulmonaire."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les quatre urgences cardiologiques à évoquer systématiquement devant une douleur thoracique aiguë (Acronyme PIED) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Péricardite aiguë",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infarctus du myocarde (Syndrome coronarien aigu)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Embolie pulmonaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dissection de l'aorte",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pneumothorax",
+          "correct": false
+        }
+      ],
+      "explanation": "Les quatre urgences cardiologiques à évoquer systématiquement sont la Péricardite aiguë, l'Insuffisance coronaire (SCA), l'Embolie pulmonaire et la Dissection de l'aorte (PIED). Le pneumothorax est une urgence respiratoire."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une douleur angineuse typique orientant vers un syndrome coronarien aigu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Siège rétrosternal, parfois précordial ou épigastrique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Type brûlure, constriction, enserrement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Irradiation au membre supérieur gauche, mâchoires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Soulagement par la position penchée en avant",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur en coup de poignard",
+          "correct": false
+        }
+      ],
+      "explanation": "Une douleur angineuse typique est souvent rétrosternale, de type brûlure/constriction/enserrement, et irradie vers le membre supérieur gauche ou les mâchoires. Le soulagement par la position penchée en avant est caractéristique de la péricardite, et la douleur en coup de poignard est pulmonaire."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est le maître symptôme de la dissection aiguë de l'aorte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dyspnée isolée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une douleur thoracique atroce, d'emblée maximale, à type de déchirement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une toux sèche persistante",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des vomissements isolés",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une fièvre modérée",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur thoracique est le maître symptôme de la dissection aortique. Il s'agit d'une douleur aiguë, prolongée, intense, parfois syncopale, transfixiante, à type de déchirement, irradiant dans le dos, migratrice, descendant vers les lombes, et d'emblée maximale."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est l'examen de référence pour la confirmation du diagnostic de dissection aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ECG 18 dérivations",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La radiographie de thorax",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'angioscanner thoracique ou aortique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échocardiographie transthoracique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le dosage des D-Dimères",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angioscanner est l'examen de référence pour la confirmation du diagnostic de dissection aortique. Les autres examens peuvent orienter mais ne sont pas l'examen de confirmation de référence."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quels sont les signes physiques du 'trépied pleurétique' en cas de pleurésie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Matité 'de bois'",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Baisse des vibrations vocales",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Baisse du murmure vésiculaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tympanisme",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Frottement pleural",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trépied pleurétique est caractérisé par une matité 'de bois', une baisse des vibrations vocales et une baisse du murmure vésiculaire. Le tympanisme est associé au pneumothorax."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une douleur thoracique d'origine pariétale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours soulagée par la trinitrine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle se majore à la palpation de la zone douloureuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est rythmée par les repas",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à une fièvre",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est soulagée par la position penchée en avant",
+          "correct": false
+        }
+      ],
+      "explanation": "La reproduction de la douleur à la compression de la zone douloureuse oriente vers une origine pariétale. Les autres options sont des caractéristiques d'autres types de douleurs (coronarienne, œsophagienne, péricardique)."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques d'un pneumothorax spontané ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique vive, brutale, en coup de poignard",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dyspnée de type polypnée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abolition des vibrations vocales du côté atteint",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Matité à la percussion du côté atteint",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tympanisme à la percussion du côté atteint",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pneumothorax spontané se manifeste par une douleur thoracique vive, brutale, en coup de poignard, une dyspnée de type polypnée. À l'examen physique, on retrouve une abolition des vibrations vocales et un tympanisme à la percussion du côté atteint, ainsi qu'une diminution ou abolition du murmure vésiculaire. La matité est associée à la pleurésie."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques et radiologiques d'une pneumonie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre et signes respiratoires (toux, expectoration)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur thoracique d'allure pleurétique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution des murmures vésiculaires et râles crépitants",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Opacité parenchymateuse systématisée avec bronchogramme aérien à la radiographie de thorax",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperclarté avasculaire à la radiographie de thorax",
+          "correct": false
+        }
+      ],
+      "explanation": "La pneumonie se caractérise par de la fièvre, des signes respiratoires (toux, expectoration, dyspnée, hémoptysie), une douleur thoracique d'allure pleurétique, une diminution des murmures vésiculaires, des râles crépitants, parfois une matité ou un souffle tubaire. La radiographie de thorax montre une opacité parenchymateuse systématisée avec bronchogramme aérien. L'hyperclarté avasculaire est un signe de pneumothorax."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments de l'interrogatoire sont essentiels pour orienter le diagnostic d'une douleur thoracique aiguë non traumatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge du patient",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les facteurs de risque cardiovasculaires",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les antécédents personnels et familiaux (coronariens, thrombo-emboliques, respiratoires, cancer)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise de traitements au long cours, notamment pilule œstro-progestative",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le contexte de survenue de la douleur",
+          "correct": true
+        }
+      ],
+      "explanation": "L'interrogatoire doit relever l'âge, les facteurs de risque cardiovasculaires, les antécédents médico-chirurgicaux (cardiaques, thrombo-emboliques, respiratoires, cancer), la prise de traitements (pilule œstro-progestative) et le contexte de survenue de la douleur. C'est un temps essentiel qui permet souvent d'approcher le diagnostic."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques sémiologiques de la douleur thoracique qui peuvent orienter vers une étiologie œsophagienne ou gastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur de type brûlure",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une douleur rythmée par les repas",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une douleur soulagée par la position penchée en avant",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une douleur soulagée par l'alimentation",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une douleur irradiant vers le dos",
+          "correct": false
+        }
+      ],
+      "explanation": "Une douleur de type brûlure peut évoquer un reflux gastro-œsophagien. Une douleur rythmée par les repas ou soulagée par l'alimentation oriente vers une origine œsophagienne ou gastrique (ulcère gastroduodénal). La position penchée en avant soulage la péricardite et la pancréatite aiguë, mais majore le reflux gastro-œsophagien. L'irradiation vers le dos peut être aortique ou pancréatique."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cardiovasculaires à l'examen physique doivent être recherchés systématiquement devant une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une insuffisance ventriculaire droite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une asymétrie tensionnelle d'au moins 20 mmHg entre les deux membres",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un frottement péricardique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un souffle diastolique d'insuffisance aortique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un souffle systolique d'insuffisance mitrale",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes cardiovasculaires doivent être recherchés : l'insuffisance ventriculaire droite (EP, tamponnade, PNO compressif, IDM VD), l'asymétrie tensionnelle (dissection aortique), le frottement péricardique (péricardite), le souffle diastolique d'insuffisance aortique (dissection aortique) et le souffle systolique d'insuffisance mitrale (rupture de pilier post-IDM)."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes électrocardiographiques pouvant être observés lors d'une embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tachycardie sinusale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bloc de branche droit",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aspect S1Q3 (ondes S en DI et Q en DIII)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ondes T négatives de V1 à V4",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sus-décalage de ST diffus concave vers le haut",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ECG peut montrer une tachycardie sinusale (le plus constant), un bloc de branche droit, un axe droit, un aspect S1Q3, et des ondes T négatives de V1 à V4 (ischémie VD). Le sus-décalage de ST diffus concave vers le haut est caractéristique de la péricardite aiguë."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations un ECG normal n'exclut-il pas le diagnostic de syndrome coronarien aigu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En inter-critique pour un SCA sans sus-décalage persistant de ST",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de forte suspicion clinique d'origine coronaire de la douleur thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez un patient avec un bloc de branche gauche complet connu",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chez un patient avec un rythme électro-entraîné",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Jamais, un ECG normal exclut toujours un SCA",
+          "correct": false
+        }
+      ],
+      "explanation": "Un ECG normal, surtout en inter-critique, n'exclut pas le diagnostic d'un SCA sans sus-décalage persistant de ST. De plus, en cas de forte suspicion clinique d'une origine coronaire, des troponines négatives n'éliminent pas le diagnostic d'un SCA sans sus-décalage persistant de ST (angor instable). Les BBGC et rythme électro-entraîné rendent l'interprétation difficile, mais ne sont pas des situations où un ECG normal exclut le SCA."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les avantages de l'échocardiographie transthoracique (ETT) dans l'exploration d'une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechercher un épanchement péricardique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Identifier une anomalie de la racine aortique (dissection aortique)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Détecter des troubles de la cinétique segmentaire (cardiopathie ischémique)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mettre en évidence une dilatation des cavités droites avec hypertension artérielle pulmonaire (EP grave)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Confirmer le diagnostic d'embolie pulmonaire en montrant l'image du thrombus dans l'artère pulmonaire",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ETT permet de rechercher un épanchement péricardique, une anomalie de la racine aortique (DA), des troubles de la cinétique segmentaire (cardiopathie ischémique), une dilatation des cavités droites avec HTAP (EP grave), et rarement de confirmer l'EP en montrant le thrombus."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de gravité respiratoire à rechercher devant une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polypnée sévère (> 30/min) avec impossibilité de parler",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes de lutte respiratoire (tirage intercostal)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes d'hypercapnie (encéphalopathie, flapping trémor, agitation)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypoxie sévère (désaturation profonde, cyanose, hypoxie réfractaire)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Signes d'épuisement respiratoire (bradypnée < 10/min, pauses respiratoires)",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes sont des indicateurs de gravité respiratoire : polypnée sévère, signes de lutte, signes d'hypercapnie, hypoxie sévère et signes d'épuisement respiratoire."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de gravité cardiovasculaires à rechercher devant une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "État de choc (collapsus, hypotension, marbrures, oligurie)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syncope ou lipothymies",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pouls paradoxal de Kussmaul (baisse de la PAS > 20 mmHg à l'inspiration profonde)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tachycardie isolée",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un souffle systolique d'insuffisance mitrale",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de gravité cardiovasculaires incluent l'état de choc, la syncope ou lipothymies, et le pouls paradoxal de Kussmaul. Une tachycardie isolée ou un souffle systolique d'insuffisance mitrale ne sont pas des signes de gravité cardiovasculaire immédiate à eux seuls."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les arguments cliniques et paracliniques qui orientent vers une dissection aortique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique atroce, transfixiante, à type de déchirement, irradiant dans le dos et migratrice",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asymétrie de pouls et/ou de tension artérielle (anisotension ≥ 20 mmHg)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Élargissement médiastinal à la radiographie de thorax",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sus-décalage de ST diffus concave vers le haut à l'ECG",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Présence d'un souffle diastolique d'insuffisance aortique",
+          "correct": true
+        }
+      ],
+      "explanation": "La douleur typique, l'asymétrie de pouls/tension, l'élargissement médiastinal à la radio et le souffle diastolique d'insuffisance aortique sont des arguments pour la dissection aortique. Le sus-décalage de ST diffus concave vers le haut est caractéristique de la péricardite."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification de Stanford, quelles sont les caractéristiques de la dissection aortique de type A ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle touche l'aorte ascendante",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle épargne l'aorte ascendante",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C'est une extrême urgence chirurgicale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est généralement traitée médicalement",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est moins grave que le type B",
+          "correct": false
+        }
+      ],
+      "explanation": "La dissection aortique de type A touche l'aorte ascendante et constitue une extrême urgence chirurgicale. Le type B épargne l'aorte ascendante et est souvent géré médicalement."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes fonctionnels et physiques les plus fréquents en cas d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée (maître symptôme, 80%)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur thoracique brutale, en coup de poignard, d'allure pleurétique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Polypnée superficielle (70%)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tachycardie > 100 bpm (26%)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Frottement péricardique",
+          "correct": false
+        }
+      ],
+      "explanation": "La dyspnée et la douleur thoracique sont les signes fonctionnels les plus fréquents. La polypnée superficielle et la tachycardie sont les signes physiques les plus constants. Le frottement péricardique est un signe de péricardite."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels signes radiologiques thoraciques peuvent être observés en cas d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signe de Westermark (hyper-clarté dans un territoire vasculaire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Surélévation de la coupole diaphragmatique du côté embolisé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atélectasies en bandes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Opacité basale arrondie ou triangulaire (infarctus pulmonaire)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Élargissement du médiastin supérieur",
+          "correct": false
+        }
+      ],
+      "explanation": "La radiographie de thorax peut montrer le signe de Westermark, une surélévation de la coupole diaphragmatique, des atélectasies en bandes ou des signes d'infarctus pulmonaire. L'élargissement du médiastin supérieur est un signe de dissection aortique."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la douleur thoracique en cas de péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Siège souvent précordial",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "D'allure angineuse (brûlure ou enserrement)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résistante à la trinitrine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exagérée par l'inspiration profonde, la toux et le décubitus dorsal",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Soulagée par la position penchée en avant",
+          "correct": true
+        }
+      ],
+      "explanation": "La douleur de la péricardite aiguë est souvent précordiale, d'allure angineuse, résistante à la trinitrine, exagérée par l'inspiration profonde, la toux et le décubitus dorsal, et soulagée par la position penchée en avant."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes électrocardiographiques des stades de Holzmann de la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stade 1 : sus-décalage de ST concave vers le haut, diffus, sans miroir",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stade 1 : sous-décalage de PQ",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stade 2 : retour de ST vers la ligne iso-électrique et aplatissement de l'onde T",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stade 3 : négativation des ondes T",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Stade 4 : persistance du sus-décalage de ST",
+          "correct": false
+        }
+      ],
+      "explanation": "Les stades de Holzmann sont : Stade 1 (24h) : sus-décalage de ST concave vers le haut, diffus, sans miroir, avec sous-décalage de PQ. Stade 2 (48h) : retour de ST à la ligne iso-électrique et aplatissement de l'onde T. Stade 3 (1 semaine) : négativation des ondes T. Stade 4 (1 mois) : normalisation de l'ECG."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et paracliniques d'une tamponnade cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique aiguë et dyspnée sévère",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes d'insuffisance cardiaque droite aiguë (hépatomégalie, reflux hépato-jugulaire, turgescence jugulaire)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes de choc (hypotension artérielle, pouls faible et filant)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Microvoltage diffus et alternance électrique à l'ECG",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Frottement péricardique constant à l'auscultation",
+          "correct": false
+        }
+      ],
+      "explanation": "La tamponnade se manifeste par une douleur thoracique aiguë, une dyspnée sévère, des signes d'insuffisance cardiaque droite aiguë, des signes de choc, un microvoltage diffus et une alternance électrique à l'ECG. Le frottement péricardique est souvent absent en cas de tamponnade importante."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies du pneumothorax spontané ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rupture de blebs (dystrophie bulleuse sous-pleurale)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Emphysème panlobulaire (déficit en Alpha-1-antitrypsine)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rupture de bulles d'emphysème de grande taille chez le sujet âgé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fibroses interstitielles ou radique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pleurésie exsudative",
+          "correct": false
+        }
+      ],
+      "explanation": "Les étiologies du pneumothorax spontané incluent la rupture de blebs, l'emphysème panlobulaire, la rupture de bulles d'emphysème de grande taille chez le sujet âgé, et diverses affections pulmonaires comme les fibroses interstitielles. La pleurésie est un épanchement liquidien, non aérien."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs favorisants du pneumothorax spontané ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperpression intra-thoracique (effort de toux, port de charge lourde, éternuement)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Variation de la pression atmosphérique (vol par avion, plongée sous-marine)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tabagisme",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sujet jeune, maigre, longiligne",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antécédents de maladie thrombo-embolique veineuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs favorisants incluent l'hyperpression intra-thoracique, les variations de pression atmosphérique. Le tabagisme et le profil jeune, maigre, longiligne sont des terrains prédisposants au pneumothorax idiopathique. Les antécédents de MTEV sont des facteurs de risque d'embolie pulmonaire."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques radiologiques d'une pleurésie de grande abondance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opacité dense, homogène, à limite supérieure nette concave en haut et en dedans (courbe de Damoiseau)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémithorax blanc avec déviation du médiastin vers le côté controlatéral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Émoussement du cul de sac pleural",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperclarté avasculaire",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Bronchogramme aérien",
+          "correct": false
+        }
+      ],
+      "explanation": "Une pleurésie de grande abondance se manifeste par une opacité dense, homogène, avec la courbe de Damoiseau, et un hémithorax blanc avec déviation du médiastin controlatéral. L'émoussement du cul de sac est pour une pleurésie minime. L'hyperclarté avasculaire est pour le pneumothorax et le bronchogramme aérien pour la pneumonie."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies des pleurésies exsudatives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infectieuses (bactériennes, tuberculeuses)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Néoplasiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Médicamenteuses",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maladies de système",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Insuffisance cardiaque",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pleurésies exsudatives sont principalement infectieuses (bactériennes, tuberculeuses), néoplasiques, médicamenteuses ou liées à des maladies de système. L'insuffisance cardiaque est une cause de pleurésie transsudative."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des douleurs thoraciques d'origine psychogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleurs aiguës évoluant de façon répétitive, très ancienne",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Topographie sous-mammaire très précise, à type de picotements ou coups d'aiguille",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur ne modifiant pas l'activité physique du patient, survenant au repos",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Douleur rythmée par les contextes de stress, accompagnée d'une riche symptomatologie fonctionnelle",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déclenchées par l'effort",
+          "correct": false
+        }
+      ],
+      "explanation": "Les douleurs psychogènes sont souvent répétitives et anciennes, sous-mammaires précises, ne modifient pas l'activité physique, surviennent au repos, et sont rythmées par le stress avec une riche symptomatologie fonctionnelle. Elles ne sont pas déclenchées par l'effort mais plutôt par le stress, le surmenage ou l'émotion."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où l'ECG est d'interprétation difficile pour le diagnostic d'un syndrome coronarien aigu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bloc de branche gauche complet (BBGC)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rythme électro-entraîné (pacemaker)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypertrophie ventriculaire gauche (HVG)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Wolff Parkinson White",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sus-décalage de ST convexe en haut",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ECG est parfois d'interprétation difficile dans les situations de bloc de branche gauche complet, rythme électro-entraîné, hypertrophie ventriculaire gauche et syndrome de Wolff Parkinson White. Le sus-décalage de ST convexe en haut est un signe direct de SCA ST+, non une difficulté d'interprétation."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Dans le cadre d'un SCA sans sus-décalage persistant de ST, quelles affirmations concernant les troponines sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des troponines négatives éliminent toujours le diagnostic d'un SCA sans sus-décalage persistant de ST",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si les troponines sont négatives, on parle d'angor instable",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si les troponines sont positives, on parle d'IDM sans onde Q",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dosage des troponines ne doit en aucun cas retarder la prise en charge",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'algorithme 0h/1h avec troponine ultrasensible permet de réduire le délai diagnostique",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de SCA sans sus-décalage persistant de ST, des troponines négatives ne l'éliminent pas (on parle alors d'angor instable), tandis que des troponines positives définissent l'IDM sans onde Q. Le dosage ne doit pas retarder la prise en charge, et l'algorithme 0h/1h avec troponine ultrasensible est recommandé pour réduire le délai diagnostique."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments cliniques et paracliniques qui peuvent simuler une douleur coronarienne mais sont en fait d'origine œsophagienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur médio-thoracique constrictive",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sensibilité à la prise de Trinitrine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Modifications ECG per-critiques (négativation des ondes T)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déclenchement par les efforts",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Facilitation par la déglutition",
+          "correct": true
+        }
+      ],
+      "explanation": "Le spasme œsophagien peut engendrer une douleur médio-thoracique constrictive, sensible à la trinitrine, et peut même provoquer des modifications ECG per-critiques (négativation des ondes T), mimant une douleur angineuse. Cependant, elle n'est pas déclenchée par les efforts mais souvent facilitée par la déglutition."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes de gravité scannographiques en cas d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embolie pulmonaire massive (touchant plus de 50% du lit artériel pulmonaire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dilatation du tronc de l'artère pulmonaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dilatation des cavités droites",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bombement paradoxal du septum interventriculaire vers le ventricule gauche",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Présence d'un épanchement pleural",
+          "correct": false
+        }
+      ],
+      "explanation": "Une embolie pulmonaire massive, la dilatation du tronc de l'artère pulmonaire, la dilatation des cavités droites et le bombement paradoxal du septum interventriculaire sont des signes de gravité scannographiques, témoignant d'une dysfonction ventriculaire droite et d'un cœur pulmonaire aigu. L'épanchement pleural n'est pas un signe de gravité scannographique en soi."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Dans la démarche diagnostique d'une suspicion d'embolie pulmonaire sans instabilité hémodynamique, quelles sont les étapes correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si EP probable (Wells simplifié ≥ 2), réaliser un angioscanner thoracique d'emblée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si EP probable, doser les D-Dimères avant l'angioscanner",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Si EP peu probable (Wells simplifié < 2), doser les D-Dimères",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si D-Dimères négatifs et EP peu probable, le diagnostic d'EP est éliminé",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Si D-Dimères positifs et EP peu probable, compléter par un angioscanner thoracique",
+          "correct": true
+        }
+      ],
+      "explanation": "Si l'EP est probable (Wells ≥ 2), l'angioscanner est réalisé d'emblée, les D-Dimères n'ayant pas de place. Si l'EP est peu probable (Wells < 2), on dose les D-Dimères : si négatifs, l'EP est éliminée ; si positifs, un angioscanner est nécessaire."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les avantages de la scintigraphie pulmonaire de perfusion-ventilation dans le diagnostic d'embolie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faible irradiation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence de risque d'allergie au produit de contraste",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Excellente valeur prédictive négative si réalisée tôt (< 48h)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Faisable en cas d'insuffisance rénale ou de grossesse",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Haute spécificité en cas de poumon antérieurement pathologique",
+          "correct": false
+        }
+      ],
+      "explanation": "La scintigraphie pulmonaire présente une faible irradiation, pas de risque d'allergie au PDC, une excellente valeur prédictive négative si réalisée tôt, et est faisable en cas d'insuffisance rénale ou de grossesse. Son inconvénient majeur est sa très faible spécificité en cas de poumon antérieurement pathologique."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères permettant de classer la sévérité de l'embolie pulmonaire selon le risque de décès précoce à 1 mois ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'instabilité hémodynamique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le score de risque de PESI simplifié (sPESI)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dysfonction du ventricule droit (ETT ou angioscanner)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ischémie myocardique (élévation des troponines)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence d'une douleur thoracique d'allure pleurétique",
+          "correct": false
+        }
+      ],
+      "explanation": "La sévérité de l'EP est évaluée sur l'instabilité hémodynamique, le score sPESI, la dysfonction du ventricule droit (ETT, angioscanner) et l'ischémie myocardique (élévation des troponines). La douleur thoracique d'allure pleurétique est un symptôme, non un critère de sévérité pronostique."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications aiguës et tardives de la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tamponnade cardiaque (aiguë)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Péri-myocardite (aiguë)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fibrillation auriculaire (aiguë)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rechute (tardive)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Constriction (tardive)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications aiguës sont la tamponnade, la péri-myocardite et la fibrillation auriculaire. Les complications tardives sont les rechutes et la constriction."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les diagnostics différentiels de la tamponnade cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infarctus du myocarde inférieur étendu au ventricule droit",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Embolie pulmonaire massive bilatérale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pneumothorax bilatéral compressif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Péricardite sèche",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Reflux gastro-œsophagien",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels de la tamponnade cardiaque sont l'IDM inférieur étendu au ventricule droit, l'embolie pulmonaire massive bilatérale et le pneumothorax bilatéral compressif. La péricardite sèche et le RGO ne sont pas des diagnostics différentiels de la tamponnade."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les arguments cliniques et paracliniques orientant vers une myocardite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur de type péricarditique pouvant mimer un SCA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Élévation prolongée de la troponinémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échocardiographie montrant un trouble de la cinétique du ventricule gauche segmentaire ou diffus",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Coronarographie normale",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "IRM montrant des plages de rehaussement tardif au sous-épicarde sans systématisation artérielle",
+          "correct": true
+        }
+      ],
+      "explanation": "La myocardite se manifeste par une douleur de type péricarditique ou mimant un SCA, une élévation prolongée de la troponinémie, des troubles de la cinétique du VG à l'échocardiographie, une coronarographie normale, et des plages de rehaussement tardif à l'IRM."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les difficultés diagnostiques et radiologiques d'un pneumothorax secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aggravation rapide d'une dyspnée ancienne, orientant vers une IRA/IRC",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur angoissante ou dyspnée avec détresse respiratoire orientant à tort vers une cause cardiologique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Décollement pulmonaire minime masqué par des lésions emphysémateuses diffuses",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumothorax partiel confondu avec une bulle géante d'emphysème",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Radiographie de thorax toujours normale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pneumothorax secondaire peut être mal toléré et présenter des difficultés diagnostiques (aggravation rapide de dyspnée, confusion avec cause cardiologique) et radiologiques (décollement minime masqué, confusion avec bulle géante). La radiographie n'est pas toujours normale."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des douleurs thoraciques d'origine digestive qui les distinguent des douleurs coronariennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Siège rétrosternal sans irradiation latérale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Persistance d'un fond douloureux après un début aigu",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Existence d'une régurgitation des liquides",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déclenchement par la déglutition ou l'antéflexion",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de relation avec un effort",
+          "correct": true
+        }
+      ],
+      "explanation": "Les douleurs digestives peuvent évoquer une douleur coronarienne mais s'en distinguent par leur siège rétrosternal sans irradiation latérale, la persistance d'un fond douloureux, la régurgitation des liquides, le déclenchement par la déglutition ou l'antéflexion, et l'absence de relation avec un effort."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de douleurs thoraciques d'origine nerveuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleurs d'origine vertébrale ou médullaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleurs postzostériennes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Schwannomes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Neuropathies thoraciques (ex: diabète)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Névralgies intercostales",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces options sont des causes de douleurs thoraciques d'origine nerveuse : douleurs vertébrales/médullaires, postzostériennes, schwannomes, neuropathies thoraciques (diabète) et névralgies intercostales."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes de gravité d'une pneumonie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "État de choc septique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Détresse respiratoire aiguë",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Trouble de la conscience",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fréquence respiratoire > 30 cycles/min",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pression artérielle systolique < 90 mmHg",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes de gravité d'une pneumonie incluent l'état de choc septique, la détresse respiratoire aiguë, les troubles de la conscience, une fréquence respiratoire > 30 cycles/min, une PAS < 90 mmHg, une FC > 120 bpm, une température < 35°C ou ≥ 40°C, et des signes associés comme la cyanose, le tirage ou les marbrures."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments clés du message essentiel à retenir devant une douleur thoracique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ne pas passer à côté d'une urgence thérapeutique (IDM, EP, DA, tamponnade, PNO compressif)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ne pas se tromper de diagnostic pour éviter une erreur thérapeutique fatale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un interrogatoire minutieux est fondamental pour orienter le bilan",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ECG et le bilan biologique complètent l'examen clinique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La recherche de signes de gravité est primordiale pour décider rapidement de l'orientation du patient",
+          "correct": true
+        }
+      ],
+      "explanation": "Le message essentiel souligne l'importance de ne pas méconnaître une urgence thérapeutique et de ne pas se tromper de diagnostic. Il insiste également sur le rôle fondamental de l'interrogatoire, de l'ECG, du bilan biologique et de la recherche des signes de gravité pour une prise en charge adéquate."
+    }
+  ]
+}

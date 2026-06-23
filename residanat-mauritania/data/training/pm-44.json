@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-44",
+  "title": "Déshydratations",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Concernant la répartition de l'eau dans le corps humain, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'eau représente environ 60% du poids corporel total.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le secteur intracellulaire contient 1/3 de l'eau corporelle totale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le secteur extracellulaire est composé du secteur interstitiel (15%) et vasculaire (5%).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La teneur en eau est généralement plus élevée chez la femme que chez l'homme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La quantité d'eau corporelle augmente avec l'âge.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'eau représente 60% du poids corporel. Le secteur intracellulaire contient 2/3 (40%) et le secteur extracellulaire 1/3 (20%), dont 15% interstitiel et 5% vasculaire. La teneur en eau est plus faible chez la femme et diminue avec l'âge."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale force motrice physique qui régit les mouvements d'eau à travers la membrane cellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression hydrostatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'osmolalité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pression oncotique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La concentration en urée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La glycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'osmolalité est la force motrice physique qui régit les mouvements d'eau à travers la membrane cellulaire."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques caractéristiques d'une hyperhydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perte de poids.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oedèmes généralisés, déclives et prenant le godet.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécheresse des muqueuses.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Épanchement des séreuses (anasarque).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypotension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperhydratation extracellulaire se manifeste par une prise de poids, des œdèmes généralisés (déclives, blancs, mous, indolores, prenant le godet) et des épanchements des séreuses (anasarque). L'HTA est également un signe de surcharge vasculaire."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures thérapeutiques initiales pour induire un bilan sodé négatif dans l'hyperhydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un régime alimentaire désodé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation des apports hydriques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'administration de diurétiques de l'anse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un régime hyperprotidique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une restriction des apports de potassium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de l'hyperhydratation extracellulaire vise à induire un bilan sodé négatif, notamment par un régime alimentaire désodé (< 2 g/jour) et l'utilisation de diurétiques d'action rapide, comme les diurétiques de l'anse en première intention."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une déshydratation extracellulaire pure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à une perte d'eau libre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle résulte d'une perte de sodium.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle s'accompagne d'une hyper-osmolalité extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le volume du secteur intracellulaire reste inchangé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La déshydratation extracellulaire est due à une perte de sodium. Si elle est pure (perte sodée iso-osmotique), l'osmolalité extracellulaire reste normale et le volume du secteur intracellulaire est inchangé."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels mécanismes physiopathologiques peuvent entraîner une hyperhydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation de la pression oncotique intra-capillaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la pression hydrostatique intra-capillaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypoprotidémie sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une rétention sodée rénale primitive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypovolémie efficace.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperhydratation extracellulaire peut résulter d'une diminution de la pression oncotique intra-capillaire (par hypoprotidémie sévère) ou d'une augmentation de la pression hydrostatique intra-capillaire (par insuffisance cardiaque ou rétention sodée rénale primitive). Une hypovolémie efficace est une conséquence de la diminution de la pression oncotique, mais pas un mécanisme direct d'hyperhydratation EC."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes biologiques peuvent être observés en cas d'hyperhydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyperprotidémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de l'hématocrite.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypoprotidémie par hémodilution.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fausse anémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperhydratation extracellulaire peut entraîner une hémodilution par surcharge vasculaire, se manifestant par une hypoprotidémie et une fausse anémie (diminution de l'hématocrite). Aucun signe biologique ne reflète directement le volume du secteur interstitiel."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les causes suivantes, lesquelles peuvent provoquer une hyperhydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome néphrotique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une glomérulonéphrite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une dénutrition sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une polyurie osmotique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une insuffisance surrénale aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les principales causes d'hyperhydratation extracellulaire incluent l'insuffisance cardiaque, la cirrhose ascitique, le syndrome néphrotique, la glomérulonéphrite aiguë, l'insuffisance rénale (si apports sodés > excrétion) et l'hypoprotidémie (dénutrition, entéropathie exsudative)."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'utilisation des diurétiques dans le traitement de l'hyperhydratation extracellulaire, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les diurétiques thiazidiques sont plus puissants que les diurétiques de l'anse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les diurétiques de l'anse sont utilisés en première intention.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les diurétiques de l'anse ont une action rapide par voie intraveineuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les diurétiques épargneurs de potassium sont utilisés seuls en cas d'œdème résistant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'efficacité des diurétiques de l'anse est inversement proportionnelle à la dose utilisée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diurétiques de l'anse sont en première intention, avec une action rapide (1 à 4 minutes IV). Leur action est proportionnelle à la dose. Les diurétiques thiazidiques sont moins puissants. Les diurétiques épargneurs de potassium sont en association en cas d'œdème résistant aux diurétiques de l'anse à forte dose."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pli cutané persistant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypertension artérielle de décubitus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un aplatissement des veines superficielles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tachycardie compensatrice réflexe.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une soif intense, plus marquée que dans la déshydratation intracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de la déshydratation extracellulaire incluent le pli cutané, l'hypotension artérielle (orthostatique puis de décubitus), la tachycardie compensatrice réflexe, l'aplatissement des veines superficielles, la baisse de la pression veineuse centrale, l'oligurie, la sécheresse de la peau (aisselles) et une soif fréquente, mais moins marquée que dans la déshydratation intracellulaire."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs biologiques d'une hémoconcentration en cas de déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une protidémie inférieure à 75 g/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une fausse polyglobulie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un hématocrite supérieur à 50%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypoprotidémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémoconcentration se manifeste par une protidémie supérieure à 75 g/L, une fausse polyglobulie et un hématocrite supérieur à 50% (sauf en cas d'hémorragie associée)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "En cas de pertes sodées extrarénales, quelle est la réponse rénale adaptée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diurèse normale ou augmentée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une natriurèse effondrée (< 20 mmol/24h).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un rapport Na/K urinaire supérieur à 1.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des urines concentrées.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une urée U/P inférieure à 10.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de pertes sodées extrarénales, la réponse rénale adaptée est une conservation du sodium, se traduisant par une oligurie, une natriurèse effondrée (< 20 mmol/24h), un rapport Na/K urinaire < 1 et des urines concentrées (Urée U/P > 10, Créatinine U/P > 30, Osmolalité U > 500)."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de pertes sodées extrarénales pouvant entraîner une déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des vomissements prolongés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une sudation importante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une néphropathie interstitielle chronique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des diarrhées profuses.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome de levée d'obstacle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes sodées extrarénales peuvent être d'origine digestive (vomissements prolongés, diarrhées profuses, aspiration digestive, fistules) ou cutanée (sudation importante, exsudation cutanée comme les brûlures, mucoviscidose)."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de pertes sodées rénales pouvant entraîner une déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une insuffisance surrénale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une polyurie osmotique (diabète sucré décompensé).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une néphropathie interstitielle avec perte de sel obligatoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des diarrhées profuses.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une péritonite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes sodées rénales peuvent être dues à une maladie rénale intrinsèque (néphropathie interstitielle, IRC sévère avec régime désodé, syndrome de levée d'obstacle) ou à une anomalie fonctionnelle (polyurie osmotique, hypercalcémie, diurétiques, insuffisance surrénale aiguë)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement initial en cas d'hypovolémie sévère avec collapsus hémodynamique lors d'une déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'apport de soluté salé isotonique 9 g/L par voie IV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'administration de soluté de remplissage (colloïde).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'apport de bicarbonate de sodium isotonique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La restriction hydrique stricte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'administration de diurétiques de l'anse.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hypovolémie sévère avec collapsus hémodynamique, le traitement initial est l'administration de soluté de remplissage (colloïde) et éventuellement une transfusion si hémorragie. L'apport de NaCl isotonique est pour la correction du déficit sodé, mais les colloïdes sont prioritaires pour le remplissage rapide du volume plasmatique en cas de collapsus."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la déshydratation intracellulaire (DIC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est secondaire à une hypo-osmolalité plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à une perte d'eau libre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle entraîne un mouvement d'eau des cellules vers le secteur extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à une hyponatrémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est la conséquence d'un bilan sodé négatif.",
+          "correct": false
+        }
+      ],
+      "explanation": "La déshydratation intracellulaire est un mouvement d'eau des cellules vers le secteur extracellulaire, secondaire à une hyper-osmolalité plasmatique efficace (> 300 mOsm/kg), due à une perte d'eau libre (bilan hydrique négatif)."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux stimuli de la sécrétion d'ADH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de l'osmolalité plasmatique de 1%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de l'osmolalité plasmatique de 1%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du volume plasmatique de 10-15%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une diminution du volume plasmatique de 10-15%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypernatrémie isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH est stimulée par une augmentation de l'osmolalité plasmatique (de l'ordre de 1%) et une diminution du volume plasmatique (de l'ordre de 10-15%)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques sont évocateurs d'une déshydratation intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une soif intense.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un pli cutané persistant.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une sécheresse des muqueuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une prise de poids.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypotension artérielle orthostatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de la déshydratation intracellulaire incluent la soif (parfois intense), la perte de poids et la sécheresse des muqueuses (notamment de la face interne des joues). Les troubles neurologiques sont également possibles."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux marqueurs biologiques d'une déshydratation intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyponatrémie < 135 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypernatrémie > 145 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une osmolalité plasmatique diminuée < 280 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une osmolalité plasmatique élevée > 300 mOsmol/kg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypoprotidémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Biologiquement, la déshydratation intracellulaire se caractérise par une hypernatrémie > 145 mmol/L et une osmolalité plasmatique élevée > 300 mOsmol/kg d'eau."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de pertes d'eau non compensées d'origine extrarénale, entraînant une hypernatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une polypnée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diarrhée osmotique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un coup de chaleur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un diabète insipide central.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une néphropathie interstitielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes d'eau non compensées d'origine extrarénale (avec réponse rénale adaptée, urines concentrées) incluent les pertes cutanées (coup de chaleur, brûlure), respiratoires (polypnée, hyperventilation prolongée, hyperthermie) et digestives (diarrhée osmotique)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de pertes d'eau non compensées d'origine rénale, entraînant une hypernatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sudation importante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une polyurie osmotique (par exemple, diabète sucré).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un diabète insipide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des vomissements prolongés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une insuffisance surrénale aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes d'eau non compensées d'origine rénale incluent la polyurie osmotique (diabète, mannitol) et la polyurie hypotonique (diabète insipide)."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principes généraux du traitement de la déshydratation intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer de l'eau pure par voie orale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Administrer du soluté glucosé G5% par voie IV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administrer du soluté de NaCl hypertonique 3%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administrer du soluté de NaCl hypo-osmotique 4,5‰ par voie IV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administrer de l'eau pure par voie IV.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la déshydratation intracellulaire repose sur l'administration d'eau (eau pure par voie orale, soluté glucosé G5% ou 2,5% par voie IV, soluté de NaCl hypo-osmotique 4,5‰ par voie IV). L'eau pure ne doit jamais être administrée par voie IV seule."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hyperhydratation intracellulaire (HIC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à une hyper-osmolalité plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est la conséquence d'un bilan hydrique positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle entraîne un transfert d'eau du secteur intracellulaire vers l'extracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à une hypernatrémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est due à une hypo-osmolalité plasmatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hyperhydratation intracellulaire est une augmentation du volume intracellulaire par transfert d'eau du secteur extracellulaire vers le secteur intracellulaire, due à une hypo-osmolalité plasmatique (bilan hydrique positif)."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une hyperhydratation intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une soif intense.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une prise de poids modérée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des troubles neurologiques (céphalées, obnubilation, coma).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une sécheresse des muqueuses.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un pli cutané persistant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de l'hyperhydratation intracellulaire incluent des troubles neurologiques (œdème cérébral, nausées, vomissements, anorexie, céphalées, obnubilation, coma, crises convulsives), une prise de poids modérée et une absence de soif, voire un dégoût de l'eau."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux marqueurs biologiques d'une hyperhydratation intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypernatrémie > 145 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyponatrémie < 135 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une osmolalité plasmatique élevée > 300 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une osmolalité plasmatique diminuée < 280 mOsmol/kg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hémoconcentration.",
+          "correct": false
+        }
+      ],
+      "explanation": "Biologiquement, l'hyperhydratation intracellulaire se caractérise par une hyponatrémie < 135 mmol/L et une osmolalité plasmatique diminuée < 280 mOsmol/kg."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'estimation de l'osmolalité plasmatique efficace, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est calculée par la formule Posm = [Na] x 2 + glycémie (en mmol/L).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'urée est prise en compte car elle entraîne des mouvements d'eau.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est également appelée tonicité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une osmolalité plasmatique efficace normale est d'environ 300 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est exprimée en osmolaLité (/L de plasma).",
+          "correct": false
+        }
+      ],
+      "explanation": "L'osmolalité plasmatique efficace, ou tonicité, est estimée par la formule Posm = [Na] x 2 + glycémie (en mmol/L). L'urée n'est pas prise en compte car elle passe librement à travers les membranes et n'entraîne pas de mouvement d'eau. L'osmolalité normale est de 285 mOsmol/kg."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques complexes pouvant conduire à une hyperhydratation extracellulaire, notamment en cas d'insuffisance cardiaque congestive ou de cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypovolémie efficace entraînant un hyperaldostéronisme secondaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la pression oncotique intra-capillaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une vasodilatation splanchnique dans la cirrhose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la pression hydrostatique intra-capillaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypoalbuminémie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans l'insuffisance cardiaque congestive, une hypovolémie efficace entraîne une rétention sodée. Dans la cirrhose, un obstacle veineux post-sinusoïdal, une vasodilatation splanchnique (à l'origine d'une hypovolémie efficace) et une hypoalbuminémie (diminution de la pression oncotique) contribuent à l'HEC."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "À partir de quelle augmentation du volume interstitiel les œdèmes généralisés deviennent-ils cliniquement apparents chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plus de 5%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plus de 10%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus de 15%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 20%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Plus de 2 kg de prise de poids.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les œdèmes apparaissent pour une augmentation du volume interstitiel supérieure à 10% (soit +1 à 2 kg chez l'adulte)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives recommandées pour éviter une déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'utilisation prudente des diurétiques chez les sujets âgés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le maintien d'un régime hyposodé en cas de néphropathie interstitielle chronique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le maintien d'un régime normosodé en cas d'insuffisance surrénale chronique substituée (en l'absence d'insuffisance cardiaque).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La restriction hydrique systématique chez les patients sous diurétiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'augmentation des apports sodés chez les patients atteints d'insuffisance cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention de la déshydratation extracellulaire implique une utilisation prudente des diurétiques chez les sujets âgés et le maintien d'un régime normosodé en cas de néphropathie interstitielle chronique et au cours de l'insuffisance surrénale chronique substituée (en l'absence d'insuffisance cardiaque)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences rénales et métaboliques de l'hypovolémie sévère dans la déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une insuffisance rénale aiguë fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypourémie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une alcalose métabolique de concentration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperkaliémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une acidose métabolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les conséquences de l'hypovolémie dans la déshydratation extracellulaire incluent une insuffisance rénale aiguë fonctionnelle, une hyperurémie et une alcalose métabolique de concentration."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment différencier une perte sodée extrarénale d'une perte sodée rénale sur les paramètres urinaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de perte extrarénale, la natriurèse est effondrée (< 20 mmol/L).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de perte rénale, le rapport Na/K urinaire est supérieur à 1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de perte extrarénale, l'osmolalité urinaire est inférieure à 500 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de perte rénale, l'urée U/P est inférieure à 10.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas de perte extrarénale, la diurèse est normale ou augmentée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pertes extrarénales: natriurèse < 20, Na/K < 1, urines concentrées (Urée U/P > 10, Créat U/P > 30, Osm U > 500). Pertes rénales: natriurèse > 20, Na/K > 1, urines non concentrées (Urée U/P < 10, Créat U/P < 20, Osm U < 500)."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles pathologies peuvent être à l'origine d'un '3ème secteur' liquidien, contribuant à une déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une péritonite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une occlusion intestinale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une pancréatite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une rhabdomyolyse traumatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une insuffisance cardiaque congestive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le 3ème secteur est un compartiment liquidien formé brutalement aux dépens du compartiment extracellulaire, non équilibré avec lui. Les causes incluent la péritonite, les occlusions intestinales, la pancréatite aiguë et la rhabdomyolyse traumatique."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la vitesse recommandée pour la correction du déficit extracellulaire par apport de NaCl 9 g/L ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "50% du déficit dans les 12 heures, puis le reste sur 12 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1 à 2 litres ou 50% du déficit dans les 6 heures, puis le reste sur 18 heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La totalité du déficit en 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La vitesse doit être constante sur 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vitesse doit être adaptée à la fonction rénale uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La vitesse d'apport de NaCl est de 1 à 2 litres ou 50% du déficit dans les 6 heures, adapté à la fonction cardiaque, puis les 50% restants sur 18 heures."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le mécanisme d'action de l'ADH sur le rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle diminue la perméabilité du canal collecteur à l'eau.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle stimule l'expression d'aquaporines 2 à la membrane apicale des cellules principales du canal collecteur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle agit sur les cellules de l'anse de Henlé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle entraîne des variations de l'osmolalité urinaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle inhibe le gradient osmolaire cortico-papillaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ADH agit sur les cellules principales du canal collecteur en stimulant l'expression à la membrane apicale d'aquaporines 2, entraînant des variations de la perméabilité du canal collecteur et donc de l'osmolalité urinaire. La réabsorption d'eau nécessite un gradient osmolaire cortico-papillaire."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques associés à une baisse trop rapide de la natrémie lors de la correction d'une hypernatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une déshydratation intracellulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un œdème cérébral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des crises convulsives.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypernatrémie rebond.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une myélinolyse centro-pontine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une baisse trop rapide de la natrémie lors de la correction d'une hypernatrémie expose au risque d'œdème cérébral et de convulsions."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'évaluation de l'état du compartiment extracellulaire guide-t-elle le diagnostic étiologique d'une hypernatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de déshydratation globale (déficit hydrique > déficit sodé), on mesure la natriurèse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de déshydratation intracellulaire isolée (déficit hydrique sans perte sodée), on mesure la diurèse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de déshydratation intracellulaire avec hyperhydratation extracellulaire (excès de sodium > excès d'eau), on recherche une cause iatrogène ou un hyperaldostéronisme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'évaluation clinique du compartiment extracellulaire n'est pas pertinente pour le diagnostic étiologique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La mesure de l'osmolalité urinaire est le premier pas dans tous les cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic étiologique de l'hypernatrémie est guidé par l'état du compartiment extracellulaire: mesure de la natriurèse en cas de déshydratation globale, mesure de la diurèse en cas de DIC isolée, et recherche de causes iatrogènes ou hyperaldostéronisme en cas de DIC avec HEC."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel résultat du test de restriction hydrique est évocateur d'un diabète insipide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une osmolalité urinaire augmentée à plus de 700 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une osmolalité urinaire non modifiée, inférieure à 700 mOsmol/kg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une osmolalité plasmatique inférieure à 320 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la natrémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation significative du poids corporel.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de diabète insipide, le test de restriction hydrique montre une osmolalité urinaire non modifiée, inférieure à 700 mOsmol/kg, même après stimulation maximale de l'ADH (Posm = 320 mOsmol/kg)."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'injection de ddAVP (Minirin®) permet-elle de différencier un diabète insipide central d'un diabète insipide néphrogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de diabète insipide néphrogénique, l'osmolalité urinaire augmente.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de diabète insipide central, l'osmolalité urinaire augmente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de diabète insipide néphrogénique, l'osmolalité urinaire reste non modifiée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'injection de ddAVP n'a d'intérêt que si le test de restriction hydrique est normal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'injection de ddAVP permet de corriger l'hypernatrémie dans les deux cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si le test de restriction est anormal, l'injection de ddAVP (ADH exogène) permet de différencier: en cas de diabète insipide central, l'osmolalité urinaire augmente; en cas de diabète insipide néphrogénique, l'osmolalité urinaire reste non modifiée."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes possibles d'un diabète insipide central ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une chirurgie d'adénome hypophysaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une néphropathie interstitielle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une infection (encéphalite, méningite).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un pinéalome.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'utilisation de lithium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes du diabète insipide central (absence complète ou partielle de sécrétion d'ADH) incluent les causes post-chirurgicales (adénome hypophysaire), ischémiques, néoplasiques (pinéalome, métastase, craniopharyngiome), granulomateuses (sarcoïdose, histiocytose), infectieuses (encéphalite, méningite) et idiopathiques."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes possibles d'un diabète insipide néphrogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'utilisation de lithium.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypercalcémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une néphropathie interstitielle (amylose, Sjögren).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome de levée d'obstacle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une infection hypophysaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes du diabète insipide néphrogénique (réponse rénale à l'ADH diminuée ou abolie) incluent certains médicaments (lithium, déméclocycline, amphotéricine B), des néphropathies interstitielles, l'altération du gradient cortico-papillaire (syndrome de levée d'obstacle, traitement diurétique) et des troubles métaboliques (hypercalcémie, hypokaliémie)."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quels cas peut-on observer une hyper-osmolalité plasmatique sans hypernatrémie, avec un trou osmotique urinaire élevé (> 10) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intoxication à l'éthylène glycol.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperglycémie majeure (coma hyper-osmolaire).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administration de mannitol.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Intoxication à l'éthanol.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hyperprotidémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hyper-osmolalité plasmatique sans hypernatrémie, avec un trou osmotique (> 10), est observée en présence anormale d'un soluté osmotiquement actif de bas poids moléculaire autre que le sodium, comme le mannitol, l'éthylène glycol ou une hyperglycémie majeure. L'éthanol et l'urée diffusent librement et sont osmotiquement inactifs."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le mode d'administration privilégié pour l'eau pure en cas de déshydratation intracellulaire isolée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par voie intraveineuse uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par voie orale uniquement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par voie sous-cutanée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Par voie intraveineuse ou orale indifféremment.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par voie intra-osseuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de déshydratation intracellulaire isolée, l'apport d'eau pure doit se faire par voie orale uniquement, jamais par voie intraveineuse seule en raison du risque d'hémolyse."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la vitesse de correction maximale recommandée pour une hypernatrémie ancienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 1 mmol/L/heure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Moins de 10 mmol/L/jour.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Jusqu'à 145 mmol/L en 6 heures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 15 mmol/L/jour.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vitesse n'est pas un facteur critique pour l'hypernatrémie ancienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une hypernatrémie ancienne, l'objectif est une diminution de la natrémie de moins de 10 mmol/L/jour afin d'éviter les complications neurologiques."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels facteurs peuvent altérer la capacité rénale d'excrétion d'eau libre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une osmolalité urinaire de 60 mOsmol/kg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypersécrétion d'ADH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des apports osmolaire élevés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une potomanie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La capacité rénale d'excrétion d'eau libre peut être altérée par une insuffisance rénale ou une hypersécrétion d'ADH. Elle peut aussi être dépassée par des apports d'eau importants, surtout si les apports osmolaires sont diminués."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles situations peuvent entraîner une fausse hyponatrémie (hyponatrémie associée à une osmolalité plasmatique normale ou élevée) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyperprotidémie majeure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperglycémie majeure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une intoxication au méthanol.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une insuffisance surrénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome de Schwartz-Bartter.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fausses hyponatrémies incluent l'hyponatrémie factice (hyperprotidémie, hyperlipidémie) et la pseudo-hyponatrémie par hyperglycémie majeure ou intoxication au méthanol ou à l'éthanol, ou mannitol, qui sont des déshydratations intracellulaires avec hyper-osmolalité plasmatique."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment distinguer une hyponatrémie de déplétion d'origine rénale d'une origine extrarénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'origine rénale est caractérisée par une natriurèse > 30 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'origine extrarénale est caractérisée par une natriurèse ≤ 30 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les diurétiques sont une cause d'origine rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les pertes digestives sont une cause d'origine rénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le Cerebral Salt Wasting (CSW) est une cause d'origine extrarénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyponatrémie de déplétion d'origine rénale se caractérise par une natriurèse > 30 mmol/L (ex: diurétiques, insuffisance surrénale, CSW). L'origine extrarénale se caractérise par une natriurèse ≤ 30 mmol/L (ex: pertes cutanées, digestives, 3ème secteur)."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères diagnostiques du syndrome de sécrétion inappropriée d'ADH (SIADH) ou syndrome de Schwartz-Bartter ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une osmolalité plasmatique (Posm) inférieure à 275 mOsmol/kg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une osmolalité urinaire (Uosm) supérieure à 100 mOsmol/kg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une euvolémie clinique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence d'une hypothyroïdie ou d'une insuffisance surrénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une fonction rénale altérée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères diagnostiques du SIADH sont: Posm < 275 mOsmol/kg, Uosm > 100 mOsmol/kg, euvolémie clinique, absence d'hypothyroïdie ou d'insuffisance surrénale, fonction rénale normale et aucune prise de diurétique."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels médicaments sont connus pour pouvoir induire un SIADH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La carbamazépine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les inhibiteurs sélectifs de la recapture de la sérotonine (IRSR).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le furosémide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cyclophosphamide.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le lithium.",
+          "correct": false
+        }
+      ],
+      "explanation": "De nombreux médicaments peuvent induire un SIADH, notamment la carbamazépine, les psychotropes (halopéridol, phénothiazine, IRSR, tricycliques, IMAO), les émétiques (cyclophosphamide, vincristine, vinblastine), et ceux potentialisant l'effet de l'ADH (sulfamides hypoglycémiants, théophylline, clofibrate, IPP). Le lithium est une cause de diabète insipide néphrogénique."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement de première intention d'une hyponatrémie chronique asymptomatique avec un secteur extracellulaire normal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'apport de NaCl hypertonique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La restriction hydrique seule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'administration de diurétiques de l'anse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'apport d'osmole (urée).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le tolvaptan.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hyponatrémie chronique asymptomatique avec un secteur extracellulaire normal, le traitement de première intention est la restriction hydrique seule. La correction doit être très prudente pour éviter la myélinolyse centro-pontine."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la myélinolyse centro-pontine (démyélinisation osmotique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est le plus souvent causée par une correction trop rapide d'une hyponatrémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le risque est accru en cas d'hyponatrémie chronique corrigée trop rapidement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle se manifeste par des troubles neurologiques variés, incluant le locked-in syndrome.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'IRM montre une hyper-T1/hypo-T2 centro-pontique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une complication fréquente de l'hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La myélinolyse centro-pontine est une démyélinisation osmotique, le plus souvent par correction trop rapide d'une hyponatrémie, avec un risque accru en cas d'hyponatrémie chronique corrigée trop rapidement, particulièrement dans un contexte d'hypoxie, de malnutrition ou d'éthylisme. Les manifestations sont variées (convulsions, syndrome pseudo-bulbaire, troubles de conscience, quadriplégie bulbaire, locked-in syndrome). L'IRM montre une hypo-T1/hyper-T2 centro-pontique."
+    }
+  ]
+}

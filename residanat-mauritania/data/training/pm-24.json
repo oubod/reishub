@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-24",
+  "title": "Hépatites virales",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une hépatite aiguë selon sa durée d'évolution ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anomalie du bilan hépatique évoluant sur < 3 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Anomalie du bilan hépatique évoluant sur < 6 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'un ictère persistant > 6 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cytolyse hépatique > 10N pendant plus de 6 mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Atteinte hépatique avec TP < 50% pendant moins de 3 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatite aiguë est définie comme une anomalie du bilan hépatique évoluant sur moins de 6 mois."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale voie de transmission du virus de l'hépatite A (VHA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion sanguine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie féco-orale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Relations sexuelles non protégées",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Contact avec du sang ou dérivés sanguins",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Transmission materno-fœtale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VHA se transmet principalement par voie féco-orale, notamment via l'eau contaminée."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le marqueur biologique essentiel pour le diagnostic d'une infection aiguë par le virus de l'hépatite A (VHA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ac anti-VHC",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "IgM anti-VHA",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "ARN VHE",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ac anti-HBc",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de l'hépatite A aiguë repose sur la détection des IgM anti-VHA."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Concernant l'infection par le virus de l'hépatite A (VHA), quelle affirmation est exacte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle évolue fréquemment vers une hépatite chronique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est associée à un risque élevé de carcinome hépatocellulaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il n'y a aucun risque d'infection chronique à VHA",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle nécessite un traitement antiviral au long cours",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est souvent fulminante chez l'adulte jeune",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique clairement qu'il n'y a aucun risque d'infection chronique à VHA."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Comment se présente la majorité des cas d'hépatite virale aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avec un ictère cutanéo-muqueux sévère",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sous forme fulminante avec encéphalopathie hépatique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "De manière asymptomatique ou pauci-symptomatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par une triade de Caroli systématique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Avec des manifestations extra-hépatiques graves",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic d'hépatite virale est asymptomatique dans la majorité des cas (80%) ou pauci-symptomatique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les causes principales d'hépatite aiguë, lesquelles sont mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Migration lithiasique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcoolisation aiguë",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Médicaments (chimiothérapie, amiodarone)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Virus de l'herpès (HSV)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Thrombose porte",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste la migration lithiasique, l'alcoolisation aiguë, les médicaments (chimiothérapie, amiodarone) et les herpesvirus (HSV) comme causes principales. La thrombose porte est classée comme une 'autre cause (rare)'."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "La triade de Caroli, associée à la phase pré-ictérique d'une hépatite virale, est caractérisée par la présence de :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre, arthralgies et vomissements",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Céphalées, arthralgies et urticaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ictère, prurit et hépatalgie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Asthénie, nausées et diarrhée",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Confusion, somnolence et astérixis",
+          "correct": false
+        }
+      ],
+      "explanation": "La triade de Caroli est spécifiquement définie comme céphalées + arthralgies + urticaire."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Une hépatite fulminante est définie par la chute du TP < 50% et la survenue d'une encéphalopathie hépatique dans quel délai après l'ictère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans un délai ≤ 7 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans un délai ≤ 15 jours",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dans un délai > 15 jours",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dans un délai ≤ 30 jours",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Quel que soit le délai",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatite fulminante est définie par une chute du TP < 50% et une encéphalopathie hépatique dans un délai ≤ 15 jours après l'ictère."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels marqueurs biologiques sont caractéristiques d'une infection aiguë récente par le virus de l'hépatite B (VHB) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs positif et Ac anti-HBc négatif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ag HBs positif et Ac anti-HBs positif",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ag HBs positif et Ac anti-HBc positif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ac anti-HBs positif et Ac anti-HBc positif",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ag HBs négatif et Ac anti-HBc positif",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau de diagnostic biologique du VHB indique 'Infection aiguë récente' pour Ag HBs positif et Ac anti-HBc positif (avec Ac anti-HBs négatif)."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les voies de contamination principales du virus de l'hépatite B (VHB) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transmission verticale (trans-placentaire ou à l'accouchement)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Relations sexuelles",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contact avec du sang ou dérivés sanguins",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ingestion d'eau contaminée",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Partage d'objets de toilettes",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte mentionne la transmission verticale, les relations sexuelles, le contact avec du sang/dérivés sanguins et le contact dans la famille/collectivité (partage d'objets de toilettes) comme voies de contamination. L'ingestion d'eau contaminée est une voie de transmission du VHA ou VHE."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'évolution typique d'une infection par le VHB acquise à la naissance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symptomatique avec guérison spontanée dans 90% des cas",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asymptomatique avec 90% de chronicité",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fulminante dans 50% des cas",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Guérison spontanée en 3 mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Développement rapide d'une cirrhose",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique 'A la naissance : asymptomatique, 90% de chronicité'."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "La définition biologique d'une infection chronique par le VHB est :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Persistance des IgM anti-HBc pendant plus de 6 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Persistance de l'Ag HBs pendant plus de 6 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'Ac anti-HBs pendant plus de 6 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "ADN VHB indétectable pendant plus de 6 mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Transaminases élevées pendant plus de 6 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection chronique par le VHB est définie biologiquement par l'Ag HBs+ persistant > 6 mois."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une infection chronique par le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cirrhose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Carcinome hépato-cellulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Périartérite noueuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glomérulonéphrite extra-membraneuse",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lymphome non hodgkinien",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste la cirrhose, le CHC, la périartérite noueuse et la glomérulonéphrite extra-membraneuse comme complications du VHB. Le lymphome non hodgkinien est une complication du VHC."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de traitement médical pour une hépatite B chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transaminases élevées > 2N avec ADN VHB > 2000 et fibrose hépatique ≥ F2",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cirrhose, quelle que soit la charge virale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antécédent familial de carcinome hépato-cellulaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mise sous traitement immunosuppresseur",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Portage inactif avec transaminases normales",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste ces quatre points comme indications de traitement. Le portage inactif n'est pas une indication de traitement."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'Interféron α pégylé dans le traitement du VHB, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un traitement antiviral et immuno-modulateur",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il vise une viro-suppression stable à long terme sans rémission prolongée",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est contre-indiqué en cas de cirrhose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est administré par voie orale",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est le traitement de première intention chez la femme enceinte",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Interféron α pégylé est un traitement antiviral et immuno-modulateur, et il est contre-indiqué en cas de cirrhose. Il vise une réponse virologique prolongée après arrêt du traitement, non une viro-suppression stable sans rémission. Il est administré par injection sous-cutanée et est contre-indiqué pendant la grossesse."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les populations pour lesquelles la vaccination contre le VHB est recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tous les nourrissons",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Professionnels de santé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sujets à risque (toxicomanie IV, VIH, hémodialyse chronique)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Femmes enceintes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Voyageurs en zone d'endémie VHA",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte recommande la vaccination pour tous les nourrissons, les professionnels de santé et les sujets à risque (toxicomanie IV, VIH, hémodialyse chronique). Le dépistage de l'Ag HBs est systématique chez les femmes enceintes, et la vaccination des voyageurs en zone d'endémie VHA concerne le VHA."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du virus de l'hépatite D (VHD) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un virus à ADN",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est défectif et dépendant du VHB pour sa multiplication",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est responsable d'hépatites aiguës épidémiques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il se transmet principalement par voie féco-orale",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est systématiquement recherché chez les patients VHC+",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VHD est un virus à ARN circulaire simple brin, défectif, dépendant du VHB. Il est recherché systématiquement chez les patients VHB+, non VHC+. Les hépatites aiguës épidémiques sont plus typiques du VHA ou VHE."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'infection par le VHD, quelle est la différence majeure entre une co-infection et une surinfection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La co-infection augmente le risque de cirrhose, tandis que la surinfection augmente le risque d'hépatite fulminante",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La co-infection est une infection simultanée avec le VHB, tandis que la surinfection est une infection VHD chez un patient VHB chronique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La co-infection a une guérison quasi-systématique, tandis que la surinfection a une guérison rare",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La surinfection est plus fréquente chez les toxicomanes IV, tandis que la co-infection est plus fréquente dans le bassin méditerranéen",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La co-infection est traitée par interféron pégylé, tandis que la surinfection ne l'est pas",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte définit la co-infection comme une infection simultanée VHB-VHD et la surinfection comme une infection VHD chez un patient VHB chronique. Il précise également que la guérison est quasi-systématique en cas de co-infection VHB-VHD, mais rare en cas de surinfection."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les voies de contamination du virus de l'hépatite C (VHC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion sanguine avant 1992",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drogue IV ou sniffée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transmission materno-fœtale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Relations sexuelles (exceptionnellement)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ingestion de viande contaminée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la transfusion sanguine < 1992, la drogue IV ou sniffée, la transmission materno-fœtale et la transmission exceptionnellement sexuelle. L'ingestion de viande contaminée est une voie de transmission du VHE."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le premier marqueur détectable lors d'une infection aiguë par le VHC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ac anti-VHC",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "ARN viral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ag HBs",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "IgM anti-VHA",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Transaminases élevées",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que le 1er marqueur de l'infection aiguë par le VHC est l'ARN viral, détectable dès la 1ère semaine de contamination."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "La définition biologique d'une infection chronique par le VHC est :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ac anti-VHC+ et ARN VHC indétectable pendant > 6 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ac anti-VHC+ et ARN VHC détectable pendant > 6 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "ARN VHC détectable avec transaminases normales pendant > 3 mois",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ac anti-VHC+ et transaminases élevées pendant > 12 mois",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Présence de cryoglobulinémie et d'ARN VHC",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection chronique par le VHC est définie biologiquement par Ac anti-VHC+ et ARN VHC détectable pendant > 6 mois."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les méthodes non invasives mentionnées pour évaluer la sévérité de la fibrose hépatique chez un patient VHC+ sans comorbidité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Biopsie hépatique (PBH)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "FibroTest®",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "FibroMètre®",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "FibroScan®",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dosage des transaminases",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste FibroTest®, FibroMètre® et FibroScan® comme méthodes non invasives. La biopsie hépatique est une méthode invasive, et le dosage des transaminases n'est pas une méthode d'évaluation de la fibrose."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une infection chronique par le VHC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cirrhose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Carcinome hépato-cellulaire (uniquement au stade de cirrhose)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cryoglobulinémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glomérulonéphrite membrano-proliférative type II",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Périartérite noueuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste la cirrhose, le carcinome hépato-cellulaire (uniquement au stade de cirrhose), la cryoglobulinémie et la glomérulonéphrite membrano-proliférative type II comme complications du VHC. La périartérite noueuse est une complication du VHB."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la particularité de l'hépatite E (VHE) chez la femme enceinte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours asymptomatique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle n'a aucun risque d'hépatite fulminante",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle présente un risque d'hépatite fulminante, surtout au 3ème trimestre",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est associée à un risque élevé de chronicité",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle nécessite une vaccination systématique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que le VHE n'a pas de risque d'hépatite fulminante 'sauf chez la femme enceinte, surtout au 3ème trimestre = 20%'."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quel contexte une forme chronique d'hépatite E (VHE) avec virémie persistante peut-elle exceptionnellement survenir ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez l'adulte jeune immunocompétent",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez la femme enceinte",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Chez le malade immunodéprimé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez les voyageurs en zone d'endémie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Chez les personnes ayant ingéré de la viande contaminée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte précise que la forme chronique avec virémie persistante est 'uniquement chez le malade immunodéprimé'."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors du bilan paraclinique d'une hépatite aiguë, quels éléments sont habituellement observés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cytolyse hépatique prédominant sur les ASAT",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cytolyse hépatique importante (> 10N)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholestase ictérique ou anictérique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Adénopathies du pédicule hépatique à l'échographie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "TP < 50% signe d'hépatite aiguë sévère",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte mentionne une cytolyse hépatique habituellement importante (> 10N) prédominant sur les ALAT (donc A est faux), une cholestase ictérique ou anictérique, des adénopathies du pédicule hépatique à l'échographie, et un TP < 50% comme signe d'hépatite aiguë sévère."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles situations peuvent être évoquées en diagnostic différentiel d'une hépatite virale aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cytolyse hépatique prédominante sur les ASAT évoquant une hépatite alcoolique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Migration lithiasique visualisée à l'échographie abdominale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombose hépatique ou porte à l'échographie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'anticorps anti-muscle lisse suggérant une hépatite auto-immune",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Céruloplasminémie élevée suggérant une maladie de Wilson",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste la cytolyse hépatique prédominante sur les ASAT (hépatite alcoolique), la migration lithiasique, la thrombose hépatique/porte et la recherche d'hépatite auto-immune (AAN, Ac anti-muscle lisse, etc.) comme diagnostics différentiels. Une céruloplasminémie *basse* suggère une maladie de Wilson, pas élevée."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prise en charge en cas d'hépatite aiguë sévère (baisse du TP < 50%) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traitement antiviral systématique (entécavir, ténofovir) pour toutes les étiologies",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hospitalisation en soins intensifs à proximité d'un centre de transplantation hépatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transplantation hépatique en urgence en cas d'hépatite fulminante",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Surveillance clinique (signes d'encéphalopathie hépatique) et du TP 2 fois par semaine",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Isolement entérique systématique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement antiviral (entécavir, ténofovir) est indiqué spécifiquement en cas d'hépatite B aiguë fulminante ou sub-fulminante. L'isolement entérique est pour les hépatites A/E. Les autres options sont des mesures de prise en charge en cas d'hépatite sévère ou fulminante."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le suivi biologique attendu après une guérison d'hépatite B aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disparition des IgM anti-HBc à 3 mois",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Apparition des Ac anti-HBs à 6 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Disparition des Ag HBs à 6 mois",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Persistance des Ac anti-HBc pendant longtemps",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Disparition des Ac anti-HBe en 1-2 ans",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la disparition des IgM anti-HBc à 3 mois, l'apparition des Ac anti-HBs et la disparition des Ag HBs à 6 mois comme marqueurs de guérison. La persistance des Ac anti-HBc est vraie mais n'est pas un événement de 'disparition' ou 'apparition' marquant la guérison. La disparition des Ac anti-HBe en 1-2 ans est pour l'hépatite B ancienne."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le suivi biologique attendu après une guérison d'hépatite C aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disparition de l'ARN viral à 3 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Disparition de l'ARN viral à 6 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Persistance des Ac anti-VHC pendant longtemps",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traitement antiviral si persistance de l'ARN viral ≥ 3 mois",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Normalisation des transaminases en cas de clairance virale",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte indique la disparition de l'ARN viral à 6 mois, la persistance des Ac anti-VHC (pendant longtemps), la nécessité d'un traitement antiviral si persistance de l'ARN viral (PCR positive) ≥ 3 mois, et la normalisation des transaminases en cas de guérison (clairance de l'ARN VHC)."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques virologiques du VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un virus à ARN de la famille des Hepadnavirus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il possède un gène S codant pour l'Ag HBs",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il forme un ADNccc circulaire quiescent dans les hépatocytes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ADN viral dans le sérum est un marqueur d'activité virale",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le gène X code pour l'ADN polymérase",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VHB est un virus à ADN, non à ARN. Le gène P code pour l'ADN polymérase, non le gène X. Les autres affirmations sont exactes."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente les marqueurs sérologiques suivants : Ag HBs négatif, Ac anti-HBc positif, Ac anti-HBs positif. Quelle(s) interprétation(s) est/sont correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de contact avec le virus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Infection ancienne guérie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Séroconversion HBs en cours",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Infection ancienne guérie > 10-20 ans",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Infection aiguë récente",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon le tableau de diagnostic biologique, cette combinaison de marqueurs correspond à une 'Infection ancienne guérie'."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente les marqueurs sérologiques suivants : Ag HBs positif, Ac anti-HBc positif, Ac anti-HBs négatif. Quelle(s) interprétation(s) est/sont correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection aiguë récente",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection ancienne guérie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Infection aiguë ou chronique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vaccination",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Portage inactif",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon le tableau de diagnostic biologique, cette combinaison de marqueurs correspond à une 'Infection aiguë récente' ou une 'Infection aiguë ou chronique'."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les marqueurs d'activité virale du VHB, utiles en cas d'infection chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ag HBs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ac anti-HBc",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ag HBe",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "ADN VHB",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ac anti-HBs",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que 'Ag HBe et ADN VHB : marqueurs d’activité virale, utiles en cas d’infection VHB chronique'."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du stade de 'tolérance immunitaire' dans l'infection chronique par le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Très forte réplication virale (ADN VHB > 10^6)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Faible réponse immunitaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Principalement en cas d'infection du nouveau-né ou dans l'enfance",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Indication de traitement antiviral",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Faible risque de cirrhose",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte décrit la tolérance immunitaire par une 'très forte réplication virale (ADN VHB > 10^6) avec faible réponse immunitaire : principalement en cas d’infection du nouveau-né ou dans l’enfance ! aucune indication de traitement'."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du 'portage inactif' dans l'infection chronique par le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transaminases normales",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ag HBe positif",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ac anti-HBe positif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "ADN VHB faible < 2000 UI/ml",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Risque élevé de cirrhose",
+          "correct": false
+        }
+      ],
+      "explanation": "Le portage inactif est caractérisé par des transaminases normales, Ag HBe négatif, Ac anti-HBe positif, un ADN VHB faible < 2000 UI/ml, et un risque de cirrhose faible."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments histologiques spécifiques ou caractéristiques de l'hépatite B chronique observés à la PBH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infiltrat inflammatoire portal plutôt lymphocytaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécrose hépatocytaire péri-portale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hépatocytes en « verre dépoli »",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Granulomes épithélioïdes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Stéatose associée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne 'infiltrat inflammatoire portal, plutôt lymphocytaire, nécrose hépatocytaire (activité) péri-portale, focale, confluente ou en pont, avec hépatocytes en « verre dépoli » spécifique du VHB'. Les granulomes épithélioïdes et la stéatose associée sont des lésions caractéristiques du VHC."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le score Métavir pour l'évaluation de la fibrose hépatique, quelle correspondance est correcte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "F0 = fibrose portale sans septa",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "F1 = aucune fibrose",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "F2 = fibrose septale sans cirrhose",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "F3 = fibrose portale, rares septa",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "F4 = cirrhose",
+          "correct": true
+        }
+      ],
+      "explanation": "Le tableau Métavir indique F4 = cirrhose. F0 correspond à aucune fibrose, F1 à une fibrose portale sans septa, F2 à une fibrose portale avec rares septa, et F3 à une fibrose septale sans cirrhose."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de traitement médical pour une hépatite B chronique, en dehors des critères de fibrose et de cytolyse hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédent familial de carcinome hépato-cellulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise sous traitement immunosuppresseur",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte extra-hépatique liée au VHB (périartérite noueuse...)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Femme enceinte si ADN VHB > 5 log (10^5) au dernier trimestre",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Virus sauvage avec ADN VHB > 20 000 et transaminases > 2N",
+          "correct": false
+        }
+      ],
+      "explanation": "Les options A, B, C, D sont listées comme indications 'Extra-hépatique'. L'option E est une indication 'Hépatique' d'emblée sans PBH, mais elle inclut des critères de cytolyse et de charge virale."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables fréquents de l'Interféron α pégylé dans le traitement du VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tubulopathie proximale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asthénie invalidante",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome pseudo-grippal",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dysthyroïdie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Syndrome dépressif avec risque suicidaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte liste l'asthénie invalidante, l'amaigrissement, le syndrome pseudo-grippal, la dysthyroïdie et le syndrome dépressif avec risque suicidaire comme effets indésirables fréquents de l'Interféron α pégylé. La tubulopathie proximale est un effet indésirable du ténofovir."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables spécifiques des analogues nucléosidiques ou nucléotidiques (entécavir, ténofovir) utilisés pour le VHB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome pseudo-grippal",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tubulopathie proximale (ténofovir)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effets musculaires (entécavir)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dysthyroïdie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Anémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la tubulopathie proximale (ténofovir) et les effets musculaires (entécavir) comme effets indésirables. Les autres sont des effets de l'interféron ou de la ribavirine."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de surveillance d'un patient sous traitement pour hépatite B chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suivi de la charge virale à 3 mois puis tous les 6 mois",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suivi des Ac anti-HBe tous les 6 mois",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Suivi de l'Ag HBs tous les 12 mois",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Échographie hépatique + αFP tous les 6 mois au stade de cirrhose",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Échographie hépatique + αFP tous les 2 ans en l'absence de cirrhose",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte indique le suivi de la charge virale à 3 mois puis tous les 6 mois, le suivi des Ac anti-HBe tous les 12 mois (donc B est faux), le suivi de l'Ag HBs tous les 12 mois, l'échographie hépatique + αFP tous les 6 mois au stade de cirrhose et tous les 2 ans en l'absence de cirrhose."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations la sérothérapie anti-VHB (IgG anti-HBs) est-elle indiquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nouveau-né d'une mère porteuse de l'Ag HBs",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Personne victime d'une inoculation accidentelle non vaccinée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entourage familial d'un sujet non vacciné ayant eu un contage",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Femme enceinte porteuse de l'Ag HBs",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Professionnel de santé vacciné après exposition",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la sérothérapie anti-VHB pour un contage chez un sujet non vacciné (entourage familial, nouveau-né d’une mère porteuse, personne victime d’une inoculation accidentelle). La femme enceinte porteuse de l'Ag HBs est dépistée, mais la sérothérapie est pour le nouveau-né. Un professionnel de santé vacciné n'a pas besoin de sérothérapie après exposition."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques virologiques du VHC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Virus à ADN simple brin",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Famille des Flavivirus",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Forte variabilité génomique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "6 génotypes connus (dont 1, 2, 3, 4 en France)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Virus non enveloppé",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VHC est un virus enveloppé à ARN simple brin, de la famille des Flavivirus, avec une forte variabilité génomique et 6 génotypes (dont 1, 2, 3, 4 en France)."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les marqueurs biologiques de l'infection aiguë par le VHC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ARN viral détectable dès la 1ère semaine de contamination",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ac anti-VHC détectables dès la 1ère semaine",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pic d'élévation des transaminases (souvent > 10N) à l'apparition des symptômes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ag HBs positif",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "IgM anti-VHA positif",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ARN viral est le 1er marqueur, détectable dès la 1ère semaine. Les Ac anti-VHC sont détectables plus tardivement (dès 12 semaines). Le pic d'élévation des transaminases (souvent > 10N) survient à l'apparition des symptômes. Ag HBs et IgM anti-VHA sont des marqueurs d'autres hépatites virales."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de traitement pour une infection chronique par le VHC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrose hépatique significative (F2, F3 ou F4)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Manifestation extra-hépatique symptomatique (cryoglobulinémie, vascularite, asthénie)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Avant et après transplantation hépatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Personne à risque de transmission (toxicomanie, co-infection VIH)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Espérance de vie limitée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste la fibrose hépatique significative, les manifestations extra-hépatiques symptomatiques, la période avant et après transplantation hépatique, et les personnes à risque de transmission comme indications de traitement. L'extension est recommandée à tous les patients VHC+ 'sauf espérance de vie limitée'."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables associés à l'ancien traitement du VHC par Interféron α pégylé et Ribavirine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome pseudo-grippal (Interféron)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dépression avec risque suicidaire (Interféron)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anémie (Ribavirine)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tératogénicité (Ribavirine)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tubulopathie proximale (Ribavirine)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte liste le syndrome pseudo-grippal et la dépression avec risque suicidaire pour l'Interféron, et l'anémie et la tératogénicité pour la Ribavirine. La tubulopathie proximale est un effet indésirable du ténofovir (VHB)."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Parmi les classes d'antiviraux directs (AAD) utilisés dans le traitement du VHC, lesquelles sont mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibiteur de NS3 (protéase)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Inhibiteur de NS5A",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhibiteur de NS5B (ARN polymérase)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhibiteur de la transcriptase inverse",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inhibiteur de l'intégrase",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne les inhibiteurs de NS3 (protéase, -prévir), les inhibiteurs de NS5A (-asvir) et les inhibiteurs de NS5B (ARN polymérase, -buvir). Les inhibiteurs de la transcriptase inverse et de l'intégrase sont des classes d'antiviraux utilisés pour le VIH."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant le nouveau traitement antiviral du VHC, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'objectif est une réponse virologique soutenue (ARN VHC indétectable 12 semaines après le TTT)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La guérison est généralement obtenue en 12 à 24 semaines de traitement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un échec thérapeutique peut être dû à une réinfection (> 12 semaines après le TTT)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En l'absence de traitement, le suivi de la charge virale (ARN VHC) est nécessaire annuellement",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'échographie abdominale + αFP est recommandée tous les 6 mois au stade de cirrhose uniquement",
+          "correct": true
+        }
+      ],
+      "explanation": "L'objectif est bien une réponse virologique soutenue (ARN VHC indétectable 12 semaines après le TTT). La guérison est généralement obtenue en 12 à 24 semaines. Un échec thérapeutique peut être dû à une réinfection (> 12 semaines). En l'absence de traitement, le suivi de la charge virale (ARN VHC) n'est *pas* nécessaire. L'échographie abdominale + αFP est recommandée tous les 6 mois au stade de cirrhose uniquement."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la transmission et du réservoir du virus de l'hépatite E (VHE) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transmission par voie féco-orale (eau contaminée surtout)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transmission par ingestion de viande contaminée (zoonose) dans les pays industrialisés",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réservoir animal (élevage de porcs, sangliers, cervidés)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transmission sexuelle fréquente",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réservoir uniquement humain",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne la transmission par voie féco-orale (eau contaminée surtout), la transmission par ingestion de viande contaminée (zoonose) dans les pays industrialisés, et un réservoir animal (élevage de porcs, sangliers, cervidés). La transmission sexuelle n'est pas mentionnée comme fréquente pour le VHE, et le réservoir n'est pas uniquement humain."
+    }
+  ]
+}

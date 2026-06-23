@@ -1,0 +1,1398 @@
+{
+  "lectureId": "71-2",
+  "number": "71.2",
+  "title": "Dyskaliémies",
+  "partie": "J2",
+  "specialty": "Néphrologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la concentration normale de potassium dans le secteur extracellulaire (kaliémie) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieure à 2,5 mmol/l",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 3,5 et 5 mmol/l",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Supérieure à 7 mmol/l",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Entre 140 et 150 mmol/l",
+          "correct": false
+        }
+      ],
+      "explanation": "La concentration en potassium du secteur extra cellulaire, ou kaliémie, est finement régulée entre 3,5 et 5 mmol/l. Les valeurs de 140 à 150 mmol/l correspondent à la concentration intracellulaire."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quel est le principal cation intracellulaire de l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sodium (Na+)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Calcium (Ca2+)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Potassium (K+)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Magnésium (Mg2+)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potassium est le cation intracellulaire le plus important de l’organisme. Sa concentration intracellulaire est de 140 à 150 mmol/l."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelle proportion du potassium total de l'organisme se trouve dans le compartiment intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 2%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 50%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 70%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Environ 98%",
+          "correct": true
+        }
+      ],
+      "explanation": "98% du pool potassique est situé dans le compartiment cellulaire, principalement dans la cellule musculaire (aux alentours de 70%)."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelle est la principale voie d'élimination du potassium de l'organisme dans des situations normales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Élimination cutanée (sueur)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Élimination rénale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Élimination digestive (fèces)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Élimination pulmonaire",
+          "correct": false
+        }
+      ],
+      "explanation": "L’élimination du K+ se fait essentiellement par voie rénale (90%). L'élimination extra-rénale digestive est minime (5 à 10%) dans les situations normales."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme principal responsable du maintien du gradient de potassium entre les milieux intracellulaire et extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La diffusion passive à travers la membrane",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La pompe Na-K-ATPase",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les canaux calciques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'échangeur Cl-/HCO3-",
+          "correct": false
+        }
+      ],
+      "explanation": "Le maintien d’un gradient normal entre le potassium extracellulaire et intracellulaire est réalisé grâce au fonctionnement de la pompe Na-K-ATPase transmembranaire."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Comment l'insuline influence-t-elle la distribution du potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle favorise la sortie du K+ des cellules",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle n'a aucun effet sur le potassium",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle favorise l'entrée du K+ dans les cellules",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle augmente l'élimination rénale du K+",
+          "correct": false
+        }
+      ],
+      "explanation": "L’insuline favorise l’entrée du K+ dans les cellules en stimulant l’entrée de Na+ dans la cellule par l’échangeur Na+/H+ membranaire, ce qui stimule secondairement la Na-K-ATPase et entraîne une entrée nette de K+."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quel type de récepteurs adrénergiques favorise l'entrée du potassium dans la cellule ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les récepteurs α1 adrénergiques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les récepteurs α2 adrénergiques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les récepteurs β1 adrénergiques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les récepteurs β2 adrénergiques",
+          "correct": true
+        }
+      ],
+      "explanation": "Les β2 adrénergiques favorisent l’entrée du K+ dans la cellule par une action directe sur la pompe Na-K-ATPase et une action indirecte en stimulant la sécrétion d’insuline."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est l'effet d'une élévation aiguë de l'osmolalité sur la kaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle diminue la kaliémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle n'a pas d'effet sur la kaliémie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle augmente la kaliémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle stabilise la kaliémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Une élévation aiguë de l’osmolalité augmente la kaliémie."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux signes cliniques d'une hypokaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes neuromusculaires",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes digestifs",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes cardio-vasculaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signes rénaux",
+          "correct": true
+        }
+      ],
+      "explanation": "Les principaux signes cliniques de l’hypokaliémie sont neuromusculaires, digestifs, cardio-vasculaires et rénaux."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux signes cliniques d'une hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes neuromusculaires",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes cardiaques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes rénaux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signes hormonaux",
+          "correct": true
+        }
+      ],
+      "explanation": "Les symptômes provoqués par une hyperkaliémie sont surtout musculaires et myocardiques. Des effets hormonaux et rénaux sont également décrits."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles précautions doivent être prises lors d'un prélèvement sanguin pour éviter une fausse hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éviter un prélèvement difficile",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Éviter la contraction des muscles de l'avant-bras",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer un acheminement rapide du prélèvement",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utiliser un tube avec anticoagulant",
+          "correct": false
+        }
+      ],
+      "explanation": "Une fausse hyperkaliémie peut être constatée en cas de prélèvement difficile, de contraction des muscles de l’avant-bras ou de retard dans l’acheminement du prélèvement (hémolyse)."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quel est l'effet de l'acidose respiratoire sur la kaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle provoque une hyperkaliémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle provoque une hypokaliémie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle ne s'accompagne pas de dyskaliémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle augmente l'excrétion rénale de potassium",
+          "correct": false
+        }
+      ],
+      "explanation": "L’acidose respiratoire ne s’accompagne pas de dyskaliémie car le CO2 diffuse très facilement la membrane cellulaire."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est l'effet de l'alcalose métabolique sur la kaliémie et l'excrétion urinaire de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle provoque une hyperkaliémie et diminue l'excrétion urinaire de K+",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle provoque une hypokaliémie et diminue l'excrétion urinaire de K+",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle provoque une hypokaliémie et induit une perte urinaire importante de K+",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle n'a pas d'effet significatif sur la kaliémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans l’alcalose métabolique, on observe une hypokaliémie. L’alcalose métabolique induit également une perte urinaire importante de K+."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels les vomissements abondants peuvent entraîner une hypokaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfert intracellulaire de potassium stimulé par l'alcalose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la réabsorption rénale de potassium",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fuite rénale de potassium favorisée par un faible débit chloré tubulaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perte directe de potassium dans le liquide gastrique",
+          "correct": false
+        }
+      ],
+      "explanation": "L’hypokaliémie associée aux vomissements répond à un double mécanisme : transfert intracellulaire de potassium, stimulé par l’alcalose, et fuite rénale de potassium (kaliurèse > 20 mmol/24h) favorisée par un faible débit chloré tubulaire. Le liquide gastrique est pauvre en potassium, donc la perte directe n'est pas le mécanisme principal."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies électrocardiographiques qui peuvent être observées en cas d'hypokaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dépression du segment ST",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Onde T ample, pointue et symétrique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'amplitude de l'onde U",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Allongement de l'espace QT",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Élargissement des complexes QRS",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes électrocardiographiques de l'hypokaliémie comportent successivement : une dépression du segment ST, un affaissement voire une inversion de l’onde T (pas ample et pointue), l’augmentation de l’amplitude de l’onde U, l’allongement de l’espace QT et l’élargissement des complexes QRS."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations cliniques qui augmentent le risque de troubles cardiaques en cas d'hypokaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kaliémie inférieure à 2,5 mmol/l",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypokaliémie d'installation rapide",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Patient porteur d'une cardiopathie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traitement digitalique ou quinidinique en cours",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypomagnésémie associée",
+          "correct": true
+        }
+      ],
+      "explanation": "L’hypokaliémie à risque de troubles cardiaques est caractérisée par : K < 2,5 mmol/l, hypokaliémies d’installation rapide, patient porteur d’une cardiopathie, traitement digitalique/quinidinique en cours, hypercalcémie associée et hypomagnésémie."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hypokaliémie par perte extra-rénale de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhées aiguës",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vomissements abondants",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tumeurs villeuses",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maladie des laxatifs",
+          "correct": true
+        }
+      ],
+      "explanation": "Les hypokaliémies par perte extra-rénale de potassium (kaliurèse < 10-20 mmol/24h) se voient au cours des diarrhées aiguës, diarrhées chroniques (tumeurs villeuses, maladie des laxatifs). Les vomissements abondants sont une cause de perte rénale de potassium."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hyperaldostéronisme primitif (syndrome de Conn) en termes de rénine et d'aldostérone ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rénine élevée et aldostéronémie élevée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rénine basse et aldostéronémie basse",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Rénine basse et aldostéronémie élevée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rénine normale et aldostéronémie normale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperaldostéronisme primitif est caractérisé par une rénine basse et non stimulable et une aldostéronémie élevée."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels l'aldostérone régule la sécrétion tubulaire de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation de la réabsorption du Na+ au niveau apical",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation de la sécrétion du K+ au niveau apical",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation de la pompe Na-K-ATPase au niveau basolatéral",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhibition de la kaliurèse",
+          "correct": false
+        }
+      ],
+      "explanation": "L’aldostérone agit au niveau du tube collecteur cortical et la médullaire externe, elle exerce une triple action : au niveau apical, elle active la réabsorption du Na+ et la sécrétion du K+ par des canaux sélectifs ; au niveau basolatéral, elle active la pompe Na-K-ATPase."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hypokaliémie par transfert de potassium du secteur extracellulaire vers l'intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose métabolique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administration d'insuline",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperactivité β-adrénergique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Intoxication par la chloroquine",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Alcalose métabolique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les principales causes d'hypokaliémie par transfert sont : alcalose métabolique ou respiratoire, administration d’insuline, surdosage en théophylline et caféine, hyperactivité β-adrénergique (Salbutamol, Terbutaline, stress), intoxication par la chloroquine, le baryium, réparation d’anémie mégaloblastique traitée par la vitamine B12, et la paralysie périodique familiale de Westphal. L'acidose métabolique minérale provoque un transfert de K+ de la cellule vers le secteur extra cellulaire, donc une hyperkaliémie."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance essentiels lors du traitement d'une hypokaliémie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance du rythme cardiaque par scope",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "ECG répétés 1 à 2 fois par jour",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ionogrammes sanguins bi-quotidiens",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dosage de la glycémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement d’une hypokaliémie sévère doit se faire sous surveillance du rythme cardiaque par scope, des ECG répétés 1 à 2 fois par jour et des ionogrammes sanguins bi-quotidiens."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies électrocardiographiques qui peuvent être observées en cas d'hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Onde T ample, pointue, étroite et symétrique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Raccourcissement de l'espace QT",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'amplitude de l'onde P",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Élargissement des complexes QRS",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Allongement de l'espace PR",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes électrocardiographiques de l'hyperkaliémie incluent : l’onde T devient ample, pointue, étroite et symétrique ; raccourcissement de l’espace QT ; diminution de l’amplitude de l’onde P (pas augmentation) ; allongement de l’espace PR ; élargissement des complexes QRS."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations cliniques qui aggravent les effets cardiaques de l'hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypocalcémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypoxémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acidose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyponatrémie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cardiopathie sous-jacente",
+          "correct": true
+        }
+      ],
+      "explanation": "Les effets cardiaques de l’hyperkaliémie sont aggravés par une hypocalcémie, une hypoxémie, une acidose, une hyponatrémie associée et une cardiopathie sous-jacente."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hyperkaliémie par déficit d'excrétion rénale de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale aiguë oligo-anurique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale chronique avancée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypo-minéralocorticisme",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diurétiques de l'anse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de déficit d'excrétion du potassium incluent l'insuffisance rénale aiguë oligo-anurique, l'insuffisance rénale chronique (surtout si clairance < 10 ml/min ou apports excessifs), et l'hypo-minéralocorticisme. Les diurétiques de l'anse augmentent la kaliurèse et sont donc une cause d'hypokaliémie."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les médicaments qui peuvent être responsables d'une hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diurétiques épargneurs de K+",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Inhibiteurs de l'enzyme de conversion (IEC)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antagonistes des récepteurs de l'angiotensine II (ARA II)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bêtabloquants non sélectifs",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diurétiques thiazidiques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les médicaments responsables d'une hyperkaliémie incluent les diurétiques épargneurs de K+, l'héparine, les inhibiteurs de l'enzyme de conversion, les antagonistes des récepteurs de l'angiotensine II, les transfusions sanguines massives, les pénicillines riches en K+ et les bêtabloquants non sélectifs. Les diurétiques thiazidiques sont kaliurétiques et entraînent une hypokaliémie."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les moyens thérapeutiques permettant de soustraire le potassium de l'organisme en cas d'hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Résines échangeuses d'ions (Kayexalate)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diurétiques de l'anse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dialyse péritonéale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémodialyse",
+          "correct": true
+        }
+      ],
+      "explanation": "La soustraction du potassium de l'organisme peut être réalisée par les résines échangeuses d'ions (Kayexalate), les diurétiques de l'anse (en cas de syndrome œdémateux ou insuffisance cardiaque sans obstacle urinaire), la dialyse péritonéale et l'hémodialyse."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les moyens thérapeutiques permettant de transférer le potassium du secteur extracellulaire vers le secteur intracellulaire en cas d'hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuline avec du glucose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcalinisation (solution bicarbonatée)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bêtamimétiques (Salbutamol)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chlorure de calcium",
+          "correct": false
+        }
+      ],
+      "explanation": "Le transfert du potassium du secteur extra vers le secteur intra cellulaire peut être obtenu par l'insuline avec du glucose, l'alcalinisation (en cas d'acidose métabolique, avec des contre-indications), et les bêtamimétiques (Salbutamol). Le chlorure de calcium est un antagoniste membranaire qui protège le cœur, mais ne transfère pas le potassium."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à l'alcalinisation par solution bicarbonatée en cas d'hyperkaliémie associée à une acidose métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes de surcharge",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypertension artérielle sévère",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale oligo-anurique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypocalcémie sévère",
+          "correct": true
+        }
+      ],
+      "explanation": "La solution bicarbonatée est contre-indiquée en cas de signes de surcharge, HTA sévère, insuffisance rénale oligo-anurique et hypocalcémie sévère."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications d'une séance d'hémodialyse en urgence pour une hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperkaliémie menaçante sur le plan électrique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Kaliémie supérieure à 6,5 mmol/l au cours d'une insuffisance rénale aiguë",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale chronique avec clairance inférieure à 15 ml/min",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Échec d'un traitement médical quel que soit le degré d'insuffisance rénale chronique",
+          "correct": true
+        }
+      ],
+      "explanation": "L’indication d’une séance d’hémodialyse en urgence est posée en cas d’hyperkaliémie menaçante sur le plan électrique, une kaliémie supérieure à 6,5 mmol/l au cours d’une insuffisance rénale aiguë, une insuffisance rénale chronique avec clairance < 15 ml/min ou un échec d’un traitement médical quel que soit le degré d’insuffisance rénale chronique."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui influencent la sécrétion tubulaire de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apport de potassium",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aldostérone",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Quantité de Na+ délivrée au tubule distal",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glucocorticoïdes",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bicarbonates dans les urines",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs influençant la sécrétion tubulaire de K+ sont : l'apport de potassium, l'aldostérone, la quantité de Na+ délivrée au tubule distal, les glucocorticoïdes, les bicarbonates dans les urines, l'ADH/Vasopressine et l'équilibre acido-basique."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Comment les glucocorticoïdes influencent-ils l'excrétion rénale de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils stimulent directement l'excrétion rénale de potassium via les récepteurs aux minéralocorticoïdes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont métabolisés par la 11β hydroxystéroïde deshydrogénase, ce qui limite leur affinité pour les récepteurs aux minéralocorticoïdes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils entraînent une sortie de K+ de la cellule avec du Na+ et de l'eau, favorisant l'excrétion urinaire de K+",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils inhibent la pompe Na-K-ATPase",
+          "correct": false
+        }
+      ],
+      "explanation": "L’affinité des glucocorticoïdes pour le récepteur aux minéralo-corticoïdes est égale à celle de l’aldostérone, mais ils ne stimulent pas l’excrétion rénale de potassium car les cellules principales possèdent une enzyme (11β hydroxystéroïde deshydrogénase) qui les métabolise. Cependant, les glucocorticoïdes entraînent une sortie de K+ de la cellule avec du Na+ et de l’eau, ce qui favorise l’excrétion urinaire de K+ observée sous corticoïdes aux posologies habituelles."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels l'hypomagnésémie peut entraîner une hypokaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle diminue l'activité de la pompe Na-K-ATPase",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle favorise une excrétion inappropriée de K+",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle augmente la réabsorption tubulaire de K+",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent associée à l'utilisation prolongée de diurétiques ou d'inhibiteurs de la pompe à protons",
+          "correct": true
+        }
+      ],
+      "explanation": "Le déficit en magnésium peut entraîner une excrétion inappropriée de K+. Le déficit en K+ peut être dû à une utilisation prolongée de diurétiques ou d’inhibiteurs de la pompe à protons. La correction de l’hypomagnésémie entraîne généralement la correction de l’hypokaliémie."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes neuromusculaires d'une hypokaliémie sévère (kaliémie < 2 mmol/l) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fatigue musculaire et crampes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Paralysies touchant les régions proximales",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abolition des réflexes ostéotendineux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rhabdomyolyse avec myoglobinurie",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour des kaliémies < 3 mmol/l, on note fatigue musculaire, douleurs, paresthésies et crampes. Quand la kaliémie est plus basse, on observe des paralysies touchant au début surtout les régions proximales, avec abolition des réflexes idiomusculaires et ostéotendineux. Quand la kaliémie est < 2 mmol/l, une rhabdomyolyse avec myoglobinurie peut se voir."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Décrivez les mécanismes physiopathologiques de la perte de potassium cellulaire en cas d'acidose métabolique minérale (causée par des anions inorganiques).",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de l'activité de la pompe Na+/K+-ATPase due à une baisse du Na+ intracellulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de l'entrée de Cl⁻ via l'échange Cl⁻/HCO₃⁻, renforçant l'efflux de K⁺ par le cotransport K⁺/Cl⁻",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stimulation de l'entrée de Na⁺ par l'échange Na⁺/H⁺ et le cotransport Na⁺-3HCO₃⁻",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du pH intracellulaire, favorisant la sortie de K+",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d’acidose métabolique causée par des anions inorganiques, la diminution du pH extracellulaire réduit le taux d’échange Na⁺/H⁺ (NHE1) et inhibe le cotransport Na⁺-3HCO₃⁻. La baisse résultante du Na⁺ intracellulaire diminue l’activité de la pompe Na⁺/K⁺-ATPase, entraînant une perte nette de K⁺ cellulaire. En outre, la chute de la concentration extracellulaire en HCO₃⁻ augmente l’entrée de Cl⁻ via l’échange Cl⁻/HCO₃⁻, ce qui renforce encore l’efflux de K⁺ par le cotransport K⁺/Cl⁻. La stimulation de l'entrée de Na+ est observée dans l'acidose métabolique organique."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Comment l'acidose métabolique chronique peut-elle entraîner une hypokaliémie secondaire à une fuite rénale de K+ ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par augmentation du flux tubulaire due à une diminution de la réabsorption de sodium dans le tube proximal",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par hyperaldostéronisme secondaire à la perte de Na+ urinaire et contraction du volume extracellulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par inhibition de la Na-K-ATPase dans le TCC",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Par fermeture des canaux potassiques sur la membrane luminale",
+          "correct": false
+        }
+      ],
+      "explanation": "L’acidose métabolique chronique entraîne plutôt une hypokaliémie secondaire à une fuite rénale de K+ par : augmentation du flux tubulaire (diminution de la quantité filtrée de HCO3- responsable d’une diminution de la réabsorption de sodium par l’échangeur Na+/H+ dans le tube proximal) et un hyperaldostéronisme secondaire à la perte de Na+ urinaire entraînant une contraction du volume extracellulaire. L'inhibition de la Na-K-ATPase et la fermeture des canaux potassiques sont des effets de l'acidose métabolique aiguë."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les syndromes apparentés à un hyperaldostéronisme primaire, caractérisés par une rénine basse et une aldostérone basse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome de Conn",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Cushing (surtout paranéoplasique)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit acquis en 11β Hydroxystéroïde deshydrogénase",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperplasie congénitale des surrénales par déficit en 11β Hydroxylase",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Liddle",
+          "correct": true
+        }
+      ],
+      "explanation": "Les syndromes apparentés à un hyperaldostéronisme primaire, caractérisés par une rénine basse et une aldostérone basse, regroupent : le syndrome de Cushing (surtout paranéoplasique), le déficit acquis en 11β Hydroxystéroïde deshydrogénase (intoxication à la glycyrrhizine), l’hyperplasie congénitale des surrénales par déficit en 11β Hydroxylase ou en 17 alpha Hydroxylase, et le syndrome de Liddle. Le syndrome de Conn est un hyperaldostéronisme primaire avec aldostérone élevée."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Comment la pompe Na-K-ATPase transmembranaire contribue-t-elle au maintien du potentiel de membrane de repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle permet l'entrée de 3 K+ dans la cellule contre la sortie de 2 Na+",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle permet l'entrée de 2 K+ dans la cellule contre la sortie de 3 Na+",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle maintient une concentration intracellulaire en potassium (Ki) élevée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle génère un potentiel de membrane de repos d'environ +60 à +80 mV",
+          "correct": false
+        }
+      ],
+      "explanation": "Le maintien d’un gradient normal entre le Ke et le Ki est réalisé grâce au fonctionnement de la pompe Na-K-ATPase transmembranaire qui permet l’entrée de 2 K+ dans la cellule contre la sortie de 3 Na+. Ainsi la concentration intracellulaire en potassium Ki est élevée entre 100 et 140 mEq/l et le potentiel de membrane de repos est à environ – 60 à – 80 mV."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de régulation de la réabsorption du K+ dans le tube contourné proximal (TCP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La réabsorption est dépendante de la réabsorption active du Na+",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle se fait uniquement par voie paracellulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est finement régulée par l'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est favorisée par la différence de potentiel lumière positive dans la 2ème partie du TCP",
+          "correct": true
+        }
+      ],
+      "explanation": "Quel que soit l’apport en K+, le TCP réabsorbe entre 55 % et 60 % du K+ filtré. Cette réabsorption est complètement dépendante de la réabsorption active du Na+ et se fait uniquement par voie paracellulaire. Elle est favorisée par la différence de potentiel lumière positive dans la 2ème partie du TCP. Il n’y a pas de régulation de la réabsorption du K+ dans le TCP."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de la néphropathie kaliopénique induite par une hypokaliémie sévère et chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome polyuro-polydipsique par résistance tubulaire à l'ADH",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcalose métabolique par augmentation de la réabsorption de bicarbonates",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acidose métabolique par diminution de la sécrétion de protons",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Néphropathie interstitielle chronique à long terme",
+          "correct": true
+        }
+      ],
+      "explanation": "L’hypokaliémie sévère et chronique entraîne une néphropathie kaliopénique se traduisant par : un syndrome polyuro-polydipsique (résistance tubulaire à l’ADH et réduction du gradient cortico-papillaire), une alcalose métabolique (augmentation de la réabsorption de bicarbonates par le tube contourné proximal, sécrétion de protons : acidurie paradoxale et production d’ammonium), et à long terme une néphropathie interstitielle chronique."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Comment le déficit en chlore contribue-t-il à la fuite rénale de potassium et à la pérennisation de l'alcalose métabolique en cas de vomissements ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le sodium ne peut pas être réabsorbé seul au niveau de l'anse de Henlé en l'absence de chlore",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le sodium poursuit son trajet tubulaire et est réabsorbé par les tubes distaux contre des ions K+ et H+",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La correction du déficit en chlore est essentielle pour régler le problème",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le chlore urinaire est élevé (> 10 mmol/L)",
+          "correct": false
+        }
+      ],
+      "explanation": "Du fait de l’absence de chlore, le sodium ne peut pas être réabsorbé seul au niveau de l’anse de Henlé. Le sodium poursuit donc son trajet tubulaire rénal, et sera réabsorbé par les tubes distaux. À ce niveau, l’absorption de sodium se fait contre des ions K+ et H+ qui seront éliminés dans l’urine entraînant la pérennisation de l’alcalose et fuite urinaire de potassium. La seule façon de régler le problème est de corriger le déficit en chlore. La chlorurie est basse (<10mmol/L)."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels l'alcalose augmente la sécrétion de K+ dans le tube collecteur cortical (TCC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulation de la Na-K-ATPase",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la perméabilité de la membrane apicale au K+ par ouverture des canaux potassiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhibition de la réabsorption de bicarbonates",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution du flux tubulaire",
+          "correct": false
+        }
+      ],
+      "explanation": "L’alcalose augmente la sécrétion de K+ dans le TCC par deux effets directs sur les cellules principales : stimulation de la Na-K-ATPase et augmentation de la perméabilité de la membrane apicale au K+ par ouverture des canaux potassiques."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des différents types cellulaires du tube collecteur cortical (TCC) dans la régulation du potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les cellules principales sont impliquées dans la sécrétion de K+",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les cellules intercalaires α sont impliquées dans la réabsorption de K+ et la sécrétion de H+",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les cellules intercalaires β sont impliquées dans la sécrétion de K+ et de HCO3-",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cellules principales sont responsables de la réabsorption active de K+",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TCC contient 3 types cellulaires : les cellules principales (sécrétion du K+), les cellules intercalaires α (réabsorption du K+ et sécrétion des H+) et les cellules intercalaires β (sécrétion du K+ et de HCO3-). La réabsorption active de K+ est réalisée par les cellules intercalaires α via les H+-K+-ATPases."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Comment l'ADH/Vasopressine influence-t-elle la sécrétion rénale de potassium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle stimule la sécrétion nette de K+ par les cellules principales",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle augmente la perméabilité apicale des canaux potassiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle potentialise l'effet de l'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle diminue la réabsorption de K+ dans le tube proximal",
+          "correct": false
+        }
+      ],
+      "explanation": "L’ADH stimule la sécrétion nette de K+ par les cellules principales par augmentation de la perméabilité apicale des canaux potassiques. L’ADH potentialise aussi l’effet de l’aldostérone."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels l'exercice physique intense peut influencer la kaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation des récepteurs β2 adrénergiques prévenant le risque d'hyperkaliémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Libération d'adrénaline lors d'un stress intense provoquant une hypokaliémie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transfert de potassium du secteur intracellulaire vers l'extracellulaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion d'aldostérone",
+          "correct": false
+        }
+      ],
+      "explanation": "L'exercice physique intense est mentionné comme une cause d'hyperkaliémie par destruction cellulaire ou transfert. Cependant, l'activation des récepteurs β2 adrénergiques lors de l'exercice permet de prévenir le risque d’une hyperkaliémie en favorisant l'entrée de K+ dans les cellules. Le cours mentionne l'exercice physique intense comme une cause d'hyperkaliémie dans la section 'Autres causes', ce qui implique un transfert de K+ vers l'extracellulaire. La libération d'adrénaline lors d'un stress intense est un exemple de cause d'hypokaliémie par hyperactivité β-adrénergique, mais pas directement liée à l'exercice physique intense en tant que cause d'hyperkaliémie."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets secondaires et les précautions d'emploi du Kayexalate dans le traitement de l'hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il fixe le K+ et libère le Na+ dans l'intestin",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est à l'origine d'une constipation et de gastralgies",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un surdosage peut entraîner une hypokaliémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il peut provoquer une surcharge sodée chez les insuffisants cardiaques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Son délai d'action est instantané par voie orale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Kayexalate (polystyrene sulfone de sodium) fixe le K+ et libère le Na+ dans l’intestin (1 mmol de K+ est échangé contre 3 mmol de Na+). Il est à l’origine d’une constipation, de gastralgies, d’hypokaliémie en cas de surdosage et de surcharge sodée chez les insuffisants cardiaques. Son délai d'action est de 3-4h par voie orale, il n'est donc pas instantané."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs du traitement d'une hyperkaliémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normaliser la kaliémie dans les plus brefs délais, surtout en présence de signes cliniques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Corriger les troubles associés tels que l'acidose et l'hyponatrémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traiter la maladie causale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prévenir l'apparition d'une hypokaliémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les buts du traitement de l'hyperkaliémie sont : corriger l’hyperkaliémie dans les plus brefs délais, surtout s’il existe des signes musculaires et/ou cardiaques ; corriger en parallèle les troubles associés en particulier une acidose et une hyponatrémie ; traiter la maladie causale ; et prévenir l’apparition d’une hyperkaliémie (pas une hypokaliémie)."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la réabsorption du K+ dans la branche ascendante de l'anse de Henlé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle assure la réabsorption de 30 à 40% du K+ filtré",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La réabsorption transcellulaire du K+ est permise par le co-transport Na+/K+/2Cl–",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il existe une réabsorption de K+ par voie paracellulaire favorisée par une différence de potentiel lumière positive",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La réabsorption est régulée par l'aldostérone",
+          "correct": false
+        }
+      ],
+      "explanation": "La branche ascendante de l’anse de Henlé assure la réabsorption de 30 à 40% du K+ filtré. La Na-K-ATPase basolatérale permet l’entrée des ions Na+ dans la cellule par le co-transport Na+/K+/2Cl–, permettant la réabsorption transcellulaire du K+. Il existe aussi une réabsorption de K+ par voie paracellulaire favorisée par la différence de potentiel lumière positive. La régulation par l'aldostérone se fait principalement au niveau du TCC."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à prendre en compte pour le traitement préventif de l'hyperkaliémie chez les patients à risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescrire avec prudence les médicaments susceptibles d'augmenter la kaliémie chez les diabétiques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prescrire avec prudence les médicaments susceptibles d'augmenter la kaliémie chez les insuffisants rénaux chroniques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recommander une alimentation riche en potassium chez l'insuffisant rénal chronique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Éviter les sels diététiques contenant du potassium",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez les diabétiques et les insuffisants rénaux chroniques, il faudrait prescrire avec prudence les médicaments susceptibles d’augmenter la kaliémie. L’alimentation doit être pauvre en potassium chez l’insuffisant rénal chronique, et les sels diététiques contenant du potassium doivent être évités."
+    }
+  ]
+}

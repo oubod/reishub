@@ -1,0 +1,1409 @@
+{
+  "lectureId": "27",
+  "number": "27",
+  "title": "Etat de choc cardiogénique",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'un état de choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une réduction du débit cardiaque secondaire à une défaillance aiguë ou sévère de la fonction systolique et/ou diastolique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une altération profonde de la perfusion des tissus et une anoxie cellulaire progressive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du débit cardiaque avec une hypertension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une défaillance cardiaque chronique sans impact sur la perfusion tissulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc cardiogénique est défini par une réduction du débit cardiaque secondaire à une défaillance aiguë et/ou sévère de la fonction systolique et/ou diastolique, entraînant une altération profonde de la perfusion des tissus ainsi qu’une anoxie cellulaire progressive."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Parmi les critères suivants, lesquels sont des critères de bas débit cardiaque pour le diagnostic d'un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression artérielle systolique (PAS) inférieure à 90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécessité de vasopresseurs/inotropes pour maintenir la PAS supérieure à 90 mmHg, en dehors d’une hypovolémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Index cardiaque supérieur à 2,2 L/min/m2.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Baisse de la PAS de moins de 20 mmHg par rapport à sa valeur habituelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de bas débit cardiaque incluent une PAS < 90 mmHg ou la nécessité de vasopresseurs/inotropes pour maintenir la PAS > 90 mmHg (en dehors d’une hypovolémie), ainsi qu'un index cardiaque < 2,2 L/min/m2."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les critères cliniques d'hypoperfusion d'organes dans le choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oligurie < 0,5 ml/kg/h.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Confusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Froideur cutanée et des extrémités.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de marbrures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères cliniques d’hypoperfusion d’organes sont l'oligurie (< 0,5 ml/kg/h), la confusion, la froideur cutanée et des extrémités, et les marbrures."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les critères biologiques de surcharge cardiaque gauche et/ou droite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NT-proBNP > 900 pg/ml.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "BNP > 400 pg/ml.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lactate < 2 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Acidose métabolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères biologiques de surcharge cardiaque incluent un NT-proBNP > 900 pg/ml et/ou un BNP > 400 pg/ml. L'acidose métabolique et le lactate élevé sont des critères d'hypoperfusion."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelle est la phase du cycle cardiaque qui permet l'éjection du sang dans l'aorte et le tronc pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La diastole atriale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La systole atriale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La systole ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La diastole ventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La systole ventriculaire représente la phase d’éjection du sang dans l’aorte et le tronc pulmonaire, provoquée par la contraction du muscle cardiaque."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel est le médiateur biochimique du système parasympathique pour le cœur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Noradrénaline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Adrénaline.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Acétylcholine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dopamine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système parasympathique a pour médiateur biochimique l’acétylcholine."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les effets du système parasympathique sur l'activité cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet chronotrope positif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Effet inotrope négatif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet dromotrope négatif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Effet bathmotrope positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le parasympathique ralentit l’activité cardiaque ; il entraîne un effet chronotrope négatif (bradycardisant), un effet inotrope négatif (diminution de la contractilité du cœur), un effet dromotrope négatif (diminution de la conduction cardiaque) et un effet bathmotrope négatif (diminution de l’excitabilité du myocarde)."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est le médiateur biochimique du système sympathique pour le cœur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acétylcholine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Noradrénaline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sérotonine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Histamine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le médiateur biochimique du système sympathique est la noradrénaline circulante (synthétisée par les neurofibres postganglionnaires)."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les effets du système sympathique sur l'activité cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet chronotrope positif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Effet inotrope positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet dromotrope négatif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Effet bathmotrope négatif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sympathique accélère l’activité cardiaque ; il entraîne un effet chronotrope positif (tachycardisant), un effet inotrope positif (augmentation contractilité du cœur), un effet dromotrope positif (accentuation de la conduction cardiaque) et un effet bathmotrope positif (augmentation de l’excitabilité du myocarde)."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelle est la formule du débit cardiaque (DC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DC = Fréquence cardiaque / Volume d'éjection systolique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "DC = Volume d'éjection systolique - Fréquence cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "DC = Fréquence cardiaque x Volume d'éjection systolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "DC = Pression artérielle moyenne x Résistances vasculaires systémiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le débit cardiaque (DC) est égal à la fréquence cardiaque multipliée par le volume d’éjection systolique."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de SpO2 à atteindre lors de l'oxygénothérapie chez un patient en choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 90%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supérieur à 94%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entre 88% et 92%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Exactement 100%.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’objectif est d’avoir une SpO2 supérieur à 94%."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est l'examen de référence pour l'évaluation hémodynamique lors de la prise en charge de tout patient en état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie de thorax.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Électrocardiogramme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Échocardiographie trans-thoracique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cathétérisme cardiaque droit.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’échocardiographie trans-thoracique est devenue l’examen de référence pour l’évaluation hémodynamique lors de la prise en charge de tout patient en état de choc."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de Pression Artérielle Moyenne (PAM) recommandé par le traitement inotrope et/ou vasopresseur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieur à 60 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Au moins 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Exactement 90 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Supérieur à 100 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est recommandé d’atteindre par le traitement inotrope et/ou vasopresseur un objectif de PAM d’au moins 65 mmHg et davantage en cas d’antécédents d’hypertension artérielle."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelle est la cause la plus fréquente de choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Myocardite aiguë fulminante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Embolie pulmonaire massive.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Infarctus du myocarde étendu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rétrécissement aortique isolé.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cause la plus fréquente de choc cardiogénique est l’infarctus du myocarde étendu."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est le rôle principal de la dobutamine dans le traitement du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vasoconstriction généralisée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Effet inotrope positif puissant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet chronotrope négatif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution du débit cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "La propriété principale de la dobutamine est un effet inotrope positif puissant, dose dépendant, résultant d'une stimulation des récepteurs bêta-1 adrénergiques cardiaques."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente une PAS de 85 mmHg, une oligurie à 0,3 ml/kg/h, une confusion et des lactates à 3 mmol/L. Il a également des crépitants pulmonaires et une turgescence jugulaire. Quel diagnostic est le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc hypovolémique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Choc septique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Choc cardiogénique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Choc anaphylactique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères présentés (PAS < 90 mmHg, oligurie < 0,5 ml/kg/h, confusion, lactates > 2 mmol/L, crépitants, turgescence jugulaire) correspondent aux critères de bas débit cardiaque, d'hypoperfusion d'organes et de surcharge cardiaque, définissant un choc cardiogénique."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui peuvent entraîner une diminution de la fréquence cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperthermie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Manœuvres vagales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Médicaments chronotropes négatifs (ex: digoxine, bêtabloquants).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anxiété.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs qui entraînent une diminution de la fréquence cardiaque sont les manœuvres vagales et les médicaments chronotropes négatifs (digoxine, Bêtabloquant…). L'hyperthermie et l'anxiété augmentent la fréquence cardiaque."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les déterminants du volume d'éjection systolique (VES) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La précharge.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La postcharge.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La contractilité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La fréquence cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le volume d’éjection systolique et la fraction d’éjection dépendent de la précharge, la postcharge et de la contractilité. La fréquence cardiaque est un déterminant du débit cardiaque, mais pas directement du VES."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "La précharge est le volume qui existe dans les ventricules en fin de diastole. De quels facteurs dépend-elle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La compliance ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le retour veineux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La répartition du volume sanguin total.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'activité des atriums.",
+          "correct": true
+        }
+      ],
+      "explanation": "La précharge dépend de la compliance ventriculaire, du retour veineux, de la répartition du volume sanguin total (position du corps, pression intrathoracique, tonus veineux) et de l’activité des atriums qui doivent être synchrones des ventricules."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs déterminants de la postcharge ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La résistance vasculaire (systémique ou pulmonaire).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'existence d'une pathologie cardiaque comme le rétrécissement aortique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La viscosité du sang.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La contractilité myocardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs déterminants de la postcharge sont la résistance vasculaire (systémique ou pulmonaire), l’existence d’une pathologie cardiaque telle que le rétrécissement aortique et la viscosité du sang. La contractilité est un déterminant du VES, mais pas de la postcharge."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs déterminants de la contractilité ou inotropisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La variation de la contrainte pariétale du ventricule gauche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'état de la fibre myocardique et des récepteurs bêta-adrénergiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'environnement (oxygène, acidose, électrolytes).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'activité du système parasympathique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs déterminants de la contractilité sont la variation de la contrainte pariétale du VG, l’état de la fibre myocardique (protéines contractiles, récepteurs béta-adrénergiques, artères coronaires) et l’environnement (oxygène-acidose ; électrolytes (K+, Ca+, H+)). L'activité du système sympathique augmente la force de contraction, pas le parasympathique."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes neuro-humoraux de régulation qui contribuent à l'augmentation des résistances vasculaires périphériques dans le choc cardiogénique classique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Catécholamines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Système rénine-angiotensine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Endothéline.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Kinines vasodilatatrices.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mécanismes neuro-humoraux de régulation (catécholamines, système rénine-angiotensine, endothéline) contribuent à l’augmentation des résistances vasculaires périphériques dans la description classique du choc cardiogénique."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de l'hypoperfusion rénale dans le choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Installation d'une insuffisance rénale oligoanurique fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transformation secondaire en nécrose tubulaire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du débit de filtration glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la pression veineuse centrale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypoperfusion rénale entraîne l'installation initiale d’une insuffisance rénale oligoanurique fonctionnelle (rein de choc) qui peut se transformer secondairement en organique (nécrose tubulaire aiguë). Elle est associée à une baisse du débit de filtration glomérulaire et une congestion veineuse par augmentation de la PVC."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'hypoperfusion périphérique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Marbrures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Extrémités froides, pâles ou cyanosées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Allongement du temps de recoloration cutané (supérieur à 3 secondes).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Peau chaude et sèche.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques d’hypoperfusion périphérique sont principalement des signes cutanés, comprenant des marbrures, des extrémités froides pâles ou cyanosées et un allongement du temps de recoloration cutané (supérieur à 3 secondes)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'insuffisance cardiaque droite à rechercher à l'examen physique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Turgescence des veines jugulaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Reflux hépato-jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hépatomégalie douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Râles crépitants pulmonaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes d’insuffisance cardiaque droite incluent la turgescence des veines jugulaires, le reflux hépato-jugulaire et l'hépatomégalie douloureuse. Les râles crépitants sont des signes d'insuffisance cardiaque gauche."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments que l'échocardiographie trans-thoracique permet de réaliser au cours du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mesure du débit cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Estimation des pressions de remplissage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évaluation de la fonction systolique segmentaire et globale des ventricules.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche d'un thrombus.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’échocardiographie trans-thoracique permet de réaliser le diagnostic hémodynamique du choc (mesure du débit cardiaque, estimation des pressions de remplissage), l’évaluation de la fonction systolique segmentaire et globale des ventricules, la recherche d’une extension de l’IDM au ventricule droit, et la recherche d’un thrombus."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications mécaniques de l'infarctus pouvant être responsables d'un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance mitrale ischémique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rupture septale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rupture de paroi libre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tamponnade.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications mécaniques de l’infarctus (insuffisance mitrale ischémique, rupture septale, rupture de paroi libre, tamponnade) peuvent également être responsables du choc cardiogénique."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du syndrome de Tako-Tsubo ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysfonction contractile localisée à la pointe du ventricule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aspect échographique de ballonnisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypercontractilité des segments basaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Survient préférentiellement chez les hommes jeunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Tako-Tsubo est une cardiopathie caractérisée par une dysfonction contractile localisée à la pointe du ventricule avec un aspect échographique de ballonnisation ventriculaire et d’hypercontractilité des segments basaux. Il survient préférentiellement chez les femmes après la ménopause."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères définissant le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sepsis.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Besoins de catécholamines pour maintenir une PAM ≥ 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lactates ≥ 2 mmol/l malgré un remplissage adéquat.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation des résistances vasculaires systémiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc septique est défini par l'association de 3 critères : le sepsis, besoins de catécholamines pour maintenir une pression artérielle moyenne ≥ 65 mm Hg et des lactates ≥ 2 mmol/l malgré un remplissage adéquat. La principale caractéristique de son profil hémodynamique est un effondrement des RVS."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les propriétés de l'adrénaline (épinéphrine) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Puissant α et β agoniste adrénergique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Effet inotrope positif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet chronotrope positif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la consommation d'oxygène myocardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adrénaline est un puissant α et β agoniste adrénergique. Elle a un effet inotrope positif et un effet chronotrope positif, induisant une augmentation de la consommation d’oxygène myocardique."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de la noradrénaline par rapport à l'adrénaline ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Action prédominante sur les récepteurs α.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Action plus modérée sur les récepteurs β1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence d'action sur les récepteurs β2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasodilatation généralisée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mécanisme d’action de la noradrénaline diffère de celui de l’adrénaline par une action prédominante sur les récepteurs α, plus modérée sur les récepteurs β1 et l’absence d’action sur les récepteurs β2. Sa propriété principale est une vasoconstriction généralisée."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations l'utilisation des inhibiteurs des phosphodiestérases ou du lévosimendan est-elle envisagée dans le choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En première intention chez tous les patients.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de choc cardiogénique réfractaire aux catécholamines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les patients traités de façon chronique par les bêtabloquants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour augmenter la postcharge.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il ne faut pas utiliser les inhibiteurs des phosphodiestérases ou le lévosimendan en première intention. Toutefois, ces classes thérapeutiques pourraient améliorer l’hémodynamique des patients souffrant d’un choc cardiogénique réfractaire aux catécholamines ou ceux traités de façon chronique par les bêtabloquants."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi la ventilation mécanique invasive est-elle plus judicieuse en cas de choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour augmenter le shunt intrapulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour corriger rapidement l'hypoxémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En raison de l'instabilité hémodynamique du patient.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour diminuer le travail respiratoire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La ventilation mécanique invasive est plus judicieuse en cas de choc cardiogénique du fait de l’instabilité hémodynamique du patient. Elle permet la diminution du shunt intrapulmonaire et la correction rapide de l’hypoxémie, ainsi que la diminution du travail respiratoire."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les avantages de la dobutamine par rapport à l'adrénaline dans le traitement du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins d'arythmie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Moindre consommation myocardique en oxygène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Moindre ascension de lactates.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Effet vasoconstricteur plus important.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dobutamine (DBX) comparée à l’adrénaline est pourvoyeuse de moins d’arythmie, d’une moindre consommation myocardique en oxygène et d’une moindre ascension de lactates."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations l'assistance circulatoire par ballon de contre-pulsion intra-aortique est-elle quasiment indiquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de choc cardiogénique réfractaire au traitement médical.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de complication mécanique de l'infarctus du myocarde (insuffisance mitrale, rupture septale).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En première intention pour tous les chocs cardiogéniques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de myocardite aiguë fulminante sans complication mécanique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’assistance circulatoire peut être indiquée en dernière extrémité en cas de choc cardiogénique réfractaire au traitement médical. Elle est toutefois devenue quasiment indiquée en cas de complication mécanique de l'infarctus du myocarde (insuffisance mitrale, rupture septale)."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Un patient en choc cardiogénique présente une baisse de la PAS de 45 mmHg par rapport à sa valeur habituelle, maintenue pendant 45 minutes, malgré un remplissage adéquat et une fréquence cardiaque de 130 bpm avec recours aux catécholamines. Son index cardiaque est de 2,0 L/min/m2. Quels critères de choc cardiogénique sont remplis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Critères de bas débit cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Critères d'hypoperfusion d'organes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Critères de surcharge cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Aucun critère n'est rempli.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de bas débit cardiaque incluent une baisse de plus de 40 mmHg de la PAS par rapport à sa valeur habituelle pendant au moins 30 minutes malgré un remplissage adéquat et une fréquence cardiaque ≥ 60 bpm avec recours aux catécholamines, ainsi qu'un index cardiaque < 2,2 L/min/m2. Tous ces éléments sont présents. Les informations fournies ne permettent pas d'évaluer les critères d'hypoperfusion ou de surcharge cardiaque."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Le nœud sinu-atrial a une activité automatique de 120 bat/mn. Comment le système nerveux extrinsèque module-t-il cette activité à l'état basal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système sympathique l'accélère à 150 bat/mn.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le système parasympathique le ralentit à 70 bat/mn.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le système sympathique l'inhibe complètement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le système parasympathique n'a aucune influence à l'état basal.",
+          "correct": false
+        }
+      ],
+      "explanation": "À l’état basal, le système nerveux extrinsèque prépondérant est le système parasympathique. Le nœud sinu-atrial a une activité automatique à 120 bat/mn ; il est ralenti par le système parasympathique à 70 bat/mn."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Une augmentation de la fréquence cardiaque au-delà de 120 bat/mn peut avoir quelles conséquences sur le débit cardiaque et la perfusion coronaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution du temps de remplissage ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la perfusion coronaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la fraction d'éjection.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’augmentation de la fréquence cardiaque entraîne une augmentation du débit cardiaque, mais au-delà de 120 bat/mn, il se produit une diminution du temps de remplissage ventriculaire et de la perfusion coronaire."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Selon la loi de Frank Starling, que se passe-t-il au-delà d'une valeur seuil de remplissage ventriculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation continue de la force de contraction.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Effondrement de la contraction ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de l'étirement des fibres myocardiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la compliance ventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’augmentation du remplissage ventriculaire entraîne un étirement des fibres myocardiques et une augmentation de la force de contraction qui est favorisée par l’élasticité des fibres myocardiques ; mais au-delà d’une valeur seuil de remplissage, il se produit un effondrement de la contraction ventriculaire."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les indicateurs des résistances vasculaires pour le cœur droit et le cœur gauche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression veineuse centrale (PVC) pour le cœur droit.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Résistances vasculaires pulmonaires (RVP) pour le cœur droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pression capillaire pulmonaire (PCP) pour le cœur gauche.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Résistances vasculaires systémiques (RVS) pour le cœur gauche.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indicateurs des résistances vasculaires sont pour le cœur droit les résistances vasculaires pulmonaires (R.V.P. : 50 à 160 dynes-sec/cm-5) et les résistances vasculaires systémiques pour le cœur gauche (R.V.S : 900 à 1800 dynes-sec/cm-5). La PVC et la PCP sont des indicateurs de précharge."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Dans la dysfonction diastolique, quelles anomalies conduisent à une congestion d'amont pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ralentissement de la pente de relaxation isovolumétrique du ventricule gauche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Altération de la compliance ventriculaire gauche.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la PTDVG.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Déplacement vers le bas et la droite de la courbe de compliance ventriculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Défaut de relaxation et perte de compliance ventriculaire conduisent tous deux à une augmentation de la PTDVG et, donc, à une congestion d’amont, pulmonaire. La dysfonction diastolique se caractérise par un ralentissement de la pente de relaxation isovolumétrique du ventricule gauche, associé ou non à un déplacement vers le haut et la gauche de la courbe de compliance ventriculaire."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes d'auto-aggravation du choc cardiogénique qui peuvent conduire au syndrome de défaillance multiviscérale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les artérioles ne répondent plus aux catécholamines, entraînant une vasodilatation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Installation d'une coagulation intravasculaire disséminée (CIVD).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la vasoconstriction périphérique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Amélioration de la perfusion tissulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mécanismes de feed-back qui vont aggraver l’état de choc incluent le fait que les artérioles ne répondent plus aux catécholamines, la vasoconstriction est donc remplacée par la vasodilatation, qui entraîne une aggravation de l’hypoperfusion tissulaire, et l'installation d’une coagulation intravasculaire disséminée (CIVD). Ces lésions tissulaires irréversibles aboutissent à l’insuffisance de plusieurs organes (SDMV)."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Un patient en état de choc présente une PAS de 95 mmHg. Peut-on exclure un état de choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, car la PAS est supérieure à 90 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Non, car l'absence d'hypotension n'élimine pas le diagnostic à sa première phase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Oui, car la PAM est probablement supérieure à 65 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Non, si la PAS a baissé de plus de 30% par rapport à sa valeur habituelle.",
+          "correct": true
+        }
+      ],
+      "explanation": "Il faut retenir que l’absence d’hypotension n’élimine pas le diagnostic d’un état de choc à sa 1ère phase. L'insuffisance circulatoire aiguë est définie par une PAS inférieure à 90 mm Hg ou une PAM inférieure à 65 mm Hg, ou une variation de plus de 30 % par rapport à la pression artérielle habituelle."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à rechercher à l'électrocardiogramme pour le diagnostic du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles du rythme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles de la conduction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes d'ischémie myocardique systématisés (syndrome coronarien aigu).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aspect de cœur pulmonaire aigu droit électrique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ECG doit rechercher des troubles du rythme, des troubles de la conduction, des signes d’ischémie myocardique systématisés (syndrome coronarien aigu) ou non spécifiques traduisant une souffrance myocardique diffuse, et un aspect de cœur pulmonaire aigu droit électrique."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Le monitorage invasif par cathéter de Swan-Ganz permet de mesurer le débit cardiaque. Quelles autres informations précises fournit-il sur l'état cardio-respiratoire du malade dans la forme type du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des résistances vasculaires systémiques (>1500 dynes.sec.cm2).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la différence artério-veineuse en O2 (>5.5ml/dl).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'extraction périphérique en O2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution des pressions de remplissage du cœur droit et gauche.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans la forme type du choc cardiogénique, le cathéter de Swan-Ganz permet de trouver, en plus de la baisse du débit cardiaque, une augmentation des résistances vasculaires systémiques (>1500 dynes.sec.cm2), une augmentation de la différence artério-veineuse en O2 (>5.5ml/dl) et de l’extraction périphérique en O2. Il permet la mesure des pressions de remplissage du cœur droit et gauche, qui sont augmentées dans le choc cardiogénique."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies de dysfonction cardiaque droite pouvant entraîner un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embolie pulmonaire à haut risque de mortalité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tamponnade.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infarctus du ventricule droit.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rétrécissement aortique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Trois formes particulières de choc cardiogénique sont secondaires à une dysfonction ventriculaire droite aiguë : la tamponnade, l’embolie pulmonaire à haut risque de mortalité et l’infarctus du ventricule droit. Le rétrécissement aortique est un obstacle à l'éjection du ventricule gauche."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Un patient présente un effondrement des résistances vasculaires systémiques avec vasoplégie périphérique. Quel type de choc est le plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc cardiogénique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Choc hypovolémique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Choc septique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Choc obstructif.",
+          "correct": false
+        }
+      ],
+      "explanation": "La principale caractéristique du profil hémodynamique du choc septique est un effondrement des RVS avec une vasoplégie périphérique secondaire à la dysfonction endothéliale sévère."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques hémodynamiques du choc anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chute brutale des résistances vasculaires systémiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypovolémie relative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la perméabilité capillaire entraînant une hypovolémie absolue et des œdèmes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation initiale du débit cardiaque par tachycardie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le choc anaphylactique est secondaire à la libération de puissants médiateurs vasoplégiants, engendrant une chute brutale des résistances vasculaires systémiques (d’où hypovolémie relative) et une augmentation de la perméabilité capillaire (hypovolémie absolue et œdèmes). Dans un premier temps, la pression artérielle reste stable sous l’effet d’une augmentation du débit cardiaque par tachycardie."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Dans le cadre du remplissage vasculaire prudent en cas de choc cardiogénique, quels indices hémodynamiques peuvent guider son indication ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Constantes vitales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épreuve de lever de jambes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Delta PP (Pression Pulsée).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Compliance de la VCI par échocardiographie trans-thoracique (ETT).",
+          "correct": true
+        }
+      ],
+      "explanation": "L'indication du remplissage vasculaire doit être réfléchie et basée sur les indices hémodynamiques statiques et/ou dynamiques (constantes vitales, épreuve de lever de jambes, delta PP, compliance de la VCI par ETT)."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Un patient en choc cardiogénique suite à une intoxication grave par un bêtabloquant est admis. Quel traitement est indiqué en urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de noradrénaline seule.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administration de bicarbonate de sodium molaire en IVD.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mise en place immédiate d'une ECMO veino-artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chirurgie cardiaque d'urgence.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de choc cardiogénique suite à une intoxication grave par un produit à effet stabilisant de membrane (les antidépresseurs tricycliques, les bêtabloquants), un traitement par l'antidote est indiqué en urgence. Il s'agit d'administrer du bicarbonate de sodium molaire en IVD 250 ml à renouveler si besoin."
+    }
+  ]
+}

@@ -1,0 +1,1544 @@
+{
+  "lectureId": "61",
+  "number": "61",
+  "title": "Prise en charge de la douleur aiguë",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon l'Association Internationale pour l'Etude de la Douleur (IASP 2020), comment la douleur est-elle définie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sensation désagréable uniquement physique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une expérience sensorielle et émotionnelle désagréable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un signal d'alarme toujours associé à une lésion tissulaire réelle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une perception exclusivement cognitive d'un stimulus nociceptif.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur est définie comme « une expérience sensorielle et émotionnelle désagréable associée à, ou ressemblant à celle associée à, une lésion tissulaire réelle ou potentielle »."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale de la douleur aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours d'intensité sévère.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est d'installation récente, généralement moins de 3 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est principalement liée à un dysfonctionnement des systèmes de contrôle de la douleur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est un syndrome chronique par définition.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur aiguë est une douleur d’installation récente (< 3 mois). Le terme « aigu » fait référence au temps et non à l’intensité."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Parmi les processus de la douleur, lequel correspond à la conversion d'un stimulus douloureux en influx nerveux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La perception",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La transmission",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La modulation",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La transduction",
+          "correct": true
+        }
+      ],
+      "explanation": "La transduction est la conversion de l’énergie apportée par un stimulus douloureux (mécanique, thermique, chimique) en une énergie électrique (influx nerveux) par les récepteurs sensoriels de la douleur (nocicepteurs)."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les types de nocicepteurs périphériques mentionnés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les barorécepteurs",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les mécanonocicepteurs",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les thermonocicepteurs",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les chémonocicepteurs",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les osmorécepteurs",
+          "correct": false
+        }
+      ],
+      "explanation": "On distingue quatre classes de récepteurs nociceptifs selon le type de stimulus : les mécanonocicepteurs, les thermonocicepteurs, les chémonocicepteurs et les récepteurs polymodaux."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelle est la principale fonction des fibres Aδ myélinisées dans la transmission de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transmettre une douleur tardive et diffuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transmettre rapidement et précisément l'information nociceptive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Encoder l'information non nociceptive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Participer à la modulation de la douleur uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fibres Aδ myélinisées participent à la transmission rapide et précise de l’information nociceptive, entraînant une sensation brève et aiguë semblable à une piqûre."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Où se situe la première synapse entre les fibres nociceptives et les neurones de projection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans le cortex somatosensoriel.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans le thalamus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dans la corne dorsale spinale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans le ganglion rachidien dorsal.",
+          "correct": false
+        }
+      ],
+      "explanation": "La corne dorsale spinale est le siège de la 1ère synapse entre les fibres nociceptives et les neurones de projection qu’elle contient."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de l'hyperalgésie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur provoquée par un stimulus normalement non douloureux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une sensation anormale et désagréable.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une réponse exagérée à une stimulation normalement douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une sensibilité exagérée à une stimulation non douloureuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’hyperalgésie se définit comme une réponse exagérée à une stimulation douloureuse."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les types de douleurs classifiés selon leurs mécanismes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleurs psychogènes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Douleurs par excès de nociception",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleurs neuropathiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Douleurs mixtes",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleurs nociplastiques",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mécanismes et types de la douleur incluent les douleurs par excès de nociception, les douleurs neuropathiques, les douleurs mixtes et les douleurs nociplastiques."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une douleur aiguë sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur d'intensité modérée (EVA 3 à 5/10) évoluant depuis moins de 3 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une douleur d'intensité estimée à une EVA ≥ 6 évoluant depuis moins de 3 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toute douleur nécessitant un traitement de palier 3 de l'OMS.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une douleur chronique d'intensité très intense.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une douleur aiguë sévère est une douleur évoluant depuis moins de 3 mois dont l’intensité est estimée à une EVA ≥ 6."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelles sont les échelles d'autoévaluation de la douleur aiguë par excès de nociception les plus utilisées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'échelle de douleur de l'enfant (DAN)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'échelle visuelle analogique (EVA)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'échelle numérique (EN)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échelle verbale simple (EVS)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les trois échelles les plus utilisées pour évaluer l’intensité de la douleur aiguë par excès de nociception sont l’échelle visuelle analogique (EVA), l’échelle numérique (EN) et l’échelle verbale simple (EVS)."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est le principal mécanisme d'action des AINS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition de la recapture de la sérotonine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Activation des récepteurs opioïdes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Inhibition des cyclo-oxygénases (COX1, COX2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stimulation de la voie inhibitrice descendante sérotoninergique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anti-inflammatoires non stéroïdiens (AINS) sont très actifs sur les prostaglandines algogènes fabriquées au niveau du site de l’agression douloureuse par l’inhibition des cyclo-oxygénases (COX1, COX2)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est l'antidote spécifique en cas d'intoxication massive au paracétamol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La naloxone",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La N-acétylcystéine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le flumazénil",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'atropine",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antidote du paracétamol en cas d'hépatotoxicité est la N-acétylcystéine (Fluimucil IV®)."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est l'effet indésirable majeur de la morphine qui peut être fatal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La constipation",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le prurit",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dépression respiratoire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les nausées et vomissements",
+          "correct": false
+        }
+      ],
+      "explanation": "La dépression respiratoire est une action dépressive centrale qui peut être importante aux fortes doses (bradypnée, respiration de Cheyne-Stockes, apnée) et est un effet indésirable majeur de la morphine."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quel est le palier de l'OMS recommandé pour une douleur aiguë par excès de nociception d'intensité faible à modérée (EVA < 4) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Palier 1",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Palier 2",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Palier 3",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Aucun palier, car la douleur est trop faible.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le palier 1 (à l’exception du néfopam) est utilisé pour une EVA < 4."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal du traitement de la douleur aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éviter la chronicisation de la douleur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Soulager le patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Identifier la cause sous-jacente de la douleur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Réduire les coûts des soins de santé.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur aiguë est un symptôme qu'il est nécessaire de traiter pour d’abord soulager le patient et puis empêcher le phénomène de sensibilisation centrale, c’est-à-dire la chronicisation de la douleur."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les médiateurs de la nociception libérés lors d'une lésion tissulaire ou d'une inflammation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La bradykinine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les prostaglandines",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'histamine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le facteur de croissance nerveux (NGF)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'acétylcholine",
+          "correct": false
+        }
+      ],
+      "explanation": "Une lésion de nature mécanique, thermique ou chimique produit une cascade d’évènements provoquant la libération de substances potentiellement algogènes. Parmi ces substances, on distingue la bradykinine, les prostaglandines, l’histamine, le facteur de croissance nerveux (NGF) et les cytokines."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des fibres C amyéliniques dans la transmission de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles transmettent une sensation brève et aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont responsables de la douleur tardive et diffuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles transportent l'information nociceptive s'apparentant à une brûlure.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont impliquées dans le réflexe de retrait rapide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fibres C amyéliniques sont responsables de la douleur tardive et diffuse. Elles transportent l’information nociceptive, produisant une sensation plus diffuse (seconde douleur) s’apparentant à une brûlure."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les composantes de la douleur impliquées dans la perception douloureuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La composante sensoridiscriminatrice",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La composante affective et émotionnelle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La composante cognitive",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La composante comportementale",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La composante génétique",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur est un phénomène complexe dont la perception fait intervenir quatre composantes interactives : sensori-discriminative, affective et émotionnelle, cognitive et enfin comportementale."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes de contrôle médullaire de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le contrôle inhibiteur spinal descendant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La théorie du portillon (gate control theory).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'inhibition de la douleur par le toucher.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La régulation par les émotions et le mental.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le contrôle médullaire ou spinal est principalement expliqué par la théorie du portillon (gate control theory) ou l’inhibition de la douleur par le toucher, où la stimulation sélective des fibres Aβ bloque les fibres nociceptives Aδ et C."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des douleurs neuropathiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont toujours associées à une lésion du système nerveux périphérique ou central.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le patient décrit souvent des douleurs continues évocatrices de brûlures ou de torsion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles répondent bien aux antalgiques de palier 1 de l'OMS.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles peuvent présenter une composante paroxystique en « décharge électrique ».",
+          "correct": true
+        }
+      ],
+      "explanation": "Les douleurs neuropathiques sont toujours associées à une lésion du système nerveux périphérique ou central. Le patient décrit souvent des douleurs continues évocatrices de brûlures, de torsion, ainsi qu'une composante plus paroxystique en « décharge électrique »."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi est-il important d'évaluer la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour améliorer la qualité de la relation médecin-malade.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour identifier les facteurs responsables de la douleur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour adapter la prise en charge thérapeutique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour assurer le suivi de l'efficacité des prescriptions.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour éviter toute forme de dépendance aux antalgiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Évaluer la douleur permet d'améliorer la relation médecin-malade, d'identifier les facteurs de la douleur, d'adapter la prise en charge thérapeutique et d'assurer le suivi de l'efficacité des prescriptions."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels paramètres doit-on évaluer lors de l'évaluation de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le siège et l'éventuelle irradiation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La date de début et le mode d'évolution.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le type de la sensation (brûlure, décharge électrique, etc.).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'intensité de la douleur et ses conséquences sur la vie quotidienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le groupe sanguin du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les paramètres à évaluer incluent le siège et l'irradiation, la date de début et le mode d'évolution, le type de sensation, l'intensité de la douleur, les conséquences sur la vie quotidienne et les traitements déjà essayés."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les limites de l'échelle visuelle analogique (EVA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est moins sensible que l'échelle verbale simple (EVS).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Près de 20% des patients ne la comprennent pas (enfants < 6 ans, personnes âgées, etc.).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle ne permet pas des mesures répétées et rapprochées.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle ne peut pas être utilisée de manière rétrospective.",
+          "correct": false
+        }
+      ],
+      "explanation": "La limite de l'EVA est que près de 20% des patients ne la comprennent pas (enfants de moins de 6 ans, personnes âgées, patients ayant des capacités d'attention ou d'abstraction restreintes)."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les règles générales de prescription des antalgiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traiter la cause dès le diagnostic.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévenir et anticiper les douleurs inéluctables.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Introduire progressivement les médicaments.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Respecter les contre-indications de chaque molécule.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmenter systématiquement les doses en cas d'inefficacité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les règles de prescription incluent traiter la cause, prévenir les douleurs, informer les patients, traiter précocement, adapter la prescription, introduire progressivement les médicaments et respecter les contre-indications."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables potentiels des AINS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles digestifs (ulcère, hémorragie).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réactions cutanéomuqueuses (rash, urticaire).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du risque thrombotique artériel.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypoglycémie sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AINS peuvent causer des effets indésirables digestifs (ulcère, hémorragie), rénaux (insuffisance rénale fonctionnelle, hyperkaliémie), cutanéomuqueux, allergiques, neurosensoriels, hématologiques, hépatiques et cardiovasculaires (rétention hydrosodée, risque thrombotique artériel)."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications du néfopam ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'épilepsie et les antécédents de troubles convulsifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le glaucome par fermeture de l'angle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La rétention urinaire par obstacle urétro-prostatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'enfant de moins de 15 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'insuffisance hépatique sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications du néfopam sont l'épilepsie et les antécédents de troubles convulsifs, le glaucome par fermeture de l'angle, la rétention urinaire par obstacle urétro-prostatique, l'enfant de moins de 15 ans et la grossesse."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables courants de la codéine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles digestifs (constipation, nausées, vomissements).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles neurosensoriels (somnolence, vertiges, céphalées).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dépression respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la tension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets indésirables de la codéine incluent les troubles digestifs (constipation, nausées et vomissements), les troubles neurosensoriels (somnolence, vertiges, céphalées) et l'effet dépresseur sur les centres respiratoires (insuffisance respiratoire)."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les propriétés pharmacodynamiques de la morphine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est un analgésique d'action centrale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle inhibe la libération de substance P.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle a une sélectivité largement en faveur des récepteurs μ.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle stimule la voie inhibitrice descendante sérotoninergique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La morphine est un analgésique d’action centrale qui inhibe la libération de substance P, et sa sélectivité est largement en faveur des récepteurs μ."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications des antidépresseurs tricycliques (AD3C) et des antiépileptiques comme la gabapentine ou la prégabaline dans le traitement de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les douleurs par excès de nociception aiguës.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les douleurs neuropathiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les douleurs nociplastiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les douleurs post-opératoires intenses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les médicaments les plus efficaces sur les douleurs neuropathiques sont les antidépresseurs tricycliques (AD3C) et les antiépileptiques comme la gabapentine ou la prégabaline. Ils sont rarement utilisés dans les douleurs aiguës, étant plutôt indiqués dans les douleurs neuropathiques et nociplastiques souvent chroniques."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications du MEOPA (Mélange gazeux équimolaire d’oxygène et de protoxyde d’azote) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traumatismes crâniens avec trouble de la conscience.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pneumothorax.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Occlusion intestinale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédents psychiatriques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur aiguë sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications du MEOPA sont les traumatismes crâniens avec trouble de la conscience, les traumatismes maxillo-faciaux, l’existence d’un pneumothorax, l’occlusion intestinale aiguë, les embolies gazeuses et les patients à risque d’hypoxie."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle de la kétamine à faibles doses dans la prise en charge de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle a une action agoniste sur les récepteurs opioïdes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle a une action essentiellement antagoniste sur les récepteurs NMDA.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle diminue la tolérance aux morphiniques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle augmente la consommation de morphine en postopératoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Utilisée à de faibles doses, la kétamine a une action essentiellement antagoniste sur les récepteurs NMDA. Il a été démontré en postopératoire que cette action a des effets anti hyperalgésique et diminue la tolérance aux morphiniques se traduisant par une diminution significative de la consommation de morphine."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les avantages de l'analgésie locorégionale (ALR) en médecine d'urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de retentissement général (neurologique central, hémodynamique, ventilatoire).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Permet le ramassage, la mobilisation et le transport des blessés dans des conditions d’analgésie excellentes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Durée d'action illimitée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence totale de toxicité.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’intérêt principal de l’analgésie locorégionale (ALR) en médecine d’urgence réside dans l’absence de retentissement général (neurologique central, hémodynamique, ventilatoire). Ce traitement permet le ramassage, la mobilisation et le transport des blessés dans des conditions d’analgésie excellentes."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce que l'analgésie multimodale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'utilisation d'un seul médicament à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'association de médicaments analgésiques et de techniques ayant des sites d'action différents et complémentaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une technique qui augmente systématiquement les effets secondaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une approche qui postule que l'association d'antalgiques augmente leur efficacité et limite leurs effets secondaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’analgésie multimodale consiste à associer des médicaments analgésiques et des techniques ayant des sites d’action différents et complémentaires, à l’origine d’interactions additives voire synergiques. Ce concept postule que l’association d’antalgiques augmente leur efficacité et limite leurs effets secondaires."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions nécessaires pour évaluer correctement la douleur d'un patient ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Établir une relation de confiance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prendre en compte l'état du patient et son âge.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Consacrer le temps nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Commencer un entretien exhaustif avant tout soulagement en cas de détresse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Utiliser uniquement des échelles d'autoévaluation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour réussir l’évaluation de la douleur, il faut établir une relation de confiance, prendre en compte l’état du patient et son âge, et consacrer le temps nécessaire. En cas de détresse, il est illusoire de commencer un entretien exhaustif sans avoir essayé de soulager au préalable le patient."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les interactions médicamenteuses importantes à connaître avec les AINS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antivitamines K (AVK) : risque hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anticoagulants oraux directs : augmentation du risque hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurétiques, IEC et ARAII : diminution de la filtration glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Corticoïdes : association à éviter.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Paracétamol : synergie sans risque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les AINS interagissent avec les AVK (risque hémorragique), les anticoagulants oraux directs (risque hémorragique), les diurétiques, IEC et ARAII (diminution de la filtration glomérulaire), les sulfamides hypoglycémiants (risque majoré d’hypoglycémie), les corticoïdes (association à éviter), le lithium (risque d’augmentation de la lithémie) et le méthotrexate (toxicité hématologique)."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Comment le cortex cérébral est-il impliqué dans la perception de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortex somatosensoriel (S1 et S2) est impliqué dans la composante sensori-discriminative.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les cortex insulaire et cingulaire antérieur reçoivent le faisceau latéral spinothalamique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le cortex somatosensoriel permet de discerner la localisation et la qualité de la douleur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les cortex insulaire et cingulaire antérieur sont impliqués dans la composante motivo-affective ou émotionnelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le cortex cérébral est le seul niveau où l'organisme prend conscience du caractère douloureux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortex somatosensoriel (S1 et S2) reçoit le faisceau latéral spinothalamique et est impliqué dans la composante sensori-discriminative (précision, localisation, qualité). Les cortex insulaire et cingulaire antérieur reçoivent le faisceau spino-réticulo-thalamique et sont impliqués dans la composante motivo-affective ou émotionnelle. C’est à ce niveau que l’organisme prend conscience du caractère douloureux et devient capable de discerner la localisation."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Expliquez le phénomène des douleurs projetées.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont dues à une lésion du système nerveux périphérique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont rapportées par « erreur » au métamère cutané alors que l'origine est viscérale, articulaire ou musculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles s'expliquent par la convergence d'afférences nociceptives viscérales et cutanées sur un seul faisceau ascendant médullaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cartographie corticale pariétale est imprécise pour les viscères, les muscles et les vaisseaux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours associées à une hyperalgésie secondaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les « douleurs projetées » sont rapportées par « erreur », lors de l’analyse corticale, au métamère cutané alors que l’origine réelle est viscérale, articulaire ou musculaire. Ce phénomène s'explique en partie par la convergence d'une partie des afférences nociceptives viscérales et cutanées sur un seul faisceau ascendant médullaire. La cartographie corticale pariétale possède une somatotopie topographique très précise pour la peau, mais imprécise pour les muscles, les vaisseaux et les viscères."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences entre l'hyperalgésie primaire et secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hyperalgésie primaire s'explique par la libération de facteurs inflammatoires en périphérie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hyperalgésie secondaire est due à un phénomène central appelé « sensibilisation centrale ».",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hyperalgésie primaire implique le recrutement de nocicepteurs avoisinant le site de la lésion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperalgésie secondaire est toujours associée à une lésion tissulaire visible.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le recrutement répété des fibres C au niveau spinal provoque la sensibilisation des neurones de projection dans l'hyperalgésie primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’hyperalgésie primaire s’explique par la libération de différents facteurs inflammatoires en périphérie, ce qui mène au recrutement de nocicepteurs avoisinant le site de la lésion. L’hyperalgésie secondaire s’explique par un phénomène central appelé « sensibilisation centrale », où le recrutement répété des fibres C va provoquer au niveau spinal une cascade d’évènements qui va aboutir à la sensibilisation des neurones de projection."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des douleurs nociplastiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont dues à un dysfonctionnement des systèmes de contrôle de la douleur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il n’y a pas de preuve clinique ou paraclinique d’un dommage tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La fibromyalgie et les céphalées de tension en sont des exemples.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles répondent toujours aux antalgiques de palier 3 de l'OMS.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours associées à une lésion nerveuse périphérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les douleurs nociplastiques sont dues à un dysfonctionnement des systèmes de contrôle de la douleur. Il n’y pas de preuve clinique ou paraclinique d’un dommage tissulaire (viscéral, vasculaire ou neuropathique). La fibromyalgie et les céphalées de tension sont des exemples de douleurs nociplastiques."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les spécificités de l'évaluation de la douleur chez le nourrisson et l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les jeunes enfants ont des systèmes de sensibilisation à la douleur très puissants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le stress et la douleur sont très intriqués chez le tout-petit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La réponse comportementale évolue en deux phases : agitation puis inertie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échelle EVA est utilisable dès la naissance.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le passage de la phase d'agitation à l'inertie est d'autant plus précoce que l'enfant est jeune.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les jeunes enfants ont des systèmes de sensibilisation à la douleur très puissants. Chez le tout-petit, le stress et la douleur sont très intriqués. La réponse comportementale du petit enfant à la douleur est son évolution en deux phases : agitation puis inertie. Le passage entre la première et la deuxième phase est d’autant plus précoce que l’enfant est jeune. L'EVA est utilisable à partir de 6 ans, avant cet âge, les échelles d'hétéroévaluation sont recommandées."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de l'évaluation de la douleur chez la personne âgée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il n'y a pas de « presbyalgie », la tolérance à la douleur n'est pas augmentée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le tableau douloureux aigu peut être abâtardi et remplacé par d'autres symptômes (asthénie, confusion).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les échelles d'autoévaluation sont utilisables si la personne est communicante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échelle ALGOPLUS est spécifiquement utilisée pour les douleurs aiguës chez la personne âgée non communiquante.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La douleur est toujours moins intense chez la personne âgée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il n’y a pas de « presbyalgie », la personne âgée ne tolère pas plus la douleur. Le tableau douloureux aigu peut être abâtardi. Les échelles d'autoévaluation sont utilisables si la personne est communicante. L’échelle ALGOPLUS est utilisée pour évaluer les douleurs aiguës chez la personne âgée non communiquante."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes d'action du paracétamol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition de la synthèse des prostaglandines au niveau du SNC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimulation de la voie inhibitrice descendante sérotoninergique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Élévation du seuil de perception de douleur provoquée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhibition des cyclo-oxygénases périphériques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Action directe sur les récepteurs opioïdes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le paracétamol inhibe la synthèse des prostaglandines au niveau du SNC, stimule la voie inhibitrice descendante sérotoninergique et élève le seuil de perception de douleur provoquée."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une action préférentielle des AINS sur la COX-1 ou la COX-2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une action préférentielle sur la COX-1 augmente le risque de complications gastro-duodénales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une action préférentielle sur la COX-2 augmente le risque de complication cardio-vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les anti-COX2 irritent moins le tube digestif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les anti-COX1 sont à éviter en cas de problèmes gastriques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'action sur les plaquettes est uniquement liée à l'inhibition de la COX-2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une action préférentielle sur la COX-1 augmente le risque de complications gastro-duodénales, et les AINS ayant une action préférentielle anti-COX1 sont donc à éviter en cas de problèmes gastriques. Une action préférentielle sur la COX-2 augmente le risque de complication cardio-vasculaire. Les anti-COX2 irritent moins le tube digestif."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications des AINS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents de réaction allergique aux AINS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ulcère digestif évolutif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance cardiaque congestive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grossesse à partir de 24 semaines d'aménorrhée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypertension artérielle contrôlée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications des AINS incluent les ATCD de réaction allergique, l'ulcère digestif évolutif, l'insuffisance cardiaque congestive, l'insuffisance rénale ou hépatique sévère, l'HTA déséquilibrée, l'hémorragie évolutive, les troubles de l'hémostase, les cardiopathies ischémiques, et sont formellement contre-indiqués à partir de 24 semaines d’aménorrhée."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes d'action du tramadol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effet opioïde mu faible.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Inhibition de la recapture de la noradrénaline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhibition de la recapture de la sérotonine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transformation en métabolite actif par le CYP2D6.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Action directe sur les récepteurs Kappa.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le chlorhydrate de tramadol est un antalgique ayant un effet à la fois opioïde mu faible et un effet monoaminergique (inhibition de la recapture de la noradrénaline et de la sérotonine). Son effet antalgique repose sur l'action du CYP2D6, qui le transforme en O-déméthyl tramadol, métabolite actif."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques associés au tramadol, notamment en cas de surdosage ou d'association médicamenteuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abaissement du seuil épileptogène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome sérotoninergique en cas d'association à un autre médicament sérotoninergique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque hémorragique en cas d'association avec les AVK.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dépression respiratoire sévère, antagonisable par la naloxone.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la tension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tramadol peut entraîner un abaissement du seuil épileptogène et un risque de syndrome sérotoninergique en cas de surdosage ou d'association à un autre médicament sérotoninergique. Il existe un risque hémorragique en cas d’association avec les AVK. La dépression respiratoire est un effet indésirable, et la naloxone est l’antidote en cas de dépression respiratoire."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables de la morphine et comment sont-ils gérés en cas d'intoxication ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dépression respiratoire, pouvant être fatale si l'oxygénothérapie est utilisée sans ventilation assistée en cas d'intoxication.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dépression cardio-vasculaire (bradycardie, hypotension orthostatique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Constipation, nausées, vomissements.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rétention urinaire et prurit.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'antidote est la N-acétylcystéine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets indésirables de la morphine incluent la dépression respiratoire, la dépression cardio-vasculaire, les nausées, vomissements, constipation, rétention urinaire et prurit. En cas d’intoxication, la morphine est antagonisable par la naloxone. Il est important de noter qu'en cas d'intoxication, il y a une perte de sensibilité à l’hypocapnie, donc seule l’hypoxie maintient la respiration ; si l'on utilise l’oxygénothérapie sans ventilation assistée, une mort par arrêt respiratoire peut survenir."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les spécificités du fentanyl par rapport à la morphine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le fentanyl est un agoniste très puissant des récepteurs opioïdes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est 100 fois plus puissant que la morphine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La voie transdermique est une forme d'administration courante pour les douleurs chroniques sévères.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est recommandé de l'utiliser en première intention pour débuter un traitement antalgique de palier 3.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une titration préalable est fortement recommandée avant son introduction.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le fentanyl est un agoniste très puissant des récepteurs opioïdes, très liposoluble, et est 100 fois plus puissant que la morphine. La voie transdermique est la plus ancienne sur le marché pour les douleurs chroniques sévères. Le fentanyl est plutôt utilisé en relais d’un traitement per os qu’en début de traitement, et une titration préalable est fortement recommandée."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les précautions et contre-indications à respecter lors de l'utilisation d'anesthésiques locaux pour l'analgésie locorégionale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inventaire précis des lésions et consignation de l'examen neurologique de la zone.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Allergie aux anesthésiques locaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection locale dans la zone de ponction.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles majeurs de l'hémostase.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La lidocaïne est le meilleur choix pour sa durée d'action prolongée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Avant la réalisation d’une ALR, il importe de faire un inventaire le plus précis et le plus exhaustif possible des lésions et de consigner par écrit les données de l’examen neurologique. Les contre-indications classiques sont l'allergie aux AL, l'infection locale et les troubles majeurs de l’hémostase. La lidocaïne offre le meilleur ratio efficacité/sécurité, même si sa durée d’action est limitée par comparaison à des agents plus puissants comme la bupivacaïne et la ropivacaïne."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de contrôle supra-médullaire de la douleur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le contrôle inhibiteur spinal descendant, impliquant des voies sérotoninergiques et noradrénergiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La régulation de la douleur par les émotions et le mental.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les contrôles inhibiteurs induits par une stimulation nociceptive (analgésie induite par la douleur).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La théorie du portillon (gate control theory).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'activation des fibres Aβ myélinisées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mécanismes de contrôle supra-médullaire incluent le contrôle inhibiteur spinal descendant (thalamus à l'origine de voies sérotoninergiques et noradrénergiques), le contrôle de la douleur par les structures corticales (régulation par les émotions et le mental) et les contrôles inhibiteurs induits par une stimulation nociceptive (analgésie induite par la douleur, ex: acupuncture). La théorie du portillon et l'activation des fibres Aβ sont des mécanismes de contrôle médullaire."
+    }
+  ]
+}

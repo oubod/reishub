@@ -1,0 +1,50 @@
+{
+  "name": "Portail Résidanat",
+  "short_name": "Résidanat",
+  "description": "Portail de préparation au résidanat pour la Tunisie et la Mauritanie.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f9ff",
+  "theme_color": "#f6f9ff",
+  "categories": ["education", "medical", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-72.png", "sizes": "72x72", "type": "image/png" },
+    { "src": "assets/icons/icon-96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "assets/icons/icon-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "assets/icons/icon-144.png", "sizes": "144x144", "type": "image/png" },
+    { "src": "assets/icons/icon-152.png", "sizes": "152x152", "type": "image/png" },
+    { "src": "assets/icons/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-384.png", "sizes": "384x384", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cours FMT",
+      "short_name": "Cours",
+      "description": "Ouvrir la liste des cours FMT",
+      "url": "./tunis.html#cours",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Quiz",
+      "short_name": "Quiz",
+      "description": "Ouvrir les quiz locaux",
+      "url": "./tunis.html#quiz",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Notes",
+      "short_name": "Notes",
+      "description": "Ouvrir les notes personnelles",
+      "url": "./tunis.html#notes",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

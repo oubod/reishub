@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-19",
+  "title": "Les méningites",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle(s) affirmation(s) concernant la différenciation entre méningite et méningo-encéphalite est (sont) exacte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La ponction lombaire permet de différencier une méningite d'une méningo-encéphalite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La méningo-encéphalite à liquide clair est caractérisée par une prédominance de polynucléaires neutrophiles (PNN).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La différenciation clinique repose sur la recherche de signes centraux tels que des troubles des fonctions supérieures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de doute clinique, l'électroencéphalogramme (EEG) ou l'imagerie peuvent aider à la différenciation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les étiologies des méningo-encéphalites à liquide purulent sont différentes de celles des méningites bactériennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La différenciation clinique entre méningite et méningo-encéphalite repose sur la présence de signes centraux (troubles des fonctions supérieures, trouble de vigilance, signe de localisation). En cas de doute clinique, l'EEG ou l'imagerie sont utiles. La PL confirme l'atteinte méningée mais ne permet pas cette différenciation. La méningo-encéphalite à liquide clair est lymphocytaire, et celle à liquide purulent a des étiologies identiques aux méningites bactériennes."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes suivants, lesquels sont considérés comme des signes de gravité d'une méningite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées violentes et diffuses.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un purpura extensif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un Glasgow à 10.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une instabilité hémodynamique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des vomissements en jet sans effort.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de gravité incluent un purpura extensif, des troubles graves de conscience avec Glasgow ≤ 8, des signes de localisation neurologique, des signes de souffrance du tronc cérébral, un état de mal convulsif et une instabilité hémodynamique. Un Glasgow à 10 n'est pas considéré comme un signe de gravité (le seuil est ≤ 8). Les céphalées et vomissements sont des signes du syndrome méningé mais pas de gravité en soi."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de méningite bactérienne chez le sujet âgé de plus de 65 ans ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le méningocoque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le pneumocoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Listeria monocytogenes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Haemophilus influenzae.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le streptocoque du groupe B.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que la méningite est le plus souvent bactérienne chez le sujet âgé > 65 ans, et que la 1ère cause de méningite bactérienne est le pneumocoque, représentant 70% des cas chez les sujets de plus de 40 ans."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques cliniques typiques du syndrome méningé fébrile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées unilatérales pulsatives.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une raideur de nuque douloureuse à la flexion passive du rachis cervical.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des vomissements spontanés, en jet, sans effort.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fièvre et des frissons.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une photophobie et une phonophobie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome méningé fébrile se caractérise par des céphalées quasi-constantes (violentes, diffuses, en casque, continues, aggravées au mouvement de tête et à l'exposition à la lumière et au bruit), des vomissements précoces, inconstants, spontanés, en jet, sans effort, une raideur de nuque douloureuse lors de la flexion passive du rachis cervical, et une fièvre avec frissons. Les céphalées sont diffuses, pas unilatérales pulsatives."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la conduite à tenir immédiate en cas de purpura fulminans suspecté d'être d'origine méningococcique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser une ponction lombaire en urgence avant toute autre intervention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administrer une injection IV ou IM de ceftriaxone ou de céfotaxime en urgence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mettre en place des précautions complémentaires 'contact'.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hospitaliser le patient en service de maladies infectieuses sans délai.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Attendre les résultats des hémocultures avant d'initier l'antibiothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de purpura fulminans, la CAT est une injection IV ou IM de ceftriaxone ou de céfotaxime en urgence (ou à défaut d'amoxicilline). Des précautions complémentaires 'gouttelettes' sont nécessaires. L'hospitalisation urgente se fait en réanimation. La PL est souvent non réalisable à la phase initiale en raison de l'instabilité hémodynamique ou d'une CIVD. L'antibiothérapie doit être débutée en extrême urgence, avant tout prélèvement si en pré-hospitalier, ou après hémocultures et avant PL si en hospitalier."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à la réalisation d'emblée d'une ponction lombaire (PL) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anomalie de l'hémostase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des crises convulsives anciennes et bien contrôlées.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un Glasgow à 12 sans signe de localisation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une instabilité hémodynamique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des mouvements d'enroulement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les contre-indications à la PL d'emblée incluent une anomalie de l'hémostase (nécessitant correction), une instabilité hémodynamique (nécessitant stabilisation), et la nécessité d'une TDM cérébrale avant PL en cas de signes d'engagement cérébral (comme les mouvements d'enroulement), de risque élevé d'engagement (signes de localisation neurologique, troubles de conscience avec Glasgow ≤ 11) ou de crises convulsives récentes ou en cours. Un Glasgow à 12 n'est pas une contre-indication si sans signe de localisation."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la méningite à méningocoque, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le portage nasopharyngé asymptomatique est rare dans la population générale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La contamination est aérienne interhumaine directe lors d'une exposition proche et prolongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sérogroupe B est le plus fréquent en France, représentant environ 60% des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une sensibilité diminuée à la pénicilline est observée dans environ 30% des souches.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La diffusion se fait généralement par contiguïté à partir d'un foyer ORL.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le portage nasopharyngé asymptomatique est fréquent (5 à 50% de la population). La contamination est aérienne interhumaine directe. Le sérogroupe B est le plus fréquent (60%), suivi du C (30%). Environ 30% des souches ont une sensibilité diminuée à la pénicilline. La diffusion est par voie hématogène d'une souche invasive, non par contiguïté (ce qui est plus typique du pneumocoque)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du liquide céphalo-rachidien (LCR) en cas de méningite purulente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un aspect macroscopique clair, 'eau de roche'.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une cellularité généralement supérieure à 1000/mm3 avec prédominance de PNN.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une glycorachie supérieure à 2/3 de la glycémie sanguine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une protéinorachie généralement supérieure à 1 g/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des lactates supérieurs à 3,2 mmol/L.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de méningite purulente, le LCR est généralement trouble. La cytologie montre plus de 20/mm3 d'éléments, souvent > 1000/mm3, avec PNN > 50%. La glycorachie est ≤ 0,4 x glycémie. La protéinorachie est généralement > 1 g/L. Les lactates sont > 3,2 mmol/L."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quel(s) cas l'antibiothérapie probabiliste doit-elle être débutée après hémocultures et avant la ponction lombaire (PL) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de purpura fulminans en milieu hospitalier.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si le LCR est macroscopiquement trouble.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de contre-indication à la PL d'emblée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si la prise en charge hospitalière est impossible dans les 90 minutes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lorsque l'examen direct du LCR est positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie doit être débutée après hémocultures et avant PL si : purpura fulminans en hospitalier, contre-indication à la PL d'emblée, ou PEC hospitalière impossible dans les 90 minutes. Si le LCR est macroscopiquement trouble, l'ATB est débutée après hémocultures et PL. Si l'examen direct est positif, l'ATB est débutée dès le résultat de l'ED."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs favorisants de la méningite à pneumocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un antécédent de traumatisme crânien avec brèche ostéoméningée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un déficit en complément.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'alcoolisme chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une infection ORL ou pulmonaire récente.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un portage nasopharyngé asymptomatique de souche invasive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le terrain favorisant la méningite à pneumocoque inclut une porte d'entrée (infection ORL ou pulmonaire), une immunodépression (alcoolisme, asplénie, infection VIH, hypogammaglobulinémie) et une brèche ostéoméningée (antécédent de traumatisme crânien ou neurochirurgie). Le déficit en complément est un facteur favorisant pour le méningocoque. Le portage nasopharyngé de souche invasive est lié au méningocoque."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la méningite à Listeria monocytogenes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un bacille Gram positif (BGP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La contamination est principalement aérienne interhumaine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est plus fréquente chez les sujets jeunes et immunocompétents.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'encéphalite, si présente, prédomine sur le tronc cérébral (rhombencéphalite).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le traitement de première intention inclut l'amoxicilline et la gentamicine.",
+          "correct": true
+        }
+      ],
+      "explanation": "Listeria monocytogenes est un BGP. La contamination est digestive (crudités, fromage non pasteurisé), non aérienne interhumaine. Elle touche principalement les immunodéprimés (sujets âgés, femmes enceintes, alcooliques, etc.), non les sujets jeunes et immunocompétents. En cas d'encéphalite, elle prédomine sur le tronc cérébral (rhombencéphalite). Le traitement de première intention est l'amoxicilline + gentamicine."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui orientent fortement vers une étiologie bactérienne en cas d'examen direct du LCR négatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une cellularité du LCR inférieure à 100/mm3.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une protéinorachie supérieure à 1 g/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une glycorachie inférieure à 0,4 fois la glycémie sanguine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des lactates du LCR supérieurs à 3,2 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une PCT sanguine supérieure à 0,5 ng/ml.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'examen direct négatif, une forte suspicion d'origine bactérienne est retenue si : LCR purulent, cellularité > 1000/mm3 (non < 100), protéinorachie > 1 g/L, glycorachie < 0,4 x glycémie, lactates > 3,2 mmol/L, et PCT sanguine > 0,5 ng/ml."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels antibiotiques diffusent bien à travers la barrière hémato-méningée, même en l'absence d'inflammation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les aminosides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les fluoroquinolones.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le cotrimoxazole.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les macrolides.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La rifampicine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cotrimoxazole et les fluoroquinolones ont une bonne diffusion méningée. La pénicilline, les C3G et la rifampicine ont une diffusion moyenne (favorisée par l'inflammation). Les aminosides et les glycopeptides ont une diffusion limitée. Les macrolides ont une diffusion nulle."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la durée de traitement recommandée pour une méningite à méningocoque et à pneumocoque, en cas d'évolution rapidement favorable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méningocoque : 10 à 14 jours ; Pneumocoque : 4 à 7 jours.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Méningocoque : 4 à 7 jours ; Pneumocoque : 10 à 14 jours.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Méningocoque : 7 jours ; Pneumocoque : 7 jours.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Méningocoque : 4 jours ; Pneumocoque : 10 jours.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Méningocoque : 14 jours ; Pneumocoque : 21 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la méningite à méningocoque, la durée est de 4 à 7 jours (4 jours si évolution rapidement favorable). Pour la méningite à pneumocoque, la durée est de 10 à 14 jours (10 jours si souche sensible et évolution rapidement favorable)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la corticothérapie (dexaméthasone IV) dans la prise en charge des méningites bactériennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uniquement en cas de diagnostic microbiologique de méningite à pneumocoque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de diagnostic présumé de méningite bactérienne avec un LCR trouble.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si l'antibiothérapie parentérale a été débutée depuis plus d'une heure.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de diagnostic microbiologique de méningite à méningocoque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La première injection doit être réalisée au plus tard dans l'heure suivant la première injection d'antibiothérapie.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dexaméthasone IV est indiquée en cas de diagnostic microbiologique de méningite à pneumocoque ou à méningocoque. Elle est aussi indiquée en cas de diagnostic présumé de méningite bactérienne (LCR trouble, examen direct négatif avec faisceau d'arguments) si l'antibiothérapie probabiliste est débutée. La première injection doit être avant la première injection d'ATB ou au plus tard dans l'heure suivante. Elle est inutile si l'ATB parentérale a été débutée depuis plus d'une heure."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives spécifiques à mettre en œuvre en cas de méningite à méningocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des précautions complémentaires 'contact' jusqu'à 24h après le début de l'antibiothérapie efficace.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une déclaration obligatoire à l'ARS des infections invasives à méningocoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une antibioprophylaxie des sujets contacts.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vaccination systématique du cas index.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vaccination des sujets contacts en fonction du sérogroupe.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mesures préventives incluent des précautions complémentaires 'gouttelettes' (non 'contact') jusqu'à 24h après le début de l'antibiothérapie efficace, une déclaration obligatoire à l'ARS, une antibioprophylaxie des sujets contacts et la vaccination des sujets contacts (ACYW135 si A, C, Y, W135 ; B si épidémie/hyper-endémie). Il n'y a aucune indication de vacciner le cas index."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères définissant un 'cas contact' pour la prophylaxie en cas de méningocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toute personne ayant été en contact avec le patient dans les 24 heures précédant le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un contact direct, proche (< 1 mètre) et prolongé (> 1h d'affilée) avec les sécrétions oropharyngées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement les membres vivant sous le même toit que le sujet infecté.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une personne ayant dormi dans la même salle que le patient.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un contact médical ayant réalisé une intubation sans masque de protection.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un cas contact est défini par un contact direct (face à face), proche (< 1 mètre) et prolongé (> 1h d'affilée) avec les sécrétions oropharyngées d'un sujet infecté dans les 10 jours précédant. Cela inclut au minimum tous les membres vivant sous le même toit, mais aussi flirt, amis intimes, personne ayant dormi dans la même salle, et certains contacts médicaux (bouche-à-bouche, intubation ou aspiration endotrachéale sans masque de protection)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales étiologies virales des méningo-encéphalites à liquide clair ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entérovirus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Virus Herpes Simplex (HSV1/2).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Listeria monocytogenes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Virus Varicelle-Zona (VZV).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Mycoplasma pneumoniae.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méningo-encéphalites à liquide clair sont le plus souvent virales, avec comme étiologies principales HSV1/2, VZV, entérovirus, VIH, EBV, CMV. Listeria monocytogenes et Mycoplasma pneumoniae sont des causes bactériennes possibles de méningo-encéphalite à liquide clair, mais pas virales."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes neurologiques centraux pouvant être observés en cas de méningo-encéphalite infectieuse à liquide clair ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des troubles du comportement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une raideur de nuque isolée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des troubles de la vigilance allant de l'obnubilation au coma.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des crises convulsives partielles ou généralisées.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une aphasie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes neurologiques centraux incluent des troubles des fonctions supérieures (troubles du comportement, troubles mnésiques, confusion, bradypsychie, aphasie), des troubles de vigilance (de l'obnubilation au coma), des signes focaux (crise convulsive partielle, déficit moteur, atteinte de paire crânienne) et des mouvements anormaux ou crises convulsives généralisées. La raideur de nuque isolée fait partie du syndrome méningé, mais les signes centraux sont plus spécifiques de l'atteinte encéphalique."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du LCR en cas de méningite à liquide clair d'origine virale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une prédominance de polynucléaires neutrophiles (PNN).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une cellularité entre 5 et 100/mm3, parfois jusqu'à 1000/mm3.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une glycorachie supérieure à 2/3 de la glycémie sanguine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une protéinorachie souvent inférieure à 1 g/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des lactates supérieurs à 3,2 mmol/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de méningite à liquide clair (virale), il y a une prédominance de lymphocytes (> 50%), une cellularité de 5 à 100/mm3 (parfois 100 à 1000/mm3), une normoglycorrachie (> 2/3 x glycémie), une protéinorachie souvent < 1 g/L, et des lactates < 3,2 mmol/L."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher systématiquement dans le bilan paraclinique initial d'une méningite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une glycémie veineuse concomitante à la PL.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des hémocultures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un bilan d'hémostase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une PCR entérovirus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un dépistage VIH (avec accord du patient).",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan standard inclut NFS, ionogramme, créatininémie, glycémie, bilan hépatique, bilan d'hémostase. Une glycémie veineuse concomitante à la PL est nécessaire. Des hémocultures sont systématiques. Un dépistage VIH est systématique (avec accord du patient). La PCR entérovirus est réalisée selon le contexte de faible suspicion de méningite bactérienne, pas systématiquement d'emblée."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives primaires recommandées pour la méningite à pneumocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La vaccination anti-pneumococcique chez le sujet à risque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une antibioprophylaxie par pénicilline chez le splénectomisé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un isolement du patient en précautions complémentaires 'gouttelettes'.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La déclaration obligatoire de tous les cas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La recherche et l'éradication des facteurs favorisants comme les brèches ostéoméningées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention primaire du pneumocoque inclut la vaccination anti-pneumococcique chez le sujet à risque et l'antibioprophylaxie par pénicilline chez le splénectomisé. Il n'y a pas d'isolement ni d'antibioprophylaxie pour les contacts, et ce n'est pas une maladie à déclaration obligatoire. La recherche et l'éradication des facteurs favorisants relèvent de la prévention secondaire."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments cliniques et paracliniques qui orientent vers une méningite à Listeria chez un patient immunodéprimé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un début brutal avec syndrome méningé franc.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un LCR lymphocytaire ou panaché.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypoglycorrachie dans le LCR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des signes neurologiques focaux fréquents, notamment une rhombencéphalite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un examen direct du LCR positif dans plus de 70% des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "La méningite à Listeria a un début progressif, un syndrome méningé inconstant, des signes neurologiques focaux fréquents (rhombencéphalite), et une fièvre inconstante. Le LCR est lymphocytaire ou panaché, avec hypoglycorrachie. L'examen direct est positif dans moins de 40% des cas."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les recommandations vaccinales générales concernant le méningocoque C ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dose unique chez tous les nourrissons de 2 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dose unique chez tous les nourrissons de 12 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un rattrapage possible jusqu'à 24 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une vaccination systématique du cas index.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une vaccination uniquement en cas d'épidémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les recommandations générales pour le vaccin méningococcique conjugué C sont une dose unique chez tous les nourrissons de 12 mois, avec un rattrapage possible jusqu'à 24 ans. Le vaccin C est administré dès 2 mois, mais la recommandation générale est à 12 mois. Il n'y a pas de vaccination systématique du cas index, et la vaccination en cas d'épidémie concerne le sérogroupe B."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la méningite virale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement bénigne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dissémination se fait par voie hématogène après une infection respiratoire ou intestinale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est la première cause de méningite chez le sujet âgé de plus de 65 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le LCR est généralement purulent avec une prédominance de PNN.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le traitement est principalement symptomatique, sauf en cas de méningo-encéphalite à HSV.",
+          "correct": true
+        }
+      ],
+      "explanation": "La méningite virale est généralement bénigne et se dissémine par voie hématogène après une infection respiratoire ou intestinale. Elle est la cause la plus fréquente chez l'enfant et l'adulte jeune, mais bactérienne chez le sujet âgé. Le LCR est à liquide clair (lymphocytaire), non purulent. Le traitement est symptomatique, sauf en cas de méningo-encéphalite à HSV (aciclovir IV)."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un purpura fulminans en milieu hospitalier. Quelle est la séquence de prise en charge la plus appropriée selon le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ponction lombaire, puis hémocultures, puis antibiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Antibiothérapie immédiate, puis hémocultures, puis ponction lombaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémocultures, puis antibiothérapie, puis ponction lombaire si réalisable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémocultures, puis ponction lombaire, puis antibiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Antibiothérapie immédiate sans prélèvement, puis transfert en réanimation.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de purpura fulminans en milieu hospitalier, l'antibiothérapie doit être débutée après hémocultures et avant PL. La PL est souvent non réalisable à la phase initiale en raison de l'instabilité hémodynamique ou d'une CIVD. L'antibiothérapie immédiate sans prélèvement est réservée au purpura fulminans en pré-hospitalier."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une méningite lymphocytaire avec hypoglycorrachie. Quelles étiologies doivent être ciblées en priorité pour l'antibiothérapie probabiliste ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entérovirus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Listeria monocytogenes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mycobacterium tuberculosis (BK).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cryptocoque, surtout chez l'immunodéprimé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Méningocoque.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de méningite lymphocytaire hypoglycorrachique, il faut cibler Listeria ± tuberculose (BK) et cryptocoque chez l'immunodéprimé. Les entérovirus sont une cause de méningite lymphocytaire normoglycorrachique. Le méningocoque est une cause de méningite purulente."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est allergique sévère aux β-lactamines et présente une méningite à pneumocoque. Quelle(s) option(s) thérapeutique(s) est (sont) recommandée(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ceftriaxone IV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Vancomycine + rifampicine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lévofloxacine + rifampicine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fosfomycine en monothérapie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cotrimoxazole.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'allergie sévère aux β-lactamines pour une méningite à pneumocoque, le traitement recommandé est vancomycine + rifampicine ou fosfomycine. La lévofloxacine + rifampicine est pour le méningocoque. Le cotrimoxazole est une alternative pour Listeria en cas d'allergie."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques et paracliniques qui distinguent une méningite à méningocoque d'une méningite à pneumocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le purpura est beaucoup plus fréquent et franc dans la méningite à méningocoque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les signes de localisation neurologique sont fréquents dans la méningite à pneumocoque, mais rares dans celle à méningocoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'examen direct du LCR est positif dans 90% des cas pour le pneumocoque, contre 70% pour le méningocoque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La méningite à pneumocoque est à déclaration obligatoire, contrairement à celle à méningocoque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La transmission interhumaine est absente pour le pneumocoque, mais présente pour le méningocoque.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le purpura est franc et fréquent dans la méningite à méningocoque, possible mais beaucoup plus rare pour le pneumocoque. Les signes de localisation sont fréquents pour le pneumocoque et rares pour le méningocoque. L'examen direct du LCR est positif dans 90% des cas pour le pneumocoque et 70% pour le méningocoque. La méningite à méningocoque est à déclaration obligatoire, pas celle à pneumocoque. La transmission interhumaine est absente pour le pneumocoque et présente pour le méningocoque."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous contraception orale reçoit de la rifampicine pour une antibioprophylaxie post-contact méningococcique. Quelle(s) précaution(s) doit (doivent) être prise(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter la contraception orale pendant le traitement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Associer une contraception mécanique pendant la durée du traitement et la semaine suivante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réduire la dose de rifampicine pour éviter les interactions.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prolonger la durée de la rifampicine à 7 jours.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aucune précaution supplémentaire n'est nécessaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez la femme prenant une contraception orale, il faut associer une contraception mécanique pendant la durée du traitement par rifampicine et la semaine suivante. Il n'est pas mentionné d'arrêter la contraception orale, de réduire la dose de rifampicine, ni de prolonger sa durée."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui justifient la réalisation d'un scanner cérébral avant une ponction lombaire (PL) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un Glasgow à 10.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des signes de localisation neurologique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une crise convulsive récente ou en cours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une mydriase unilatérale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une instabilité hémodynamique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un scanner cérébral est indiqué avant PL en cas de signes d'engagement cérébral (mydriase unilatérale, hoquet, troubles ventilatoires, mouvements d'enroulement), de risque élevé d'engagement (signes de localisation neurologique, troubles de conscience avec Glasgow ≤ 11) ou de crises convulsives récentes ou en cours. Un Glasgow à 10 seul n'est pas une indication directe si sans signe de localisation. L'instabilité hémodynamique est une contre-indication à la PL d'emblée, mais ne nécessite pas un scanner avant la PL, plutôt une stabilisation."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une méningo-encéphalite à liquide clair. Quels sont les éléments qui orientent vers une étiologie herpétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une installation brutale des symptômes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des signes de localisation temporale (troubles du comportement, aphasie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un LCR lymphocytaire normoglycorrachique hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des lésions hypodenses/hypersignal T2 fronto-temporales, bilatérales et asymétriques à l'imagerie cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une PCR HSV négative dans le LCR à J0 qui élimine le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "La méningo-encéphalite herpétique a une installation progressive sur quelques jours, non brutale. Elle se caractérise par des signes de localisation temporale (troubles du comportement, troubles mnésiques, aphasie, crise convulsive temporale). Le LCR est lymphocytaire normoglycorrachique hémorragique. L'imagerie cérébrale montre des lésions hypodenses/hypersignal T2 fronto-temporales, bilatérales, asymétriques. Une PCR HSV négative à J0 n'élimine pas le diagnostic et doit être répétée à J3."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du LCR qui peuvent être observés en cas de méningite à liquide clair d'origine bactérienne (Listeria ou BK) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une prédominance de lymphocytes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une normoglycorrachie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypoglycorrachie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une protéinorachie souvent inférieure à 1 g/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un examen direct positif dans plus de 50% des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de méningite à liquide clair d'origine bactérienne (Listeria ou BK), le LCR présente une prédominance de lymphocytes et une hypoglycorrachie. La protéinorachie est souvent de 1 à 2 g/L (non < 1 g/L). L'examen direct est positif dans moins de 1/3 des cas pour Listeria ou BK, donc pas plus de 50%."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque d'une méningite à Listeria monocytogenes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge supérieur à 65 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La grossesse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'alcoolisme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un déficit en complément.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une brèche ostéoméningée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le terrain favorisant la méningite à Listeria est l'immunodépression, incluant l'âge > 65 ans, la grossesse, l'alcoolisme, le cancer, les corticoïdes et les immunodépresseurs. Le déficit en complément est un facteur de risque pour le méningocoque. La brèche ostéoméningée est un facteur de risque pour le pneumocoque."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'évolution et du pronostic des méningites bactériennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La méningite virale a un risque de décès sans traitement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La méningite à méningocoque a une mortalité de 5% en l'absence de purpura fulminans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La méningite à pneumocoque a une mortalité de 30% et 20-30% de séquelles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La méningite à Listeria a une mortalité de 30% et 30% de séquelles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La méningite tuberculeuse a la mortalité la plus faible parmi les méningites bactériennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La méningite bactérienne a un risque de décès sans traitement, tandis que la méningite virale évolue vers une guérison spontanée. La méningite à méningocoque a une mortalité de 5% (20% si purpura fulminans). La méningite à pneumocoque a 30% de mortalité et 20-30% de séquelles. La méningite à Listeria a 30% de mortalité et 30% de séquelles. La méningite tuberculeuse a la mortalité la plus élevée (50%) et 50% de séquelles."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la ponction lombaire de contrôle dans la surveillance d'une méningite bactérienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique après 48-72h de traitement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est indiquée si l'évolution clinique est défavorable à 48-72h.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est indiquée si l'imagerie cérébrale montre une anomalie (abcès, hydrocéphalie).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est indiquée si l'évolution est défavorable et que l'imagerie cérébrale est sans anomalie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle n'est jamais recommandée pour les méningites bactériennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La PL de contrôle est indiquée si l'évolution est défavorable, sans anomalie à l'imagerie. Si l'imagerie montre une anomalie, c'est l'anomalie qui doit être prise en charge. Elle n'est pas systématique et n'est pas indiquée si l'imagerie est anormale."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où une vaccination anti-méningococcique ACYW135 et B est spécifiquement recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez tous les nourrissons de 12 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez les sujets présentant un déficit en fraction terminale du complément.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les personnes ayant une asplénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez les voyageurs en zone d'endémie pour le sérogroupe C.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Chez les personnes ayant bénéficié d'une greffe de cellules souches hématopoïétiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les vaccins anti-méningococciques ACYW135 et B sont recommandés chez les immunodéprimés, notamment en cas de déficit en fraction terminale du complément, déficit en properdine, asplénie ou greffe de cellules souches hématopoïétiques. La vaccination générale des nourrissons de 12 mois concerne le méningocoque C. Les voyageurs en zone d'endémie reçoivent le vaccin ACYW135 (sauf nourrisson < 12 mois pour qui c'est le C)."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à rechercher dans le cadre de la prévention secondaire de la méningite à pneumocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un bilan ORL systématique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un dépistage VIH systématique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une recherche de brèche ostéoméningée (BOM) par TDM en cas de récidive de méningite bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une antibioprophylaxie par pénicilline chez le splénectomisé.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une otorrhée claire chronique riche en glucose.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention secondaire du pneumocoque implique la recherche et l'éradication des facteurs favorisants : bilan ORL, bilan immun systématique (EPP, sérologie VIH), et recherche de BOM par TDM en cas d'antécédent de traumatisme crânien important, récidive de méningite bactérienne, antécédent de neurochirurgie, ou otorrhée/rhinorrhée chronique de LCR (claire, unilatérale, favorisée par l'antéflexion de la tête, riche en glucose). L'antibioprophylaxie par pénicilline chez le splénectomisé est une mesure de prévention primaire."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'imagerie cérébrale (scanner ou IRM) dans le diagnostic d'une méningo-encéphalite infectieuse à liquide clair ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le scanner cérébral est généralement normal à la phase précoce.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'IRM cérébrale est moins précise que le scanner pour l'élimination des diagnostics différentiels.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des hypodensités focales au scanner peuvent orienter vers l'étiologie après quelques jours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'IRM peut montrer des signes précoces d'encéphalite comme un hypersignal T2.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'imagerie précède la PL en cas de trouble de la vigilance avec Glasgow ≤ 11.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le scanner cérébral est généralement normal à la phase précoce et peut montrer des hypodensités focales après quelques jours, orientant vers l'étiologie. L'IRM est plus précise que le scanner pour l'élimination des diagnostics différentiels et peut montrer des signes précoces d'encéphalite (hypersignal T2). L'imagerie cérébrale précède la PL en cas de signe de localisation neurologique, de trouble de la vigilance avec Glasgow ≤ 11 et/ou de crise convulsive récente ou en cours."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une méningo-encéphalite à liquide clair. Quels sont les éléments qui justifient l'initiation d'un traitement antiviral herpétique probabiliste par aciclovir IV en urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'une méningite lymphocytaire normoglycorrachique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d'une encéphalite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La suspicion de Listeria.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'âge du patient, s'il est jeune (< 20 ans) ou âgé (> 50 ans).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le fait que toute méningo-encéphalite à liquide clair doit être considérée comme herpétique jusqu'à preuve du contraire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement antiviral herpétique probabiliste par aciclovir IV doit être débuté en urgence en cas d'encéphalite associée à une méningite lymphocytaire normoglycorachique. Le texte insiste sur le fait que toute méningo-encéphalite à liquide clair doit être considérée comme herpétique jusqu'à preuve du contraire et traitée par aciclovir IV en urgence. L'âge est un facteur de risque pour l'herpétique, mais la décision de traitement probabiliste est plus large. La suspicion de Listeria justifie amoxicilline + gentamicine."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes bactériennes de méningo-encéphalite à liquide clair mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuberculose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Borréliose de Lyme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Listeria.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mycoplasma pneumoniae.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Virus Herpes Simplex (HSV).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes bactériennes possibles de méningo-encéphalite à liquide clair sont la tuberculose, Listeria, la borréliose de Lyme, la syphilis, la leptospirose et Mycoplasma pneumoniae. Le Virus Herpes Simplex (HSV) est une cause virale."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un abcès cérébral. Quelles sont les caractéristiques microbiologiques attendues en fonction du mécanisme d'infection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'entrée ORL/dentaire, l'infection est souvent polymicrobienne avec streptocoque oral et anaérobies.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas d'origine post-traumatique, Staphylococcus aureus et entérobactéries sont fréquents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de dissémination hématogène, Listeria est une cause possible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas d'entrée ORL/dentaire, Pseudomonas aeruginosa est l'agent le plus fréquent.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La tuberculose est une cause exclusive d'abcès post-chirurgical.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'entrée ORL/dentaire, l'infection est souvent polymicrobienne (streptocoque oral, streptocoque du groupe milleri, anaérobies). En cas d'origine post-traumatique/post-chirurgicale, S. aureus, entérobactéries, Pseudomonas sont fréquents. En cas de dissémination hématogène, S. aureus, Listeria, tuberculose sont possibles. Pseudomonas est fréquent en post-traumatique/chirurgical, pas le plus fréquent en ORL/dentaire. La tuberculose peut être hématogène, pas exclusive post-chirurgicale."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments clés du traitement d'un abcès cérébral ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une antibiothérapie de courte durée (moins de 4 semaines).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une antibiothérapie probabiliste par C3G + métronidazole.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un drainage chirurgical recommandé si l'abcès est supérieur à 2,5 cm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La recherche et le traitement d'une porte d'entrée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un traitement symptomatique incluant des antiépileptiques et la lutte contre l'œdème cérébral.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement d'un abcès cérébral inclut une antibiothérapie prolongée (6 à 12 semaines), à forte dose et bonne diffusion cérébrale, probabiliste par C3G + métronidazole. Un drainage chirurgical est recommandé si l'abcès est > 2,5 cm. La recherche et le traitement d'une porte d'entrée sont essentiels. Un traitement symptomatique (antiépileptique, lutte contre l'œdème cérébral) est également nécessaire."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de méningite à liquide clair avec hypoglycorrachie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méningite virale à entérovirus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Méningite à Listeria.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Méningite tuberculeuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Méningite cryptococcique chez l'immunodéprimé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Méningite à méningocoque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méningites à liquide clair avec hypoglycorrachie sont la Listeria, la tuberculose (BK) et le cryptocoque (chez l'immunodéprimé). Les méningites virales (comme les entérovirus) sont normoglycorrachiques. La méningite à méningocoque est purulente."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une méningite purulente avec un examen direct du LCR montrant des diplocoques Gram négatif. Quel est le traitement probabiliste de première intention ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amoxicilline + gentamicine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "C3G IV + dexaméthasone.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vancomycine + rifampicine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Lévofloxacine + rifampicine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cotrimoxazole.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des diplocoques Gram négatif orientent vers un méningocoque. Le schéma probabiliste pour le méningocoque est C3G IV + dexaméthasone. L'amoxicilline + gentamicine est pour Listeria. Vancomycine + rifampicine est pour pneumocoque en cas d'allergie sévère aux β-lactamines. Lévofloxacine + rifampicine est pour méningocoque en cas d'allergie sévère aux β-lactamines."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire suspecter une brèche ostéoméningée (BOM) comme facteur favorisant d'une méningite à pneumocoque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un antécédent de traumatisme crânien important.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une rhinorrhée claire chronique riche en glucose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une récidive de méningite bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypogammaglobulinémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une otite moyenne aiguë récente.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche de BOM est indiquée si : antécédent de traumatisme crânien important, récidive de méningite bactérienne, antécédent de neurochirurgie ou certaines chirurgies ORL, ou otorrhée/rhinorrhée chronique de LCR (claire, unilatérale, favorisée par l'antéflexion de la tête, riche en glucose). L'hypogammaglobulinémie est une immunodépression générale, et l'otite moyenne aiguë est une porte d'entrée, mais ne sont pas des signes directs de BOM."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention de la listériose, notamment chez les populations à risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éviter la consommation de fromages au lait cru.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bien cuire la viande et le poisson.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Respecter le délai de consommation des aliments.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vaccination systématique des femmes enceintes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'isolement des patients infectés pour éviter la transmission interhumaine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La listériose n'a aucune transmission interhumaine, donc l'isolement n'est pas nécessaire. Il n'y a pas de vaccination systématique des femmes enceintes mentionnée. Les précautions alimentaires incluent : éviter les fromages au lait cru, enlever la croûte des fromages, bien cuire viande et poisson, respecter le délai de consommation des aliments, séparer aliments crus et cuits au réfrigérateur, lavage des mains et instruments de cuisine, nettoyage régulier du réfrigérateur."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une méningite lymphocytaire normoglycorrachique. Quels examens complémentaires sont systématiquement réalisés sur le LCR pour orienter le diagnostic étiologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen direct avec Gram.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Culture bactérienne.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "PCR HSV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PCR VZV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antigène pneumococcique par immuno-chromatologie.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de méningite lymphocytaire normoglycorrachique, les examens systématiques sur le LCR sont la PCR HSV et la PCR VZV. L'examen direct et la culture bactérienne sont plus pertinents pour les méningites purulentes ou en cas de forte suspicion bactérienne. L'antigène pneumococcique est utilisé en cas de forte suspicion bactérienne avec examen direct négatif."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire suspecter une méningite tuberculeuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un début brutal avec syndrome méningé franc.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un LCR lymphocytaire avec hypoglycorrachie et hyperprotéinorachie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des signes neurologiques focaux fréquents.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un examen direct du LCR positif dans plus de 50% des cas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un contexte d'immunodépression ou de contage.",
+          "correct": true
+        }
+      ],
+      "explanation": "La méningite tuberculeuse a un début progressif, un syndrome méningé inconstant, des signes neurologiques focaux fréquents, et une fièvre inconstante. Le LCR est lymphocytaire, hypoglycorrachique, avec hyperprotéinorachie. L'examen direct est positif dans moins de 10% des cas. Le contexte d'immunodépression ou de contage est un facteur de risque."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de méningite à liquide clair d'origine bactérienne nécessitant un traitement spécifique par aciclovir IV ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syphilis.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Lyme.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Leptospirose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Listeria.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aucune des causes bactériennes de méningite à liquide clair ne nécessite un traitement par aciclovir IV.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'aciclovir IV est un antiviral spécifique de l'herpès (HSV, VZV). Les causes bactériennes de méningite à liquide clair (syphilis, Lyme, leptospirose, Listeria, tuberculose, Mycoplasma pneumoniae) nécessitent des traitements antibiotiques spécifiques, non l'aciclovir."
+    }
+  ]
+}

@@ -1,0 +1,1448 @@
+{
+  "lectureId": "pm-29",
+  "title": "Insuffisances rénales aiguës",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la définition de l'IRA, quelle est la diurèse caractérisant une oligurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diurèse < 100 ml/24h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diurèse < 500 ml/24h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurèse > 1000 ml/24h.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diurèse < 0,3 ml/kg/h pendant > 24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'oligurie est définie par une diurèse < 500 ml/24h, ou < 20 ml/h, ou < 0,5 ml/kg/h. Une diurèse < 100 ml/24h correspond à l'anurie."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les formules d'estimation du Débit de Filtration Glomérulaire (DFG) applicables dans l'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les formules d'estimation du DFG sont toujours applicables dans l'IRA.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La formule de Cockcroft-Gault est privilégiée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les formules d'estimation du DFG ne sont pas applicables dans l'IRA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La formule MDRD est la plus fiable en IRA.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique clairement que les formules d'estimation du DFG ne sont pas applicables dans l'IRA et qu'il faut privilégier la clairance de la créatinine urinaire."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage approximatif des IRA obstructives parmi les principaux types d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "65%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "25%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "10%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IRA obstructives représentent environ 10% des cas."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage approximatif des IRA fonctionnelles (pré-rénales) parmi les principaux types d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "65%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "25%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "10%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IRA fonctionnelles (pré-rénales) représentent environ 25% des cas."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage approximatif des IRA parenchymateuses parmi les principaux types d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "65%",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "25%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "10%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IRA parenchymateuses représentent environ 65% des cas."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques tardifs du syndrome urémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nausées, vomissements, céphalées, diarrhée, troubles visuels.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Polyurie, polydipsie, perte de poids.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Douleur lombaire aiguë, hématurie macroscopique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fièvre, rash cutané, hyperéosinophilie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome urémique, qui est tardif, se manifeste par des nausées, vomissements, céphalées, diarrhée et troubles visuels."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen d'imagerie systématique à réaliser devant toute IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urographie intraveineuse (UIV).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TDM rénale avec injection.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Échographie rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Angio-IRM rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie rénale est systématique et permet de rechercher une dilatation des cavités pyélocalicielles."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement d'urgence d'une IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de diurétiques de l'anse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réhydratation intraveineuse massive.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dérivation des urines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anticoagulation par héparine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de l'IRA obstructive est la dérivation des urines en urgence, surtout en cas d'infection."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause d'IRA organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Néphropathie glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Néphropathie interstitielle aiguë.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Nécrose tubulaire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Néphropathie vasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La nécrose tubulaire aiguë représente 80% des IRA organiques."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de la dialyse en urgence pour l'urée plasmatique pendant la période d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintenir l'urée plasmatique au-dessus de 60 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Maintenir l'urée plasmatique en dessous de 30 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maintenir l'urée plasmatique entre 30 et 40 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'urée plasmatique n'est pas un objectif de la dialyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'objectif de la dialyse est de maintenir l'urée plasmatique en dessous de 30 mmol/L pendant toute la période d'IRA."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le risque principal du syndrome de levée d'obstacle après dérivation des urines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperkaliémie sévère.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Polyurie abondante avec risque de déshydratation et d'IRA fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acidose métabolique sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Surcharge hydrosodée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque du syndrome de levée d'obstacle est une polyurie abondante, avec un risque de déshydratation et d'IRA fonctionnelle."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'un des critères de la classification KDIGO pour le stade 1 d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Créatininémie x 3.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la créatininémie > 26 µmol/L en 48h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurèse < 0,3 ml/kg/h pendant > 24h.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Nécessité de dialyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le stade 1 de KDIGO est défini par une augmentation de la créatininémie > 26 µmol/L en 48h ou > 50% en 7 jours, ou une diurèse < 0,5 ml/kg/h pendant 6 à 12h."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est un signe permettant d'affirmer le caractère chronique d'une insuffisance rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des reins de taille augmentée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une atrophie rénale bilatérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypocalcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Seule l'atrophie rénale bilatérale permet d'affirmer le caractère chronique de l'IRC."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la mortalité associée à la mono-défaillance rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "50%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "10%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Moins de 5%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Jusqu'à 75%.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mortalité associée à la mono-défaillance rénale est de 10%."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'une IRA selon l'élévation de la créatininémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation > 44,2 µmol/L si la créatininémie antérieure était < 221 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation > 20% si la créatininémie antérieure était > 221 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation > 50% en 7 jours, quel que soit le niveau antérieur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation > 26 µmol/L en 48h, quel que soit le niveau antérieur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IRA est définie par une élévation de la créatininémie > 44,2 µmol/L si la créatininémie antérieure était < 221 µmol/L, ou > 20% si la créatininémie antérieure était > 221 µmol/L. Les options C et D sont des critères de la classification KDIGO, pas de la définition générale de l'IRA."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de la classification KDIGO pour le stade 3 d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Créatininémie x 2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Créatininémie x 3.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nécessité de dialyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diurèse < 0,3 ml/kg/h pendant > 24h.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Anurie pendant > 12h.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le stade 3 de KDIGO est défini par une créatininémie x 3, une créatininémie > 354 µmol/L, la nécessité de dialyse, une diurèse < 0,3 ml/kg/h pendant > 24h ou une anurie pendant > 12h."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les déterminants de la pression d'ultrafiltration (PUF) glomérulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La différence de pression hydrostatique glomérulaire et urinaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La différence de pression oncotique glomérulaire et urinaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le coefficient de filtration (Kf).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le débit plasmatique rénal (DPR).",
+          "correct": false
+        }
+      ],
+      "explanation": "La PUF est la différence de pression hydrostatique glomérulaire et urinaire, plus la différence de pression oncotique glomérulaire et urinaire. Le Kf est le coefficient de filtration, et le DPR détermine le DFG mais n'est pas un composant direct de la PUF."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels mécanismes peuvent entraîner une diminution du Débit de Filtration Glomérulaire (DFG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution du débit sanguin rénal (hypovolémie, état de choc).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vasodilatation de l'artériole efférente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la pression urinaire (obstacle intra-tubulaire/voie excrétrice).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasoconstriction de l'artériole afférente.",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces mécanismes sont cités comme entraînant une diminution du DFG: diminution du débit sanguin rénal, vasodilatation de l'artériole efférente, augmentation de la pression urinaire et vasoconstriction de l'artériole afférente."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques urinaires typiques d'une IRA fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oligurie pauvre en Na.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Urine riche en K.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Urine acide et très concentrée en osmoles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de l'urée plasmatique et de la créatininémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IRA fonctionnelle se caractérise par une oligurie pauvre en Na, riche en K, acide et très concentrée en osmoles. L'augmentation de l'urée et de la créatininémie est un signe général d'IRA, pas une caractéristique urinaire spécifique."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels médicaments peuvent aggraver une IRA fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IEC/ARA2 (bloque la vasoconstriction de l'artériole efférente).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "AINS (bloque la vasodilatation de l'artériole afférente).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurétiques de l'anse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Gluconate de calcium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bloqueurs du SRA (IEC/ARA2) bloquent la vasoconstriction de l'artériole efférente, et les AINS bloquent la vasodilatation de l'artériole afférente, aggravant ainsi l'IRA fonctionnelle."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de nécrose tubulaire aiguë (NTA) par toxicité tubulaire directe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aminosides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Produits de contraste iodés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "AINS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Myoglobine (rhabdomyolyse).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les aminosides, produits de contraste iodés et AINS sont cités comme causes de NTA par toxicité tubulaire directe. La myoglobine cause une NTA par précipitation intra-tubulaire."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et biologiques évocateurs d'une IRA obstructive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur lombaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hématurie macroscopique avec caillots.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Globe vésical.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acidose tubulaire distale fréquente.",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces éléments sont des signes évocateurs d'IRA obstructive: douleur lombaire, hématurie macroscopique avec caillots, globe vésical et acidose tubulaire distale fréquente."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'IRA fonctionnelle par déshydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pertes cutanées (sudation, brûlure).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pertes digestives (vomissements, diarrhée).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pertes rénales (diurétiques, diabète décompensé).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance cardiaque congestive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes cutanées, digestives et rénales sont des causes de déshydratation extracellulaire. L'insuffisance cardiaque congestive est une cause d'hypovolémie réelle ou efficace, mais pas directement de déshydratation extracellulaire."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'IRA fonctionnelle par hypovolémie réelle ou efficace ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance cardiaque congestive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome néphrotique sévère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cirrhose hépatique décompensée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "État de choc débutant (cardiogénique, septique, anaphylactique ou hémorragique).",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces conditions sont des causes d'hypovolémie réelle ou efficace pouvant entraîner une IRA fonctionnelle."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques d'une IRA fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urée plasmatique augmentée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Créatininémie N ou augmentée modérément < 300 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Urée U/P > 10.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "FE Na < 1%.",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes biologiques sont caractéristiques d'une IRA fonctionnelle: urée plasmatique augmentée, créatininémie normale ou modérément augmentée (< 300 µmol/L), Urée U/P > 10 et FE Na < 1%."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la Ponction Biopsie Rénale (PBR) en cas d'IRA organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématique en cas de suspicion d'atteinte glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dans certaines atteintes vasculaires ou interstitielles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Précocement si circonstances d'apparition de NTA non évidentes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Devant une NTA si l'insuffisance rénale persiste à 3-4 semaines.",
+          "correct": true
+        }
+      ],
+      "explanation": "La PBR est indiquée dans tous les cas mentionnés: suspicion d'atteinte glomérulaire, certaines atteintes vasculaires ou interstitielles, NTA aux circonstances non évidentes, ou NTA persistante à 3-4 semaines."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de néphrite interstitielle aiguë immuno-allergique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sulfamides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bêta-lactamines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "AINS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leptospirose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les sulfamides, bêta-lactamines et AINS sont cités comme principales causes médicamenteuses de néphrite interstitielle aiguë immuno-allergique. La leptospirose est une cause infectieuse."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention des complications de l'IRA organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adaptation de tous les médicaments à élimination rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévention de l'ulcère de stress par IPP et pansement gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Apport calorique et azoté suffisant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Restriction hydrique stricte.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adaptation des médicaments, la prévention de l'ulcère de stress et un apport calorique/azoté suffisant sont des mesures de prévention des complications. La restriction hydrique n'est pas une mesure générale de prévention des complications, mais plutôt une gestion de la surcharge hydrosodée."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements de l'hyperkaliémie menaçante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gluconate de calcium.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuline + G10%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bicarbonates.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Kayexalate.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le gluconate de calcium, l'insuline + G10%, les bicarbonates et le Kayexalate sont tous des traitements de l'hyperkaliémie, avec des mécanismes et des délais d'action différents."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas une acidose métabolique importante peut-elle survenir en IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IRA toxique (éthylène glycol).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Choc septique ou cardiogénique (acidose lactique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acidocétose diabétique avec IRA fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pertes digestives de bicarbonates (diarrhée).",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces situations sont des causes d'acidose métabolique importante pouvant survenir en IRA."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'épuration extra-rénale en cas d'acidose métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Injection de bicarbonates impossible (surcharge).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Choc avec acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Intoxication (éthylène glycol, méthanol).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acidose modérée sans signes cliniques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épuration extra-rénale est indiquée si l'injection de bicarbonates est impossible, en cas de choc avec acidose lactique, ou d'intoxication. Une acidose modérée ne nécessite généralement pas de traitement à la phase aiguë."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la dialyse en urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperkaliémie menaçante avec signes ECG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anurie avec surcharge hydrosodée résistante aux diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "État de choc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Urée > 35 mmol/L ou créatininémie > 1000 µmol/L.",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces situations sont des indications de dialyse en urgence."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs pronostiques vitaux en cas d'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc septique initial.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Défaillances viscérales associées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Complications de réanimation (infection nosocomiale).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fonction rénale antérieure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc septique initial, les défaillances viscérales associées et les complications de réanimation sont des facteurs pronostiques vitaux. La fonction rénale antérieure est un facteur pronostique rénal."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention de la tubulopathie à l'iode chez les sujets à risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt préalable des AINS et diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hydratation orale ou IV avant et après l'examen.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de produits de contraste iodés à faible osmolarité ou iso-osmolaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dialyse préventive systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arrêt des AINS/diurétiques, l'hydratation et l'utilisation de produits de contraste adaptés sont des mesures préventives. La dialyse préventive n'a aucune indication."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la classification RIFLE, quels sont les critères pour la catégorie 'Failure' (Insuffisance) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la créatininémie x 1,5.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la créatininémie x 3.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "DFG diminué de plus de 75%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Créatininémie ≥ 355 µmol/L ou augmentation > 44 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diurèse < 0,3 ml/kg/h sur 24h ou anurie sur 12h.",
+          "correct": true
+        }
+      ],
+      "explanation": "La catégorie 'Failure' (Insuffisance) de RIFLE est définie par une augmentation de la créatininémie x 3, ou un DFG diminué de plus de 75%, ou une créatininémie ≥ 355 µmol/L ou une augmentation > 44 µmol/L, ainsi qu'une diurèse < 0,3 ml/kg/h sur 24h ou une anurie sur 12h."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la nécrose tubulaire aiguë ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nécrose des cellules épithéliales tubulaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Atteinte des vaisseaux, glomérules et interstitium.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Diminution paradoxale, constante et durable du flux sanguin rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "DFG effondré (< 10% de la normale).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Anurie dans les formes sévères.",
+          "correct": true
+        }
+      ],
+      "explanation": "La NTA ischémique se caractérise par une nécrose des cellules épithéliales tubulaires sans atteinte des vaisseaux, glomérules et interstitium. Elle entraîne une diminution paradoxale du flux sanguin rénal, un DFG effondré et une anurie dans les formes sévères."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments permettant d'affirmer le caractère aigu d'une insuffisance rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fonction rénale antérieure normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Reins de taille normale (> 10 cm) ou augmentée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'une anémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence d'hypocalcémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de péricardite.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le caractère aigu est suggéré par une fonction rénale antérieure normale, des reins de taille normale ou augmentée, l'absence d'anémie (sauf cas particuliers), l'absence d'hypocalcémie (sauf cas particuliers) et l'absence de péricardite. L'anémie est un signe de chronicité, sauf en cas d'hémolyse aiguë ou choc hémorragique."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'IRA obstructive sous-vésicale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypertrophie bénigne de la prostate (HBP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sténose urétrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vessie neurologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lithiase urétérale bilatérale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HBP, la sténose urétrale et la vessie neurologique sont des causes d'obstacle sous-vésical. La lithiase urétérale est un obstacle urétéral (haut situé)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'IRA obstructive urétérale (bilatérale ou sur rein unique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lithiase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécrose papillaire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fibrose rétropéritonéale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeur vésicale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La lithiase, la nécrose papillaire aiguë et la fibrose rétropéritonéale sont des causes d'obstacle urétéral. Une tumeur vésicale est un obstacle intra-vésical."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quels cas la Fraction d'Excrétion du Sodium (FE Na) peut-elle être faussement élevée (> 1%) en cas d'hypovolémie, rendant la FE de l'urée un meilleur indicateur d'IRA fonctionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Utilisation de diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypoaldostéronisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Néphrite interstitielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déshydratation extracellulaire par pertes digestives.",
+          "correct": false
+        }
+      ],
+      "explanation": "La persistance de la natriurèse (FE Na > 1%) en cas d'hypovolémie peut se produire lors de pertes rénales de sodium dues aux diurétiques, à l'hypoaldostéronisme ou à une néphrite interstitielle. Dans ces cas, la FE de l'urée diminuée est un meilleur indicateur d'IRA fonctionnelle."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome tubulaire en IRA organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HTA absente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdèmes absents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Protéinurie < 1 g/j.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématurie microscopique présente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome tubulaire se caractérise par l'absence d'HTA, l'absence d'œdèmes et une protéinurie < 1 g/j. L'hématurie microscopique est absente."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de néphropathie vasculaire en IRA organique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome Hémolytique et Urémique (SHU).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Néphroangiosclérose aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Emboles de cristaux de cholestérol.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infarctus rénal.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le SHU, la néphroangiosclérose aiguë, les emboles de cristaux de cholestérol et l'infarctus rénal sont toutes des causes de néphropathie vasculaire en IRA organique."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hémodialyse intermittente par rapport à l'hémodiafiltration continue ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déplétion volémique possible jusqu'à 4-6L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Durée des séances de 4 à 6h en moyenne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Débit élevé avec risque de mauvaise tolérance hémodynamique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Meilleur contrôle de la déplétion volémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémodialyse intermittente permet une déplétion volémique importante, a des séances plus longues et un débit élevé avec risque de mauvaise tolérance hémodynamique. Le meilleur contrôle de la déplétion volémique et une meilleure tolérance hémodynamique sont des avantages de l'hémodiafiltration continue."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de Nécrose Tubulaire Aiguë (NTA) chez les sujets à risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection grave.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "État de choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Suites de chirurgie lourde (cardiaque ou aortique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Âge avancé, diabète, athéromatose, IRC.",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces éléments sont des facteurs de risque de NTA chez les sujets à risque."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention de la néphrotoxicité médicamenteuse (aminosides, cisplatine, amphotéricine B) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Posologie adaptée à la fonction rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Posologie adaptée aux taux résiduels en cas de prescription prolongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance de l'état d'hydratation et de la prise de diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperhydratation sous cisplatine ou amphotéricine B.",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces mesures sont recommandées pour prévenir la néphrotoxicité médicamenteuse."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention des IRA fonctionnelles médicamenteuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prescription prudente des IEC/ARA2 chez le sujet âgé ou à risque vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Recherche d'un souffle abdominal ou échodoppler des artères rénales avant IEC/ARA2 chez le diabétique de type 2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contre-indication des AINS en cas d'IRC.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Arrêt systématique des diurétiques avant tout examen.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prudence avec les IEC/ARA2, la recherche de sténose de l'artère rénale et la contre-indication des AINS en cas d'IRC sont des mesures préventives. L'arrêt systématique des diurétiques n'est pas une règle générale de prévention des IRA fonctionnelles médicamenteuses."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention du syndrome de lyse (rhabdomyolyse ou lyse tumorale) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hydratation massive avec diurèse forcée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcalinisation des urines en cas de rhabdomyolyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alcalinisation des urines en cas de syndrome de lyse tumorale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Injection précoce d'uricase en cas de syndrome de lyse tumorale.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hydratation massive et la diurèse forcée sont essentielles. L'alcalinisation des urines est recommandée en cas de rhabdomyolyse mais évitée lors des syndromes de lyse tumorale. L'injection précoce d'uricase est indiquée en cas de syndrome de lyse tumorale."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications métaboliques de l'IRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose métabolique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperkaliémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dénutrition.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypervolémie avec OAP.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'acidose métabolique, l'hyperkaliémie et la dénutrition sont des complications métaboliques. L'hypervolémie avec OAP est une complication de la surcharge hydrosodée, non spécifiquement métabolique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de la classification RIFLE pour la catégorie 'Risk' (Risque) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la créatininémie x 1,5.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "DFG diminué de plus de 25%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diurèse < 0,5 ml/kg/h sur 6h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diurèse < 0,5 ml/kg/h sur 12h.",
+          "correct": false
+        }
+      ],
+      "explanation": "La catégorie 'Risk' (Risque) de RIFLE est définie par une augmentation de la créatininémie x 1,5 ou un DFG diminué de plus de 25%, ainsi qu'une diurèse < 0,5 ml/kg/h sur 6h. La diurèse < 0,5 ml/kg/h sur 12h correspond à la catégorie 'Injury'."
+    }
+  ]
+}

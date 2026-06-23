@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-16",
+  "title": "Hypertension intracrânienne",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la valeur seuil de la pression intracrânienne (PIC) définissant l'hypertension intracrânienne (HTIC) chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Supérieure à 5 mmHg",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supérieure à 10 mmHg",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Supérieure à 15 mmHg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Supérieure à 20 mmHg",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Supérieure à 25 mmHg",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HTIC est définie comme une augmentation de la pression intracrânienne supérieure à 15 mmHg chez l'adulte."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes suivants, lequel est un signe neurologique à rechercher systématiquement lors de l'examen clinique d'une céphalée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'auscultation cardiaque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La palpation des muscles cervicaux",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'examen du fond d'œil",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mesure de la tension artérielle",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'examen cutané",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen neurologique inclut la recherche d'un œdème papillaire à l'examen du fond d'œil, signe important d'HTIC."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale contre-indication formelle à la réalisation d'une ponction lombaire (PL) en présence d'une hypertension intracrânienne (HTIC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'une méningite infectieuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un syndrome méningé fébrile",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le risque d'engagement cérébral",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une céphalée récente et inhabituelle",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une suspicion de thrombose veineuse cérébrale",
+          "correct": false
+        }
+      ],
+      "explanation": "La ponction lombaire est formellement contre-indiquée en cas d'HTIC en raison du risque d'engagement temporal ou amygdalien."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les trois principaux compartiments qui constituent le volume intracrânien normal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parenchyme cérébral, LCR, sang artériel",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Parenchyme cérébral, LCR, vaisseaux",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "LCR, vaisseaux, os crâniens",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Parenchyme cérébral, sang veineux, méninges",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "LCR, sang artériel, sang veineux",
+          "correct": false
+        }
+      ],
+      "explanation": "Le volume intracrânien constant de 1400 mL est composé du parenchyme cérébral (88%), du LCR (9%) et des vaisseaux (3%)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des céphalées secondaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont généralement récurrentes et chroniques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le diagnostic est uniquement clinique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles sont sans lésion causale sous-jacente.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont généralement récentes et inhabituelles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont la cause la plus fréquente de céphalées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les céphalées secondaires sont généralement récentes et inhabituelles, indiquant une lésion locale ou générale sous-jacente."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques évocateurs d'une hypertension intracrânienne (HTIC) lente ou subaiguë chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées soulagées par les antalgiques usuels.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des vomissements en jet, soulageant les céphalées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diplopie horizontale par atteinte du nerf VI, avec valeur localisatrice.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des troubles visuels précoces, engageant rarement le pronostic.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des céphalées aggravées par la position allongée et les efforts à glotte fermée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les vomissements en jet, soulageant les céphalées, sont inconstants mais évocateurs. Les céphalées d'HTIC sont aggravées par les manœuvres de Valsalva (effort à glotte fermée, toux, défécation) et sont souvent plus intenses le matin au réveil ou en 2ème partie de nuit (position allongée). Elles sont résistantes aux antalgiques usuels. L'atteinte du VI n'a pas de valeur localisatrice et les troubles visuels sont tardifs et peuvent engager le pronostic."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments cliniques qui doivent faire suspecter une céphalée secondaire et justifier des explorations complémentaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une céphalée chronique paroxystique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une céphalée récente à début soudain.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une céphalée d'aggravation progressive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'apparition de céphalées récentes inhabituelles chez un patient avec céphalées chroniques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une céphalée de tension typique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les céphalées récentes à début soudain ou d'aggravation progressive sont évocatrices de céphalées secondaires. L'apparition de céphalées récentes inhabituelles chez un patient avec céphalées chroniques doit également faire entreprendre des explorations complémentaires."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'HTIC spécifiques à l'enfant avant la fermeture des sutures osseuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des signes pseudo-digestifs isolés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une tension de la fontanelle antérieure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un regard en « coucher de soleil ».",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une atrophie optique sans œdème papillaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du périmètre crânien supérieure à 2 DS.",
+          "correct": true
+        }
+      ],
+      "explanation": "Avant la fermeture des sutures, l'HTIC chez l'enfant peut se manifester par une augmentation du périmètre crânien (> 2 DS), une tension de la fontanelle antérieure et un regard en « coucher de soleil » (syndrome de Parinaud). Les signes pseudo-digestifs et l'atrophie optique sans œdème papillaire peuvent survenir chez l'enfant plus âgé."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'IRM cérébrale dans le bilan des céphalées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspicion d'hémorragie méningée (plus sensible que le scanner).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suspicion de thrombose veineuse cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic de dissection artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche d'une hyperdensité spontanée des espaces sous-arachnoïdiens.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diagnostic d'hypotension intracrânienne.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'IRM est plus sensible que le scanner pour les hémorragies méningées (séquences T2-FLAIR et T2*). Elle est indiquée en cas de suspicion de thrombose veineuse cérébrale, de dissection artérielle (avec imagerie vasculaire cervicale) et d'hypotension intracrânienne."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des céphalées associées à une hémorragie sous-arachnoïdienne (HSA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont généralement d'aggravation progressive.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles peuvent être explosives, en « coup de tonnerre ».",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont souvent de faible intensité.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles peuvent régresser totalement en cas d'hémorragie de faible abondance.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours associées à des signes de focalisation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les céphalées d'HSA sont souvent explosives, en « coup de tonnerre », très intenses, et peuvent régresser totalement en cas d'hémorragie de faible abondance (céphalée « sentinelle »)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principes du traitement antalgique non spécifique des céphalées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'utilisation systématique d'aspirine et d'AINS.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La préférence pour la voie IV en cas de nausées et/ou vomissements.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'association de paracétamol et de néfopam est possible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'utilisation de sédatifs pour masquer les troubles de vigilance.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'isolement au calme dans un lieu sombre est réservé aux céphalées primaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est préférable d'utiliser la voie IV en cas de nausées et/ou vomissements. Le traitement antalgique non spécifique peut inclure le paracétamol et le néfopam. L'aspirine et les AINS sont à éviter car ils peuvent aggraver une hémorragie intracrânienne. Les sédatifs sont à éviter car ils peuvent masquer des troubles de vigilance."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs favorisants ou contextes évocateurs d'une HTIC bénigne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une jeune femme obèse avec prise de poids.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une thrombophlébite cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une insuffisance surrénalienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une carence en vitamine C.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La prise de corticoïdes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque d'HTIC bénigne incluent l'obésité (jeune femme avec prise de poids), la thrombophlébite cérébrale, les troubles endocriniens (hypoparathyroïdie, insuffisance surrénalienne) et la prise de corticoïdes ou de vitamine A."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hypotension du LCS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées déclenchées à l'orthostatisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des céphalées disparaissant rapidement en position allongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un rehaussement intense des méninges après injection de gadolinium à l'IRM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation des ventricules cérébraux à l'IRM.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une aggravation des céphalées avec perte du caractère postural en cas de complication.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypotension du LCS se manifeste par des céphalées diffuses, déclenchées à l'orthostatisme et disparaissant rapidement en position allongée. L'IRM cérébrale montre un rehaussement intense des méninges après injection de gadolinium. En cas de complication (hématome sous-dural, thrombose veineuse cérébrale), les céphalées s'aggravent et perdent leur caractère postural."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques associés à une dissection carotidienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un syndrome de Claude Bernard-Horner.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une paralysie du nerf facial (VII).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un acouphène pulsatile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une paralysie du nerf hypoglosse (XII).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diplopie par atteinte du nerf VI.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes associés à une dissection carotidienne incluent le syndrome de Claude Bernard-Horner (myosis, ptosis, pseudo-énophtalmie), un acouphène pulsatile et une paralysie du XII."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments diagnostiques d'une thrombose veineuse cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une céphalée habituellement récente et progressive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des signes focaux bilatéraux et à bascule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un contexte de femme jeune en post-partum.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une imagerie cérébrale normale excluant le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une PL évacuatrice contre-indiquée avant le traitement anticoagulant.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thrombose veineuse cérébrale se manifeste par une céphalée récente et progressive, souvent associée à des signes focaux bilatéraux et à bascule, dans un contexte évocateur (femme jeune, post-partum). Le diagnostic repose sur l'imagerie cérébrale et l'imagerie du système veineux (IRM ou angioscanner veineux). Une PL évacuatrice est possible avant le traitement anticoagulant en cas d'HTIC."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'hydrocéphalie obstructive mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sténose de l'aqueduc de Sylvius.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tumeur cérébrale comprimant le 3e ventricule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hémorragie méningée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une malformation de Dandy-Walker.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une thrombophlébite cérébrale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes d'hydrocéphalie obstructive incluent les malformations congénitales comme la sténose de l'aqueduc de Sylvius et la malformation de Dandy-Walker, ainsi que les lésions cérébrales comme une tumeur comprimant le 3e ou 4e ventricule. L'hémorragie méningée peut entraîner une hydrocéphalie, mais pas nécessairement obstructive. La thrombophlébite cérébrale est une cause d'HTIC mais pas directement d'hydrocéphalie obstructive."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la phase de compensation de la courbe pression-volume intracrânienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La PIC augmente rapidement pour une faible augmentation de volume.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La PIC reste stable malgré une augmentation du volume intracrânien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est caractérisée par une réduction des secteurs liquidiens.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle implique une augmentation des espaces vasculaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La compliance du système nerveux diminue.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase de plateau (compensation) est caractérisée par une PIC stable malgré une augmentation du volume intracrânien, grâce à la réduction des secteurs liquidiens (ventriculaires, sous-arachnoïdiens) et des espaces vasculaires (essentiellement veineux), et par la compliance du système nerveux."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'alerte d'une maladie de Horton ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une céphalée en « lourdeur » temporale chez un sujet de moins de 50 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une artère temporale indurée et douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des épisodes de cécité monoculaire transitoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une pseudo-polyarthrite rhizomélique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une claudication de la mâchoire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La maladie de Horton survient chez un sujet de plus de 60 ans avec une céphalée temporale. Les signes associés incluent une artère temporale indurée, douloureuse et non pulsatile, une pseudo-polyarthrite rhizomélique, des épisodes de cécité monoculaire transitoire et une claudication de la mâchoire. Le risque immédiat est la cécité définitive."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du traitement symptomatique de l'HTIC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La position demi-assise (30°).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'administration systématique de sédatifs.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La lutte contre les facteurs d'agressions cérébrales secondaires (ACSOS).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'utilisation d'antiémétiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La tête en hyperflexion pour faciliter le drainage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement symptomatique de l'HTIC inclut la position demi-assise (30°), la lutte contre les ACSOS (PA, ventilation) et l'administration d'antiémétiques. Les sédatifs sont à éviter car ils peuvent masquer des troubles de vigilance. La tête doit être droite."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'œdème cérébral mentionnées dans le texte et leur sensibilité aux corticoïdes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'œdème vasogénique est intracellulaire et ne répond pas aux corticoïdes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'œdème cytotoxique est extracellulaire et sensible aux corticoïdes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'œdème vasogénique est extracellulaire et sensible aux corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'œdème cytotoxique est intracellulaire et ne répond pas aux corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tous les types d'œdème cérébral répondent aux corticoïdes.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'œdème vasogénique est une accumulation d'eau extracellulaire et est sensible aux corticoïdes. L'œdème cytotoxique est intracellulaire et ne répond pas aux corticoïdes."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une encéphalopathie hypertensive ou éclampsie (PRESS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des troubles visuels (hémianopsie latérale homonyme, cécité corticale).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des crises comitiales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une IRM montrant des hypersignaux de la substance blanche, principalement postérieurs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une évolution défavorable malgré le traitement de la cause.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau aigu/subaigu de l'encéphalopathie hypertensive/éclampsie inclut des céphalées, des troubles visuels (HLH, cécité corticale) et des crises comitiales. L'IRM montre des hypersignaux de la substance blanche, principalement postérieurs, par œdème vasogénique. L'évolution est favorable avec le traitement de la cause."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la ponction lombaire (PL) dans le bilan des céphalées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En première intention si syndrome méningé fébrile, en l'absence de troubles de la conscience ou de signes neurologiques focaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Après un scanner normal devant toute céphalée récente et inhabituelle brutale ou progressive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour mesurer la pression du LCS en cas de suspicion d'HTIC sans imagerie préalable.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pour rechercher une hémorragie sous-arachnoïdienne (LCS hémorragique).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour rechercher une méningite.",
+          "correct": true
+        }
+      ],
+      "explanation": "La PL est indiquée en première intention si syndrome méningé fébrile (sans troubles de la conscience ou signes focaux). Elle est également indiquée après un scanner normal devant toute céphalée récente et inhabituelle brutale ou progressive pour rechercher une HSA (LCS hémorragique) ou une méningite. La mesure de pression en cas de suspicion d'HTIC doit se faire après imagerie."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'engagement cérébral mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des troubles neuro-végétatifs (bradycardie, PA instable).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des crises convulsives.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un ralentissement psychique isolé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des signes de localisation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des acouphènes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes d'engagement incluent des troubles neuro-végétatifs (bradycardie, PA instable, hyperthermie, troubles du rythme, fréquence respiratoire anormale, encombrement pulmonaire), des signes de localisation et des crises convulsives."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes vasculaires de céphalées aiguës ou progressives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie sous-arachnoïdienne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Thrombose veineuse cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de vasoconstriction cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématome intra-parenchymateux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Névralgie d'Arnold.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes vasculaires de céphalées incluent l'hémorragie sous-arachnoïdienne, la thrombose veineuse cérébrale, le syndrome de vasoconstriction cérébrale et l'hématome/infarctus cérébral. La névralgie d'Arnold est une pathologie loco-régionale nerveuse."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le mécanisme d'action du Mannitol 20% dans le traitement de l'HTIC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il réduit le volume du LCR par augmentation de sa résorption.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il crée un gradient osmotique par perfusion de soluté hypertonique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il diminue la production de LCR.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il agit comme un diurétique antihypertenseur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il réduit le volume cérébral par vasodilatation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Mannitol 20% est un agent osmotique qui réduit le volume cérébral en créant un gradient osmotique par perfusion de soluté hypertonique."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente des céphalées occipitales, un torticolis et une attitude guindée de la tête. Quelle forme d'engagement cérébral doit être suspectée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Engagement temporal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Engagement amygdalien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Engagement sous-falciforme.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Engagement diencéphalique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Engagement du culmen cérébelleux.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'engagement amygdalien, dû à une lésion de la fosse postérieure, se manifeste par des céphalées occipitales, un torticolis et une attitude guindée de la tête. Les formes évoluées peuvent entraîner des modifications du tonus postural et des troubles respiratoires."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications possibles d'une hypotension du LCS non traitée ou récidivante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un hématome sous-dural.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une thrombose veineuse cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une aggravation des céphalées avec perte du caractère postural.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hydrocéphalie à pression normale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome de vasoconstriction cérébrale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de l'hypotension du LCS incluent l'hématome sous-dural et la thrombose veineuse cérébrale, qui se manifestent par une aggravation des céphalées et la perte de leur caractère postural."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et radiologiques du syndrome de vasoconstriction cérébrale (SVCC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées « en coup de tonnerre » répétées en salves.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un contexte évocateur comme le post-partum ou la prise de vasoconstricteurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des rétrécissements artériels intracrâniens diffus et segmentaires, réversibles en 1 à 3 mois à l'angio-IRM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une complication fréquente est l'infarctus veineux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le traitement repose sur les corticoïdes et le repos.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SVCC est une angiopathie cérébrale aiguë réversible, caractérisée par des céphalées « en coup de tonnerre » répétées, souvent dans un contexte de post-partum ou de prise de vasoconstricteurs. L'angio-IRM/angioscanner montre des rétrécissements artériels intracrâniens diffus et segmentaires, réversibles. Les complications sont l'hémorragie ou l'infarctus cérébral, ou l'hémorragie méningée. Le traitement est le repos et les inhibiteurs calciques (nimodipine)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui caractérisent l'hydrocéphalie à pression normale (HPN) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours idiopathique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle se manifeste par la triade de Hakim (troubles cognitifs, de la marche, mictionnels).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est associée à des céphalées intenses.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'imagerie cérébrale montre une dilatation du système ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le traitement de référence est la dérivation ventriculo-péritonéale.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HPN se manifeste par la triade de Hakim (troubles cognitifs, de la marche, mictionnels), sans céphalées. L'imagerie cérébrale montre une dilatation du système ventriculaire. Elle peut être idiopathique ou secondaire. Le traitement est la dérivation ventriculo-péritonéale ou ventriculo-cardiaque."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'une atteinte du nerf optique (II) dans le cadre d'une HTIC lente ou subaiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diplopie horizontale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des impressions furtives de brouillards obscurcissant la vue.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des éclipses visuelles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une baisse d'acuité visuelle tardive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un œdème papillaire avec saillie de la papille et coudure des vaisseaux.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'atteinte du nerf optique (II) se manifeste par une gêne visuelle, des impressions furtives de brouillards, des éclipses visuelles, une baisse d'acuité visuelle tardive et un œdème papillaire (flou des bords, dilatation veineuse, saillie de la papille, coudure des vaisseaux, puis hémorragies et exsudats)."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes médicamenteuses ou toxiques d'HTIC mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corticoïdes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vitamine A.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Intoxication au plomb.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tétracycline.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Paracétamol.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes médicamenteuses ou toxiques d'HTIC incluent les corticoïdes, la vitamine A, l'acide nalidixique, la tétracycline, l'intoxication au CO, au plomb et au thallium."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'engagement temporal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est dû à une lésion siégeant au moins en partie dans la fosse postérieure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il entraîne une compression du tronc cérébral avec atteinte du nerf III.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il se manifeste par une anisocorie homolatérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il peut provoquer un déficit moteur controlatéral.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il n'a pas de risque de séquelle à long terme.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'engagement temporal est dû à une lésion de la partie antérieure du lobe temporal. Il entraîne une compression du tronc cérébral avec atteinte du nerf III (anisocorie ± réactive homolatérale) et une compression du pédicule cérébral (déficit moteur controlatéral). Il y a un risque d'infarctus séquellaire du territoire de l'artère cérébrale postérieure."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques d'un glaucome aigu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur à prédominance péri-orbitaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un œil rouge.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un trouble visuel unilatéral (BAV, halos lumineux).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une mydriase modérée aréactive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un écoulement nasal purulent.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le glaucome aigu se manifeste par une douleur à prédominance péri-orbitaire, un œil rouge, un trouble visuel unilatéral (BAV, halos lumineux) et parfois une mydriase modérée aréactive. L'écoulement nasal purulent est un signe de sinusite aiguë."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire suspecter une intoxication au CO comme cause de céphalées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées aiguës ou chroniques (90% des cas).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des céphalées précédant d'autres signes comme des vertiges ou une asthénie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des céphalées intenses avec confusion si le taux de carboxyhémoglobine est supérieur à 30%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des céphalées chroniques, notamment nocturnes ou survenant à l'intérieur d'une pièce spécifique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une amélioration des céphalées à l'exposition au froid.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intoxication au CO se manifeste par des céphalées aiguës ou chroniques (90% des cas), précédant d'autres signes (vertiges, asthénie). Des céphalées intenses avec confusion sont observées si le taux de carboxyhémoglobine est > 30%. Les céphalées chroniques sont souvent nocturnes ou liées à une pièce spécifique."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les limitations d'un scanner cérébral sans injection normal devant une céphalée brutale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il ne permet pas d'écarter une hémorragie méningée dans 5-10% des cas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il ne permet pas d'écarter une thrombose veineuse cérébrale dans 30% des cas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il ne permet pas d'écarter une dissection cervicale au stade aigu dans la quasi-totalité des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il ne permet pas d'écarter une méningite dans la quasi-totalité des cas.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours suffisant pour exclure une cause lésionnelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un scanner cérébral normal ne permet pas d'écarter une cause lésionnelle dans 5-10% des hémorragies méningées, 30% des thromboses veineuses cérébrales, la quasi-totalité des dissections cervicales au stade aigu et la quasi-totalité des méningites."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les troubles cognitifs associés à l'HTIC lente ou subaiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un ralentissement psychique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une somnolence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une sensation de tête lourde et vide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des troubles de l'attention et de la concentration fluctuants.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une amnésie rétrograde permanente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les troubles cognitifs associés à l'HTIC lente ou subaiguë incluent un ralentissement, une somnolence, une sensation de tête lourde et vide, et des troubles de l'attention, de la concentration et mnésiques, souvent fluctuants."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'angiographie cérébrale conventionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie méningée pour traitement endo-vasculaire d'un anévrisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suspicion de thrombose veineuse avec IRM normale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Suspicion d'angiopathie cérébrale aiguë non visible à l'angioscanner/IRM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Suspicion d'angéite cérébrale non visible à l'angioscanner/IRM.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En première intention pour toute céphalée brutale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiographie cérébrale conventionnelle est très rarement indiquée, mais peut l'être pour l'hémorragie méningée (traitement endo-vasculaire d'un anévrisme), la suspicion de thrombose veineuse avec IRM normale, ou la suspicion d'angiopathie cérébrale aiguë ou d'angéite cérébrale non visible à l'angioscanner/IRM."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'engagement diencéphalique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un hoquet.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des troubles de la vigilance très rapides.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des troubles de la conscience très rapides.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une anisocorie homolatérale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un déficit moteur controlatéral.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'engagement diencéphalique, par pression sur les structures thalamiques, se manifeste par un hoquet et des troubles de la vigilance et de la conscience très rapides."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques et complications de la dérivation ventriculaire externe (DVE) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque infectieux important (méningite, ventriculite).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Complications mécaniques (obstruction ou coudure de cathéter).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est un traitement définitif de l'hydrocéphalie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est utilisée pour les hydrocéphalies obstructives par sténose de l'aqueduc.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est un traitement chirurgical d'urgence de drainage du LCS.",
+          "correct": true
+        }
+      ],
+      "explanation": "La DVE est un traitement chirurgical d'urgence de drainage du LCS, provisoire, avec un risque infectieux important (méningite, ventriculite). Les complications mécaniques sont plutôt associées à la dérivation ventriculaire interne. La ventriculo-cisternostomie est utilisée pour les hydrocéphalies obstructives par sténose de l'aqueduc."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments cliniques et radiologiques permettant de différencier une HTIC bénigne d'une HTIC secondaire à un processus expansif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'un œdème papillaire est exclusive de l'HTIC bénigne.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'HTIC bénigne est un diagnostic d'élimination, sans processus expansif à l'imagerie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'imagerie cérébrale dans l'HTIC bénigne montre des ventricules cérébraux de taille normale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les céphalées d'HTIC bénigne sont toujours soulagées par les antalgiques usuels.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La PL avec prise de pression confirme l'HTIC et peut soulager la céphalée dans l'HTIC bénigne.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HTIC bénigne est un diagnostic d'élimination, sans processus expansif à l'imagerie. L'imagerie cérébrale montre des ventricules cérébraux de taille normale et une dilatation des gaines optiques. La PL avec prise de pression confirme l'HTIC et peut soulager la céphalée. L'œdème papillaire est présent dans les deux formes d'HTIC. Les céphalées d'HTIC sont généralement résistantes aux antalgiques usuels."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du syndrome de Foster-Kennedy ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atrophie optique unilatérale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème papillaire controlatéral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Paralysie du nerf VI.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Troubles cognitifs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Céphalées frontales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Foster-Kennedy est caractérisé par une atrophie optique avec œdème papillaire controlatéral."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements spécifiques de la thrombose veineuse cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anticoagulation en urgence, même en cas de suffusion hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "PL évacuatrice possible en cas d'HTIC, avant le traitement anticoagulant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Corticothérapie à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chirurgie de dérivation ventriculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inhibiteurs calciques (nimodipine).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la thrombose veineuse cérébrale inclut l'anticoagulation en urgence (même en cas de suffusion hémorragique) et une PL évacuatrice possible en cas d'HTIC (avant le traitement anticoagulant)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'engagement sous-falciforme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des troubles cognitifs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un déficit moteur controlatéral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un déplacement de la ligne médiane à l'imagerie cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un hoquet.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des troubles du rythme respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'engagement sous-falciforme se manifeste par des troubles cognitifs (difficiles à individualiser de la lésion causale), un déficit moteur controlatéral et un déplacement de la ligne médiane à l'imagerie cérébrale."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des céphalées d'HTIC lente ou subaiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont souvent bitemporales, en étau, ou fronto-sous-occipitales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont aggravées par les mouvements de tête.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont soulagées par les manœuvres de Valsalva.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont généralement aiguës et soudaines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont résistantes aux antalgiques usuels.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les céphalées d'HTIC lente sont souvent bitemporales, en étau, ou fronto-sous-occipitales, aggravées par les mouvements de tête et les manœuvres de Valsalva, et résistantes aux antalgiques usuels. Elles sont récentes et d'aggravation progressive, non aiguës et soudaines."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements chirurgicaux de réduction du volume du LCS mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dérivation ventriculaire externe.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dérivation ventriculaire interne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ventriculo-cisternostomie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Craniectomie de décompression.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Injection péridurale de sang autologue (blood-patch).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements chirurgicaux de réduction du volume du LCS sont la dérivation ventriculaire externe (provisoire), la dérivation ventriculaire interne (définitive) et la ventriculo-cisternostomie (pour hydrocéphalies obstructives). La craniectomie de décompression réduit le volume cérébral, et le blood-patch traite l'hypotension du LCS."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'une sinusite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées frontales très intenses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une majoration des céphalées en position tête penchée en avant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une majoration des céphalées en position allongée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un écoulement nasal purulent, toujours présent.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une douleur à prédominance péri-orbitaire avec œil rouge.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sinusite aiguë se manifeste par des céphalées frontales souvent très intenses, majorées en position tête penchée en avant et en position allongée, et à la pression des régions sinusiennes. L'écoulement nasal purulent peut être absent en cas de sinusite « bloquée ». La douleur péri-orbitaire avec œil rouge est un signe de glaucome aigu."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est l'impact de l'auto-régulation cérébrale sur le débit sanguin cérébral (DSC) en cas de baisse de la pression de perfusion cérébrale (PPC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le DSC est maintenu à un niveau suffisant jusqu'à une PPC de 40 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'auto-régulation augmente les résistances vasculaires par vasoconstriction.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'auto-régulation diminue les résistances vasculaires par vasodilatation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le DSC est directement proportionnel à la PPC sans mécanisme de compensation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'auto-régulation n'a pas d'effet sur le DSC en cas de baisse de la PPC.",
+          "correct": false
+        }
+      ],
+      "explanation": "Jusqu'à une PPC de 40 mmHg, le DSC est maintenu à un niveau suffisant par un phénomène d'auto-régulation qui diminue les résistances vasculaires par vasodilatation."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'HTIC d'origine vasculaire mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thrombophlébite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hématome intracérébral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "AVC ischémique étendu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémorragie méningée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Malformation de Dandy-Walker.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes vasculaires d'HTIC incluent la thrombophlébite, l'hématome intracérébral, l'AVC ischémique étendu, l'hémorragie méningée et le traumatisme crânien avec hématome sous-dural ou extra-dural, ainsi que l'encéphalopathie hypertensive. La malformation de Dandy-Walker est une cause congénitale d'hydrocéphalie obstructive."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'engagement du culmen cérébelleux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des troubles de la conscience très rapides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une pression exercée dans la fosse cérébrale postérieure, du bas vers le haut.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un déficit moteur controlatéral.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un hoquet.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des céphalées occipitales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'engagement du culmen cérébelleux est dû à une pression exercée dans la fosse cérébrale postérieure, du bas vers le haut, et se manifeste par des troubles de la conscience très rapides."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la ventriculo-cisternostomie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une technique chirurgicale par vidéo-endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle met en communication le plancher arachnoïdien du 3ème ventricule avec les citernes de la base.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est indiquée pour les hydrocéphalies obstructives par sténose de l'aqueduc du mésencéphale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est un traitement provisoire de drainage du LCS.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est associée à un risque infectieux important.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ventriculo-cisternostomie est une technique chirurgicale par vidéo-endoscopie qui met en communication le plancher arachnoïdien du 3ème ventricule avec les citernes de la base. Elle est le traitement des hydrocéphalies obstructives par sténose de l'aqueduc du mésencéphale. C'est un traitement définitif, contrairement à la DVE qui est provisoire et a un risque infectieux important."
+    }
+  ]
+}

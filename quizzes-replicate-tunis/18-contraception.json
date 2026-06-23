@@ -1,0 +1,1424 @@
+{
+  "lectureId": "18",
+  "number": "18",
+  "title": "Contraception",
+  "partie": "J1",
+  "specialty": "Gynécologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de la contraception ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'ensemble des méthodes utilisées pour éviter, de façon réversible et temporaire, une grossesse non désirée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une méthode visant à prévenir définitivement toute grossesse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un moyen de réguler les naissances sans considération de réversibilité.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une intervention chirurgicale pour empêcher la fécondation.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contraception est définie comme l’ensemble des méthodes utilisées pour éviter, de façon réversible et temporaire, une grossesse non désirée. Elle doit être efficace et bien tolérée."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux types de contraception mentionnés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hormonale et chirurgicale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chimique et mécanique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Naturelle et définitive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Locale et systémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contraception peut être chimique ou mécanique. Le cours développe ensuite la contraception hormonale (chimique) et la contraception mécanique."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quel est le moyen contraceptif le plus utilisé en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La contraception hormonale œstroprogestative.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le préservatif masculin.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le dispositif intra-utérin (DIU).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La contraception hormonale progestative pure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DIU ou stérilet est le moyen contraceptif le plus utilisé en Tunisie."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelles sont les voies d'administration possibles pour la contraception hormonale œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie orale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Voie transdermique (patch).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Voie injectable.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Voie vaginale (anneau).",
+          "correct": true
+        }
+      ],
+      "explanation": "La contraception hormonale œstroprogestative est administrée essentiellement par voie orale, mais peut aussi être administrée par voie transdermique (patch) ou vaginale (anneau)."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quel est le progestatif de synthèse à faible dose utilisé dans la contraception microprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un macroprogestatif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un progestatif de synthèse à faible dose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un œstrogène synthétique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un progestatif de 3ème génération uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contraception microprogestative est constituée d’un progestatif de synthèse à faible dose."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelles sont les méthodes de contraception mécanique mentionnées qui agissent comme une barrière aux spermatozoïdes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les dispositifs intra-utérins (DIU).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les préservatifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les spermicides.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les implants sous-cutanés.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contraception mécanique inclut toutes les méthodes sans hormones qui constituent une barrière aux spermatozoïdes en les empêchant de passer. Les préservatifs et les spermicides sont des méthodes barrières."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelle est la durée d'efficacité moyenne d'un DIU au cuivre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 an.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "3 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "5 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "10 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DIU au cuivre est efficace pendant 5 ans en moyenne."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quel est le progestatif libéré par les DIU hormonaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'éthinyl-estradiol.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le lévonogestrel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La noréthistérone.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le desogestrel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les DIU hormonaux sont caractérisés par l’ajout d’un progestatif qui est le lévonogestrel."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelles sont les méthodes contraceptives naturelles basées sur la connaissance de la physiologie de la fécondation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La méthode des températures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La méthode de Billings.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La méthode Ogino-Knaus.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dispositif intra-utérin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les méthodes contraceptives naturelles mentionnées sont la méthode des températures, la méthode Billings et la méthode Ogino-Knaus."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est l'œstrogène synthétique contenu dans les œstroprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le lévonorgestrel.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'éthinyl-estradiol.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La progestérone.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le desogestrel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les œstroprogestatifs contiennent un œstrogène synthétique, l’éthinyl-estradiol."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est le dosage d'éthinyl-estradiol pour les pilules minidosées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "< 50 μg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "50 μg.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "> 50 μg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "150 μg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pilules minidosées contiennent < 50 μg d'éthinyl-estradiol."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le principal mécanisme d'action central des œstrogènes dans la contraception œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atrophie de l'endomètre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Blocage de la libération de FSH et de LH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glaire cervicale pauvre et coagulée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperplasie de l'endomètre.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'action centrale hypothalamo-hypophysaire principale des œstrogènes est le blocage de la libération de FSH et de LH, conduisant à une inhibition de la croissance folliculaire et de l’ovulation."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel est l'effet des progestatifs sur la glaire cervicale dans la contraception œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La rend filante et abondante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La rend pauvre, coagulée et impénétrable par les spermatozoïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "N'a aucun effet sur la glaire cervicale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmente sa perméabilité.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'effet des progestatifs sur la glaire cervicale est de la rendre pauvre, coagulée et impénétrable par les spermatozoïdes."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quel est l'effet protecteur de la contraception orale combinée mentionné concernant les cancers ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protection contre le cancer du sein.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protection contre le cancer de l'endomètre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Protection contre le cancer du col utérin.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Protection contre les cancers ovariens.",
+          "correct": true
+        }
+      ],
+      "explanation": "La contraception orale combinée protège du cancer de l’endomètre et des cancers ovariens."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est le principal inconvénient des microprogestatifs mentionné en début de traitement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La survenue de troubles du cycle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des effets indésirables cardio-vasculaires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypertension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des modifications du profil lipidique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principal inconvénient des microprogestatifs est la survenue en début de traitement de troubles du cycle : spotting, irrégularités menstruelles ou aménorrhée."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions du DIU au cuivre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immobilisation des spermatozoïdes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Action anti-nidatoire pour les embryons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Libération de lévonogestrel.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Épaississement de la glaire cervicale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DIU au cuivre a une fonction double : immobilisatrice sur les spermatozoïdes (par action au niveau des mitochondries) et anti-nidatoire pour les embryons."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du préservatif féminin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il se place à l’intérieur du vagin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il peut être mis en place plusieurs heures avant le rapport sexuel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il doit être changé à chaque rapport.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il assure une protection contre les IST.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le préservatif féminin se place à l’intérieur du vagin, peut être mis en place plusieurs heures avant le rapport sexuel, doit être changé à chaque rapport et permet de se protéger des IST."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Comment les spermicides agissent-ils ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils forment une barrière chimique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils détruisent les spermatozoïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils rendent les spermatozoïdes inactifs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont efficaces seuls et ne nécessitent pas d'association.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les spermicides forment une barrière chimique qui détruit les spermatozoïdes ou les rend inactifs. Ils sont à associer avec d’autres méthodes."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des norstéroïdes de 1ère génération ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont fortement antigonadotropes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils sont fortement androgéniques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont mieux tolérés que les 2ème et 3ème générations.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils peuvent générer des manifestations comme la prise de poids et l'acné.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les norstéroïdes de 1ère génération sont fortement antigonadotropes et fortement androgéniques, générant à la longue des manifestations comme la prise de poids, l’acné, la séborrhée et des effets métaboliques néfastes."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets périphériques des œstrogènes dans la contraception œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atrophie de l'endomètre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyperplasie de l'endomètre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glaire cervicale filante et abondante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glaire cervicale pauvre et coagulée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets périphériques des œstrogènes sont l'hyperplasie de l’endomètre et une glaire cervicale filante et abondante."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables mineurs des œstroprogestatifs liés à un climat œstrogénique ou une insuffisance lutéale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nausées et vomissements.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mastodynies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Manifestations de types androgéniques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Métrorragies intermenstruelles par atrophie de l'endomètre.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les nausées et vomissements sont observés avec les pilules fortement dosées en œstrogènes. Les mastodynies s’observent avec les pilules à climat œstrogénique et les micropilules qui créent un état d’insuffisance lutéale."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles modifications du profil lipidique sont attribuées aux œstrogènes de synthèse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Synthèse accrue des VLDL et élévation des triglycérides plasmatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Baisse du HDL-cholestérol.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Élévation du HDL-cholestérol par baisse de son épuration hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution du cholestérol total.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les œstrogènes de synthèse sont responsables d'une synthèse accrue des VLDL et donc d'une élévation des triglycérides plasmatiques, ainsi que d'une élévation du HDL-cholestérol par baisse de son épuration hépatique."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque à dépister pour réduire le risque thromboembolique sous œstroprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tabagisme avéré quand l’âge est supérieur à 35 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dyslipidémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antécédents personnels d’accidents vasculaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Intervention chirurgicale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque à dépister sont le tabagisme avéré quand l’âge est supérieur à 35 ans, la dyslipidémie, l'HTA, les antécédents personnels d’accidents vasculaires et les interventions chirurgicales."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes d'action des microprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Action principale au niveau utérin (glaire cervicale et endomètre).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activité anti-gonadotrope (perturbation de l’ovulation) pour certains.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Blocage systématique de la libération de FSH et LH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperplasie de l'endomètre.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les microprogestatifs agissent principalement au niveau utérin (glaire cervicale et endomètre). Cependant, certains microprogestatifs, notamment ceux de 3ème génération, ont également une activité anti-gonadotrope (perturbation de l’ovulation)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les avantages des macroprogestatifs injectables comme le Depo-provera® ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Facilité d’emploi.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence de premier passage hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence totale de troubles menstruels.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Convient aux femmes ayant une mauvaise observance pour les pilules.",
+          "correct": true
+        }
+      ],
+      "explanation": "La facilité d’emploi, l’absence de premier passage hépatique constituent les avantages de ce mode de contraception, qui convient surtout pour les femmes ayant une mauvaise observance pour les pilules. Cependant, ils donnent souvent des troubles menstruels."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Selon l'indice de Pearl, quels sont les moyens contraceptifs les plus efficaces parmi les suivants, du plus efficace au moins efficace ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implanon.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œstroprogestatifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "DIU.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Microprogestatifs.",
+          "correct": true
+        }
+      ],
+      "explanation": "En se basant sur l’indice de PEARL, les moyens contraceptifs les plus efficaces sont : l’implanon, les œstroprogestatifs, le DIU et les microprogestatifs (du plus efficace au moins efficace)."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères à prendre en compte pour le choix d'une méthode contraceptive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge de la patiente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les données de l’interrogatoire et de l’examen clinique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les résultats du bilan para-clinique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le souhait de la patiente.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le choix du contraceptif doit tenir compte de l’âge de la patiente, des données de l’interrogatoire et de l’examen clinique, des résultats du bilan para-clinique et du souhait de la patiente."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les modalités de prescription d'une pilule œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prise cyclique de 3 semaines d'hormones actives avec un arrêt d'une semaine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La 1ère plaquette est débutée le 1er ou le 2ème jour des règles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les plaquettes suivantes sont reprises après 7 jours d’arrêt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise doit être irrégulière pour éviter l'accoutumance.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principe de prescription de la pilule œstroprogestative est de donner de façon cyclique 3 semaines d’hormones actives avec un arrêt d’une semaine. La 1ère plaquette est débutée le 1er ou le 2ème jour des règles. Les plaquettes suivantes sont reprises après 7 jours d’arrêt. La prise doit être régulière, sans oubli, au même moment de la journée."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications absolues aux œstroprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grossesse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Age de plus de 40 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diabète bien équilibré, non compliqué.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Antécédents familiaux d’accidents vasculaires précoces.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les contre-indications absolues incluent la grossesse, l'âge de plus de 40 ans, le diabète mal équilibré et les antécédents familiaux d’accidents vasculaires précoces. Le diabète bien équilibré est une contre-indication relative."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications relatives aux œstroprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allaitement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tabagisme, âge > 35 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeurs hépatiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Antécédents d’HTA gravidique.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'allaitement, le tabagisme avec un âge > 35 ans et les antécédents d’HTA gravidique sont des contre-indications relatives. Les tumeurs hépatiques sont une contre-indication absolue."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations cliniques les microprogestatifs ou le DIU sont-ils des méthodes de choix ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diabète.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "HTA.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque thromboembolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Postpartum immédiat avec allaitement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le tableau des situations cliniques particulières indique que les microprogestatifs et/ou le DIU sont des méthodes de choix pour le diabète, l'HTA, le risque thromboembolique et le postpartum immédiat avec allaitement."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les incidents possibles lors de la pose d'un DIU ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleurs à type de crampes ou de contractions.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Spasme du col.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Malaise vagal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perforation utérine.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les incidents possibles lors de la pose sont des douleurs à type de crampes ou de contractions, un spasme du col, un malaise vagal. Un accident rare est la perforation."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications absolues à la pose d'un DIU ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grossesse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection génitale haute.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Trouble de la crase sanguine (pour DIU au cuivre).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédents de GEU.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications absolues sont la grossesse, l'infection génitale haute, le trouble de la crase sanguine (DIU au cuivre) et les cardiopathies valvulaires. Les antécédents de GEU sont une contre-indication relative."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance clinique d'une contraception œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen des seins.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prise de la pression artérielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vérification de la stabilité du poids.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dosage annuel du cholestérol total.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’examen clinique s’assure de la bonne tolérance clinique de la contraception orale (examen des seins, prise de la pression artérielle et vérification de la stabilité du poids), et recherche des signes d’hyper- ou hypoestrogénie ou d’hyperandrogénie. Le dosage du cholestérol est une surveillance biologique."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables mineurs des DIU ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Saignements d’origine intra-utérine (ménorragies, spotting, métrorragies).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Expulsion du DIU.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Perforations utérines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Infection génitale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les saignements d’origine intra-utérine (ménorragies, spotting, métrorragies) sont les inconvénients les plus fréquents et sont considérés comme des effets indésirables mineurs. L'expulsion, la perforation et l'infection sont des complications."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les actions des DIU hormonaux (au lévonogestrel) en plus des modes d'action partagés avec le DIU au cuivre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épaississement de la glaire cervicale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Changement du revêtement endométrial.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atrophie endométriale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Raréfaction de la glaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les DIU hormonaux libèrent un progestatif qui épaissit la glaire cervicale, change le revêtement endométrial, est responsable d'une atrophie endométriale et d'une raréfaction de la glaire. Ces actions s'ajoutent aux modes d'action partagés avec le DIU au cuivre (réaction inflammatoire, leucocytose, prostaglandines)."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "La méthode Ogino-Knaus est-elle fiable dans toutes les situations ? Si non, pourquoi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, elle est toujours fiable si le cycle est de 28 jours.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Non, elle est inefficace en cas de troubles du cycle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Non, car l'ovulation survient à des dates variables en cas de troubles du cycle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Oui, car elle ne dépend pas de la régularité du cycle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La méthode Ogino-Knaus est inefficace en cas de troubles du cycle car l'ovulation survient à des dates variables, rendant la période à risque imprévisible."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les progestatifs de 3ème génération mentionnés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Noréthistérone.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Norgestrel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Desogestrel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Gestodène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Norgestimate.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les progestatifs de 3ème génération sont le desogestrel, le gestodène et le norgestimate. La noréthistérone est de 1ère génération et le norgestrel (lévonorgestrel) de 2ème génération."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables des œstroprogestatifs qui sont des symptômes de surcharge en progestatifs et nécessitent de passer à des pilules contenant plus d'œstrogènes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "État dépressif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Céphalées à l’arrêt du traitement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécheresse vaginale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lourdeur des jambes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Métrorragies intermenstruelles par atrophie de l’endomètre.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'état dépressif, les céphalées à l’arrêt du traitement, la sécheresse vaginale, la lourdeur des jambes et les métrorragies intermenstruelles par atrophie de l’endomètre sont des symptômes de surcharge en progestatifs, nécessitant de passer à des pilules contenant plus d’œstrogènes."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une intolérance au glucose et d'une élévation des taux d’insulinémie observées sous œstroprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles ont peu d’incidence sur le risque diabétogène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles augmentent le risque diabétogène chez les femmes prédisposées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont plus marquées avec les progestatifs non androgéniques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont dues à un état d’insulino-résistance périphérique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les deux composants des œstroprogestatifs créent un état d’insulino-résistance périphérique, entraînant une intolérance au glucose et une élévation des taux d’insulinémie. Ces modifications ont peu d’incidence sur le risque diabétogène sauf chez les femmes prédisposées. Les œstroprogestatifs à progestatif non androgénique modifient le moins le métabolisme glucidique."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Comment l'éthinyl-estradiol contribue-t-il à l'hypercoagulabilité et au risque de thrombose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En augmentant la synthèse des facteurs de la coagulation (I, VII, IX, X).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En diminuant les anticoagulants naturels (antithrombine III, protéine S).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En augmentant la fibrinolyse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En réduisant le risque de thrombose.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'éthinyl-estradiol est responsable d'une hypercoagulabilité en rapport avec une synthèse accrue de facteurs de la coagulation (I, VII, IX, X) et d'une diminution des anticoagulants naturels (antithrombine III, protéine S). Il active la coagulation mais augmente aussi la fibrinolyse, mais l'effet net est une hypercoagulabilité."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques associés à l'utilisation de microprogestatifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque de grossesse extra-utérine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mastodynie ou mastopathie due à la persistance d'une sécrétion endogène d'œstrogène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Générateurs de dystrophies ovariennes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Effets indésirables cardio-vasculaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un risque de grossesse extra-utérine semble être associé aux microprogestatifs. La persistance d’une sécrétion endogène d’œstrogène par insuffisance de l’effet antigonadotrope est responsable de mastodynie ou de mastopathie. Par ailleurs, ils sont générateurs de dystrophies ovariennes. Il n’a pas été signalé d'effets indésirables cardio-vasculaires."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de surveillance biologique d'une contraception œstroprogestative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dosage du cholestérol total à 3 mois puis annuellement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dosage des triglycérides à 3 mois puis annuellement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dosage de la glycémie à jeun à 3 mois puis annuellement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Frottis cervico-utérins systématiques avant la prescription.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un dosage du cholestérol total, des triglycérides et de la glycémie à jeun est pratiqué 3 mois après la prescription de la contraception œstroprogestative puis une fois par an. Les frottis cervico-utérins sont réalisés avant la prescription, mais ne font pas partie de la surveillance biologique annuelle."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques qui doivent faire suspecter une endométrite chez une patiente porteuse d'un DIU ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Algies pelviennes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fébricule.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Métrorragie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glaire sale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Leucorrhées malodorantes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le 1er stade de l'infection est l'endométrite qui doit être suspectée devant : algies pelviennes, fébricule, métrorragie, glaire sale, leucorrhées malodorantes."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelle est la conduite à tenir en cas d'oubli d'une pilule œstroprogestative de moins de 12 heures ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prendre le comprimé oublié le plus vite possible et reprendre le suivant à l'heure habituelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utiliser une contraception mécanique pendant 7 jours.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Arrêter la plaquette et en commencer une nouvelle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Aucun problème ne se pose.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d’oubli, il faut prendre le comprimé oublié le plus vite possible et reprendre ensuite le comprimé suivant à l’heure habituelle. Avec les pilules œstroprogestatives actuelles faiblement dosées, aucun problème ne se pose lorsque l’oubli a duré moins de 12 heures."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la contraception d'urgence au lévonorgestrel (Norlevo®) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un comprimé à 1,5 mg est administré dès que possible après le rapport sexuel non protégé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Peut être pris à n’importe quelle période du cycle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il n’existe aucune contre-indication.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son efficacité est supérieure à celle de l'Ulipristal acétate (Ellaone®).",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise de lévonorgestrel (Norlevo®) représente la contraception orale d’urgence de choix : 1 comprimé à 1,5 mg est administré dès que possible après le rapport sexuel non protégé, et ce à n’importe quelle période du cycle. Il n’existe aucune contre-indication au Norlevo®. L'efficacité de l'Ellaone® est supérieure à celle du Norlevo®."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant l'Ulipristal acétate (Ellaone®) comme contraception d'urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son principe actif est un modulateur sélectif des récepteurs à la progestérone.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il doit être pris dans les cinq jours qui suivent un rapport sexuel non protégé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa tolérance est bonne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son efficacité est inférieure à celle du lévonorgestrel (Norlevo®).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principe actif de l'Ellaone® est l'Ulipristal acétate, appartenant à la famille pharmacologique des modulateurs sélectifs des récepteurs à la progestérone. Il doit être pris dans les cinq jours qui suivent un rapport sexuel non protégé. La tolérance est bonne et l'efficacité est supérieure à celle du Norlevo®."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les points essentiels à retenir concernant la contraception ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il n'y a pas de contraception idéale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le dépistage des contre-indications à la pilule repose plus sur l’interrogatoire que sur les bilans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aucun bilan biologique n’est recommandé de façon systématique avant une contraception en l’absence de facteurs de risque et d’un examen physique anormal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque d'échec de la contraception orale en cas d'oubli est maximal en fin de plaquette.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les points essentiels incluent qu'il n'y a pas de contraception idéale, que le dépistage des contre-indications à la pilule repose plus sur l’interrogatoire que sur les bilans, et qu'aucun bilan biologique n’est recommandé de façon systématique avant une contraception en l’absence de facteurs de risque et d’un examen physique anormal. Le risque d'échec de la contraception orale en cas d'oubli est maximal au début de la plaquette."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications des DIU ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expulsion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Perforations utérines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection génitale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grossesse (intra-utérine ou extra-utérine).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications des DIU sont l'expulsion, les perforations utérines, l'infection génitale et le risque de grossesse (intra-utérine ou extra-utérine)."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où la pilule œstroprogestative est déconseillée ou doit être particulièrement surveillée en raison du risque d'HTA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents familiaux d'HTA.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédents personnels d’HTA gravidiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Affection rénale préexistante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Age inférieur à 35 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’apparition d’une HTA sous pilule est plus fréquente lorsqu’il existe des antécédents familiaux d'HTA, des antécédents personnels d’HTA gravidiques ou une affection rénale préexistante. La pilule doit être déconseillée ou particulièrement surveillée chez ces femmes."
+    }
+  ]
+}

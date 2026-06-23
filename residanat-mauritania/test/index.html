@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours — objectifs FMPOS</title>
+    <style>
+        /* --- THEME & VARIABLES --- */
+        :root {
+            --primary-color: #0d47a1; --secondary-color: #1565c0; --accent-color: #ffab40;
+            --text-color: #212121; --text-light-color: #616161; --bg-color: #f4f7f9;
+            --bg-alt-color: #ffffff; --border-color: #e0e0e0; --shadow-color: rgba(0, 0, 0, 0.1);
+            --sidebar-width: 300px;
+        }
+
+        body[data-theme="dark"] {
+            --primary-color: #1e88e5; --secondary-color: #42a5f5; --accent-color: #ffc107;
+            --text-color: #e0e0e0; --text-light-color: #9e9e9e; --bg-color: #121212;
+            --bg-alt-color: #1e1e1e; --border-color: #424242; --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+
+        /* --- GENERAL & TYPOGRAPHY --- */
+        *, *::before, *::after { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7; color: var(--text-color); background-color: var(--bg-color);
+            margin: 0; padding: 0; font-size: 16px; transition: background-color 0.3s, color 0.3s;
+        }
+        .container { display: flex; min-height: 100vh; }
+
+        /* --- SIDEBAR --- */
+        .sidebar {
+            width: var(--sidebar-width); background-color: var(--primary-color); color: #fff;
+            padding: 20px; position: fixed; height: 100%; overflow-y: auto;
+            display: flex; flex-direction: column; transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 2px 0 15px var(--shadow-color); z-index: 1000;
+        }
+        .sidebar h2 {
+            margin: 0 0 10px 0; font-size: 1.5em; text-align: center;
+            border-bottom: 2px solid var(--accent-color); padding-bottom: 10px;
+        }
+        .search-container { position: relative; }
+        #search-bar {
+            width: 100%; padding: 10px 30px 10px 10px; margin-bottom: 20px; border: none;
+            border-radius: 5px; background-color: rgba(255, 255, 255, 0.9); color: #333;
+        }
+        #clear-search {
+            position: absolute; right: 10px; top: 11px; cursor: pointer; color: #777;
+            background: none; border: none; font-size: 1.2em; line-height: 1; padding: 0;
+        }
+        .sidebar #toc { list-style: none; padding: 0; margin: 0; flex-grow: 1; }
+        .sidebar #toc li a {
+            color: #fff; text-decoration: none; display: block; padding: 8px 15px;
+            border-radius: 5px; transition: background-color 0.3s, padding-left 0.3s;
+            font-size: 0.9em; cursor: pointer; border-left: 3px solid transparent;
+        }
+        .sidebar #toc li a:hover { background-color: var(--secondary-color); border-left-color: var(--accent-color); }
+        .sidebar #toc li a.active {
+            background-color: var(--secondary-color); font-weight: bold;
+            padding-left: 20px; border-left-color: var(--accent-color);
+        }
+        .sidebar-footer { padding-top: 15px; border-top: 1px solid var(--secondary-color); margin-top: auto; }
+        .footer-section { margin-bottom: 15px; }
+        .footer-section h4 {
+            font-size: 0.9em; margin: 0 0 10px; text-align: center; color: #ddd; text-transform: uppercase; letter-spacing: 1px;
+        }
+        .btn {
+            display: block; width: 100%; padding: 12px; margin-bottom: 10px; background-color: var(--accent-color);
+            color: var(--primary-color); border: none; border-radius: 5px; cursor: pointer; text-align: center;
+            font-weight: bold; transition: background-color 0.3s, color 0.3s;
+        }
+        .btn:hover { background-color: #ffc107; }
+        .theme-switch-wrapper { display: flex; align-items: center; justify-content: center; margin-bottom: 15px; }
+        .theme-switch { display: inline-block; height: 24px; position: relative; width: 48px; }
+        .theme-switch input { display:none; }
+        .slider { background-color: #ccc; bottom: 0; cursor: pointer; left: 0; position: absolute; right: 0; top: 0; transition: .4s; border-radius: 24px; }
+        .slider:before { content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; position: absolute; transition: .4s; border-radius: 50%; }
+        input:checked + .slider { background-color: var(--secondary-color); }
+        input:checked + .slider:before { transform: translateX(24px); }
+
+        /* --- MAIN CONTENT --- */
+        main {
+            margin-left: var(--sidebar-width); padding: 40px; width: calc(100% - var(--sidebar-width));
+            transition: margin-left 0.3s; overflow-y: auto; height: 100vh;
+        }
+        #course-content-container {
+            background-color: var(--bg-alt-color); border: 1px solid var(--border-color);
+            border-radius: 8px; padding: 30px; min-height: 80vh; transition: all 0.3s;
+            box-shadow: 0 4px 20px var(--shadow-color);
+        }
+        .content-placeholder {
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; color: var(--text-light-color); font-size: 1.2em; min-height: 60vh;
+        }
+        .content-placeholder svg { width: 80px; height: 80px; margin-bottom: 20px; fill: var(--text-light-color); }
+        #course-content-container h1 {
+            font-size: 2.2em; margin-top: 0; margin-bottom: 20px; padding-bottom: 10px;
+            border-bottom: 3px solid var(--accent-color); color: var(--primary-color);
+        }
+        h3 {
+            font-size: 1.5em; color: var(--secondary-color); margin-top: 30px; margin-bottom: 15px;
+            padding-bottom: 5px; border-bottom: 1px solid var(--border-color);
+        }
+        h4 { font-size: 1.2em; color: var(--primary-color); margin-top: 25px; margin-bottom: 10px; }
+        .metadata {
+            background-color: var(--bg-color); padding: 15px; border-radius: 5px;
+            margin-bottom: 25px; display: flex; flex-wrap: wrap; gap: 20px;
+            border-left: 5px solid var(--accent-color);
+        }
+        .objectives-list { list-style-type: none; padding-left: 0; }
+        .objectives-list li::before { content: '🎯 '; margin-right: 8px; }
+        .objectives-list li { padding-left: 10px; margin-bottom: 8px; }
+        .summary-box {
+            background-color: #e3f2fd; border: 1px solid var(--secondary-color);
+            border-left: 5px solid var(--secondary-color); padding: 20px; margin: 25px 0; border-radius: 5px;
+        }
+        body[data-theme="dark"] .summary-box { background-color: #263238; border-color: var(--secondary-color); }
+
+        /* --- UTILITY & COMPONENTS --- */
+        #loader {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--bg-color); z-index: 9999; display: flex;
+            justify-content: center; align-items: center; transition: opacity 0.5s;
+        }
+        .spinner { border: 5px solid #f3f3f3; border-top: 5px solid var(--primary-color); border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        #back-to-top {
+            position: fixed; bottom: 20px; right: 20px; background-color: var(--accent-color);
+            color: var(--primary-color); width: 40px; height: 40px; text-align: center;
+            border-radius: 50%; line-height: 40px; font-size: 24px; text-decoration: none;
+            box-shadow: 0 2px 10px var(--shadow-color); opacity: 0; visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        #back-to-top.visible { opacity: 1; visibility: visible; }
+
+        .mobile-header { display: none; }
+        #mobile-overlay { display: none; }
+
+        /* --- RESPONSIVE DESIGN --- */
+        @media (max-width: 992px) {
+            .sidebar {
+                transform: translateX(-100%);
+            }
+            .sidebar.open { transform: translateX(0); }
+            main { margin-left: 0; width: 100%; padding: 20px; }
+            .mobile-header {
+                display: flex; align-items: center; padding: 10px 15px;
+                background-color: var(--primary-color); color: white;
+                box-shadow: 0 2px 5px var(--shadow-color); position: sticky; top: 0; z-index: 900;
+            }
+            #menu-toggle {
+                background: none; border: none; color: white; font-size: 24px;
+                cursor: pointer; margin-right: 15px;
+            }
+            .mobile-title { font-size: 1.2em; font-weight: bold; }
+            #mobile-overlay {
+                position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(0,0,0,0.5); z-index: 999;
+                opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s;
+            }
+            #mobile-overlay.visible { opacity: 1; visibility: visible; }
+        }
+
+        /* --- PRINT STYLES --- */
+        @media print {
+            body { font-size: 11pt; color: #000; background: #fff; }
+            .sidebar, .mobile-header, #back-to-top, .print-options, .theme-switch-wrapper, .footer-section h4 { display: none; }
+            main { margin: 0; padding: 1cm; width: 100%; }
+            #course-content-container { border: none; box-shadow: none; padding: 0; }
+            h1, h3 { color: #000 !important; border-color: #000 !important; page-break-before: always; }
+            #course-content-container > h1:first-of-type { page-break-before: auto; }
+            .metadata, .summary-box { background: #f0f0f0; border: 1px solid #ccc; }
+            a { text-decoration: none; color: #000; }
+        }
+    </style>
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="mobile-header">
+        <button id="menu-toggle" aria-label="Ouvrir le menu">&#9776;</button>
+        <span class="mobile-title">Menu</span>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Sciences Fondamentales</h2>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Rechercher un cours...">
+                <button id="clear-search" aria-label="Effacer la recherche">&times;</button>
+            </div>
+            <ul id="toc"></ul>
+            <div class="sidebar-footer">
+                <div class="footer-section">
+                    <h4>Affichage</h4>
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="theme-checkbox">
+                            <input type="checkbox" id="theme-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="footer-section print-options">
+                    <h4>Options d'Exportation</h4>
+                    <button id="print-current-btn" class="btn">Imprimer le Sujet Actuel</button>
+                    <button id="print-all-btn" class="btn">Exporter Tous les Sujets</button>
+                </div>
+            </div>
+        </nav>
+        <div id="mobile-overlay"></div>
+        <main>
+            <div id="course-content-container">
+                <div class="content-placeholder">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                    <h1>Bienvenue aux Cours de Résidanat</h1>
+                    <p>Veuillez sélectionner un cours dans le menu pour commencer.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <a href="#" id="back-to-top" aria-label="Retour en haut de page">&uarr;</a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- GLOBAL STATE & DOM ELEMENTS ---
+            const courseDataMap = new Map();
+            const tocElement = document.getElementById('toc');
+            const contentContainer = document.getElementById('course-content-container');
+            const searchBar = document.getElementById('search-bar');
+            const clearSearchBtn = document.getElementById('clear-search');
+            const printCurrentBtn = document.getElementById('print-current-btn');
+            const printAllBtn = document.getElementById('print-all-btn');
+            const loader = document.getElementById('loader');
+            const backToTopBtn = document.getElementById('back-to-top');
+            const mobileHeaderTitle = document.querySelector('.mobile-title');
+            const sidebar = document.querySelector('.sidebar');
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileOverlay = document.getElementById('mobile-overlay');
+            const themeSwitch = document.getElementById('theme-checkbox');
+
+            /**
+             * Generates the HTML content for a single course.
+             */
+            const generateCourseHtml = (data) => {
+                let html = `<h1>${data.title}</h1>`;
+                
+                if (data.metadata) {
+                    html += `<div class="metadata">
+                        <span><strong>Durée :</strong> ${data.metadata.duration || 'N/A'}</span>
+                        <span><strong>Niveau :</strong> ${data.metadata.level || 'N/A'}</span>
+                        <span><strong>Mots-clés :</strong> ${data.metadata.keywords ? data.metadata.keywords.join(', ') : 'N/A'}</span>
+                    </div>`;
+                }
+                
+                if (data.objectives && data.objectives.length > 0) {
+                    html += `<h3>Objectifs Pédagogiques</h3>
+                    <ul class="objectives-list">${data.objectives.map(obj => `<li>${obj}</li>`).join('')}</ul>`;
+                }
+                
+                if (data.type === 'fondamental') {
+                    if (data.introduction) {
+                        html += `<h3>Introduction et Contexte Scientifique</h3>${data.introduction}`;
+                    }
+                    if (data.sections && data.sections.length > 0) {
+                        html += data.sections.map(section => `<h3>${section.title}</h3>${section.content}`).join('');
+                    }
+                    if (data.summaryPoints && data.summaryPoints.length > 0) {
+                        html += `<div class="summary-box">
+                            <h3>À Retenir</h3>
+                            <ul>${data.summaryPoints.map(point => `<li>${point}</li>`).join('')}</ul>
+                        </div>`;
+                    }
+                }
+                
+                if (data.bibliography && data.bibliography.length > 0) {
+                    html += `<h3>Bibliographie Courte</h3>
+                    <ol>${data.bibliography.map(ref => `<li>${ref}</li>`).join('')}</ol>`;
+                }
+                
+                return html;
+            };
+
+            /**
+             * Renders a specific course into the main content area.
+             */
+            const displayCourse = (courseId) => {
+                const courseData = courseDataMap.get(courseId);
+                if (!courseData) return;
+
+                contentContainer.innerHTML = generateCourseHtml(courseData);
+                document.querySelectorAll('#toc a.active').forEach(el => el.classList.remove('active'));
+                const activeLink = document.querySelector(`#toc a[data-course-id="${courseId}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                    mobileHeaderTitle.textContent = courseData.title;
+                }
+                window.location.hash = `#course-${courseId}`;
+                const mainElement = document.querySelector('main');
+                if (mainElement) mainElement.scrollTop = 0;
+            };
+            
+            /**
+             * Toggles the mobile sidebar visibility.
+             */
+            const toggleSidebar = (forceClose = false) => {
+                const isOpen = sidebar.classList.contains('open');
+                if (forceClose || isOpen) {
+                    sidebar.classList.remove('open');
+                    mobileOverlay.classList.remove('visible');
+                } else {
+                    sidebar.classList.add('open');
+                    mobileOverlay.classList.add('visible');
+                }
+            };
+            
+            /**
+             * Main initialization function to discover and load courses.
+             */
+            const initializeApp = async () => {
+                let courseId = 1;
+                let coursesFound = false;
+                
+                while (courseId <= 100) {
+                    try {
+                        const response = await fetch(`./${courseId}.json`);
+                        if (!response.ok) {
+                            // no more course files found (404 etc.)
+                            break;
+                        }
+
+                        // read as text first so we can catch malformed JSON and report it
+                        const text = await response.text();
+                        if (!text || text.trim().length === 0) {
+                            console.warn(`Empty JSON file for course ${courseId}, stopping.`);
+                            break;
+                        }
+
+                        let data;
+                        try {
+                            data = JSON.parse(text);
+                        } catch (parseErr) {
+                            console.error(`Invalid JSON in file ./${courseId}.json:`, parseErr);
+                            // stop loading further to avoid cascading failures
+                            break;
+                        }
+
+                        // store parsed course
+                        if (data && data.id != null) {
+                            courseDataMap.set(data.id, data);
+                            coursesFound = true;
+                        } else {
+                            console.warn(`Course ${courseId} JSON missing id, stopping.`);
+                            break;
+                        }
+
+                        courseId++;
+                    } catch (error) {
+                        console.error(`Error fetching course ${courseId}:`, error);
+                        break;
+                    }
+                }
+
+                tocElement.innerHTML = '';
+                if (coursesFound) {
+                    const sortedCourses = Array.from(courseDataMap.values()).sort((a, b) => a.id - b.id);
+                    sortedCourses.forEach(data => {
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.textContent = `${data.id}. ${data.title}`;
+                        a.dataset.courseId = data.id;
+                        a.href = `#course-${data.id}`;
+                        li.appendChild(a);
+                        tocElement.appendChild(li);
+                    });
+                    
+                    const hash = window.location.hash;
+                    if (hash.startsWith('#course-')) {
+                        const idFromHash = parseInt(hash.replace('#course-', ''), 10);
+                        if (courseDataMap.has(idFromHash)) {
+                            displayCourse(idFromHash);
+                        }
+                    }
+                } else {
+                    contentContainer.innerHTML = `<div class="content-placeholder">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                        <h1>Erreur de Chargement</h1>
+                        <p>Aucun cours (.json) n'a été trouvé. Assurez-vous que les fichiers 1.json, 2.json, etc. sont dans le même dossier que ce fichier HTML.</p>
+                    </div>`;
+                }
+                
+                loader.style.opacity = '0';
+                setTimeout(() => { loader.style.display = 'none'; }, 500);
+            };
+            
+            /**
+             * Generates a full HTML document with all courses for printing.
+             */
+            const printAllAsBook = () => {
+                if (courseDataMap.size === 0) {
+                    alert("Aucun cours n'a été chargé. Impossible d'imprimer.");
+                    return;
+                }
+                const printWindow = window.open('', '_blank');
+                if (!printWindow) {
+                    alert("Le navigateur a bloqué l'ouverture de la fenêtre d'impression. Veuillez autoriser les pop-ups.");
+                    return;
+                }
+                
+                const sortedCourses = Array.from(courseDataMap.values()).sort((a, b) => a.id - b.id);
+                
+                const bookHtml = `<!doctype html><html lang="fr"><head><meta charset="UTF-8"><title>Livre des Cours - Sciences Fondamentales</title>
+                    <style>
+                        body { font-family: 'Times New Roman', Times, serif; line-height: 1.6; color: #333; }
+                        @page { size: A4; margin: 2cm; }
+                        article, .cover-page, .toc-page { page-break-before: always; }
+                        h1, h2, h3, h4 { color: #000; font-family: 'Helvetica', sans-serif; page-break-after: avoid; }
+                        h1 { font-size: 2.5em; } h2 { font-size: 2em; } h3 { font-size: 1.5em; border-bottom: 1px solid #000; }
+                        .cover-page { text-align: center; min-height: 90vh; display: flex; flex-direction: column; justify-content: center; align-items: center; page-break-before: auto; }
+                        .toc-page h2 { text-align: center; } .toc-page ol { list-style-type: none; padding-left: 0; }
+                        .toc-page ol li a { text-decoration: none; color: #000; display: block; padding: 5px 0; border-bottom: 1px dotted #ccc; }
+                        .metadata, .summary-box { background: #f4f4f4; border: 1px solid #ddd; padding: 15px; margin: 20px 0; border-left: 4px solid #aaa; }
+                        .objectives-list { list-style-type: none; padding-left: 0; }
+                        .objectives-list li::before { content: '🎯 '; }
+                        ul, ol { padding-left: 20px; }
+                    </style></head><body>
+                    <div class="cover-page">
+                        <h1>Cours de Résidanat en Médecine</h1><h2>Partie 1 : Sciences Fondamentales</h2>
+                        <p style="margin-top: 5em;"><strong>Auteur :</strong> Oubeida</p><p><strong>Faculté :</strong> FMP-UEH</p>
+                        <p>Document généré le : ${new Date().toLocaleDateString('fr-FR')}</p>
+                    </div>
+                    <div class="toc-page">
+                        <h2>Table des Matières</h2>
+                        <ol>${sortedCourses.map(course => `<li><a href="#course-${course.id}">${course.id}. ${course.title}</a></li>`).join('')}</ol>
+                    </div>
+                    ${sortedCourses.map(course => `<article id="course-${course.id}">${generateCourseHtml(course)}</article>`).join('')}
+                </body></html>`;
+                
+                printWindow.document.write(bookHtml);
+                printWindow.document.close();
+                printWindow.onload = () => {
+                    printWindow.focus();
+                    setTimeout(() => {
+                        printWindow.print();
+                    }, 250);
+                };
+            };
+
+            // --- EVENT LISTENERS ---
+            tocElement.addEventListener('click', (e) => {
+                const link = e.target.closest('a');
+                if (link && link.dataset.courseId) {
+                    e.preventDefault();
+                    const courseId = parseInt(link.dataset.courseId, 10);
+                    displayCourse(courseId);
+                    toggleSidebar(true);
+                }
+            });
+
+            searchBar.addEventListener('input', (e) => {
+                const term = e.target.value.toLowerCase();
+                document.querySelectorAll('#toc li').forEach(li => {
+                    li.style.display = li.textContent.toLowerCase().includes(term) ? '' : 'none';
+                });
+            });
+
+            clearSearchBtn.addEventListener('click', () => {
+                searchBar.value = '';
+                searchBar.dispatchEvent(new Event('input'));
+                searchBar.focus();
+            });
+
+            printCurrentBtn.addEventListener('click', () => window.print());
+            printAllBtn.addEventListener('click', printAllAsBook);
+            
+            const mainElement = document.querySelector('main');
+            if (mainElement) {
+                mainElement.addEventListener('scroll', () => {
+                    if (mainElement.scrollTop > 300) {
+                        backToTopBtn.classList.add('visible');
+                    } else {
+                        backToTopBtn.classList.remove('visible');
+                    }
+                });
+            }
+
+            backToTopBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (mainElement) {
+                    mainElement.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            });
+            
+            if (menuToggle) menuToggle.addEventListener('click', () => toggleSidebar());
+            if (mobileOverlay) mobileOverlay.addEventListener('click', () => toggleSidebar(true));
+            
+            const applyTheme = (theme) => {
+                document.body.dataset.theme = theme;
+                try {
+                    localStorage.setItem('theme', theme);
+                } catch (e) {
+                    console.warn('localStorage not available');
+                }
+                themeSwitch.checked = (theme === 'dark');
+            };
+
+            themeSwitch.addEventListener('change', () => {
+                applyTheme(themeSwitch.checked ? 'dark' : 'light');
+            });
+
+            let savedTheme = 'light';
+            try {
+                savedTheme = localStorage.getItem('theme') || 'light';
+            } catch (e) {
+                console.warn('localStorage not available');
+            }
+            applyTheme(savedTheme);
+
+            // --- INITIALIZATION ---
+            (async () => {
+                try {
+                    await initializeApp();
+                } catch (initErr) {
+                    console.error('Initialization failed:', initErr);
+                    // ensure loader is hidden so the UI is usable even on error
+                    try { loader.style.display = 'none'; } catch (e) {}
+                }
+            })();
+        });
+    </script>
+</body>
+</html>

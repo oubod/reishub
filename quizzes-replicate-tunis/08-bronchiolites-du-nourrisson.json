@@ -1,0 +1,1409 @@
+{
+  "lectureId": "08",
+  "number": "08",
+  "title": "Bronchiolites du nourrisson",
+  "partie": "J2",
+  "specialty": "Pédiatrie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de la bronchiolite du nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une infection bactérienne des voies respiratoires supérieures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une infection virale des voies respiratoires inférieures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un premier épisode de dyspnée sifflante chez un nourrisson de moins de 1 an.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une pathologie exclusivement diagnostiquée par des examens complémentaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "La bronchiolite est une infection virale des voies respiratoires inférieures du nourrisson. Le diagnostic est retenu devant un premier épisode de dyspnée sifflante chez un nourrisson de moins de 1 an. Le diagnostic est exclusivement clinique."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux agents viraux responsables de la bronchiolite du nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Virus Respiratoire Syncytial (VRS).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Rhinovirus.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Rotavirus.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le Cytomégalovirus (CMV).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VRS est l'agent infectieux principal (70-80%). D'autres virus peuvent être identifiés, notamment le rhinovirus (environ 20%)."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments clés de l'anamnèse pour le diagnostic d'une bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La notion de contage viral dans l’entourage proche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un âge supérieur à 12 mois.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La notion de premier épisode de ce type.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des antécédents d'asthme familial uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les éléments d’anamnèse utiles pour l’orientation diagnostique d’une bronchiolite sont la recherche de la notion de contage viral dans l’entourage proche du nourrisson, un âge inférieur à 12 mois et la notion de premier épisode de ce type."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelle est la période épidémique habituelle de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estivale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Printanière.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hivernale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Automnale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pic épidémique de la bronchiolite est hivernal."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quel est le principal moyen thérapeutique symptomatique recommandé pour la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'administration systématique de corticoïdes par voie systémique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La désobstruction rhinopharyngée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'antibiothérapie systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les nébulisations de bêta2-mimétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'attitude thérapeutique repose avant tout sur des mesures symptomatiques, dont la désobstruction rhinopharyngée est essentielle. Il n’est pas recommandé d’administrer des corticoïdes par voie systémique, une antibiothérapie systématique ou des nébulisations de bêta2-mimétiques."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de la phase prodromique d'une bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rhinorrhée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Toux sèche.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fièvre modérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Détresse respiratoire intense.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase prodromique (1-3 jours) comporte une rhinorrhée, une toux sèche et une fièvre modérée. La détresse respiratoire intense est un signe de la phase d'état."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de la saturation en oxygène (SpO2) à atteindre avec l'oxygénothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieure à 90%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 90% et 92%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Supérieure à 94%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exactement 92%.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’oxygénothérapie est indiquée si la SpO2≤92% avec l’objectif d’obtenir une SpO2 > à 94%."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs de risque de formes graves de bronchiolite liés au terrain de l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge supérieur à 6 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Prématurité < 36 semaines d’aménorrhée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit immunitaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'antécédents de ventilation néonatale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les formes graves concernent surtout le jeune nourrisson de moins de 3 mois ou les nourrissons avec un terrain particulier comme la prématurité < 36 semaines d’aménorrhée, les antécédents de ventilation néonatale, la dysplasie broncho-pulmonaire, la cardiopathie congénitale ou le déficit immunitaire."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les signes radiographiques possibles d'une distension thoracique en cas de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperclarté des deux champs pulmonaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Élargissement des espaces intercostaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Élévation des coupoles diaphragmatiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un cœur de grand volume.",
+          "correct": false
+        }
+      ],
+      "explanation": "La distension thoracique se manifeste par une hyperclarté des deux champs pulmonaires, un élargissement des espaces intercostaux, une horizontalisation des côtes, un abaissement des coupoles diaphragmatiques et souvent un cœur de petit volume."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est l'âge maximal pour retenir le diagnostic de bronchiolite selon la définition ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1 an.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "2 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "3 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de bronchiolite est retenu devant un premier épisode de dyspnée sifflante chez un nourrisson de moins de 1 an."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs de la prévention de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réduire l'incidence de la bronchiolite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Éviter la dissémination de cette affection.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmenter la durée d'hospitalisation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Favoriser les co-infections virales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs de la prévention de la bronchiolite sont de réduire l'incidence de la bronchiolite et d'éviter la dissémination de cette affection (caractère épidémique)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le rôle de la recherche virale dans les sécrétions rhinopharyngées en cas de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématiquement indiquée pour le diagnostic positif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est faite uniquement à visée épidémiologique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle permet de confirmer la gravité de la maladie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est utilisée pour orienter l'antibiothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche virale dans les sécrétions rhinopharyngées n'est faite qu’à visée épidémiologique. Le diagnostic de bronchiolite est exclusivement clinique."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures d'hygiène recommandées pour la prévention non pharmacologique de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La désinfection des mains par les antiseptiques hydro-alcooliques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le port d'un masque par les parents malades en période d'épidémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'éviction des collectivités des nourrissons malades.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le partage des objets personnels entre nourrissons.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention non pharmacologique inclut la désinfection des mains, le port d’un masque par les parents malades et le personnel soignant en période d’épidémie, et l’éviction des collectivités des nourrissons malades."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de la phase d'état d'une bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polypnée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes de lutte respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Température élevée (>39°C).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence de retentissement alimentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase d’état comporte une détresse respiratoire plus ou moins importante avec une polypnée, des signes de lutte dans un contexte subfébrile. Un retentissement alimentaire peut se voir avec des prises diminuées, parfois associées à des vomissements faciles."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est le positionnement recommandé pour le couchage du nourrisson atteint de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Couchage sur le ventre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Couchage en proclive dorsal à 30°.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Couchage à plat dorsal.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Couchage latéral strict.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le couchage en proclive dorsal à 30° est une des mesures thérapeutiques symptomatiques."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations la radiographie du thorax est-elle indiquée pour une bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de signes de sévérité clinique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour confirmer systématiquement le diagnostic de bronchiolite.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de suspicion de complications (surinfection ou troubles de la ventilation).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si les symptômes persistent après 5 à 7 jours d'évolution d'une bronchiolite initialement « banale ».",
+          "correct": true
+        }
+      ],
+      "explanation": "La radiographie du thorax est indiquée en cas de signes de sévérité clinique, de suspicion d'un diagnostic différentiel, de suspicion de complications (surinfection ou troubles de la ventilation) ou de persistance des symptômes après 5 à 7 jours d'évolution d'une bronchiolite initialement « banale »."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'hospitalisation liés au terrain de l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge < 6 semaines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prématurité < 34 SA, âge corrigé < 3 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence de cardiopathie sous-jacente.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immunosuppression.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères d'hospitalisation liés au terrain incluent un âge < 6 semaines, une prématurité < 34 SA avec un âge corrigé < 3 mois, une cardiopathie sous-jacente (en particulier shunt gauche-droite avec HTP), une pathologie pulmonaire chronique sévère ou une immunosuppression."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens complémentaires indiqués chez les nourrissons âgés de moins de 3 mois fébriles et en cas de fièvre mal tolérée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS (Numération Formule Sanguine).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "CRP (Protéine C Réactive).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémoculture.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Gaz du sang systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La NFS, la CRP et l'hémoculture sont indiquées chez les nourrissons âgés de moins de 3 mois fébriles et en cas de fièvre mal tolérée. Le gaz du sang est indiqué dans les formes sévères."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'hypoxémie ou d'hypercapnie qui constituent des critères d'hospitalisation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cyanose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sueurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles de la conscience.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la prise alimentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques d’hypoxémie (cyanose) ou d’hypercapnie (sueurs, troubles de la conscience) sont des critères d'hospitalisation."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications aiguës possibles de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les apnées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'insuffisance respiratoire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La bronchiolite oblitérante.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le pneumomédiastin.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications aiguës incluent les apnées, l’insuffisance respiratoire aiguë, les surinfections bactériennes, l’atélectasie, la déshydratation, le pneumomédiastin, le pneumothorax et la sécrétion inappropriée de l’hormone antidiurétique (SIADH). La bronchiolite oblitérante est une complication à long terme."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les normes de fréquence respiratoire (FR) chez un nourrisson de 3 mois ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "40-50 cycles/min.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "20-40 cycles/min.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "20-30 cycles/min.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 60 cycles/min.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon le Tableau I, pour un âge de 1-6 mois, la FR normale est de 20-40 cycles/min. Un nourrisson de 3 mois se situe dans cette tranche d'âge."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations où une antibiothérapie est justifiée en cas de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre ≥ 38,5°C persistante, d'apparition secondaire et associée à un foyer radiologique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Otite moyenne aiguë purulente associée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bronchiolite à VRS non compliquée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Toux sèche persistante.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une antibiothérapie n'est recommandée qu'en cas de surinfection bactérienne documentée ou fortement suspectée, comme une fièvre ≥ 38,5°C persistante, d'apparition secondaire et associée à un foyer radiologique, ou une otite moyenne aiguë purulente associée."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'une forme grave de bronchiolite selon le Tableau II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence respiratoire ≥ 70 cycles/min.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Saturation O2 en Air Ambiant ≤ 90%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alimentation > 50% des apports habituels.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence d'apnée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une forme grave est caractérisée par la présence d’au moins un des critères graves, incluant un état général ou comportement altéré, une FR ≥ 70 cycles/min ou respiration superficielle, une apnée, des signes de lutte intenses, une FC > 180 ou < 80 batt/min, une réduction importante ou refus alimentaire, une déshydratation, ou une SatO2 en Air Ambiant ≤ 90% ou cyanose."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures générales de prise en charge en ambulatoire pour les formes légères et modérées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Désobstructions rhinopharyngées avant chaque tétée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fractionnement des tétées et éventuellement épaississement du lait artificiel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antipyrétique si température ≥ 38,5 °C ou fièvre mal tolérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration systématique de mucolytiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures symptomatiques en ambulatoire incluent les désobstructions rhinopharyngées avant chaque tétée, le fractionnement des tétées et l'épaississement du lait artificiel, un antipyrétique si température ≥ 38,5 °C ou fièvre mal tolérée, une aération correcte de la pièce et le maintien de la température ambiante entre 19 et 20 °C, et proscrire le tabagisme passif. Les mucolytiques ne sont pas recommandés."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les diagnostics différentiels à considérer devant une dyspnée aiguë du nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La coqueluche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les cardiopathies congénitales avec shunt gauche-droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le reflux gastro-œsophagien simple.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le corps étranger intra bronchique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les diagnostics différentiels incluent la coqueluche, les cardiopathies congénitales avec shunt gauche-droit (CIV, CAV, PCA), les myocardites infectieuses, les troubles du rythme cardiaque et le corps étranger intra bronchique."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'aggravation à communiquer aux parents pour une prise en charge ambulatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refus d’alimentation ou difficultés de prendre les tétées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Changement de comportement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Amélioration des signes de lutte respiratoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cyanose et pauses respiratoires.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes d’aggravation à surveiller incluent le refus d’alimentation ou les difficultés de prendre les tétées, les troubles digestifs, le changement de comportement, la cyanose et les pauses respiratoires, la détérioration de l’état respiratoire (aggravation des signes de lutte) et une température >38,5°C persistante."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les bactéries les plus fréquemment en cause dans les surinfections pulmonaires de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Haemophilus influenzae.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Streptococcus pneumoniae.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Staphylococcus aureus.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Moraxella catarrhalis.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les bactéries de surinfection les plus fréquemment en cause sont Haemophilus influenzae, Streptococcus pneumoniae et plus rarement Moraxella catarrhalis."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la kinésithérapie respiratoire dans la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son application systématique pour tous les cas.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'encombrement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'atélectasie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En présence d'une pathologie sous-jacente (neuro-musculaire, mucoviscidose).",
+          "correct": true
+        }
+      ],
+      "explanation": "L'application systématique de la kinésithérapie respiratoire est sans effet. Elle sera proposée seulement si encombrement ou atélectasie ou pathologie sous-jacente (neuro-musculaire, mucoviscidose, dyskinésie ciliaire…)."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'hospitalisation liés à la sévérité clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence respiratoire > 60/min chez le nourrisson et >70/min chez le nouveau-né.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Saturation transcutanée en oxygène ≤ 92 % à l’air ambiant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Difficultés de prendre la tétée ou le biberon.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tirage intercostal léger.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères d'hospitalisation liés à la sévérité clinique incluent l'altération de l'état général, une fréquence respiratoire > 60/min chez le nourrisson et >70/min chez le nouveau-né, les apnées, l'irrégularité respiratoire, les signes cliniques d’hypoxémie (cyanose) ou d’hypercapnie (sueurs, troubles de la conscience), une saturation transcutanée en oxygène ≤ 92 % à l’air ambiant, des signes de lutte marqués et des troubles digestifs (difficultés de prendre la tétée ou le biberon, ne termine pas la moitié de son biberon, vomissements après chaque tétée, fausses routes) ou une déshydratation."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention pharmacologique ciblant l'infection à VRS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Nirsevimab, un anticorps monoclonal à demi-vie prolongée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le vaccin VRSpreF (Abrysvo) administré à la femme enceinte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Palivizumab (Synagis®) pour les nourrissons prématurés ≤ 35 SA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie préventive systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les stratégies de prévention pharmacologique ciblent l’infection à VRS et reposent sur l’immunisation passive (Nirsevimab, Palivizumab) et la vaccination de la femme enceinte (VRSpreF)."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'atteinte bronchiolaire et alvéolaire à l'auscultation pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les râles sibilants (wheezing) témoignent de l’atteinte bronchiolaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les râles crépitants (secs, inspiratoires) évoquent une atteinte alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les râles sous-crépitants évoquent une atteinte alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une auscultation pulmonaire normale est typique de la phase d'état.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les râles sibilants (wheezing) témoignent de l’atteinte bronchiolaire, tandis que les râles crépitants (secs, inspiratoires) et/ou sous-crépitants évoquent une atteinte alvéolaire éventuellement associée."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'ionogramme sanguin en cas de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En présence de signes évoquant une sécrétion inappropriée de l’hormone antidiurétique (SIADH).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de déshydratation aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Systématiquement pour tous les nourrissons hospitalisés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas de fièvre isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ionogramme sanguin est indiqué en présence de signes évoquant une sécrétion inappropriée de l’hormone antidiurétique (SIADH) (changement de l’état de conscience..) et en cas de déshydratation aiguë."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la coqueluche, un diagnostic différentiel de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toux quinteuse avec cyanose ou faciès érythrosique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Auscultation pulmonaire normale entre les accès de toux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémogramme révélant une hyperlymphocytose et/ou hyperplaquettose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PCR sur sécrétions naso-pharyngées négative.",
+          "correct": false
+        }
+      ],
+      "explanation": "La coqueluche peut être évoquée devant un contexte épidémique, une toux quinteuse avec cyanose ou faciès érythrosique. L’auscultation pulmonaire est normale entre les accès de toux. L’hémogramme peut révéler une hyperlymphocytose et/ou hyperplaquettose. La PCR sur sécrétions naso-pharyngées confirme le diagnostic."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures spécifiques en milieu hospitalier pour la prévention de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise en place d'un « plan bronchiolite » dans les services de pédiatrie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Port du masque pour le personnel soignant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de matériels à usage unique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de lavage des mains pour le personnel soignant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures spécifiques en milieu hospitalier incluent la mise en place d'un « plan bronchiolite », le port du masque pour le personnel soignant, le lavage des mains, la surblouse lors des soins proches et l'utilisation de matériels à usage unique."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance attentive de l'enfant hospitalisé pour bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Température, Fréquence respiratoire, SPO2, Fréquence cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes de lutte respiratoire, pauses respiratoires, auscultation pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Poids, état d’hydratation, évaluation de la prise alimentaire, signes digestifs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche virale quotidienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance attentive de l'enfant hospitalisé comprend la température, la fréquence respiratoire, la SPO2, la fréquence cardiaque, l'état de conscience, les signes de lutte respiratoire, les pauses respiratoires, l'auscultation pulmonaire, le poids, l'état d’hydratation, l'évaluation de la prise alimentaire et les signes digestifs."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'une forme modérée de bronchiolite selon le Tableau II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence respiratoire entre 60 et 69 cycles/min.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Saturation O2 en Air Ambiant entre 90% et 92%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alimentation inférieure à 50% des apports habituels.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'apnée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une forme modérée est caractérisée par la présence d’au moins un des critères (non retrouvés dans les formes graves), incluant une FR entre 60-69 cycles/min, des signes de lutte modérés, une alimentation <50% des apports habituels, ou une SatO2 en Air Ambiant entre 90% et 92%. L'apnée est un critère de forme grave."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications à long terme de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'asthme viro-induit, particulièrement après infection à rhinovirus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La bronchiolite oblitérante, principalement après infection à adénovirus.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pneumothorax récurrent.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La déshydratation chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications à long terme sont l'asthme viro-induit (grande part de la responsabilité des bronchiolites, particulièrement à rhinovirus) et la bronchiolite oblitérante (obstruction chronique des petites voies aériennes, principalement après infections à adénovirus, métapneumovirus et virus de l’influenza)."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications du Nirsevimab pour la prévention de la bronchiolite à VRS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nouveau-nés nés entre début octobre et fin mars, avec administration d’une dose dans la première semaine après la naissance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nourrissons âgés de ≤ 6 mois au début de la saison de circulation du VRS, avec administration d’une dose en octobre ou le plus tôt possible par la suite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Enfants présentant des facteurs de risque de complications (cardiopathies, maladies pulmonaires chroniques) pour une deuxième dose pendant le 2ème hiver.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration mensuelle par voie intramusculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Nirsevimab est indiqué chez les nouveau-nés nés entre début octobre et fin mars (une dose dans la première semaine après la naissance) et les nourrissons âgés de ≤ 6 mois au début de la saison de circulation du VRS (une dose en octobre ou le plus tôt possible). Une deuxième dose est recommandée pendant le 2ème hiver aux enfants présentant des facteurs de risque de complications. Il est administré en une seule dose par voie intramusculaire."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments sémiologiques radiographiques orientant vers un diagnostic différentiel de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une cardiomégalie orientant vers une myocardite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cardiomégalie orientant vers une cardiopathie congénitale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperclarté des deux champs pulmonaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un abaissement des coupoles diaphragmatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Des éléments sémiologiques orientant vers un diagnostic différentiel peuvent être observés, par exemple une cardiomégalie orientant vers une myocardite aiguë ou une cardiopathie congénitale. L'hyperclarté et l'abaissement des coupoles sont des signes de distension thoracique typiques de la bronchiolite."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'oxygénothérapie avec des lunettes à haut débit (OHD) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "De première intention dans les services de pédiatrie générale en cas de bronchiolite modérée à sévère.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de bronchiolite modérée à sévère non améliorée ou aggravée sous oxygénothérapie standard.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour toutes les formes légères de bronchiolite.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas d'insuffisance respiratoire aiguë nécessitant une ventilation assistée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’oxygénothérapie avec des lunettes à haut débit est proposée de première intention dans les services de pédiatrie générale en cas de bronchiolite modérée à sévère non améliorée ou aggravée sous oxygénothérapie standard. Si le nourrisson a une insuffisance respiratoire aiguë (IRA) un recours aux techniques d’assistance respiratoire (OHD, VNI ou VA) est indiqué."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les principaux agents responsables de la bronchiolite oblitérante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'adénovirus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le métapneumovirus.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le virus de l’influenza.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Virus Respiratoire Syncytial (VRS).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les principaux agents responsables de la bronchiolite oblitérante sont l’adénovirus, le métapneumovirus et le virus de l’influenza. Le VRS est la cause la plus fréquente de bronchiolite aiguë, mais pas spécifiquement de bronchiolite oblitérante."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du Palivizumab (Synagis®) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un anticorps monoclonal anti protéine F de fusion du VRS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est administré par voie intra musculaire de façon mensuelle durant la période hivernale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est indiqué chez les nourrissons prématurés ≤ 35 SA, d’âge < 6 mois.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est largement disponible en Tunisie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Palivizumab est un anticorps monoclonal anti protéine F de fusion du VRS. Il s’administre par voie intra musculaire de façon mensuelle durant la période hivernale (Octobre-Février). Il est indiqué pour prévenir les infections graves à VRS chez les nourrissons prématurés ≤ 35 SA, d’âge < 6 mois, et les enfants ≤ 2 ans ayant une dysplasie broncho-pulmonaire ou une cardiopathie congénitale avec retentissement hémodynamique. Il est mentionné qu'il n'est pas disponible en Tunisie."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères d'hospitalisation liés aux conditions socio-économiques ou d’environnement défavorable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Capacité de la famille réduite en termes de surveillance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Capacité de la famille réduite en termes de compréhension des soins.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Capacité de la famille réduite en termes d’accès aux soins.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement la présence d'un tabagisme passif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères d'hospitalisation incluent une capacité de la famille réduite en termes de surveillance, de compréhension et d’accès aux soins. Le tabagisme passif est un facteur de risque mais pas un critère d'hospitalisation en soi."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications du vaccin VRSpreF (Abrysvo) chez la femme enceinte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administré en une seule dose entre la 32ème et la 36ème semaine de gestation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Permet l’immunisation passive du nouveau-né pendant les premiers mois de vie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est administré après la naissance du bébé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il protège contre toutes les infections virales respiratoires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin VRSpreF (Abrysvo) de la femme enceinte est administré en une seule dose entre la 32ème et la 36ème semaine de gestation. Il permet l’immunisation passive du nouveau-né pendant les premiers mois de vie."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes qui doivent faire suspecter une sécrétion inappropriée de l’hormone antidiurétique (SIADH) en cas de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changement de l’état de conscience.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyponatrémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sécrétion inappropriée de l’hormone antidiurétique (SIADH) est suspectée en cas de changement de l’état de conscience, d’œdème et d’une hyponatrémie."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du corps étranger intra bronchique comme diagnostic différentiel de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Peut être évoqué à partir de l’âge de la préhension.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Apparition brutale de la symptomatologie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toujours associé à une fièvre élevée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'auscultation pulmonaire est toujours normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le corps étranger intra bronchique peut être évoqué à partir de l’âge de la préhension et devant l’apparition brutale de la symptomatologie. La fièvre n'est pas un signe constant et l'auscultation peut être anormale."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de mise en condition pour une prise en charge hospitalière des formes sévères de bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monitorage cardiorespiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Voie veineuse périphérique si détresse respiratoire sévère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Isolement respiratoire de type « gouttelettes ».",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perfusion intraveineuse systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mise en condition inclut le monitorage cardiorespiratoire, une voie veineuse périphérique si détresse respiratoire sévère, et un isolement respiratoire de type « gouttelettes » avec des mesures d'hygiène adaptées. La perfusion intraveineuse n'est pas systématique."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque importants pour le développement d'une bronchiolite oblitérante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infections à adénovirus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le très jeune âge de l’enfant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une symptomatologie respiratoire persistant au-delà de 4 à 6 semaines après un épisode aigu sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une TDM thoracique normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La bronchiolite oblitérante est fréquente après infections à adénovirus. Le très jeune âge de l’enfant est également un facteur de risque important. Le diagnostic doit toujours être évoqué lorsque chez un enfant préalablement sain, la symptomatologie respiratoire persiste au-delà de 4 à 6 semaines après un épisode aigu sévère. Une TDM thoracique est indiquée à la recherche d’images en mosaïque."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les cardiopathies congénitales avec shunt gauche-droit pouvant être des diagnostics différentiels de la bronchiolite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Communication interventriculaire (CIV).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Canal atrio-ventriculaire (CAV).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Persistance du canal artériel (PCA).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tétralogie de Fallot.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cardiopathies congénitales avec shunt gauche-droit pouvant être des diagnostics différentiels sont la Communication interventriculaire (CIV), le Canal atrio-ventriculaire (CAV) et la Persistance du canal artériel (PCA)."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures non pharmacologiques de prévention de la bronchiolite en dehors du milieu hospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Proscrire le tabagisme passif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Encourager l’allaitement maternel et sa prolongation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ne pas faire de bisous en période d’épidémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La décontamination des objets et des surfaces uniquement en milieu hospitalier.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention non pharmacologique inclut la désinfection des mains, la décontamination des objets et des surfaces dans les collectivités, les structures ambulatoires et hospitalières, le port d’un masque par les parents malades, l’éviction des collectivités des nourrissons malades, proscrire le tabagisme passif, ne pas faire de bisous en période d’épidémie et encourager l’allaitement maternel et sa prolongation."
+    }
+  ]
+}

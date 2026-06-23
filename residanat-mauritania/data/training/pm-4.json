@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-4",
+  "title": "Endocardites",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une inflammation du péricarde d'origine infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Une infection d'une ou plusieurs valves cardiaques, natives ou prothétiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une inflammation du myocarde due à une bactérie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une infection des cavités cardiaques sans atteinte valvulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une maladie inflammatoire systémique affectant l'endocarde.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endocardite infectieuse est définie comme l'infection d'une ou plusieurs valves cardiaques, natives ou prothétiques, le plus souvent par une bactérie ou plus rarement par un champignon."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le taux de mortalité hospitalière de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Moins de 5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Environ 10%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Entre 20 et 25%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Plus de 50%",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Environ 1%",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endocardite infectieuse est une maladie grave avec une mortalité hospitalière de 20 à 25%."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les facteurs suivants, lesquels sont des facteurs de risque reconnus pour l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le rhumatisme articulaire aigu (RAA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La toxicomanie intraveineuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La présence d'une prothèse valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La réalisation d'actes invasifs à risque de bactériémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'hypertension artérielle non contrôlée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque incluent le RAA, la toxicomanie IV, la prothèse valvulaire, la sclérose valvulaire dégénérative et la réalisation d'actes invasifs à risque de bactériémie."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles valves cardiaques sont le plus souvent touchées par l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La valve pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. La valve tricuspide.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Les valves aortique et mitrale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Les valves pulmonaire et tricuspide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La valve aortique uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endocardite infectieuse touche plus souvent le cœur gauche (aortique ou mitral dans 90% des cas) que le cœur droit (tricuspide)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel groupe de micro-organismes est le plus fréquemment responsable des endocardites infectieuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Les bacilles à Gram négatif (BGN).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Les cocci à Gram positif (CGP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Les champignons (Candida sp).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Les bactéries intracellulaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Les virus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Seuls certains agents infectieux sont capables d'adhérer à l'endothélium lésé, principalement les CGP (staphylocoque, streptocoque, entérocoque)."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les cardiopathies suivantes, lesquelles sont classées dans le groupe A (très haut risque) pour l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La prothèse valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La cardiopathie congénitale cyanogène non opérée ou avec shunt résiduel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une valvulopathie sur endocardite infectieuse antérieure.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le patient transplanté cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Le prolapsus mitral avec insuffisance mitrale et épaississement valvulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le groupe A (très haut risque) comprend la prothèse valvulaire, la cardiopathie congénitale cyanogène non opérée ou avec shunt résiduel, la valvulopathie sur endocardite infectieuse et le patient transplanté cardiaque. Le prolapsus mitral avec IM et/ou épaississement valvulaire est dans le groupe B (haut risque)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les portes d'entrée les plus fréquentes pour *Staphylococcus aureus* dans le contexte d'une endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Les lésions cutanées (furoncle, mal perforant plantaire).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le matériel endovasculaire (cathéter veineux, pacemaker).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La toxicomanie intraveineuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Les soins ou extractions dentaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Les tumeurs coliques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les portes d'entrée pour *S. aureus* sont cutanées, le matériel endovasculaire et la toxicomanie intraveineuse. Les portes d'entrée bucco-dentaires sont pour les streptocoques oraux et les digestives pour le streptocoque D ou l'entérocoque."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques doivent faire évoquer une endocardite infectieuse jusqu'à preuve du contraire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Toute fièvre inexpliquée chez un patient ayant une valvulopathie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Toute apparition ou modification d'un souffle dans un contexte fébrile.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une fièvre isolée sans autre symptôme.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une toux et une dyspnée isolées.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Des arthralgies sans fièvre.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toute fièvre inexpliquée chez un patient ayant une valvulopathie est une EI jusqu'à preuve du contraire. De même, toute apparition ou modification d'un souffle dans un contexte fébrile est une EI jusqu'à preuve du contraire."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes généraux typiques d'une endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Fièvre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Altération de l'état général (AEG).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Splénomégalie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Bradycardie constante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hypoglycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes généraux typiques incluent la fièvre (90%), l'AEG et la splénomégalie (30%)."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant les hémocultures pour le diagnostic d'endocardite infectieuse, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elles doivent être réalisées dès la suspicion diagnostique, avant toute antibiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Le volume optimal de sang à prélever est de 40-60 mL, réparti sur 2-3 hémocultures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Il faut réaliser 3 prélèvements par 24h, espacés de plus d'une heure, à partir de ponctions veineuses distinctes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Le laboratoire doit être prévenu pour une culture prolongée à 3 semaines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Elles ne sont nécessaires qu'en cas de fièvre et frissons.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hémocultures doivent être réalisées dès la suspicion diagnostique, avant toute antibiothérapie, avec un volume optimal de 40-60 mL (2-3 hémocultures), 3 prélèvements/24h espacés de >1h, à partir de ponctions veineuses distinctes, et le laboratoire doit être prévenu pour une culture prolongée à 3 semaines."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle de l'échographie cardiaque dans le diagnostic de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'échographie transthoracique (ETT) est l'examen de première intention.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'échographie transœsophagienne (ETO) est systématique si l'ETT est positive pour mieux caractériser les lésions.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'ETO est indiquée si l'ETT est négative mais la suspicion clinique est forte.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une échographie cardiaque normale élimine toujours le diagnostic d'endocardite.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. L'ETO est uniquement réservée aux patients porteurs de prothèses valvulaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ETT est en 1ère intention. L'ETO est indiquée si ETT négative avec forte suspicion, ou si ETT positive pour une meilleure caractérisation. Une échographie cardiaque normale n'élimine pas le diagnostic."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon les critères de Duke, quels éléments constituent un critère majeur pour le diagnostic d'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'apparition d'un nouveau souffle de régurgitation valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La présence d'une végétation à l'échographie cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Des hémocultures positives pour *Staphylococcus aureus* sur deux séries séparées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une fièvre supérieure ou égale à 38°C.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La présence de nodules d'Osler.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères majeurs incluent l'atteinte endocardique (échographie: végétation, abcès, désinsertion prothétique récente ou clinique: nouveau souffle de régurgitation) et les hémocultures positives pour un micro-organisme typique (comme *S. aureus* sur ≥ 2 séries séparées). La fièvre et les nodules d'Osler sont des critères mineurs."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les localisations fréquentes des emboles septiques en cas d'endocardite infectieuse du cœur gauche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Splénique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Hépatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les emboles d'une EI du cœur gauche peuvent toucher le cerveau, la rate, les reins, le foie, les os et les articulations. Les emboles pulmonaires sont typiques de l'EI du cœur droit."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la première cause de décès à la phase aiguë et d'indication chirurgicale dans l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le choc septique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. L'insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'hémorragie cérébrale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. L'infection non contrôlée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. L'anévrisme mycotique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance cardiaque est la 1ère cause de décès à la phase aiguë et d'indication chirurgicale."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principes fondamentaux de l'antibiothérapie curative de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle doit être bactéricide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle doit être prolongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle doit être administrée à forte dose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle doit être administrée par voie intraveineuse (sauf la rifampicine).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Elle peut être arrêtée dès l'apyrexie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie doit être bactéricide, prolongée, à forte dose et par voie IV (sauf la rifampicine). Elle ne doit pas être arrêtée dès l'apyrexie car la durée totale est de 2 à 6 semaines."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la porte d'entrée la plus fréquente pour les streptocoques oraux (*Streptococcus viridans*) dans l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Cutanée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Digestive.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Bucco-dentaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Urinaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Matériel endovasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les streptocoques oraux (S. viridans) ont une porte d'entrée bucco-dentaire (soins ou extraction dentaire, détartrage, granulome apical) ou ORL (sinusite)."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "La découverte de *Streptococcus gallolyticus* (anciennement *S. bovis*) dans les hémocultures d'une endocardite infectieuse doit faire rechercher quelle porte d'entrée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Cutanée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Bucco-dentaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Digestive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Urinaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Matériel endovasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "*Streptococcus gallolyticus* est associé à une porte d'entrée digestive, notamment une tumeur colique ou une sigmoïdite."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles manifestations cutanées sont associées à l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Purpura pétéchial.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Nodosités d'Osler.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Placards érythémateux palmo-plantaire de Janeway.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Erythème noueux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Urticaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les manifestations cutanées incluent le purpura pétéchial, les nodosités d'Osler (faux panaris) et les placards érythémateux palmo-plantaires de Janeway."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations l'échographie transœsophagienne (ETO) est-elle fréquemment indiquée ou systématique pour l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Si l'ETT est négative chez un patient avec forte suspicion d'EI.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Chez un patient porteur de prothèse valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Si l'ETT est positive, pour une meilleure caractérisation des lésions.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. En première intention chez tous les patients suspects d'EI.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Uniquement si l'ETT est techniquement impossible.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ETO est fréquemment indiquée si l'ETT est négative avec forte suspicion, surtout chez un patient porteur de prothèse ou peu échogène. Elle est systématique si l'ETT est positive pour mieux caractériser les lésions et le retentissement."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon les critères de Duke, quels éléments sont considérés comme des critères mineurs pour le diagnostic d'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une fièvre ≥ 38°C.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. La présence de nodules d'Osler.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Un embole septique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La toxicomanie intraveineuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une végétation à l'échographie cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères mineurs incluent le terrain à risque (valvulopathie, cardiopathie à risque, toxicomanie IV), la fièvre ≥ 38°C, les phénomènes vasculaires (embole septique, anévrisme mycotique, hémorragie intra-crânienne ou conjonctivale, érythème de Janeway) et les phénomènes immunologiques (FR+, glomérulonéphrite, nodule d'Osler, tâche de Roth). La végétation est un critère majeur."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications neurologiques possibles de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Infarctus cérébral.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Hémorragie cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Abcès cérébral.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Hémorragie méningée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Neuropathie périphérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications neurologiques incluent l'infarctus, l'hémorragie cérébrale, l'hémorragie méningée et l'abcès cérébral."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations une antibiothérapie probabiliste est-elle indiquée pour l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. En cas de sepsis grave ou de choc septique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. En cas de forte suspicion clinique d'endocardite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. En cas d'indication de chirurgie valvulaire en urgence.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Uniquement après l'obtention des résultats de l'examen direct des hémocultures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Si le patient est afebrile.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie probabiliste est indiquée juste après les prélèvements si sepsis grave/choc septique, forte suspicion clinique d'endocardite ou indication de chirurgie valvulaire en urgence. Dans les autres cas, il faut attendre les résultats de l'examen direct des hémocultures."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de mauvais pronostic pour l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. L'âge avancé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Une endocardite à *S. aureus* ou *Candida*.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une complication intracérébrale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une endocardite du cœur droit.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de mauvais pronostic sont l'âge, l'EI à *S. aureus* ou *Candida*, la complication intracérébrale, le choc septique, l'insuffisance cardiaque, le port de valve prothétique et les comorbidités. L'EI du cœur droit est de bon pronostic."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Pour quels patients l'antibioprophylaxie est-elle indiquée avant certains soins dentaires afin de prévenir l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Les patients porteurs d'une prothèse valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Les patients ayant un antécédent d'endocardite infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Les patients atteints d'une cardiopathie congénitale cyanogène non opérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Les patients avec une bicuspidie aortique isolée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Les patients avec une cardiomyopathie hypertrophique obstructive.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibioprophylaxie est indiquée pour les patients à risque : prothèse valvulaire, antécédent d'endocardite infectieuse ou cardiopathie congénitale cyanogène non opérée. Elle n'est pas indiquée pour les autres cardiopathies."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations sont vraies concernant l'endocardite infectieuse du cœur droit ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle représente 5 à 10% des endocardites infectieuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle touche majoritairement la valve tricuspide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. *Staphylococcus aureus* est le germe principalement en cause.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est de mauvais pronostic avec une mortalité élevée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une anticoagulation curative est systématiquement indiquée en cas d'embolie pulmonaire septique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'EI du cœur droit représente 5 à 10% des cas, touche majoritairement la tricuspide, *S. aureus* est le germe principal et elle est de bon pronostic (mortalité <10%). Il n'y a aucune indication d'anticoagulation curative en cas d'embolie pulmonaire septique."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle proportion des endocardites infectieuses survient sans notion de valvulopathie préexistante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Moins de 10%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Environ 20%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Environ 40%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Plus de 60%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La quasi-totalité des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "40% des endocardites infectieuses surviennent sans notion de valvulopathie préexistante."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas d'hémocultures négatives pour une endocardite infectieuse, quels micro-organismes intracellulaires ou à culture difficile doivent être recherchés par PCR ou sérologie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. *Coxiella burnetii*.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. *Bartonella spp*.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. *Tropheryma whipplei*.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. *Chlamydia*.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. *Staphylococcus aureus*.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hémocultures négatives peuvent être dues à des bactéries intracellulaires comme *Coxiella burnetii*, *Bartonella spp*, *Tropheryma whipplei*, *Chlamydia*, *Brucella*, *Legionella*, rickettsioses, *Mycoplasma pneumoniae*."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une forte présomption clinique d'endocardite infectieuse, mais l'échographie transœsophagienne (ETO) est négative. Quelles sont les démarches diagnostiques à envisager ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Répéter l'ETO à 7-10 jours.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Réaliser un scanner cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Envisager un PET-scanner ou une scintigraphie aux leucocytes si le patient est porteur d'une prothèse valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Éliminer le diagnostic d'endocardite infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Commencer une antibiothérapie empirique sans autre exploration.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de forte présomption clinique et de négativité de l'ETO, il faut répéter l'examen à 7-10 jours ou réaliser un scanner cardiaque, voire un PET-scanner ou une scintigraphie aux leucocytes si le patient est porteur de prothèse valvulaire."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la caractéristique échographique d'une végétation dans le contexte d'une endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une masse fixe et homogène, non attenante aux valves.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Une masse mobile, finement vibratile, attenante aux valves.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une lésion qui permet toujours de distinguer une végétation active d'une végétation séquellaire stérile.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une masse toujours supérieure à 15 mm.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une lésion qui cause systématiquement une obstruction valvulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une végétation est une masse mobile, finement vibratile, attenante aux valves, de taille variable. L'échographie ne distingue pas une végétation active d'une végétation séquellaire (stérile)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un nouveau souffle de régurgitation valvulaire, des hémocultures positives pour *Streptococcus oralis* sur deux séries séparées, et une fièvre à 38,8°C. Selon les critères de Duke, quelle est la conclusion diagnostique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Diagnostic certain d'endocardite infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Diagnostic possible d'endocardite infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Diagnostic rejeté d'endocardite infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Informations insuffisantes pour conclure.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Nécessite au moins 5 critères mineurs pour un diagnostic certain.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le patient présente deux critères majeurs : un nouveau souffle de régurgitation valvulaire (atteinte endocardique clinique) et des hémocultures positives pour un micro-organisme typique (*Streptococcus oralis* sur ≥ 2 séries séparées). Deux critères majeurs suffisent pour un diagnostic certain d'endocardite infectieuse."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant les anévrismes mycotiques dans l'endocardite infectieuse, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Ils peuvent survenir à toute localisation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Ils peuvent entraîner une hémorragie cataclysmique par rupture.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une imagerie cérébrale est indispensable avant toute chirurgie valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Ils sont toujours asymptomatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Ils ne se développent que dans le cerveau.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anévrismes mycotiques peuvent survenir à toute localisation, ont des conséquences graves comme l'hémorragie cataclysmique par rupture, et une imagerie cérébrale est indispensable avant chirurgie valvulaire pour leur dépistage."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les marqueurs biologiques des manifestations immunologiques de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Présence de complexes immuns circulants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Consommation du complément (baisse de CH50 et C3).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Cryoglobulinémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Facteur rhumatoïde positif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Augmentation isolée de la CRP.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les manifestations immunologiques sont associées à la recirculation d'Ag et de complexes immuns, se traduisant biologiquement par des complexes immuns circulants, une consommation du complément (baisse de CH50, C3), une cryoglobulinémie et un facteur rhumatoïde positif, ainsi qu'une fausse sérologie syphilitique positive."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pour une endocardite infectieuse sur valve native due à *Staphylococcus aureus* méti-sensible, quel est le traitement antibiotique adapté ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Oxacilline ou Cloxacilline.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Vancomycine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Amoxicilline.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Gentamicine, facultative et sur une durée inférieure à 3 jours.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Ceftriaxone.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour *S. aureus* méti-sensible, l'oxacilline ou la cloxacilline sont indiquées. La gentamicine est facultative sur valve native et sur une durée < 3 jours."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas d'endocardite infectieuse à *Staphylococcus aureus* sur prothèse valvulaire, quel antibiotique est ajouté au traitement après 3 à 5 jours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Gentamicine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Amoxicilline.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Rifampicine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Daptomycine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Cotrimoxazole.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'EI à *S. aureus* sur prothèse valvulaire, l'ajout de rifampicine est recommandé après 3 à 5 jours."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles complications cardiaques de l'endocardite infectieuse constituent une indication au traitement chirurgical ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une insuffisance valvulaire sévère entraînant une insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Une obstruction valvulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une fistule intracardiaque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une péricardite isolée sans retentissement hémodynamique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une insuffisance coronarienne par embole sans signes de sepsis grave.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications chirurgicales liées aux complications cardiaques sont l'insuffisance cardiaque (par régurgitation valvulaire sévère, obstruction ou fistule)."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels signes d'infection non contrôlée justifient une indication chirurgicale dans l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une augmentation de la taille des végétations.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'apparition de nouvelles lésions intracardiaques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Une infection fongique ou à germe résistant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Des hémocultures positives à 7 à 10 jours malgré une antibiothérapie adaptée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une fièvre persistante pendant 2 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection non contrôlée est une indication chirurgicale si : augmentation de taille des végétations, apparition de nouvelles lésions intracardiaques, infection fongique ou à germe résistant, ou hémocultures positives à 7 à 10 jours."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications chirurgicales liées à la prévention du risque embolique dans l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une végétation volumineuse (> 10 mm) avec un épisode embolique sous antibiotique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Une végétation isolée > 15 mm, surtout si mitrale ou à *S. aureus*.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Toute végétation supérieure à 5 mm.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Une végétation du cœur droit, quelle que soit sa taille.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une végétation stable sous traitement antibiotique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention du risque embolique justifie une chirurgie en cas de végétation volumineuse (> 10 mm avec épisode embolique sous antibiotique ou > 15 mm isolée), surtout si à *S. aureus* ou mitrale."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint d'endocardite infectieuse, porteur d'une prothèse valvulaire mécanique et sous anticoagulation, présente une hémorragie cérébrale. Quelle est la conduite à tenir concernant l'anticoagulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Arrêter tout traitement anticoagulant, mais demander un avis spécialisé en raison de la prothèse valvulaire mécanique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Poursuivre l'anticoagulation à la même dose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Remplacer l'anticoagulant oral par de l'héparine de bas poids moléculaire (HBPM).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Augmenter la dose d'anticoagulant pour prévenir de nouveaux emboles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Arrêter uniquement les antiagrégants plaquettaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hémorragie cérébrale, il faut arrêter tout traitement anticoagulant. Cependant, en cas de prothèse valvulaire mécanique, un avis spécialisé est nécessaire."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pour une endocardite infectieuse à *Staphylococcus aureus* avec suspicion d'une porte d'entrée liée à du matériel endovasculaire (prothèse, stimulateur), quel examen est recommandé pour la recherche de la porte d'entrée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une coloscopie totale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Un examen de l'ensemble du revêtement cutané.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Une échographie transœsophagienne (ETO).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Un ECBU et une imagerie du tractus urinaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Un panoramique dentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le staphylocoque coagulase négative ou *S. aureus* sur matériel endovasculaire, l'ETO est l'examen recommandé pour la recherche de la porte d'entrée."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors de la surveillance d'un patient traité pour une endocardite infectieuse, la persistance ou la rechute fébrile doit faire évoquer quelles causes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Une antibiothérapie inadéquate.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Un foyer infectieux persistant (abcès para-valvulaire).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Un foyer infectieux secondaire à distance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une veinite sur cathéter ou une maladie thrombo-embolique veineuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Une guérison spontanée de l'infection.",
+          "correct": false
+        }
+      ],
+      "explanation": "La persistance ou la rechute fébrile doit faire évoquer une antibiothérapie inadéquate, un foyer infectieux persistant (porte d'entrée, foyer cardiaque comme un abcès para-valvulaire ou foyer secondaire), une allergie médicamenteuse, une veinite sur cathéter ou une maladie thrombo-embolique veineuse."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pour quelles procédures l'antibioprophylaxie n'est-elle pas indiquée pour prévenir l'endocardite infectieuse, même chez les patients à risque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Les procédures portant sur les voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Les procédures portant sur le tube digestif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Les procédures portant sur le tractus urinaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Les procédures portant sur la peau.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Les soins dentaires nécessitant une manipulation de la gencive.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibioprophylaxie n'a aucune indication dans les autres cardiopathies, ou pour les procédures portant sur les voies aériennes, digestives, urinaires ou cutanées. Elle est réservée aux soins dentaires spécifiques chez les patients à très haut risque."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications pulmonaires fréquentes de l'endocardite infectieuse du cœur droit ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Des emboles pulmonaires septiques (nodules disséminés ± abcédés).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Un infarctus pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Un abcès pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Une hypertension artérielle pulmonaire primitive.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Un œdème pulmonaire cardiogénique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications pulmonaires de l'EI du cœur droit incluent les emboles pulmonaires septiques (infarctus pulmonaire, abcès), fréquemment multiples et massifs, entraînant toux et/ou dyspnée."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la particularité des bactéries du groupe HACCEK en microbiologie de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elles sont à croissance rapide et facilement identifiables.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elles nécessitent une prolongation des hémocultures jusqu'à 28 jours en raison de leur croissance lente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elles sont toujours associées à une porte d'entrée urinaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elles sont des cocci à Gram positif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elles sont responsables de la majorité des endocardites sur prothèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bactéries du groupe HACCEK sont à croissance lente et nécessitent une prolongation des hémocultures jusqu'à 28 jours. Leur porte d'entrée est bucco-dentaire."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement antibiotique spécifique recommandé pour une endocardite infectieuse due à *Coxiella burnetii* (fièvre Q) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Amoxicilline + gentamicine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Doxycycline + hydroxychloroquine ou ofloxacine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Vancomycine + rifampicine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Amphotericine B + 5-flucytosine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Cotrimoxazole + clindamycine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour *Coxiella burnetii*, le traitement est doxycycline + hydroxychloroquine ou ofloxacine."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée habituelle de la gentamicine dans le traitement adapté de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est systématique pendant 2 semaines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est systématique pendant 6 semaines.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est facultative et sur une durée < 3 jours en cas d'EI à staphylocoque sur valve native.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle n'est utilisée que pour les endocardites sur prothèse valvulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle n'est jamais utilisée en monothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gentamicine est systématique pendant 2 semaines, sauf en cas d'EI à staphylocoque sur valve native où elle est facultative, sur une durée < 3 jours."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Si les hémocultures restent négatives à 72h en l'absence d'antibiothérapie préalable, quelle est la démarche diagnostique recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Répéter 2 séries d'hémocultures et demander un avis microbiologiste.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Demander un avis spécialisé et réaliser des sérologies/PCR pour bactéries intracellulaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Arrêter les investigations car le diagnostic est peu probable.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Commencer une antibiothérapie probabiliste sans délai.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Réaliser une biopsie valvulaire systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si les hémocultures sont négatives à 72h, il faut répéter 2 séries d'hémocultures et demander un avis microbiologiste. En l'absence d'antibiothérapie préalable, un avis spécialisé et des sérologies/PCR sont également indiqués."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles manifestations rénales peuvent être observées au cours d'une endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Protéinurie isolée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Hématurie isolée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Insuffisance rénale par atteinte glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Embole septique rénal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Lithiase rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les manifestations rénales incluent la protéinurie ou hématurie isolée, l'insuffisance rénale par atteinte glomérulaire et l'embole septique rénal."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures d'éducation à la santé recommandées pour la prévention de l'endocardite infectieuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Maintien d'un bon état bucco-dentaire avec consultation chez le dentiste 1 à 2 fois par an.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Hygiène cutanée rigoureuse et désinfection des plaies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Éviter toute effraction cutanéo-muqueuse (piercing, tatouage, acupuncture, cathéters).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Consultation rapide en cas de fièvre.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Prise quotidienne d'antibiotiques à faible dose.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'éducation à la santé comprend le maintien d'un bon état bucco-dentaire, une surveillance cardiologique régulière, une bonne hygiène cutanée (désinfection des plaies, éviter effraction cutanéo-muqueuse) et une consultation rapide en cas de fièvre."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel diagnostic différentiel est particulièrement important à considérer pour l'endocardite infectieuse, surtout chez l'enfant ou l'adolescent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le myxome de l'oreillette gauche.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. La poussée de rhumatisme articulaire aigu (RAA).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'endocardite lupique de Libman-Sacks.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. L'endocardite marastique au cours d'un cancer.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Une médiastinite post-chirurgicale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La poussée de RAA est un diagnostic différentiel important, surtout chez l'enfant ou l'adolescent."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est une caractéristique pronostique spécifique de l'endocardite infectieuse aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est généralement de meilleur pronostic que l'endocardite mitrale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. L'insuffisance cardiaque et les abcès sont plus fréquents, nécessitant souvent une intervention chirurgicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est moins susceptible de causer des troubles de conduction.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est typiquement causée par *Streptococcus viridans*.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle ne nécessite que rarement une intervention chirurgicale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance cardiaque et les abcès sont plus fréquents en cas d'EI aortique, nécessitant souvent une intervention chirurgicale."
+    }
+  ]
+}
