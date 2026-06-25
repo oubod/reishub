@@ -150,10 +150,11 @@ function setupMauritaniaLogin() {
         if (submitButton) submitButton.disabled = true;
         mauritaniaAuthMessage('Connexion en cours...', 'info');
         try {
-            const email = document.getElementById('signinEmail').value.trim();
+            const phone = document.getElementById('signinEmail').value.trim().replace(/\s+/g, '');
+            const email = phone + '@resihub.app';
             const password = document.getElementById('signinPassword').value;
             const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
-            if (error) return mauritaniaAuthMessage('Email ou mot de passe incorrect.');
+            if (error) return mauritaniaAuthMessage('Num\u00e9ro ou mot de passe incorrect.');
 
             const { data: profile } = await supabaseClient
                 .from(MAURITANIA_AUTH.table)
@@ -181,7 +182,7 @@ function setupMauritaniaLogin() {
     const forgotBtn = document.getElementById('forgotBtn');
     if (forgotBtn) {
         forgotBtn.addEventListener('click', async () => {
-            mauritaniaAuthMessage('Pour reinitialiser votre mot de passe, contactez l\'administrateur sur WhatsApp: 27265400', 'info');
+            mauritaniaAuthMessage('Pour reinitialiser votre mot de passe, contactez l\'administrateur sur WhatsApp: 43265506', 'info');
         });
     }
 
@@ -192,13 +193,15 @@ function setupMauritaniaLogin() {
         mauritaniaAuthMessage('Creation du compte...', 'info');
         try {
             const username = document.getElementById('signupName').value.trim();
-            const email = document.getElementById('signupEmail').value.trim();
+            const phone = document.getElementById('signupEmail').value.trim().replace(/\s+/g, '');
+            const email = phone + '@resihub.app';
             const password = document.getElementById('signupPassword').value;
+            const bankily = document.getElementById('signupBankily')?.value.trim() || '';
             const avatar_url = mauritaniaAvatarFor(username);
             const { data, error } = await supabaseClient.auth.signUp({
                 email,
                 password,
-                options: { data: { username, avatar_url, portal: 'mauritania' } }
+                options: { data: { username, avatar_url, portal: 'mauritania', bankily_code: bankily, phone } }
             });
             if (error) return mauritaniaAuthMessage(mauritaniaFriendlyAuthError(error));
             if (!data.user) return mauritaniaAuthMessage('Compte non cree. Verifiez la configuration Supabase.');
@@ -208,10 +211,20 @@ function setupMauritaniaLogin() {
                     email,
                     username,
                     avatar_url,
+                    bankily_code: bankily,
                     progress: {}
                 }, { onConflict: 'id', ignoreDuplicates: true });
                 if (profileError) {
-                    return mauritaniaAuthMessage(`Compte Auth cree, mais profil bloque: ${profileError.message}. Executez les fichiers SQL mis a jour.`, 'warning');
+                    const { error: fallbackError } = await supabaseClient.from(MAURITANIA_AUTH.table).upsert({
+                        id: data.user.id,
+                        email,
+                        username,
+                        avatar_url,
+                        progress: {}
+                    }, { onConflict: 'id', ignoreDuplicates: true });
+                    if (fallbackError) {
+                        return mauritaniaAuthMessage(`Compte Auth cree, mais profil bloque: ${fallbackError.message}.`, 'warning');
+                    }
                 }
             }
             signup.reset();

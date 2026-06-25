@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Connexion - Résidanat Mauritanie | R�siHub</title>
+  <title>Connexion - Résidanat Mauritanie | RésiHub</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-client.js"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -102,7 +102,7 @@
     <!-- Header Branding -->
     <header class="w-full flex items-center justify-between mb-10">
       <div class="flex items-center gap-2">
-        <span class="text-headline-md font-headline-md font-bold tracking-tight text-primary">R�siHub</span>
+        <span class="text-headline-md font-headline-md font-bold tracking-tight text-primary">RésiHub</span>
       </div>
       <div class="flex items-center">
         <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-label-caps font-label-caps flex items-center gap-2">
@@ -133,11 +133,11 @@
       <!-- SIGN IN FORM -->
       <form id="signinForm" class="space-y-6">
         <div class="space-y-2">
-          <label class="text-label-bold font-label-bold text-on-surface-variant ml-1" for="signinEmail">Email académique</label>
+          <label class="text-label-bold font-label-bold text-on-surface-variant ml-1" for="signinEmail">Numéro de téléphone</label>
           <div class="relative group input-focus rounded-xl transition-all">
-            <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-50 group-focus-within:text-primary transition-colors">mail</span>
-            <input id="signinEmail" class="native-input w-full pl-12 pr-4 py-4 bg-white/50 border border-outline/30 rounded-xl outline-none focus:border-primary transition-all font-body-md" type="email" autocomplete="email" required placeholder="nom@faculte.mr" inputmode="email">
-            <p class="input-error">Veuillez entrer une adresse e-mail valide.</p>
+            <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-50 group-focus-within:text-primary transition-colors">phone</span>
+            <input id="signinEmail" class="native-input w-full pl-12 pr-4 py-4 bg-white/50 border border-outline/30 rounded-xl outline-none focus:border-primary transition-all font-body-md" type="tel" autocomplete="tel" required placeholder="Ex: 43265506" inputmode="tel">
+            <p class="input-error">Veuillez entrer un numéro de téléphone valide.</p>
           </div>
         </div>
 
@@ -148,7 +148,7 @@
           </div>
           <div class="relative group input-focus rounded-xl transition-all">
             <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-50 group-focus-within:text-primary transition-colors">lock</span>
-            <input id="signinPassword" class="native-input w-full pl-12 pr-12 py-4 bg-white/50 border border-outline/30 rounded-xl outline-none focus:border-primary transition-all font-body-md" type="password" autocomplete="current-password" required placeholder="••••••••">
+            <input id="signinPassword" class="native-input w-full pl-12 pr-12 py-4 bg-white/50 border border-outline/30 rounded-xl outline-none focus:border-primary transition-all font-body-md" type="password" autocomplete="current-password" required placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
             <p class="input-error">Veuillez entrer votre mot de passe.</p>
             <button class="absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface" type="button" onclick="togglePassword('signinPassword', this)">
               <span class="material-symbols-outlined text-[20px]">visibility</span>
@@ -174,11 +174,11 @@
         </div>
 
         <div class="space-y-2">
-          <label class="font-label-bold text-label-bold text-on-background block" for="signupEmail">Adresse Email</label>
+          <label class="font-label-bold text-label-bold text-on-background block" for="signupEmail">Numéro de téléphone</label>
           <div class="relative">
-            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-60">mail</span>
-            <input id="signupEmail" class="native-input w-full pl-10 pr-4 py-3 bg-white border border-outline-variant/30 rounded-lg font-body-md focus:border-primary focus:ring-0 outline-none transition-all" type="email" autocomplete="email" required placeholder="contact@exemple.mr" inputmode="email">
-            <p class="input-error">Veuillez entrer une adresse e-mail valide.</p>
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-60">phone</span>
+            <input id="signupEmail" class="native-input w-full pl-10 pr-4 py-3 bg-white border border-outline-variant/30 rounded-lg font-body-md focus:border-primary focus:ring-0 outline-none transition-all" type="tel" autocomplete="tel" required placeholder="Ex: 43265506" inputmode="tel">
+            <p class="input-error">Veuillez entrer un numéro de téléphone valide.</p>
           </div>
         </div>
 
@@ -186,7 +186,7 @@
           <label class="font-label-bold text-label-bold text-on-background block" for="signupPassword">Mot de passe</label>
           <div class="relative">
             <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-60">lock</span>
-            <input id="signupPassword" class="native-input w-full pl-10 pr-12 py-3 bg-white border border-outline-variant/30 rounded-lg font-body-md focus:border-primary focus:ring-0 outline-none transition-all" type="password" autocomplete="new-password" minlength="6" required placeholder="••••••••">
+            <input id="signupPassword" class="native-input w-full pl-10 pr-12 py-3 bg-white border border-outline-variant/30 rounded-lg font-body-md focus:border-primary focus:ring-0 outline-none transition-all" type="password" autocomplete="new-password" minlength="6" required placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
             <p class="input-error">Le mot de passe doit contenir au moins 6 caractères.</p>
             <button class="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary transition-colors" type="button" onclick="togglePassword('signupPassword', this)">
               <span class="material-symbols-outlined text-[20px]">visibility</span>
@@ -217,9 +217,9 @@
                 <span class="copy-label">Copier</span>
               </button>
             </div>
-            <a href="https://wa.me/49908714" target="_blank" rel="noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-green-600 text-white px-4 py-2.5 rounded-lg text-label-sm font-bold hover:bg-green-500 active:scale-95 transition-all">
+            <a href="https://wa.me/22243265506" target="_blank" rel="noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-green-600 text-white px-4 py-2.5 rounded-lg text-label-sm font-bold hover:bg-green-500 active:scale-95 transition-all">
               <span class="material-symbols-outlined text-[18px]">chat</span>
-              Envoyer le reçu sur WhatsApp (49 90 87 14)
+              Envoyer le reçu sur WhatsApp (43 26 55 06)
             </a>
           </div>
         </div>
@@ -239,7 +239,7 @@
         <div class="pt-4">
           <a id="backBtn" class="inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors text-sm" href="../index.html">
             <span class="material-symbols-outlined text-[18px]">public</span>
-            <span>Changer de R�siHub national</span>
+            <span>Changer de RésiHub national</span>
           </a>
         </div>
       </div>
@@ -257,14 +257,14 @@
       </div>
       <div class="flex items-center gap-2 px-3 py-1 rounded-full border border-outline-variant/30">
         <span class="material-symbols-outlined text-[16px]">verified</span>
-        <span class="text-label-caps font-label-caps">Certifié R�siHub</span>
+        <span class="text-label-caps font-label-caps">Certifié RésiHub</span>
       </div>
     </div>
 
     <!-- Footer -->
     <footer class="mt-12 text-center">
       <p class="text-label-caps font-label-caps text-on-surface-variant/60 tracking-widest">
-        © 2024 R�siHub MAURITANIE — EXCELLENCE MÉDICALE
+        Â© 2024 RésiHub MAURITANIE â€” EXCELLENCE MÉDICALE
       </p>
     </footer>
   </main>

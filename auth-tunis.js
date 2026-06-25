@@ -161,10 +161,11 @@ function setupTunisLogin() {
     if (submitButton) submitButton.disabled = true;
     authMessage("Connexion en cours...", "info");
     try {
-      const email = document.getElementById("signinEmail").value.trim();
+      const phone = document.getElementById("signinEmail").value.trim().replace(/\s+/g, "");
+      const email = phone + "@resihub.app";
       const password = document.getElementById("signinPassword").value;
       const { data, error } = await tunisSupabase.auth.signInWithPassword({ email, password });
-      if (error) return authMessage("Email ou mot de passe incorrect.");
+      if (error) return authMessage("Num\u00e9ro ou mot de passe incorrect.");
 
       const { data: profile } = await tunisSupabase.from(TUNIS_AUTH.table).select("*").eq("id", data.user.id).single();
       if (!profile || profile.rejected || !profile.approved) {
@@ -188,7 +189,7 @@ function setupTunisLogin() {
   const forgotBtn = document.getElementById("forgotBtn");
   if (forgotBtn) {
     forgotBtn.addEventListener("click", async () => {
-      authMessage("Pour reinitialiser votre mot de passe, contactez l'administrateur sur WhatsApp: 27265400", "info");
+      authMessage("Pour reinitialiser votre mot de passe, contactez l'administrateur sur WhatsApp: 43265506", "info");
     });
   }
 
@@ -199,14 +200,15 @@ function setupTunisLogin() {
     authMessage("Creation du compte...", "info");
     try {
       const username = document.getElementById("signupName").value.trim();
-      const email = document.getElementById("signupEmail").value.trim();
+      const phone = document.getElementById("signupEmail").value.trim().replace(/\s+/g, "");
+      const email = phone + "@resihub.app";
       const password = document.getElementById("signupPassword").value;
       const bankily = document.getElementById("signupBankily")?.value.trim() || "";
       const avatar_url = avatarFor(username);
       const { data, error } = await tunisSupabase.auth.signUp({
         email,
         password,
-        options: { data: { username, avatar_url, portal: "tunisia", bankily_code: bankily } }
+        options: { data: { username, avatar_url, portal: "tunisia", bankily_code: bankily, phone } }
       });
       if (error) return authMessage(friendlyAuthError(error));
       if (!data.user) return authMessage("Compte non cree. Verifiez la configuration Supabase.");
