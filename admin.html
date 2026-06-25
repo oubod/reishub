@@ -555,19 +555,6 @@
         </div>
       </div>
 
-      <div class="section-header">Configuration globale</div>
-      <div class="ios-list">
-        <div class="ios-item" style="flex-direction: column; align-items: stretch; gap: 8px;">
-          <div style="font-weight: 600; font-size: 0.95rem; display: flex; justify-content: space-between;">
-            <span>Numéro WhatsApp (Paiement & Contact)</span>
-            <span id="whatsappSaveMsg" style="color: var(--success); font-size: 0.75rem; display: none;">Enregistré</span>
-          </div>
-          <div style="display: flex; gap: 8px;">
-            <input type="text" id="whatsappSettingInput" style="flex: 1; padding: 10px; border: 0.5px solid var(--border-color); border-radius: 8px; outline: none; font-size: 0.9rem; background-color: #f2f2f7;" placeholder="Numéro WhatsApp">
-            <button class="action-btn success" id="saveWhatsappBtn" onclick="saveWhatsappSetting()" style="width: auto;">Enregistrer</button>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- Unified Dashboard View -->
@@ -700,7 +687,6 @@
         try {
           await assertAdmin();
           showScreen('selector');
-          loadWhatsappSetting();
         } catch (err) {
           showScreen('login');
           document.getElementById('loginError').textContent = err.message;
@@ -1128,7 +1114,6 @@
         session = data.session;
         await assertAdmin();
         showScreen('selector');
-        loadWhatsappSetting();
       } catch (err) {
         errEl.textContent = err.message;
         errEl.style.display = 'block';
@@ -1142,43 +1127,6 @@
       session = null;
       showScreen('login');
     });
-
-    async function loadWhatsappSetting() {
-      try {
-        const { data, error } = await client
-          .from("app_settings")
-          .select("value")
-          .eq("key", "whatsapp_number")
-          .maybeSingle();
-        if (data && data.value) {
-          document.getElementById('whatsappSettingInput').value = data.value;
-        } else {
-          document.getElementById('whatsappSettingInput').value = "27265400";
-        }
-      } catch (err) {
-        console.error("Error loading WhatsApp setting:", err);
-      }
-    }
-
-    async function saveWhatsappSetting() {
-      const val = document.getElementById('whatsappSettingInput').value.trim();
-      if (!val) return alert("Veuillez entrer un numéro valide.");
-      document.getElementById('saveWhatsappBtn').disabled = true;
-      try {
-        const { error } = await client.rpc("admin_update_setting", {
-          setting_key: "whatsapp_number",
-          setting_val: val
-        });
-        if (error) throw error;
-        const msg = document.getElementById('whatsappSaveMsg');
-        msg.style.display = 'inline';
-        setTimeout(() => { msg.style.display = 'none'; }, 2000);
-      } catch (err) {
-        alert("Erreur lors de la sauvegarde : " + err.message);
-      } finally {
-        document.getElementById('saveWhatsappBtn').disabled = false;
-      }
-    }
 
     init();
   </script>
