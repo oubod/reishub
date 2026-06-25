@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-2",
+  "title": "La ventilation",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les composants principaux du système thoraco-pulmonaire impliqués dans la ventilation, comparable à l'action d'un soufflet ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les poumons, en tant que structure élastique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La cage thoracique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les muscles respiratoires qui fournissent l'énergie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le système nerveux central pour la régulation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les voies aériennes supérieures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système est composé des poumons (structure élastique), de la cage thoracique, et des muscles respiratoires qui fournissent l'énergie nécessaire, comme décrit dans la section 'Mécanique Ventilatoire'."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Concernant l'inspiration au repos, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un processus actif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est principalement assurée par la contraction du diaphragme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle entraîne une diminution du volume thoracique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les muscles intercostaux externes se contractent pour élever les côtes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La pression intra-alvéolaire devient supérieure à la pression atmosphérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inspiration au repos est un processus actif, principalement assuré par la contraction du diaphragme. Les muscles intercostaux externes se contractent également, élevant les côtes et augmentant le diamètre du thorax. L'augmentation du volume thoracique entraîne une pression intra-alvéolaire inférieure à la pression atmosphérique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de l'expiration au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un phénomène passif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle résulte du relâchement des muscles inspiratoires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est due au retour élastique des poumons et de la paroi thoracique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle implique la contraction des muscles abdominaux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La pression intra-alvéolaire devient inférieure à la pression atmosphérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'expiration au repos est un phénomène passif, résultant du relâchement des muscles inspiratoires et du retour élastique des poumons et de la paroi thoracique. La pression intra-alvéolaire devient supérieure à la pression atmosphérique, chassant l'air des poumons. Les muscles abdominaux sont impliqués lors d'une expiration forcée."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les volumes pulmonaires primaires, lesquels peuvent être mesurés par spirométrie simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Volume Courant (VC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Volume de Réserve Inspiratoire (VRI).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Volume de Réserve Expiratoire (VRE).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Volume Résiduel (VR).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Capacité Pulmonaire Totale (CPT).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Volume Courant, le Volume de Réserve Inspiratoire et le Volume de Réserve Expiratoire sont des volumes mobilisables mesurables par spirométrie simple. Le Volume Résiduel ne peut pas être mesuré par spirométrie simple, et la CPT nécessite la mesure du VR."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs pédagogiques liés à la compréhension de la ventilation et des EFR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Décrire les étapes et déterminants de la mécanique ventilatoire normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Définir les volumes et capacités pulmonaires statiques mesurables en spirométrie et par pléthysmographie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Expliquer les notions fondamentales de compliance pulmonaire et de résistance des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Identifier les principaux paramètres mesurés lors d'une spirométrie forcée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Reconnaître les profils spirométriques typiques des troubles ventilatoires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous les objectifs listés (décrire la mécanique, définir volumes/capacités, expliquer compliance/résistance, identifier paramètres spirométriques, reconnaître profils) sont explicitement mentionnés dans la section 'Objectifs Pédagogiques'."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la Capacité Vitale (CV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente le volume maximal d'air mobilisable.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est la somme du Volume de Réserve Inspiratoire, du Volume Courant et du Volume de Réserve Expiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est égale à la Capacité Inspiratoire plus le Volume de Réserve Expiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle inclut le Volume Résiduel.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours mesurée par pléthysmographie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Capacité Vitale (CV) est le volume maximal d'air mobilisable, et est définie par CV = VRI + VC + VRE. Elle peut aussi être exprimée comme CI + VRE (puisque CI = VC + VRI). Elle n'inclut pas le Volume Résiduel et est mesurable par spirométrie."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors d'un effort ou d'une expiration forcée, quelles sont les modifications observées par rapport à l'expiration au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'expiration devient un phénomène actif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les muscles intercostaux internes sont impliqués.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les muscles abdominaux sont sollicités.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le retour élastique des poumons est le seul mécanisme en jeu.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La pression intra-alvéolaire diminue.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors d'un effort ou d'une expiration forcée, l'expiration devient active, impliquant les muscles intercostaux internes et les muscles abdominaux. Le retour élastique est le mécanisme principal de l'expiration passive au repos, mais d'autres muscles sont recrutés lors de l'effort."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les définitions correctes des capacités pulmonaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Capacité Inspiratoire (CI) est le volume maximal pouvant être inspiré après une expiration normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La Capacité Résiduelle Fonctionnelle (CRF) est le volume d'air restant dans les poumons à la fin d'une expiration normale de repos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Capacité Pulmonaire Totale (CPT) est le volume total d'air contenu dans les poumons à la fin d'une inspiration maximale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Capacité Vitale (CV) est la somme du Volume Résiduel et de la Capacité Inspiratoire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Capacité Résiduelle Fonctionnelle (CRF) est le point d'équilibre du système thoraco-pulmonaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La CI est VC + VRI. La CRF est VRE + VR et représente le point d'équilibre. La CPT est CV + VR. La CV est VRI + VC + VRE, elle n'inclut pas le VR. Toutes les autres définitions sont conformes au texte."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les propriétés mécaniques fondamentales du système respiratoire qui influencent le travail respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'élasticité, représentée par la compliance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les forces de friction, représentées par les résistances des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pression atmosphérique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le volume courant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La fréquence respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le travail respiratoire dépend de deux propriétés fondamentales : son élasticité (compliance) et les forces de friction (résistances), comme indiqué dans la section 'Propriétés Mécaniques Compliance et Résistance'."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment la compliance pulmonaire est-elle définie et quelles sont ses implications ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente la facilité avec laquelle les poumons et la cage thoracique peuvent être distendus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est définie par le rapport de la variation de volume sur la variation de pression (C = ΔV/ΔP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une haute compliance indique un poumon rigide et difficile à distendre.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une basse compliance est typique de l'emphysème.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une basse compliance augmente le travail respiratoire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La compliance (C) représente la facilité de distension et est définie par C = ΔV/ΔP. Une haute compliance signifie que le poumon se distend facilement (ex: emphysème). Une basse compliance signifie que le poumon est rigide et difficile à distendre (ex: fibrose), ce qui augmente le travail respiratoire."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des résistances des voies aériennes (Rva) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles représentent les forces de friction s'opposant à l'écoulement de l'air.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont principalement localisées dans les bronches de moyen calibre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Selon la loi de Poiseuille, la résistance est directement proportionnelle au rayon à la puissance 4.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une faible diminution du calibre bronchique augmente massivement les résistances.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont diminuées dans l'asthme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les Rva représentent les forces de friction s'opposant à l'écoulement de l'air, principalement dans les bronches de moyen calibre. Selon la loi de Poiseuille, la résistance est inversement proportionnelle au rayon à la puissance 4 (R ∝ 1/r^4), donc une faible diminution du calibre bronchique augmente massivement les résistances. Elles sont augmentées dans l'asthme."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux paramètres mesurés lors d'une manœuvre d'expiration forcée en spirométrie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Capacité Vitale Forcée (CVF).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Volume Expiratoire Maximal par Seconde (VEMS).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le rapport de Tiffeneau (VEMS/CVF).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Volume Résiduel (VR).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Capacité Résiduelle Fonctionnelle (CRF).",
+          "correct": false
+        }
+      ],
+      "explanation": "La manœuvre d'expiration forcée mesure principalement la CVF, le VEMS et le rapport de Tiffeneau (VEMS/CVF). Le VR et la CRF ne sont pas mesurés directement par cette manœuvre."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce que le Volume Expiratoire Maximal par Seconde (VEMS) et que reflète-t-il ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est le volume d'air expiré pendant la première seconde de l'expiration forcée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est un excellent reflet de la perméabilité des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa valeur est toujours supérieure à la Capacité Vitale Forcée (CVF).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est utilisé pour calculer la Capacité Pulmonaire Totale (CPT).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est diminué de façon disproportionnée par rapport à la CVF dans un trouble ventilatoire obstructif.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le VEMS est le volume d'air expiré pendant la première seconde de l'expiration forcée et est un excellent reflet de la perméabilité des voies aériennes. Dans un TVO, le VEMS est diminué de façon disproportionnée par rapport à la CVF. Le VEMS est par définition inférieur ou égal à la CVF."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du rapport de Tiffeneau (VEMS/CVF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est exprimé en pourcentage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est l'indicateur clé pour distinguer les syndromes ventilatoires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa valeur normale est généralement supérieure à 70-75%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de ce rapport est caractéristique d'un trouble ventilatoire restrictif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est utilisé pour diagnostiquer la fibrose pulmonaire de manière directe.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rapport de Tiffeneau est exprimé en pourcentage, est l'indicateur clé pour distinguer les syndromes ventilatoires, et sa valeur normale est > 70-75%. Une diminution de ce rapport est caractéristique d'un trouble ventilatoire obstructif, pas restrictif."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un Trouble Ventilatoire Obstructif (TVO) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est défini par une diminution du rapport VEMS/CVF < 70%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le VEMS est diminué de façon disproportionnée par rapport à la CVF.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il traduit une difficulté à vider l'air des poumons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'asthme et la BPCO sont des exemples typiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La Capacité Pulmonaire Totale (CPT) est toujours diminuée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un TVO est défini par un rapport VEMS/CVF < 70%, avec un VEMS diminué de façon disproportionnée par rapport à la CVF. Cela traduit une difficulté à vider l'air des poumons, typique de l'asthme ou de la BPCO. La CPT n'est pas nécessairement diminuée dans un TVO, elle peut même être augmentée en cas d'hyperinflation."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques initiales qui peuvent faire suspecter un Trouble Ventilatoire Restrictif (TVR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la Capacité Vitale (CVF ou CV).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un rapport VEMS/CVF normal ou augmenté.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une difficulté à vider l'air des poumons.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un VEMS diminué de façon disproportionnée par rapport à la CVF.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la compliance pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un TVR est suspecté sur une diminution de la Capacité Vitale (CVF ou CV) avec un rapport VEMS/CVF normal ou augmenté. La difficulté à vider l'air est caractéristique du TVO, et la compliance est généralement basse dans le TVR."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les exemples de pathologies pouvant entraîner une basse compliance pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrose pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Emphysème.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Asthme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Bronchopneumopathie Chronique Obstructive (BPCO).",
+          "correct": false
+        }
+      ],
+      "explanation": "Une basse compliance signifie que le poumon est rigide et difficile à distendre, comme dans la fibrose pulmonaire ou l'œdème pulmonaire. L'emphysème est associé à une haute compliance. L'asthme et la BPCO sont des pathologies obstructives affectant principalement les résistances."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une augmentation massive des résistances des voies aériennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du travail respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Difficulté à vider l'air des poumons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du calibre bronchique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la compliance pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la pression intra-alvéolaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une augmentation massive des résistances (due à une diminution du calibre bronchique comme dans l'asthme ou la BPCO) augmente le travail respiratoire et entraîne une difficulté à vider l'air des poumons. La compliance n'est pas directement augmentée par les résistances."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la Capacité Résiduelle Fonctionnelle (CRF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est le volume d'air restant dans les poumons à la fin d'une expiration normale de repos.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est la somme du Volume de Réserve Expiratoire (VRE) et du Volume Résiduel (VR).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C'est le point d'équilibre du système thoraco-pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle peut être mesurée par spirométrie simple.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours diminuée dans l'emphysème.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CRF est le volume d'air restant dans les poumons à la fin d'une expiration normale de repos, et est égale à VRE + VR. C'est le point d'équilibre du système thoraco-pulmonaire. Elle ne peut pas être mesurée par spirométrie simple car elle inclut le VR."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des muscles intercostaux externes lors de l'inspiration au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils se contractent.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils élèvent les côtes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils augmentent le diamètre antéropostérieur du thorax.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils augmentent le diamètre transversal du thorax.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils abaissent le diaphragme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les muscles intercostaux externes se contractent, élèvent les côtes et augmentent le diamètre antéropostérieur et transversal du thorax. L'abaissement du diaphragme est dû à la contraction du diaphragme lui-même."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes cruciales de la mécanique ventilatoire normale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'inspiration, un phénomène actif au repos.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'expiration, un phénomène passif au repos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La contraction du diaphragme pour l'inspiration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le retour élastique des poumons pour l'expiration au repos.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La diffusion des gaz à travers la membrane alvéolo-capillaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ventilation repose sur un cycle mécanique : inspiration active (contraction du diaphragme) et expiration passive au repos (retour élastique). La diffusion des gaz est une étape ultérieure des échanges gazeux, pas de la mécanique ventilatoire elle-même."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les informations clés à retenir concernant la spirométrie forcée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle mesure le VEMS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle mesure la CVF.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle mesure le rapport VEMS/CVF.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est l'examen de base des EFR.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle permet de mesurer le Volume Résiduel.",
+          "correct": false
+        }
+      ],
+      "explanation": "La spirométrie forcée est l'examen clé qui mesure le VEMS, la CVF et le rapport VEMS/CVF. C'est l'examen de base des EFR. Elle ne permet pas de mesurer le Volume Résiduel."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de l'augmentation du volume thoracique lors de l'inspiration ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Expansion des poumons via la plèvre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pression intra-alvéolaire devient inférieure à la pression atmosphérique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Création d'un gradient de pression qui fait entrer l'air dans les poumons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Équilibration des pressions intra-alvéolaire et atmosphérique à la fin de l'inspiration.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la pression intra-alvéolaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'augmentation du volume thoracique entraîne une expansion des poumons via la plèvre. La pression intra-alvéolaire devient alors inférieure à la pression atmosphérique, créant un gradient de pression qui fait entrer l'air dans les poumons jusqu'à l'équilibration des pressions."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du Volume Résiduel (VR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est le volume d'air qui reste dans les poumons après une expiration maximale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il ne peut pas être mesuré par spirométrie simple.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est nécessaire pour le calcul de la Capacité Pulmonaire Totale (CPT).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est inclus dans la Capacité Vitale (CV).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours de 500 mL.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VR est le volume d'air qui reste dans les poumons après une expiration maximale et ne peut pas être mesuré par spirométrie simple. Sa mesure est nécessaire pour calculer la CPT. Il n'est pas inclus dans la CV et sa valeur n'est pas fixe à 500 mL."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions nécessaires pour réaliser une manœuvre d'expiration forcée correcte en spirométrie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inspiration maximale préalable.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Expiration la plus forte et la plus rapide possible.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maintien de l'expiration pendant au moins 6 secondes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le patient doit être en position couchée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La manœuvre doit être répétée 3 fois sans interruption.",
+          "correct": false
+        }
+      ],
+      "explanation": "Après une inspiration maximale, on demande au patient d'expirer le plus fort et le plus vite possible, et de maintenir l'expiration pendant au moins 6 secondes. La position ou le nombre de répétitions ne sont pas spécifiés comme des conditions de la manœuvre elle-même dans le texte."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une diminution de la Capacité Vitale Forcée (CVF) avec un rapport VEMS/CVF normal. Quelles conclusions peut-on tirer de ces résultats spirométriques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un Trouble Ventilatoire Restrictif (TVR) est fortement suspecté.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le diagnostic de certitude de TVR nécessite la mesure de la CPT.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La CPT sera probablement diminuée (< 80% de la valeur théorique) en cas de TVR confirmé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ces résultats sont typiques d'un Trouble Ventilatoire Obstructif (TVO).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La compliance pulmonaire est probablement augmentée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une diminution de la CVF avec un rapport VEMS/CVF normal ou augmenté suspecte un TVR. Le diagnostic de certitude nécessite la mesure de la CPT (par pléthysmographie) qui sera diminuée (< 80% de la valeur théorique). Ces résultats ne sont pas typiques d'un TVO. Dans un TVR, la compliance est généralement basse."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un trouble ventilatoire mixte est caractérisé par quelles associations de paramètres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la Capacité Pulmonaire Totale (CPT).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution du rapport VEMS/CVF.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la Capacité Vitale Forcée (CVF).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un rapport VEMS/CVF normal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du Volume Résiduel (VR).",
+          "correct": false
+        }
+      ],
+      "explanation": "Un trouble ventilatoire mixte associe les caractéristiques des deux syndromes, c'est-à-dire une diminution de la CPT (caractéristique restrictive) et une diminution du rapport VEMS/CVF (caractéristique obstructive)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications d'une haute compliance pulmonaire sur le travail respiratoire et les pathologies associées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le poumon se distend facilement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le travail respiratoire est diminué pour un même volume.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'emphysème est un exemple de pathologie associée à une haute compliance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le tissu élastique est détruit dans les cas de haute compliance.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La fibrose pulmonaire est une cause de haute compliance.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une haute compliance signifie que le poumon se distend facilement. L'emphysème est un exemple où le tissu élastique est détruit, entraînant une haute compliance. Cela ne diminue pas nécessairement le travail respiratoire global, mais modifie sa répartition. La fibrose pulmonaire est une cause de basse compliance."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la loi de Poiseuille, comment une bronchoconstriction affecte-t-elle les résistances des voies aériennes et le travail respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La résistance est inversement proportionnelle au rayon à la puissance 4.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une faible diminution du calibre bronchique augmente massivement les résistances.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'asthme et la BPCO sont des exemples de pathologies où les résistances sont augmentées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le travail respiratoire est augmenté.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compliance pulmonaire est directement affectée par la bronchoconstriction.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon la loi de Poiseuille, la résistance est inversement proportionnelle au rayon à la puissance 4 (R ∝ 1/r^4). Ainsi, une faible diminution du calibre bronchique (bronchoconstriction dans l'asthme, inflammation dans la BPCO) augmente massivement les résistances et le travail respiratoire. La compliance est une propriété distincte des résistances."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences fondamentales entre les volumes et capacités pulmonaires mesurables par spirométrie simple et ceux nécessitant une pléthysmographie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La spirométrie simple mesure les volumes d'air mobilisables.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pléthysmographie est nécessaire pour mesurer le Volume Résiduel (VR).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Capacité Pulmonaire Totale (CPT) ne peut être calculée qu'avec la mesure du VR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Capacité Vitale (CV) est un volume non mobilisable.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La Capacité Résiduelle Fonctionnelle (CRF) est mesurable par spirométrie simple.",
+          "correct": false
+        }
+      ],
+      "explanation": "La spirométrie simple mesure les volumes mobilisables (VC, VRI, VRE, CV, CI). Le VR est un volume non mobilisable qui ne peut pas être mesuré par spirométrie simple et nécessite la pléthysmographie. La CPT nécessite la mesure du VR pour être calculée. La CV est un volume mobilisable. La CRF inclut le VR, donc n'est pas mesurable par spirométrie simple."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'augmentation du volume thoracique est-elle médiatisée pour entraîner l'expansion des poumons ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par la contraction directe des muscles lisses bronchiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par l'action de la plèvre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par la création d'une pression négative intra-pleurale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par l'augmentation de la pression intra-alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par la rigidité intrinsèque du tissu pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'augmentation du volume thoracique entraîne une expansion des poumons via la plèvre. Cela implique la création d'une pression négative (inférieure à la pression atmosphérique) dans l'espace pleural, qui 'tire' les poumons vers l'extérieur. La pression intra-alvéolaire diminue, et les muscles lisses bronchiques ne sont pas le mécanisme principal de l'expansion pulmonaire globale."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences physiologiques directes du relâchement des muscles inspiratoires et du retour élastique des poumons lors de l'expiration au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution du volume thoracique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pression intra-alvéolaire devient supérieure à la pression atmosphérique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'air est chassé des poumons.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du gradient de pression entre les alvéoles et l'atmosphère.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contraction des muscles intercostaux internes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le relâchement des muscles inspiratoires et le retour élastique des poumons et de la paroi thoracique à leur position de repos entraînent une diminution du volume thoracique. La pression intra-alvéolaire devient alors supérieure à la pression atmosphérique, et l'air est chassé des poumons. Les muscles intercostaux internes sont impliqués dans l'expiration forcée, pas au repos."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient asthmatique en crise présente une bronchoconstriction. Quelles sont les conséquences attendues sur les paramètres de la mécanique ventilatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des résistances des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution du rapport VEMS/CVF.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du travail respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la compliance pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation du Volume Courant (VC).",
+          "correct": false
+        }
+      ],
+      "explanation": "La bronchoconstriction dans l'asthme augmente massivement les résistances des voies aériennes, ce qui se traduit par une diminution du rapport VEMS/CVF (TVO) et une augmentation du travail respiratoire. La compliance n'est pas directement affectée de manière significative par la bronchoconstriction aiguë, et le VC peut être affecté mais pas nécessairement augmenté."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi la mesure de la Capacité Pulmonaire Totale (CPT) est-elle indispensable pour confirmer le diagnostic de Trouble Ventilatoire Restrictif (TVR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La CPT est le volume total d'air contenu dans les poumons à la fin d'une inspiration maximale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une CPT diminuée (< 80% de la valeur théorique) est le critère de certitude du TVR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La CPT inclut le Volume Résiduel (VR) qui n'est pas mesurable par spirométrie simple.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Capacité Vitale (CVF ou CV) seule peut être diminuée dans un TVO sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La CPT est le seul paramètre qui reflète la rigidité pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CPT est le volume total d'air contenu dans les poumons à la fin d'une inspiration maximale. Une CPT diminuée (< 80% de la valeur théorique) est le critère de certitude du TVR. La CPT inclut le VR, nécessitant la pléthysmographie. La CVF ou CV peut être diminuée dans un TVO sévère, rendant la CPT nécessaire pour la distinction. La CPT reflète la réduction des volumes, qui est une conséquence de la rigidité, mais n'est pas le seul paramètre."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une basse compliance pulmonaire sur la physiologie respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le poumon est rigide et difficile à distendre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le travail respiratoire est augmenté.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est typique de la fibrose pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est typique de l'emphysème.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle entraîne une diminution des résistances des voies aériennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une basse compliance signifie que le poumon est rigide et difficile à distendre, ce qui augmente le travail respiratoire. La fibrose pulmonaire et l'œdème pulmonaire sont des exemples. L'emphysème est associé à une haute compliance. La compliance et les résistances sont des propriétés distinctes."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un rapport VEMS/CVF < 70%. Quelles sont les caractéristiques associées à cette observation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnostic de Trouble Ventilatoire Obstructif (TVO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Difficulté à vider l'air des poumons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VEMS diminué de façon disproportionnée par rapport à la CVF.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Peut être observé dans la BPCO.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Indique une réduction des volumes pulmonaires mobilisables.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un rapport VEMS/CVF < 70% définit un TVO, caractérisé par une difficulté à vider l'air des poumons et un VEMS diminué de façon disproportionnée par rapport à la CVF. La BPCO est un exemple typique. La réduction des volumes pulmonaires mobilisables est caractéristique du TVR."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences entre la Capacité Vitale (CV) et la Capacité Vitale Forcée (CVF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La CV est le volume maximal d'air mobilisable, mesuré lors d'une expiration lente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La CVF est le volume total d'air expiré lors d'une manœuvre d'expiration forcée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La CVF est généralement égale ou légèrement inférieure à la CV chez les sujets sains.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La CVF est un meilleur indicateur de la perméabilité des voies aériennes que la CV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La CVF est toujours supérieure à la CV.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CV est le volume maximal d'air mobilisable, souvent mesuré lors d'une expiration lente. La CVF est le volume total d'air expiré lors d'une manœuvre forcée. Chez les sujets sains, la CVF est généralement égale ou légèrement inférieure à la CV. La CVF, en tant que composante du rapport de Tiffeneau, est plus pertinente pour évaluer la perméabilité des voies aériennes dans le contexte de l'obstruction."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les déterminants de la pression intra-alvéolaire lors du cycle respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le volume thoracique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pression atmosphérique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'activité des muscles respiratoires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La compliance pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les résistances des voies aériennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pression intra-alvéolaire est déterminée par le volume thoracique (qui est modifié par l'activité des muscles respiratoires) et la pression atmosphérique. Lors de l'inspiration, l'augmentation du volume thoracique (par contraction musculaire) rend la pression intra-alvéolaire inférieure à la pression atmosphérique. Lors de l'expiration au repos, la diminution du volume thoracique (par relâchement musculaire et retour élastique) rend la pression intra-alvéolaire supérieure à la pression atmosphérique."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications cliniques de la compréhension des bases physiologiques de la ventilation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interpréter les signes cliniques d'une pathologie respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utiliser à bon escient les explorations fonctionnelles respiratoires (EFR).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diagnostiquer les principaux syndromes ventilatoires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Quantifier la fonction respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déterminer la composition gazeuse du sang artériel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Comprendre les bases physiologiques de la ventilation est indispensable pour interpréter les signes cliniques d'une pathologie respiratoire, utiliser à bon escient les EFR, quantifier la fonction respiratoire et diagnostiquer les principaux syndromes ventilatoires. La détermination de la composition gazeuse du sang artériel est une autre étape des échanges gazeux, non directement couverte par la mécanique ventilatoire."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques distinctives entre un Trouble Ventilatoire Obstructif (TVO) et un Trouble Ventilatoire Restrictif (TVR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le TVO est défini par un rapport VEMS/CVF diminué, tandis que le TVR a un rapport normal ou augmenté.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le TVO traduit une difficulté à vider l'air, alors que le TVR traduit une réduction des volumes pulmonaires mobilisables.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le diagnostic de certitude du TVO repose sur la mesure de la CPT, contrairement au TVR.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'asthme est un exemple de TVO, et la fibrose pulmonaire est un exemple de TVR.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Dans le TVO, la CVF est toujours normale, alors qu'elle est diminuée dans le TVR.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TVO est défini par un rapport VEMS/CVF diminué, le TVR par un rapport normal ou augmenté. Le TVO est une difficulté à vider l'air, le TVR une réduction des volumes. L'asthme est un TVO, la fibrose un TVR. Le diagnostic de certitude du TVR repose sur la CPT, pas du TVO. La CVF peut être diminuée dans les deux cas, mais pour des raisons différentes."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications de la destruction du tissu élastique dans l'emphysème sur la compliance pulmonaire et le travail respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la compliance pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le poumon se distend plus facilement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la capacité du poumon à revenir à sa position de repos.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du travail respiratoire expiratoire passif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution des résistances des voies aériennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans l'emphysème, la destruction du tissu élastique entraîne une haute compliance, ce qui signifie que le poumon se distend facilement. Cependant, cela diminue également la capacité du poumon à revenir à sa position de repos, rendant l'expiration passive moins efficace et pouvant augmenter le travail expiratoire. Les résistances sont une propriété distincte."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles de la plèvre dans la mécanique ventilatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurer l'expansion des poumons lors de l'augmentation du volume thoracique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Créer une liaison mécanique entre les poumons et la cage thoracique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Permettre le glissement des poumons sur la paroi thoracique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Produire le surfactant pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Participer activement à la contraction musculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'augmentation du volume thoracique entraîne une expansion des poumons via la plèvre, qui assure une liaison mécanique et permet le glissement. Le surfactant est produit par les pneumocytes, et la plèvre ne participe pas à la contraction musculaire."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les volumes et capacités pulmonaires qui ne peuvent pas être mesurés par spirométrie simple et pourquoi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le Volume Résiduel (VR), car il reste dans les poumons après une expiration maximale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La Capacité Résiduelle Fonctionnelle (CRF), car elle inclut le VR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La Capacité Pulmonaire Totale (CPT), car elle nécessite la mesure du VR.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le Volume Courant (VC), car il est trop petit.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le Volume de Réserve Inspiratoire (VRI), car il est trop variable.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le VR ne peut pas être mesuré par spirométrie simple car il reste dans les poumons après une expiration maximale. La CRF (VRE + VR) et la CPT (CV + VR) ne peuvent pas non plus être mesurées par spirométrie simple car elles incluent le VR. Le VC et le VRI sont mesurables par spirométrie simple."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une inflammation bronchique chronique (comme dans la BPCO) sur les propriétés mécaniques des voies aériennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des résistances des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution du calibre bronchique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du travail respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la compliance pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la Capacité Vitale Forcée (CVF).",
+          "correct": true
+        }
+      ],
+      "explanation": "L'inflammation bronchique chronique dans la BPCO entraîne une diminution du calibre bronchique, ce qui augmente massivement les résistances des voies aériennes et le travail respiratoire. Cela se traduit par un TVO avec une diminution du rapport VEMS/CVF et souvent une diminution de la CVF. La compliance n'est pas directement augmentée par l'inflammation bronchique."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étapes clés de l'interprétation des résultats spirométriques pour le diagnostic des syndromes ventilatoires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Évaluer le rapport de Tiffeneau (VEMS/CVF) pour identifier un trouble obstructif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si le rapport VEMS/CVF est normal, évaluer la Capacité Vitale (CVF ou CV) pour suspecter un trouble restrictif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Confirmer un trouble restrictif par la mesure de la CPT (pléthysmographie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rechercher une diminution de la CPT et du rapport VEMS/CVF pour un trouble mixte.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La spirométrie seule suffit pour diagnostiquer tous les types de troubles ventilatoires.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'analyse spirométrique permet de définir les syndromes ventilatoires en évaluant le rapport VEMS/CVF pour l'obstruction, puis la CVF/CV pour la suspicion de restriction, confirmée par la CPT. Un trouble mixte associe les caractéristiques des deux. La spirométrie seule ne suffit pas pour le diagnostic de certitude du TVR, qui nécessite la pléthysmographie pour la CPT."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une diminution du volume thoracique lors de l'expiration au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression intra-alvéolaire devient supérieure à la pression atmosphérique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'air est chassé des poumons.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le gradient de pression est inversé par rapport à l'inspiration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les muscles inspiratoires se contractent.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les poumons se distendent.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors de l'expiration au repos, le volume thoracique diminue. Cela entraîne une pression intra-alvéolaire supérieure à la pression atmosphérique, créant un gradient de pression qui chasse l'air des poumons. Les muscles inspiratoires se relâchent, et les poumons se rétractent, non se distendent."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la Capacité Inspiratoire (CI) et son utilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est le volume maximal pouvant être inspiré après une expiration normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est la somme du Volume Courant (VC) et du Volume de Réserve Inspiratoire (VRI).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est un indicateur de la capacité du patient à prendre une grande inspiration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours égale à la Capacité Vitale (CV).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est mesurable uniquement par pléthysmographie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CI est le volume maximal pouvant être inspiré après une expiration normale, et est égale à VC + VRI. Elle est un indicateur de la capacité inspiratoire. Elle n'est pas toujours égale à la CV (CV = CI + VRE) et est mesurable par spirométrie simple."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes qui contribuent à l'augmentation du volume vertical de la cage thoracique lors de l'inspiration au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La contraction du diaphragme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'abaissement du diaphragme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'élévation des côtes par les muscles intercostaux externes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La contraction des muscles abdominaux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le retour élastique de la paroi thoracique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'augmentation du volume vertical de la cage thoracique est principalement assurée par la contraction et l'abaissement du diaphragme. L'élévation des côtes par les muscles intercostaux externes augmente les diamètres antéropostérieur et transversal, pas principalement le volume vertical. Les muscles abdominaux sont pour l'expiration forcée, et le retour élastique pour l'expiration passive."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales différences entre les volumes pulmonaires simples et les capacités pulmonaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les volumes pulmonaires simples décrivent la quantité d'air à un moment précis du cycle respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les capacités pulmonaires sont la somme de plusieurs volumes simples.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Volume Courant (VC) est un volume simple, tandis que la Capacité Vitale (CV) est une capacité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les volumes simples sont toujours mesurables par spirométrie, contrairement aux capacités.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les capacités incluent toujours le Volume Résiduel (VR).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les volumes pulmonaires simples décrivent la quantité d'air à différents moments du cycle respiratoire. Les capacités sont la somme de plusieurs volumes. Le VC est un volume simple, la CV est une capacité. Certains volumes simples (VR) ne sont pas mesurables par spirométrie, et certaines capacités (CI, CV) le sont. Seules la CRF et la CPT incluent le VR."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'une Capacité Pulmonaire Totale (CPT) diminuée et ses implications ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est un critère de diagnostic de certitude du Trouble Ventilatoire Restrictif (TVR).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle traduit une réduction des volumes pulmonaires mobilisables.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est mesurée par pléthysmographie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent associée à une basse compliance pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est typique de l'asthme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une CPT diminuée (< 80% de la valeur théorique) est le critère de diagnostic de certitude du TVR. Elle traduit une réduction des volumes pulmonaires mobilisables et est mesurée par pléthysmographie. Elle est souvent associée à une basse compliance pulmonaire (ex: fibrose). L'asthme est un TVO, où la CPT peut être normale ou augmentée."
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-7",
+  "title": "Pancréatites",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de la pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une inflammation chronique du pancréas due à une fibrose progressive.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une infection bactérienne primaire du parenchyme pancréatique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une inflammation aiguë du pancréas résultant de l'activation intracellulaire ou intracanalaire des pro-enzymes pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une nécrose ischémique du pancréas due à une thrombose artérielle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une réaction auto-immune affectant spécifiquement les îlots de Langerhans.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pancréatite aiguë est définie comme une inflammation aiguë du pancréas par activation intracellulaire ou intracanalaire des pro-enzymes pancréatiques."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes fonctionnels suivants, lesquels sont fréquemment associés à une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur abdominale épigastrique transfixiante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des vomissements alimentaires puis bilieux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diarrhée profuse et aqueuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un iléus réflexe avec arrêt des matières et des gaz.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une polyurie avec polydipsie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur abdominale (90%), les vomissements (50%) et l'iléus réflexe (30%) sont des signes fonctionnels fréquents de la pancréatite aiguë."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le critère biologique essentiel pour le diagnostic de pancréatite aiguë, en association avec une douleur typique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une élévation de la CRP supérieure à 150 mg/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une lipasémie supérieure à 3 fois la normale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperleucocytose supérieure à 12 G/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hyperamylasémie isolée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperbilirubinémie conjuguée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'association d'une douleur typique et d'une lipasémie supérieure à 3 fois la normale pose le diagnostic de pancréatite aiguë."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen d'imagerie est systématiquement recommandé dès l'admission pour rechercher une étiologie spécifique de la pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le scanner abdominal injecté.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'échographie abdominale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La bili-IRM.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'écho-endoscopie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La radiographie d'abdomen sans préparation.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie abdominale est systématique dès l'admission pour le diagnostic de lithiase vésiculaire, une cause fréquente de pancréatite aiguë."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de mortalité en cas de surinfection de nécrose pancréatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hémorragie digestive haute.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La défaillance cardio-vasculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La surinfection de nécrose pancréatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'insuffisance rénale aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'encéphalopathie pancréatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surinfection de nécrose pancréatique est la cause principale de mortalité, responsable de 50 à 80% des décès."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la douleur abdominale typique de la pancréatite aiguë, quelles sont ses caractéristiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement localisée à l'hypochondre gauche.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est volontiers transfixiante et irradie dans le dos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle s'aggrave progressivement en quelques heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent soulagée par les antalgiques de niveau 1.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par une position antalgique en chien de fusil.",
+          "correct": true
+        }
+      ],
+      "explanation": "La douleur est volontiers transfixiante, irradie dans le dos, s'aggrave progressivement en quelques heures et la position antalgique en chien de fusil est caractéristique. Elle est résistante aux antalgiques."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations sont exactes concernant la lipasémie dans le diagnostic de pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son élévation est toujours proportionnelle à la gravité de la pancréatite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle peut être fugace et maximale entre 24 et 48 heures après l'apparition des symptômes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une lipasémie inférieure à 3 fois la normale élimine formellement le diagnostic si elle est réalisée plus de 48 heures après les symptômes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une lipasémie supérieure à 3 fois la normale, associée à une douleur typique, suffit au diagnostic.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est un marqueur tardif de l'inflammation pancréatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La lipasémie est précoce, parfois fugace, maximale à 24-48h et non liée à la gravité. L'association douleur typique + lipasémie > 3N pose le diagnostic. Une lipasémie < 3N n'élimine pas une pancréatite aiguë si réalisée > 48h après l'apparition des symptômes."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations un scanner abdominal est-il indiqué lors de la prise en charge initiale d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement dès l'admission pour confirmer le diagnostic positif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "D'emblée en cas de doute diagnostique avec d'autres pathologies abdominales aiguës.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Systématiquement dans les 72 à 96 heures après l'apparition des signes pour évaluer la gravité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de suspicion de surinfection de nécrose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour le bilan étiologique de première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un scanner est indiqué d'emblée si doute diagnostique. Un scanner injecté est systématique dans les 72 à 96h après l'apparition des signes pour évaluer la gravité. En cas de certitude diagnostique, aucun examen d'imagerie n'est utile au diagnostic positif."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque indépendants de gravité d'une pancréatite aiguë, liés au terrain du patient ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge inférieur à 40 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'obésité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une insuffisance organique chronique préexistante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le sexe féminin.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence de calculs biliaires de grande taille.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque indépendants de gravité liés au terrain sont l'âge > 80 ans, l'obésité et l'insuffisance organique chronique."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales étiologies de la pancréatite aiguë, représentant 80% des cas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les tumeurs pancréatiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La migration d'un calcul biliaire dans le cholédoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypertriglycéridémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'alcoolisme chronique prolongé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les causes médicamenteuses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans 80% des cas, les étiologies sont la migration d'un calcul biliaire dans le cholédoque (40%) ou l'alcoolisme chronique prolongé (40%)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères du Syndrome de Réponse Inflammatoire Systémique (SRIS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une température corporelle entre 36°C et 38°C.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une fréquence respiratoire supérieure à 20/min ou une PaCO2 inférieure à 32 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une fréquence cardiaque supérieure à 90/min.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une leucocytose entre 4 G/L et 12 G/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une leucocytose supérieure à 12 G/L ou inférieure à 4 G/L, ou des formes immatures supérieures à 10%.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères du SRIS sont: Température > 38°C ou < 36°C, Fréquence respiratoire > 20/min ou PaCO2 < 32 mmHg, Fréquence cardiaque > 90/min, Leucocytose > 12 G/L ou < 4 G/L, formes immatures > 10%."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la prise en charge d'une pancréatite aiguë bénigne, quelles sont les mesures thérapeutiques initiales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une antibiothérapie préventive systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une mise à jeun stricte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une réalimentation orale rapide dès l'admission.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une rééquilibration hydro-électrique rapide.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'administration d'antalgiques adaptés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour une pancréatite aiguë bénigne, les mesures incluent une mise à jeun stricte, une rééquilibration hydro-électrique rapide (5-10 ml/kg/h) et des antalgiques adaptés (niveau 1 à 3). La réalimentation se fait après disparition des douleurs (5-10 jours) et il n'y a pas d'antibiothérapie préventive."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques rares mais évocateurs d'une pancréatite aiguë hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le météorisme abdominal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le signe de Grey-Turner.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La défense abdominale localisée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le signe de Cullen.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La position en chien de fusil.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de Grey-Turner (infiltration hématique des flancs) et de Cullen (ecchymoses péri-ombilicales) sont rares mais évocateurs d'une forme hémorragique."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une pancréatite aiguë sévère nécrosante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente 70-80% des cas de pancréatite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est associée à une mortalité d'environ 20%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle nécessite une hospitalisation en service de médecine générale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est caractérisée par la présence de nécrose pancréatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle ne peut jamais être surinfectée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pancréatite sévère nécrosante représente 20-30% des cas, est associée à 20% de mortalité et nécessite une hospitalisation en USC voire USI. Elle est caractérisée par la nécrose et peut être surinfectée."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle de la CRP dans l'évaluation de la gravité d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est un marqueur retenu dans les scores de gravité clinico-biologiques actuels.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une CRP supérieure à 150 mg/L à 48h est un indicateur de pancréatite grave.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est un marqueur précoce de la nécrose pancréatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle permet de différencier une pancréatite biliaire d'une pancréatite alcoolique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est utile pour le diagnostic positif de la pancréatite aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CRP n'est pas retenue comme score, mais une CRP > 150 mg/L à 48h indique une pancréatite grave."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de lithiase biliaire mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge inférieur à 30 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le sexe masculin.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La surcharge pondérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La multiparité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les antécédents familiaux de lithiase.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque de lithiase biliaire sont l'âge > 50 ans, le sexe féminin, la surcharge pondérale, la multiparité et les antécédents familiaux."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères permettant de retenir une étiologie alcoolique pour une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un alcoolisme prolongé de moins de 5 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une consommation d'alcool inférieure à 5 verres par jour.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un alcoolisme prolongé de plus de 10 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une consommation d'alcool importante, supérieure à 10 verres par jour.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence systématique de calcifications pancréatiques au début de la maladie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour retenir une cause alcoolique, il faut un alcoolisme prolongé > 10 ans et important > 10 verres/jour. Les signes de pancréatite chronique sont souvent absents au début."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications d'hospitalisation en unité de soins continus (USC) ou en réanimation pour une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pancréatite aiguë bénigne sans complication.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un risque d'évolution sévère (terrain, CRP > 150, SIRS persistant, Balthazar ≥ 4).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une défaillance viscérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une lipasémie supérieure à 3N.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une douleur abdominale modérée et transitoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hospitalisation en USC est indiquée si risque d'évolution sévère (terrain, CRP > 150, SIRS persistant, Balthazar ≥ 4). L'hospitalisation en réanimation est indiquée si défaillance viscérale."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la nutrition en cas de pancréatite aiguë sévère, quelle est la recommandation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une réalimentation orale classique dès que possible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une nutrition parentérale totale systématique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une mise à jeun stricte avec nutrition entérale par sonde naso-gastrique ou -jéjunale en continu bas débit.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une nutrition entérale uniquement en cas de vomissements incoercibles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'absence de toute forme de nutrition pendant la phase aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de pancréatite aiguë sévère, la mise à jeun stricte est maintenue et la nutrition entérale par sonde naso-gastrique ou -jéjunale en continu bas débit est recommandée."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan étiologique de première intention d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie abdominale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calcémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Triglycéridémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bili-IRM.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan étiologique de première intention comprend l'échographie abdominale, le bilan hépatique, la calcémie et la triglycéridémie."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du pseudokyste pancréatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est une complication précoce, apparaissant dans les 24 premières heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il résulte de l'organisation et de la liquéfaction des foyers de nécrose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est toujours symptomatique, se manifestant par une douleur intense.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Son diagnostic est réalisé par échographie ou TDM, montrant une lésion hypodense bien limitée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il disparaît spontanément dans la majorité des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pseudokyste est une complication tardive (5 jours à 6 semaines), résultant de l'organisation et liquéfaction des foyers de nécrose. Il peut être asymptomatique ou douloureux. Le diagnostic est échographique ou TDM (lésion hypodense bien limitée). Il peut disparaître spontanément mais aussi s'infecter, se rompre ou saigner."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'une surinfection de nécrose pancréatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apparition précoce, dans les premières 48 heures de la pancréatite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Nouvelles défaillances viscérales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fièvre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome inflammatoire biologique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bulles d'air dans les coulées de nécrose au TDM, particulièrement évocatrices.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surinfection de nécrose apparaît tardivement (1 à 4 semaines). Les signes sont de nouvelles défaillances viscérales, de la fièvre, un syndrome inflammatoire biologique et, rarement mais très évocateur, des bulles d'air dans les coulées de nécrose au TDM en cas de germe anaérobie."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements possibles en cas de surinfection de nécrose pancréatique confirmée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antibiothérapie IV à bonne diffusion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drainage endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Drainage radiologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nécrosectomie chirurgicale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antibiothérapie préventive systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement inclut une antibiothérapie IV à bonne diffusion (C3G, fluoroquinolone, imipénème, métronidazole) et, si nécessaire, un drainage endoscopique, radiologique ou chirurgical (nécrosectomie). L'antibiothérapie préventive n'est pas indiquée."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques biologiques d'une pancréatite d'origine biliaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pic d'hypertransaminasémie très précoce et transitoire, avec ALAT > 3N dans les 48h.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperbilirubinémie due à un blocage du calcul dans l'ampoule de Vater.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une amylase toujours inférieure à 13N.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une élévation isolée de la lipasémie sans autre anomalie hépatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution significative de la calcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pancréatite biliaire est caractérisée par un pic d'hypertransaminasémie très précoce et transitoire (ALAT > 3N dans les 48h) et une hyperbilirubinémie due au blocage du calcul dans l'ampoule de Vater. Les critères de Blamey incluent une amylase > 13N et PAL > 2-3N."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement étiologique recommandé pour une pancréatite aiguë biliaire bénigne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une sphinctérotomie endoscopique en urgence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une cholécystectomie rapide avant réalimentation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une exploration pré-opératoire de la voie biliaire principale par écho-endoscopie ou bili-IRM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie prolongée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surveillance simple sans intervention chirurgicale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une pancréatite bénigne d'origine biliaire, une cholécystectomie rapide est recommandée avant réalimentation, avec exploration pré-opératoire (écho-endoscopie ou bili-IRM) ou per-opératoire de la voie biliaire principale. La sphinctérotomie en urgence est réservée à l'angiocholite associée."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la forme compliquée de pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se manifeste par une douleur abdominale modérée et transitoire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle peut inclure un choc et une dyspnée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut entraîner une oligo-anurie et des signes neurologiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à des signes infectieux dès le début.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle peut se présenter avec une hémorragie.",
+          "correct": true
+        }
+      ],
+      "explanation": "La forme compliquée peut se manifester par un choc, une dyspnée, une oligo-anurie, des signes neurologiques, des signes infectieux (tardifs) et une hémorragie. La douleur modérée et transitoire caractérise la forme atténuée."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les défaillances viscérales pouvant être associées au Syndrome de Réponse Inflammatoire Systémique (SRIS) lors d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un syndrome de détresse respiratoire aiguë (SDRA) avec hypoxémie isolée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une défaillance cardio-vasculaire se manifestant par un choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une insuffisance rénale oligo-anurique d'origine exclusivement organique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une insuffisance rénale oligo-anurique d'origine fonctionnelle dans 75% des cas.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une encéphalopathie pancréatique systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SRIS peut être associé à un SDRA (hypoxémie isolée, détresse respiratoire), une défaillance cardio-vasculaire (choc) et une insuffisance rénale oligo-anurique (fonctionnelle dans 75%, organique par NTA dans 25%). L'encéphalopathie pancréatique n'est pas systématique."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la surinfection de nécrose pancréatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle survient fréquemment sur une pancréatite bénigne oedémateuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est due au passage de bactéries digestives à travers la paroi intestinale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est une cause majeure de mortalité, responsable de 50 à 80% des décès.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle se manifeste toujours par des bulles d'air au TDM.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle peut se présenter sous forme de surinfection de coulées de nécrose non collectées ou d'abcès pancréatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surinfection de nécrose est fréquente au cours des pancréatites nécrosantes (jamais sur une oedémateuse), due au passage de bactéries digestives. C'est la cause principale de mortalité. Les bulles d'air au TDM sont rares mais très évocatrices. Elle peut être sous forme de coulées non collectées ou d'abcès pancréatique."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les autres atteintes digestives possibles au cours d'une pancréatite aiguë sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des ulcères multiples du deuxième duodénum, potentiellement hémorragiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hémorragie intra-péritonéale ou intra-kystique due à une érosion artérielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des fistules internes (duodénale, gastrique, grêle, biliaire, colique, plèvre ou péritoine).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une thrombose splénique, mésentérique ou porte.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une perforation spontanée de l'estomac.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les autres atteintes digestives incluent les ulcères multiples du 2ème duodénum (± hémorragiques), l'hémorragie intra-péritonéale ou intra-kystique (érosion artérielle), les fistules (internes ou extériorisées) et les thromboses (splénique, mésentérique ou porte)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications systémiques non digestives pouvant survenir lors d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une coagulation intravasculaire disséminée (CIVD).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une encéphalopathie pancréatique avec troubles confusionnels et désorientation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome du compartiment abdominal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des lésions cutanées de panniculite (cyto-stéato-nécrose systémique de Weber-Christian).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypercalcémie sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications systémiques incluent la CIVD, l'encéphalopathie pancréatique (3-30%), le syndrome du compartiment abdominal et des lésions cutanées exceptionnelles (panniculites/Weber-Christian). L'hypercalcémie est une cause de PA, mais la PA peut elle-même abaisser la calcémie."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le score de Balthazar, quelles sont les caractéristiques d'un stade E ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pancréas normal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Élargissement du pancréas.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Infiltration de la graisse péri-pancréatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Présence d'une seule coulée de nécrose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Présence d'au moins deux coulées de nécrose ou de bulles dans une coulée ou le pancréas.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le stade E du score de Balthazar correspond à la présence d'au moins deux coulées de nécrose ou de bulles dans une coulée ou le pancréas."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le score de Balthazar, quelle est la signification d'un score CTSI (Computed Tomography Severity Index) de 7 à 10 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un risque faible de pancréatite sévère (8%) et de mortalité (3%).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un risque modéré de pancréatite sévère (35%) et de mortalité (6%).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un risque important de complication (abcès, décès).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un risque très élevé de pancréatite sévère (92%) et de mortalité (12%).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence de nécrose pancréatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un score CTSI ≥ 4 indique un risque important de complication (abcès, décès). Un score de 7 à 10 indique 92% de pancréatite sévère et 12% de mortalité."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de pancréatite biliaire spécifiquement mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des calculs biliaires de petite taille (< 3 mm).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de nombreux calculs (≥ 4).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un canal cystique large.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un âge inférieur à 50 ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le sexe masculin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de pancréatite biliaire sont les calculs de petite taille (< 3 mm), nombreux (≥ 4) et un canal cystique large. L'âge > 50 ans et le sexe féminin sont des FdR de lithiase biliaire en général."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon les critères de Blamey, quels sont les éléments suggestifs d'une pancréatite d'origine biliaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge supérieur à 50 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le sexe masculin.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une amylase supérieure à 13 fois la normale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des ALAT supérieures à 2-3 fois la normale et supérieures aux ASAT.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des PAL supérieures à 2-3 fois la normale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères de Blamey incluent: âge > 50 ans, femme, amylase > 13N, ALAT > 2-3N et > ASAT, PAL > 2-3N."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes rares de pancréatite aiguë mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les tumeurs pancréatiques malignes ou bénignes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les pancréatites post-opératoires ou post-CPRE.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypertriglycéridémie supérieure à 10 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les médicaments tels que l'azathioprine ou le furosémide.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les infections virales comme le VIH ou les oreillons.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutes ces options sont des causes rares de pancréatite aiguë mentionnées dans le texte (tumeurs, post-op/CPRE, hypertriglycéridémie > 10 mmol/L, médicaments comme azathioprine/furosémide, infections virales comme VIH/CMV/oreillon/VHB/entérovirus)."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour une bili-IRM ou une écho-endoscopie dans le bilan étiologique d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement dès l'admission pour toutes les pancréatites.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En l'absence de cause évidente après une échographie abdominale normale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour confirmer le diagnostic positif de pancréatite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de suspicion de pancréatite alcoolique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour évaluer la gravité de la pancréatite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ces examens sont indiqués en l'absence de cause évidente si l'échographie est normale, pour rechercher une étiologie biliaire non visualisée initialement."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de surveillance pluriquotidienne d'une pancréatite aiguë sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance clinique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Créatininémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Saturation en oxygène (SpO2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Numération Formule Sanguine (NFS) une fois par semaine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "CRP deux fois par semaine.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance pluriquotidienne inclut: clinique, créatininémie, SpO2, NFS 1/j, CRP 2/sem. La NFS est quotidienne, pas hebdomadaire."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une pancréatite aiguë, quelles sont les affirmations correctes concernant l'antibiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une antibiothérapie préventive est systématiquement indiquée pour prévenir la surinfection de nécrose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'antibiothérapie est indiquée en cas de surinfection de nécrose confirmée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les fluoroquinolones et l'imipénème sont des antibiotiques à bonne diffusion pancréatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le métronidazole est utile en cas de suspicion de germes anaérobies.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La C3G est contre-indiquée en cas de surinfection de nécrose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il n'y a aucune indication d'antibiothérapie préventive. L'antibiothérapie est indiquée en cas de preuve d'infection. Les C3G, fluoroquinolones, imipénème et métronidazole sont des antibiotiques à bonne diffusion, le métronidazole étant actif sur les anaérobies."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire suspecter une pancréatite aiguë d'origine alcoolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un contexte d'homme d'environ 40 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des signes d'imprégnation alcoolique (VGM, GGT).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence de calcifications pancréatiques dès le début de la maladie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un alcoolisme prolongé de plus de 10 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une consommation d'alcool occasionnelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le contexte (homme, âge ≈ 40 ans), les signes d'imprégnation alcoolique (VGM, GGT) et un alcoolisme prolongé > 10 ans et important > 10 verres/jour sont des éléments suggestifs. Les signes de pancréatite chronique (calcifications) sont souvent absents au début."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les diagnostics différentiels d'une douleur épigastrique brutale à considérer face à une suspicion de pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ulcère perforé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infarctus mésentérique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Péritonite biliaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infarctus du myocarde inférieur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Rupture d'anévrisme de l'aorte abdominale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous les éléments listés sont des diagnostics différentiels d'une douleur épigastrique brutale: ulcère perforé, infarctus mésentérique, péritonite biliaire, IDM inférieur, rupture d'anévrisme de l'aorte abdominale."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la nécrose pancréatique au scanner abdominal injecté ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est visible dès les premières heures de la pancréatite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle se manifeste par une absence de prise de contraste du parenchyme pancréatique au temps injecté.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les coulées de nécrose extra-pancréatiques sont rehaussées au temps artériel.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à des bulles d'air.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est évaluée systématiquement entre 72 et 96 heures après les premiers signes cliniques.",
+          "correct": true
+        }
+      ],
+      "explanation": "La nécrose pancréatique se caractérise par une absence de prise de contraste du parenchyme au temps injecté. Les coulées de nécrose extra-pancréatiques ne sont pas rehaussées au temps artériel. Le scanner injecté est réalisé systématiquement dans les 72 à 96h pour évaluer la gravité."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui, selon le texte, ne sont plus utilisés comme scores de gravité pour la pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le score de Ranson.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le score d'Imrie/Glasgow.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le score APACHE II en réanimation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le score SIRS persistant au-delà de 48h.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La CRP à 48h.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les scores clinico-biologiques (score de Ranson, Imrie/Glasgow ou APACHE II en réa) ont été abandonnés. Le SIRS persistant et la CRP à 48h sont des indicateurs de gravité mais ne sont pas des scores abandonnés."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes infectieuses (virales, bactériennes, parasitaires) de pancréatite aiguë mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VIH, CMV, oreillon, VHB, entérovirus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Légionelle, BK, leptospirose, mycoplasme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ascaridiose, hydatidose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Helicobacter pylori.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Clostridium difficile.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes virales incluent VIH, CMV, oreillon, VHB, entérovirus. Les causes bactériennes incluent légionelle, BK, leptospirose, mycoplasme. Les causes parasitaires incluent ascaridiose, hydatidose."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'insuffisance rénale oligo-anurique associée au SRIS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours d'origine organique par nécrose tubulaire aiguë (NTA).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est d'origine fonctionnelle dans 75% des cas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est d'origine organique par NTA dans 25% des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est une complication tardive, survenant après 4 semaines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours réversible avec une rééquilibration hydro-électrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance rénale oligo-anurique est d'origine fonctionnelle (75%) ou organique par NTA (25%). Le texte ne précise pas le délai d'apparition ni la réversibilité systématique."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la sonde naso-gastrique (SNG) avec aspiration dans la prise en charge d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement pour toutes les pancréatites aiguës.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de vomissements importants et incoercibles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement en cas de pancréatite aiguë sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pour la nutrition entérale en continu bas débit.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une mesure exceptionnelle.",
+          "correct": true
+        }
+      ],
+      "explanation": "La SNG avec aspiration est indiquée en cas de vomissements importants et incoercibles, et est considérée comme exceptionnelle. Pour la nutrition entérale en cas de pancréatite sévère, une sonde naso-gastrique ou -jéjunale est utilisée pour l'alimentation, pas pour l'aspiration systématique."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la pancréatite aiguë bénigne oedémateuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente 20-30% des cas de pancréatite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est associée à une mortalité de 20%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle nécessite une hospitalisation en service de médecine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle ne peut jamais être surinfectée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par une nécrose pancréatique étendue.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pancréatite bénigne oedémateuse représente 70-80% des cas, nécessite une hospitalisation en service de médecine et ne peut jamais être surinfectée. La nécrose et la mortalité de 20% sont associées à la forme sévère nécrosante."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères du score SIRS dont la persistance au-delà de 48h prédit la survenue d'une défaillance viscérale et la mortalité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Température > 38°C ou < 36°C.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fréquence respiratoire > 20/min ou PaCO2 < 32 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fréquence cardiaque > 90/min.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leucocytose > 12 G/L ou < 4 G/L, ou formes immatures > 10%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lipasémie > 3N.",
+          "correct": false
+        }
+      ],
+      "explanation": "La persistance d'un SRIS (≥ 2 critères parmi T° > 38°C ou < 36°C, FR > 20/min ou PaCO2 < 32 mmHg, FC > 90/min, Leucocytose > 12 G/L ou < 4 G/L ou formes immatures > 10%) au-delà de 48h prédit la survenue d'une défaillance viscérale et la mortalité. La lipasémie n'est pas un critère du SRIS."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome du compartiment abdominal dans le contexte d'une pancréatite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est causé par une hémorragie intra-péritonéale isolée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est dû à un œdème viscéral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il peut être aggravé par la présence de coulées de nécrose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est favorisé par un iléus réflexe.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est une complication rare et bénigne.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome du compartiment abdominal est causé par l'œdème viscéral, les coulées de nécrose et l'iléus réflexe. Ce n'est pas une complication bénigne."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments diagnostiques de la surinfection de nécrose pancréatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'apparition tardive, 1 à 4 semaines après la pancréatite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de nouvelles défaillances viscérales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La fièvre et un syndrome inflammatoire biologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La ponction de coulée de nécrose scannoguidée ou écho-guidée pour confirmation bactériologique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence systématique de bulles d'air au TDM.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic repose sur l'apparition tardive (1-4 semaines), de nouvelles défaillances viscérales, fièvre, syndrome inflammatoire biologique, et la confirmation par ponction de coulée de nécrose. Les bulles d'air au TDM sont rares mais évocatrices, non systématiques."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le traitement étiologique d'une pancréatite aiguë biliaire associée à une angiocholite, quelle est la prise en charge spécifique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une cholécystectomie rapide avant réalimentation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une sphinctérotomie endoscopique en urgence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une extraction endoscopique du calcul en urgence.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie IV prolongée sans autre intervention.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surveillance simple sans intervention sur la voie biliaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'angiocholite associée à une pancréatite biliaire, une sphinctérotomie et une extraction endoscopique sont indiquées en urgence. La cholécystectomie est pour la pancréatite bénigne sans angiocholite associée."
+    }
+  ]
+}

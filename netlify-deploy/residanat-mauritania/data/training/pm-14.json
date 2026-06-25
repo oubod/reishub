@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-14",
+  "title": "Cancers broncho-pulmonaires",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque du cancer broncho-pulmonaire, responsable d'environ 90% des cas de cancers pulmonaires chez les fumeurs actifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'exposition à l'amiante",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le tabagisme actif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pollution atmosphérique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'exposition au radon",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tabagisme actif est le principal facteur de risque, étant impliqué dans 90% des cancers pulmonaires. L'âge de début et la durée du tabagisme sont les principaux facteurs de risque associés."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les types histologiques de cancers broncho-pulmonaires non à petites cellules (CBNPC), lequel est le plus fréquent et se localise préférentiellement en périphérie du poumon ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le carcinome épidermoïde",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le carcinome à grandes cellules",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'adénocarcinome",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le carcinome neuro-endocrine",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénocarcinome représente 45% des CBNPC et se développe préférentiellement en périphérie du poumon. Le carcinome épidermoïde est le deuxième plus fréquent (30%) et est plutôt proximal."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage de cancers broncho-pulmonaires qui sont de type à petites cellules (CBPC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "15%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "30%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "45%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cancers à petites cellules représentent 15% des cancers broncho-pulmonaires, tandis que les cancers non à petites cellules représentent 85%."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de mortalité par cancer en France, avec environ 30 000 décès par an ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cancer du sein",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le cancer colorectal",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le cancer de la prostate",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cancer broncho-pulmonaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cancer broncho-pulmonaire est la première cause de mortalité par cancer en France, représentant 20% des décès par cancer."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la survie à 5 ans pour le cancer broncho-pulmonaire, tous stades confondus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "15%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "30%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "50%",
+          "correct": false
+        }
+      ],
+      "explanation": "La survie à 5 ans pour le cancer broncho-pulmonaire est de 15%, ce qui souligne la gravité de cette pathologie."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel symptôme respiratoire est souvent révélateur d'un cancer broncho-pulmonaire et peut être sec, quinteux, rebelle, ou de survenue/modification récente (< 2 mois) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dyspnée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La toux",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La douleur thoracique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La bronchorrhée",
+          "correct": false
+        }
+      ],
+      "explanation": "La toux est un symptôme souvent révélateur du cancer broncho-pulmonaire, caractérisée par sa persistance ou une modification récente."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen d'imagerie est recommandé pour le dépistage du cancer broncho-pulmonaire chez les sujets à risque, bien qu'il n'y ait pas de recommandations officielles en France ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La radiographie pulmonaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le scanner thoracique faible dose",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'IRM thoracique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le PET-scan",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner thoracique faible dose annuel est l'examen dont l'efficacité est prouvée pour le dépistage chez les sujets à risque."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel type de cancer broncho-pulmonaire est caractérisé par une différenciation neuro-endocrine et est initialement chimiosensible avant de devenir chimiorésistant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'adénocarcinome",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le carcinome épidermoïde",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le cancer à grandes cellules",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cancer à petites cellules",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cancer à petites cellules présente une différenciation neuro-endocrine et est connu pour sa chimiosensibilité initiale, suivie d'une chimiorésistance rapide."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque professionnel des cancers broncho-pulmonaires, dont l'effet est multiplicatif avec le tabac ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le chrome",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le nickel",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'amiante",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La silice",
+          "correct": false
+        }
+      ],
+      "explanation": "L'amiante est un carcinogène professionnel majeur, et son association avec le tabac a un effet multiplicatif sur le risque de cancer broncho-pulmonaire (RR = 53)."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage de cancers broncho-pulmonaires révélés à un stade localement avancé ou métastatique (non opérable) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 25%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 50%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plus de 75%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La quasi-totalité des cas",
+          "correct": false
+        }
+      ],
+      "explanation": "Plus de 75% des cancers broncho-pulmonaires sont révélés à un stade localement avancé ou métastatique, ce qui limite les options thérapeutiques curatives."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement de référence pour le cancer broncho-pulmonaire à petites cellules (CBPC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La chirurgie seule",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La radiothérapie seule",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La chimiothérapie seule ou associée à la radiothérapie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les thérapies ciblées",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CBPC est principalement traité par chimiothérapie, souvent associée à la radiothérapie pour la maladie limitée endothoracique. La chirurgie est rarement indiquée."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le marqueur d'immunomarquage fréquemment positif dans l'adénocarcinome pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "p40",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chromagranine A",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "TTF1",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "CD56",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénocarcinome est souvent TTF1+ et CK7+, CK20-. p40 est un marqueur du carcinome épidermoïde, et les autres sont des marqueurs neuro-endocrines du CBPC."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le syndrome paranéoplasique caractérisé par une hyponatrémie due à une sécrétion inappropriée d'ADH, fréquemment associé au cancer à petites cellules ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome de Cushing",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypercalcémie paranéoplasique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome de Schwartz-Bartter",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La polyglobulie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Schwartz-Bartter, caractérisé par une hyponatrémie due à une sécrétion inappropriée d'ADH, est un syndrome paranéoplasique fréquemment associé au cancer à petites cellules."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale complication de la ponction transpariétale à l'aiguille pour le diagnostic des nodules pulmonaires périphériques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hémorragie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le pneumothorax",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'infection",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La douleur intense",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pneumothorax est la complication la plus fréquente de la ponction transpariétale, survenant dans environ 10% des cas, bien qu'il soit souvent minime et bien toléré."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type de cancer broncho-pulmonaire qui peut se présenter sous forme d'opacités pseudo-pneumoniques à la radiographie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le carcinome épidermoïde",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le carcinome à grandes cellules",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'adénocarcinome in situ (carcinome bronchiolo-alvéolaire)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cancer à petites cellules",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome bronchiolo-alvéolaire, un cas particulier d'adénocarcinome in situ, peut se manifester par des opacités pseudo-pneumoniques à la radiographie."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque du cancer broncho-pulmonaire mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le tabagisme actif",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le tabagisme passif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'exposition professionnelle à l'amiante",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'exposition professionnelle au plomb",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tabagisme actif (90% des cas), le tabagisme passif (25% des cancers chez les non-fumeurs) et les carcinogènes professionnels comme l'amiante (15% des cas) sont des facteurs de risque majeurs. Le plomb n'est pas mentionné dans le texte comme carcinogène pulmonaire."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques histologiques de l'adénocarcinome pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est le type histologique le plus fréquent des CBNPC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il se localise préférentiellement en périphérie du poumon.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est souvent p40+ à l'immunomarquage.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il peut présenter des mutations EGFR, ALK ou ROS1.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'adénocarcinome est le plus fréquent des CBNPC (45%), se situe en périphérie et est associé à des mutations oncogéniques comme EGFR, ALK ou ROS1. Le marqueur p40+ est caractéristique du carcinome épidermoïde."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'éligibilité pour le dépistage du cancer broncho-pulmonaire par scanner thoracique faible dose, selon le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Patient de 55 à 74 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fumeur actif ou sevré depuis moins de 15 ans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Consommation tabagique d'au moins 30 paquets-années",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédent familial de cancer du poumon",
+          "correct": false
+        }
+      ],
+      "explanation": "Les sujets à risque éligibles sont les patients de 55 à 74 ans, fumeurs actifs ou sevrés depuis moins de 15 ans, avec une consommation d'au moins 30 paquets-années. L'antécédent familial n'est pas mentionné comme critère d'éligibilité pour le dépistage."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques possibles d'une extension loco-régionale d'un cancer broncho-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un épanchement pleural exsudatif",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dysphonie par paralysie récurrentielle gauche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome de Claude Bernard-Horner",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une polyglobulie",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épanchement pleural, la dysphonie (par compression du nerf récurrentiel) et le syndrome de Claude Bernard-Horner (faisant partie du syndrome de Pancoast-Tobias) sont des signes d'extension loco-régionale. La polyglobulie est un syndrome paranéoplasique, pas un signe d'extension loco-régionale directe."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques radiologiques d'une opacité arrondie intraparenchymateuse suspecte de malignité à la radiographie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taille supérieure à 1 cm",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contours nets et réguliers",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Densité homogène",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aspect spiculé",
+          "correct": true
+        }
+      ],
+      "explanation": "Une opacité suspecte est généralement dense, homogène, de taille > 1 cm (quasi-toujours maligne si > 3 cm), avec des contours irréguliers ou spiculés. Des contours nets et réguliers sont moins évocateurs de malignité."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du PET-scan dans le bilan d'un cancer broncho-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Caractérisation d'un nodule pulmonaire de nature incertaine",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Staging médiastinal d'un cancer opérable périphérique sans adénomégalie évidente",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bilan d'extension d'une tumeur a priori résécable (hors métastase cérébrale)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diagnostic des lésions de moins de 1 cm",
+          "correct": false
+        }
+      ],
+      "explanation": "Le PET-scan est utile pour la caractérisation des nodules incertains, le staging médiastinal et le bilan d'extension des tumeurs résécables. Il présente un risque de faux négatifs pour les lésions de moins de 1 cm ou les nodules non solides en verre dépoli."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les méthodes de prélèvement histologique pour une lésion pulmonaire périphérique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibroscopie bronchique avec biopsies trans-bronchiques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ponction transpariétale à l'aiguille sous guidage TDM",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vidéo-thoracotomie exploratrice",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Biopsie des éperons bronchiques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les lésions périphériques peuvent être atteintes par biopsies trans-bronchiques sous fibroscopie (avec ou sans guidage), ponction transpariétale à l'aiguille, ou vidéo-thoracotomie. La biopsie des éperons bronchiques est pour les lésions centrales."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan d'extension systématique d'un cancer broncho-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TDM thoraco-abdomino-pelvien",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "IRM ou TDM cérébrale injectée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Scintigraphie osseuse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "PET-scan",
+          "correct": true
+        }
+      ],
+      "explanation": "Le TDM thoraco-abdomino-pelvien et l'IRM ou TDM cérébrale injectée sont systématiques. Le PET-scan est essentiel pour les patients éligibles à un traitement locorégional. La scintigraphie osseuse est réalisée sur signe d'appel si le PET-scan n'a pas été fait."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du syndrome de Pancoast-Tobias ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Névralgie cervico-brachiale C8-D1",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Claude Bernard-Horner homolatéral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lyse costale postérieure",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Compression de la veine cave supérieure",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Pancoast-Tobias est caractérisé par une névralgie cervico-brachiale C8-D1, un syndrome de Claude Bernard-Horner homolatéral et une lyse costale postérieure. La compression de la veine cave supérieure est un syndrome distinct."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options thérapeutiques pour un CBNPC résécable et opérable (stade I, II et IIIA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chirurgie (lobectomie + curage ganglionnaire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chimiothérapie adjuvante si stade ≥ II",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiothérapie seule",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Thérapie ciblée en première intention",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un CBNPC résécable et opérable, le traitement repose sur la chirurgie (lobectomie avec curage ganglionnaire) et une chimiothérapie adjuvante est indiquée si le stade est ≥ II. La radiothérapie seule est pour les patients inopérables, et les thérapies ciblées sont pour les stades métastatiques avec addiction oncogénique."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du syndrome cave supérieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Turgescence jugulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème en pèlerine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cyanose de la face",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Névralgie cervico-brachiale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome cave supérieur se manifeste par une turgescence jugulaire, un œdème en pèlerine, une circulation collatérale thoracique antérieure et une cyanose de la face. La névralgie cervico-brachiale est associée au syndrome de Pancoast-Tobias."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs d'immunomarquage positifs dans le cancer à petites cellules (CBPC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chromagranine A",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Synaptophysine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "CD56",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "p40",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CBPC présente une différenciation neuro-endocrine, et est positif pour la chromagranine A, la synaptophysine, le CD56 et la NSE. p40 est un marqueur du carcinome épidermoïde."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options de traitement pour un CBNPC métastatique (stade IV) avec une addiction oncogénique (mutation EGFR ou réarrangement ALK/ROS1) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimiothérapie par doublet de platine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thérapies ciblées (anti-EGFR ou TKI ALK/ROS1)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiothérapie palliative",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immunothérapie en première ligne",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'addiction oncogénique (mutation EGFR ou réarrangement ALK/ROS1), les thérapies ciblées (EGFR-TKI ou TKI ALK/ROS1) sont le traitement de première intention, avec un taux de réponse élevé et une survie médiane de 2 ans. Les autres options sont pour les patients non mutés ou en cas de progression."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques radiologiques des métastases pulmonaires secondaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodules bien limités, de tailles différentes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nodules souvent sous-pleuraux et des lobes inférieurs",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aspect en 'lâcher de ballon'",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nodules calcifiés systématiquement",
+          "correct": false
+        }
+      ],
+      "explanation": "Les métastases pulmonaires se présentent souvent comme des nodules bien limités, de tailles différentes, arrondis et réguliers, souvent sous-pleuraux et des lobes inférieurs, donnant un aspect en 'lâcher de ballon'. La calcification est rare, sauf pour certains primitifs comme l'ostéosarcome."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques du mésothéliome pleural malin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Toux positionnelle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dyspnée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hippocratisme digital",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mésothéliome pleural malin se manifeste par un syndrome pleural incluant douleur thoracique, toux positionnelle et dyspnée, ainsi que des signes généraux comme l'AEG. L'hippocratisme digital est un syndrome paranéoplasique du cancer broncho-pulmonaire primitif."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'inopérabilité d'un patient pour une chirurgie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VEMS prédit en post-opératoire < 1L",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "VEMS prédit en post-opératoire < 30% du théorique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypercapnie en pré-opératoire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un âge supérieur à 75 ans",
+          "correct": false
+        }
+      ],
+      "explanation": "Un patient est considéré comme non opérable si le VEMS prédit en post-opératoire est inférieur à 1L ou à 30% du théorique, ou en cas d'hypercapnie en pré-opératoire. L'âge seul n'est pas un critère d'inopérabilité mentionné."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options de traitement symptomatique pour une obstruction bronchique due à un cancer broncho-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibroscopie interventionnelle (électrocoagulation, laser, cryothérapie)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pose de prothèse endobronchique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chimiothérapie systémique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Radiothérapie externe",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour l'obstruction bronchique, les traitements locaux par fibroscopie interventionnelle (électrocoagulation, laser, cryothérapie) et la pose de prothèse endobronchique sont indiqués. La chimiothérapie et la radiothérapie sont des traitements étiologiques mais pas des traitements symptomatiques directs de l'obstruction aiguë."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan pré-thérapeutique pour un CBNPC, une fois le diagnostic histologique établi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Évaluation de l'état général (Performance Status, Karnofsky)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan nutritionnel (perte de poids, IMC, albuminémie)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Paramètres cardio-respiratoires (ECG, ETT, EFR)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Marqueurs tumoraux (NSE, Cyfra21)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan pré-thérapeutique inclut l'évaluation de l'état général, le bilan nutritionnel et les paramètres cardio-respiratoires. Les marqueurs tumoraux ne sont pas recommandés en pratique courante en raison de leur faible spécificité et sensibilité."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'ostéoarthropathie hypertrophiante pneumique de Pierre Marie-Foix ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hippocratisme digital",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Poly-arthralgies",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Œdème douloureux des extrémités",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lyse costale",
+          "correct": false
+        }
+      ],
+      "explanation": "Ce syndrome paranéoplasique est caractérisé par l'hippocratisme digital, des poly-arthralgies, des troubles vasomoteurs avec œdème douloureux des extrémités et une hypertrophie des extrémités des membres. La lyse costale est associée au syndrome de Pancoast-Tobias."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options de traitement pour un CBNPC localement avancé (stade IIIB) non résécable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiothérapie + chimiothérapie concomitante ou séquentielle",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chirurgie seule",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Thérapie ciblée seule",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immunothérapie en première intention",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un CBNPC localement avancé (stade IIIB) non résécable, le traitement repose sur la radiothérapie associée à une chimiothérapie (doublet à base de sel de platine), de manière concomitante ou séquentielle. La chirurgie n'est pas indiquée à ce stade non résécable, et les thérapies ciblées ou l'immunothérapie sont généralement réservées aux stades métastatiques ou en cas de progression."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une toux rebelle, une dysphonie et un syndrome de Claude Bernard-Horner homolatéral. Quels diagnostics d'extension loco-régionale du cancer broncho-pulmonaire sont les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome cave supérieur",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Paralysie récurrentielle gauche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Pancoast-Tobias",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Envahissement péricardique",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysphonie évoque une paralysie récurrentielle (souvent gauche par compression ganglionnaire). Le syndrome de Claude Bernard-Horner est une composante du syndrome de Pancoast-Tobias (tumeur de l'apex). Le syndrome cave supérieur n'inclut pas ces symptômes spécifiques, et l'envahissement péricardique se manifeste par une tamponnade ou des arythmies."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des addictions oncogéniques dans le cancer broncho-pulmonaire non à petites cellules (CBNPC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont principalement retrouvées dans les adénocarcinomes des non-fumeurs ou petits fumeurs.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La mutation EGFR est plus fréquente chez les femmes et les asiatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les réarrangements ALK ou ROS1 concernent environ 5% des CBNPC.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont traitées par chimiothérapie conventionnelle en première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les addictions oncogéniques sont typiques des adénocarcinomes chez les non-fumeurs ou petits fumeurs. La mutation EGFR est plus fréquente chez les femmes et les asiatiques. Les réarrangements ALK ou ROS1 sont présents dans environ 5% des CBNPC. Ces addictions sont traitées par thérapies ciblées spécifiques (anti-EGFR, crizotinib), et non par chimiothérapie conventionnelle en première intention."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où une radiographie thoracique normale n'élimine pas le diagnostic de cancer bronchique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions de petite taille",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions masquées par d'autres structures",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Carcinome bronchiolo-alvéolaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Adénocarcinome in situ",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte indique explicitement qu'une radiographie thoracique normale n'élimine pas le diagnostic de cancer bronchique. Cela peut être dû à la petite taille de la lésion, à son masquage, ou à des formes particulières comme le carcinome bronchiolo-alvéolaire (adénocarcinome in situ) qui peut se présenter comme des opacités pseudo-pneumoniques moins évidentes."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour une analyse de biologie moléculaire systématique dans le CBNPC ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de cancer non à petites cellules non épidermoïde",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si le stade est III ou IV",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour rechercher les mutations EGFR, ALK, ROS1",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour tous les types histologiques de CBNPC",
+          "correct": false
+        }
+      ],
+      "explanation": "La biologie moléculaire est systématique en cas de cancer non à petites cellules non épidermoïde de stade III/IV, pour rechercher les mutations EGFR, ALK, ROS1, KRAS, B-Raf, HER2. Elle n'est pas systématique pour tous les types histologiques de CBNPC, notamment le carcinome épidermoïde."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du cancer broncho-pulmonaire à petites cellules (CBPC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est généralement volumineux et se localise préférentiellement dans les voies aériennes proximales et le médiastin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est fréquemment associé à des compressions bronchiques extrinsèques et médiastinales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est initialement chimiosensible mais développe rapidement une chimiorésistance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est rarement associé à des syndromes paranéoplasiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CBPC est souvent volumineux, proximal et médiastinal, entraînant des compressions. Il est initialement chimiosensible mais devient rapidement chimiorésistant. Il est fréquemment associé à des syndromes paranéoplasiques (ex: Schwartz-Bartter, Cushing, neurologiques)."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options de traitement pour un CBNPC métastatique (stade IV) non muté, avec un état général conservé (PS 0-1) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimiothérapie par 4-6 cures de platine en doublet",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ajout d'un anti-angiogénique (bevacizumab) si adénocarcinome sans antécédents d'hémoptysie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traitement de maintenance par une seule chimiothérapie ou anti-VEGF",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Immunothérapie en première ligne",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les patients non mutés avec un bon état général, la chimiothérapie par 4-6 cures de platine en doublet est le traitement de première ligne. Le bevacizumab peut être ajouté en cas d'adénocarcinome sans antécédents d'hémoptysie. Un traitement de maintenance est ensuite envisagé. L'immunothérapie est mentionnée en cas de progression sous première ligne."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du mésothéliome pleural malin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une tumeur rare de pronostic très sombre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'exposition à l'amiante est le principal facteur de risque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le tabac potentialise l'effet de l'amiante sur le risque de mésothéliome.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic histologique est souvent confirmé par ponction pleurale simple.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le mésothéliome est une tumeur rare de pronostic sombre, fortement liée à l'amiante. Le tabac n'est pas un facteur de risque du mésothéliome mais potentialise l'effet de l'amiante sur le cancer broncho-pulmonaire. La ponction pleurale peut retrouver des cellules malignes, mais une confirmation histologique par biopsie (vidéo-thoracoscopie) est nécessaire."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options de prise en charge d'un épanchement pleural exsudatif abondant et récidivant après ponction pleurale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxygénothérapie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pleuroscopie avec symphyse par talcage",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cathéter pleural tunnélisé pour drainage à demeure",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie systémique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'oxygénothérapie est un traitement symptomatique. La pleuroscopie avec talcage est une option pour prévenir la récidive. En seconde intention, un cathéter pleural tunnélisé peut être posé. La chimiothérapie est un traitement étiologique mais ne gère pas directement la récidive mécanique de l'épanchement."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à rechercher dans le bilan d'un cancer primitif inconnu avec métastase pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen clinique complet et explorations adaptées",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "PET-scan",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Histologie de la métastase pulmonaire si aucun primitif connu ou antécédent de cancer ancien",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "TDM abdomino-pelvienne systématique",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan initial comprend un examen clinique complet et des explorations adaptées, un PET-scan est recommandé. L'histologie de la métastase est indiquée si le primitif est inconnu ou en cas d'antécédent de cancer ancien. Un TDM abdomino-pelvien est réalisé en l'absence d'orientation, avec mammographie chez la femme et PSA/TR chez l'homme."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome de Schwartz-Bartter ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sécrétion inappropriée d'ADH",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyponatrémie < 135 mmol/L",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypo-osmolarité plasmatique avec hyper-osmolarité urinaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypercalcémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Schwartz-Bartter est un syndrome de sécrétion inappropriée d'ADH, entraînant une rétention d'eau libre excessive. Il se manifeste par une hyponatrémie (< 135 mmol/L) et une hypo-osmolarité plasmatique avec une osmolarité urinaire inadaptée (hyper-osmolarité urinaire). L'hypercalcémie est un autre syndrome paranéoplasique, mais pas lié au Schwartz-Bartter."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options de surveillance pour un CBNPC opéré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suivi clinique tous les 6 mois pendant au moins 5 ans",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Radiographie pulmonaire (RP) et/ou TDM thoracique tous les 6 mois",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fibroscopie bronchique annuelle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "EFR tous les 6 mois",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance d'un CBNPC opéré inclut un suivi clinique, une RP ± TDM, une fibroscopie et des EFR, le tout tous les 6 mois pendant au moins 5 ans."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du stade T4 dans la classification TNM du cancer broncho-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur de plus de 7 cm",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Atteinte de la carène ou de la trachée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte du diaphragme ou du médiastin",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nodule tumoral distinct dans un autre lobe homolatéral",
+          "correct": true
+        }
+      ],
+      "explanation": "Le stade T4 inclut une tumeur de plus de 7 cm, l'atteinte de la carène, de la trachée, du diaphragme, du médiastin, du cœur, des gros vaisseaux, du nerf récurrent, de l'œsophage, d'une vertèbre, ou un nodule tumoral distinct dans un autre lobe homolatéral."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options de traitement pour les métastases osseuses douloureuses d'un cancer broncho-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiothérapie focale à visée antalgique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chirurgie (enclouage, laminectomie) si indiquée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Biphosphonates",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vertébroplastie per-cutanée en cas de métastase vertébrale",
+          "correct": true
+        }
+      ],
+      "explanation": "Les métastases osseuses peuvent être traitées par radiothérapie focale antalgique, chirurgie (enclouage, laminectomie) si indiquée, biphosphonates, et vertébroplastie per-cutanée pour les métastases vertébrales."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du stade M1a dans la classification TNM ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodule tumoral distinct controlatéral",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nodules pleuraux ou péricardiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épanchement pleural ou péricardique malin",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Métastase extra-thoracique unique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le stade M1a correspond à un nodule tumoral distinct controlatéral, des nodules pleuraux ou péricardiques, ou un épanchement pleural ou péricardique malin. Une métastase extra-thoracique unique est classée M1b."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures associées à la prise en charge du mésothéliome pleural malin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déclaration de maladie professionnelle",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dédommagement financier par le FIVA (fond d'indemnisation des victimes de l'amiante)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déclaration obligatoire par notification anonyme à l'ARS",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chirurgie curatrice systématique",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge du mésothéliome inclut la déclaration de maladie professionnelle, le dédommagement par le FIVA et la déclaration obligatoire à l'ARS. La chirurgie curatrice est exceptionnellement réalisée au stade précoce, ce n'est pas une mesure systématique."
+    }
+  ]
+}

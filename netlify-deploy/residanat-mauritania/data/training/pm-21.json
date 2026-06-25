@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-21",
+  "title": "Diagnostic d'une hépatomégalie",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une hépatomégalie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du volume du foie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une masse abdominale de l'hypochondre droit.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une douleur de l'hypochondre droit.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une anomalie des tests hépatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une dilatation des voies biliaires intra-hépatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatomégalie est définie comme une augmentation du volume du foie, qui peut être diffuse ou localisée à un lobe ou un secteur, et homogène ou inhomogène."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le critère de diagnostic positif d'une hépatomégalie à la palpation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La projection du foie sur la ligne médioclaviculaire est supérieure à 12 cm.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d'une douleur à la palpation de l'hypochondre droit.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La détection d'un bord inférieur du foie tranchant.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La perception d'une masse fixe à la respiration.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'existence d'un reflux hépato-jugulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic positif d'une hépatomégalie est établi lorsque la projection du foie sur la ligne médioclaviculaire est supérieure à 12 cm, mesurée entre la limite supérieure de la matité hépatique et le bord inférieur repéré à la palpation."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les situations pouvant rendre difficile l'affirmation d'une hépatomégalie par la palpation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une paroi abdominale très musclée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une ascite abondante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un panicule adipeux sous-cutané abdominal très épais.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une défense abdominale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hépatite aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic positif d'une hépatomégalie par la palpation peut être difficile en cas de paroi abdominale très musclée, de défense, de panicule adipeux sous-cutané abdominal très épais ou d'ascite abondante. Dans ces cas, l'échographie abdominale est essentielle."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle caractéristique permet de rattacher une masse de l'hypochondre droit à une hépatomégalie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La masse est mobile avec la respiration.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La masse est dure et pierreuse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La masse est fixe et douloureuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La masse est associée à un ictère.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La masse est située dans l'épigastre.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une masse de l'hypochondre droit peut être rattachée à une hépatomégalie si elle est mobile avec la respiration."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen d'imagerie est indispensable pour le diagnostic positif et différentiel d'une hépatomégalie en cas de difficultés cliniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'échographie abdominale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La tomodensitométrie (TDM) abdominale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'imagerie par résonance magnétique (IRM) abdominale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La radiographie de l'abdomen sans préparation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La scintigraphie hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de difficultés à affirmer le diagnostic positif et différentiel d'une hépatomégalie par la palpation (paroi musclée, défense, panicule adipeux, ascite), l'échographie abdominale est indispensable."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les étiologies suivantes, lesquelles peuvent entraîner une hépatomégalie diffuse et homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hépatite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cirrhose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une stéatose hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une polykystose hépatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un carcinome hépatocellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hépatites aiguës et chroniques, la stéatose et stéato-hépatite (alcoolique, NASH), la cholestase prolongée, la cirrhose, le foie congestif, l'hémochromatose et l'abcès du foie sont des causes d'hépatomégalie diffuse et homogène. La polykystose hépatique et le carcinome hépatocellulaire sont des causes d'hépatomégalie hétérogène."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies possibles d'une hépatomégalie hétérogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un kyste biliaire simple.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des métastases hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cirrhose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hémochromatose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une péricardite constrictive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes d'hépatomégalie hétérogène incluent la cirrhose, les tumeurs bénignes (kyste biliaire simple, kyste hydatique), la polykystose hépatique, l'abcès du foie et les tumeurs malignes (métastases hépatiques, carcinome hépatocellulaire, cholangiocarcinome). L'hémochromatose et la péricardite constrictive sont des causes d'hépatomégalie diffuse et homogène."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors de l'examen clinique d'une hépatomégalie, quels éléments doivent être recherchés à la palpation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le caractère diffus ou sectoriel de l'hépatomégalie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La consistance du foie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence de signes inflammatoires comme la fièvre.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'expansion systolique du foie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le caractère hyperéchogène du foie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La palpation doit préciser le caractère diffus ou sectoriel, homogène ou inhomogène, douloureux ou non de l'hépatomégalie, ainsi que la consistance du foie (ferme pour normal, dur pour cirrhotique). La recherche de signes inflammatoires (fièvre), d'expansion systolique du foie, de reflux hépato-jugulaire et d'élévation du pouls jugulaire fait partie de l'examen clinique. Le caractère hyperéchogène est un signe échographique."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les apports de l'échographie hépatique dans le diagnostic étiologique d'une hépatomégalie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Préciser le caractère diffus ou sectoriel de l'hépatomégalie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rechercher des signes d'hypertension portale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Identifier un foie hyperéchogène en cas de stéatose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mettre en évidence une dilatation des veines hépatiques en cas d'insuffisance cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Quantifier le taux d'alpha-fœtoprotéine sérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie hépatique est indispensable pour préciser le caractère diffus/sectoriel, homogène ou non de l'hépatomégalie. Elle permet de rechercher des signes de cirrhose (contours irréguliers, signes d'hypertension portale), de stéatose (foie hyperéchogène), d'insuffisance cardiaque (dilatation des veines hépatiques et de la VCI) et de cholestase (dilatation des voies biliaires intra-hépatiques). L'alpha-fœtoprotéine est un marqueur biologique."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens biologiques de première intention sont indiqués devant une hépatomégalie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numération Formule Sanguine (NFS).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan hépatique (transaminases, PAL, TP, bilirubinémie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Électrophorèse des protéines sériques (EPS).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sérologie de l'échinococcose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Alpha-fœtoprotéine sérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les examens biologiques de première intention comprennent la NFS, le bilan hépatique (transaminases, PAL, TP, bilirubinémie) et l'EPS. La sérologie de l'échinococcose et l'alpha-fœtoprotéine sérique sont des examens de seconde intention, orientés par le contexte clinique ou les résultats d'imagerie."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles de masse abdominale localisée à l'hypochondre droit, en dehors d'une hépatomégalie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tumeur rénale droite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tumeur de l'angle colique droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une grosse vésicule.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur de la queue du pancréas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une splénomégalie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic différentiel d'une masse de l'hypochondre droit inclut une tumeur rénale, une tumeur de l'angle colique droit, une tumeur du côlon transverse, de l'estomac, du pancréas (pseudokyste), ainsi qu'une grosse vésicule. Une tumeur de la queue du pancréas et une splénomégalie sont des causes de masse de l'hypochondre gauche."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques d'une grosse vésicule palpable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est située au bord inférieur du foie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est de forme piriforme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est mobile avec les mouvements respiratoires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est normalement palpable à l'état sain.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours douloureuse et fébrile.",
+          "correct": false
+        }
+      ],
+      "explanation": "La vésicule n'est normalement pas palpable. Une grosse vésicule se présente comme une masse située au bord inférieur du foie, de forme piriforme et mobile avec les mouvements respiratoires. Elle n'est pas toujours douloureuse ou fébrile, sauf en cas de cholécystite aiguë."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles d'une grosse vésicule palpable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une compression de la voie biliaire principale par un cancer de la tête du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un hydrocholécyste dû à un calcul enclavé dans le collet.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cholécystite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur maligne de la vésicule.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hépatite aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes d'une grosse vésicule incluent la compression de la voie biliaire principale (par un cancer de la tête du pancréas ou de la VBP), un hydrocholécyste (calcul enclavé dans le collet ou le canal cystique), une cholécystite aiguë (rarement palpable, douloureuse, fébrile) et une tumeur maligne de la vésicule (masse dure, fixée, irrégulière). Une hépatite aiguë est une cause d'hépatomégalie diffuse."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques d'une splénomégalie palpable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La rate est normalement palpable à l'état sain.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle s'abaisse à l'inspiration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Son bord antérieur est crénelé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à une douleur de l'hypochondre gauche.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours homogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "La rate n'est normalement pas palpable. En cas de splénomégalie, elle s'abaisse à l'inspiration et son bord antérieur est crénelé. Elle n'est pas toujours douloureuse et peut être homogène ou hétérogène."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles d'une splénomégalie homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une origine infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hémopathie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypertension portale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un abcès splénique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un kyste hydatique splénique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de splénomégalie homogène sont d'origine infectieuse, hémopathique ou liées à une hypertension portale. Les abcès, kystes hydatiques et tumeurs spléniques entraînent une splénomégalie hétérogène."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de masse abdominale localisée dans la région épigastrique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertrophie du lobe hépatique gauche.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tumeur gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tumeur pancréatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un pseudokyste du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une tumeur du côlon transverse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les masses épigastriques peuvent être dues à une hypertrophie du lobe hépatique gauche, une tumeur gastrique, une tumeur pancréatique ou un pseudokyste du pancréas. Une tumeur du côlon transverse peut être une masse abdominale, mais pas spécifiquement épigastrique."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de masse abdominale localisée en fosse iliaque droite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tumeur du caecum.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une appendicite abcédée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une maladie de Crohn avec abcès.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur sigmoïdienne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un fibromyome utérin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de masse en fosse iliaque droite incluent une tumeur du caecum, une appendicite abcédée et une maladie de Crohn avec abcès. Une tumeur sigmoïdienne est en fosse iliaque gauche et un fibromyome utérin est hypogastrique."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de masse abdominale localisée dans la région hypogastrique, après avoir éliminé les urgences ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un fibromyome utérin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un cancer de l'endomètre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tumeur ovarienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un fécalome.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une grossesse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Après avoir éliminé la grossesse, le fécalome et le globe vésical, les causes de masse hypogastrique peuvent être un fibromyome utérin, un cancer de l'endomètre ou une tumeur ovarienne. Les fécalomes et grossesses sont des causes à éliminer en premier."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un nodule de carcinose péritonéale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est dur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est indolore.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est fixé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est souvent multiple.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est mobile avec la contraction de la sangle abdominale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les nodules de carcinose péritonéale sont durs, indolores, fixés, souvent multiples et fréquemment situés en région péri-ombilicale ou au niveau d'anciennes cicatrices. Les tuméfactions pariétales (hématome, lipome, hernie) sont mobiles avec la contraction de la sangle abdominale."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelle situation la ponction biopsie hépatique (PBH) est-elle indispensable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si le bilan étiologique (clinique, biologique et imagerie) est négatif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de suspicion de cirrhose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pour confirmer une stéatose hépatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Devant une hépatomégalie diffuse et homogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En présence d'un nodule hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ponction biopsie hépatique est indispensable si le bilan étiologique (clinique, biologique et imagerie) est négatif et qu'aucun diagnostic n'a pu être fait avec certitude."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à une ponction biopsie hépatique par voie transpariétale trans-capsulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une thrombopénie inférieure à 60 G/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un TP (taux de prothrombine) inférieur à 50%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une dilatation diffuse des voies biliaires intra-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une ascite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hépatomégalie hétérogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications à la PBH par voie transpariétale incluent un trouble de l'hémostase non corrigé (thrombopénie < 60 G/L, TP < 50%, allongement du TCA), une dilatation diffuse des voies biliaires intra-hépatiques et une ascite. L'hépatomégalie hétérogène n'est pas une contre-indication, mais une indication pour cibler la lésion."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle voie d'abord est recommandée pour une ponction biopsie hépatique en cas d'ascite ou de trouble de l'hémostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La voie trans-jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La voie transpariétale trans-capsulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La voie coelioscopique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La voie échoguidée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La voie TDM-guidée.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'ascite ou de trouble de l'hémostase, la ponction biopsie hépatique doit être réalisée par voie trans-jugulaire."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le signe échographique caractéristique d'une stéatose hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un foie hyperéchogène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des contours hépatiques irréguliers.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une dilatation des voies biliaires intra-hépatiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation des veines hépatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des signes d'hypertension portale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La stéatose hépatique se caractérise par un foie hyperéchogène à l'échographie. Les autres options sont des signes de cirrhose, cholestase ou insuffisance cardiaque."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes échographiques peuvent orienter vers un foie congestif lié à une insuffisance cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dilatation des veines hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dilatation de la veine cave inférieure (VCI).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un foie hyperéchogène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des contours hépatiques irréguliers.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une dilatation des voies biliaires intra-hépatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes échographiques d'insuffisance cardiaque incluent la dilatation des veines hépatiques et de la VCI. Un foie hyperéchogène est un signe de stéatose, des contours irréguliers de cirrhose, et une dilatation des voies biliaires de cholestase."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens d'imagerie sont indiqués en cas d'hépatomégalie homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une échographie-Doppler.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une TDM injectée tri-phasique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une IRM injectée tri-phasique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une échographie de contraste.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une échographie cardiaque systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hépatomégalie homogène, une échographie-Doppler, une TDM injectée tri-phasique ou une IRM injectée tri-phasique sont indiquées. L'échographie de contraste est plutôt réservée aux hépatomégalies hétérogènes. L'échographie cardiaque est indiquée si une insuffisance cardiaque est suspectée."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la démarche diagnostique, quels éléments sont nécessaires pour affirmer une cirrhose comme cause d'hépatomégalie diffuse et homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des signes cliniques d'insuffisance hépatique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des signes biologiques d'hypertension portale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des signes échographiques d'insuffisance hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une cause de cirrhose documentée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hyperferritinémie sans syndrome inflammatoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de cirrhose comme cause d'hépatomégalie diffuse et homogène est confirmé par des signes cliniques, biologiques et échographiques indiscutables d'insuffisance hépatique et d'hypertension portale, associés à une cause de cirrhose documentée. Les signes biologiques d'hypertension portale ne sont pas mentionnés comme un critère direct dans le texte pour la cirrhose, mais plutôt comme des signes échographiques. L'hyperferritinémie est un signe d'hémochromatose."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères diagnostiques d'une hémochromatose dans le cadre d'une hépatomégalie diffuse et homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyperferritinémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'absence de syndrome inflammatoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des transaminases supérieures à 4N.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation des voies biliaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un foie hyperéchogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémochromatose est suspectée devant une hyperferritinémie sans syndrome inflammatoire ni transaminases supérieures à 4N. L'IRM est ensuite recommandée. Les autres options ne sont pas des critères spécifiques de l'hémochromatose."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels éléments sont nécessaires pour diagnostiquer un foie cardiaque comme cause d'hépatomégalie diffuse et homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dilatation des veines hépatiques à l'échographie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une atteinte cardiaque documentée par échographie trans-thoracique (ETT).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un foie hyperéchogène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hyperferritinémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des signes d'hypertension portale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de foie cardiaque repose sur la dilatation des veines hépatiques à l'échographie et une atteinte cardiaque documentée par ETT. Les autres options sont des signes d'autres étiologies."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'hépatomégalie sectorielle homogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cirrhose dans la majorité des cas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une réponse à une atrophie d'autres secteurs par obstruction des voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une réponse à une atrophie d'autres secteurs par obstruction des veines hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une stéatose hépatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un kyste biliaire simple.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatomégalie sectorielle homogène est principalement due à la cirrhose. Plus rarement, elle peut être une réponse à une atrophie d'autres secteurs causée par l'obstruction des voies biliaires, des veines hépatiques ou des veines portes. La stéatose est diffuse et le kyste biliaire simple est hétérogène."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas d'hépatomégalie hétérogène associée à une maladie hépatique chronique, quelle est la démarche diagnostique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechercher un carcinome hépatocellulaire (CHC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si dilatation des voies biliaires intra-hépatiques, rechercher un cholangiocarcinome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaliser une sérologie hydatidose systématiquement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Effectuer une ponction de la zone nécrotique si syndrome inflammatoire marqué.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rechercher un hémangiome bénin.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hépatomégalie hétérogène avec maladie hépatique chronique, il faut rechercher un carcinome hépatocellulaire. Si une dilatation des voies biliaires intra-hépatiques est présente, un cholangiocarcinome doit être recherché. Les autres options sont pertinentes dans d'autres contextes (lésion kystique, lésion solide avec nécrose, ou sans maladie hépatique chronique)."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques échographiques d'un kyste biliaire simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de paroi ou cloison interne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Caractère purement liquidien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rehaussement périphérique au temps artériel.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperéchogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contours irréguliers.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un kyste biliaire simple se caractérise par l'absence de paroi ou de cloison interne et un caractère purement liquidien à l'échographie. Les autres options décrivent des lésions solides, stéatose ou cirrhose."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel contexte une sérologie hydatidose est-elle particulièrement indiquée devant une lésion kystique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si le sujet a vécu en zone d'endémie au contact de chiens.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas de dilatation des voies biliaires intra-hépatiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Devant un foie hyperéchogène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Si la lésion est purement liquidienne sans paroi.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de rehaussement net au temps artériel.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sérologie hydatidose est indiquée si le sujet a vécu en zone d'endémie au contact de chiens, en cas de lésion kystique hépatique."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Si les conditions d'un kyste biliaire simple ne sont pas réunies à l'échographie, quelles lésions doivent être recherchées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tumeur bénigne à potentiel malin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tumeur maligne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un kyste hydatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un kyste biliaire simple modifié par une hémorragie intra-kystique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un hémangiome bénin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si les conditions d'un kyste biliaire simple (absence de paroi/cloison, purement liquidien) ne sont pas réunies, il faut rechercher une tumeur bénigne à potentiel malin, une tumeur maligne, un kyste hydatique ou un kyste biliaire simple modifié par une hémorragie intra-kystique. L'hémangiome bénin est une lésion solide."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'imagerie (IRM, TDM ou échographie de contraste) d'un hémangiome bénin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rehaussement en motte périphérique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rehaussement progressif de la périphérie vers le centre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyper-intensité homogène en T2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de rehaussement au temps artériel et portal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Wash out au temps portal ou tardif.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémangiome bénin se caractérise par un rehaussement en motte périphérique, progressif de la périphérie vers le centre, et une hyper-intensité homogène en T2. L'absence de rehaussement et le wash out sont des signes d'autres lésions."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'imagerie (IRM, TDM ou échographie de contraste) d'un abcès ou d'une tumeur nécrosée (maligne ou bénigne) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rehaussement périphérique au temps artériel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Centre non rehaussé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rehaussement en motte périphérique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Wash out au temps portal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Absence de rehaussement au temps artériel et portal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un abcès ou une tumeur nécrosée (maligne ou bénigne) présente un rehaussement périphérique au temps artériel avec un centre non rehaussé. Le rehaussement en motte est pour l'hémangiome, le wash out pour le CHC, et l'absence de rehaussement pour les métastases ou adénomes."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Devant une lésion hépatique solide avec rehaussement périphérique au temps artériel et centre non rehaussé, associée à un syndrome inflammatoire marqué, quelle est la conduite à tenir recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ponction de la zone nécrotique pour analyse microbiologique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réaliser une IRM hépatique sans délai.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Prescrire un traitement antibiotique empirique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Surveiller l'évolution clinique et biologique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rechercher des marqueurs tumoraux.",
+          "correct": false
+        }
+      ],
+      "explanation": "En présence d'un rehaussement périphérique au temps artériel avec centre non rehaussé (suggérant un abcès ou une tumeur nécrosée) et d'un syndrome inflammatoire marqué, une ponction de la zone nécrotique pour analyse microbiologique est recommandée."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles lésions hépatiques solides peuvent présenter une absence de rehaussement au temps artériel et portal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des métastases.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un adénome hépatocellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un carcinome hépatocellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un hémangiome bénin.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperplasie nodulaire focale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'absence de rehaussement au temps artériel et portal peut être observée dans les métastases ou l'adénome hépatocellulaire. Le CHC, l'hémangiome et l'HNF présentent un rehaussement."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'imagerie (IRM, TDM ou échographie de contraste) d'un carcinome hépatocellulaire (CHC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rehaussement net au temps artériel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Élimination du produit de contraste plus marquée dans le nodule que dans le foie adjacent au temps portal ou tardif (wash out).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence de rehaussement au temps artériel et portal.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rehaussement progressif de la périphérie vers le centre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hyper-intensité homogène en T2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome hépatocellulaire se caractérise par un rehaussement net au temps artériel avec une élimination du produit de contraste plus marquée dans le nodule que dans le foie adjacent au temps portal ou tardif (wash out). Les autres options sont des signes d'autres lésions."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles lésions hépatiques solides peuvent présenter un rehaussement net au temps artériel sans wash out ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un adénome.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperplasie nodulaire focale (HNF).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des métastases.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une tumeur primitive maligne (autre que CHC).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un carcinome hépatocellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un rehaussement net au temps artériel sans wash out peut être observé dans l'adénome, l'hyperplasie nodulaire focale, les métastases ou une tumeur primitive maligne autre que le CHC. Le CHC présente un wash out."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques d'une tumeur gastrique palpable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Masse dure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Masse pierreuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Associée à des signes digestifs hauts (épigastralgie, lenteur à la digestion).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Associée à une altération de l'état général (AEG).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Masse rénitente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une tumeur gastrique se présente comme une masse dure, pierreuse, associée à des signes digestifs hauts (épigastralgie, lenteur à la digestion) et une altération de l'état général. Une masse rénitente est caractéristique d'un pseudokyste du pancréas."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques d'une tumeur pancréatique palpable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Masse dure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Masse fixée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Masse sensible.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Masse mobile avec la respiration.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Masse piriforme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une tumeur pancréatique se présente comme une masse dure, fixée et sensible. La mobilité avec la respiration et la forme piriforme sont des caractéristiques d'une grosse vésicule."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations cliniques spécifiques des cancers du pancréas selon leur localisation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un ictère prurigineux en cas de cancer de la tête du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une douleur de type solaire en cas de cancer du corps pancréatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une révélation tardive par une masse épigastrique ou de l'hypochondre gauche en cas de cancer de la queue du pancréas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une masse rénitente en cas de cancer de la tête du pancréas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une masse mobile avec la respiration en cas de cancer du corps pancréatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer de la tête du pancréas peut se manifester par un ictère prurigineux par compression de la VBP. Le cancer du corps pancréatique peut entraîner une douleur de type solaire. Le cancer de la queue du pancréas a une révélation tardive par une masse épigastrique ou de l'hypochondre gauche. Une masse rénitente est un pseudokyste, et la mobilité respiratoire est pour la vésicule ou le foie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques d'un pseudokyste du pancréas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tuméfaction régulière.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tuméfaction ferme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tuméfaction rénitente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une masse dure et pierreuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une masse fixée et sensible.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un pseudokyste du pancréas se présente comme une tuméfaction régulière, ferme et rénitente. Une masse dure et pierreuse est une tumeur gastrique, et une masse fixée et sensible est une tumeur pancréatique."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes possibles d'une splénomégalie hétérogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un abcès splénique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un kyste hydatique splénique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tumeur splénique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hémopathie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypertension portale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de splénomégalie hétérogène sont l'abcès, le kyste hydatique et la tumeur splénique. Les hémopathies et l'hypertension portale sont des causes de splénomégalie homogène."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'une tumeur du caecum palpable en fosse iliaque droite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est dure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle peut être mobile ou fixée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours associée à un caractère inflammatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est une tuméfaction douloureuse et fixée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est rénitente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une tumeur du caecum est dure, mobile ou fixée, et peut présenter un caractère inflammatoire si elle est infectée. Une tuméfaction douloureuse et fixée est plus caractéristique d'une appendicite abcédée. Rénitente est pour un pseudokyste."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'une appendicite abcédée palpable en fosse iliaque droite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tuméfaction douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tuméfaction fixée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un contexte fébrile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une masse dure et mobile.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une masse rénitente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une appendicite abcédée se manifeste par une tuméfaction douloureuse et fixée, dans un contexte fébrile. Une masse dure et mobile est plus une tumeur du caecum, et rénitente est pour un pseudokyste."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de masses abdominales ubiquitaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des tuméfactions pariétales (hématome, lipome, hernie).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des nodules de carcinose péritonéale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des adénopathies abdominales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un corps étranger.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un anévrisme de l'aorte abdominale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de masses ubiquitaires incluent les tuméfactions pariétales (hématome de la paroi, lipome, hernie), les nodules de carcinose péritonéale, les adénopathies abdominales et les corps étrangers. L'anévrisme de l'aorte abdominale est une masse ombilicale."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques d'un anévrisme de l'aorte abdominale palpable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tuméfaction médiane.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une tuméfaction battante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tuméfaction expansive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un souffle systolique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une masse dure et fixée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un anévrisme de l'aorte abdominale se présente comme une tuméfaction médiane, battante, expansive, souvent associée à un souffle systolique. Une masse dure et fixée est plus caractéristique d'une tumeur."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas de suspicion de cirrhose, quels marqueurs biologiques sont spécifiquement recherchés en seconde intention ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les marqueurs d'hépatite virale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le bilan auto-immun.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le bilan martial.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'alpha-fœtoprotéine sérique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La sérologie amibiase.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de suspicion de cirrhose, les marqueurs d'hépatite virale, le bilan auto-immun et le bilan martial sont recherchés pour en identifier la cause. L'alpha-fœtoprotéine est pour les nodules et la sérologie amibiase pour les abcès."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel marqueur biologique est spécifiquement indiqué en cas de nodule hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'alpha-fœtoprotéine sérique (αFP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les transaminases.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La bilirubinémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le TP (taux de prothrombine).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La ferritine.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de nodule hépatique, l'alpha-fœtoprotéine sérique (αFP) est spécifiquement recherchée comme marqueur tumoral potentiel."
+    }
+  ]
+}

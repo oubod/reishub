@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-6",
+  "title": "Péritonites",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition principale d'une péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une inflammation chronique du péritoine, toujours généralisée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une infection bactérienne du péritoine, toujours d'origine hématogène.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une inflammation aiguë du péritoine, localisée ou généralisée, le plus souvent infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une nécrose du péritoine due à une ischémie mésentérique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une réaction auto-immune affectant la séreuse péritonéale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une péritonite est définie comme une inflammation aiguë du péritoine, qui peut être localisée ou généralisée, et dont la cause est le plus souvent infectieuse."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes cliniques suivants, lesquels sont caractéristiques d'une irritation péritonéale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur abdominale à type de colique néphrétique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une contracture abdominale rigide et douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une défense abdominale, forme atténuée de la contracture.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une douleur vive à la décompression brutale d'une fosse iliaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une douleur irradiant vers l'épaule gauche.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes d'irritation péritonéale incluent la contracture (contraction rigide, tonique, invincible, permanente et douloureuse des muscles abdominaux), la défense (contracture atténuée) et une douleur vive lors de la décompression brutale d'une fosse iliaque."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification de Hambourg, quelle est la caractéristique principale d'une péritonite primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours liée à une perforation d'ulcère gastroduodénal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle résulte d'une infection spontanée monobactérienne du péritoine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est la conséquence d'une désunion anastomotique post-opératoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est systématiquement associée à un traumatisme abdominal fermé.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par une surinfection de la cavité abdominale par des germes résistants.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péritonite primaire est définie comme une infection spontanée monobactérienne du péritoine, d'origine hématogène ou par translocation."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen complémentaire est formellement contre-indiqué en cas de suspicion de perforation d'ulcère gastrique ou duodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La radiographie pulmonaire de face.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le scanner abdominal avec injection.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'endoscopie digestive haute.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échographie abdominale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le bilan biologique standard.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'endoscopie digestive haute est formellement contre-indiquée en cas de perforation d'ulcère gastrique ou duodénal."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs de risque de généralisation d'une péritonite localisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une concentration élevée de micro-organismes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une immunodépression du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence de germes peu virulents.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie précoce et adaptée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hydratation intraveineuse adéquate.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de généralisation d'une péritonite incluent une concentration élevée de micro-organismes, une immunodépression et la présence de germes virulents."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Une péritonite généralisée peut entraîner plusieurs conséquences systémiques graves. Lesquelles parmi les suivantes sont mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle systémique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une séquestration liquidienne entraînant une déshydratation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperperméabilité péritonéale avec libération d'endotoxines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un syndrome de détresse respiratoire aiguë (SDRA).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hyperkaliémie sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les conséquences d'une péritonite généralisée incluent la séquestration liquidienne (déshydratation, insuffisance rénale fonctionnelle) et l'hyperperméabilité péritonéale avec libération d'endotoxines (choc septique, SDRA, nécrose tubulaire aiguë, CIVD, embole septique, thrombose portale septique)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies possibles d'une péritonite secondaire d'origine intra-abdominale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une infection du liquide d'ascite chez le cirrhotique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une perforation d'ulcère gastroduodénal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diverticulite sigmoïdienne compliquée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une péritonite spontanée à pneumocoque de l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une cholécystite aiguë.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les péritonites secondaires sont liées à la diffusion d'une infection abdominale localisée ou à la perforation d'un viscère digestif. Les causes intra-abdominales mentionnées sont l'appendicite, la diverticulite sigmoïdienne, la perforation d'ulcère gastroduodénal, la cholécystite, l'infarctus mésentérique, la perforation digestive tumorale ou diastatique, et les colites."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels contextes les signes péritonéaux peuvent-ils être modérés ou absents, rendant le diagnostic clinique plus difficile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez un patient jeune et en bonne santé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez le sujet âgé ou dénutri.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le nourrisson.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez un patient obèse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Chez un patient sous sédation légère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes péritonéaux peuvent être modérés, voire absents, notamment chez le sujet âgé ou dénutri, ou le nourrisson. Ils peuvent aussi être difficiles à évaluer chez un patient obèse ou dans le coma."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle principal des examens complémentaires dans le diagnostic et la prise en charge d'une péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmer le diagnostic clinique de péritonite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Préciser l'origine de la péritonite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Retarder le traitement chirurgical pour une meilleure planification.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Éliminer le diagnostic de péritonite si les résultats sont normaux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Orienter la prise en charge thérapeutique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic de péritonite est clinique. Les examens complémentaires précisent l'origine et la prise en charge, mais ne doivent pas retarder le traitement, et leur normalité ne doit pas faire remettre en cause le diagnostic."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes radiologiques pouvant être recherchés sur un ASP (Abdomen Sans Préparation) et une RP (Radiographie Pulmonaire) en cas de péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un croissant clair gazeux sous-diaphragmatique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dilatation gazeuse du grêle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un épanchement liquidien associé avec niveau hydro-aérique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une calcification pancréatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une image en 'grain de café' caractéristique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ASP et la RP peuvent montrer un pneumopéritoine (croissant clair gazeux sous-diaphragmatique), un épanchement liquidien associé (niveau hydro-aérique sous-diaphragmatique) et des signes d'iléus avec dilatation gazeuse du grêle."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la péritonite par perforation d'ulcère gastrique ou duodénal, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se manifeste généralement par une douleur épigastrique de début brutal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La fièvre et le syndrome inflammatoire biologique sont constants dès le début.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un tympanisme pré-hépatique est un signe clinique fréquent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pneumopéritoine est un signe radiologique inconstant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle survient souvent dans un contexte d'antécédents d'ulcères ou de prise d'AINS.",
+          "correct": true
+        }
+      ],
+      "explanation": "La perforation d'ulcère se caractérise par une douleur épigastrique de début brutal, diffusant ensuite à tout l'abdomen. L'absence de fièvre (ou de syndrome inflammatoire biologique) est typique < 24h (péritonite chimique). Un tympanisme pré-hépatique (pneumopéritoine) est présent, et le contexte inclut souvent des antécédents d'ulcères ou la prise d'AINS."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques et radiologiques d'une péritonite diverticulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur prédominante en fosse iliaque droite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un contexte infectieux marqué.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'un pneumopéritoine souvent volumineux et bilatéral à l'ASP/RP.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un iléus paralytique à l'ASP.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une absence de signes de choc, même en cas de péritonite stercorale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péritonite diverticulaire se manifeste par une douleur de la fosse iliaque gauche dans un contexte infectieux. L'ASP/RP peut montrer un pneumopéritoine (souvent volumineux et bilatéral) et un iléus paralytique. Des signes de choc sont fréquents, notamment en cas de péritonite stercorale."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant la péritonite appendiculaire, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est souvent précédée d'une douleur de la fosse iliaque droite progressivement croissante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est fréquemment associée à un pneumopéritoine à l'ASP.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle peut compliquer un abcès ou un plastron appendiculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle touche préférentiellement les sujets âgés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La douleur est intense et généralisée dès le début.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péritonite appendiculaire survient souvent chez le sujet jeune avec une douleur de la FID progressivement croissante et une fébricule. Elle peut se généraliser d'emblée ou en 2 ou 3 temps (complique un abcès ou un plastron). L'ASP ne montre pas de pneumopéritoine."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de la mise en conditions initiale pour la prise en charge d'une péritonite secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pose d'une seule voie veineuse périphérique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une réhydratation intraveineuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La correction des troubles hydro-électrolytiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'administration systématique d'antifongiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La réalisation immédiate d'une endoscopie digestive.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mise en conditions initiale comprend la pose de 2 VVP, la réhydratation IV et la correction des troubles hydro-électrolytiques. L'antifongique n'est pas systématique et l'endoscopie est contre-indiquée dans certains cas."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la durée recommandée de l'antibiothérapie pour une péritonite généralisée non sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "48 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "5 jours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Jusqu'à 8 jours.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "14 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "La durée de l'antibiothérapie est courte : 48h si péritonite localisée, 5 jours si péritonite généralisée, et jusqu'à 8 jours si sévère."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs du traitement chirurgical d'une péritonite secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'exploration complète de la cavité abdominale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La réalisation de prélèvements bactériologiques multiples.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement de la perforation digestive selon sa cause.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le lavage abondant de la cavité abdominale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La fermeture systématique de l'abdomen sans drainage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical vise l'exploration complète, les prélèvements bactériologiques, le traitement de la perforation (appendicectomie, suture d'ulcère, résection intestinale) et le lavage abondant de la cavité abdominale avec plusieurs litres de sérum tiède, éventuellement avec des drains."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de surveillance post-opératoire d'une péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La normalisation des signes généraux (hémodynamique, diurèse, fonction ventilatoire, fièvre).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La persistance des signes péritonéaux.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La reprise du transit intestinal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La normalisation des polynucléaires neutrophiles (PNN) et de la fonction rénale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'apparition d'une hyperthermie isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance post-opératoire inclut les signes généraux (hémodynamique, diurèse, fonction ventilatoire, fièvre), les signes locaux (reprise du transit, disparition des signes péritonéaux) et les signes biologiques (normalisation des PNN et de la fonction rénale)."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce qui caractérise une péritonite tertiaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours d'origine hématogène.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est une infection abdominale persistante malgré un traitement bien conduit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est causée par des micro-organismes peu virulents mais résistants ou des levures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours curable par une seule intervention chirurgicale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une forme de péritonite primaire chez le patient immunodéprimé.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péritonite tertiaire est une infection abdominale persistante malgré un traitement bien conduit (antibiothérapie adaptée et éradication du foyer primitif). Elle est due à une surinfection par des micro-organismes peu virulents mais devenus résistants ou des levures."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque justifiant l'ajout d'un antifongique à l'antibiothérapie en cas de sepsis grave/choc septique lié à une péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un choc septique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une chirurgie sus-mésocolique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le sexe masculin.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie depuis plus de 48 heures.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une péritonite localisée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un antifongique est discuté si ≥ 3 FdR : choc septique, chirurgie sus-mésocolique, femme, antibiothérapie depuis > 48h."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui peuvent faire évoquer une péritonite post-opératoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une fièvre survenant quelques jours après une chirurgie abdominale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dégradation inexpliquée des fonctions vitales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une reprise rapide et complète du transit intestinal.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une douleur abdominale attribuée à l'opération et masquée par l'antalgie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome inflammatoire imputé à une autre cause post-opératoire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une péritonite post-opératoire est à évoquer devant une fièvre survenant quelques jours après une chirurgie abdominale, une dégradation inexpliquée des fonctions vitales. Le diagnostic est souvent compliqué car la douleur, l'iléus ou le syndrome inflammatoire peuvent être attribués à l'opération ou à d'autres causes post-opératoires."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement de première intention recommandé pour une péritonite secondaire non compliquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monothérapie par aminoside.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "C3G + métronidazole.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentin® + gentamicine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lévofloxacine seule.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pipéracilline-tazobactam en monothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "En première intention pour une péritonite non compliquée, l'antibiothérapie IV recommandée est C3G + métronidazole ou Augmentin® + gentamicine."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas le scanner abdominal est-il particulièrement utile pour le diagnostic de péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'examen clinique douteux (immunodéprimé, vieillard).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas d'examen clinique difficile (obèse, post-opératoire, traumatisé).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour confirmer le diagnostic de péritonite avant tout geste chirurgical, même en cas de choc.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pour orienter le geste chirurgical si le patient est stable.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour remplacer systématiquement l'ASP en première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner abdominal est utile en cas d'examen clinique douteux ou difficile, et avant chirurgie si le patient est stable pour orienter le geste. Il est de plus en plus souvent réalisé en 1ère intention avant l'ASP."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de péritonite secondaire post-traumatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une plaie pénétrante de l'abdomen.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un traumatisme fermé avec perforation digestive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une perforation endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une ischémie digestive suite à un traumatisme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une désunion anastomotique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes post-traumatiques incluent les plaies pénétrantes, les traumatismes fermés (perforation ou ischémie digestive) et les perforations endoscopiques ou par corps étranger. La désunion anastomotique est une cause post-opératoire."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan biologique initial à réaliser en cas de suspicion de péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS (Numération Formule Sanguine).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan de coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Groupage sanguin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ionogramme sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bilan thyroïdien.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan biologique initial comprend NFS, bilan de coagulation, groupage sanguin, ionogramme, bilan rénal, GDS et hémocultures."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le tableau comparatif des étiologies, quelle péritonite est caractérisée par un début brutal et l'absence de fièvre au début ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La péritonite appendiculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La péritonite par perforation d'ulcère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La péritonite diverticulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La péritonite post-opératoire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La péritonite primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La perforation d'ulcère est caractérisée par un début brutal, des signes péritonéaux maximaux à l'épigastre et l'absence de fièvre au début."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient cirrhotique avec ascite présente une péritonite. Quelle classification de Hambourg est la plus probable et quel est le traitement initial recommandé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Péritonite secondaire, traitement chirurgical en urgence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Péritonite tertiaire, radiologie interventionnelle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Péritonite primaire, traitement médical par antibiothérapie probabiliste.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Péritonite secondaire, antibiothérapie IV seule.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Péritonite primaire, ablation du cathéter de dialyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection du liquide d'ascite chez le cirrhotique est un exemple de péritonite primaire. Le traitement des péritonites primaires est médical, avec hospitalisation et antibiothérapie probabiliste en attendant l'antibiogramme."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous dialyse péritonéale développe une péritonite. Quels sont les germes les plus fréquemment impliqués et quelle est la conduite à tenir si l'antibiothérapie ne donne pas de réponse en 48h ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumocoque, discuter une laparotomie exploratrice.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Staphylocoque, BGN ou Candida ; discuter l'ablation du cathéter de dialyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Germes anaérobies, augmenter la dose d'antibiotiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Germes multirésistants, ajouter un antifongique systématiquement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Virus, arrêter l'antibiothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le dialysé péritonéal, la péritonite est généralement à staphylocoque, BGN ou Candida. Le traitement implique une application intra-péritonéale de vancomycine + aminoside. En l'absence de réponse en 48h, il faut discuter l'ablation du cathéter de dialyse."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une péritonite par perforation d'ulcère gastroduodénal est diagnostiquée. Quel type de traitement chirurgical est le plus approprié pour la perforation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une appendicectomie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une résection intestinale sans rétablissement de continuité d'emblée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une suture de l'ulcère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une cholécystectomie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un simple lavage abdominal sans traitement de la cause.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical d'une perforation digestive est adapté à la cause. Pour une perforation d'ulcère, il s'agit d'une suture de l'ulcère."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une péritonite généralisée avec signes de choc septique. Quelle antibiothérapie IV est recommandée en première intention ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C3G + métronidazole.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentin® + gentamicine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Lévofloxacine + gentamicine + métronidazole.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pipéracilline-tazobactam ± gentamicine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Vancomycine seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de sepsis grave/choc septique, l'antibiothérapie recommandée est Pipéracilline-tazobactam ± gentamicine."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications ou causes d'absence d'amélioration clinique et biologique après le traitement initial d'une péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un syndrome de détresse respiratoire aiguë (SDRA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un lâchage de suture.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une antibiothérapie inadaptée ou posologie insuffisante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une infection urinaire ou sur cathéter.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une thrombose portale septique.",
+          "correct": false
+        }
+      ],
+      "explanation": "En l'absence d'amélioration, il faut rechercher des conséquences toxiniques (SDRA, nécrose tubulaire aiguë), un lâchage de suture, un abcès résiduel, une infection urinaire ou sur cathéter, une antibiothérapie inadaptée ou posologie insuffisante, ou un accident thromboembolique."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est admis pour une péritonite avec une douleur de la fosse iliaque gauche, un contexte infectieux marqué et un pneumopéritoine volumineux et bilatéral à l'ASP. Quelle est l'étiologie la plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Péritonite appendiculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Péritonite par perforation d'ulcère gastroduodénal.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Péritonite diverticulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Péritonite post-opératoire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Péritonite primaire à pneumocoque.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur de la fosse iliaque gauche dans un contexte infectieux, associée à un pneumopéritoine souvent volumineux et bilatéral, est caractéristique d'une péritonite diverticulaire."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cadre d'une péritonite post-opératoire, quel examen est recommandé en l'absence d'autre cause de fièvre évidente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une endoscopie digestive haute.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une échographie abdominale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un scanner avec opacification digestive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une IRM abdominale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une ponction d'ascite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une péritonite post-opératoire, un scanner avec opacification digestive est réalisé en l'absence d'autre cause de fièvre évidente."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui distinguent une péritonite par perforation d'ulcère d'une péritonite appendiculaire dans leurs présentations initiales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La perforation d'ulcère a un début brutal, l'appendiculaire un début progressif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La perforation d'ulcère présente un pneumopéritoine, l'appendiculaire non.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La perforation d'ulcère est initialement sans fièvre, l'appendiculaire avec fièvre/fébricule.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La perforation d'ulcère est localisée à la FID, l'appendiculaire à l'épigastre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La perforation d'ulcère est toujours stercorale, l'appendiculaire jamais.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon le tableau comparatif : la perforation d'ulcère a un début brutal, un maximum des signes à l'épigastre, pas de fièvre au début et un pneumopéritoine. La péritonite appendiculaire a un début progressif, un maximum des signes en FID, de la fièvre/hyperleucocytose et pas de pneumopéritoine."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une péritonite généralisée peut entraîner une insuffisance rénale. Quel est son mécanisme principal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une nécrose tubulaire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une insuffisance rénale fonctionnelle due à la séquestration liquidienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une glomérulonéphrite post-infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une obstruction des voies urinaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une néphropathie médicamenteuse liée aux antibiotiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La séquestration liquidienne peut entraîner une déshydratation et une insuffisance rénale fonctionnelle. L'hyperperméabilité péritonéale avec libération d'endotoxines peut entraîner une nécrose tubulaire aiguë."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel abord chirurgical est généralement privilégié pour une péritonite secondaire, et dans quels cas la cœlioscopie peut-elle être envisagée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cœlioscopie est toujours l'abord de première intention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La laparotomie médiane est généralement privilégiée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La cœlioscopie est possible pour les péritonites non graves.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cœlioscopie est possible pour les péritonites appendiculaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La cœlioscopie est possible pour les péritonites par perforation d'ulcère.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'abord chirurgical se fait par laparotomie médiane généralement. La cœlioscopie est possible pour les péritonites non graves, appendiculaires ou par perforation d'ulcère."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une péritonite tertiaire. Quelles sont les caractéristiques de cette forme de péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est souvent associée à une défaillance viscérale multiple.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les microorganismes impliqués sont souvent nosocomiaux et multi-résistants.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement chirurgical est toujours possible et curatif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La mortalité est faible, inférieure à 5%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La radiologie interventionnelle peut être une option thérapeutique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La péritonite tertiaire touche souvent des patients en défaillance viscérale multiple. Les microorganismes sont nosocomiaux, souvent multi-résistants et difficiles à traiter, avec une mortalité de 30%. Le traitement chirurgical est souvent impossible, et la radiologie interventionnelle peut être une option."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de péritonite secondaire post-opératoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une désunion anastomotique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une contamination per-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une perforation endoscopique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une cholécystite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un infarctus mésentérique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes post-opératoires de péritonite secondaire sont la désunion anastomotique et la contamination per-opératoire. Les autres options sont des causes intra-abdominales ou post-traumatiques."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous antibiothérapie depuis 72 heures pour une péritonite généralisée développe un choc septique. Il a subi une chirurgie sus-mésocolique. Quel traitement doit être envisagé en plus de l'antibiothérapie actuelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter l'antibiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ajouter un antifongique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réduire la dose d'antibiotiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Remplacer l'antibiothérapie par une monothérapie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Réaliser une endoscopie digestive haute.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un antifongique doit être envisagé si ≥ 3 FdR : choc septique, chirurgie sus-mésocolique, femme, antibiothérapie depuis > 48h. Ici, le patient a un choc septique, une chirurgie sus-mésocolique et une antibiothérapie depuis > 48h (72h), ce qui remplit les critères."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes de gravité à rechercher en urgence chez un patient suspect de péritonite, pouvant justifier une intervention chirurgicale sans examen complémentaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une déshydratation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une acidose métabolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un choc.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hyperleucocytose isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche de signes de gravité (insuffisance rénale, déshydratation, acidose métabolique) est cruciale. En cas de choc, une intervention en urgence est indiquée sans examen complémentaire."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "La péritonite diverticulaire peut se présenter de deux manières différentes. Lesquelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Péritonite généralisée d'emblée par perforation brutale (en 1 temps).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Péritonite par perforation secondaire d'un abcès péri-sigmoïdien (en 2 temps).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Péritonite localisée sans risque de généralisation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Péritonite primaire par translocation bactérienne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Péritonite post-traumatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péritonite diverticulaire peut être généralisée d'emblée (perforation brutale : péritonite en 1 temps) ou par perforation secondaire d'un abcès péri-sigmoïdien compliquant une diverticulite (péritonite en 2 temps)."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une péritonite avec une douleur de la fosse iliaque droite progressivement croissante et une fébricule. L'ASP ne montre pas de pneumopéritoine. Quelle est l'étiologie la plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perforation d'ulcère gastroduodénal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Péritonite diverticulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Péritonite appendiculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Péritonite primaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Péritonite post-opératoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ces signes (sujet jeune, douleur FID progressivement croissante, fébricule, absence de pneumopéritoine à l'ASP) sont caractéristiques d'une péritonite appendiculaire."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée d'antibiothérapie recommandée pour une péritonite localisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "24 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "48 heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "5 jours.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Jusqu'à 8 jours.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "10 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "La durée de l'antibiothérapie est courte : 48h si péritonite localisée, 5 jours si péritonite généralisée, et jusqu'à 8 jours si sévère."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent rendre le diagnostic de péritonite post-opératoire particulièrement compliqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La douleur abdominale peut être attribuée à l'opération ou masquée par l'antalgie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'iléus post-opératoire peut être imputé à l'opération elle-même.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome inflammatoire peut être imputé à l'opération ou à une autre cause post-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence de fièvre est un signe constant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence systématique d'un pneumopéritoine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de péritonite post-opératoire est souvent compliqué car la douleur, l'iléus et le syndrome inflammatoire peuvent être attribués à l'opération ou à d'autres causes post-opératoires, masquant ainsi la péritonite."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas d'allergie aux antibiotiques de première intention pour une péritonite secondaire non compliquée, quelle alternative est proposée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pipéracilline-tazobactam seule.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lévofloxacine + gentamicine + métronidazole.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vancomycine + céfépime.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Clindamycine + aztréonam.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Doxycycline + rifampicine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'alternative en cas d'allergie est lévofloxacine + gentamicine + métronidazole."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences systémiques de l'hyperperméabilité péritonéale avec libération d'endotoxines dans une péritonite généralisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc septique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de détresse respiratoire aiguë (SDRA).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nécrose tubulaire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Coagulation intravasculaire disséminée (CIVD).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperglycémie sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperperméabilité péritonéale avec libération d'endotoxines peut entraîner un choc septique, un SDRA, une nécrose tubulaire aiguë, une CIVD, un embole septique et une thrombose portale septique (pyléphlébite)."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel type de résection intestinale est mentionné comme option thérapeutique pour une perforation digestive sans rétablissement de continuité d'emblée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Résection segmentaire avec anastomose immédiate.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Intervention de Hartmann.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Colostomie de décharge simple.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Iléostomie terminale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Jéjunostomie d'alimentation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement d'une perforation digestive selon la cause peut inclure une résection intestinale sans rétablissement de continuité d'emblée (intervention de Hartmann)."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présentant une péritonite est stable. Le scanner abdominal est réalisé en première intention. Quels signes étiologiques peut-il révéler ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une infiltration péri-appendiculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diverticulite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un abcès intra-abdominal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un épanchement liquidien intra-abdominal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une dilatation des voies biliaires intra-hépatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner peut révéler des signes étiologiques comme une diverticulite, une infiltration péri-appendiculaire, un abcès, ainsi qu'un pneumopéritoine et un épanchement liquidien intra-abdominal."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les exemples spécifiques de péritonites primaires mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection du liquide d'ascite chez le cirrhotique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection à staphylocoque sur cathéter chez le patient dialysé péritonéale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Péritonite spontanée à pneumocoque de l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Péritonite par perforation d'ulcère gastroduodénal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Péritonite post-traumatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les exemples de péritonite primaire sont l'infection du liquide d'ascite chez le cirrhotique, l'infection à staphylocoque sur cathéter chez le patient dialysé péritonéale et la péritonite spontanée à pneumocoque de l'adulte."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de péritonite secondaire liées à une colite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie de Crohn.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rectocolite hémorragique (RCH).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Typhoïde.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diverticulite sigmoïdienne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cholécystite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les colites mentionnées comme causes de péritonite secondaire sont la maladie de Crohn, la RCH et la typhoïde."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une péritonite généralisée sévère. Quelle est la durée maximale d'antibiothérapie recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "48 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "5 jours.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Jusqu'à 8 jours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "10 jours.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "14 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "La durée de l'antibiothérapie est courte : 48h si péritonite localisée, 5 jours si péritonite généralisée, et jusqu'à 8 jours si sévère."
+    }
+  ]
+}

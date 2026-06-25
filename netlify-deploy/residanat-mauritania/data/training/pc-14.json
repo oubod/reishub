@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pc-14",
+  "title": "Polytraumatisme",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la définition, quelles sont les caractéristiques d'un polytraumatisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence d'au moins deux lésions viscérales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Au moins une lésion met en jeu le pronostic vital par son retentissement respiratoire ou cardio-circulatoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Implique des lésions cranio-cérébrales, thoraciques, viscérales et/ou osseuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Concerne uniquement les accidents de la voie publique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le polytraumatisme est défini par la présence d'au moins deux lésions (cranio-cérébrales, thoraciques, viscérales et/ou osseuses), dont au moins une met en jeu le pronostic vital par son retentissement respiratoire ou cardio-circulatoire."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal groupe d'âge et de sexe affecté par le polytraumatisme, et quel est son impact sur la mortalité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prédominance féminine, 1ère cause de mortalité chez les sujets âgés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Forte prédominance masculine, 1ère cause de mortalité chez les sujets jeunes (25 à 35 ans).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Affecte principalement les enfants de moins de 10 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "50% de mortalité survient dans les 24 premières heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le polytraumatisme présente une forte prédominance masculine et est la 1ère cause de mortalité chez les sujets jeunes (25 à 35 ans). 50% de la mortalité survient la 1ère heure."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les étapes initiales des premiers secours pré-hospitaliers face à un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alerter le centre 15 (SAMU, SMUR).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Protéger la zone de l'accident.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Secourir le blessé en priorité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transporter immédiatement le blessé à l'hôpital le plus proche.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les étapes des premiers secours sont Protéger (baliser), Alerter (centre 15) et Secourir (libérer VAS, PLS, réanimation si ACR, contrôle hémorragies, lutte contre l'hypothermie)."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques d'une détresse cardio-circulatoire chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pâleur des téguments.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pouls rapide et filant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du temps de recoloration cutané.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle avec élargissement de la TA différentielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de détresse cardio-circulatoire incluent pâleur des téguments, marbrure des genoux, pouls rapide filant, augmentation du temps de recoloration cutané, hypotension avec pincement de la TA différentielle."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de choc hypovolémique chez le polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contusion myocardique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pneumothorax compressif.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémorragie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésion médullaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc hypovolémique est présent dans 80% des cas, principalement d'origine hémorragique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la signification de la présence d'un pouls radial chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indique une Pression Artérielle Systolique (PAS) inférieure à 60 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Témoigne d'une Pression Artérielle Systolique (PAS) supérieure à 80 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signale une détresse respiratoire imminente.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Est un signe de tamponnade cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "La présence du pouls radial témoigne d’une PAS > 80 mmHg."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les actions immédiates à entreprendre en cas de détresse respiratoire pré-hospitalière ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération des voies aériennes supérieures (VAS).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exsufflation de tout pneumothorax sous tension.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mise en place d'une canule de Guedel si besoin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration d'amines sympathomimétiques IV.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CAT pour la détresse respiratoire inclut la libération des VAS (extraction de CE, prévention de la ptose linguale, canule de Guedel), l'exsufflation de tout pneumothorax sous tension et l'intubation trachéale et ventilation si besoin."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les critères d'évaluation neurologique initiaux chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le score de Glasgow.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La motilité spontanée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le réflexe photomoteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mesure de la température corporelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'évaluation neurologique repose sur l'état de conscience (score de Glasgow), le réflexe photomoteur et la motilité spontanée."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les indications d'intubation trachéale chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Détresse respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Détresse circulatoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Détresse neurologique avec Glasgow < 8.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésion traumatique douloureuse ou nécessitant une chirurgie urgente.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications d'intubation sont la détresse respiratoire, la détresse circulatoire, la détresse neurologique avec Glasgow < 8, une lésion traumatique douloureuse ou nécessitant une chirurgie urgente, et l'agitation aiguë."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le premier geste à réaliser pour le bilan lésionnel après l'arrivée des secours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser un body-scanner.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Déshabiller le patient en découpant les vêtements.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Poser une minerve cervicale rigide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Administrer des analgésiques puissants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan lésionnel commence après déshabillage (découpage des vêtements)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles mesures sont prises pour la mise en condition du patient polytraumatisé avant le transport ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transport dans un matelas-coquille.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en place d'une minerve cervicale rigide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Immobilisation des foyers de fracture par attelle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pose d'une seule VVP de petit calibre.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mise en condition comprend le transport dans un matelas-coquille avec minerve cervicale rigide, l'immobilisation des fractures par attelle, la pose de 2 VVP de bon calibre, la prévention de l'hypothermie et la lutte contre la douleur."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les paramètres à surveiller de manière rapprochée et écrite chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence respiratoire (FR).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Température (T°).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Score de Glasgow.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pression artérielle (TA).",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance rapprochée écrite inclut FR, T°, FC, TA, Glasgow, SpO2, dextro, ECG, Hémocue."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les critères de gravité immédiate justifiant un transfert en centre spécialisé (Trauma center) selon l'algorithme de Vittel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Score de Glasgow < 13.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression Artérielle Systolique (PAS) < 90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Saturation en oxygène < 90%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Âge du patient supérieur à 65 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de gravité immédiate sont Glasgow < 13 et/ou PAS < 90 et/ou saturation < 90%."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les causes fréquentes de polytraumatisme mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accidents de la vie domestique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Accidents de la voie publique (AVP).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Accidents du travail.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tentatives de suicide (défenestration).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes fréquentes sont les AVP (piétons, cyclistes, motocyclistes ou automobilistes), les accidents du travail ou les tentatives de suicide (défenestration)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "En cas d'aggravation d'une détresse respiratoire après le début de la ventilation mécanique, quelle est la première hypothèse à évoquer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une embolie pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pneumothorax compressif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une défaillance de l'appareil de ventilation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypothermie sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d’aggravation d’une détresse respiratoire après début de ventilation mécanique, il faut évoquer un pneumothorax compressif à exsuffler et drainer en urgence."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de réanimation à débuter en cas d'arrêt cardio-respiratoire (ACR) pré-hospitalier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Massage cardiaque externe.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Administration d'adrénaline IV.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Libération des voies aériennes supérieures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mise en place de deux voies veineuses périphériques de gros calibre.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'ACR, il faut débuter la réanimation par un massage cardiaque externe et libérer les VAS. Les autres actions sont de la CAT SAMU ou hospitalière."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de détresse cardio-circulatoire autres que le choc hypovolémique hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tamponnade cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contusion myocardique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésion médullaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Outre le choc hypovolémique hémorragique, les autres causes de détresse cardio-circulatoire sont le pneumothorax, la tamponnade, la contusion myocardique et la lésion médullaire."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions de la CAT SAMU en cas de détresse cardio-circulatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oxygénothérapie au masque, voire intubation trachéale et ventilation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en place de 2 VVP de gros calibre et remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contrôle des hémorragies externes par pansements compressifs stériles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration systématique d'amines sympathomimétiques IV.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CAT SAMU comprend l'oxygénothérapie/intubation/ventilation, la pose de 2 VVP et remplissage, le contrôle des hémorragies externes (pansements, immobilisation fractures, suture scalp). Les amines sont IV si nécessaire, pas systématiquement."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une détresse respiratoire chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agitation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Polypnée ou bradypnée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cyanose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Emphysème thoraco-cervical extensif.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes de détresse respiratoire sont l'agitation, la polypnée ou bradypnée, les signes de lutte ou d’encombrement, la cyanose et l'emphysème thoraco-cervical extensif."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de cinétique violente justifiant un transfert en centre spécialisé (Trauma center) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éjection d'un véhicule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chute de plus de 6 mètres.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Autre passager du même véhicule décédé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vitesse estimée du véhicule inférieure à 50 km/h.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de cinétique violente incluent l'éjection d’un véhicule, un autre passager du même véhicule décédé, une chute > 6 m, une victime projetée ou écrasée, un blast ou l'appréciation globale (déformation du véhicule, vitesse estimée, airbags activés, absence de casque ou de ceinture de sécurité)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles lésions anatomiques justifient un transfert en centre spécialisé (Trauma center) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traumatisme pénétrant crânien.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fracture du bassin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Brûlure sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Amputation au-dessus du poignet/cheville.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lésions anatomiques incluent traumatisme pénétrant crânien, cervical, thoracique, abdominal, du bassin, du bras ou de la cuisse, volet thoracique, brûlure sévère, inhalation de fumée, fracture du bassin, suspicion d’atteinte médullaire, amputation au-dessus du poignet/cheville, ischémie de membre."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions à réaliser par l'équipe hospitalière avant l'arrivée d'un patient polytraumatisé sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Préparer le matériel et les médicaments d'urgence (PSL inclus).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévenir les médecins intervenants (radiologue, chirurgiens).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mettre en place une voie veineuse centrale par voie fémorale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Réaliser un body-scanner d'emblée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Avant l'arrivée, l'équipe est prévenue, le matériel et les médicaments d'urgence sont préparés, et les médecins intervenants sont prévenus. La pose de VVC et le body-scanner sont des étapes ultérieures de la PEC hospitalière."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations un patient polytraumatisé peut-il être orienté directement au bloc opératoire à son arrivée à l'hôpital ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Instabilité hémodynamique majeure de cause évidente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plaie par balle ou arme blanche.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Amputation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glasgow < 8 sans instabilité hémodynamique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le patient est orienté directement au bloc opératoire si instabilité hémodynamique majeure de cause évidente, accessible à un traitement chirurgical immédiat (plaie par balle ou arme blanche, amputation…)."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions de conditionnement à réaliser dans les 15 premières minutes de la prise en charge hospitalière ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vérification des VVP mises en place et ajout d'une VVC si besoin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en place d'un cathéter artériel fémoral si besoin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Poursuite de l'oxygénation et du remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Examen clinique complet du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le conditionnement dans les 15 minutes comprend la vérification/ajout de VVP/VVC, la pose d'un cathéter artériel fémoral si besoin, et la poursuite de l'oxygénation et du remplissage vasculaire. L'examen clinique complet est une étape distincte dans le même laps de temps."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'intérêt du toucher rectal (TR) chez un patient polytraumatisé inconscient ou suspect de lésion du rachis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechercher une béance anale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diagnostiquer une lésion médullaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évaluer le tonus sphinctérien.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Détecter une hémorragie digestive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si inconscient ou suspect de lésion du rachis, le TR est réalisé pour rechercher une béance anale, signe de lésion médullaire, et évaluer le tonus sphinctérien."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens biologiques font partie du bilan initial dans les 30 premières minutes de la prise en charge hospitalière ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS (Numération Formule Sanguine).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan de coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Groupage sanguin et RAI (Recherche d'Agglutinines Irrégulières).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troponinémie et ECG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan biologique initial inclut NFS, bilan de coagulation, groupage, RAI, ionogramme, urée, créatininémie ± β-hCG, GDS avec lactates artériels, troponinémie et ECG, et alcoolémie si suspicion."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens d'imagerie sont réalisés dans le bilan initial (moins de 30 minutes) pour rechercher une lésion nécessitant une intervention urgente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie pulmonaire (RP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Radiographie du bassin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "FAST-écho (échographie abdominale, pleurale et cardiaque rapide).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Body-scanner corps entier.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan initial d'imagerie comprend la RP (épanchement liquidien ou gazeux), la Rx du bassin (fracture du bassin) et le FAST-écho (hémopéritoine, épanchement pleural ou gazeux, hémopéricarde). Le body-scanner est réalisé dans l'heure, chez un patient stable."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les informations que le body-scanner cérébral peut fournir chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Urgence neurochirurgicale (2,5%).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions cérébrales (hématomes, contusion, œdème).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Visualisation des vaisseaux cérébraux (dissection).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évaluation des organes abdominaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner cérébral permet de détecter une urgence neurochirurgicale, des lésions cérébrales (hématomes, contusion, pétéchies, œdème) et de visualiser les vaisseaux cérébraux (dissection). L'évaluation des organes abdominaux relève du scanner abdominal."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les lésions thoraciques que le body-scanner peut identifier, y compris celles non visibles à la radiographie pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémothorax.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contusion pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésions du médiastin et des gros vaisseaux.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le scanner thoracique peut révéler un pneumothorax (10 à 20% non visible à la RP), un hémothorax, une contusion pulmonaire, des lésions du médiastin et des gros vaisseaux."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelle catégorie de la stratégie de prise en charge se trouve un patient présentant un choc persistant malgré l'expansion volémique et l'administration d'amines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Catégorie 1.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Catégorie 2.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Catégorie 3.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Catégorie 4.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Catégorie 1 correspond à un choc persistant malgré expansion volémique et amine."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de choc hémorragique chez le polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésion abdominale, rétro-péritonéale et/ou thoracique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fracture du bassin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plaie du scalp.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fracture fermée du fémur.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes de choc hémorragique incluent les lésions abdominales, rétro-péritonéales et/ou thoraciques, les fractures du bassin, les plaies du scalp, les épistaxis, les fractures fermées et les fractures ouvertes avec plaie vasculaire."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la perte sanguine estimée pour une fracture du fémur et une fracture du tibia ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fémur = 500 ml, Tibia = 250 ml.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fémur = 2000 ml, Tibia = 1000 ml.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fémur = 1000 ml, Tibia = 500 ml.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fémur = 5000 ml, Tibia = 2000 ml.",
+          "correct": false
+        }
+      ],
+      "explanation": "La perte sanguine estimée est de 2000 ml pour une fracture du fémur et de 1000 ml pour une fracture du tibia."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs de la stratégie transfusionnelle agressive chez le polytraumatisé en choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémoglobine (Hb) > 7 g/dL.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Taux de Prothrombine (TP) > 40%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plaquettes > 50 G/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fibrinogène > 2 g/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs sont Hb > 7, TP > 40%, plaquettes > 50 G/L. Le fibrinogène est administré mais aucun objectif chiffré n'est donné dans le texte."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles mesures sont prises pour prévenir la coagulopathie chez le polytraumatisé en choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration d'antifibrinolytique (acide tranexamique) dans les 3 heures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lutte contre l'hypothermie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Correction du choc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Correction d'une hypocalcémie due aux produits sanguins labiles (PSL).",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention de la coagulopathie inclut l'antifibrinolytique (acide tranexamique) dans les 3h, la lutte contre l'hypothermie, la correction du choc et la correction d'une hypocalcémie (due aux PSL)."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à discuter selon le terrain du patient pour un transfert en centre spécialisé (Trauma center) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge supérieur à 65 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance organique préexistante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Grossesse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Trouble de l'hémostase.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le transfert est à discuter selon le terrain pour l'âge > 65 ans, l'insuffisance organique, la grossesse et les troubles de l'hémostase."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé présente une détresse respiratoire avec agitation, polypnée, cyanose et emphysème thoraco-cervical extensif. Quelle est la conduite à tenir immédiate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mettre en place une canule de Guedel pour prévenir la ptose linguale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exsuffler un éventuel pneumothorax sous tension.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Intuber et ventiler le patient si nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administrer des sédatifs pour calmer l'agitation.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CAT pour la détresse respiratoire inclut la libération des VAS (canule de Guedel), l'exsufflation de tout pneumothorax sous tension et l'intubation trachéale et ventilation si besoin. L'administration de sédatifs n'est pas la première étape et pourrait masquer des signes importants."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé est en choc persistant malgré un remplissage vasculaire initial et l'administration d'amines. Aucune hémorragie extériorisée n'est visible. Quelle est la stratégie de prise en charge recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser un body-scanner complet d'emblée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Transférer le patient directement au bloc opératoire pour une chirurgie de sauvetage.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Effectuer une évaluation rapide (RP, Rx bassin et FAST-écho), idéalement au bloc opératoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Poursuivre le remplissage vasculaire sans autre investigation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un patient de Catégorie 1 (choc persistant malgré expansion volémique et amine) sans cause évidente d'hémorragie extériorisée, l'évaluation rapide (RP, Rx bassin et FAST-écho) est recommandée, idéalement au bloc opératoire."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé est stabilisé après expansion volémique et amines, mais rechute à l'arrêt ou diminution de l'expansion. Quelle est la séquence d'examens et de prise en charge recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bilan initial par RP, Rx du bassin et FAST-écho en salle de déchocage.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan lésionnel par body-scan.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prise en charge au bloc ou en radiologie interventionnelle selon les lésions.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transfert immédiat en réanimation sans autre examen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ce patient est en Catégorie 2. La prise en charge implique un bilan initial par RP, Rx du bassin et FAST-écho en salle de déchocage, suivi d'un bilan lésionnel par body-scan, puis une prise en charge au bloc ou en radiologie interventionnelle selon les lésions."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé est stable après expansion volémique. Quelle est la stratégie d'imagerie recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser un body-scanner d'emblée si disponible rapidement (< 30 minutes).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Commencer par une radiographie pulmonaire et du bassin, puis un FAST-écho.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Reporter le body-scanner à 24 heures pour stabiliser davantage le patient.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Se limiter aux radiographies standards des membres si suspicion de fracture.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un patient stable (Catégorie 3), le bilan initial par RP, Rx du bassin et FAST-écho en salle de déchocage est réalisé. Le bilan lésionnel par body-scan est ensuite effectué, possiblement d'emblée si disponible rapidement (< 30 minutes)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures spécifiques pour arrêter précocement les hémorragies insidieuses chez un polytraumatisé en choc hémorragique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise en place d'une ceinture pelvienne si suspicion de fracture du bassin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sutures des plaies du scalp.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pansement compressif sur les hémorragies externes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tamponnement antérieur ou antéro-postérieur d'un épistaxis.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'arrêt précoce des hémorragies insidieuses comprend la ceinture pelvienne si suspicion de fracture du bassin, les sutures de plaies du scalp, les pansements compressifs et le tamponnement antérieur ou antéro-postérieur d'un épistaxis."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé présente un Glasgow de 7, une PAS de 85 mmHg et une SpO2 de 88%. Quelles sont les implications pour sa prise en charge ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il doit être intubé en urgence.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il doit être transféré en centre spécialisé (Trauma center).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est considéré comme stable et peut attendre des examens complémentaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il nécessite un remplissage vasculaire agressif et une oxygénothérapie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un Glasgow < 8 est une indication d'intubation. Une PAS < 90 mmHg et une SpO2 < 90% sont des critères de gravité immédiate pour un transfert en Trauma center. Ces signes indiquent une instabilité nécessitant un remplissage et une oxygénothérapie."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à rechercher lors de l'examen clinique complet en salle de déchocage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésions traumatiques de la tête, du cou et du rachis.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lésions traumatiques du thorax et de l'abdomen.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésions traumatiques du bassin et des membres.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signes de béance anale si le patient est inconscient.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'examen clinique complet recherche des lésions traumatiques de la tête/cou/rachis, thorax, abdomen, bassin, membres. Si inconscient ou suspect de lésion du rachis, un TR est effectué pour rechercher une béance anale."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé présente une suspicion de rupture trachéo-bronchique suite à un traumatisme thoracique. Quel examen complémentaire est le plus indiqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Body-scanner thoracique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fibroscopie bronchique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Échographie pleurale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fibroscopie bronchique est indiquée en cas de trauma thoracique avec suspicion de rupture trachéo-bronchique."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du body-scanner corps entier dans la prise en charge du polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est réalisé sans puis avec injection de produit de contraste.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est envisagé seulement chez un patient stable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il peut être réalisé d'emblée si disponible en moins de 30 minutes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est le premier examen à réaliser en cas de traumatisme crânien grave.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le body-scanner est un bilan lésionnel complet, sans puis avec injection. Il est envisagé seulement chez un patient stable, possiblement d’emblée si disponible < 30 minutes. Le scanner cérébral est le premier si TC, mais le body-scanner corps entier n'est pas le premier examen globalement."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les pertes sanguines estimées pour les fractures suivantes : humérus, vertèbre, côte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Humérus = 500 ml, Vertèbre = 250 ml, Côte = 125 ml.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Humérus = 250 ml, Vertèbre = 125 ml, Côte = 50 ml.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Humérus = 1000 ml, Vertèbre = 500 ml, Côte = 250 ml.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Humérus = 500 ml, Vertèbre = 125 ml, Côte = 250 ml.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes sanguines estimées sont : Humérus = 500 ml, Vertèbre ou os de l'avant-bras = 250 ml, Côte = 125 ml."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé présente une suspicion de fracture du bassin. Quelle est la première mesure à prendre pour contrôler une éventuelle hémorragie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaliser une embolisation radiologique en urgence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mettre en place une ceinture pelvienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfuser massivement le patient.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Préparer le patient pour une laparotomie d'hémostase.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de suspicion de fracture du bassin, la mise en place d'une ceinture pelvienne est une mesure précoce pour arrêter les hémorragies insidieuses."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à inclure dans la préparation du matériel et des médicaments d'urgence avant l'arrivée d'un polytraumatisé sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Produits Sanguins Labiles (PSL).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Matériel d'intubation et de ventilation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Médicaments pour le remplissage vasculaire et les amines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Matériel de radiologie interventionnelle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La préparation inclut le matériel et les médicaments d'urgence, notamment les PSL. Le matériel d'intubation, de ventilation, les solutés de remplissage et les amines sont essentiels. Le matériel de radiologie interventionnelle est spécifique à une procédure et non à la préparation générale avant l'arrivée."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications du Doppler trans-crânien chez un polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Traumatisme crânien grave (Glasgow < 8).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suspicion d'hémorragie intracrânienne.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Évaluation de la pression intracrânienne.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est utilisé selon la disponibilité pour les TC graves.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le Doppler trans-crânien est utilisé selon disponibilité si TC grave (Glasgow < 8). Le texte ne mentionne pas son rôle dans l'évaluation de la pression intracrânienne ou la suspicion d'hémorragie intracrânienne spécifiquement, mais plutôt comme un outil pour les TC graves."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales interventions urgentes que le bilan initial d'imagerie (RP, Rx bassin, FAST-écho) vise à identifier ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Drainage thoracique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Laparotomie d'hémostase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thoracotomie d'hémostase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Embolisation d'un traumatisme du bassin.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan initial d'imagerie recherche une lésion nécessitant une intervention urgente comme le drainage thoracique, la laparotomie ou thoracotomie d’hémostase, ou l'embolisation d’un traumatisme du bassin."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de lutte contre l'hypothermie chez le polytraumatisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mesure régulière de la température corporelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utilisation de couvertures isolantes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administration de liquides de remplissage réchauffés.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la température ambiante de la salle de déchocage.",
+          "correct": false
+        }
+      ],
+      "explanation": "La lutte contre l'hypothermie implique la mesure de la température corporelle et l'utilisation de couvertures isolantes. Le texte ne mentionne pas spécifiquement les liquides réchauffés ou l'augmentation de la température ambiante, bien que ce soient des pratiques courantes, elles ne sont pas dans le texte fourni."
+    }
+  ]
+}

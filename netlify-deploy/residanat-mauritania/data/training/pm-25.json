@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-25",
+  "title": "Cirrhoses",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition histologique de la cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une inflammation chronique du foie avec nécrose hépatocytaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une fibrose annulaire délimitant des nodules d'hépatocytes en amas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une stéatose macro-vacuolaire diffuse du parenchyme hépatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation des voies biliaires intra-hépatiques avec cholestase.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surcharge en fer prédominant dans les cellules de Kupffer.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cirrhose est définie histologiquement par une désorganisation diffuse de l’architecture hépatique, avec une fibrose annulaire délimitant des nodules d’hépatocytes en amas, appelés nodules de régénération."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes cliniques suivants, lesquels sont évocateurs d'une insuffisance hépato-cellulaire dans le cadre d'une cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Splénomégalie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Angiomes stellaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ascite.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Thrombopénie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Circulation veineuse collatérale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les angiomes stellaires sont un signe clinique d'insuffisance hépato-cellulaire. La splénomégalie, l'ascite, la thrombopénie et la circulation veineuse collatérale sont des signes d'hypertension portale."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen d'imagerie de première intention systématique pour le diagnostic de cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tomodensitométrie abdominale (TDM).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Imagerie par résonance magnétique (IRM) hépatique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Échographie abdominale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholangiopancréatographie rétrograde endoscopique (CPRE).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Scintigraphie hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie abdominale est systématique en première intention pour le diagnostic de cirrhose, la TDM ou l'IRM étant utilisées en seconde intention."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause de cirrhose associée à un rapport ASAT/ALAT ≥ 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hépatite auto-immune.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hémochromatose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Alcoolisme chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stéato-hépatite non alcoolique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cirrhose biliaire primitive.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'alcoolisme chronique est caractérisé par une élévation prédominante des ASAT, avec un rapport ASAT/ALAT ≥ 2."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement étiologique de première intention pour une cirrhose biliaire primitive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corticothérapie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Saignées.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Acide ursodésoxycholique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chélateur du cuivre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Antiviraux directs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la cirrhose biliaire primitive est l'acide ursodésoxycholique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et biologiques d'insuffisance hépato-cellulaire pouvant être observés chez un patient cirrhotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ictère conjonctival.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypo-albuminémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombopénie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypergammaglobulinémie polyclonale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Splénomégalie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ictère conjonctival, l'hypo-albuminémie et l'hypergammaglobulinémie polyclonale sont des signes d'insuffisance hépato-cellulaire. La thrombopénie et la splénomégalie sont des signes d'hypertension portale par hypersplénisme."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à la ponction-biopsie hépatique par voie percutanée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un TP < 50%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une ascite volumineuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une dilatation des voies biliaires intra-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une thrombopénie à 70 G/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hépatomégalie de consistance dure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications à la ponction-biopsie hépatique sont un TP < 50%, des plaquettes < 50 G/L, une ascite volumineuse (nécessitant une biopsie par voie trans-jugulaire) et une dilatation des voies biliaires intra-hépatiques. Une thrombopénie à 70 G/L n'est pas une contre-indication absolue (le seuil est < 50 G/L)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques histologiques de la stéato-hépatite alcoolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stéatose macro-vacuolaire isolée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ballonisation hépatocytaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Corps de Mallory.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infiltrats inflammatoires à PNN.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Granulomes épithélioïdes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La stéato-hépatite alcoolique associe stéatose macro-vacuolaire isolée, ballonisation/nécrose hépatocytaire, corps de Mallory et infiltrats inflammatoires à PNN au sein des travées hépatocytaires. Les granulomes épithélioïdes sont associés à l'hépatite C ou la cirrhose biliaire primitive."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères diagnostiques de l'hémochromatose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un coefficient de saturation de la transferrine (CST) > 45%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperferritinémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une mutation homozygote du gène HFE.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une surcharge en fer à la coloration de Perls, à prédominance hépatocytaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une céruloplasmine basse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémochromatose est caractérisée par un CST > 45%, une hyperferritinémie, une mutation homozygote du gène HFE et une surcharge en fer à la coloration de Perls, à prédominance hépatocytaire, surtout péri-portale. Une céruloplasmine basse est un signe de la maladie de Wilson."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan de première intention à réaliser devant une cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recherche d'un alcoolisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sérologie VHB et VHC.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bilan martial.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Glycémie à jeun et bilan lipidique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bili-IRM.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan de première intention comprend la recherche d’un alcoolisme, les sérologies VHB et VHC, ainsi que le bilan du syndrome métabolique (glycémie à jeun, bilan lipidique). Le bilan martial et la bili-IRM sont des examens de seconde intention."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du TIPS (Shunt porto-systémique intra-hépatique par voie transjugulaire) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragies digestives récidivantes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ascite réfractaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Encéphalopathie hépatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Thrombose porte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Insuffisance cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications du TIPS sont les hémorragies digestives récidivantes ou incontrôlées et l'ascite réfractaire. L'encéphalopathie hépatique, la thrombose porte et l'insuffisance cardiaque sont des contre-indications ou des complications du TIPS."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées recommandées pour un patient cirrhotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt du tabac.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activité physique régulière.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Éviter l'automédication.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Paracétamol à dose maximale de 4 g/jour.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Éviction des traitements hépatotoxiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mesures associées incluent l'arrêt du tabac, l'activité physique, l'éviction de l'automédication et des traitements hépatotoxiques. La dose maximale de paracétamol recommandée est de < 3 g/jour."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rythme de surveillance recommandé pour le dépistage du carcinome hépato-cellulaire (CHC) chez un patient cirrhotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie hépatique tous les ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dosage de l'alpha-fœtoprotéine (αFP) tous les 3 mois.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Échographie hépatique tous les 6 mois.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "TDM ou IRM hépatique systématique tous les ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Biopsie hépatique systématique tous les 2 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dépistage du CHC repose sur une échographie hépatique tous les 6 mois, avec un dosage de l'αFP discuté. La TDM ou l'IRM sont utilisées en cas de doute à l'échographie, et la biopsie si nodule non caractéristique."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon le score de Child-Pugh, quelle classe est associée à une survie à 1 an de 80% ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Classe A.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Classe B.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Classe C.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Classe D.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Classe E.",
+          "correct": false
+        }
+      ],
+      "explanation": "La classe B du score de Child-Pugh (score de 7 à 9) est associée à une survie à 1 an de 80%. La classe A (5 ou 6) a 100% de survie à 1 an, et la classe C (≥ 10) a 45% de survie à 1 an."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs prédictifs de rupture des varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La taille des varices.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de signes rouges (marbrure, zébrure, vésicule).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un score de Child-Pugh élevé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'âge du patient.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence d'une gastropathie d'hypertension portale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs prédictifs de rupture des varices œsophagiennes sont la taille des varices, la présence de signes rouges (marbrure, zébrure, vésicule) et un score de Child-Pugh élevé."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements préventifs de première intention des hémorragies par rupture de varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ligature élastique endoscopique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "β-bloquants non cardiosélectifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Terlipressine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sandostatine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Colle biologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement préventif de première intention est l'utilisation de β-bloquants non cardiosélectifs (propranolol, nadolol, carvédilol). La ligature élastique endoscopique est une seconde intention. La terlipressine et la sandostatine sont des traitements vasoactifs utilisés en cas de rupture avérée. La colle biologique est utilisée pour les varices sous-cardiales non ligaturables."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "En cas de rupture de varices œsophagiennes, quelles sont les mesures thérapeutiques initiales à mettre en œuvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remplissage vasculaire modéré avec un objectif de PAM à 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion sanguine si Hb < 7 g/dL ou mauvaise tolérance.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vidange gastrique par SNG ou érythromycine avant gastroscopie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration systématique d'antibioprophylaxie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Gastroscopie en urgence dans les 24 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de rupture de varices, il faut un remplissage vasculaire modéré (PAM visée = 65 mmHg), une transfusion si Hb < 7 ou mauvaise tolérance, une vidange gastrique avant gastroscopie, et une antibioprophylaxie systématique. La gastroscopie doit être réalisée en urgence dans les 12 heures si le patient est stable."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'infection du liquide d'ascite (ILA) chez le cirrhotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est le plus souvent due à des entérobactéries (E. coli ++).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent asymptomatique au stade initial.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le diagnostic repose sur un taux de PNN > 250/mm3 dans le liquide d'ascite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'examen direct du liquide d'ascite est souvent positif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La bactériascitie est une forme d'ILA avec une culture positive et un taux de PNN < 250/mm3.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'ILA est le plus souvent due à des entérobactéries (E. coli ++), souvent asymptomatique au début, et diagnostiquée par un taux de PNN > 250/mm3. L'examen direct est rarement positif (50%). La bactériascitie est définie par une culture positive avec un taux de PNN < 250/mm3."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères majeurs du syndrome hépato-rénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Créatininémie > 130 µmol/L ou DFG < 40 mL/min.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Protéinurie < 0,5 g/24h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Amélioration après expansion volémique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diurèse < 500 mL/24h.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Absence d'autre cause d'insuffisance rénale (choc, infection).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères majeurs sont une créatininémie > 130 µmol/L ou DFG < 40 mL/min, une protéinurie < 0,5 g/24h, et l'absence d'autre cause d'insuffisance rénale sans amélioration après expansion volémique. La diurèse < 500 mL/24h est un critère mineur."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs déclenchants de l'encéphalopathie hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémorragie digestive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prise de sédatifs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyponatrémie profonde.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tous les facteurs listés (infection, hémorragie digestive, sédatifs, insuffisance rénale, hyponatrémie profonde, constipation) sont des facteurs déclenchants de l'encéphalopathie hépatique."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de l'encéphalopathie hépatique au stade 1 de West Haven ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Astérixis.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Désorganisation du cycle nycthéméral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome confusionnel.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ralentissement psychomoteur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Coma.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au stade 1 de West Haven, les signes sont l'astérixis et la désorganisation du cycle nycthéméral. Le syndrome confusionnel et le ralentissement psychomoteur apparaissent au stade 2, et le coma aux stades 3 et 4."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du syndrome hépato-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoxémie (PaO2 < 70 mmHg).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vasodilatation pulmonaire et shunt.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du gradient alvéolo-pulmonaire (> 20 mmHg).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Platypnée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Insuffisance cardiaque droite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome hépato-pulmonaire est défini par une hypoxémie (PaO2 < 70 mmHg), une vasodilatation pulmonaire et shunt, une augmentation du gradient alvéolo-pulmonaire (> 20 mmHg) et se manifeste cliniquement par une platypnée. L'insuffisance cardiaque droite est un signe d'hypertension porto-pulmonaire."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de la forme neurologique de la maladie de Wilson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tremblement postural et intentionnel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dysarthrie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dystonie focale ou généralisée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome dépressif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hépatomégalie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La forme neurologique de la maladie de Wilson se manifeste par un syndrome parkinsonien avec tremblement postural et intentionnel, dysarthrie, dystonie focale ou généralisée, dyspraxie, troubles de déglutition, ainsi que des troubles psychiatriques comme le syndrome dépressif ou la psychose. L'hépatomégalie est un signe de la forme hépatique."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies biologiques caractéristiques de la maladie de Wilson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céruloplasmine abaissée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du cuivre libre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution du cuivre total.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Élévation de la cuprurie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperferritinémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Wilson est caractérisée par une céruloplasmine abaissée, une augmentation du cuivre libre, une diminution du cuivre total et une élévation quasi-constante du cuivre urinaire. L'hyperferritinémie est associée à l'hémochromatose."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement de première intention de la maladie de Wilson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Régime avec apports en cuivre restreints.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "D-pénicillamine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acétate de zinc.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Triéthylène-tétramine-dihydrochloride.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Transplantation hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de première intention de la maladie de Wilson comprend un régime avec apports en cuivre restreints et la D-pénicillamine, un chélateur du cuivre. L'acétate de zinc et le triéthylène-tétramine-dihydrochloride sont des alternatives de seconde intention. La transplantation hépatique est réservée aux formes fulminantes ou s'aggravant sous traitement médical."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient cirrhotique présente une dysmorphie hépatique à l'échographie. Quelles sont les anomalies typiques pouvant être observées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atrophie du lobe droit.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypertrophie du segment IV.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Atrophie du segment I.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypertrophie du lobe gauche.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation homogène du volume hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysmorphie hépatique typique de la cirrhose à l'échographie inclut une atrophie de certains secteurs, souvent du lobe droit et du segment IV, et une hypertrophie d’autres secteurs, souvent du lobe gauche et du segment I."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques échographiques de l'hypertension portale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ascite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Splénomégalie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Voies veineuses collatérales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diamètre du tronc porte > 13 mm.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la vitesse et du débit portal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes échographiques d'hypertension portale incluent l'ascite, la splénomégalie, les voies veineuses collatérales, un diamètre du tronc porte > 13 mm et une diminution (non une augmentation) de la vitesse et du débit portal, voire une inversion du flux sanguin (flux hépatofuge)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les lésions histologiques spécifiques de l'hépatite chronique C dans le cadre d'une cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infiltrat inflammatoire portal lymphocytaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécrose hépatocytaire péri-portale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésions inflammatoires des canaux biliaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Granulomes épithélioïdes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hépatocytes en « verre dépoli ».",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatite chronique C peut présenter un infiltrat inflammatoire portal lymphocytaire, une nécrose hépatocytaire péri-portale, des lésions inflammatoires des canaux biliaires, des granulomes épithélioïdes, des nodules lymphoïdes des espaces portes et une stéatose associée. Les hépatocytes en « verre dépoli » sont caractéristiques de l'hépatite B."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la cirrhose biliaire primitive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Survient préférentiellement chez la femme de plus de 50 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence d'anticorps anti-mitochondrie type M2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Histologie montrant une cholangite destructrice lymphocytaire ou granulomateuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Associée à une mutation homozygote du gène HFE.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Traitement par corticoïdes et azathioprine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cirrhose biliaire primitive touche préférentiellement la femme de plus de 50 ans, est associée aux anticorps anti-mitochondrie type M2 et présente une cholangite destructrice lymphocytaire ou granulomateuse à la PBH. La mutation HFE est liée à l'hémochromatose, et les corticoïdes/azathioprine sont pour l'hépatite auto-immune."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la transplantation hépatique chez un patient cirrhotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance hépato-cellulaire sévère (TP < 50% ou INR > 1,7).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Encéphalopathie récidivante ou chronique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ascite réfractaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Apparition d'un carcinome hépato-cellulaire de petite taille.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Thrombose porte.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de transplantation hépatique incluent l'IHC sévère (TP < 50% ou INR > 1,7), l'encéphalopathie récidivante ou chronique, l'ictère, l'hémorragie digestive récidivante sous traitement, l'ascite réfractaire, l'infection du liquide d'ascite, et elle est à discuter en cas d'apparition d'un CHC de petite taille. La thrombose porte est une contre-indication au TIPS, mais pas une indication directe de transplantation."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements médicamenteux contre-indiqués chez un patient cirrhotique Child B ou C ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Psychotropes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aminosides.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "AINS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "IEC.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Paracétamol à 2 g/jour.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les patients Child B ou C, les psychotropes, les néphrotoxiques (aminosides, AINS, IEC), les antirétroviraux, les AVK et les tétracyclines sont contre-indiqués. Le paracétamol est autorisé à une dose inférieure à 3 g/jour."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les paramètres biologiques à surveiller annuellement chez un patient cirrhotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "TP.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Albuminémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Créatininémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance biologique annuelle inclut la NFS, le bilan hépatique, le TP, l'albuminémie, la créatininémie et la glycémie à jeun."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes à évoquer devant toute décompensation de cirrhose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hépatite alcoolique aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Écart du régime sans sel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémorragie digestive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection du liquide d'ascite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Thrombose porte.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutes les propositions sont des causes fréquentes de décompensation de cirrhose, incluant l'hépatite alcoolique aiguë, l'écart du régime sans sel, l'hémorragie digestive, les traitements hépatotoxiques ou néphrotoxiques, l'infection du liquide d'ascite, le carcinome hépato-cellulaire, la thrombose porte, le syndrome de Budd-Chiari et toute infection ou épisode aigu."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des varices œsophagiennes de grade II ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Petites, < 5 mm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Disparaissent à l'exsufflation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Supérieures à 5 mm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ne disparaissent pas à l'exsufflation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Non confluentes (< 2/3 de l'œsophage).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les varices de grade II sont > 5 mm, ne disparaissent pas à l'exsufflation et sont non confluentes (< 2/3 de l'œsophage). Les varices de grade I sont petites (< 5 mm) et disparaissent à l'exsufflation."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de traitement préventif des hémorragies par rupture de varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Varices œsophagiennes de grade I avec Child A.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Varices œsophagiennes de grade II.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Varices œsophagiennes de grade I avec Child C.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Varices œsophagiennes de grade I avec signes rouges.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Gastropathie d'hypertension portale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement préventif est indiqué en cas de varices œsophagiennes de grade ≥ II ou de varices de grade I avec Child C et/ou signes rouges. La gastropathie d'hypertension portale bénéficie d'une prophylaxie systématique par β-bloquant, mais n'est pas une indication de traitement préventif des ruptures de varices œsophagiennes."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements vasoactifs IV utilisés en cas de rupture de varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sandostatine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Octréotide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Terlipressine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Propranolol.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Furosémide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements vasoactifs IV pour diminuer la pression portale sont la Sandostatine, l'Octréotide (analogue) et la Terlipressine. Le propranolol est un β-bloquant utilisé en prévention des récidives, et le furosémide est un diurétique utilisé pour l'ascite."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques en cas d'échec de l'endoscopie initiale pour une rupture de varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réalisation d'une deuxième endoscopie avec ligatures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise en place d'une sonde de tamponnement œsophagien de Blakemore.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mise en place d'un TIPS en urgence.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration de colle biologique pour les varices sous-cardiales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation des doses de β-bloquants.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'échec de l'endoscopie initiale, les options incluent une deuxième endoscopie (ligatures), la sonde de tamponnement œsophagien de Blakemore, ou un TIPS en urgence. L'administration de colle biologique est pour les varices sous-cardiales non ligaturables, et l'augmentation des doses de β-bloquants est pour la prévention des récidives."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prévention des récidives d'hémorragie par varices œsophagiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduction ou majoration des doses de β-bloquants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ligatures de varices œsophagiennes itératives jusqu'à éradication.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Endoscopie de contrôle tous les 6 mois à 1 an.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mise en place d'un TIPS chez les patients Child A.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Arrêt des diurétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention des récidives repose sur l'introduction ou la majoration des doses de β-bloquants, les ligatures de varices œsophagiennes itératives jusqu'à éradication, et une endoscopie de contrôle tous les 6 mois à 1 an. Le TIPS est indiqué chez les patients sévères (Child C ou Child B avec saignement actif) ou en cas de récidive sous traitement prophylactique, pas systématiquement chez les Child A. L'arrêt des diurétiques n'est pas une mesure de prévention des récidives de varices."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors d'une ponction évacuatrice d'ascite, quelles sont les recommandations concernant l'expansion volémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Perfusion de 500 mL de colloïdes pour chaque litre d'ascite évacué au-delà du 2e litre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Perfusion de 20 g d'albumine pour chaque 3 litres d'ascite évacués au-delà du 2e litre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'expansion volémique n'est nécessaire qu'en cas de ponction de plus de 5 litres.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une restriction hydrique est recommandée pour prévenir le dysfonctionnement rénal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'expansion volémique est systématique dès le premier litre évacué.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'expansion volémique est recommandée au-delà du 2e litre d’ascite évacué : perfusion de 500 mL de colloïdes/2L d’ascite + expansion volémique par 20 g d’albumine/3L d’ascite. La restriction hydrique est à proscrire."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications de l'ascite réfractaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hernie ombilicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Éventration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome hépato-rénal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Encéphalopathie hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de l'ascite réfractaire mentionnées sont la dyspnée, la hernie ombilicale (indication chirurgicale systématique) et l'éventration. Le syndrome hépato-rénal et l'encéphalopathie hépatique sont des complications de la cirrhose en général, mais pas spécifiquement de l'ascite réfractaire en tant que telle, bien qu'ils puissent y être associés."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement antibiotique recommandé en cas d'infection du liquide d'ascite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Céfotaxime IV.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentin® (IV, relai oral à 24h).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ofloxacine (po ou IV).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Norfloxacine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ciprofloxacine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement antibiotique recommandé est le Céfotaxime IV, l'Augmentin® (IV, relai oral à 24h) ou l'Ofloxacine (po ou IV). La Norfloxacine est utilisée en antibioprophylaxie au long cours après traitement curatif."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives du syndrome hépato-rénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éviter les traitements néphrotoxiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Compensation des pertes par albumine lors des ponctions d'ascite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arrêt des diurétiques si insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Restriction hydrique stricte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administration de terlipressine à titre prophylactique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures préventives du syndrome hépato-rénal incluent l'éviction des traitements néphrotoxiques, la compensation des pertes par albumine lors des ponctions d'ascite et l'arrêt des diurétiques si insuffisance rénale. La restriction hydrique est à proscrire, et la terlipressine est un traitement curatif, non préventif."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'encéphalopathie hépatique au stade 3 de West Haven ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Glasgow 14/15.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome confusionnel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Coma avec signes pyramidaux et extrapyramidaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Disparition de l'astérixis.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ondes triphasiques à l'EEG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Au stade 3 de West Haven, le patient est en coma avec signes pyramidaux et extrapyramidaux (Glasgow 10/13). L'EEG montre des ondes triphasiques à partir de ce stade. Le Glasgow 14/15 et le syndrome confusionnel sont des stades plus précoces. La disparition de l'astérixis est au stade 4."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements de l'encéphalopathie hépatique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lactulose en première intention.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rifaximine en deuxième intention.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prévention de l'inhalation par SNG et position semi-assise.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Intubation en cas de trouble de la conscience sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administration de sédatifs pour calmer l'agitation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements de l'encéphalopathie hépatique aiguë sont le lactulose en première intention, la rifaximine en deuxième intention, et la prévention de l'inhalation (SNG, position semi-assise, voire intubation). L'administration de sédatifs est une contre-indication."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hydrothorax hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épanchement pleural > 500 mL.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sans cause cardio-pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traitement par régime hyposodé et diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La surinfection est définie par une culture positive et des PNN > 250/mm3.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le TIPS est contre-indiqué.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hydrothorax hépatique est un épanchement pleural > 500 mL sans cause cardio-pulmonaire, traité par régime hyposodé, diurétiques ± ponction évacuatrice. La surinfection est définie par une culture positive et des PNN > 250/mm3 ou culture négative et PNN > 500/mm3. Le TIPS est un traitement de dernier recours, non contre-indiqué."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements de l'hypertension porto-pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt des β-bloquants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vasodilatateurs (prostacycline).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transplantation hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Oxygénothérapie longue durée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diurétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de l'hypertension porto-pulmonaire inclut l'arrêt des β-bloquants, les vasodilatateurs (prostacycline) et la transplantation hépatique (contre-indiquée si PAPm > 50 mmHg). L'oxygénothérapie longue durée est pour le syndrome hépato-pulmonaire, et les diurétiques ne sont pas un traitement spécifique de l'HTAP."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations extra-hépatiques de la maladie de Wilson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anneau oculaire de Kayser-Fleischer.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémolyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tubulopathie rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ostéomalacie et ostéoporose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cardiomyopathie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutes les propositions sont des manifestations extra-hépatiques de la maladie de Wilson : anneau oculaire de Kayser-Fleischer, hémolyse, tubulopathie rénale, ostéomalacie, ostéoporose, arthropathie, cardiomyopathie et arythmie."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets secondaires de la D-pénicillamine dans le traitement de la maladie de Wilson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypersensibilité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cytopénie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toxicité rénale glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maladie auto-immune (lupus, syndrome de Goodpasture).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la céruloplasmine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La D-pénicillamine peut entraîner de nombreux effets secondaires : hypersensibilité, cytopénie, toxicité rénale glomérulaire et maladies auto-immunes (lupus, syndrome de Goodpasture). Elle ne provoque pas d'augmentation de la céruloplasmine."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient cirrhotique Child C avec un score MELD de 18 est éligible à la transplantation hépatique. Quelles conditions spécifiques doivent être remplies si la cirrhose est d'origine alcoolique ou virale B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour une cirrhose alcoolique, 6 mois d'arrêt complet de l'alcool sont nécessaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pour une cirrhose virale B, un traitement antiviral est indispensable avant la transplantation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'âge avancé (> 65-70 ans) est une contre-indication absolue.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La présence d'un CHC de petite taille est une contre-indication.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une comorbidité grave non traitable est une indication à la transplantation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une cirrhose alcoolique, la transplantation est envisagée après 6 mois d'arrêt complet de l'alcool. Pour une cirrhose virale B avec réplication significative, un traitement antiviral est indispensable. L'âge avancé et une comorbidité grave non traitable sont des contre-indications. L'apparition d'un CHC de petite taille est une indication à discuter, non une contre-indication."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la cirrhose biliaire secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à un obstacle prolongé sur les voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle peut être causée par une lithiase biliaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut résulter d'une sténose traumatique ou tumorale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est associée à des anticorps anti-mitochondrie type M2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est traitée par acide ursodésoxycholique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cirrhose biliaire secondaire est due à un obstacle prolongé sur les voies biliaires, pouvant être une lithiase, une sténose traumatique ou tumorale. Les anticorps anti-mitochondrie type M2 et le traitement par acide ursodésoxycholique sont associés à la cirrhose biliaire primitive."
+    }
+  ]
+}

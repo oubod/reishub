@@ -1,0 +1,1659 @@
+{
+  "lectureId": "26",
+  "number": "26",
+  "title": "Epilepsies",
+  "partie": "J1",
+  "specialty": "Neurologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon la définition de l'International League Against Epilepsy (ILAE), quels critères permettent de diagnostiquer une épilepsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Au moins deux crises non provoquées espacées de plus de 24 heures",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une crise provoquée et une probabilité de récurrence de 30% sur 10 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une crise non provoquée et une probabilité de survenue de crises ultérieures d'au moins 60% sur 10 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic d'un syndrome épileptique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une seule crise symptomatique aiguë",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épilepsie est définie par au moins deux crises non provoquées (ou réflexes) espacées de plus de 24 heures, ou une crise non provoquée (ou réflexe) avec une probabilité de récurrence d'au moins 60% sur 10 ans, ou le diagnostic d'un syndrome épileptique. Les crises symptomatiques aiguës ne définissent pas l'épilepsie maladie."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Qu'est-ce qu'une crise épileptique selon la définition fournie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une manifestation neurologique paroxystique de longue durée, toujours accompagnée d'une perte de conscience.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une décharge anormale, excessive et hypersynchrone d'une population neuronale corticale ou sous-corticale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une manifestation neurologique paroxystique pouvant être motrice, sensitive, sensorielle, végétative ou cognitive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une manifestation qui s'accompagne toujours d'anomalies à l'électroencéphalogramme (EEG) intercritique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une manifestation qui est toujours stéréotypée chez le même malade.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une crise épileptique est une manifestation neurologique paroxystique (motrice, sensitive, sensorielle, végétative ou cognitive), de durée brève, accompagnée ou non d’une perte de conscience, et liée à une décharge anormale, excessive et hypersynchrone d’une population neuronale. Les anomalies EEG sont critiques (pendant la crise), et les crises sont stéréotypées dans le cadre de l'épilepsie maladie, pas nécessairement pour une crise isolée."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Parmi les situations suivantes, lesquelles correspondent à une crise symptomatique aiguë et ne définissent pas l'épilepsie maladie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une crise survenant 5 jours après un accident vasculaire cérébral (AVC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une crise déclenchée par une lecture prolongée chez un patient sans antécédent.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une crise survenant 12 heures après une hypoglycémie documentée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une crise survenant à la phase active d'une infection du système nerveux central.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une crise survenant 1 mois après un traumatisme crânien grave.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les crises symptomatiques aiguës sont secondaires à une agression cérébrale aiguë directe ou indirecte. Elles ne définissent pas l'épilepsie maladie. La phase aiguë est de 7 jours pour les AVC et traumatismes crâniens, à la phase active pour une infection du SNC, et dans les 24 heures pour un trouble métabolique. Une crise réflexe (déclenchée par lecture) est une crise non provoquée. Une crise survenant 1 mois après un traumatisme crânien grave n'est plus dans la phase aiguë."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Selon la classification de l'ILAE, quels sont les principaux critères utilisés pour classer les crises épileptiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le siège de début de la crise au niveau du cortex cérébral.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le niveau de conscience au cours de la crise.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence ou l'absence de manifestations cliniques observables.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'âge du patient au moment de la première crise.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La réponse au traitement antiépileptique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La classification des crises épileptiques est basée sur la détermination du siège de début de la crise (focale ou généralisée), le niveau de conscience (conservation ou altération), et la présence ou non de manifestations cliniques observables."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Concernant les crises généralisées, quelle affirmation est correcte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles impliquent toujours le cortex cérébral en entier dès le début.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont caractérisées par un point de départ focal avec un réseau épileptogène qui implique rapidement et de façon bilatérale les aires corticales et sous-corticales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'altération de la conscience est un symptôme constant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles peuvent être classées en motrices ou non motrices (absences).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours précédées d'une aura.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les crises généralisées sont caractérisées par un point de départ focal avec un réseau épileptogène qui implique rapidement et de façon bilatérale les aires corticales et sous-corticales, mais pas obligatoirement le cortex en entier. L'altération de la conscience est un symptôme constant. Elles sont classées en motrices (tonico-cloniques, toniques, cloniques, atoniques, myocloniques, spasmes) ou non motrices (absences)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des absences typiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Début et fin progressifs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Durée brève, ne dépassant pas 20 secondes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Altération de la conscience moins profonde que dans les absences atypiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Décharge bilatérale, synchrone et symétrique de pointes-ondes à 3 Hz à l'EEG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Peuvent être associées à des signes moteurs brefs.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les absences typiques comportent un début et une fin brusques, durent moins de 20 secondes, et s'accompagnent d'une décharge bilatérale, synchrone et symétrique de pointes-ondes à 3 Hz. L'altération de la conscience peut être isolée ou associée à des signes moteurs brefs."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments fortement évocateurs d'une crise épileptique généralisée tonico-clonique lors de l'interrogatoire des témoins ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La morsure latérale et franche de la langue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de facteurs déclenchants spécifiques comme une émotion forte.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La durée brève de quelques secondes (<30 secondes).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'existence de myalgies et de courbatures au réveil.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence de confusion postcritique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La morsure latérale et franche de la langue est fortement évocatrice d'une crise épileptique. L'existence de myalgies et de courbatures au réveil témoigne de l'effort musculaire. Les crises épileptiques sont souvent suivies d'une confusion postcritique, et leur durée est généralement plus longue que quelques secondes. Les facteurs déclenchants sont plus caractéristiques des syncopes ou spasmes du sanglot."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques caractéristiques du syndrome de West ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Spasmes épileptiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Crises tonico-cloniques généralisées.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hypsarythmie à l'EEG inter-critique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stagnation ou régression motrice et cognitive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Crises myocloniques au réveil.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de West est défini par la triade classique : spasmes épileptiques, hypsarythmie à l'EEG inter-critique, et stagnation/régression motrice et cognitive. Les crises tonico-cloniques généralisées et les crises myocloniques au réveil sont associées à d'autres syndromes épileptiques (ex: épilepsie myoclonique juvénile)."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures de première intention à prendre en charge immédiate d'une personne en crise épileptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mettre un mouchoir ou son doigt dans la bouche pour éviter la morsure de langue.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dégager l'espace autour de la personne pour éviter les blessures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Desserrer les vêtements (cravate, ceinture).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administrer systématiquement des benzodiazépines dès le début de la crise.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Mettre la personne en position latérale de sécurité dès que possible.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les gestes d'urgence incluent dégager l'espace, desserrer les vêtements et mettre en position latérale de sécurité. Il faut éviter de mettre quoi que ce soit dans la bouche ou de contenir les mouvements. Les benzodiazépines ne sont préconisées que si la crise dure plus longtemps qu'habituellement ou si une deuxième crise survient rapidement."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les médicaments antiépileptiques connus pour être des inducteurs enzymatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Valproate de Sodium",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Phénobarbital",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Carbamazépine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lévétiracétam",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Phénytoïne",
+          "correct": true
+        }
+      ],
+      "explanation": "Le phénobarbital, la carbamazépine et la phénytoïne sont des inducteurs des enzymes hépatiques, augmentant la biotransformation d'autres médicaments. Le valproate de sodium est un inhibiteur enzymatique, et le lévétiracétam n'est pas un inducteur enzymatique."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs de risque de récurrence des crises fébriles chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents familiaux de crises fébriles.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Âge de début de la première crise fébrile supérieur à 18 mois.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Température peu élevée (38°C) au cours de la crise fébrile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Durée courte de la fièvre (<1 heure) avant la crise fébrile.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Caractère compliqué de la crise fébrile.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de récurrence des crises fébriles sont les antécédents familiaux de CF, un âge de début de la 1ère crise fébrile <18 mois, une température peu élevée (38°C) au cours de la CF, et une durée courte de la fièvre (<1 heure) avant la CF. Le caractère compliqué de la CF est un facteur de risque de développer une épilepsie, pas de récurrence des CF elles-mêmes."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une crise fébrile simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Durée inférieure à 10-15 minutes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plus d'une crise par 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Crise généralisée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Examen neurologique anormal en post-critique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Survenue chez un enfant de 6 mois à 5 ans.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une crise fébrile simple dure moins de 10-15 minutes, est une crise généralisée, survient une seule fois par 24 heures, et l'examen neurologique est normal. Elle survient dans un contexte fébrile chez un enfant de 6 mois à 5 ans, sans infection du SNC."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les modalités éducationnelles importantes pour le suivi d'un traitement antiépileptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insister sur la nécessité d'une prise régulière des médicaments.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Informer sur le risque d'arrêt brutal des médicaments.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recommander un régime alimentaire strict sans glucides.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Expliquer la possibilité de survenue d'effets secondaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Interdire toute activité sportive collective.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'éducation thérapeutique porte sur la prise régulière des médicaments, les modalités et horaires des prises, le risque d'arrêt brutal (risque d'état de mal épileptique), la possibilité d'effets secondaires et d'interactions médicamenteuses. Le régime alimentaire n'est pas nécessaire sauf abstinence à l'alcool, et les activités sportives collectives sont recommandées."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les critères de classification des épilepsies selon l'ILAE 2017 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épilepsie généralisée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épilepsie focale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épilepsie à début inconnu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Épilepsie avec crises symptomatiques aiguës.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Épilepsie généralisée et focale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La classification de l'épilepsie distingue l'épilepsie généralisée, l'épilepsie focale, l'épilepsie généralisée et focale, et l'épilepsie à point de départ inconnu. Les crises symptomatiques aiguës ne définissent pas l'épilepsie maladie."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelles sont les causes étiologiques des épilepsies selon la classification de l'ILAE ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Génétiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Structurelles.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Auto-immunes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Métaboliques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Inconnues.",
+          "correct": true
+        }
+      ],
+      "explanation": "Selon la classification de l'ILAE, on distingue 6 groupes étiologiques : génétiques, structurelles, auto-immunes, métaboliques, infectieuses et inconnues."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente une perte de connaissance brutale, une chute, suivie d'une phase de contraction musculaire soutenue avec cyanose, puis de secousses musculaires rythmiques. Après la crise, il est confus et se plaint de courbatures. Quelle(s) affirmation(s) est (sont) correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une crise généralisée tonico-clonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La morsure du bout de la langue est un signe fortement évocateur de ce type de crise.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'EEG critique montrerait des polypointes pendant la phase tonique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La phase résolutive est caractérisée par un coma profond hypotonique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La fuite urinaire est un signe pathognomonique de cette crise.",
+          "correct": false
+        }
+      ],
+      "explanation": "La description correspond à une crise généralisée tonico-clonique. La morsure latérale et franche de la langue est fortement évocatrice, pas celle du bout de la langue (plutôt syncope). L'EEG montre une activité rapide faite de polypointes pendant la phase tonique. La phase résolutive est un coma profond, hypotonique. La fuite urinaire n'est pas spécifique et témoigne d'une perte de connaissance profonde."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Concernant le diagnostic différentiel d'une crise épileptique généralisée motrice, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La syncope se distingue par l'absence de confusion postcritique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le spasme du sanglot survient typiquement entre 6 et 18 mois et disparaît vers 5 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les clonies, si présentes lors d'une syncope, sont généralement brèves et peu nombreuses (<10).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une crise non épileptique psychogène (CNEP) est toujours associée à une chute traumatisante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La morsure du bout de la langue est plus évocatrice d'une syncope que d'une crise épileptique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La syncope se caractérise par l'absence de confusion ou de déficit postcritique, et des clonies brèves et peu nombreuses si présentes. Le spasme du sanglot a un âge de survenue caractéristique (6-18 mois, disparaît à 5 ans). La morsure du bout de la langue est plus évocatrice d'une syncope, tandis que la morsure latérale et franche est évocatrice d'une crise épileptique. Les CNEP se caractérisent souvent par l'absence de chute traumatisante."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Un enfant de 7 ans présente des épisodes quotidiens de fixité du regard et d'arrêt de l'activité en cours, durant environ 10 secondes, sans souvenir. L'EEG montre des décharges de pointes-ondes à 3 Hz généralisées. Quelle(s) affirmation(s) est (sont) correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit probablement d'une épilepsie absence de l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'évolution est le plus souvent favorable avec une bonne réponse aux médicaments anticrises.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ce syndrome est une épilepsie focale autolimitée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une association à des crises tonico-cloniques est possible dans 40% des cas.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'éthosuximide est un traitement indiqué dans cette situation.",
+          "correct": true
+        }
+      ],
+      "explanation": "La description correspond à une épilepsie absence de l'enfant, une épilepsie généralisée idiopathique touchant les enfants entre 4 et 10 ans, caractérisée par des absences typiques avec décharge de pointes-ondes à 3 Hz. L'évolution est favorable dans 60% des cas, et une association à des crises tonico-cloniques est possible dans 40% des cas. L'éthosuximide est un traitement indiqué. L'épilepsie focale autolimitée est l'épilepsie à pointes centro-temporales."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'épilepsie à pointes centro-temporales (EPCT), quelles sont les caractéristiques pertinentes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une épilepsie généralisée idiopathique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle survient chez l'enfant de 3 à 13 ans avec une légère prédominance masculine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les crises sont souvent morphéiques (en plein sommeil ou juste avant le réveil).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les crises se manifestent par des paresthésies de la langue ou des joues suivies de clonies d'une hémiface.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pronostic est excellent avec guérison vers l'âge adulte, mais des troubles des apprentissages sont possibles.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'EPCT est une épilepsie focale autolimitée, non généralisée. Elle survient chez l'enfant de 3 à 13 ans avec prédominance masculine. Les crises sont morphéiques et se manifestent par des signes oro-faciaux (paresthésies, clonies, hypersalivation, dysarthrie). Le pronostic est excellent avec guérison vers 16 ans, mais des troubles des apprentissages peuvent survenir."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher lors de l'interrogatoire pour le diagnostic positif d'une crise épileptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le caractère brutal du début et la description des premiers symptômes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La durée brève de la crise (quelques secondes à quelques minutes).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La stéréotypie d'une crise à une autre chez le même patient.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'existence de facteurs déclenchants spécifiques et de sensations lipothymiques initiales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence systématique d'un témoin au cours de la crise.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'interrogatoire doit préciser le caractère brutal du début, la description des premiers symptômes, le caractère paroxystique, la durée brève et la stéréotypie des crises. Les facteurs déclenchants et sensations lipothymiques sont plus évocateurs de syncope. La présence systématique d'un témoin est une caractéristique à rechercher dans les crises non épileptiques psychogènes."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'EEG dans le diagnostic des épilepsies, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'EEG inter-critique est toujours anormal en cas d'épilepsie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'EEG est plus informatif s'il est réalisé précocement, dans les 24 heures suivant la crise.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un EEG inter-critique normal élimine le diagnostic d'épilepsie dans 100% des cas.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le recours à l'EEG vidéo ou l'EEG de sommeil peut être nécessaire pour confirmer la nature épileptique de la crise.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'EEG critique montre des anomalies épileptiformes bilatérales, synchrones et symétriques dans les crises focales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'EEG est plus informatif s'il est fait précocement (<24h). L'EEG inter-critique peut être normal dans 40% des cas et n'élimine pas le diagnostic. Le recours à l'EEG vidéo ou de sommeil est souvent nécessaire. Dans les crises focales, les anomalies épileptiformes sont focalisées, non bilatérales, synchrones et symétriques."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des crises focales non motrices à sémiologie sensorielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les crises visuelles sont liées à une décharge occipitale controlatérale et peuvent se manifester par des phosphènes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les crises auditives réalisent des hallucinations élémentaires (acouphènes) ou des illusions (déformation des voix).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les crises olfactives se caractérisent par des perceptions d'odeur sans objet, souvent désagréables.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les crises gustatives sont liées à une décharge pariétale et se manifestent par des paresthésies.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les crises vertigineuses se manifestent souvent par un vertige rotatoire et sont liées à une décharge temporale ou pariétale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les crises visuelles sont liées à une décharge occipitale controlatérale et peuvent être des hallucinations visuelles simples (phosphènes). Les crises auditives réalisent des hallucinations élémentaires ou illusions. Les crises olfactives sont des perceptions d'odeur sans objet, souvent désagréables. Les crises gustatives sont liées à une décharge de la région péri-insulaire et se caractérisent par des perceptions erronées de goûts (paragueusie). Les crises sensitives (paresthésies) sont liées à une décharge pariétale. Les crises vertigineuses sont liées à une décharge temporale ou pariétale et se manifestent par un vertige rotatoire."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes structurelles d'épilepsie mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Astrocytome de bas grade.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Malformations vasculaires (angiomes, cavernomes).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysplasie corticale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Encéphalite auto-immune.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Traumatisme crânien grave.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes structurelles incluent les tumeurs cérébrales supratentorielles (astrocytome, oligodendrogliome, méningiome), les causes vasculaires (AVC, malformations vasculaires), les traumatismes crâniens graves et les anomalies du développement cortical (dysplasie corticale, mégalencéphalie). L'encéphalite auto-immune est une cause auto-immune."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables graves associés au Valproate de Sodium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hépatite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Thrombopénie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypertrophie gingivale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rétrécissement concentrique du champ visuel.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Lyell.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les accidents graves du Valproate de Sodium sont l'hépatite et la thrombopénie. L'hypertrophie gingivale est associée à la phénytoïne. Le rétrécissement concentrique du champ visuel est associé au vigabatrin. Le syndrome de Lyell est associé au phénobarbital et à la lamotrigine."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Un adolescent présente des secousses musculaires brèves des membres supérieurs, souvent après le réveil, qui peuvent entraîner la chute d'objets. Ces secousses sont favorisées par le manque de sommeil. Quelle(s) affirmation(s) est (sont) correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une épilepsie myoclonique juvénile.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ce syndrome fait partie des épilepsies généralisées idiopathiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'EEG inter-critique montre des pointes centro-temporales lentes biphasiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les crises généralisées tonico-cloniques peuvent précéder les crises myocloniques de plusieurs mois ou années.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ce type d'épilepsie est pharmacodépendante, avec un risque élevé de récidive à l'arrêt du traitement.",
+          "correct": true
+        }
+      ],
+      "explanation": "La description correspond à l'épilepsie myoclonique juvénile, qui débute à l'adolescence et fait partie des épilepsies généralisées idiopathiques. L'EEG inter-critique montre des polypointe-ondes (PPO) généralisées. Les crises myocloniques précèdent les crises généralisées tonico-cloniques. Cette épilepsie est pharmacodépendante, avec 90% de récidive à l'arrêt du traitement."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Dans le cadre de la prise en charge d'une crise épileptique chez l'enfant, quand est-il préconisé d'administrer un traitement par benzodiazépine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement dès le début de toute crise.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si la crise dure plus longtemps qu'habituellement chez un épileptique connu.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si une deuxième crise survient dans les minutes suivantes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de crise généralisée tonico-clonique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Si la crise dure plus de 5 minutes pour une crise tonico-clonique généralisée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un traitement par benzodiazépine n'est préconisé que dans certaines situations : si la crise dure plus que d'habitude chez un épileptique connu, si une deuxième crise survient dans les minutes suivantes, ou si la crise dure plus de 5 minutes (définition de l'état de mal épileptique pour une TCG)."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principes généraux à considérer lors du choix d'un médicament antiépileptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diagnostic d'épilepsie doit être certain avant la mise en route du traitement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement d'épreuve est recommandé pour confirmer le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'âge du patient, notamment chez le sujet âgé, pour la tolérance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le sexe du patient, en particulier pour les femmes en âge de procréation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La carbamazépine est un bon choix pour les épilepsies avec absences et myoclonies.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic d'épilepsie doit être certain. Il ne faut jamais donner un traitement d'épreuve. Le choix dépend de l'âge (lamotrigine et lévétiracétam mieux tolérés chez le sujet âgé), du sexe (éviter le valproate chez la femme en âge de procréation), des effets indésirables et des comorbidités. La carbamazépine aggrave les absences et les myoclonies."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quand doit-on débuter un traitement antiépileptique après une première crise ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement après toute première crise non provoquée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Quand le risque de récidive est évalué à plus de 60%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'anomalies à l'examen neurologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de crises nocturnes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Uniquement après deux crises non provoquées espacées de plus de 24 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "On débute le traitement après une 1ère crise quand le risque de récidive est évalué à plus de 60%. Cette condition est retrouvée en cas d'anomalies à l'examen neurologique, à l'EEG ou à l'IRM, et dans les crises nocturnes ou les syndromes épileptiques du nouveau-né et du nourrisson (ex: syndrome de West). Le diagnostic d'épilepsie est posé après deux crises, mais le traitement peut être initié après une seule crise si le risque de récidive est élevé."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les interactions médicamenteuses importantes à connaître concernant les antiépileptiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le phénobarbital réduit l'effet des anticoagulants.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'acide valproïque est un inducteur enzymatique puissant.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La carbamazépine peut réduire l'effet des œstrogènes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le lévétiracétam interagit fortement avec la pilule contraceptive.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'acide valproïque ralentit le métabolisme d'autres substances, exposant au risque de surdosage.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le phénobarbital et la carbamazépine sont des inducteurs enzymatiques, réduisant l'effet d'autres médicaments comme les anticoagulants et les œstrogènes. L'acide valproïque est un inhibiteur enzymatique, ralentissant le métabolisme d'autres substances et exposant au risque de surdosage. Le lévétiracétam n'a pas d'interactions médicamenteuses significatives mentionnées."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de développer une épilepsie après des crises fébriles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Caractère compliqué de la crise fébrile.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anomalies neuro-développementales préexistantes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Histoire familiale d'épilepsie (parents ou fratrie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Durée courte d'évolution de la fièvre (<1 heure) avant la crise fébrile.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Âge de début de la première crise fébrile inférieur à 18 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de développer une épilepsie après des crises fébriles sont le caractère compliqué de la CF, les anomalies neuro-développementales, une histoire familiale d'épilepsie, et une courte durée d'évolution de la fièvre (<1 heure) avant la CF. L'âge de début de la première crise fébrile inférieur à 18 mois est un facteur de récurrence des CF, pas de risque d'épilepsie."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Dans la prise en charge d'un état de mal épileptique (EME) convulsif, quelles sont les mesures immédiates à mettre en œuvre pendant la phase de stabilisation (0 à 5 minutes) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer du Midazolam en IM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mettre le patient en position latérale de sécurité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer une oxygénation avec un objectif de Spo2 ≥ 95%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mesurer et corriger une éventuelle hypoglycémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administrer de l'Acide Valproïque en IV.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pendant la phase de stabilisation (0 à 5 minutes), les mesures immédiates comportent la mise en position latérale de sécurité, le maintien de la liberté des voies aériennes supérieures, une oxygénation (Spo2 ≥ 95%), une voie veineuse périphérique, et la mesure/correction de la glycémie. Le Midazolam et l'Acide Valproïque sont des traitements de première et deuxième ligne, respectivement, administrés après 5 minutes."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les médicaments antiépileptiques indiqués pour le syndrome de West ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vigabatrin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Corticothérapie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Carbamazépine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Phénobarbital.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Acide Valproïque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les médicaments indiqués pour le syndrome de West sont le Vigabatrin et la corticothérapie. La carbamazépine, le phénobarbital et la phénytoïne sont des médicaments aggravant les crises dans ce syndrome."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des crises focales avec automatismes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont caractérisées par des mouvements répétitifs, plus ou moins coordonnés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles peuvent être ambulatoires ou verbaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont toujours associées à une préservation de la conscience.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont en rapport avec une décharge siégeant au niveau du gyrus précentral.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles peuvent être des mouvements agités de battement ou de pédalages des jambes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les crises focales avec automatismes sont caractérisées par des mouvements répétitifs, plus ou moins coordonnés, qui peuvent être ambulatoires ou verbaux. Elles peuvent survenir avec ou sans altération de la conscience. Les mouvements agités de battement ou de pédalages des jambes sont des mouvements hyperkinétiques. Les décharges du gyrus précentral sont associées aux crises focales cloniques."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les comorbidités fréquentes associées à l'épilepsie qui nécessitent une prise en charge précoce ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles psychiatriques psychopathologiques (anxiété, dépression).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles des apprentissages scolaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles du sommeil.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficience intellectuelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypertension artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les comorbidités fréquentes à rechercher systématiquement et à prendre en charge précocement sont les troubles psychiatriques psychopathologiques (anxiété, dépression), les troubles des apprentissages scolaires, les troubles du sommeil et la déficience intellectuelle. L'hypertension artérielle n'est pas mentionnée comme une comorbidité fréquente de l'épilepsie dans le cours."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les règles de prescription et de surveillance des médicaments antiépileptiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le traitement doit toujours débuter par une monothérapie à dose progressivement augmentée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En cas d'échec de la première monothérapie, il faut directement passer à une trithérapie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La surveillance de l'efficacité et de la tolérance se fait au premier mois, troisième mois, puis tous les six mois.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mesure des taux sanguins des médicaments est utile en cas de suspicion de mauvaise observance ou d'effets secondaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un bilan hépatique est systématiquement nécessaire pour tous les antiépileptiques avant le traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement débute toujours par une monothérapie à dose progressivement augmentée. En cas d'échec de la 1ère monothérapie, on change pour une 2ème monothérapie, puis bi ou rarement trithérapie. La surveillance clinique et paraclinique se fait au 1er, 3ème mois, puis tous les 6 mois. La mesure des taux sanguins est utile en cas de mauvaise observance ou d'effets secondaires. Un bilan hépatique est nécessaire pour le valproate de sodium, et un hémogramme pour la carbamazépine et le phénobarbital, pas systématiquement pour tous."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Un patient présente des épisodes de paresthésies localisées au niveau de l'hémicorps gauche, suivis de mouvements cloniques du membre supérieur gauche, puis d'une altération de la conscience et d'une généralisation tonico-clonique. Quelle(s) affirmation(s) est (sont) correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une crise focale avec bilatéralisation tonico-clonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La décharge épileptique a probablement débuté dans la région pariétale droite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'altération de la conscience est survenue dès le début de la crise.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'EEG critique montrerait des anomalies épileptiformes focalisées avant la bilatéralisation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ce type de crise était auparavant appelée crise partielle secondairement généralisée.",
+          "correct": true
+        }
+      ],
+      "explanation": "La description correspond à une crise focale évoluant vers une crise bilatérale tonico-clonique (anciennement partielle secondairement généralisée). Les paresthésies localisées sont des crises sensitives liées à une décharge pariétale du côté opposé (donc pariétale droite pour l'hémicorps gauche). L'altération de la conscience est survenue après le début focal. L'EEG critique montrerait des anomalies épileptiformes focalisées avant la bilatéralisation."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Concernant la classification des crises épileptiques selon l'ILAE 2025, quelles sont les distinctions clés pour les crises focales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles peuvent être avec ou sans altération de la conscience.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles peuvent présenter une sémiologie clinique observable ou non observable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont toujours limitées à un seul lobe cérébral.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles peuvent évoluer vers une crise bilatérale tonico-clonique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le symptôme le plus précoce définit le type de crise (motrice ou non motrice).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les crises focales peuvent être avec ou sans altération de la conscience, et avec une sémiologie clinique observable ou non observable. Elles peuvent se développer dans un réseau épileptogène qui reste limité à un seul lobe ou hémisphère, mais peuvent aussi s'étendre à l'autre hémisphère avec bilatéralisation. Le symptôme le plus précoce définit le type de crise focale (motrice ou non motrice)."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Un nourrisson de 6 mois présente des salves de contractions axiales en flexion, associées à une régression des acquisitions motrices et cognitives. L'EEG inter-critique montre une désorganisation totale du tracé de fond avec des ondes lentes très amples, des pointes et des PO asynchrones. Quelle(s) affirmation(s) est (sont) correcte(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diagnostic le plus probable est un syndrome de West.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypsarythmie à l'EEG est une caractéristique de ce syndrome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ce syndrome est une encéphalopathie épileptique âge-dépendante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pronostic est toujours excellent avec une guérison spontanée vers l'âge de 5 ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une sclérose tubéreuse de Bourneville est une étiologie possible.",
+          "correct": true
+        }
+      ],
+      "explanation": "La triade (spasmes épileptiques, hypsarythmie, régression développementale) est caractéristique du syndrome de West, une encéphalopathie épileptique âge-dépendante. Le pronostic n'est pas toujours excellent, et un traitement rapide est crucial. La sclérose tubéreuse de Bourneville est une étiologie structurelle fréquente de ce syndrome."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des absences atypiques par rapport aux absences typiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'altération de la conscience est moins profonde.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le début et la fin sont plus progressifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La durée est plus courte.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les éléments moteurs sont plus prononcés et plus constants.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'EEG montre une décharge de pointe-onde à fréquence inférieure à 3 Hz sur une activité de fond anormale.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les absences atypiques se distinguent par une altération de la conscience moins profonde, un début et une fin plus progressifs, une durée plus longue, des éléments moteurs plus prononcés et constants. L'EEG montre une décharge de pointe-onde à fréquence inférieure à 3 Hz (inférieure à 2,5 Hz) sur une activité de fond anormale, contrairement aux 3 Hz sur fond normal des absences typiques."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Un patient connu épileptique présente une crise qui dure plus longtemps que d'habitude. Il n'est pas connu pour des traumatismes. Quelle(s) action(s) est (sont) appropriée(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer du Diazépam en intra-rectal à 0.2-0.5 mg/kg chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Administrer du Clonazépam en intraveineux lent à 0.05-0.1 mg/kg/j chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hospitaliser systématiquement le patient pour déterminer l'étiologie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rechercher un facteur déclenchant comme le manque de sommeil ou une mauvaise observance du traitement.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Vérifier si le médicament antiépileptique est bien adapté au type de crise.",
+          "correct": true
+        }
+      ],
+      "explanation": "Si la crise dure plus longtemps qu'habituellement, des benzodiazépines (Diazépam IR ou Clonazépam IV) peuvent être utilisées. L'hospitalisation n'est pas systématique chez un épileptique connu sans traumatisme. Il faut rechercher des facteurs déclenchants, une mauvaise observance, rediscuter le syndrome épileptique et vérifier l'adaptation du traitement. Ces actions sont appropriées pour un patient connu épileptique."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les professions à risque qui doivent être interdites aux personnes atteintes d'épilepsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conducteur de transport commun.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plongeur professionnel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maître-nageur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chirurgien.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Travailleur en hauteur.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les professions à risque comme le conducteur de transport commun, le plongeur professionnel, le maître-nageur, le chauffeur poids lourds, le contrôleur d'une machine, le chirurgien, le travailleur en hauteur, doivent être interdites aux personnes atteintes d'épilepsie."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Un enfant de 2 ans présente une crise fébrile compliquée. Quelles sont les indications de traitement prophylactique par antiépileptiques au long cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le traitement est indiqué après le premier épisode si la crise est associée à un retard psychomoteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement est indiqué si la crise est associée à des signes neurologiques de localisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement est indiqué si la crise est associée à des anomalies neuroradiologiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le traitement à base de Dépakine est recommandé pour 2 ans dans ces cas.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il n'existe pas de preuves suffisantes pour justifier un traitement continu ou intermittent par antiépileptique pour les crises fébriles compliquées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les crises fébriles compliquées, le traitement est indiqué après le premier épisode si la crise est associée à un retard psychomoteur, des signes neurologiques de localisation, des anomalies neuroradiologiques ou des antécédents néonataux. Le traitement à base de Dépakine (Valproate de Sodium) est recommandé pour 2 ans. L'affirmation qu'il n'existe pas de preuves suffisantes concerne les crises fébriles en général, pas spécifiquement les compliquées avec ces facteurs de risque."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des crises focales non motrices émotionnelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles se manifestent par des accès de peur ou d'anxiété.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles peuvent se traduire par des rires (gélastiques) ou des pleurs (dacrystiques).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont toujours de durée plus longue que les crises d'angoisse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont liées à une décharge temporale ou pariétale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La distinction avec les attaques de panique peut être délicate sans enregistrement EEG vidéo.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les crises focales émotionnelles se manifestent par des accès de peur, d'anxiété, de joie, de rire (gélastique) ou de pleur (dacrystique). La distinction avec les crises d'angoisse ou attaques de panique peut être délicate en l'absence d'enregistrement EEG vidéo, car ces dernières ont une durée plus longue. La localisation n'est pas spécifiée comme temporale ou pariétale pour les crises émotionnelles."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Un patient présente des troubles cognitifs et de la mémoire, des lithiases urinaires et un glaucome aigu. Quel antiépileptique est le plus susceptible d'être en cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Valproate de Sodium.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lamotrigine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Topiramate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lévétiracétam.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Phénytoïne.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Topiramate est associé à des effets indésirables tels que les lithiases urinaires, le glaucome aigu (en début de traitement), et des troubles cognitifs et de la mémoire. Les autres médicaments ont des profils d'effets indésirables différents."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions pour qu'un permis de conduire soit autorisé pour un véhicule personnel chez une personne épileptique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les crises doivent être maîtrisées par le traitement depuis au moins 6 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les crises doivent être maîtrisées par le traitement depuis 1 an.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un EEG normal est obligatoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le permis de conduire un véhicule collectif est également autorisé si les crises sont maîtrisées depuis 3 ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La persistance de crises est un motif d'exemption ou de réforme définitive pour le service national.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le permis de conduire est autorisé pour le véhicule personnel si les crises sont maîtrisées par le traitement depuis 1 an. Le permis de conduire un véhicule collectif est interdit. La persistance de crises est un motif d'exemption ou de réforme définitive pour le service national."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des crises focales avec arrêt de l'activité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles se manifestent par un arrêt de l'activité avec altération de la conscience.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles peuvent prêter à confusion avec une crise d'absence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'EEG critique est essentiel pour faire la différence avec une crise d'absence.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont toujours associées à des automatismes complexes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours de courte durée, ne dépassant pas 5 secondes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une crise focale peut se manifester par un arrêt de l'activité avec altération de la conscience. Cette crise peut prêter à confusion avec une crise d'absence. C'est l'EEG critique qui fera la différence. Elles ne sont pas toujours associées à des automatismes complexes et leur durée n'est pas strictement limitée à 5 secondes."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options de traitement de deuxième ligne pour un état de mal épileptique (EME) si les crises persistent malgré la prise en charge initiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Midazolam en IM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acide valproïque (Dépakine) 40mg/kg en IV en 10 minutes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phénobarbital (Gardenal) 15mg/kg en IV en 10 minutes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lévétiracétam 40 à 60 mg/kg en IV en 10 minutes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Propofol en milieu de soins intensifs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Midazolam est un traitement de première ligne. Les traitements de deuxième ligne incluent l'Acide valproïque, le Phénobarbital et le Lévétiracétam, administrés en IV. Le Propofol est un traitement de troisième ligne, administré en milieu de soins intensifs."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les médicaments antiépileptiques qui aggravent les absences et les myoclonies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éthosuximide.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acide Valproïque.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Carbamazépine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phénobarbital.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Gabapentine.",
+          "correct": true
+        }
+      ],
+      "explanation": "La carbamazépine, le phénobarbital et la gabapentine sont des médicaments qui aggravent les absences et les myoclonies. L'éthosuximide et l'acide valproïque sont indiqués pour les absences."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la phase tonique d'une crise généralisée tonico-clonique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Durée d'environ 10 à 20 secondes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contraction musculaire soutenue axiale et des membres, d'abord en flexion puis en extension.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Apnée avec cyanose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Relâchement musculaire complet avec possibilité de fuite urinaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Présence de secousses musculaires rythmiques bilatérales et généralisées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase tonique dure environ 10 à 20 secondes, avec une contraction musculaire soutenue axiale et des membres (flexion puis extension), révulsion des globes oculaires, apnée avec cyanose et troubles végétatifs. Le relâchement musculaire et les secousses rythmiques caractérisent respectivement la phase résolutive et la phase clonique."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes métaboliques d'épilepsie mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amino-acidopathies.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficit cérébral en folate.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Porphyrie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypoglycémie aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hyponatrémie aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes métaboliques d'épilepsie mentionnées sont les amino-acidopathies, le déficit cérébral en folate et la porphyrie. L'hypoglycémie et l'hyponatrémie aiguës sont des causes de crises symptomatiques aiguës, qui ne définissent pas l'épilepsie maladie."
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-2",
+  "title": "Ischémies aiguës des membres",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une ischémie aiguë de membre inférieur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une occlusion brutale d'un axe artériel des membres inférieurs survenant en moins de 15 jours.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une occlusion progressive d'un axe artériel des membres inférieurs survenant en plus de 15 jours.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypoxie tissulaire chronique due à une sténose artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une nécrose tissulaire d'origine veineuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une douleur de repos persistante sans troubles trophiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ischémie aiguë de membre est définie comme l'occlusion brutale d'un axe artériel des membres inférieurs (< 15 jours) responsable d'une hypoxie tissulaire, pouvant aboutir à une nécrose tissulaire."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes cliniques suivants, lesquels sont caractéristiques d'une ischémie aiguë des membres inférieurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Membre chaud et érythémateux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Douleur aiguë du membre inférieur de survenue brutale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abolition des pouls en aval de l'occlusion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la force musculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Nécrose cutanée à un stade précoce.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de l'ischémie aiguë des membres inférieurs est clinique et se manifeste par une douleur aiguë du MI de survenue brutale et l'abolition des pouls en aval de l'occlusion. Le membre est froid et cyanosé, et la nécrose cutanée apparaît à un stade avancé."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification de Rutherford, quelle catégorie correspond à un membre viable sans menace immédiate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Catégorie I.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Catégorie IIa.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Catégorie IIb.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Catégorie III.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Catégorie IV.",
+          "correct": false
+        }
+      ],
+      "explanation": "La catégorie I de Rutherford correspond à un membre viable, sans déficit moteur ni sensitif, avec un TRC normal et des flux artériel et veineux présents, indiquant aucune menace."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale origine des embolies responsables d'ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Origine veineuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Origine cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Origine lymphatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Origine neurologique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Origine pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'origine cardiaque est la cause la plus fréquente des embolies, citant la FA, le flutter, l'IDM, les cardiomyopathies dilatées, les prothèses valvulaires, le myxome de l'oreillette gauche, l'endocardite infectieuse et l'embolie paradoxale par foramen ovale perméable."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le délai approximatif de souffrance musculaire en cas d'ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les 30 minutes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans les 2 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dans les 6-8 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans les 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Après 48 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ischémie entraîne une souffrance neurologique dans les 2h, musculaire dans les 6-8h (rhabdomyolyse) puis cutanée dans les 24h."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences systémiques potentielles d'une ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypertension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale par rhabdomyolyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperkaliémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Alcalose métabolique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypoglycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les conséquences systémiques de l'ischémie aiguë incluent l'insuffisance rénale par rhabdomyolyse, l'hyperkaliémie et l'acidose métabolique."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments orientent vers une étiologie embolique plutôt que thrombotique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un sujet âgé avec des antécédents d'AOMI.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une apparition brutale avec une douleur aiguë et sévère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une température cutanée fortement diminuée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des pouls controlatéraux diminués ou abolis.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une artériographie montrant une athérosclérose diffuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "En faveur d'une embolie, on retrouve un tableau d'apparition brutale avec douleur aiguë et sévère, et une température cutanée fortement diminuée. Les pouls controlatéraux sont présents et le terrain est classiquement un sujet jeune sans antécédents vasculaires."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une atteinte neurologique dans le cadre d'une ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperesthésie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Anesthésie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Paralysie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperréflexie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Spasticité.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'atteinte neurologique se manifeste par une anesthésie et une paralysie, notamment du nerf fibulaire commun (impossibilité de relever le pied)."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la catégorie IIa de Rutherford ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TRC normal, pas de déficit moteur ni sensitif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TRC normal/allongé, déficit sensitif limité aux orteils ou absent.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit moteur faible/modéré.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Flux artériel absent, flux veineux présent.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pronostic de perte tissulaire majeure.",
+          "correct": false
+        }
+      ],
+      "explanation": "La catégorie IIa de Rutherford est caractérisée par un TRC normal/allongé, un déficit sensitif absent ou limité aux orteils, un déficit moteur absent, un flux artériel absent et un flux veineux présent. Le pronostic est un sauvetage si traitement rapide."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens biologiques sont pertinents à réaliser en urgence devant une ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan thyroïdien.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fonction rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "CPK.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bilan lipidique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les examens biologiques à réaliser en urgence incluent la NFS, l'iono, la fonction rénale, l'hémostase, le bilan hépatique, les CPK, la myoglobine, la myoglobinurie, les GDS et le bilan préopératoire."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement symptomatique initial à instaurer dès la suspicion d'une ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de vasoactifs IV à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Anticoagulation curative par HNF.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hydratation et rééquilibration volémique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antalgiques de niveau 1.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Position du membre en élévation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dès la suspicion du diagnostic, il faut instaurer une hydratation et rééquilibration volémique, une anticoagulation curative par HNF (bolus + IVSE, TCA = 1,5 à 3) et des antalgiques de niveau 3 d'emblée. Les vasoactifs IV n'ont aucune efficacité prouvée et la position doit être légèrement déclive."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies de thrombose sur artère pathologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome des antiphospholipides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "AOMI chronique athéromateuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombose de pontage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Endocardite infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Artère poplitée piégée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes de thrombose sur artère pathologique incluent l'AOMI chronique athéromateuse, la thrombose de pontage, la dissection aorto-iliaque, les artériopathies non athéromateuses, la déshydratation/hémoconcentration, l'artère poplitée piégée, la compression extrinsèque et le kyste adventiel. Le syndrome des antiphospholipides est une cause de thrombose sur artère saine, et l'endocardite infectieuse est une cause d'embolie."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le délai recommandé pour la revascularisation en urgence afin de limiter le risque d'amputation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans les 12 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dans les 6 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans les 48 heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dans les 72 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "La revascularisation doit être réalisée en urgence dans les 6 heures, car il existe un risque majeur d'amputation au-delà de ce délai."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une ischémie critique, à différencier de l'ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur de repos persistante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Troubles trophiques présents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Durée des symptômes inférieure à 15 jours.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Durée des symptômes supérieure à 15 jours.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de douleur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ischémie critique se caractérise par la persistance d'une douleur de repos et/ou de troubles trophiques depuis plus de 15 jours, résistant aux antalgiques usuels. L'ischémie aiguë est par définition de moins de 15 jours."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments cliniques qui orientent vers un siège de l'occlusion au niveau du carrefour aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur abdominale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Abolition unilatérale des pouls du MI.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Choc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Paralysie sensitivo-motrice simulant une paraplégie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ischémie et abolition des pouls en aval du genou.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une occlusion au carrefour aortique se manifeste par un choc, une douleur abdominale, une abolition bilatérale de tous les pouls du MI, et une possible paralysie sensitivo-motrice simulant une paraplégie."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies d'embolie d'origine artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrillation auriculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plaque athéromateuse (crosse aortique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anévrisme de l'aorte abdominale (AAA) avec thrombus mural.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Myxome de l'oreillette gauche.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ulcère artériel.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les origines artérielles d'embolie incluent la plaque athéromateuse (crosse aortique notamment), l'AAA avec thrombus mural, l'ulcère artériel, l'aortite et la tumeur aortique. La fibrillation auriculaire et le myxome de l'oreillette gauche sont des origines cardiaques."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'objectif principal de l'artériographie dans la prise en charge de l'ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmer le diagnostic clinique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Retarder la prise en charge thérapeutique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Orienter le geste thérapeutique (localisation, aspect de l'occlusion, réseau d'aval).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évaluer la fonction rénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rechercher des troubles du rythme cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'artériographie est réalisée le plus souvent au bloc opératoire pour orienter le geste thérapeutique en précisant la localisation de l'obstruction, l'aspect de l'occlusion (athérome, anévrisme, dissection...) et la qualité du réseau artériel d'aval. Elle ne doit pas retarder la prise en charge."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance clinique après revascularisation d'une ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Masse musculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pouls.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Température cutanée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diurèse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Poids corporel.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance clinique après revascularisation inclut l'évaluation de la masse musculaire, des pouls, de la température, de la diurèse et de la cicatrice. L'état du membre (douleur, recoloration) et du point de ponction sont également surveillés."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de thrombose sur artère saine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thrombopénie à l'héparine de type 2 (TIH2).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficit en antithrombine III.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Artériopathie de Buerger.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Phlegmatia coerulea.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déshydratation chez le sujet âgé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de thrombose sur artère saine incluent le syndrome des antiphospholipides, la thrombopénie à l'héparine de type 2, les thrombophilies (déficit en antithrombine III, protéine C/S, hyperfibrinémie), la phlegmatia coerulea, les causes traumatiques/iatrogènes, les maladies de système et les oestroprogestatifs. L'artériopathie de Buerger et la déshydratation chez le sujet âgé sont des causes de thrombose sur artère pathologique."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle de l'ECG dans la prise en charge initiale d'une ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmer le diagnostic d'ischémie artérielle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rechercher un facteur favorisant comme la fibrillation auriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évaluer la fonction ventriculaire gauche.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rechercher des signes d'hyperkaliémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Détecter une ischémie myocardique silencieuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ECG est réalisé pour rechercher un facteur favorisant (comme la FA) et des signes d'hyperkaliémie, qui est une complication systémique de l'ischémie."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de soins locaux recommandées pour un membre ischémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Application de compresses chaudes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protection par mousse ou coton.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Position légèrement déclive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Éviction de tout frottement ou traumatisme cutané.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Utilisation d'adhésifs pour maintenir les pansements.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les soins locaux consistent en une protection par mousse ou coton, une position légèrement déclive, et l'éviction de tout frottement ou traumatisme cutané. Il faut proscrire tout adhésif."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'une ischémie de la loge antéro-externe de la jambe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abolition du pouls tibial postérieur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ischémie du 1/3 inférieur du mollet.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Abolition du pouls tibial antérieur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ischémie de la plante du pied.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur à la palpation des masses musculaires du mollet.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ischémie de la loge antéro-externe de la jambe est associée à l'abolition du pouls tibial antérieur. L'ischémie du 1/3 inférieur du mollet et de la plante du pied avec abolition du pouls tibial postérieur est caractéristique d'une occlusion de l'artère tibiale postérieure."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications systémiques immédiates d'une ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collapsus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Trouble du rythme ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperglycémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypotension orthostatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications systémiques mentionnées sont le collapsus, le choc et les troubles du rythme ventriculaire, en plus des conséquences métaboliques comme l'insuffisance rénale, l'hyperkaliémie et l'acidose métabolique."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi les embolies sur artère saine sont-elles considérées comme plus graves ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En raison de l'absence de circulation collatérale préexistante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En raison d'une douleur moins intense.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En raison d'une apparition plus progressive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En raison d'un terrain de sujet âgé avec AOMI.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En raison d'une meilleure réponse aux antalgiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les embolies sur artère saine sont plus graves en raison de l'absence de circulation collatérale, ce qui rend le membre plus vulnérable à l'ischémie."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le pronostic global de l'ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10% de mortalité globale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "5% d'amputation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "50% de séquelles.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "25% d'amputation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "15% de séquelles.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pronostic global est de 10% de mortalité (surtout en cas de comorbidité), 25% d'amputation et 15% de séquelles."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de la catégorie III (irréversible) de la classification de Rutherford ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TRC normal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Déficit moteur complet.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit sensitif complet.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Flux artériel absent.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Flux veineux présent.",
+          "correct": false
+        }
+      ],
+      "explanation": "La catégorie III (irréversible) est caractérisée par une absence de recoloration (TRC ø), un déficit moteur complet, un déficit sensitif complet, un flux artériel absent et un flux veineux absent. Le pronostic est une perte tissulaire majeure nécessitant une amputation."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'aponévrotomie de décharge dans la prise en charge de l'ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de doute sur un syndrome des loges.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si la revascularisation est tardive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Systématiquement après toute revascularisation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas d'ischémie dépassée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour prévenir une rhabdomyolyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aponévrotomie de décharge est indiquée au moindre doute de syndrome des loges ou si la revascularisation est tardive, afin de prévenir les conséquences de l'œdème musculaire."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les troubles métaboliques associés au syndrome de reperfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypokaliémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperuricémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypocalcémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de reperfusion peut entraîner des troubles métaboliques tels que l'hyperkaliémie, l'acidose lactique, l'hyperuricémie, la myoglobinémie, la myoglobinurie, l'insuffisance rénale, l'hypocalcémie et l'hyperphosphorémie, voire une CIVD."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cadre d'une thrombose ou embolie sur artère pathologique, quelles techniques de revascularisation peuvent être envisagées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embolectomie par sonde de Fogarty sous AL.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Technique endovasculaire (recanalisation, angioplastie, thromboaspiration).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombolyse in situ par voie intra-artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pontage chirurgical.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Amputation d'emblée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une thrombose ou embolie sur artère pathologique, après artériographie préalable au bloc, on peut envisager des techniques endovasculaires (recanalisation, angioplastie, thromboaspiration), une thrombolyse in situ (si lit d'aval de mauvaise qualité et ischémie peu sévère), ou des techniques chirurgicales comme le pontage ou l'endartériectomie. L'embolectomie de Fogarty est réservée à l'embolie sur artère saine."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions permettant d'envisager une thrombolyse in situ par voie intra-artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un délai de revascularisation court (moins de 6h).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un lit d'aval de mauvaise qualité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une ischémie sévère avec troubles neurologiques importants.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une ischémie peu sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence de troubles neurologiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "La thrombolyse in situ est une option si le lit d'aval est de mauvaise qualité et si l'ischémie est peu sévère (absence de trouble neurologique). Elle implique un long délai (12-24h), ce qui la rend inappropriée pour les ischémies sévères nécessitant une revascularisation rapide."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le mécanisme du syndrome des loges dans l'ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vasoconstriction artérielle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Œdème par vasodilatation capillaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stase veineuse et lymphatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la pression interstitielle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la pression interstitielle s'auto-aggravant.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'anoxie musculaire entraîne un œdème par vasodilatation capillaire et stase veineuse et lymphatique par augmentation de la pression interstitielle, s'auto-aggravant, ce qui conduit au syndrome des loges."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan étiologique à réaliser après désobstruction en cas d'artère saine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bilan d'AOMI.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bilan cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recherche d'AAA.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bilan de thrombophilie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Contrôle des facteurs de risque cardiovasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'artère saine, le bilan étiologique post-désobstruction doit inclure un bilan cardiaque et un bilan de thrombophilie, pouvant mener à une anticoagulation au long cours. Le bilan d'AOMI, la recherche d'AAA et le contrôle des FdRCV sont pour les artères athéromateuses."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes non athéromateuses d'artériopathie pouvant entraîner une thrombose sur artère pathologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie de Buerger.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Behçet.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Artérite radique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome des antiphospholipides.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Thrombopénie à l'héparine de type 2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les artériopathies non athéromateuses mentionnées comme causes de thrombose sur artère pathologique sont la maladie de Buerger, la maladie de Behçet et l'artérite radique. Le syndrome des antiphospholipides et la TIH2 sont des causes de thrombose sur artère saine."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan étiologique à réaliser après désobstruction en cas d'artère athéromateuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bilan cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bilan d'AOMI.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recherche d'AAA.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bilan de thrombophilie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contrôle des facteurs de risque cardiovasculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'artère athéromateuse, le bilan étiologique post-désobstruction doit inclure un bilan d'AOMI, la recherche d'AAA et le contrôle des facteurs de risque cardiovasculaire, pouvant mener à un traitement antiagrégant plaquettaire. Le bilan cardiaque et de thrombophilie sont pour les artères saines."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques d'une occlusion de l'artère fémorale superficielle ou poplitée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ischémie et abolition des pouls à mi-cuisse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ischémie et abolition des pouls en aval du genou.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Abolition bilatérale de tous les pouls du MI.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ischémie de la loge antéro-externe de la jambe.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur abdominale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'occlusion de l'artère fémorale superficielle ou poplitée se manifeste par une ischémie et l'abolition des pouls en aval du genou. L'ischémie et l'abolition des pouls à mi-cuisse sont pour la fémorale commune."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de l'insuffisance rénale aiguë dans le syndrome de reperfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc hypovolémique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Précipitation intra-tubulaire de myoglobine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nécrose tubulaire aiguë (NTA).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperfiltration glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation du débit sanguin rénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance rénale aiguë dans le syndrome de reperfusion est due à la NTA, elle-même causée par le choc et la précipitation intra-tubulaire de myoglobine."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de surveillance biologique après revascularisation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS et plaquettes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Iono et GDS.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fonction rénale et bilan hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Enzymes musculaires (CPK, myoglobine).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Bilan lipidique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance biologique après revascularisation inclut la NFS, les plaquettes, l'iono, les GDS, la fonction rénale, le bilan hépatique, l'hémostase et les enzymes musculaires."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la catégorie IIb (menace immédiate) de la classification de Rutherford ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TRC normal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TRC allongé ou absence de recoloration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit sensitif faible ou modéré, dépassant les orteils.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit moteur faible ou modéré.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Flux veineux absent.",
+          "correct": false
+        }
+      ],
+      "explanation": "La catégorie IIb est caractérisée par un TRC allongé ou une absence de recoloration, un déficit moteur faible ou modéré, un déficit sensitif dépassant les orteils, un flux artériel absent et un flux veineux présent. Le pronostic est un sauvetage si revascularisation rapide."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui différencient une thrombose d'une embolie sur le plan artériographique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêt en cupule en faveur d'une thrombose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lésions ulcérées de l'aorte à distance de l'occlusion en faveur d'une embolie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Athérosclérose diffuse en faveur d'une embolie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Amputation du lit d'aval en faveur d'une embolie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Arrêt irrégulier en faveur d'une thrombose.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'artériographie montre un arrêt en cupule, des lésions ulcérées de l'aorte à distance de l'occlusion et une amputation du lit d'aval en faveur d'une embolie. Pour une thrombose, on observe une athérosclérose diffuse et un arrêt irrégulier."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs favorisants cardiaques d'une embolie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fibrillation auriculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Flutter auriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infarctus du myocarde (IDM).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anévrisme de l'aorte abdominale (AAA).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Endocardite infectieuse.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les origines cardiaques d'embolie incluent la FA, le flutter, l'IDM, les cardiomyopathies dilatées, les prothèses valvulaires, le myxome de l'oreillette gauche et l'endocardite infectieuse. L'AAA est une origine artérielle."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle de l'Echo-Doppler dans la prise en charge de l'ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il doit être réalisé systématiquement avant toute autre investigation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il ne doit pas retarder la prise en charge thérapeutique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est utile pour confirmer le diagnostic clinique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il permet d'évaluer la localisation de l'obstruction et la qualité du réseau d'aval.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours réalisé au bloc opératoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Echo-Doppler est réalisé sans perte de temps, si les conditions locales et la sévérité le permettent. Il ne doit pas retarder la prise en charge thérapeutique et la désobstruction artérielle. Il peut aider à confirmer le diagnostic et à orienter sur la localisation et le réseau d'aval."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques d'une thrombose par rapport à une embolie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Terrain de sujet jeune sans antécédents vasculaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Apparition progressive ou rapide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur plus modérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Température cutanée fortement diminuée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pouls controlatéraux diminués ou abolis.",
+          "correct": true
+        }
+      ],
+      "explanation": "La thrombose survient chez un sujet âgé avec AOMI, avec une apparition progressive ou rapide, une douleur plus modérée, une température cutanée diminuée inégalement et des pouls controlatéraux diminués ou abolis. Le sujet jeune, l'apparition brutale, la douleur sévère et la température fortement diminuée sont en faveur d'une embolie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui contribuent à la baisse du débit artériel dans une ischémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression artérielle systolique (PAS).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La qualité de la circulation collatérale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La qualité du réseau artériel d'aval.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'augmentation du débit veineux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vasodilatation artérielle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La baisse du débit artériel dépend de la PAS, de la circulation collatérale et de la qualité du réseau artériel d'aval."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques de choc associés au syndrome de reperfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc cardiogénique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Choc hypovolémique par exsudation plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Choc septique par colonisation microbienne des muscles nécrosés.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Choc anaphylactique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Choc neurogénique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de reperfusion peut entraîner un choc hypovolémique (par exsudation plasmatique) ou septique (par colonisation microbienne des muscles nécrosés)."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prise en charge spécifique d'une embolie sur artère saine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thrombolyse in situ.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pontage chirurgical.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Embolectomie par sonde de Fogarty sous anesthésie locale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Technique endovasculaire (angioplastie).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contrôle angiographique systématique après embolectomie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour une embolie sur artère saine, le traitement de choix est l'embolectomie par sonde de Fogarty par courte artériotomie, sous AL, avec un contrôle angiographique systématique pour confirmer la revascularisation."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à surveiller spécifiquement pour détecter un syndrome de reperfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apparition d'une hyperkaliémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Développement d'une acidose lactique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la diurèse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution des enzymes musculaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Signes de CIVD.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome de reperfusion se manifeste par des troubles métaboliques tels que l'hyperkaliémie, l'acidose lactique, l'hyperuricémie, la myoglobinémie, la myoglobinurie, l'insuffisance rénale, l'hypocalcémie, l'hyperphosphorémie, voire une CIVD. La diurèse peut diminuer en cas d'IRA, et les enzymes musculaires augmentent."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de thrombose sur artère pathologique autres que l'athérosclérose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déshydratation/hémoconcentration chez le sujet âgé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Artère poplitée piégée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Kyste adventiel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit en protéine C/S.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dissection aorto-iliaque.",
+          "correct": true
+        }
+      ],
+      "explanation": "Outre l'AOMI, les causes de thrombose sur artère pathologique incluent la thrombose de pontage, la dissection aorto-iliaque, les artériopathies non athéromateuses (Buerger, Behçet, radique), la déshydratation/hémoconcentration chez le sujet âgé, l'artère poplitée piégée, la compression extrinsèque et le kyste adventiel. Le déficit en protéine C/S est une thrombophilie sur artère saine."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la durée de l'ischémie au-delà de laquelle le risque d'amputation devient majeur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "4 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "6 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "12 heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "24 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "La revascularisation doit être effectuée en urgence dans les 6 heures, car il existe un risque majeur d'amputation au-delà de ce délai."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques d'une occlusion de l'artère tibiale postérieure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ischémie de la loge antéro-externe de la jambe.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Abolition du pouls tibial antérieur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ischémie du 1/3 inférieur du mollet.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ischémie de la plante du pied.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Abolition du pouls tibial postérieur.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'occlusion de l'artère tibiale postérieure se manifeste par une ischémie du 1/3 inférieur du mollet et de la plante du pied, avec abolition du pouls tibial postérieur. L'ischémie de la loge antéro-externe de la jambe avec abolition du pouls tibial antérieur est pour l'artère tibiale antérieure."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications d'une amputation dans le contexte d'une ischémie aiguë des membres ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ischémie de catégorie IIa de Rutherford.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ischémie dépassée (catégorie III de Rutherford).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échec de la revascularisation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'un syndrome des loges sans revascularisation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur persistante malgré les antalgiques de niveau 3.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'amputation est indiquée si l'ischémie est dépassée (catégorie III de Rutherford) ou après échec de la revascularisation. La catégorie IIa est une menace potentielle avec possibilité de sauvetage."
+    }
+  ]
+}

@@ -1,0 +1,1330 @@
+{
+  "lectureId": "17",
+  "number": "17",
+  "title": "Coma",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques principales d'un coma selon la définition du cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Altération profonde et persistante de la conscience et de la vigilance",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réversible par une stimulation extérieure intense",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Absence d'ouverture des yeux, même après stimulation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence de poursuite visuelle après ouverture manuelle des yeux",
+          "correct": false
+        }
+      ],
+      "explanation": "Le coma est défini comme un état d’altération profonde et persistante de la conscience et de la vigilance, non réversible par une stimulation extérieure. Le patient comateux n’ouvre pas les yeux, ni spontanément, ni après stimulation, et aucune poursuite visuelle n’est observée."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quelle est l'étiologie qui doit être impérativement recherchée chez tout patient présentant des troubles de la conscience ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'accident vasculaire cérébral",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypoglycémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'intoxication médicamenteuse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La méningite bactérienne",
+          "correct": false
+        }
+      ],
+      "explanation": "Une étiologie doit être impérativement recherchée dans tous les cas : l’hypoglycémie, car elle peut être responsable de lésions cérébrales si elle est prolongée."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles principaux de l'évaluation de la profondeur du coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Guider l'attitude thérapeutique immédiate",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transmettre l'information entre les soignants",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Décrire l'évolution de l'altération de conscience dans le temps",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Confirmer le diagnostic étiologique sans examens complémentaires",
+          "correct": false
+        }
+      ],
+      "explanation": "L'évaluation de la profondeur du coma a trois rôles principaux : guider l'attitude thérapeutique, transmettre l'information entre les soignants, et décrire l'évolution dans le temps de l'altération de conscience."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments clés sur lesquels repose l'évaluation de la profondeur du coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le score de Glasgow",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'examen des pupilles",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les réflexes du tronc cérébral",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dosage des électrolytes sanguins",
+          "correct": false
+        }
+      ],
+      "explanation": "L'évaluation de la profondeur du coma repose actuellement sur trois éléments : le score de Glasgow, l'examen des pupilles et les réflexes du tronc cérébral."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelles sont les fonctions préservées dans le syndrome d'éveil non-répondant (état végétatif) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La communication verbale cohérente",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les fonctions autonomes (régulation cardiovasculaire, thermorégulation)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le cycle veille-sommeil (épisodes d'ouverture spontanée des yeux)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La réponse reproductible à la commande verbale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le terme « végétatif » signifie qu’il y a préservation des fonctions autonomes (régulation cardiovasculaire, thermorégulation) et du cycle veille sommeil (épisodes d’ouverture spontanée des yeux). Le patient ne répond pas à la commande verbale."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quelle est la première étape de l'examen neurologique chez un patient comateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'évaluation de la motricité des membres",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'évaluation des fonctions supérieures",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'examen des pupilles",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La recherche des réflexes ostéo-tendineux",
+          "correct": false
+        }
+      ],
+      "explanation": "L'évaluation des fonctions supérieures est la première étape de l’examen neurologique chez un patient comateux."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quels sont les signes de détresse respiratoire qui imposent le recours à l'intubation endotrachéale et à la ventilation mécanique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tachypnée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Désaturation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bradypnée ou pauses respiratoires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Encombrement laryngé et/ou pulmonaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Des signes de détresse respiratoire patents (tachypnée, désaturation, bradypnée voire pauses respiratoires) ou un encombrement laryngé et/ou pulmonaire, imposent le recours à l’intubation endotrachéale et à la ventilation mécanique."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les moyens validés pour la stimulation douloureuse lors de l'évaluation du score de Glasgow ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La friction du sternum",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pression du lit unguéal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pincement des mamelons",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La manœuvre de Pierre Marie et Foix",
+          "correct": true
+        }
+      ],
+      "explanation": "Les moyens qui sont validés pour la stimulation douloureuse sont la friction du sternum, la pression du lit unguéal, la manœuvre de Pierre Marie et Foix. Le pincement des mamelons est contre-indiqué."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelle est la signification d'un myosis punctiforme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte du nerf oculomoteur (III)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lésion protubérantielle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte mésencéphalique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Engagement temporal",
+          "correct": false
+        }
+      ],
+      "explanation": "Un myosis punctiforme est caractéristique d’une lésion protubérantielle."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de la vigilance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle dépend de la formation réticulée activatrice ascendante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle permet l'ouverture des yeux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est une fonction corticale représentant la somme des fonctions affectives et cognitives.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle permet la communication verbale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La vigilance est un état d’éveil permettant l’ouverture des yeux, la réponse motrice et la communication verbale. Il s’agit d’une fonction qui dépend de la formation réticulée activatrice ascendante."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le type de respiration qui traduit une atteinte diffuse des hémisphères cérébraux ou diencéphalique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hyperventilation neurogène centrale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La respiration apneustique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le rythme de Cheynes-Stokes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La respiration ataxique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rythme de Cheynes-Stokes se traduit par la succession régulière de périodes de polypnée avec augmentation puis diminution progressive de l’amplitude des mouvements respiratoires, et de phases d’apnée. Il traduit une atteinte diffuse des hémisphères cérébraux ou diencéphalique."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les causes de coma les plus fréquentes chez la population jeune ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Causes vasculaires",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Causes toxiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Causes traumatiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Causes métaboliques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les étiologies sont multiples. Elles sont dominées par les causes toxiques et traumatiques chez la population jeune."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques évocateurs d'une simulation ou d'un état hystérique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Résistance à l'ouverture des yeux",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Globes oculaires fuyant la lumière avec déviation variable",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence de mouvement d'évitement de la main tombant sur le visage",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Anomalies pupillaires et de la motricité oculaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Certains éléments cliniques évocateurs de simulation ou d'état hystérique sont la résistance à l’ouverture des yeux et les globes oculaires qui fuient la lumière avec une déviation variable (souvent en bas). Un mouvement d'évitement est constaté en fin de course de la main tombant sur le visage."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est l'examen complémentaire de première intention devant un coma, même si une étiologie semble évidente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'électroencéphalogramme (EEG)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La ponction lombaire (PL)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La tomodensitométrie (TDM) cérébrale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'imagerie par résonance magnétique (IRM) cérébrale",
+          "correct": false
+        }
+      ],
+      "explanation": "La tomodensitométrie (TDM) cérébrale à rayons X est certainement le premier examen complémentaire demandé devant un coma. Même si une étiologie paraît évidente, la TDM est presque toujours indiquée pour éliminer une autre cause de coma."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'état de conscience minimale, le distinguant de l'état végétatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence totale de réponse à la commande verbale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réponses reproductibles à la commande",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Suivi oculaire d'un objet de manière soutenue",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Comportements émotionnels adaptés",
+          "correct": true
+        }
+      ],
+      "explanation": "L’état de conscience minimale se caractérise, contrairement à l’état végétatif, par un certain degré de conscience. Un patient en état de conscience minimale présente des réponses reproductibles à la commande et peut suivre des yeux un objet de manière soutenue. Le patient peut aussi communiquer de manière élémentaire mais adéquate, et manifester des comportements émotionnels adaptés, contrairement aux patients en état végétatif qui pleurent et rient de manière non pertinente."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques qui orientent vers une origine sus-tentorielle d'une lésion responsable de l'altération de l'état de conscience ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un déficit latéralisé précédant le coma",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une atteinte bilatérale des voies longues",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une atteinte bilatérale des paires crâniennes",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une mydriase unilatérale aréactive",
+          "correct": false
+        }
+      ],
+      "explanation": "Un déficit latéralisé précédant le coma indique une origine sus-tentorielle. Une atteinte bilatérale des voies longues et/ou des paires crâniennes indique une origine sous-tentorielle."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions nécessaires pour la validité de l'examen clinique dans le diagnostic de mort encéphalique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Température centrale supérieure à 35°C",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression artérielle moyenne supérieure à 65 mmHg",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sédation interrompue depuis au moins 24 heures",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence de toute intoxication médicamenteuse susceptible de modifier la conscience",
+          "correct": true
+        }
+      ],
+      "explanation": "La validité de l’examen clinique nécessite certaines conditions : la température centrale doit être supérieure à 35°C, la pression artérielle moyenne doit être supérieure à 65 mmHg. Toute intoxication médicamenteuse susceptible de modifier la conscience doit être éliminée. La sédation doit être interrompue depuis au moins 48 heures."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les réflexes du tronc cérébral dont l'abolition est nécessaire et suffisante pour le diagnostic clinique de mort encéphalique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réflexe cilio-spinal",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réflexe photomoteur",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réflexe cornéen",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réflexe oculo-cardiaque",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réflexe de toux",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic d’état de mort encéphalique (EME) associe l’abolition des 4 réflexes suivants : réflexe photomoteur, réflexe cornéen, réflexe oculo-cardiaque et réflexe de toux."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un coma d'origine métabolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Installation brutale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Aboutissement d'un état confusionnel",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de troubles moteurs mal définis (paratonie, tremblement, astérixis)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pupilles souvent en myosis avec conservation du réflexe photomoteur",
+          "correct": true
+        }
+      ],
+      "explanation": "Un processus métabolique se caractérise par un coma qui est l’aboutissement d’un état confusionnel avec des troubles moteurs mal définis (paratonie, tremblement, astérixis…). Les pupilles sont souvent en myosis avec conservation du réflexe photomoteur."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes indirects pouvant évoquer un accident vasculaire cérébral ischémique à la TDM cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Artère sylvienne hyperdense",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème localisé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effacement des sillons corticaux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Perte de différentiation substance blanche – substance grise",
+          "correct": true
+        }
+      ],
+      "explanation": "Il existe des signes indirects pouvant évoquer le diagnostic d’AVC ischémique (artère sylvienne hyperdense, œdème localisé, effacement des sillons corticaux, perte de différentiation substance blanche – substance grise)."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à une ponction lombaire d'emblée, nécessitant la réalisation d'un scanner cérébral avant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les convulsions",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les signes de localisation (anisocorie, déficit moteur)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un score de Glasgow inférieur à 11/15",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les troubles de l'hémostase",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications d’une ponction lombaire d’emblée et nécessitant la réalisation d’un scanner cérébral avant sont : les convulsions, les signes de localisation (anisocorie, déficit moteur….) et un score de Glasgow inférieur à 11/15. Les troubles de l'hémostase sont une autre contre-indication, mais pas spécifiquement liée à la nécessité d'un scanner avant."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications respiratoires importantes à noter en cas de coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'inhalation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypocapnie sévère",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypercapnie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'alcalose respiratoire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système respiratoire présente deux complications importantes : l’inhalation (due à une perte de la vigilance GCS < 9) et les troubles gazométriques (hypocapnie sévère aboutissant à une alcalose respiratoire dans les cas de traumatismes crâniens, ou hypercapnie dont la conséquence est une acidose respiratoire d’origine centrale)."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques qui orientent vers une méningite bactérienne dans un contexte de coma fébrile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de syndrome méningé franc",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Présence d'un herpès labial",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'un purpura nécrotique extensif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédent de traumatisme crânien en cas de méningite récidivante à pneumocoque",
+          "correct": true
+        }
+      ],
+      "explanation": "Devant un coma fébrile, la première hypothèse à évoquer est celle d’une méningite bactérienne. La présence d’un herpès labial est évocatrice de l’origine pneumococcique, alors que la présence d’un purpura nécrotique extensif oriente vers l’origine méningococcique. En cas de méningite récidivante à pneumocoque, il faudra impérativement rechercher un antécédent de traumatisme crânien (fistule méningée)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les informations importantes à recueillir lors de l'anamnèse pour l'enquête étiologique d'un coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le contexte de survenue du coma (collectif, traumatique)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les antécédents du patient (diabète, épilepsie, alcoolisme)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'inventaire des médicaments pris par le patient ou son entourage",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le mode d'installation du coma (brutal, progressif)",
+          "correct": true
+        }
+      ],
+      "explanation": "L'anamnèse doit couvrir le contexte de survenue du coma, les antécédents du patient, l'inventaire des médicaments pris, et le mode d'installation du coma, ainsi que les symptômes neurologiques précédant ou accompagnant le coma."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies pupillaires qui peuvent témoigner d'un état de mort encéphalique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Myosis punctiforme",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mydriase unilatérale aréactive",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Mydriase bilatérale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Abolition bilatérale du réflexe photomoteur sur des pupilles dilatées",
+          "correct": true
+        }
+      ],
+      "explanation": "Une mydriase bilatérale peut témoigner d’un état de mort encéphalique (abolition de tous les réflexes du tronc cérébral) ou d’une agression neurologique grave. L’abolition bilatérale du réflexe photomoteur sur des pupilles dilatées implique une atteinte de la région tectale du tronc cérébral, qui est un signe de gravité pouvant être retrouvé dans la mort encéphalique."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'un syndrome de désafférentation motrice (Locked-in-syndrome) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suppression de toute activité motrice volontaire des membres",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Paralysie labio-glosso-pharyngo-laryngée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Conservation des mouvements de verticalité des yeux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Conscience altérée et communication impossible",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de désafférentation motrice se caractérise par la suppression de toute activité motrice volontaire au niveau des membres et des territoires bulbo-protubérantiels (tétraplégie, diplégie faciale, paralysie labio-glosso-pharyngo-laryngée, paralysie de la latéralité des yeux). Seuls les mouvements de verticalité des yeux et l’ouverture/fermeture des yeux sont conservés. La conscience est conservée et la communication avec le malade est possible."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la confusion mentale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ralentissement de toutes les fonctions de la conscience",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Altération des fonctions stratégiques de la conscience",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dégradation de l'attention",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Réaction fugace d'éveil aux stimulations nociceptives",
+          "correct": false
+        }
+      ],
+      "explanation": "La confusion mentale correspond à l'altération des fonctions stratégiques de la conscience (mémoire, orientation temporo-spatiale, planification). L'obnubilation correspond à un ralentissement de toutes les fonctions de la conscience avec dégradation de l'attention. La stupeur est une réaction fugace d'éveil aux stimulations nociceptives."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les troubles végétatifs qui peuvent être liés à l'origine du coma ou témoigner de la souffrance cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles respiratoires",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fluctuations de la pression artérielle et de la fréquence cardiaque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Modifications thermiques (hypothermie ou fièvre)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phénomènes vasomoteurs (vasodilatation ou marbrures)",
+          "correct": true
+        }
+      ],
+      "explanation": "Les troubles végétatifs peuvent être liés à l’origine du coma ou témoigner de la souffrance cérébrale. Ils incluent les troubles respiratoires, les fluctuations de la pression artérielle et de la fréquence cardiaque, les modifications thermiques, les phénomènes vasomoteurs, l'hypersudation et les troubles digestifs."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'un syndrome pyramidal à rechercher lors de l'examen neurologique d'un patient comateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypotonie généralisée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asymétrie de la réponse motrice à la stimulation douloureuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Asymétrie des réflexes ostéo-tendineux (ROT)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Signe de Babinski unilatéral",
+          "correct": true
+        }
+      ],
+      "explanation": "À un stade de coma, il faudra rechercher une asymétrie de la réponse motrice à la stimulation douloureuse, une asymétrie des réflexes ostéo-tendineux (ROT), un Babinski unilatéral, qui traduisent un syndrome pyramidal."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'IRM cérébrale dans un contexte d'urgence pour un coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnostic de thrombophlébite cérébrale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diagnostic d'AVC ischémique au début",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic d'encéphalite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diagnostic de lésions du tronc cérébral",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de l’IRM sont plus rares dans un contexte d’urgence. C’est un examen de deuxième intention qui permet d’affirmer certains diagnostics : thrombophlébite cérébrale, AVC ischémique au début, encéphalite, lésions du tronc cérébral."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les perturbations biologiques qui peuvent expliquer la survenue d'un coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysnatrémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dyscalcémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperglycémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de l'urée et de la créatinine sanguine",
+          "correct": true
+        }
+      ],
+      "explanation": "L’analyse biochimique sanguine (glycémie, natrémie, calcémie, phosphorémie, magnésémie, urée et créatinine sanguine, gazométrie sanguine) peut révéler des perturbations portant sur ces éléments qui peuvent expliquer la survenue de coma."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du score de Glasgow ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ouverture des yeux",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réponse verbale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réponse motrice",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réflexe photomoteur",
+          "correct": false
+        }
+      ],
+      "explanation": "Le score de Glasgow se base sur 3 éléments : l'ouverture des yeux, la réponse verbale et la réponse motrice."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'une atteinte protubérantielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Myosis punctiforme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Abolition unilatérale d'un réflexe cornéen homolatéral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Respiration apneustique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperventilation neurogène centrale",
+          "correct": false
+        }
+      ],
+      "explanation": "Un myosis punctiforme est caractéristique d’une lésion protubérantielle. Une abolition unilatérale d’un réflexe cornéen oriente vers une atteinte protubérantielle homolatérale. La respiration apneustique témoigne d’une atteinte de la partie basse de la protubérance. L'hyperventilation neurogène centrale témoigne d'une lésion ponto-pédonculaire."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications systémiques du coma qui peuvent aggraver les dégâts neurologiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte respiratoire par inhalation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Manifestations dysautonomiques avec fluctuation de la PA",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperglycémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acidose métabolique",
+          "correct": true
+        }
+      ],
+      "explanation": "Le coma, en fonction de sa profondeur, peut être responsable d’une atteinte multi-systémique incluant l'atteinte respiratoire par inhalation, les manifestations dysautonomiques avec fluctuation de la PA, les perturbations métaboliques comme l'hyperglycémie et l'acidose métabolique. Ces manifestations systémiques aggravent les dégâts neurologiques."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Comment le score de Glasgow-Liège est-il obtenu et quelle est son utilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est obtenu en additionnant au score de Glasgow le score obtenu par l'étude de 5 réflexes du tronc cérébral.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il permet d'évaluer la profondeur du coma de manière plus précise que le score de Glasgow seul.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ses valeurs sont comprises entre 3 et 15.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est utilisé pour le diagnostic de mort encéphalique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le score de Glasgow – Liège s’obtient en additionnant au score de Glasgow le score obtenu par l’étude de 5 réflexes du tronc-cérébral (3 à 20). Il permet d'évaluer le niveau de souffrance cérébrale, donc la profondeur du coma. Le score de Glasgow seul a des valeurs entre 3 et 15. Il n'est pas mentionné comme outil de diagnostic de mort encéphalique."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les limites de la mesure du score de Glasgow à prendre en compte pour éviter les erreurs d'évaluation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un déficit neurosensoriel (surdité, cécité) peut fausser l'évaluation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une altération périphérique de la commande (tétraplégie) doit être éliminée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'asymétrie de la réponse motrice, on choisit la meilleure réponse pour la cotation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La réponse verbale peut être évaluée même si le sujet n'a jamais été capable de s'exprimer verbalement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut tout d'abord éliminer un déficit neurosensoriel ou une altération périphérique de la commande. Lorsqu'il existe une asymétrie de la réponse motrice, on choisit toujours la meilleure réponse motrice pour la cotation. Pour évaluer la réponse verbale, il faut bien entendu que le sujet ait été capable au préalable de s'exprimer verbalement."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la détérioration rostro-caudale et les indices fiables pour son évaluation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'aggravation de la souffrance cérébrale progresse des hémisphères vers le tronc cérébral.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une réaction motrice appropriée traduit une intégration proche du cortex.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une réponse en extension bilatérale traduit un niveau lésionnel plus haut qu'une réaction en flexion.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les réflexes du tronc cérébral fournissent des indices plus fiables que la réaction motrice.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’aggravation de la souffrance cérébrale progresse habituellement des hémisphères vers le tronc cérébral (syndrome de détérioration rostro-caudale). Une réaction appropriée traduit une intégration proche du cortex. La réponse en extension bilatérale traduit un niveau lésionnel plus bas situé qu’une réaction en flexion. Les réflexes du tronc cérébral fournissent des indices plus fiables."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères d'un EEG nul pour affirmer le diagnostic de mort encéphalique dans le cadre d'une procédure de prélèvement d'organes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de tout traitement sédatif",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Température centrale supérieure à 35°C",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Enregistrement sur au moins huit dérivations",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aucune activité électrique présente sur la période enregistrée pendant au moins 20 minutes",
+          "correct": true
+        }
+      ],
+      "explanation": "La validité de l'EEG nécessite l’absence de tout traitement sédatif et une température centrale >35°C. L’enregistrement doit être réalisé sur au moins huit dérivations, en amplification maximale, pendant au moins 20 minutes, avec différents stimuli. Aucune activité électrique ne doit être présente sur la période enregistrée pour affirmer le diagnostic d’EEG nul."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypersomnie chronique, la distinguant du coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouble électif du sommeil observé au cours de certaines atteintes hypothalamo-diencéphaliques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Présence de mouvements d'étirement, accès de bâillements, soupirs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réversibilité des symptômes à la stimulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence totale de réponse à la commande verbale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’hypersomnie chronique est un trouble électif du sommeil observé au cours de certaines atteintes hypothalamo-diencéphaliques. Les signes évocateurs sont des mouvements d’étirement, des accès de bâillements, des soupirs. Le signe distinctif principal est la réversibilité des symptômes à la stimulation."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'immobilisation prolongée chez un patient comateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rhabdomyolyse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Altération de la fonction rénale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles trophiques (érosions, escarres)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombophlébite et embolie pulmonaire",
+          "correct": true
+        }
+      ],
+      "explanation": "L’immobilisation peut être responsable d’une rhabdomyolyse qui pourrait, si elle n’est pas traitée, aboutir à une altération de la fonction rénale. Des troubles trophiques peuvent apparaître même au bout de quelques heures d’immobilisation. Le système cardio-vasculaire est concerné tardivement par l’apparition du risque de thrombophlébite et d’embolie pulmonaire résultant de l’immobilisation."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les anomalies du LCR qui sont hautement suggestives d'une infection bactérienne méningée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protéinorachie supérieure à 0,40 g/L",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypoglycorrachie inférieure aux deux tiers de la glycémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de cellules mononucléées",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence de germes à la culture",
+          "correct": false
+        }
+      ],
+      "explanation": "La survenue d'une hypoglycorrachie inférieure aux deux tiers de la glycémie est hautement suggestive d'une infection bactérienne méningée. Une protéinorachie supérieure à 0,40 g/L témoigne d'une inflammation au contact du LCR, mais n'est pas spécifique d'une infection bactérienne."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent entraîner une altération réversible de la fonction cérébrale et doivent être éliminés avant d'affirmer un EEG nul ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothermie profonde",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diverses intoxications",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteintes métaboliques graves",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traumatisme crânien",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères fonctionnels d'un EEG nul ne sont valables qu'en l'absence de pathologie connue pour pouvoir entraîner une altération réversible de la fonction cérébrale (hypothermie profonde, diverses intoxications, atteintes métaboliques graves)."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la stupeur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réaction fugace d'éveil aux stimulations nociceptives.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réactivité motrice encore plus ou moins organisée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Communication par le langage très fruste.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Altération des fonctions stratégiques de la conscience.",
+          "correct": false
+        }
+      ],
+      "explanation": "La stupeur est une réaction fugace d’éveil aux stimulations nociceptives avec une réactivité motrice encore plus ou moins organisée et une communication par le langage très fruste. L'altération des fonctions stratégiques de la conscience caractérise la confusion mentale."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de coma les plus fréquentes chez les patients âgés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Causes toxiques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Causes traumatiques",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Causes vasculaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Causes métaboliques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les étiologies sont dominées par les causes toxiques et traumatiques chez la population jeune et par les causes vasculaires chez les patients âgés."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes d'une atteinte bulbo-protubérantielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rythmes respiratoires oscillants et périodiques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dysrythmies majeures",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Labilité de la PA et du pouls",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Respiration ataxique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les dysrythmies majeures traduisent une atteinte bulbo-protubérantielle. La labilité de la PA et du pouls oriente vers une atteinte du tronc cérébral. La respiration ataxique est totalement anarchique et témoigne d’une atteinte des centres bulbaires. Les rythmes oscillants et périodiques traduisent une souffrance du diencéphale et de la partie haute du tronc cérébral."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les objectifs de la prise en charge immédiate d'un patient en coma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Assurer la liberté des voies aériennes supérieures",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Corriger une hypotension pour améliorer la perfusion cérébrale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Traiter en URGENCE un état de mal convulsif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Attendre la confirmation du diagnostic étiologique avant toute intervention",
+          "correct": false
+        }
+      ],
+      "explanation": "L'existence d'une détresse vitale, circulatoire ou ventilatoire, doit entraîner un traitement immédiat. Cela inclut assurer la liberté des voies aériennes supérieures, corriger une hypotension et traiter en URGENCE un état de mal convulsif. La prise en charge doit débuter immédiatement en cas de suspicion de coma, sans attendre la confirmation de la durée ou du diagnostic."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes indirects d'œdème cérébral à la TDM cérébrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taille anormalement petite des ventricules",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Disparition des sillons corticaux",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Disparition des citernes de la base du crâne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du contraste entre substance grise et substance blanche",
+          "correct": false
+        }
+      ],
+      "explanation": "Des signes indirects évocateurs d'œdème cérébral sont : taille anormalement petite (en fonction de l'âge) des ventricules, disparition des sillons corticaux, disparition des citernes de la base du crâne, diminution du contraste entre substance grise et substance blanche."
+    }
+  ]
+}

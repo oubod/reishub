@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-12",
+  "title": "Cancers du côlon",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Concernant l'épidémiologie du cancer colorectal, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit du 3ème cancer le plus fréquent.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'âge moyen au diagnostic est de 50 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est la 2ème cause de mortalité par cancer.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le côlon est atteint dans 40% des cas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La mortalité est en augmentation depuis 20 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer colorectal est le 3ème cancer le plus fréquent et la 2ème cause de mortalité par cancer. L'âge moyen au diagnostic est de 70 ans, et le côlon est atteint dans 60% des cas. La mortalité est en baisse."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal symptôme du cancer du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anémie ferriprive isolée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des douleurs abdominales diffuses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des rectorragies.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une occlusion aiguë d'emblée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un méléna.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer du rectum se manifeste principalement par des rectorragies. L'anémie, les douleurs abdominales ou l'occlusion aiguë sont plus rares ou caractéristiques du cancer colique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type histologique majoritaire des cancers colorectaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lymphome",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Carcinome épidermoïde",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Adénocarcinome liberkühnien",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Léïomyosarcome",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Adénocarcinome colloïde",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénocarcinome liberkühnien est le type histologique majoritaire, représentant 75% des cas. Les autres types sont rares."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le test de dépistage de masse recommandé pour la population générale à risque moyen de cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coloscopie tous les 5 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dosage de l'ACE annuel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Test immunologique de saignement occulte dans les selles tous les 2 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rectoscopie au tube rigide tous les ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Scanner thoraco-abdomino-pelvien tous les 3 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la population générale à risque moyen, le dépistage de masse se fait par test immunologique de saignement occulte dans les selles tous les 2 ans entre 50 et 74 ans."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les symptômes fréquemment associés au syndrome rectal en cas de cancer du rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faux besoins impérieux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Méléna.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Émissions afécales glairo-sanglantes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Douleurs abdominales intenses.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ténesme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le syndrome rectal est caractérisé par des faux besoins impérieux, des émissions afécales glairo-sanglantes, des épreintes et un ténesme."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque reconnus pour le cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge inférieur à 50 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tabac.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alimentation riche en protéines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sédentarité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antécédents personnels de polype hyperplasique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque incluent l'âge > 50 ans, le tabac, l'alcool, une alimentation riche en protéines, l'obésité, la sédentarité, et les antécédents familiaux ou personnels. Les polypes hyperplasiques n'ont aucun risque de dégénérescence."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "En cas de test immunologique de saignement occulte dans les selles positif, quelle est la conduite à tenir et que peut-il révéler ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une coloscopie est systématiquement indiquée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il révèle un cancer colorectal dans 8% des cas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il peut être positif en cas de MICI.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est toujours spécifique d'un cancer colorectal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est positif en cas de consommation de viande rouge.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un test positif indique une coloscopie. Il révèle un cancer colorectal dans 8% des cas et des polypes dans 40% des cas. Il peut aussi être positif pour d'autres saignements digestifs comme les MICI ou les ulcères. Le test immunologique n'est pas positivé par l'alimentation (viande rouge, fruits crus), contrairement à l'Hémoccult®."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de coloscopie de dépistage pour les personnes à risque élevé en raison d'antécédents familiaux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédent familial au 1er degré d'un cas de cancer colorectal < 60 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antécédent familial au 1er degré de deux cas de cancer colorectal à tout âge.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coloscopie à 50 ans, puis tous les 10 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Coloscopie à 45 ans ou 5 ans avant l'âge du diagnostic du cas index.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un seul cas de cancer colorectal chez un parent du 1er degré, quel que soit l'âge.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications sont un antécédent familial au 1er degré d'un cas de cancer colorectal < 60 ans ou de deux cas à tout âge. La coloscopie est alors recommandée à 45 ans (ou 5 ans avant l'âge du diagnostic du cas index), puis tous les 5 ans si normale."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens systématiques à réaliser dans le bilan d'un cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coloscopie totale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Scanner thoraco-abdomino-pelvien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dosage de l'ACE.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "IRM pelvienne systématique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rectoscopie au tube rigide seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan systématique comprend une coloscopie totale, un scanner thoraco-abdomino-pelvien et le dosage de l'ACE. L'IRM pelvienne est spécifique au cancer rectal."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les examens complémentaires spécifiques au bilan d'extension d'un cancer rectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Écho-endoscopie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "IRM pelvienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coloscopie totale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Scanner thoraco-abdomino-pelvien.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dosage de l'ACE.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le cancer rectal, l'écho-endoscopie et/ou l'IRM pelvienne sont spécifiques pour évaluer l'extension pariétale et l'atteinte ganglionnaire. Les autres examens sont systématiques pour tout cancer colorectal."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification TNM, quelles sont les définitions correctes concernant l'extension tumorale (T) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tis correspond à une atteinte sous-muqueuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "T1 correspond à une tumeur intra-épithéliale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "T2 correspond à une atteinte de la musculeuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "T3 correspond à une atteinte sous-séreuse pour le côlon.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "T4b correspond à une atteinte du péritoine.",
+          "correct": false
+        }
+      ],
+      "explanation": "T2 correspond à l'atteinte de la musculeuse. T3 correspond à l'atteinte sous-séreuse pour le côlon (ou méso-rectum pour le rectum). Tis est intra-épithéliale ou intra-muqueux, T1 est sous-muqueux. T4a est l'atteinte de la séreuse/péritoine, T4b est l'atteinte d'un organe voisin."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification TNM, quelles sont les définitions correctes concernant l'atteinte ganglionnaire (N) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "N1a correspond à 2-3 ganglions régionaux atteints.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "N1b correspond à 1 ganglion régional atteint.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "N2a correspond à 4-6 ganglions régionaux atteints.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "N2b correspond à ≥ 7 ganglions régionaux atteints.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La classification N nécessite l'examen d'au moins 5 ganglions.",
+          "correct": false
+        }
+      ],
+      "explanation": "N2a correspond à 4-6 ganglions régionaux atteints et N2b à ≥ 7 ganglions régionaux atteints. N1a correspond à 1 ganglion régional et N1b à 2-3 ganglions régionaux. La classification TNM nécessite l'examen de ≥ 12 ganglions régionaux sur la pièce de colectomie."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'indication formelle de chimiothérapie adjuvante pour un cancer du côlon non métastasé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stade 1 (T1-2N0).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Stade 2 (T3-4N0).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Stade 3 (N+).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeur avec mutation BRAF V600E.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tumeur avec phénotype MSI.",
+          "correct": false
+        }
+      ],
+      "explanation": "La chimiothérapie adjuvante (FOLFOX) est indiquée de manière formelle si le cancer du côlon est de stade 3 (N+). Elle est discutée au stade 2 selon le pronostic."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de traitement néo-adjuvant (radio-chimiothérapie ou radiothérapie) pour un cancer du rectum non métastasé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeurs du haut rectum de stade T1N0.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeurs du bas et du moyen rectum de stade T3-T4.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeurs du bas et du moyen rectum avec atteinte ganglionnaire (N+).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeurs T1N0 superficielles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Toutes les tumeurs du rectum, quel que soit le stade.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement néo-adjuvant est indiqué pour les tumeurs du bas et du moyen rectum de stade T3-T4 et/ou N+. Les tumeurs T1N0 superficielles peuvent bénéficier d'un traitement trans-anal ou endoscopique."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la chirurgie pour un cancer du côlon non métastasé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exérèse de la tumeur primitive avec marges de côlon sain ≥ 5 cm.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exérèse des vaisseaux et du mésocolon contenant les ganglions lymphatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rétablissement immédiat de continuité est toujours impossible.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La chirurgie sous cœlioscopie est contre-indiquée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une colectomie subtotale est toujours réalisée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La chirurgie implique l'exérèse de la tumeur avec des marges de côlon sain ≥ 5 cm et l'exérèse des vaisseaux et du mésocolon contenant les ganglions lymphatiques (curage). Le rétablissement immédiat de continuité est possible, et la chirurgie peut être réalisée sous cœlioscopie. Le type de colectomie dépend de la localisation."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des polypes adénomateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont la forme la plus fréquente de polype.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils ont un risque de dysplasie et de cancérisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur prévalence diminue avec l'âge.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont toujours de type villeux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont sans risque de dégénérescence.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les polypes adénomateux (polyadénomes) sont les plus fréquents (tubuleux 75%). Ils présentent un risque de dysplasie (bas grade puis haut grade) et de cancérisation. Leur prévalence augmente avec l'âge."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de transformation néoplasique d'un polype adénomateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le nombre de polypes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La taille inférieure à 1 cm.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La proportion de contingent villeux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le type histologique tubuleux pur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'âge du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de transformation néoplasique sont le nombre de polypes, la taille > 1 cm et la proportion de contingent villeux. L'âge est un facteur de risque général de cancer colorectal, mais pas spécifiquement de transformation néoplasique d'un polype déjà présent."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la chromo-endoscopie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dépistage de masse de la population générale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas de syndrome de Lynch.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de MICI.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour la détection de polypes > 6 mm.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Pour évaluer l'extension pariétale d'un cancer rectal.",
+          "correct": false
+        }
+      ],
+      "explanation": "La chromo-endoscopie est recommandée en cas de syndrome de Lynch ou de MICI pour mettre en évidence les reliefs et détecter des lésions. Elle n'est pas utilisée pour le dépistage de masse ou l'évaluation de l'extension pariétale."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification de Vienne, quelle catégorie correspond à une néoplasie de haut grade ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Catégorie 1.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Catégorie 2.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Catégorie 3.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Catégorie 4.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Catégorie 5.",
+          "correct": false
+        }
+      ],
+      "explanation": "La catégorie 4 de la classification de Vienne correspond à une néoplasie de haut grade, qui inclut la dysplasie de haut grade (4-1), le cancer in situ (4-2) et la suspicion de cancer invasif (4-3) ou intra-muqueux (4-4)."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement de tout polype découvert lors d'une coloscopie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance endoscopique annuelle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Polypectomie endoscopique par destruction à la pince ou ablation à l'anse diathermique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Exérèse chirurgicale systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Biopsies seules pour analyse histologique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Mucosectomie pour les polypes pédiculés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tout polype découvert doit être traité au cours de la coloscopie par polypectomie endoscopique (destruction à la pince pour les très petits, ablation à l'anse diathermique ± mucosectomie pour les sessiles)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de surveillance coloscopique après exérèse d'un polype adénomateux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coloscopie de contrôle à 3 ans si adénome > 1 cm.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Coloscopie de contrôle à 5 ans si dysplasie de haut grade.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Coloscopie de contrôle à 3 ans si ≥ 2 adénomes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Coloscopie de contrôle à 5 ans si un seul adénome de petite taille sans dysplasie sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aucune surveillance si le polype est bien différencié.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une coloscopie de contrôle est indiquée à 3 ans si adénome > 1 cm, ≥ 2 adénomes ou dysplasie de haut grade. Sinon, elle est à 5 ans, puis tous les 5 ans. Seuls les polypes adénomateux justifient une surveillance coloscopique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'un cancer colique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Occlusion aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Perforation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Endocardite à germe digestif (S. bovis).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome rectal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Méléna.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications du cancer colique incluent l'occlusion aiguë, la perforation, l'endocardite/septicémie à germe digestif (S. bovis) et les métastases. Le méléna est une manifestation hémorragique, surtout si le cancer est du côlon droit. Le syndrome rectal est spécifique au cancer du rectum."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du polype hyperplasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est prédominant dans le côlon distal et le rectum.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il présente un risque élevé de dégénérescence.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est caractérisé par un simple allongement des cryptes glandulaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sa prévalence diminue avec l'âge.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est souvent unique et chez l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le polype hyperplasique est prédominant dans le côlon distal et le rectum, et est caractérisé par un simple allongement des cryptes glandulaires. Il n'a aucun risque de dégénérescence et sa prévalence augmente avec l'âge. Le polype juvénile est souvent unique et chez l'enfant."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de consultation oncogénétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédent personnel de cancer colorectal à 65 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cancer colorectal < 40 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phénotype MSI positif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Au moins 2 antécédents familiaux de cancer du spectre HNPCC, dont 1 < 50 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antécédent personnel de cancer du spectre HNPCC.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de consultation oncogénétique sont : ≥ 2 antécédents familiaux de cancer du spectre HNPCC dont 1 < 50 ans, antécédent personnel de cancer du spectre HNPCC, cancer colorectal < 40 ans, et phénotype MSI positif."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du dépistage par test immunologique de saignement occulte dans les selles par rapport à l'Hémoccult® ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Meilleure sensibilité pour le dépistage de cancer.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Moins bonne spécificité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Non positivé par l'alimentation (viande rouge, fruits crus).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Meilleure sensibilité pour le dépistage d'adénome.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Nécessite une coloscopie systématique même si négatif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le test immunologique est meilleur que l'Hémoccult® avec une meilleure sensibilité pour le dépistage de cancer et d'adénome, et n'est pas positivé par l'alimentation. Il a cependant une moins bonne spécificité, ce qui augmente le nombre de coloscopies."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant les marqueurs tumoraux moléculaires dans le cancer colorectal, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mutation RAS (KRAS et NRAS) est recherchée si la maladie est métastatique (M+).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si RAS est muté, il prédit une non-réponse aux anti-EGFR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La mutation BRAF V600E est de bon pronostic.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La recherche de phénotype MSI est indiquée si le patient a moins de 60 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La mutation BRAF V600E a une indication thérapeutique spécifique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mutation RAS (KRAS et NRAS) est recherchée si la maladie est métastatique (M+), et si mutée, elle est prédictive de la non-réponse aux anti-EGFR. La mutation BRAF V600E est de mauvais pronostic et n'a pas d'indication thérapeutique spécifique. La recherche de phénotype MSI est indiquée si le patient a moins de 60 ans ou des antécédents familiaux ou personnels de cancer du spectre HNPCC."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la particularité de la classification Tis (in situ) pour le cancer colorectal par rapport à d'autres organes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tis signifie toujours une tumeur limitée à l'épithélium.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un cancer colorectal infiltrant uniquement la muqueuse est considéré in situ.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tis correspond à une atteinte de la sous-muqueuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La classification Tis n'existe pas pour le cancer colorectal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Tis est équivalent à un cancer T1.",
+          "correct": false
+        }
+      ],
+      "explanation": "À la différence des autres organes, un cancer colorectal infiltrant uniquement la muqueuse est considéré in situ (Tis). Tis correspond à une tumeur intra-épithéliale ou intra-muqueuse."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la classification AJCC, quelles sont les définitions correctes des stades ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le stade 1 correspond à une tumeur T1-2 sans atteinte ganglionnaire ni métastase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le stade 2 correspond à une tumeur T3-4 sans atteinte ganglionnaire ni métastase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le stade 3 est défini par la présence de métastases à distance.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le stade 4 est défini par l'atteinte ganglionnaire régionale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le stade 2 inclut toujours une atteinte ganglionnaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le stade 1 correspond à T1-2 (sans N ni M). Le stade 2 correspond à T3-4 (sans N ni M). Le stade 3 est défini par l'atteinte ganglionnaire (N+). Le stade 4 est défini par la présence de métastases (M+)."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères pris en compte pour discuter une chimiothérapie adjuvante en cas de cancer du côlon de stade 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le sous-stade IIA, B ou C.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'âge du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le nombre de ganglions examinés sur la pièce de colectomie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le phénotype MSI de bon pronostic.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence d'une mutation RAS.",
+          "correct": false
+        }
+      ],
+      "explanation": "La chimiothérapie adjuvante est discutée au stade 2 selon le pronostic, en tenant compte du sous-stade IIA, B ou C, de l'âge, du nombre de ganglions examinés, du phénotype MSI (qui est de bon pronostic), et de la différenciation. La mutation RAS est pertinente pour les thérapies ciblées en cas de maladie métastatique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant la chirurgie du cancer du haut rectum (10-15 cm de la marge anale), quelles sont les spécificités ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nécessité d'une marge d'aval ≥ 1 cm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Exérèse de la tumeur jusqu'à 5 cm sous le pôle inférieur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Exérèse totale du méso-rectum.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anastomose colo-rectale ou colo-anale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Amputation abdominopérinéale systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le haut rectum, la chirurgie implique l'exérèse de la tumeur jusqu'à 5 cm sous le pôle inférieur, l'exérèse totale du méso-rectum et une anastomose colo-rectale ou colo-anale. Une marge d'aval ≥ 1 cm est une règle générale pour le rectum, mais les options B, C, D sont plus spécifiques au haut rectum. L'amputation est réservée aux lésions très basses."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les spécificités de la chirurgie pour un cancer du moyen rectum (5-10 cm de la marge anale) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exérèse de la tumeur jusqu'à 5 cm sous le pôle inférieur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exérèse partielle du méso-rectum.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Stomie latérale temporaire avec anastomose colo-anale secondaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Amputation abdominopérinéale systématique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Marge d'aval de 2 cm minimum.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le moyen rectum, la chirurgie implique l'exérèse de la tumeur jusqu'à 5 cm sous le pôle inférieur, une exérèse totale du méso-rectum et une stomie latérale temporaire avec anastomose colo-anale secondaire. L'amputation n'est pas systématique et la marge d'aval est généralement ≥ 1 cm."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations une amputation abdominopérinéale du rectum avec colostomie iliaque définitive est-elle envisagée pour un cancer du bas rectum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si la marge rectale distale est > 2 cm.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si la lésion est très basse et envahit le sphincter anal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si la lésion est distante de < 1 cm de la marge anale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si la lésion est distante de < 4 cm de la marge anale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour toutes les tumeurs du bas rectum.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'amputation abdominopérinéale est envisagée si la lésion est très basse et envahit le sphincter anal, ou si elle est distante de < 1 cm (soit < 4 cm de la marge anale) de la marge anale, après un second avis. Une proctectomie est préférée si possible (marge rectale distale > 2 cm)."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant les métastases du cancer colorectal, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 à 30% des patients présentent des métastases hépatiques synchrones au diagnostic.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le risque de métastase métachrone est de 30 à 40% si absente initialement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les métastases pulmonaires sont toujours inopérables.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le nombre de métastases hépatiques est un critère limitant pour la résection chirurgicale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La carcinose péritonéale est toujours une contre-indication à la chirurgie.",
+          "correct": false
+        }
+      ],
+      "explanation": "20 à 30% des patients ont des métastases hépatiques synchrones au diagnostic, et il y a un risque de 30 à 40% de métastases métachrones. Le nombre de métastases hépatiques n'est pas un critère limitant pour la résection chirurgicale. Les métastases pulmonaires et la carcinose péritonéale peuvent être discutées pour une chirurgie dans certains cas."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de traitement curatif des métastases hépatiques du cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'exérèse chirurgicale est réalisable dans 10-25% des cas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le nombre de métastases n'est pas un critère limitant pour la résection.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La radiofréquence percutanée ou per-opératoire peut être utilisée pour certaines métastases.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un bilan par IRM hépatique + PET-scan est systématique en cas de métastase hépatique résécable.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La chimiothérapie néo-adjuvante ou adjuvante n'a aucun rôle dans la résécabilité des métastases.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'exérèse chirurgicale est réalisable dans 10-25% des cas, le nombre n'est pas limitant. La radiofréquence peut être utilisée. Un bilan par IRM hépatique + PET-scan est systématique en cas de métastase hépatique résécable. La chimiothérapie néo-adjuvante ou adjuvante peut rendre résécables des métastases initialement non résécables."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle de la chimiothérapie néo-adjuvante ou adjuvante dans le traitement des cancers colorectaux métastatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle améliore la survie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle peut rendre résécables des métastases jugées initialement non résécables.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours associée à une thérapie ciblée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est uniquement utilisée en cas de métastases pulmonaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle n'a d'intérêt que pour les métastases hépatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La chimiothérapie néo-adjuvante ou adjuvante améliore la survie et peut rendre résécables des métastases jugées initialement non résécables. Elle n'est pas toujours associée à une thérapie ciblée et son rôle n'est pas limité aux seules métastases hépatiques ou pulmonaires."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le traitement palliatif du cancer colorectal métastatique, quelles sont les options de chimiothérapie et de thérapies ciblées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FOLFIRINI est un régime de chimiothérapie possible.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les anticorps anti-EGFR (cetuximab, panitumumab) sont indiqués si le statut RAS est muté.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les anticorps anti-VEGF (bevacizumab) sont indiqués si le statut RAS est muté.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La capécitabine est une chimiothérapie orale possible.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les thérapies ciblées sont toujours utilisées seules.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les régimes de chimiothérapie incluent FOLFIRINI, FOLFOX, et 5-FU orale (capécitabine). Les anticorps anti-EGFR sont indiqués si RAS sauvage, tandis que les anticorps anti-VEGF (bevacizumab) sont indiqués si RAS muté. Les thérapies ciblées sont associées à la chimiothérapie."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'un cancer colorectal métastatique, quelles sont les indications pour le traitement chirurgical de la tumeur primitive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Double résection du primitif et des métastases hépatiques en 1 ou 2 temps si exérèse des métastases.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Résection du primitif est toujours optionnelle, même en l'absence d'exérèse des métastases.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Résection du primitif si symptomatique (syndrome rectal, obstruction).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résection du primitif si tumeur hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémostase endoscopique est un traitement curatif de la tumeur primitive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si les métastases sont résécables, une double résection du primitif et des métastases hépatiques peut être réalisée. En l'absence de possibilité d'exérèse des métastases, la résection du primitif est optionnelle, envisagée si symptomatique (syndrome rectal, obstruction, tumeur hémorragique). L'hémostase endoscopique est un traitement palliatif."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de surveillance radiologique après traitement d'un cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scanner thoraco-abdomino-pelvien tous les 3-6 mois pendant 2 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Échographie abdominale et radiographie pulmonaire tous les 3-6 mois pendant 2 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Scanner thoraco-abdomino-pelvien une fois par an pendant 3 ans après les 2 premières années.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PET-scanner systématique tous les ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Arrêt de la surveillance radiologique si le patient a plus de 80 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance radiologique comprend un scanner TAP ou écho + RP tous les 3-6 mois pendant 2 ans, puis 1/an pendant 3 ans. Le PET-scanner est indiqué si l'ACE augmente avec un bilan négatif, pas systématiquement. La surveillance peut être arrêtée si le bénéfice est incertain (comorbidité sévère, sujet âgé > 80 ans, espérance de vie réduite)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de surveillance endoscopique après traitement d'un cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coloscopie 2 à 3 ans après l'intervention, puis tous les 5 ans si normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Coloscopie à 6 mois si la coloscopie initiale était incomplète (ex: occlusion).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coloscopie à 1 an si associée à ≥ 3 adénomes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Coloscopie à 1 an si associée à 1 adénome avancé (> 1 cm, villeux, dysplasie sévère, carcinome in situ).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La surveillance endoscopique est toujours maintenue, quel que soit l'âge.",
+          "correct": false
+        }
+      ],
+      "explanation": "La coloscopie est réalisée 2 à 3 ans après l'intervention puis tous les 5 ans si normale. Elle est à 6 mois si la coloscopie initiale était incomplète, et à 1 an si associée à ≥ 3 adénomes ou à 1 adénome avancé. La surveillance peut être arrêtée si le bénéfice est incertain (comorbidité sévère, sujet âgé > 80 ans, espérance de vie réduite)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cas d'une transformation cancéreuse limitée d'un polype, l'exérèse chirurgicale systématique peut être évitée si toutes les conditions suivantes sont réunies :",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence d'atteinte de la sous-muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exérèse complète avec marge de sécurité ≥ 1 mm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancer bien ou moyennement différencié.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'embole lymphatique sous-muqueux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Présence d'un contingent villeux important.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'exérèse chirurgicale systématique peut être évitée si toutes les conditions sont réunies : aucune atteinte de la sous-muqueuse, exérèse complète avec marge de sécurité ≥ 1 mm, cancer bien ou moyennement différencié, et absence d'embole lymphatique sous-muqueux."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la Polypose Adénomateuse Familiale (PAF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est due à une mutation constitutionnelle du gène APC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est transmise sur un mode autosomique récessif.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La forme classique est caractérisée par plus de 100 polypes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cancérisation est inéluctable avant 40 ans dans la forme classique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une colectomie totale préventive est indiquée vers 40-50 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "La PAF est due à une mutation constitutionnelle du gène APC, transmise sur un mode autosomique dominant. La forme classique présente plus de 100 polypes avec une cancérisation inéluctable avant 40 ans. Une colectomie totale ou coloproctectomie préventive est indiquée vers 15 à 25 ans."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les tumeurs associées à la Polypose Adénomateuse Familiale (PAF) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénomes duodénaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tumeurs desmoïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cancer du sein.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cancer de la thyroïde.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Polypes hamartomateux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les tumeurs associées à la PAF sont les adénomes duodénaux (notamment péri-ampullaires) et les tumeurs desmoïdes. Le cancer du sein et de la thyroïde sont associés à la maladie de Cowden, et les polypes hamartomateux au syndrome de Peutz-Jeghers ou à la polypose juvénile."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome de Peutz-Jeghers ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est caractérisé par des polypes adénomateux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il s'associe à une pigmentation cutanéo-muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il confère un risque de cancer du côlon.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il confère un risque de cancer de l'intestin grêle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est dû à une mutation du gène APC.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Peutz-Jeghers est caractérisé par des polypes hamartomateux et une pigmentation cutanéo-muqueuse. Il confère un risque de cancer du côlon, de l'intestin grêle, du pancréas et de l'ovaire. La mutation du gène APC est associée à la PAF."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome MAP (MYH associated polyposis) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une forme atténuée de PAF.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La transmission est autosomique dominante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les polypes sont moins nombreux que dans la PAF classique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La révélation est plus tardive que dans la PAF classique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le risque de cancérisation est de 100%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome MAP est une forme atténuée de PAF, de transmission autosomique récessive. Les polypes sont moins nombreux et la révélation est plus tardive. Le risque de cancérisation est de 50%."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de coloscopie de surveillance pour les polypes hyperplasiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aucune surveillance coloscopique n'est indiquée pour les polypes hyperplasiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Coloscopie à 5 ans si ≥ 5 polypes hyperplasiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coloscopie à 5 ans si un polype hyperplasique de taille ≥ 1 cm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Coloscopie à 3 ans si dysplasie de haut grade.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Coloscopie annuelle systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Aucune surveillance coloscopique n'est indiquée pour les polypes hyperplasiques, sauf si ≥ 5 polypes hyperplasiques ou un polype de taille ≥ 1 cm, auquel cas une coloscopie à 5 ans est recommandée. La dysplasie de haut grade concerne les adénomes."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options de traitement en urgence pour une occlusion sur cancer colorectal avec risque opératoire élevé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Colostomie première, puis résection-anastomose en un second temps.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Colectomie subtotale si caecum pré-perforatif.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Endoprothèse colique trans-tumorale suivie d'une chirurgie carcinologique quelques jours après.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prothèse définitive si soins de support exclusifs et métastases non résécables.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Résection de la tumeur et de la zone perforée sans rétablissement immédiat de continuité.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'occlusion sur cancer colorectal avec risque opératoire élevé, un traitement endoscopique ou radiologique par endoprothèse colique trans-tumorale suivie d'une chirurgie carcinologique quelques jours après est une option. Si les métastases sont non résécables et les soins de support exclusifs, une prothèse définitive peut être posée. Les autres options sont pour des situations différentes ou sans risque opératoire élevé."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de prise en charge d'une perforation sur cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Résection de la tumeur et de la zone perforée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rétablissement immédiat de continuité est systématique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Mise en place d'une ou deux stomies temporaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antibiothérapie prophylactique IV par C3G, fluoroquinolone et aminoside.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Colostomie première en amont de la tumeur.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de perforation, la prise en charge implique la résection de la tumeur et de la zone perforée, sans rétablissement immédiat de continuité, avec une ou deux stomies temporaires. Une triple antibioprophylaxie IV (C3G + fluoroquinolone + aminoside) est administrée. La colostomie première est une option pour l'occlusion."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations la surveillance endoscopique après exérèse de polypes peut-elle être interrompue ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si la coloscopie de contrôle est normale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si le bénéfice est incertain en raison de comorbidités sévères.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si le patient est âgé de plus de 80 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si l'espérance de vie est réduite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Si le patient a un seul polype hyperplasique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance endoscopique peut être interrompue si elle est normale et que le bénéfice est incertain (comorbidité sévère, sujet âgé > 80 ans, espérance de vie réduite). Un seul polype hyperplasique ne justifie pas de surveillance initiale."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle du dosage de l'ACE (Antigène Carcino-Embryonnaire) dans la prise en charge du cancer colorectal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est un marqueur diagnostique systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il a une valeur pronostique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est utile pour le suivi post-thérapeutique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est recommandé si le cancer est de stade II-III.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de l'ACE avec un bilan négatif justifie un PET-scanner.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le dosage de l'ACE a une valeur pronostique et est utile pour le suivi. Il est recommandé si le cancer est de stade II-III. Une augmentation de l'ACE avec un bilan négatif est une indication pour un PET-scanner. Il n'est pas un marqueur diagnostique systématique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la coloscopie virtuelle (TDM après préparation colique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est validée pour la détection de polypes > 6 mm.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle remplace la coloscopie optique pour le diagnostic initial.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle nécessite une anesthésie générale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est utilisée pour évaluer l'extension pariétale d'un cancer.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est recommandée en cas de MICI.",
+          "correct": false
+        }
+      ],
+      "explanation": "La coloscopie virtuelle est validée pour la détection de polypes > 6 mm. Elle ne remplace pas la coloscopie optique pour le diagnostic initial et ne nécessite pas d'anesthésie générale. Elle n'est pas spécifiquement recommandée en cas de MICI ni pour l'évaluation de l'extension pariétale d'un cancer."
+    }
+  ]
+}

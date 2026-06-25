@@ -1,0 +1,1374 @@
+{
+  "lectureId": "75",
+  "number": "75",
+  "title": "Vaccinations",
+  "partie": "J2",
+  "specialty": "Pédiatrie",
+  "questions": [
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les vaccins introduits dans le programme national de vaccination tunisien en plus de ceux établis par l'OMS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le vaccin contre l'hépatite A.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le vaccin contre le rotavirus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le vaccin contre Haemophilus influenzae de type B (Hib).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le vaccin anti-pneumococcique (introduit en 2019).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le vaccin anti-HPV.",
+          "correct": false
+        }
+      ],
+      "explanation": "En Tunisie, en plus du programme élargi de vaccination établi par l’OMS, le vaccin de l’hépatite A, celui contre l’Haemophilus influenzae de type B (Hib) et le vaccin anti-pneumococcique (2019) ont été introduits. Le vaccin anti-rotavirus et l’anti HPV ne sont pas encore introduits."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de la réponse immunitaire adaptative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est spécifique de l'antigène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est limitée dans le temps à l'éradication de l'agresseur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle ne garde pas de mémoire de l'agresseur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est le résultat de la première rencontre entre les lymphocytes naïfs et l’antigène.",
+          "correct": true
+        }
+      ],
+      "explanation": "La réponse immunitaire adaptative est spécifique de l'antigène, limitée dans le temps à l'éradication de l'agresseur dont elle garde la mémoire. Elle se déroule dans les organes lymphoïdes secondaires et est le résultat de la première rencontre entre les lymphocytes naïfs et l’antigène."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quelles sont les cellules présentatrices de l'antigène (CPA) professionnelles capables d'activer les lymphocytes T CD4 naïfs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les cellules dendritiques matures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les macrophages.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les lymphocytes B.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les cellules de Langerhans immatures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Parmi les CPA professionnelles (cellules dendritiques, macrophages et lymphocytes B), seules les cellules dendritiques matures sont capables d’activer les lymphocytes T CD4 naïfs. Les cellules de Langerhans sont des cellules dendritiques présentes dans la peau, mais elles sont immatures à l'homéostasie et ne sont pas encore équipées pour activer les LT."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quels sont les avantages des adjuvants dans les préparations vaccinales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils améliorent la réponse immunitaire vis-à-vis des antigènes vaccinaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils retiennent l’antigène au niveau du site d’injection pour une libération progressive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils activent les CPA pour qu'elles expriment les molécules de costimulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils diminuent la production de cytokines.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les adjuvants sont ajoutés aux préparations vaccinales pour améliorer la réponse immunitaire. Ils offrent deux avantages principaux : la rétention de l’antigène au site d’injection avec une libération progressive, et l'activation des CPA pour exprimer les molécules de costimulation et induire une inflammation avec majoration de l’afflux de CPA et augmentation de la production de cytokines."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des vaccins vivants atténués ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils miment l’infection naturelle avec une immunogénicité accrue.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils nécessitent souvent une seule immunisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils nécessitent l'adjonction d'adjuvants.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont contre-indiqués chez les sujets immunodéprimés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les vaccins vivants atténués miment l’infection naturelle avec une immunogénicité accrue et l’induction d’une mémoire immunitaire. Ils ne nécessitent souvent qu’une seule immunisation et ne nécessitent pas d’adjonction d’adjuvants. Ils sont contre-indiqués chez les sujets souffrant de déficits immunitaires ou traités avec des immunosuppresseurs."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les critères de choix d'un bon vaccin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une bonne innocuité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une forte antigénicité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une excellente immunogénicité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une efficacité prouvée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un coût élevé pour garantir la qualité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un bon vaccin doit avoir une bonne innocuité, antigénicité, immunogénicité, efficacité et être pratique. Le coût élevé n'est pas un critère de choix positif, le cours mentionne 'de faible coût' comme critère de praticité."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelles sont les contre-indications générales des vaccins vivants atténués ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'immunodépression.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La grossesse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une réaction anaphylactique à un composant du vaccin.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une infection banale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les vaccins vivants atténués sont contre-indiqués chez les sujets souffrant de déficits immunitaires ou traités avec des immunosuppresseurs, et la grossesse constitue également une contre-indication à cause du risque de transfert materno-fœtal. Une réaction anaphylactique est une contre-indication à tout vaccin concerné, pas spécifiquement aux vivants atténués. Une infection banale n'est pas une contre-indication."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les maladies cibles du Programme National de Vaccination (PNV) en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tuberculose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La diphtérie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La poliomyélite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La varicelle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'hépatite B.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les 11 maladies concernées par le PNV sont : la tuberculose, la diphtérie, le tétanos, la coqueluche, la poliomyélite, la rougeole, l’hépatite B, la rubéole et les infections par Haemophilus influenzae de type b, le pneumocoque et l’hépatite A. La varicelle n'est pas mentionnée comme maladie cible du PNV."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Comment le vaccin BCG est-il administré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une seule dose est administrée à la naissance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'injection se fait par voie intramusculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dose est de 1/20 de cc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il nécessite des rappels réguliers.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin BCG est administré en une seule dose (1/20 de cc) à la naissance, sans rappel. L’injection se fait en intra dermique, et non intramusculaire."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques du vaccin antidiphtérique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il utilise une anatoxine produite en traitant une préparation de toxine par le formol.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La concentration d’anatoxine est toujours de 30 UI, quel que soit l'âge.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La dose est de 0,5 ml à injecter par voie sous-cutanée ou IM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les réactions allergiques augmentent de fréquence et d’intensité avec l’âge.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le vaccin diphtérique utilise une anatoxine produite en traitant une préparation de toxine par le formol. La concentration d’anatoxine varie selon l’état vaccinal et l’âge (30 UI pour les enfants, faiblement titré pour les rappels dès 7 ans). La dose est de 0,5 ml à injecter par voie sous-cutanée ou IM. Les réactions allergiques à l’anatoxine diphtérique augmentent de fréquence et d’intensité avec l’âge."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelles sont les modalités de la vaccination antitétanique en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est obligatoire chez l’enfant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle suit le même schéma que la vaccination anti-diphtérique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le PNV inclut la vaccination des femmes enceintes non vaccinées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un rappel est inutile pour une personne à jour de ses vaccinations en cas de plaie mineure et propre.",
+          "correct": true
+        }
+      ],
+      "explanation": "La vaccination antitétanique est obligatoire en Tunisie chez l’enfant et suit le même schéma que la vaccination anti-diphtérique. Dans le cadre de la lutte contre le tétanos néonatal, le PNV inclut la vaccination des femmes enceintes non vaccinées. Pour une personne à jour de ses vaccinations, un rappel est inutile en cas de plaie mineure et propre."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques du vaccin anti-rougeoleux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est à base de virus morbilleux hyper atténué.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Deux doses sont la norme pour tous les programmes nationaux de vaccination.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'efficacité d'une dose unique est de près de 100%.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est contre-indiqué en cas de déficit immunitaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le vaccin est à base de virus morbilleux hyper atténué. Deux doses de vaccin anti-rougeoleux devraient être la norme. L'efficacité d'une dose unique varie entre 85 et 95%, et grimpe à près de 100% avec la seconde dose. Il est contre-indiqué en cas de déficit immunitaire."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la réponse immunitaire secondaire par rapport à la réponse primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est plus rapide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est plus ample.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est moins durable.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est plus efficace pour éliminer l’antigène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle résulte de l’activation des lymphocytes naïfs.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réponse secondaire se produit lors d’expositions ultérieures avec le même antigène. Cette réponse est plus rapide, plus ample et plus durable, donc plus importante et plus efficace pour éliminer l’antigène. Elle résulte de l’activation des lymphocytes mémoires, et non des lymphocytes naïfs."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signaux nécessaires à l'activation complète d'un lymphocyte T naïf par une cellule présentatrice d'antigène (CPA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La reconnaissance d'un peptide étranger fixé à une molécule du CMH du soi.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un deuxième signal dit « de costimulation » fourni par la CPA.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La production d'anticorps par le lymphocyte T.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'absence de molécules de costimulation B7 sur la CPA.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour être activée, une cellule T naïve doit non seulement reconnaître un peptide étranger fixé à une molécule du CMH du soi, mais également recevoir un deuxième signal dit « de costimulation » fourni par cette même CPA. En l’absence de ce deuxième signal, le lymphocyte T subit une activation incomplète qui entraîne un état réfractaire ou « anergie ». Les lymphocytes T ne produisent pas d'anticorps. L'absence de molécules de costimulation B7 sur une CPA immature l'empêche d'activer les LT."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des lymphocytes Th1 dans la réponse immunitaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils produisent de l’IL-2 et de l’IFN-γ.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils jouent un rôle clé dans l’activation des précurseurs de la réponse immune cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils favorisent le développement de la réponse immune humorale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils activent les lymphocytes T CD8 cytotoxiques et les macrophages.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les lymphocytes Th1 produisent de l’IL-2 et de l’IFN-γ et jouent un rôle clé dans l’activation des précurseurs de la réponse immune cellulaire (lymphocytes T CD8 cytotoxiques, cellules NK et macrophages). Ce sont les lymphocytes Th2 qui favorisent le développement de la réponse immune humorale."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels les lymphocytes T CD8+ cytotoxiques (CTL) tuent les cellules infectées par les virus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mécanisme membranaire par les ligands FasL/Fas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Libération de molécules toxiques comme les perforines et granzymes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Production d'anticorps neutralisants.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Activation des macrophages par l'IFN-γ.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les CTLs sont capables de tuer les cellules infectées par les virus via 2 mécanismes : 1) membranaire par les ligands FasL/Fas et 2) soluble par la libération de molécules toxiques, perforines et granzymes. La production d'anticorps est une fonction des plasmocytes (dérivés des LB), et l'activation des macrophages par l'IFN-γ est une fonction des LT CD4+ Th1."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la réponse humorale aux antigènes thymo-indépendants (TI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle active les lymphocytes B sans l’aide des lymphocytes T.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est généralement de type IgM.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est dépourvue de mémoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle entraîne une commutation de classe vers les IgG, IgA ou IgE.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est induite par des antigènes de nature protéique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les antigènes TI, tels que les polysaccharides, activent les LB sans l’aide des LT. La réponse aux antigènes TI est généralement de type IgM et est dépourvue de mémoire. La commutation de classe et la mémoire sont des caractéristiques des réponses aux antigènes thymo-dépendants (TD), qui sont de nature protéique."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales protéines utilisées pour la conjugaison dans la fabrication des vaccins actuels ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L’anatoxine diphtérique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L’anatoxine tétanique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La protéine OMP provenant de la capsule de Neisseria meningitidis.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les polysaccharides de petit poids moléculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les principales protéines utilisées pour la conjugaison dans la fabrication des vaccins actuels sont l’anatoxine diphtérique, l’anatoxine tétanique et la protéine OMP provenant de la capsule de Neisseria meningitidis. Les polysaccharides sont les antigènes qui sont conjugués, pas les protéines porteuses."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des vaccins tués ou inactivés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont exempts de risque infectieux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils nécessitent plusieurs injections pour une immunisation satisfaisante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils induisent préférentiellement une réponse humorale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont très efficaces dans l’induction d’une immunité à médiation cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils ne nécessitent pas de rappels pour maintenir l'immunité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les vaccins tués sont exempts de risque infectieux. Ils nécessitent plusieurs injections pour obtenir une immunisation satisfaisante et des rappels pour être maintenue. En raison de l’absence de réplication chez l’hôte, ils induisent préférentiellement une réponse humorale et sont moins efficaces dans l’induction d’une immunité à médiation cellulaire."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les formes générales de vaccins en sous-unités d'usage courant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les exotoxines (anatoxines).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les polysaccharides capsulaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les glycoprotéines de surface.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les virus entiers vivants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Trois formes générales de vaccins en sous-unités sont d’usage courant : les exotoxines (anatoxines), les polysaccharides capsulaires et les glycoprotéines de surface. Les virus entiers vivants sont des vaccins vivants atténués, pas des sous-unités."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les limites des vaccins polysaccharidiques non conjugués ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leur incapacité d’activer les lymphocytes T auxiliaires CD4+.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'induction d'une réponse à IgM avec peu ou pas de commutation isotypique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le développement d'une forte mémoire immunitaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'absence de maturation d’affinité.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une des limites de ces vaccins est leur incapacité d’activer les LT auxiliaires CD4+. À la place, ils activent des LB d’une manière thymo-indépendante engendrant une réponse à IgM avec peu ou pas de commutation isotypique, et peu voire pas de développement de lymphocytes « mémoire » ou de maturation d’affinité."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs liés au vaccin qui influencent son immunogénicité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La nature de l’antigène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d’un adjuvant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La voie d’administration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La posologie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'âge du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "La nature et l’intensité de la réponse varieront en fonction de facteurs liés au vaccin (nature de l’antigène, présence d’un adjuvant, voie d’administration, posologie, nombre de doses, intervalles entre les doses) et de facteurs liés à l’hôte (présence ou absence d'anticorps maternels, âge). L'âge du patient est un facteur lié à l'hôte."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une 2e stimulation antigénique trop rapprochée de la 1re ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle peut être inefficace.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à l’élimination de l’antigène par les anticorps sériques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle renforce la réponse immunitaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est sans impact sur l'efficacité vaccinale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une 2e stimulation antigénique trop rapprochée de la 1re peut être inefficace à cause de l’élimination de l’antigène par les anticorps sériques encore présents à une forte concentration, d’où l’importance de respecter les intervalles minimaux entre les doses."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Comment l'efficacité vaccinale peut-elle être mesurée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par le dosage des anticorps vaccinaux lorsqu'il existe une corrélation avec la protection individuelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par la mesure du nombre de sujets vaccinés protégés après exposition à l'agent infectieux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement par la comparaison avec une population non vaccinée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Par l'évaluation de la durée de protection conférée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'efficacité vaccinale peut être mesurée de deux façons : par le dosage des anticorps vaccinaux lorsqu'il existe une corrélation entre le taux sérique d'anticorps et la protection individuelle, ou par la mesure du nombre de sujets vaccinés protégés (non infectés) après exposition à l'agent infectieux et par comparaison avec une population non vaccinée."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les consignes à suivre pour maintenir une chaîne du froid vaccinale fiable au niveau périphérique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stocker les vaccins et les solvants entre 2° et 8 °C.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Emballer et transporter les vaccins en se conformant aux procédures recommandées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maintenir les vaccins et les solvants dans les conditions applicables à la chaîne du froid pendant les séances de vaccination.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Conserver les ampoules multi-doses de BCG pour des séances ultérieures si elles sont bien réfrigérées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les consignes pour maintenir une chaîne du froid fiable incluent le stockage des vaccins et solvants dans les plages de température recommandées (entre 2° et 8 °C, allant jusqu’à – 80° pour les vaccins à ARN), l'emballage et le transport conformes aux procédures, et le maintien des vaccins dans les conditions de chaîne du froid pendant les séances de vaccination. Une ampoule multi-dose de BCG mise en suspension doit être utilisée au cours d’une même séance de vaccination au maximum de 4 heures et ne doit jamais être conservée pour des séances ultérieures."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les règles à respecter lors d'un rattrapage vaccinal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un retard n'implique pas de recommencer la série vaccinale dès le début.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tous les vaccins (inactivés ou vivants) peuvent être administrés le même jour.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si deux vaccins viraux vivants ne sont pas administrés le même jour, il faut respecter un délai de 1 mois entre les deux administrations (sauf VPO).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un intervalle minimum de 1 mois doit être respecté entre deux doses itératives d'un même vaccin.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un retard n'implique pas de recommencer la série vaccinale dès le début, mais simplement de la compléter. Tous les vaccins (inactivés ou vivants) peuvent être administrés le même jour. Si 2 vaccins viraux vivants ne sont pas administrés le même jour, il faut respecter un délai de 1 mois entre les 2 administrations (excepté le VPO). Un intervalle minimum de 1 mois doit être respecté entre deux doses itératives d'un même vaccin."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affections aiguës ou les épisodes de poussée d’une affection chronique qui constituent des contre-indications temporaires à la vaccination ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les néphropathies.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L’insuffisance cardiaque ou respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les maladies dermatologiques, y compris l’eczéma.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une simple infection banale sans altération de l'état général.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les affections aiguës et les épisodes de poussée d’une affection chronique qui s’accompagnent d’une altération de l’état général sont des CI temporaires. Les néphropathies, l’insuffisance cardiaque ou respiratoire, les maladies dermatologiques, y compris l’eczéma, sont citées. Une infection banale n'est pas une contre-indication."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les MAPI à déclarer en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toutes les réactions/événements sérieux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les événements survenant jusqu’à 8 semaines après la vaccination.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les événements qui constituent le motif principal de consultation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les événements clairement dus à une autre cause.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toutes les réactions/événements sérieux sont à déclarer, indépendamment de l’appréciation d’un lien de causalité avec la vaccination, lorsque : elles surviennent jusqu’à 8 semaines après la vaccination, elles constituent le motif principal de consultation, et elles ne sont pas clairement dues à une autre cause. Les événements clairement dus à une autre cause ne sont pas à déclarer comme MAPI."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets secondaires du vaccin BCG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Induration puis ulcération locale < 1 cm avec adénopathie satellite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Adénite suppurée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bécégite généralisée chez l'immunodéprimé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fièvre légère durant 1 ou 2 jours après l’injection.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets secondaires du BCG incluent : induration puis ulcération locale < 1 cm avec adénopathie satellite (1-4 %), adénite suppurée (< 1 cas /1 000), et bécégite généralisée chez l'immunodéprimé (2 à 5/million de vaccinés). La fièvre légère est un effet secondaire du vaccin de l'hépatite virale B."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets secondaires graves mais rares des vaccins anticoquelucheux à germes entiers ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome du cri persistant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un état de choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des encéphalopathies aiguës.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une réaction locale douloureuse et érythémateuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les réactions générales rares mais graves des vaccins anticoquelucheux à germes entiers sont : le syndrome du cri persistant, l'état de choc, et les encéphalopathies aiguës. Une réaction locale douloureuse et érythémateuse est une réaction fréquente mais non grave."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à la vaccination anticoquelucheuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toute affection neurologique évolutive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Toute réaction sérieuse observée après une injection antérieure.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperthermie modérée (38°C-39°C).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des nodules au point d'injection.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin anticoquelucheux est contre-indiqué devant toute affection neurologique évolutive et toute réaction sérieuse observée après une injection antérieure. Les hyperthermies modérées et les nodules au point d'injection sont des effets secondaires habituels et non des contre-indications."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions nécessaires pour qu'une cellule dendritique (CD) immature devienne capable d'activer les lymphocytes T CD4 naïfs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle doit rencontrer des produits microbiens et reconnaître des motifs moléculaires associés aux pathogènes (PAMPs).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle doit migrer vers les organes lymphoïdes secondaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle doit perdre sa capacité de capturer les antigènes et achever sa maturation en exprimant les molécules de costimulation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle doit exprimer un phénotype immature caractérisé par l'absence d'expression des molécules de costimulation B7.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle doit présenter l'antigène sous forme native non-apprêtée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les CD immatures (comme les cellules de Langerhans) ont une capacité importante de capture de l’antigène mais n'expriment pas les molécules de costimulation B7. Pour activer les LT, elles doivent rencontrer des produits microbiens (PAMPs), migrer vers les organes lymphoïdes secondaires, et achever leur maturation en exprimant les molécules de costimulation, tout en perdant leur capacité de capturer les antigènes. La présentation de l'antigène sous forme native non-apprêtée est une caractéristique de la prise en charge par les LB pour la réponse humorale, pas par les CPA pour l'activation des LT."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Comment les lymphocytes B (LB) sont-ils activés pour produire des anticorps de haute affinité et permettre une commutation de classe lors d'une réponse aux antigènes thymo-dépendants (TD) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les LB endocytent, apprêtent et chargent les antigènes protéiques sur des molécules HLA de classe II.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les LB rencontrent des lymphocytes T CD4+ spécifiques du même antigène préalablement activés par les cellules dendritiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les lymphocytes T fournissent l'aide nécessaire via CD40L/CD40 et les cytokines Th2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les LB se différencient directement en plasmocytes producteurs d'IgG sans l'aide des LT.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le processus implique une augmentation de l’affinité de la région variable grâce aux hypermutations somatiques.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les antigènes TD de nature protéique sont endocytés, apprêtés et chargés sur des molécules HLA de classe II par les LB. Ces LB vont à la rencontre des LT CD4+ spécifiques du même antigène et préalablement activés par les CD. L'aide fournie par les LT (CD40L/CD40 et cytokines Th2) permet une augmentation de l’affinité de la région variable grâce aux hypermutations somatiques et une commutation de classe (switch) vers IgG, IgA ou IgE. La différenciation directe en plasmocytes producteurs d'IgG sans l'aide des LT n'est pas correcte; l'aide des LT est cruciale pour la commutation de classe et la maturation d'affinité."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences entre la réponse vaccinale protectrice et la réponse de l'infection naturelle, notamment dans le cas des virus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'immunité cellulaire reposant sur l'induction des lymphocytes T CD8 cytotoxiques est indispensable en cas de primo-infection virale naturelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La réponse immune protectrice induite par les vaccins anti-viraux repose surtout sur l’induction d’anticorps neutralisants.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les vaccins anti-viraux induisent principalement une immunité cellulaire pour empêcher la pénétration du virus.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La réponse vaccinale est toujours identique à celle de l'infection naturelle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'antigène vaccinal doit être capable d'induire une réponse immune qui permet l'élimination de l'agent infectieux.",
+          "correct": true
+        }
+      ],
+      "explanation": "La réponse vaccinale protectrice peut être différente de celle de l’infection naturelle, en particulier dans le cas des virus. Si l’immunité cellulaire reposant sur l’induction des lymphocytes T CD8 cytotoxiques est indispensable en cas de primo-infection virale naturelle, la réponse immune protectrice induite par les vaccins anti-viraux repose surtout sur l’induction d’anticorps neutralisants capables d’empêcher la pénétration du virus dans les cellules cibles. L'antigène vaccinal doit être capable d’induire une réponse immune qui permet l’élimination de l’agent infectieux."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs qui contribuent à une meilleure immunogénicité d'un vaccin ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une masse moléculaire élevée de l'antigène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La conjugaison de polysaccharides de petit poids moléculaire à une protéine porteuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'administration par voie intradermique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une quantité d'antigènes plus faible dans le vaccin.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des intervalles très courts entre les doses de vaccin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Plus la masse moléculaire est élevée, plus l’antigène est immunogène. Certains vaccins constitués de polysaccharides de petit poids moléculaire sont conjugués à une protéine pour être plus immunogènes. La voie ID est la plus immunogène en raison de la grande quantité de cellules présentatrices d’antigènes dans le derme. Une quantité d’antigènes plus élevée augmente la quantité d’anticorps. Des intervalles trop courts entre les doses peuvent rendre la 2e stimulation inefficace."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les spécificités de la vaccination contre l'hépatite B (HBV) pour les nouveau-nés de mère Hbs positive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La sérovaccination doit être entreprise dans les 12 à 24 premières heures après la naissance.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle implique une injection d’immunoglobulines anti Hbs et une 1ère injection de vaccin dans deux endroits différents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le schéma vaccinal total comprend 4 doses de VHB.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est possible de donner 2 doses de vaccins à 1 mois et 2 mois après la naissance et les immunoglobulines, puis une 4ème dose 1 an après.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vaccination est obligatoire en Tunisie depuis 1995 pour tous les nouveau-nés.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sérovaccination des nouveau-nés de mère Hbs positive doit être entreprise dans les 12 à 24 premières heures après la naissance, avec une injection d’immunoglobulines anti Hbs et une 1ère injection de vaccin dans deux endroits différents. Le schéma total comprend 4 doses de VHB. Le cours mentionne deux schémas possibles pour les doses ultérieures, mais le total est de 4 doses. La vaccination est obligatoire en Tunisie depuis 1995, mais la question porte sur les spécificités pour les nouveau-nés de mère Hbs positive."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités des vaccins conjugués contre le pneumocoque par rapport aux vaccins polysaccharidiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils permettent une protection dès les premières semaines de vie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils sont moins durables et moins intenses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils permettent d’éradiquer le portage rhino-pharyngé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le vaccin polysaccharidique contient plus de valences que le PCV10 ou PCV13.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le vaccin introduit dans le PNV tunisien est le polysaccharidique à 23 valences.",
+          "correct": false
+        }
+      ],
+      "explanation": "Bien que le vaccin polysaccharidique contienne plus de valences, les vaccins conjugués, contrairement à ce dernier, permettent une protection dès les premières semaines de vie, plus durable et plus intense. Ils permettent également d’éradiquer le portage rhino-pharyngé. Le vaccin introduit dans le PNV tunisien est le PCV10 (conjugué), et non le polysaccharidique à 23 valences."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de surveillance épidémiologique des maladies cibles à la vaccination en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle repose sur l’utilisation d’une définition type du cas suspect à déclarer.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle implique la standardisation de la conduite à tenir devant un cas suspect.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toutes les maladies cibles à la vaccination sont des maladies à déclaration obligatoire (MDO).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La déclaration des cas suspects doit être faite dans les 24 heures à la direction régionale des soins de santé de base.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le programme de surveillance des paralysies flasques aiguës fait partie de la stratégie mondiale d’élimination de la rougeole.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance épidémiologique repose sur l’utilisation d’une définition type du cas suspect à déclarer et la standardisation de la conduite à tenir. Toutes les maladies cibles à la vaccination sont des MDO. La déclaration immédiate dans les 24 heures à la direction régionale des soins de santé de base est requise. Le programme de surveillance des paralysies flasques aiguës fait partie de la stratégie mondiale d’éradication de la poliomyélite, tandis que la surveillance des fièvres éruptives fait partie de la stratégie d’élimination de la rougeole."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures spécifiques à prendre devant un cas de paralysie flasque aiguë (PFA) suspecté en Tunisie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation dans les délais.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Enquête épidémiologique selon un formulaire standardisé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Investigation virologique systématique avec 2 prélèvements de selles à 24 heures d’intervalle dans les 14 jours suivant le début des paralysies.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Suivi pendant 60 jours après l’installation de la paralysie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Déclaration immédiate uniquement par écrit.",
+          "correct": false
+        }
+      ],
+      "explanation": "Tout cas de PFA doit faire l’objet dans les délais d’une hospitalisation, d’une enquête épidémiologique selon un formulaire standardisé, d’une investigation virologique systématique (2 prélèvements adéquats de selles à 24 heures d’intervalle dans les 14 jours qui suivent le début des paralysies), et d’un suivi pendant 60 jours après l’installation de la paralysie. La déclaration peut se faire par écrit, fax ou téléphone."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions de vaccination du prématuré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un nouveau-né prématuré ne peut être vacciné s’il n’est pas stable sur le plan hémodynamique et respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La vaccination débute à un âge chronologique de 8 semaines et un poids supérieur à 2 kg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le vaccin de l’hépatite B est donné à la naissance quel que soit le terme ou le poids de naissance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le vaccin de la grippe et de la coqueluche est recommandé pour l’entourage du prématuré.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'âge gestationnel est le critère principal pour le début de la vaccination.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un nouveau-né prématuré ne peut être vacciné s’il n’est pas stable sur le plan hémodynamique et respiratoire. La vaccination débute à un âge chronologique de 8 semaines et un poids supérieur à 2 kg. Le vaccin de l’hépatite B est donné à la naissance quel que soit le terme ou le poids de naissance. Le vaccin de la grippe et de la coqueluche est recommandé pour l’entourage. La réponse immunitaire dépend de l’âge après la naissance (âge chronologique), et non de l’âge gestationnel."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions de protection conférée par le vaccin antiamaril et le vaccin anti-méningococcique quadrivalent pour les voyageurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le vaccin antiamaril est de type virus vivant atténué.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le vaccin antiamaril confère une protection qui dure 10 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La protection du vaccin antiamaril débute à partir du 10ème jour suivant l’administration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le vaccin anti-méningococcique confère une immunité qui dure 3 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'immunité du vaccin anti-méningococcique débute à partir du 1er jour suivant l'administration.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin antiamaril est du type virus vivant atténué, confère une protection qui dure 10 ans et débute à partir du 10ème jour suivant l’administration. Le vaccin anti-méningococcique confère une immunité qui dure 3 ans et débute à partir du 10ème jour suivant l’administration."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les recommandations vaccinales pour l'hépatite B chez les voyageurs adultes non vaccinés auparavant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise à jour de la vaccination conformément au calendrier de primo-vaccination avec le vaccin pédiatrique (VHB10μg) jusqu’à l’âge de 15 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vaccination des personnes âgées de plus de 15 ans qui effectueront un voyage à risque (séjours prolongés en zones à forte ou moyenne endémicité, comportements particuliers).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vaccination des jeunes quel que soit la durée du voyage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vaccination des adultes en cas de séjour > à 1 mois dans un pays à endémicité élevée ou moyenne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le calendrier pour le grand enfant et l’adulte est 0-1mois-6 mois, avec protection conférée à partir du 14ème jour suivant la 2ème dose.",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes les propositions sont correctes. Le cours recommande la mise à jour de la vaccination avec le vaccin pédiatrique jusqu'à 15 ans, la vaccination des plus de 15 ans pour les voyages à risque, la vaccination des jeunes quelle que soit la durée du voyage, et des adultes pour les séjours de plus d'un mois en zone d'endémicité élevée ou moyenne. Le calendrier pour le grand enfant et l’adulte non vaccinés est 0-1mois-6 mois, et la protection est conférée à partir du 14ème jour suivant l’administration de la 2ème dose."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour le vaccin de la fièvre typhoïde chez les voyageurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voyageurs se rendant dans les pays à haut risque (Asie du Sud Est, Afrique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Voyageurs se déplaçant dans des zones où l’hygiène est précaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Voyageurs en dehors des circuits touristiques usuels.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il s'agit d'une vaccination obligatoire pour tous les voyages internationaux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est recommandé uniquement pour les séjours de longue durée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin est recommandé pour les voyageurs se rendant dans les pays à haut risque (Asie du Sud Est, Afrique…) et surtout lorsque ces voyageurs se déplacent dans des zones où l’hygiène est précaire en dehors des circuits touristiques usuels. Ce n'est pas une vaccination obligatoire et n'est pas limitée aux séjours de longue durée, mais plutôt aux conditions d'hygiène et aux zones à risque."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les situations où le vaccin quadrivalent de la méningite à méningocoque (A, C, W135, Y) est recommandé pour les voyageurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voyageurs se rendant dans une zone d’endémie, en particulier la « ceinture méningitique » en Afrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Voyageurs se rendant dans toute autre zone où sévit une épidémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de résidence ou de séjour en contact étroit avec la population locale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour exercer un travail dans le secteur de la santé auprès des réfugiés.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est obligatoire pour tous les voyageurs se rendant en Arabie Saoudite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin est recommandé pour les voyageurs se rendant dans une zone d’endémie en particulier « la ceinture méningitique » en Afrique (zone subsaharienne) ou dans toute autre zone où sévit une épidémie en cas de résidence ou de séjour en contact étroit avec la population locale ou pour exercer un travail dans le secteur de la santé auprès des réfugiés. Il est obligatoire pour la Omra ou le Hadj, mais la question porte sur les recommandations générales pour les voyageurs."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences essentielles de la mise au point de nombreux nouveaux vaccins ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les combinaisons ou associations de vaccins deviennent une nécessité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les calendriers de vaccinations sont souvent modifiés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La gestion des vaccinations doit être considérée comme une priorité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'évaluation des programmes sur le plan opérationnel et épidémiologique est essentielle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La vaccination perd de son importance face à l'hygiène et la nutrition.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mise au point de nombreux vaccins a deux conséquences essentielles : les combinaisons ou associations de vaccins deviennent une nécessité, et les calendriers de vaccinations sont souvent modifiés. La gestion des vaccinations, l’évaluation des programmes sur le plan opérationnel et épidémiologique doivent également être considérées comme des priorités. Le cours conclut que la vaccination constitue, avec l’hygiène et la nutrition, l’élément majeur de la santé publique, elle ne perd donc pas de son importance."
+    }
+  ]
+}

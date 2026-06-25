@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-7",
+  "title": "Équilibre acido-basique",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les paramètres clés de la gazométrie artérielle mentionnés comme essentiels pour l'évaluation de l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La concentration en ions hydrogène [H+]",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La pression partielle en dioxyde de carbone (PCO2)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pH sanguin",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La concentration en bicarbonates (HCO3-)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La saturation en oxygène (SaO2)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que les paramètres clés de la gazométrie sont le pH, la PCO2 et les HCO3-. La concentration en ions hydrogène est liée au pH mais n'est pas un paramètre directement listé comme clé de la gazométrie dans ce contexte. La SaO2 n'est pas mentionnée comme un paramètre clé de l'équilibre acido-basique dans le cours."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Dans l'organisme humain, quelles sont les caractéristiques du pH plasmatique normal et des déviations principales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le pH normal est maintenu dans une fourchette étroite entre 7,35 et 7,45.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une acidose est définie par un pH supérieur à 7,45.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une alcalose est caractérisée par un pH inférieur à 7,35.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le maintien d'un pH stable est crucial pour l'activité enzymatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Toute déviation du pH n'a pas de conséquences systémiques graves.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte stipule que le pH du plasma est maintenu entre 7,35 et 7,45. Une acidose correspond à un pH < 7,35 et une alcalose à un pH > 7,45. Le maintien d'un pH stable est une condition sine qua non au fonctionnement optimal des processus cellulaires, notamment l'activité enzymatique, et toute déviation peut avoir des conséquences systémiques graves."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles majeurs de la régulation rénale dans l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réabsorber la totalité des bicarbonates filtrés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Excréter la charge acide nette quotidienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contrôler la PCO2 par la ventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Agir en quelques secondes pour capter ou libérer des H+.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Régénérer les bicarbonates consommés par le tamponnement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les reins ont deux rôles majeurs : réabsorber la totalité des bicarbonates (HCO3-) filtrés et excréter la charge acide nette quotidienne sous forme d'acidité titrable et d'ions ammonium, tout en régénérant les bicarbonates consommés par le tamponnement. Le contrôle de la PCO2 est le rôle des poumons, et l'action rapide de captage/libération de H+ est celle des systèmes tampons."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon l'équation d'Henderson-Hasselbalch, de quels éléments le pH dépend-il principalement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "De la valeur absolue de la PCO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Du rapport entre la composante métabolique (HCO3-) et la composante respiratoire (PCO2).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "De la valeur absolue des bicarbonates (HCO3-).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "De la régulation rénale des phosphates.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "De la régulation pulmonaire du dioxyde de carbone.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'équation d'Henderson-Hasselbalch montre que le pH dépend non pas des valeurs absolues, mais du rapport entre la composante métabolique (bicarbonates, HCO3-, régulée par le rein) et la composante respiratoire (dioxyde de carbone, PCO2, régulée par le poumon). La régulation pulmonaire du dioxyde de carbone est donc un facteur déterminant de la composante respiratoire."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les systèmes tampons chimiques mentionnés comme agissant immédiatement pour réguler le pH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le couple acide carbonique / bicarbonate (H2CO3/HCO3-).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les ions ammonium (NH4+).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les protéines, telles que l'hémoglobine et l'albumine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les phosphates.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le dioxyde de carbone (CO2).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que les systèmes tampons agissent en quelques secondes et que le principal est le couple acide carbonique / bicarbonate (H2CO3/HCO3-). D'autres incluent les protéines (hémoglobine, albumine) et les phosphates. Les ions ammonium sont impliqués dans l'excrétion rénale des acides, et le CO2 est la composante respiratoire régulée par les poumons."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente une gazométrie artérielle avec un pH de 7,28 et une PCO2 de 55 mmHg. Quelle est l'étape suivante pour déterminer l'origine du trouble ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Calculer le trou anionique plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Évaluer la concentration en bicarbonates (HCO3-).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déterminer si le trouble est une alcalémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rechercher une hyperventilation compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Identifier si la PCO2 est anormale et explique le pH.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'étape 1 est d'analyser le pH (ici, acidémie car < 7,35). L'étape 2 est de déterminer l'origine (respiratoire ou métabolique) en cherchant la valeur (PCO2 ou HCO3-) qui varie dans le même sens que la déviation du pH. Ici, le pH est bas et la PCO2 est élevée, ce qui suggère une acidose respiratoire. Il est donc essentiel d'évaluer la PCO2 et les HCO3- pour confirmer l'origine. Le calcul du trou anionique est pour les acidoses métaboliques. Le trouble est une acidémie, pas une alcalémie. La compensation est évaluée à l'étape 3."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une acidose respiratoire simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH élevé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une PCO2 élevée comme trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une concentration de HCO3- élevée comme compensation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperventilation compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un pH bas.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une acidose respiratoire se caractérise par un pH bas et une PCO2 élevée (primaire). La compensation attendue est métabolique/rénale, se manifestant par une augmentation des HCO3- (rétention rénale). L'hyperventilation est une compensation pour l'acidose métabolique, et un pH élevé est caractéristique d'une alcalose."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente un pH de 7,50, une PCO2 de 30 mmHg et des HCO3- de 24 mmol/L. Comment interpréter ces résultats ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une acidose métabolique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le pH indique une alcalémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PCO2 est basse et explique l'alcalémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La compensation attendue serait une diminution des HCO3-.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il s'agit d'une alcalose respiratoire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pH de 7,50 indique une alcalémie (> 7,45). La PCO2 de 30 mmHg est basse (normale 35-45 mmHg) et varie dans le même sens que le pH (pH élevé, PCO2 basse), ce qui est caractéristique d'une alcalose respiratoire. Les HCO3- sont dans les valeurs normales, suggérant un trouble simple sans compensation métabolique significative encore. La compensation attendue pour une alcalose respiratoire serait une diminution des HCO3-."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une alcalose métabolique simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH bas.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une PCO2 élevée comme compensation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une concentration de HCO3- élevée comme trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperventilation compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un pH élevé.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une alcalose métabolique se caractérise par un pH élevé et des HCO3- élevés (primaire). La compensation attendue est respiratoire, se manifestant par une augmentation de la PCO2 (hypoventilation). L'hyperventilation est une compensation pour l'acidose métabolique, et un pH bas est caractéristique d'une acidose."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les valeurs normales des paramètres de la gazométrie artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "pH entre 7,35 et 7,45.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "PCO2 entre 35 et 45 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bicarbonates (HCO3-) entre 22 et 26 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Base Excess (BE) entre -2 et +2 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "PCO2 entre 22 et 26 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les valeurs normales sont : pH 7,35-7,45 ; PCO2 35-45 mmHg ; HCO3- 22-26 mmol/L ; Base Excess (BE) -2 à +2 mmol/L. La PCO2 entre 22 et 26 mmHg est incorrecte."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations sont vraies concernant la compensation des troubles acido-basiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le système non responsable du trouble initial réagit dans le même sens que le trouble primaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'acidose métabolique, la compensation attendue est respiratoire par hyperventilation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'acidose respiratoire, la compensation attendue est métabolique/rénale par rétention de HCO3-.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La compensation est toujours parfaite, ramenant le pH à la normale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le pH reste généralement du côté du trouble primaire même après compensation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le corps tente toujours de ramener le pH à la normale, et le système non responsable du trouble initial va réagir en sens inverse. En cas d'acidose métabolique, la compensation est respiratoire par hyperventilation (diminution de PCO2). En cas d'acidose respiratoire, la compensation est métabolique/rénale par rétention de HCO3-. La compensation est rarement parfaite, et le pH reste généralement du côté du trouble primaire."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente un pH de 7,20, une PCO2 de 30 mmHg et des HCO3- de 15 mmol/L. Quel est le trouble acido-basique primaire et sa compensation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose respiratoire avec compensation métabolique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Alcalose métabolique avec compensation respiratoire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Acidose métabolique avec compensation respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pH bas et les HCO3- bas indiquent un trouble métabolique primaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La PCO2 basse est une compensation à l'acidose.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pH de 7,20 est bas (acidémie). Les HCO3- de 15 mmol/L sont bas (normale 22-26 mmol/L) et varient dans le même sens que le pH, indiquant une acidose métabolique primaire. La PCO2 de 30 mmHg est basse (normale 35-45 mmHg), ce qui est une compensation respiratoire par hyperventilation pour tenter de ramener le pH vers la normale."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une alcalose respiratoire simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH élevé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une PCO2 basse comme trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une concentration de HCO3- élevée comme compensation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypoventilation compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une concentration de HCO3- basse comme compensation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une alcalose respiratoire se caractérise par un pH élevé et une PCO2 basse (primaire). La compensation attendue est métabolique/rénale, se manifestant par une diminution des HCO3-. L'hypoventilation est une compensation pour l'alcalose métabolique."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions de la régulation respiratoire dans l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle agit en quelques secondes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle contrôle la PCO2, un acide volatil.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une acidose stimule la ventilation pour 'souffler' le CO2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une alcalose diminue la ventilation, retenant le CO2.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est la régulation ultime et prend des jours à se mettre en place.",
+          "correct": false
+        }
+      ],
+      "explanation": "La régulation respiratoire contrôle la PCO2, qui est un acide volatil. Une acidose stimule les chémorécepteurs centraux, augmentant la ventilation pour 'souffler' le CO2 (hypocapnie compensatrice). Une alcalose la diminue, retenant le CO2 (hypercapnie compensatrice). Son action se met en place en quelques minutes, pas en quelques secondes (tampons) ni en jours (rénale)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Le Base Excess (BE) est un paramètre de la gazométrie artérielle. Que reflète-t-il ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression partielle en CO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La composante métabolique de l'équilibre acido-basique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'état de la ventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'indépendance de la PCO2 pour indiquer la composante métabolique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La concentration en ions hydrogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Base Excess (BE) indique la composante métabolique, indépendamment de la PCO2. La PCO2 reflète la ventilation alvéolaire et la composante respiratoire. La concentration en ions hydrogène est liée au pH."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une acidose métabolique simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH élevé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une PCO2 basse comme compensation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une concentration de HCO3- basse comme trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypoventilation compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un pH bas.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une acidose métabolique se caractérise par un pH bas et des HCO3- bas (primaire). La compensation attendue est respiratoire, se manifestant par une diminution de la PCO2 (hyperventilation). L'hypoventilation est une compensation pour l'alcalose métabolique."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes de l'approche systématique pour l'interprétation d'une gazométrie artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analyser le pH pour définir le trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déterminer l'origine (respiratoire ou métabolique) du trouble.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évaluer la compensation du système non responsable du trouble initial.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Calculer systématiquement le trou anionique avant toute autre étape.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rechercher uniquement la PCO2 pour l'origine du trouble.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'approche systématique en 3 étapes est : 1) Analyser le pH, 2) Déterminer l'origine (Respiratoire ou Métabolique), 3) Évaluer la compensation. Le calcul du trou anionique est spécifique aux acidoses métaboliques, et il faut évaluer PCO2 et HCO3- pour l'origine."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un patient présente un pH de 7,48, une PCO2 de 48 mmHg et des HCO3- de 30 mmol/L. Quel est le trouble acido-basique primaire et sa compensation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alcalose respiratoire avec compensation métabolique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acidose métabolique avec compensation respiratoire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Alcalose métabolique avec compensation respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pH élevé et les HCO3- élevés indiquent un trouble métabolique primaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La PCO2 élevée est une compensation à l'alcalose.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pH de 7,48 est élevé (alcalémie). Les HCO3- de 30 mmol/L sont élevés (normale 22-26 mmol/L) et varient dans le même sens que le pH, indiquant une alcalose métabolique primaire. La PCO2 de 48 mmHg est élevée (normale 35-45 mmHg), ce qui est une compensation respiratoire par hypoventilation pour tenter de ramener le pH vers la normale."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une acidémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH supérieur à 7,45.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pH inférieur à 7,35.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une déviation du pH vers l'acidité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une déviation du pH vers l'alcalinité.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle peut être d'origine respiratoire ou métabolique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une acidémie est définie par un pH < 7,35, ce qui représente une déviation du pH vers l'acidité. Elle peut être causée par une acidose respiratoire ou une acidose métabolique."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une alcalémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pH inférieur à 7,35.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pH supérieur à 7,45.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une déviation du pH vers l'acidité.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une déviation du pH vers l'alcalinité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle peut être d'origine respiratoire ou métabolique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une alcalémie est définie par un pH > 7,45, ce qui représente une déviation du pH vers l'alcalinité. Elle peut être causée par une alcalose respiratoire ou une alcalose métabolique."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des poumons dans la régulation acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils contrôlent la PCO2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils agissent en quelques minutes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont les régulateurs ultimes du pH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils réabsorbent les bicarbonates filtrés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont responsables de la composante respiratoire de l'équilibre.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les poumons contrôlent la PCO2, qui est la composante respiratoire de l'équilibre acido-basique. Leur action se met en place en quelques minutes. Les reins sont les régulateurs ultimes et réabsorbent les bicarbonates."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la régulation rénale de l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est rapide, agissant en quelques minutes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est lente mais puissante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle prend des heures à des jours pour se mettre en place.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est responsable de l'élimination de la charge acide nette quotidienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est la première ligne de défense contre les variations de pH.",
+          "correct": false
+        }
+      ],
+      "explanation": "La régulation rénale est lente mais puissante, prenant des heures à des jours. Elle est responsable de l'élimination de la charge acide nette quotidienne et de la régénération des bicarbonates. Les systèmes tampons sont la première ligne de défense et agissent en quelques secondes."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui constituent la composante métabolique de l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression partielle en CO2 (PCO2).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les bicarbonates (HCO3-).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le Base Excess (BE).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les ions hydrogène (H+).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La régulation rénale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La composante métabolique est principalement représentée par les bicarbonates (HCO3-) et le Base Excess (BE). La régulation rénale est le principal mécanisme de contrôle de cette composante. La PCO2 est la composante respiratoire, et les ions H+ sont liés au pH global."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui constituent la composante respiratoire de l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les bicarbonates (HCO3-).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La pression partielle en CO2 (PCO2).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le dioxyde de carbone (CO2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La régulation pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le Base Excess (BE).",
+          "correct": false
+        }
+      ],
+      "explanation": "La composante respiratoire est représentée par le dioxyde de carbone (CO2) et sa pression partielle (PCO2), qui est régulée par le poumon (régulation pulmonaire). Les bicarbonates et le Base Excess sont des composantes métaboliques."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes typiques d'une acidose métabolique à trou anionique normal (hyperchlorémique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cétoacidose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Acidoses tubulaires rénales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance rénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Intoxication au méthanol.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes typiques d'une acidose métabolique à trou anionique normal (hyperchlorémique) sont les diarrhées et les acidoses tubulaires rénales, dues à une perte de bicarbonates. La cétoacidose, l'insuffisance rénale et l'intoxication au méthanol sont des causes d'acidose métabolique à trou anionique élevé."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient se présente avec un pH de 7,25, une PCO2 de 60 mmHg et des HCO3- de 28 mmol/L. Quelle est l'interprétation la plus appropriée de ces résultats ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une alcalose respiratoire compensée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le trouble primaire est une acidose respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PCO2 élevée est la cause principale de l'acidémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les HCO3- élevés représentent une compensation rénale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compensation est parfaite, ramenant le pH à la normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,25 est bas (acidémie). La PCO2 de 60 mmHg est élevée (normale 35-45 mmHg) et varie dans le même sens que le pH, indiquant une acidose respiratoire primaire. Les HCO3- de 28 mmol/L sont légèrement élevés (normale 22-26 mmol/L), ce qui représente une compensation métabolique/rénale. Le pH n'est pas ramené à la normale, donc la compensation n'est pas parfaite."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,52, une PCO2 de 30 mmHg et des HCO3- de 20 mmol/L. Quelle est l'interprétation la plus appropriée de ces résultats ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le trouble primaire est une acidose métabolique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il s'agit d'une alcalose respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PCO2 basse est la cause principale de l'alcalémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les HCO3- bas représentent une compensation rénale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le pH indique une acidémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,52 est élevé (alcalémie). La PCO2 de 30 mmHg est basse (normale 35-45 mmHg) et varie dans le même sens que le pH, indiquant une alcalose respiratoire primaire. Les HCO3- de 20 mmol/L sont légèrement bas (normale 22-26 mmol/L), ce qui représente une compensation métabolique/rénale. Le pH indique une alcalémie, pas une acidémie."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient avec une acidose métabolique présente les résultats suivants : Na+ = 140 mmol/L, Cl- = 105 mmol/L, HCO3- = 15 mmol/L. Quel est le trou anionique et son interprétation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le trou anionique est de 20 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le trou anionique est de 8 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il s'agit d'une acidose métabolique à trou anionique élevé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il s'agit d'une acidose métabolique à trou anionique normal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La cause pourrait être une cétoacidose.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le trou anionique (TA) se calcule par [Na+] - ([Cl-] + [HCO3-]). Ici, TA = 140 - (105 + 15) = 140 - 120 = 20 mmol/L. La valeur normale est de 8 à 12 mmol/L, donc un TA de 20 mmol/L est élevé. Une cétoacidose est une cause typique d'acidose métabolique à trou anionique élevé."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient avec une acidose métabolique présente les résultats suivants : Na+ = 140 mmol/L, Cl- = 115 mmol/L, HCO3- = 15 mmol/L. Quel est le trou anionique et son interprétation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le trou anionique est de 10 mmol/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le trou anionique est de 20 mmol/L.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il s'agit d'une acidose métabolique à trou anionique élevé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il s'agit d'une acidose métabolique à trou anionique normal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La cause pourrait être une diarrhée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le trou anionique (TA) se calcule par [Na+] - ([Cl-] + [HCO3-]). Ici, TA = 140 - (115 + 15) = 140 - 130 = 10 mmol/L. La valeur normale est de 8 à 12 mmol/L, donc un TA de 10 mmol/L est normal. Une diarrhée est une cause typique d'acidose métabolique à trou anionique normal (hyperchlorémique)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications de l'équation d'Henderson-Hasselbalch pour la compréhension de l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle montre que le pH dépend des valeurs absolues de HCO3- et PCO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle lie le pH aux composantes métabolique et respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle met en évidence l'importance du rapport HCO3-/PCO2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est centrale pour comprendre la régulation du pH.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est uniquement pertinente pour les troubles respiratoires.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'équation d'Henderson-Hasselbalch est centrale pour comprendre l'équilibre acido-basique. Elle lie le pH aux deux composantes principales de la régulation (HCO3- et PCO2) et montre que le pH dépend du rapport entre ces deux composantes, non de leurs valeurs absolues. Elle est pertinente pour tous les troubles acido-basiques, pas uniquement respiratoires."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une acidose métabolique à trou anionique élevé, quelles sont les causes typiques mentionnées par le mnémonique GOLDMARK ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Glycols.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L-Lactate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Acidoses tubulaires rénales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Méthanol.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le mnémonique GOLDMARK regroupe les causes d'acidose métabolique à trou anionique élevé : Glycols, Oxoproline, L-Lactate, D-Lactate, Méthanol, Aspirine, Insuffisance Rénale, Cétoacidose (Ketoacidosis). Les diarrhées et les acidoses tubulaires rénales sont des causes d'acidose métabolique à trou anionique normal."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi une acidose métabolique à trou anionique normal est-elle souvent qualifiée d'hyperchlorémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parce qu'elle est due à une addition d'acide endogène.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Parce que le rein retient du chlore pour maintenir l'électroneutralité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Parce qu'il y a une perte de bicarbonates.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Parce que l'anion non mesuré de l'acide augmente le TA.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Parce que la concentration de Cl- diminue pour compenser.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une acidose métabolique à trou anionique normal est due à une perte de bicarbonates (digestive ou rénale). Pour maintenir l'électroneutralité, le rein retient du chlore (Cl-), ce qui explique l'hyperchlorémie. L'addition d'acide endogène et l'augmentation de l'anion non mesuré sont caractéristiques du TA élevé."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiologiques qui contribuent à l'homéostasie acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les systèmes tampons chimiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La régulation respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La régulation rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La régulation hépatique des protéines plasmatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La régulation digestive de l'absorption des acides.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cours explore les trois lignes de défense qui assurent l'homéostasie acido-basique : les systèmes tampons chimiques, la régulation respiratoire et la régulation rénale. La régulation hépatique et digestive ne sont pas mentionnées comme des lignes de défense directes de l'équilibre acido-basique dans ce contexte."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une acidose métabolique. Quels sont les éléments qui orientent vers une cause à trou anionique élevé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perte digestive de bicarbonates.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation des anions non mesurés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hyperchlorémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'addition d'un acide endogène ou exogène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une acidose tubulaire rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une acidose métabolique à trou anionique élevé est due à l'addition d'un acide endogène ou exogène. Les H+ de cet acide sont tamponnés par les HCO3- (qui diminuent), et l'anion non mesuré de cet acide augmente le TA. La perte digestive de bicarbonates, l'hyperchlorémie et l'acidose tubulaire rénale sont associées à un TA normal."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la régulation par les systèmes tampons ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils agissent en quelques secondes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils sont la première ligne de défense.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le couple H2CO3/HCO3- est le principal tampon.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont les régulateurs ultimes du pH.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Leur action prend des heures à des jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les systèmes tampons agissent en quelques secondes pour capter ou libérer des H+. Ils sont la première ligne de défense. Le principal est le couple acide carbonique / bicarbonate (H2CO3/HCO3-). Les régulateurs ultimes et l'action lente sont caractéristiques de la régulation rénale."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,30, une PCO2 de 30 mmHg et des HCO3- de 18 mmol/L. Le trou anionique est de 15 mmol/L. Quelle est l'interprétation la plus complète ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose respiratoire décompensée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acidose métabolique à trou anionique normal.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Acidose métabolique à trou anionique élevé avec compensation respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La PCO2 basse est une compensation à l'acidose primaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La cause pourrait être une intoxication à l'aspirine.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pH de 7,30 est bas (acidémie). Les HCO3- de 18 mmol/L sont bas, indiquant une composante métabolique primaire. La PCO2 de 30 mmHg est basse, ce qui est une compensation respiratoire. Le trou anionique de 15 mmol/L est élevé (normale 8-12 mmol/L). Il s'agit donc d'une acidose métabolique à trou anionique élevé avec compensation respiratoire. L'aspirine est une cause typique d'acidose métabolique à TA élevé (GOLDMARK)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,48, une PCO2 de 50 mmHg et des HCO3- de 32 mmol/L. Quelle est l'interprétation la plus complète ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alcalose respiratoire avec compensation métabolique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Alcalose métabolique avec compensation respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pH élevé et les HCO3- élevés indiquent le trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La PCO2 élevée est une compensation à l'alcalose primaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le trouble est une acidose métabolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,48 est élevé (alcalémie). Les HCO3- de 32 mmol/L sont élevés, indiquant une composante métabolique primaire. La PCO2 de 50 mmHg est élevée, ce qui est une compensation respiratoire (hypoventilation) pour tenter de ramener le pH vers la normale. Il s'agit donc d'une alcalose métabolique avec compensation respiratoire."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels les reins excrètent la charge acide nette quotidienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par la réabsorption des bicarbonates filtrés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sous forme d'acidité titrable (H2PO4-).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sous forme d'ions ammonium (NH4+).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par l'augmentation de la ventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par la diminution de la PCO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les reins excrètent la charge acide nette quotidienne sous forme d'acidité titrable (H2PO4-) et d'ions ammonium (NH4+). La réabsorption des bicarbonates est un autre rôle rénal mais ne concerne pas l'excrétion de la charge acide nette. L'augmentation de la ventilation et la diminution de la PCO2 sont des mécanismes respiratoires."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,22, une PCO2 de 65 mmHg et des HCO3- de 24 mmol/L. Quelle est l'interprétation la plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose métabolique décompensée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acidose respiratoire aiguë non compensée ou peu compensée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PCO2 élevée est la cause principale de l'acidémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les HCO3- sont dans la normale, suggérant une absence de compensation métabolique significative.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Alcalose respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,22 est bas (acidémie). La PCO2 de 65 mmHg est très élevée, ce qui est la cause principale de l'acidémie et indique une acidose respiratoire. Les HCO3- de 24 mmol/L sont dans la normale, ce qui suggère que la compensation rénale n'a pas encore eu le temps de se mettre en place (acidose respiratoire aiguë) ou est très limitée. L'acidose métabolique et l'alcalose respiratoire sont incorrectes."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une acidose sur la régulation respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle stimule les chémorécepteurs centraux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle diminue la ventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle entraîne une hypocapnie compensatrice.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle provoque une hypercapnie compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle vise à retenir le CO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une acidose stimule les chémorécepteurs centraux, augmentant la ventilation pour 'souffler' le CO2, ce qui entraîne une hypocapnie compensatrice. Elle ne diminue pas la ventilation et ne vise pas à retenir le CO2; ces actions sont observées en cas d'alcalose."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une alcalose sur la régulation respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle stimule les chémorécepteurs centraux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle diminue la ventilation alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle entraîne une hypocapnie compensatrice.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle provoque une hypercapnie compensatrice.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle vise à retenir le CO2.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une alcalose diminue la ventilation alvéolaire, retenant le CO2, ce qui entraîne une hypercapnie compensatrice. Elle ne stimule pas les chémorécepteurs centraux pour augmenter la ventilation, ni ne provoque d'hypocapnie compensatrice."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Le principe de l'électroneutralité est fondamental pour le calcul du trou anionique. Que signifie-t-il dans ce contexte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La somme des cations est toujours supérieure à la somme des anions dans le plasma.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La somme des cations est égale à la somme des anions dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le trou anionique représente les cations non mesurés en routine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le trou anionique représente les anions non mesurés en routine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il permet de calculer la concentration en ions hydrogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principe de l'électroneutralité veut que la somme des cations soit égale à la somme des anions dans le plasma. Le trou anionique (TA) représente les anions non mesurés en routine. Il ne permet pas de calculer la concentration en ions hydrogène directement."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,32, une PCO2 de 32 mmHg et des HCO3- de 16 mmol/L. Le trou anionique est de 10 mmol/L. Quelle est l'interprétation la plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose métabolique à trou anionique élevé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Acidose métabolique à trou anionique normal avec compensation respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PCO2 basse est une compensation à l'acidose primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cause pourrait être une acidose tubulaire rénale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Alcalose respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,32 est bas (acidémie). Les HCO3- de 16 mmol/L sont bas, indiquant une composante métabolique primaire. La PCO2 de 32 mmHg est basse, ce qui est une compensation respiratoire. Le trou anionique de 10 mmol/L est normal (normale 8-12 mmol/L). Il s'agit donc d'une acidose métabolique à trou anionique normal avec compensation respiratoire. Une acidose tubulaire rénale est une cause typique de TA normal."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui distinguent une acidose métabolique à TA élevé d'une acidose métabolique à TA normal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'une hyperchlorémie dans le TA élevé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'addition d'un acide endogène ou exogène dans le TA élevé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une perte de bicarbonates dans le TA normal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'augmentation d'anions non mesurés dans le TA élevé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compensation respiratoire est absente dans le TA normal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une acidose métabolique à TA élevé est due à l'addition d'un acide endogène ou exogène, entraînant une augmentation des anions non mesurés. Une acidose métabolique à TA normal est due à une perte de bicarbonates, souvent accompagnée d'une hyperchlorémie. La compensation respiratoire est présente dans les deux types d'acidoses métaboliques."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cadre de l'interprétation d'une gazométrie, pourquoi est-il important de noter que la compensation est rarement parfaite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parce que le pH reste généralement du côté du trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Parce que cela indique toujours un trouble mixte.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Parce que cela signifie que le système compensateur est défaillant.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Parce que le pH revient toujours exactement à 7,40.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Parce que cela aide à identifier le trouble primaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La compensation est rarement parfaite, le pH reste généralement du côté du trouble primaire. Cette observation est cruciale pour identifier le trouble primaire, car si le pH était parfaitement normal, il serait plus difficile de distinguer un trouble simple compensé d'un état normal ou d'un trouble mixte."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'acide carbonique (H2CO3) dans le système tampon bicarbonate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est la forme acide du couple tampon.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est directement mesuré en gazométrie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sa concentration est proportionnelle à la PCO2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est régulé par le rein.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est la forme basique du couple tampon.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le couple acide carbonique / bicarbonate (H2CO3/HCO3-) est le principal système tampon. H2CO3 est la forme acide. Sa concentration est proportionnelle à la PCO2 (0,03 PCO2), qui est régulée par le poumon. Les bicarbonates (HCO3-) sont la forme basique et sont régulés par le rein."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,42, une PCO2 de 30 mmHg et des HCO3- de 18 mmol/L. Quelle est l'interprétation la plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose métabolique avec compensation respiratoire complète.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Alcalose respiratoire avec compensation métabolique complète.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Trouble mixte associant une alcalose respiratoire et une acidose métabolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pH est dans la normale, mais les autres paramètres sont anormaux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compensation est parfaite, ramenant le pH à la normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,42 est dans la normale. Cependant, la PCO2 est basse (30 mmHg) et les HCO3- sont bas (18 mmol/L). Une PCO2 basse tend vers une alcalose respiratoire, et des HCO3- bas tendent vers une acidose métabolique. Lorsque le pH est normal mais que les deux composantes (respiratoire et métabolique) sont anormales et varient dans des sens opposés, cela suggère un trouble mixte où une alcalose respiratoire et une acidose métabolique se compensent mutuellement, ramenant le pH dans la zone normale."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des bicarbonates (HCO3-) dans l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont la composante respiratoire de l'équilibre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont la composante métabolique de l'équilibre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont régulés principalement par le rein.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont consommés lors du tamponnement des acides.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont un acide volatil.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bicarbonates (HCO3-) sont la composante métabolique de l'équilibre acido-basique, régulée principalement par le rein. Ils sont consommés lors du tamponnement des acides. La PCO2 est la composante respiratoire et le CO2 est un acide volatil."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un pH de 7,38, une PCO2 de 50 mmHg et des HCO3- de 30 mmol/L. Quelle est l'interprétation la plus probable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acidose respiratoire chronique compensée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcalose métabolique avec compensation respiratoire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le pH est dans la normale, mais les deux composantes sont anormales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La PCO2 élevée est le trouble primaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compensation métabolique est complète.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pH de 7,38 est dans la normale, mais légèrement acidémique. La PCO2 de 50 mmHg est élevée, ce qui indique une acidose respiratoire. Les HCO3- de 30 mmol/L sont élevés, ce qui représente une compensation métabolique. Puisque le pH est presque normal malgré une PCO2 élevée, cela suggère une acidose respiratoire chronique où la compensation rénale a eu le temps de se mettre en place et est presque complète. Le trouble primaire est bien l'acidose respiratoire (PCO2 élevée)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent faire varier la valeur du trou anionique en dehors des acidoses métaboliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une variation de la concentration de l'albumine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une variation de la concentration des phosphates.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une variation de la concentration de Na+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une variation de la concentration de Cl-.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une variation de la concentration de HCO3-.",
+          "correct": true
+        }
+      ],
+      "explanation": "Bien que le texte ne le détaille pas explicitement, le calcul du TA ([Na+] - ([Cl-] + [HCO3-])) montre que des variations de Na+, Cl- et HCO3- affectent directement sa valeur. De plus, le texte mentionne les protéines (comme l'albumine) et les phosphates comme systèmes tampons, et ces anions non mesurés contribuent au TA. Donc, des variations de ces éléments peuvent influencer le TA. Le texte indique que le TA représente les anions non mesurés, et l'albumine est une protéine majeure contribuant à ces anions non mesurés. Les phosphates sont aussi des anions non mesurés. Les concentrations de Na+, Cl- et HCO3- sont directement dans la formule du TA."
+    }
+  ]
+}

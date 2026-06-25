@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-42",
+  "title": "Hyperthyroïdies",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la prévalence et la prédominance sexuelle de l'hyperthyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Prévalence de 0,02 à 0,2%, avec une prédominance masculine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Prévalence de 0,2 à 2%, avec une prédominance féminine (ratio 7/1).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Prévalence de 2 à 20%, avec une prédominance féminine (ratio 7/1).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Prévalence de 0,2 à 2%, avec une prédominance masculine (ratio 7/1).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Prévalence de 0,02 à 0,2%, avec une prédominance féminine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperthyroïdie a une prévalence élevée (0,2 à 2%) et une nette prédominance féminine (7/1)."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales hormones thyroïdiennes produites et leur forme active ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La thyroxine (T4) est majoritairement produite et est l'hormone active principale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. La tri-iodo-thyronine (T3) est majoritairement produite et est convertie en T4 active.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. La thyroxine (T4) est majoritairement produite (80%) et est convertie en tri-iodo-thyronine (T3), l'hormone active.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La tri-iodo-thyronine (T3) est majoritairement produite (80%) et est convertie en T4, l'hormone active.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La thyroglobuline est l'hormone active, convertie à partir de T4 et T3.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyroxine (T4) est majoritairement produite (80%) et est convertie en tri-iodo-thyronine (T3), qui est l'hormone active, principalement dans le foie et le muscle squelettique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal mécanisme de contrôle hypophysaire de la fonction thyroïdienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le contrôle est exercé par l'hormone de croissance (GH) via le récepteur GHR.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Le contrôle est exercé par la TSH via le récepteur membranaire TSHR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le contrôle est exercé par l'ACTH via le récepteur ACTHR.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le contrôle est exercé directement par l'hypothalamus sans intervention hypophysaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Le contrôle est exercé par la TSH via un récepteur nucléaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le contrôle hypophysaire de la thyroïde s'effectue par la TSH, via le récepteur membranaire TSHR."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les effets métaboliques généraux des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Diminution de la production de chaleur et d'énergie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Augmentation de la consommation d'O2 et du métabolisme de base.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Augmentation de la lipolyse et de la néoglucogenèse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Diminution de la glycogénolyse et de la néoglucogenèse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Diminution du remodelage osseux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes augmentent la production de chaleur et d'énergie, la consommation d'O2, le métabolisme de base, la lipolyse, la néoglucogenèse et la glycogénolyse (pouvant entraîner une hyperglycémie)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les effets cardiovasculaires des hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Vasoconstriction et diminution du débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Augmentation de l'inotropisme et du chronotropisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Augmentation des résistances périphériques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Vasodilatation et augmentation du débit cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Diminution de l'inotropisme et du chronotropisme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones thyroïdiennes entraînent une vasodilatation, une augmentation de l'inotropisme et du chronotropisme, une diminution des résistances périphériques, et par conséquent une augmentation du débit cardiaque."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les signes cardiovasculaires suivants, lesquels sont quasi-constants dans la thyrotoxicose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Bradycardie sinusale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Palpitations avec tachycardie sinusale, persistant au repos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Éréthisme cardiaque avec augmentation de l'intensité des bruits du cœur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Hypotension systolique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Pouls filant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cardiovasculaires quasi-constants incluent les palpitations avec tachycardie sinusale (exagérée à l'effort et aux émotions, persistant au repos) et l'éréthisme cardiaque (augmentation de l'intensité des bruits du cœur) avec parfois un souffle systolique de débit. Le pouls est vibrant et il y a une HTA systolique."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes neuro-psychiques fréquemment observés dans la thyrotoxicose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Léthargie et ralentissement psychomoteur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Nervosité excessive et agitation psychomotrice.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Tremblement fin et régulier des extrémités.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Amélioration de la qualité du sommeil.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Labilité de l'humeur.",
+          "correct": true
+        }
+      ],
+      "explanation": "La thyrotoxicose se manifeste par une nervosité excessive, une agitation psychomotrice, une labilité de l'humeur, un tremblement fin et régulier des extrémités (manœuvre du serment), une asthénie psychique et des troubles du sommeil."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'amaigrissement dans l'hyperthyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Amaigrissement rapide et important, avec appétit diminué (anorexie).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Amaigrissement rapide et important, avec appétit conservé ou augmenté (polyphagie).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Amaigrissement lent et progressif, sans modification de l'appétit.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Prise de poids paradoxale fréquente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Amaigrissement sans modification de la thermorégulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'amaigrissement est rapide, souvent important, et s'accompagne d'un appétit conservé ou augmenté (polyphagie). Une prise paradoxale de poids est rare et survient si la polyphagie est prédominante."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le dosage biologique de première intention pour confirmer le diagnostic d'hyperthyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Dosage de la T3-libre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Dosage de la T4-libre.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Dosage de la TSH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Dosage des Ac anti-TRAK.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Dosage de la thyroglobuline.",
+          "correct": false
+        }
+      ],
+      "explanation": "La TSH effondrée est la confirmation diagnostique de l'hyperthyroïdie et son dosage est le seul examen de première intention. L'élévation de la T4-libre (et éventuellement T3-libre) est dosée seulement si la TSH est anormale pour évaluer l'importance de la thyrotoxicose."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques de retentissement de l'hyperthyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Hypercholestérolémie et hypertriglycéridémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Leuconeutropénie avec lymphocytose relative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Hypocalcémie avec hypocalciurie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Cytolyse hépatique dans les formes sévères.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Hyperglycémie discrète ou aggravation d'un diabète associé.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes de retentissement incluent une leuconeutropénie avec lymphocytose relative, une cytolyse hépatique (dans les formes sévères), une hypocholestérolémie et hypotriglycéridémie, une hypercalcémie modérée avec hypercalciurie, et une hyperglycémie discrète ou l'aggravation d'un diabète associé."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cliniques du goitre dans la maladie de Basedow ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Goitre nodulaire, hétérogène et douloureux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Goitre diffus, homogène, élastique et vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Goitre compressif avec signes de dyspnée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Goitre avec souffle à l'auscultation et thrill.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Goitre indolore.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le goitre de Basedow est diffus, homogène, élastique, vasculaire (avec souffle à l'auscultation et thrill), indolore et non compressif."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'orbitopathie basedowienne, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est spécifique de la maladie de Basedow.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est directement reliée à la sévérité de la thyrotoxicose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est inconstante, retrouvée dans environ 50% des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Elle est plus fréquente chez les non-fumeurs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est toujours bilatérale et symétrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'orbitopathie est spécifique de la maladie de Basedow, mais n'est pas reliée à la thyrotoxicose. Elle est inconstante (50% des cas) et surtout retrouvée chez les fumeurs. L'exophtalmie est souvent asymétrique."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de l'orbitopathie basedowienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Rétraction palpébrale avec asynergie palpébrale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Exophtalmie bilatérale, souvent asymétrique et indolore.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Œdème palpébral pouvant masquer l'exophtalmie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Myosis et ptosis.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Absence de signes inflammatoires oculaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques incluent la rétraction palpébrale avec asynergie, des signes inflammatoires (hyperhémie conjonctivale, larmoiement, picotements, photophobie), une exophtalmie (bilatérale, souvent asymétrique, réductible, axile, indolore), un œdème palpébral et une ophtalmoplégie par atteinte musculaire (diplopie binoculaire)."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans le diagnostic étiologique de la maladie de Basedow, quelles sont les indications des examens complémentaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. La scintigraphie est toujours l'examen de première intention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Les Ac anti-TRAK sont indispensables pour le pronostic initial.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. En cas de tableau typique (femme jeune, goitre homogène, ophtalmopathie), les examens complémentaires ne sont pas indispensables.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La scintigraphie est l'examen de première intention si les Ac anti-TRAK sont négatifs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. L'échographie est l'examen de première intention pour confirmer le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de tableau typique (femme jeune, goitre homogène, ophtalmopathie), la réalisation d'examens complémentaires n'est pas indispensable pour le diagnostic étiologique. Les Ac anti-TRAK n'ont pas d'intérêt pour le pronostic initial. La scintigraphie est l'examen de première intention si les Ac anti-TRAK sont négatifs, montrant une hyperfixation diffuse et homogène. L'échographie est en seconde intention."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du goitre multinodulaire toxique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Il s'agit généralement d'un nodule unique hyperfixant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Il peut être déclenché par un apport massif d'iode.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'échographie révèle un goitre multinodulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La scintigraphie montre une hyperfixation diffuse et homogène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Il est plus fréquent chez les sujets jeunes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le goitre multinodulaire toxique est l'évolution naturelle d'un goitre multinodulaire ancien, parfois déclenché par un apport massif d'iode. L'examen clinique et l'échographie révèlent un goitre multinodulaire. La scintigraphie montre une alternance de plages chaudes et froides 'en damier'."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'adénome toxique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Il est généralement dû à une mutation somatique activatrice du récepteur de la TSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Il se présente cliniquement comme un goitre diffus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. L'échographie révèle un nodule unique, tissulaire ou partiellement kystique, hypervascularisé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La scintigraphie est indispensable et montre une hyperfixation nodulaire avec extinction du parenchyme sain.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Il est souvent associé à une orbitopathie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adénome toxique est généralement dû à une mutation somatique activatrice du récepteur de la TSH. Il se présente comme un nodule unique à l'examen clinique. L'échographie montre un nodule tissulaire ou partiellement kystique, hypervascularisé. La scintigraphie est indispensable et révèle une hyperfixation nodulaire avec extinction du parenchyme sain. Il n'est pas associé à une orbitopathie."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel antithyroïdien de synthèse (ATS) est privilégié au premier trimestre de la grossesse ou en cas de désir de conception ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Carbimazole.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Thiamazole.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Propylthiouracile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Benzylthiouracile.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Méthimazole.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le propylthiouracile est privilégié en première intention au premier trimestre de la grossesse ou en cas de désir de conception, en raison des risques de malformations associés au carbimazole."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le mécanisme d'action principal des antithyroïdiens de synthèse (ATS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Ils stimulent la sécrétion des hormones thyroïdiennes stockées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Ils bloquent la captation de l'iodure par la thyroïde.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Ils inhibent la synthèse hormonale par blocage de la thyroperoxydase (TPO).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Ils inhibent la conversion de T4 en T3 (spécifiquement le propylthiouracile).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Ils détruisent les thyréocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les ATS inhibent la synthèse hormonale par blocage de la TPO. Le propylthiouracile a en plus la particularité d'inhiber modérément la désiodase 1, bloquant la conversion de T4 en T3. Ils n'empêchent pas la sécrétion des hormones déjà stockées, d'où un délai d'efficacité de 10-15 jours."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures symptomatiques initiales recommandées pour la thyrotoxicose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Repos à domicile et arrêt de travail si nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Administration de sédatifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Administration de bêta-bloquants cardiosélectifs.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Administration de bêta-bloquants non cardiosélectifs (ex: propranolol).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Contraception efficace chez la femme en âge de procréer.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement symptomatique inclut le repos à domicile, des sédatifs, des bêta-bloquants non cardiosélectifs (comme le propranolol) pour leur action rapide sur la tachycardie et les tremblements, et une contraception efficace chez la femme en âge de procréer."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi la cardioversion est-elle contre-indiquée tant que l'hyperthyroïdie persiste en cas de troubles du rythme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Risque d'aggravation de l'insuffisance cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Risque de récidive du trouble du rythme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Risque d'hypotension sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Risque de crise aiguë thyrotoxique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Risque d'embolie pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cardioversion est contre-indiquée tant que l'hyperthyroïdie persiste en raison du risque élevé de récidive du trouble du rythme."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment est surveillée l'efficacité du traitement par antithyroïdiens de synthèse (ATS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Dosage de la TSH toutes les 4 semaines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Dosage de la T4-libre à 4 semaines (ou T3-libre si hyperthyroïdie à T3).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La TSH est un bon indicateur précoce de l'efficacité.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Dès l'euthyroïdie, dosage de T4-libre et TSH tous les 3-4 mois.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Dosage des Ac anti-TRAK toutes les 4 semaines.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'efficacité est surveillée par le dosage de la T4-libre à 4 semaines (ou T3-libre si hyperthyroïdie à T3). La TSH peut rester basse longtemps par inertie thyréotrope et n'est pas un bon indicateur précoce. Dès l'euthyroïdie, le dosage de T4-libre et TSH est effectué tous les 3-4 mois."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment est surveillée la tolérance au traitement par antithyroïdiens de synthèse (ATS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. NFS initiale de référence.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Surveillance de la NFS tous les 10 jours pendant 2 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. NFS uniquement en cas de signes infectieux.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Dosage des transaminases toutes les semaines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Surveillance de la NFS tous les mois pendant 6 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tolérance est surveillée par une NFS initiale de référence (car l'hyperthyroïdie peut causer une neutropénie modérée), puis une surveillance de la NFS tous les 10 jours pendant 2 mois. Une NFS est également indiquée en cas de fièvre élevée ou de signes infectieux (angine)."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la stratégie thérapeutique initiale pour la maladie de Basedow ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Traitement chirurgical d'emblée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Traitement médical par ATS pendant 12 à 18 mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Traitement par iode 131 en première intention.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. En cas de rechute, traitement radical chirurgical ou par iode 131.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Surveillance simple sans traitement spécifique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La stratégie initiale pour la maladie de Basedow est un traitement médical par ATS pendant 12 à 18 mois. En cas de rechute, un traitement radical chirurgical ou par iode 131 est envisagé. Un suivi prolongé est nécessaire en raison du risque de récidive ou d'hypothyroïdie."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la stratégie thérapeutique pour l'adénome et le goitre toxique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Traitement médical par ATS à long terme (plus de 2 ans).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Traitement médical pour obtenir l'euthyroïdie, suivi d'un traitement chirurgical ou par iode 131.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Traitement par iode 131 est toujours la première intention, quel que soit l'âge.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le risque d'hypothyroïdie est plus élevé qu'en cas de maladie de Basedow.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La chirurgie est contre-indiquée chez les personnes âgées.",
+          "correct": false
+        }
+      ],
+      "explanation": "La stratégie pour l'adénome et le goitre toxique consiste en un traitement médical pour obtenir l'euthyroïdie, suivi d'un traitement chirurgical (ou par iode 131 chez les personnes âgées). Le risque d'hypothyroïdie est moindre qu'en cas de maladie de Basedow."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'impact du traitement antithyroïdien sur l'orbitopathie basedowienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le traitement antithyroïdien est très efficace sur l'orbitopathie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. L'obtention de l'euthyroïdie (sans passage en hypothyroïdie) peut améliorer l'état orbitaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. L'IRA-thérapie est le traitement de première intention de l'orbitopathie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Le sevrage tabagique n'a pas d'impact sur l'évolution de l'orbitopathie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. L'hypothyroïdie améliore significativement l'orbitopathie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement antithyroïdien n'a aucune efficacité directe sur l'orbitopathie, mais l'obtention de l'euthyroïdie (sans passage en hypothyroïdie) peut améliorer l'état orbitaire. Le sevrage tabagique est crucial, et l'IRA-thérapie est susceptible d'aggraver l'orbitopathie."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque d'une orbitopathie maligne dans la maladie de Basedow ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Le tabagisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. L'utilisation d'iode radioactif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Le passage en hypothyroïdie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. L'âge jeune.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La présence d'un goitre diffus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque d'une orbitopathie maligne sont le tabagisme, l'utilisation d'iode radioactif et le passage en hypothyroïdie."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels signes cliniques sont caractéristiques d'une orbitopathie maligne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Exophtalmie importante et non réductible.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Lagophtalmie (inocclusion palpébrale) avec risque de kératite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Paralysie complète d'un ou plusieurs muscles oculomoteurs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Amélioration spontanée de l'acuité visuelle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hypotonie oculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'orbitopathie maligne se caractérise par une exophtalmie importante et non réductible, une lagophtalmie (inocclusion palpébrale) avec risque de kératite, ulcération cornéenne, perforation cornéenne et endophtalmie, une paralysie complète d'un ou plusieurs muscles oculomoteurs, une neuropathie optique par compression à l'apex orbitaire (avec BAV) et une hypertonie oculaire avec souffrance papillaire."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels examens paracliniques sont recommandés pour l'évaluation d'une orbitopathie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Examen ophtalmologique systématique avec mesure de l'AV, examen à la lampe à fente et FO.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Étude de l'oculomotricité et champ visuel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Mesure du tonus intra-oculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. IRM orbitaire ou scanner sans injection pour les formes importantes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Scintigraphie thyroïdienne pour évaluer l'inflammation orbitaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'évaluation comprend un examen ophtalmologique systématique (AV, lampe à fente, FO, oculomotricité, champ visuel, tonus intra-oculaire) et, pour les formes importantes, une IRM orbitaire ou un scanner sans injection pour mesurer la protrusion, l'hypertrophie musculaire/graisseuse et le risque de compression du nerf optique."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la thyroïdite du post-partum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle survient chez 5% des femmes après l'accouchement ou sous interféron.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle se manifeste par une hyperthyroïdie transitoire avec scintigraphie 'blanche'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est suivie d'une hypothyroïdie transitoire, parfois définitive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La biologie montre des Ac anti-TRAK très positifs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Elle est toujours symptomatique et facilement diagnostiquée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyroïdite du post-partum est une thyroïdite 'silencieuse' survenant chez 5% des femmes après l'accouchement ou sous interféron. Elle se caractérise par une hyperthyroïdie transitoire avec une scintigraphie 'blanche' (lyse initiale des thyréocytes) et est suivie d'une hypothyroïdie transitoire (parfois définitive). La biologie montre des Ac anti-TPO très positifs, sans Ac anti-TRAK. Elle est souvent inaperçue."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la thyroïdite de Hashimoto lorsqu'elle est responsable d'une hyperthyroïdie initiale ('hashitoxicose') ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Goitre diffus et élastique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Goitre irrégulier et très ferme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Échographie avec aspect hypoéchogène hétérogène et pseudo-nodulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Scintigraphie avec fixation faible et hétérogène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Biologie avec Ac anti-TRAK très positifs.",
+          "correct": false
+        }
+      ],
+      "explanation": "La 'hashitoxicose' se caractérise par un goitre irrégulier et très ferme. L'échographie montre un aspect hypoéchogène hétérogène et pseudo-nodulaire. La scintigraphie révèle une fixation faible et hétérogène. La biologie montre des Ac anti-TPO très positifs, sans Ac anti-TRAK."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hyperthyroïdie iatrogène de Type 1 (fonctionnel) due à une surcharge iodée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est due à un effet toxique direct de l'iode sur les thyréocytes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elle survient sur un nodule thyroïdien préexistant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La thyroïde est dystrophique et hypervascularisée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La scintigraphie est 'blanche' (absence totale de fixation).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. La biologie montre une thyroglobuline effondrée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Type 1 (fonctionnel) est un apport brutal d'iode sur un nodule thyroïdien préexistant. La thyroïde est dystrophique, hypervascularisée, avec hyperfixation des zones actives. Le Type 2 (lésionnel) est dû à un effet toxique de l'iode sur les thyréocytes, avec scintigraphie 'blanche' et thyroglobuline élevée."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hyperthyroïdie iatrogène de Type 2 (lésionnel) due à une surcharge iodée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est due à un apport brutal d'iode sur un nodule préexistant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Elle résulte d'un effet toxique de l'iode sur les thyréocytes, entraînant une lyse cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. La glande thyroïde a un aspect clinique normal et est hypoéchogène homogène à l'échographie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. La scintigraphie est 'blanche' (absence totale de fixation).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. La biologie montre une thyroglobuline effondrée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Type 2 (lésionnel) est dû à un effet toxique de l'iode sur les thyréocytes, à l'origine d'une lyse cellulaire. La thyroïde a un aspect clinique normal, est hypoéchogène homogène à l'échographie, et la scintigraphie est 'blanche'. La biologie montre une augmentation de l'iodurie/24h, une dissociation T4/T3 et une augmentation de la thyroglobuline."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels éléments orientent vers une thyrotoxicose factice par prise cachée d'hormones thyroïdiennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Contexte psychologique particulier (ex: but d'amaigrissement).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Présence d'un goitre diffus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Scintigraphie 'blanche'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Thyroglobuline effondrée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. TSH élevée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyrotoxicose factice est suspectée dans un contexte psychologique particulier (prise cachée d'hormones thyroïdiennes à but d'amaigrissement), en l'absence de goitre, avec une scintigraphie 'blanche' et une thyroglobuline effondrée. La TSH est effondrée comme dans toute hyperthyroïdie périphérique."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la thyroïdite subaiguë de De Quervain ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Affection d'origine bactérienne.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Syndrome pseudo-grippal avec fièvre, asthénie et augmentation de la VS/CRP.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Goitre dur et douloureux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Phase initiale d'hyperthyroïdie suivie d'une phase d'hypothyroïdie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Scintigraphie avec hyperfixation diffuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyroïdite subaiguë de De Quervain est d'origine virale. Elle se manifeste par un syndrome pseudo-grippal (fièvre, asthénie, augmentation VS/CRP), un goitre dur et douloureux. Elle présente une phase initiale d'hyperthyroïdie (par lyse cellulaire) suivie d'une phase d'hypothyroïdie. L'imagerie montre un aspect hypoéchogène à l'échographie et une scintigraphie 'blanche'. La récupération se fait en 2 à 3 mois."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la thyrotoxicose gestationnelle transitoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Elle est due à un effet stimulant de l'hCG sur le récepteur de la TSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Elle est révélée au 1er trimestre par nervosité excessive et tachycardie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Elle est toujours associée à une prise de poids importante.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Les formes sévères peuvent entraîner des vomissements (hyperemesis gravidarum).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Elle nécessite un traitement antithyroïdien prolongé.",
+          "correct": false
+        }
+      ],
+      "explanation": "La thyrotoxicose gestationnelle transitoire est due à l'effet stimulant de l'hCG sur le récepteur de la TSH. Elle est révélée au 1er trimestre par nervosité excessive, tachycardie et absence de prise de poids. Les formes sévères peuvent entraîner des vomissements (hyperemesis gravidarum). Elle régresse spontanément au 2nd trimestre et ne nécessite pas de traitement antithyroïdien prolongé."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes périphériques rares d'hyperthyroïdie mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Mutation germinale activatrice du récepteur de la TSH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Adénome hypophysaire thyréotrope.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Métastase massive sécrétante d'un cancer thyroïdien vésiculaire différencié.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Tumeur sécrétant de l'hCG (môle hydatiforme ou testiculaire).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Résistance aux hormones thyroïdiennes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes périphériques rares incluent la mutation germinale activatrice du récepteur de la TSH, les métastases massives sécrétantes d'un cancer thyroïdien vésiculaire différencié, et les tumeurs sécrétant de l'hCG (placentaire comme la môle hydatiforme ou testiculaire). L'adénome hypophysaire thyréotrope et la résistance aux hormones thyroïdiennes sont des causes centrales."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes centrales d'hyperthyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Mutation germinale activatrice du récepteur de la TSH.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Syndrome de résistance aux hormones thyroïdiennes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Adénome hypophysaire thyréotrope.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Thyrotoxicose factice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Goitre multinodulaire toxique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes centrales d'hyperthyroïdie se caractérisent par une TSH inadaptée (normale ou élevée) et incluent le syndrome de résistance aux hormones thyroïdiennes (mutation du récepteur β) et l'adénome hypophysaire thyréotrope."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations de l'hyperthyroïdie chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Retard statural et de maturation osseuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Avance staturale et de maturation osseuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Hypoactivité.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Hyperactivité.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Goitre toujours absent.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez l'enfant, l'hyperthyroïdie se manifeste par une avance staturale et de maturation osseuse, ainsi qu'une hyperactivité."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de l'hyperthyroïdie chez la personne âgée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Évolution à bas bruit (forme apathique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Altération de l'état général sévère, fonte musculaire massive et cachexie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Insuffisance cardiaque possible même pour une thyrotoxicose minime.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Absence de cardiothyréose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hyperactivité et nervosité prédominantes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez la personne âgée, l'hyperthyroïdie peut évoluer à bas bruit (forme apathique), avec une altération de l'état général sévère, une fonte musculaire massive, une cachexie et une insuffisance cardiaque. Une cardiothyréose est possible même pour une thyrotoxicose minime et peu symptomatique."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations une hospitalisation est-elle indiquée pour un patient atteint d'hyperthyroïdie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Crise aiguë thyrotoxique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Cardiothyréose chez un sujet âgé ou insuffisant cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Orbitopathie maligne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Forme cachectisante du sujet âgé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Maladie de Basedow évolutive chez une femme enceinte.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hospitalisation est indiquée en cas de crise aiguë thyrotoxique, de cardiothyréose chez un sujet âgé ou insuffisant cardiaque, d'orbitopathie maligne, de forme cachectisante du sujet âgé, ou de maladie de Basedow évolutive chez une femme enceinte."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures thérapeutiques à mettre en œuvre en cas de crise aiguë thyrotoxique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Hospitalisation en USI avec mesures générales de réanimation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Antithyroïdiens de synthèse à forte dose par sonde gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Bêta-bloquant IV (propranolol) et corticoïdes IV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Administration d'iode (Lugol) à forte dose après 24h d'ATS.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Échanges plasmatiques en première intention, avant tout autre traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "La crise aiguë thyrotoxique nécessite une hospitalisation en USI avec réanimation, des ATS à forte dose par sonde gastrique, un bêta-bloquant IV (propranolol) et des corticoïdes IV, voire des échanges plasmatiques. L'iode (Lugol) est administré à forte dose après 24h d'ATS pour inhiber la sécrétion des hormones thyroïdiennes."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets secondaires des antithyroïdiens de synthèse (ATS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Allergie cutanée, possiblement croisée entre les molécules.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Cytolyse hépatique ou hépatite toxique, notamment sous propylthiouracile.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Neutropénie voire agranulocytose immuno-allergique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Hyperglycémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Hypercholestérolémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets secondaires des ATS incluent l'allergie cutanée (possiblement croisée), la cytolyse hépatique ou hépatite toxique (notamment sous propylthiouracile), et la neutropénie voire agranulocytose immuno-allergique."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la conduite à tenir en cas de neutropénie sévère (PNN < 0,5 G/L) sous ATS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Diminution de la dose d'ATS et surveillance rapprochée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Arrêt des ATS et suivi ambulatoire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C. Hospitalisation et arrêt définitif des ATS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Antibiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Administration de G-CSF (facteur de croissance des granulocytes).",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de PNN < 0,5 G/L, il faut hospitaliser le patient, arrêter définitivement les ATS, instaurer une antibiothérapie et éventuellement administrer du G-CSF. Si PNN < 1 G/L, l'arrêt des ATS et un suivi suffisent."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la préparation médicale requise avant une thyroïdectomie totale pour une maladie de Basedow ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Administration d'iode radioactif 2 mois avant l'intervention.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. Traitement par ATS pendant 2 à 3 mois pour éviter une crise toxique post-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Administration de corticoïdes à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "D. Aucune préparation spécifique n'est nécessaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Traitement par bêta-bloquants seuls.",
+          "correct": false
+        }
+      ],
+      "explanation": "Avant une thyroïdectomie totale pour maladie de Basedow, un traitement par ATS est nécessaire pendant 2 à 3 mois pour obtenir l'euthyroïdie et éviter une crise toxique post-opératoire."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications absolues au traitement par iode 131 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Grossesse ou projet de grossesse dans les 4-6 mois.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Allaitement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Nodule thyroïdien suspect.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Incapacité du patient à suivre les règles de radioprotection.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Goitre compressif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications absolues sont la grossesse ou un projet de grossesse dans les 4-6 mois (nécessite dosage β-hCG et contraception efficace pendant 6 mois chez la femme), l'allaitement, un nodule thyroïdien suspect et l'incapacité du patient à suivre les règles de radioprotection. Le goitre compressif est une contre-indication relative."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications relatives au traitement par iode 131 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Incontinence urinaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Dialyse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Goitre compressif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Orbitopathie sévère ou active.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Projet de grossesse dans les 4-6 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications relatives incluent l'incontinence urinaire, la dialyse, le goitre compressif, l'orbitopathie sévère ou active, et un projet de grossesse dans les 2 ans (car l'iode 131 peut augmenter le taux d'Ac anti-TRAK)."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prise en charge d'une orbitopathie basedowienne simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Sevrage tabagique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Administration de sélénium par voie orale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Utilisation de larmes artificielles et verres teintés.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Dormir la tête surélevée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Corticothérapie à forte dose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une orbitopathie simple, les mesures incluent le sevrage tabagique, le sélénium par voie orale, les larmes artificielles, les verres teintés et dormir la tête surélevée. La corticothérapie à forte dose est réservée aux formes malignes."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques pour une orbitopathie maligne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Corticothérapie à forte dose (1-2 mg/kg) ± bolus IV en première intention.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Radiothérapie orbitaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Chirurgie de décompression orbitaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Chirurgie plastique et reconstructrice en cas de séquelles, à distance.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Traitement par ATS seul.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'orbitopathie maligne est traitée par corticothérapie à forte dose (1-2 mg/kg) ± bolus IV en première intention. D'autres options incluent la radiothérapie orbitaire, la ciclosporine ou le rituximab si contre-indication aux corticoïdes, la chirurgie de décompression orbitaire, et la chirurgie plastique et reconstructrice pour les séquelles à distance."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques pour le fœtus et le nouveau-né en cas de maladie de Basedow chez la mère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Risque d'hyperthyroïdie fœtale et néonatale par passage transplacentaire des Ac anti-TRAK.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "B. Risque d'hypothyroïdie fœtale par passage transplacentaire des ATS.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Risque de goitre fœtal par passage transplacentaire des ATS.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Risque de malformations fœtales sous propylthiouracile.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "E. Risque d'aplasie du scalp sous carbimazole.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le passage transplacentaire des Ac anti-TRAK peut entraîner une hyperthyroïdie fœtale et néonatale, ou parfois une hypothyroïdie. Le passage transplacentaire des ATS peut causer un goitre et une hypothyroïdie fœtale. Le carbimazole est associé à un risque d'aplasie du scalp, de malformation œsophagienne et des choanes."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prise en charge d'une forme sévère de maladie de Basedow chez la femme enceinte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A. Repos sous surveillance étroite en attendant une rémission spontanée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "B. ATS à faible dose, avec un objectif de T4-libre à la limite supérieure de la normale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C. Privilégier le propylthiouracile en début de grossesse (1er trimestre).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "D. Thyroïdectomie au 2nd trimestre après préparation médicale (exceptionnelle).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "E. Utilisation de carbimazole à forte dose tout au long de la grossesse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une forme sévère, on utilise des ATS à faible dose avec un objectif de T4-libre à la limite supérieure de la normale. Le propylthiouracile est privilégié au 1er trimestre. Une thyroïdectomie au 2nd trimestre après préparation médicale est une option exceptionnelle pour les formes graves. Le repos est pour les formes mineures. Le carbimazole est à éviter au 1er trimestre et à utiliser à la dose la plus faible possible ensuite."
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-9",
+  "title": "États de choc",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition principale d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une défaillance circulatoire sans atteinte de l'oxygénation tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une inadéquation entre l'apport et les besoins tissulaires périphériques en oxygène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du débit cardiaque avec une diminution des pressions de remplissage.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une diminution du volume intravasculaire sans impact sur le débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une altération isolée de la redistribution des débits régionaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'état de choc est défini comme une défaillance du système circulatoire aboutissant à une inadéquation entre l’apport et les besoins tissulaires périphériques en oxygène."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux mécanismes adaptatifs mis en jeu lors d'un état de choc pour préserver les apports tissulaires en oxygène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation du système nerveux parasympathique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Vasodilatation artérielle périphérique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Activation du système nerveux sympathique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhibition des systèmes neuro-hormonaux agissant sur la volémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de l'extraction périphérique de l'oxygène (ERO2).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mécanismes adaptatifs incluent l'activation du système nerveux sympathique (vasoconstriction artérielle et veineuse) et l'augmentation de l'extraction périphérique de l'O2 (ERO2) pour préserver les apports tissulaires en O2."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique hémodynamique principale du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution du débit cardiaque avec diminution des pressions de remplissage.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du volume intravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Défaillance de la pompe cardiaque entraînant une diminution du débit cardiaque et une augmentation des pressions de remplissage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasodilatation périphérique majeure.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Obstacle au remplissage ou à l'éjection du cœur.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc cardiogénique est une défaillance de la pompe cardiaque, caractérisée par une diminution du débit cardiaque et une augmentation des pressions de remplissage."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les situations suivantes, laquelle peut entraîner un choc hypovolémique absolu ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pancréatite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une embolie pulmonaire massive.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hémorragie importante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une section médullaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une tamponnade cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypovolémie absolue est causée par une diminution réelle du volume intravasculaire, comme une hémorragie, des pertes digestives importantes ou des brûlures étendues."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques cutanés fréquemment observés lors d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Érythème diffus et chaleur des extrémités.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Marbrures et extrémités froides.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pâleur cutanéo-muqueuse et allongement du temps de recoloration capillaire (TRC) > 3 secondes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Urticaire généralisée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Cyanose des extrémités et vasodilatation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cutanés de choc incluent les marbrures, les extrémités froides, pâles ou cyanosées, et l'allongement du TRC > 3 secondes."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment le transport artériel en oxygène (TaO2) est-il calculé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TaO2 = Contenu artériel en O2 (CaO2) / Débit cardiaque (Q).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TaO2 = 1,34 x [Hb] x SaO2.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "TaO2 = CaO2 x Q.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "TaO2 = Consommation d'O2 (VO2) x Différence artério-veineuse en O2 (DAV).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "TaO2 = Saturation veineuse en O2 (SvO2) - Saturation artérielle en O2 (SaO2).",
+          "correct": false
+        }
+      ],
+      "explanation": "Le transport artériel en oxygène (TaO2) est le produit du contenu artériel en O2 (CaO2) et du débit cardiaque (Q), soit TaO2 = CaO2 x Q."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences cellulaires lorsque les mécanismes adaptatifs de l'état de choc sont dépassés et que le TaO2 atteint un seuil critique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La VO2 devient indépendante du TaO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dysoxie cellulaire apparaît.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le métabolisme cellulaire devient anaérobique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la production de lactates est observée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation linéaire de la VO2 par rapport au TaO2.",
+          "correct": true
+        }
+      ],
+      "explanation": "Lorsque les mécanismes adaptatifs sont dépassés, la VO2 devient linéairement dépendante du TaO2, entraînant une dysoxie cellulaire et un métabolisme cellulaire anaérobique avec production de lactates."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes mécaniques pouvant entraîner un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une myocardite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une insuffisance mitrale aiguë (ischémique, endocardite, rupture de cordage).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une rupture septale ischémique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une intoxication médicamenteuse par agent inotrope négatif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une insuffisance aortique aiguë (endocardite, dissection aortique).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes mécaniques de choc cardiogénique incluent l'insuffisance mitrale aiguë, l'insuffisance aortique aiguë, la rupture septale ischémique, et un thrombus ou une tumeur intra-cavitaire."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques physiopathologiques du choc distributif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution du débit cardiaque secondaire à une diminution du retour veineux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Altération de la redistribution des débits régionaux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la perméabilité capillaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vasoconstriction périphérique responsable d'une hypovolémie vraie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de l'extraction tissulaire en oxygène.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le choc distributif est caractérisé par une altération de la redistribution des débits régionaux, une diminution de l'extraction tissulaire en oxygène, une augmentation de la perméabilité capillaire et une vasodilatation périphérique responsable d'une hypovolémie relative."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de choc obstructif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un choc anaphylactique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une tamponnade cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une embolie pulmonaire massive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un pneumothorax compressif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une pancréatite aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de choc obstructif sont un obstacle au remplissage ou à l'éjection du cœur, comme la tamponnade cardiaque, le pneumothorax compressif et l'embolie pulmonaire massive."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'hypotension artérielle définissant un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression Artérielle Systolique (PAS) < 120 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Baisse de la PAS > 20 mmHg par rapport à la valeur habituelle.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "PAS < 90 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pression Artérielle Moyenne (PAM) < 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pression Artérielle Diastolique (PAD) < 40 mmHg.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypotension artérielle est définie par une PAS < 90 mmHg (ou baisse > 40 mmHg), et/ou une PAM < 65 mmHg, et/ou une PAD < 40 mmHg."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle information peut être déduite de la palpation des pouls périphériques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La perception du pouls radial témoigne d'une PAS > 50 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La perception du pouls fémoral témoigne d'une PAS > 80 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La perception du pouls carotidien témoigne d'une PAS > 50 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence de pouls radial indique toujours une PAS < 80 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La perception du pouls radial témoigne d'une PAS > 80 mmHg.",
+          "correct": true
+        }
+      ],
+      "explanation": "La perception du pouls radial témoigne d'une PAS > 80 mmHg. La perception du pouls fémoral ou carotidien témoigne d'une PAS > 50 mmHg."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques évocateurs d'un choc obstructif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes d'insuffisance respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signes d'insuffisance cardiaque gauche aiguë.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Turgescence jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pouls paradoxal de Kussmaul.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleur thoracique typique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau du choc obstructif est dominé par des signes respiratoires (dyspnée, cyanose) et d'insuffisance cardiaque droite aiguë (turgescence jugulaire principalement), ainsi que le pouls paradoxal de Kussmaul."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan paraclinique indispensable à réaliser en cas d'état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NFS, ionogramme, urée, créatininémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan d'hémostase (TP, TCA, fibrinogène).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lactates plasmatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémocultures (2 paires).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Uniquement l'échographie cardiaque pour affirmer le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan indispensable comprend NFS, ionogramme, urée, créatininémie, CRP, PCT, bilan d'hémostase, lactates plasmatiques, GDS artériels, bilan hépatique, LDH, CPK, troponine, bilan pré-transfusionnel, hémocultures, RP, ECG et β-hCG."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'intérêt de l'échographie cardiaque dans la prise en charge d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est l'examen de référence pour affirmer le diagnostic d'état de choc.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle permet d'évaluer la fonction ventriculaire gauche systolique et diastolique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle aide au diagnostic étiologique du choc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle permet de mesurer le débit cardiaque et les pressions de remplissage du VG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est utile uniquement pour rechercher un épanchement péricardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie cardiaque est l'examen de référence pour l'évaluation hémodynamique. Elle aide au diagnostic étiologique, évalue la fonction ventriculaire gauche, la cinétique segmentaire, le débit cardiaque, les pressions de remplissage du VG, la volémie, les pressions artérielles pulmonaires et les anomalies valvulaires."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications neurologiques et cardiaques possibles d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome confusionnel et agitation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Angoisse et coma.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infarctus myocardique et sidération myocardique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Trouble du rythme et arrêt cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypertension artérielle et bradycardie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications cérébrales incluent le syndrome confusionnel, l'angoisse, l'agitation, les troubles de conscience jusqu'au coma. Les complications cardiaques sont l'infarctus myocardique, la sidération myocardique, les troubles du rythme et l'arrêt cardiaque."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la ventilation mécanique par intubation orotrachéale en cas d'état de choc sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence d'une polypnée superficielle isolée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance respiratoire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nécessité de sédation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Trouble de la conscience.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypercapnie isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ventilation mécanique par intubation orotrachéale est indiquée en cas d'insuffisance respiratoire aiguë, de nécessité de sédation ou de trouble de la conscience."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions pour réaliser une épreuve de remplissage vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En présence de signes congestifs clinico-radiologiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En l'absence de signes congestifs clinico-radiologiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Avec 1 litre de soluté de remplissage.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sur 30 minutes en débit libre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Avec 500 mL de soluté de remplissage.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'épreuve de remplissage se fait en l'absence de signes congestifs clinico-radiologiques, avec 500 mL de soluté de remplissage (essentiellement cristalloïdes) sur 10 à 20 minutes en débit libre par voie IV."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les inconvénients des cristalloïdes comme solutés de remplissage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pouvoir d'expansion volémique élevé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diffusion lente dans le secteur interstitiel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un risque d'acidose hyperchlorémique avec le soluté salé isotonique (SSI).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un coût élevé.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un faible pouvoir d'expansion volémique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les inconvénients des cristalloïdes sont leur faible pouvoir d'expansion volémique (diffusion rapide dans le secteur interstitiel) et le risque d'acidose hyperchlorémique avec le SSI."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les avantages des colloïdes par rapport aux cristalloïdes pour le remplissage vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un coût plus faible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un risque allergique nul.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un meilleur pouvoir d'expansion volémique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une toxicité rénale moindre pour les hydroxyléthylamidons.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diffusion plus rapide vers le secteur interstitiel.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'avantage des colloïdes est un meilleur pouvoir d'expansion volémique, car les molécules en suspension freinent le passage vers le secteur interstitiel."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est l'indication principale de la noradrénaline parmi les catécholamines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc cardiogénique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Choc anaphylactique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Choc septique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bradycardie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Choc hypovolémique persistant.",
+          "correct": true
+        }
+      ],
+      "explanation": "La noradrénaline a un effet vasoconstricteur marqué et est principalement indiquée dans le choc septique et le choc hypovolémique persistant, ainsi que le choc hémorragique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour l'introduction d'un traitement par catécholamines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un état de choc persistant malgré un remplissage bien conduit (> 30 ml/kg chez l'adulte sur < 1h).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un choc cardiogénique avec signes congestifs, sans remplissage vasculaire préalable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un choc anaphylactique, avec administration d'adrénaline d'emblée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un choc hypovolémique persistant.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un choc hémorragique en attente de délivrance de PSL.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications incluent un état de choc persistant malgré un remplissage bien conduit (> 30 ml/kg chez l'adulte sur < 1h), un choc cardiogénique avec signes congestifs (inotrope d'emblée), un choc anaphylactique (adrénaline d'emblée), un choc hypovolémique persistant et un choc hémorragique en attente de PSL."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les avantages de la pose d'un cathéter artériel dans la prise en charge d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il sécurise l'administration des catécholamines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il permet un monitorage précis et continu de la pression artérielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il limite la veinotoxicité des catécholamines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il permet la réalisation de prélèvements artériels répétés.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est indispensable pour le remplissage vasculaire initial.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pose d'un cathéter artériel est recommandée (surtout en cas de traitement par catécholamines) pour un monitorage précis continu de la pression artérielle et la réalisation de prélèvements artériels répétés."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de décompensation d'une insuffisance cardiaque liées à une augmentation de la post-charge ou une altération systolique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un régime trop salé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une poussée hypertensive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une poussée ischémique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'arrêt d'un traitement cardiologique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hyperthyroïdie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes de décompensation liées à l'augmentation de la post-charge sont la poussée hypertensive. Celles liées à l'altération systolique sont la poussée ischémique, les β-bloquants, le sepsis, la myocardite et l'arrêt de traitement cardiologique."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques 'droits' pouvant être observés lors d'un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée et œdème pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Turgescence jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Reflux hépato-jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hépatomégalie douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Râles crépitants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes 'droits' incluent la turgescence jugulaire, le reflux hépato-jugulaire, l'hépatomégalie douloureuse, le pouls paradoxal et un souffle systolique d'IT (renforcé à l'inspiration profonde)."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le tableau physiopathologique, quelles sont les caractéristiques hémodynamiques typiques d'un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Index cardiaque (IC) diminué.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression artérielle pulmonaire d'occlusion (PAPO) augmentée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résistances vasculaires systémiques (RVS) augmentées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Différence artério-veineuse en O2 (DAVO2) augmentée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pression de l'oreillette droite (POD) diminuée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans le choc cardiogénique, l'IC est diminué, la POD est augmentée, la PAPO est augmentée, les RVS sont augmentées et la DAVO2 est augmentée."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le tableau physiopathologique, quelles sont les caractéristiques hémodynamiques typiques d'un choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Index cardiaque (IC) augmenté, normal ou diminué.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression de l'oreillette droite (POD) normale ou diminuée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résistances vasculaires systémiques (RVS) diminuées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Différence artério-veineuse en O2 (DAVO2) diminuée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pression artérielle pulmonaire d'occlusion (PAPO) augmentée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans le choc septique, l'IC est augmenté, normal ou diminué, la POD est normale ou diminuée, la PAPO est normale ou diminuée, les RVS sont diminuées et la DAVO2 est diminuée."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le tableau physiopathologique, quelles sont les caractéristiques hémodynamiques typiques d'un choc hypovolémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Index cardiaque (IC) diminué.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression de l'oreillette droite (POD) diminuée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pression artérielle pulmonaire d'occlusion (PAPO) diminuée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résistances vasculaires systémiques (RVS) augmentées.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Différence artério-veineuse en O2 (DAVO2) diminuée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans le choc hypovolémique, l'IC est diminué, la POD est diminuée, la PAPO est diminuée, les RVS sont augmentées et la DAVO2 est augmentée."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon le tableau physiopathologique, quelles sont les caractéristiques hémodynamiques typiques d'un choc obstructif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Index cardiaque (IC) diminué.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression de l'oreillette droite (POD) augmentée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pression artérielle pulmonaire d'occlusion (PAPO) augmentée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résistances vasculaires systémiques (RVS) normales ou augmentées.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Différence artério-veineuse en O2 (DAVO2) diminuée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans le choc obstructif, l'IC est diminué, la POD est augmentée, la PAPO est augmentée, les RVS sont normales ou augmentées et la DAVO2 est augmentée."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications hépatiques et de la coagulation pouvant survenir lors d'un état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ictère par hyperbilirubinémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cytolyse hépatique avec augmentation des ASAT/ALAT.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des facteurs de coagulation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Saignement diffus en nappe et purpura.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Thrombopénie et allongement du TCA.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications hépatiques (foie de choc) incluent l'ictère (hyperbilirubinémie) et la cytolyse hépatique (& ASAT/ALAT), ainsi qu'une baisse des facteurs de coagulation et une hypoalbuminémie. Les coagulopathies se manifestent par un saignement diffus en nappe, purpura, ischémie des extrémités, thrombopénie, & TCA > 60s, ( TP < 50%, ( facteurs de coagulation (> 30%)."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques spécifiques associés à l'utilisation de l'adrénaline comme catécholamine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque important de troubles du rythme cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Risque d'hyperlactatémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque d'hypokaliémie de transfert.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Effet inotrope négatif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Effet bronchodilatateur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adrénaline présente un risque d'hyperlactatémie et d'hypokaliémie de transfert (activation des pompes Na/K-ATPase sous la dépendance des récepteurs β2). La dopamine est associée à un risque important de troubles du rythme cardiaque."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets principaux de la dobutamine et de l'isoprénaline sur les récepteurs adrénergiques et leurs indications principales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dobutamine a un effet inotrope marqué et est indiquée dans le choc cardiogénique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dobutamine stimule principalement les récepteurs α1.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'isoprénaline a un effet chronotrope et est indiquée en cas de bradycardie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'isoprénaline stimule principalement les récepteurs α1.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La dobutamine et l'isoprénaline ont un effet vasoconstricteur marqué.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dobutamine stimule principalement les récepteurs β1 (+++) et β2 (++), avec un effet inotrope marqué, et est indiquée dans le choc cardiogénique. L'isoprénaline stimule principalement les récepteurs β1 (+++) et β2 (+++), avec un effet chronotrope, et est indiquée en cas de bradycardie."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques et les risques de la voie fémorale pour la pose d'une voie veineuse centrale (VVC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accès difficile en urgence.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Risque infectieux élevé (+++).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque de pneumothorax/hémothorax.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Impossibilité de compression mécanique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie fémorale offre un accès facile en urgence, mais présente un risque infectieux élevé (+++) et un risque hémorragique."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques et les risques de la voie sous-clavière pour la pose d'une voie veineuse centrale (VVC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque infectieux faible (+).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Risque hémorragique important.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Impossibilité de compression mécanique en cas d'hémorragie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque de pneumothorax/hémothorax.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Accès facile en urgence.",
+          "correct": false
+        }
+      ],
+      "explanation": "La voie sous-clavière présente un risque infectieux faible (+), mais un risque hémorragique important avec impossibilité de compression mécanique, et un risque de pneumothorax/hémothorax."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères hémodynamiques définissant un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression Artérielle Systolique (PAS) < 90 mmHg ou diminution > 40%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Index cardiaque (IC) < 2,2 L/min/m2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pression artérielle pulmonaire d'occlusion (PAPO) > 15 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résistances artérielles périphériques toujours augmentées.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Débit cardiaque augmenté.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères hémodynamiques du choc cardiogénique sont une PAS < 90 mmHg ou une diminution > 40%, un bas débit cardiaque (IC < 2,2 L/min/m2) et une PAPO > 15 mmHg."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel contexte les résistances artérielles périphériques peuvent-elles être basses lors d'un choc cardiogénique, alors qu'elles sont typiquement augmentées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'insuffisance mitrale aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lors d'une phase hyperkinétique initiale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de décompensation d'une cardiopathie dilatée terminale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas d'intense réaction inflammatoire, notamment dans la phase aiguë du choc cardiogénique de l'IDM.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lors d'un IDM du ventricule droit.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les résistances artérielles périphériques sont typiquement augmentées dans le choc cardiogénique, mais peuvent être basses en cas d'intense réaction inflammatoire, comme dans la phase aiguë du choc cardiogénique de l'IDM."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications mécaniques d'un infarctus du myocarde pouvant entraîner un choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une insuffisance mitrale par ischémie ou rupture de pilier.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une rupture septale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une rupture de paroi libre avec tamponnade.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une extension de l'IDM au ventricule droit.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une myocardite fulminante.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications mécaniques d'un IDM incluent l'insuffisance mitrale (ischémie ou rupture de pilier), la rupture septale et la rupture de paroi libre avec tamponnade."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques et électrocardiographiques d'un IDM du ventricule droit ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signes d'insuffisance cardiaque gauche prédominants.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Absence d'œdème pulmonaire (sauf IDM massif du VG associé).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysfonction systolique et dilatation du VD à l'échographie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sus-décalage ST précordial droit (V3R et V4R) à l'ECG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tamponnade cardiaque à l'échographie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IDM du ventricule droit se manifeste par des signes d'insuffisance cardiaque droite, sans OAP (sauf IDM massif du VG associé). L'ECG montre un sus-décalage ST précordial droit (V3R et V4R) et l'ETT une dysfonction systolique et dilatation du VD sans tamponnade."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome de Tako-Tsubo ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysfonction contractile de la pointe du ventricule.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aspect échographique de ballonisation ventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyper-contractilité des segments basaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présentation électrique typique de syndrome coronarien aigu (SCA).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Préférentiellement chez les hommes jeunes après un effort intense.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Tako-Tsubo est une dysfonction contractile de la pointe du ventricule avec un aspect échographique de ballonisation ventriculaire et d'hyper-contractilité des segments basaux. La présentation électrique est typique de SCA, préférentiellement chez les femmes ménopausées, dans les suites immédiates d'un stress intense, d'évolution favorable."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la contre-indication formelle concernant le remplissage vasculaire dans le traitement du choc cardiogénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez un patient hypotendu sans signes d'OAP.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez un patient hypertendu sans signes d'OAP.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Chez un patient présentant des signes cliniques d'OAP, qu'il soit hypotendu ou hypertendu.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement chez les patients sous β-bloquants.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Lorsque l'index cardiaque est inférieur à 2,2 L/min/m2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe une contre-indication formelle au remplissage chez un patient hypotendu ou hypertendu présentant des signes cliniques d'OAP."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques pour un choc cardiogénique réfractaire aux thérapeutiques usuelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation des doses de dobutamine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ajout de noradrénaline ou switch par adrénaline pour corriger l'hypotension artérielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mise en place d'une assistance circulatoire mécanique comme l'ECMO artério-veineuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration de lévosimendan en ATU si sevrage en inotrope impossible.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réalisation d'une coronarographie en urgence.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de choc cardiogénique réfractaire, on peut ajouter de la noradrénaline ou switcher par adrénaline pour corriger l'hypotension artérielle, utiliser le lévosimendan en ATU si sevrage en inotrope impossible, et envisager une assistance circulatoire mécanique comme l'ECMO artério-veineuse en 1ère intention."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les médiateurs préformés et néoformés libérés lors de la réaction anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Histamine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tryptase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leucotriènes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prostaglandines.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Facteur d'activation plaquettaire (PAF).",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors de la réaction anaphylactique, les basophiles et les mastocytes dégranulent des médiateurs préformés (histamine, tryptase) et néoformés (leucotriènes, prostaglandines, facteur d'activation plaquettaire, thromboxane)."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du profil hémodynamique du choc anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc de type cardiogénique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Phase hyperkinétique initiale avec diminution des résistances vasculaires systémiques et augmentation du débit cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phase hypokinétique secondaire avec augmentation des pressions de remplissage.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypotension et tachycardie initiales.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypovolémie par extravasation plasmatique en phase secondaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le choc anaphylactique est de type distributif. Il présente une phase hyperkinétique initiale (diminution des RVS, hypotension, tachycardie, augmentation du débit cardiaque) suivie d'une phase hypokinétique secondaire (diminution des pressions de remplissage secondaire à l'hypovolémie par extravasation plasmatique, avec diminution du débit cardiaque)."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les principaux allergènes de type protidique pouvant causer un choc anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Venins d'hyménoptères.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Latex.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Arachide et fruits secs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "β-lactamines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Gélatine.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les allergènes protidiques incluent les venins d'hyménoptères, le latex, la gélatine, les aliments (arachide, fruits secs, crustacés, poissons, lait, œufs), les sérums, les vaccins, les hormones/enzymes et les pollens. Les β-lactamines sont des haptènes."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs aggravants d'une réaction anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prise d'inhibiteurs de l'enzyme de conversion (IEC).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un sujet asthmatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une cardiopathie sous-jacente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise de β-bloquants.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'âge jeune du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs aggravants sont les β-bloquants (hypotension sévère avec bradycardie, résistant à l'adrénaline), les IEC, le sujet asthmatique (augmentation de la fréquence du bronchospasme) et la cardiopathie sous-jacente."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les cinétiques de la tryptase et de l'histamine lors d'une réaction anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tryptase augmente en quelques minutes et décroît rapidement en 1h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La tryptase augmente en 1 à 2h et décroît en 10 à 12h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'histamine augmente en quelques minutes et décroît rapidement en 1h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'histamine est un marqueur de longue durée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ces marqueurs sont toujours augmentés en cas d'accident anaphylactique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tryptase augmente en 1 à 2h et décroît en 10 à 12h. L'histamine augmente en quelques minutes et décroît rapidement en 1h. Ces marqueurs peuvent ne pas être augmentés en cas d'accident de faible gravité, d'origine alimentaire ou de bronchospasmes isolés."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures immédiates à prendre en charge d'une anaphylaxie de grade ≥ 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arrêter le contact avec l'allergène présumé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Allonger le patient et lui relever les jambes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Assurer la liberté des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administrer de l'adrénaline IM en l'absence de voie veineuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administrer des corticoïdes IV en première intention pour leur action rapide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures immédiates incluent l'arrêt du contact avec l'allergène, la mise en condition (allonger le patient, relever les jambes, assurer la liberté des voies aériennes), l'oxygénothérapie et l'administration d'adrénaline (IM si pas de voie veineuse, ou IV par titration). Les corticoïdes ont un délai d'action retardé et n'ont pas d'indication en urgence."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les doses d'adrénaline IV recommandées par bolus selon le grade de sévérité de l'anaphylaxie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grade 2 : 0,01 à 0,02 mg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Grade 3 : 0,05 à 0,1 mg.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Grade 3 : 0,1 à 0,2 mg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grade 4 : 1 à 2 mg puis 5 mg à partir de la 3ème injection.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Grade 4 : 0,5 mg en bolus unique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les doses d'adrénaline IV par bolus sont : Grade 2 : 0,01 à 0,02 mg ; Grade 3 : 0,1 à 0,2 mg ; Grade 4 : 1 à 2 mg puis 5 mg à partir de la 3ème injection."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la place des corticoïdes dans le traitement de l'anaphylaxie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont indiqués en urgence pour leur action rapide sur le bronchospasme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils ont un délai d'action retardé (4 à 6h).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont utilisés après l'urgence en prévention de la rechute de l'anaphylaxie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hémisuccinate d'hydrocortisone à 200 µg/6h pendant 24h est une posologie recommandée en prévention de la rechute.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont contre-indiqués en cas d'angio-œdème laryngé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les corticoïdes ont un délai d'action retardé (4 à 6h) et n'ont aucune indication en urgence. Ils sont utilisés après l'urgence en prévention de la rechute de l'anaphylaxie, par exemple avec de l'hémisuccinate d'hydrocortisone à 200 µg/6h pendant 24h."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures spécifiques à prendre en charge d'un patient sous β-bloquant présentant un choc anaphylactique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminuer les doses d'adrénaline pour éviter les effets secondaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmenter les doses d'adrénaline (jusqu'à 10 mg ou plus).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ajouter de l'atropine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ajouter du glucagon.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le remplissage vasculaire est la seule mesure efficace.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez un patient sous β-bloquant, il faut augmenter les doses d'adrénaline (jusqu'à 10 mg ou plus) et ajouter de l'atropine et du glucagon, car les β-bloquants peuvent entraîner une hypotension sévère avec bradycardie, résistante aux doses habituelles d'adrénaline."
+    }
+  ]
+}

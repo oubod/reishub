@@ -1,0 +1,767 @@
+{
+  "source": "https://fmt.rnu.tn/fr/cours-communs-tcem/",
+  "generatedAt": "2026-05-24T23:00:28",
+  "count": 76,
+  "lectures": [
+    {
+      "id": "01",
+      "number": "01",
+      "title": "Accidents vasculaires cérébraux",
+      "pdf": "pdfs/01-accidents-vasculaires-cerebraux.pdf",
+      "quiz": "quizzes/01-accidents-vasculaires-cerebraux.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/1_AVC-2025-.pdf",
+      "partie": "J1",
+      "specialty": "Neurologie"
+    },
+    {
+      "id": "02",
+      "number": "02",
+      "title": "Adénopathies superficielles",
+      "pdf": "pdfs/02-adenopathies-superficielles.pdf",
+      "quiz": "quizzes/02-adenopathies-superficielles.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/2_ADP-2025-.pdf",
+      "partie": "J2",
+      "specialty": "Hématologie"
+    },
+    {
+      "id": "03",
+      "number": "03",
+      "title": "Anémies",
+      "pdf": "pdfs/03-anemies.pdf",
+      "quiz": "quizzes/03-anemies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/3-anemie-2025.pdf",
+      "partie": "J2",
+      "specialty": "Hématologie"
+    },
+    {
+      "id": "04",
+      "number": "04",
+      "title": "Appendicite aiguë",
+      "pdf": "pdfs/04-appendicite-aigue.pdf",
+      "quiz": "quizzes/04-appendicite-aigue.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/4_Appendicite-2025.pdf",
+      "partie": "J1",
+      "specialty": "Chirurgie générale"
+    },
+    {
+      "id": "05",
+      "number": "05",
+      "title": "Arrêt cardio-circulatoire",
+      "pdf": "pdfs/05-arret-cardio-circulatoire.pdf",
+      "quiz": "quizzes/05-arret-cardio-circulatoire.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/05-ACR-2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "06",
+      "number": "06",
+      "title": "Arthrite septique",
+      "pdf": "pdfs/06-arthrite-septique.pdf",
+      "quiz": "quizzes/06-arthrite-septique.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/6_arthrite-septique2025.pdf",
+      "partie": "J2",
+      "specialty": "Ortho / Rhumatologie"
+    },
+    {
+      "id": "07",
+      "number": "07",
+      "title": "Asthme de l’adulte et de l’enfant",
+      "pdf": "pdfs/07-asthme-de-l-adulte-et-de-l-enfant.pdf",
+      "quiz": "quizzes/07-asthme-de-l-adulte-et-de-l-enfant.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/7_ASTHME-ADULTE-enfant.pdf",
+      "partie": "J1",
+      "specialty": "Pneumologie"
+    },
+    {
+      "id": "08",
+      "number": "08",
+      "title": "Bronchiolites du nourrisson",
+      "pdf": "pdfs/08-bronchiolites-du-nourrisson.pdf",
+      "quiz": "quizzes/08-bronchiolites-du-nourrisson.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/8-bronchiolite-2025.pdf",
+      "partie": "J2",
+      "specialty": "Pédiatrie"
+    },
+    {
+      "id": "09",
+      "number": "09",
+      "title": "Bronchopneumopathies chroniques obstructives",
+      "pdf": "pdfs/09-bronchopneumopathies-chroniques-obstructives.pdf",
+      "quiz": "quizzes/09-bronchopneumopathies-chroniques-obstructives.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/09_-BPCO-2025.pdf",
+      "partie": "J1",
+      "specialty": "Pneumologie"
+    },
+    {
+      "id": "10",
+      "number": "10",
+      "title": "Brûlures cutanées récentes",
+      "pdf": "pdfs/10-brulures-cutanees-recentes.pdf",
+      "quiz": "quizzes/10-brulures-cutanees-recentes.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/10-Brûlures-cutanées-2022.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "11",
+      "number": "11",
+      "title": "Cancer broncho-pulmonaire",
+      "pdf": "pdfs/11-cancer-broncho-pulmonaire.pdf",
+      "quiz": "quizzes/11-cancer-broncho-pulmonaire.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/11_CBP-2025.pdf",
+      "partie": "J1",
+      "specialty": "Pneumologie"
+    },
+    {
+      "id": "12",
+      "number": "12",
+      "title": "Cancer du cavum",
+      "pdf": "pdfs/12-cancer-du-cavum.pdf",
+      "quiz": "quizzes/12-cancer-du-cavum.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/12-cancer_du_cavum_2025.pdf",
+      "partie": "J1",
+      "specialty": "ORL-ophtalmo"
+    },
+    {
+      "id": "13",
+      "number": "13",
+      "title": "Cancer du col de l’utérus",
+      "pdf": "pdfs/13-cancer-du-col-de-l-uterus.pdf",
+      "quiz": "quizzes/13-cancer-du-col-de-l-uterus.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/13_COL-UTERIN-mai-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gynécologie"
+    },
+    {
+      "id": "14",
+      "number": "14",
+      "title": "Cancer du sein",
+      "pdf": "pdfs/14-cancer-du-sein.pdf",
+      "quiz": "quizzes/14-cancer-du-sein.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/14-cancer-sein2025.pdf",
+      "partie": "J1",
+      "specialty": "Gynécologie"
+    },
+    {
+      "id": "15",
+      "number": "15",
+      "title": "Cancers colorectaux",
+      "pdf": "pdfs/15-cancers-colorectaux.pdf",
+      "quiz": "quizzes/15-cancers-colorectaux.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/15_CCR-2022.pdf",
+      "partie": "J1",
+      "specialty": "Chirurgie générale"
+    },
+    {
+      "id": "16",
+      "number": "16",
+      "title": "Céphalées",
+      "pdf": "pdfs/16-cephalees.pdf",
+      "quiz": "quizzes/16-cephalees.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/16_Les-céphalées-2025.pdf",
+      "partie": "J1",
+      "specialty": "Neurologie"
+    },
+    {
+      "id": "17",
+      "number": "17",
+      "title": "Coma",
+      "pdf": "pdfs/17-coma.pdf",
+      "quiz": "quizzes/17-coma.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/17-coma2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "18",
+      "number": "18",
+      "title": "Contraception",
+      "pdf": "pdfs/18-contraception.pdf",
+      "quiz": "quizzes/18-contraception.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/18_Contraception-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gynécologie"
+    },
+    {
+      "id": "19",
+      "number": "19",
+      "title": "Déshydratations aiguës de l’enfant",
+      "pdf": "pdfs/19-deshydratations-aigues-de-l-enfant.pdf",
+      "quiz": "quizzes/19-deshydratations-aigues-de-l-enfant.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/19_-la-deshydratation-2025.pdf",
+      "partie": "J2",
+      "specialty": "Pédiatrie"
+    },
+    {
+      "id": "20",
+      "number": "20",
+      "title": "Diabète sucré",
+      "pdf": "pdfs/20-diabete-sucre.pdf",
+      "quiz": "quizzes/20-diabete-sucre.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/20-Diabéte-2025-.pdf",
+      "partie": "J2",
+      "specialty": "Endocrinologie"
+    },
+    {
+      "id": "21",
+      "number": "21",
+      "title": "Diarrhées chroniques",
+      "pdf": "pdfs/21-diarrhees-chroniques.pdf",
+      "quiz": "quizzes/21-diarrhees-chroniques.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/21_dia-chro-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gastrologie"
+    },
+    {
+      "id": "22",
+      "number": "22",
+      "title": "Douleurs thoraciques aiguës",
+      "pdf": "pdfs/22-douleurs-thoraciques-aigues.pdf",
+      "quiz": "quizzes/22-douleurs-thoraciques-aigues.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/22__douleurs_thoracique_VF-2022.pdf",
+      "partie": "J1",
+      "specialty": "Cardiologie"
+    },
+    {
+      "id": "23",
+      "number": "23",
+      "title": "Dyslipidémies",
+      "pdf": "pdfs/23-dyslipidemies.pdf",
+      "quiz": "quizzes/23-dyslipidemies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/23-dyslipidémies-2025.pdf",
+      "partie": "J2",
+      "specialty": "Endocrinologie"
+    },
+    {
+      "id": "24",
+      "number": "24",
+      "title": "Dysphagies",
+      "pdf": "pdfs/24-dysphagies.pdf",
+      "quiz": "quizzes/24-dysphagies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/24_Dysphagie-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gastrologie"
+    },
+    {
+      "id": "25",
+      "number": "25",
+      "title": "Endocardites infectieuses",
+      "pdf": "pdfs/25-endocardites-infectieuses.pdf",
+      "quiz": "quizzes/25-endocardites-infectieuses.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/25-endocardite-infectieuse-2022.pdf",
+      "partie": "J1",
+      "specialty": "Cardiologie"
+    },
+    {
+      "id": "26",
+      "number": "26",
+      "title": "Epilepsies",
+      "pdf": "pdfs/26-epilepsies.pdf",
+      "quiz": "quizzes/26-epilepsies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/26_EPILEPSIE-2025.pdf",
+      "partie": "J1",
+      "specialty": "Neurologie"
+    },
+    {
+      "id": "27",
+      "number": "27",
+      "title": "Etat de choc cardiogénique",
+      "pdf": "pdfs/27-etat-de-choc-cardiogenique.pdf",
+      "quiz": "quizzes/27-etat-de-choc-cardiogenique.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/27_etat-de-choc-cardiogenique-2025..pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "28",
+      "number": "28",
+      "title": "Etat de choc hémorragique",
+      "pdf": "pdfs/28-etat-de-choc-hemorragique.pdf",
+      "quiz": "quizzes/28-etat-de-choc-hemorragique.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/28-EDC-W-hemorragique-version-Juin-2022-1-1-1.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "29",
+      "number": "29",
+      "title": "Etats confusionnels",
+      "pdf": "pdfs/29-etats-confusionnels.pdf",
+      "quiz": "quizzes/29-etats-confusionnels.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/29_Etats-confusionnels-2025.pdf",
+      "partie": "J1",
+      "specialty": "Psychiatrie"
+    },
+    {
+      "id": "30",
+      "number": "30",
+      "title": "Etats septiques graves",
+      "pdf": "pdfs/30-etats-septiques-graves.pdf",
+      "quiz": "quizzes/30-etats-septiques-graves.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/30_Etats-septiques-graves-2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "31",
+      "number": "31",
+      "title": "Fractures ouvertes de la jambe",
+      "pdf": "pdfs/31-fractures-ouvertes-de-la-jambe.pdf",
+      "quiz": "quizzes/31-fractures-ouvertes-de-la-jambe.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/31-Fracture-jambe-20221.pdf",
+      "partie": "J2",
+      "specialty": "Ortho / Rhumatologie"
+    },
+    {
+      "id": "32",
+      "number": "32",
+      "title": "Grossesse extra-utérine",
+      "pdf": "pdfs/32-grossesse-extra-uterine.pdf",
+      "quiz": "quizzes/32-grossesse-extra-uterine.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/32_grossesse-extrauterine-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gynécologie"
+    },
+    {
+      "id": "33",
+      "number": "33",
+      "title": "Hématuries",
+      "pdf": "pdfs/33-hematuries.pdf",
+      "quiz": "quizzes/33-hematuries.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/33-Hématurie-2022.pdf",
+      "partie": "J2",
+      "specialty": "Néphrologie"
+    },
+    {
+      "id": "34",
+      "number": "34",
+      "title": "Hémorragies digestives",
+      "pdf": "pdfs/34-hemorragies-digestives.pdf",
+      "quiz": "quizzes/34-hemorragies-digestives.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/34_hemorragie-digestive-2025.pdf",
+      "partie": "J1",
+      "specialty": "Chirurgie générale"
+    },
+    {
+      "id": "35",
+      "number": "35",
+      "title": "Hépatites virales",
+      "pdf": "pdfs/35-hepatites-virales.pdf",
+      "quiz": "quizzes/35-hepatites-virales.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/35-Hépatites-virales-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gastrologie"
+    },
+    {
+      "id": "36",
+      "number": "36",
+      "title": "Hydatidoses hépatiques et pulmonaires",
+      "pdf": "pdfs/36-hydatidoses-hepatiques-et-pulmonaires.pdf",
+      "quiz": "quizzes/36-hydatidoses-hepatiques-et-pulmonaires.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/36_hydatidose-hépatiques-et-pulmonaires-2025.pdf",
+      "partie": "J1",
+      "specialty": "Chirurgie générale"
+    },
+    {
+      "id": "37",
+      "number": "37",
+      "title": "Hypercalcémies",
+      "pdf": "pdfs/37-hypercalcemies.pdf",
+      "quiz": "quizzes/37-hypercalcemies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/37_HYPERCALCEMIES-2025-.pdf",
+      "partie": "J2",
+      "specialty": "Médecine interne"
+    },
+    {
+      "id": "38",
+      "number": "38",
+      "title": "Hypertension artérielle",
+      "pdf": "pdfs/38-hypertension-arterielle.pdf",
+      "quiz": "quizzes/38-hypertension-arterielle.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/38_HTA-Residanat-2022-Final-juin.pdf",
+      "partie": "J1",
+      "specialty": "Cardiologie"
+    },
+    {
+      "id": "39",
+      "number": "39",
+      "title": "Hyperthyroïdies",
+      "pdf": "pdfs/39-hyperthyroidies.pdf",
+      "quiz": "quizzes/39-hyperthyroidies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/39_-Hyperthyroidie-2025.pdf",
+      "partie": "J2",
+      "specialty": "Endocrinologie"
+    },
+    {
+      "id": "40",
+      "number": "40",
+      "title": "Hypothyroïdies de l’enfant et de l’adulte",
+      "pdf": "pdfs/40-hypothyroidies-de-l-enfant-et-de-l-adulte.pdf",
+      "quiz": "quizzes/40-hypothyroidies-de-l-enfant-et-de-l-adulte.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/40-hypothyroidie-2025.pdf",
+      "partie": "J2",
+      "specialty": "Endocrinologie"
+    },
+    {
+      "id": "41",
+      "number": "41",
+      "title": "Ictères",
+      "pdf": "pdfs/41-icteres.pdf",
+      "quiz": "quizzes/41-icteres.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/41_Ictère-2022-.pdf",
+      "partie": "J1",
+      "specialty": "Gastrologie"
+    },
+    {
+      "id": "42",
+      "number": "42",
+      "title": "Infections des voies aériennes supérieures",
+      "pdf": "pdfs/42-infections-des-voies-aeriennes-superieures.pdf",
+      "quiz": "quizzes/42-infections-des-voies-aeriennes-superieures.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/42_infections-des-VAS-2025.pdf",
+      "partie": "J1",
+      "specialty": "ORL-ophtalmo"
+    },
+    {
+      "id": "43",
+      "number": "43",
+      "title": "Infections respiratoires basses communautaires",
+      "pdf": "pdfs/43-infections-respiratoires-basses-communautaires.pdf",
+      "quiz": "quizzes/43-infections-respiratoires-basses-communautaires.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/43_IRB-2025-.pdf",
+      "partie": "J1",
+      "specialty": "Pneumologie"
+    },
+    {
+      "id": "44",
+      "number": "44",
+      "title": "Infections sexuellement transmissibles",
+      "pdf": "pdfs/44-infections-sexuellement-transmissibles.pdf",
+      "quiz": "quizzes/44-infections-sexuellement-transmissibles.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/44_IST-2025.pdf",
+      "partie": "J2",
+      "specialty": "Infectiologie"
+    },
+    {
+      "id": "45",
+      "number": "45",
+      "title": "Infections urinaires",
+      "pdf": "pdfs/45-infections-urinaires.pdf",
+      "quiz": "quizzes/45-infections-urinaires.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/45_Infection-urinaire-2025.pdf",
+      "partie": "J2",
+      "specialty": "Infectiologie"
+    },
+    {
+      "id": "46",
+      "number": "46",
+      "title": "Insuffisance rénale aiguë",
+      "pdf": "pdfs/46-insuffisance-renale-aigue.pdf",
+      "quiz": "quizzes/46-insuffisance-renale-aigue.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/46_Insuffisance-rénale-aigue-2025.pdf",
+      "partie": "J2",
+      "specialty": "Néphrologie"
+    },
+    {
+      "id": "47",
+      "number": "47",
+      "title": "Insuffisance surrénalienne aiguë",
+      "pdf": "pdfs/47-insuffisance-surrenalienne-aigue.pdf",
+      "quiz": "quizzes/47-insuffisance-surrenalienne-aigue.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/47_ISA2025.pdf",
+      "partie": "J2",
+      "specialty": "Endocrinologie"
+    },
+    {
+      "id": "48",
+      "number": "48",
+      "title": "Intoxications par le CO, les organophosphorés et les psychotropes",
+      "pdf": "pdfs/48-intoxications-par-le-co-les-organophosphores-et-les-psychotropes.pdf",
+      "quiz": "quizzes/48-intoxications-par-le-co-les-organophosphores-et-les-psychotropes.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/48-intoxications-2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "49",
+      "number": "49",
+      "title": "Ischémie aiguës des membres",
+      "pdf": "pdfs/49-ischemie-aigues-des-membres.pdf",
+      "quiz": "quizzes/49-ischemie-aigues-des-membres.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/49_ischemie-MI-2025.pdf",
+      "partie": "J1",
+      "specialty": "Cardiologie"
+    },
+    {
+      "id": "50",
+      "number": "50",
+      "title": "Lithiase urinaire",
+      "pdf": "pdfs/50-lithiase-urinaire.pdf",
+      "quiz": "quizzes/50-lithiase-urinaire.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/50_-lithiase-urinaire-2025.pdf",
+      "partie": "J2",
+      "specialty": "Néphrologie"
+    },
+    {
+      "id": "51",
+      "number": "51",
+      "title": "Maladies veineuses thrombo-emboliques",
+      "pdf": "pdfs/51-maladies-veineuses-thrombo-emboliques.pdf",
+      "quiz": "quizzes/51-maladies-veineuses-thrombo-emboliques.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/51_MVTE-version-2022-1.pdf",
+      "partie": "J1",
+      "specialty": "Cardiologie"
+    },
+    {
+      "id": "52",
+      "number": "52",
+      "title": "Méningites bactériennes et virales",
+      "pdf": "pdfs/52-meningites-bacteriennes-et-virales.pdf",
+      "quiz": "quizzes/52-meningites-bacteriennes-et-virales.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/52-méningite2025.pdf",
+      "partie": "J2",
+      "specialty": "Infectiologie"
+    },
+    {
+      "id": "53",
+      "number": "53",
+      "title": "Métrorragies",
+      "pdf": "pdfs/53-metrorragies.pdf",
+      "quiz": "quizzes/53-metrorragies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/53_metrorragies-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gynécologie"
+    },
+    {
+      "id": "54",
+      "number": "54",
+      "title": "Occlusions intestinales aiguës",
+      "pdf": "pdfs/54-occlusions-intestinales-aigues.pdf",
+      "quiz": "quizzes/54-occlusions-intestinales-aigues.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/54_occlusion_intestinale_aigue_2025-1.pdf",
+      "partie": "J1",
+      "specialty": "Chirurgie générale"
+    },
+    {
+      "id": "55",
+      "number": "55",
+      "title": "Œdèmes",
+      "pdf": "pdfs/55-oedemes.pdf",
+      "quiz": "quizzes/55-oedemes.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/55-oedemes-2025-1.pdf",
+      "partie": "J2",
+      "specialty": "Médecine interne"
+    },
+    {
+      "id": "56",
+      "number": "56",
+      "title": "Œil rouge",
+      "pdf": "pdfs/56-oeil-rouge.pdf",
+      "quiz": "quizzes/56-oeil-rouge.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/56_oeil_rouge-2025-1-1.pdf",
+      "partie": "J1",
+      "specialty": "ORL-ophtalmo"
+    },
+    {
+      "id": "57",
+      "number": "57",
+      "title": "Péritonites aiguës",
+      "pdf": "pdfs/57-peritonites-aigues.pdf",
+      "quiz": "quizzes/57-peritonites-aigues.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/57-peritonite-aigue-2025-1.pdf",
+      "partie": "J1",
+      "specialty": "Chirurgie générale"
+    },
+    {
+      "id": "58",
+      "number": "58",
+      "title": "Polyarthrite rhumatoïde",
+      "pdf": "pdfs/58-polyarthrite-rhumatoide.pdf",
+      "quiz": "quizzes/58-polyarthrite-rhumatoide.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/58-polyarthrite-rhumatoide2025-1.pdf",
+      "partie": "J2",
+      "specialty": "Ortho / Rhumatologie"
+    },
+    {
+      "id": "59",
+      "number": "59",
+      "title": "Polytraumatisme",
+      "pdf": "pdfs/59-polytraumatisme.pdf",
+      "quiz": "quizzes/59-polytraumatisme.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/59-polytraumatisme.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "60",
+      "number": "60",
+      "title": "Prééclampsies et Eclampsies",
+      "pdf": "pdfs/60-preeclampsies-et-eclampsies.pdf",
+      "quiz": "quizzes/60-preeclampsies-et-eclampsies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/60-PE-eclampsie-2025-1-1.pdf",
+      "partie": "J1",
+      "specialty": "Gynécologie"
+    },
+    {
+      "id": "61",
+      "number": "61",
+      "title": "Prise en charge de la douleur aiguë",
+      "pdf": "pdfs/61-prise-en-charge-de-la-douleur-aigue.pdf",
+      "quiz": "quizzes/61-prise-en-charge-de-la-douleur-aigue.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/61_Douleur-AIGUE2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "62",
+      "number": "62",
+      "title": "Purpuras",
+      "pdf": "pdfs/62-purpuras.pdf",
+      "quiz": "quizzes/62-purpuras.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/62-purpura-2025.pdf",
+      "partie": "J2",
+      "specialty": "Hématologie"
+    },
+    {
+      "id": "63",
+      "number": "63",
+      "title": "Schizophrénie",
+      "pdf": "pdfs/63-schizophrenie.pdf",
+      "quiz": "quizzes/63-schizophrenie.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/63-Schizophrénie2025.pdf",
+      "partie": "J1",
+      "specialty": "Psychiatrie"
+    },
+    {
+      "id": "64",
+      "number": "64",
+      "title": "Splénomégalies",
+      "pdf": "pdfs/64-splenomegalies.pdf",
+      "quiz": "quizzes/64-splenomegalies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/64-splenomegalie-2025.pdf",
+      "partie": "J2",
+      "specialty": "Hématologie"
+    },
+    {
+      "id": "65",
+      "number": "65",
+      "title": "Syndromes coronariens aigus",
+      "pdf": "pdfs/65-syndromes-coronariens-aigus.pdf",
+      "quiz": "quizzes/65-syndromes-coronariens-aigus.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/65-SCA-2025.pdf",
+      "partie": "J1",
+      "specialty": "Cardiologie"
+    },
+    {
+      "id": "66",
+      "number": "66",
+      "title": "Transfusion sanguine",
+      "pdf": "pdfs/66-transfusion-sanguine.pdf",
+      "quiz": "quizzes/66-transfusion-sanguine.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/66_TRANSFUSION_2025.pdf",
+      "partie": "J2",
+      "specialty": "Hématologie"
+    },
+    {
+      "id": "67",
+      "number": "67",
+      "title": "Traumatisme crânien",
+      "pdf": "pdfs/67-traumatisme-cranien.pdf",
+      "quiz": "quizzes/67-traumatisme-cranien.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/67-Traumatisme-Cranien-2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "68",
+      "number": "68",
+      "title": "Troubles acido-basiques",
+      "pdf": "pdfs/68-troubles-acido-basiques.pdf",
+      "quiz": "quizzes/68-troubles-acido-basiques.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/68_-cours-trb-acide-Base-2025.pdf",
+      "partie": "J2",
+      "specialty": "Réanimation / urgence"
+    },
+    {
+      "id": "69",
+      "number": "69",
+      "title": "Troubles anxieux",
+      "pdf": "pdfs/69-troubles-anxieux.pdf",
+      "quiz": "quizzes/69-troubles-anxieux.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/69-Trouble-anxieux.2025.pdf",
+      "partie": "J1",
+      "specialty": "Psychiatrie"
+    },
+    {
+      "id": "70",
+      "number": "70",
+      "title": "Troubles de l’humeur",
+      "pdf": "pdfs/70-troubles-de-l-humeur.pdf",
+      "quiz": "quizzes/70-troubles-de-l-humeur.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/70-troubles-de-lhumeur-2022.pdf",
+      "partie": "J1",
+      "specialty": "Psychiatrie"
+    },
+    {
+      "id": "71-1",
+      "number": "71.1",
+      "title": "Troubles de l’hydratation",
+      "pdf": "pdfs/71-1-troubles-de-l-hydratation.pdf",
+      "quiz": "quizzes/71-1-troubles-de-l-hydratation.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/71_1troubles-de-lhydratation-2025.pdf",
+      "partie": "J2",
+      "specialty": "Néphrologie"
+    },
+    {
+      "id": "71-2",
+      "number": "71.2",
+      "title": "Dyskaliémies",
+      "pdf": "pdfs/71-2-dyskaliemies.pdf",
+      "quiz": "quizzes/71-2-dyskaliemies.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/71_2_Dyskaliémies-2025-.pdf",
+      "partie": "J2",
+      "specialty": "Néphrologie"
+    },
+    {
+      "id": "72",
+      "number": "72",
+      "title": "Tuberculose pulmonaire commune",
+      "pdf": "pdfs/72-tuberculose-pulmonaire-commune.pdf",
+      "quiz": "quizzes/72-tuberculose-pulmonaire-commune.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/72-TBC-pulmonaire-2025.pdf",
+      "partie": "J1",
+      "specialty": "Pneumologie"
+    },
+    {
+      "id": "73",
+      "number": "73",
+      "title": "Tumeurs de la prostate",
+      "pdf": "pdfs/73-tumeurs-de-la-prostate.pdf",
+      "quiz": "quizzes/73-tumeurs-de-la-prostate.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/73_tumeurs-prostatique-révisé-2022.pdf",
+      "partie": "J2",
+      "specialty": "Urologie"
+    },
+    {
+      "id": "74",
+      "number": "74",
+      "title": "Ulcère gastrique et duodénal",
+      "pdf": "pdfs/74-ulcere-gastrique-et-duodenal.pdf",
+      "quiz": "quizzes/74-ulcere-gastrique-et-duodenal.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2025/06/74-Ulcère-GD-2025.pdf",
+      "partie": "J1",
+      "specialty": "Gastrologie"
+    },
+    {
+      "id": "75",
+      "number": "75",
+      "title": "Vaccinations",
+      "pdf": "pdfs/75-vaccinations.pdf",
+      "quiz": "quizzes/75-vaccinations.json",
+      "sourceUrl": "https://fmt.rnu.tn/wp-content/uploads/2022/08/75_vaccinations-VF-2022.pdf",
+      "partie": "J2",
+      "specialty": "Pédiatrie"
+    }
+  ]
+}

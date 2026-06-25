@@ -1,0 +1,358 @@
+/* Native App Feel — Global utilities */
+
+/* ─── 1. Touch & interaction quick-wins ─── */
+html {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  overscroll-behavior: none;
+}
+
+button, a, input, select, textarea, [role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ─── 2. Page transitions ─── */
+.page-transition {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: page-enter 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes page-enter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-fade {
+  opacity: 0;
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+@keyframes fade-in {
+  to { opacity: 1; }
+}
+
+/* ─── 3. Press states / ripple base ─── */
+.pressable {
+  transition: transform 0.12s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.pressable:active {
+  transform: scale(0.97);
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0.35) 0%, transparent 70%);
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.2s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.ripple:active::after {
+  opacity: 1;
+  transform: scale(2);
+  transition: 0s;
+}
+
+/* ─── 4. Skeleton loaders ─── */
+.skeleton {
+  background: linear-gradient(90deg,
+    rgba(127, 149, 179, 0.12) 0%,
+    rgba(127, 149, 179, 0.22) 50%,
+    rgba(127, 149, 179, 0.12) 100%);
+  background-size: 200% 100%;
+  border-radius: 0.5rem;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton-text {
+  height: 1em;
+  margin-bottom: 0.5em;
+}
+
+.skeleton-title {
+  height: 1.4em;
+  width: 60%;
+  margin-bottom: 0.75em;
+}
+
+.skeleton-card {
+  height: 120px;
+  border-radius: 1rem;
+}
+
+/* ─── 5. Bottom navigation ─── */
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(111, 132, 158, 0.18);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  box-shadow: 0 -4px 20px rgba(16, 52, 92, 0.06);
+}
+
+.dark .bottom-nav {
+  background: rgba(7, 23, 47, 0.92);
+  border-top-color: rgba(127, 149, 179, 0.12);
+}
+
+.bottom-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: calc(56px + env(safe-area-inset-bottom, 0px));
+}
+
+.bottom-nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 56px;
+  padding: 6px 4px;
+  color: var(--on-surface-variant, #485a70);
+  transition: color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.bottom-nav-item.active {
+  color: var(--primary, #006fc8);
+}
+
+.bottom-nav-item .material-symbols-outlined {
+  font-size: 24px;
+  transition: transform 0.2s ease, font-variation-settings 0.2s ease;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.bottom-nav-item.active .material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.bottom-nav-label {
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+/* ─── 6. Pull-to-refresh ─── */
+.ptr-container {
+  position: relative;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.ptr-spinner {
+  position: absolute;
+  top: -56px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--surface-container-lowest, #fff);
+  box-shadow: 0 2px 12px rgba(16, 52, 92, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.2s ease;
+  z-index: 30;
+}
+
+.ptr-spinner.pulling {
+  top: 12px;
+}
+
+.ptr-spinner .material-symbols-outlined {
+  font-size: 22px;
+  color: var(--primary, #006fc8);
+  animation: ptr-spin 1s linear infinite;
+}
+
+@keyframes ptr-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ─── 7. Sticky app bar with search ─── */
+.app-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(246, 249, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(111, 132, 158, 0.15);
+}
+
+.dark .app-bar {
+  background: rgba(7, 23, 47, 0.92);
+}
+
+.native-search {
+  appearance: none;
+  -webkit-appearance: none;
+  min-height: 44px;
+  border: 1px solid rgba(111, 132, 158, 0.25);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0 16px 0 42px;
+  font-size: 15px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  width: 100%;
+}
+
+.native-search:focus {
+  outline: none;
+  border-color: var(--primary, #006fc8);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 4px rgba(0, 111, 200, 0.1);
+}
+
+.dark .native-search {
+  background: rgba(16, 39, 68, 0.7);
+  color: #f7fbff;
+}
+
+.dark .native-search:focus {
+  background: rgba(16, 39, 68, 0.95);
+}
+
+/* ─── 8. Native input validation ─── */
+input.native-input:invalid:not(:placeholder-shown) {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.08);
+}
+
+input.native-input:valid:not(:placeholder-shown) {
+  border-color: var(--primary, #006fc8);
+}
+
+.input-error {
+  color: #dc2626;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 4px;
+  display: none;
+}
+
+input.native-input:invalid:not(:placeholder-shown) + .input-error,
+input.native-input.is-invalid + .input-error {
+  display: block;
+  animation: shake 0.35s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+/* ─── 9. Toast / snackbar ─── */
+.native-toast {
+  position: fixed;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  opacity: 0;
+  z-index: 100;
+  background: rgba(8, 24, 48, 0.92);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(8, 24, 48, 0.2);
+  transition: all 0.25s ease;
+  pointer-events: none;
+  max-width: calc(100vw - 32px);
+}
+
+.native-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ─── 10. Offline banner ─── */
+.offline-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(186, 26, 26, 0.95);
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  transform: translateY(-100%);
+  transition: transform 0.25s ease;
+}
+
+.offline-banner.show {
+  transform: translateY(0);
+}
+
+/* ─── 11. Empty / error states ─── */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--on-surface-variant, #485a70);
+}
+
+.empty-state .material-symbols-outlined {
+  font-size: 56px;
+  opacity: 0.25;
+  margin-bottom: 16px;
+}
+
+/* ─── 12. Safe-area utilities ─── */
+.pt-safe { padding-top: env(safe-area-inset-top, 0px); }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+
+/* ─── 13. Hide scrollbar but keep scroll ─── */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

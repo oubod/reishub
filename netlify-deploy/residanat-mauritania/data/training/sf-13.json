@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-13",
+  "title": "Bases immuno-hématologiques",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la nature des antigènes du système ABO présents à la surface des érythrocytes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des protéines",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des lipides",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des structures glucidiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des acides nucléiques",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des glycoprotéines",
+          "correct": false
+        }
+      ],
+      "explanation": "Les antigènes du système ABO sont des structures glucidiques à la surface des érythrocytes, déterminées génétiquement."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel groupe sanguin possède des anticorps Anti-B dans son plasma ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupe B",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Groupe AB",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Groupe 0",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Groupe A",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aucun groupe",
+          "correct": false
+        }
+      ],
+      "explanation": "Le groupe A possède des anticorps Anti-B dans son plasma, dirigés contre l'antigène B absent de ses propres hématies."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale d'un individu Rhésus positif (Rh+) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de l'antigène D",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Présence de l'antigène A",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Présence de l'antigène D",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'anticorps anti-D naturels",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Absence d'anticorps anti-D",
+          "correct": false
+        }
+      ],
+      "explanation": "Un individu Rhésus positif (Rh+) se caractérise par la présence de l'antigène D à la surface de ses hématies."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la loi de Landsteiner, contre quels antigènes ABO les anticorps naturels d'un sujet sont-ils dirigés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contre les antigènes présents sur ses propres hématies",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Contre les antigènes A et B uniquement",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Contre les antigènes absents sur ses propres hématies",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Contre l'antigène D",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contre tous les antigènes ABO",
+          "correct": false
+        }
+      ],
+      "explanation": "La loi de Landsteiner stipule que les anticorps naturels sont dirigés contre les antigènes ABO absents sur les propres hématies du sujet."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel groupe sanguin est considéré comme 'donneur universel' pour les concentrés de globules rouges (CGR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupe A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Groupe B",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Groupe AB",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Groupe 0",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Groupe Rh+",
+          "correct": false
+        }
+      ],
+      "explanation": "Le groupe 0 est le 'donneur universel' pour les CGR car ses hématies n'ont ni antigène A ni B, évitant ainsi la destruction par les anticorps du receveur."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des anticorps anti-D, contrairement aux anticorps anti-A et anti-B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont naturels et réguliers.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont immuns, apparaissant après immunisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont majoritairement des IgM.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont des IgG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils activent massivement le complément.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-D sont immuns (apparaissent après immunisation) et sont des IgG. En revanche, les anticorps anti-A et anti-B sont naturels, réguliers et majoritairement des IgM."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations immunisantes pouvant entraîner l'apparition d'anticorps anti-D chez un sujet Rh- ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une transfusion de sang Rh-.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une grossesse avec un fœtus Rh+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une transfusion de sang Rh+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence naturelle de l'antigène D.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'exposition à des antigènes ABO.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-D sont immuns et n'apparaissent qu'après une immunisation, c'est-à-dire une exposition au sang Rh+ chez un sujet Rh-. Les deux situations immunisantes sont la transfusion de sang Rh+ ou une grossesse avec un fœtus Rh+."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes clés de la sécurité transfusionnelle pré-transfusionnelle mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La détermination du groupe sanguin du donneur uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La recherche d'Agglutinines Irrégulières (RAI).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'épreuve directe de compatibilité au laboratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le contrôle ultime au lit du malade.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La vérification de l'identité du patient après la transfusion.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les étapes clés de la sécurité transfusionnelle pré-transfusionnelle incluent la détermination du groupe sanguin du receveur (non du donneur uniquement), la recherche d'Agglutinines Irrégulières (RAI), l'épreuve directe de compatibilité au laboratoire et le contrôle ultime au lit du malade."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel groupe sanguin est considéré comme 'receveur universel' pour les concentrés de globules rouges (CGR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupe A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Groupe B",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Groupe AB",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Groupe 0",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Groupe Rh-",
+          "correct": false
+        }
+      ],
+      "explanation": "Le receveur AB est 'receveur universel' pour les CGR car son plasma n'a ni anti-A ni anti-B, ce qui lui permet de recevoir des hématies de tous les groupes ABO."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel groupe sanguin est considéré comme 'donneur universel' pour le plasma frais congelé (PFC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupe A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Groupe B",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Groupe AB",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Groupe 0",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Groupe Rh+",
+          "correct": false
+        }
+      ],
+      "explanation": "Le donneur AB est 'donneur universel' de plasma car son plasma ne contient ni anti-A ni anti-B, évitant ainsi la destruction des hématies du receveur."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel groupe sanguin est considéré comme 'receveur universel' pour le plasma frais congelé (PFC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupe A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Groupe B",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Groupe AB",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Groupe 0",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Groupe Rh-",
+          "correct": false
+        }
+      ],
+      "explanation": "Le receveur 0 est 'receveur universel' de plasma car ses hématies ne seront attaquées ni par l'anti-A ni par l'anti-B, ce qui lui permet de recevoir du plasma de tous les groupes ABO."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'objectif principal de la Recherche d'Agglutinines Irrégulières (RAI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déterminer le groupe sanguin ABO du receveur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dépister la présence d'anticorps anti-A et anti-B.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dépister la présence d'anticorps dirigés contre d'autres antigènes de groupes sanguins (en dehors de ABO).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vérifier la compatibilité Rhésus D.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Confirmer l'identité du patient au lit du malade.",
+          "correct": false
+        }
+      ],
+      "explanation": "La RAI dépiste la présence dans le plasma du receveur d'anticorps dirigés contre d'autres antigènes de groupes sanguins (en dehors de ABO), qui sont des agglutinines irrégulières."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de l'action des anticorps anti-D (IgG) en cas d'incompatibilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémolyse intravasculaire massive.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Activation massive du complément.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémolyse extravasculaire (dans la rate et le foie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Possibilité de traverser le placenta.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Risque de maladie hémolytique du nouveau-né.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les anticorps anti-D sont des IgG qui ne fixent pas bien le complément mais provoquent une hémolyse extravasculaire (dans la rate et le foie) et peuvent traverser le placenta, entraînant un risque de maladie hémolytique du nouveau-né."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le mécanisme physiopathologique principal de l'accident hémolytique transfusionnel aigu par incompatibilité ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation du système de coagulation uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fixation des anticorps anti-D sur les hématies du donneur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Activation massive du système du complément.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémolyse intravasculaire massive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémolyse extravasculaire dans la rate.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'accident hémolytique aigu par incompatibilité ABO est déclenché par la fixation des anticorps du receveur sur les hématies incompatibles du donneur, activant massivement le système du complément et menant à une hémolyse intravasculaire massive."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants principaux transfusés dans un Concentré de Globules Rouges (CGR) et dans du Plasma Frais Congelé (PFC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des anticorps dans le CGR.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des hématies dans le CGR.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des antigènes dans le PFC.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Du plasma contenant des anticorps dans le PFC.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des plaquettes dans le CGR.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors de la transfusion de CGR, on transfuse des hématies. Lors de la transfusion de PFC, on transfuse du plasma qui contient des anticorps."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Un individu de groupe B possède quelles caractéristiques immunologiques selon le système ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence de l'antigène A sur ses hématies.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Présence de l'antigène B sur ses hématies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence d'anticorps Anti-A dans son plasma.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Présence d'anticorps Anti-A dans son plasma.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Présence d'anticorps Anti-B dans son plasma.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un individu de groupe B a la présence de l'antigène B sur ses hématies et, selon la loi de Landsteiner, des anticorps Anti-A dans son plasma."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du groupe sanguin 0 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence des antigènes A et B sur les hématies.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Absence des antigènes A et B sur les hématies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'anticorps Anti-A et Anti-B dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'anticorps Anti-A et Anti-B dans le plasma.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Est receveur universel de CGR.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le groupe 0 se caractérise par l'absence des antigènes A et B sur les hématies et la présence d'anticorps Anti-A et Anti-B dans le plasma."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du groupe sanguin AB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence des antigènes A et B sur les hématies.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Présence des antigènes A et B sur les hématies.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence d'anticorps Anti-A et Anti-B dans le plasma.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Absence d'anticorps Anti-A ou Anti-B dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Est donneur universel de CGR.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le groupe AB se caractérise par la présence des antigènes A et B sur les hématies et l'absence d'anticorps Anti-A ou Anti-B dans le plasma."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel type d'anticorps est majoritairement responsable de l'activation massive du complément et de l'hémolyse intravasculaire en cas d'incompatibilité ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IgG",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "IgA",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "IgM",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "IgD",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "IgE",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-A et anti-B sont majoritairement des IgM, très efficaces pour activer le complément et provoquer une hémolyse intravasculaire massive en cas de transfusion incompatible."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Où se produit principalement l'hémolyse causée par les anticorps anti-D (IgG) et par les anticorps anti-ABO (IgM) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les deux provoquent une hémolyse intravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les deux provoquent une hémolyse extravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les anti-D (IgG) provoquent une hémolyse extravasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les anti-ABO (IgM) provoquent une hémolyse intravasculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les anti-D (IgG) activent massivement le complément.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-D (IgG) provoquent une hémolyse extravasculaire (dans la rate et le foie), tandis que les anticorps anti-ABO (IgM) provoquent une hémolyse intravasculaire massive."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la durée de validité de la Recherche d'Agglutinines Irrégulières (RAI) avant une transfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 24 heures",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Moins de 48 heures",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Moins de 72 heures",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Moins d'une semaine",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Illimitée",
+          "correct": false
+        }
+      ],
+      "explanation": "La RAI doit être récente, c'est-à-dire réalisée moins de 72 heures avant la transfusion."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'objectif de l'épreuve directe de compatibilité au laboratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déterminer le groupe sanguin du receveur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dépister les anticorps naturels du receveur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Vérifier l'absence d'agglutination entre le plasma du receveur et les hématies du CGR à transfuser.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Confirmer la présence de l'antigène D sur les hématies du donneur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Identifier les anticorps irréguliers du donneur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'épreuve directe de compatibilité au laboratoire est un test 'in vitro' qui consiste à mettre en contact le plasma du receveur avec les hématies du CGR à transfuser pour vérifier l'absence d'agglutination."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments sont vérifiés lors du contrôle ultime au lit du malade, juste avant la transfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La validité de la RAI.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'identité du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La concordance des groupes sanguins entre le patient et sa carte de groupe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La concordance des groupes sanguins entre le patient et la poche de sang.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La température du sang à transfuser.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le contrôle ultime au lit du malade implique la vérification de l'identité du patient et de la concordance des groupes sanguins entre le patient, sa carte de groupe, et la poche de sang (test de Beth-Vincent)."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi le système ABO est-il considéré comme le plus important en transfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En raison de la complexité de ses antigènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En raison de la présence constante d'anticorps naturels puissants.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Parce que ses anticorps sont des IgG.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Parce qu'il est le seul système de groupe sanguin connu.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En raison de sa faible incidence d'accidents.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système ABO est le plus important en transfusion en raison de la présence constante d'anticorps naturels puissants (anti-A et anti-B) dans le plasma."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la règle fondamentale de compatibilité transfusionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfuser toujours du sang du même groupe ABO.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ne jamais apporter au receveur un antigène contre lequel il possède déjà un anticorps.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfuser toujours du sang Rh+ aux receveurs Rh-.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transfuser toujours du plasma du même groupe ABO.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ne jamais transfuser de CGR à un receveur AB.",
+          "correct": false
+        }
+      ],
+      "explanation": "La règle fondamentale est de ne jamais apporter au receveur un antigène contre lequel il possède déjà un anticorps, afin d'éviter une réaction immunologique."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un receveur de groupe 0 Rh- a besoin d'une transfusion de CGR. Quelles sont les options de CGR compatibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CGR de groupe A Rh-",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "CGR de groupe B Rh+",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "CGR de groupe 0 Rh-",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "CGR de groupe AB Rh-",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "CGR de groupe 0 Rh+",
+          "correct": true
+        }
+      ],
+      "explanation": "Le receveur 0 Rh- possède des anticorps anti-A, anti-B et n'a pas d'antigène D. Il peut recevoir du CGR de groupe 0 (absence d'antigènes A et B). Concernant le Rhésus, on ne transfuse jamais de CGR Rh+ à un receveur Rh- sauf en cas d'urgence vitale si le receveur n'est pas déjà immunisé. Le texte indique 'L'inverse est possible en cas d'urgence vitale si le receveur n'est pas déjà immunisé'. Sans cette condition, seul le 0 Rh- est idéal. Cependant, l'option 0 Rh+ est une possibilité en urgence, ce qui la rend plausible comme réponse correcte dans un contexte de choix multiple où l'idéal et l'exception sont mélangés. Pour un QCM de résidanat, cette nuance est importante. Le 0 Rh- est la meilleure option, mais 0 Rh+ est une option possible sous conditions d'urgence et non-immunisation."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences cliniques potentielles d'un accident hémolytique transfusionnel aigu par incompatibilité ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypotension artérielle et état de choc.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale aiguë due à l'hémoglobine libre toxique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coagulation intravasculaire disséminée (CIVD).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémolyse extravasculaire isolée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la diurèse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les conséquences d'un accident hémolytique aigu par incompatibilité ABO incluent la libération d'hémoglobine libre toxique (insuffisance rénale aiguë), l'activation de la coagulation (CIVD), et un état de choc pouvant mener au décès rapide."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient de groupe AB Rh+ a besoin d'une transfusion de PFC. Quelles sont les options de PFC compatibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PFC de groupe A",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "PFC de groupe B",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PFC de groupe AB",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PFC de groupe 0",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "PFC de groupe Rh-",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le PFC, les règles sont inversées. Le donneur AB est 'donneur universel' de plasma. Le receveur AB peut donc recevoir du plasma de tous les groupes ABO (A, B, AB, 0) car ses hématies possèdent les antigènes A et B et ne seront pas attaquées par les anticorps anti-A ou anti-B du donneur (qui seraient absents dans le plasma AB, ou présents mais sans effet sur les hématies AB). Le texte dit 'Le receveur 0 est 'receveur universel' de plasma (ses hématies ne seront attaquées ni par l'anti-A ni par l'anti-B)'. Pour un receveur AB, il n'a pas d'anticorps anti-A ou anti-B, donc il peut recevoir du plasma de n'importe quel groupe, car les anticorps du donneur ne trouveront pas d'antigènes correspondants sur les hématies du receveur AB (qui a A et B). En fait, le receveur AB est le receveur universel de PFC, car il n'a pas d'anticorps anti-A ou anti-B dans son plasma, et ses hématies ont les antigènes A et B. Donc, il peut recevoir du plasma de n'importe quel groupe, car les anticorps du donneur ne réagiront pas avec les hématies du receveur AB. Le texte dit 'Le donneur AB est 'donneur universel' de plasma (son plasma ne contient ni anti-A ni anti-B)'. Et 'Le receveur 0 est 'receveur universel' de plasma (ses hématies ne seront attaquées ni par l'anti-A ni par l'anti-B)'. Cela implique que le receveur AB peut recevoir de tous les groupes."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences majeures entre les anticorps du système ABO et ceux du système Rhésus D ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les anticorps ABO sont naturels, les anti-D sont immuns.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les anticorps ABO sont des IgG, les anti-D sont des IgM.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les anticorps ABO activent massivement le complément, les anti-D le fixent mal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les anticorps ABO provoquent une hémolyse extravasculaire, les anti-D une hémolyse intravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les anticorps anti-D peuvent traverser le placenta, les anticorps ABO non.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les anticorps ABO sont naturels et réguliers (IgM, activent massivement le complément, hémolyse intravasculaire). Les anticorps anti-D sont immuns (IgG, fixent mal le complément, hémolyse extravasculaire, peuvent traverser le placenta)."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un receveur de groupe A Rh+ a besoin d'une transfusion de CGR. Quelles sont les options de CGR compatibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CGR de groupe A Rh+",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "CGR de groupe 0 Rh+",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "CGR de groupe B Rh+",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "CGR de groupe A Rh-",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "CGR de groupe 0 Rh-",
+          "correct": true
+        }
+      ],
+      "explanation": "Un receveur A Rh+ a des anticorps anti-B. Il peut donc recevoir du CGR de groupe A ou 0. Étant Rh+, il peut recevoir du CGR Rh+ ou Rh-. Donc, A Rh+, 0 Rh+, A Rh-, 0 Rh- sont tous compatibles. Les CGR de groupe B Rh+ sont incompatibles à cause de l'antigène B."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anticorps naturels et réguliers du système ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont présents dès la naissance.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont présents dès les premiers mois de la vie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont majoritairement des IgM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont des IgG.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont dirigés contre les antigènes présents sur les propres hématies.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps naturels et réguliers du système ABO sont présents dans le plasma dès les premiers mois de la vie et sont majoritairement des IgM."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte de la transfusion de CGR, pourquoi un receveur Rh- ne doit-il jamais recevoir de CGR Rh+ ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Car les anticorps anti-D du donneur détruiraient les hématies du receveur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Car le receveur Rh- possède naturellement des anticorps anti-D.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pour éviter une immunisation du receveur contre l'antigène D.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour prévenir une hémolyse intravasculaire immédiate.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Car les hématies Rh+ sont plus fragiles.",
+          "correct": false
+        }
+      ],
+      "explanation": "On ne transfuse jamais de CGR Rh+ à un receveur Rh- pour éviter une immunisation du receveur contre l'antigène D, ce qui entraînerait la production d'anticorps anti-D immuns."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des antigènes du système ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont des protéines.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont des structures glucidiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur présence est déterminée génétiquement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont présents uniquement sur les globules blancs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont responsables de la production d'anticorps immuns.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les antigènes du système ABO sont des structures glucidiques à la surface des érythrocytes et leur présence est déterminée génétiquement."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les exigences pour la détermination du groupe sanguin du receveur avant une transfusion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une seule détermination est suffisante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Deux déterminations sur deux prélèvements distincts sont requises.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La détermination doit être effectuée par le médecin traitant.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La détermination doit être récente (moins de 72h).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle doit inclure le groupage ABO et Rhésus D.",
+          "correct": true
+        }
+      ],
+      "explanation": "Deux déterminations sur deux prélèvements distincts sont requises pour la détermination du groupe sanguin du receveur. Bien que non explicitement dit que cela inclut Rhésus D, le contexte général du cours sur ABO et Rhésus D comme systèmes principaux implique que le groupage les couvre."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient de groupe B Rh- a besoin d'une transfusion de PFC. Quelles sont les options de PFC compatibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PFC de groupe A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PFC de groupe B",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PFC de groupe AB",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PFC de groupe 0",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "PFC de groupe Rh+",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour le PFC, on s'assure que les anticorps du donneur ne détruiront pas les hématies du receveur. Un receveur B Rh- a des antigènes B sur ses hématies. Il ne doit pas recevoir de plasma contenant des anti-B. Le plasma de groupe A contient des anti-B, donc il est incompatible. Le plasma de groupe B ne contient pas d'anti-B. Le plasma de groupe AB ne contient ni anti-A ni anti-B. Le plasma de groupe 0 contient des anti-A et anti-B, donc il est incompatible. Concernant le Rhésus, le plasma ne contient pas d'antigènes D, donc la compatibilité Rhésus n'est pas une préoccupation pour le PFC. Ainsi, B, AB, et Rh+ (qui n'est pas un groupe ABO mais une caractéristique Rhésus, et le PFC ne contient pas d'antigènes D) sont compatibles."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle du système du complément dans l'accident hémolytique transfusionnel aigu par incompatibilité ABO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est activé par les anticorps anti-D.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est activé massivement par les IgM anti-ABO.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il provoque une hémolyse extravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est responsable de la libération d'hémoglobine libre toxique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il prévient la coagulation intravasculaire disséminée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-A et anti-B (IgM) activent massivement le système du complément, menant à une hémolyse intravasculaire massive et à la libération d'hémoglobine libre toxique."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi l'accident hémolytique aigu par incompatibilité ABO est-il souvent dû à une erreur humaine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En raison de la complexité des antigènes ABO.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "À cause de la présence d'anticorps naturels puissants.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Parce que les tests pré-transfusionnels sont facultatifs.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En raison d'une mauvaise identification du patient ou de la poche de sang.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Parce que les anticorps anti-ABO sont difficiles à détecter.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'accident hémolytique aigu par incompatibilité ABO est l'accident le plus grave, souvent dû à une erreur humaine, comme une mauvaise identification du patient ou de la poche de sang, malgré les contrôles prévus."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications de la capacité des anticorps anti-D à traverser le placenta ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque d'hémolyse intravasculaire chez la mère.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Risque de maladie hémolytique du nouveau-né.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation massive du complément chez le fœtus.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immunisation du fœtus contre l'antigène D.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hémolyse extravasculaire chez le fœtus.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les anticorps anti-D sont des IgG qui peuvent traverser le placenta, entraînant un risque de maladie hémolytique du nouveau-né, caractérisée par une hémolyse extravasculaire chez le fœtus/nouveau-né."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient de groupe 0 Rh+ a besoin d'une transfusion de PFC. Quelles sont les options de PFC compatibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PFC de groupe A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PFC de groupe B",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "PFC de groupe AB",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PFC de groupe 0",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "PFC de groupe Rh-",
+          "correct": true
+        }
+      ],
+      "explanation": "Un receveur 0 Rh+ a des antigènes 0 (aucun A ou B) sur ses hématies. Il peut donc recevoir du plasma de groupe AB (qui n'a ni anti-A ni anti-B). Le plasma de groupe A contient des anti-B, le plasma de groupe B contient des anti-A, et le plasma de groupe 0 contient des anti-A et anti-B, tous incompatibles avec les hématies du receveur 0. Le Rhésus n'est pas pertinent pour le PFC. Donc, seul le PFC de groupe AB est compatible. L'option E est un distracteur car Rh- n'est pas un groupe ABO pour le plasma."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anticorps anti-D ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont toujours présents dans le plasma des sujets Rh-.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont des IgG.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont immuns.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils activent massivement le complément.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils provoquent une hémolyse intravasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-D sont des IgG et sont immuns, n'apparaissant qu'après une immunisation. Ils ne sont pas constamment présents et ne fixent pas bien le complément, provoquant une hémolyse extravasculaire."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une transfusion de CGR de groupe A à un receveur de groupe 0 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les anticorps anti-A du receveur se fixent sur les hématies A du donneur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation massive du système du complément.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémolyse intravasculaire massive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémolyse extravasculaire dans la rate.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aucune réaction significative si le receveur est Rh+.",
+          "correct": false
+        }
+      ],
+      "explanation": "La transfusion d'hématies incompatibles (ex: CGR du groupe A à un receveur 0) déclenche une réaction immédiate où les anticorps anti-A du receveur se fixent sur les hématies A du donneur, activant massivement le système du complément et menant à une hémolyse intravasculaire massive."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications de la codominance des antigènes A et B chez un individu de groupe AB ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'individu possède uniquement l'antigène A.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'individu possède uniquement l'antigène B.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'individu possède les antigènes A et B.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'individu ne possède aucun antigène ABO.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'individu est un donneur universel de CGR.",
+          "correct": false
+        }
+      ],
+      "explanation": "La codominance des antigènes A et B signifie qu'un individu de groupe AB possède les deux antigènes A et B à la surface de ses hématies."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anticorps anti-A et anti-B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont immuns.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont naturels et réguliers.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont majoritairement des IgM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils ne fixent pas bien le complément.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils peuvent traverser le placenta.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anticorps anti-A et anti-B sont naturels et réguliers, présents dès les premiers mois de la vie, et sont majoritairement des IgM. Ils activent très efficacement le complément."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel cas une transfusion de CGR Rh+ à un receveur Rh- est-elle envisageable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jamais, c'est une contre-indication absolue.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'urgence vitale si le receveur n'est pas déjà immunisé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si le receveur est de groupe 0.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Si le donneur est de groupe AB.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Uniquement pour les transfusions de plasma.",
+          "correct": false
+        }
+      ],
+      "explanation": "On ne transfuse jamais de CGR Rh+ à un receveur Rh-, sauf en cas d'urgence vitale si le receveur n'est pas déjà immunisé."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments vérifiés lors du test de Beth-Vincent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'agglutinines irrégulières.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'identité du patient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La concordance du groupe sanguin du patient avec sa carte de groupe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La concordance du groupe sanguin du patient avec la poche de sang.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La compatibilité croisée au laboratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le test de Beth-Vincent fait partie du contrôle ultime au lit du malade et consiste à vérifier l'identité du patient et la concordance des groupes sanguins entre le patient, sa carte de groupe, et la poche de sang."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi la transfusion sanguine n'est-elle pas dénuée de risques, malgré sa routine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En raison de la complexité des procédures administratives.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le principal risque est le conflit immunologique entre le sang du donneur et celui du receveur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En raison de la présence d'antigènes à la surface des globules rouges et d'anticorps dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "À cause des risques de transmission d'agents infectieux uniquement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En raison de la difficulté à trouver des donneurs compatibles.",
+          "correct": false
+        }
+      ],
+      "explanation": "Bien que courante, la transfusion sanguine n'est pas dénuée de risques, le principal étant le conflit immunologique entre le sang du donneur et celui du receveur, lié à la présence d'antigènes à la surface des globules rouges et d'anticorps dans le plasma."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anticorps IgG en immuno-hématologie transfusionnelle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont majoritairement des anticorps naturels.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont des anticorps immuns.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils fixent bien le complément.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils peuvent traverser le placenta.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils provoquent une hémolyse extravasculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les anticorps anti-D sont des IgG, ils sont immuns, ne fixent pas bien le complément, peuvent traverser le placenta et provoquent une hémolyse extravasculaire."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient de groupe AB Rh- a besoin d'une transfusion de CGR. Quelles sont les options de CGR compatibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CGR de groupe A Rh+",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "CGR de groupe B Rh-",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "CGR de groupe AB Rh+",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "CGR de groupe 0 Rh-",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "CGR de groupe AB Rh-",
+          "correct": true
+        }
+      ],
+      "explanation": "Un receveur AB Rh- est receveur universel pour les antigènes ABO (il n'a pas d'anticorps anti-A ou anti-B). Il peut donc recevoir des CGR de groupe A, B, AB ou 0. Cependant, étant Rh-, il ne doit pas recevoir de CGR Rh+ sauf en urgence vitale et non immunisé. Les options A et C sont Rh+ et donc à éviter. Les options B (B Rh-), D (0 Rh-) et E (AB Rh-) sont compatibles."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences immédiates d'une hémolyse intravasculaire massive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération d'hémoglobine libre toxique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation de la coagulation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "État de choc.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la tension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution du risque de CIVD.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémolyse intravasculaire massive entraîne la libération d'hémoglobine libre toxique (pouvant causer une insuffisance rénale aiguë), l'activation de la coagulation (CIVD) et un état de choc."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le principal facteur déterminant la compatibilité Rhésus D pour la transfusion de CGR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'anticorps anti-A chez le receveur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La présence d'anticorps anti-B chez le receveur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La présence de l'antigène D sur les hématies du donneur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence d'anticorps anti-D naturels chez le receveur.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence d'anticorps anti-D immuns chez le donneur.",
+          "correct": false
+        }
+      ],
+      "explanation": "La compatibilité Rhésus D pour les CGR est déterminée par la présence de l'antigène D sur les hématies du donneur. On ne transfuse jamais de CGR Rh+ (présence de l'antigène D) à un receveur Rh- (absence de l'antigène D) pour éviter l'immunisation."
+    }
+  ]
+}

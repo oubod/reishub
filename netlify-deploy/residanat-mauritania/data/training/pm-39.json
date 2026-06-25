@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-39",
+  "title": "Leucémies",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la caractéristique principale d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une prolifération clonale de cellules sanguines matures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une expansion clonale de précurseurs des cellules sanguines bloqués à un stade précoce de différenciation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution globale de toutes les lignées sanguines matures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation des lymphocytes matures dans le sang périphérique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une infiltration de la moelle osseuse par des cellules non hématopoïétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La leucémie aiguë est caractérisée par l'expansion clonale dans la moelle osseuse de précurseurs des cellules sanguines bloqués à un stade précoce de différenciation, appelés blastes."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les propositions suivantes, laquelle est une localisation clinique fréquente de la leucémie aiguë lymphoblastique (LAL) chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertrophie gingivale blastique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des douleurs osseuses prédominant aux diaphyses proximales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un chlorome orbitaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une anesthésie de la houppe mentonnière.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un syndrome de leucostase avec détresse respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les douleurs osseuses, prédominant aux diaphyses proximales avec présence de bandes claires métaphysaires à la radiographie, sont une localisation particulière de la LAL de l'enfant."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de blastes médullaires requis pour le diagnostic morphologique d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 5% et 10%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Entre 10% et 19%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Égal ou supérieur à 20%",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Égal ou supérieur à 50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic morphologique d'une leucémie aiguë est posé lorsque le myélogramme révèle au moins 20% de blastes."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale complication hémorragique souvent associée aux leucémies aiguës, en particulier la LAM promyélocytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une thrombose veineuse profonde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une anémie hémolytique auto-immune.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une coagulation intravasculaire disséminée (CIVD).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperviscosité sanguine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une aplasie médullaire isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une coagulation intravasculaire disséminée (CIVD) est souvent présente dans les LA promyélocytaires et les LA très hyperleucocytaires, représentant un risque hémorragique majeur."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'âge médian de survenue de la leucémie aiguë myéloblastique (LAM) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "25 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "40 ans",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "65 ans",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "80 ans",
+          "correct": false
+        }
+      ],
+      "explanation": "La leucémie aiguë myéloblastique survient surtout chez le sujet âgé, avec une médiane de 65 ans."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs étiologiques reconnus pour les leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'exposition aux radiations ionisantes, spécifiquement pour la LAL.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Certaines chimiothérapies, comme les agents alkylants ou les inhibiteurs de topoisomérase II.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'acutisation d'un syndrome myéloprolifératif ou myélodysplasique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des facteurs génétiques comme la trisomie 21 ou la maladie de Fanconi.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'exposition aux hydrocarbures benzéniques, spécifiquement pour la LAL.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les chimiothérapies (agents alkylants, inhibiteurs de topoisomérase II), l'acutisation de syndromes myéloprolifératifs ou myélodysplasiques, et des facteurs génétiques (trisomie 21, maladie de Fanconi) sont des facteurs étiologiques. L'exposition aux radiations ionisantes et aux hydrocarbures benzéniques est spécifiquement mentionnée pour la LAM, pas la LAL."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques possibles d'un syndrome d'insuffisance médullaire dans le cadre d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un syndrome anémique d'installation rapide et souvent mal toléré.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des signes infectieux liés à une neutropénie, comme une angine ulcéro-nécrotique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome hémorragique dû à une thrombopénie, pouvant inclure un purpura.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une splénomégalie isolée sans autre signe.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperleucocytose majeure supérieure à 100 G/L.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome d'insuffisance médullaire se manifeste par un syndrome anémique, des signes infectieux (neutropénie) et un syndrome hémorragique (thrombopénie). La splénomégalie fait partie du syndrome tumoral, et l'hyperleucocytose majeure est liée au syndrome de leucostase."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques morphologiques des blastes observés au myélogramme dans les leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les blastes de la LAL sont généralement de grande taille avec un cytoplasme abondant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les blastes de la LAM contiennent souvent quelques granulations.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence de corps d'Auer est caractéristique des blastes lymphoïdes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les corps d'Auer sont des bâtonnets rouges azurophiles intra-cytoplasmiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La moelle osseuse est le plus souvent pauvre en cellules et riche en mégacaryocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les blastes de la LAM contiennent souvent quelques granulations, et les corps d'Auer (bâtonnets rouges azurophiles intra-cytoplasmiques) sont caractéristiques des blastes myéloïdes. Les blastes de la LAL sont de taille petite ou moyenne avec un cytoplasme peu abondant. La moelle est le plus souvent richement cellulaire et pauvre en mégacaryocytes."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs d'immunophénotypage typiques des lignées myéloïde et lymphoïde B ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "CD13+ et CD33+ pour la lignée myéloïde.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "CD3+ et CD5+ pour la lignée lymphoïde B.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "CD19+, CD20+ et CD79a+ pour la lignée myéloïde.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "CD13+ et CD33+ pour la lignée lymphoïde B.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "CD19+, CD20+ et CD79a+ pour la lignée lymphoïde B.",
+          "correct": true
+        }
+      ],
+      "explanation": "La lignée myéloïde est caractérisée par CD13+ et CD33+. La lignée lymphoïde B est caractérisée par CD19+, CD20+ et CD79a+. CD3+ et CD5+ sont des marqueurs de la lignée T."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments font partie du bilan métabolique à réaliser lors du diagnostic d'une leucémie aiguë, en lien avec le syndrome de lyse cellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation des LDH.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyperuricémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypokaliémie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hyperphosphorémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypercalcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de lyse cellulaire se manifeste par une augmentation des LDH, une hyperuricémie, une hyperkaliémie (pas hypokaliémie), une hyperphosphorémie et une hypocalcémie (pas hypercalcémie)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations une ponction lombaire est-elle indiquée ou discutée lors de la prise en charge d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique en cas de LAM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est systématique en cas de LAL.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est discutée en cas de LAM 3, LAM 4 ou LAM 5.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est indiquée si la blastose est supérieure à 100 G/L, quelle que soit la forme de LAM.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle doit être réalisée avant toute correction des troubles de l'hémostase.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ponction lombaire est systématique en cas de LAL. Pour les LAM, elle est discutée sur signe d'appel ou si LAM3, LAM4 ou LAM5, ou si blastose > 100 G/L. Elle doit être réalisée après correction des troubles de l'hémostase."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la LAM 3 promyélocytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est associée à une translocation t(15;17).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle se présente généralement avec une hyperleucocytose majeure.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La CIVD est très fréquemment associée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le traitement d'urgence inclut l'acide tout-trans-rétinoïque (ATRA).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est généralement de mauvais pronostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "La LAM 3 promyélocytaire est associée à la t(15;17), la CIVD est très fréquente, et l'ATRA est un traitement d'urgence. Elle se présente généralement avec une pancytopénie et peu de blastes périphériques, et est de bon pronostic."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs pronostiques défavorables pour la leucémie aiguë myéloblastique (LAM) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une translocation (15;17).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un caryotype normal.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un caryotype complexe.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une anomalie des chromosomes 5 et 7.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une inversion (16).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs pronostiques défavorables pour la LAM incluent un caryotype complexe et une anomalie des chromosomes 5 et 7. La t(15;17) et l'inv(16) sont des cytogénétiques favorables. Un caryotype normal est intermédiaire."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements spécifiques utilisés dans la poly-chimiothérapie des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les anthracyclines et la cytarabine sont utilisées pour les LAM et LAL.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La vincristine est un traitement spécifique de la LAM.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'asparaginase est utilisée dans la LAL.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le méthotrexate est administré uniquement par voie orale dans la LAL.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La corticothérapie est un traitement spécifique de la LAM.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anthracyclines et la cytarabine sont utilisées pour les LAM et LAL. La vincristine, l'asparaginase, le méthotrexate (IV, intra-thécale) et la corticothérapie sont des traitements spécifiques de la LAL."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la phase d'induction du traitement des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle consiste en une chimiothérapie intensive sur 5 à 7 jours.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle entraîne une aplasie médullaire d'environ 2 à 3 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle vise à obtenir une rémission complète avec moins de 5% de blastes médullaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle élimine totalement les cellules leucémiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle inclut systématiquement une prophylaxie neuro-méningée pour toutes les formes de leucémie aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase d'induction est une chimiothérapie intensive sur 5 à 7 jours, entraînant une aplasie de 2 à 3 semaines et visant une rémission (blastes médullaires < 5%). Elle ne garantit pas l'élimination totale des cellules leucémiques. La prophylaxie neuro-méningée est surtout pour la LAL."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères de rémission complète après traitement d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un nombre de polynucléaires neutrophiles (PNN) inférieur à 1 G/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un nombre de plaquettes supérieur à 100 G/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absence de blastes sanguins.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Moins de 5% de blastes médullaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une absence totale de cellules leucémiques résiduelles.",
+          "correct": false
+        }
+      ],
+      "explanation": "La rémission complète est définie par des PNN > 1 G/L, des plaquettes > 100 G/L, l'absence de blastes sanguins et moins de 5% de blastes médullaires. L'absence totale de cellules leucémiques résiduelles n'est pas un critère de rémission complète, mais plutôt de guérison à long terme."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de support transfusionnel recommandées dans la prise en charge des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de concentrés de globules rouges (CGR) si l'anémie est mal tolérée ou l'hémoglobine est inférieure à 7 g/dl.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transfusion de concentrés de plaquettes (CPA) si le patient présente un syndrome hémorragique ou des plaquettes inférieures à 20 G/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfusion de CGR en cas de leucostase pour améliorer l'oxygénation.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Transfusion de CPA uniquement en cas de saignement actif, quel que soit le taux de plaquettes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Transfusion de CGR systématique dès le diagnostic, même en l'absence de symptômes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La transfusion de CGR est indiquée si l'anémie est mal tolérée, < 7 g/dl ou chez un patient coronarien. La transfusion de CPA est indiquée en cas de syndrome hémorragique ou si les plaquettes sont < 20 G/L. La transfusion de CGR est contre-indiquée en cas de leucostase car elle majore l'hyperviscosité sanguine."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures préventives du risque infectieux chez un patient atteint de leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Décontamination digestive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alimentation stérile.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Isolement en chambre à flux ou en pression positive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration systématique de G-CSF pour toutes les formes de leucémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Antibiothérapie prophylactique à large spectre dès le diagnostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures préventives incluent la décontamination digestive, l'alimentation stérile et l'isolement (chambre à flux ou pression positive). Le G-CSF est surtout pour les LAL, et l'antibiothérapie est curative en cas de fièvre, pas systématiquement préventive à large spectre."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques épidémiologiques des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La leucémie aiguë myéloblastique (LAM) est plus fréquente chez l'enfant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La leucémie aiguë lymphoblastique (LAL) représente 80% des cancers pédiatriques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La LAL est rare chez l'adulte de plus de 50-60 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La LAM voit sa fréquence augmenter avec l'âge.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La LAL est la forme la plus fréquente de leucémie aiguë chez l'adulte.",
+          "correct": false
+        }
+      ],
+      "explanation": "La LAM est surtout chez le sujet âgé et sa fréquence augmente avec l'âge. La LAL est surtout chez l'enfant (80% des LAL, 1/3 des cancers pédiatriques) ou chez l'adulte > 50-60 ans. La LAL ne représente pas 80% des cancers pédiatriques, mais 80% des LAL surviennent chez l'enfant. Le texte ne dit pas que la LAL est la plus fréquente chez l'adulte."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification OMS 2008, quelles sont les catégories de leucémie aiguë myéloblastique (LAM) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LAM avec anomalie cytogénétique récurrente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "LAM avec dysplasie multi-lignée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "LAM secondaire à une chimiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "LAM de type Burkitt.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "LAM à promyélocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La classification OMS 2008 des LAM inclut les LAM avec anomalie cytogénétique récurrente, les LAM avec dysplasie multi-lignée, les LAM secondaires à une chimiothérapie et les LAM d'autre type. La LAM de type Burkitt n'existe pas, c'est une LAL. La LAM à promyélocytes est un sous-type de la classification FAB et peut faire partie des LAM avec anomalie cytogénétique récurrente (t(15;17))."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les localisations particulières de la LAM monoblastique (LAM5) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte testiculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Masse médiastinale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Localisation cutanée (leucémide).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertrophie gingivale blastique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleurs osseuses aux diaphyses proximales.",
+          "correct": false
+        }
+      ],
+      "explanation": "La LAM monoblastique (LAM5) peut présenter des localisations cutanées (leucémide) et une hypertrophie gingivale blastique. L'atteinte testiculaire et les douleurs osseuses sont associées à la LAL, et la masse médiastinale à la LAL T."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les anomalies cytogénétiques de bon pronostic pour la LAM selon la classification OMS ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La translocation t(15;17).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La translocation t(8;21).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'inversion du chromosome 16.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les anomalies du gène MLL.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un caryotype complexe.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les LAM avec anomalie cytogénétique récurrente, généralement de bon pronostic, incluent la LA promyélocytaire avec t(15;17), la LA myéloblastique avec t(8;21) et la LA myélomonocytaire avec inversion du chromosome 16. Les anomalies du gène MLL et un caryotype complexe sont de mauvais pronostic."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'un syndrome de leucostase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hyperleucocytose majeure supérieure à 100 G/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypoxie réfractaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des troubles de conscience pouvant aller jusqu'au coma.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un purpura étendu.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une angine ulcéro-nécrotique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de leucostase se manifeste cliniquement si l'hyperleucocytose est majeure (> 100 G/L), avec une hypoxie réfractaire, une détresse respiratoire, des troubles de conscience jusqu'au coma et des convulsions. Le purpura et l'angine ulcéro-nécrotique sont des signes d'insuffisance médullaire."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan pré-thérapeutique à réaliser avant d'initier le traitement d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un TDM thoraco-abdomino-pelvien systématique pour toutes les leucémies.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un bilan cardiaque (ECG, ETT) avant l'administration d'anthracyclines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un groupage sanguin étendu et une recherche d'agglutinines irrégulières (RAI).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des sérologies VIH, VHB, VHC, CMV, HTLV1, EBV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un prélèvement CECOS de sperme chez l'homme, si éligible.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan pré-thérapeutique inclut un bilan cardiaque avant anthracyclines, un groupage sanguin étendu et RAI, des sérologies virales (VIH, VHB, VHC, CMV, HTLV1, EBV), et un prélèvement CECOS de sperme chez l'homme. Le TDM thoraco-abdomino-pelvien est indiqué si LAL avec syndrome tumoral, pas systématique pour toutes les leucémies."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la LAL à chromosome Philadelphie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est associée à une translocation t(9;22).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est de type T.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est plus fréquente chez l'enfant que chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est associée au gène chimérique BCR-ABL.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Son traitement spécifique inclut les inhibiteurs de tyrosine-kinase.",
+          "correct": true
+        }
+      ],
+      "explanation": "La LAL à chromosome Philadelphie est une LAL B associée à la t(9;22) et au gène chimérique BCR-ABL. Elle représente 30% des LAL de l'adulte et 5% des LAL de l'enfant, donc plus fréquente chez l'adulte. Son traitement spécifique inclut les inhibiteurs de tyrosine-kinase."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient de 70 ans est diagnostiqué avec une leucémie aiguë myéloblastique. Quelles affirmations concernant sa prise en charge et son pronostic sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge supérieur à 60 ans est un facteur pronostique favorable.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une chimiothérapie intensive n'est généralement pas envisageable chez les patients de plus de 75 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement symptomatique seul peut prolonger nettement le délai de survie chez les patients âgés non éligibles à la chimiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les LAM du sujet âgé sont fréquemment associées à des myélodysplasies et des anomalies caryotypiques complexes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les LAM du sujet âgé sont généralement plus chimio-sensibles.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'âge > 60 ans est un facteur pronostique défavorable. La chimiothérapie intensive n'est pas envisageable chez les patients > 75 ans, pour qui le traitement symptomatique seul prolonge la survie. Les LAM du sujet âgé sont fréquemment associées à des myélodysplasies et des anomalies caryotypiques complexes, et sont généralement moins chimio-sensibles."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant les facteurs étiologiques des leucémies aiguës, quelles sont les associations correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les agents alkylants peuvent induire une LAM jusqu'à 2 ans après administration.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les inhibiteurs de topoisomérase II peuvent induire une LAM jusqu'à 5-7 ans après administration.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le virus HTLV1 est associé à la leucémie-lymphome T.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le virus EBV est associé à la leucémie de type Burkitt.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'exposition aux hydrocarbures benzéniques est un facteur de risque de LAM.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les agents alkylants peuvent induire une LAM jusqu'à 5-7 ans après, et les inhibiteurs de topoisomérase II jusqu'à 2 ans après. Le HTLV1 est associé à la leucémie-lymphome T, l'EBV à la leucémie type Burkitt, et les hydrocarbures benzéniques sont un facteur de risque de LAM."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un enfant de 8 ans est diagnostiqué avec une LAL. Quels facteurs pronostiques sont considérés comme favorables dans ce contexte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge inférieur à 1 an.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperdiploïdie (> 50 chromosomes).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence du marqueur CD10+.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une translocation t(4;11).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une atteinte neuro-méningée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la LAL de l'enfant, les facteurs de bon pronostic sont l'hyperdiploïdie (> 50 chromosomes), la présence de CD10+ et la t(12;21). Un âge < 1 an ou > 10 ans, une hypodiploïdie (< 45), la t(4;11) et une atteinte neuro-méningée sont de mauvais pronostic."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant le traitement de la leucémie aiguë, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La radiothérapie neuro-méningée est systématiquement prophylactique pour toutes les LAL de l'enfant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La greffe allogénique de cellules souches hématopoïétiques est une option curative par réaction anti-leucémique du greffon.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La mortalité toxique de la greffe allogénique est élevée (15%) et la rend inenvisageable chez les sujets âgés.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'acide tout-trans-rétinoïque (ATRA) est indiqué en première intention pour toutes les LAM.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les inhibiteurs de tyrosine-kinase sont utilisés dans les LAL avec chromosome Philadelphie.",
+          "correct": true
+        }
+      ],
+      "explanation": "La greffe allogénique est curative mais avec une mortalité toxique élevée (15%), la rendant inenvisageable chez les sujets âgés. Les inhibiteurs de tyrosine-kinase sont spécifiques des LAL avec chromosome Philadelphie. L'ATRA est indiqué spécifiquement pour la LAM 3 promyélocytaire, pas toutes les LAM. La radiothérapie neuro-méningée prophylactique est pour la LAL de l'adulte ou LAM 5, pas systématiquement pour toutes les LAL de l'enfant."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement par ATRA pour une LAM 3 développe une fièvre, une hyperleucocytose et un infiltrat pulmonaire. Quelle est la conduite à tenir appropriée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit probablement d'une infection nosocomiale nécessitant une antibiothérapie à large spectre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ces signes sont évocateurs d'un syndrome d'activation leucocytaire (ATRA syndrome).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement par ATRA doit être immédiatement arrêté et remplacé par une chimiothérapie intensive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome d'activation leucocytaire est une complication grave nécessitant une prise en charge spécifique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une insuffisance rénale et une rétention hydrosodée peuvent également faire partie de ce syndrome.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fièvre, l'hyperleucocytose et l'infiltrat pulmonaire chez un patient sous ATRA sont évocateurs d'un syndrome d'activation leucocytaire (ATRA syndrome), qui est une complication grave nécessitant une prise en charge spécifique. L'insuffisance rénale et la rétention hydrosodée sont également des manifestations possibles. Le texte ne dit pas d'arrêter l'ATRA, mais de gérer le syndrome."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la phase de consolidation du traitement des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle vise à réduire le nombre de cellules leucémiques résiduelles après la rémission complète.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle implique des traitements intensifs nécessitant de longs séjours à l'hôpital.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez l'adulte (hors forme de bon pronostic), une allogreffe est souvent réalisée en première rémission.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez l'enfant, une allogreffe est systématiquement réalisée d'emblée, quel que soit le pronostic.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est suivie d'une phase d'entretien de courte durée (quelques semaines).",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase de consolidation vise à réduire les cellules résiduelles par des traitements intensifs. Chez l'adulte (hors bon pronostic), l'allogreffe est souvent en 1ère rémission. Chez l'enfant, l'allogreffe est envisagée d'emblée si mauvais pronostic ou en cas de rechute, pas systématiquement d'emblée. La phase d'entretien dure environ 2 ans."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyperleucocytose majeure (> 100 G/L) avec des signes de leucostase. Quelles mesures thérapeutiques sont appropriées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de concentrés de globules rouges (CGR) pour améliorer l'oxygénation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chimiothérapie en urgence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Oxygénothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Échanges plasmatiques peuvent être envisagés.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administration d'allopurinol pour prévenir le syndrome de lyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de leucostase, la chimiothérapie en urgence, l'oxygénothérapie et les échanges plasmatiques sont appropriés. La transfusion de CGR est contre-indiquée car elle majore l'hyperviscosité sanguine. L'allopurinol est pour le syndrome de lyse, qui peut être associé mais n'est pas le traitement direct de la leucostase."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la leucémie de type Burkitt ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une forme de LAM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent associée à un syndrome de lyse tumoral majeur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est de bon pronostic une fois le syndrome de lyse traité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est associée au virus HTLV1.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par une translocation t(9;22).",
+          "correct": false
+        }
+      ],
+      "explanation": "La leucémie de type Burkitt est une phase leucémique du lymphome de Burkitt (donc une LAL), souvent associée à un syndrome de lyse tumoral majeur. Elle est de bon pronostic une fois le syndrome de lyse traité. Elle est associée au virus EBV, pas HTLV1, et n'est pas caractérisée par la t(9;22)."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la biopsie ostéo-médullaire (BOM) dans le diagnostic des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est systématique pour confirmer le diagnostic après le myélogramme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est inutile si le myélogramme est réalisable.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est indiquée si le myélogramme est impossible à réaliser.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est utile en cas de leucémie aiguë avec myélofibrose associée, notamment la LAM7.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est nécessaire pour l'immunophénotypage des blastes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La BOM est inutile si le myélogramme est réalisable. Elle est indiquée si le myélogramme est impossible ou en cas de LA avec myélofibrose associée (LAM7 surtout). L'immunophénotypage se fait sur les blastes du myélogramme ou circulants."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du diagnostic différentiel des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome mononucléosique de l'adolescent, qui peut présenter une hyperleucocytose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome myélodysplasique, caractérisé par une blastose médullaire et sanguine inférieure à 20%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La leucémie myéloïde chronique (LMC) en phase chronique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une aplasie médullaire sévère.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une réaction leucémoïde.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels mentionnés sont le syndrome mononucléosique de l'adolescent (asthénie, poly-ADP, angine fébrile, hyperleucocytose) et le syndrome myélodysplasique (blastose médullaire et sanguine < 20%). Les autres options ne sont pas mentionnées comme DD directs dans le texte."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la leucémie aiguë lymphoblastique (LAL) de l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le pronostic global est généralement meilleur que celui de la LAL de l'enfant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pronostic est meilleur en cas de translocation t(9;22).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 80% des adultes jeunes atteignent une rémission complète.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le taux de guérison est d'environ 20 à 30%.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'allogreffe peut augmenter le taux de guérison jusqu'à 50%.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pronostic global de la LAL de l'adulte est moins bon que celui de l'enfant. Un pronostic est meilleur si t(9;22). Environ 80% des adultes jeunes atteignent une rémission complète, mais le taux de guérison est seulement de 20 à 30%, pouvant atteindre 50% avec une allogreffe."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs pronostiques de mauvais augure pour la leucémie aiguë lymphoblastique (LAL) de l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un âge inférieur à 1 an ou supérieur à 10 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypodiploïdie (< 45 chromosomes).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une translocation t(12;21).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une atteinte neuro-méningée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence du marqueur CD10+.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de mauvais pronostic pour la LAL de l'enfant sont l'âge < 1 an et > 10 ans, l'hypodiploïdie (< 45 chromosomes), la t(4;11) et l'atteinte neuro-méningée. La t(12;21) et CD10+ sont de bon pronostic."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications pour l'administration de G-CSF et les antibiotiques en cas de fièvre chez un patient neutropénique atteint de leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le G-CSF est recommandé pour toutes les formes de leucémie aiguë.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'antibiothérapie initiale en cas de fièvre doit inclure une β-lactamine à large spectre ± aminoside.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La vancomycine est ajoutée si une porte d'entrée cutanée est suspectée (cathéter, mucite sévère).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un macrolide ou une fluoroquinolone est indiqué en cas de point d'appel pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La caspofungine est administrée systématiquement dès le début de la neutropénie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le G-CSF est surtout pour les LAL. L'antibiothérapie initiale inclut une β-lactamine à large spectre ± aminoside. La vancomycine est ajoutée si porte d'entrée cutanée. Un macrolide ou une fluoroquinolone est indiqué si point d'appel pulmonaire. La caspofungine est administrée après 7 jours de neutropénie ou en cas d'infection mycotique, pas systématiquement dès le début."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la LAM secondaire à une chimiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente 30% des LAM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est généralement de bon pronostic.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est associée à des anomalies cytogénétiques récurrentes spécifiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est de mauvais pronostic.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle peut être associée à des réarrangements MLL.",
+          "correct": true
+        }
+      ],
+      "explanation": "La LAM secondaire à une chimiothérapie représente 10-15% des LAM et est de mauvais pronostic. Elle peut être associée à des caryotypes complexes, y compris des réarrangements MLL. Les LAM avec anomalie cytogénétique récurrente sont une autre catégorie de LAM OMS, généralement de bon pronostic."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint de LAL présente une masse médiastinale. Quelles sont les implications de cette découverte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cette localisation est typique des LAL de type B.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle peut entraîner une compression de la veine cave supérieure (VCS).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut provoquer une compression trachéale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent associée à un épanchement pleural.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est un signe de bon pronostic.",
+          "correct": false
+        }
+      ],
+      "explanation": "La masse médiastinale est une localisation particulière de la LAL T, pouvant entraîner une compression (VCS, trachée) et un épanchement pleural. Le texte ne mentionne pas que c'est un signe de bon pronostic."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la leucémie aiguë myéloblastique (LAM) avec dysplasie multi-lignée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente 30% des LAM.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est de pronostic péjoratif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est caractérisée par des anomalies morphologiques des cellules myéloïdes en dehors des blastes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est généralement associée à des anomalies cytogénétiques récurrentes de bon pronostic.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est souvent associée à une anémie modérément macrocytaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La LAM avec dysplasie multi-lignée représente 10-15% des LAM, est de pronostic péjoratif et est caractérisée par des anomalies morphologiques des cellules myéloïdes en dehors des blastes. Elle est souvent associée à une anémie modérément macrocytaire. Les anomalies cytogénétiques récurrentes sont une autre catégorie de LAM OMS, généralement de bon pronostic."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prise en charge du syndrome de lyse tumorale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperhydratation par sérum salé isotonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Administration d'hypo-uricémiants comme la rasburicase ou l'allopurinol.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfusion de concentrés de globules rouges en urgence.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie intensive en urgence.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Correction de l'hyperkaliémie et de l'hypocalcémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge du syndrome de lyse tumorale inclut l'hyperhydratation par sérum salé isotonique et l'administration d'hypo-uricémiants (rasburicase, allopurinol). La correction des troubles hydro-électrolytiques (hyperkaliémie, hypocalcémie) est une conséquence de la lyse, mais les mesures principales sont l'hyperhydratation et les hypo-uricémiants. La transfusion de CGR est contre-indiquée en cas de leucostase, et la chimiothérapie est le traitement de la leucémie, pas directement du syndrome de lyse en tant que tel, bien qu'elle puisse le déclencher ou le résoudre."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la leucémie aiguë lymphoblastique (LAL) de type T ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente 85% des LAL.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par l'expression des antigènes CD3+ et CD5+.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent associée à une masse médiastinale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est plus fréquente chez l'enfant que chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est de meilleur pronostic que la LAL de type B.",
+          "correct": false
+        }
+      ],
+      "explanation": "La LAL de type T représente 10-15% des LAL (la LAL B représente 85%). Elle est caractérisée par l'expression des antigènes CD3+ et CD5+. Elle est souvent associée à une masse médiastinale. Le texte ne compare pas directement le pronostic des LAL T et B, mais la masse médiastinale est une complication."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la neutropénie et de la thrombopénie dans les leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La neutropénie est fréquente, souvent inférieure à 1,5 G/L, voire une agranulocytose d'emblée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La thrombopénie est rare, généralement supérieure à 50 G/L.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La neutropénie est un facteur de risque majeur de complications infectieuses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La thrombopénie peut être aggravée par une CIVD, augmentant le risque hémorragique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La neutropénie est toujours associée à une hyperleucocytose.",
+          "correct": false
+        }
+      ],
+      "explanation": "La neutropénie est fréquente (< 1,5 G/L, voire agranulocytose) et est un facteur de risque infectieux. La thrombopénie est très fréquente, parfois < 10 G/L, et peut être aggravée par une CIVD. La neutropénie n'est pas toujours associée à une hyperleucocytose; une leucopénie est également possible."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la radiothérapie dans le traitement des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Irradiation neuro-méningée prophylactique pour la LAL de l'adulte.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Irradiation neuro-méningée prophylactique pour la LAM 5.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Irradiation corporelle totale en préparation aux greffes de cellules souches hématopoïétiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Radiothérapie curative pour les chloromes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Radiothérapie systématique pour toutes les localisations extra-médullaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "La radiothérapie neuro-méningée est prophylactique pour la LAL de l'adulte ou la LAM 5, ou curative. L'irradiation corporelle totale est utilisée en préparation aux greffes de cellules souches hématopoïétiques. Le texte ne mentionne pas la radiothérapie curative pour les chloromes spécifiquement, ni systématique pour toutes les localisations extra-médullaires."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la leucémie aiguë myéloblastique (LAM) post-chimio-radiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement de bon pronostic.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent associée à un caryotype complexe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut présenter des réarrangements du gène MLL.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est classée dans la catégorie des LAM avec anomalie cytogénétique récurrente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle représente la majorité des cas de LAM.",
+          "correct": false
+        }
+      ],
+      "explanation": "La LAM post-chimio-radiothérapie est de mauvais pronostic, souvent associée à un caryotype complexe et peut présenter des réarrangements MLL. Elle fait partie des LAM secondaires à une chimiothérapie, qui sont de mauvais pronostic, et non des LAM avec anomalie cytogénétique récurrente (qui sont de bon pronostic). Elle représente 10-15% des LAM, pas la majorité."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à surveiller dans le bilan d'hémostase, et leurs implications, lors de la prise en charge d'une leucémie aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le TP, le TCA, les D-Dimères, le fibrinogène et les complexes solubles sont indispensables.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La recherche d'une CIVD est cruciale, surtout dans les LA promyélocytaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une CIVD est un risque hémorragique majeur, particulièrement au début de la chimiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une CIVD est toujours associée à une hyperleucocytose majeure.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les troubles de l'hémostase doivent être corrigés avant toute ponction lombaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan d'hémostase (TP, TCA, D-Dimères, fibrinogène, complexes solubles) est indispensable pour rechercher une CIVD, fréquente dans les LA promyélocytaires et hyperleucocytaires. La CIVD est un risque hémorragique majeur, surtout au début de la chimiothérapie. Les troubles de l'hémostase doivent être corrigés avant une ponction lombaire. La CIVD est souvent présente dans les LA promyélocytaires et les LA très hyperleucocytaires, mais pas toujours associée à une hyperleucocytose majeure."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la phase d'entretien du traitement des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est principalement utilisée pour les LAM, à l'exception des LAM promyélocytaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle consiste en un traitement oral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa durée est d'environ 2 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle vise à prévenir les rechutes à long terme.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est systématiquement suivie d'une allogreffe.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase d'entretien est surtout pour les LAL et les LA promyélocytaires, consiste en un traitement oral pendant environ 2 ans, et vise à prévenir les rechutes. Elle n'est pas systématiquement suivie d'une allogreffe."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations exactes concernant les résultats du traitement des leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La LAL de l'enfant a un taux de rémission complète de 90% et un taux de guérison supérieur à 70%.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La LAL de l'adulte jeune a un taux de rémission complète de 80%, mais un taux de guérison plus faible.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le taux de guérison de la LAM est de 70%, sauf pour la LAM 3.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La rechute survient le plus souvent après 5 ans de rémission.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une rémission prolongée est définie par l'absence de rechute à 5 ans.",
+          "correct": true
+        }
+      ],
+      "explanation": "La LAL de l'enfant a 90% de RC et > 70% de guérison. La LAL de l'adulte jeune a 80% de RC, mais seulement 20-30% de guérison. Le taux de guérison de la LAM est de 30-40% (sauf LAM 3 > 95%). La rechute survient le plus souvent dans les 2 premières années de rémission. La rémission prolongée (guérison) est l'absence de rechute à 5 ans."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'anémie dans les leucémies aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est quasi-constante et parfois sévère (< 5 g/dl).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est toujours macrocytaire et régénérative.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est normocytaire ou modérément macrocytaire, surtout dans les LAM avec dysplasie multi-lignée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est non régénérative.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours bien tolérée au début de la maladie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie est quasi-constante, parfois sévère (< 5 g/dl). Elle est normocytaire ou modérément macrocytaire (surtout LAM avec dysplasie multi-lignée) et non régénérative. Elle est souvent mal tolérée, surtout si d'installation rapide."
+    }
+  ]
+}

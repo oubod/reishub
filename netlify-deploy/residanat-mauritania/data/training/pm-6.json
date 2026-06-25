@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-6",
+  "title": "Les valvulopathies",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la valvulopathie la plus fréquente, caractérisée par une obstruction à l'éjection du ventricule gauche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insuffisance mitrale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le rétrécissement aortique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insuffisance aortique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le rétrécissement mitral",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrécissement aortique est décrit comme la valvulopathie la plus fréquente, caractérisée par une obstruction à l’éjection du ventricule gauche."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les étiologies suivantes du rétrécissement aortique, laquelle est la plus fréquente chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La bicuspidie aortique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La maladie de Monckeberg",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le rhumatisme articulaire aigu",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La malformation sous-valvulaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrécissement aortique dégénératif, ou RA calcifié (maladie de Monckeberg), est la cause la plus fréquente, surtout chez le sujet âgé."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel symptôme est formellement contre-indiqué pour la réalisation d'une épreuve d'effort en cas de rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un angor d'effort",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dyspnée d'effort",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une syncope d'effort",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un rétrécissement aortique symptomatique",
+          "correct": true
+        }
+      ],
+      "explanation": "L’épreuve d’effort est formellement contre-indiquée en cas de rétrécissement aortique symptomatique."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type de souffle caractéristique d'un rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Holosystolique, en jet de vapeur",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protodiastolique, decrescendo",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Méso-systolique, crescendo puis decrescendo",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mésodiastolique, roulement",
+          "correct": false
+        }
+      ],
+      "explanation": "Le souffle de rétrécissement aortique est méso-systolique, crescendo puis decrescendo, avec un timbre dur et râpeux."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la deuxième valvulopathie la plus fréquente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le rétrécissement aortique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'insuffisance mitrale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insuffisance aortique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le rétrécissement mitral",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance mitrale est la 2ème valvulopathie la plus fréquente."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le signe caractéristique d'une endocardite infectieuse comme étiologie d'une insuffisance mitrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dilatation de l'anneau mitral",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une rupture de pilier",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La présence de végétations",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une rétraction des valves",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'endocardite, le signe caractéristique est la présence de végétations."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type de souffle caractéristique d'une insuffisance mitrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méso-systolique, crescendo-decrescendo",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Protodiastolique, doux et aspiratif",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Holosystolique, en jet de vapeur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mésodiastolique, roulement",
+          "correct": false
+        }
+      ],
+      "explanation": "Le souffle d'insuffisance mitrale est holosystolique, en jet de vapeur, maximal à la pointe."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme principal de l'insuffisance aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une obstruction à l'éjection du ventricule gauche",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une régurgitation diastolique dans le ventricule gauche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une surcharge systolique pure du ventricule gauche",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation de l'oreillette gauche",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance aortique est définie comme une régurgitation diastolique dans le ventricule gauche d’une fraction du volume sanguin éjecté dans l’aorte."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type de souffle caractéristique d'une insuffisance aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Méso-systolique, crescendo-decrescendo",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Holosystolique, en jet de vapeur",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Protodiastolique, decrescendo",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Mésodiastolique, roulement",
+          "correct": false
+        }
+      ],
+      "explanation": "Le souffle d'insuffisance aortique est protodiastolique, decrescendo durant la diastole, avec un timbre doux, humé, aspiratif."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la cause la plus fréquente d'insuffisance aortique chronique dans les pays développés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'endocardite infectieuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La maladie annulo-ectasiante",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le rhumatisme articulaire aigu",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La bicuspidie aortique",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie annulo-ectasiante est la cause la plus fréquente d'IA chronique dans les pays développés."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal facteur de risque pré-opératoire à considérer pour un remplacement valvulaire en cas d'insuffisance mitrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge du patient",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La présence d'une fibrillation auriculaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La fraction d'éjection du ventricule gauche (FEVG)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diamètre télésystolique du ventricule gauche",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principal facteur de risque pré-opératoire pour un remplacement valvulaire est la FEVG."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de surface aortique pour définir un rétrécissement aortique serré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieure à 2 cm²",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inférieure à 1.5 cm²",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Inférieure à 1 cm²",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inférieure à 0.75 cm²",
+          "correct": false
+        }
+      ],
+      "explanation": "Un rétrécissement aortique est considéré comme serré si la surface aortique est inférieure à 1 cm²."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pronostic d'un rétrécissement aortique serré symptomatique non opéré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excellent, avec une survie moyenne de plus de 10 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Favorable, avec une survie moyenne de 5 à 7 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sévère, avec une survie moyenne de 2 à 4 ans selon les symptômes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Incertain, dépend fortement des comorbidités",
+          "correct": false
+        }
+      ],
+      "explanation": "Tout rétrécissement aortique serré symptomatique non opéré a un pronostic sévère, avec une survie moyenne spontanée de 4 ans si angor, 3 ans si syncope, 2 ans si insuffisance cardiaque."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen est systématiquement réalisé dans le bilan pré-opératoire d'une valvulopathie pour rechercher des foyers infectieux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une coronarographie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un Holter-ECG",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une consultation ORL et stomatologique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une échographie d'effort",
+          "correct": false
+        }
+      ],
+      "explanation": "Une consultation ORL/stomato est systématiquement réalisée pour rechercher des foyers infectieux (panoramique dentaire ± TDM des sinus)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale complication de l'insuffisance mitrale chronique favorisée par la dilatation de l'oreillette gauche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'endocardite infectieuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les troubles du rythme ventriculaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les complications emboliques",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les troubles du rythme auriculaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Les troubles du rythme auriculaire (FA, flutter) sont favorisés par la dilatation de l'oreillette gauche en cas d'IM chronique."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques physiopathologiques du rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une surcharge diastolique pure du ventricule gauche",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypertrophie pariétale concentrique du ventricule gauche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une altération précoce de la diastole",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation du ventricule gauche",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrécissement aortique entraîne une surcharge systolique pure avec adaptation du VG par hypertrophie pariétale concentrique, sans dilatation. Il y a une altération précoce de la diastole."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques auscultatoires pouvant indiquer un rétrécissement aortique serré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un souffle méso-systolique avec maximum plus tardif",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un B2 diminué ou aboli",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un click protosystolique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un galop présystolique (B4)",
+          "correct": false
+        }
+      ],
+      "explanation": "Un souffle méso-systolique avec maximum plus tardif et un B2 diminué ou aboli sont des signes de RA serré. Un click protosystolique est présent si les valves sont souples (RA rhumatismal ou congénital), et un B4 est un galop présystolique."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères échocardiographiques d'un rétrécissement aortique serré ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une surface aortique inférieure à 1 cm²",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une Vmax aortique supérieure à 4 m/s",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un gradient moyen entre le VG et l'aorte supérieur à 40 mmHg",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une FEVG altérée",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de RA serré sont une surface aortique < 1 cm², une Vmax aortique > 4 m/s et un gradient moyen > 40 mmHg. Une FEVG altérée est un signe de retentissement et de mauvais pronostic, mais pas un critère de sévérité du RA lui-même."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour la réalisation d'une échographie transœsophagienne (ETO) dans le cadre d'un rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un patient non échogène",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La mesure de l'anneau aortique avant TAVI",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une suspicion d'endocardite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un rétrécissement aortique serré asymptomatique",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ETO est indiquée si le patient est non échogène, pour la mesure de l'anneau aortique avant TAVI ou en cas de suspicion d'endocardite."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de mauvais pronostic pour un rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une coronaropathie associée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une Vmax aortique supérieure à 4 m/sec",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une FEVG inférieure à 50%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un âge jeune",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de mauvais pronostic incluent une coronaropathie associée, une Vmax aortique > 4 m/sec, une FEVG < 50%, un âge évolué, l'importance des calcifications, l'HTA, le tabac et la dyslipidémie. Un âge jeune n'est pas un facteur de mauvais pronostic."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles du rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mort subite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'insuffisance ventriculaire gauche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'endocardite infectieuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de Heyde",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications du RA incluent la mort subite, l'insuffisance ventriculaire gauche, les troubles du rythme ou de la conduction, l'endocardite infectieuse (rare), l'embolie calcaire systémique (rare) et le syndrome de Heyde (rare)."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de traitement curatif (chirurgical ou TAVI) pour un rétrécissement aortique serré asymptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dysfonction systolique avec FEVG < 50%",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un test d'effort anormal avec apparition de symptômes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une Vmax aortique supérieure à 5,5 m/s",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un BNP élevé",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de traitement curatif pour un RA serré asymptomatique incluent une dysfonction systolique (FEVG < 50%), un test d'effort anormal (symptômes, inadaptabilité PA, arythmie), une Vmax > 5,5 m/s, une valve très calcifiée, une augmentation de la Vmax > 0,3 m/s/an, un BNP élevé, une augmentation du gradient > 20 mmHg à l'échographie d'effort, ou une HVG excessive."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies de l'insuffisance mitrale dystrophique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dégénérescence myxoïde (maladie de Barlow)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dégénérescence fibro-élastique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le rhumatisme articulaire aigu",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'endocardite infectieuse",
+          "correct": false
+        }
+      ],
+      "explanation": "L'IM dystrophique comprend la dégénérescence myxoïde (maladie de Barlow) et la dégénérescence fibro-élastique. Le RAA et l'endocardite sont d'autres étiologies d'IM organique."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques auscultatoires d'une insuffisance mitrale importante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un galop protodiastolique (B3)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un roulement mésodiastolique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un éclat de B2",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un souffle d'insuffisance tricuspide (IT)",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas d'IM importante, on peut retrouver un galop protodiastolique (B3), un roulement mésodiastolique, un éclat de B2 et un souffle d'IT."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification de Carpentier, quels types d'insuffisance mitrale sont associés à un mouvement systolique antérieur de la valve (prolapsus) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Type I",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Type II",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Type III",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Type IV",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Type II de Carpentier correspond à une ou plusieurs valves dépassant le plan de l'anneau, ce qui est le cas de l'IM dystrophique avec prolapsus."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères échocardiographiques d'une insuffisance mitrale sévère (grade III ou IV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un volume régurgité (VR) supérieur à 45 mL",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une surface de l'orifice régurgitant (SOR) supérieure à 30 mm²",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une FEVG surestimée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation de l'oreillette gauche",
+          "correct": false
+        }
+      ],
+      "explanation": "Une IM est importante (grade III) si SOR = 30-40 mm² et VR = 45-60 mL. Elle est massive (grade IV) si SOR > 40 mm² et VR > 60 mL. La FEVG surestimée et la dilatation de l'OG sont des signes de retentissement, pas des critères de grade de la fuite."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de coronarographie dans le bilan pré-opératoire d'une insuffisance mitrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspicion d'IM fonctionnelle liée à une cardiopathie ischémique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Existence d'un angor",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Homme de 40 ans ou plus",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Femme ménopausée",
+          "correct": true
+        }
+      ],
+      "explanation": "La coronarographie est indiquée si suspicion d'IM fonctionnelle liée à une cardiopathie ischémique, angor, homme ≥ 40 ans ou femme ménopausée, ≥ 1 FdRCV ou dysfonction VG systolique."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications de l'insuffisance mitrale chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insuffisance ventriculaire gauche puis globale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les troubles du rythme auriculaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les complications emboliques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'endocardite infectieuse",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications de l'IM chronique incluent l'insuffisance ventriculaire gauche puis globale, les troubles du rythme auriculaire (FA, flutter), les troubles du rythme ventriculaire (plus rares), les complications emboliques et l'endocardite infectieuse."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étiologies de l'insuffisance aortique aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'endocardite infectieuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dissection aortique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La maladie annulo-ectasiante",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La rupture d'anévrisme d'un sinus de Valsalva",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes d'IA aiguë sont l'endocardite infectieuse, la dissection aortique, la rupture d'anévrisme d'un sinus de Valsalva et l'IA traumatique. La maladie annulo-ectasiante est une cause d'IA chronique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes périphériques traduisant une insuffisance aortique volumineuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un élargissement de la pression artérielle différentielle",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hyper-pulsatilité artérielle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un pouls bondissant",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la pression artérielle systolique",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes périphériques d'une IA volumineuse sont l'élargissement de la pression artérielle différentielle, l'hyper-pulsatilité artérielle (pouls bondissant, danse des artères, double souffle fémoral). La PAS est augmentée, pas diminuée."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes électrocardiographiques d'une hypertrophie ventriculaire gauche diastolique, typique de l'insuffisance aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "De grandes ondes S en V1 et V2",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "De grandes ondes R en V5 et V6",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des ondes T négatives en V5-V6",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des ondes q amples en V5-V6",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HVG diastolique se caractérise par de grandes ondes S en V1 et V2, de grandes ondes R en V5 et V6, de grandes ondes T positives et amples en V5-V6, et des ondes q amples en V5-V6."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères échocardiographiques d'une insuffisance aortique sévère (grade IV) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un volume régurgité (VR) supérieur à 60 mL",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une surface de l'orifice régurgitant (SOR) supérieure à 40 mm²",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une FEVG inférieure à 50%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation du VG significative",
+          "correct": false
+        }
+      ],
+      "explanation": "Une IA est sévère (grade IV) si le volume régurgité (VR) est supérieur à 60 mL. La SOR n'est pas spécifiquement gradée pour l'IA dans le texte. La FEVG inférieure à 50% et la dilatation du VG sont des signes de retentissement, pas des critères de grade de la fuite."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de progression d'une insuffisance aortique chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La bicuspidie aortique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La maladie annulo-ectasiante avec anévrisme de l'aorte",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'âge avancé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La présence d'un angor",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de progression sont la bicuspidie et la maladie annulo-ectasiante avec anévrisme de l'aorte. L'âge et l'angor sont des facteurs pronostiques ou des symptômes, mais pas des facteurs de progression de la valvulopathie elle-même."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications chirurgicales pour une insuffisance aortique chronique asymptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une FEVG inférieure ou égale à 50%",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un diamètre télésystolique du VG (DTSVG) supérieur à 50 mm",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un diamètre télédiastolique du VG (DTDVG) supérieur à 70 mm",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation de l'aorte ascendante avec un diamètre aortique supérieur ou égal à 55 mm",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications chirurgicales pour une IA chronique asymptomatique sont une FEVG ≤ 50%, une dilatation du VG significative (DTSVG > 50 mm et/ou DTDVG > 70 mm), ou un anévrisme de l'aorte ascendante avec un diamètre aortique ≥ 55 mm (ou 45-50 mm si Marfan, 50 mm si bicuspidie)."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan pré-opératoire systématique pour une valvulopathie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un Echo-Doppler artériel des troncs supra-aortiques",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une consultation ORL/stomato",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un bilan préopératoire biologique standard",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une coronarographie systématique chez l'homme de 40 ans ou plus",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan pré-opératoire systématique inclut l'Echo-Doppler artériel des troncs supra-aortiques, la consultation ORL/stomato, le bilan préopératoire biologique et prétransfusionnel standard, et la coronarographie systématique si angor, homme ≥ 40 ans, femme ≥ 50 ans ou ménopausée, ≥ 1 FdRCV ou dysfonction VG systolique."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient jeune (30-65 ans) présente un rétrécissement aortique. Quels éléments cliniques ou paracliniques orientent vers une étiologie congénitale de type bicuspidie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des antécédents familiaux de valvulopathie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une association avec une insuffisance aortique et une atteinte mitrale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La présence d'un anévrisme de l'aorte ascendante",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fusion des commissures à l'échographie",
+          "correct": false
+        }
+      ],
+      "explanation": "La bicuspidie est à évoquer chez le patient jeune (30-65 ans), surtout en cas d’antécédents familiaux, et est souvent associée à un anévrisme de l’aorte ascendante. La fusion des commissures est caractéristique du RA post-rhumatismal, souvent associé à une IA et une atteinte mitrale."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le cadre d'un rétrécissement aortique serré avec dysfonction ventriculaire gauche, quelle est l'utilité de l'échographie à la dobutamine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dépister un RA serré asymptomatique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Éliminer un faux RA serré",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rechercher une réserve contractile myocardique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Évaluer l'inadaptabilité de la PA à l'effort",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie à la dobutamine est indiquée si RA serré avec dysfonction VG pour éliminer un faux RA serré et rechercher une réserve contractile myocardique, dont l'absence implique un risque chirurgical majeur. Le dépistage du RA serré asymptomatique et l'évaluation de la PA à l'effort sont réalisés par l'ECG d'effort."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications du TAVI (implantation d'une valve aortique par voie percutanée) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rétrécissement aortique calcifié serré symptomatique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Espérance de vie supérieure à 1 an",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Patient récusé pour chirurgie en raison de comorbidités",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Patient à très haut risque chirurgical (EUROscore > 20%)",
+          "correct": true
+        }
+      ],
+      "explanation": "Le TAVI est indiqué pour un RA calcifié serré symptomatique, avec une espérance de vie > 1 an, chez un patient récusé pour chirurgie (comorbidité) ou à très haut risque chirurgical (EUROscore > 20%)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une insuffisance mitrale aiguë. Quels sont les signes cliniques et les étiologies possibles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un OAP, parfois unilatéral",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un souffle holosystolique apexo-axillaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une rupture de cordage (IM dystrophique, endocardite)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dysfonction ischémique de pilier (postérieur si IVP, antérieur si IVA ou Cx)",
+          "correct": true
+        }
+      ],
+      "explanation": "L'IM aiguë se manifeste par un OAP (parfois unilatéral), un souffle holosystolique apexo-axillaire et un syndrome de rupture. Les étiologies sont toujours organiques : rupture de cordage (IM dystrophique, endocardite, traumatisme), rupture de pilier (IDM, traumatisme), dysfonction ischémique de pilier ou perforation (endocardite)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de traitement chirurgical (plastie ou remplacement valvulaire) pour une insuffisance mitrale chronique sévère asymptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dysfonction VG (normo- ou hypokinétique) avec FEVG ≤ 60%",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un diamètre télésystolique du VG (DTSVG) ≥ 45 mm",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une fibrillation auriculaire associée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypertension artérielle pulmonaire (HTAP) au repos avec PAPs ≥ 50 mmHg",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de chirurgie pour une IM chronique sévère asymptomatique sont une dysfonction VG (FEVG ≤ 60%), un DTSVG ≥ 45 mm (ou ≥ 40 mm si prolapsus), une FA associée, ou une HTAP au repos (PAPs ≥ 50 mmHg)."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques physiopathologiques de l'insuffisance aortique chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une surcharge mécanique mixte (volume et pression)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dilatation et hypertrophie adaptée du VG",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la pression artérielle systolique (PAS)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la pression artérielle diastolique (PAD) en cas d'IA importante",
+          "correct": true
+        }
+      ],
+      "explanation": "L'IA chronique entraîne une surcharge mécanique mixte (volume et pression), une dilatation et hypertrophie adaptée du VG, une augmentation de la PAS (dépendant du volume d'éjection systolique) et une diminution de la PAD en cas d'IA importante."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un souffle d'insuffisance aortique apparaît devant une douleur thoracique aiguë. Quelle étiologie doit être fortement suspectée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une endocardite infectieuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une rupture d'anévrisme d'un sinus de Valsalva",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une dissection aortique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une IA traumatique",
+          "correct": false
+        }
+      ],
+      "explanation": "L’apparition d’un souffle d’insuffisance aortique devant toute douleur thoracique a une grande valeur diagnostique de dissection aortique."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de dissection ou de rupture aortique en cas de dilatation de l'aorte ascendante associée à une insuffisance aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La taille de l'anévrisme de l'aorte ascendante",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La maladie de Marfan",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La bicuspidie aortique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de Turner",
+          "correct": true
+        }
+      ],
+      "explanation": "Le risque de dissection ou de rupture aortique augmente avec la taille de l'anévrisme de l'aorte ascendante, et est majoré en cas de maladie de Marfan, bicuspidie, syndrome de Turner ou antécédents familiaux."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de traitement médical pour une insuffisance aortique asymptomatique en attente de chirurgie ou symptomatique avec contre-indication chirurgicale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "IEC/ARA2, surtout si dysfonction VG ou HTA",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bêta-bloquants si dilatation de l'aorte",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Régime hyposodé et diurétiques si signes congestifs",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Surveillance régulière clinique et échographique tous les 6 mois",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement médical inclut les IEC/ARA2 (surtout si dysfonction VG ou HTA), les bêta-bloquants si dilatation de l'aorte (mal toléré si IA importante, systématique si Marfan), le traitement de l'insuffisance cardiaque (régime hyposodé, diurétiques) et une surveillance régulière clinique et échographique tous les 6 mois."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de coronarographie systématique dans le bilan pré-opératoire d'un rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Angor ou suspicion de cardiopathie ischémique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Homme âgé de 40 ans ou plus",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Femme âgée de 50 ans ou plus ou ménopausée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'au moins un facteur de risque cardiovasculaire (FdRCV)",
+          "correct": true
+        }
+      ],
+      "explanation": "La coronarographie est systématique si angor ou suspicion de cardiopathie ischémique, homme ≥ 40 ans, femme ≥ 50 ans ou ménopausée, ≥ 1 FdRCV, ou dysfonction VG systolique."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypertrophie ventriculaire gauche (HVG) de type systolique à l'ECG, retrouvée dans le rétrécissement aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rotation axiale gauche",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation des indices de Lewis et Sokolow",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'onde R en aVL (> 11 mm)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Négativation des ondes T en dérivations précordiales gauches",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HVG de type systolique (non systématique) se manifeste par une rotation axiale gauche, une augmentation des indices de Lewis et Sokolow, une augmentation de l’onde R en aVL (> 11 mm) et une négativation des ondes T en dérivations précordiales gauches."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la maladie de Barlow, une forme d'insuffisance mitrale dystrophique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle touche souvent la femme jeune (30 à 40 ans)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par un prolapsus valvulaire par élongation et excès de tissu",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent associée à une IM sévère aiguë par rupture de cordage",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle prédomine chez le sujet âgé de plus de 60 à 70 ans",
+          "correct": false
+        }
+      ],
+      "explanation": "La maladie de Barlow (dégénérescence myxoïde) touche la femme jeune (30 à 40 ans), avec un prolapsus valvulaire par élongation et excès de tissu, souvent de la PVM. L'IM sévère aiguë par rupture de cordage est rare dans cette forme. La prédominance masculine et l'âge avancé sont caractéristiques de la dégénérescence fibro-élastique."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas d'insuffisance mitrale fonctionnelle, quelles stratégies thérapeutiques peuvent être envisagées pour réduire l'IM ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une revascularisation par ATL-stent si IM ischémique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une resynchronisation ventriculaire si asynchronisme",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'utilisation de bêta-bloquants pour réduire la dilatation du VG et de l'anneau mitral",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une plastie mitrale si le chirurgien est expérimenté",
+          "correct": true
+        }
+      ],
+      "explanation": "Si IM ischémique, la revascularisation peut diminuer l'IM. Si IM fonctionnelle, la resynchronisation ventriculaire si asynchronisme diminue l'IM. Les bêta-bloquants sont utilisés en cas d'IM fonctionnelle et ischémique pour réduire la dilatation du VG et de l'anneau mitral. La plastie mitrale est une option chirurgicale privilégiée si possible, y compris dans certains cas d'IM fonctionnelle sur cardiomyopathie dilatée."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du roulement diastolique de Flint, retrouvé dans l'insuffisance aortique importante ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est maximal au foyer aortique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est un signe d'insuffisance ventriculaire gauche",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est un roulement mésodiastolique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est fonctionnel, simulant un rétrécissement mitral",
+          "correct": true
+        }
+      ],
+      "explanation": "Le roulement diastolique de Flint est un roulement mésodiastolique au foyer mitral, qui est fonctionnel et simule un rétrécissement mitral. Il n'est pas maximal au foyer aortique et n'est pas un signe direct d'insuffisance ventriculaire gauche (le galop B3 l'est)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "En cas de dilatation de l'aorte ascendante associée à une insuffisance aortique, quelles interventions chirurgicales peuvent être proposées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'intervention de Bentall",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'intervention de Tirone David",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le remplacement valvulaire aortique isolé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La plastie aortique",
+          "correct": false
+        }
+      ],
+      "explanation": "Si dilatation de l'aorte ascendante, l'intervention de Bentall (remplacement total de l'aorte initiale et des valves aortiques) ou l'intervention de Tirone David (conservation de la valve native en cas de maladie annulo-ectasiante sans atteinte valvulaire) peuvent être proposées. Le remplacement valvulaire aortique isolé ne traite pas la dilatation de l'aorte, et la plastie aortique n'est pas mentionnée comme une option pour la dilatation de l'aorte ascendante dans ce contexte."
+    }
+  ]
+}

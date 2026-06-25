@@ -1,0 +1,1381 @@
+{
+  "lectureId": "30",
+  "number": "30",
+  "title": "Etats septiques graves",
+  "partie": "J2",
+  "specialty": "Réanimation / urgence",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon les concepts clés, quels sont les éléments déterminants du pronostic des états septiques graves ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La reconnaissance précoce des patients à risque d’évolution défavorable.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'administration systématique de corticoïdes à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'utilisation exclusive d'antibiotiques à spectre étroit dès le début.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La restauration d’une pression artérielle moyenne suffisante.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les concepts clés indiquent que la reconnaissance précoce des patients à risque d’évolution défavorable est un des éléments déterminants du pronostic, et que la restauration d’une pression artérielle moyenne suffisante constitue une étape obligatoire du schéma thérapeutique."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quel est le score utilisé pour définir la dysfonction d’organe dans le sepsis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le score de Glasgow (GCS).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le score SOFA.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le score qSOFA.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le score APACHE II.",
+          "correct": false
+        }
+      ],
+      "explanation": "La notion de dysfonction d’organe repose sur le score SOFA qui compte six défaillances d’organe cotées chacune de 0 à 4. Un score SOFA ≥ 2 est associé à un risque de mortalité de 10%."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les critères du score qSOFA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence respiratoire ≥ 22/min.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression artérielle diastolique ≤ 60 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Altération de l’état neurologique (GCS ≤13).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pression artérielle systolique ≤ 100mmHg.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le qSOFA comporte trois variables : altération de la conscience (GCS ≤13), PAS ≤100 mmHg et FR ≥ 22 c/min."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quel est l'agent vasoconstricteur recommandé en première intention pour la prise en charge du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La dobutamine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'adrénaline.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La noradrénaline.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vasopressine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La noradrénaline est l’agent vasoconstricteur recommandé en première intention."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelle est la mortalité globale des états septiques graves ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environ 10%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Environ 25%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 50%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Environ 75%.",
+          "correct": false
+        }
+      ],
+      "explanation": "La mortalité des états septiques graves reste élevée, de l’ordre de 50% globalement. Elle est significativement plus élevée en cas de choc septique."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux éléments constitutifs des PAMPs (Patogen Associated Molecular Patterns) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le peptidoglycane pour les bactéries à Gram positif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le lipopolysaccharide (endotoxine) pour les bactéries à Gram négatif.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les protéines virales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les glucocorticoïdes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les PAMPs incluent le peptidoglycane pour les bactéries à Gram positif, le lipopolysaccharide ou endotoxine pour les bactéries à Gram négatif, et certains constituants protéiques viraux."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les conséquences macrocirculatoires des anomalies microcirculatoires dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypervolémie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un état hyperkinétique ou hyperdynamique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation des résistances artérielles périphériques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypovolémie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les conséquences macrocirculatoires sont une hypovolémie et un état hyperkinétique ou hyperdynamique caractérisé par une augmentation du débit cardiaque et une diminution des résistances artérielles périphériques."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques permettant le diagnostic d’état de choc ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troubles de la conscience.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Oligurie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperthermie constante.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Polypnée et tachycardie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques sont les conséquences de l’hypoperfusion et de l’inadéquation entre les besoins et les apports en oxygène des organes périphériques, incluant troubles de la conscience, oligurie, polypnée et tachycardie. L'hyperthermie n'est pas constante, une hypothermie peut être observée."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est le meilleur marqueur de sepsis à disposition actuellement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La protéine C réactive (CRP).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hyperleucocytose.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La procalcitonine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vitesse de sédimentation (VS).",
+          "correct": false
+        }
+      ],
+      "explanation": "La procalcitonine est probablement le meilleur marqueur de sepsis à disposition à l'heure actuelle."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales portes d’entrée d’un choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hépato-digestive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Urinaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cutanée et méningée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les principales portes d’entrée d’un choc septique sont : Pulmonaire (40%), Hépato-digestive (30%), Urinaire (10%), Endo vasculaire sur cathéter (5%), Cutanée et méningée (5%)."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de pression artérielle moyenne (PAM) visé lors du remplissage vasculaire dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieure à 60 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supérieure à 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entre 50 et 55 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Supérieure à 90 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un objectif de pression artérielle moyenne supérieure à 65 mmHg est alors visé."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quel type de soluté de remplissage est recommandé en première intention dans les états septiques graves ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les colloïdes de synthèse (HEA).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les solutions d'albumine humaine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les cristalloïdes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les produits sanguins (plasma frais congelé).",
+          "correct": false
+        }
+      ],
+      "explanation": "En pratique, les cristalloïdes sont facilement disponibles, peu coûteux et n’exposent pas aux risques d’effets secondaires potentiels des colloïdes. Les cristalloïdes sont donc les solutés de remplissage à utiliser en première intention."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif de glycémie capillaire suggéré chez les patients septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inférieure à 1.8 g/l (10 mmol/l).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Entre 2.0 et 2.5 g/l.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Supérieure à 3.0 g/l.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Inférieure à 0.8 g/l.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est suggéré de maintenir une glycémie capillaire < à 1.8g/l (10 mmol/l)."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les facteurs de mauvais pronostic dans les états septiques graves ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L’âge avancé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de comorbidités.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le terrain d’immunodépression.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le retard de prise en charge de l’antibiothérapie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de mauvais pronostic sont : l’âge avancé, la présence de comorbidités, le terrain d’immunodépression, le retard de prise en charge en particulier de l’antibiothérapie, et le nombre de défaillances d’organes."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du choc septique selon la définition de 2016 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sepsis avec hypotension persistante malgré un remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nécessité de vasopresseurs pour maintenir une pression artérielle moyenne ≥ 65mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperlactatémie ≥ 2 mmol/l.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence de dysfonction d'organe.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc septique est défini par : sepsis avec hypotension persistante, malgré un remplissage vasculaire nécessitant le recours aux amines vasopressives, afin de maintenir une pression artérielle moyenne ≥ 65mmHg et hyperlactatémie ≥ 2 mmol/l. Il s'agit d'un continuum du sepsis, donc avec dysfonction d'organe."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Le score qSOFA est-il un critère diagnostique de sepsis et quelle est sa valeur prédictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, il est un critère diagnostique de sepsis.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Non, il ne constitue pas un critère diagnostique de sepsis.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il permet une identification rapide des patients les plus graves ou susceptibles de s’aggraver.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L’association de deux variables sur trois a une valeur prédictive en termes de mortalité similaire à celle du score SOFA.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le qSOFA ne constitue pas un critère diagnostique de sepsis mais un outil permettant une identification rapide des patients les plus graves ou susceptibles de s’aggraver. L’association de deux variables sur trois a en effet, démontré une valeur prédictive en termes de mortalité similaire à celle du score SOFA."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques impliqués dans la vasoplégie et l'hyporéactivité vasculaire aux catécholamines observées dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sécrétion par l’endothélium vasculaire de puissants vasodilatateurs comme le monoxyde d’azote (NO).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation de la NO synthétase inductible par des cytokines proinflammatoires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Libération de certaines prostaglandines, histamine et bradykinines par le système mastocytaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sensibilité des récepteurs adrénergiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyporéactivité semble liée à la sécrétion, par l’endothélium vasculaire, de puissants vasodilatateurs, au premier rang desquels figure le monoxyde d’azote (NO), dont la fabrication dépend de la NO synthétase inductible activée par des cytokines proinflammatoires. D’autres médiateurs comme certaines prostaglandines, l’histamine et les bradykinines, libérés par le système mastocytaire, favorisent également cette vasoplégie et hyporéactivité vasculaire. La sensibilité des récepteurs adrénergiques est plutôt diminuée."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la dépression myocardique au cours du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est tardive.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est biventriculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est systolo-diastolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est irréversible.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’atteinte myocardique au cours de l’état de choc septique est précoce, biventriculaire, systolo-diastolique, d’intensité variable et réversible."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences viscérales possibles du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteinte pulmonaire évoluant vers un syndrome de détresse respiratoire aigu (SDRA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Atteinte rénale sous forme d’oligurie et d’élévation de la créatininémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Atteinte hépatique avec élévation de la bilirubinémie et cytolyse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteinte cérébrale se manifestant par anxiété, agitation, confusion ou coma.",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces atteintes sont mentionnées comme des conséquences viscérales du choc septique : pulmonaire (dyspnée, polypnée, SDRA), rénale (oligurie, créatininémie), hépatique (bilirubinémie, cytolyse), et cérébrale (anxiété, agitation, confusion, coma)."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les perturbations primaires de la défaillance hémodynamique du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypervolémie absolue.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une défaillance circulatoire périphérique (vasoplégie et hyporéactivité vasculaire).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une défaillance cardiaque biventriculaire, systolique et diastolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypovolémie à la fois absolue et relative.",
+          "correct": true
+        }
+      ],
+      "explanation": "La défaillance hémodynamique du choc septique peut se décomposer en 3 perturbations primaires : une hypovolémie à la fois absolue et relative, une défaillance circulatoire périphérique (vasoplégie et hyporéactivité vasculaire aux agents vasoconstricteurs), et une défaillance cardiaque biventriculaire, systolique et diastolique."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui orientent vers une infection par des bactéries multi résistantes (BMR) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un séjour hospitalier de plus de 2 jours durant les 3 derniers mois.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une prise d’antibiotiques durant les 3 derniers mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antécédents de chirurgie cardiaque valvulaire datant de moins de 1 an.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Patients vivant dans les institutions (maison de retraites).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les éléments qui orientent vers une infection par des bactéries multi résistantes (BMR) sont : un séjour hospitalier de plus de 2 jours durant les 3 derniers mois, une prise d’antibiotiques durant les 3 derniers mois, des antécédents de chirurgie cardiaque valvulaire datant de moins de 1 an, et les patients vivant dans les institutions (maison de retraites), entre autres."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs thérapeutiques au cours du choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La restauration d’un état hémodynamique stable.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La correction de l’hypovolémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L’amélioration des dysfonctions d’organes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'administration systématique de vasopressine en première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs thérapeutiques au cours du choc septique reposent sur la restauration d’un état hémodynamique stable avec correction de l’hypovolémie et sur l’amélioration des dysfonctions d’organes. La vasopressine n'est pas recommandée en première intention."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Comment l'efficacité du remplissage vasculaire doit-elle être évaluée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correction de l’hypotension artérielle (PAM > 65 mmHg).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la fréquence cardiaque (chez les patients tachycardes).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Disparition des signes d’hypoperfusion périphérique (marbrures cutanées).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du débit urinaire > 0.5ml/kg/h.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’efficacité du remplissage vasculaire doit être évaluée sur la correction de l’hypotension artérielle (un objectif de pression artérielle moyenne supérieure à 65 mmHg est alors visé), la diminution de la fréquence cardiaque (chez les patients présentant une tachycardie compensatrice) et sur la disparition des signes d’hypoperfusion périphérique (disparition des marbrures cutanées, reprise d’un débit urinaire > 0.5ml/kg/h)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les inconvénients des cristalloïdes utilisés en remplissage vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leur faible pouvoir d’expansion volémique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diffusion rapide dans le secteur interstitiel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un risque d’acidose hyperchlorémique avec le soluté salé isotonique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un risque allergique élevé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le principal inconvénient des cristalloïdes est lié à leur faible pouvoir d’expansion volémique du fait d’une diffusion rapide dans le secteur interstitiel. L’utilisation importante de soluté salé isotonique expose au risque d’acidose hyperchlorémique. Le risque allergique est plutôt associé aux colloïdes de synthèse."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quand doit-on envisager l’introduction d’un traitement par catécholamines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès le diagnostic de sepsis, avant tout remplissage vasculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lorsque l’expansion volémique n’a pas permis la restauration d’une pression artérielle moyenne > 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de persistance des signes d’hypoperfusion périphérique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de dysfonction myocardique avérée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’absence de réponse à un remplissage vasculaire jugé bien conduit (persistance des signes d’hypoperfusion périphérique, persistante d’une hypotension artérielle) doit faire envisager l’introduction d’un traitement par catécholamines. Le traitement vasopresseur doit être débuté lorsque l’expansion volémique n’a pas permis la restauration d’une pression artérielle moyenne > 65 mmHg et d’une perfusion d’organe adéquate ou transitoirement en attendant que l’expansion volémique soit complétée."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une antibiothérapie efficace dans le sepsis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bactéricide et synergique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Active sur les bactéries suspectées et diffusant au niveau de la porte d’entrée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administrée par voie intra-veineuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toujours à spectre large, sans désescalade possible.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’antibiothérapie doit être bactéricide, synergique, active sur les bactéries suspectées, diffusant au niveau de la porte d’entrée et au niveau des éventuelles localisations secondaires, administrée par voie intra-veineuse, adaptée au terrain du patient et secondairement adaptée au germe isolé en utilisant l’antibiotique le moins cher et ayant le moindre spectre (désescalade)."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quand doit-on réévaluer l’antibiothérapie et dans quel but ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès la 12ème heure pour changer d'antibiotique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre la 48ème et la 72ème heure suivant le début du traitement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour évaluer l'efficacité de l'antibiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour adapter la prescription au microorganisme isolé et réduire le spectre (désescalade).",
+          "correct": true
+        }
+      ],
+      "explanation": "L’antibiothérapie doit être réévaluée entre la 48ème et la 72ème heure suivant le début du traitement, l’objectif étant d'évaluer l'efficacité de l'antibiothérapie, d'adapter la prescription au microorganisme isolé et d’utiliser un antibiotique à spectre plus étroit (la réduction du spectre selon antibiogramme est appelée désescalade)."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations la durée de l’antibiothérapie peut-elle être prolongée au-delà de 7 à 10 jours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amélioration clinique lente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Foyer infectieux non drainé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bactériémie à Staphylococcus aureus.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit immunitaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La durée de l’antibiothérapie est de 7 à 10 jours. Elle pourrait être plus prolongée si l’amélioration clinique est lente, foyer infectieux non drainé, bactériémie à Staphylococcus aureus ou déficit immunitaire."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la corticothérapie substitutive par Hémisuccinate d’hydrocortisone dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tous les patients en choc septique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Patients en état de choc septique non stabilisé par le remplissage vasculaire et les drogues vasopresseurs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "À la dose de 200 mg/j (stress dose) pendant 5 à 7 jours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Avec diminution progressive des doses.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une corticothérapie substitutive par Hémisuccinate d’hydrocortisone à la dose de 200 mg/j (stress dose) pendant 5 à 7 jours sans diminution progressive des doses doit être réservée aux patients en état de choc septique non stabilisé par le remplissage vasculaire et les drogues vasopresseurs."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les recommandations concernant la transfusion de produits sanguins dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion de culots globulaires si hémoglobine < 7 g/dl, avec un objectif entre 7 et 9 g/dl.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Utilisation systématique de plasma frais congelé pour corriger les anomalies de coagulation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Administration de plaquettes si < 10 000/mm3, qu’il y ait un saignement ou non.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maintenir les plaquettes > 50 000/mm3 en cas de geste chirurgical.",
+          "correct": true
+        }
+      ],
+      "explanation": "La transfusion de culots globulaires est recommandée lorsque l’hémoglobine est < 7 g/dl, l’objectif étant un taux d’hémoglobine entre 7 et 9 g/dl. Il ne faut pas utiliser de plasma frais congelé pour corriger les anomalies du bilan de coagulation sauf en cas de syndrome hémorragique ou de procédures invasives programmées. Il faut administrer des plaquettes lorsqu’elles sont inférieures à 10 000/mm3 qu’il y ait un saignement ou non, et maintenir une concentration de plaquettes > 50 000/mm3 en cas de geste chirurgical ou de procédures invasives."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prophylaxie recommandées chez les patients en sepsis ou choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prophylaxie de la thrombose veineuse par héparine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prophylaxie de l’ulcère de stress par IPP ou anti H2 si facteurs de risque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prophylaxie systématique de la candidose invasive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prophylaxie de la thrombose veineuse par moyens mécaniques si héparines contre-indiquées.",
+          "correct": true
+        }
+      ],
+      "explanation": "De faibles doses d’héparine sont utilisées pour la thrombophylaxie. La prophylaxie de l’ulcère de stress est indiquée chez les patients qui ont des facteurs de risque de saignement digestif. L’association d’héparine avec des moyens mécaniques est recommandée, et la contention mécanique est une alternative si les héparines sont contre-indiquées."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les paramètres cliniques et paracliniques usuels à surveiller chez un patient en état septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pression artérielle, fréquence cardiaque, SpO2, fréquence respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diurèse, température, signes cutanés d’hypoperfusion (TRC, marbrures).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lactate, gaz du sang, NFS, ionogramme sanguin, fonction rénale, bilan hépatique, hémostase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dosage pharmacologique des antibiotiques si disponible.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance clinique inclut Pression artérielle, fréquence cardiaque, SpO2, fréquence respiratoire, diurèse, température, signes cutanés d’hypoperfusion. La surveillance paraclinique inclut lactate, gaz du sang, NFS, ionogramme sanguin, fonction rénale, bilan hépatique, hémostase, et dosage pharmacologique des antibiotiques si disponible."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales bactéries multirésistantes (BMR) à craindre au cours des infections nosocomiales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylococcus aureus résistant à la méticilline (SARM).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Entérobactéries productrices de bêta lactamases à spectre étendu (EBLSE).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pseudomonas aeruginosa.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Streptococcus pneumoniae.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les principales bactéries multirésistantes (BMR) à craindre au cours des infections nosocomiales sont : Staphylococcus aureus résistant à la méticilline (SARM), entérobactéries productrices de bêta lactamases à spectre étendu (EBLSE) ou hyperproductrices de céphalosporinases (HPCase) ou encore de carbapénémases, Pseudomonas æruginosa, Acinetobacter baumannii et entérocoques résistants à la vancomycine (ERV). Streptococcus pneumoniae n'est pas listé comme une BMR nosocomiale dans ce contexte."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes connus à l’origine d’états gravissimes lors d’infections habituelles ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficits de l’adhésion et de la migration des leucocytes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déficits partiels du système du complément.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficits en récepteurs aux immunoglobulines G.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperactivité du système immunitaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mécanismes connus à l’origine d’états gravissimes lors d’infections habituelles sont : les déficits de l’adhésion et de la migration des leucocytes, les déficits partiels du système du complément et les déficits en récepteurs aux immunoglobulines G. L'hyperactivité du système immunitaire est une caractéristique générale du sepsis, mais les déficits mentionnés sont des mécanismes spécifiques menant à des états gravissimes."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de définition du choc septique qui le distinguent du sepsis simple ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'une dysfonction d'organe.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypotension persistante malgré un remplissage vasculaire adéquat.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La nécessité de vasopresseurs pour maintenir une PAM ≥ 65 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hyperlactatémie ≥ 2 mmol/l.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le sepsis est déjà défini par une dysfonction d'organe. Le choc septique, forme grave et continuum du sepsis, s’appuie sur plusieurs critères supplémentaires : sepsis avec hypotension persistante, malgré un remplissage vasculaire nécessitant le recours aux amines vasopressives, afin de maintenir une pression artérielle moyenne ≥ 65mmHg et hyperlactatémie ≥ 2 mmol/l."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques à l'origine de l'hypovolémie dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la perméabilité capillaire (syndrome de fuite capillaire).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Séquestration liquidienne dans l'espace interstitiel.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypovolémie absolue par fuite plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypovolémie relative par séquestration veineuse et réduction du tonus vasculaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’hypovolémie est due à l’augmentation de la perméabilité capillaire (syndrome de fuite capillaire) entraînant une séquestration liquidienne au sein de l’espace physiologique interstitiel. Il s’agit d’une hypovolémie absolue par fuite plasmatique dans le secteur interstitiel et relative par séquestration veineuse et réduction du tonus vasculaire."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes évoqués pour expliquer les anomalies de l’extraction de l’oxygène par les tissus dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoperfusion de l’organe.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème interstitiel empêchant une bonne diffusion de l’oxygène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anomalies de la régulation vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dysfonctionnement du système énergétique cellulaire mitochondrial (dysoxie cellulaire).",
+          "correct": true
+        }
+      ],
+      "explanation": "Plusieurs mécanismes sont évoqués : hypoperfusion de l’organe, l’existence d’un œdème interstitiel, les anomalies de la régulation vasculaire, et un possible dysfonctionnement du système énergétique cellulaire mitochondrial (dysoxie cellulaire ou hypoxie cytopathique)."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Décrivez le profil hémodynamique typique du choc septique après correction de l'hypovolémie.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Débit cardiaque normal ou élevé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pressions de remplissage ventriculaire fortement diminuées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résistances vasculaires systémiques fortement diminuées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Extraction en oxygène tissulaire augmentée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau hémodynamique au cours du choc septique est celui d’un débit cardiaque normal ou élevé après correction de l’hypovolémie, avec des pressions de remplissage ventriculaire et des résistances vasculaires systémiques fortement diminuées. L’extraction en oxygène est limitée du fait de troubles de la microcirculation."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui initient la coagulation intravasculaire disséminée (CIVD) dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ralentissement microcirculatoire et anomalies de la distribution du flux sanguin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la viscosité sanguine favorisée par la fuite liquidienne interstitielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la déformabilité des globules rouges.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Activation des facteurs de la coagulation sous l’effet des médiateurs proinflammatoires.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’initiation de la CIVD est de deux ordres : microcirculatoire (ralentissement microcirculatoire, anomalies de la distribution du flux sanguin locorégional, augmentation de la viscosité sanguine favorisée par la fuite liquidienne interstitielle et diminution de la déformabilité des globules rouges) et biochimique (activation des facteurs de la coagulation sous l’effet des médiateurs proinflammatoires)."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de la dépression systolique du ventricule gauche dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la perfusion des coronaires par diminution de la pression artérielle diastolique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la sensibilité des récepteurs β-adrénergiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Effet direct de certaines cytokines (TNF, IL-1).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anomalies de la relaxation diastolique dues à l’œdème interstitiel myocardique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dépression systolique est la conséquence de : la diminution de la perfusion des coronaires par diminution de la pression artérielle diastolique secondaire à la vasoplégie, la diminution de la sensibilité des récepteurs β-adrénergiques, l’effet direct de certaines cytokines (TNF, IL-1), et des anomalies de la relaxation diastolique dues à l’œdème interstitiel myocardique."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent entraîner une élévation de la lactatémie, en dehors de l'inadéquation entre apports et besoins en oxygène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dysfonctionnement rénal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dysfonctionnement hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de l’adrénaline.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de l'extraction tissulaire d'oxygène.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’élévation de la lactatémie est considérée comme un marqueur d’inadéquation entre apports et besoins en oxygène. Mais il peut résulter d’un dysfonctionnement rénal ou hépatique, ou bien par l’utilisation de l’adrénaline."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les pathologies non infectieuses d’allure septique à considérer dans le diagnostic différentiel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pancréatite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie thromboembolique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Crise hyperthyroïdienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lupus érythémateux systémique en poussée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les pathologies non infectieuses d’allure septique incluent les agressions tissulaires (pancréatite, maladie thromboembolique, etc.), les causes métaboliques (crise hyperthyroïdienne), les pathologies inflammatoires (maladie de Still, lupus érythémateux systémique en poussée, DRESS syndrome), les effets indésirables de traitements et les pathologies tumorales."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères définissant une infection associée aux soins (IAS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection contractée dans un établissement de santé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection non présente ni en incubation à l’admission.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Délai d’au moins 48 heures entre l’admission et l’état infectieux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection de site opératoire survenant dans les 30 jours suivant l’intervention.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une infection est dite associée aux soins si elle survient au cours ou au décours d’une prise en charge et si elle n’était ni présente, ni en incubation au début de la prise en charge. Un délai d’au moins 48 heures est couramment accepté. Pour les infections de site opératoire, on considère habituellement comme associées aux soins les infections survenant dans les 30 jours suivant l’intervention ou s’il y a mise en place d’une prothèse ou d’un implant, ou d’un matériel prothétique dans l’année qui suit l’intervention."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les avantages des solutés balancés (type Ringer lactate) par rapport au sérum salé à 9 pour mille pour le remplissage vasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leur teneur en sel, notamment en chlore, est moindre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils n’engendrent pas une acidose métabolique hyperchlorémique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils ont un pouvoir d'expansion volémique supérieur aux colloïdes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont plus coûteux et moins disponibles.",
+          "correct": false
+        }
+      ],
+      "explanation": "Plusieurs données récentes ont rapporté la supériorité des solutés balancés (type ringer lactate) par rapport aux SS à 9/○○. En effet, leur teneur en sel notamment en chlore est moindre et n’engendre pas une acidose métabolique hyperchlorémique souvent rencontrée avec l’usage de SS à 9/○○. Les solutés balancés sont des cristalloïdes, leur pouvoir d'expansion volémique n'est pas supérieur aux colloïdes, et ils sont facilement disponibles et peu coûteux."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quand l'administration de vasopressine peut-elle être envisagée dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En première intention en remplacement de la noradrénaline.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez les patients qui présentent un choc réfractaire à l’expansion volémique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les patients qui présentent un choc réfractaire aux fortes doses de noradrénaline.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En adjonction à la noradrénaline.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’administration de vasopressine peut être envisagée chez les patients qui présentent un choc réfractaire à l’expansion volémique et aux fortes doses de noradrénaline. La vasopressine n’est pas recommandée en première intention en remplacement de la noradrénaline. Elle trouve son indication en adjonction à la noradrénaline."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les recommandations concernant la ventilation mécanique invasive chez les patients septiques avec SDRA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Volume courant de 6ml/kg de poids idéal prédit.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pression de plateau ne dépassant pas 30 cm H2O.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PEP > 5 cm H2O.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Position tête à plat pour faciliter le drainage.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les patients nécessitant une ventilation mécanique invasive ou présentant un syndrome de détresse respiratoire aigüe, le volume courant utilisé est de 6ml/kg de poids idéal prédit. Il est aussi recommandé de ne pas dépasser une pression de plateau > 30 cm H2O chez les patients atteints de SDRA sévère d’origine septique associée à une PEP > 5 cm H2O. Les patients intubés doivent être maintenues en position tête surélevée de 30 à 45°."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des glucocorticoïdes dans les états septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activités anti-inflammatoires et immuno-régulatrices.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Actions myocardiques, artériolaires et capillaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maintien du tonus vasculaire et de l’intégrité endothéliale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Potentialisation de l’action de la noradrénaline et de l’angiotensine II.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les glucocorticoïdes possèdent des activités anti-inflammatoires, immuno-régulatrices, des actions myocardiques, artériolaires et capillaires. Ils jouent un rôle dans le maintien du tonus vasculaire, de l’intégrité endothéliale et de la perméabilité vasculaire. Ils potentialisent l’action de la noradrénaline et de l’angiotensine II en augmentant le nombre et l’affinité des récepteurs."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du monitorage hémodynamique spécialisé dans le choc septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analyse des variations respiratoires de la pression artérielle (ΔPP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Monitorage continu du débit cardiaque par analyse du contour de l’onde de pouls (PICCO).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mesure itérative ou continue de la SvcO2 (saturation veineuse centrale en oxygène).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cathétérisme de l’artère pulmonaire (Swan-Ganz) en première intention.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le monitorage hémodynamique spécialisé inclut l’utilisation des indices dérivés des variations respiratoires de la pression artérielle (ΔPP), les systèmes de monitorage continu du débit cardiaque basés sur l’analyse du contour de l’onde de pouls (PICCO), et la mesure itérative ou continue de la SvcO2. Le cathétérisme de l’artère pulmonaire n’a plus sa place en première intention."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications du monitorage des concentrations sériques d'antibiotiques chez les malades septiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fuite capillaire entraîne une augmentation du volume de diffusion des molécules.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il permet d'ajuster les doses quotidiennes et les intervalles d'administration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est particulièrement important pour les antibiotiques à activité temps-dépendante (bêtalactamines).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est particulièrement important pour les antibiotiques à activité concentration-dépendante (aminosides).",
+          "correct": true
+        }
+      ],
+      "explanation": "La fuite capillaire entraîne une augmentation du volume de diffusion engendrant des perturbations de la pharmacocinétique. Le monitorage des concentrations permet d'ajuster les doses et intervalles d'administration. Il est important pour les antibiotiques à activité temps-dépendante (bêtalactamines, glycopeptides, linézolide) et concentration-dépendante (aminosides, fluoroquinolones) pour adapter le traitement aux exigences pharmacodynamiques et toxicologiques."
+    }
+  ]
+}

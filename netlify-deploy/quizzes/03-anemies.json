@@ -1,0 +1,1538 @@
+{
+  "lectureId": "03",
+  "number": "03",
+  "title": "Anémies",
+  "partie": "J2",
+  "specialty": "Hématologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Selon les critères de référence, quels sont les seuils d'hémoglobine (Hb) définissant une anémie chez les populations suivantes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nouveau-né : Hb < 14 g/dl",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Femme enceinte (2ème et 3ème trimestre) : Hb < 10,5 g/dl",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Homme > 70 ans : Hb < 12,5 g/dl",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Enfant entre 2 et 6 ans : Hb < 11 g/dl",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Nourrisson entre 6 et 24 mois : Hb < 10 g/dl",
+          "correct": true
+        }
+      ],
+      "explanation": "Les seuils d'hémoglobine définissant l'anémie sont les suivants : Nouveau-né < 14g/dl, Nourrisson entre 6-24 mois < 10g/dl, Enfant entre 2-6 ans < 11g/dl, Femme < 12g/dl, Femme > 70 ans < 11.5g/dl, Femme enceinte < 10,5g/dl (à partir du 2ème et 3ème trimestre), Homme < 13g/dl, Homme > 70 ans < 12,5g/dl."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les paramètres de l'hémogramme qui n'entrent pas dans la définition stricte d'une anémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le taux d'hémoglobine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le nombre d'hématies",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le taux d'hématocrite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le volume globulaire moyen (VGM)",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie est définie par la diminution de l'hémoglobine au-dessous des valeurs de référence. Le nombre d'hématies ainsi que le taux d'hématocrite n’entrent pas dans cette définition."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les mécanismes physiopathologiques principaux pouvant être à l'origine d'une anémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un défaut de production médullaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un raccourcissement de la durée de vie des globules rouges",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la synthèse d'érythropoïétine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de l'affinité de l'hémoglobine pour l'oxygène",
+          "correct": false
+        }
+      ],
+      "explanation": "Une anémie peut être due soit à un défaut de production médullaire (mécanisme central), soit à un raccourcissement de la durée de vie des globules rouges par hémorragie abondante ou destruction importante (hyperhémolyse), ce qui correspond à un mécanisme périphérique."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques spécifiques du syndrome anémique, indépendamment de sa cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pâleur généralisée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'asthénie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La splénomégalie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les douleurs angineuses à l'effort",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La glossite",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques spécifiques de l'anémie sont la pâleur (cutanée et muqueuse, surtout nette au niveau unguéal et conjonctival) et les manifestations fonctionnelles hypoxiques, incluant l'asthénie, la dyspnée d'effort, les palpitations, la tachycardie et les douleurs angineuses."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les critères utilisés pour classer une anémie dans la démarche étiologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le volume globulaire moyen (VGM)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La teneur globulaire moyenne en hémoglobine (TCMH)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le taux de réticulocytes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le nombre de plaquettes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le taux de leucocytes",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anémies sont classées en fonction du VGM, de la TCMH et du taux des réticulocytes pour orienter la démarche étiologique."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelles sont les formes de fer de réserve dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le fer de l'hémoglobine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La transferrine",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La ferritine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hémosidérine",
+          "correct": true
+        }
+      ],
+      "explanation": "Le fer de réserve est stocké sous deux formes principales : la ferritine (forme hydrosoluble facilement mobilisable) et l'hémosidérine (forme dénaturée, insoluble, difficilement mobilisable)."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux sites de réserve du fer dans l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le foie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La rate",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La moelle osseuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le plasma",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hépatocyte et le système réticulo-endothélial (comprenant les macrophages du foie, de la rate et de la moelle osseuse) sont les principaux sites de réserve du fer."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques d'une anémie microcytaire hypochrome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VGM < 80 fl chez l'adulte",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "TCMH < 27 pg chez l'adulte",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "CCMH toujours abaissée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "VGM > 100 fl chez l'adulte",
+          "correct": false
+        }
+      ],
+      "explanation": "Une anémie est dite microcytaire lorsque le VGM est < 80 fl chez l'adulte. Elle est souvent hypochrome, avec une TCMH < 27 pg chez l'adulte. La CCMH peut être normale dans certaines conditions comme les thalassémies mineures."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de sidéropénie (carence en fer) qui peuvent être recherchés à l'examen clinique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sècheresse cutanée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Perlèche",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Koïlonychie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Glossite",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Splénomégalie volumineuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de sidéropénie correspondent à l'atteinte des phanères et des muqueuses, et associent sècheresse cutanée, perlèche, chute des cheveux, ongles striés, cassants, plats voire incurvés en cupule (koïlonychie) et glossite. La splénomégalie est un signe général de l'anémie, mais pas spécifique de la sidéropénie."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quels sont les paramètres biologiques du bilan martial qui sont diminués en cas de carence martiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ferritinémie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fer sérique (FS)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Capacité totale de fixation de la transferrine (CTF)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Coefficient de saturation (CS)",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de carence martiale, la ferritinémie est basse, le fer sérique est très diminué et le coefficient de saturation est abaissé. La capacité totale de fixation de la transferrine est quant à elle augmentée."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quelles sont les causes les plus fréquentes de carence en fer chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pertes sanguines répétées et minimes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance d'apport alimentaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Malabsorption digestive",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation des besoins (ex: grossesse)",
+          "correct": false
+        }
+      ],
+      "explanation": "La carence en fer de l'organisme est le plus souvent due à des pertes sanguines répétées et minimes. L'insuffisance d'apport, la malabsorption digestive ou l'augmentation des besoins sont des causes plus rares."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles métaboliques des folates ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Synthèse du thymidylate monophosphate (dTMP)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Biosynthèse des bases puriques (adénine et guanine)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Catabolisme de l'histidine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Conversion de l'homocystéine en méthionine",
+          "correct": true
+        }
+      ],
+      "explanation": "Les folates interviennent dans la synthèse du dTMP, la biosynthèse des bases puriques (adénine et guanine), le catabolisme de l'histidine et la synthèse de la méthionine via la reméthylation de l'homocystéine."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales sources alimentaires de vitamine B12 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le foie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La viande",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les crustacés",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les légumes verts",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les fruits",
+          "correct": false
+        }
+      ],
+      "explanation": "La principale source alimentaire de vitamine B12 est d'origine animale : foie, viande, crustacés, œufs, lait, fromage. Elle est totalement absente des végétaux."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques de la triade classique d'une hémolyse intratissulaire chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pâleur",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ictère cutanéo-muqueux",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Splénomégalie de taille modérée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Urines rouge porto noirâtres",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleurs lombaires",
+          "correct": false
+        }
+      ],
+      "explanation": "La triade clinique de l'hémolyse intratissulaire chronique est la pâleur (syndrome anémique), l'ictère cutanéo-muqueux avec urines foncées orangées et selles non décolorées, et une splénomégalie de taille modérée. Les urines rouge porto et les douleurs lombaires sont des signes d'hémolyse intravasculaire aiguë."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les situations physiologiques ou pathologiques pouvant entraîner de 'fausses anémies' ou 'anémies par hémodilution' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fin de la grossesse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les états d'hyperhydratation extracellulaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les hypergammaglobulinémies importantes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les splénomégalies volumineuses",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La déshydratation",
+          "correct": false
+        }
+      ],
+      "explanation": "De 'fausses anémies' ou 'anémies par hémodilution' peuvent être rencontrées physiologiquement à la fin de la grossesse, ou en pathologie au cours des états d’hyperhydratation extracellulaire, des hypergammaglobulinémies importantes ou des splénomégalies volumineuses. La déshydratation, au contraire, masque une anémie par hémoconcentration."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'anémies centrales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disparition des cellules souches de la moelle osseuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dysérythropoïèse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Envahissement de la moelle osseuse par des cellules anormales",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Manque de substrats (fer, vitamine B12, acide folique)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémorragies aiguës abondantes",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anémies centrales sont dues à un défaut de production médullaire. Les causes incluent la disparition des cellules souches (aplasie médullaire, érythroblastopénie), la dysérythropoïèse (syndromes myélodysplasiques), l'envahissement médullaire (blastes, métastases), le manque de substrats (fer, B12, folates), une anomalie de la structure médullaire (myélofibrose) ou une stimulation hormonale diminuée (déficit en érythropoïétine). Les hémorragies aiguës sont une cause d'anémie périphérique."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes compensateurs extra-érythrocytaires mis en jeu lors d'une anémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du débit cardiaque",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Polypnée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Redistribution des débits sanguins locaux",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion d'érythropoïétine",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de l'affinité de l'Hb pour l'O2",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mécanismes compensateurs extra-érythrocytaires incluent l'augmentation du débit cardiaque et de la fréquence cardiaque, la polypnée, la redistribution des débits sanguins locaux (meilleure irrigation du cœur, cerveau, rein), et l'augmentation de la sécrétion d'érythropoïétine. L'augmentation de l'affinité de l'Hb pour l'O2 est un mécanisme intra-érythrocytaire."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'intolérance d'une anémie qui peuvent indiquer une transfusion sanguine en urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée au moindre effort (III ou IV)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Palpitations",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Céphalées et vertiges gênants",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles de la conscience et coma",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pâleur cutanéomuqueuse isolée",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes d'intolérance indiquant une transfusion sanguine en urgence sont la dyspnée au moindre effort (III ou IV), les palpitations, les céphalées et vertiges gênants, les douleurs angineuses, les troubles de la conscience et le coma, ainsi que les signes d'insuffisance cardiaque, la polypnée et la désaturation. La pâleur isolée est un signe d'anémie mais pas nécessairement d'intolérance aiguë."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'anémies microcytaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie par carence en fer",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anémie inflammatoire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndromes thalassémiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anémie sidéroblastique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Carence en vitamine B12",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anémies microcytaires sont souvent hypochromes et liées à une anomalie de synthèse de l'hémoglobine. Elles incluent l'anémie par carence en fer, l'anémie inflammatoire, les syndromes thalassémiques et l'anémie sidéroblastique. La carence en vitamine B12 est une cause d'anémie macrocytaire."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'anémies arégénératives normo ou macrocytaires, nécessitant une exploration médullaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aplasie médullaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fibrose médullaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mégaloblastose (carence en VitB12, folates)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Envahissement médullaire (leucémie aiguë, myélome)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémorragie aiguë abondante",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anémies arégénératives normo ou macrocytaires nécessitent une exploration médullaire. Les causes incluent la moelle pauvre (aplasie médullaire, fibrose médullaire, érythroblastopénie) ou la moelle riche (mégaloblastose, envahissement médullaire, moelle dysplasique). L'hémorragie aiguë abondante est une cause d'anémie régénérative."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les compartiments du fer dans l'organisme et leur proportion approximative du fer total ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pool fonctionnel : environ 60%",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pool de transport : environ 0,1%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pool labile : environ 30%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pool de réserve : environ 30%",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pool fonctionnel représente environ 60% du fer total, le pool de transport environ 0,1%, et le pool de réserve environ 30%. Le pool labile est un pool intracellulaire transitoire, sa proportion n'est pas donnée comme 30% du fer total."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui augmentent les pertes en fer chez la femme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les menstruations",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La grossesse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'allaitement",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La ménopause",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez la femme en période d'activité génitale, les pertes sont augmentées du fait des menstruations (20 à 30 mg par cycle), des grossesses (4 à 6 mg/j à partir de la fin du second trimestre) et de l'allaitement (1 mg/j). La ménopause, au contraire, réduit ces pertes."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés de l'absorption digestive du fer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se fait principalement dans le duodénum et la partie haute du jéjunum.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le fer doit être libéré des protéines alimentaires grâce à l'acidité gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le fer ferrique est réduit en fer ferreux par une enzyme ferriréductase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le transporteur apical du fer ferreux est appelé DMT1.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absorption est diminuée lorsque les besoins augmentent.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'absorption du fer se fait essentiellement dans le duodénum et la partie haute du jéjunum. Elle nécessite la libération du fer des protéines alimentaires par l'acidité gastrique. Le fer ferrique est réduit en fer ferreux par une ferriréductase et transporté par le DMT1. L'absorption est augmentée lorsque les besoins augmentent (enfants, adolescents, grossesse)."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de l'hepcidine dans la régulation du métabolisme du fer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est un peptide sécrété par l'hépatocyte.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle diminue le relargage du fer dans le pool circulant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle neutralise la sortie du fer par l'internalisation de la ferroportine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son taux est augmenté par l'érythropoïétine (EPO).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une élévation primitive de l'hepcidine peut être source d'anémie d'allure ferriprive.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hepcidine est un peptide sécrété par l'hépatocyte qui diminue le relargage du fer dans le pool circulant en neutralisant la sortie du fer par l'internalisation de la ferroportine. L'EPO est un antagoniste de l'hepcidine, donc son action diminue le taux d'hepcidine. Une élévation primitive de l'hepcidine est pathologique et peut entraîner une anémie ferriprive."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la ferritinémie en tant que marqueur du métabolisme du fer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son taux circulant varie parallèlement aux réserves en fer de l'organisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est une protéine positive de l'inflammation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa diminution est le test le plus sensible et le plus précoce d'une carence martiale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est le premier paramètre à chuter et le dernier à être restauré après traitement d'une carence.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours abaissée en cas d'anémie inflammatoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ferritinémie varie parallèlement aux réserves en fer, mais c'est aussi une protéine positive de l'inflammation, ce qui peut masquer une carence. Sa diminution est le test le plus sensible et précoce de carence martiale, et elle est le premier paramètre à chuter et le dernier à être restauré. En cas d'anémie inflammatoire, la ferritinémie est normale ou augmentée, et non abaissée."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités cliniques de la carence en fer chez l'enfant et le nourrisson ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une splénomégalie de petit volume est relativement fréquente.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le nourrisson peut être anorexique, triste, apathique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il peut y avoir une diminution de la durée d'attention chez le grand enfant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les troubles des phanères, la glossite ou la dysphagie sont fréquents à cet âge.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'état général est toujours floride.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez l'enfant, une splénomégalie de petit volume est fréquente. Le nourrisson peut être anorexique, triste, apathique, avec des troubles dyspeptiques et une courbe pondérale stagnante. Chez le grand enfant, une diminution de la durée d'attention peut être observée. Par contre, à cet âge, il n'existe ni troubles des phanères, ni glossite, ni dysphagie. L'état général n'est pas toujours floride."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hémogramme en cas d'anémie par carence en fer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie de sévérité variable, parfois < 5g/dl d'Hb.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Microcytose et hypochromie manifestes (TCMH < 20pg possible).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Nombre de réticulocytes bas (< 120000/mm3).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anisocytose, poïkilocytose, annulocytose, cellules cibles au frottis sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Nombre de plaquettes toujours diminué.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie ferriprive présente une anémie de sévérité variable, une microcytose et une hypochromie manifestes (TCMH < 20pg possible). Le nombre de réticulocytes est bas, indiquant une anémie arégénérative. Le frottis sanguin montre anisocytose, poïkilocytose, microcytose, annulocytose, cellules cibles. Le nombre de plaquettes est normal ou augmenté, rarement diminué."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à prendre en compte pour le traitement substitutif d'une carence martiale par voie orale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le fer est prescrit sous forme de sel ferreux, mieux absorbé que le fer ferrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dose est de 150 à 200 mg par jour chez l'adulte à jeun.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absorption du fer est favorisée par la vitamine C.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La durée du traitement est d'au moins 4 mois (2 mois pour corriger l'anémie, 2 mois pour recharger les réserves).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les formes parentérales sont toujours préférées pour une meilleure efficacité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement substitutif utilise le fer par voie orale sous forme de sel ferreux, mieux absorbé. La dose adulte est de 150 à 200 mg/jour à jeun. La vitamine C favorise l'absorption. La durée est d'au moins 4 mois pour corriger l'anémie et recharger les réserves. Les formes parentérales sont d'indications rares, en cas d'intolérance digestive absolue ou d'échec du traitement per os."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques de l'anémie inflammatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Séquestration du fer par les macrophages sous l'effet de l'hepcidine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la synthèse de transferrine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Érythropoïèse inefficace.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la synthèse d'érythropoïétine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de l'absorption intestinale du fer.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie inflammatoire est caractérisée par une séquestration du fer par les macrophages due à l'hepcidine (dont la synthèse est augmentée par les cytokines inflammatoires), une érythropoïèse inefficace et une diminution de la synthèse d'érythropoïétine. Il y a une hypo-transferrinémie (diminution de synthèse) et non une augmentation, et l'absorption intestinale du fer n'est pas augmentée."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques biologiques de l'anémie inflammatoire, par rapport à l'anémie ferriprive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VGM initialement normocytaire, puis microcytaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ferritinémie normale ou augmentée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fer sérique diminué.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Capacité totale de fixation de la transferrine (CTF) diminuée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "CRP normale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie inflammatoire est initialement normochrome normocytaire, puis devient hypochrome microcytaire. La ferritinémie est normale ou augmentée (protéine de l'inflammation). Le fer sérique est diminué. La CTF est diminuée (hypo-transferrinémie). La CRP est augmentée, témoignant de l'inflammation."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes des anémies sidéroblastiques acquises ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intoxication par le plomb (saturnisme)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndromes myélodysplasiques (formes idiopathiques)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit en vitamine B6 (pyridoxine)",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Thalassémies",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anémies sidéroblastiques acquises peuvent être toxiques (comme le saturnisme) ou idiopathiques (faisant partie des syndromes myélodysplasiques). Les formes héréditaires peuvent être sensibles à la pyridoxine. Les thalassémies sont des anomalies de la synthèse de la globine, pas des anémies sidéroblastiques."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une carence en vitamine B12 sur le plan neurologique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome pyramidal (signe de Babinski, réflexes vifs)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome cordonal postérieur (paresthésies, troubles de la marche, Romberg positif)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Neuropathies périphériques (abolition des ROT)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles psychiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ces troubles sont toujours réversibles après traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les troubles neurologiques spécifiques des déficits en Vit B12 incluent le syndrome pyramidal, le syndrome cordonal postérieur (avec paresthésies, troubles de la marche, Romberg positif, anomalies de la sensibilité profonde), et parfois des neuropathies périphériques et des signes psychiatriques. Des séquelles peuvent persister, donc ils ne sont pas toujours réversibles."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hémogramme en cas d'anémie mégaloblastique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie macrocytaire (VGM jusqu'à 130-140 fl).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anémie normochrome arégénérative.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leucopénie et/ou thrombopénie modérée fréquentes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Polynucléaires de grande taille à noyaux hypersegmentés au frottis sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Présence de corps de Jolly dans les globules rouges.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'anémie mégaloblastique est macrocytaire (VGM élevé), normochrome et arégénérative. Une bicytopénie ou pancytopénie est fréquente. Le frottis sanguin montre des anomalies morphologiques des GR (anisocytose, corps de Jolly), des polynucléaires de grande taille à noyaux hypersegmentés et des plaquettes de grande taille."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de carence en vitamine B12 non biermériennes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carence d'apport chez les végétariens stricts.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie gastrique (gastrite par HP, éthylisme, pancréatite chronique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Gastrectomie totale ou partielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Résections iléales ou maladie de Crohn.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Maladie cœliaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes non biermériennes de carence en cobalamines incluent la carence d'apport (végétariens stricts), le syndrome de non dissociation de la VitB12 aux protéines alimentaires (maladie gastrique, éthylisme, pancréatite, IPP), la malabsorption gastrique (gastrectomie, bypass) et la malabsorption intestinale (résections iléales, Crohn, tuberculose iléocaecale, pullulation microbienne, médicaments). La maladie cœliaque est une cause de malabsorption des folates."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes corpusculaires d'anémies hémolytiques, qu'elles soient constitutionnelles ou acquises ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anomalies de la membrane de l'hématie (ex: microsphérocytose héréditaire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anomalies du système enzymatique de l'hématie (ex: déficit en G6PD)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anomalies de l'hémoglobine (ex: syndromes thalassémiques)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémoglobinurie Paroxystique Nocturne (HPN)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Anémies hémolytiques auto-immunes",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes corpusculaires d'anémies hémolytiques sont dues à une anomalie intrinsèque du globule rouge. Elles incluent les anomalies de la membrane (microsphérocytose héréditaire), du système enzymatique (déficit en G6PD, pyruvate kinase) et de l'hémoglobine (thalassémies, drépanocytose). Ces causes sont quasi-exclusivement constitutionnelles, à l'exception de l'Hémoglobinurie Paroxystique Nocturne (HPN) qui est acquise. Les anémies hémolytiques auto-immunes sont extra-corpusculaires."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quels sont les marqueurs biochimiques d'hémolyse qui sont modifiés en cas d'hémolyse intratissulaire chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la bilirubine totale à prédominance libre",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du fer sérique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la lactico-déshydrogénase (LDH)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de l'haptoglobine",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémoglobinurie",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'hémolyse intratissulaire chronique, on observe une augmentation de la bilirubine totale à prédominance libre, une augmentation du fer sérique, une augmentation de la LDH et une diminution de l'haptoglobine. L'hémoglobinurie est un signe d'hémolyse intravasculaire."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications des anémies hémolytiques chroniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lithiase biliaire pigmentaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ulcères de jambe",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficit en folates",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Crise aiguë d'érythroblastopénie (parvovirus B19)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Séquestration splénique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications des anémies hémolytiques chroniques incluent la lithiase biliaire pigmentaire, les ulcères de jambe, l'aggravation de l'anémie par déficit en folates (consommation accrue), crise aiguë d'érythroblastopénie (parvovirus B19) et séquestration splénique."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques génétiques des thalassémies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les thalassémies sont des maladies génétiques à transmission autosomique récessive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'anomalie moléculaire des alpha-thalassémies est la délétion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les loci des gènes alpha-globine sont localisés sur le chromosome 16.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les anomalies moléculaires des bêta-thalassémies sont principalement des mutations ponctuelles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La mutation codon 39 (C→T) est fréquente en Tunisie pour les bêta-thalassémies.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les thalassémies sont des maladies génétiques à transmission autosomique récessive. L'anomalie moléculaire des alpha-thalassémies est la délétion. Les loci des gènes alpha-globine sont localisés sur le chromosome 16, et les bêta-globine sur le chromosome 11. Les anomalies moléculaires des bêta-thalassémies sont principalement des mutations ponctuelles, et la mutation codon 39 (C→T) est fréquente en Tunisie."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques et biologiques de la bêta-thalassémie homozygote majeure (maladie de Cooley) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie sévère, pâleur, ictère, splénomégalie volumineuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Faciès mongoloïde (front bombé, hypertélorisme).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anémie hypochrome microcytaire arégénérative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Électrophorèse de l'hémoglobine (EPHb) montrant Hb F ~ 90% et peu ou pas d'HbA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypersidérémie constante.",
+          "correct": true
+        }
+      ],
+      "explanation": "La maladie de Cooley se manifeste par une anémie sévère, pâleur, ictère, splénomégalie volumineuse et un faciès mongoloïde. L'hémogramme révèle une anémie hypochrome microcytaire arégénérative. L'EPHb montre une Hb F très élevée (~90%) et peu ou pas d'HbA. Une hypersidérémie est constante."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications de l'hémochromatose secondaire chez les patients atteints de bêta-thalassémie majeure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Teint métallique grisâtre",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hépatomégalie avec insuffisance hépatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance cardiaque",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance endocrinienne (diabète, hypothyroïdie)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Retard staturo-pondéral et pubertaire",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémochromatose secondaire, due à la surcharge en fer, entraîne un teint métallique grisâtre, une hépatomégalie avec insuffisance hépatique, une insuffisance cardiaque et des insuffisances endocriniennes (diabète, hypothyroïdie, troubles de la croissance, troubles pubertaires). Le retard staturo-pondéral et pubertaire est une complication générale des transfusions irrégulières et insuffisantes, mais pas directement de l'hémochromatose."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la drépanocytose homozygote (S/S) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La symptomatologie clinique apparaît après les 6 premiers mois de vie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Splénomégalie constante chez le nourrisson, disparaissant souvent après 7-8 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anémie normochrome normocytaire régénérative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'hématies en faucille (drépanocytes) au frottis sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Électrophorèse de l'Hb montrant HbS majoritaire (> 50%) et HbF en proportion variable.",
+          "correct": true
+        }
+      ],
+      "explanation": "La drépanocytose homozygote se manifeste après 6 mois. La splénomégalie est constante chez le nourrisson et disparaît par infarctus spléniques. L'anémie est normochrome normocytaire régénérative. Le frottis sanguin montre des drépanocytes. L'EPHb révèle une HbS majoritaire (>50%) et une HbF variable."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications aiguës de la drépanocytose homozygote ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crises vaso-occlusives douloureuses (membres, rachis, abdomen).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infections (méningites, septicémies, ostéomyélites).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Crises d'érythroblastopénie (parvovirus B19).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome thoracique aigu.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Nécrose aseptique de la tête fémorale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications aiguës incluent les crises vaso-occlusives douloureuses, les infections (liées à l'asplénie fonctionnelle), l'aggravation de l'anémie (carence en folates, séquestration splénique, érythroblastopénie par parvovirus B19), les accidents vaso-occlusifs graves (AVC ischémique, syndrome thoracique aigu, priapisme, thrombose de l'artère centrale de la rétine). La nécrose aseptique de la tête fémorale est une complication chronique."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures préventives et le traitement de fond de la drépanocytose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vaccination contre pneumocoque, hépatite B, hémophilus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pénicillothérapie au long cours.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Supplémentation en acide folique (Foldine).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Éviter le jeûne et les séjours en altitude.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Allogreffe de moelle osseuse (seul traitement curatif).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mesures préventives incluent la vaccination, la pénicillothérapie au long cours, la supplémentation en folates, et des mesures hygiéno-diététiques (éviter jeûne, altitude, fatigue, traiter les infections). Le traitement de fond comprend l'allogreffe de moelle osseuse (curatif), l'hydroxyurée (augmente HbF) et les échanges transfusionnels."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la sphérocytose héréditaire (maladie de Minkowski-Chauffard) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est la plus fréquente des anémies hémolytiques constitutionnelles par anomalie de la membrane.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Transmission autosomique dominante dans la majorité des cas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anomalie des protéines membranaires (spectrine, ankyrine, protéine band 3).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence de micro-sphérocytes au frottis sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Test de Coombs direct (TCD) positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sphérocytose héréditaire est la plus fréquente des anémies hémolytiques constitutionnelles par anomalie de la membrane, de transmission autosomique dominante le plus souvent. Elle est due à une anomalie des protéines membranaires. Le frottis sanguin montre des micro-sphérocytes. Le TCD est négatif, ce qui la distingue des anémies hémolytiques auto-immunes."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du déficit en G6PD ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Affection héréditaire récessive liée au sexe (à l'X).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les hématies déficitaires sont incapables de fournir le NADPH nécessaire à l'élimination des peroxydes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La crise hémolytique aiguë intravasculaire est déclenchée par des agents oxydants ou l'ingestion de fèves.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La recherche de corps de Heinz sur frottis sanguin est positive pendant la crise.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le dosage de l'activité G6PD doit être fait pendant la crise hémolytique pour un diagnostic de certitude.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le déficit en G6PD est une affection héréditaire récessive liée à l'X. Les hématies déficitaires ne peuvent pas produire suffisamment de NADPH pour gérer le stress oxydant. Les crises hémolytiques aiguës intravasculaires sont déclenchées par des agents oxydants ou les fèves. La recherche de corps de Heinz est positive. Le dosage de l'activité G6PD doit être fait à distance de la crise (120 jours) car les jeunes GR ont une activité quasi-normale."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes immunologiques impliqués dans les anémies hémolytiques auto-immunes (AHAI) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixation des auto-anticorps sur l'hématie, reconnue par les macrophages (érythrophagocytose).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activation incomplète du complément jusqu'à C3 à la surface des GR, entraînant une hémolyse intratissulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation complète du complément de C1 à C9, entraînant une hémolyse intravasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les auto-anticorps chauds sont de nature IgM et fixent le complément.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les auto-anticorps froids sont de nature IgG et ne fixent généralement pas le complément.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémolyse dans les AHAI peut être due à l'érythrophagocytose (auto-anticorps fixés sur l'hématie reconnus par les macrophages) ou à l'activation du complément (incomplète pour l'hémolyse intratissulaire, complète pour l'hémolyse intravasculaire). Les auto-anticorps chauds sont de nature IgG et ne fixent généralement pas le complément. Les auto-anticorps froids sont de nature IgM et fixent le complément."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions nécessaires à l'alloimmunisation fœto-maternelle à l'origine de la maladie hémolytique du nouveau-né ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'alloimmunisation antiérythrocytaire de la mère antérieure par une grossesse ou transfusion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La nature IgG de l'anticorps maternel permettant son passage placentaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'existence sur les GR fœtaux de l'antigène incompatible hérité du père.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cas le plus fréquent est l'alloimmunisation dans le système ABO.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le test de Coombs direct chez l'enfant est négatif à la naissance.",
+          "correct": false
+        }
+      ],
+      "explanation": "Trois conditions sont nécessaires : l'alloimmunisation antiérythrocytaire de la mère, la nature IgG de l'anticorps maternel pour le passage placentaire, et la présence de l'antigène incompatible sur les GR fœtaux. Le cas le plus fréquent est l'alloimmunisation anti-Rhésus D, et non ABO. Le TCD chez l'enfant est positif à la naissance."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anémies hémolytiques mécaniques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ce sont des états d'hémolyse intravasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles se caractérisent par la présence de nombreux schizocytes sur le frottis sanguin (> 1%).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles peuvent être dues à la désinsertion d'une valve cardiaque mécanique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de micro-angiopathie thrombotique (MAT) est une cause fréquente.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le test de Coombs direct (TCD) est généralement positif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anémies hémolytiques mécaniques sont des hémolyses intravasculaires, caractérisées par la présence de nombreux schizocytes (>1%) au frottis. Elles peuvent être causées par la désinsertion de valve cardiaque mécanique ou le syndrome de micro-angiopathie thrombotique (MAT). Le TCD est négatif, ce qui les distingue des hémolyses immunologiques."
+    }
+  ]
+}

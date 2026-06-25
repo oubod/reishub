@@ -1,0 +1,1421 @@
+{
+  "lectureId": "72",
+  "number": "72",
+  "title": "Tuberculose pulmonaire commune",
+  "partie": "J1",
+  "specialty": "Pneumologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques générales de la tuberculose (TBC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une maladie infectieuse et contagieuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est causée par un virus.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'atteinte pulmonaire est la localisation viscérale la plus fréquente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "C'est une maladie à déclaration obligatoire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La tuberculose est une maladie infectieuse, contagieuse, d’origine bactérienne due à Mycobacterium tuberculosis. L’atteinte pulmonaire est la plus fréquente des localisations viscérales (70-80%). C'est une maladie à déclaration obligatoire."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Comment la tuberculose pulmonaire commune (TPC) est-elle définie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle correspond à la primo-infection tuberculeuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle regroupe toutes les manifestations de la tuberculose pulmonaire en dehors de la primo-infection.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est également appelée tuberculose post-primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est caractérisée par une infection latente sans symptômes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tuberculose pulmonaire commune (TPC), encore appelée tuberculose post-primaire, est définie par l’ensemble des manifestations de la tuberculose pulmonaire en dehors de la primo-infection."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels sont les agents pathogènes les plus fréquemment responsables de la tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mycobacterium africanum",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mycobacterium bovis",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Mycobacterium tuberculosis hominis",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "Mycobacterium Tuberculosis hominis, le bacille tuberculeux humain (dénommé Bacille de Koch) est responsable de la plupart des formes pulmonaires. Plus rarement Mycobacterium bovis ou africanum peuvent être en cause."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelles sont les propriétés du bacille de Koch (BK) concernant sa résistance et sa sensibilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est sensible à la chaleur et à la lumière solaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est tué rapidement par l'alcool dilué (70°C).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il résiste bien au froid et à la dessiccation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est très sensible aux acides et bases dilués.",
+          "correct": false
+        }
+      ],
+      "explanation": "Mycobacterium Tuberculosis est sensible à certains agents physiques (chaleur, lumière solaire, rayons X ou UV). Il résiste bien au froid et à la dessiccation et peut demeurer vivant plusieurs jours dans des produits contaminés. Il est peu sensible aux acides et bases dilués et aux détergents. En revanche, il est tué rapidement par l’alcool dilué (70°C)."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les signes généraux fréquemment rencontrés lors de la découverte d'une tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthénie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fièvre vespéro-nocturne",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prise de poids rapide",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Anorexie et amaigrissement",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes généraux incluent l'asthénie, la fièvre vespéro-nocturne, la perte de poids, l'anorexie et l'amaigrissement qui est rapide et important."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelle est la principale voie de transmission de la tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Voie cutanée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie digestive",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Voie aérienne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Voie sanguine",
+          "correct": false
+        }
+      ],
+      "explanation": "La transmission se fait le plus souvent par voie aérienne. Le malade contagieux, en toussant, en parlant ou en éternuant, émet des gouttelettes riches en BK."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Quel est le milieu de culture de choix pour l'isolement de Mycobacterium Tuberculosis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gélose au sang",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Milieu de Löwenstein-Jensen",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Milieu de Sabouraud",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bouillon de culture",
+          "correct": false
+        }
+      ],
+      "explanation": "Mycobacterium Tuberculosis nécessite des milieux adaptés à sa croissance, le milieu d’isolement de choix étant celui de «Löwenstein-Jensen», milieu solide à l’œuf coagulé."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des colonies de M. tuberculosis sur milieu solide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lisses et brillantes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Verruqueuses et rugueuses",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "De couleur crème beige",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "À croissance rapide",
+          "correct": false
+        }
+      ],
+      "explanation": "La culture en milieu solide ne se positive qu’au-delà de 3 semaines et donne des colonies caractéristiques verruqueuses, rugueuses « en chou-fleur », de couleur crème beige."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quel est le signe radiologique élémentaire le plus fréquent dans la tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les cavernes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les nodules",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les infiltrats",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les épanchements pleuraux",
+          "correct": false
+        }
+      ],
+      "explanation": "Les nodules sont l’aspect radiologique élémentaire le plus fréquent. Il s’agit d’opacités de petite taille (3 à 10 mm de diamètre), de forme arrondie ou ovalaire, de contours nets ou flous, isolées ou confluentes."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quels sont les objectifs principaux du traitement de la tuberculose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obtenir l'amendement des signes cliniques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Empêcher la contamination de l'entourage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sélectionner des bacilles résistants aux anti-tuberculeux.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Prévenir les récidives.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les buts du traitement sont d'obtenir l’amendement des signes cliniques, guérir le patient, empêcher la contamination de l’entourage, empêcher la sélection de bacilles résistants aux anti-tuberculeux et prévenir les récidives."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quel est le régime thérapeutique standard préconisé par le programme national de lutte antituberculeuse (PNLT) pour un nouveau cas de tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "2HRZE / 4HR",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "2HRZE / 10HR",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "2HRZE / 7HR",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "6H",
+          "correct": false
+        }
+      ],
+      "explanation": "Le régime préconisé par le programme national de lutte antituberculeuse (PNLT) est le suivant : 2 mois de traitement quotidien à base d’ADF:HRZE suivi de 4 mois d’ADF : HR en quotidien, soit une durée totale de 6 mois."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quels sont les critères de guérison d'une tuberculose pulmonaire à microscopie positive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le patient a pris son traitement de manière irrégulière.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tous les examens bactériologiques (frottis et/ou cultures) réalisés à la fin du 5ème et 6ème mois sont négatifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une amélioration clinique et radiologique est observée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La persistance du bacille dans les expectorations après 5 mois de traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de tuberculose pulmonaire à microscopie positive, la guérison est affirmée si le malade a pris régulièrement son traitement et si tous les examens bactériologiques (frottis et/ou cultures) réalisés à la fin du 5ème et 6ème mois sont négatifs avec une amélioration clinique et radiologique."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Quelles sont les mesures générales à prendre en charge pour un patient bacillifère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isolement du patient.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Arrêt du travail.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déclaration obligatoire de la maladie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Gratuité des soins.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les mesures générales incluent l'isolement du patient s’il est bacillifère, l'arrêt du travail, la prise en charge des tares associées, le traitement symptomatique, l'oxygénothérapie, le support nutritionnel, la déclaration obligatoire, la gratuité des soins et l'éducation du patient."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux anti-tuberculeux essentiels utilisés selon le PNLT ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Isoniazide",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Rifampicine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pyrazinamide",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Amoxicilline",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Éthambutol",
+          "correct": true
+        }
+      ],
+      "explanation": "Selon le PNLT, 4 anti-tuberculeux essentiels sont utilisés : isoniazide, rifampicine, pyrazinamide, éthambutol."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quels sont les groupes d'âge les plus touchés par la tuberculose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les nourrissons uniquement",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les adultes entre 15 et 60 ans",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les sujets âgés uniquement",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Toutes les tranches d'âge sont exposées.",
+          "correct": true
+        }
+      ],
+      "explanation": "La tuberculose touche surtout les adultes pendant les années où ils sont le plus productifs, mais toutes les tranches d’âge sont exposées. La tranche d’âge la plus atteinte est celle comprise entre 15-60 ans."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations sont exactes concernant l'épidémiologie de la tuberculose dans le monde en 2023 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tuberculose est la 13e cause de mortalité mondiale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le taux d'incidence mondial a diminué entre 2020 et 2023.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "55% des personnes ayant développé la tuberculose étaient des hommes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'Inde représentait 10% du total mondial des nouveaux cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "À l’échelle mondiale, la tuberculose est la 13e cause de mortalité. En 2023, 55 % des personnes ayant développé la tuberculose étaient des hommes. Le taux d’incidence mondial aurait augmenté de 4,6 % entre 2020 et 2023. L'Inde représentait 26% du total mondial des nouveaux cas."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de développer une tuberculose maladie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Être un sujet contact vivant sous le même toit qu'un malade.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Avoir été infecté il y a plus de 5 ans.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Être une femme enceinte.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Avoir une radiographie du thorax normale sans antécédent de tuberculose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Être en sous-poids (10% ou plus en dessous du poids idéal).",
+          "correct": true
+        }
+      ],
+      "explanation": "Les groupes à risque incluent les sujets contacts (entourage familial, personnes habitants sous le même toit), les personnes récemment infectées (dans un délai de 2 ans après l’infection), les femmes enceintes, et les personnes en sous-poids (10% ou plus en dessous du poids idéal). Une radiographie du thorax montrant des anomalies indiquant une tuberculose antérieure est un facteur de risque."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques morphologiques et chimio-taxonomiques de Mycobacterium Tuberculosis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il prend la coloration de Gram.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est acido-alcoolo-résistant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il contient des acides mycoliques spécifiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est visualisé par la coloration de Ziehl Neelsen.",
+          "correct": true
+        }
+      ],
+      "explanation": "Mycobacterium Tuberculosis ne prend pas la coloration de Gram, mais est acido-alcoolo-résistant. La coloration de Ziehl Neelsen permet de visualiser des bacilles acido-alcoolo-résistants (BAAR). Le genre Mycobacterium se caractérise par la présence d’arabinogalactane et d’acides mycoliques spécifiques, responsables de l’acido-alcoolo-résistance."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Décrivez les étapes initiales de la pathogénie de la tuberculose après inhalation des bacilles.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les bacilles sont rapidement phagocytés par les macrophages alvéolaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Formation directe d'une caverne pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Multiplication des bacilles au sein des macrophages formant un chancre primaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Migration des macrophages infectés vers le ganglion drainant.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les BK pénètrent dans l’organisme humain par voie aérienne. Ils sont rapidement phagocytés par les macrophages alvéolaires au sein desquels ils se multiplient, formant ainsi une lésion exsudative inflammatoire dénommée chancre primaire. Ces macrophages infectés migrent vers le ganglion drainant le territoire pulmonaire concerné."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du granulome tuberculoïde dans la tuberculose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est centré par une nécrose caséeuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il renferme des cellules géantes multi-nuclées de type Langhans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est entouré d'une couche de polynucléaires neutrophiles.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il contient des histiocytes épithélioïdes et des lymphocytes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le granulome tuberculoïde renferme des cellules géantes multi-nuclées type Langhans, des histiocytes dits épithélioïdes et des lymphocytes formant une couronne périphérique entourée d’une couche de fibroblastes. Ce granulome est centré par une zone de nécrose caséeuse."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les évolutions possibles de la nécrose caséeuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ramollissement conduisant à la formation d'une caverne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Organisation fibreuse avec calcification.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transformation en tissu adipeux.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Élimination dans une bronche.",
+          "correct": true
+        }
+      ],
+      "explanation": "La nécrose caséeuse peut subir un phénomène de ramollissement, ce qui permet son élimination dans une bronche, conduisant à la formation d'une caverne. Elle peut également évoluer vers l’organisation fibreuse avec la constitution d’un tissu fibreux acellulaire souvent calcifié."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes respiratoires pouvant orienter vers une tuberculose pulmonaire évolutive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toux sèche persistante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Expectoration purulente ou hémoptoïque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémoptysies.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dyspnée et douleurs thoraciques dans les formes très étendues.",
+          "correct": true
+        }
+      ],
+      "explanation": "La toux est fréquente, sèche au début, puis ramenant une expectoration initialement muqueuse puis purulente et parfois hémoptoïque. Les hémoptysies sont moins fréquentes. La dyspnée et les douleurs thoraciques sont présentes dans les formes très étendues ou les formes survenant sur poumon préalablement pathologique."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments l'interrogatoire doit-il préciser lors de la suspicion d'une tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le statut vaccinal par le BCG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les antécédents personnels de tuberculose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'existence d'un contage tuberculeux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence de facteurs de risque (ex: éthylisme, diabète).",
+          "correct": true
+        }
+      ],
+      "explanation": "L'interrogatoire précisera le statut vaccinal par le BCG, les antécédents personnels de TBC, le contage tuberculeux dans le milieu familial ou professionnel, et l’existence d’un facteur de risque (ex: éthylisme, diabète, corticothérapie au long cours)."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques radiologiques des cavernes tuberculeuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Opacités excavées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Centrées par une clarté gazeuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contours internes généralement irréguliers.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Contenant parfois un niveau hydro-aérique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cavernes sont des opacités excavées, centrées par une clarté gazeuse, de tailles variables, à contours internes généralement réguliers, contenant parfois un niveau hydro-aérique."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les prélèvements respiratoires recommandés pour le diagnostic bactériologique de la tuberculose pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deux crachats prélevés 2 jours de suite avant le traitement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tubage gastrique chez l'enfant ou en cas de difficulté d'expectoration.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prélèvements endo-bronchiques (LBA, LB).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Aspiration trachéale chez les malades intubés.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les prélèvements recommandés incluent 2 crachats prélevés 2 jours de suite, le tubage gastrique (enfants, femmes), les prélèvements endo-bronchiques (LB, LBA) et l'aspiration trachéale ou trachéo-bronchique chez les malades intubés."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les limites de l'examen direct pour le diagnostic de tuberculose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il ne permet pas de distinguer les mycobactéries tuberculeuses des non tuberculeuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il ne permet pas de distinguer les bactéries vivantes des mortes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Son seuil de détection est élevé (≥ 10⁴ bacilles/ml).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un examen direct négatif exclut formellement la présence de mycobactéries.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’examen direct n’est pas spécifique puisqu’il ne permet pas de distinguer mycobactéries tuberculeuses et non tuberculeuses, ni bactéries vivantes et mortes. Son seuil de détection est ≥ 10⁴ bacilles/ml, ce qui signifie qu'un examen direct négatif n’exclut pas la présence de mycobactéries."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications des tests de détection d'interféron gamma (IGRA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnostic de la tuberculose maladie chez l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diagnostic de l'infection tuberculeuse latente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic de la tuberculose de l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Différencier une TBC infection d'une tuberculose maladie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IGRA sont indiqués dans le diagnostic de l’infection tuberculeuse latente et sont utiles dans le diagnostic de la tuberculose de l’enfant. Un test positif ne permet pas de faire la différence entre une TBC infection et une tuberculose maladie, et un test négatif n’exclut pas une TBC maladie."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la pneumonie tuberculeuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Début brutal avec signes généraux intenses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fièvre élevée et syndrome de condensation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Opacité homogène systématisée d'allure pneumonique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bacilloscopies toujours positives dès le début.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le début est brutal, les signes généraux sont intenses avec une fièvre élevée, un syndrome de condensation et une opacité homogène systématisée d’allure pneumonique. Les bacilloscopies sont négatives au début, ne se positivant qu’à l’apparition d’une excavation."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés du diagnostic de la miliaire tuberculeuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence de micronodules de 1 à 3 mm de diamètre sur la radiographie du thorax.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Répartition uniforme des lésions à la totalité des champs pulmonaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Examen physique souvent riche en signes spécifiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les signes généraux sont au premier plan.",
+          "correct": true
+        }
+      ],
+      "explanation": "La radiographie du thorax est l’élément fondamental du diagnostic de miliaire, montrant des micronodules de 1 à 3 mm de diamètre de contours nets diffus et uniformément répartis. Le tableau clinique peut être trompeur avec les signes généraux au premier plan et l’examen physique est pauvre."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les particularités de la tuberculose chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tuberculose pulmonaire peut être torpide, dominée par l'altération de l'état général (AEG).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La dyspnée est rare.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une radiographie thoracique est inutile en l'absence de signes respiratoires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les lésions radiologiques sont souvent bilatérales et étendues.",
+          "correct": true
+        }
+      ],
+      "explanation": "La TBC pulmonaire peut être torpide, dominée par l’AEG. La dyspnée est fréquente. Il faut demander une radiographie thoracique même en l’absence de signes respiratoires, devant toute altération inexpliquée de l’état général chez un sujet âgé. Les formes étendues se voient surtout chez les sujets âgés, avec des lésions radiologiques souvent bilatérales à type de cavernes multiples géantes ou opacités alvéolaires non systématisées étendues."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les diagnostics différentiels radiologiques à évoquer devant des opacités cavitaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abcès du poumon",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancer du poumon nécrosé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Kyste hydatique compliqué",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumonie à germes pyogènes",
+          "correct": false
+        }
+      ],
+      "explanation": "Devant des opacités cavitaires, on doit évoquer un abcès du poumon, un cancer du poumon nécrosé, un kyste hydatique compliqué ou un infarctus pulmonaire nécrosé. La pneumonie à germes pyogènes est un diagnostic différentiel des opacités parenchymateuses non excavées."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les propriétés majeures de l'isoniazide et de la rifampicine en tant qu'anti-tuberculeux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles ont un pouvoir bactéricide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Leurs concentrations plasmatiques sont inférieures aux C.M.I. moyennes des bacilles de Koch.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Leur diffusion est de bonne qualité, atteignant les BK intra et extra-cellulaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La résistance des BK à ces produits est fréquente en monothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’isoniazide et la rifampicine ont un pouvoir bactéricide. Leurs concentrations plasmatiques sont supérieures aux C.M.I. moyennes des bacilles de Koch. Leur diffusion de bonne qualité leur permet d'atteindre les BK extra et intra-cellulaires. La relative rareté de la résistance des BK à chacun de ces produits quand ils sont utilisés en monothérapie est une propriété majeure."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets indésirables de la rifampicine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coloration orangée des liquides biologiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Neuropathie périphérique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Atteinte hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inducteur enzymatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les effets indésirables de la rifampicine incluent la coloration orangée des liquides biologiques, l'intolérance digestive, l'atteinte hépatique et les manifestations immunoallergiques. C'est également un inducteur enzymatique. La neuropathie périphérique est un effet secondaire de l'isoniazide et de l'éthambutol."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les règles de prescription des anti-tuberculeux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une seule prise quotidienne est suffisante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La monothérapie est recommandée pour éviter la résistance.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le traitement doit se baser sur l'association de plusieurs anti-tuberculeux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le traitement est délivré à jeun à distance des repas.",
+          "correct": true
+        }
+      ],
+      "explanation": "Étant donné que la multiplication des bacilles est au moins de 20 heures, une seule prise quotidienne suffit. La monothérapie est interdite en raison de la présence de bacilles génétiquement résistants. Le traitement doit se baser sur l’association de plusieurs antituberculeux. Le traitement est délivré à jeun à distance des repas (au moins 30 mn avant le petit déjeuner) afin de faciliter l’absorption."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de surveillance de l'efficacité du traitement anti-tuberculeux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prise de poids et la reprise de l'appétit.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La radiographie du thorax (nettoyage ou amélioration).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La bactériologie (bacilloscopies et cultures).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le dosage des transaminases (SGOT et SGPT).",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance de l’efficacité est basée sur la clinique (prise de poids, reprise de l’appétit, apyrexie), la radiographie du thorax (nettoyage ou amélioration) et la bactériologie (bacilloscopies et cultures). Le dosage des transaminases fait partie de la surveillance de la tolérance."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités épidémiologiques de la tuberculose en Tunisie en 2023 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Tunisie est un pays à faible endémicité.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'incidence de la tuberculose pulmonaire était supérieure à celle de la tuberculose extra-pulmonaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le Mycobacterium bovis est responsable de la majorité des cas de tuberculose ganglionnaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'impact de l'épidémie de VIH sur la tuberculose est mineur en Tunisie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les gouvernorats de l'Ariana et Manouba ont rapporté les chiffres d'incidence les plus bas.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Tunisie est un pays à endémicité intermédiaire. L’incidence de la tuberculose pulmonaire était de 9,6/100000 et celle de la tuberculose extra-pulmonaire de 16,7/100000 habitants, donc l'extra-pulmonaire est supérieure. Le Mycobacterium bovis serait responsable de 78,9% des cas de tuberculose ganglionnaire. L’impact de l'épidémie de VIH sur la tuberculose est mineur en Tunisie. Les gouvernorats de l’Ariana et Manouba ont rapporté les chiffres d’incidence les plus élevés."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences pratiques du polymorphisme génétique de l'acétylation de l'isoniazide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les troubles neurotoxiques sont plus fréquents chez les acétyleurs rapides.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les acétyleurs lents risquent une accumulation d'isoniazide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La posologie doit être adaptée selon la vitesse d'acétylation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les acétyleurs rapides peuvent nécessiter des doses supérieures aux doses moyennes.",
+          "correct": true
+        }
+      ],
+      "explanation": "La vitesse d’acétylation de l’isoniazide dépend de la constitution génétique de l’individu. Certains effets indésirables (troubles neurotoxiques) risquent d’être plus fréquents chez les acétyleurs lents à cause de l’accumulation de l’INH. Certains acétyleurs rapides doivent bénéficier de doses supérieures aux doses moyennes. Dans les deux cas, la posologie doit être adaptée, si possible, selon la vitesse d’acétylation."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications du pyrazinamide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accident d'hypersensibilité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Goutteux non traité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles oculaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications du pyrazinamide sont l'accident d’hypersensibilité, l'insuffisance hépatique et la goutte non traitée. Les troubles oculaires sont une contre-indication de l'éthambutol."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités du traitement de la tuberculose chez l'enfant (0-12 ans) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'éthambutol est systématiquement ajouté en phase intensive pour toutes les formes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour la tuberculose pulmonaire étendue ou cavitaire, un traitement quadruple (HRZE) est recommandé en phase intensive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les formulations sont disponibles en associations médicamenteuses fixes dispersibles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour la tuberculose pulmonaire non compliquée, le schéma est 2HRZ / 2HR.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la tuberculose pulmonaire étendue ou cavitaire, le traitement quadruple (Rifampicine + Isoniazide + Pyrazinamide + Ethambutol) est recommandé au cours de la phase intensive. L’Ethambutol est ajouté en phase intensive pour les enfants gravement malades ou dans des environnements à haute prévalence VIH/résistance à l'Isoniazide. Les formulations sont administrées sous forme d’associations médicamenteuses fixes dispersibles. Pour la tuberculose pulmonaire non compliquée, le schéma est 2HRZ / 4HR."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de traitement de l'infection tuberculeuse latente (ITL) selon le PNLT ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez les nourrissons de mères atteintes de TPC, un traitement par isoniazide et rifampicine pendant 3 mois est suivi d'une vaccination BCG.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez les enfants de moins de 5 ans en contact avec un cas confirmé, le dépistage de l'ITL est systématique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les adolescents et adultes avec IDR ≥ 10 mm et < 15 mm, un traitement préventif est systématiquement prescrit.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'isoniazide seul pendant 6 mois (6H) est une alternative en cas de contre-indication à la bithérapie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez les nourrissons de mères atteintes de TPC, un traitement à l’isoniazide et la rifampicine en quotidien pendant trois mois, puis vaccination par le BCG est recommandé. Le traitement de l’ITL est systématique chez les enfants âgés de moins de 5 ans et les personnes séropositives au VIH en contact avec une personne ayant une TBC pulmonaire confirmée. Chez les adolescents et adultes avec IDR ≥ 10 mm et < 15 mm, la personne est considérée comme non infectée et doit être revue. L’isoniazide seul pendant 6 mois (6H) est utilisé en cas de contre-indication à la bithérapie."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications graves possibles de la vaccination par le BCG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adénite suppurée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chéloïdes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lupus vulgaris.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ostéomyélite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Retard de cicatrisation au-delà du 4ème mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans 1 à 2 % des cas, la vaccination BCG peut présenter une évolution différente pouvant être désagréable. Au maximum, de sérieuses complications peuvent apparaître : adénite suppurée, chéloïdes, lupus vulgaris et l’ostéomyélite. Le retard de cicatrisation est une manifestation mineure."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les contre-indications à la vaccination par le BCG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie infectieuse évolutive.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Eczéma suintant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficits immunitaires congénitaux ou acquis.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grossesse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Maladies auto-immunes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les contre-indications du BCG sont les suivantes : maladie infectieuse évolutive, eczéma suintant, déficits immunitaires congénitaux ou acquis, grossesse, maladies auto-immunes."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de la tuberculose chez les personnes vivant avec le VIH à un stade tardif de l'infection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présentation clinique sans particularité.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fréquence accrue des miliaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prédominance topographique aux bases pulmonaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'excavation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fréquence des adénopathies médiastinales.",
+          "correct": true
+        }
+      ],
+      "explanation": "À un stade tardif de l’infection VIH, la TBC se caractérise par une fréquence accrue des miliaires, une prédominance topographique aux bases, l’absence d’excavation et la fréquence des adénopathies médiastinales. La présentation clinique sans particularité est observée à un stade précoce de l'infection VIH."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan préthérapeutique à réaliser avant la prescription du traitement antituberculeux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Interrogatoire à la recherche de tares et de prises médicamenteuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Examen clinique complet (poids, taille, recherche d'autres localisations).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bilan biologique (NFS, glycémie, bilan hépatique, bilan rénal, uricémie, sérologies hépatites B, C et VIH).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Examen ophtalmologique avec champ visuel et vision des couleurs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Test d'acétylation (si possible).",
+          "correct": true
+        }
+      ],
+      "explanation": "Un bilan préthérapeutique doit être réalisé avant la prescription du traitement antituberculeux. Ce bilan comprend un interrogatoire, un examen clinique, un bilan biologique, un test d’acétylation (si possible) et un examen ophtalmologique avec champ visuel et vision des couleurs."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de surveillance de la tolérance du traitement anti-tuberculeux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Évaluation par l'interrogatoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dosage biologique des SGOT et SGPT.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Examen ophtalmologique systématique pour tous les patients.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Contrôle de la couleur des urines.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tolérance est évaluée par l’interrogatoire, les dosages biologiques des SGOT et SGPT, éventuellement un examen ophtalmologique si l’on utilise l’éthambutol. Le contrôle de la couleur des urines et l'uricémie permettent de vérifier la prise du traitement (observance), pas la tolérance."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les adaptations thérapeutiques en cas d'insuffisance rénale ou de dialyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'isoniazide et la rifampicine ne nécessitent pas de modification de dose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'éthambutol et le pyrazinamide nécessitent un ajustement des doses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas de dialyse, le pyrazinamide et l'éthambutol sont administrés avant la séance.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'éthambutol est prescrit uniquement pour les formes pulmonaires cavitaires et graves chez le patient dialysé.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’isoniazide et la rifampicine sont éliminés par excrétion biliaire et ne nécessitent pas de modification de la dose. L’éthambutol et les métabolites du pyrazinamide ont une excrétion rénale et un ajustement des doses est nécessaire. En cas de dialyse, le pyrazinamide et l'éthambutol sont administrés après la séance de dialyse. L'éthambutol ne sera prescrit que pour les formes pulmonaires cavitaires et les formes graves chez le patient dialysé."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables majeurs des anti-tuberculeux nécessitant l'arrêt du traitement et une consultation d'urgence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eruption cutanée étendue avec ou sans prurit.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ictère et hépatite toxique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleurs articulaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Troubles visuels.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fièvre isolée, syndrome grippal, thrombopénie, purpura, insuffisance rénale aiguë, choc.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les effets indésirables majeurs nécessitant l'arrêt du traitement et une consultation d'urgence sont : éruption cutanée étendue, ictère et hépatite toxique (H, Z, R), confusion (la plupart des anti-tuberculeux), troubles visuels (E, H), et fièvre isolée, syndrome grippal, thrombopénie, purpura, insuffisance rénale aiguë, choc (R). Les douleurs articulaires sont un effet indésirable mineur du pyrazinamide."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications du dépistage de l'infection tuberculeuse latente (ITL) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez les enfants de moins de 5 ans en contact avec une personne ayant une TBC pulmonaire confirmée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chez les enfants de plus de 5 ans et adolescents ayant un contact familial avec une personne ayant une TB pulmonaire confirmée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Avant de débuter un traitement anti-TNF.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chez les personnes séropositives au VIH en contact avec une personne ayant une TBC pulmonaire confirmée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le dépistage de l’ITL est systématique chez les nourrissons de mères atteintes de TPC, les enfants âgés de moins de 5 ans et les personnes séropositives au VIH en contact avec une personne ayant une TBC pulmonaire confirmée. Il est recommandé chez les enfants âgés de plus de 5 ans, les adolescents et les adultes ayant un contact familial avec une personne ayant une TB pulmonaire confirmée, et avant de débuter un traitement anti-TNF."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités du diagnostic bactériologique de la tuberculose chez l'enfant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est souvent difficile en raison de formes pauci-bacillaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le recueil des expectorations est aisé.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il faut multiplier les prélèvements pour augmenter les chances de confirmation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic est basé uniquement sur l'IDR positive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic bactériologique est difficile car il s’agit le plus souvent de forme pauci-bacillaire et de la difficulté du recueil des expectorations. Ainsi, il faut multiplier les prélèvements pour augmenter les chances de confirmer le diagnostic. Le diagnostic est basé sur la notion de contage tuberculeux, les signes cliniques et l’IDR positive et/ou le dosage du Quantiféron (pratiqué chez les enfants de plus de 5 ans)."
+    }
+  ]
+}

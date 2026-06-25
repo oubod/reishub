@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-3",
+  "title": "Échanges gazeux respiratoires",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux processus physiologiques qui constituent la chaîne de l'hématose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La ventilation pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La contraction cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La diffusion des gaz à travers la membrane alvéolo-capillaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le transport des gaz par le sang.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La filtration rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hématose est un processus vital qui repose sur une chaîne complexe d'événements incluant la ventilation pulmonaire, la diffusion des gaz à travers la membrane alvéolo-capillaire et le transport des gaz par le sang, avant l'utilisation de l'oxygène par les tissus."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les formes principales sous lesquelles l'oxygène est transporté dans le sang ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sous forme d'ions bicarbonate.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sous forme dissoute dans le plasma.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lié à l'hémoglobine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lié aux protéines plasmatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sous forme de carbaminohémoglobine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'oxygène est transporté sous deux formes principales : une forme dissoute (1-2%) et une forme liée à l'hémoglobine (98-99%), qui est la forme majoritaire."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les paramètres clés évalués par une gazométrie artérielle pour l'hématose et l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression partielle artérielle en oxygène (PaO2).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le taux de glucose sanguin.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La pression partielle artérielle en dioxyde de carbone (PaCO2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pH sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le taux de créatinine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gazométrie artérielle est un examen clé pour évaluer l'hématose et l'équilibre acido-basique, en mesurant notamment le pH, la PaO2 et la PaCO2."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques de la membrane alvéolo-capillaire, site des échanges gazeux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est extrêmement épaisse (plusieurs millimètres).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est une structure très fine, d'environ 0,5 µm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa surface d'échange est très étendue, entre 50 et 100 m².",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est imperméable aux gaz respiratoires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est le lieu principal de la production d'hémoglobine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hématose se produit au niveau de la membrane alvéolo-capillaire, une structure extrêmement fine (environ 0,5 µm) et étendue (50-100 m²)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les valeurs normales de la PaO2 et de la PaCO2 dans le sang artériel ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PaO2 entre 60 et 80 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PaO2 entre 80 et 100 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PaCO2 entre 38 et 42 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PaCO2 entre 45 et 50 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "PaO2 supérieure à 120 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les valeurs normales de la PaO2 sont de 80 à 100 mmHg et celles de la PaCO2 sont de 38 à 42 mmHg."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la loi de Fick, quels facteurs augmentent la diffusion d'un gaz à travers une membrane ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la surface d'échange.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation du gradient de pression partielle du gaz.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du coefficient de diffusion du gaz.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un épaississement de la membrane.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution du poids moléculaire du gaz.",
+          "correct": false
+        }
+      ],
+      "explanation": "La diffusion d'un gaz à travers une membrane est proportionnelle à la surface d'échange, au gradient de pression partielle du gaz et au coefficient de diffusion du gaz. Elle est inversement proportionnelle à l'épaisseur de la membrane. Le coefficient de diffusion dépend de la solubilité et du poids moléculaire."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment le dioxyde de carbone (CO2) est-il principalement transporté dans le sang ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Majoritairement sous forme dissoute.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sous forme d'ions bicarbonate (HCO3-).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lié à l'hémoglobine sous forme de carbaminohémoglobine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exclusivement sous forme de CO2 gazeux.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Lié aux lipides plasmatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CO2 est transporté sous trois formes : dissoute (5-10%), liée à l'hémoglobine (carbaminohémoglobine, 20-30%) et majoritairement sous forme d'ions bicarbonate (60-70%)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui déplacent la courbe de dissociation de l'oxyhémoglobine vers la droite, favorisant la libération d'O2 aux tissus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la PCO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation du pH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la température.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation du 2,3-DPG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la PaO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un déplacement vers la droite de la courbe de dissociation de l'oxyhémoglobine (diminution de l'affinité, favorise la libération d'O2) est causé par une augmentation de la PCO2, une diminution du pH (effet Bohr), une augmentation de la température et une augmentation du 2,3-DPG."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les définitions correctes concernant les gaz du sang ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypoxémie est définie par une PaO2 inférieure à 80 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypercapnie est définie par une PaCO2 supérieure à 42 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypocapnie est définie par une PaCO2 supérieure à 38 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypercapnie signe toujours une hyperventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypoxémie est toujours associée à une hypercapnie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hypoxémie est définie par une PaO2 < 80 mmHg. Une hypercapnie est définie par une PaCO2 > 42 mmHg et signe toujours une hypoventilation alvéolaire. Une hypocapnie (PaCO2 < 38 mmHg) signe une hyperventilation alvéolaire."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les gradients de pression partielle qui régissent la diffusion de l'O2 et du CO2 entre l'alvéole et le capillaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour l'O2, la PAO2 est de 40 mmHg et la PvO2 est de 100 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pour l'O2, le gradient est de 60 mmHg, poussant l'O2 de l'alvéole vers le capillaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour le CO2, la PACO2 est de 40 mmHg et la PvCO2 est de 46 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour le CO2, le gradient est de 60 mmHg, poussant le CO2 du capillaire vers l'alvéole.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les gradients de pression partielle sont identiques pour l'O2 et le CO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour l'O2, la PAO2 est de 100 mmHg et la PvO2 est de 40 mmHg, créant un gradient de 60 mmHg. Pour le CO2, la PACO2 est de 40 mmHg et la PvCO2 est de 46 mmHg, créant un gradient de 6 mmHg. Ces gradients poussent les gaz dans le sens approprié."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences d'une hypoventilation alvéolaire sur les gaz du sang ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la PACO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la PACO2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la PaO2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation de la PaO2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypocapnie associée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypoventilation alvéolaire entraîne une augmentation de la PACO2 et, par conséquent, une diminution de la PAO2 et de la PaO2. Elle est caractérisée par une hypercapnie associée."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment l'enzyme anhydrase carbonique contribue-t-elle au transport du CO2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle lie directement le CO2 à l'hémoglobine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle catalyse la réaction de formation d'acide carbonique (H2CO3) à partir de CO2 et H2O.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle favorise la sortie des ions HCO3- du globule rouge en échange d'ions Cl-.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle tamponne les ions H+ produits par la réaction.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle augmente la solubilité du CO2 dans le plasma.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans les globules rouges, l'enzyme anhydrase carbonique catalyse la réaction CO2 + H2O <=> H2CO3 <=> H+ + HCO3-. Les ions H+ sont tamponnés par l'Hb, et les ions HCO3- sortent du globule rouge en échange d'un ion chlorure (Cl-)."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la courbe de dissociation de l'oxyhémoglobine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est linéaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle a une forme sigmoïde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle présente un plateau pour les PaO2 élevées, favorisant le chargement en O2 au niveau pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle présente une pente raide pour les PaO2 basses, favorisant le déchargement en O2 au niveau tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est insensible aux variations de pH et de température.",
+          "correct": false
+        }
+      ],
+      "explanation": "La relation entre la PaO2 et la SaO2 n'est pas linéaire et est décrite par la courbe de dissociation de l'oxyhémoglobine (courbe de Barcroft). Cette courbe en forme de sigmoïde a un plateau pour les PaO2 élevées (zone de chargement au niveau pulmonaire) et une pente raide pour les PaO2 basses (zone de déchargement au niveau tissulaire)."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques pouvant entraîner une hypoxémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hyperventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypoventilation alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un trouble de la diffusion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un effet shunt.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du débit cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypoxémie peut résulter de quatre mécanismes principaux : l'hypoventilation alvéolaire, le trouble de la diffusion, l'effet shunt et l'inadéquation des rapports ventilation/perfusion (effet V/Q)."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un trouble de la diffusion comme cause d'hypoxémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est causé par un épaississement de la membrane alvéolo-capillaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypoxémie s'aggrave typiquement à l'effort.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PaCO2 est généralement élevée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le CO2 diffuse très bien, donc la PaCO2 est normale ou basse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours corrigé par l'oxygénothérapie à forte concentration.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un trouble de la diffusion est causé par un épaississement de la membrane alvéolo-capillaire, ralentissant la diffusion de l'O2. L'hypoxémie s'aggrave typiquement à l'effort. La PaCO2 est normale ou basse car le CO2 diffuse très bien."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui composent le contenu artériel en oxygène (CaO2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La quantité d'hémoglobine (Hb).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La saturation de l'hémoglobine en oxygène (SaO2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La pression partielle artérielle en oxygène (PaO2).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le volume d'éjection systolique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le contenu artériel en oxygène (CaO2) dépend de l'hémoglobine et de sa saturation, selon la formule CaO2 = 1.34 x Hb x SaO2. La PaO2 influence la SaO2 mais n'est pas directement un composant du CaO2 dans cette formule."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui peuvent entraîner un déplacement de la courbe de dissociation de l'oxyhémoglobine vers la gauche ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation de la PCO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution du pH.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la température.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution du 2,3-DPG.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la PaO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un déplacement vers la gauche (augmentation de l'affinité de l'Hb pour l'O2) est causé par des conditions inverses à celles qui déplacent la courbe vers la droite, c'est-à-dire une diminution de la PCO2, une augmentation du pH, une diminution de la température et une diminution du 2,3-DPG."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'effet Shunt comme cause d'hypoxémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est dû à des alvéoles mal perfusées mais bien ventilées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il se produit lorsque des alvéoles sont perfusées mais non ventilées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est caractérisé par une hypoxémie sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypoxémie est généralement bien corrigée par l'oxygénothérapie à forte concentration.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un exemple est l'embolie pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'effet Shunt se produit lorsque des alvéoles sont perfusées mais non ventilées (ex: comblement alvéolaire dans une pneumonie, œdème pulmonaire). Il est caractérisé par une hypoxémie sévère et non ou peu corrigée par l'oxygénothérapie à forte concentration."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de l'hémoglobine dans le transport des gaz sanguins ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle transporte la majorité de l'oxygène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle transporte une partie du dioxyde de carbone sous forme de carbaminohémoglobine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle tamponne les ions H+ produits lors de la formation des bicarbonates.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est responsable de la production d'anhydrase carbonique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle régule directement la ventilation alvéolaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémoglobine est la forme principale de transport de l'O2 (98-99%). Elle transporte également le CO2 sous forme de carbaminohémoglobine (20-30%). De plus, les ions H+ produits lors de la formation des bicarbonates sont tamponnés par l'Hb."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce qui distingue l'hypoxémie de l'hypoxie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypoxémie est un manque d'O2 au niveau cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypoxémie est une baisse de la PaO2 dans le sang.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hypoxie est un manque d'O2 au niveau cellulaire pour le métabolisme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypoxie est toujours la conséquence directe de l'hypoxémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'hypoxémie est toujours associée à une anémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est crucial de distinguer l'hypoxémie (baisse de la PaO2 dans le sang) de l'hypoxie (manque d'O2 au niveau cellulaire pour assurer le métabolisme)."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les paramètres de la gazométrie artérielle qui reflètent l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La PaO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le pH.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les bicarbonates (HCO3-).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La SaO2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La PaCO2.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pH est le reflet de l'équilibre acido-basique. Les bicarbonates (HCO3-) représentent la composante métabolique de l'équilibre acido-basique. La PaCO2 reflète la ventilation alvéolaire, qui est la composante respiratoire de l'équilibre acido-basique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiopathologiques de l'hypoxémie qui peuvent être corrigés par l'oxygénothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypoventilation alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le trouble de la diffusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'effet Shunt, même à forte concentration d'O2.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'inadéquation des rapports ventilation/perfusion (Effet V/Q).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hypoxie histotoxique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypoxémie due à l'hypoventilation alvéolaire, au trouble de la diffusion et à l'inadéquation des rapports ventilation/perfusion (Effet V/Q) est typiquement bien corrigée par l'oxygénothérapie. L'effet Shunt est non ou peu corrigé par l'O2 pur."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles d'une hypoxie anémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une PaO2 basse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une quantité d'hémoglobine insuffisante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hémoglobine anormale, comme dans l'intoxication au CO.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un débit sanguin tissulaire insuffisant.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une incapacité des cellules à utiliser l'oxygène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans l'hypoxie anémique, la PaO2 et la SaO2 sont normales, mais la quantité d'hémoglobine est insuffisante (anémie) ou l'hémoglobine est anormale (intoxication au CO). Le contenu en O2 est donc bas."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments qui déterminent le transport artériel en oxygène (TAO2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le contenu artériel en oxygène (CaO2).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le débit cardiaque (DC).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pression partielle alvéolaire en oxygène (PAO2).",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La pression partielle artérielle en dioxyde de carbone (PaCO2).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La fréquence respiratoire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le transport artériel en oxygène (TAO2) dépend à la fois du contenu artériel en oxygène (CaO2) et du débit cardiaque (DC), selon la formule TAO2 = DC x CaO2."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes physiologiques qui contribuent à la haute diffusibilité du CO2 par rapport à l'O2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le CO2 a un poids moléculaire plus élevé que l'O2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le CO2 est environ 20 fois plus soluble que l'O2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le gradient de pression partielle du CO2 est plus faible que celui de l'O2.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La membrane alvéolo-capillaire est plus perméable au CO2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le CO2 est transporté majoritairement sous forme dissoute.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CO2 diffuse environ 20 fois plus vite que l'O2 en raison de sa plus grande solubilité. Bien que son gradient de pression partielle soit plus faible (6 mmHg contre 60 mmHg pour l'O2), cette haute diffusibilité est suffisante pour son élimination efficace."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une PaO2 de 70 mmHg et une PaCO2 de 50 mmHg. Quels mécanismes d'hypoxémie sont les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un trouble de la diffusion isolé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypoventilation alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un effet shunt pur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une inadéquation des rapports ventilation/perfusion (V/Q).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypoxie histotoxique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une PaO2 basse (hypoxémie) associée à une PaCO2 élevée (hypercapnie) est caractéristique d'une hypoventilation alvéolaire. L'inadéquation V/Q peut également entraîner une hypercapnie si elle est sévère, mais l'hypercapnie est le signe cardinal de l'hypoventilation. Un trouble de la diffusion ou un effet shunt pur ne s'accompagnent généralement pas d'hypercapnie, la PaCO2 étant normale ou basse."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est admis avec une PaO2 de 65 mmHg, une PaCO2 de 35 mmHg et une SaO2 de 90%. L'oxygénothérapie à forte concentration ne corrige que très peu l'hypoxémie. Quels sont les diagnostics les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypoventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un trouble de la diffusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un effet shunt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une inadéquation des rapports ventilation/perfusion (V/Q).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypoxie anémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hypoxémie sévère (PaO2 65 mmHg) avec une PaCO2 normale ou basse (35 mmHg) et une correction difficile par l'oxygénothérapie est très suggestive d'un effet shunt. Un trouble de la diffusion peut aussi présenter une PaCO2 normale ou basse et une hypoxémie, mais la correction par l'O2 est généralement meilleure qu'un shunt pur. L'hypoventilation alvéolaire s'accompagnerait d'hypercapnie. L'inadéquation V/Q est généralement bien corrigée par l'O2. L'hypoxie anémique n'entraîne pas d'hypoxémie (PaO2 et SaO2 normales)."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient atteint de fibrose pulmonaire présente une hypoxémie qui s'aggrave à l'effort. Quels sont les mécanismes physiopathologiques impliqués et les caractéristiques attendues des gaz du sang au repos ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Principalement une hypoventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un trouble de la diffusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une PaCO2 normale ou basse au repos.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypoxémie non corrigible par l'oxygénothérapie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un effet shunt pur.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fibrose pulmonaire est un exemple classique de trouble de la diffusion, où l'épaississement de la membrane alvéolo-capillaire ralentit la diffusion de l'O2, s'aggravant typiquement à l'effort. Dans ce mécanisme, la PaCO2 est normale ou basse car le CO2 diffuse très bien."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient en état de choc septique présente une hypoxie tissulaire malgré une PaO2 et une SaO2 normales. Quels types d'hypoxie sont à considérer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoxie hypoxémique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypoxie anémique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hypoxie circulatoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypoxie histotoxique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypoxie par trouble de la diffusion.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si la PaO2 et la SaO2 sont normales, l'hypoxie n'est pas hypoxémique. L'état de choc septique peut entraîner une hypoxie circulatoire (débit sanguin insuffisant vers les tissus). Une hypoxie histotoxique (incapacité des cellules à utiliser l'O2) est également une possibilité à considérer dans un contexte de choc, bien que moins fréquente que l'hypoxie circulatoire."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications cliniques d'une hypercapnie (PaCO2 > 42 mmHg) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle signe toujours une hypoventilation alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est toujours associée à une hypocapnie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle peut entraîner une acidose respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est un signe d'hyperventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours corrigée par l'oxygénothérapie seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hypercapnie (PaCO2 > 42 mmHg) signe toujours une hypoventilation alvéolaire. Une augmentation de la PaCO2 entraîne une diminution du pH, ce qui correspond à une acidose respiratoire."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient intoxiqué au monoxyde de carbone (CO) présente une cyanose et des signes d'hypoxie tissulaire. Quels sont les paramètres des gaz du sang qui seraient probablement normaux ou faussement rassurants ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La PaO2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La SaO2 mesurée par oxymétrie de pouls standard.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le pH.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le contenu artériel en oxygène (CaO2).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La PaCO2.",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans l'intoxication au CO, la PaO2 est généralement normale car le CO n'affecte pas la pression partielle d'O2 dissous. La PaCO2 est également souvent normale. Cependant, le CO se lie à l'hémoglobine avec une affinité bien supérieure à l'O2, formant de la carboxyhémoglobine, ce qui diminue le CaO2 et entraîne une hypoxie anémique. La SaO2 mesurée par oxymétrie de pouls standard peut être faussement normale car elle ne distingue pas l'oxyhémoglobine de la carboxyhémoglobine."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels une inadéquation des rapports ventilation/perfusion (V/Q) peut entraîner une hypoxémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des zones du poumon sont mal ventilées par rapport à leur perfusion (effet shunt-like).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des zones du poumon sont mal perfusées par rapport à leur ventilation (effet espace-mort).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation globale de la ventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la surface d'échange alvéolo-capillaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du débit cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inadéquation des rapports ventilation/perfusion (V/Q) est le mécanisme le plus fréquent d'hypoxémie. Elle se manifeste par des zones du poumon mal ventilées par rapport à leur perfusion (effet shunt-like) ou mal perfusées par rapport à leur ventilation (effet espace-mort)."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient asthmatique en crise sévère présente une hypoxémie. Quels sont les mécanismes physiopathologiques les plus probables et les caractéristiques de correction ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Principalement un trouble de la diffusion.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une inadéquation des rapports ventilation/perfusion (V/Q).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypoxémie typiquement bien corrigée par l'oxygénothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un effet shunt pur, non corrigible par l'O2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypoventilation alvéolaire isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthme est un exemple d'inadéquation des rapports ventilation/perfusion (V/Q), qui est le mécanisme le plus fréquent d'hypoxémie. L'hypoxémie due à l'inadéquation V/Q est typiquement bien corrigée par l'oxygénothérapie."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une diminution du pH sanguin sur l'affinité de l'hémoglobine pour l'oxygène et la courbe de dissociation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de l'affinité de l'Hb pour l'O2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution de l'affinité de l'Hb pour l'O2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déplacement de la courbe de dissociation vers la gauche.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Déplacement de la courbe de dissociation vers la droite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aucun effet sur l'affinité de l'Hb.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une diminution du pH (acidose) entraîne une diminution de l'affinité de l'hémoglobine pour l'O2 (effet Bohr), ce qui se traduit par un déplacement de la courbe de dissociation de l'oxyhémoglobine vers la droite, favorisant la libération d'O2 aux tissus."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une PaO2 de 90 mmHg, une SaO2 de 98%, mais un taux d'hémoglobine de 7 g/dL. Quels types d'hypoxie sont à envisager ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoxie hypoxémique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypoxie anémique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypoxie circulatoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypoxie histotoxique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypoxie par trouble de la diffusion.",
+          "correct": false
+        }
+      ],
+      "explanation": "Avec une PaO2 et une SaO2 normales, l'hypoxémie est exclue. Un taux d'hémoglobine bas (7 g/dL) indique une anémie, ce qui cause une hypoxie anémique par diminution du contenu artériel en O2. Une hypoxie circulatoire pourrait également être présente si le débit cardiaque est insuffisant, même avec un CaO2 réduit."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypoxie histotoxique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'apport en O2 aux tissus est insuffisant.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules sont incapables d'utiliser l'oxygène fourni.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est causée par une intoxication au cyanure.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à une hypoxémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le contenu en O2 du sang est normal.",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans l'hypoxie histotoxique, l'apport en O2 aux tissus est normal, mais les cellules sont incapables d'utiliser l'oxygène fourni (ex: intoxication au cyanure qui bloque la chaîne respiratoire mitochondriale). Le contenu en O2 du sang est donc normal."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles des ions bicarbonate (HCO3-) dans le transport du CO2 et l'équilibre acido-basique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils représentent la forme majoritaire de transport du CO2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils sont formés dans le plasma par l'anhydrase carbonique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont échangés avec des ions chlorure (Cl-) pour sortir du globule rouge.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont la composante métabolique de l'équilibre acido-basique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ils sont directement liés à l'hémoglobine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les ions bicarbonate (HCO3-) constituent la forme majoritaire (60-70%) de transport du CO2. Ils sont formés dans les globules rouges (non le plasma) et sortent du globule rouge en échange d'un ion chlorure (Cl-). Ils représentent la composante métabolique de l'équilibre acido-basique."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient en détresse respiratoire aiguë présente une PaO2 de 55 mmHg, une PaCO2 de 60 mmHg, et un pH de 7.25. Quels sont les mécanismes physiopathologiques et les déséquilibres acido-basiques les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoxémie par trouble de la diffusion.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypoventilation alvéolaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acidose respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Alcalose métabolique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inadéquation V/Q sévère.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une PaO2 basse (55 mmHg) et une PaCO2 élevée (60 mmHg) avec un pH bas (7.25) indiquent une hypoventilation alvéolaire et une acidose respiratoire. Une inadéquation V/Q sévère peut également entraîner une hypoxémie et une hypercapnie. Un trouble de la diffusion isolé n'expliquerait pas l'hypercapnie."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une défaillance à n'importe quel niveau de la chaîne de l'hématose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation de l'oxygénation tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des anomalies graves objectivées par l'analyse des gaz du sang.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une insuffisance respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypoxie tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hyperventilation compensatrice.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une défaillance à n'importe quel niveau de la chaîne de l'hématose (ventilation, diffusion, transport, utilisation) peut entraîner des anomalies graves, objectivées par l'analyse des gaz du sang, et conduire à une insuffisance respiratoire et à l'hypoxie."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs qui peuvent influencer l'affinité de l'hémoglobine pour l'O2 et déplacer la courbe de dissociation de l'oxyhémoglobine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La PaO2.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La PCO2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pH.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La température corporelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le taux de bicarbonates.",
+          "correct": false
+        }
+      ],
+      "explanation": "Plusieurs facteurs influencent l'affinité de l'Hb pour l'O2 et déplacent la courbe : la PCO2, le pH (effet Bohr), la température et le 2,3-DPG. La PaO2 détermine la saturation mais ne déplace pas la courbe elle-même."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient en hypoxie circulatoire présente une extraction d'O2 par les tissus augmentée. Quelles sont les caractéristiques de cette situation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le contenu en O2 du sang est normal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le débit sanguin vers les tissus est insuffisant.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La PaO2 est basse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La SaO2 est basse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est typique d'une intoxication au cyanure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans l'hypoxie circulatoire (ou de stase), le contenu en O2 du sang est normal, mais le débit sanguin vers les tissus est insuffisant (état de choc, ischémie locale). L'extraction d'O2 par les tissus est augmentée pour compenser le faible apport."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes physiopathologiques qui peuvent entraîner une hypoxémie avec une PaCO2 normale ou basse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trouble de la diffusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet shunt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inadéquation des rapports ventilation/perfusion (V/Q).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperventilation alvéolaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trouble de la diffusion, l'effet shunt et l'inadéquation des rapports ventilation/perfusion (V/Q) peuvent tous entraîner une hypoxémie avec une PaCO2 normale ou basse. L'hypoventilation alvéolaire est caractérisée par une hypercapnie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient avec une PaO2 de 75 mmHg et une PaCO2 de 30 mmHg est en hyperventilation alvéolaire. Quelles sont les causes possibles de cette situation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypoxémie compensée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une acidose métabolique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypoventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une embolie pulmonaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une intoxication au CO.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une PaCO2 basse (30 mmHg) signe une hyperventilation alvéolaire. Cette hyperventilation peut être une compensation à une hypoxémie (PaO2 75 mmHg) ou à une acidose métabolique. L'embolie pulmonaire est un exemple d'inadéquation V/Q qui peut entraîner une hypoxémie et une hyperventilation compensatrice. L'intoxication au CO n'entraîne pas d'hypoxémie (PaO2 normale)."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypoxémie par inadéquation V/Q et ses implications thérapeutiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est le mécanisme le plus fréquent d'hypoxémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est toujours associée à une hypercapnie sévère.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est typiquement bien corrigée par l'oxygénothérapie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est causée par des zones du poumon mal ventilées ou mal perfusées.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est non ou peu corrigée par l'O2 pur.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inadéquation des rapports ventilation/perfusion (V/Q) est le mécanisme le plus fréquent. Elle est causée par des zones du poumon mal ventilées par rapport à leur perfusion (effet shunt-like) ou mal perfusées par rapport à leur ventilation (effet espace-mort). L'hypoxémie est typiquement bien corrigée par l'oxygénothérapie."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui contribuent à la formation des ions bicarbonate (HCO3-) dans les globules rouges ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'enzyme anhydrase carbonique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La réaction du CO2 avec l'eau.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le tamponnement des ions H+ par l'hémoglobine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échange des ions HCO3- avec des ions Na+.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La liaison directe du CO2 à l'hémoglobine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans les globules rouges, l'enzyme anhydrase carbonique catalyse la réaction CO2 + H2O <=> H2CO3 <=> H+ + HCO3-. Les ions H+ sont tamponnés par l'Hb, ce qui permet la production continue de HCO3-."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une PaO2 de 60 mmHg, une PaCO2 de 40 mmHg, et une SaO2 de 88%. Quels sont les mécanismes d'hypoxémie les plus probables ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypoventilation alvéolaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trouble de la diffusion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Effet shunt.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inadéquation des rapports ventilation/perfusion (V/Q).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypoxie anémique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hypoxémie (PaO2 60 mmHg) avec une PaCO2 normale (40 mmHg) peut être due à un trouble de la diffusion, un effet shunt ou une inadéquation des rapports ventilation/perfusion (V/Q). L'hypoventilation alvéolaire s'accompagnerait d'hypercapnie. L'hypoxie anémique n'entraîne pas d'hypoxémie."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications de la forme sigmoïde de la courbe de dissociation de l'oxyhémoglobine pour l'oxygénation tissulaire et pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le plateau élevé permet une saturation maximale de l'Hb au niveau pulmonaire même avec des variations de PaO2.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pente raide aux PaO2 basses facilite le déchargement d'O2 aux tissus.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle indique une affinité constante de l'Hb pour l'O2.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle signifie que la SaO2 est directement proportionnelle à la PaO2.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle rend l'Hb insensible aux besoins métaboliques des tissus.",
+          "correct": false
+        }
+      ],
+      "explanation": "La courbe sigmoïde a un plateau pour les PaO2 élevées (zone de chargement au niveau pulmonaire), assurant une saturation élevée même avec de légères baisses de PaO2. La pente raide pour les PaO2 basses (zone de déchargement au niveau tissulaire) permet une libération efficace d'O2 aux tissus lorsque leurs besoins augmentent."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les principaux objectifs pédagogiques de ce cours sur les échanges gazeux respiratoires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Décrire les mécanismes physiques des échanges gazeux alvéolo-capillaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Expliquer les modalités de transport de l'O2 et du CO2 dans le sang.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Interpréter les principaux paramètres d'une gazométrie artérielle.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réaliser une intubation trachéale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Prescrire des antibiotiques pour une pneumonie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs pédagogiques incluent la description des mécanismes physiques des échanges gazeux, l'explication des modalités de transport de l'O2 et du CO2, et l'interprétation des paramètres d'une gazométrie artérielle."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui peuvent entraîner une diminution du contenu artériel en oxygène (CaO2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une PaO2 normale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la quantité d'hémoglobine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la saturation de l'hémoglobine en oxygène (SaO2).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation du débit cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la PaCO2.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le CaO2 dépend de l'hémoglobine et de sa saturation (CaO2 = 1.34 x Hb x SaO2). Une diminution de l'Hb ou de la SaO2 entraînera une diminution du CaO2. Une PaO2 normale n'empêche pas une diminution du CaO2 si l'Hb est basse (hypoxie anémique)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hypoxémie par effet shunt et ses implications pour l'oxygénothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est causée par des alvéoles perfusées mais non ventilées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par une hypoxémie sévère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est typiquement bien corrigée par l'oxygénothérapie à forte concentration.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est non ou peu corrigée par l'oxygénothérapie à forte concentration.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est le mécanisme le plus fréquent d'hypoxémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'effet shunt se produit lorsque des alvéoles sont perfusées mais non ventilées, entraînant une hypoxémie sévère. Cette hypoxémie est non ou peu corrigée par l'oxygénothérapie à forte concentration (O2 pur), car le sang shunté ne passe pas par des alvéoles fonctionnelles pour capter l'O2 supplémentaire."
+    }
+  ]
+}

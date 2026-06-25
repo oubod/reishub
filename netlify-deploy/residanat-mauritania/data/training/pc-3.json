@@ -1,0 +1,1552 @@
+{
+  "lectureId": "pc-3",
+  "title": "Traumatisme thoracique",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la lésion la plus fréquemment retrouvée lors d'un traumatisme thoracique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lésion du poumon",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lésion de la paroi thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésion du cœur",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Lésion de l'aorte",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que 70% des traumatismes thoraciques concernent la paroi thoracique, ce qui en fait la lésion la plus fréquente."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les mécanismes de traumatisme thoracique suivants, lequel est le plus souvent associé à un traumatisme fermé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plaie par arme blanche",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Explosion (blast)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Accident de la voie publique (AVP)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plaie par arme à feu",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traumatisme fermé est décrit comme un traumatisme violent, notamment par AVP, plus rarement chute d’un lieu élevé, agression, séisme et éboulement."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel signe clinique est caractéristique d'un choc à haute vélocité lors d'un traumatisme thoracique fermé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence de lésions pariétales",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Marque de la ceinture de sécurité",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lésions endothoraciques à distance des lésions pariétales",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Thorax immobile initialement",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne que les signes de choc à haute vélocité incluent une ecchymose pariétale et une marque de la ceinture de sécurité."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le mécanisme principal d'un traumatisme pénétrant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Propagation d'une onde de pression",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cisaillement secondaire à une décélération brutale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Atteinte directe liée au projectile ou à l'objet contendant",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperpression intra-thoracique brutale à glotte fermée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traumatisme pénétrant est défini comme une plaie par armes blanches ou par arme à feu, entraînant une atteinte directe liée au projectile ou à l'objet contendant."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen paraclinique est recommandé en urgence pour un patient en détresse hémodynamique non stabilisable suite à un traumatisme thoracique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie pulmonaire (RP)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Échographie cardiaque transœsophagienne (ETO)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tomodensitométrie (TDM) thoracique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Électrocardiogramme (ECG)",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de détresse hémodynamique et si le patient n'est pas stabilisable, le bilan paraclinique rapide inclut une ETO en urgence, suivie d'une thoracotomie."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal risque évolutif d'un hémothorax ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax compressif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rupture diaphragmatique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Surinfection (empyème pleural)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Contusion pulmonaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne que l'hémothorax présente un risque de surinfection, pouvant évoluer vers un empyème pleural."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "À partir de quel volume de drainage un hémothorax nécessite-t-il un drainage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 100 mL",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plus de 200 mL",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus de 500 mL",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 1,5 L",
+          "correct": false
+        }
+      ],
+      "explanation": "Le drainage est indiqué si l'hémothorax est supérieur à 200 mL ou s'il est associé à un pneumothorax."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen est le plus sensible pour le diagnostic de pneumothorax ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie pulmonaire de face",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Échographie cardiaque",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tomodensitométrie (TDM) thoracique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Auscultation pulmonaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le TDM thoracique est décrit comme l'examen le plus sensible pour le diagnostic de pneumothorax."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la localisation la plus fréquente des fractures de côtes isolées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Côtes 1, 2 ou 3",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Côtes 5, 6, 7 ou 8",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Côtes 9, 10 ou 11",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Côtes flottantes (11 et 12)",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fractures isolées de côtes concernent généralement les côtes 5, 6, 7 ou 8."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement de première intention pour une fracture isolée de côte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ostéosynthèse chirurgicale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ventilation assistée en pression positive",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Antalgiques et kinésithérapie incitative",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Drainage thoracique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement des fractures isolées de côtes est uniquement symptomatique, incluant antalgiques, AINS et kinésithérapie incitative."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal signe clinique d'un volet thoracique mobile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur exquise à la palpation",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mobilité accrue par les mouvements respiratoires",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Respiration paradoxale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Enfoncement permanent",
+          "correct": false
+        }
+      ],
+      "explanation": "Un volet thoracique mobile est responsable d'une respiration paradoxale, pouvant entraîner un épuisement respiratoire."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la complication la plus fréquente d'une rupture diaphragmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Détresse respiratoire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Occlusion intestinale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémopéricarde",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le texte ne précise pas de complication fréquente, mais des complications rares comme la détresse respiratoire ou l'occlusion.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte indique que les complications (détresse respiratoire, occlusion) sont rarement révélatrices, suggérant qu'elles ne sont pas les plus fréquentes ou qu'elles surviennent tardivement."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le délai habituel d'apparition des signes radiologiques d'une contusion pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immédiatement après le traumatisme",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Après quelques heures",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Après 24 heures",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Après 72 heures",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome alvéolaire à la radiographie pulmonaire n'apparaît qu'après quelques heures, étant maximal à 48-72h."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pronostic habituel d'une contusion myocardique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Généralement sombre avec une mortalité élevée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Nécessite une intervention chirurgicale urgente",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Évolution spontanément favorable dans la majorité des cas",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Entraîne systématiquement des troubles du rythme graves",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que le pronostic d'une contusion myocardique est généralement bon, avec une surveillance simple."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la première mesure à prendre en pré-hospitalier en cas de plaie soufflante du thorax ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antibioprophylaxie par Augmentin®",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pansement occlusif",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pansement non occlusif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maintien du patient en position allongée",
+          "correct": false
+        }
+      ],
+      "explanation": "En pré-hospitalier, un pansement non occlusif est recommandé en cas de plaie soufflante pour prévenir le pneumothorax compressif."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes de traumatisme thoracique fermé qui peuvent entraîner des lésions endothoraciques à distance des lésions pariétales de l'impact ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc direct par compression/écrasement",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Choc direct avec décélération brutale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Blast (effet de souffle)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traumatisme pénétrant",
+          "correct": false
+        }
+      ],
+      "explanation": "Le choc direct avec décélération brutale entraîne des lésions endothoraciques à distance des lésions pariétales de l'impact. Le blast provoque des lésions viscérales diffuses sans lésion pariétale, donc à distance de tout impact pariétal direct."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques peuvent indiquer une détresse respiratoire aiguë chez un patient victime d'un traumatisme thoracique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bradypnée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tirage sus-claviculaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cyanose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Polypnée (FR > 35/min)",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Trouble de la conscience",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes sont listés comme des indicateurs de détresse respiratoire aiguë : bradypnée, tirage sus-claviculaire, cyanose, polypnée ou tachypnée (FR > 35/min), et signes neurologiques comme le trouble de la conscience."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments font partie du bilan pré-opératoire standard pour un traumatisme thoracique sans détresse vitale aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Groupage sanguin",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Recherche d'Agglutinines Irrégulières (RAI)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Numération Formule Sanguine (NFS)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bilan d'hémostase",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Échographie cardiaque",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan pré-opératoire inclut le groupage, RAI, NFS, bilan d'hémostase et ECG. L'échographie cardiaque est également mentionnée dans le bilan lésionnel pour les patients sans détresse vitale aiguë."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'un hémothorax ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dyspnée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Immobilité d'un hémithorax",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Matité à la percussion",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tympanisme à la percussion",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de l'hémothorax sont la douleur thoracique, la dyspnée, l'immobilité d'un hémithorax et la matité à la percussion. Le tympanisme est un signe de pneumothorax."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations une thoracotomie est-elle indiquée pour un hémothorax ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc hémorragique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drainage > 1,5 L/24h",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Drainage > 200 mL/h",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Drainage > 2 L d'emblée",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Tarissement du drainage en plus de 10 jours",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces situations sont des indications de thoracotomie pour un hémothorax selon le texte."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes pouvant entraîner un pneumothorax traumatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plaie du parenchyme pulmonaire par une fracture costale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lacération du parenchyme pulmonaire par une décélération brutale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hyperpression intra-thoracique brutale à glotte fermée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésions des vaisseaux intercostaux",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte décrit trois mécanismes de pneumothorax : plaie du parenchyme pulmonaire par fracture costale ou plaie pénétrante, lacération du parenchyme pulmonaire par décélération brutale, et hyperpression intra-thoracique brutale à glotte fermée. Les lésions des vaisseaux intercostaux sont associées à l'hémothorax."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques peuvent faire suspecter un pneumothorax compressif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouble de ventilation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Collapsus pulmonaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Défaillance hémodynamique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Arrêt cardio-circulatoire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Frottement pleural en cas de décollement minime",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pneumothorax compressif peut entraîner un trouble de ventilation, un collapsus pulmonaire, une défaillance hémodynamique et un arrêt cardio-circulatoire. Le frottement pleural est un signe de décollement minime, pas spécifiquement compressif."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications d'une exsufflation en pré-hospitalier en cas de suspicion de pneumothorax asphyxiant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dyspnée intense avec ventilation superficielle",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Distension thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Asymétrie ou silence auscultatoire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Turgescence jugulaire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Emphysème sous-cutané",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces indications sont listées pour l'exsufflation en pré-hospitalier en cas de suspicion de pneumothorax asphyxiant."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une fracture isolée de côte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trouble de ventilation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Encombrement bronchique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surinfection",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Volet costal",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémothorax",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte mentionne les troubles de ventilation, l'encombrement bronchique et la surinfection comme complications directes. Il indique également que le bilan des complications doit rechercher un volet costal, un hémothorax, un pneumothorax, une contusion pulmonaire ou un traumatisme des gros vaisseaux."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens complémentaires sont indiqués en cas de traumatisme des côtes flottantes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie abdominale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "TDM abdominal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échocardiographie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "TDM thoracique",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de traumatisme des côtes flottantes, il faut rechercher une atteinte hépatique, splénique ou rénale par échographie abdominale ± TDM abdominal."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les types de volet thoracique décrits et leurs caractéristiques de mobilité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Volet antérieur (sterno-costal) : très mobile",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Volet latéral : souvent mobile",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Volet postérieur : souvent stable",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Volet accroché : risque de mobilisation secondaire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Volet embarré : enfoncement permanent",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte décrit le volet antérieur comme très mobile, le volet latéral comme souvent mobile, et le volet postérieur comme souvent stable. Il mentionne également le volet accroché (fracture engrénée) avec risque de mobilisation secondaire et le volet embarré avec enfoncement permanent."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles mesures thérapeutiques sont associées à la prise en charge d'un volet thoracique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation urgente en réanimation",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antalgie médicamenteuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bloc intercostal",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Kinésithérapie respiratoire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Broncho-aspiration",
+          "correct": true
+        }
+      ],
+      "explanation": "Toutes ces mesures sont listées comme des mesures associées au traitement du volet thoracique."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels examens sont systématiquement recherchés en cas de fracture sternale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Respiration paradoxale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "ECG",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Échocardiographie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Enzymes cardiaques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fibroscopie bronchique",
+          "correct": false
+        }
+      ],
+      "explanation": "Il faut rechercher systématiquement une respiration paradoxale (volet antérieur) et une contusion myocardique (ECG, échocardiographie, enzymes cardiaques). La fibroscopie bronchique est associée au volet antérieur, pas spécifiquement à la fracture sternale isolée."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes radiologiques pouvant évoquer une rupture diaphragmatique sur une radiographie pulmonaire de face ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ascension d'une hémi-coupole diaphragmatique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Image gazeuse anormale intra-thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Enroulement intra-thoracique de la sonde d'aspiration gastrique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Élargissement du médiastin",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Fracture de côte associée",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes radiologiques de rupture diaphragmatique sont l'ascension d'une hémi-coupole, une image gazeuse anormale intra-thoracique et l'enroulement intra-thoracique de la sonde d'aspiration gastrique. L'élargissement du médiastin et la fracture de côte associée sont des signes de rupture de l'isthme aortique."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'une contusion pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémoptysie ou sécrétions bronchiques sanglantes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Polypnée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de condensation à l'auscultation",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Emphysème sous-cutané",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de contusion pulmonaire sont l'hémoptysie ou sécrétions bronchiques sanglantes, la douleur thoracique, la polypnée et le syndrome de condensation à l'auscultation. L'emphysème sous-cutané est plutôt lié à une rupture trachéo-bronchique ou un pneumothorax."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes diagnostiques d'une rupture des voies aériennes (trachéo-bronchique) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Emphysème cervico-médiastinal extensif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémoptysie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumo-médiastin à la RP",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Silence auscultatoire",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de rupture des voies aériennes est évoqué par l'association pneumothorax + emphysème cervico-médiastinal extensif + hémoptysie. La RP peut montrer un pneumo-médiastin et un pneumothorax. Le silence auscultatoire est un signe de pneumothorax compressif, mais pas spécifique de la rupture des voies aériennes."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et radiologiques pouvant évoquer une rupture aiguë de l'isthme aortique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Détresse cardio-circulatoire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asymétrie des pouls périphériques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Élargissement du médiastin > 8 cm à la RP",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déviation de la trachée vers la droite à la RP",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fracture de côte associée",
+          "correct": true
+        }
+      ],
+      "explanation": "Tous ces signes sont mentionnés comme des éléments diagnostiques de rupture aiguë de l'isthme aortique : détresse cardio-circulatoire, asymétrie des pouls périphériques, élargissement du médiastin > 8 cm, déviation de la trachée vers la droite et fracture de côte associée."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques évolutifs d'un traumatisme péricardique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémopéricarde",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tamponnade",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contusion myocardique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Valvulopathie traumatique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que le traumatisme péricardique présente un risque évolutif d'hémopéricarde et de tamponnade. La contusion myocardique et la valvulopathie traumatique sont d'autres types de lésions cardiaques."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques d'un traumatisme de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Emphysème cervical",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome infectieux sévère et précoce (< 24h)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémoptysie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Bruits hydro-aériques intra-thoraciques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques d'un traumatisme de l'œsophage sont la douleur thoracique, l'emphysème cervical et un syndrome infectieux sévère et précoce (< 24h). L'hémoptysie est liée aux lésions pulmonaires et les bruits hydro-aériques à la rupture diaphragmatique."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications d'une prise en charge chirurgicale pour une plaie pénétrante par arme blanche ou objet contendant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc hémorragique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémothorax important",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Suspicion de plaie du cœur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lésion pulmonaire importante",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Atteinte bronchique proximale",
+          "correct": true
+        }
+      ],
+      "explanation": "Le texte liste toutes ces situations comme des indications de prise en charge chirurgicale pour une plaie pénétrante par arme blanche ou objet contendant."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un enfant victime d'un traumatisme thoracique fermé peut présenter des lésions viscérales graves sans signes évidents de lésions pariétales. Quelle est la raison principale de cette particularité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La faible énergie cinétique des traumatismes chez l'enfant",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La grande flexibilité de la paroi thoracique de l'enfant",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'absence de parallélisme entre lésions pariétales et endothoraciques chez l'enfant uniquement",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La prédominance des traumatismes par blast chez l'enfant",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte précise que chez l'enfant, la grande flexibilité de la paroi thoracique permet des lésions viscérales sans lésions pariétales apparentes."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient polytraumatisé présente une polypnée, des signes d'encombrement avec wheezing et un balancement thoraco-abdominal. La cyanose est absente. Quelle est la raison possible de l'absence de cyanose malgré la détresse respiratoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cyanose n'est pas un signe de détresse respiratoire aiguë",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La cyanose peut être masquée par une anémie aiguë",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La cyanose peut être masquée par une vasoconstriction",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le patient est en phase d'épuisement respiratoire terminale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique que la cyanose, bien que signe de détresse respiratoire, peut être masquée par l'anémie aiguë ou la vasoconstriction."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient en détresse hémodynamique suite à un traumatisme thoracique est stabilisable. Quel est l'examen lésionnel rapide à privilégier dans ce cas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie cardiaque transœsophagienne (ETO)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thoracotomie exploratrice",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tomodensitométrie (TDM) thoracique en urgence",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Radiographie pulmonaire (RP) seule",
+          "correct": false
+        }
+      ],
+      "explanation": "Si le patient en détresse hémodynamique est stabilisable, le TDM thoracique en urgence est l'examen lésionnel rapide indiqué. L'ETO et la thoracotomie sont réservées aux patients non stabilisables."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un hémothorax minime isolé. Quelle est la conduite à tenir initiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Drainage thoracique immédiat",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Thoracotomie en urgence",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Surveillance simple",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Re-drainage si hémothorax cloisonné",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique une surveillance simple si l'hémothorax est minime et isolé. Le drainage est indiqué si > 200 mL ou associé à un pneumothorax."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous ventilation mécanique présente une dégradation hémodynamique et respiratoire brutale. Quel diagnostic doit être évoqué en priorité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémothorax important",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Rupture diaphragmatique",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pneumothorax compressif",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Contusion pulmonaire sévère",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte stipule que toute dégradation hémodynamique ou respiratoire brutale survenant après la mise sous ventilation mécanique doit faire évoquer le diagnostic de pneumothorax compressif."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations un drainage thoracique est-il indiqué pour un pneumothorax traumatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumothorax compressif",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pneumothorax bilatéral",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pneumothorax unilatéral non compressif isolé de faible surface de décollement radiologique < 50%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Associé à une instabilité hémodynamique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Avant toute anesthésie générale",
+          "correct": true
+        }
+      ],
+      "explanation": "Le drainage est indiqué pour un pneumothorax compressif, bilatéral, associé à une instabilité hémodynamique ou avant toute anesthésie générale. La surveillance simple est pour le pneumothorax unilatéral non compressif isolé de faible surface de décollement radiologique < 50%."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un emphysème sous-cutané persistant ou un bullage non résolutif après 4 jours de drainage pour un pneumothorax. Quelle est la conduite à tenir ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ablation du drain après RP de contrôle",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Re-drainage si hémothorax cloisonné",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Thoracotomie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Surveillance simple prolongée",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte indique qu'un emphysème sous-cutané (rupture thoraco-bronchique) ou un bullage non résolutif > 4 jours (plaie pulmonaire) nécessite une thoracotomie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un traumatisme des 1ères côtes. Quels examens complémentaires sont à envisager pour rechercher des lésions associées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie abdominale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TDM abdominal",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Échocardiographie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "TDM thoracique",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de traumatisme des 1ères côtes, il faut rechercher une atteinte trachéo-bronchique ou des gros vaisseaux par échocardiographie ± TDM thoracique. L'échographie et TDM abdominale sont pour les côtes flottantes."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un volet thoracique avec épuisement respiratoire formellement attribué à la seule respiration paradoxale. Quelle est l'indication thérapeutique spécifique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ventilation assistée en pression positive",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ostéosynthèse précoce (< 5 jours)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antalgie médicamenteuse seule",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Kinésithérapie respiratoire intensive",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ostéosynthèse précoce (< 5 jours) est indiquée si l'épuisement respiratoire est formellement attribué à la seule respiration paradoxale. La ventilation assistée est si la ventilation assistée est nécessaire, mais l'ostéosynthèse est le traitement spécifique de la cause de l'épuisement dans ce cas."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le délai diagnostique fréquent pour une rupture diaphragmatique et quelle est la conduite à tenir chirurgicale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diagnostic immédiat, suture chirurgicale en urgence absolue",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Retard diagnostique fréquent (24-48h), suture chirurgicale en urgence différée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diagnostic tardif (> 72h), traitement conservateur",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diagnostic immédiat, drainage thoracique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le texte mentionne un retard diagnostique fréquent, généralement à 24-48h. Le traitement est systématique par suture chirurgicale après réintégration des organes digestifs en intra-abdominal, en urgence différée (dès que le patient est stable)."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le risque évolutif précoce majeur d'une contusion pulmonaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Embolie graisseuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pneumopathie d'inhalation",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Syndrome de Détresse Respiratoire Aiguë (SDRA)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématocèle",
+          "correct": false
+        }
+      ],
+      "explanation": "Le risque évolutif précoce majeur d'une contusion pulmonaire est le SDRA. L'embolie graisseuse et la pneumopathie d'inhalation sont des diagnostics différentiels, et l'hématocèle est une lésion associée possible, pas un risque évolutif majeur."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le siège le plus fréquent d'une rupture complète de la paroi de l'arbre trachéo-bronchique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trachée cervicale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trachée distale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bronche souche droite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bronche souche gauche",
+          "correct": false
+        }
+      ],
+      "explanation": "Le siège le plus souvent est au niveau de la trachée distale ou de la bronche souche droite."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le pronostic d'une rupture aiguë de l'isthme aortique et quel est le traitement chirurgical privilégié ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pronostic bon, traitement par endo-prothèse aortique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pronostic sombre (70% de mortalité immédiate), traitement par endo-prothèse aortique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pronostic bon, traitement par chirurgie ouverte immédiate",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pronostic sombre, traitement conservateur",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pronostic est sombre avec 70% de mortalité immédiate. Le traitement chirurgical en milieu spécialisé est l'endo-prothèse aortique couvrant la zone de rupture par voie fémorale."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les examens complémentaires à réaliser en cas de suspicion de traumatisme de l'œsophage ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiographie pulmonaire (RP)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fibroscopie œsophagienne",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lavement hydrosoluble",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "TDM thoracique",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fibroscopie bronchique",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic repose sur la RP (normale dans 1/3 des cas ou pneumo-médiastin), la fibroscopie œsophagienne + lavement hydrosoluble. Le bilan lésionnel inclut TDM thoracique et fibroscopie bronchique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prise en charge spécifique des plaies pénétrantes souillées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Désinfection et pansement des plaies",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pansement non occlusif",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Parage et suture des plaies par points lâches",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antibioprophylaxie par céfamandole ou Augmentin®",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "SAT-VAT",
+          "correct": true
+        }
+      ],
+      "explanation": "La prise en charge spécifique inclut le parage et la suture des plaies par points lâches (surtout en cas de plaie souillée), l'antibioprophylaxie par céfamandole ou Augmentin®, et le SAT-VAT. La désinfection/pansement et le pansement non occlusif sont des mesures pré-hospitalières générales."
+    }
+  ]
+}

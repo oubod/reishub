@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-11",
+  "title": "Fonction surrénalienne",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les deux parties embryologiquement et fonctionnellement distinctes de la glande surrénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortex surrénalien",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le lobe antérieur de l'hypophyse",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La médulla surrénalienne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le corps pinéal",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le cortex rénal",
+          "correct": false
+        }
+      ],
+      "explanation": "La glande surrénale est composée du cortex surrénalien en périphérie et de la médulla surrénalienne au centre, qui sont distincts embryologiquement et fonctionnellement."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles hormones sont principalement synthétisées par la corticosurrénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'adrénaline",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le cortisol",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La noradrénaline",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La rénine",
+          "correct": false
+        }
+      ],
+      "explanation": "La corticosurrénale synthétise les hormones stéroïdes, dont le cortisol (glucocorticoïde) et l'aldostérone (minéralocorticoïde)."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les hormones principales produites par la médullosurrénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'adrénaline",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La noradrénaline",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La DHEA",
+          "correct": false
+        }
+      ],
+      "explanation": "La médullosurrénale est composée de cellules chromaffines qui synthétisent et sécrètent les catécholamines, dont l'adrénaline (~80%) et la noradrénaline (~20%)."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les zones concentriques du cortex surrénalien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Zone médullaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Zone glomérulée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Zone fasciculée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Zone réticulée",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Zone corticale",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortex surrénalien est divisé en trois zones concentriques : la zone glomérulée (externe), la zone fasciculée (intermédiaire) et la zone réticulée (interne)."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles physiologiques majeurs de l'aldostérone ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmenter la néoglucogenèse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Maintenir l'homéostasie du sodium et du potassium",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminuer la pression artérielle",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Maintenir la volémie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Inhiber la phospholipase A2",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aldostérone est l'hormone principale de la zone glomérulée et son rôle est le maintien de l'homéostasie du sodium et du potassium, et donc de la volémie et de la pression artérielle."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux mécanismes de régulation de la sécrétion d'aldostérone ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'axe corticotrope (ACTH)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le Système Rénine-Angiotensine-Aldostérone (SRAA)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hyperkaliémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hypoglycémie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le rétrocontrôle négatif du cortisol",
+          "correct": false
+        }
+      ],
+      "explanation": "La sécrétion d'aldostérone est principalement régulée par le Système Rénine-Angiotensine-Aldostérone (SRAA), activé par l'hypovolémie ou l'hypotension. L'hyperkaliémie est également un puissant stimulateur direct. L'ACTH n'a qu'un effet faible et transitoire."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets métaboliques du cortisol sur les glucides et les protéines ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la néoglucogenèse hépatique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de l'utilisation périphérique du glucose",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation du catabolisme protéique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la fourniture d'acides aminés pour la néoglucogenèse",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Conduite à une hyperglycémie",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cortisol augmente la néoglucogenèse hépatique et diminue l'utilisation périphérique du glucose, conduisant à une hyperglycémie. Il augmente également le catabolisme protéique pour fournir des acides aminés à la néoglucogenèse."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment le cortisol exerce-t-il son rôle anti-inflammatoire et immunosuppresseur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En stimulant la phospholipase A2",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En augmentant la perméabilité capillaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En inhibant la migration et l'activation des leucocytes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En diminuant la production de cytokines pro-inflammatoires",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En favorisant l'œdème",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol inhibe la phospholipase A2, diminue la perméabilité capillaire et l'œdème, inhibe la migration et l'activation des leucocytes, et diminue la production de cytokines pro-inflammatoires."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la sécrétion de cortisol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est constante tout au long de la journée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est pulsatile",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle suit un rythme circadien",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle présente un nadir le matin au réveil",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est maximale en fin de soirée",
+          "correct": false
+        }
+      ],
+      "explanation": "La sécrétion de cortisol est pulsatile et suit un rythme circadien, avec un pic maximal le matin au réveil (vers 8h) et un nadir en fin de soirée."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets des catécholamines de la médullosurrénale sur le système cardiovasculaire et le métabolisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bradycardie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la contractilité cardiaque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la pression artérielle",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Glycogénolyse hépatique et musculaire",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Lipogenèse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les catécholamines entraînent une tachycardie, une augmentation de la contractilité cardiaque et de la pression artérielle. Sur le plan métabolique, elles provoquent une glycogénolyse hépatique et musculaire ainsi qu'une lipolyse."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les androgènes surrénaliens et leur régulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol et l'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La déhydroépiandrostérone (DHEA)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'androstènedione",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur sécrétion est sous le contrôle de l'ACTH",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Leur sécrétion est régulée par le SRAA",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones principales de la zone réticulée sont la DHEA et l'androstènedione. Leur sécrétion est également sous le contrôle de l'ACTH."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des androgènes surrénaliens ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Régulation de la pression artérielle",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Contribution à la pilosité pubienne et axillaire chez les deux sexes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Source d'œstrogènes chez la femme ménopausée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hormones du stress chronique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Stimulation de la réabsorption du Na+",
+          "correct": false
+        }
+      ],
+      "explanation": "Les androgènes surrénaliens sont des androgènes faibles qui contribuent à la pilosité pubienne et axillaire chez les deux sexes, et sont une source d'œstrogènes chez la femme ménopausée."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets du cortisol sur le métabolisme lipidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimule la lipogenèse dans les membres",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Stimule la lipolyse dans les membres",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Favorise la lipogenèse au niveau du tronc",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Favorise la lipogenèse au niveau du visage et du cou",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Entraîne une redistribution des graisses",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cortisol stimule la lipolyse dans les membres mais favorise la lipogenèse au niveau du tronc, du visage et du cou, ce qui conduit à une redistribution des graisses."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les tests de dépistage clés pour l'hypercortisolisme (Syndrome de Cushing) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dosage du cortisol de 8h",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mesure du cortisol libre urinaire des 24h",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mesure du cortisol salivaire nocturne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Test de stimulation au Synacthène®",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Test de freinage minute à la dexaméthasone",
+          "correct": true
+        }
+      ],
+      "explanation": "Le dépistage de l'hypercortisolisme repose sur la perte du rythme circadien, mesurée par le cortisol libre urinaire des 24h ou le cortisol salivaire nocturne. Le test de freinage minute à la dexaméthasone est également un test de dépistage clé."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés pour le diagnostic d'une insuffisance surrénalienne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise en évidence d'une incapacité de la surrénale à produire du cortisol",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dosage du cortisol de 8h",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dosage de l'ACTH qui sera très élevée si l'origine est périphérique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Test de freinage minute à la dexaméthasone",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Test de stimulation au Synacthène®",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic d'insuffisance surrénalienne repose sur l'incapacité de la surrénale à produire du cortisol. On mesure le cortisol de 8h et l'ACTH (qui sera très élevée si l'origine est périphérique). Le test de stimulation au Synacthène® est le test de référence."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions de l'aldostérone au niveau rénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimule la réabsorption du K+",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Stimule la réabsorption du Na+",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stimule la réabsorption de l'eau",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminue la sécrétion de H+",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Agit sur le tube contourné proximal",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aldostérone agit sur le tube contourné distal et le canal collecteur du rein. Elle stimule la réabsorption du Na+ et de l'eau, en échange d'une augmentation de la sécrétion de K+ et de H+."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets du cortisol sur le système osseux et cardiovasculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimule l'activité des ostéoblastes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Favorise la résorption osseuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminue la sensibilité des vaisseaux aux catécholamines",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmente la sensibilité des vaisseaux aux catécholamines",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Maintien de la pression artérielle",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cortisol inhibe l'activité des ostéoblastes et favorise la résorption osseuse (risque d'ostéoporose). Sur le plan cardiovasculaire, il augmente la sensibilité des vaisseaux aux catécholamines, contribuant au maintien de la pression artérielle."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui activent le Système Rénine-Angiotensine-Aldostérone (SRAA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypervolémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hypotension",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hyperkaliémie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'hypovolémie",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hyperglycémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SRAA est activé par l'hypovolémie ou l'hypotension. L'hyperkaliémie est un stimulateur direct de la sécrétion d'aldostérone, mais n'active pas directement le SRAA."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des catécholamines dans la réponse de 'lutte ou de fuite' ('fight or flight') ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ralentissement du rythme cardiaque",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bronchoconstriction",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Mobilisation rapide de l'énergie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Redirection du flux sanguin vers les muscles et le cœur",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Mydriase",
+          "correct": true
+        }
+      ],
+      "explanation": "Les catécholamines entraînent une tachycardie, une augmentation de la contractilité cardiaque, une glycogénolyse et lipolyse (mobilisation rapide de l'énergie), une bronchodilatation, une mydriase et une redirection du flux sanguin vers les muscles et le cœur."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment la synthèse de l'adrénaline est-elle influencée par le cortisol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol inhibe la synthèse de l'adrénaline",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La noradrénaline est convertie en adrénaline par la PNMT",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'expression de la PNMT est stimulée par les fortes concentrations locales de cortisol",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cortisol n'a aucun rôle dans la synthèse des catécholamines",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La PNMT est une enzyme de la corticosurrénale",
+          "correct": false
+        }
+      ],
+      "explanation": "La dernière étape de la synthèse des catécholamines, la conversion de la noradrénaline en adrénaline, est catalysée par une enzyme (la PNMT) dont l'expression est stimulée par les fortes concentrations locales de cortisol provenant du cortex."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux effets du cortisol sur le système nerveux central ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Influence l'humeur",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Influence le comportement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Influence le cycle veille-sommeil",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Provoque une sédation",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Améliore la mémoire à court terme",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol influence l'humeur, le comportement et le cycle veille-sommeil."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à doser pour explorer la fonction minéralocorticoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol plasmatique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'aldostérone plasmatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La rénine plasmatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le rapport aldostérone/rénine plasmatiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les métanéphrines urinaires",
+          "correct": false
+        }
+      ],
+      "explanation": "L'exploration de la fonction minéralocorticoïde implique la mesure du couple aldostérone-rénine plasmatiques pour calculer leur rapport, ce qui est crucial dans le bilan d'une HTA."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs utilisés pour rechercher un phéochromocytome ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol libre urinaire des 24h",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les dérivés méthoxylés (métanéphrines) dans le plasma",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les dérivés méthoxylés (métanéphrines) dans les urines de 24h",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ACTH plasmatique",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le rapport aldostérone/rénine",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour explorer la médullosurrénale et rechercher un phéochromocytome, on dose les dérivés méthoxylés (métanéphrines) dans le plasma ou les urines de 24h."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones stéroïdes synthétisées à partir du cholestérol dans le cortex surrénalien ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'adrénaline",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le cortisol",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La DHEA",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La noradrénaline",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortex surrénalien produit des hormones stéroïdes à partir du cholestérol, notamment les minéralocorticoïdes (aldostérone), les glucocorticoïdes (cortisol) et les androgènes surrénaliens (DHEA, androstènedione)."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux effets physiologiques du cortisol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperglycémiant",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anti-inflammatoire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Immunosuppresseur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypotenseur",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Anabolisant protéique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol est une hormone vitale aux effets pléiotropes, notamment des effets métaboliques (globalement hyperglycémiant et catabolisant), anti-inflammatoires et immunosuppresseurs."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hypovolémie et une hypotension. Quels sont les mécanismes hormonaux qui seront activés pour tenter de corriger cette situation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Activation du Système Rénine-Angiotensine-Aldostérone (SRAA)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la sécrétion d'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la réabsorption de sodium et d'eau au niveau rénal",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion de cortisol par l'axe corticotrope",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la sécrétion de catécholamines par la médullosurrénale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypovolémie et l'hypotension activent principalement le SRAA, ce qui entraîne une augmentation de la sécrétion d'aldostérone. L'aldostérone stimule la réabsorption de Na+ et d'eau pour restaurer la volémie et la pression artérielle. Les catécholamines sont pour le stress aigu, le cortisol pour le stress chronique, mais l'effet direct sur la volémie est principalement via l'aldostérone."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement prolongé par corticoïdes exogènes présente un risque accru d'ostéoporose. Quels sont les mécanismes physiologiques sous-jacents de cet effet secondaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulation de l'activité des ostéoblastes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inhibition de l'activité des ostéoblastes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la résorption osseuse",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Favorisation de la résorption osseuse",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la synthèse de collagène osseux",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol (et donc les corticoïdes exogènes) inhibe l'activité des ostéoblastes et favorise la résorption osseuse, ce qui augmente le risque d'ostéoporose."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors d'un stress aigu intense, quelles sont les réponses physiologiques immédiates orchestrées par la médullosurrénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tachycardie et augmentation de la contractilité cardiaque",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bronchoconstriction",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Glycogénolyse hépatique et musculaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Redirection du flux sanguin vers les organes digestifs",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Mydriase",
+          "correct": true
+        }
+      ],
+      "explanation": "En réponse à un stress aigu, les catécholamines de la médullosurrénale entraînent une tachycardie, une augmentation de la contractilité cardiaque, une glycogénolyse hépatique et musculaire, une bronchodilatation, une mydriase et une redirection du flux sanguin vers les muscles et le cœur."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est suspecté d'hypercortisolisme. Quels résultats d'examens seraient compatibles avec ce diagnostic ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cortisol libre urinaire des 24h élevé",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cortisol salivaire nocturne élevé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence de freinage du cortisol après dexaméthasone minute",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pic de cortisol à 8h du matin",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "ACTH plasmatique très élevée",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypercortisolisme se caractérise par une perte du rythme circadien. Un cortisol libre urinaire des 24h ou un cortisol salivaire nocturne élevés sont des signes. Le test de freinage minute à la dexaméthasone est un test de dépistage clé, où l'absence de freinage est pathologique. Un pic de cortisol à 8h est physiologique. L'ACTH très élevée est plutôt un signe d'insuffisance surrénalienne primaire."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une patiente ménopausée présente une pilosité axillaire et pubienne normale. Quelles hormones surrénaliennes contribuent à ces caractéristiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La déhydroépiandrostérone (DHEA)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'androstènedione",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'adrénaline",
+          "correct": false
+        }
+      ],
+      "explanation": "Les androgènes surrénaliens faibles, la DHEA et l'androstènedione, contribuent à la pilosité pubienne et axillaire chez les deux sexes et sont une source d'œstrogènes chez la femme ménopausée."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyperkaliémie. Quelles conséquences directes sur la fonction surrénalienne peut-on anticiper ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la sécrétion d'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la sécrétion d'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Activation du SRAA",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la réabsorption de sodium au niveau rénal",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la sécrétion de K+ et H+ au niveau rénal",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hyperkaliémie est un puissant stimulateur direct de la sécrétion d'aldostérone. L'aldostérone agit sur le rein pour stimuler la réabsorption de Na+ et l'augmentation de la sécrétion de K+ et H+, contribuant ainsi à corriger l'hyperkaliémie."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels le cortisol peut entraîner une hyperglycémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la néoglucogenèse hépatique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de l'utilisation périphérique du glucose",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la néoglucogenèse hépatique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de l'utilisation périphérique du glucose",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la sécrétion d'insuline",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol augmente la néoglucogenèse hépatique et diminue l'utilisation périphérique du glucose, conduisant globalement à une hyperglycémie."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est diagnostiqué avec une insuffisance surrénalienne primaire (maladie d'Addison). Quels résultats hormonaux sont attendus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cortisol de 8h bas",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "ACTH plasmatique très élevée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Absence d'élévation du cortisol après injection de Synacthène®",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cortisol libre urinaire des 24h élevé",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rapport aldostérone/rénine élevé",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans l'insuffisance surrénalienne primaire, la surrénale est défaillante. On observe un cortisol de 8h bas, une ACTH très élevée (par rétrocontrôle négatif altéré) et une absence d'élévation du cortisol après stimulation au Synacthène®."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones dont la sécrétion est sous le contrôle de l'ACTH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'aldostérone (effet faible et transitoire)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le cortisol",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La déhydroépiandrostérone (DHEA)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'adrénaline",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La rénine",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol est strictement contrôlé par l'axe corticotrope (ACTH). La DHEA et l'androstènedione sont également sous le contrôle de l'ACTH. L'ACTH n'a qu'un effet faible et transitoire sur l'aldostérone."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hypertension artérielle. Quels dosages hormonaux sont pertinents pour explorer une cause surrénalienne minéralocorticoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cortisol de 8h",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Aldostérone plasmatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rénine plasmatique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rapport aldostérone/rénine plasmatiques",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Métanéphrines urinaires",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour explorer une HTA d'origine minéralocorticoïde, il est crucial de mesurer le couple aldostérone-rénine plasmatiques et de calculer leur rapport."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets du cortisol qui justifient son utilisation thérapeutique comme anti-inflammatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inhibition de la phospholipase A2",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la production de prostaglandines",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Diminution de la perméabilité capillaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la migration des leucocytes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la production de cytokines pro-inflammatoires",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cortisol inhibe la phospholipase A2 (bloquant la production de prostaglandines et leucotriènes), diminue la perméabilité capillaire et l'œdème, et diminue la production de cytokines pro-inflammatoires, ce qui en fait un puissant anti-inflammatoire."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la médullosurrénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est située en périphérie de la glande surrénale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est un ganglion sympathique modifié",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est composée de cellules chromaffines",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle synthétise des hormones stéroïdes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est le principal acteur de la réponse immédiate au stress",
+          "correct": true
+        }
+      ],
+      "explanation": "La médullosurrénale est au centre de la glande, est un ganglion sympathique modifié, est composée de cellules chromaffines, et est le principal acteur de la réponse immédiate au stress ('fight or flight'). Elle synthétise des catécholamines, pas des stéroïdes."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Le cortisol est une hormone du stress chronique. Quels sont ses effets sur le métabolisme protéique et lipidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du catabolisme protéique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la lipolyse dans les membres",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fourniture d'acides aminés pour la néoglucogenèse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Favorise la lipogenèse au niveau du tronc",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la lipogenèse au niveau du visage",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol augmente le catabolisme protéique (muscles, peau, os) pour fournir des acides aminés à la néoglucogenèse. Il stimule la lipolyse dans les membres mais favorise la lipogenèse au niveau du tronc, du visage et du cou."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs qui stimulent directement la sécrétion de catécholamines par la médullosurrénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le système nerveux sympathique préganglionnaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un stress aigu (peur, exercice)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperkaliémie",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'hypoglycémie",
+          "correct": true
+        }
+      ],
+      "explanation": "La sécrétion de catécholamines est contrôlée directement par le système nerveux sympathique préganglionnaire en réponse à un stress aigu (peur, exercice, hypoglycémie, hémorragie). Le cortisol stimule l'enzyme PNMT, mais ne stimule pas directement la sécrétion."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une diminution de la perméabilité capillaire induite par le cortisol ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de l'œdème",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminution de l'œdème",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réduction de l'inflammation",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la migration des leucocytes",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la production de cytokines",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol diminue la perméabilité capillaire et l'œdème, ce qui contribue à ses effets anti-inflammatoires et à la réduction de l'inflammation."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui caractérisent l'axe corticotrope ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypothalamus sécrète la CRH",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hypophyse sécrète l'ACTH",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'ACTH stimule la production d'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cortisol exerce un rétrocontrôle négatif sur la CRH et l'ACTH",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La sécrétion de cortisol est indépendante de cet axe",
+          "correct": false
+        }
+      ],
+      "explanation": "L'axe corticotrope est composé de l'hypothalamus (CRH), de l'hypophyse (ACTH) et de la corticosurrénale (cortisol). Le cortisol exerce un rétrocontrôle négatif puissant sur la CRH et l'ACTH. L'ACTH a un effet faible et transitoire sur l'aldostérone, mais régule principalement le cortisol."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une HTA et une hypokaliémie. Quels sont les dosages hormonaux à privilégier pour orienter le diagnostic vers une hyperaldostéronisme primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cortisol de 8h",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Aldostérone plasmatique élevée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rénine plasmatique basse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rapport aldostérone/rénine plasmatiques élevé",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Métanéphrines plasmatiques",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hyperaldostéronisme primaire se caractérise par une sécrétion excessive d'aldostérone indépendante de la rénine. On s'attend donc à une aldostérone plasmatique élevée, une rénine plasmatique basse et un rapport aldostérone/rénine élevé. Le cortisol et les métanéphrines ne sont pas les marqueurs de première intention pour cette suspicion."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une stimulation prolongée de la corticosurrénale par l'ACTH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la production de cortisol",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la production d'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la production d'androgènes surrénaliens",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la taille de la zone fasciculée",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la taille de la zone réticulée",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ACTH contrôle la sécrétion de cortisol (zone fasciculée) et d'androgènes surrénaliens (zone réticulée). Une stimulation prolongée entraînerait une augmentation de leur production. L'effet de l'ACTH sur l'aldostérone est faible et transitoire."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets du cortisol sur la pression artérielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la sensibilité des vaisseaux aux catécholamines",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la sensibilité des vaisseaux aux catécholamines",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Maintien de la pression artérielle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Effet hypotenseur direct",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Effet hypertenseur direct",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol augmente la sensibilité des vaisseaux aux catécholamines, ce qui contribue au maintien de la pression artérielle. Il n'a pas d'effet hypotenseur direct."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones qui sont synthétisées à partir de la tyrosine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'aldostérone",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'adrénaline",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La noradrénaline",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La DHEA",
+          "correct": false
+        }
+      ],
+      "explanation": "L'adrénaline et la noradrénaline sont synthétisées à partir de l'acide aminé Tyrosine. Les hormones stéroïdes (cortisol, aldostérone, DHEA) sont synthétisées à partir du cholestérol."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une perte de poids, une faiblesse musculaire et une pigmentation cutanée. Quels sont les éléments diagnostiques à rechercher pour une insuffisance surrénalienne primaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cortisol plasmatique élevé",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "ACTH plasmatique élevée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Test de stimulation au Synacthène® montrant une absence d'élévation du cortisol",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cortisol libre urinaire des 24h élevé",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rapport aldostérone/rénine élevé",
+          "correct": false
+        }
+      ],
+      "explanation": "La perte de poids, la faiblesse musculaire et la pigmentation cutanée sont des signes d'insuffisance surrénalienne primaire (maladie d'Addison). Le diagnostic repose sur un cortisol bas, une ACTH élevée (due à l'absence de rétrocontrôle négatif) et une absence d'élévation du cortisol après stimulation au Synacthène®."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets du cortisol sur le métabolisme des glucides ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la néoglucogenèse hépatique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la néoglucogenèse hépatique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'utilisation périphérique du glucose",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution de l'utilisation périphérique du glucose",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Effet hypoglycémiant",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol augmente la néoglucogenèse hépatique et diminue l'utilisation périphérique du glucose, ce qui conduit à une hyperglycémie."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles de l'aldostérone dans le maintien de l'homéostasie hydro-sodée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulation de la réabsorption du Na+",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimulation de la réabsorption de l'eau",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la sécrétion de K+",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la sécrétion de H+",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Action sur le tube contourné proximal",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aldostérone agit sur le tube contourné distal et le canal collecteur du rein. Elle stimule la réabsorption du Na+ et de l'eau, en échange d'une augmentation de la sécrétion de K+ et de H+, contribuant ainsi au maintien de l'homéostasie hydro-sodée."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones produites par la corticosurrénale qui sont indispensables à la vie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'adrénaline",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le cortisol",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La DHEA",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La noradrénaline",
+          "correct": false
+        }
+      ],
+      "explanation": "La corticosurrénale est indispensable à la vie, notamment via la production de cortisol (hormone du stress chronique et de l'adaptation métabolique) et d'aldostérone (régulateur clé du bilan hydro-sodé)."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui permettent de distinguer la régulation de la sécrétion de cortisol de celle de l'aldostérone ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cortisol est régulé principalement par l'axe corticotrope",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'aldostérone est régulée principalement par le SRAA",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'hyperkaliémie est un puissant stimulateur direct de l'aldostérone",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cortisol suit un rythme circadien",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'ACTH a un effet majeur sur la sécrétion d'aldostérone",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cortisol est strictement contrôlé par l'axe corticotrope et suit un rythme circadien. L'aldostérone est principalement régulée par le SRAA et l'hyperkaliémie. L'ACTH n'a qu'un effet faible et transitoire sur l'aldostérone, contrairement à son rôle majeur sur le cortisol."
+    }
+  ]
+}

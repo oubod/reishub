@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-5",
+  "title": "Régulations de la digestion",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les principaux piliers de la régulation de la digestion mentionnés dans le contexte scientifique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les enzymes, agissant comme effecteurs biochimiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les hormones, agissant comme messagers chimiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les neurotransmetteurs, coordonnant l'activité des organes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les vitamines, facilitant les réactions métaboliques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les minéraux, participant à la structure des tissus.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cours indique que la régulation de la digestion est orchestrée par les enzymes, qui sont les effecteurs biochimiques, et les hormones, qui agissent comme des messagers chimiques pour coordonner l'activité des différents organes du tube digestif."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des enzymes digestives selon le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ce sont des hydrolases.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles catalysent la dégradation des aliments.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont actives uniquement dans l'estomac.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont toutes synthétisées sous forme active.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Leur action est indépendante du pH.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les enzymes digestives sont des hydrolases qui catalysent la dégradation des aliments. Leur régulation vise à assurer leur action au bon endroit, au bon moment, et uniquement sur les aliments."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les stimuli qui déclenchent la sécrétion de gastrine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La distension gastrique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de peptides et d'acides aminés dans l'estomac.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La stimulation vagale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un pH gastrique inférieur à 3.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence d'acides gras dans le duodénum.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les stimuli de la gastrine sont la distension gastrique, les peptides et acides aminés, ainsi que la stimulation vagale. Un pH gastrique bas (<3) inhibe sa sécrétion."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les hormones gastro-intestinales majeures dont le site de production est identifié dans les objectifs pédagogiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cholécystokinine (CCK).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "GIP (Gastric Inhibitory Peptide).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Insuline.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs pédagogiques mentionnent d'identifier les hormones gastro-intestinales majeures : gastrine, CCK, sécrétine, et GIP. L'insuline est une hormone pancréatique, non une hormone gastro-intestinale majeure dans ce contexte."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les actions principales de la gastrine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimuler la sécrétion d'HCl par les cellules pariétales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimuler la sécrétion de pepsinogène par les cellules principales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stimuler la motilité gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inhiber la sécrétion de bicarbonate par le pancréas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ralentir la vidange gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrine stimule puissamment la sécrétion d'HCl par les cellules pariétales, la sécrétion de pepsinogène par les cellules principales, et la motilité gastrique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant les zymogènes, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont des formes inactives d'enzymes protéolytiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Leur synthèse sous forme inactive protège les cellules productrices de l'autodigestion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le pepsinogène est un zymogène gastrique activé par l'entérokinase.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le trypsinogène est un zymogène pancréatique activé par l'acide chlorhydrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'activation des zymogènes pancréatiques se fait en cascade.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les zymogènes sont des formes inactives d'enzymes protéolytiques, synthétisées ainsi pour empêcher l'autodigestion des cellules productrices. Le pepsinogène est activé par l'HCl, non l'entérokinase. Le trypsinogène est activé par l'entérokinase, non l'HCl. L'activation des zymogènes pancréatiques par la trypsine se fait en cascade."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'activation du pepsinogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est sécrété par les cellules principales de l'estomac.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Son activation en pepsine est déclenchée par l'acide chlorhydrique (HCl).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pepsine active initie la digestion des protéines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle se produit principalement dans le duodénum.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est un exemple d'activation en cascade.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pepsinogène est sécrété par les cellules principales de l'estomac. En présence d'HCl, il est clivé en pepsine active, qui initie la digestion des protéines. Cette activation se produit dans l'estomac et n'est pas décrite comme une cascade dans le texte, contrairement à l'activation des zymogènes pancréatiques."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones impliquées dans la phase intestinale de la digestion, en réponse à l'arrivée du chyme dans le duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La cholécystokinine (CCK).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La gastrine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le GIP.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arrivée du chyme acide et riche en graisses dans le duodénum déclenche la libération de la sécrétine et de la CCK. La gastrine est principalement une hormone de la phase gastrique. Le GIP est une incrétine, mais la question cible spécifiquement les hormones déclenchées par l'arrivée du chyme acide et gras, ce qui correspond à la sécrétine et la CCK."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les actions de la sécrétine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimuler le pancréas à sécréter de l'eau et du bicarbonate.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimuler le foie à sécréter de l'eau et du bicarbonate.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Neutraliser l'acide gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Contracter la vésicule biliaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ralentir la vidange gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rôle principal de la sécrétine est de stimuler le pancréas et le foie à sécréter de l'eau et du bicarbonate (HCO3-) pour neutraliser l'acide gastrique."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de la cholécystokinine (CCK) dans la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimulation de la sécrétion des enzymes pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contraction puissante de la vésicule biliaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Relaxation du sphincter d'Oddi.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Accélération de la vidange gastrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Stimulation de la sécrétion d'HCl.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les actions de la CCK sont multiples : stimulation de la sécrétion des enzymes pancréatiques, contraction puissante de la vésicule biliaire, relaxation du sphincter d'Oddi, ralentissement de la vidange gastrique et induction de la satiété."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du pH optimal des enzymes digestives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pepsine a un pH optimal très acide (1.5-3.5).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pepsine est inactivée lorsque le chyme passe dans le duodénum au pH plus basique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les enzymes pancréatiques ont un pH optimal neutre ou légèrement alcalin (7.0-8.5).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pH optimal des enzymes pancréatiques correspond au milieu gastrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La spécificité du pH garantit que l'enzyme agit dans n'importe quel compartiment.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pepsine a un pH optimal très acide (1.5-3.5) et est inactivée dans le duodénum. Les enzymes pancréatiques ont un pH optimal neutre ou légèrement alcalin (7.0-8.5), correspondant au milieu duodénal. La spécificité du pH garantit que l'enzyme n'agit que dans le compartiment approprié."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones sécrétées par l'intestin en réponse à la présence de glucose et de graisses, et qui stimulent la sécrétion d'insuline ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "GIP (Gastric Inhibitory Peptide).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "GLP-1 (Glucagon-Like Peptide-1).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Gastrine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Somatostatine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le GIP et le GLP-1 sont sécrétés par l'intestin en réponse à la présence de glucose et de graisses. Leur fonction principale est de stimuler la sécrétion d'insuline par le pancréas endocrine."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la somatostatine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est sécrétée par les cellules D de la muqueuse gastro-intestinale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle a une action inhibitrice généralisée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle freine la sécrétion de la plupart des autres hormones digestives.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle stimule la sécrétion d'acide gastrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle agit principalement par un mécanisme endocrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La somatostatine est sécrétée par les cellules D de la muqueuse gastro-intestinale et a une action inhibitrice généralisée, freinant la sécrétion de la plupart des autres hormones, de l'acide gastrique, des sécrétions pancréatiques et de la motilité intestinale. Elle agit principalement par un mécanisme paracrine."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les phases de la régulation de la digestion décrites dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phase céphalique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Phase gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phase intestinale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phase buccale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Phase hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cours décrit la régulation de la digestion comme un continuum en trois phases : céphalique, gastrique et intestinale."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les événements caractéristiques de la phase céphalique de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La vue et l'odeur des aliments activent le nerf vague.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'estomac est préparé à recevoir le bol alimentaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une sécrétion modérée d'acide et de gastrine est observée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'arrivée des aliments déclenche une forte sécrétion de gastrine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La sécrétion de sécrétine et de CCK est initiée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pendant la phase céphalique, la vue et l'odeur des aliments activent le nerf vague, préparant l'estomac à recevoir le bol alimentaire avec une sécrétion modérée d'acide et de gastrine."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes de rétrocontrôle négatif mentionnés dans la régulation hormonale de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La sécrétion de gastrine est inhibée par un pH gastrique bas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La phase intestinale inhibe l'activité gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La CCK ralentit la vidange gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La sécrétine stimule la sécrétion d'acide gastrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La somatostatine stimule la sécrétion de gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La sécrétion de gastrine est inhibée par un pH gastrique bas. La phase intestinale (via sécrétine et CCK) inhibe l'activité gastrique (rétrocontrôle négatif). La CCK ralentit la vidange gastrique, ce qui est une forme de rétrocontrôle négatif sur le débit gastrique."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les fonctions de la trypsine dans le duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est activée à partir du trypsinogène par l'entérokinase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle active à son tour tous les autres zymogènes pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle a un pH optimal très acide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est sécrétée directement sous forme active par le pancréas.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est inactivée par le bicarbonate duodénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le trypsinogène est activé en trypsine par l'entérokinase dans le duodénum. La trypsine active alors à son tour tous les autres zymogènes pancréatiques. Son pH optimal est neutre ou légèrement alcalin, non acide."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des hormones gastro-intestinales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ce sont des peptides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont sécrétées par des cellules endocrines disséminées dans la muqueuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont libérées en réponse à des stimuli chimiques ou mécaniques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles agissent uniquement sur l'estomac.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toutes des enzymes digestives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones gastro-intestinales sont des peptides sécrétés par des cellules endocrines disséminées dans la muqueuse de l'estomac et de l'intestin grêle. Elles sont libérées en réponse à des stimuli chimiques ou mécaniques et agissent sur divers organes cibles."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les organes cibles des hormones gastro-intestinales mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'estomac.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le pancréas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le foie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vésicule biliaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les reins.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones gastro-intestinales agissent sur divers organes cibles : estomac, pancréas, foie, vésicule biliaire."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de l'arrivée du chyme acide dans le duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libération de sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Stimulation de la sécrétion de bicarbonate par le pancréas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Protection de la muqueuse duodénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Activation de la gastrine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Contraction de la vésicule biliaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'arrivée du chyme acide dans le duodénum déclenche la libération de sécrétine, qui stimule le pancréas et le foie à sécréter de l'eau et du bicarbonate pour neutraliser l'acide gastrique, protégeant ainsi la muqueuse duodénale."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles de la neutralisation de l'acide gastrique dans le duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Protéger la muqueuse duodénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Créer un pH optimal pour les enzymes pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inactiver la pepsine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stimuler la sécrétion de gastrine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Accélérer la vidange gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La neutralisation de l'acide gastrique protège la muqueuse duodénale et crée un pH optimal pour les enzymes pancréatiques. La pepsine, ayant un pH optimal acide, est inactivée par le pH plus basique du duodénum."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les hormones qui lient directement la digestion à la régulation métabolique du glucose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "GIP.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "GLP-1.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuline.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Gastrine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sécrétine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le GIP et le GLP-1 sont les incrétines qui lient directement la digestion à la régulation métabolique du glucose en stimulant la sécrétion d'insuline."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels la somatostatine exerce son action inhibitrice ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle freine la sécrétion de gastrine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle freine la sécrétion de CCK.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle freine la sécrétion de sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle stimule la motilité intestinale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle stimule la sécrétion d'acide gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La somatostatine freine la sécrétion de la plupart des autres hormones (gastrine, CCK, sécrétine), la sécrétion d'acide gastrique, les sécrétions pancréatiques et la motilité intestinale."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de l'arrivée d'acides gras et d'acides aminés dans le duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sécrétion de cholécystokinine (CCK).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ralentissement de la vidange gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Induction de la satiété.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stimulation de la sécrétion d'HCl.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inhibition de la contraction de la vésicule biliaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CCK est sécrétée par les cellules I du duodénum en réponse à la présence d'acides gras et d'acides aminés. Ses actions incluent le ralentissement de la vidange gastrique et l'induction de la satiété."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés à retenir concernant la digestion enzymatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle repose sur l'activation contrôlée de précurseurs inactifs, les zymogènes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle prévient l'autodigestion.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est indépendante du pH de l'environnement.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Toutes les enzymes digestives sont actives dès leur synthèse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est principalement régulée par des neurotransmetteurs.",
+          "correct": false
+        }
+      ],
+      "explanation": "La digestion enzymatique repose sur l'activation contrôlée de précurseurs inactifs, les zymogènes, pour prévenir l'autodigestion. L'activité enzymatique est fortement dépendante du pH, et la régulation est aussi hormonale et nerveuse."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une hyperacidité gastrique persistante. Quelles hormones ou mécanismes pourraient être dérégulés pour expliquer cette condition ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypersécrétion de gastrine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution de la sensibilité des cellules G au rétrocontrôle négatif par le pH bas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une déficience en sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypersécrétion de somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution de la stimulation vagale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hypersécrétion de gastrine stimule puissamment la sécrétion d'HCl. Une diminution de la sensibilité des cellules G au rétrocontrôle négatif par le pH bas empêcherait l'inhibition normale de la gastrine. Une déficience en sécrétine réduirait la sécrétion de bicarbonate, entraînant une neutralisation insuffisante de l'acide gastrique. Une hypersécrétion de somatostatine inhiberait l'acide gastrique, et une diminution de la stimulation vagale réduirait la sécrétion d'acide."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient souffre d'une maldigestion des graisses et d'une insuffisance pancréatique exocrine. Quels éléments de la régulation hormonale pourraient être altérés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une production insuffisante de CCK.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une altération de la réponse des cellules I du duodénum aux acides gras.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un dysfonctionnement du sphincter d'Oddi empêchant la libération de bile et de sucs pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypersécrétion de sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperactivité de la gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une production insuffisante de CCK ou une altération de la réponse des cellules I réduirait la stimulation des enzymes pancréatiques et la contraction de la vésicule biliaire. Un dysfonctionnement du sphincter d'Oddi empêcherait l'écoulement de la bile et des sucs pancréatiques, essentiels à la digestion des graisses. Une hypersécrétion de sécrétine ou une hyperactivité de la gastrine ne sont pas directement liées à la maldigestion des graisses ou à l'insuffisance pancréatique exocrine dans ce contexte."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente des douleurs abdominales post-prandiales, une distension et une digestion incomplète des protéines. Quels mécanismes enzymatiques pourraient être en cause ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une activation insuffisante du pepsinogène en pepsine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un pH gastrique trop élevé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une déficience en entérokinase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypersécrétion de bicarbonate pancréatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une activation prématurée des zymogènes pancréatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une activation insuffisante du pepsinogène en pepsine (par exemple, due à un pH gastrique trop élevé) entraînerait une digestion incomplète des protéines. Une déficience en entérokinase empêcherait l'activation du trypsinogène, et par conséquent des autres protéases pancréatiques, menant à une maldigestion des protéines. Une hypersécrétion de bicarbonate ne causerait pas de digestion incomplète des protéines, et une activation prématurée des zymogènes pancréatiques causerait une autodigestion, non une digestion incomplète des aliments."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une pancréatite aiguë, quelles régulations enzymatiques sont particulièrement pertinentes pour comprendre la physiopathologie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'activation prématurée des zymogènes pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le rôle de la trypsine dans l'activation en cascade des autres proenzymes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La protection contre l'autodigestion par la synthèse sous forme de zymogène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le pH optimal acide de la pepsine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La régulation de la motilité gastrique par la gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pancréatite aiguë est souvent liée à l'activation prématurée des zymogènes pancréatiques, en particulier le trypsinogène en trypsine, qui active ensuite les autres proenzymes en cascade, entraînant une autodigestion du pancréas. La protection contre l'autodigestion par la synthèse sous forme de zymogène est le mécanisme qui échoue dans cette pathologie. Le pH de la pepsine et la motilité gastrique ne sont pas directement impliqués dans la physiopathologie de la pancréatite aiguë."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient diabétique de type 2 présente une glycémie post-prandiale élevée. Quels mécanismes hormonaux pourraient être ciblés pour améliorer sa régulation glycémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stimuler l'effet incrétine via GIP et GLP-1.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmenter la sécrétion d'insuline par le pancréas endocrine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhiber la sécrétion de gastrine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmenter la sécrétion de sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ralentir la vidange gastrique par la CCK.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le GIP et le GLP-1 stimulent la sécrétion d'insuline par le pancréas endocrine (effet incrétine) avant même que la glycémie n'augmente significativement, liant directement la digestion à la régulation métabolique du glucose. Cibler ces hormones ou leurs effets peut améliorer la régulation glycémique. Les autres options ne sont pas directement liées à la régulation de la glycémie post-prandiale."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications cliniques d'une altération de la régulation du pH dans le duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque accru de lésions de la muqueuse duodénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Activité enzymatique pancréatique suboptimale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Digestion inefficace des nutriments.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperactivité de la pepsine dans le duodénum.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de la sécrétion de gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une altération de la régulation du pH dans le duodénum (par exemple, par une insuffisance de sécrétine ou de bicarbonate) expose la muqueuse duodénale à l'acidité gastrique, entraînant un risque de lésions. Le pH non optimal inhiberait l'activité des enzymes pancréatiques, rendant la digestion inefficace. La pepsine est inactivée par le pH basique du duodénum, donc elle ne serait pas hyperactive. L'augmentation de la gastrine est liée à l'estomac, pas directement à l'altération du pH duodénal."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient se plaint de satiété précoce et de lourdeur après les repas. Quels mécanismes hormonaux pourraient contribuer à ces symptômes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypersécrétion de CCK.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un ralentissement excessif de la vidange gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypersécrétion de somatostatine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une déficience en GIP.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperactivité de la gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CCK induit la satiété et ralentit la vidange gastrique. Une hypersécrétion de CCK ou un ralentissement excessif de la vidange gastrique (qui peut être médiatisé par la CCK) pourrait expliquer la satiété précoce et la lourdeur. La somatostatine a une action inhibitrice généralisée, y compris sur la motilité intestinale et la vidange gastrique, pouvant contribuer à ces symptômes. Une déficience en GIP ou une hyperactivité de la gastrine ne sont pas directement liées à la satiété précoce ou à la lourdeur post-prandiale."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes qui assurent la coordination entre les différentes phases de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'activation vagale lors de la phase céphalique préparant l'estomac.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le rétrocontrôle négatif de la gastrine par le pH gastrique bas.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'inhibition de l'activité gastrique par la sécrétine et la CCK lors de la phase intestinale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'activation en cascade des zymogènes pancréatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La stimulation de la sécrétion d'insuline par les incrétines.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'activation vagale prépare l'estomac (phase céphalique). Le rétrocontrôle négatif de la gastrine par le pH gastrique bas régule la phase gastrique. L'inhibition de l'activité gastrique par la sécrétine et la CCK lors de la phase intestinale régule le débit de la vidange, assurant une coordination. L'activation en cascade des zymogènes est un mécanisme enzymatique, et la stimulation de l'insuline est une régulation métabolique, moins directement liées à la coordination inter-phases de la digestion elle-même."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient sous traitement anti-acide puissant (inhibiteur de la pompe à protons) pourrait présenter quelles altérations de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de l'activation du pepsinogène.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Digestion protéique gastrique altérée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de la sécrétion de gastrine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diminution de la sécrétion de sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation de l'activité des enzymes pancréatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un traitement anti-acide puissant réduit l'acidité gastrique, ce qui diminue l'activation du pepsinogène en pepsine et altère la digestion protéique gastrique. La diminution de l'acidité gastrique lève le rétrocontrôle négatif sur la gastrine, entraînant une augmentation de sa sécrétion. La sécrétion de sécrétine est stimulée par l'acidité du chyme, donc une diminution de l'acidité gastrique pourrait réduire la stimulation de la sécrétine. L'activité des enzymes pancréatiques dépend du pH duodénal, qui serait moins acide, potentiellement favorable, mais l'impact principal est gastrique."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences d'une déficience en cellules S du duodénum ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la sécrétion de sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Neutralisation insuffisante de l'acide gastrique dans le duodénum.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque accru d'ulcères duodénaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion d'enzymes pancréatiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Accélération de la vidange gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cellules S du duodénum sécrètent la sécrétine. Une déficience entraînerait une diminution de la sécrétine, une neutralisation insuffisante de l'acide gastrique, et un risque accru de lésions de la muqueuse duodénale (ulcères). La sécrétion d'enzymes pancréatiques est principalement stimulée par la CCK, et la vidange gastrique est ralentie par la CCK et la sécrétine."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient ayant subi une gastrectomie partielle avec résection de l'antre gastrique pourrait présenter quelles altérations de la régulation digestive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la sécrétion de gastrine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réduction de la sécrétion d'HCl.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Altération de la motilité gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion de sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la stimulation des enzymes pancréatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antre gastrique contient les cellules G qui sécrètent la gastrine. Sa résection entraînerait une diminution de la gastrine, réduisant ainsi la stimulation de l'HCl et du pepsinogène, et altérant la motilité gastrique. La sécrétion de sécrétine est duodénale et ne serait pas directement affectée. La stimulation des enzymes pancréatiques est principalement par la CCK, bien qu'indirectement la gastrine puisse avoir un rôle mineur, mais les effets directs sont sur l'estomac."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels le système hormonal digestif s'adapte à la composition du repas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La libération de CCK en réponse aux graisses et aux protéines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La libération de sécrétine en réponse à l'acidité du chyme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'effet incrétine en réponse au glucose et aux graisses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La stimulation de la gastrine par la distension gastrique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'inhibition de la somatostatine par les peptides.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CCK est libérée en réponse aux graisses et aux protéines, adaptant la digestion des lipides/protéines. La sécrétine est libérée en réponse à l'acidité, adaptant la neutralisation. L'effet incrétine (GIP, GLP-1) est en réponse au glucose et aux graisses, adaptant la régulation glycémique. La stimulation de la gastrine par la distension est liée à la quantité, pas spécifiquement à la composition. L'inhibition de la somatostatine n'est pas mentionnée comme un mécanisme d'adaptation à la composition du repas."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une stéatorrhée (graisses dans les selles) malgré une fonction pancréatique exocrine normale. Quelles altérations de la régulation pourraient être suspectées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un défaut de contraction de la vésicule biliaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un dysfonctionnement du sphincter d'Oddi.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une production insuffisante de CCK.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypersécrétion de sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hyperactivité de la somatostatine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CCK stimule la contraction de la vésicule biliaire et la relaxation du sphincter d'Oddi pour libérer la bile, essentielle à l'émulsification des graisses. Un défaut de contraction de la vésicule biliaire, un dysfonctionnement du sphincter d'Oddi ou une production insuffisante de CCK entraînerait une libération insuffisante de bile, menant à une maldigestion des graisses et une stéatorrhée. Une hypersécrétion de sécrétine ou une hyperactivité de la somatostatine ne sont pas les causes directes de stéatorrhée dans ce contexte."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes qui protègent les tissus de l'organisme contre l'autodigestion par les enzymes digestives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La synthèse des enzymes protéolytiques sous forme de zymogènes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'activation des zymogènes uniquement au bon endroit (ex: duodénum pour la trypsine).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La spécificité du pH optimal des enzymes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La sécrétion d'HCl par les cellules pariétales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La stimulation de la motilité gastrique par la gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La synthèse sous forme de zymogènes est une précaution essentielle. L'activation des zymogènes au bon endroit (ex: trypsine dans le duodénum par l'entérokinase) et la spécificité du pH (ex: pepsine active en milieu acide, enzymes pancréatiques en milieu neutre/alcalin) garantissent que les enzymes n'endommagent pas les tissus. La sécrétion d'HCl et la motilité gastrique sont des fonctions digestives, pas des mécanismes de protection contre l'autodigestion."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une vidange gastrique accélérée. Quelles hormones ou régulations pourraient être déficientes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une déficience en CCK.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une déficience en sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypersécrétion de gastrine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hyperactivité de la somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une déficience en GIP.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CCK ralentit la vidange gastrique. La sécrétine, en coordonnant la neutralisation du chyme, participe au rétrocontrôle négatif qui régule le débit de la vidange. Une déficience de ces hormones pourrait entraîner une vidange gastrique accélérée. Une hypersécrétion de gastrine stimule la motilité gastrique mais n'est pas la cause principale d'une vidange accélérée. La somatostatine inhibe la motilité, donc son hyperactivité ralentirait la vidange. Le GIP n'est pas directement impliqué dans la régulation de la vidange gastrique."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles intégrés de la phase intestinale dans la régulation de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Neutralisation du chyme acide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Digestion des lipides et protéines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Inhibition de l'activité gastrique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Préparation de l'estomac à recevoir le bol alimentaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Stimulation de la sécrétion d'HCl.",
+          "correct": false
+        }
+      ],
+      "explanation": "La phase intestinale, via la sécrétine et la CCK, coordonne la neutralisation du chyme et la digestion des lipides/protéines, tout en inhibant l'activité gastrique (rétrocontrôle négatif) pour réguler le débit de la vidange. La préparation de l'estomac est la phase céphalique, et la stimulation d'HCl est principalement la phase gastrique."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une malabsorption des nutriments. Quelles pourraient être les causes liées à une altération de la régulation enzymatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficience en entérokinase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "pH duodénal constamment acide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Déficience en cellules principales de l'estomac.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hyperactivité de la somatostatine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hypersécrétion de gastrine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une déficience en entérokinase empêcherait l'activation des zymogènes pancréatiques, entraînant une maldigestion. Un pH duodénal constamment acide inactiverait les enzymes pancréatiques. Une déficience en cellules principales réduirait la sécrétion de pepsinogène, altérant la digestion protéique gastrique. L'hyperactivité de la somatostatine inhiberait les sécrétions digestives, et l'hypersécrétion de gastrine augmenterait l'acidité gastrique, pouvant indirectement affecter le duodénum, mais les trois premières options sont des causes directes de malabsorption liée aux enzymes."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes de régulation qui contribuent à l'efficacité de la digestion et à son adaptation à la composition du repas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les boucles de rétrocontrôle négatif du système hormonal digestif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'activation contrôlée des zymogènes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La spécificité du pH pour l'activité enzymatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La stimulation vagale lors de la phase céphalique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'induction de la satiété par la CCK.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les boucles de rétrocontrôle négatif adaptent précisément les sécrétions. L'activation contrôlée des zymogènes assure une digestion sûre et efficace. La spécificité du pH garantit l'action enzymatique dans le bon compartiment. La stimulation vagale prépare le système digestif. L'induction de la satiété est une conséquence de la digestion, mais pas un mécanisme d'adaptation de la digestion elle-même."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une gastrite atrophique avec une diminution significative des cellules pariétales. Quelles conséquences digestives peut-on anticiper ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la sécrétion d'HCl.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du pH gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Altération de l'activation du pepsinogène.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation compensatoire de la sécrétion de gastrine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hyperactivité des enzymes pancréatiques dans l'estomac.",
+          "correct": false
+        }
+      ],
+      "explanation": "La diminution des cellules pariétales entraîne une diminution de la sécrétion d'HCl et une augmentation du pH gastrique. Cela altère l'activation du pepsinogène. L'absence d'acidité gastrique lève le rétrocontrôle négatif sur la gastrine, entraînant une augmentation compensatoire de sa sécrétion. Les enzymes pancréatiques ne sont pas actives dans l'estomac."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les rôles de l'entérokinase dans la régulation enzymatique de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est une enzyme de la bordure en brosse intestinale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle active le trypsinogène en trypsine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle initie la cascade d'activation des zymogènes pancréatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est active en milieu très acide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est sécrétée par le pancréas.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'entérokinase est une enzyme de la bordure en brosse intestinale. Elle active le trypsinogène en trypsine, et cette trypsine active ensuite tous les autres zymogènes pancréatiques en cascade. Son milieu d'action est le duodénum, qui est neutre ou légèrement alcalin, non très acide. Elle n'est pas sécrétée par le pancréas."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les hormones qui agissent comme des messagers chimiques pour coordonner l'activité des différents organes du tube digestif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cholécystokinine (CCK).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécrétine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "GIP.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pepsinogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones gastro-intestinales (gastrine, CCK, sécrétine, GIP, etc.) agissent comme des messagers chimiques pour coordonner l'activité des différents organes du tube digestif. Le pepsinogène est un zymogène, non une hormone."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une obstruction biliaire complète. Quelles conséquences digestives peut-on anticiper, en lien avec la régulation hormonale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la digestion des graisses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la stimulation de la CCK en réponse aux graisses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Accumulation de bile dans la vésicule biliaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion de sécrétine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ralentissement de la vidange gastrique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une obstruction biliaire complète empêcherait la libération de bile, entraînant une diminution de la digestion des graisses et une accumulation de bile dans la vésicule biliaire. La stimulation de la CCK est en réponse aux graisses, donc si les graisses ne sont pas digérées, la stimulation pourrait être altérée, mais la CCK est sécrétée en réponse à leur présence. La sécrétine est liée à l'acidité, et la vidange gastrique est ralentie par la CCK, mais l'obstruction biliaire n'est pas la cause directe de ces altérations."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la régulation hormonale qui en font un système sophistiqué pour la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les hormones sont des peptides sécrétés par des cellules endocrines disséminées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont libérées en réponse à des stimuli spécifiques (chimiques ou mécaniques).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles agissent sur divers organes cibles pour coordonner l'activité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles fonctionnent via des boucles de rétrocontrôle négatif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toutes des enzymes digestives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les hormones gastro-intestinales sont des peptides sécrétés par des cellules endocrines disséminées, libérées en réponse à des stimuli chimiques ou mécaniques, agissent sur divers organes cibles et fonctionnent via des boucles de rétrocontrôle négatif. Elles ne sont pas des enzymes digestives."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une insuffisance pancréatique exocrine sévère. Quelles conséquences sur la digestion et la régulation hormonale peuvent être observées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maldigestion des protéines, lipides et glucides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution de la stimulation de la CCK par les acides gras et aminés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Altération de la neutralisation du chyme acide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la sécrétion de gastrine.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hyperactivité de l'entérokinase.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une insuffisance pancréatique exocrine sévère entraîne une maldigestion des protéines, lipides et glucides en raison du manque d'enzymes. La stimulation de la CCK est en réponse aux acides gras et aminés, donc si la digestion est altérée, la libération de ces stimuli pourrait être réduite, diminuant la stimulation de la CCK. La neutralisation du chyme est principalement par le bicarbonate pancréatique (stimulé par sécrétine), donc une insuffisance pancréatique pourrait l'altérer. L'augmentation de la gastrine n'est pas une conséquence directe, et l'entérokinase est une enzyme intestinale, non pancréatique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes qui permettent d'intégrer les régulations enzymatiques, hormonales et nerveuses au cours des différentes phases de la digestion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'activation vagale (nerveuse) lors de la phase céphalique stimulant la gastrine (hormonale) et le pepsinogène (enzymatique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'acidité du chyme (chimique) stimulant la sécrétine (hormonale) qui active la sécrétion de bicarbonate (chimique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence de graisses (chimique) stimulant la CCK (hormonale) qui active les enzymes pancréatiques (enzymatique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le rétrocontrôle négatif du pH gastrique sur la gastrine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'activation de la trypsine par l'entérokinase.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'activation vagale (nerveuse) stimulant la gastrine (hormonale) et le pepsinogène (enzymatique) est une intégration. L'acidité du chyme (stimulus chimique) stimulant la sécrétine (hormonale) qui active la sécrétion de bicarbonate (chimique) est une intégration. La présence de graisses (stimulus chimique) stimulant la CCK (hormonale) qui active les enzymes pancréatiques (enzymatique) est une intégration. Le rétrocontrôle négatif du pH gastrique sur la gastrine est un mécanisme de régulation hormonale intégré. L'activation de la trypsine par l'entérokinase est un mécanisme enzymatique, mais moins une intégration des trois types de régulation."
+    }
+  ]
+}

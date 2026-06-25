@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pc-24",
+  "title": "Tumeurs du rein",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale modalité de découverte des cancers du rein chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hématurie macroscopique intermittente",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lombalgie persistante",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Masse palpable du flanc",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Découverte fortuite lors d'un examen d'imagerie",
+          "correct": true
+        }
+      ],
+      "explanation": "La majorité des cancers du rein (65%) sont découverts de manière fortuite, souvent de petite taille et limités au rein."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les facteurs de risque suivants, lesquels sont associés au cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tabagisme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Obésité",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diabète de type 2",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hypotension artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque mentionnés incluent le tabagisme, l'obésité, l'HTA et l'insuffisance rénale chronique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type histologique de carcinome à cellules rénales le plus fréquent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carcinome tubulo-papillaire",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Carcinome chromophobe",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Carcinome à cellules claires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Carcinome de Bellini",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome à cellules claires représente 75% des carcinomes à cellules rénales, qui eux-mêmes constituent 90% des tumeurs malignes du rein."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen d'imagerie de référence pour le diagnostic et le bilan d'extension d'une tumeur rénale, en l'absence d'insuffisance rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie abdominale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Scanner abdominal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "IRM abdominale",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Radiographie de l'abdomen sans préparation",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner abdominal est l'examen de référence pour le diagnostic et le bilan d'extension, réalisé en 3 temps."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Selon la classification de Bosniak, quels types de lésions kystiques sont considérés comme bénins et ne nécessitent aucune surveillance ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Type 1 et 2",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Type 2F",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Type 3",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Type 4",
+          "correct": false
+        }
+      ],
+      "explanation": "Les kystes de type 1 et 2 de Bosniak sont bénins et ne requièrent aucune surveillance."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal risque associé à un angiomyolipome rénal, notamment s'il est de grande taille (> 4 cm) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transformation maligne",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Risque hémorragique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance rénale aiguë",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Obstruction urétérale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiomyolipome présente un risque hémorragique, particulièrement si sa taille dépasse 4 cm."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le grade histo-pronostique utilisé pour les tumeurs rénales, basé sur la morphologie nucléaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Grade de Gleason",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Grade de Furhman",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Grade de Nottingham",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Grade de Bloom-Richardson",
+          "correct": false
+        }
+      ],
+      "explanation": "Le grade histo-pronostique est le Grade de Furhman ou grade nucléolaire de l'ISUP, basé sur l'aspect du noyau et la taille des nucléoles."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pronostic des petites tumeurs rénales (< 4 cm) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Très péjoratif avec une survie à 5 ans de 5-10%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bon pronostic avec une survie à 5 ans de 95%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pronostic incertain nécessitant une surveillance active à vie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pronostic intermédiaire avec une survie à 5 ans de 50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les petites tumeurs (< 4 cm) ont un très bon pronostic, avec une survie à 5 ans de 95%."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement chirurgical de choix pour une tumeur rénale de moins de 4 cm ou en cas de rein unique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Néphrectomie élargie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Néphrectomie partielle sans curage",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Néphrectomie totale avec surrénalectomie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cavotomie pour thrombectomie",
+          "correct": false
+        }
+      ],
+      "explanation": "La néphrectomie partielle sans curage est indiquée pour les tumeurs de moins de 4 cm ou en cas de rein unique."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale localisation des métastases à distance du cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Os",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Foie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Poumon",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cerveau",
+          "correct": false
+        }
+      ],
+      "explanation": "Les métastases pulmonaires sont les plus fréquentes (pulmonaire ++)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le sexe le plus touché par le cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Masculin",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Féminin",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les deux sexes sont également touchés",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La prédominance varie selon l'âge",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe une prédominance masculine (1,5/1)."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pic d'incidence du cancer du rein chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "30-40 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "40-50 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "50-60 ans",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "60-70 ans",
+          "correct": true
+        }
+      ],
+      "explanation": "Le pic d'incidence se situe entre 60 et 70 ans."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage de tumeurs bénignes parmi les tumeurs rénales de moins de 4 cm ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 10%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "10 à 20%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "20 à 30%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 50%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les tumeurs bénignes sont fréquentes, représentant 20 à 30% des tumeurs de moins de 4 cm."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le signe pathognomonique d'un angiomyolipome au scanner ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cicatrice stellaire centrale",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hypervascularisation",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hypodensité due à la graisse intra-tumorale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rehaussement intense après injection de produit de contraste",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypodensité au scanner due à la graisse intra-tumorale est pathognomonique de l'angiomyolipome."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel syndrome paranéoplasique est fréquemment associé au carcinome à cellules claires et se manifeste par une polyglobulie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypercalcémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Stauffer",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Polyglobulie (EPO-like)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypertension artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "La polyglobulie (EPO-like) est un syndrome paranéoplasique fréquent, particulièrement avec le carcinome à cellules claires."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du carcinome à cellules claires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faible potentiel métastatique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeur hétérogène",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypervascularisée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome paranéoplasique rare",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome à cellules claires est une tumeur hétérogène, hypervascularisée, avec un fort potentiel métastatique et un syndrome paranéoplasique fréquent."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la biopsie tumorale rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Doute diagnostique avec un lymphome ou un sarcome",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Petite tumeur (< 4 cm) chez un patient jeune sans comorbidités",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Antécédents de tumeur extra-rénale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tumeur du rein métastatique pour preuve histologique",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications de la biopsie incluent le doute diagnostique, les antécédents de tumeur extra-rénale et la preuve histologique pour une tumeur métastatique. Pour une petite tumeur (< 4 cm), elle est indiquée chez un patient âgé et/ou avec comorbidités."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques pouvant évoquer un thrombus tumoral veineux dans le cadre d'un cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Varicocèle (surtout gauche)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème des membres inférieurs (OMI)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes d'insuffisance cardiaque droite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématurie macroscopique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le thrombus tumoral veineux peut se manifester par une varicocèle (surtout gauche), un OMI et des signes d'insuffisance cardiaque droite. L'hématurie est un signe local de la tumeur elle-même."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un kyste rénal de type 2F selon la classification de Bosniak ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cloisons nombreuses et fines",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Paroi légèrement épaisse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calcifications pariétales et cloisons régulières",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Haut risque de malignité (45%)",
+          "correct": false
+        }
+      ],
+      "explanation": "Un kyste de type 2F présente des cloisons nombreuses et fines, une paroi légèrement épaisse, et des calcifications pariétales et cloisons régulières. Il nécessite une surveillance, mais n'a pas un haut risque de malignité comme les types 3 et 4."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments pris en compte dans le modèle UISS pour le pronostic des cancers rénaux localisés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'état général (PS)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le stade TNM",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le grade de Furhman",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le taux d'hémoglobine",
+          "correct": false
+        }
+      ],
+      "explanation": "Le modèle UISS prend en compte le PS (Performance Status), le stade TNM et le grade de Furhman pour les cancers localisés. Le taux d'hémoglobine fait partie des critères de Motzer pour les cancers métastatiques."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de l'IRM abdominale dans le bilan d'une tumeur rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Examen systématique de première intention",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Meilleure analyse du niveau supérieur d'un thrombus de la veine cave",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Analyse d'une petite tumeur (< 4 cm)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas d'insuffisance rénale",
+          "correct": true
+        }
+      ],
+      "explanation": "L'IRM n'est pas systématique mais est utile pour l'analyse d'un thrombus cave, des petites tumeurs (< 4 cm) ou en cas d'insuffisance rénale."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques potentiels d'une biopsie tumorale rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hématurie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hématome rétro-péritonéal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fistule artério-veineuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Diffusion métastatique",
+          "correct": false
+        }
+      ],
+      "explanation": "Les risques de la biopsie incluent l'hématurie, l'hématome rétro-péritonéal ou sous-capsulaire, et la fistule artério-veineuse. Le texte ne mentionne pas la diffusion métastatique comme un risque de la biopsie."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du carcinome tubulo-papillaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faible potentiel métastatique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypovascularisé",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "De meilleur pronostic que le carcinome à cellules claires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus fréquent chez les femmes",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome tubulo-papillaire a un faible potentiel métastatique, est hypovascularisé et de meilleur pronostic (sous-type I > II). Le carcinome chromophobe est plus fréquent chez les femmes."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les syndromes paranéoplasiques pouvant être associés au cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre prolongée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Polyglobulie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypercalcémie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome de Cushing",
+          "correct": false
+        }
+      ],
+      "explanation": "Les syndromes paranéoplasiques incluent la fièvre prolongée, la polyglobulie (EPO-like), l'hypercalcémie (PTHrp), l'HTA (rénine) et le syndrome de Stauffer. Le syndrome de Cushing n'est pas mentionné."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de néphroprotection recommandées après une néphrectomie totale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contrôle strict des facteurs de risque cardiovasculaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Prévention des infections urinaires",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hydratation suffisante pour une diurèse de 2L/jour",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Utilisation systématique d'AINS pour la douleur",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures de néphroprotection incluent le contrôle des FdRCV, la prévention de l'IRA et des infections urinaires par une hydratation suffisante, et la précaution d'emploi des néphrotoxiques comme les AINS."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un kyste rénal de type 4 selon la classification de Bosniak ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paroi épaisse et irrégulière",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Végétations ou nodule mural",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rehaussement de la paroi ou des végétations",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Densité hydrique homogène",
+          "correct": false
+        }
+      ],
+      "explanation": "Un kyste de type 4 présente une paroi épaisse et irrégulière, des végétations ou un nodule mural, et un rehaussement de la paroi ou des végétations. La densité hydrique homogène caractérise un kyste simple (type 1)."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements systémiques indiqués pour le cancer du rein au stade métastatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anti-angiogéniques (ITK)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Inhibiteurs de mTOR",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ac monoclonaux anti-VEGF",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie conventionnelle",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements systémiques incluent les anti-angiogéniques (ITK), les inhibiteurs de mTOR et les Ac monoclonaux anti-VEGF. L'immunothérapie (interféron-α, interleukine 2) est peu utilisée, et la chimiothérapie conventionnelle n'est pas mentionnée."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la néphrectomie élargie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur de moins de 4 cm",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeur de plus de 4 cm",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Siège hilaire de la tumeur",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rein unique",
+          "correct": false
+        }
+      ],
+      "explanation": "La néphrectomie élargie est indiquée pour les tumeurs de plus de 4 cm ou en cas de siège hilaire. La néphrectomie partielle est préférée pour les tumeurs de moins de 4 cm ou en cas de rein unique."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères pris en compte dans les groupes de Motzer (MSKCC) pour les cancers rénaux métastatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'état général",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le taux d'hémoglobine",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La calcémie corrigée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le grade de Furhman",
+          "correct": false
+        }
+      ],
+      "explanation": "Les groupes de Motzer prennent en compte l'état général, le taux d'Hb, la calcémie corrigée, le taux de LDH sérique, l'intervalle entre diagnostic et traitement et le nombre de sites métastatiques. Le grade de Furhman est utilisé dans le modèle UISS pour les cancers localisés."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la maladie de Von Hippel-Lindau ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maladie génétique autosomique dominante",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Carcinome rénal à cellules claires bilatéral et précoce",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Kystes pancréatiques",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phéochromocytome",
+          "correct": true
+        }
+      ],
+      "explanation": "La maladie de Von Hippel-Lindau est une maladie génétique autosomique dominante, associée à un carcinome rénal à cellules claires bilatéral et précoce, des kystes pancréatiques, des hémangioblastomes et un phéochromocytome."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rythme de surveillance recommandé pour un cancer du rein localisé après traitement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tous les 3 mois pendant 5 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tous les 6 mois pendant 3 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "1 fois par an pendant 5 ans, puis tous les 2 ans à vie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de signes d'appel",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un cancer localisé, la surveillance est annuelle pendant 5 ans, puis tous les 2 ans à vie."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'un kyste simple (Bosniak type 1) à l'imagerie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Densité hydrique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Homogène",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Limites régulières sans paroi visible",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rehaussement au produit de contraste",
+          "correct": false
+        }
+      ],
+      "explanation": "Un kyste simple est de densité hydrique, homogène, avec des limites régulières sans paroi visible et non rehaussé au produit de contraste."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques d'extension régionale du cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extension lymphatique lombo-aortique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Extension veineuse par thrombus tumoral dans la veine rénale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Extension veineuse par thrombus tumoral dans la VCI",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Extension directe à la surrénale controlatérale",
+          "correct": false
+        }
+      ],
+      "explanation": "L'extension régionale se fait par voie lymphatique (lombo-aortique) et veineuse (thrombus tumoral dans la veine rénale puis la VCI). L'extension à la surrénale controlatérale n'est pas mentionnée comme une extension régionale typique."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la surveillance active pour une tumeur rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur de grande taille (> 7 cm)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Petite tumeur (< 4 cm)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contre-indication chirurgicale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Refus de la chirurgie par le patient",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance active est réservée aux petites tumeurs (< 4 cm) en cas de contre-indication ou de refus de la chirurgie."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le rôle du curage ganglionnaire dans la prise en charge du cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il a un intérêt thérapeutique majeur en cas de N+",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est systématiquement réalisé pour toutes les tumeurs",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est réalisé si N+ pour le staging N du cancer",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il n'a pas d'intérêt thérapeutique",
+          "correct": true
+        }
+      ],
+      "explanation": "Le curage ganglionnaire est réalisé si N+ pour le staging N du cancer, mais sans intérêt thérapeutique."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la classification TNM, quelles sont les caractéristiques d'une tumeur T3a ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atteint la veine rénale ou ses branches de division segmentaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Envahit la graisse du sinus rénal",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Envahit la graisse péri-rénale sans atteindre la surrénale et sans dépasser le fascia de Gérota",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombus sous-diaphragmatique dans la veine cave",
+          "correct": false
+        }
+      ],
+      "explanation": "T3a correspond à l'atteinte de la veine rénale ou de ses branches de division segmentaire, ou l'envahissement de la graisse du sinus rénal ou péri-rénal, sans atteindre la surrénale et sans dépasser le fascia de Gérota. Le thrombus sous-diaphragmatique dans la veine cave est un T3b."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de conseil génétique pour une tumeur rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tumeur rénale unique chez un patient de 60 ans avec un carcinome à cellules claires",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Tumeur rénale unique de type carcinome papillaire de type 1 ou 2, quel que soit l'âge",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeurs rénales multiples ou bilatérales",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antécédents familiaux de tumeur rénale",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications incluent une tumeur rénale unique < 50 ans si carcinome à cellules claires, ou quel que soit l'âge si carcinome papillaire de type 1 ou 2, chromophobe ou tumeur hybride oncocytome-chromophobe. Les tumeurs multiples/bilatérales et les antécédents familiaux sont également des indications."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du carcinome de Bellini (carcinome des tubes collecteurs) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Représente moins de 1% des carcinomes à cellules rénales",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Très agressif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "De bon pronostic",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus fréquent chez les femmes",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome de Bellini représente 1% des carcinomes à cellules rénales et est très agressif. Le carcinome chromophobe est de bon pronostic et plus fréquent chez les femmes."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la classification TNM, quelles sont les caractéristiques d'une tumeur T2b ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Limitée au rein, de grand axe inférieur à 4 cm",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Limitée au rein, de grand axe supérieur à 7 cm et inférieur à 10 cm",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Limitée au rein, de grand axe supérieur à 10 cm",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteint les veines principales",
+          "correct": false
+        }
+      ],
+      "explanation": "T2b est limitée au rein et de grand axe supérieur à 10 cm. T1a est < 4 cm, T1b est > 4 cm, T2a est < 10 cm. L'atteinte des veines principales est T3."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques d'un kyste suspect (Bosniak type 3) à l'imagerie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cloisons nombreuses et épaisses",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Paroi épaisse et limites irrégulières",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Calcifications épaisses et irrégulières",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Contenu dense et rehaussement de la paroi et des cloisons",
+          "correct": true
+        }
+      ],
+      "explanation": "Un kyste de type 3 présente des cloisons nombreuses et épaisses, une paroi épaisse, des limites irrégulières, des calcifications épaisses et irrégulières, un contenu dense et un rehaussement de la paroi et des cloisons."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rythme de surveillance recommandé pour un cancer du rein métastatique après traitement ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tous les 6 mois pendant 3 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "1 fois par an pendant 5 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Tous les 3 mois pendant 5 ans, puis tous les 2 ans à vie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de progression clinique",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour un cancer métastatique, la surveillance est tous les 3 mois pendant 5 ans, puis tous les 2 ans à vie."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du carcinome chromophobe ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rare (< 5%)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "De bon pronostic",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Plus fréquent chez les femmes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fort potentiel métastatique",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome chromophobe est rare (< 5%), de bon pronostic et plus fréquent chez les femmes. Il n'est pas décrit comme ayant un fort potentiel métastatique, contrairement au carcinome à cellules claires."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Selon la classification TNM, une tumeur qui s'étend au-delà du fascia de Gérota, incluant la surrénale homolatérale, est classée comme :",
+      "options": [
+        {
+          "id": "A",
+          "text": "T2b",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "T3a",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "T3c",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "T4",
+          "correct": true
+        }
+      ],
+      "explanation": "T4 signifie que la tumeur s'étend au-delà du fascia de Gérota, incluant la surrénale homolatérale."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements ablatifs disponibles pour les petites tumeurs rénales (< 4 cm) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Radiofréquence",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cryothérapie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Radiothérapie externe",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chimiothérapie intra-artérielle",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements ablatifs sont la destruction de la tumeur par énergie thermique, comme la radiofréquence ou la cryothérapie. Ils sont réservés aux petites tumeurs (< 4 cm) chez des patients âgés avec comorbidités."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le pourcentage de faux négatifs d'une biopsie tumorale rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "10%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "20%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Plus de 30%",
+          "correct": false
+        }
+      ],
+      "explanation": "La biopsie tumorale rénale présente 10% de faux négatifs."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments du bilan d'extension d'un cancer du rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scanner abdominal",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Scanner thoracique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Scintigraphie osseuse systématique",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Scanner cérébral sur signe d'appel",
+          "correct": true
+        }
+      ],
+      "explanation": "Le bilan d'extension comprend le scanner abdominal et thoracique, la scintigraphie osseuse (non systématique, mais ±) et le scanner cérébral sur signe d'appel."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le gène suppresseur de tumeur dont la mutation est retrouvée dans 60% des cancers rénaux sporadiques et quasi-totalité des cancers héréditaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BRCA1",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TP53",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "VHL",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "RET",
+          "correct": false
+        }
+      ],
+      "explanation": "La mutation du gène VHL (suppresseur de tumeur) est retrouvée dans 60% des cancers rénaux sporadiques et dans la quasi-totalité des cancers du rein héréditaires."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les inhibiteurs de mTOR utilisés dans le traitement systémique du cancer du rein métastatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sorafenib",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Temsirolimus",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Everolimus",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bevacizumab",
+          "correct": false
+        }
+      ],
+      "explanation": "Les inhibiteurs de mTOR mentionnés sont le temsirolimus et l'everolimus. Sorafenib est un ITK et Bevacizumab est un Ac monoclonal anti-VEGF."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rythme de dépistage systématique par échographie rénale chez un patient présentant la mutation du gène VHL ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dès 5 ans, tous les 6 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dès 5 ans, 1 fois par an",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dès l'âge adulte, tous les 2 ans",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement en cas de symptômes",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez un patient présentant la mutation VHL, le dépistage systématique est recommandé dès 5 ans par échographie rénale 1 fois par an."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le pronostic des tumeurs rénales métastatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Très bon pronostic avec 95% de survie à 5 ans",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pronostic intermédiaire avec 50% de survie à 5 ans",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Très péjoratif avec 5-10% de survie à 5 ans",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Variable selon le site métastatique",
+          "correct": false
+        }
+      ],
+      "explanation": "Les tumeurs métastatiques ont un pronostic très péjoratif, avec une survie à 5 ans de 5-10%."
+    }
+  ]
+}

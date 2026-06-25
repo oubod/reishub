@@ -1,0 +1,1426 @@
+{
+  "lectureId": "57",
+  "number": "57",
+  "title": "Péritonites aiguës",
+  "partie": "J1",
+  "specialty": "Chirurgie générale",
+  "questions": [
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques typiques permettant de poser le diagnostic d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diarrhée profuse et une hypotension.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des signes d'irritation péritonéale tels qu'une contracture abdominale ou une défense.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une douleur abdominale vague sans rigidité pariétale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une fièvre isolée sans douleur abdominale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic est basé sur la clinique en recherchant typiquement des signes d’irritation péritonéale (une contracture abdominale ou parfois une défense)."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Selon la classification de Hambourg, quels sont les principaux types de péritonites aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Péritonites virales, fongiques et parasitaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Péritonites primitives, secondaires et tertiaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Péritonites chimiques, bactériennes et aseptiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Péritonites généralisées et localisées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Selon la classification de Hambourg, on distingue trois types de PA : les péritonites primitives, les péritonites secondaires et les péritonites tertiaires."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Quelle est la fréquence relative des péritonites secondaires par rapport aux autres types ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont très rares (1-2%).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles représentent environ 50% des cas.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles sont les plus fréquentes (98%).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont moins fréquentes que les péritonites primitives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les péritonites primitives sont très rares (1-2%) ; les péritonites secondaires sont les plus fréquentes (98%)."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Quels sont les germes les plus fréquemment en cause dans les péritonites bactériennes secondaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylocoques et streptocoques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entérobactéries (Escherichia coli) et anaérobies (Bacteroides fragilis).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mycobacterium tuberculosis.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Virus et champignons.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ce sont des infections polymicrobiennes liées à la flore intestinale pathogène : entérobactéries (Escherichia coli) et anaérobies (Bacteroides fragilis)."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quelles sont les principales causes des péritonites bactériennes secondaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'appendicite compliquée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les perforations d'ulcères gastroduodénaux vus tardivement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les sigmoïdites.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les infections gynécologiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les péritonites primitives.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cause la plus fréquente des péritonites secondaires est l'appendicite compliquée, puis viennent les perforations d'ulcères gastroduodénaux vus tardivement, les sigmoïdites et les autres infections digestives ou gynécologiques."
+    },
+    {
+      "id": "q7",
+      "difficulty": "facile",
+      "question": "Comment se fait la contamination péritonéale dans les péritonites primitives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exclusivement par perforation d'un viscère abdominal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Souvent par voie hématogène au cours d’une septicémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par diffusion à partir d'un abcès intra-abdominal.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement par translocation bactérienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contamination péritonéale se fait souvent par voie hématogène au cours d’une septicémie, plus rarement par translocation bactérienne."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques bactériologiques des péritonites primitives ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont toujours polymicrobiennes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles sont monobactériennes à un seul germe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les germes en cause sont principalement des anaérobies.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont dues à des levures résistantes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ce sont des infections monobactériennes à un seul germe : cette flore monomorphe est caractéristique des péritonites primitives."
+    },
+    {
+      "id": "q9",
+      "difficulty": "facile",
+      "question": "Quels sont les moyens de défense du péritoine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transformation phagocytaire des cellules péritonéales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Exsudat diluant des germes ayant une action bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Capacités adhérentielles obturant les brèches intestinales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réaction fibrinaire source d’adhérences.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le péritoine a d’importantes capacités de défense : transformation phagocytaire des cellules péritonéales, exsudat diluant des germes ayant une action bactérienne, capacités adhérentielles obturant les brèches intestinales, cloisonnant le péritoine, et réaction fibrinaire source d’adhérences."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quel est le type de péritonite chimique le plus représentatif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La perforation digestive moyenne ou basse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La perforation digestive haute gastrique ou duodénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La surinfection d'une collection de sang.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La contamination hématogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le type en est la perforation digestive haute gastrique ou duodénale, par la perforation va s’écouler un liquide caustique acide ou alcalin."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelles sont les conséquences immédiates d'une brûlure chimique interne due à une perforation digestive haute ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une altération des capillaires péritonéaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La sécrétion d'un liquide riche en protéines et électrolytes dans la cavité péritonéale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La constitution d'un 3ème secteur à l'origine d'une hypovolémie avec hyponatrémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un iléus paralytique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Cette brûlure entraîne une altération des capillaires péritonéaux qui provoquent la sécrétion dans la cavité péritonéale d’un liquide riche en protéine et en électrolytes, notamment Na+. Il se constitue alors un 3ème secteur à l’origine d’une hypovolémie avec hyponatrémie. Elle provoque également un iléus paralytique."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le maître symptôme de la péritonite aiguë généralisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fièvre isolée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La douleur abdominale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les vomissements précoces.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'arrêt des matières et des gaz.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur abdominale constitue le maître symptôme. À début variable, brutale, violente ou plus progressive. Elle est souvent permanente avec des paroxysmes."
+    },
+    {
+      "id": "q13",
+      "difficulty": "facile",
+      "question": "Comment se caractérise la contracture abdominale typique d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une rigidité pariétale réflexe, tonique, permanente, invincible et douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une contraction musculaire que l'on peut vaincre par la palpation douce.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une douleur intermittente sans rigidité.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une distension abdominale isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La palpation met en évidence la contracture abdominale qui est une rigidité pariétale réflexe, tonique, permanente, invincible et douloureuse réalisant un véritable ventre de bois."
+    },
+    {
+      "id": "q14",
+      "difficulty": "facile",
+      "question": "Quel est l'intérêt du toucher rectal dans le diagnostic d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il permet d'évaluer la fonction rénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il réveille une douleur vive au niveau du cul de sac de Douglas et a la même signification que la contracture.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il permet de rechercher un pneumopéritoine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il est utile uniquement pour les péritonites primitives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le toucher rectal réveille une douleur vive au niveau du cul de sac de Douglas et possède la même signification que la contracture."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est l'objectif principal du traitement chirurgical d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer une antibiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supprimer la cause de la contamination septique et nettoyer la cavité péritonéale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Corriger les troubles hydro-électrolytiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traiter les défaillances viscérales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le but du traitement chirurgical est de supprimer la cause de la contamination septique et de nettoyer la cavité péritonéale."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations le diagnostic de péritonite aiguë est-il plus difficile, nécessitant le recours aux examens complémentaires d'imagerie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les formes asthéniques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dans les péritonites postopératoires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez les patients présentant une contracture abdominale typique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dans les péritonites par perforation d'ulcère gastroduodénal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic est plus difficile dans les formes asthéniques ou bien dans les péritonites postopératoires indiquant le recours aux examens complémentaires d’imagerie représentés par l’échographie mais surtout par le scanner abdominal."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui conditionnent le pronostic d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le terrain du patient.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'étiologie de la péritonite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le délai de prise en charge.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La qualité de la prise en charge.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La couleur des yeux du patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le pronostic est conditionné par le terrain, l’étiologie, le délai ainsi que la qualité de la prise en charge."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes possibles des péritonites postopératoires secondaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une désunion d’une anastomose digestive favorisée par une malfaçon technique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une surinfection d’une collection de sang ou de lymphe favorisée par un défaut d’hémostase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un drainage abdominal inadéquat.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une péritonite primitive non diagnostiquée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les péritonites postopératoires sont généralement secondaires soit à une désunion d’une anastomose digestive favorisée par une malfaçon technique, soit à une surinfection d’une collection de sang ou de lymphe favorisée par un défaut d’hémostase et/ou un drainage abdominal inadéquat."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions cliniques ou pathologies associées aux péritonites primitives chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La tuberculose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le diabète.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome néphrotique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'infection du liquide d’ascite chez le cirrhotique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'appendicite aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les péritonites primitives s'observent chez les tuberculeux, les diabétiques, les patients qui présentent un syndrome néphrotique, et l'étiologie la plus fréquente est l'infection du liquide d’ascite chez le cirrhotique."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Qu'est-ce qui caractérise une péritonite tertiaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une infection abdominale persistante malgré un traitement bien conduit.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une infection par des micro-organismes peu virulents mais devenus résistants ou des levures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une association fréquente à un syndrome de défaillance multiviscérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une infection monobactérienne à un germe très virulent.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les péritonites tertiaires correspondent à des infections abdominales persistantes malgré un traitement bien conduit. La cavité abdominale est surinfectée par des micro-organismes peu virulents mais devenus résistants ou des levures. Ces péritonites sont fréquemment associées à un syndrome de défaillance multiviscérale."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Quels facteurs anatomiques et physiologiques expliquent la formation de péritonites localisées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L’existence d’une région déclive comme le cul de sac de Douglas.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les courants intra-péritonéaux préférentiels.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d’une zone de pression négative sous le diaphragme à l’inspiration.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cloisonnement de la cavité péritonéale par l’inflammation et la sécrétion de fibrine.",
+          "correct": true
+        }
+      ],
+      "explanation": "La formation de péritonites localisées est expliquée par des particularités anatomiques et physiologiques de la cavité abdominale : l’existence d’une région déclive comme le cul de sac de Douglas, les courants intra-péritonéaux préférentiels, la présence au moment de l’inspiration d’une zone de pression négative sous le diaphragme, et le cloisonnement de la cavité péritonéale par l’inflammation du péritoine et la sécrétion de fibrine."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences physiopathologiques d'une péritonite chimique sur le plan hydro-électrolytique et digestif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypovolémie avec hyponatrémie due à la constitution d'un 3ème secteur.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un iléus paralytique entraînant une accumulation d'eau et d'électrolytes dans la lumière digestive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de l'absorption intestinale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypervolémie avec hypernatrémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La brûlure chimique entraîne la sécrétion d’un liquide riche en protéine et en électrolytes, notamment Na+, constituant un 3ème secteur à l’origine d’une hypovolémie avec hyponatrémie. Elle provoque également un iléus paralytique à l’origine d’une accumulation d’eau et d’électrolytes dans la lumière digestive associée à une diminution de l’absorption intestinale et des vomissements qui aggravent l’hypovolémie."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Comment évolue la septicité d'une péritonite chimique d'origine digestive haute ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est fortement septique dès le début.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le liquide est peu septique au début, puis se surinfecte et la péritonite devient bactérienne au bout de 6 heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle reste toujours aseptique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La concentration bactérienne est toujours la même quel que soit le site de perforation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au début, le liquide d’origine digestive haute est peu septique, puis il se surinfecte et la péritonite devient bactérienne au bout de 6 heures."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations secondaires à la péritonite sur les grandes fonctions de l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Défaillance circulatoire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Défaillance rénale aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Défaillance respiratoire aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Défaillance métabolique aiguë.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Défaillance hépatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les PA retentissent sur les grandes fonctions de l’organisme, entraînant une défaillance circulatoire, rénale aiguë, respiratoire aiguë, métabolique aiguë, et hépatique."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques anatomopathologiques du péritoine en cas de péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un épanchement liquidien d'abondance variable, louche ou purulent.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypervascularisation du péritoine pariétal et viscéral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des fausses membranes blanchâtres, épaisses, adhérentes à la séreuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une atrophie des anses intestinales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’épanchement liquidien peut être d’abondance variable, louche ou franchement purulent. On observe une hypervascularisation du péritoine pariétal et viscéral ainsi que les méso et le grand épiploon. Des fausses membranes témoignent de l’exsudat fibrino-leucocytaire, elles sont blanchâtres, épaisses, adhérentes à la séreuse."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes généraux observés dans la forme type de péritonite aiguë généralisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un faciès tiré avec des lèvres sèches et des yeux excavés (faciès péritonéal).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une fièvre autour de 39/40° ou parfois une hypothermie de mauvais pronostic.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un état général conservé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une bradycardie constante.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'état général est rapidement altéré, le malade est figé, il a un faciès tiré avec des lèvres sèches, des yeux excavés, un pincement des ailes du nez. C’est le classique faciès péritonéal. La fièvre est soit absente, soit présente autour de 39/40°, parfois, elle est remplacée par une hypothermie de mauvais pronostic."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments cliniques permettant d'apprécier le retentissement général d'une péritonite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prise de la tension artérielle et du pouls.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La recherche des signes périphériques de choc (cyanose des extrémités, marbrures cutanées).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une auscultation cardiaque et pulmonaire et l'appréciation de l’importance de la polypnée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'examen des pupilles.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’appréciation du retentissement général de la péritonite est faite par la prise de la tension artérielle et du pouls, la recherche des signes périphériques de choc tel qu’une cyanose des extrémités ou des marbrures cutanées au niveau du genou, et une auscultation cardiaque et pulmonaire et appréciation de l’importance de la polypnée."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la valeur diagnostique des examens biologiques dans une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils ont une valeur diagnostique primordiale pour confirmer la péritonite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils n’ont aucune valeur diagnostique mais permettent d’évaluer la gravité et le retentissement infectieux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La normalité des examens biologiques élimine le diagnostic de péritonite.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ils sont utiles uniquement pour le diagnostic étiologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les examens biologiques n’ont aucune valeur diagnostique mais permettent d’évaluer la gravité de la péritonite (insuffisance rénale, déshydratation, acidose métabolique), son retentissement infectieux (hyperleucocytose, CRP, procalcitonine PCT) et d’aider à la prise en charge anesthésique. Le diagnostic de péritonite est clinique chez un malade ayant une contracture, la normalité des examens paracliniques ne doit pas remettre en cause le diagnostic."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'intérêt de la radiographie d'abdomen sans préparation (ASP) dans le diagnostic des péritonites aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechercher un pneumopéritoine, signe de perforation d'un organe creux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mettre en évidence un niveau hydro-aérique sous-diaphragmatique en cas d'épanchement liquidien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Affirmer le diagnostic de péritonite même en l'absence de pneumopéritoine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est de plus en plus remplacée par le scanner abdominal en urgence.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les radiographies d’abdomen sans préparation ont pour but de rechercher un pneumopéritoine visible sous la forme d’un croissant clair gazeux sous-diaphragmatique uni- ou bilatéral, signant la perforation d’un organe creux. En cas d’épanchement liquidien associé, un niveau hydro-aérique sous-diaphragmatique peut remplacer l’image de pneumopéritoine. Avec la disponibilité actuelle des scanners en urgence 24 h/24, les radiographies sans préparation sont de moins en moins pratiquées dans ce contexte."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations le scanner abdominal est-il particulièrement utile pour le diagnostic des péritonites aiguës ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lorsque l’examen clinique est douteux (immunodéprimé, péritonite asthénique du vieillard).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lorsque l'examen clinique est difficile (obèse, péritonite postopératoire, traumatisé de l’abdomen).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour mettre en évidence un petit pneumopéritoine non visible sur les radiographies standard.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour confirmer une contracture abdominale évidente.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le scanner abdominal est utile lorsque l’examen clinique est douteux (immunodéprimé, péritonite asthénique du vieillard) ou difficile (obèse, péritonite postopératoire, traumatisé de l’abdomen) ou péritonite décapitée par les antibiotiques. Il peut aider au diagnostic en mettant en évidence un petit pneumopéritoine non visible sur les radiographies standard ou un épanchement liquidien intra-abdominal."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments de gravité d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le terrain du patient (diabète, coronaropathie, immunodépression).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'état de choc, la détresse respiratoire ou neurologique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insuffisance rénale, les troubles ioniques, l'acidose métabolique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les péritonites stercorales ou dues à une complication néoplasique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les éléments de gravité d’une péritonite aiguë peuvent dépendre du terrain (diabète, coronaropathie, immunodépression), des éléments cliniques (état de choc, détresse respiratoire, détresse neurologique), des éléments biologiques (insuffisance rénale, troubles ioniques, acidose métabolique, troubles de l’hémostase), et de l'étiologie (péritonites stercorales, péritonites dues à une complication néoplasique)."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Comment se manifeste une péritonite par perforation, et quel en est le type le plus fréquent ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Début progressif avec défense généralisée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Début brutal par une douleur très vive en coup de poignard, syncopale, associée à une contracture abdominale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le type en est la péritonite appendiculaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le type en est la perforation d’un ulcère duodénal.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les péritonites par perforation sont caractérisées par un début brutal par une douleur très vive en coup de poignard, syncopale, associée à une contracture abdominale. Le type en est la perforation d’un ulcère duodénal."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des formes asthéniques de péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont l’apanage du sujet jeune et en bonne santé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les signes généraux sont au premier plan, tandis que les signes physiques sont discrets.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le toucher rectal est généralement douloureux et peut trouver un bombement du cul de sac de Douglas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le scanner abdominal est peu utile dans ces formes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les formes asthéniques sont l’apanage du sujet âgé ou porteur de tares. Les signes généraux sont au 1er plan, les signes physiques sont discrets, le TR qui est généralement douloureux va trouver un bombement du cul de sac de Douglas témoignant de l’épanchement intra péritonéal. Le scanner est utile pour la confirmation diagnostique et la recherche étiologique."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques et paracliniques évocateurs d'un abcès sous phrénique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur sous costale spontanée ou provoquée par la percussion.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Abdomen souple et indolore à la palpation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un hoquet traduisant l'irritation phrénique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une radiographie d'ASP montrant toujours un niveau hydro-aérique sous phrénique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une TDM montrant une image hyperdense sans bulles gazeuses.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'abcès sous phrénique associe aux signes infectieux généraux, des signes abdominaux et thoraciques. La douleur est sous costale spontanée ou provoquée par la percussion, à la palpation l’abdomen est souple, indolore. Un hoquet peut se voir et traduit l’irritation phrénique. La radiographie d’ASP peut montrer un niveau hydro-aérique sous phrénique fortement évocateur mais celui-ci est inconstant. La TDM montre l’abcès sous forme d’une image hypodense contenant des bulles gazeuses."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés du traitement médical initial d'une péritonite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correction rapide des troubles hydro-électrolytiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lutte contre la diffusion systémique de l’infection par une antibiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Juguler les défaillances viscérales.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réalisation immédiate d'une laparotomie exploratrice.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement médical a pour but de corriger rapidement les troubles hydro-électrolytiques, de lutter contre la diffusion systémique de l’infection par une antibiothérapie et de juguler les défaillances viscérales. Ce traitement doit être énergique et de courte durée pour pouvoir amener en salle d’opération un malade équilibré."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences physiopathologiques de la défaillance circulatoire dans une péritonite aiguë septique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hypovolémie due au 3ème secteur et aggravée par les vomissements.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'action des endotoxines qui altèrent les résistances périphériques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'incompétence myocardique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une augmentation du retour veineux.",
+          "correct": false
+        }
+      ],
+      "explanation": "La défaillance circulatoire provient de l’hypovolémie (due au 3ème secteur et aggravée par les vomissements), de l’action des endotoxines qui altèrent les résistances périphériques, et de l’incompétence myocardique. Cette défaillance aboutit à un état de choc grave."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des anses intestinales en cas de péritonite aiguë et leurs implications chirurgicales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont distendues, épaisses, lourdes et succulentes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles sont fragiles, avec un risque de lésions au cours de la manipulation chirurgicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La réalisation d’une suture digestive aboutit inéluctablement à un lâchage, sauf en cas de suture d’ulcère perforé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont atrophiques et faciles à manipuler.",
+          "correct": false
+        }
+      ],
+      "explanation": "On observe une distension des anses intestinales qui sont épaisses, lourdes et succulentes. Elles sont fragiles, avec risque de lésions au cours de la manipulation chirurgicale qui doit être douce et attentive. Cette modification explique aussi que la réalisation d’une suture digestive dans la péritonite aboutit inéluctablement à un lâchage de celle-ci, sauf en cas de suture d’ulcère perforé."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences sémiologiques entre une contracture abdominale et une défense généralisée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La contracture est une rigidité invincible, tandis que la défense peut être vaincue par la palpation douce.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La contracture est tonique et permanente, alors que la défense est une contraction musculaire réflexe déclenchée par la douleur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La défense a une signification sémiologique différente de la contracture.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La contracture est toujours localisée, la défense toujours généralisée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La contracture abdominale est une rigidité pariétale réflexe, tonique, permanente, invincible et douloureuse réalisant un véritable ventre de bois. La défense généralisée est une contraction musculaire réflexe, déclenchée par la douleur que réveille la palpation profonde et que l’on peut vaincre par la palpation si l’on insiste doucement et progressivement. Elle se reproduit dès qu’on reprend la palpation. La défense a la même signification sémiologique que la contracture."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques cliniques des péritonites toxiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une discordance entre des signes généraux très marqués et des signes fonctionnels et physiques discrets.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un état de torpeur ou d’obnubilation, un faciès terreux, des extrémités cyanosées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une tension artérielle basse avec pincement de la différentielle et un pouls rapide et filant.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une contracture abdominale généralisée et invincible.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les formes toxiques sont marquées par la discordance entre les signes généraux très marqués et des signes fonctionnels et physiques discrets. Sur le plan général, il existe : un état de torpeur ou d’obnubilation, le faciès est terreux, les extrémités sont cyanosées. La TA est basse avec pincement de la différentielle, le pouls est rapide et filant. L’examen physique trouve une discrète douleur abdominale, une sensibilité ou parfois une défense localisée."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et les examens complémentaires permettant de diagnostiquer un abcès du Douglas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleurs hypogastriques dans un contexte fébrile avec palpation abdominale normale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dysurie et pollakiurie fréquentes dues à l'irritation vésicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un ténesme rectal souvent présent.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le toucher rectal perçoit une tuméfaction fluctuante très douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La radiographie d'ASP est l'examen de référence.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le tableau clinique est fait de douleurs hypogastriques, évoluant dans un contexte fébrile alors que la palpation est normale. La dysurie et la pollakiurie sont fréquentes à cause de l’irritation vésicale. Un ténesme rectal est souvent présent. Le TR permet de suspecter le diagnostic, on perçoit à travers la paroi rectale antérieure une tuméfaction fluctuante très douloureuse. L’échographie et le scanner confirment le diagnostic."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la péritonite par perforation d'ulcère gastroduodénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est la cause la plus fréquente des péritonites généralisées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La douleur initiale est brutale, en coup de poignard, de siège épigastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'examen révèle une contracture abdominale avec un état général relativement conservé et une absence de fièvre initialement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ASP montre un pneumopéritoine dans 100% des cas.",
+          "correct": false
+        }
+      ],
+      "explanation": "C’est la cause la plus fréquente des péritonites généralisées. La douleur initiale a un début brutal, en coup de poignard, de siège épigastrique et se généralise rapidement à tout l’abdomen. L’examen révèle une contracture abdominale avec un état général relativement conservé et une absence de fièvre initialement. L’ASP montre un pneumopéritoine dans 70% des cas, mais son absence ne permet pas d’éliminer la perforation."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments cliniques et anamnestiques orientant vers une péritonite biliaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédents de lithiase biliaire connue ou suspectée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleurs de l'hypochondre droit, post prandiales tardives à irradiation scapulaire droite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Début de la symptomatologie par des douleurs de l'hypochondre droit diffusant progressivement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fièvre élevée autour de 39°, 40°.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Signes péritonéaux sous forme de contracture généralisée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’interrogatoire trouve des antécédents de lithiase biliaire connue ou suspectée devant des douleurs de l’hypochondre droit, post prandiales tardives à irradiation scapulaire droite. Le début de la symptomatologie est fait par des douleurs de l’hypochondre droit qui diffusent progressivement à tout l’abdomen. La fièvre est élevée autour de 39°, 40°. Les signes péritonéaux sont présents sous forme d’une défense généralisée maximale au niveau de l’hypochondre droit."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies fréquentes des péritonites d'origine colique, particulièrement chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les perforations compliquant un cancer colique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les péritonites au cours de la maladie diverticulaire colique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les péritonites compliquant une colite aiguë grave.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les perforations d'ulcères gastroduodénaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les péritonites d’origine colique sont généralement l’apanage du sujet âgé, les étiologies sont nombreuses dominées par les perforations compliquant un cancer colique ; les péritonites au cours de la maladie diverticulaire colique et les péritonites compliquant une colite aiguë grave."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des péritonites d'origine génitale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles surviennent surtout chez les femmes porteuses de dispositif intra-utérin ou ayant des antécédents d'infection pelvienne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La douleur abdomino-pelvienne prédomine à l'hypogastre et diffuse vers le haut de l'abdomen.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'examen de l'abdomen révèle une défense ou une contracture sus-pubienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Au toucher vaginal, les culs de sac latéraux sont empâtés et douloureux, et la mobilisation utérine est très douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'examen bactériologique révèle une flore monomorphe.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il s’agit surtout de femmes porteuses de dispositif intra utérin ou ayant des antécédents d’infection type salpingite, endométrite ou suite à des manœuvres endo-utérines. Le tableau clinique est celui de douleur abdomino-pelvienne qui prédomine à l’hypogastre et diffuse vers le haut de l’abdomen. L’examen de l’abdomen révèle une défense ou une contracture sus pubienne. Au TV, les culs de sac latéraux sont empâtés et douloureux, et la mobilisation utérine est très douloureuse. L’examen bactériologique y révèle une flore aéro-anaérobie variée."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes évocateurs d'une péritonite postopératoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des signes généraux au premier plan (fièvre, perturbations hémodynamiques, manifestations respiratoires).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des signes physiques difficiles à interpréter chez un opéré récent (douleurs, météorisme).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un écoulement anormal par un orifice de drainage ou une augmentation du volume d’aspiration digestive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des perturbations biologiques précoces (hyponatrémie, hypokaliémie, ascension de l’urémie, augmentation des globules blancs).",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic est souvent difficile, les signes généraux sont au premier plan à type de fièvre, de perturbations hémodynamiques et de manifestations respiratoires. Les signes physiques sont souvent difficiles à interpréter chez un opéré récent à type de douleurs ou de météorisme. Parfois il existe un écoulement anormal par un orifice de drainage, une augmentation du volume d’aspiration digestive ou une diarrhée précoce qui évoque le diagnostic. Les perturbations biologiques sont précoces à type d’hyponatrémie, hypokaliémie, d’une ascension de l’urémie et une augmentation des chiffres des globules blancs."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quelles sont les règles de sécurité à respecter lors du traitement chirurgical d'une péritonite septique diffuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "S'abstenir de toute anastomose ou suture en milieu septique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ne pas aggraver les dégâts par des débridements exagérés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Préférer les lavages abondants de la cavité péritonéale avec du sérum physiologique tiède.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Réaliser systématiquement une suture digestive.",
+          "correct": false
+        }
+      ],
+      "explanation": "La première règle de sécurité est de s’abstenir de toute anastomose ou suture en milieu septique, lorsque la péritonite septique diffuse est confirmée. La deuxième règle de sécurité consiste à ne pas aggraver les dégâts par des débridements exagérés et préférer les lavages abondants de la cavité péritonéale avec du sérum physiologique tiède jusqu’à obtenir un liquide d’aspiration clair."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options chirurgicales pour une péritonite d'origine colique par perforation diverticulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extériorisation de la perforation en colostomie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suture de la perforation, drainage de contact et colostomie d’amont.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Toilette sous cœlioscopie et drainage de contact.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Exérèse lésionnelle (sigmoïdectomie) sans rétablissement de la continuité (Hartmann).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Rétablissement immédiat de la continuité digestive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une péritonite d’origine colique par perforation diverticulaire, les options sont : soit extériorisation de la perforation en colostomie, soit suture de la perforation, drainage de contact et colostomie d’amont, soit une toilette sous cœlioscopie et drainage de contact, soit exérèse lésionnelle (sigmoïdectomie) sans rétablissement de la continuité (Hartmann)."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de prise en charge pour une péritonite secondaire diffuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réanimation et antibiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Chirurgie avec toilette péritonéale et éradication du foyer septique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Drainage percutané radioguidé en première intention.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Antibiothérapie seule.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une péritonite secondaire diffuse, la prise en charge comprend la réanimation, l'antibiothérapie, puis la chirurgie avec toilette péritonéale et éradication du foyer septique."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de prise en charge pour une péritonite localisée (abcès) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réanimation et antibiothérapie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drainage percutané radioguidé si accessible.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Colpotomie ou rectotomie pour abcès du Douglas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Chirurgie si le drainage n'est pas accessible ou en cas d'échec.",
+          "correct": true
+        }
+      ],
+      "explanation": "Pour une péritonite localisée (abcès), la prise en charge comprend la réanimation, l'antibiothérapie, et le drainage (percutané radioguidé si accessible, colpotomie/rectotomie pour abcès du Douglas). La chirurgie est indiquée si le drainage n'est pas accessible ou en cas d'échec."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement recommandé pour une péritonite primitive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réanimation et antibiothérapie secondairement adaptée aux résultats des prélèvements bactériologiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ablation d’un cathéter de dialyse péritonéale si présent.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chirurgie systématique avec toilette péritonéale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Drainage percutané sans antibiothérapie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une péritonite primitive, le traitement est médical moyennant une antibiothérapie adaptée. La prise en charge comprend la réanimation et l'antibiothérapie secondairement adaptée aux résultats des prélèvements bactériologiques, ainsi que l'ablation d’un cathéter de dialyse péritonéale si présent. Le diagnostic est souvent porté en peropératoire en l'absence de foyer primitif."
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pc-4",
+  "title": "Cholécystites aiguës",
+  "category": "Pathologies Chirurgicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection aiguë de la voie biliaire principale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inflammation chronique de la vésicule biliaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Infection aiguë de la vésicule biliaire due à une obstruction prolongée du canal cystique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Obstruction duodénale par un calcul biliaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Migration d'un calcul dans le cholédoque sans infection.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholécystite aiguë est définie comme une infection aiguë de la vésicule biliaire due à une obstruction prolongée du canal cystique."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les éléments de la triade de Charcot, caractéristique de l'angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur biliaire, fièvre élevée, ictère.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleur épigastrique, vomissements, diarrhée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fièvre, frissons, hyperleucocytose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Ictère, ascite, encéphalopathie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur de l'hypochondre droit, masse palpable, hyperleucocytose.",
+          "correct": false
+        }
+      ],
+      "explanation": "La triade de Charcot, apparaissant sur 48h, est caractérisée par une douleur biliaire, une fièvre élevée et un ictère."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les facteurs suivants, lesquels sont des facteurs de risque de calculs cholestéroliques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Âge supérieur à 60 ans.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sexe féminin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypercholestérolémie sanguine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Régime hypercalorique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Multiparité.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'âge > 60 ans, le sexe féminin, la multiparité et un régime hypercalorique sont des facteurs de risque de calculs cholestéroliques. L'hypercholestérolémie sanguine n'est pas un facteur de risque."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Comment se manifeste le signe de Murphy lors d'une colique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur à la palpation de la fosse iliaque droite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Douleur inhibant la respiration à la palpation de l'aire vésiculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur irradiant vers l'épaule gauche.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Douleur soulagée par l'inspiration forcée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur permanente sans irradiation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le signe de Murphy est une douleur inhibant la respiration à la palpation de l'aire vésiculaire."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est l'indication de traitement pour un calcul vésiculaire asymptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cholécystectomie systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Traitement médical par acide ursodésoxycholique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Aucune indication de traitement dans la majorité des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholécystectomie si polype vésiculaire > 0,8 cm.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cholécystectomie si cholécystite chronique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Il n'y a aucune indication de traitement dans la majorité des cas de calcul vésiculaire asymptomatique. Cependant, une cholécystectomie est indiquée si un polype vésiculaire est > 0,8 cm ou en cas de cholécystite chronique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques typiques d'une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome infectieux avec frissons.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Douleurs de l'hypochondre droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ictère systématique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Durée des douleurs inférieure à 6 heures.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Douleur irradiant vers l'épaule gauche.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholécystite aiguë se manifeste par un syndrome infectieux avec frissons et des douleurs de l'hypochondre droit, généralement d'une durée supérieure à 24h. L'ictère est rare (<10% des cas)."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les marqueurs biologiques fréquemment observés lors d'une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperleucocytose à PNN.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la CRP.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution des ASAT/ALAT.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation de la lipase supérieure à 3N.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hémoculture systématiquement négative.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une cholécystite aiguë s'accompagne d'une hyperleucocytose à PNN et d'une augmentation de la CRP. Une augmentation de la lipase (> 3N) peut être recherchée. Les ASAT/ALAT peuvent être augmentées, non diminuées, et l'hémoculture est systématique."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes échographiques sont évocateurs d'une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Épaississement de la paroi vésiculaire > 4 mm.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aspect en triple feuillet de la paroi.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de sludge déclive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dilatation de la voie biliaire principale > 8 mm.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Absence de calcul vésiculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie révèle un épaississement de la paroi vésiculaire > 4 mm (aspect en triple feuillet) et la présence de sludge déclive. La dilatation de la VBP est plus suggestive d'une angiocholite, et la cholécystite aiguë est généralement lithiasique."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Péritonite biliaire par perforation vésiculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome de Mirizzi.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Fistulisation biliaire dans le duodénum.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pancréatite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Angiocholite ictéro-urémigène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications directes de la cholécystite aiguë incluent la péritonite biliaire (perforation), le syndrome de Mirizzi et la fistulisation biliaire dans le duodénum ou le côlon. La pancréatite aiguë peut être associée mais n'est pas une complication directe de la cholécystite elle-même, et l'angiocholite ictéro-urémigène est une complication de l'angiocholite."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les diagnostics différentiels à considérer face à un épaississement de la paroi vésiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cholécystite alithiasique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hypertension portale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hépatite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Angiocholite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Colique hépatique simple.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une cholécystite alithiasique, une hypertension portale ou une hépatite peuvent également entraîner un épaississement de la paroi vésiculaire. L'angiocholite aiguë et la colique hépatique simple ne sont pas des causes directes d'épaississement pariétal vésiculaire."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques attendus lors d'une angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cholestase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperleucocytose à PNN.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des transaminases à la phase aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémocultures souvent positives à germe digestif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Diminution de la bilirubine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiocholite aiguë se caractérise par une cholestase, une hyperleucocytose à PNN, une augmentation des transaminases à la phase aiguë et des hémocultures souvent positives à germe digestif. La bilirubine est augmentée, non diminuée."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments échographiques sont évocateurs d'une angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lithiase vésiculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dilatation des voies biliaires extra-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dilatation des voies biliaires intra-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholédoque > 8 mm.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Visualisation systématique d'un calcul de la voie biliaire principale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une lithiase vésiculaire est évocatrice. On observe une dilatation des voies biliaires extra-hépatiques et intra-hépatiques, avec un cholédoque > 8 mm. Un calcul de la VBP n'est visualisé que dans 30 à 50% des cas."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la prise en charge recommandée pour une colique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mise à jeun.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antalgie IV incluant antispasmodique et AINS.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholécystectomie réalisée rapidement (< 1 mois).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholangiographie antérograde per-opératoire systématique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Antibiothérapie à large spectre.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge inclut la mise à jeun, une antalgie IV (antispasmodique, antalgique, AINS) et une cholécystectomie rapide (< 1 mois). La cholangiographie per-opératoire n'est pas systématique, et l'antibiothérapie n'est pas indiquée pour une colique hépatique simple."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels cas une cholangiographie antérograde per-opératoire est-elle indiquée lors d'une cholécystectomie pour colique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antécédent de pancréatite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ictère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cytolyse hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholestase.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de dilatation échographique des voies biliaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholangiographie antérograde per-opératoire est indiquée en cas d'antécédent de pancréatite, d'ictère, de cytolyse hépatique, de cholestase ou de dilatation échographique des voies biliaires. L'absence de dilatation n'est pas une indication."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels critères définissent une cholécystite aiguë de gravité modérée (Grade 2) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperleucocytose > 18 G/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Masse palpable de l'hypochondre droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Durée des symptômes > 72h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Défaillance viscérale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Péritonite biliaire localisée.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une cholécystite de Grade 2 est définie par une hyperleucocytose > 18 G/L, une masse palpable de l'HCD, une durée des symptômes > 72h et/ou une infection locale comme une péritonite biliaire localisée. La défaillance viscérale caractérise le Grade 3."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la prise en charge chirurgicale recommandée pour une cholécystite aiguë de Grade 1 ou 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cholécystectomie réalisable précocement.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drainage cholédocien percutané préférentiel.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Antibiothérapie seule.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cholécystectomie en urgence (dans les 24 à 48h) par voie cœlioscopique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cholécystectomie différée après 6 semaines.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les Grades 1 et 2, une cholécystectomie est réalisable précocement, spécifiquement en urgence (dans les 24 à 48h) par voie cœlioscopique. Le drainage percutané est pour le Grade 3."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la prise en charge initiale privilégiée pour une cholécystite aiguë de gravité sévère (Grade 3) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cholécystectomie en urgence absolue.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Drainage cholédocien percutané.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antibiothérapie seule sans geste invasif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Sphinctérotomie endoscopique biliaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Mise à jeun et antalgiques uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour le Grade 3, le risque chirurgical est élevé et la prise en charge du foyer septique est indispensable, préférentiellement par drainage cholédocien percutané."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la stratégie d'antibiothérapie recommandée pour une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antibiothérapie à spectre étroit IV.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentin® en première intention.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ciprofloxacine + métronidazole en cas d'allergie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Relai oral après 48h d'apyrexie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antibiothérapie systématiquement prolongée au-delà de 7 jours.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'antibiothérapie doit être à large spectre IV, avec Augmentin® ou ciprofloxacine + métronidazole en cas d'allergie, puis adaptée à l'antibiogramme. Un relai oral est possible après 48h d'apyrexie."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés de la prise en charge initiale d'une angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation en USI ou USC.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antibiothérapie large spectre IV par Augmentin® + gentamicine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholangio-pancréatographie rétrograde endoscopique (CPRE) en urgence absolue.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholécystectomie en urgence.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Drainage transcutané des voies biliaires si CPRE non disponible ou malade instable.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'angiocholite aiguë nécessite une hospitalisation en USI ou USC, une antibiothérapie large spectre IV (Augmentin® + gentamicine) et une CPRE en urgence absolue. Si la CPRE n'est pas disponible ou le malade instable, un drainage transcutané est une alternative. La cholécystectomie est réalisée dans un second temps."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles de la CPRE ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pancréatite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémorragie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Perforation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Infection.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Mirizzi.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de la CPRE incluent la pancréatite aiguë (1%), l'hémorragie (1%), la perforation (1%) et l'infection. Le syndrome de Mirizzi est une complication de la lithiase vésiculaire."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les options thérapeutiques pour un calcul de la voie biliaire principale sans angiocholite associée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abstention thérapeutique systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Cholécystectomie avec désobstruction per-opératoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholécystectomie puis sphinctérotomie endoscopique biliaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sphinctérotomie endoscopique biliaire puis cholécystectomie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Drainage transcutané des voies biliaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les options incluent la cholécystectomie avec désobstruction per-opératoire, la cholécystectomie suivie d'une sphinctérotomie endoscopique biliaire, ou la sphinctérotomie endoscopique biliaire suivie d'une cholécystectomie. L'abstention n'est pas systématique et le drainage transcutané est pour l'angiocholite."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques d'une cholécystite chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consécutive à une succession de coliques hépatiques non traitées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vésicule porcelaine avec calcifications.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vésicule scléro-atrophique avec paroi épaissie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque de dégénérescence en adénocarcinome vésiculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Toujours asymptomatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholécystite chronique est consécutive à des coliques hépatiques ou cholécystites non traitées. Elle peut se manifester par une vésicule porcelaine (calcifications) ou scléro-atrophique (paroi épaissie), toutes deux associées à un risque de dégénérescence en adénocarcinome vésiculaire. Elle n'est pas toujours asymptomatique."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'iléus biliaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Obstruction au niveau de la valvule de Bauhin.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Causé par une lithiase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome occlusif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'aérobilie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Occlusion duodénale par un calcul > 3 cm.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'iléus biliaire est une obstruction au niveau de la valvule de Bauhin par une lithiase, entraînant un syndrome occlusif avec aérobilie. L'occlusion duodénale par un calcul > 3 cm est le syndrome de Bouveret."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications possibles d'une lithiase intra-hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Angiocholite récidivante malgré cholécystectomie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cirrhose biliaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tumeur hépatique sous-jacente fréquente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Iléus biliaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Syndrome de Bouveret.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de la lithiase intra-hépatique incluent l'angiocholite récidivante (même après cholécystectomie) et la cirrhose biliaire. Une tumeur hépatique sous-jacente est fréquente. L'iléus biliaire et le syndrome de Bouveret sont des complications de fistules bilio-digestives."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'examen de référence pour le diagnostic et l'évaluation d'une lithiase intra-hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Échographie abdominale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Scanner abdominal.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Bili-IRM.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Écho-endoscopie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "CPRE.",
+          "correct": false
+        }
+      ],
+      "explanation": "La Bili-IRM est l'examen de référence pour évaluer l'état de l'arbre biliaire et le nombre de lithiases intra-hépatiques."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de calculs pigmentaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémolyse chronique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection des voies biliaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Obstacle biliaire chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cirrhose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypertriglycéridémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les calculs pigmentaires sont favorisés par l'hémolyse chronique, l'infection des voies biliaires, un obstacle biliaire chronique (sténose bénigne ou maligne de la VBP) et la cirrhose. L'hypertriglycéridémie est un facteur de risque de calculs cholestéroliques."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la principale différence biologique entre une colique hépatique et une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La colique hépatique présente une hyperleucocytose à PNN marquée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La cholécystite aiguë montre une augmentation des ASAT/ALAT très fugace.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La colique hépatique n'entraîne généralement pas d'augmentation de la CRP.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cholécystite aiguë peut s'accompagner d'une augmentation de la lipase > 3N.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les hémocultures sont systématiques et souvent positives dans la colique hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La colique hépatique ne s'accompagne pas d'une augmentation de la CRP, contrairement à la cholécystite aiguë. La cholécystite aiguë peut présenter une augmentation de la lipase > 3N, ce qui n'est pas mentionné pour la colique hépatique. L'hyperleucocytose est pour la cholécystite, l'augmentation des ASAT/ALAT est fugace dans la colique hépatique, et les hémocultures sont systématiques dans la cholécystite, pas la colique hépatique."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'imagerie des lithiases biliaires, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'échographie est plus sensible que le scanner pour détecter les calculs vésiculaires.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le scanner est la référence pour la recherche de dilatation de la voie principale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'IRM est moins sensible que le scanner pour les lithiases vésiculaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La bili-IRM est rarement réalisable en urgence pour l'angiocholite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'écho-endoscopie a une sensibilité > 90% pour la lithiase de la VBP.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'échographie est la référence et plus sensible que le scanner pour les calculs vésiculaires. La bili-IRM et l'écho-endoscopie ont une sensibilité > 90% pour la lithiase de la VBP, mais la bili-IRM est rarement réalisable en urgence. Le scanner n'est pas la référence pour la dilatation de la VBP, l'échographie l'est."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Qu'est-ce que le syndrome de Mirizzi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une perforation vésiculaire entraînant une péritonite biliaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une compression de la voie biliaire principale par un calcul vésiculaire volumineux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une fistulisation biliaire dans le duodénum.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une occlusion duodénale par un calcul biliaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une infection aiguë de la voie biliaire principale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Mirizzi est une compression de la VBP par un calcul vésiculaire volumineux."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la cholécystite alithiasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est rare.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle survient typiquement chez des patients en réanimation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent associée à une nutrition parentérale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est la cause la plus fréquente de cholécystite aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à un ictère.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholécystite alithiasique est rare, survient chez des patients en réanimation et est associée à la nutrition parentérale. La cholécystite aiguë est majoritairement lithiasique et n'est pas toujours associée à un ictère."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications spécifiques de l'angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Choc septique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale aiguë fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombopénie septique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pancréatite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Iléus biliaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de l'angiocholite aiguë incluent le choc septique, l'IRA fonctionnelle puis organique, la thrombopénie septique et la pancréatite. L'iléus biliaire est une complication de la fistulisation biliaire."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Outre la lithiase de l'ampoule de Vater, quelles autres causes peuvent entraîner une angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sténose de la VBP d'origine tumorale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Parasites (ascaris, douve).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Compression extrinsèque par un pseudokyste de pancréatite chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cholécystite alithiasique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Polype vésiculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "D'autres causes d'angiocholite incluent la sténose de la VBP (tumeur), les parasites (ascaris, douve) et la compression extrinsèque (pseudokyste de pancréatite chronique). La cholécystite alithiasique et le polype vésiculaire ne sont pas des causes d'angiocholite."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le délai recommandé pour la cholécystectomie en cas de cholécystite aiguë de Grade 1 ou 2 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dans les 6 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dans les 24 à 48 heures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Après 72 heures.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Après 1 mois.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Après résolution complète de l'inflammation.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cholécystectomie est réalisée en urgence, dans les 24 à 48 heures, pour les cholécystites aiguës de Grade 1 et 2."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment est géré un calcul de la voie biliaire principale associé à une cholécystite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toujours traité au même temps opératoire que la cholécystectomie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Traité au même temps opératoire si accessible.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par un drain cholédocien et sphinctérotomie endoscopique biliaire secondairement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par CPRE en urgence absolue avant la cholécystectomie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Par dissolution médicale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un calcul de la VBP associé peut être traité au même temps opératoire si accessible, ou par un drain cholédocien et sphinctérotomie endoscopique biliaire secondairement. La CPRE en urgence absolue est pour l'angiocholite."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les alternatives au CPRE en urgence pour la désobstruction biliaire en cas d'angiocholite aiguë, si la CPRE n'est pas disponible ou le patient instable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Drainage transcutané des voies biliaires sous guidage échographique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Drainage chirurgical par drain de Kehr.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholécystectomie en urgence.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Traitement médical seul.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sphinctérotomie endoscopique biliaire sans extraction de calcul.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si la CPRE n'est pas disponible ou le malade instable, un drainage transcutané des voies biliaires sous guidage échographique (si voies biliaires intra-hépatiques dilatées) ou un drainage chirurgical par drain de Kehr sont des alternatives."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles formes de cholécystite chronique sont associées à un risque de dégénérescence en adénocarcinome vésiculaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vésicule porcelaine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vésicule scléro-atrophique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholécystite alithiasique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cholécystite aiguë non traitée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Colique hépatique récidivante.",
+          "correct": false
+        }
+      ],
+      "explanation": "La vésicule porcelaine et la vésicule scléro-atrophique sont associées à un risque de dégénérescence en adénocarcinome vésiculaire."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Qu'est-ce que le calculo-cancer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tumeur hépatique sous-jacente à une lithiase intra-hépatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une malignité de la pièce opératoire de cholécystectomie (1-2%).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un adénocarcinome vésiculaire associé à une vésicule porcelaine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une complication de la CPRE.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une forme rare de cholécystite alithiasique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le calculo-cancer est une malignité de la pièce opératoire (1-2%) lors d'une cholécystectomie."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome de Bouveret ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Occlusion duodénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Causé par un calcul > 3 cm.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Résulte d'une fistulisation vésiculo-duodénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Entraîne une intolérance alimentaire avec vomissements précoces non bilieux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Obstruction au niveau de la valvule de Bauhin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Bouveret est une occlusion duodénale par un calcul > 3 cm, résultant d'une fistulisation vésiculo-duodénale, et entraînant une intolérance alimentaire avec vomissements précoces non bilieux. L'obstruction au niveau de la valvule de Bauhin est caractéristique de l'iléus biliaire."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les manifestations cliniques et biologiques possibles d'une lithiase intra-hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asymptomatique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ictère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cholestase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cytolyse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleur épigastrique irradiant à l'épaule droite.",
+          "correct": false
+        }
+      ],
+      "explanation": "La lithiase intra-hépatique peut être asymptomatique ou se manifester par un ictère, une cholestase et une cytolyse. La douleur épigastrique irradiant à l'épaule droite est typique de la colique hépatique."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques pour une lithiase intra-hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Abstention thérapeutique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dissolution médicale à l'acide ursodésoxycholique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Lithotritie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Drainage endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cholécystectomie systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de la lithiase intra-hépatique dépend du nombre de lithiases et de l'état du parenchyme hépatique. Les options incluent l'abstention thérapeutique, la dissolution médicale à l'acide ursodésoxycholique, la lithotritie ou le drainage endoscopique, radiologique ou chirurgical. La cholécystectomie n'est pas un traitement direct de la lithiase intra-hépatique."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prévalence de la lithiase biliaire dans la population générale et son évolution avec l'âge ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Très fréquente, environ 5%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Très fréquente, environ 20%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminue avec l'âge.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Atteint 60% chez les plus de 80 ans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Est toujours symptomatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La lithiase biliaire est très fréquente (20%) et augmente avec l'âge, atteignant 60% chez les plus de 80 ans. Elle est asymptomatique dans 80% des cas."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel pourcentage des lithiases biliaires asymptomatiques se compliquent, et quelle est la proportion de migration dans ces cas ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "80% se compliquent.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "20% se compliquent.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La migration survient dans 1 cas sur 2 des complications.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La migration est rare.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Toutes les complications sont des migrations.",
+          "correct": false
+        }
+      ],
+      "explanation": "20% des lithiases asymptomatiques se compliquent, et la migration survient dans 1 cas sur 2 de ces complications."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la douleur d'une colique hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Début brutal et souvent intense.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Permanente.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Localisée uniquement à l'épigastre.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Irradiant vers l'épaule droite ou la fosse lombaire droite.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Durée supérieure à 6 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur de la colique hépatique est brutale, souvent intense, permanente, épigastrique (60%) ou hypochondre droit, irradiant vers l'épaule droite ou la fosse lombaire droite. Sa durée est de quelques minutes à quelques heures (< 6 heures)."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le rôle du syndrome infectieux dans l'angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est souvent au premier plan.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il peut se manifester par une bactériémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il peut évoluer vers un sepsis.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il peut entraîner un choc septique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours absent en cas d'ictère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome infectieux est souvent au premier plan dans l'angiocholite aiguë, pouvant entraîner une bactériémie, un sepsis, voire un choc septique."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'ictère dans la cholécystite aiguë, quelle affirmation est correcte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est systématiquement présent.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est généralement absent.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il indique une obstruction biliaire associée dans moins de 10% des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sa présence est un signe de gravité faible.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours d'origine hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ictère est généralement absent dans la cholécystite aiguë, et sa présence indique une obstruction biliaire associée dans moins de 10% des cas."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de la prise en charge générale d'une cholécystite aiguë, indépendamment de sa gravité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Remplissage vasculaire adapté.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Antalgique de niveau 1 ou 2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Mise à jeun.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antibiothérapie à large spectre IV.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Cholécystectomie immédiate.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge générale inclut un remplissage vasculaire adapté, des antalgiques (niveau 1 ou 2), la mise à jeun et une antibiothérapie à large spectre IV. La cholécystectomie n'est pas toujours immédiate, son timing dépend du grade."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est une particularité importante à rechercher en cas de lithiase intra-hépatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension portale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une cirrhose biliaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une tumeur hépatique sous-jacente fréquente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une pancréatite aiguë associée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une cholécystite chronique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une tumeur hépatique sous-jacente est fréquente en cas de lithiase intra-hépatique."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la différence majeure entre l'iléus biliaire et le syndrome de Bouveret ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'iléus biliaire est une occlusion duodénale, le Bouveret une occlusion colique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'iléus biliaire est une obstruction à la valvule de Bauhin, le Bouveret une occlusion duodénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'iléus biliaire est causé par un calcul > 3 cm, le Bouveret par un calcul de petite taille.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'iléus biliaire s'accompagne de vomissements bilieux, le Bouveret de vomissements non bilieux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'iléus biliaire est une complication de la cholécystite, le Bouveret de l'angiocholite.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'iléus biliaire est une obstruction au niveau de la valvule de Bauhin, tandis que le syndrome de Bouveret est une occlusion duodénale. Le syndrome de Bouveret entraîne des vomissements précoces non bilieux, alors que l'iléus biliaire est un syndrome occlusif général."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quels cas spécifiques une cholécystectomie est-elle indiquée pour un calcul vésiculaire initialement asymptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si le patient a plus de 80 ans.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Si un polype vésiculaire de 0,7 cm est découvert.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En cas de cholécystite chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Si le polype vésiculaire est supérieur à 0,8 cm.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En cas d'hypercholestérolémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une cholécystectomie est indiquée pour un calcul vésiculaire asymptomatique si un polype vésiculaire est > 0,8 cm ou en cas de cholécystite chronique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le niveau d'hospitalisation requis pour une angiocholite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hospitalisation en service de chirurgie générale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hospitalisation en USI ou USC.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hospitalisation à domicile avec surveillance.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hospitalisation en service de médecine interne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hospitalisation en urgence uniquement si choc septique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'angiocholite aiguë nécessite une hospitalisation en USI ou USC selon l'état du malade."
+    }
+  ]
+}

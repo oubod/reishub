@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-31",
+  "title": "Toxémie gravidique",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition de l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle préexistante à la grossesse, souvent améliorée en début de grossesse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypertension artérielle survenant avant 20 semaines d'aménorrhée (SA) chez une femme sans antécédent vasculo-rénal.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypertension artérielle apparaissant après 20 SA, typiquement au 3ème trimestre, chez une femme sans antécédent vasculo-rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypertension artérielle qui persiste plus de 6 semaines après l'accouchement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypertension artérielle associée à une protéinurie significative dès le 1er trimestre.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HTA gravidique est définie comme un tableau d'HTA survenant > 20 SA, typiquement au 3ème trimestre, chez une femme enceinte sans antécédent vasculo-rénal, avec guérison en post-partum. Les autres options décrivent l'HTA chronique ou la pré-éclampsie."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les critères diagnostiques de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle gravidique isolée sans protéinurie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypertension artérielle chronique associée à une protéinurie inférieure à 0,3 g/24h.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypertension artérielle gravidique associée à une protéinurie ≥ 0,3 g/24h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypertension artérielle survenant avant 20 SA avec des œdèmes généralisés.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hypertension artérielle avec des céphalées et des troubles visuels, sans protéinurie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La pré-éclampsie (ou toxémie gravidique) est définie comme une HTA gravidique associée à une protéinurie ≥ 0,3 g/24h."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen paraclinique indispensable pour le diagnostic de l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le bilan biologique de sévérité (NFS, transaminases, créatininémie).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'échographie obstétricale avec Doppler utérin.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La protéinurie des 24 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le fond d'œil.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le dosage de la fibronectine maternelle plasmatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour l'HTA gravidique, la protéinurie/24h est le seul examen indispensable pour éliminer une pré-éclampsie. Le bilan de sévérité n'est fait qu'en cas de signes de gravité, et l'échographie est mensuelle pour le suivi."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les médicaments suivants, lequel est contre-indiqué dans le traitement de l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La méthyldopa.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La nicardipine.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'urapidil.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les inhibiteurs de l'enzyme de conversion (IEC).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le labétalol.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les IEC et les ARA2 sont contre-indiqués en raison de leur fœtotoxicité. La méthyldopa, la nicardipine, l'urapidil et le labétalol sont des traitements de première ou deuxième intention autorisés."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal événement physiopathologique précoce de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du débit utéro-placentaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une colonisation excessive des artères spiralées utérines par les cellules trophoblastiques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une anomalie de colonisation des artères spiralées utérines par les cellules trophoblastiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une vasodilatation des artères spiralées utérines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une diminution des résistances vasculaires périphériques maternelles.",
+          "correct": false
+        }
+      ],
+      "explanation": "La physiopathologie de la pré-éclampsie est un trouble précoce de la placentation, caractérisé par une anomalie de colonisation des artères spiralées utérines par les cellules trophoblastiques."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque maternels de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'âge maternel jeune.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La primiparité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'obésité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une période d'exposition au sperme paternel longue.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'HTA chronique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque maternels incluent la primiparité, l'obésité, et l'HTA chronique. L'âge maternel avancé (non jeune) et une période d'exposition au sperme paternel courte (non longue) sont également des facteurs de risque."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les recommandations concernant la contraception en post-partum après une HTA gravidique ou pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les œstroprogestatifs sont à privilégier.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les microprogestatifs sont contre-indiqués.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les progestatifs sont à préférer.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La bromocriptine est recommandée pour inhiber la lactation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il n'y a pas de recommandations spécifiques concernant le type de contraception.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est recommandé d'éviter les œstroprogestatifs et de préférer les microprogestatifs et progestatifs. La bromocriptine est contre-indiquée pour inhiber la lactation."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de gravité qui doivent faire évoquer une pré-éclampsie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des céphalées intenses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une protéinurie à la bandelette urinaire (BU) à 1 croix (+).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des troubles visuels (phosphènes).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une douleur épigastrique en barre horizontale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des réflexes ostéo-tendineux (ROT) abolis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cliniques de gravité incluent les céphalées, les phosphènes, les acouphènes, la barre épigastrique, les nausées, les vomissements, l'aggravation brutale des œdèmes et les ROT vifs, polycinétiques. Une protéinurie à 1 croix n'est pas un signe de gravité, et les ROT sont vifs, non abolis."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du retentissement fœtal détectable précocement en écho-Doppler en cas de pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la résistance vasculaire de l'artère utérine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de la résistance vasculaire de l'artère ombilicale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la résistance vasculaire de l'artère cérébrale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une inversion des rapports cérébraux/placentaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une vasodilatation de l'artère utérine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le retentissement fœtal est détectable précocement en écho-Doppler par une augmentation de la résistance vasculaire de l'artère utérine et ombilicale, et une diminution de la résistance vasculaire de l'artère cérébrale (vasodilatation), jusqu'à inversion des rapports cérébraux/placentaires."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention de la récidive de pré-éclampsie ou de RCIU sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prise en charge des facteurs de risque comme l'obésité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une surveillance rapprochée par Doppler des artères utérines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'arrêt systématique de toute toxicomanie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'aspirine 100 mg/j débutée à la fin du 1er trimestre et poursuivie jusqu'à 35 SA en cas de pré-éclampsie précoce et/ou sévère.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'aspirine 500 mg/j débutée au 2ème trimestre.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention inclut la prise en charge des FdR (arrêt du tabac et d'une toxicomanie, obésité, dyslipidémie), une surveillance rapprochée par Doppler des artères utérines, et l'aspirine 100 mg/j débutée à la fin du 1er trimestre et poursuivie jusqu'à 35 SA en cas de RCIU sévère ou de pré-éclampsie précoce et/ou sévère."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les objectifs tensionnels lors du traitement antihypertenseur de l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PAS < 120 mmHg et PAD < 80 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "PAS = 140 à 160 mmHg et PAD = 90 à 110 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PAS = 130 à 140 mmHg et PAD = 80 à 90 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "PAS > 160 mmHg et PAD > 110 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "PAS < 100 mmHg et PAD < 60 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les objectifs tensionnels sont une PAS de 140 à 160 mmHg et une PAD de 90 à 110 mmHg. Un traitement excessif peut aggraver l'hypoxie fœtale."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées au traitement antihypertenseur de l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un régime sans sel strict.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un repos strict au lit.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le décubitus latéral gauche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un régime normosodé.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'administration de diurétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures associées sont le repos (non strict), le décubitus latéral gauche et un régime normosodé. Le régime sans sel et les diurétiques sont contre-indiqués en raison du risque d'hypovolémie."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les médicaments antihypertenseurs de première intention recommandés dans l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La nicardipine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La clonidine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le labétalol.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La méthyldopa.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'urapidil.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les antihypertenseurs de première intention sont les antihypertenseurs centraux comme la clonidine et la méthyldopa. La nicardipine, l'urapidil et le labétalol sont de deuxième intention."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques du syndrome HELLP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une thrombopénie > 100 G/L.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation des transaminases (ASAT).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution de la bilirubine totale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La présence de schizocytes au frottis sanguin.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de l'haptoglobine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome HELLP se caractérise par une hémolyse (H) avec anémie régénérative, augmentation de la bilirubine totale et des LDH, diminution de l'haptoglobine et présence de schizocytes. Une cytolyse hépatique (EL) avec augmentation des transaminases et une thrombopénie (LP) avec plaquettes < 100 G/L."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications maternelles possibles de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'œdème aigu du poumon (OAP).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'accident vasculaire cérébral (AVC).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insuffisance rénale aiguë anurique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le décollement de rétine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La môle hydatiforme.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications maternelles de la pré-éclampsie incluent l'OAP, l'AVC, l'hémorragie cérébro-méningée, l'insuffisance rénale aiguë anurique (voire nécrose corticale) et le décollement de rétine. La môle hydatiforme est un facteur de risque, pas une complication."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de l'hématome rétro-placentaire (HRP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une douleur abdominale brutale « en coup de poignard ».",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des métrorragies de sang rouge vif et abondantes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un état de choc avec hypotension et tachycardie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hypotonie utérine permanente.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des anomalies sévères du rythme cardiaque fœtal.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HRP se manifeste par une douleur abdominale brutale « en coup de poignard », des métrorragies de sang noir de faible abondance, un état de choc (pâleur, hypotension, tachycardie), une hypertonie utérine permanente (« ventre de bois ») et des anomalies sévères du rythme cardiaque fœtal."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du sulfate de magnésium dans la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prévention de l'éclampsie en cas de signes neurologiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement de l'HTA sévère non contrôlée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La prévention de l'HRP.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La présence de céphalées rebelles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des réflexes ostéo-tendineux abolis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sulfate de magnésium est indiqué en prévention de l'éclampsie, notamment en présence de signes neurologiques comme des céphalées rebelles, des ROT polycinétiques ou des troubles visuels. Des ROT abolis sont un signe de surdosage, non une indication."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications fœtales de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le RCIU harmonieux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'oligoamnios.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La souffrance fœtale aiguë en cas d'HRP.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La mort fœtale in utéro.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La macrosomie fœtale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications fœtales incluent le RCIU disharmonieux (non harmonieux), l'oligoamnios, la souffrance fœtale aiguë (en cas d'HRP ou d'éclampsie) et la mort fœtale in utéro. La macrosomie n'est pas une complication de la pré-éclampsie."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la surveillance post-partum après une pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'arrêt immédiat de tous les traitements antihypertenseurs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une surveillance clinique et biologique pendant au moins 1 semaine après l'accouchement.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un risque d'aggravation des complications dans les 48h suivant l'accouchement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une consultation de contrôle à 6 mois pour vérifier la disparition de l'HTA.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un risque diminué d'hémorragie du post-partum.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance et le traitement sont poursuivis 1 semaine après l'accouchement, car une aggravation est possible dans les 48h. Il existe un risque augmenté d'hémorragie post-partum et de HELLP. Un bilan vasculo-rénal est réalisé à 3 mois, non 6 mois."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les prodromes de l'éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une amélioration de l'HTA et de la protéinurie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des céphalées intenses « en casque ».",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une somnolence.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des phosphènes et acouphènes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des réflexes ostéo-tendineux abolis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les prodromes de l'éclampsie incluent l'aggravation de l'HTA, de la protéinurie et des œdèmes, des céphalées intenses « en casque », une somnolence, des phosphènes/acouphènes, une douleur épigastrique et des ROT vifs, diffus, polycinétiques. Les ROT abolis sont un signe de surdosage en magnésium, pas un prodrome d'éclampsie."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan biologique de sévérité à réaliser en cas de signes de gravité dans l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ionogramme sanguin et urinaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Créatininémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "NFS, haptoglobine, LDH, schizocytes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Transaminases, TP/TCA, fibrinogène, D-dimères, PDF.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le dosage de la fibronectine maternelle plasmatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan biologique de sévérité, réalisé seulement en cas de signes de gravité, comprend l'ionogramme sanguin ± urinaire, la créatininémie, la NFS, l'haptoglobine, les LDH, la recherche de schizocytes, les transaminases, le TP/TCA, le fibrinogène, les D-dimères et les PDF. Le dosage de la fibronectine est inutile pour le diagnostic de sévérité."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications du traitement antihypertenseur dans l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une PAS > 160 mmHg et/ou une PAD > 110 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une PAS > 140 mmHg et/ou une PAD > 90 mmHg chez toutes les patientes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une HTA labile ou transitoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une HTA avec des facteurs de risques cardio-vasculaires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une HTA avec des antécédents cardio-vasculaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement antihypertenseur a un intérêt limité et est indiqué si PAS > 160 mmHg et/ou PAD > 110 mmHg, ou à discuter si facteurs de risques ou antécédents cardio-vasculaires. Une HTA > 140/90 sans ces critères ne justifie pas systématiquement un traitement médicamenteux."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques maternels de l'éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un état de mal convulsif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des complications cérébrales (hémorragie, œdème).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un décollement de rétine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une souffrance fœtale anoxique aiguë.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une nécrose corticale rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les risques maternels de l'éclampsie sont l'état de mal convulsif, les complications cérébrales (hémorragie, œdème, infarctus et nécrose), l'asphyxie, l'œdème pulmonaire et le décollement de rétine. La souffrance fœtale anoxique aiguë est un risque fœtal. La nécrose corticale rénale est une complication de la pré-éclampsie sévère, mais pas spécifiquement de l'éclampsie elle-même."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications du sulfate de magnésium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La maladie neuromusculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les céphalées rebelles.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les troubles visuels.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les réflexes ostéo-tendineux polycinétiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications du sulfate de magnésium sont l'insuffisance rénale et la maladie neuromusculaire. Les céphalées rebelles, les troubles visuels et les ROT polycinétiques sont des indications, non des contre-indications."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le traitement de l'éclampsie en phase aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'administration de diurétiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La libération des voies aériennes supérieures (VAS) et l'assistance respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un traitement anticonvulsif IV (benzodiazépine).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'administration de sulfate de magnésium (4 g IV).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'extraction fœtale en urgence avant la fin des crises convulsives.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de l'éclampsie en phase aiguë comprend la libération des VAS et l'assistance respiratoire (oxygénothérapie ± intubation), un traitement anticonvulsif IV (benzodiazépine) et le sulfate de magnésium (4 g IV). L'extraction fœtale est réalisée en urgence dès la fin des crises convulsives, non avant."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'ischémie placentaire dans la physiopathologie de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une altération des endothéliums maternels par libération de substances cytotoxiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une diminution des résistances vasculaires périphériques maternelles.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une microangiopathie thrombotique avec atteinte rénale (protéinurie).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une microangiopathie thrombotique avec atteinte hépatique (HELLP syndrome).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du débit utéro-placentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ischémie placentaire entraîne la libération de substances cytotoxiques par le placenta, altérant les endothéliums maternels. Cela conduit à une HTA par augmentation des résistances vasculaires périphériques et une microangiopathie thrombotique avec atteintes rénales (protéinurie) et hépatiques (HELLP syndrome)."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de gravité rénale définissant une pré-éclampsie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une oligurie < 1000 mL/24h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une créatininémie > 135 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une protéinurie > 3 g/24h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une créatininémie > 176 µmol/L.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une protéinurie à la BU à 2 croix (++).",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères de gravité rénale pour une pré-éclampsie sévère sont une oligurie < 500 mL/24h, une créatininémie > 135 µmol/L et une protéinurie > 3 g/24h. Une créatininémie > 176 µmol/L est un critère d'extraction immédiate. Une protéinurie à 2 croix est un critère diagnostique, pas de sévérité."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères biologiques du syndrome HELLP définissant une pré-éclampsie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thrombopénie < 100 G/L.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "ASAT > 3N.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "LDH < 600 UI.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Bilirubine totale > 12 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de schizocytes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères HELLP pour une pré-éclampsie sévère sont une thrombopénie < 100 G/L, des ASAT > 3N, des LDH > 600 UI, une bilirubine totale > 12 µmol/L et la présence de schizocytes."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères justifiant une extraction fœtale immédiate en cas de pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une HTA instable sévère > 160/110 non contrôlable par un traitement médical associant 2 anti-HTA.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un hématome sous-capsulaire hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une thrombopénie < 100 G/L.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une insuffisance rénale sévère avec créatininémie > 176 µmol/L.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une diastole ombilicale artérielle inversée après 32 SA.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les critères justifiant une extraction immédiate incluent une HTA instable sévère non contrôlable par bithérapie, des complications comme l'HRP, l'hématome sous-capsulaire hépatique, l'éclampsie ou l'OAP, une perturbation biologique sévère (CIVD, cytolyse hépatique, insuffisance rénale sévère avec créatininémie > 176 µmol/L, thrombopénie < 50 G/L), une altération du rythme cardiaque fœtal, ou une altération Doppler sévère prolongée ou évolutive (diastole ombilicale artérielle inversée > 32 SA). Une thrombopénie < 100 G/L est un critère de sévérité, mais pas nécessairement d'extraction immédiate si isolée."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du suivi post-partum à 3 mois après une HTA gravidique ou pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recherche systématique de pathologies auto-immunes (SAPL).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bilan vasculo-rénal (PA, créatininémie, protéinurie/24h).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Recherche d'une HTA chronique révélée par la grossesse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche d'une néphropathie sous-jacente.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Recherche systématique de thrombophilie congénitale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un bilan vasculo-rénal à 3 mois (PA, créatininémie, protéinurie/24h) est réalisé à la recherche d'une pathologie sous-jacente comme une HTA chronique révélée par la grossesse ou une néphropathie. La pré-éclampsie ne justifie plus la recherche systématique de pathologies auto-immunes (SAPL) ou de thrombophilie congénitale."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques du syndrome HELLP ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mortalité maternelle et fœtale importante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anémie et hémorragie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coagulation Intravasculaire Disséminée (CIVD).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématome sous-capsulaire du foie avec risque de rupture spontanée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une amélioration spontanée rapide après l'accouchement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome HELLP est associé à une mortalité maternelle (2-10%) et fœtale (10-50%) importante. Il peut entraîner une anémie, une hémorragie, une CIVD et un hématome sous-capsulaire du foie avec risque de rupture spontanée."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères biologiques d'une CIVD compliquant une pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Effondrement de l'activité des facteurs de coagulation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fibrinogène > 1 g/L.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Plaquettes < 50 G/L.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antithrombine > 70%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Augmentation des complexes solubles et D-dimères.",
+          "correct": true
+        }
+      ],
+      "explanation": "La CIVD se caractérise biologiquement par l'effondrement de l'activité des facteurs de coagulation, un fibrinogène < 1 g/L, des plaquettes < 50 G/L, une antithrombine < 70% et une augmentation des complexes solubles et D-dimères."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le protocole de corticothérapie prénatale recommandé en cas de pré-éclampsie sévère avant 34 SA ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dexaméthasone 2 x 6 mg en IM à 12h d'intervalle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Célestène® 2 x 12 mg en IM à 24h d'intervalle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bétaméthasone 1 x 12 mg en IV.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Célestène® 1 x 12 mg en IM.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Dexaméthasone 4 x 6 mg en IM à 6h d'intervalle.",
+          "correct": false
+        }
+      ],
+      "explanation": "La corticothérapie prénatale systématique si < 34 SA est réalisée avec Célestène® 2 x 12 mg en IM à 24h d'intervalle."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le protocole d'administration du sulfate de magnésium en prévention de l'éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4g IV sur 20 minutes puis 1g/h sur 12 à 24h.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "2g IV en bolus puis 0,5g/h.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "4g IV sur 5 minutes puis 2g/h.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "1g IV sur 1 heure puis 1g/h.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Administration orale de magnésium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sulfate de magnésium est administré par voie IV en prévention de l'éclampsie selon le protocole : 4g IV sur 20 minutes puis 1g/h sur 12 à 24h."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la surveillance à mettre en place lors de l'administration de sulfate de magnésium ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence respiratoire (FR) toutes les 4 heures.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diurèse toutes les 24 heures.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Réflexes ostéo-tendineux (ROT) toutes les heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antagonisation par gluconate de calcium si FR < 12/min.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antagonisation par gluconate de calcium si ROT abolis.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance est horaire et porte sur la FR, la diurèse et les ROT. Le sulfate de magnésium est antagonisé par le gluconate de calcium si la FR < 12/min ou si les ROT sont abolis."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la naissance immédiate en fonction du terme en cas de pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avant 24 SA : discuter une interruption thérapeutique de grossesse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Entre 24 et 34 SA : extraction fœtale au moindre signe de gravité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Entre 35 et 36 SA : surveillance en cas de pré-éclampsie non sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Après 37 SA : envisager la naissance immédiate par déclenchement ou césarienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Entre 35 et 36 SA : extraction fœtale systématique en cas de pré-éclampsie non sévère.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de naissance sont : < 24 SA, discuter une IGT. < 34 SA, PEC conservatrice si pas de complications, extraction au moindre signe de gravité. 35-36 SA, surveillance si non sévère, extraction si sévère. > 37 SA, envisager la naissance immédiate. L'extraction systématique entre 35 et 36 SA en cas de pré-éclampsie non sévère est fausse, une surveillance est possible."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la souffrance fœtale chronique liée à la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un RCIU disharmonieux, le plus souvent au 3ème trimestre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une baisse du périmètre abdominal en premier.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un oligoamnios par augmentation de la diurèse fœtale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un parallélisme strict entre les chiffres tensionnels maternels et la sévérité du RCIU.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une souffrance fœtale aiguë surajoutée en cas d'HRP.",
+          "correct": false
+        }
+      ],
+      "explanation": "La souffrance fœtale chronique se manifeste par un RCIU disharmonieux (baisse du périmètre abdominal en 1er), le plus souvent au 3ème trimestre, et un oligoamnios par baisse de la diurèse fœtale. Il n'y a aucun parallélisme strict entre les chiffres tensionnels et la sévérité du RCIU. La souffrance fœtale aiguë est une complication distincte."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'HTA chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours méconnue avant la grossesse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent améliorée en début de grossesse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle peut permettre l'arrêt des antihypertenseurs en début de grossesse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle réapparaît typiquement en fin de grossesse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle guérit systématiquement en post-partum.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HTA chronique est préexistante à la grossesse (possiblement méconnue), souvent améliorée en début de grossesse (permettant l'arrêt des antihypertenseurs), avec réapparition en fin de grossesse. Elle ne guérit pas systématiquement en post-partum et peut persister > 6 semaines du post-partum."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque immunologiques de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La primiparité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une période d'exposition au sperme paternel courte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'insémination avec donneur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La grossesse multiple.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'obésité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque immunologiques sont la primiparité, une période d'exposition au sperme paternel courte et l'insémination avec donneur. La grossesse multiple et l'obésité sont des facteurs de risque maternels généraux, non spécifiquement immunologiques."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de la surveillance de l'HTA gravidique non compliquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consultation tous les 10 jours.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Bilan biologique hebdomadaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Échographie mensuelle avec Doppler utérin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déclenchement artificiel du travail systématique à 39 SA.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Repos strict à domicile.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance renforcée de l'HTA gravidique non compliquée comprend une consultation tous les 10 jours, un bilan biologique régulier (non nécessairement hebdomadaire), une échographie mensuelle avec Doppler utérin. Le repos est non strict à domicile et le déclenchement est discuté au terme (41 SA), non systématique à 39 SA."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les risques associés à l'utilisation des bêta-bloquants dans le traitement de l'HTA gravidique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque de RCIU.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Risque d'hypoglycémie néonatale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque de bradycardie néonatale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque d'hypotension néonatale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Risque d'OAP maternel.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bêta-bloquants sont à éviter en raison du risque de RCIU, d'hypoglycémie, de bradycardie et d'hypotension néonatale. L'OAP maternel n'est pas un risque direct des bêta-bloquants."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hématome rétro-placentaire (HRP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il complique 3-5% des pré-éclampsies sévères.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est toujours prévisible.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il entraîne une interruption des échanges materno-fœtaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échographie est indispensable pour le diagnostic devant un tableau typique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est souvent associé à des troubles de la coagulation (CIVD).",
+          "correct": true
+        }
+      ],
+      "explanation": "L'HRP est grave et imprévisible, compliquant 3-5% des pré-éclampsies sévères et entraînant une interruption des échanges materno-fœtaux. L'échographie est inutile devant un tableau typique. Des troubles de la coagulation (CIVD) sont souvent associés."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement de l'HRP en cas de fœtus décédé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Extraction fœtale en urgence par césarienne.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Voie basse autorisée si le bilan de coagulation est normal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance de l'hémostase toutes les 6 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administration systématique de facteurs de coagulation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Induction du travail sans surveillance particulière.",
+          "correct": false
+        }
+      ],
+      "explanation": "Si le fœtus est décédé, la voie basse est autorisée si le bilan de coagulation est normal, avec une surveillance de l'hémostase toutes les 6 heures. L'extraction en urgence par césarienne est pour les cas où les bruits du cœur fœtaux sont présents."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures initiales de prise en charge d'une pré-éclampsie sévère non compliquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfert materno-fœtal en maternité de niveau adapté.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Mise au repos strict au lit.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Expansion volémique systématique pour prévenir l'OAP.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pose d'une voie veineuse périphérique (VVP) et d'une sonde urinaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Administration de sulfate de magnésium dans les heures précédant la naissance si < 32 SA.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prise en charge initiale inclut le transfert materno-fœtal, le repos au lit (non strict), la pose d'une VVP et d'une sonde urinaire. L'expansion volémique systématique n'est pas recommandée en raison du risque d'OAP. Le sulfate de magnésium est administré dans les heures précédant la naissance si < 32 SA."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est l'objectif tensionnel du traitement antihypertenseur en cas de pré-éclampsie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TA < 120/80 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "TA < 140/90 mmHg (toléré jusqu'à 150/100 mmHg).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "PAS > 160 mmHg et/ou PAD > 110 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "PAS = 140 à 160 mmHg et PAD = 90 à 110 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "TA < 100/60 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'objectif tensionnel en cas de pré-éclampsie sévère est une TA < 140/90 mmHg, avec une tolérance jusqu'à 150/100 mmHg. Les autres options sont soit trop basses, soit trop hautes, soit les objectifs de l'HTA gravidique non sévère."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la surveillance clinique et biologique en cas de pré-éclampsie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Courbe de tension et signes fonctionnels de gravité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Poids et diurèse quotidiens.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "NFS, TP, TCA, fibrinogène, créatininémie, uricémie, ASAT/ALAT.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bilan d'hémolyse et protéinurie/24h.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Échographie fœtale une fois par mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance clinique comprend la courbe de tension, les signes fonctionnels de gravité, le poids et la diurèse quotidiens. La surveillance biologique inclut NFS, TP, TCA, fibrinogène, créatininémie, uricémie, ASAT/ALAT, bilan d'hémolyse et protéinurie/24h. La surveillance fœtale par échographie est 1 à 2 fois par semaine, non mensuelle."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs fœtaux de risque de pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anomalie congénitale ou chromosomique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Anasarque fœtal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "RCIU disharmonieux.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Oligoamnios.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Prématurité induite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs fœtaux de risque de pré-éclampsie sont l'anomalie congénitale ou chromosomique et l'anasarque fœtal. Le RCIU disharmonieux, l'oligoamnios et la prématurité induite sont des conséquences ou complications de la pré-éclampsie, non des facteurs de risque initiaux."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la contre-indication spécifique à la nicardipine dans le traitement de la pré-éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'insuffisance rénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La grossesse gémellaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'HTA sévère.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les troubles visuels.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence d'un RCIU.",
+          "correct": false
+        }
+      ],
+      "explanation": "La nicardipine est contre-indiquée en cas de grossesse gémellaire. Les autres options ne sont pas des contre-indications spécifiques mentionnées pour la nicardipine."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le risque de récidive de pré-éclampsie et dans quels cas est-il plus élevé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le risque de récidive est toujours supérieur à 50%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le risque de récidive est inférieur à 10%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le risque est surtout élevé en cas de néphropathie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque est surtout élevé en cas de thrombophilie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le risque est surtout élevé en cas de pathologie prothrombotique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le risque de récidive est inférieur à 10%, mais il est surtout plus élevé en cas de néphropathie, de thrombophilie ou de pathologie prothrombotique."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications cérébrales possibles de l'éclampsie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémorragie cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Œdème cérébral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infarctus cérébral.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Nécrose cérébrale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Thrombophlébite cérébrale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les risques maternels de l'éclampsie incluent des complications cérébrales telles que l'hémorragie, l'œdème, l'infarctus et la nécrose. La thrombophlébite cérébrale est une cause différentielle à rechercher par IRM après la césarienne, mais pas une complication directe de l'éclampsie elle-même."
+    }
+  ]
+}

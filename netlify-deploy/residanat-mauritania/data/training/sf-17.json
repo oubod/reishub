@@ -1,0 +1,1707 @@
+{
+  "lectureId": "sf-17",
+  "title": "La cellule cancéreuse",
+  "category": "Sciences Fondamentales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques fondamentales du cancer selon la définition générale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une maladie unique avec une étiologie simple.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est caractérisé par une prolifération cellulaire anarchique et incontrôlée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il résulte de l'accumulation progressive de mutations dans l'ADN.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il affecte uniquement les gènes contrôlant la différenciation cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours une maladie héréditaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer est un ensemble de plus de 100 maladies différentes, ayant pour point commun une prolifération cellulaire anarchique et incontrôlée. Il résulte de l'accumulation progressive de mutations et d'altérations épigénétiques dans l'ADN d'une cellule somatique."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les rôles principaux des gènes suppresseurs de tumeurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils stimulent la prolifération cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils favorisent la réparation de l'ADN.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils induisent l'apoptose (mort cellulaire programmée).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils agissent comme des 'accélérateurs' de la division cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont toujours mutés de manière dominante.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les gènes suppresseurs de tumeurs codent pour des protéines freinant la prolifération cellulaire, favorisant la réparation de l'ADN ou induisant l'apoptose. Ils agissent comme des 'freins'."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les capacités acquises par la cellule cancéreuse qui lui permettent de se soustraire aux mécanismes normaux de régulation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle maintient une différenciation cellulaire normale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle envahit les tissus avoisinants.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle forme des colonies à distance (métastases).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle répond de manière excessive aux signaux anti-prolifératifs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours dépendante des signaux externes pour sa prolifération.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cellule cancéreuse acquiert des capacités qui lui permettent de se soustraire aux mécanismes normaux de régulation, d'envahir les tissus avoisinants et de former des colonies à distance (métastases)."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Qu'est-ce qui caractérise un oncogène par rapport à un proto-oncogène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un oncogène est un proto-oncogène muté ou surexprimé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La mutation d'un oncogène est récessive au niveau cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un oncogène produit une protéine hyperactive ou en excès.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un oncogène freine la prolifération cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un proto-oncogène est un gène normal qui induit l'apoptose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un proto-oncogène muté ou surexprimé devient un oncogène. L'oncogène produit une protéine hyperactive ou en excès, conduisant à une stimulation proliférative constante. La mutation est dominante, pas récessive."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des états précancéreux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont toujours des cancers invasifs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont histologiquement identifiables.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur détection et traitement peuvent empêcher la progression vers un cancer invasif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont toujours irréversibles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont uniquement représentés par la métaplasie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer ne se développe généralement pas sur un tissu sain, mais est souvent précédé par des lésions précurseurs, ou précancéreuses, qui sont histologiquement identifiables. Leur détection et leur traitement permettent d'empêcher la progression vers un cancer invasif."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations exactes concernant le gène p53 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est surnommé le 'gardien du génome'.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est un proto-oncogène majeur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est le gène suppresseur de tumeur le plus fréquemment muté dans les cancers humains.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son inactivation favorise la réparation de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une seule copie mutée de p53 suffit pour promouvoir la transformation cancéreuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le gène p53 est un gène suppresseur de tumeur, surnommé le 'gardien du génome', et est le gène suppresseur de tumeur le plus fréquemment muté dans les cancers humains. Pour qu'un gène suppresseur de tumeur comme p53 soit inactivé, les deux copies du gène doivent l'être (hypothèse du 'double-hit')."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses liées à leur potentiel réplicatif illimité et à l'évasion de l'apoptose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles réactivent la télomérase.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles raccourcissent les télomères à chaque division.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles résistent à la mort cellulaire programmée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont toujours sensibles aux signaux pro-apoptotiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'inactivation de p53 est un mécanisme d'évasion de l'apoptose.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cellules cancéreuses acquièrent un potentiel réplicatif illimité ('immortalité') en réactivant la télomérase, une enzyme qui empêche le raccourcissement des télomères. Elles résistent également à la mort cellulaire programmée (évasion de l'apoptose), par exemple via l'inactivation de p53."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les étapes de la cascade métastatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intravasation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Différenciation cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Invasion locale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Extravasation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Réparation de l'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cascade métastatique est un processus complexe en plusieurs étapes incluant l'invasion locale, l'intravasation, la survie dans la circulation, l'extravasation et la colonisation."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des proto-oncogènes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils codent pour des protéines stimulant la prolifération cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils agissent comme des 'freins' à la division cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils incluent des facteurs de croissance et des récepteurs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur mutation est toujours récessive.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont des gènes normaux.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les proto-oncogènes sont des gènes normaux qui codent pour des protéines stimulant la prolifération et la survie cellulaire (facteurs de croissance, récepteurs, protéines de signalisation). Ils agissent comme des 'accélérateurs'. Leur mutation en oncogènes est dominante."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des gènes suppresseurs de tumeurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils incluent p53 et Rb.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Leur inactivation nécessite la mutation des deux copies du gène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont des gènes normaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur mutation est dominante au niveau cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils favorisent la prolifération anarchique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les gènes suppresseurs de tumeurs sont des gènes normaux qui incluent p53 et Rb. Pour que le cancer se développe, les deux copies (allèles) du gène doivent être inactivées (hypothèse du 'double-hit'), ce qui signifie que la mutation est récessive au niveau cellulaire (perte de fonction)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses en termes de signaux de prolifération et anti-prolifératifs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont autosuffisantes en signaux de prolifération.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles nécessitent des signaux externes constants pour se diviser.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles sont insensibles aux signaux anti-prolifératifs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'inactivation de Rb contribue à leur insensibilité aux signaux anti-prolifératifs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles répondent normalement aux signaux d'arrêt de division.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cellules cancéreuses acquièrent une autosuffisance en signaux de prolifération, n'ayant plus besoin de signaux externes pour se diviser. Elles sont également insensibles aux signaux anti-prolifératifs, ignorant les signaux qui devraient normalement arrêter leur division, comme par exemple via l'inactivation de Rb."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques qui définissent la malignité d'une tumeur ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sa capacité à induire l'angiogenèse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sa capacité à envahir les tissus adjacents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa capacité à former des tumeurs secondaires à distance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son potentiel réplicatif illimité.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Son autosuffisance en signaux de prolifération.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'invasion tissulaire et les métastases sont la caractéristique qui définit la malignité. Les cellules acquièrent la capacité de franchir la membrane basale, d'envahir les tissus adjacents et de migrer pour former des tumeurs secondaires."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques émergentes ou facilitatrices des 'Hallmarks of Cancer' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dérégulation du métabolisme énergétique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Échappement à la destruction immunitaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Stabilité génomique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Inflammation pro-tumorale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sensibilité accrue à l'apoptose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le modèle des 'Hallmarks of Cancer' a été complété par des caractéristiques émergentes et facilitatrices, incluant la dérégulation du métabolisme énergétique (effet Warburg), l'échappement à la destruction immunitaire, l'instabilité génomique et mutations, et l'inflammation pro-tumorale."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la dysplasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un remplacement d'un type cellulaire différencié par un autre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est caractérisée par des anomalies architecturales et cytologiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est classée en bas grade ou haut grade selon sa sévérité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "C'est une lésion réversible.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "C'est une véritable lésion précancéreuse.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dysplasie est un trouble de la prolifération et de la différenciation cellulaire, caractérisé par des anomalies architecturales et cytologiques. Elle est classée en bas grade ou haut grade selon sa sévérité et est une véritable lésion précancéreuse. La métaplasie est le remplacement d'un type cellulaire différencié par un autre, et elle est réversible."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant le carcinome in situ (CIS) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il représente le stade le plus avancé de la dysplasie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les cellules ont acquis toutes les caractéristiques cytologiques de la malignité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La prolifération est confinée à l'épithélium d'origine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il a un potentiel métastatique élevé.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Son traitement est rarement curatif.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le carcinome in situ (CIS) est le stade le plus avancé de la dysplasie. Les cellules ont acquis toutes les caractéristiques cytologiques de la malignité, mais la prolifération reste confinée à l'épithélium d'origine, sans avoir franchi la membrane basale. Le CIS n'a donc pas de potentiel métastatique et son traitement (ex: exérèse chirurgicale) est curatif."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes par lesquels les cellules tumorales envahissent localement les tissus ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles augmentent leur adhésion entre elles.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles perdent leur adhésion entre elles (perte de E-cadhérine).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles dégradent la matrice extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles dégradent la membrane basale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles induisent une différenciation cellulaire accrue.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors de l'invasion locale, les cellules tumorales perdent leur adhésion entre elles (perte de E-cadhérine), dégradent la matrice extracellulaire et la membrane basale (via des enzymes comme les métalloprotéases)."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conséquences de l'instabilité génomique et des mutations dans le contexte du cancer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle favorise l'accumulation de nouvelles mutations.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est une caractéristique émergente des 'Hallmarks of Cancer'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle conduit à une meilleure réparation de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est un mécanisme d'échappement immunitaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours la cause initiale de la transformation cancéreuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'instabilité génomique et les mutations sont une caractéristique émergente des 'Hallmarks of Cancer'. Une incapacité à réparer correctement l'ADN favorise l'accumulation de nouvelles mutations."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les processus cellulaires fondamentaux affectés par les altérations génétiques dans le cancer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La prolifération.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La différenciation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La mort cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La respiration cellulaire anaérobie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La contraction musculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les altérations génétiques dans le cancer affectent des gènes qui contrôlent des processus cellulaires fondamentaux comme la prolifération, la différenciation et la mort."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant la métaplasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une lésion précancéreuse obligatoire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "C'est le remplacement d'un type cellulaire différencié par un autre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours irréversible.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle peut être un terrain propice au développement d'un cancer.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'épithélium bronchique cilié remplacé par un épithélium malpighien chez le fumeur en est un exemple.",
+          "correct": true
+        }
+      ],
+      "explanation": "La métaplasie est le remplacement d'un type cellulaire différencié par un autre, en réponse à une agression chronique. C'est une lésion réversible, mais qui peut être un terrain propice au développement d'un cancer. L'exemple donné est l'épithélium bronchique cilié remplacé par un épithélium malpighien chez le fumeur."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses en ce qui concerne l'angiogenèse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles inhibent la formation de nouveaux vaisseaux sanguins.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles induisent la formation de nouveaux vaisseaux sanguins.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'angiogenèse est nécessaire pour leur apport en oxygène et en nutriments.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'angiogenèse est une caractéristique des micrométastases.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'angiogenèse soutenue est l'une des six caractéristiques initiales des 'Hallmarks of Cancer'.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les cellules cancéreuses induisent l'angiogenèse soutenue, c'est-à-dire la formation de nouveaux vaisseaux sanguins, pour assurer leur apport en oxygène et en nutriments. C'est l'une des six caractéristiques initiales des 'Hallmarks of Cancer'. L'angiogenèse est nécessaire pour la croissance des micrométastases en macrométastases."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui contribuent à la survie des cellules cancéreuses dans la circulation sanguine lors de la cascade métastatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leur capacité à adhérer fortement aux cellules endothéliales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Leur résistance aux contraintes hémodynamiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Leur capacité à échapper à l'attaque du système immunitaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur différenciation en cellules sanguines normales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La dégradation de la membrane basale des vaisseaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lors de la survie dans la circulation, les cellules doivent résister aux contraintes hémodynamiques et à l'attaque du système immunitaire."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les affirmations correctes concernant la localisation des métastases ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est toujours aléatoire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle dépend de l'organe d'origine de la tumeur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle dépend des voies de drainage (sanguines ou lymphatiques).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le cancer du côlon métastase préférentiellement vers le foie via la veine porte.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est uniquement déterminée par la taille de la tumeur primaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La localisation des métastases n'est pas aléatoire et dépend de l'organe d'origine de la tumeur et des voies de drainage. Par exemple, le cancer du côlon peut entraîner des métastases hépatiques via la veine porte."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques cytologiques et architecturales des anomalies observées dans la dysplasie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anomalies de la taille et de la forme des noyaux.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Diminution des mitoses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmentation des mitoses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Différenciation cellulaire normale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Perte de l'organisation tissulaire normale.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dysplasie est caractérisée par des anomalies architecturales et cytologiques, incluant des anomalies de la taille et de la forme des noyaux, une augmentation des mitoses, et un trouble de la différenciation cellulaire, impliquant une perte de l'organisation tissulaire normale."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les stratégies clés de prévention du cancer invasif mentionnées dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le dépistage des lésions précancéreuses.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement des lésions précancéreuses.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'attente de la progression vers un cancer invasif pour intervenir.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La surveillance des carcinomes in situ non traités.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'identification des mutations dans les oncogènes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le dépistage et le traitement des lésions précancéreuses, comme le carcinome in situ, sont des stratégies clés de prévention du cancer invasif."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les exemples de gènes suppresseurs de tumeurs mentionnés dans le texte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "RAS.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "p53.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "MYC.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Rb.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "BRCA1/2.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les exemples de gènes suppresseurs de tumeurs mentionnés sont p53, Rb et BRCA1/2. RAS et MYC sont des proto-oncogènes."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente une lésion histologique caractérisée par des anomalies de la taille et de la forme des noyaux, ainsi qu'une augmentation des mitoses, mais sans franchissement de la membrane basale. Quelle(s) est/sont la/les conclusion(s) la/les plus appropriée(s) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une métaplasie, lésion réversible sans potentiel malin.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La lésion est une dysplasie de haut grade ou un carcinome in situ.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement chirurgical de cette lésion est potentiellement curatif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La lésion a déjà un potentiel métastatique significatif.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il s'agit d'un carcinome invasif débutant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les anomalies cytologiques (taille/forme des noyaux, mitoses augmentées) sont caractéristiques de la dysplasie. L'absence de franchissement de la membrane basale indique qu'il s'agit d'une dysplasie de haut grade ou d'un carcinome in situ. À ce stade, le CIS n'a pas de potentiel métastatique et le traitement (ex: exérèse chirurgicale) est curatif."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un oncogène est activé par une mutation. Quelles sont les conséquences de cette activation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mutation est récessive au niveau cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une seule copie du gène muté suffit pour promouvoir la transformation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il y a un gain de fonction de la protéine correspondante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La protéine produite est hyperactive ou en excès.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle conduit à une stimulation proliférative constante.",
+          "correct": true
+        }
+      ],
+      "explanation": "Lorsqu'un proto-oncogène devient un oncogène par mutation, la mutation est dominante, ce qui signifie qu'une seule copie du gène muté suffit pour promouvoir la transformation. Il s'agit d'un gain de fonction, où l'oncogène produit une protéine hyperactive ou en excès, conduisant à une stimulation proliférative constante."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications de l'hypothèse du 'double-hit' de Knudson pour les gènes suppresseurs de tumeurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une seule copie mutée du gène suppresseur de tumeur est suffisante pour initier le cancer.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les deux copies (allèles) du gène suppresseur de tumeur doivent être inactivées pour que le cancer se développe.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La mutation est dominante au niveau cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La mutation entraîne une perte de fonction du gène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle s'applique principalement aux proto-oncogènes.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hypothèse du 'double-hit' de Knudson stipule que pour que le cancer se développe, les deux copies (allèles) du gène suppresseur de tumeur doivent être inactivées. La mutation est donc récessive au niveau cellulaire et entraîne une perte de fonction. Cette hypothèse s'applique aux gènes suppresseurs de tumeurs, pas aux proto-oncogènes."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une cellule cancéreuse est observée avec une réactivation de la télomérase et une inactivation de p53. Quelles sont les conséquences directes de ces altérations sur le comportement cellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La cellule devient plus sensible aux signaux anti-prolifératifs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La cellule acquiert un potentiel réplicatif illimité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La cellule résiste à la mort cellulaire programmée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cellule perd sa capacité à induire l'angiogenèse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La cellule est incapable de dégrader la matrice extracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réactivation de la télomérase permet aux cellules cancéreuses d'acquérir un potentiel réplicatif illimité ('immortalité'). L'inactivation de p53 est un mécanisme d'évasion de l'apoptose, permettant aux cellules de résister à la mort cellulaire programmée."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes moléculaires et cellulaires impliqués dans l'invasion locale des cellules tumorales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de l'expression de E-cadhérine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Perte de l'adhésion intercellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dégradation de la matrice extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Synthèse accrue de la membrane basale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Production d'enzymes comme les métalloprotéases.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'invasion locale implique la perte d'adhésion entre les cellules tumorales (perte de E-cadhérine), la dégradation de la matrice extracellulaire et de la membrane basale, notamment via des enzymes comme les métalloprotéases."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "La capacité à former des métastases est la principale cause de mortalité par cancer. Quelles sont les étapes cruciales pour la formation d'une macrométastase cliniquement détectable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'intravasation des cellules tumorales dans les vaisseaux lymphatiques uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La survie des cellules tumorales dans la circulation sanguine ou lymphatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La colonisation et la prolifération dans un nouveau microenvironnement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'induction de l'angiogenèse par la micrométastase.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'extravasation des cellules tumorales dans un lit capillaire distant.",
+          "correct": true
+        }
+      ],
+      "explanation": "La cascade métastatique inclut la survie dans la circulation, l'extravasation, la colonisation (prolifération pour former une micrométastase), et l'induction de l'angiogenèse par cette micrométastase pour croître et devenir une macrométastase cliniquement détectable. L'intravasation peut se faire via la circulation sanguine ou lymphatique."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient fumeur chronique présente une métaplasie de l'épithélium bronchique. Quelle(s) est/sont la/les affirmation(s) correcte(s) concernant cette lésion ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est irréversible et évoluera inéluctablement vers un cancer invasif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est un remplacement d'un type cellulaire différencié par un autre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est considérée comme une lésion précancéreuse au même titre qu'un carcinome in situ.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle peut être un terrain propice au développement d'un cancer.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est caractérisée par des anomalies cytologiques sévères et une perte d'architecture.",
+          "correct": false
+        }
+      ],
+      "explanation": "La métaplasie est le remplacement d'un type cellulaire différencié par un autre (ex: épithélium bronchique cilié par épithélium malpighien chez le fumeur). C'est une lésion réversible, mais qui peut être un terrain propice au développement d'un cancer. Elle n'est pas au même titre qu'un CIS, qui est un stade plus avancé de la dysplasie avec des anomalies cytologiques de malignité."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des 'Hallmarks of Cancer' qui sont directement liées à la capacité de la cellule cancéreuse à proliférer de manière autonome et illimitée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autosuffisance en signaux de prolifération.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insensibilité aux signaux anti-prolifératifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Évasion de l'apoptose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Potentiel réplicatif illimité ('immortalité').",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Angiogenèse soutenue.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'autosuffisance en signaux de prolifération, l'insensibilité aux signaux anti-prolifératifs et le potentiel réplicatif illimité ('immortalité') sont les caractéristiques qui permettent à la cellule cancéreuse de proliférer de manière autonome et indéfinie. L'évasion de l'apoptose concerne la survie, et l'angiogenèse la nutrition et l'oxygénation."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient est diagnostiqué avec un carcinome in situ (CIS). Quelles sont les implications de ce diagnostic ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cancer est déjà invasif et a franchi la membrane basale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules ont acquis toutes les caractéristiques cytologiques de la malignité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le CIS a un potentiel métastatique élevé.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le traitement à ce stade, comme l'exérèse chirurgicale, est curatif.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "S'il n'est pas traité, le CIS évoluera inéluctablement vers un carcinome invasif.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le CIS est le stade le plus avancé de la dysplasie où les cellules ont acquis toutes les caractéristiques cytologiques de la malignité, mais la prolifération reste confinée à l'épithélium d'origine, sans avoir franchi la membrane basale. Il n'a donc pas de potentiel métastatique. Le traitement à ce stade est curatif, mais s'il n'est pas traité, il évoluera inéluctablement vers un carcinome invasif."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les différences clés entre les oncogènes et les gènes suppresseurs de tumeurs en termes de mécanisme d'action et de mutation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les oncogènes agissent comme des 'freins', tandis que les gènes suppresseurs de tumeurs agissent comme des 'accélérateurs'.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les oncogènes résultent d'un gain de fonction, les gènes suppresseurs de tumeurs d'une perte de fonction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La mutation d'un oncogène est dominante, celle d'un gène suppresseur de tumeur est récessive au niveau cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les oncogènes nécessitent l'inactivation des deux copies, les gènes suppresseurs de tumeurs une seule copie mutée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les oncogènes stimulent la prolifération, les gènes suppresseurs de tumeurs la freinent.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les oncogènes agissent comme des 'accélérateurs' et résultent d'un gain de fonction (mutation dominante, une seule copie suffit). Les gènes suppresseurs de tumeurs agissent comme des 'freins' et leur inactivation est une perte de fonction (mutation récessive, nécessite l'inactivation des deux copies). Les oncogènes stimulent la prolifération, les gènes suppresseurs de tumeurs la freinent."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses qui leur permettent d'échapper à la surveillance et à l'élimination par le système immunitaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles expriment des antigènes tumoraux fortement immunogènes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles développent des mécanismes pour échapper à la destruction immunitaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "C'est une caractéristique émergente des 'Hallmarks of Cancer'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles induisent une réponse immunitaire anti-tumorale robuste.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles sont toujours reconnues et éliminées par les lymphocytes T.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échappement à la destruction immunitaire est une caractéristique émergente des 'Hallmarks of Cancer'. Les cellules cancéreuses développent des mécanismes pour échapper à la surveillance et à l'élimination par le système immunitaire."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de la dérégulation du métabolisme énergétique dans les cellules cancéreuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle favorise une prolifération rapide.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est connue sous le nom d'effet Warburg.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle conduit à une dépendance exclusive à la phosphorylation oxydative.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est une caractéristique des cellules normales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une caractéristique émergente des 'Hallmarks of Cancer'.",
+          "correct": true
+        }
+      ],
+      "explanation": "La dérégulation du métabolisme énergétique est une caractéristique émergente des 'Hallmarks of Cancer'. Elle correspond à une adaptation du métabolisme (effet Warburg) pour favoriser la prolifération rapide des cellules cancéreuses."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient présente un cancer du côlon avec des métastases hépatiques. Quelles sont les explications possibles de cette localisation spécifique des métastases ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La localisation des métastases est aléatoire et ne dépend pas de l'organe d'origine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La localisation des métastases dépend de l'organe d'origine de la tumeur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La localisation des métastases dépend des voies de drainage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La veine porte est une voie de drainage privilégiée pour les cellules tumorales du côlon vers le foie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les cellules tumorales du côlon ont une affinité spécifique pour le tissu hépatique, indépendamment des voies de drainage.",
+          "correct": false
+        }
+      ],
+      "explanation": "La localisation des métastases n'est pas aléatoire et dépend de l'organe d'origine de la tumeur et des voies de drainage. Pour le cancer du côlon, les métastases hépatiques via la veine porte sont un exemple classique de cette spécificité."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle de l'inflammation pro-tumorale dans la progression du cancer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'inflammation chronique peut favoriser la progression tumorale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "C'est une caractéristique émergente des 'Hallmarks of Cancer'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours bénéfique pour l'élimination des cellules cancéreuses.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est un mécanisme d'inhibition de l'angiogenèse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est un facteur de stabilité génomique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inflammation pro-tumorale est une caractéristique émergente des 'Hallmarks of Cancer'. L'inflammation chronique peut favoriser la progression tumorale, et non l'inhiber ou stabiliser le génome."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'inactivation des gènes suppresseurs de tumeurs sur les points de contrôle cellulaires ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle supprime les points de contrôle qui empêchent la prolifération anarchique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle renforce les mécanismes de réparation de l'ADN.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle favorise l'induction de l'apoptose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle conduit à une prolifération cellulaire incontrôlée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle rend la cellule plus sensible aux signaux d'arrêt de division.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inactivation des gènes suppresseurs de tumeurs supprime les points de contrôle qui empêchent la prolifération anarchique, conduisant ainsi à une prolifération cellulaire incontrôlée. Elle ne renforce pas la réparation de l'ADN ni ne favorise l'apoptose, au contraire."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses qui leur permettent de survivre et de proliférer dans un nouvel environnement lors de la colonisation métastatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles doivent résister aux contraintes hémodynamiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles doivent induire l'angiogenèse pour croître en macrométastase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles doivent proliférer dans le nouveau microenvironnement.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles doivent maintenir une forte adhésion intercellulaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles doivent éviter l'extravasation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Après l'extravasation, les cellules doivent proliférer dans le nouveau microenvironnement pour former une micrométastase, qui doit ensuite induire l'angiogenèse pour croître et devenir une macrométastase cliniquement détectable. La résistance aux contraintes hémodynamiques concerne la survie dans la circulation, pas la colonisation."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le cancer en tant que maladie génétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il résulte de l'accumulation d'altérations dans des gènes clés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est toujours causé par une seule mutation génétique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il implique des altérations dans l'ADN d'une cellule somatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il affecte des gènes qui contrôlent la prolifération, la différenciation et la mort cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est principalement dû à des altérations épigénétiques, sans implication de mutations de l'ADN.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cancer est une maladie génétique résultant de l'accumulation progressive de mutations et d'altérations épigénétiques dans l'ADN d'une cellule somatique. Ces altérations affectent des gènes qui contrôlent des processus cellulaires fondamentaux comme la prolifération, la différenciation et la mort."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'inactivation du gène Rb dans les cellules cancéreuses ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle rend les cellules sensibles aux signaux anti-prolifératifs.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle contribue à l'insensibilité des cellules aux signaux anti-prolifératifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle favorise l'arrêt de la division cellulaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est un exemple de perte de fonction d'un gène suppresseur de tumeur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est un mécanisme d'activation d'un proto-oncogène.",
+          "correct": false
+        }
+      ],
+      "explanation": "Rb est un gène suppresseur de tumeur. Son inactivation est un exemple de perte de fonction et contribue à l'insensibilité des cellules cancéreuses aux signaux anti-prolifératifs, leur permettant d'ignorer les signaux qui devraient normalement arrêter leur division."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les mécanismes par lesquels les cellules cancéreuses peuvent acquérir une autosuffisance en signaux de prolifération ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles n'ont plus besoin de signaux externes (facteurs de croissance) pour se diviser.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles produisent leurs propres facteurs de croissance.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles surexpriment les récepteurs aux facteurs de croissance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles deviennent dépendantes des signaux de leurs cellules voisines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles inhibent les voies de signalisation de la prolifération.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'autosuffisance en signaux de prolifération signifie que les cellules cancéreuses n'ont plus besoin de signaux externes (facteurs de croissance) pour se diviser. Cela peut être dû à la production de leurs propres facteurs de croissance ou à la surexpression de leurs récepteurs, les rendant hyper-réactives."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses qui leur confèrent une 'immortalité' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles maintiennent la longueur de leurs télomères.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elles réactivent l'enzyme télomérase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles subissent un raccourcissement progressif des télomères.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles sont capables de se diviser indéfiniment.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont sensibles aux mécanismes de sénescence cellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le potentiel réplicatif illimité ('immortalité') des cellules cancéreuses est acquis par la réactivation de la télomérase, une enzyme qui empêche le raccourcissement des extrémités des chromosomes (télomères), leur permettant ainsi de se diviser indéfiniment et de maintenir la longueur de leurs télomères."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant les altérations génétiques et épigénétiques dans le cancer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le cancer résulte uniquement de mutations génétiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le cancer résulte de l'accumulation progressive de mutations et d'altérations épigénétiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ces altérations affectent des gènes qui contrôlent la prolifération cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ces altérations affectent des gènes qui contrôlent la différenciation cellulaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ces altérations affectent des gènes qui contrôlent la mort cellulaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le cancer résulte de l'accumulation progressive de mutations et d'altérations épigénétiques dans l'ADN d'une cellule somatique. Ces altérations affectent des gènes qui contrôlent des processus cellulaires fondamentaux comme la prolifération, la différenciation et la mort."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences de l'inactivation des gènes suppresseurs de tumeurs sur la régulation de l'apoptose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle favorise l'induction de l'apoptose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle permet aux cellules de résister à la mort cellulaire programmée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'inactivation de p53 est un exemple de ce mécanisme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle rend les cellules plus sensibles aux signaux pro-apoptotiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est une caractéristique des proto-oncogènes.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inactivation des gènes suppresseurs de tumeurs, comme p53, contribue à l'évasion de l'apoptose, permettant aux cellules de résister à la mort cellulaire programmée. Ce n'est pas une caractéristique des proto-oncogènes."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des cellules cancéreuses qui leur permettent de franchir la membrane basale et d'envahir les tissus adjacents ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles augmentent leur adhésion aux cellules normales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles perdent leur adhésion entre elles (perte de E-cadhérine).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles dégradent la matrice extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles dégradent la membrane basale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elles sont incapables de migrer.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les cellules cancéreuses acquièrent la capacité de franchir la membrane basale et d'envahir les tissus adjacents en perdant leur adhésion entre elles (perte de E-cadhérine) et en dégradant la matrice extracellulaire et la membrane basale via des enzymes."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les affirmations correctes concernant le rôle des 'Hallmarks of Cancer' dans le développement de thérapies ciblées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La compréhension de ces mécanismes est fondamentale pour le développement de thérapies ciblées.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les thérapies ciblées visent à renforcer ces capacités acquises par les cellules cancéreuses.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les 'Hallmarks' représentent des cibles potentielles pour l'intervention thérapeutique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les 'Hallmarks' sont des caractéristiques uniques à chaque type de cancer, rendant les thérapies ciblées impossibles.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les 'Hallmarks' sont des capacités biologiques acquises qui sont communes à la plupart des cancers.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les 'Hallmarks of Cancer' sont un ensemble de capacités biologiques acquises qui sont communes à la plupart des cancers. Comprendre ces mécanismes est fondamental pour le développement de thérapies ciblées, car ces 'Hallmarks' représentent des cibles potentielles pour l'intervention thérapeutique, visant à bloquer ou inverser ces capacités."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les implications cliniques de la détection et du traitement des états précancéreux ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils permettent d'empêcher la progression vers un cancer invasif.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ils sont uniquement pertinents pour les lésions de métaplasie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils sont des stratégies clés de prévention du cancer invasif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont toujours suivis d'une chimiothérapie adjuvante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont efficaces même après le franchissement de la membrane basale par les cellules malignes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La détection et le traitement des lésions précurseurs, ou précancéreuses, qui sont histologiquement identifiables, permettent d'empêcher la progression vers un cancer invasif. Ce sont des stratégies clés de prévention du cancer invasif. Le traitement est le plus efficace avant le franchissement de la membrane basale (comme pour le CIS)."
+    }
+  ]
+}

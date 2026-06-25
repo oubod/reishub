@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="noindex, nofollow">
+  <title>FMT Admin</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <style>
+    :root {
+      --bg: #f2f2f7; /* iOS System Gray 6 Background */
+      --card-bg: #ffffff; /* iOS Secondary System Grouped Background */
+      --card-border: rgba(0, 0, 0, 0.08);
+      --text: #000000;
+      --text-muted: #8e8e93; /* iOS System Gray */
+      --primary: #007aff; /* iOS Blue */
+      --tunisie: #ff3b30; /* iOS Red */
+      --mauritanie: #34c759; /* iOS Green */
+      --warning: #ff9500; /* iOS Orange */
+      --danger: #ff3b30;
+      --success: #34c759;
+      --border-color: #d1d1d6; /* iOS Separator */
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+
+    /* iOS Navigation Bar */
+    header {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 0.5px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 10px 16px;
+    }
+
+    .header-container {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 44px;
+    }
+
+    .nav-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: -0.2px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .user-pill {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      max-width: 140px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* iOS Style Buttons */
+    button {
+      border: none;
+      background: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--primary);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 12px;
+      border-radius: 8px;
+      transition: opacity 0.15s ease, background-color 0.15s ease;
+    }
+
+    button:active {
+      opacity: 0.5;
+    }
+
+    button.primary-btn {
+      background-color: var(--primary);
+      color: white;
+      font-weight: 600;
+      padding: 10px 16px;
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    button.primary-btn:active {
+      background-color: #0062cc;
+    }
+
+    button.nav-link {
+      padding: 0;
+      font-weight: 500;
+    }
+
+    button.nav-link.danger {
+      color: var(--danger);
+    }
+
+    button.action-btn {
+      font-size: 0.85rem;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background-color: #f2f2f7;
+      font-weight: 600;
+    }
+
+    button.action-btn.success {
+      color: var(--success);
+      background-color: rgba(52, 199, 89, 0.1);
+    }
+
+    button.action-btn.danger {
+      color: var(--danger);
+      background-color: rgba(255, 59, 48, 0.1);
+    }
+
+    button.action-btn.warning {
+      color: var(--warning);
+      background-color: rgba(255, 149, 0, 0.1);
+    }
+
+    main {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 16px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* iOS Large Title */
+    .large-title {
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+      padding-left: 4px;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+      padding-left: 4px;
+    }
+
+    /* iOS Settings/List style cards */
+    .ios-list {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      border: 0.5px solid var(--card-border);
+      overflow: hidden;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    .ios-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      border-bottom: 0.5px solid var(--border-color);
+      text-decoration: none;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .ios-item:active {
+      background-color: #e5e5ea;
+    }
+
+    .ios-item:last-child {
+      border-bottom: none;
+    }
+
+    .ios-item-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .ios-item-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.1rem;
+    }
+
+    .ios-item-title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .ios-item-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .ios-chevron {
+      border: solid var(--text-muted);
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    /* Dashboard Header */
+    .section-header {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      margin-top: 14px;
+      padding-left: 16px;
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 20px;
+      padding: 0 4px;
+    }
+
+    .stat-pill {
+      background-color: var(--card-bg);
+      border: 0.5px solid var(--card-border);
+      border-radius: 10px;
+      padding: 10px 4px;
+      text-align: center;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.01);
+    }
+
+    .stat-pill-label {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .stat-pill-val {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    /* Filters Bar */
+    .filter-pill-container {
+      display: flex;
+      background-color: rgba(120, 120, 128, 0.12);
+      border-radius: 9px;
+      padding: 2px;
+      margin-bottom: 16px;
+    }
+
+    .filter-pill {
+      flex: 1;
+      text-align: center;
+      padding: 6px 2px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border-radius: 7px;
+      cursor: pointer;
+      color: var(--text);
+    }
+
+    .filter-pill.active {
+      background-color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 1px rgba(0,0,0,0.06);
+      font-weight: 600;
+    }
+
+    .ios-search-bar {
+      display: flex;
+      align-items: center;
+      background-color: rgba(120, 120, 128, 0.08);
+      border-radius: 10px;
+      padding: 8px 12px;
+      margin-bottom: 16px;
+    }
+
+    .ios-search-input {
+      border: none;
+      background: none;
+      outline: none;
+      width: 100%;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .ios-search-input::placeholder {
+      color: #8e8e93;
+    }
+
+    /* Cards / Tables */
+    .mobile-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .ios-card {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      border: 0.5px solid var(--card-border);
+      padding: 14px 16px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .ios-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .ios-card-title {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .ios-card-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .ios-card-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      border-top: 0.5px solid var(--border-color);
+      padding-top: 10px;
+      margin-top: 6px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .badge.pending { background: #ffe0b2; color: #e65100; }
+    .badge.accepted { background: #e8f5e9; color: #1b5e20; }
+    .badge.rejected { background: #ffebee; color: #b71c1c; }
+    .badge.suspended { background: #efebe9; color: #4e342e; }
+
+    /* Modal Sheet (iOS pull-up modal style) */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1000;
+      display: flex;
+      align-items: flex-end;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-sheet {
+      background-color: #f9f9f9;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      width: 100%;
+      max-height: 90vh;
+      padding: 20px 16px 30px;
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.15);
+      transform: translateY(100%);
+      transition: transform 0.25s cubic-bezier(0.1, 0.76, 0.55, 0.94);
+    }
+
+    .modal-overlay.active .modal-sheet {
+      transform: translateY(0);
+    }
+
+    .modal-drag-indicator {
+      width: 36px;
+      height: 5px;
+      border-radius: 3px;
+      background-color: #d1d1d6;
+      margin: 0 auto 15px;
+    }
+
+    .modal-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+
+    .modal-input-group {
+      background-color: white;
+      border-radius: 10px;
+      border: 0.5px solid var(--border-color);
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .modal-input-group select {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 12px;
+      font-size: 1rem;
+      background: transparent;
+    }
+
+    /* Log Screen */
+    .login-box {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      border: 0.5px solid var(--card-border);
+      padding: 24px;
+      width: 100%;
+      margin-top: 40px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    .login-box input {
+      width: 100%;
+      border: 0.5px solid var(--border-color);
+      background-color: #f2f2f7;
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .login-box input:focus {
+      border-color: var(--primary);
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="header-container">
+      <div class="nav-title" id="navTitle">FMT Admin</div>
+      <div class="nav-actions" id="userInfo" style="display: none;">
+        <span class="user-pill" id="userEmail"></span>
+        <button class="nav-link danger" id="logoutBtn">Déconnexion</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Login Screen -->
+    <div id="loginScreen">
+      <h2 class="large-title">Connexion</h2>
+      <p class="subtitle">Accès sécurisé administration FMT.</p>
+      
+      <div class="login-box">
+        <form id="loginForm">
+          <input type="email" id="email" placeholder="Adresse e-mail" required autocomplete="email">
+          <input type="password" id="password" placeholder="Mot de passe" required autocomplete="current-password">
+          <button type="submit" class="primary-btn">Se connecter</button>
+        </form>
+        <p id="loginError" style="color: var(--danger); font-size: 0.85rem; text-align: center; margin-top: 14px; display: none; font-weight: 600;"></p>
+      </div>
+    </div>
+
+    <!-- Dashboard Selector -->
+    <div id="selectorScreen" style="display: none;">
+      <h2 class="large-title">Gérer les Espaces</h2>
+      <p class="subtitle">Sélectionnez la base candidats ou l'audit d'accès.</p>
+      
+      <div class="ios-list">
+        <!-- Tunisie Link -->
+        <div class="ios-item" onclick="openDashboard('tunisia')">
+          <div class="ios-item-left">
+            <div class="ios-item-icon" style="background-color: var(--tunisie);">🇹🇳</div>
+            <div class="ios-item-title">Espace Tunisie</div>
+          </div>
+          <div class="ios-item-right">
+            <div class="ios-chevron"></div>
+          </div>
+        </div>
+
+        <!-- Mauritanie Link -->
+        <div class="ios-item" onclick="openDashboard('mauritania')">
+          <div class="ios-item-left">
+            <div class="ios-item-icon" style="background-color: var(--mauritanie);">🇲🇷</div>
+            <div class="ios-item-title">Espace Mauritanie</div>
+          </div>
+          <div class="ios-item-right">
+            <div class="ios-chevron"></div>
+          </div>
+        </div>
+
+        <!-- Security Audit Link -->
+        <div class="ios-item" onclick="openDashboard('audit')">
+          <div class="ios-item-left">
+            <div class="ios-item-icon" style="background-color: var(--warning);">🔒</div>
+            <div class="ios-item-title">Audit de Sécurité</div>
+          </div>
+          <div class="ios-item-right">
+            <span>Analyse d'accès</span>
+            <div class="ios-chevron"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Unified Dashboard View -->
+    <div id="dashboardView" style="display: none;">
+      
+      <!-- Users List -->
+      <div id="usersPanel" style="display: none;">
+        <button class="nav-link" id="backBtn" style="margin-bottom: 12px; font-weight: 500;">‹ Espaces</button>
+        
+        <h2 class="large-title" id="dashboardHeadline">Tunisie</h2>
+        <p class="subtitle">Demandes d'accès et profils candidats.</p>
+
+        <!-- Stats Grid -->
+        <div class="stats-grid">
+          <div class="stat-pill">
+            <div class="stat-pill-label">Total</div>
+            <div class="stat-pill-val" id="statTotal">0</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-pill-label">Actifs</div>
+            <div class="stat-pill-val" id="statAccepted" style="color: var(--success);">0</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-pill-label">Attente</div>
+            <div class="stat-pill-val" id="statPending" style="color: var(--warning);">0</div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-pill-label">Bloqués</div>
+            <div class="stat-pill-val" id="statSuspended" style="color: var(--danger);">0</div>
+          </div>
+        </div>
+
+        <!-- Filters & Search -->
+        <div class="filter-pill-container" id="userFilters">
+          <div class="filter-pill active" onclick="setUserFilter('all')">Tous</div>
+          <div class="filter-pill" onclick="setUserFilter('pending')">Attente</div>
+          <div class="filter-pill" onclick="setUserFilter('accepted')">Actifs</div>
+          <div class="filter-pill" onclick="setUserFilter('suspended')">Bloqués</div>
+        </div>
+
+        <div class="ios-search-bar">
+          <input type="search" id="userSearch" class="ios-search-input" placeholder="Rechercher nom ou e-mail..." oninput="renderUsers()">
+        </div>
+
+        <!-- Cards list -->
+        <div class="mobile-cards" id="usersCardsContainer">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Security Audit -->
+      <div id="auditPanel" style="display: none;">
+        <button class="nav-link" id="backBtnAudit" style="margin-bottom: 12px; font-weight: 500;">‹ Espaces</button>
+
+        <h2 class="large-title">Audit d'Accès</h2>
+        <p class="subtitle">Surveillance et détection de partage de compte.</p>
+
+        <div class="ios-search-bar">
+          <input type="search" id="auditSearch" class="ios-search-input" placeholder="Filtrer par e-mail..." oninput="renderAudit()">
+        </div>
+
+        <div class="mobile-cards" id="auditCardsContainer">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- iOS Modal Action Sheet -->
+  <div class="modal-overlay" id="suspensionModal">
+    <div class="modal-sheet">
+      <div class="modal-drag-indicator"></div>
+      <div class="modal-title">Suspendre l'accès</div>
+      
+      <div class="modal-input-group">
+        <select id="suspensionDuration">
+          <option value="1">1 heure</option>
+          <option value="24">24 heures (1 jour)</option>
+          <option value="168">7 jours (1 semaine)</option>
+          <option value="720">30 jours (1 mois)</option>
+          <option value="8760">365 jours (1 an)</option>
+          <option value="clear">Lever la suspension (Réactiver)</option>
+        </select>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="primary-btn" id="confirmSuspensionBtn">Confirmer</button>
+        <button class="secondary-btn" style="color: var(--danger); font-weight: 600; padding: 12px; width: 100%; text-align: center;" onclick="closeSuspensionModal()">Annuler</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Password Reset Modal -->
+  <div class="modal-overlay" id="passwordResetModal">
+    <div class="modal-sheet">
+      <div class="modal-drag-indicator"></div>
+      <div class="modal-title">Réinitialiser le mot de passe</div>
+      
+      <div class="modal-input-group">
+        <label>Email: <span id="resetEmail"></span></label>
+        <input type="password" id="newPassword" placeholder="Nouveau mot de passe" style="margin-top: 12px;">
+        <input type="password" id="confirmPassword" placeholder="Confirmer le mot de passe" style="margin-top: 8px;">
+      </div>
+      
+      <div class="modal-actions">
+        <button class="modal-btn cancel" onclick="closePasswordResetModal()">Annuler</button>
+        <button class="modal-btn confirm" id="confirmResetBtn" onclick="confirmPasswordReset()">Réinitialiser</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SUPABASE_URL = "https://rsnbcgrtrjfvnoczildf.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_x8DaZHPwJORpR2tE5eClMA_yUsD2NTD";
+    const client = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    let session = null;
+    let currentView = 'selector';
+    let usersData = [];
+    let auditData = [];
+    let userFilter = 'all';
+    let activeSuspensionTarget = null;
+    let activePasswordResetTarget = null;
+
+    async function init() {
+      const { data } = await client.auth.getSession();
+      session = data.session;
+      if (session) {
+        try {
+          await assertAdmin();
+          showScreen('selector');
+        } catch (err) {
+          showScreen('login');
+          document.getElementById('loginError').textContent = err.message;
+          document.getElementById('loginError').style.display = 'block';
+          await client.auth.signOut();
+          session = null;
+        }
+      } else {
+        showScreen('login');
+      }
+    }
+
+    async function assertAdmin() {
+      const email = session.user.email.toLowerCase();
+      const { data, error } = await client
+        .from("app_admins")
+        .select("email")
+        .eq("email", email)
+        .maybeSingle();
+      if (error || !data) {
+        throw new Error("Cet e-mail n'est pas configuré comme administrateur.");
+      }
+    }
+
+    function showScreen(screen) {
+      document.getElementById('loginScreen').style.display = screen === 'login' ? 'block' : 'none';
+      document.getElementById('selectorScreen').style.display = screen === 'selector' ? 'block' : 'none';
+      document.getElementById('dashboardView').style.display = (screen !== 'login' && screen !== 'selector') ? 'block' : 'none';
+      document.getElementById('userInfo').style.display = screen !== 'login' ? 'flex' : 'none';
+      
+      if (screen !== 'login') {
+        document.getElementById('userEmail').textContent = session.user.email;
+      }
+
+      document.getElementById('usersPanel').style.display = 'none';
+      document.getElementById('auditPanel').style.display = 'none';
+      
+      currentView = screen;
+      if (screen === 'tunisia' || screen === 'mauritania') {
+        document.getElementById('usersPanel').style.display = 'block';
+        loadDashboardData();
+      } else if (screen === 'audit') {
+        document.getElementById('auditPanel').style.display = 'block';
+        loadAuditData();
+      }
+    }
+
+    function openDashboard(view) {
+      showScreen(view);
+    }
+
+    async function loadDashboardData() {
+      const isTunis = currentView === 'tunisia';
+      const tableName = isTunis ? 'tunis_profiles' : 'mauritania_profiles';
+      
+      document.getElementById('dashboardHeadline').textContent = isTunis ? "Tunisie" : "Mauritanie";
+      document.getElementById('usersCardsContainer').innerHTML = `<div style="text-align: center; color: var(--text-muted); padding: 20px;">Chargement...</div>`;
+
+      try {
+        const { data, error } = await client
+          .from(tableName)
+          .select('*')
+          .order('created_at', { ascending: false });
+
+        if (error) throw error;
+        usersData = data || [];
+        renderStats();
+        renderUsers();
+      } catch (err) {
+        document.getElementById('usersCardsContainer').innerHTML = `<div style="color: var(--danger); text-align: center; padding: 20px;">Erreur: ${err.message}</div>`;
+      }
+    }
+
+    function renderStats() {
+      const total = usersData.length;
+      const accepted = usersData.filter(u => u.approved && !isSuspended(u)).length;
+      const pending = usersData.filter(u => !u.approved && !u.rejected).length;
+      const suspended = usersData.filter(isSuspended).length;
+
+      document.getElementById('statTotal').textContent = total;
+      document.getElementById('statAccepted').textContent = accepted;
+      document.getElementById('statPending').textContent = pending;
+      document.getElementById('statSuspended').textContent = suspended;
+    }
+
+    function isSuspended(user) {
+      return user.suspended_until && new Date(user.suspended_until) > new Date();
+    }
+
+    function setUserFilter(filterVal) {
+      userFilter = filterVal;
+      document.querySelectorAll('#userFilters .filter-pill').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent.toLowerCase().includes(filterVal === 'all' ? 'tous' : filterVal === 'pending' ? 'attente' : filterVal === 'accepted' ? 'actif' : 'bloqu'));
+      });
+      renderUsers();
+    }
+
+    function renderUsers() {
+      const search = document.getElementById('userSearch').value.toLowerCase().trim();
+      const filtered = usersData.filter(user => {
+        if (userFilter === 'pending' && (user.approved || user.rejected)) return false;
+        if (userFilter === 'accepted' && (!user.approved || isSuspended(user))) return false;
+        if (userFilter === 'suspended' && !isSuspended(user)) return false;
+        
+        if (search) {
+          const name = (user.username || '').toLowerCase();
+          const email = (user.email || '').toLowerCase();
+          return name.includes(search) || email.includes(search);
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        document.getElementById('usersCardsContainer').innerHTML = `<div style="text-align: center; color: var(--text-muted); padding: 20px;">Aucun candidat.</div>`;
+        return;
+      }
+
+      document.getElementById('usersCardsContainer').innerHTML = filtered.map(user => {
+        const appKey = currentView;
+        let badgeClass = 'pending';
+        let badgeLabel = 'En attente';
+
+        if (isSuspended(user)) {
+          badgeClass = 'suspended';
+          badgeLabel = 'Suspendu';
+        } else if (user.approved) {
+          badgeClass = 'accepted';
+          badgeLabel = 'Actif';
+        } else if (user.rejected) {
+          badgeClass = 'rejected';
+          badgeLabel = 'Rejeté';
+        }
+
+        return `
+          <div class="ios-card">
+            <div class="ios-card-header">
+              <div>
+                <div class="ios-card-title">${escapeHtml(user.username || 'Sans nom')}</div>
+                <div class="ios-card-subtitle">${escapeHtml(user.email)}</div>
+              </div>
+              <span class="badge ${badgeClass}">${badgeLabel}</span>
+            </div>
+            <div class="ios-card-subtitle" style="font-size: 0.75rem;">
+              Inscription : ${user.created_at ? new Date(user.created_at).toLocaleDateString() : '-'}
+            </div>
+            <div class="ios-card-footer">
+              ${!user.approved ? `<button class="action-btn success" onclick="updateUserStatus('${escapeAttr(appKey)}', '${escapeAttr(user.id)}', 'accepted')">Accepter</button>` : ''}
+              ${user.approved || !user.rejected ? `<button class="action-btn danger" onclick="updateUserStatus('${escapeAttr(appKey)}', '${escapeAttr(user.id)}', 'rejected')">Rejeter</button>` : ''}
+              ${isSuspended(user) ? 
+                `<button class="action-btn" style="color: var(--primary);" onclick="unsuspendUser('${escapeAttr(appKey)}', '${escapeAttr(user.id)}')">Réactiver</button>` :
+                `<button class="action-btn warning" onclick="openSuspensionModal('${escapeAttr(appKey)}', '${escapeAttr(user.id)}', '${escapeAttr(user.email)}')">Suspendre</button>`
+              }
+              <button class="action-btn" style="background: #f0f0f0; color: #333;" onclick="resetUserPassword('${escapeAttr(appKey)}', '${escapeAttr(user.id)}', '${escapeAttr(user.email)}')">Reset MDP</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    async function updateUserStatus(appKey, id, nextStatus) {
+      if (!confirm(`Changer le statut vers "${nextStatus}" ?`)) return;
+      try {
+        const { error } = await client.rpc("admin_review_profile", {
+          app_key: appKey,
+          profile_id: id,
+          next_status: nextStatus
+        });
+        if (error) throw error;
+        await loadDashboardData();
+      } catch (err) {
+        alert("Erreur : " + err.message);
+      }
+    }
+
+    function openSuspensionModal(appKey, id, email) {
+      activeSuspensionTarget = { appKey, id, email };
+      document.getElementById('suspensionModal').classList.add('active');
+    }
+
+    function closeSuspensionModal() {
+      document.getElementById('suspensionModal').classList.remove('active');
+      activeSuspensionTarget = null;
+    }
+
+    document.getElementById('confirmSuspensionBtn').addEventListener('click', async () => {
+      if (!activeSuspensionTarget) return;
+      const durationVal = document.getElementById('suspensionDuration').value;
+      
+      let suspendedUntil = null;
+      if (durationVal !== 'clear') {
+        const hours = parseInt(durationVal);
+        suspendedUntil = new Date(Date.now() + hours * 60 * 60 * 1000).toISOString();
+      }
+
+      try {
+        const { error } = await client.rpc("admin_set_suspension", {
+          app_key: activeSuspensionTarget.appKey,
+          profile_id: activeSuspensionTarget.id,
+          suspended_until: suspendedUntil
+        });
+        if (error) throw error;
+        closeSuspensionModal();
+        if (currentView === 'audit') {
+          await loadAuditData();
+        } else {
+          await loadDashboardData();
+        }
+      } catch (err) {
+        alert("Erreur : " + err.message);
+      }
+    });
+
+    async function unsuspendUser(appKey, id) {
+      try {
+        const { error } = await client.rpc("admin_set_suspension", {
+          app_key: appKey,
+          profile_id: id,
+          suspended_until: null
+        });
+        if (error) throw error;
+        if (currentView === 'audit') {
+          await loadAuditData();
+        } else {
+          await loadDashboardData();
+        }
+      } catch (err) {
+        alert("Erreur : " + err.message);
+      }
+    }
+
+    function resetUserPassword(appKey, userId, email) {
+      activePasswordResetTarget = { appKey, userId, email };
+      document.getElementById('resetEmail').textContent = email;
+      document.getElementById('newPassword').value = '';
+      document.getElementById('confirmPassword').value = '';
+      document.getElementById('passwordResetModal').style.display = 'flex';
+    }
+
+    function closePasswordResetModal() {
+      document.getElementById('passwordResetModal').style.display = 'none';
+      activePasswordResetTarget = null;
+    }
+
+    async function confirmPasswordReset() {
+      if (!activePasswordResetTarget) return;
+      
+      const newPassword = document.getElementById('newPassword').value;
+      const confirmPassword = document.getElementById('confirmPassword').value;
+      
+      if (!newPassword || newPassword.length < 6) {
+        alert('Le mot de passe doit contenir au moins 6 caractères.');
+        return;
+      }
+      
+      if (newPassword !== confirmPassword) {
+        alert('Les mots de passe ne correspondent pas.');
+        return;
+      }
+      
+      const confirmBtn = document.getElementById('confirmResetBtn');
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = 'Réinitialisation...';
+      
+      try {
+        // Use admin client to reset user password
+        const adminClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+          auth: {
+            persistSession: false
+          }
+        });
+        
+        // First sign in as admin to get admin privileges
+        const { error: signInError } = await adminClient.auth.signInWithPassword({
+          email: document.getElementById('email').value,
+          password: document.getElementById('password').value
+        });
+        
+        if (signInError) throw signInError;
+        
+        // Reset the user's password
+        const { error } = await adminClient.auth.admin.updateUserById(
+          activePasswordResetTarget.userId,
+          { password: newPassword }
+        );
+        
+        if (error) throw error;
+        
+        alert('Mot de passe réinitialisé avec succès!');
+        closePasswordResetModal();
+        
+        // Sign out from admin session
+        await adminClient.auth.signOut();
+        
+      } catch (err) {
+        alert('Erreur lors de la réinitialisation: ' + err.message);
+      } finally {
+        confirmBtn.disabled = false;
+        confirmBtn.textContent = 'Réinitialiser';
+      }
+    }
+
+    async function loadAuditData() {
+      document.getElementById('auditCardsContainer').innerHTML = `<div style="text-align: center; color: var(--text-muted); padding: 20px;">Chargement...</div>`;
+      try {
+        const { data: logs, error } = await client.rpc("get_login_audit_logs");
+        if (error) throw error;
+
+        const analyzedLogs = [];
+        const lastUserLogin = {}; 
+
+        const chronologicalLogs = [...(logs || [])].sort((a,b) => new Date(a.created_at) - new Date(b.created_at));
+
+        chronologicalLogs.forEach(log => {
+          const prev = lastUserLogin[log.email];
+          let distance = null;
+          let timeDiffHours = null;
+          let suspect = false;
+
+          if (prev && prev.latitude && prev.longitude && log.latitude && log.longitude) {
+            distance = haversineDistance(
+              { lat: prev.latitude, lon: prev.longitude },
+              { lat: log.latitude, lon: log.longitude }
+            );
+            timeDiffHours = (new Date(log.created_at) - new Date(prev.created_at)) / (1000 * 60 * 60);
+
+            if (distance > 100 && timeDiffHours < 24) {
+              suspect = true;
+            }
+          }
+
+          analyzedLogs.push({
+            ...log,
+            distance,
+            timeDiffHours,
+            suspect
+          });
+
+          lastUserLogin[log.email] = log;
+        });
+
+        auditData = analyzedLogs.reverse();
+        renderAudit();
+      } catch (err) {
+        document.getElementById('auditCardsContainer').innerHTML = `<div style="color: var(--danger); text-align: center; padding: 20px;">Erreur: ${err.message}</div>`;
+      }
+    }
+
+    function renderAudit() {
+      const search = document.getElementById('auditSearch').value.toLowerCase().trim();
+      const filtered = auditData.filter(log => {
+        if (!search) return true;
+        return (log.email || '').toLowerCase().includes(search);
+      });
+
+      if (filtered.length === 0) {
+        document.getElementById('auditCardsContainer').innerHTML = `<div style="text-align: center; color: var(--text-muted); padding: 20px;">Aucun log trouvé.</div>`;
+        return;
+      }
+
+      document.getElementById('auditCardsContainer').innerHTML = filtered.map(log => {
+        const appText = log.app_key === 'tunisia' ? 'Tunisie' : 'Mauritanie';
+        const distanceText = log.distance !== null ? `${log.distance.toFixed(0)} km en ${log.timeDiffHours.toFixed(1)}h` : 'Première connexion';
+        const analysisBadge = log.suspect ? `<span class="badge rejected">⚠️ Suspect</span>` : `<span class="badge accepted">Normal</span>`;
+
+        return `
+          <div class="ios-card" style="${log.suspect ? 'border-color: var(--danger); background-color: #fff9f9;' : ''}">
+            <div class="ios-card-header">
+              <div>
+                <div class="ios-card-title">${escapeHtml(log.email)}</div>
+                <div class="ios-card-subtitle">Espace ${appText}</div>
+              </div>
+              ${analysisBadge}
+            </div>
+            <div class="ios-card-subtitle" style="font-size: 0.8rem; margin-top: 4px;">
+              Date : ${new Date(log.created_at).toLocaleString()}<br>
+              IP : <code>${escapeHtml(log.ip_address)}</code><br>
+              Analyse : ${distanceText}
+            </div>
+            <div class="ios-card-footer">
+              <button class="action-btn danger" onclick="openSuspensionModal('${escapeAttr(log.app_key)}', '${escapeAttr(log.profile_id)}', '${escapeAttr(log.email)}')">Suspendre</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function haversineDistance(coords1, coords2) {
+      const toRad = x => x * Math.PI / 180;
+      const R = 6371; 
+      const dLat = toRad(coords2.lat - coords1.lat);
+      const dLon = toRad(coords2.lon - coords1.lon);
+      const lat1 = toRad(coords1.lat);
+      const lat2 = toRad(coords2.lat);
+      const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(lat1) * Math.cos(lat2) *
+                Math.sin(dLon/2) * Math.sin(dLon/2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+      return R * c;
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/[&<>"']/g, (c) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }[c]));
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(String(value || "")).replace(/\\/g, "\\\\");
+    }
+
+    document.getElementById('backBtn').addEventListener('click', () => showScreen('selector'));
+    document.getElementById('backBtnAudit').addEventListener('click', () => showScreen('selector'));
+
+    document.getElementById('loginForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value;
+      const errEl = document.getElementById('loginError');
+      errEl.style.display = 'none';
+
+      try {
+        const { data, error } = await client.auth.signInWithPassword({ email, password });
+        if (error) throw error;
+        
+        session = data.session;
+        await assertAdmin();
+        showScreen('selector');
+      } catch (err) {
+        errEl.textContent = err.message;
+        errEl.style.display = 'block';
+        await client.auth.signOut();
+        session = null;
+      }
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', async () => {
+      await client.auth.signOut();
+      session = null;
+      showScreen('login');
+    });
+
+    init();
+  </script>
+</body>
+</html>

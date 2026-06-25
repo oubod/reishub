@@ -1,0 +1,1457 @@
+{
+  "lectureId": "pm-34",
+  "title": "Fièvre typhoïde",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale bactérie responsable de la fièvre typhoïde 'vraie' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Salmonella enterica serovar Paratyphi A",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Salmonella enterica serovar Typhi",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre typhoïde 'vraie', la forme la plus sévère, est causée par Salmonella enterica serovar Typhi. Les serovars Paratyphi A, B, et C sont responsables des fièvres paratyphoïdes, généralement moins sévères."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le mode de transmission principal de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aérienne",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sexuelle",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Fécale-orale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vectorielle (par piqûre d'insecte)",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre typhoïde est transmise par voie fécale-orale, via l'ingestion d'eau ou d'aliments contaminés par des déjections humaines."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le réservoir de Salmonella Typhi ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les animaux domestiques",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les oiseaux migrateurs",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Strictement humain",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le sol et l'eau",
+          "correct": false
+        }
+      ],
+      "explanation": "Le réservoir de Salmonella Typhi est strictement humain, constitué par les malades et surtout les porteurs chroniques asymptomatiques."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen clé pour le diagnostic de certitude de la fièvre typhoïde, surtout en première semaine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coproculture",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Sérologie de Widal et Félix",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hémoculture",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Numération Formule Sanguine (NFS)",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémoculture est l'examen clé pour le diagnostic de certitude, positive dans 80-90% des cas la première semaine et à réaliser en priorité avant toute antibiothérapie."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la durée moyenne de la période d'incubation de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 à 3 jours",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "4 à 6 jours",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "10 à 14 jours",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 30 jours",
+          "correct": false
+        }
+      ],
+      "explanation": "La période d'incubation est silencieuse et dure en moyenne 10 à 14 jours."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel signe clinique est typique de la première semaine de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre en plateau à 40°C",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ascension lente et progressive de la fièvre en 'escalier'",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diarrhée 'jus de melon'",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Perforation intestinale",
+          "correct": false
+        }
+      ],
+      "explanation": "La première semaine est caractérisée par une ascension lente et progressive de la fièvre, en 'escalier', pour atteindre 39-40°C en fin de semaine."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement antibiotique de première intention recommandé en cas de suspicion de fièvre typhoïde, compte tenu des résistances ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fluoroquinolones (Ciprofloxacine)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pénicilline G",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ceftriaxone ou Azithromycine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Amoxicilline",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de première intention (probabiliste) est la Ceftriaxone ou l'Azithromycine, en raison des résistances fréquentes aux fluoroquinolones, notamment en Asie."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal signe général de la première semaine de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éruption cutanée généralisée",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Céphalées intenses et constantes",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleurs articulaires",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Toux productive",
+          "correct": false
+        }
+      ],
+      "explanation": "La première semaine est marquée par des céphalées intenses et constantes, de l'asthénie, de l'anorexie et de l'insomnie."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le type de bacille responsable de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bacille à Gram positif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bacille à Gram négatif",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cocci à Gram positif",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cocci à Gram négatif",
+          "correct": false
+        }
+      ],
+      "explanation": "Salmonella enterica serovar Typhi et Paratyphi sont des bacilles à Gram négatif de la famille des Enterobacteriaceae."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Dans quels organes les salmonelles se multiplient-elles massivement pendant la phase de multiplication dans le système réticulo-endothélial ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poumons, reins, cerveau",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Foie, rate, moelle osseuse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Estomac, pancréas, intestins",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Cœur, vaisseaux, muscles",
+          "correct": false
+        }
+      ],
+      "explanation": "Les salmonelles colonisent les organes du système réticulo-endothélial (foie, rate, moelle osseuse) où elles continuent de se multiplier dans les macrophages."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal signe digestif souvent observé en première semaine de fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée profuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Constipation fréquente",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Vomissements incoercibles",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hémorragie digestive",
+          "correct": false
+        }
+      ],
+      "explanation": "La première semaine est souvent caractérisée par une constipation fréquente et des douleurs abdominales diffuses."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen sérologique est à abandonner pour le diagnostic d'une infection aiguë par la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sérologie de Widal et Félix",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Test ELISA",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Test rapide d'agglutination",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Immunofluorescence indirecte",
+          "correct": false
+        }
+      ],
+      "explanation": "La sérologie (Widal et Félix) est à abandonner car elle a une très mauvaise sensibilité et spécificité et ne doit plus être utilisée pour le diagnostic d'une infection aiguë."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la complication la plus redoutée de la fièvre typhoïde, survenant généralement en troisième semaine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pneumonie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Méningite",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Perforation intestinale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Appendicite",
+          "correct": false
+        }
+      ],
+      "explanation": "La perforation intestinale est la complication la plus redoutée, survenant en troisième semaine, et constitue une urgence chirurgicale."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le conseil d'hygiène alimentaire essentiel pour les voyageurs en zone d'endémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consommer uniquement des aliments crus",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Boire de l'eau du robinet non traitée",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Boil it, cook it, peel it, or forget it",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Manger des fruits de mer crus",
+          "correct": false
+        }
+      ],
+      "explanation": "Le conseil d'hygiène alimentaire pour les voyageurs est 'Boil it, cook it, peel it, or forget it', ce qui signifie consommer des aliments bien cuits, chauds, ou des fruits pelés par soi-même, et boire de l'eau en bouteille capsulée ou rendue potable."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "La fièvre typhoïde est-elle une maladie à déclaration obligatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Non, uniquement si elle est grave",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oui, systématiquement",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement pour les voyageurs",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Non, c'est une maladie bénigne",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre typhoïde est une maladie à déclaration obligatoire."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des agents étiologiques de la fièvre typhoïde et paratyphoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ce sont des cocci à Gram positif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils appartiennent à la famille des Enterobacteriaceae.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont des bacilles à Gram négatif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont des salmonelles majeures, humaines strictes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les agents étiologiques sont des bacilles à Gram négatif de la famille des Enterobacteriaceae. Ce sont des salmonelles majeures, humaines strictes."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs épidémiologiques associés à la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est principalement une maladie d'importation dans les pays industrialisés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est endémique dans le sous-continent indien et l'Afrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est liée à un assainissement et une hygiène défaillants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est principalement transmise par contact avec des animaux.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre typhoïde est une maladie de la pauvreté, liée à un assainissement et une hygiène défaillants. Elle est endémique dans le sous-continent indien, l'Asie du Sud-Est, l'Afrique et l'Amérique latine. Dans les pays industrialisés, c'est principalement une maladie d'importation ('maladie du voyageur')."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Décrivez les étapes initiales de la physiopathologie de la fièvre typhoïde après ingestion.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les bactéries sont directement libérées dans la circulation sanguine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les bactéries survivent à l'acidité gastrique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles envahissent la muqueuse intestinale au niveau de l'iléon terminal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles traversent les cellules M des plaques de Peyer.",
+          "correct": true
+        }
+      ],
+      "explanation": "Après ingestion, les bactéries survivent dans l'acidité gastrique, puis envahissent la muqueuse intestinale au niveau de l'iléon terminal en traversant les cellules M des plaques de Peyer."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques caractéristiques de la deuxième semaine (phase d'état) de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre en plateau élevée à 40°C.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Tuphos (état de prostration, apathie, obnubilation).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bradycardie relative (Signe de Faget).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Taches rosées lenticulaires sur l'abdomen et le thorax.",
+          "correct": true
+        }
+      ],
+      "explanation": "La deuxième semaine est caractérisée par une fièvre en plateau élevée, le 'tuphos', la dissociation pouls-température (Signe de Faget), et l'apparition de taches rosées lenticulaires."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la langue 'fuligineuse' observée en phase d'état ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est rouge vif sur toute sa surface.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est recouverte d'un enduit blanchâtre-grisâtre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les bords et la pointe restent rouges.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est sèche et fissurée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La langue 'fuligineuse' est recouverte d'un enduit blanchâtre-grisâtre, sauf sur les bords et la pointe qui restent rouges ('langue rôtie')."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications intestinales graves de la fièvre typhoïde, survenant typiquement en troisième semaine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appendicite aiguë",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Perforation intestinale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémorragie digestive",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Occlusion intestinale",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications les plus redoutées en troisième semaine sont la perforation intestinale et l'hémorragie digestive par érosion d'un vaisseau au niveau d'une ulcération d'une plaque de Peyer."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du diagnostic biologique non spécifique de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leucocytose avec hyperéosinophilie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Leucopénie avec neutropénie et anéosinophilie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VS et CRP très élevées, concordantes avec l'infection.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Élévation modérée des transaminases.",
+          "correct": true
+        }
+      ],
+      "explanation": "La NFS montre typiquement une leucopénie avec une neutropénie et une anéosinophilie. Une élévation modérée des transaminases est fréquente. Le syndrome inflammatoire (VS et CRP) est modérément élevé, discordant avec l'importance de l'infection."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Devant une fièvre prolongée au retour d'une zone d'endémie, quels diagnostics différentiels doivent être systématiquement évoqués et éliminés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paludisme",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Grippe saisonnière",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Dengue",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Tuberculose miliaire",
+          "correct": true
+        }
+      ],
+      "explanation": "Il faut systématiquement évoquer et éliminer le Paludisme (urgence absolue), la Dengue, le Chikungunya, les hépatites virales AE, la Brucellose, la Rickettsiose, la Tuberculose miliaire et l'Amibiase hépatique."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention individuelle recommandées pour les voyageurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consommer des glaçons dans les boissons.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lavage fréquent des mains au savon ou utilisation de solutions hydro-alcooliques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Boire de l'eau en bouteille capsulée ou rendue potable.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Éviter les crudités et les fruits non pelés par soi-même.",
+          "correct": true
+        }
+      ],
+      "explanation": "La prévention individuelle inclut l'hygiène des mains, la consommation d'eau en bouteille ou rendue potable, et l'évitement des glaçons, jus de fruits frais, lait non pasteurisé, crudités et fruits non pelés par soi-même."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du vaccin polysaccharidique injectable (Typhim Vi®) contre la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est administré par voie orale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il confère une protection après 2-3 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sa durée de protection est de 3 ans.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est utilisable dès l'âge de 5 ans.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vaccin polysaccharidique injectable (Typhim Vi®) est une injection, protège après 2-3 semaines, dure 3 ans et est utilisable dès 2 ans. Le vaccin oral est le Vivotif®."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les phases de la physiopathologie de la fièvre typhoïde après l'ingestion d'un inoculum suffisant ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phase de multiplication dans le système réticulo-endothélial.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Phase de dissémination lymphatique et première bactériémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Phase digestive (asymptomatique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Phase de seconde bactériémie et phase d'état.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les phases sont: 1. Phase digestive (asymptomatique), 2. Phase de dissémination lymphatique et première bactériémie, 3. Phase de multiplication dans le système réticulo-endothélial, 4. Phase de seconde bactériémie et phase d'état, 5. Phase de localisation et d'excrétion."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes physiques pouvant être observés en phase d'état de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hépatomégalie douloureuse",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Splénomégalie molle",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Taches rosées lenticulaires",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Langue 'fuligineuse'",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes physiques incluent une splénomégalie molle (palpable dans 50% des cas), des taches rosées lenticulaires et une langue 'fuligineuse'."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications pour la corticothérapie (dexaméthasone) dans la prise en charge de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Systématiquement pour réduire la fièvre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Uniquement dans les formes très sévères avec choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement en cas de troubles neurologiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En association avec les antibiotiques pour toutes les formes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La corticothérapie (dexaméthasone) est discutée uniquement dans les formes très sévères avec choc ou troubles neurologiques."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prévention collective de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amélioration des conditions socio-économiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dépistage et traitement des porteurs chroniques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contrôle de la chaîne alimentaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vaccination systématique de toute la population.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention collective repose sur l'amélioration des conditions socio-économiques (accès à l'eau potable, traitement des eaux usées), le contrôle de la chaîne alimentaire, et le dépistage et traitement des porteurs chroniques, notamment les manipulateurs d'aliments."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques du vaccin vivant atténué oral (Vivotif®) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est administré en une seule dose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il nécessite la prise de 3 gélules à J1, J3, J5.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est utilisable dès 2 ans.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Il confère une protection après une semaine.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le vaccin vivant atténué oral (Vivotif®) consiste en 3 gélules à prendre à J1, J3, J5. La protection est obtenue après une semaine et il est utilisable dès 5 ans."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les rôles des macrophages dans la physiopathologie de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils détruisent immédiatement les bactéries ingérées.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils phagocytent les bactéries mais ne parviennent pas à les détruire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils permettent aux bactéries de survivre et de se multiplier à l'intérieur d'eux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils transportent les bactéries vers les ganglions mésentériques.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les bactéries sont phagocytées par les macrophages mais survivent et se multiplient à l'intérieur. Ces macrophages migrent ensuite vers les ganglions mésentériques."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les manifestations cliniques de l'hémorragie digestive, une complication de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur abdominale brutale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Méléna.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Rectorragie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumopéritoine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hémorragie digestive se manifeste par un méléna ou une rectorragie. La douleur abdominale brutale et le pneumopéritoine sont des signes de perforation intestinale."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quand la coproculture devient-elle positive et à quoi est-elle utile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est positive dès la première semaine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle devient positive plus tardivement (2ème-3ème semaine).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est utile pour le diagnostic tardif.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est utile pour le dépistage des porteurs chroniques.",
+          "correct": true
+        }
+      ],
+      "explanation": "La coproculture devient positive plus tardivement (2ème-3ème semaine) et est utile pour le diagnostic tardif et le dépistage des porteurs chroniques."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les conditions de dépistage du portage chronique chez un patient guéri de fièvre typhoïde avant la reprise d'une activité en collectivité ou en restauration ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une seule coproculture négative suffit.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Trois coprocultures négatives à un mois d'intervalle sont nécessaires.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le dépistage n'est pas nécessaire si le patient est asymptomatique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une sérologie de Widal et Félix négative est suffisante.",
+          "correct": false
+        }
+      ],
+      "explanation": "La recherche de portage chronique chez le patient guéri nécessite 3 coprocultures négatives à un mois d'intervalle avant la reprise d'une activité en collectivité ou en restauration."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux signes digestifs de la première semaine de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée 'jus de melon'",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Constipation fréquente",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleurs abdominales diffuses",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vomissements",
+          "correct": false
+        }
+      ],
+      "explanation": "La première semaine est caractérisée par une constipation fréquente et des douleurs abdominales diffuses. La diarrhée 'jus de melon' apparaît plutôt en deuxième semaine."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "La première bactériémie de la fièvre typhoïde est-elle symptomatique et prolongée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, elle est responsable des signes cliniques systémiques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Non, elle est brève et silencieuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours associée à une forte fièvre.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est responsable de la phase d'incubation clinique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La première bactériémie est brève et silencieuse. La seconde bactériémie, prolongée, est responsable des signes cliniques systémiques (fièvre, tuphos)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi les fluoroquinolones ne sont-elles pas le traitement de première intention probabiliste de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont trop coûteuses.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La résistance aux quinolones est quasi-systématique en Asie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles sont moins efficaces que les céphalosporines de 3ème génération.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elles ne peuvent être utilisées qu'après antibiogramme confirmant la sensibilité.",
+          "correct": true
+        }
+      ],
+      "explanation": "La résistance aux quinolones est quasi-systématique en Asie, rendant leur utilisation en première intention probabiliste inappropriée. Elles ne sont utilisées qu'en deuxième intention si la souche est documentée sensible par antibiogramme."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la seconde bactériémie dans la physiopathologie de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est brève et asymptomatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est responsable des signes cliniques systémiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle résulte de la libération massive et continue des bactéries depuis les foyers secondaires.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle correspond à la période d'incubation clinique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La seconde bactériémie est prolongée et est responsable des signes cliniques systémiques (fièvre, tuphos). Elle résulte de la libération massive et continue des bactéries dans le sang depuis les foyers secondaires (foie, rate, moelle osseuse)."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les localisations possibles des bactéries pendant la phase de localisation et d'excrétion, et leurs conséquences ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vésicule biliaire, conduisant au portage chronique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plaques de Peyer, provoquant leur hypertrophie et ulcération.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cerveau, entraînant systématiquement une encéphalite.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Reins, causant une insuffisance rénale aiguë.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les bactéries peuvent se localiser dans la vésicule biliaire (conduisant au portage chronique) et les plaques de Peyer (provoquant leur hypertrophie, leur ulcération et le risque de complications intestinales)."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi la sérologie de Widal et Félix est-elle à abandonner pour le diagnostic de la fièvre typhoïde aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est trop coûteuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle a une très mauvaise sensibilité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle a une très mauvaise spécificité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est remplacée par des tests plus rapides.",
+          "correct": false
+        }
+      ],
+      "explanation": "Cet examen historique a une très mauvaise sensibilité et spécificité (nombreux faux positifs et négatifs) et ne doit plus être utilisé pour le diagnostic d'une infection aiguë."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de la myéloculture (culture de moelle osseuse) pour le diagnostic de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est l'examen le plus sensible (> 95%).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Sa rentabilité diminue après le début de l'antibiothérapie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il est invasif et rarement réalisé en pratique courante.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est moins sensible que l'hémoculture en première semaine.",
+          "correct": false
+        }
+      ],
+      "explanation": "La myéloculture est l'examen le plus sensible (> 95%), même après début d'antibiothérapie, mais il est invasif et rarement réalisé en pratique courante."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui justifient l'hospitalisation d'un patient atteint de fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmation diagnostique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Traitement antibiotique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance des complications.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prévention de la transmission.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hospitalisation est généralement nécessaire pour confirmation diagnostique, traitement et surveillance des complications."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques d'une perforation intestinale, complication grave de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur abdominale brutale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Défense abdominale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Contracture abdominale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Méléna.",
+          "correct": false
+        }
+      ],
+      "explanation": "La perforation intestinale se manifeste par une douleur abdominale brutale, une défense et une contracture abdominale, et un pneumopéritoine. Le méléna est un signe d'hémorragie digestive."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "L'efficacité de la vaccination contre la fièvre typhoïde est-elle totale et dispense-t-elle des mesures d'hygiène ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oui, l'efficacité est de 100%, les mesures d'hygiène ne sont plus nécessaires.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Non, l'efficacité est de 50-70%, la vaccination ne dispense pas des mesures d'hygiène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La vaccination est uniquement pour les enfants.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La vaccination est efficace seulement pour les sérotypes Paratyphi.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'efficacité de la vaccination est de 50-70%, la vaccination ne dispense donc jamais des mesures d'hygiène."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments qui caractérisent le 'tuphos' en phase d'état de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "État d'agitation et d'hyperactivité.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Prostration et apathie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Obnubilation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Regard vide et indifférence du patient.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le 'tuphos' est un état de prostration, d'apathie, d'obnubilation, où le patient est indifférent et a le regard vide."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères de recommandation de la vaccination contre la fièvre typhoïde pour les voyageurs ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Séjour prolongé (> 1 mois) en zone d'endémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Séjour dans de mauvaises conditions d'hygiène en zone d'endémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Voyage dans n'importe quel pays, quelle que soit la durée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Voyage en zone d'endémie, même pour un court séjour et bonnes conditions d'hygiène.",
+          "correct": false
+        }
+      ],
+      "explanation": "La vaccination est recommandée pour les voyageurs devant effectuer un séjour prolongé (> 1 mois) ou dans de mauvaises conditions d'hygiène en zone d'endémie."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes de la Numération Formule Sanguine (NFS) typiquement observés dans la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leucocytose avec hyperneutrophilie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Leucopénie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Neutropénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anéosinophilie.",
+          "correct": true
+        }
+      ],
+      "explanation": "La NFS montre typiquement une leucopénie avec une neutropénie et une anéosinophilie (absence de polynucléaires éosinophiles)."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de la prise en charge symptomatique de la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Réhydratation et correction des troubles électrolytiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Nutrition parentérale ou entérale si besoin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Antipyrétiques (paracétamol).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antibiotiques à large spectre systématiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement symptomatique inclut la réhydratation, la correction des troubles électrolytiques, la nutrition si besoin, et les antipyrétiques (paracétamol). Les antibiotiques sont le pilier du traitement spécifique, pas symptomatique."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les agents étiologiques des fièvres paratyphoïdes et leurs caractéristiques par rapport à la fièvre typhoïde 'vraie' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Salmonella enterica serovar Typhi.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Salmonella enterica serovars Paratyphi A, B, et C.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Généralement moins sévères que la fièvre typhoïde 'vraie'.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toujours plus sévères que la fièvre typhoïde 'vraie'.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les fièvres paratyphoïdes sont causées par Salmonella enterica serovars Paratyphi A, B, et C, et sont généralement moins sévères que la fièvre typhoïde 'vraie' due à S. Typhi."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments clés du résumé final concernant la fièvre typhoïde ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une infection systémique grave due à S. Typhi.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est transmise par voie aérienne.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le diagnostic repose sur l'hémoculture.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prévention combine hygiène stricte et vaccination pour les voyageurs à risque.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fièvre typhoïde est une infection systémique grave due à S. Typhi, transmise par voie fécale-orale. Le diagnostic repose sur l'hémoculture. La prévention est essentielle, combinant des mesures d'hygiène strictes et la vaccination pour les voyageurs à risque."
+    }
+  ]
+}

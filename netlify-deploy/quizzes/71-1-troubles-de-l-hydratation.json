@@ -1,0 +1,1392 @@
+{
+  "lectureId": "71-1",
+  "number": "71.1",
+  "title": "Troubles de l’hydratation",
+  "partie": "J2",
+  "specialty": "Néphrologie",
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques des troubles de l'hydratation mentionnées dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont le résultat d'inégalités entre les entrées et les sorties d'eau et de sodium.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Leur diagnostic est toujours complexe et nécessite des examens sophistiqués.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Ils peuvent entraîner des complications graves menaçant le pronostic fonctionnel ou vital.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Leur traitement est indépendant de leur étiologie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les troubles de l’hydratation résultent d’inégalités entre les entrées et les sorties d’eau et de sodium. Leur diagnostic est souvent facile et en grande partie clinique, aidé par des examens simples comme l’ionogramme sanguin et urinaire. Non traités ou traités de façon inadéquate, ils peuvent entraîner des complications graves menaçant le pronostic fonctionnel ou vital. Le traitement dépend de leur étiologie."
+    },
+    {
+      "id": "q2",
+      "difficulty": "facile",
+      "question": "Quel pourcentage du poids corporel représente l'eau somatique totale (EST) chez un homme adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "50%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "60%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "70%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "80%",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez un homme adulte, la masse d’eau contenue dans l’organisme ou eau somatique totale (EST) représente 60% du poids corporel."
+    },
+    {
+      "id": "q3",
+      "difficulty": "facile",
+      "question": "Quels facteurs influencent les variations physiologiques de l'eau somatique totale (EST) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'adiposité",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le genre",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'âge",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La taille",
+          "correct": false
+        }
+      ],
+      "explanation": "L’EST varie selon l’adiposité, le genre et l’âge. Par exemple, elle est plus importante chez l’homme adulte que chez la femme adulte, et diminue avec l’âge."
+    },
+    {
+      "id": "q4",
+      "difficulty": "facile",
+      "question": "Pourquoi le nourrisson est-il particulièrement exposé à la déshydratation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son organisme est moins hydraté que celui de l'adulte.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plus de la moitié de son eau est contenue dans le milieu extracellulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il perd chaque jour moins de 5% de son eau totale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Son métabolisme est plus lent.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le nourrisson est exposé à la déshydratation car son organisme est plus hydraté et plus de la moitié de son eau est contenue dans le milieu extracellulaire, ce qui le rend plus vulnérable aux pertes hydriques."
+    },
+    {
+      "id": "q5",
+      "difficulty": "facile",
+      "question": "Selon la règle 20/40/60, quelle est la proportion de l'eau totale représentée par le compartiment intracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "40%",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "60%",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "80%",
+          "correct": false
+        }
+      ],
+      "explanation": "Les compartiments liquidiens de l’organisme suivent la règle 20/40/60, où le compartiment intracellulaire représente 40% de l'eau totale."
+    },
+    {
+      "id": "q6",
+      "difficulty": "facile",
+      "question": "Quel est le cation majeur du secteur extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Potassium (K+)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Magnésium (Mg2+)",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sodium (Na+)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Calcium (Ca2+)",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sodium est le cation majeur du secteur extracellulaire, et le chlore représente l’anion le plus abondant de ce compartiment."
+    },
+    {
+      "id": "q8",
+      "difficulty": "facile",
+      "question": "Quelles sont les pertes d'eau quotidiennes considérées comme 'fixes' ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'évaporation d'eau dans les voies aériennes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La diurèse rénale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La perspiration cutanée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La perte d'eau par les fèces",
+          "correct": true
+        }
+      ],
+      "explanation": "Les pertes fixes sont des pertes obligatoires, permanentes et non régulées. Elles incluent l’évaporation d’eau dans les voies aériennes, la perspiration (évaporation de l’eau par diffusion à travers la peau indépendamment de la sudation) et la perte d’eau par les fèces."
+    },
+    {
+      "id": "q10",
+      "difficulty": "facile",
+      "question": "Quelle est la principale différence entre le liquide plasmatique et le liquide interstitiel en termes de composition ionique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le liquide interstitiel est plus riche en sodium.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le liquide plasmatique a une teneur plus faible en chlore.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le liquide interstitiel a une faible teneur en protéines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le liquide plasmatique est plus riche en potassium.",
+          "correct": false
+        }
+      ],
+      "explanation": "La différence majeure avec le liquide plasmatique est la faible teneur du liquide interstitiel en protéine."
+    },
+    {
+      "id": "q11",
+      "difficulty": "facile",
+      "question": "Quelle est la valeur normale de l'osmolalité plasmatique efficace ou tonicité plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "140 ± 5 mosmoles/Kg d’eau",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "285 ± 5 mosmoles/Kg d’eau",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "300 ± 5 mosmoles/Kg d’eau",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "200 ± 5 mosmoles/Kg d’eau",
+          "correct": false
+        }
+      ],
+      "explanation": "La tonicité plasmatique est calculée comme 2(Na+) + glucose (en mmol/l) et sa valeur normale est de 285 ± 5 mosmoles/Kg d’eau."
+    },
+    {
+      "id": "q12",
+      "difficulty": "facile",
+      "question": "Quel est le principal rôle de l'hormone antidiurétique (ADH) sur le rein ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmenter la réabsorption de sodium.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Diminuer la perméabilité à l'eau du tube collecteur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Augmenter la perméabilité à l'eau du tube collecteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Stimuler la filtration glomérulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’ADH a pour principal rôle d’augmenter la perméabilité à l’eau du tube collecteur, ce qui permet la réabsorption d'eau et la concentration des urines."
+    },
+    {
+      "id": "q15",
+      "difficulty": "facile",
+      "question": "Quel est le signe biologique clé d'un trouble de l'hydratation intracellulaire (HIC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypernatrémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hyponatrémie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Osmolalité plasmatique augmentée",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hyperkaliémie",
+          "correct": false
+        }
+      ],
+      "explanation": "Le signe d’un trouble de l’hydratation intracellulaire est biologique, caractérisé par une hyponatrémie (Na+ < 135 mmol/L) et une osmolalité plasmatique diminuée (< 275 mosmole/kg)."
+    },
+    {
+      "id": "q16",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les variations physiologiques de l'eau somatique totale (EST) en fonction de l'âge et du genre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'EST est de 80% chez les grands prématurés.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'EST est de 50% chez la femme adulte.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'EST augmente avec l'âge.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'EST est de 70% chez les vieillards.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'EST est de 60% chez l'homme adulte.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’EST diminue avec l’âge : 80% chez les grands prématurés, >70% chez les nouveaux-nés, 60% chez l’homme adulte, 50% chez la femme adulte et 50% chez les vieillards."
+    },
+    {
+      "id": "q17",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les principaux compartiments liquidiens de l'organisme et leurs volumes respectifs chez un adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le compartiment intracellulaire (SIC) représente 28 litres.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le compartiment extracellulaire (SEC) représente 20 litres.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le secteur interstitiel représente 11 litres.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le secteur vasculaire ou plasmatique représente 5 litres.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le liquide trans-cellulaire représente 1 à 2 litres.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le compartiment intracellulaire est de 28 litres. Le compartiment extracellulaire est de 14 litres, composé du secteur interstitiel (11 litres), du secteur vasculaire ou plasmatique (3 litres) et du liquide trans-cellulaire (1 à 2 litres)."
+    },
+    {
+      "id": "q18",
+      "difficulty": "intermediaire",
+      "question": "Concernant la composition ionique du liquide intracellulaire, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il présente une concentration élevée en sodium.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est caractérisé par une concentration élevée en potassium et magnésium.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il contient une concentration élevée en phosphates et protéines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il a une concentration élevée en chlorures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le liquide intracellulaire est caractérisé par une concentration élevée en potassium (115 mEq/l) et en magnésium (30 mEq/l), ainsi qu'en phosphates (80 mEq/l) et protéines (40 mEq/l). Sa concentration en sodium est faible (30 mEq/l) et en chlorures est faible (5 mEq/l)."
+    },
+    {
+      "id": "q19",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la pompe Na+/K+ ATPase ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle expulse activement 3 ions K+ vers l'extérieur de la cellule.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est située sur la membrane plasmique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle importe activement 2 ions Na+ vers l'intérieur de la cellule.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle maintient les différences de concentration de Na+ et K+ entre les milieux intra et extracellulaires.",
+          "correct": true
+        }
+      ],
+      "explanation": "La pompe Na+/K+ ATPase de la membrane plasmique expulse activement 3 ions Na+ vers l'extérieur de la cellule et importe deux ions K+ vers l'intérieur, maintenant ainsi les gradients ioniques."
+    },
+    {
+      "id": "q20",
+      "difficulty": "intermediaire",
+      "question": "Quels ions jouent un rôle important dans le maintien de l'équilibre osmotique et acido-basique du liquide plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le potassium",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le sodium et le chlore",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les protéines et les bicarbonates",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le magnésium",
+          "correct": false
+        }
+      ],
+      "explanation": "Le liquide plasmatique est riche en sodium (142 mEq/l) et en chlore (103 mEq/l), ces 2 ions règlent l’essentiel de l’équilibre osmotique et acido-basique. Les protéines (16 mEq/l) et les bicarbonates (27 mEq/l) constituent les 2 autres ions importants jouant un rôle dans le maintien de l’équilibre osmotique et acido-basique de ce secteur."
+    },
+    {
+      "id": "q21",
+      "difficulty": "intermediaire",
+      "question": "Concernant les sorties de sodium, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'élimination sudorale est toujours hypotonique par rapport au plasma.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les sorties extra-rénales sont régulées par le rein.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'élimination fécale est relativement faible mais augmente en cas de diarrhée hydro-électrolytique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les sorties rénales varient entre 50 et 200 mmol/24h et sont régulées.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les sorties extra-rénales (sudorale et fécale) ne sont pas régulées. La sueur est normalement hypotonique par rapport au plasma. L’élimination fécale est faible mais augmente en cas de diarrhée. Les sorties rénales sont la partie régulée et varient entre 50 et 200 mmol/24h."
+    },
+    {
+      "id": "q22",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments clés de la loi de Starling régissant les échanges liquidiens à travers la membrane capillaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pression oncotique tend à faire sortir le liquide du compartiment intravasculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La membrane capillaire est imperméable aux protéines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pression hydrostatique tend à faire sortir le liquide du compartiment intravasculaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La pression oncotique reste constante du côté artériolaire au côté veineux.",
+          "correct": true
+        }
+      ],
+      "explanation": "La loi de Starling tient compte de la pression oncotique qui tend à faire rentrer du liquide dans le compartiment intravasculaire et de la pression hydrostatique qui tend à faire sortir ce liquide. La membrane capillaire est perméable à l’eau et aux électrolytes mais imperméable aux protéines. La pression oncotique reste constante du côté artériolaire au côté veineux."
+    },
+    {
+      "id": "q23",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de déséquilibre des forces de Starling pouvant entraîner un œdème ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution de la pression hydrostatique plasmatique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hypoalbuminémie suite à une réduction de la synthèse hépatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la perméabilité capillaire (inflammation).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une obstruction lymphatique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les déséquilibres des forces de Starling peuvent être causés par une augmentation de la pression hydrostatique plasmatique, une diminution de la pression oncotique plasmatique (hypoalbuminémie), une augmentation de la perméabilité capillaire (passage de protéines dans l’interstitium) ou une obstruction lymphatique."
+    },
+    {
+      "id": "q24",
+      "difficulty": "intermediaire",
+      "question": "Comment l'eau se déplace-t-elle entre le liquide intracellulaire (SIC) et le liquide extracellulaire (SEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le transfert est actif et nécessite de l'énergie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La membrane cellulaire est imperméable à l'eau.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'eau va toujours du milieu le moins concentré en osmoles vers le milieu le plus concentré.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le mouvement dépend de l'osmolalité intra et extracellulaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le transfert de l’eau entre SIC et SEC est passif à travers la membrane cellulaire et dépend de l’osmolalité intra et extracellulaire. L’eau va toujours du milieu le moins concentré en osmoles vers le milieu le plus concentré pour équilibrer les deux milieux."
+    },
+    {
+      "id": "q25",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les composants de l'osmolalité plasmatique efficace (tonicité plasmatique) et pourquoi l'urée en est-elle écartée en pratique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est calculée comme 2(Na+ + K+) + urée + glucose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est calculée comme 2(Na+) + glucose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'urée est écartée car elle pénètre progressivement la membrane cellulaire et la barrière hémato-encéphalique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est indépendante de la natrémie en conditions d'euglycémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tonicité plasmatique est calculée comme 2(Na+) + glucose (en mmol/l). L’urée pénètre progressivement la membrane cellulaire et la barrière hémato-encéphalique, raison pour laquelle elle est, en pratique, écartée du calcul de l’osmolalité efficace ou tonicité plasmatique. L’osmolalité efficace dépend de la natrémie dans les conditions d’euglycémie."
+    },
+    {
+      "id": "q26",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la réabsorption obligatoire de l'eau au niveau rénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est indépendante de toute action hormonale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle se fait principalement au niveau du tube collecteur.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Environ 70% de l'eau filtrée est réabsorbée au niveau du tube contourné proximal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est facilitée par les aquaporines de type 2 (AQP-2).",
+          "correct": false
+        }
+      ],
+      "explanation": "La réabsorption obligatoire de l'eau est indépendante de toute action hormonale et se fait essentiellement au niveau du tube proximal, où environ 70% de l'eau filtrée est réabsorbée. Elle est facilitée par les aquaporines de type 1 (insensibles à l'ADH)."
+    },
+    {
+      "id": "q27",
+      "difficulty": "intermediaire",
+      "question": "Où se fait la réabsorption facultative de l'eau et de quoi dépend-elle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se fait au niveau de la branche ascendante de l'anse de Henlé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est surtout ADH dépendante.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle se fait au niveau de la portion terminale du tube contourné distal et du tube collecteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle représente environ 70% de l'eau réabsorbée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réabsorption facultative est surtout ADH dépendante et se fait au niveau de la portion terminale du tube contourné distal (TCD) et du tube collecteur. Elle représente environ 20% de l’eau réabsorbée."
+    },
+    {
+      "id": "q28",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les mécanismes de réabsorption du sodium au niveau du tube contourné proximal (TCP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le transport du Na+ au pôle apical est favorisé par des cotransporteurs Na+/glucose, Na+/acides aminés, Na+/phosphore.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le Na+ sort de la cellule du côté basolatéral par un transport passif.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'antiport Na+/H+ contribue au transport du Na+ au pôle apical.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La Na+/K+ ATPase est active au pôle apical.",
+          "correct": false
+        }
+      ],
+      "explanation": "Au niveau du TCP, le transport du Na+ au pôle apical est favorisé par des cotransporteurs spécifiques (Na+/glucose, Na+/acides aminés, Na+/phosphore) ou des antiports Na+/H+. Le Na+ sort de la cellule du côté basolatéral par un transport actif grâce à la Na+/K+ ATPase et accessoirement par un cotransport Na+ HCO3-."
+    },
+    {
+      "id": "q29",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs qui augmentent la libération de l'ADH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une osmolarité plasmatique diminuée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une diminution du volume sanguin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation de la pression artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les nausées et l'hypoxie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'alcool.",
+          "correct": false
+        }
+      ],
+      "explanation": "La libération de l’ADH est augmentée par une osmolarité élevée, une diminution du volume sanguin, une diminution de la pression artérielle, les nausées, l'hypoxie et certaines drogues comme la morphine, la nicotine et le cyclophosphamide."
+    },
+    {
+      "id": "q30",
+      "difficulty": "intermediaire",
+      "question": "Comment l'ADH agit-elle sur le rein pour augmenter la réabsorption d'eau ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle se fixe aux récepteurs V1 situés au niveau vasculaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle augmente l'AMPc intracellulaire via les récepteurs V2.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle provoque l'insertion d'aquaporines 2 (AQP-2) à la membrane apicale des cellules du tube collecteur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle rend la membrane apicale imperméable à l'eau en l'absence d'ADH.",
+          "correct": true
+        }
+      ],
+      "explanation": "L’ADH se fixe au récepteur V2, situé au pôle baso-latéral des cellules du tube collecteur, ce qui augmente l’AMPc intra-cellulaire. La protéine kinase A permet l’insertion à la membrane apicale de vésicules contenant l'aquaporine 2 (AQP-2). En l’absence d’ADH, l’AQP-2 apicale est ré-internalisée et la membrane apicale redevient imperméable à l’eau."
+    },
+    {
+      "id": "q31",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les stimuli qui déclenchent la sensation de soif ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une osmolarité plasmatique diminuée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation de l'osmolarité plasmatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une diminution du volume sanguin.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'angiotensine II.",
+          "correct": true
+        }
+      ],
+      "explanation": "La sensation de soif apparaît quand l’osmolarité plasmatique augmente (stimulation des osmorécepteurs) ou quand le volume sanguin diminue (stimulation des barorécepteurs et à un moindre degré de l’angiotensine II)."
+    },
+    {
+      "id": "q32",
+      "difficulty": "intermediaire",
+      "question": "Comment le rétrocontrôle tubulo-glomérulaire régule-t-il le débit de filtration glomérulaire (DFG) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du DFG entraîne une diminution du flux au niveau de la macula densa.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules de la macula densa détectent les variations du débit de NaCl.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du débit de NaCl induit la libération d'adénosine qui contracte l'artériole afférente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ce mécanisme vise à provoquer des variations brusques et importantes du DFG.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le rétrocontrôle tubulo-glomérulaire s’oppose aux perturbations du débit intra-tubulaire distal. Les cellules de la macula densa détectent les variations du débit de NaCl. Si ce débit augmente, elles induisent la libération d’adénosine qui diffuse vers l’artère afférente (AA) et la contracte, ramenant le DFG à la normale."
+    },
+    {
+      "id": "q33",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les stimuli de la sécrétion de rénine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'activation du système nerveux parasympathique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La baisse de la pression artérielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une déplétion sodée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le système nerveux sympathique.",
+          "correct": true
+        }
+      ],
+      "explanation": "La sécrétion de rénine répond à trois stimuli : le système nerveux sympathique, la baisse de la pression artérielle et la présence d’une déplétion sodée."
+    },
+    {
+      "id": "q34",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets de l'aldostérone sur le rein et le volume extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle diminue la réabsorption de sodium au niveau du tube collecteur.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle augmente la réabsorption de sodium par les cellules principales du tube collecteur.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle s'accompagne d'une excrétion identique de potassium.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Son effet final est de diminuer le volume du compartiment extracellulaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L’aldostérone augmente la réabsorption de sodium au niveau du tube collecteur par les cellules principales. Cette réabsorption de sodium s’accompagne d’une excrétion identique de potassium. L’effet final de l’aldostérone est d’augmenter le volume du compartiment extracellulaire."
+    },
+    {
+      "id": "q35",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les effets du facteur atrial natriurétique (FAN) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il a un effet diurétique et natriurétique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il augmente la sécrétion de rénine et d'aldostérone.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il inhibe la réabsorption de sodium au niveau tubulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il provoque une vasoconstriction des artères.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il lutte contre une surcharge hydrique de l'organisme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le FAN a un effet diurétique et natriurétique par son action sur la filtration glomérulaire et son effet inhibiteur sur la réabsorption de sodium au niveau tubulaire. Il réduit la sécrétion de rénine, d’aldostérone et de catécholamines, et relaxe les fibres musculaires lisses des artères, induisant une chute de la tension artérielle. Le bilan global est de lutter contre une surcharge hydrique."
+    },
+    {
+      "id": "q36",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et paracliniques d'une hyperhydratation extracellulaire (HEC) d'installation brusque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une prise de poids significative.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypotension artérielle volo-dépendante.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un risque d'œdèmes viscéraux comme l'OAP ou l'œdème cérébral.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hémodilution avec diminution de l'hématocrite et de la protidémie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une natriurèse élevée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'HEC d'installation brusque touche le secteur vasculaire, entraînant une prise de poids, une HTA volo-dépendante et un risque d’œdèmes viscéraux (OAP, œdème cérébral). Sur le plan paraclinique, on observe une hémodilution (diminution de l'hématocrite et de la protidémie) et une natriurèse basse (hyperaldostéronisme secondaire)."
+    },
+    {
+      "id": "q37",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies de l'hyperhydratation extracellulaire (HEC) liées à une diminution de la pression oncotique plasmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome néphritique aigu.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le syndrome néphrotique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'entéropathie exsudative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La cirrhose hépatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La dénutrition.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les étiologies de l'HEC par diminution de la pression oncotique plasmatique incluent les fuites protéiques (syndrome néphrotique, entéropathie exsudative) et la diminution de synthèse hépatique (hépatopathie chronique comme la cirrhose, dénutrition)."
+    },
+    {
+      "id": "q38",
+      "difficulty": "difficile",
+      "question": "Quels sont les principes du traitement symptomatique de l'hyperhydratation extracellulaire (HEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Induire un bilan sodé positif.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mettre en place un régime hyposodé ou désodé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Administrer des diurétiques natriurétiques, notamment les diurétiques de l'anse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Maintenir une hydratation abondante.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Utiliser des diurétiques épargneurs de K+ en cas de résistance aux diurétiques de l'anse.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement symptomatique de l'HEC vise à induire un bilan sodé négatif par un régime hyposodé (< 6g NaCl/j) ou désodé (<2g Na/j) sous restriction hydrique. Les diurétiques natriurétiques, dont les plus puissants sont les diurétiques de l’anse, sont utilisés. Les diurétiques épargneurs de K+ peuvent être utilisés en cas de résistance."
+    },
+    {
+      "id": "q39",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de surveillance clinique et paraclinique d'un patient traité pour une hyperhydratation extracellulaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance du poids, de la pression artérielle et de la diurèse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Recherche d'œdèmes au niveau des lombes chez un patient alité.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance de la fonction rénale (créatinine plasmatique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Surveillance de la natrémie et de la kaliémie, surtout sous diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le périmètre ombilical n'est pas pertinent en cas d'ascite.",
+          "correct": false
+        }
+      ],
+      "explanation": "La surveillance clinique inclut le poids, la PA, la diurèse, le syndrome œdémateux (y compris les lombes chez l'alité) et le périmètre ombilical en cas d'ascite. La surveillance paraclinique comprend la fonction rénale (créatinine plasmatique) et la natrémie et kaliémie (surtout sous diurétiques)."
+    },
+    {
+      "id": "q40",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques des fausses hyponatrémies (factices ou hypertoniques) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les hyponatrémies factices sont isotonoiques et peuvent être dues à une hyperprotidémie ou hyperlipidémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dans les hyponatrémies factices, l'hydratation du secteur intracellulaire est anormale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les pseudo-hyponatrémies (hypertoniques) sont observées lors d'hyperglycémies majeures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Dans les pseudo-hyponatrémies, l'osmolalité plasmatique est hypoosmolaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La natrémie corrigée est utilisée pour évaluer la vraie natrémie en cas d'hyperglycémie.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les fausses hyponatrémies incluent les hyponatrémies factices (isotonoiques, hyperprotidémie/hyperlipidémie, osmolalité normale) et les pseudo-hyponatrémies (hypertoniques, hyperglycémies majeures, intoxication par méthanol/éthanol, hyperosmolalité plasmatique). La natrémie corrigée est utilisée pour les hyperglycémies."
+    },
+    {
+      "id": "q41",
+      "difficulty": "difficile",
+      "question": "Quels sont les critères diagnostiques du syndrome de sécrétion inappropriée d'ADH (SIADH) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Osmolalité plasmatique < 275 mosmol/Kg.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Osmolalité urinaire < 100 mos/kg en situation d'hyponatrémie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Euvolémie clinique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Natriurèse (Na+ U) > 30 mmol/l en conditions d'apports sodés et hydriques normaux.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Présence d'une hypothyroïdie ou d'une insuffisance surrénalienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères diagnostiques du SIADH sont : Osmolalité plasmatique < 275 mosmol/Kg, Osmolalité urinaire > 100 mos/kg (en situation d’hyponatrémie), Euvolémie clinique, Na+ U > 30 mmol/l (en conditions d’apports sodés et hydriques normaux), Absence d’hypothyroïdie, d’insuffisance surrénalienne, de traitement diurétique, et fonction rénale normale. L'option B est incorrecte car l'osmolalité urinaire doit être > 100 mosm/kg."
+    },
+    {
+      "id": "q42",
+      "difficulty": "difficile",
+      "question": "Quelles sont les recommandations pour la correction d'une hyponatrémie aiguë et/ou sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'objectif initial est d'augmenter la natrémie de 5 mmol/l la première heure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La correction doit être rapide, sans limite de vitesse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'apport de sérum salé hypertonique (NaCl 3%) est recommandé.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ne pas dépasser +10 mmol/L de natrémie dans les 24 premières heures et 8 mmol/L durant les 24h suivantes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La natrémie doit être normalisée en moins de 12 heures.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d’hyponatrémie aiguë et/ou sévère, le traitement doit être immédiat. L’objectif est d’augmenter la natrémie de 5 mmol/l la première heure. La correction doit être lente et prudente (1 à 2 mmol/l par heure jusqu’à 125 mmol/L, puis plus ralentie pour normaliser en 48 à 72 heures). L’apport de sérum salé hypertonique (NaCl 3%) est proposé. Il ne faut pas dépasser +10 mmol/L de natrémie dans les 24 premières heures et 8 mmol/L durant les 24h suivantes (soit ≤ 18 mmol/L sur 48 h) jusqu’à atteindre 130 mmol/L."
+    },
+    {
+      "id": "q43",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de myélinolyse centropontine lors de la correction d'une hyponatrémie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La chronicité de l'installation et la profondeur de l'hyponatrémie (< 120 mmol/l).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La rapidité de la correction de la natrémie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'éthylisme et la malnutrition.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hyperkaliémie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'hyperoxie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de myélinolyse centropontine sont la chronicité de l’installation et la profondeur de l’hyponatrémie (< 120 mmol/l), la rapidité de sa correction, l’éthylisme, la malnutrition, l’hypoxie et l’hypokaliémie."
+    },
+    {
+      "id": "q44",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques d'une déshydratation extracellulaire (DHEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un pli cutané persistant, surtout à la face interne de la cuisse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypertonie des globes oculaires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une hypotension orthostatique et une tachycardie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des veines superficielles turgescentes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une oligurie avec urines concentrées en cas de pertes extra-rénales.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques de DHEC incluent une perte de poids, un pli cutané (parfois difficile à interpréter), une hypotonie des globes oculaires, une dépression de la fontanelle chez le nourrisson, une hypotension orthostatique puis du décubitus avec tachycardie, des veines superficielles aplaties, une PVC basse et une oligurie avec urines concentrées si les pertes sont extra-rénales."
+    },
+    {
+      "id": "q45",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies de déshydratation extracellulaire (DHEC) avec pertes rénales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les vomissements abondants.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La prise de diurétiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les néphropathies chroniques avec perte obligatoire de sel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome de levée d'obstacle des uropathies.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les diarrhées abondantes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les pertes rénales de sodium et d'eau, avec une réponse rénale inappropriée (natriurèse élevée > 20 mmol/l), peuvent être causées par les diurétiques, les néphropathies chroniques avec perte obligatoire de sel (néphrite interstitielle chronique, néphronophtise, polykystose rénale), le syndrome de levée d’obstacle des uropathies, la reprise de diurèse des NTA et après transplantation rénale, l'insuffisance surrénalienne aiguë et les diurèses osmotiques (coma hyperosmolaire, hypercalcémie, mannitol)."
+    },
+    {
+      "id": "q46",
+      "difficulty": "difficile",
+      "question": "Quels sont les principes du traitement symptomatique de la déshydratation extracellulaire (DHEC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apporter des solutés hypotoniques d'eau et de sel.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'hypotension artérielle et d'insuffisance rénale fonctionnelle, perfuser des solutés colloïdes ou macromolécules en urgence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Chez le sujet âgé ou insuffisant cardiaque, la correction doit être plus rapide.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pour les formes modérées sans vomissement, la voie orale (eau + sodium) est privilégiée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Poursuivre la réhydratation IV par du sérum salé isotonique après les colloïdes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le traitement symptomatique repose sur l'apport de solutés isotoniques d'eau et de sel. En cas d'hypotension artérielle et d'IRF, c'est une urgence médicale nécessitant une perfusion IV de solutés colloïdes ou macromolécules, puis du sérum salé isotonique. Pour les formes modérées sans vomissement, la voie orale est privilégiée. Chez le sujet âgé ou insuffisant cardiaque, la correction doit être plus lente."
+    },
+    {
+      "id": "q47",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques et biologiques d'une déshydratation intracellulaire (DIC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La soif est un signe essentiel.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une sécheresse des muqueuses et de la cavité buccale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une osmolalité plasmatique < 305 mosm/kg d'eau.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une hypernatrémie > 145 mmol/l est souvent présente.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des signes neuropsychiques comme l'agitation, le délire ou le coma sont des signes de gravité.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes cliniques de DIC incluent la soif (signe essentiel), la sécheresse des muqueuses et de la cavité buccale, la fièvre, la perte de poids, la polypnée d'origine centrale et des signes neuropsychiques (agitation, délire, torpeur, coma, hématomes sous-duraux ou intracérébraux, crises convulsives) qui sont des signes de gravité. Biologiquement, on observe une osmolalité plasmatique > 305 mosm/kg d’eau et souvent une hypernatrémie > 145 mmol/l."
+    },
+    {
+      "id": "q48",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies de la déshydratation intracellulaire (DIC) pure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le diabète insipide central (insuffisance de sécrétion d'ADH).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le diabète insipide néphrogénique (défaut de sensibilité du tube collecteur à l'ADH).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les pertes hydriques extra-rénales comme la polypnée fébrile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'arrêt brutal de l'intoxication par l'eau en cas de potomanie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La cirrhose hépatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La DIC pure est la conséquence d'une perte d'eau pure sans perte de sel. Les étiologies incluent les pertes rénales (diabète insipide central ou néphrogénique) et les pertes hydriques extra-rénales (patients intubés/ventilés, comateux, polypnée fébrile). L'arrêt brutal de l'intoxication par l'eau en cas de potomanie est également une cause."
+    },
+    {
+      "id": "q49",
+      "difficulty": "difficile",
+      "question": "Quelles sont les modalités de traitement de la déshydratation intracellulaire (DIC) pure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apport d'eau pure par voie intraveineuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Apport d'eau per os si le patient est conscient.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de sérum glucosé 2,5% par perfusion IV.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La correction de la natrémie ne doit pas dépasser 10 mmol/J en cas d'hypernatrémie chronique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La priorité est la correction de l'hypovolémie avant l'apport d'eau.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour la DIC pure, le traitement est l'apport d'eau pure en quantité suffisante, soit per os si possible, par sonde gastrique, ou par perfusion IV de sérum glucosé 2,5% (jamais d'eau pure IV en raison du risque d'hémolyse et d'œdème cérébral). En cas d'hypernatrémie chronique, la baisse de la natrémie ne doit pas dépasser 10 mmol/J."
+    },
+    {
+      "id": "q50",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments de surveillance clinique et paraclinique d'un patient traité pour une déshydratation intracellulaire (DIC) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surveillance du poids, de la pression artérielle et de la diurèse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Surveillance de l'état de conscience et des signes neurologiques pour déceler une complication.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surveillance de la natrémie, dont le rythme dépend de la sévérité de l'hypernatrémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La fonction rénale (urée, créatinine plasmatique) et la kaliémie ne sont pas pertinentes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Recherche de signes respiratoires en cas de surcharge pulmonaire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La surveillance clinique inclut le poids, la PA, la diurèse, l'état extracellulaire, les signes respiratoires et l'état de conscience/signes neurologiques pour déceler des complications. Sur le plan biologique, il faut surveiller la natrémie (rythme selon sévérité), la fonction rénale (urée, créatinine plasmatique) et la kaliémie (surtout sous diurétiques)."
+    }
+  ]
+}

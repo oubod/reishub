@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-32",
+  "title": "Fièvre au long cours",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une fièvre selon les critères de température centrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Température ≥ 38°C le matin ou ≥ 38,3°C le soir.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Température ≥ 37,5°C le matin ou ≥ 38°C le soir.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Température ≥ 38,3°C à tout moment de la journée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Température ≥ 37,8°C le matin ou ≥ 38°C le soir.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Température ≥ 38°C à tout moment de la journée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre est définie par une hausse de la température centrale au-dessus des variations normales circadiennes, soit ≥ 38°C le matin ou ≥ 38,3°C le soir."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les conditions recommandées pour une prise de température fiable ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Après un repas copieux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Immédiatement après un effort physique intense.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Après 20 minutes de repos.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par voie axillaire ou buccale, en ajoutant 0,5°C pour la température centrale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Par voie tympanique sans ajustement.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les conditions de prise de température incluent : à distance des repas, après 20 minutes de repos. Les voies de prise sont axillaire ou buccale (ajouter +0,5°C pour obtenir la température centrale) ou par voie tympanique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cardiovasculaires de gravité d'un sepsis grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fréquence cardiaque (FC) < 100/min.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Pression artérielle systolique (PAS) > 120 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "FC > 120/min.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "PAS < 90 mmHg ou une diminution de 40 mmHg par rapport à la valeur habituelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pression artérielle moyenne (PAM) > 70 mmHg.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cardiovasculaires de sepsis grave incluent une FC > 120/min, une PAS < 90 mmHg (ou une diminution de 40 mmHg), et une PAM < 65 mmHg."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Chez le sujet âgé, quelles sont les caractéristiques de la symptomatologie en cas d'infection ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symptomatologie toujours typique et bruyante.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Fièvre systématiquement présente et élevée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Symptomatologie souvent atypique et pauci-symptomatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Manifestations dominées par des troubles neurologiques comme un état confusionnel.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Prévalence supérieure des infections pulmonaires, urinaires et digestives.",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le sujet âgé, la symptomatologie est souvent atypique, pauci-symptomatique, dominée par des manifestations générales et neurologiques (état confusionnel). La fièvre peut être absente en cas d’infection, et il y a une prévalence supérieure des infections pulmonaires, urinaires et digestives."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Dans quel cas l'antibiothérapie n'est-elle pas indiquée en urgence devant une fièvre sans diagnostic ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sepsis grave ou choc septique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Patient asplénique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Neutropénie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Purpura fulminans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Autre immunodépression ou décompensation sans signe de gravité.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les indications d'antibiothérapie urgente devant une fièvre sans diagnostic sont le sepsis grave/choc septique, le patient asplénique, la neutropénie et le purpura fulminans. Pour les autres immunodépressions ou décompensations, il s'agit d'une urgence diagnostique avant l'antibiothérapie."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations concernant la relation entre fièvre et infection sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La fièvre est toujours synonyme d'infection.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une infection peut se présenter sans fièvre, comme dans le choléra ou le tétanos.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une infection chronique comme l'ostéite peut être afébrile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une bactériémie à bacilles Gram négatif (BGN) peut s'accompagner d'hypothermie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hypothermie exclut toujours une origine infectieuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre n'est pas synonyme d'infection. Une infection peut exister sans fièvre (toxi-infection comme le choléra, tétanos, ou infection chronique comme l'ostéite). De plus, une infection peut s'accompagner d'hypothermie, notamment une bactériémie à BGN."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les retentissements possibles de la fièvre sur l'organisme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une diminution des pertes hydriques.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une déshydratation due à une augmentation des pertes hydriques de 400 mL/degré au-dessus de 37°C.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une décompensation cardio-respiratoire avec une augmentation de la FC et FR de 10 bpm/degré au-dessus de 37°C.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une diminution des besoins en oxygène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des troubles neurologiques tels que convulsions ou délire.",
+          "correct": true
+        }
+      ],
+      "explanation": "La fièvre peut entraîner une déshydratation (augmentation des pertes hydriques de 400 mL/degré au-dessus de 37°C), une décompensation cardio-respiratoire (augmentation de la FC et FR de 10 bpm/degré au-dessus de 37°C et majoration des besoins en oxygène), ainsi que des retentissements neurologiques (troubles du comportement, convulsions, délire, coma)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors de la démarche diagnostique chez une femme enceinte fébrile, quelles recherches sont systématiquement recommandées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pyélonéphrite, surtout au 3ème trimestre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une infection abdominale de forme trompeuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une listériose par hémocultures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un contage de toxoplasmose, rubéole, CMV ou varicelle.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une endocardite infectieuse par hémocultures.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez la femme enceinte, il faut rechercher systématiquement une pyélonéphrite (surtout au 3ème trimestre), une infection abdominale de forme trompeuse, une listériose par hémocultures, et des notions de contage de toxoplasmose, rubéole, CMV ou varicelle."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque d'immunodépression mentionnés dans le contexte de la fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypogammaglobulinémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une splénectomie ou asplénie fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une lymphopénie T.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un traitement immunosuppresseur ou une corticothérapie prolongée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une insuffisance cardiaque isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque d'immunodépression incluent le déficit humoral (hypogammaglobulinémie, splénectomie, asplénie fonctionnelle), le déficit cellulaire (VIH, lymphopénie T), la neutropénie, le traitement immunosuppresseur et la corticothérapie prolongée."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Chez un patient immunodéprimé par un déficit humoral, quels sont les agents infectieux à rechercher en priorité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pseudomonas aeruginosa.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bactéries encapsulées comme le pneumocoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Candida sp.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Méningocoque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Haemophilus.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de déficit humoral, les bactéries encapsulées comme le pneumocoque, le méningocoque et Haemophilus sont à rechercher en priorité."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles situations justifient une hospitalisation en cas de fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence de signes de gravité (sepsis grave/choc septique).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Terrain à risque (femme enceinte, décompensation de comorbidité, immunodépression).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Difficulté de prise orale des antibiotiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Isolement social ou difficultés d'observance prévisibles.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fièvre aiguë isolée chez un sujet jeune sans comorbidité.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications d'hospitalisation sont les signes de gravité, le terrain à risque, la difficulté de prise orale des antibiotiques, l'isolement social ou les difficultés d'observance prévisibles, et l'absence d'amélioration malgré réévaluation et/ou adaptation thérapeutique à 48-72h. Une fièvre aiguë isolée chez un sujet jeune sans comorbidité ne justifie pas d'hospitalisation."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à l'utilisation du paracétamol comme antipyrétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Insuffisance rénale chronique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hépatite aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Insuffisance hépatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grossesse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Allaitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contre-indications au paracétamol sont l'hépatite aiguë et l'insuffisance hépatique."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Pourquoi l'aspirine et les anti-inflammatoires non stéroïdiens (AINS) ne sont-ils pas recommandés comme antipyrétiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque de syndrome de Reye en cas de virose chez l'enfant.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Risque de complication loco-régionale grave en cas de foyer bactérien.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque de complication systémique grave en cas de foyer bactérien.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inefficacité prouvée sur la fièvre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Coût élevé par rapport au paracétamol.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aspirine et les AINS ne sont pas recommandés en raison du risque de syndrome de Reye en cas de virose chez l'enfant, et du risque de complication loco-régionale ou systémique grave en cas de foyer bactérien."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "En cas de fièvre persistante sans étiologie évidente depuis plus de 72 heures, quel bilan standard est recommandé avant toute antibiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hémocultures.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Numération Formule Sanguine (NFS).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ionogramme sanguin, urée, créatininémie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bilan hépatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Gaz du sang (GDS) et lactatémie systématiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de fièvre persistante sans étiologie évidente depuis plus de 72 heures, il faut réaliser des hémocultures (prélevées avant toute antibiothérapie) et un bilan standard comprenant NFS, ionogramme, urée, créatininémie, bilan hépatique, bandelette urinaire (BU) et radiographie pulmonaire (RP). Les GDS et la lactatémie sont indiqués si des signes de gravité sont présents."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les risques infectieux accrus chez le patient diabétique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation du risque d'infection à Staphylococcus aureus, notamment cutanée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Risque accru de plaie du pied infectée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque élevé d'infection du site opératoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Risque spécifique d'infection invasive à pneumocoque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Risque de listériose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diabète augmente le risque d'infection à S. aureus (notamment cutanée : plaie du pied) et d'infection du site opératoire."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications infectieuses spécifiques à surveiller chez un patient cirrhotique fébrile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection invasive à pneumocoque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection du liquide d'ascite.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Endocardite infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Pyélonéphrite.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Toxi-infection alimentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le patient cirrhotique, 25% des décès sont dus à une infection, avec un risque accru d'infection invasive à pneumocoque et d'infection du liquide d'ascite."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "En cas de sepsis grave sans point d'appel évident, quelle est la prise en charge initiale recommandée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antibiothérapie probabiliste.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Remplissage vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Scanner thoraco-abdomino-pelvien en urgence dès stabilisation du patient.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hospitalisation en ambulatoire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Attendre les résultats des hémocultures avant toute intervention.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas de sepsis grave sans point d'appel évident, la prise en charge inclut une antibiothérapie probabiliste, un remplissage vasculaire et un scanner thoraco-abdomino-pelvien en urgence dès stabilisation du patient."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Parmi les étiologies non infectieuses de fièvre, lesquelles sont d'origine médicamenteuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Syndrome malin des neuroleptiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome sérotoninergique (ISRS).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coup de chaleur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Effets secondaires des antiparkinsoniens.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Thyrotoxicose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes médicamenteuses de syndrome d'hyperthermie incluent le syndrome malin des neuroleptiques, les ISRS et les antiparkinsoniens. Le coup de chaleur est lié à l'environnement et la thyrotoxicose est une endocrinopathie."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques neurologiques pouvant indiquer un sepsis grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Angoisse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Agitation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Confusion.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prostration.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Convulsions isolées.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes neurologiques de sepsis grave sont l'angoisse, l'agitation, la confusion, les troubles du comportement, la prostration et le coma."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cutanés sont évocateurs d'un sepsis grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éruption maculo-papuleuse généralisée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Purpura.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Extrémités froides et cyanosées.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Marbrures.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Érysipèle localisé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cutanés de sepsis grave incluent le purpura, les extrémités froides et cyanosées, et les marbrures."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères rénaux définissant un sepsis grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polyurie > 5 mL/kg/h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Oligurie < 5 mL/kg/h.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anurie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Douleur à la percussion lombaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Brûlures mictionnelles.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères rénaux de sepsis grave sont l'oligurie < 5 mL/kg/h ou l'anurie."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors de l'interrogatoire d'un patient fébrile, quels éléments sont importants à recueillir pour la démarche diagnostique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un voyage récent.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La notion de contage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un antécédent de chirurgie récente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La profession (exposition aux animaux, eaux usées).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La prise de médicaments.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'interrogatoire doit couvrir le contexte (voyage récent, contage, post-opératoire, prise de risque), la profession (exposition aux animaux, eaux usées), les loisirs (baignade en eau douce, forêt), le terrain (matériel prothétique, cathéter) et la prise médicamenteuse."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Lors de l'examen clinique d'un patient fébrile, quels signes abdominaux doivent être recherchés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diarrhée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Signe de Murphy.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Défense ou contracture.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hépatosplénomégalie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleur à la percussion lombaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen abdominal doit rechercher une diarrhée, un signe de Murphy, une défense, une contracture et une hépatosplénomégalie. La douleur à la percussion lombaire est un signe urinaire."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cutanés doivent être recherchés lors de l'examen clinique d'un patient fébrile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éruption.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Érysipèle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Escarre d'inoculation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plaie d'allure infectée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Purpura conjonctival.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen cutané doit rechercher une éruption, un érysipèle, une escarre d'inoculation, une plaie d'allure infectée ou une cicatrice inflammatoire ou purulente. Le purpura conjonctival est un signe ophtalmologique."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Chez un patient toxicomane par voie intraveineuse (IV) fébrile, quels agents infectieux sont fréquemment rencontrés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Staphylococcus aureus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Pseudomonas aeruginosa.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Candida sp.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pneumocoque.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Méningocoque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les toxicomanes IV, les infections à staphylocoque sont surtout fréquentes, mais Pseudomonas aeruginosa et Candida sp sont également possibles."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'évolution de la fièvre, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une fièvre aiguë dure généralement moins de 5 jours et est majoritairement d'origine infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une fièvre prolongée dure plus de 20 jours et est toujours d'origine infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une fièvre prolongée dure plus de 20 jours et sa cause est infectieuse dans moins de 50% des cas.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La durée de la fièvre n'a pas d'impact sur la probabilité d'une cause infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une fièvre de 10 jours est considérée comme prolongée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une fièvre aiguë dure moins de 5 jours et est généralement de cause infectieuse. Une fièvre prolongée dure plus de 20 jours et sa cause est infectieuse dans moins de 50% des cas."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Chez un patient présentant une neutropénie de longue durée, quels sont les agents pathogènes à considérer en priorité ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entérobactéries.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Staphylocoques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Pseudomonas aeruginosa.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Candida sp.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aspergillus.",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de neutropénie de longue durée, il faut rechercher Pseudomonas aeruginosa et des infections fongiques (Candida, Aspergillus). Les entérobactéries et staphylocoques sont plus fréquents en neutropénie de courte durée."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les agents pathogènes les plus fréquemment associés à une neutropénie de courte durée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pseudomonas aeruginosa.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entérobactéries.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Staphylocoques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Streptocoques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Aspergillus.",
+          "correct": false
+        }
+      ],
+      "explanation": "La neutropénie de courte durée est associée aux entérobactéries, staphylocoques, streptocoques et entérocoques. Pseudomonas aeruginosa et Aspergillus sont plutôt liés à une neutropénie de longue durée."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient asplénique présente une fièvre sans diagnostic évident. Quelle est la conduite à tenir immédiate ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rassurer le patient et le revoir à 48h si la fièvre persiste.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réaliser un bilan standard (NFS, iono, etc.) et attendre les résultats.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Administrer une antibiothérapie urgente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Rechercher des signes de gravité avant toute décision.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Hospitaliser pour surveillance rapprochée sans antibiothérapie immédiate.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'indication d'antibiothérapie urgente devant une fièvre sans diagnostic inclut le patient asplénique, en raison du risque élevé d'infections fulminantes à bactéries encapsulées."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est l'intérêt de la CRP et de la PCT dans la démarche diagnostique d'une fièvre persistante sans étiologie évidente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elles sont systématiquement indiquées pour confirmer un diagnostic infectieux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elles n'ont aucun intérêt si le diagnostic est évident.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elles peuvent orienter vers une étiologie virale ou bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elles sont des marqueurs spécifiques de l'inflammation non infectieuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elles permettent de différencier une fièvre aiguë d'une fièvre prolongée.",
+          "correct": false
+        }
+      ],
+      "explanation": "La CRP et la PCT n'ont aucun intérêt en cas de diagnostic évident, mais peuvent orienter vers une étiologie virale ou bactérienne selon la situation."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations l'antibiothérapie n'est-elle pas indiquée en l'absence de foyer infectieux évident ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre persistante sans étiologie évidente depuis moins de 72h.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Enfant ou adulte jeune sans signe de gravité, avec une fièvre sans point d'appel évident.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En test diagnostique pour une fièvre d'origine inconnue.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Sepsis grave avec point d'appel évident.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Patient asplénique fébrile.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il n'y a aucune indication d'antibiothérapie sans foyer infectieux ni en test diagnostique pour une fièvre persistante sans étiologie évidente depuis moins de 72h. Chez l'enfant ou l'adulte jeune sans signe de gravité et sans point d'appel évident, il s'agit généralement d'une virose avec guérison spontanée."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Chez un patient infecté par le VIH et fébrile, quelles sont les considérations diagnostiques en fonction du taux de CD4 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Si CD4 < 200/mm³, la recherche d'infections opportunistes est prioritaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Si CD4 > 200/mm³, les infections bactériennes sont fréquentes, notamment à pneumocoque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le taux de CD4 n'influence pas le type d'infection à rechercher.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Les infections fongiques sont rares quel que soit le taux de CD4.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les infections virales sont les seules à considérer si CD4 > 200/mm³.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les patients VIH, si les CD4 < 200/mm³, il faut rechercher des infections opportunistes. Si les CD4 > 200/mm³, les infections bactériennes sont fréquentes, notamment à pneumocoque."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles situations peuvent entraîner un Syndrome de Réponse Inflammatoire Systémique (SRIS) non infectieux, se manifestant par une hyperthermie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une chirurgie majeure.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un polytraumatisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un hématome volumineux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une hémorragie méningée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une thyrotoxicose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le SRIS peut être causé par une chirurgie majeure, un polytraumatisme, un hématome volumineux, une hémorragie méningée ou une pancréatite. La thyrotoxicose est une endocrinopathie."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles maladies inflammatoires peuvent être une cause de fièvre au long cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lupus.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Still.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Syndrome des antiphospholipides (SAPL).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "DRESS syndrome.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Phéochromocytome.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les contextes inflammatoires pouvant causer de la fièvre incluent le lupus, la maladie de Still, le SAPL, le DRESS syndrome et l'érythrodermie. Le phéochromocytome est une endocrinopathie."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles étiologies néoplasiques peuvent se manifester par une fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nécrose tumorale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cancer multi-métastatique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémopathie maligne aiguë.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Adénome hypophysaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Kyste bénin du foie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les néoplasies pouvant causer de la fièvre sont la nécrose tumorale, le cancer multi-métastatique et l'hémopathie maligne aiguë."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant l'administration d'antipyrétiques, quelles sont les recommandations ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'administration est systématique dès l'apparition de la fièvre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La fièvre augmente les défenses de l'organisme et permet le suivi de l'évolution.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les antipyrétiques sont indiqués en cas de fièvre mal tolérée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont indiqués sur terrain particulier (insuffisant cardiaque/respiratoire, sujet âgé).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'administration doit être systématique et régulière pour éviter les rebonds de fièvre.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les antipyrétiques ne sont pas systématiques car la fièvre augmente les défenses et permet le suivi. Ils sont indiqués en cas de fièvre mal tolérée ou sur terrain particulier (insuffisant cardiaque/respiratoire, sujet âgé). L'administration doit être systématique et régulière pour éviter les rebonds de fièvre."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Un patient revient d'une zone d'endémie palustre et présente une fièvre. Quelle est la démarche diagnostique essentielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Éliminer systématiquement un paludisme.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réaliser un frottis sanguin.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaliser une goutte épaisse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Administrer une antibiothérapie probabiliste immédiate.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Rechercher en priorité une infection virale saisonnière.",
+          "correct": false
+        }
+      ],
+      "explanation": "Toute fièvre au retour des tropiques doit faire éliminer un paludisme et impose la réalisation d'un frottis et d'une goutte épaisse."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Chez un patient porteur d'une prothèse valvulaire et présentant une fièvre, quelle investigation est systématique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une échographie cardiaque transœsophagienne.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des hémocultures à la recherche d'une endocardite infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une recherche de foyers infectieux dentaires.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une bandelette urinaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une radiographie pulmonaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez un patient porteur d'une prothèse valvulaire, des hémocultures systématiques sont nécessaires à la recherche d'une endocardite infectieuse."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les particularités de la fièvre chez le sujet âgé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La symptomatologie est souvent atypique et pauci-symptomatique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les manifestations générales et neurologiques (état confusionnel) sont dominantes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La fièvre peut être absente en cas d'infection.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les infections pulmonaires, urinaires et digestives sont moins fréquentes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le diagnostic est toujours facile en raison de signes clairs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez le sujet âgé, la symptomatologie est souvent atypique, pauci-symptomatique, dominée par des manifestations générales et neurologiques (état confusionnel). La fièvre peut être absente en cas d’infection, et il y a une prévalence supérieure des infections pulmonaires, urinaires et digestives."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment la déshydratation est-elle quantifiée en cas de fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par une augmentation des pertes hydriques de 200 mL/degré au-dessus de 37°C.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Par une augmentation des pertes hydriques de 400 mL/degré au-dessus de 37°C.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Par une diminution des pertes hydriques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Uniquement par la présence de signes cliniques de déshydratation.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La fièvre n'entraîne pas de déshydratation significative.",
+          "correct": false
+        }
+      ],
+      "explanation": "La déshydratation est due à une augmentation des pertes hydriques de 400 mL/degré au-dessus de 37°C."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment la décompensation cardio-respiratoire est-elle caractérisée en cas de fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la fréquence cardiaque (FC) et respiratoire (FR) de 10 bpm/degré au-dessus de 37°C.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de la FC et FR de 10 bpm/degré au-dessus de 37°C.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Diminution des besoins en oxygène.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation des besoins en oxygène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle n'est pas directement liée à l'élévation de la température.",
+          "correct": false
+        }
+      ],
+      "explanation": "La décompensation cardio-respiratoire se manifeste par une augmentation de la FC et FR de 10 bpm/degré au-dessus de 37°C et une majoration des besoins en oxygène."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations l'hospitalisation n'est-elle généralement pas indiquée pour une fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fièvre aiguë isolée, bien tolérée, chez un sujet jeune sans comorbidité.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Infection bactérienne localisée évidente, non compliquée, accessible à une antibiothérapie probabiliste.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Tableau viral évident, bénin, bien toléré.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Absence d'amélioration malgré réévaluation thérapeutique à 48-72h.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Retour d'une zone d'endémie palustre sans signe de gravité.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hospitalisation n'est pas indiquée pour une fièvre aiguë isolée, bien tolérée, chez un sujet jeune sans comorbidité et sans foyer bactérien évident (sauf retour zone palustre avec suspicion VIH), ni pour une infection bactérienne localisée évidente, non compliquée, accessible à une antibiothérapie probabiliste, ni pour un tableau viral évident, bénin, bien toléré."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications d'une antibiothérapie urgente devant une fièvre sans diagnostic précis ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sepsis grave ou choc septique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Patient asplénique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Neutropénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Purpura fulminans.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Fièvre persistante sans étiologie évidente depuis 48h chez un sujet jeune.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications d'antibiothérapie urgente devant une fièvre sans diagnostic sont le sepsis grave/choc septique, le patient asplénique, la neutropénie et le purpura fulminans."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une autre immunodépression ou décompensation, quelle est la priorité avant d'initier une antibiothérapie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrer immédiatement une antibiothérapie à large spectre.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Réaliser une urgence diagnostique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Attendre la disparition spontanée de la fièvre.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hospitaliser le patient sans autre mesure.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Prescrire des antipyrétiques uniquement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour les autres immunodépressions ou décompensations, il s'agit d'une urgence diagnostique avant l'antibiothérapie."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors de l'examen clinique d'un patient fébrile, quels signes ORL doivent être recherchés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rhinorrhée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Angine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Douleur à la pression des sinus maxillaires ou frontaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Examen tympanique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Conjonctivite.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen ORL doit rechercher une rhinorrhée, une angine, une douleur à la pression des sinus maxillaires ou frontaux, et inclure un examen tympanique. La conjonctivite est un signe ophtalmologique."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels signes ostéo-articulaires doivent être recherchés lors de l'examen clinique d'un patient fébrile ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Impotence fonctionnelle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Épanchement articulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Point douloureux rachidien.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plaie du pied (notamment chez le diabétique).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleur prostatique au toucher rectal.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'examen ostéo-articulaire doit rechercher une impotence fonctionnelle, un épanchement, un point douloureux rachidien et une plaie du pied (diabète). La douleur prostatique est un signe urinaire."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Chez la femme enceinte fébrile, quelles infections spécifiques doivent être systématiquement recherchées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pyélonéphrite, surtout au 3ème trimestre.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Listériose par hémocultures.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infection abdominale de forme trompeuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Toxoplasmose, rubéole, CMV ou varicelle en cas de contage.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Paludisme, même sans voyage en zone d'endémie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez la femme enceinte, il faut rechercher systématiquement une pyélonéphrite (surtout au 3ème trimestre), une infection abdominale de forme trompeuse, une listériose par hémocultures, et des notions de contage de toxoplasmose, rubéole, CMV ou varicelle."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la définition d'une fébricule ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hausse de température > 38°C.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hausse de température > 37,5°C mais < 38°C.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une température normale mais avec des frissons.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une température inférieure à 37,5°C.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une température supérieure à 38,3°C.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fébricule est définie comme une hausse de température > 37,5°C mais < 38°C."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Lors d'une prise de température par voie axillaire ou buccale, quelle correction doit être appliquée pour obtenir la température centrale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Retirer 0,5°C.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ajouter 0,5°C.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Aucune correction n'est nécessaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Retirer 1°C.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ajouter 1°C.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour obtenir la température centrale à partir d'une prise par voie axillaire ou buccale, il faut ajouter +0,5°C."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le mécanisme physiologique de la fièvre ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est le reflet d'une réponse directe du système immunitaire à l'agression tissulaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est une réponse hypothalamique à l'agression tissulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est déclenchée uniquement par des substances pyrogènes exogènes.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est déclenchée par des substances pyrogènes endogènes (cytokines).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est un signe pathognomonique d'une infection bactérienne.",
+          "correct": false
+        }
+      ],
+      "explanation": "La fièvre est le reflet de la réponse hypothalamique (centre de la thermorégulation) à l’agression tissulaire, en réponse à des substances pyrogènes exogènes et endogènes (cytokines)."
+    }
+  ]
+}

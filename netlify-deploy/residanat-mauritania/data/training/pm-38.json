@@ -1,0 +1,1443 @@
+{
+  "lectureId": "pm-38",
+  "title": "Anémies",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les signes cliniques suivants, lesquels sont directement liés au syndrome anémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pâleur cutanéo-muqueuse",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Asthénie et fatigabilité",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dyspnée d'effort",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ictère",
+          "correct": false
+        }
+      ],
+      "explanation": "La pâleur cutanéo-muqueuse, l'asthénie, la fatigabilité et la dyspnée d'effort sont des signes classiques du syndrome anémique. L'ictère est un signe étiologique orientant vers une anémie hémolytique."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de réticulocytes qui caractérise une anémie arégénérative (centrale) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taux de réticulocytes supérieur à 150 G/L",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Taux de réticulocytes inférieur à 150 G/L",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Taux de réticulocytes supérieur à 10 G/L",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Taux de réticulocytes inférieur à 10 G/L",
+          "correct": false
+        }
+      ],
+      "explanation": "Une anémie centrale, ou arégénérative, est caractérisée par un taux de réticulocytes inférieur à 150 G/L, indiquant une insuffisance de production médullaire."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est l'examen biologique de première intention pour explorer une anémie microcytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numération des réticulocytes",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bilan martial (au minimum ferritinémie) et VS/CRP",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Électrophorèse de l'hémoglobine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Myélogramme",
+          "correct": false
+        }
+      ],
+      "explanation": "Pour une anémie microcytaire, le bilan de première intention inclut un bilan martial (au minimum ferritinémie) et une VS/CRP. Le dosage des réticulocytes n'est pas indiqué car l'anémie microcytaire est toujours arégénérative."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal site d'absorption du fer alimentaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estomac",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Duodénum",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Jéjunum",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Iléon terminal",
+          "correct": false
+        }
+      ],
+      "explanation": "Le fer alimentaire est absorbé principalement au niveau du duodénum."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le traitement de première intention d'une anémie ferriprive chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transfusion sanguine",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Supplémentation en fer par voie parentérale",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sels de fer ferreux par voie orale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Supplémentation en vitamine B12",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de première intention de l'anémie ferriprive est l'administration de sels de fer ferreux par voie orale, à raison de 100 à 200 mg/j pendant au moins 4 mois."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil de VGM (Volume Globulaire Moyen) définissant une anémie microcytaire chez l'adulte ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "VGM < 72 fl",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "VGM < 80 fl",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VGM > 100 fl",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "VGM > 110 fl",
+          "correct": false
+        }
+      ],
+      "explanation": "Une anémie microcytaire est définie par un VGM inférieur à 80 fl chez l'adulte."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cliniques évocateurs d'une carence martiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ongles mous et cassants",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Cheveux secs et fragiles",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Glossite",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Troubles neurologiques périphériques",
+          "correct": false
+        }
+      ],
+      "explanation": "Les ongles mous et cassants, les cheveux secs et fragiles, et la glossite sont des signes de sidéropénie, évocateurs d'une carence martiale. Les troubles neurologiques périphériques sont plutôt associés à une carence en vitamine B12."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal mécanisme de l'anémie inflammatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Augmentation de la synthèse d'EPO",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inhibition de l'érythropoïèse et séquestration macrophagique du fer",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'absorption intestinale du fer",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Destruction rapide des globules rouges",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anémie inflammatoire est due à la synthèse de cytokines inflammatoires qui inhibent l'érythropoïèse, entraînent une séquestration macrophagique du fer et diminuent la synthèse et l'action de l'EPO."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la durée minimale de traitement par sels de fer ferreux par voie orale chez l'adulte pour une anémie ferriprive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 mois",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "2 mois",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "4 mois",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "6 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement par sels de fer ferreux doit être poursuivi pendant une durée minimale de 4 mois chez l'adulte."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal signe biologique d'une anémie régénérative ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taux de réticulocytes inférieur à 150 G/L",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Taux de réticulocytes supérieur à 150 G/L",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "VGM inférieur à 80 fl",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "VGM supérieur à 100 fl",
+          "correct": false
+        }
+      ],
+      "explanation": "Une anémie régénérative est caractérisée par un taux de réticulocytes supérieur à 150 G/L, indiquant une production médullaire compensatrice."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le principal risque associé à l'administration de folates à un patient présentant une carence en vitamine B12 non diagnostiquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aggravation de l'anémie",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Aggravation des troubles neurologiques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Réaction allergique sévère",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Augmentation du risque de thrombose",
+          "correct": false
+        }
+      ],
+      "explanation": "L'administration de folates à un patient porteur d'une carence en vitamine B12 peut aggraver les troubles neurologiques. En l'absence de résultats des dosages vitaminiques, il est recommandé de prescrire simultanément les deux vitamines."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le seuil d'hémoglobine définissant l'anémie chez un nouveau-né ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hb < 10,5 g/dL",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Hb < 11 g/dL",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hb < 12 g/dL",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Hb < 14 g/dL",
+          "correct": true
+        }
+      ],
+      "explanation": "Chez le nouveau-né, l'anémie est définie par une hémoglobine (Hb) inférieure à 14 g/dL."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les signes cardiaques pouvant être associés à un syndrome anémique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tachycardie sinusale",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Souffle systolique anorganique à l'apex",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Angor",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bradycardie",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes cardiaques associés à l'anémie incluent la tachycardie sinusale, un souffle systolique anorganique à l'apex et l'angor. La bradycardie n'est pas un signe typique d'anémie."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la principale cause d'anémie ferriprive chez la femme jeune ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Saignement digestif",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Carence d'apport alimentaire",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Saignement gynécologique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Malabsorption intestinale",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez la femme jeune, la principale cause d'anémie ferriprive est le saignement gynécologique."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles situations peuvent entraîner une fausse anémie par hémodilution ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déshydratation",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Grossesse",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Splénomégalie volumineuse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Insuffisance cardiaque sévère",
+          "correct": true
+        }
+      ],
+      "explanation": "La grossesse, la splénomégalie volumineuse et l'insuffisance cardiaque sévère peuvent entraîner une hémodilution, masquant ainsi une anémie réelle ou créant une fausse anémie. La déshydratation, au contraire, masque une anémie par hémoconcentration."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes étiologiques orientent vers une anémie hémolytique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ictère",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Splénomégalie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Signes de sidéropénie",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Troubles neurologiques",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ictère et la splénomégalie sont des signes cliniques qui orientent vers une anémie hémolytique. Les signes de sidéropénie sont liés à la carence martiale, et les troubles neurologiques à la carence en vitamine B12."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'anémie centrale (arégénérative) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aplasie médullaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémorragie digestive aiguë",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Envahissement de la moelle osseuse par des cellules anormales",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déficit en EPO",
+          "correct": true
+        }
+      ],
+      "explanation": "L'aplasie médullaire, l'envahissement de la moelle osseuse par des cellules anormales (leucémie, métastase) et le déficit en EPO sont des causes d'anémie centrale. L'hémorragie digestive aiguë est une cause d'anémie périphérique (régénérative)."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan martial qui caractérisent une anémie ferriprive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ferritinémie diminuée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Capacité totale de fixation de la transferrine (CFT) augmentée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coefficient de saturation de la transferrine (CST) augmenté",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Fer sérique diminué",
+          "correct": true
+        }
+      ],
+      "explanation": "Une anémie ferriprive se caractérise par une ferritinémie diminuée, une capacité totale de fixation de la transferrine (CFT) augmentée et un fer sérique diminué. Le coefficient de saturation de la transferrine (CST) est diminué, non augmenté."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de carence d'absorption du fer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrectomie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie cœliaque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Consommation importante de thé",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Grossesse",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrectomie, la maladie cœliaque et la consommation de thé peuvent entraîner une carence d'absorption du fer. La grossesse est une situation d'augmentation des besoins en fer, non de malabsorption."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques biologiques d'une anémie inflammatoire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie normochrome normocytaire puis hypochrome microcytaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Ferritinémie diminuée",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "CRP augmentée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fer sérique diminué",
+          "correct": true
+        }
+      ],
+      "explanation": "L'anémie inflammatoire est initialement normochrome normocytaire, puis hypochrome microcytaire. Elle s'accompagne d'une augmentation de la CRP et d'une diminution du fer sérique. La ferritinémie est généralement augmentée ou normale, pas diminuée, en raison de son rôle de protéine de la phase aiguë."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel examen est diagnostique pour une hémoglobinopathie après exploration d'une carence martiale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numération Formule Sanguine (NFS)",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Bilan martial",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Électrophorèse de l'hémoglobine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Myélogramme",
+          "correct": false
+        }
+      ],
+      "explanation": "L'électrophorèse de l'hémoglobine est l'examen diagnostique des hémoglobinopathies, à réaliser après avoir exploré et corrigé une éventuelle carence martiale."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes d'anémie normocytaire arégénérative multifactorielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "État inflammatoire chronique",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale chronique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypothyroïdie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hémorragie aiguë",
+          "correct": false
+        }
+      ],
+      "explanation": "L'état inflammatoire chronique, l'insuffisance rénale chronique et l'hypothyroïdie sont des causes d'anémie normocytaire arégénérative multifactorielle. L'hémorragie aiguë est une cause d'anémie régénérative."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques de la glossite de Hunter, caractéristique de la carence en vitamine B12 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Langue lisse et dépapillée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Plaques érythémateuses saillantes et sèches",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Troubles sensitifs à l'absorption de mets chauds ou épicés",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Langue fissurée",
+          "correct": false
+        }
+      ],
+      "explanation": "La glossite de Hunter se caractérise par une langue lisse, dépapillée, avec des plaques érythémateuses saillantes et sèches, et des troubles sensitifs à l'absorption de mets chauds ou épicés. La langue fissurée n'est pas un critère spécifique de la glossite de Hunter."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques hématologiques d'une carence en vitamine B12 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anémie macrocytaire arégénérative",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Neutropénie avec hypersegmentation nucléaire des PNN",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Thrombocytose",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Présence de corps de Jolly au frottis sanguin",
+          "correct": true
+        }
+      ],
+      "explanation": "La carence en vitamine B12 se manifeste par une anémie macrocytaire arégénérative, une neutropénie avec hypersegmentation nucléaire des PNN, et la présence de corps de Jolly au frottis sanguin. Une thrombopénie est possible, mais pas une thrombocytose."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de malabsorption de la vitamine B12 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gastrectomie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie cœliaque",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pullulation microbienne intestinale",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Régime végétalien strict",
+          "correct": false
+        }
+      ],
+      "explanation": "La gastrectomie, la maladie cœliaque et la pullulation microbienne intestinale sont des causes de malabsorption de la vitamine B12. Le régime végétalien strict est une cause de carence d'apport."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de carence en folates (vitamine B9) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alimentation exclusivement cuite",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Alcoolisme",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Grossesse",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Traitement par méthotrexate",
+          "correct": true
+        }
+      ],
+      "explanation": "L'alimentation exclusivement cuite, l'alcoolisme, la grossesse (besoins accrus) et le traitement par méthotrexate (inhibiteur de la dihydrofolate réductase) sont toutes des causes de carence en folates."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes biologiques d'une hémolyse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bilirubine libre augmentée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Haptoglobine effondrée",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "LDH augmentées",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fer sérique diminué",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes biologiques d'une hémolyse incluent une augmentation de la bilirubine libre, une haptoglobine effondrée et une augmentation des LDH. Le fer sérique est généralement augmenté ou normal, pas diminué."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les traitements de première intention pour une anémie hémolytique auto-immune à auto-anticorps chauds ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corticoïdes",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Splénectomie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Rituximab",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Réchauffement et éviction du froid",
+          "correct": false
+        }
+      ],
+      "explanation": "Les corticoïdes sont le traitement de première intention pour une anémie hémolytique auto-immune à auto-anticorps chauds. La splénectomie et le rituximab sont des traitements de seconde intention. Le réchauffement est pour les auto-anticorps froids."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la sphérocytose héréditaire (maladie de Minkowski-Chauffard) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transmission autosomique dominante fréquente",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Splénomégalie et ictère constants",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Présence de sphérocytes au frottis sanguin",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VGM augmenté",
+          "correct": false
+        }
+      ],
+      "explanation": "La sphérocytose héréditaire est souvent de transmission autosomique dominante, avec une splénomégalie et un ictère constants, et la présence de sphérocytes au frottis sanguin. Le VGM est généralement normal."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les complications de la sphérocytose héréditaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hyperhémolyse après un stress",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lithiase vésiculaire pigmentaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Érythroblastopénie aiguë par parvovirus B19",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombose veineuse",
+          "correct": false
+        }
+      ],
+      "explanation": "Les complications de la sphérocytose héréditaire incluent l'hyperhémolyse après un stress, la lithiase vésiculaire pigmentaire et l'érythroblastopénie aiguë en cas d'infection par le parvovirus B19. La thrombose veineuse est une complication de l'hémoglobinurie nocturne paroxystique."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels agents peuvent induire des poussées d'hémolyse aiguë chez un patient atteint de déficit en G6PD (favisme) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sulfamides",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Fèves",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Infections",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Vitamine B12",
+          "correct": false
+        }
+      ],
+      "explanation": "Les poussées d'hémolyse aiguë chez un patient atteint de déficit en G6PD peuvent être induites par des agents oxydants tels que les sulfamides, les fèves ou des infections. La vitamine B12 n'est pas un agent déclencheur."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la β-thalassémie mineure ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Absence totale d'HbA",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation de l'HbA2 (> 3,5%)",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Microcytose isolée",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anémie franche dès 3 mois",
+          "correct": false
+        }
+      ],
+      "explanation": "La β-thalassémie mineure (hétérozygote) se caractérise par une augmentation de l'HbA2 (> 3,5%) et une microcytose isolée. L'absence totale d'HbA et l'anémie franche dès 3 mois sont des caractéristiques de la β-thalassémie majeure."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs déclenchants d'une crise vaso-occlusive drépanocytaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Froid",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déshydratation",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hypoxie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fièvre",
+          "correct": true
+        }
+      ],
+      "explanation": "Le froid, la déshydratation, l'hypoxie (altitude, avion) et la fièvre (chaleur, infection) sont tous des facteurs déclenchants connus des crises vaso-occlusives drépanocytaires."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de traitement de fond de la drépanocytose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hydroxy-urée",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Vaccination anti-pneumococcique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Supplémentation systématique en vitamine B9",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Supplémentation en fer",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de fond de la drépanocytose inclut l'hydroxy-urée, la vaccination anti-pneumococcique (en cas d'asplénie fonctionnelle) et la supplémentation systématique en vitamine B9. La supplémentation en fer n'est pas nécessaire car le fer est récupéré par circuit fermé."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une anémie masquée par une hémoconcentration peut être observée dans quelles conditions ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothyroïdie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance surrénale",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dysglobulinémie monoclonale à taux élevé",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Déshydratation",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypothyroïdie, l'insuffisance surrénale et la déshydratation sont des causes d'hémoconcentration, qui peuvent masquer une anémie. La dysglobulinémie monoclonale à taux élevé est une cause d'hémodilution."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes neurosensoriels pouvant être associés à une anémie sévère ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertiges",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Céphalées",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Acouphènes",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Scotome",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Crise convulsive",
+          "correct": true
+        }
+      ],
+      "explanation": "Les vertiges, céphalées, acouphènes, scotome et crises convulsives sont tous des signes neurosensoriels pouvant être observés en cas d'anémie, en particulier si elle est sévère."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de dysmyélopoïèse secondaire à une carence ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Carence en vitamine B12",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Carence en folate",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Carence en fer",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome myélodysplasique",
+          "correct": false
+        }
+      ],
+      "explanation": "La dysmyélopoïèse secondaire peut être due à une carence en vitamine B12, en folate ou en fer. Le syndrome myélodysplasique est une dysmyélopoïèse primitive."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les anomalies morphologiques des globules rouges pouvant être observées sur un frottis sanguin en cas d'anémie ferriprive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anisocytose",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Poïkilocytose",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Microcytose",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hématies en cible",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sphérocytes",
+          "correct": false
+        }
+      ],
+      "explanation": "L'anisocytose, la poïkilocytose, la microcytose et les hématies en cible sont des anomalies morphologiques typiques de l'anémie ferriprive. Les sphérocytes sont caractéristiques de la sphérocytose héréditaire."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans le contexte d'une anémie mixte (ferriprive et inflammatoire), quel paramètre est le plus discriminant pour évaluer une carence martiale associée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fer sérique",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ferritinémie",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Transferrine",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Récepteur soluble de la transferrine",
+          "correct": true
+        }
+      ],
+      "explanation": "Dans une anémie mixte, le fer sérique, la ferritinémie et la transferrine ne sont pas discriminants. Le récepteur soluble de la transferrine est augmenté en cas de carence martiale associée à l'inflammation et n'est pas modifié par l'inflammation seule, ce qui en fait un marqueur discriminant."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'érythroblastopénie isolée aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infection virale à parvovirus B19",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Maladie de Blackfan-Diamond",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Syndrome lymphoprolifératif",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Thymome",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection virale à parvovirus B19 est une cause d'érythroblastopénie isolée aiguë. La maladie de Blackfan-Diamond, le syndrome lymphoprolifératif et le thymome sont des causes chroniques."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes neurologiques pouvant être observés en cas de carence en vitamine B12 ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paresthésies",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Aréflexie",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ataxie",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Syndrome pyramidal",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Sclérose combinée de la moelle",
+          "correct": true
+        }
+      ],
+      "explanation": "La carence en vitamine B12 peut entraîner un large éventail de signes neurologiques, incluant paresthésies, aréflexie, ataxie, syndrome pyramidal et, dans les cas sévères, une sclérose combinée de la moelle."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les examens complémentaires permettant le diagnostic de la maladie de Biermer ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dosage de la gastrine augmenté",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Dosage des anticorps anti-facteur intrinsèque (Ac anti-FI) sériques",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dosage des anticorps anti-cellules pariétales gastriques (Ac anti-cellules pariétales)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Fibroscopie gastrique avec gastrite atrophique fundique",
+          "correct": true
+        }
+      ],
+      "explanation": "Le diagnostic de la maladie de Biermer repose sur plusieurs éléments : gastrine augmentée (par achlorhydrie), présence d'Ac anti-FI (spécifiques) et d'Ac anti-cellules pariétales (sensibles), et une gastrite atrophique fundique à la fibroscopie."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hémoglobinurie nocturne paroxystique (maladie de Marchiafava-Micheli) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déficit en protéines membranaires CD55/59",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hémolyse corpusculaire acquise",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Poussées d'hémolyse aiguë nocturne",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Thrombose veineuse (Budd-Chiari ++) comme complication",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hémoglobinurie nocturne paroxystique est caractérisée par un déficit en protéines membranaires CD55/59, est la seule hémolyse corpusculaire acquise, présente des poussées d'hémolyse aiguë nocturne et a pour complication majeure la thrombose veineuse, notamment le Budd-Chiari."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements efficaces pour l'hémoglobinurie nocturne paroxystique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ac monoclonal anti-protéine C5 du complément (eculizumab)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Allogreffe de moelle osseuse en cas de complication sévère",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anticoagulation au long cours en prévention secondaire",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Corticoïdes",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements efficaces incluent l'eculizumab (Ac monoclonal anti-protéine C5), l'allogreffe de moelle osseuse pour les formes sévères et l'anticoagulation au long cours en prévention secondaire des thromboses. Les corticoïdes ne sont pas mentionnés comme traitement spécifique de cette maladie."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications de la β-thalassémie majeure (maladie de Cooley) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déglobulisation aiguë",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Déformations osseuses par hyperplasie médullaire",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Hémochromatose secondaire post-transfusionnelle",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Lithiase pigmentaire",
+          "correct": true
+        }
+      ],
+      "explanation": "La β-thalassémie majeure peut entraîner une déglobulisation aiguë, des déformations osseuses dues à l'hyperplasie de la moelle osseuse, une hémochromatose secondaire aux transfusions répétées et une lithiase pigmentaire."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les complications aiguës de la drépanocytose ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crise vaso-occlusive ostéo-articulaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Syndrome thoracique aigu",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Accident vasculaire cérébral ischémique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Déglobulisation aiguë par érythroblastopénie",
+          "correct": true
+        }
+      ],
+      "explanation": "Les complications aiguës de la drépanocytose incluent les crises vaso-occlusives (ostéo-articulaires, syndrome thoracique aigu, AVC ischémique) et la déglobulisation aiguë (par hémolyse, séquestration splénique ou érythroblastopénie)."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements de crise pour la drépanocytose nécessitant une hospitalisation ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antalgiques de palier 3 si nécessaire",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Hyperhydratation alcaline",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Transfusion sanguine",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Antibiothérapie active sur le pneumocoque en cas de fièvre",
+          "correct": true
+        }
+      ],
+      "explanation": "En cas de crise drépanocytaire sévère nécessitant une hospitalisation, le traitement peut inclure des antalgiques puissants, une hyperhydratation alcaline, une transfusion (voire saignée-transfusion ou érythraphérèse) et une antibiothérapie en cas de fièvre (> 38,5°C) pour couvrir le pneumocoque."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'électrophorèse de l'hémoglobine dans la drépanocytose (forme homozygote) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HbS > 50% (jusqu'à 100%)",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Absence d'HbA1",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Augmentation de l'HbF (> 5%)",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Présence d'Hb Bart",
+          "correct": false
+        }
+      ],
+      "explanation": "Dans la drépanocytose homozygote, l'électrophorèse de l'hémoglobine montre une HbS > 50% (jusqu'à 100%), une absence d'HbA1 et une augmentation de l'HbF (> 5%). L'Hb Bart est associée à l'α-thalassémie."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes d'anémie macrocytaire arégénérative à éliminer avant d'évoquer une carence vitaminique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypothyroïdie",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale chronique",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Alcoolisme chronique",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Prise de chimiothérapie (alkylants, hydroxy-urée)",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hypothyroïdie, l'insuffisance rénale chronique, l'alcoolisme chronique et certains médicaments (chimiothérapie, sulfamides, antiépileptiques, antirétroviraux) sont des causes d'anémie macrocytaire arégénérative à éliminer avant de conclure à une carence en vitamine B12 ou folates, bien qu'elles n'expliquent pas à elles seules un VGM > 105 fl."
+    }
+  ]
+}

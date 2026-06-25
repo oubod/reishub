@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-27",
+  "title": "Diagnostic d'une hématurie",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Présence de plus de 5 hématies/mm3 dans les urines lors d'une miction.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Présence de plus de 10 hématies/mm3 dans les urines lors d'une miction.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Coloration rouge des urines visible à l'œil nu.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une bandelette urinaire positive pour le sang.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La présence de cylindres hématiques dans le sédiment urinaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hématurie est définie comme une quantité anormale d'hématies dans les urines lors d'une miction, soit plus de 10/mm3 ou 10 000/mL. La BU est positive à partir de > 5 hématies/mm3, et la coloration rouge est une hématurie macroscopique."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Parmi les propositions suivantes, laquelle est la cause la plus fréquente d'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La lithiase urinaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La tumeur urothéliale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'infection urinaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le syndrome d'Alport.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La nécrose papillaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection urinaire est mentionnée comme la cause la plus fréquente d'hématurie."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel examen est recommandé en première intention pour le bilan d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'uroscanner.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La cystoscopie.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'échographie vésico-rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'artériographie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La biopsie rénale (PBR).",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie vésico-rénale est l'examen de première intention pour le bilan d'une hématurie."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Une bandelette urinaire (BU) positive pour le sang doit être confirmée par quel examen ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une cytologie urinaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un uroscanner.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un sédiment urinaire (ECBU).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une cystoscopie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une protéinurie des 24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une BU positive est confirmée par le sédiment urinaire (ECBU). Il est également précisé que la BU est aussi positive en cas de myoglobinurie ou d’hémoglobinurie, nécessitant un diagnostic différentiel à l’ECBU."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la valeur sémiologique comparée d'une hématurie macroscopique et microscopique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'hématurie macroscopique a une valeur sémiologique supérieure.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'hématurie microscopique a une valeur sémiologique supérieure.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elles ont la même valeur sémiologique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'hématurie macroscopique est toujours d'origine urologique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'hématurie microscopique est toujours d'origine néphrologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est explicitement indiqué qu'une hématurie macroscopique ou microscopique ont la même valeur sémiologique."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque de cancer urothélial à rechercher lors de l'interrogatoire d'un patient présentant une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'exposition professionnelle aux amines aromatiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le tabagisme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un traitement par cyclophosphamide.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une irradiation pelvienne antérieure.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La prise d'AINS.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de cancer urothélial incluent l'exposition professionnelle (amine aromatique, goudron, colorant), le tabagisme, le traitement par cyclophosphamide et l'irradiation pelvienne. La prise d'AINS est mentionnée comme un antécédent pouvant révéler une hématurie, mais pas comme un facteur de risque spécifique de cancer urothélial."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques orientent vers une origine urologique de l'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence de caillots dans les urines.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypertension artérielle (HTA).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des symptômes du bas appareil urinaire (SFU) associés.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une douleur lombaire spontanée ou à la palpation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des œdèmes des membres inférieurs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes orientant vers une origine urologique sont la présence de caillot, les SFU associés (pollakiurie, dysurie, brûlure mictionnelle), la fièvre, la colique néphrétique et la douleur lombaire spontanée ou à la palpation. L'HTA et les œdèmes orientent vers une origine néphrologique."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments du sédiment urinaire (ECBU) orientent vers une origine néphrologique de l'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence de cylindres hématiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d'hématies déformées.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une leucocyturie aseptique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une bactériurie significative.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une protéinurie > 2 g/24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "La présence de cylindres hématiques ou d'hématies déformées est en faveur d'une origine néphrologique. Une protéinurie > 2 g/24h est également en faveur d'une origine néphrologique, mais ce n'est pas un élément du sédiment urinaire. La leucocyturie aseptique est associée à la tuberculose urinaire, et la bactériurie à l'infection urinaire, qui sont des causes urologiques."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les indications de la cystoscopie dans le bilan d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un patient de plus de 50 ans sans facteur de risque de tumeur urothéliale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une suspicion de cause sous-vésicale (hématurie initiale).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La recherche d'un cancer vésical chez un patient avec facteurs de risque de tumeur urothéliale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La présence d'un éjaculat urétéral d'urine sanglante bilatéralement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une hématurie macroscopique totale, intermittente et silencieuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de la cystoscopie sont : > 50 ans ou FdR de tumeur urothéliale pour la recherche de cancer vésical, et la suspicion de cause sous-vésicale (hématurie initiale) pour l'étude de la filière urétrale. Un éjaculat urétéral sanglant bilatéralement oriente vers une origine néphrologique, et l'hématurie macroscopique totale, intermittente et silencieuse est caractéristique d'une tumeur rénale, qui ne nécessite pas directement une cystoscopie en première intention."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hématurie associée à une tumeur rénale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement microscopique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent totale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est fréquemment associée à une douleur lombaire chronique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est typiquement continue.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est souvent silencieuse.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hématurie associée à une tumeur rénale est décrite comme macroscopique, totale, intermittente et silencieuse, souvent associée à une douleur lombaire chronique."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le bilan diagnostique recommandé pour une bilharziose urinaire suspectée devant une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un examen direct des urines à la recherche d'œufs, répété 3 jours de suite.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cytologie urinaire pour détecter des cellules tumorales.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un prélèvement endoscopique de muqueuse vésicale, éventuellement rectale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une recherche d'hyperéosinophilie sanguine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un uroscanner pour visualiser les lésions vésicales.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de bilharziose repose sur l'examen direct des urines 3 jours de suite (recherche d'œufs) ou sur un prélèvement endoscopique de muqueuse vésicale ± rectale (meilleure sensibilité). L'hyperéosinophilie est un signe d'orientation. L'uroscanner n'est pas mentionné comme un examen diagnostique direct de la bilharziose, bien qu'il puisse montrer des lésions."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments cliniques et biologiques évocateurs d'une tuberculose urinaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un contexte d'immunodépression.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une localisation pulmonaire associée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une leucocyturie aseptique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des calcifications des parois vésicales ou urétérales à l'imagerie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hématurie macroscopique initiale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tuberculose urinaire est évoquée dans un contexte d'immunodépression, avec une localisation pulmonaire, une leucocyturie aseptique et des calcifications des parois vésicales ou urétérales (aspect de « vessie porcelaine »). L'hématurie macroscopique initiale est plutôt associée aux pathologies prostatiques."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hématurie d'effort ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement macroscopique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle survient après une activité physique prolongée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est due à des microtraumatismes rénaux ou vésicaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle disparaît après quelques jours de repos.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une protéinurie significative.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hématurie d'effort survient après une activité physique prolongée, est due à des microtraumatismes rénaux ou vésicaux et à une perméabilité glomérulaire accrue. Elle est généralement microscopique (80% des cas) et disparaît après quelques jours de repos. La protéinurie n'est pas systématiquement mentionnée comme une caractéristique."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures de prise en charge en urgence en cas d'hématurie macroscopique avec caillotage et/ou rétention aiguë d'urine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La pose d'une sonde vésicale double courant avec mesures d'asepsie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des irrigations/lavages en continu de la vessie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pose d'un cathéter sus-pubien pour dérivation urinaire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des décaillotages à la seringue si nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hydratation orale abondante.",
+          "correct": false
+        }
+      ],
+      "explanation": "En urgence, la prise en charge comprend la pose d'une sonde vésicale double courant avec mesures d'asepsie et un ECBU, des irrigations/lavages en continu et des décaillotages à la seringue si nécessaire. Le cathéter sus-pubien est contre-indiqué en raison du risque de dissémination d'un possible cancer vésical. L'hydratation orale abondante est une mesure hors urgence."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes iatrogènes d'hématurie mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un sondage urinaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une cystite radique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une résection endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une lithotritie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La prise d'anticoagulants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes iatrogènes incluent les gestes urologiques (sondage, cathéter sus-pubien, résection endoscopique, lithotritie, PBR), la cystite radique et les suites post-chirurgicales. La prise d'anticoagulants est mentionnée comme pouvant révéler une hématurie, mais pas comme une cause iatrogène directe au sens d'une procédure ou d'un traitement spécifique de l'hématurie."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes de gravité d'une hématurie nécessitant une prise en charge rapide ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un retentissement hémodynamique (hypovolémie).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une hypertension artérielle maligne.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un globe vésical par rétention urinaire aiguë sur caillotage.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une anémie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hématurie microscopique persistante.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes de gravité sont le retentissement hémodynamique (hypovolémie), l'hypertension maligne, le globe vésical (rétention urinaire aiguë sur caillotage) et l'anémie. Une hématurie microscopique persistante n'est pas un signe de gravité aiguë."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du bilan biologique à réaliser pour évaluer le retentissement d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une numération formule sanguine (NFS).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un bilan d'hémostase.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un bilan rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une cytologie urinaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une protéinurie des 24h.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan du retentissement de l'hématurie comprend la NFS, l'hémostase et le bilan rénal. La cytologie urinaire et la protéinurie des 24h sont des examens diagnostiques de l'étiologie, pas directement du retentissement aigu."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les causes de néphropathie vasculaire pouvant entraîner une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La nécrose papillaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'infarctus rénal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le syndrome d'Alport.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La polykystose rénale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La glomérulonéphrite aiguë post-infectieuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les néphropathies vasculaires mentionnées sont la nécrose papillaire et l'infarctus rénal. Le syndrome d'Alport, la polykystose rénale et la glomérulonéphrite aiguë post-infectieuse sont des causes néphrologiques mais ne sont pas classées sous la catégorie 'néphropathie vasculaire'."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quel contexte clinique peut-on suspecter une nécrose papillaire comme cause d'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un patient diabétique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un patient drépanocytaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un patient sous AINS au long cours.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un tableau de colique néphrétique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une hypertension artérielle maligne.",
+          "correct": false
+        }
+      ],
+      "explanation": "La nécrose papillaire survient dans un contexte de diabète, drépanocytose, ou prise d'AINS, et peut se manifester par un tableau de colique néphrétique (migration de fragment papillaire dans l'uretère). L'hypertension artérielle maligne est un signe de gravité de l'hématurie, mais pas un contexte spécifique de nécrose papillaire."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments à rechercher à l'interrogatoire pour orienter le diagnostic étiologique d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'origine ethnique et les voyages en zone d'endémie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les antécédents familiaux de polykystose rénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La prise d'anticoagulants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'existence d'une surdité héréditaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La présence d'une varicocèle.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'interrogatoire doit rechercher l'origine ethnique/voyage (bilharziose), les antécédents familiaux (PKRAD), la prise d'anticoagulants (révélateur), et l'insuffisance rénale ou surdité héréditaire (syndrome d'Alport). La varicocèle est un signe clinique à la palpation, pas un élément de l'interrogatoire."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes cliniques orientant vers une origine néphrologique de l'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle (HTA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des œdèmes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une insuffisance rénale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une fièvre.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une colique néphrétique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes orientant vers une origine néphrologique sont l'HTA, les œdèmes et l'insuffisance rénale. La fièvre et la colique néphrétique orientent vers une origine urologique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la signification d'une hématurie initiale selon sa chronologie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle indique une origine rénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle indique une origine vésicale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle indique une origine urétro-prostatique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle n'a aucune valeur localisatrice en cas d'hématurie abondante.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours macroscopique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une hématurie initiale indique une origine urétro-prostatique. Cependant, il est précisé que la chronologie n'a aucune valeur localisatrice en cas d'hématurie abondante."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est l'examen de référence pour la recherche de tumeurs, calculs de petite taille ou anomalies des vaisseaux rénaux dans le bilan d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'échographie vésico-rénale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "L'uroscanner.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La cystoscopie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'ASP (Abdomen Sans Préparation).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'urétéroscopie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'uroscanner est l'examen de référence pour la recherche de tumeurs, calculs de petite taille, anomalies des vaisseaux rénaux, d'emblée ou si échographie négative ou nécessité de complément."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de l'hématurie associée à une infection urinaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement microscopique en cas de cystite.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est généralement macroscopique en cas de pyélonéphrite aiguë (PNA).",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Le diagnostic est confirmé par BU/ECBU.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est la cause la plus fréquente d'hématurie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est toujours associée à une hyperéosinophilie.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infection urinaire est la cause la plus fréquente d'hématurie, et le diagnostic est par BU/ECBU. L'hématurie est généralement macroscopique si cystite et microscopique si PNA. L'hyperéosinophilie est associée à la bilharziose."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le bilan d'imagerie recommandé en cas de suspicion de lithiase urinaire comme cause d'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un scanner abdomino-pelvien en phase douloureuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un uroscanner hors phase aiguë.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une échographie vésico-rénale en première intention.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un ASP en urgence.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une artériographie rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan pour lithiase urinaire est un scanner abdomino-pelvien en phase douloureuse ou un uroscanner hors phase aiguë. L'échographie est en première intention pour l'hématurie en général, mais le scanner est plus spécifique pour la lithiase. L'ASP est souvent réalisé en urgence en cas de colique néphrétique mais n'est pas l'examen de référence pour la lithiase. L'artériographie est pour les atteintes vasculaires."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Une bandelette urinaire (BU) positive pour le sang peut être observée dans plusieurs situations. Lesquelles nécessitent un diagnostic différentiel par ECBU ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hématurie macroscopique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une myoglobinurie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hémoglobinurie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une porphyrie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une consommation de betteraves.",
+          "correct": false
+        }
+      ],
+      "explanation": "La BU est aussi positive en cas de myoglobinurie ou d'hémoglobinurie, nécessitant un diagnostic différentiel à l'ECBU. L'hématurie macroscopique est une hématurie réelle. La porphyrie et la consommation de betteraves sont des causes de coloration rouge des urines mais ne rendent pas la BU positive pour le sang."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments à rechercher à l'interrogatoire et à l'examen clinique qui peuvent orienter vers des causes spécifiques d'hématurie héréditaires ou tumorales ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une insuffisance rénale ou surdité héréditaire, évoquant un syndrome d'Alport.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des antécédents familiaux de polykystose rénale autosomique dominante (PKRAD).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une varicocèle, pouvant suggérer une tumeur rénale gauche.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des touchers pelviens révélant une hyperplasie bénigne de la prostate (HBP) ou un cancer prostatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une exposition professionnelle aux goudrons, augmentant le risque de tumeur rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'insuffisance rénale ou surdité héréditaire oriente vers le syndrome d'Alport. Les antécédents familiaux de PKRAD sont importants. La varicocèle peut être un signe de tumeur rénale gauche. Les touchers pelviens peuvent révéler HBP ou cancers prostatiques. L'exposition professionnelle aux goudrons est un facteur de risque de cancer urothélial, pas spécifiquement de tumeur rénale."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant la cytologie urinaire dans le diagnostic d'une hématurie, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est réalisée sur les urines du matin ou un prélèvement endoscopique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle a une sensibilité élevée (> 90%) pour la détection des cellules tumorales de haut grade.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle a une sensibilité élevée pour les tumeurs de bas grade.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une cytologie négative dispense d'une endoscopie si des facteurs de risque de tumeur urothéliale sont présents.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est l'examen de référence pour le diagnostic des tumeurs urothéliales.",
+          "correct": false
+        }
+      ],
+      "explanation": "La cytologie urinaire est réalisée sur les urines du matin ou un prélèvement endoscopique. Elle a une sensibilité > 90% pour les cellules tumorales de haut grade, mais une faible sensibilité pour les tumeurs de bas grade. Une cytologie négative ne dispense pas d'une endoscopie si des facteurs de risque sont présents. L'uroscanner et la cystoscopie sont les examens de référence pour les tumeurs urothéliales."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications spécifiques de l'urétéroscopie dans le bilan d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspicion de tumeur urétérale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Suspicion de tumeur pyélocalicielle.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Bilan morphologique et cystoscopique négatif chez un patient avec facteurs de risque de tumeur urothéliale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Recherche de cancer vésical chez un patient de plus de 50 ans.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de colique néphrétique en urgence.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'urétéroscopie est indiquée en cas de suspicion de tumeur urétérale ou pyélocalicielle, ou de facteurs de risque de tumeur urothéliale avec un bilan morphologique et cystoscopique négatif. La recherche de cancer vésical est une indication de cystoscopie. L'ASP est souvent réalisé en urgence en cas de colique néphrétique, pas l'urétéroscopie en première intention."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hématurie associée à une lithiase urinaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est le plus souvent macroscopique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est le plus souvent microscopique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est toujours révélée par un épisode de colique néphrétique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle peut être pauci-symptomatique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le bilan de référence est l'ASP en urgence.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hématurie associée à une lithiase urinaire est le plus souvent microscopique. Elle peut être pauci-symptomatique ou révélée par un épisode de colique néphrétique. Le bilan de référence est le scanner abdomino-pelvien en phase douloureuse ou l'uroscanner hors phase aiguë, l'ASP n'étant pas l'examen de référence."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de glomérulonéphrite mentionnées comme pouvant entraîner une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La glomérulonéphrite aiguë post-infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La maladie de Berger.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La glomérulonéphrite rapidement progressive (Wegener, Goodpasture).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La glomérulonéphrite membrano-proliférative.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La néphropathie interstitielle médicamenteuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les glomérulonéphrites mentionnées sont l'aiguë post-infectieuse, la rapidement progressive (Wegener, Goodpasture) et les chroniques (maladie de Berger, membrano-proliférative ou extra-capillaire). La néphropathie interstitielle médicamenteuse est une autre cause néphrologique mais n'est pas une glomérulonéphrite."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments cliniques et paracliniques caractéristiques du syndrome d'Alport ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hématurie macroscopique récidivante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Insuffisance rénale associée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Surdité.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Atteinte ophtalmique (cataracte, atteinte maculaire).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Transmission autosomique dominante.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome d'Alport se caractérise par une hématurie macroscopique récidivante, associée à une insuffisance rénale, une surdité et une atteinte ophtalmique (cataracte, atteinte maculaire) dans un contexte familial (lié à l'X, dominant ou récessif). La transmission autosomique dominante est celle de la polykystose rénale."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les éléments diagnostiques de l'infarctus rénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur lombaire brutale, difficilement calmée par les antalgiques.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Contexte de maladie thromboembolique (AC/FA).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Scanner abdomino-pelvien injecté montrant une image d'infarctus rénal.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Écho-Doppler rénal montrant une image d'infarctus rénal.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hématurie microscopique isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'infarctus rénal se manifeste par une hématurie avec douleur lombaire brutale, difficilement calmée par les antalgiques, dans un contexte de post-traumatisme, drépanocytose ou maladie thromboembolique (AC/FA). Le diagnostic est confirmé par scanner abdomino-pelvien injecté, angio-IRM ou écho-Doppler montrant une image d'infarctus rénal. L'hématurie n'est pas nécessairement microscopique isolée."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations l'artériographie est-elle indiquée dans le bilan d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas de forte suspicion d'atteinte vasculaire.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Lors d'un traumatisme rénal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "À la recherche d'un saignement actif nécessitant une embolisation.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour le diagnostic d'une tumeur rénale bénigne.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de colique néphrétique isolée.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'artériographie est indiquée seulement en cas de forte suspicion d'atteinte vasculaire, notamment lors d'un traumatisme rénal, à la recherche d'un saignement actif nécessitant une embolisation. Elle n'est pas indiquée pour le diagnostic de tumeur rénale bénigne ou de colique néphrétique isolée."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de coloration rouge des urines qui ne sont pas de véritables hématuries ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La myoglobinurie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'hémoglobinurie.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La consommation de betteraves.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La prise de rifampicine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'hémospermie.",
+          "correct": false
+        }
+      ],
+      "explanation": "La myoglobinurie, l'hémoglobinurie, la consommation de betteraves et la prise de rifampicine sont des causes de coloration rouge des urines qui ne sont pas des hématuries. L'hémospermie est une hémorragie de voisinage, donc une cause d'hématurie au sens large (sang dans les urines)."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques de l'hématurie prostatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement macroscopique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est typiquement initiale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est souvent due à une hyperplasie bénigne de la prostate (HBP).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours associée à un cancer prostatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "C'est un diagnostic d'élimination.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hématurie prostatique est généralement macroscopique initiale, souvent due à une HBP ou prostatite, plus rarement à un cancer prostatique. C'est un diagnostic d'élimination. Elle n'est pas toujours associée à un cancer prostatique."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le seuil de protéinurie des 24h qui oriente vers une origine néphrologique de l'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une protéinurie > 0,5 g/24h.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une protéinurie > 1 g/24h.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une protéinurie > 2 g/24h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une protéinurie < 1 g/24h est toujours liée à l'hématurie.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La protéinurie n'est pas un critère d'orientation étiologique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une protéinurie > 2 g/24h oriente vers une origine néphrologique. Il est précisé qu'une protéinurie jusqu'à 1 g/24h peut être liée à l'hématurie elle-même."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les anomalies que l'échographie vésico-rénale peut détecter dans le cadre d'une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une tumeur du parenchyme rénal.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une lithiase urinaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des kystes rénaux.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une urétéro-hydronéphrose.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une thrombose des veines rénales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'échographie vésico-rénale peut détecter une tumeur du parenchyme rénal, des cavités pyélocalicielles ou vésicale, une lithiase, des kystes rénaux, des signes indirects comme l'urétéro-hydronéphrose ou le caillotage, et avec le Doppler, une thrombose des veines rénales."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les causes de néphropathie interstitielle médicamenteuse mentionnées ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les sulfamides.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les pénicillines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les AINS.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cyclophosphamide.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La rifampicine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les néphropathies interstitielles médicamenteuses sont citées avec les sulfamides et les pénicillines. Les AINS sont un contexte de nécrose papillaire. Le cyclophosphamide est un facteur de risque de cancer urothélial. La rifampicine est une cause de coloration rouge des urines."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes radiologiques à l'uroscanner évocateurs de nécrose papillaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une amputation calicielle.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence de lithiase dans l'uretère.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "L'absence de lithiase.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une image d'infarctus rénal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Des calcifications des parois vésicales.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'uroscanner peut montrer une amputation calicielle et l'absence de lithiase en cas de nécrose papillaire. La présence de lithiase est une autre étiologie. L'infarctus rénal est une autre néphropathie vasculaire. Les calcifications des parois vésicales sont associées à la tuberculose urinaire."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la prise en charge urgente d'un infarctus rénal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une reperméabilisation de l'artère rénale par voie radio-interventionnelle (stent).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une thrombectomie chirurgicale de l'artère rénale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hydratation orale abondante.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une cystoscopie en urgence.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une surveillance simple avec antalgiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge urgente (dans les 6h) d'un infarctus rénal consiste en une reperméabilisation de l'artère rénale par voie radio-interventionnelle (stent) ou chirurgicale (thrombectomie). Les autres options ne sont pas des traitements spécifiques de l'infarctus rénal."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Pourquoi le cathéter sus-pubien est-il contre-indiqué en cas d'hématurie macroscopique avec caillotage et/ou rétention aiguë d'urine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Risque de perforation vésicale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Risque de dissémination d'un possible cancer vésical.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Risque d'infection urinaire nosocomiale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Risque d'hémorragie supplémentaire.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il n'est pas contre-indiqué, c'est une option de dérivation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cathéter sus-pubien est contre-indiqué en cas d'hématurie macroscopique avec caillotage et/ou rétention aiguë d'urine en raison du risque de dissémination d'un possible cancer vésical."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les mesures de prise en charge hors urgence en cas d'hématurie macroscopique asymptomatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hydratation orale abondante.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La pose d'une sonde vésicale double courant.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Des irrigations vésicales continues.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La prescription d'anticoagulants.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un décaillotage à la seringue.",
+          "correct": false
+        }
+      ],
+      "explanation": "Hors urgence, en cas d'hématurie macroscopique asymptomatique, la mesure recommandée est une hydratation orale abondante pour diluer l'hématurie et éviter le risque de caillotage, et faciliter la coagulation de la lésion. Les autres options sont des mesures d'urgence."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels médicaments peuvent entraîner une coloration rouge des urines sans être une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La rifampicine.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'érythromycine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le métronidazole.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'ibuprofène.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La vitamine B12.",
+          "correct": true
+        }
+      ],
+      "explanation": "La rifampicine, l'érythromycine, le métronidazole et la vitamine B12 sont mentionnés comme des médicaments pouvant causer une coloration rouge des urines. L'ibuprofène est mentionné comme pouvant révéler une hématurie, mais pas comme une cause de fausse hématurie."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels aliments peuvent entraîner une coloration rouge des urines sans être une hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les betteraves.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les mûres.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les myrtilles.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La rhubarbe.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le chou rouge.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les betteraves, mûres, myrtilles, rhubarbe et chou rouge sont tous mentionnés comme des causes alimentaires de coloration rouge des urines."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Qu'est-ce qui caractérise une hématurie idiopathique ou essentielle ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle représente plus de 10% des cas d'hématurie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Elle est toujours d'origine glomérulaire.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est sans cause retrouvée après un bilan urinaire complet.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est toujours macroscopique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle nécessite une biopsie rénale systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hématurie idiopathique/essentielle représente plus de 10% des cas et est sans cause retrouvée après un bilan urinaire complet. Son origine n'est pas spécifiée comme toujours glomérulaire, et elle n'est pas toujours macroscopique. Une biopsie rénale n'est pas systématique."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le seuil d'hématies/mm3 pour qu'une bandelette urinaire (BU) soit positive pour le sang ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "> 1 hématie/mm3.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "> 5 hématies/mm3.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "> 10 hématies/mm3.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "> 50 hématies/mm3.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "> 500 hématies/mm3.",
+          "correct": false
+        }
+      ],
+      "explanation": "La BU est positive à partir de > 5 hématies/mm3."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes radiologiques évocateurs de tuberculose urinaire ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des calcifications des parois vésicales.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Des calcifications des parois urétérales.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un aspect de « vessie porcelaine ».",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une amputation calicielle.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une urétéro-hydronéphrose.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tuberculose urinaire peut se manifester par des calcifications des parois vésicales ou urétérales, donnant un aspect de « vessie porcelaine ». L'amputation calicielle est associée à la nécrose papillaire. L'urétéro-hydronéphrose est un signe indirect de diverses pathologies obstructives."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations la biopsie rénale (PBR) est-elle à discuter ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'origine néphrologique suspectée.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "En présence d'une protéinurie glomérulaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'hypertension artérielle (HTA) associée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas d'hématurie idiopathique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas de suspicion de tumeur rénale.",
+          "correct": false
+        }
+      ],
+      "explanation": "La PBR est à discuter si l'origine néphrologique est suspectée, notamment en présence d'une protéinurie glomérulaire ou d'une HTA. Elle n'est pas systématique pour l'hématurie idiopathique et n'est pas indiquée pour la suspicion de tumeur rénale."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'éjaculat urétéral d'urine sanglante peut-il orienter le diagnostic étiologique de l'hématurie ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "S'il est unilatéral, il est en faveur d'une origine urologique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "S'il est bilatéral, il est en faveur d'une origine néphrologique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "S'il est unilatéral, il est en faveur d'une origine néphrologique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "S'il est bilatéral, il est en faveur d'une origine urologique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il n'a aucune valeur localisatrice.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'éjaculat urétéral d'urine sanglante aux méats urétéraux est en faveur d'une origine urologique si unilatéral, et néphrologique si bilatéral."
+    }
+  ]
+}

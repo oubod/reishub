@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-11",
+  "title": "Asthme",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques principales de l'asthme, telles que définies dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une maladie infectieuse des voies aériennes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une maladie inflammatoire chronique des voies aériennes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des symptômes respiratoires paroxystiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une obstruction des voies aériennes d’importance variable.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une maladie exclusivement d'origine allergique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthme est défini comme une maladie inflammatoire chronique des voies aériennes, caractérisée par des symptômes respiratoires paroxystiques (dyspnée, sifflements, oppression thoracique et/ou toux) et une obstruction des voies aériennes d’importance variable. Il n'est pas exclusivement infectieux ou allergique."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le pourcentage de prévalence de l'asthme chez l'enfant, selon les données fournies ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moins de 5%",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Entre 5 et 7%",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Entre 10 et 15%",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Plus de 20%",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La prévalence n'est pas mentionnée pour l'enfant.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthme est la maladie chronique la plus fréquente de l’enfant, avec une prévalence de 10 à 15%."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les deux facteurs principaux mentionnés comme influençant la physiopathologie de l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'alimentation et le stress.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les infections bactériennes et la pollution sonore.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Les infections virales et la sensibilisation aux pneumallergènes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'obésité et le reflux gastro-œsophagien.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les facteurs génétiques et l'exposition au tabac.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les deux facteurs principaux influençant la physiopathologie de l'asthme sont les infections virales et la sensibilisation aux pneumallergènes."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quels sont les symptômes typiques d'une crise d'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Douleur thoracique aiguë et fièvre élevée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Dyspnée, sifflements, oppression thoracique et toux.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Palpitations et céphalées isolées.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Éruption cutanée et douleurs articulaires.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Diarrhée et vomissements.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les symptômes d'une crise d'asthme sont la dyspnée, les sifflements, l'oppression thoracique et la toux."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelles sont les caractéristiques temporelles des symptômes d'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont continus et durent plusieurs jours sans interruption.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Ils sont de brève durée, cédant généralement en moins de 20 minutes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Ils sont paroxystiques et récidivants.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils s'aggravent toujours après la prise de bronchodilatateurs.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ils sont uniquement nocturnes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les symptômes d'asthme sont de brève durée (plusieurs minutes, cédant généralement en < 20 minutes), paroxystiques et récidivants."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant les facteurs génétiques de l'asthme, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'asthme est une maladie monogénique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Plus de 100 gènes sont impliqués dans la réaction immunitaire et la réactivité bronchique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le risque génétique est de 10% en l'absence d'antécédent familial.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le risque génétique est de 50% si un seul parent est asthmatique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le risque génétique diminue si les deux parents sont asthmatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthme est une maladie polygénique, impliquant plus de 100 gènes. Le risque génétique est de 10% en l'absence d'antécédent, 25% si un parent asthmatique, et 50% si deux parents sont asthmatiques."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les co-facteurs environnementaux de l'asthme mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La consommation excessive de caféine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le tabac.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La pollution de l'air intérieure (biocombustible de cuisine ou de chauffage).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'exposition aux polluants atmosphériques (particules de diesel).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La consommation d'aliments transformés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les co-facteurs environnementaux incluent le tabac, la pollution de l'air intérieure (biocombustible de cuisine ou de chauffage) et la probable implication des polluants atmosphériques (particules de diesel)."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles cellules immunitaires sont recrutées, stimulées et activées dans les voies aériennes et circulantes lors de la réaction immunitaire Th2 de l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les érythrocytes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les cellules dendritiques.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les mastocytes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les lymphocytes T.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les plaquettes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réaction immunitaire Th2 entraîne le recrutement, la stimulation et l'activation de cellules immunitaires des voies aériennes (dendritiques, mastocytes) et circulantes (lymphocytes T, PNE, PNB, PNN)."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les éléments du remodelage bronchique observés dans l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amincissement de la membrane basale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Remplacement des cellules caliciformes par des cellules ciliées.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Hyperplasie et hypertrophie des cellules musculaires lisses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Épaississement de la membrane basale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Hypoperméabilité vasculaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le remodelage bronchique inclut l'épaississement de la membrane basale, l'hyperperméabilité vasculaire (œdème bronchique), et l'hyperplasie et hypertrophie des cellules musculaires lisses. Il y a un remplacement des cellules ciliées par des cellules caliciformes, pas l'inverse."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel mécanisme est à l'origine de l'asthme induit par l'exercice ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une réaction allergique aux protéines de l'effort.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une hyperventilation entraînant un refroidissement et une déshydratation des bronches.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une infection virale déclenchée par l'activité physique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une intolérance aux médicaments pris avant l'exercice.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un réflexe vagal lié à l'augmentation du rythme cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'asthme induit par l'exercice est causé par l'hyperventilation lors de l'exercice, qui entraîne un refroidissement et une déshydratation des bronches, puis une libération de médiateurs inflammatoires."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Concernant l'intolérance à l'aspirine et aux AINS dans l'asthme, quelles affirmations sont correctes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il s'agit d'une réaction allergique classique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est due à un excès de synthèse de médiateurs inflammatoires comme les leucotriènes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est considérée comme une idiosyncrasie médicamenteuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est sans conséquence sur la réactivité bronchique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est traitée par désensibilisation aux AINS.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'intolérance à l'aspirine et aux AINS est une réaction pharmacologique (≠ allergique) par excès de synthèse de médiateurs inflammatoires (leucotriènes), considérée comme une idiosyncrasie médicamenteuse."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les signes d'une exacerbation d'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution progressive des symptômes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation progressive des symptômes (plus rapprochés, plus intenses, plus résistants aux BDCA).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Retour à la normale de la fonction respiratoire.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Diminution progressive de la fonction respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de besoin de bronchodilatateurs à courte durée d'action.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une exacerbation se caractérise par une augmentation progressive des symptômes (plus rapprochés, sans retour à la normale, plus intenses, plus résistants aux BDCA) et une diminution progressive de la fonction respiratoire."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les facteurs de risque d'exacerbation d'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Utilisation excessive de BDCA (> 1 flacon/mois).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "VEMS > 80%.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Absence de corticoïdes inhalés (non-observance ou mauvaise technique).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Problèmes psychologiques ou socio-économiques majeurs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Antécédent d'intubation ou hospitalisation en USI/réa pour asthme.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les facteurs de risque d'exacerbation incluent l'utilisation excessive de BDCA (> 1 flacon/mois), l'absence de corticoïdes inhalés, des problèmes psychologiques ou socio-économiques majeurs, et un antécédent d'intubation ou hospitalisation en USI/réa pour asthme. Un VEMS < 60% est un facteur de risque, pas > 80%."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels arguments sont évocateurs d'un diagnostic d'asthme chez un patient asymptomatique lors de l'examen ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une aggravation des symptômes la nuit et au réveil.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un caractère continu et non variable des symptômes.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un déclenchement des symptômes par l'exercice, les allergènes ou le rire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une association de plusieurs symptômes (dyspnée, sifflements, oppression, toux).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une amélioration spontanée des symptômes sans traitement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les arguments évocateurs incluent l'association de plusieurs symptômes, l'aggravation la nuit et au réveil, le caractère paroxystique et récidivant, la variabilité de l'intensité des symptômes, et le déclenchement par infection virale, exercice, allergène, irritant, rire."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment est défini un trouble ventilatoire obstructif (TVO) en EFR ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un rapport VEMS/CVF de Tiffeneau > 70%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un rapport VEMS/CVF de Tiffeneau < 70%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du VEMS après bronchodilatateur.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une diminution de la capacité vitale forcée (CVF).",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation de la capacité pulmonaire totale (CPT).",
+          "correct": false
+        }
+      ],
+      "explanation": "Un trouble ventilatoire obstructif (TVO) est défini par un rapport VEMS/CVF de Tiffeneau < 70%."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'une réversibilité significative du TVO après inhalation de bronchodilatateur ou corticoïdes systémiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation du VEMS de moins de 12% par rapport à la valeur initiale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une augmentation du VEMS de plus de 200 mL.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une augmentation du VEMS de plus de 12% par rapport à la valeur initiale.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une normalisation du rapport VEMS/CVF à plus de 0,7.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une normalisation du VEMS à plus de 80%.",
+          "correct": false
+        }
+      ],
+      "explanation": "La réversibilité est significative si l'augmentation du VEMS est > 200 mL ET > 12% par rapport à la valeur initiale. La normalisation du rapport VEMS/CVF > 0,7 et du VEMS > 80% correspond à une réversibilité complète."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations la mesure du Débit Expiratoire de Pointe (DEP) est-elle indiquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pour le diagnostic et le suivi de routine de l'asthme, en remplacement de l'EFR.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En situation d'urgence.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Pour le diagnostic d'asthme professionnel.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Pour l'auto-surveillance du patient.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Pour évaluer l'obstruction des petites bronches.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le DEP est indiqué en situation d'urgence, pour le diagnostic d'asthme professionnel et pour l'auto-surveillance. Il n'a pas de valeur pour le diagnostic et le suivi de routine en remplacement de l'EFR et évalue surtout l'obstruction des grosses bronches."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quand un bilan allergologique par prick-tests est-il recommandé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uniquement en cas de suspicion d'allergie alimentaire.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Lors du bilan initial de l'asthme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Si le traitement de l'asthme est inefficace.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "En cas de contre-indication aux IgE spécifiques.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Systématiquement chez tous les asthmatiques, quel que soit le contexte.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le bilan allergique (tests cutanés) est recommandé lors du bilan initial et si échec du traitement. Les IgE spécifiques sont utilisées en cas de discordance clinique, contre-indication aux prick-tests ou prick-tests non interprétables."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les métiers à risque d'asthme professionnel mentionnés dans le cours ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les boulangers et pâtissiers.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Les professionnels de santé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les coiffeurs.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les travailleurs du bois.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les comptables et les banquiers.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les métiers à risque incluent les boulangers, pâtissiers, professionnels de santé, coiffeurs, peintres, agents d’entretien et travailleurs du bois."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les arguments diagnostiques de l'asthme chez l'enfant de moins de 5 ans ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La survenue d'épisodes sifflants et/ou de toux à l'exercice, au rire/pleurs, en l'absence de virose.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un antécédent personnel d'allergie (eczéma, rhinite allergique).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un antécédent familial d'asthme au 1er degré.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une aggravation sous traitement de fond.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une amélioration sous traitement de fond et aggravation à l'arrêt.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les arguments diagnostiques incluent la survenue d'épisodes sifflants et/ou de toux à l'exercice, au rire/pleurs, en l'absence de virose, un antécédent personnel d'allergie, un antécédent familial d'asthme au 1er degré, et une amélioration sous traitement de fond et aggravation à l'arrêt."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels médicaments sont contre-indiqués chez les patients asthmatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les corticoïdes inhalés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Les β-bloquants (y compris oculaires).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'aspirine et les AINS en cas d'intolérance.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les bronchodilatateurs à courte durée d'action.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les anti-leucotriènes.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les β-bloquants (toute forme) sont une contre-indication stricte en cas d'asthme car ils sont bronchoconstricteurs. L'aspirine et les AINS sont contre-indiqués si le patient présente une intolérance, car ils majorent l'hyperréactivité bronchique."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères d'un contrôle acceptable de l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symptômes diurnes plus de 2 fois par semaine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Symptômes nocturnes absents.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Utilisation de BDCA plus de 2 doses par semaine.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Activité physique normale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absentéisme scolaire/professionnel nul.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un contrôle acceptable implique des symptômes diurnes ≤ 2/semaine, des symptômes nocturnes absents, une utilisation de BDCA ≤ 2 doses/semaine, une activité physique normale et un absentéisme scolaire/professionnel nul. Le VEMS ou DEP doit être > 85% de la meilleure valeur et la variation nycthémérale du DEP < 15%."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Selon la classification de sévérité de l'asthme, quelles sont les caractéristiques d'un asthme persistant léger ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symptômes diurnes moins d'une fois par semaine.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Symptômes diurnes au moins une fois par semaine.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Symptômes nocturnes plus de deux fois par mois.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VEMS ou DEP entre 60 et 80%.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Variabilité du DEP entre 20 et 30%.",
+          "correct": true
+        }
+      ],
+      "explanation": "Un asthme persistant léger est caractérisé par des symptômes diurnes ≥ 1/semaine, des symptômes nocturnes > 2/mois, un VEMS ou DEP > 80% et une variabilité du DEP de 20 à 30%."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les mesures associées à la prise en charge de l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'éviction des agents inflammatoires (tabac, irritants, allergènes).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le traitement des manifestations rhino-sinusiennes.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Le traitement des comorbidités (RGO, obésité, anxiété).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La vaccination antigrippale chez tous les asthmatiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La désensibilisation aux allergènes systématique chez tous les asthmatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les mesures associées incluent l'éviction des agents inflammatoires, le traitement des manifestations rhino-sinusiennes, le traitement des comorbidités et la vaccination antigrippale chez tous les asthmatiques. La désensibilisation est possible sous certaines conditions, pas systématique."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques des β-mimétiques à courte durée d'action (BDCA) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ils sont utilisés quotidiennement par voie inhalée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Le salmétérol et le formotérol en sont des exemples.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Leur action débute en quelques minutes et dure 4 à 6 heures.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ils sont administrés à la demande par voie inhalée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Leurs effets indésirables incluent la sécheresse buccale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les BDCA (Salbutamol, terbutaline) sont utilisés à la demande par voie inhalée, agissent en quelques minutes pour une durée de 4 à 6h. Les BDLA (Salmétérol, formotérol) sont utilisés quotidiennement. La sécheresse buccale est un EI des anticholinergiques."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment l'inflammation chronique des voies aériennes contribue-t-elle à l'obstruction bronchique et à la bronchoconstriction dans l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Par une activation des fibres nerveuses sensitives, mises à nu par la destruction épithéliale.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Par une diminution de la production de médiateurs inflammatoires.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Par un épaississement de la membrane basale et une hyperplasie des cellules musculaires lisses.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Par une contraction du muscle lisse induite par les médiateurs inflammatoires.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Par une augmentation de la clairance mucociliaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'inflammation chronique entraîne un remodelage bronchique (épaississement de la membrane basale, hyperplasie et hypertrophie des cellules musculaires lisses) et une activation des fibres nerveuses sensitives (mises à nu par la destruction épithéliale et activées par les médiateurs inflammatoires), conduisant à la contraction du muscle lisse et donc à la bronchoconstriction."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la distinction entre la réversibilité du trouble ventilatoire obstructif (TVO) dans l'asthme et la BPCO ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une réversibilité significative est observée uniquement dans l'asthme.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une réversibilité complète du TVO exclut par définition la BPCO.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une réversibilité significative peut être observée dans la BPCO (syndrome de chevauchement).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La réversibilité est toujours partielle dans l'asthme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La BPCO ne présente jamais de réversibilité du TVO.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une réversibilité significative peut être observée dans la BPCO (syndrome de chevauchement = ACOS), mais une réversibilité complète (normalisation du rapport VEMS/CVF > 0,7 et du VEMS > 80%) exclut par définition la BPCO."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Concernant le test d'hyperréactivité bronchique à la métacholine, quelles affirmations sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est indiqué en cas de TVO à l'état basal.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est positif si le VEMS diminue de plus de 20% par rapport à la valeur initiale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il a une valeur prédictive négative (VPN) de 100%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est spécifique de l'inflammation bronchique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Il est non spécifique et peut être positif dans l'emphysème ou l'insuffisance cardiaque.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le test est positif si le VEMS diminue de > 20%. Il a une VPN de 100% et une VPP de 80%. Il est indiqué en cas de suspicion d'asthme clinique sans TVO à l'état basal. Il est non spécifique de l'inflammation bronchique et peut être observé dans d'autres pathologies comme l'emphysème ou l'insuffisance cardiaque."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les limites de la mesure du Débit Expiratoire de Pointe (DEP) ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est une mesure plus fiable que le VEMS pour le diagnostic.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle n'a de valeur en crise que si le patient a l'habitude de l'appareil.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle évalue surtout l'obstruction des grosses bronches.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle remplace l'EFR pour le diagnostic et le suivi.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est moins fiable que le VEMS.",
+          "correct": true
+        }
+      ],
+      "explanation": "Le DEP est une mesure moins fiable que le VEMS. Il n'a de valeur en crise que si le malade a l'habitude de l'appareil et évalue surtout l'obstruction des grosses bronches, ne remplaçant pas l'EFR pour le diagnostic et le suivi."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels diagnostics différentiels doivent être évoqués en cas de TVO non réversible ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La BPCO.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La mucoviscidose.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La dysfonction des cordes vocales.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le cancer trachéo-bronchique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Le syndrome d'hyperventilation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les diagnostics différentiels de TVO non réversible incluent la BPCO, la bronchiolite oblitérante, la mucoviscidose, la bronchectasie, le corps étranger, la dysplasie bronchopulmonaire, l'insuffisance cardiaque, la trachéobronchomalacie, le cancer trachéo-bronchique, le déficit immunitaire, la dyskinésie ciliaire et l'arc aortique anormal. La dysfonction des cordes vocales et le syndrome d'hyperventilation sont des DD cliniques sans TVO."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques du syndrome de Fernand-Widal ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est caractérisé par une polypose rhino-sinusienne.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Il est associé à un asthme sévère.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il implique une intolérance à l'aspirine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est un phénotype d'asthme hyperéosinophilique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Il est toujours associé à une allergie alimentaire.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Fernand-Widal est un phénotype d'asthme hyperéosinophilique, caractérisé par une polypose rhino-sinusienne, un asthme sévère et une intolérance à l'aspirine."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quel cas la vaccination anti-pneumococcique est-elle recommandée chez les asthmatiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez tous les asthmatiques, systématiquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'insuffisance respiratoire chronique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Uniquement chez les enfants asthmatiques.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas d'asthme intermittent.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle n'est jamais recommandée chez les asthmatiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La vaccination anti-pneumococcique est recommandée en cas d'insuffisance respiratoire chronique chez les asthmatiques. La vaccination antigrippale est recommandée chez tous les asthmatiques."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conditions pour envisager une désensibilisation aux allergènes chez un patient asthmatique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'asthme doit être contrôlé.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Le DEP doit être supérieur à 70%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est indiquée en cas d'asthme persistant avec mono-allergie aux acariens, pollens de graminées ou bouleau.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle est possible quel que soit le niveau de contrôle de l'asthme.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle est indiquée pour toutes les allergies, y compris alimentaires.",
+          "correct": false
+        }
+      ],
+      "explanation": "La désensibilisation est possible seulement après contrôle de l'asthme (DEP > 70%) et en cas d'asthme persistant avec mono-allergie aux acariens, pollens de graminées ou bouleau."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les effets indésirables des corticoïdes inhalés ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tachycardie et tremblements.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Mycose bucco-pharyngée.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Sécheresse buccale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Dysphonie.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Douleur abdominale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les effets indésirables des corticoïdes inhalés sont la mycose bucco-pharyngée (évitée en se rinçant la bouche) et la dysphonie. La tachycardie et les tremblements sont des EI des β-mimétiques, la sécheresse buccale des anticholinergiques, et la douleur abdominale des anti-leucotriènes."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les caractéristiques et indications du Montélukast ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est administré par injection sous-cutanée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il est un anti-leucotriène.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Il est utilisé en monothérapie dans le traitement préventif de l'asthme d'effort.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il est moins efficace que les BDLA en complément des CI.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Ses effets indésirables sont fréquents et graves.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Montélukast est un anti-leucotriène, administré par voie orale. Il est utilisé en complément des CI, comme alternative aux BDLA (mais moins efficace), et en monothérapie dans le traitement préventif de l'asthme d'effort. Ses EI sont rares et bénins."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de l'Omalizumab ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asthme sévère non contrôlé avec VEMS > 80%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Asthme d'origine allergique (sensibilisation prouvée à un pneumallergène per-annuel).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Asthme sévère non contrôlé avec VEMS < 80%.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Asthme éosinophilique sévère.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Asthme intermittent.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'Omalizumab est indiqué dans l'asthme sévère non contrôlé avec VEMS < 80% d'origine allergique (sensibilisation prouvée à un pneumallergène per-annuel par prick-test et/ou IgE spécifiques)."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelle situation le Mepolizumab est-il indiqué ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En cas d'asthme allergique sévère.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "En cas d'asthme éosinophilique sévère chez les patients de plus de 12 ans.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "En cas d'asthme induit par l'exercice.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "En cas d'asthme persistant léger.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "En cas d'intolérance à l'aspirine.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Mepolizumab est indiqué en cas d'asthme éosinophilique sévère chez les patients de plus de 12 ans."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles situations un traitement de fond (palier 2) doit-il être instauré d'emblée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Symptômes d'asthme diurnes plus de 2 fois par mois.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réveils nocturnes plus d'une fois par mois.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Crise d'asthme dans l'année précédente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "VEMS normal.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Symptômes d'asthme sans aucun facteur de risque d'exacerbation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un traitement de fond (palier 2) doit être instauré d'emblée si : symptômes d'asthme diurnes > 2 fois/mois, réveils nocturnes > 1 fois/mois, crise d'asthme dans l'année précédente, symptômes d'asthme + ≥ 1 FdR d'exacerbation, ou VEMS anormal."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques du palier 3 du traitement de fond de l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BDCA seuls.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "BDCA + CI à faible dose + BDLA.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "BDCA + CI à moyenne ou forte dose.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "BDCA + CI à faible dose + anti-leucotriène.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "BDCA + anti-IgE.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les options du palier 3 sont : BDCA + CI à faible dose + BDLA, OU BDCA + CI à moyenne ou forte dose, OU BDCA + CI à faible dose + anti-leucotriène."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les options thérapeutiques du palier 5 du traitement de fond de l'asthme ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BDCA seuls.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "BDCA + anti-IgE.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "BDCA + anti-IL5.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "BDCA + corticoïdes systémiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "BDCA + CI à faible dose.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le palier 5 inclut BDCA + (anti-IgE ou anti-IL5 ou corticoïdes systémiques)."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les facteurs de risque de terrain pour un asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un VEMS > 60% théorique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un antécédent d'asthme 'presque fatal' ou de séjour en réanimation pour asthme.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une mauvaise observance ou un déni de la maladie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une consommation tabagique > 20 PA.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un patient 'bon percepteur' de l'obstruction bronchique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les facteurs de risque de terrain incluent un antécédent d'asthme 'presque fatal' ou de séjour en réanimation, une mauvaise observance/déni de la maladie, une consommation tabagique > 20 PA, un VEMS < 40% théorique, et un patient 'mauvais percepteur' de l'obstruction bronchique."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes cliniques d'une crise d'asthme grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une parole normale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une fréquence respiratoire (FR) > 30/min.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un tirage et une tension des muscles sterno-cléido-mastoïdiens (SCM).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des sibilants en fin d'expiration uniquement.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une agitation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Une crise grave se caractérise par une parole difficile (mots), une FR > 30/min, un tirage et une tension des SCM, des sibilants bruyants (ou silence auscultatoire en extrême), et une agitation."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les paramètres biologiques et fonctionnels d'une crise d'asthme grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un DEP > 75%.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une SpO2 en air ambiant < 92%.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une PaO2 en air ambiant entre 75 et 90 mmHg.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une PaCO2 en air ambiant entre 35 et 45 mmHg.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un pH < 7,35.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une crise grave présente un DEP < 50% ou < 150 l/min, une SpO2 en air ambiant < 92%, une PaO2 en air ambiant entre 55 et 60 mmHg, et une PaCO2 en air ambiant entre 35 et 45 mmHg. Un pH < 7,35 est un signe d'extrême gravité."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment doit être prise en charge une exacerbation légère ou modérée d'asthme en milieu non médicalisé ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de BDCA par nébulisation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administration de BDCA avec dispositif d'inhalation + chambre d'inhalation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "4 à 10 bouffées de BDCA à renouveler toutes les 20 minutes jusqu'à amélioration clinique pendant 1h.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Corticothérapie systémique à forte dose pendant 2 semaines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Oxygénothérapie systématique à 15L/min.",
+          "correct": false
+        }
+      ],
+      "explanation": "En milieu non médicalisé, il faut administrer des BDCA avec dispositif d'inhalation + chambre d'inhalation, 4 à 10 bouffées à renouveler toutes les 20 minutes jusqu’à amélioration clinique pendant 1h. La nébulisation est pour le milieu médicalisé. La corticothérapie systémique est de 5 à 7 jours. L'O2 est à 6-8L/min avec une cible de saturation."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les premières mesures thérapeutiques en cas d'exacerbation sévère ou d'asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administration de BDCA seuls par nébulisation.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Administration de BDCA et d'anticholinergiques par nébulisation.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Corticothérapie systémique immédiate.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "β2-mimétiques injectables en première intention.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Ventilation mécanique systématique.",
+          "correct": false
+        }
+      ],
+      "explanation": "En cas d'exacerbation sévère/AAG, les premières mesures incluent l'administration de BDCA et d'anticholinergiques (Ipratroprium) par nébulisation, ainsi qu'une corticothérapie systémique. Les β2-mimétiques injectables sont en cas d'échec, et la ventilation mécanique est une indication rare."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les indications de la ventilation mécanique sur intubation oro-trachéale dans l'asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asphyxie aiguë.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Détresse vitale.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Épuisement respiratoire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Hypercapnie isolée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Asthme aigu grave stabilisé.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indications de la ventilation mécanique sont rares et incluent l'asphyxie aiguë, la détresse vitale et l'épuisement respiratoire."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les réglages recommandés pour la ventilation mécanique dans l'asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Volume courant élevé (> 10 ml/kg).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Temps expiratoire prolongé.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Cycle respiratoire à 8-12/min.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Ajustement du débit d'insufflation avec pause inspiratoire prolongée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "FiO2 réglée pour une saturation > 98%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les réglages recommandés sont un volume courant faible (6 ml/kg), un temps expiratoire prolongé, un cycle respiratoire à 8-12/min, un ajustement du débit d'insufflation sans pause inspiratoire, et une FiO2 réglée pour une saturation > 92%."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les conséquences hémodynamiques de l'asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diminution de la négativité de la pression pleurale à l'inspiration.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Augmentation du retour veineux et de la post-charge du ventricule droit.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Dilatation du ventricule droit.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Bombement septal gênant le remplissage ventriculaire gauche.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Absence de pouls paradoxal.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les conséquences hémodynamiques incluent une augmentation de la négativité de la pression pleurale à l'inspiration, une augmentation du retour veineux et de la post-charge du VD, une dilatation du VD, et un bombement septal gênant le remplissage ventriculaire gauche, conduisant au pouls paradoxal."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les signes radiographiques d'hyperinflation thoracique observés lors d'un asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Horizontalisation des côtes.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Réduction des espaces intercostaux.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Horizontalisation du diaphragme.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Cœur 'en goutte'.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Élargissement du médiastin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les signes radiographiques d'hyperinflation sont l'horizontalisation des côtes, l'élargissement des espaces intercostaux, l'horizontalisation du diaphragme et le cœur 'en goutte'."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels traitements ne sont PAS indiqués dans la prise en charge de l'asthme aigu grave ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Les bronchodilatateurs à longue durée d'action (BDLA).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La théophylline.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La réhydratation agressive.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Les sédatifs.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les corticoïdes systémiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les traitements non indiqués sont les BDLA, la théophylline, la réhydratation agressive, les sédatifs, la kinésithérapie directive et les mucolytiques. Les corticoïdes systémiques sont indiqués."
+    }
+  ]
+}

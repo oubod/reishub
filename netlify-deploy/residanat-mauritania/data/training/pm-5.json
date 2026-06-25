@@ -1,0 +1,1707 @@
+{
+  "lectureId": "pm-5",
+  "title": "Péricardites",
+  "category": "Pathologies Médicales",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est la définition d'une péricardite aiguë en termes de durée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inflammation du péricarde durant plus de 3 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Inflammation du péricarde durant entre 4 et 6 semaines.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Inflammation du péricarde durant moins de 4 à 6 semaines.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Inflammation du péricarde récurrente après un intervalle libre de plus de 4-6 semaines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Inflammation du péricarde durant plus de 4 à 6 semaines mais moins de 3 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péricardite aiguë est définie comme une inflammation du péricarde d'une durée inférieure à 4 à 6 semaines."
+    },
+    {
+      "id": "q2",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle est l'étiologie la plus fréquente des péricardites ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La péricardite tuberculeuse.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La péricardite purulente.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La péricardite virale ou idiopathique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La péricardite post-infarctus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La péricardite néoplasique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes virales ou idiopathiques représentent 90% des étiologies des péricardites."
+    },
+    {
+      "id": "q3",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle caractéristique est typique de la douleur thoracique associée à la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement soulagée par l'inspiration profonde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent décrite comme une douleur lancinante et brève.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Elle est habituellement aggravée par l'antéflexion.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Elle est souvent précordiale ou rétro-sternale.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Elle est typiquement de courte durée, ne dépassant pas quelques minutes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La douleur thoracique est précordiale ou rétro-sternale, à type de brûlure ou constrictive, prolongée, et est diminuée par l'antéflexion, et augmentée par la toux et l'inspiration profonde."
+    },
+    {
+      "id": "q4",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quel est le signe électrocardiographique (ECG) caractéristique du stade initial de la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un sous-décalage diffus du segment ST.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un sus-décalage diffus du segment ST, concave vers le haut.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La présence d'ondes Q pathologiques dans plusieurs dérivations.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une inversion des ondes T dans les dérivations précordiales.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un sus-décalage du segment ST avec des images en miroir.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le premier stade des anomalies ECG en péricardite aiguë est un sus-décalage diffus du segment ST, concave vers le haut, souple et sans signe en miroir."
+    },
+    {
+      "id": "q5",
+      "type": "quiz",
+      "difficulty": "facile",
+      "question": "Quelle condition permet une prise en charge ambulatoire de la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'un épanchement péricardique abondant (> 2 cm).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une forte suspicion d'étiologie non virale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un faible risque de tamponnade avec un épanchement < 20 mm.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une myocardite associée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un patient sous anticoagulant oral.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge ambulatoire est possible si le risque de tamponnade est faible (épanchement < 20 mm), entre autres critères. Les autres options sont des indications d'hospitalisation."
+    },
+    {
+      "id": "q6",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations décrivent correctement le frottement péricardique à l'auscultation en cas de péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Il est constant et facilement audible.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il s'agit typiquement d'un souffle systolique.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Il peut être systolo-diastolique à trois temps.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il persiste en apnée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Son intensité est toujours forte et stable.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le frottement péricardique est inconstant, fugace, d'intensité variable. Il est systolo-diastolique à 3 temps (proto-diastolique, pré-systolique et systolique) et persiste en apnée, ce qui le distingue d'un frottement pleural."
+    },
+    {
+      "id": "q7",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les caractéristiques de la péricardite tuberculeuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un début aigu avec une fièvre élevée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une association avec une altération de l'état général (AEG).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un diagnostic confirmé par PCR sur le liquide péricardique.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un risque d'évolution vers la péricardite constrictive.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence de granulome à la ponction péricardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péricardite tuberculeuse se présente de manière subaiguë, est associée à une AEG et une fièvre modérée. Elle a un risque évolutif de tamponnade, récidive et péricardite constrictive. Le diagnostic implique la recherche de BK et l'IDR/Quantiféron, et éventuellement un granulome à la ponction péricardique."
+    },
+    {
+      "id": "q8",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments font partie du syndrome de Dressler ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un début précoce (J3-J5) après un infarctus du myocarde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une péricardite et une fièvre.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un syndrome inflammatoire biologique important.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un raccourcissement de l'intervalle QT à l'ECG.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un épanchement pleural droit.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le syndrome de Dressler est une péricardite tardive (2 à 16 semaines) post-infarctus, caractérisée par péricardite, fièvre, AEG, arthralgie, épanchement pleural gauche, syndrome inflammatoire biologique important et allongement du QT."
+    },
+    {
+      "id": "q9",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quelles situations une ponction péricardique est-elle indiquée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un épanchement péricardique minime (< 1 cm).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une forte suspicion de péricardite virale.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La présence d'une tamponnade cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un épanchement péricardique abondant (> 2 cm), symptomatique, persistant sous traitement pendant plus d'une semaine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un épanchement péricardique localisé sans symptômes.",
+          "correct": false
+        }
+      ],
+      "explanation": "La ponction péricardique est indiquée en cas de tamponnade, de forte suspicion de péricardite néoplasique, ou d'épanchement péricardique abondant (> 2 cm), symptomatique, persistant sous traitement pendant plus d'une semaine."
+    },
+    {
+      "id": "q10",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle séquence décrit correctement l'évolution des anomalies ECG dans la péricardite aiguë selon la tétrade d'Holtzman ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sus-décalage ST -> Aplatissement des ondes T -> Négativation des ondes T -> Retour à la ligne isoélectrique ST et T.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Négativation des ondes T -> Sus-décalage ST -> Aplatissement des ondes T -> Retour à la ligne isoélectrique ST et T.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Sus-décalage ST -> Négativation des ondes T -> Aplatissement des ondes T -> Retour à la ligne isoélectrique ST et T.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Aplatissement des ondes T -> Sus-décalage ST -> Négativation des ondes T -> Retour à la ligne isoélectrique ST et T.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Sus-décalage ST -> Retour à la ligne isoélectrique ST et T -> Aplatissement des ondes T -> Négativation des ondes T.",
+          "correct": false
+        }
+      ],
+      "explanation": "La tétrade d'Holtzman décrit les 4 stades successifs : 1. Sus-décalage du segment ST. 2. Retour à la ligne isoélectrique du segment ST et aplatissement des ondes T (24-48h). 3. Négativation des ondes T (1ère semaine). 4. Retour à la ligne isoélectrique du segment ST et des ondes T (1er mois)."
+    },
+    {
+      "id": "q11",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels signes cliniques sont évocateurs d'une tamponnade cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une bradycardie.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un pouls paradoxal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une hypertension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un assourdissement des bruits du cœur.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des signes d'insuffisance ventriculaire droite aiguë.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les signes de tamponnade incluent une tachycardie, un pouls paradoxal (baisse de PA > 10 mmHg à l'inspiration), des bruits du cœur assourdis, et un tableau de choc avec signes d'insuffisance ventriculaire droite aiguë."
+    },
+    {
+      "id": "q12",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations concernant la colchicine sont exactes ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle est généralement prescrite à forte dose (1 mg x 2/jour).",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La diarrhée est un effet indésirable fréquent.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Elle est contre-indiquée en cas d'insuffisance hépatique sévère.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Elle doit être utilisée à pleine dose quel que soit le poids ou l'âge du patient.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Elle n'a pas d'interactions médicamenteuses connues.",
+          "correct": false
+        }
+      ],
+      "explanation": "La colchicine est utilisée à faible dose (0,5 mg x 2/jour). La diarrhée est un effet indésirable fréquent. Elle est contre-indiquée en cas d'insuffisance rénale sévère (< 35 ml/min) ou d'insuffisance hépatique sévère. Elle nécessite une demi-dose si < 70 kg, > 70 ans ou insuffisance rénale avec DFG > 35, et présente des interactions médicamenteuses (macrolides, ciclosporine, statines)."
+    },
+    {
+      "id": "q13",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les principales causes de péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La péricardite virale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La péricardite tuberculeuse.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La péricardite post-radique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La péricardite post-infarctus du myocarde.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "L'insuffisance rénale chronique.",
+          "correct": true
+        }
+      ],
+      "explanation": "Les causes principales de péricardite constrictive sont la péricardite tuberculeuse, post-radique, purulente, l'IRC ou post-sternotomie."
+    },
+    {
+      "id": "q14",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels éléments suggèrent une myocardite associée chez un patient atteint de péricardite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des taux de troponine et de CPK normaux.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une insuffisance cardiaque fébrile, voire un état de choc.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un sus-décalage ST diffus concave vers le haut à l'ECG.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un rehaussement tardif non systématisé, plutôt sous-épicardique à l'IRM cardiaque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence de troubles de cinétique ventriculaire à l'ETT.",
+          "correct": false
+        }
+      ],
+      "explanation": "Une myocardite associée est suggérée par une élévation de la troponine et des CPK, une insuffisance cardiaque fébrile, voire un état de choc. L'IRM cardiaque montre un rehaussement tardif non systématisé, plutôt sous-épicardique. Des troubles de cinétique ventriculaire à l'ETT sont également évocateurs."
+    },
+    {
+      "id": "q15",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel critère nécessite une hospitalisation et un bilan étiologique pour une péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une suspicion d'étiologie virale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une fièvre modérée.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un épanchement péricardique abondant (> 2 cm).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'absence de myocardite associée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un patient compliant pour le suivi.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'hospitalisation est indiquée en cas d'épanchement péricardique abondant (> 2 cm), de suspicion d'étiologie non virale, de fièvre élevée, de survenue subaiguë, de tamponnade, de myocardite, d'immunodépression, de traumatisme, d'anticoagulant oral ou d'échec du traitement ambulatoire."
+    },
+    {
+      "id": "q16",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles sont les contre-indications à la ponction péricardique en cas de tamponnade cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un trouble de coagulation sévère (contre-indication relative).",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dissection aortique (contre-indication absolue).",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un épanchement localisé (contre-indication relative).",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une péricardite urémique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une tamponnade post-infarctus du myocarde.",
+          "correct": false
+        }
+      ],
+      "explanation": "La dissection aortique est une contre-indication absolue à la ponction péricardique. Un trouble de coagulation ou un épanchement localisé sont des contre-indications relatives."
+    },
+    {
+      "id": "q17",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Associez correctement la durée à la classification de la péricardite.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aiguë : > 3 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Récurrente : après un intervalle libre > 4-6 semaines.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Prolongée : < 4-6 semaines.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Chronique : > 4-6 semaines.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aiguë : < 4-6 semaines.",
+          "correct": true
+        }
+      ],
+      "explanation": "La péricardite aiguë dure < 4 à 6 semaines. La péricardite récurrente survient après un intervalle libre > 4-6 semaines. La péricardite prolongée dure > 4-6 semaines et la péricardite chronique > 3 mois."
+    },
+    {
+      "id": "q18",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Dans quels contextes la péricardite purulente est-elle typiquement observée ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chez les sujets jeunes et en bonne santé.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Chez les patients immunodéprimés.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Après une chirurgie cardiaque ou thoracique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Comme complication d'infections virales courantes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Chez les patients atteints de maladies auto-immunes systémiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péricardite purulente survient chez l'immunodéprimé ou post-chirurgie cardiaque ou thoracique."
+    },
+    {
+      "id": "q19",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels outils diagnostiques sont indispensables pour confirmer une péricardite néoplasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un électrocardiogramme montrant un sus-décalage ST diffus.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une radiographie pulmonaire montrant une cardiomégalie en 'carafe'.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une ponction péricardique avec biopsie péricardique.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une IRM cardiaque pour visualiser une tumeur péricardique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des sérologies pour les virus courants.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic de péricardite néoplasique repose sur l'ETT ± TDM/IRM pour la visualisation de la tumeur péricardique, et une ponction péricardique ± biopsie péricardique, indispensable pour le diagnostic de malignité."
+    },
+    {
+      "id": "q20",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles anomalies sont caractéristiques de la péricardite constrictive à la radiographie pulmonaire (RP) et à l'ECG ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une RP montrant une cardiomégalie significative.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un ECG montrant un micro-voltage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une RP montrant des calcifications péricardiques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un ECG montrant une repolarisation normale.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un ECG montrant des troubles du rythme supra-ventriculaire fréquents.",
+          "correct": false
+        }
+      ],
+      "explanation": "La RP peut montrer des calcifications péricardiques, sans cardiomégalie. L'ECG montre un micro-voltage, des troubles de repolarisation, une FA et des troubles de conduction."
+    },
+    {
+      "id": "q21",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quels sont les critères diagnostiques de la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La présence d'un frottement péricardique à l'auscultation.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une douleur thoracique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des signes de tamponnade cardiaque.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Un épanchement péricardique à l'échographie trans-thoracique (ETT).",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des taux de troponine élevés.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les critères diagnostiques de péricardite aiguë sont ≥ 2/4 : douleur thoracique, signes ECG, frottement péricardique à l'auscultation, épanchement péricardique à l'ETT."
+    },
+    {
+      "id": "q22",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelles affirmations sont vraies concernant l'utilisation des AINS/Aspirine dans la péricardite aiguë bénigne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "L'aspirine est prescrite à une dose de 1,5 à 3 g/jour.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "L'ibuprofène est généralement administré à 1,8 g/jour.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La durée du traitement est habituellement de 3 mois.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'indométacine est le traitement de première intention pour toutes les péricardites aiguës.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Les inhibiteurs de la pompe à protons (IPP) sont systématiquement associés, surtout avec de faibles doses d'aspirine.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aspirine est administrée à 750 à 1000 mg/8h (soit 1,5 à 3 g/jour) et l'ibuprofène à 600 mg/8h (soit 1,8 g/j). Le traitement dure 1 mois avec décroissance progressive. L'indométacine est possible en cas de péricardite aiguë récurrente. Les IPP sont associés surtout si aspirine à 3 g/j, antécédents de RGO/ulcère ou signes digestifs."
+    },
+    {
+      "id": "q23",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Comment se manifeste la péricardite chez les patients atteints d'insuffisance rénale chronique (IRC) terminale ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La péricardite urémique chez le patient non dialysé est typiquement un transsudat.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La péricardite de l'hémodialysé est souvent due à un traitement épurateur inadapté.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Les deux formes sont associées à un risque élevé de péricardite constrictive.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La péricardite urémique est caractérisée par un exsudat.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "La péricardite de l'hémodialysé est toujours un exsudat.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péricardite urémique chez le patient non dialysé est un exsudat. La péricardite de l'hémodialysé est un transsudat, due à un traitement épurateur inadapté."
+    },
+    {
+      "id": "q24",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quelle est la principale mesure préventive des récidives de péricardite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un traitement de courte durée par AINS.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un traitement prolongé avec diminution progressive.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des corticoïdes à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La colchicine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une décortication péricardique précoce.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention des récidives implique un traitement prolongé avec diminution progressive et l'association de colchicine."
+    },
+    {
+      "id": "q25",
+      "type": "quiz",
+      "difficulty": "intermediaire",
+      "question": "Quel est le suivi recommandé pour un patient atteint de péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une visite de contrôle à 1 mois.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un contrôle échographique hebdomadaire si l'épanchement est modéré.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un contrôle échographique mensuel si l'épanchement est minime.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'arrêt immédiat de tous les médicaments dès la résolution des symptômes.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Aucun suivi spécifique n'est nécessaire si le patient est asymptomatique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le suivi comprend une visite de contrôle à 7 jours. Le contrôle échographique est hebdomadaire si l'épanchement est modéré ou mensuel si minime. Le traitement doit être prolongé et dégressif."
+    },
+    {
+      "id": "q26",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les anomalies échocardiographiques (ETT) caractéristiques de la tamponnade cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un épanchement péricardique circonférentiel, au sein duquel le cœur paraît petit avec une contraction vigoureuse.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Une dilatation du ventricule gauche.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une compression et un collapsus du ventricule droit et de l'oreillette droite.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un aspect de 'swinging heart'.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence d'épanchement péricardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ETT montre un épanchement péricardique circonférentiel, au sein duquel le cœur paraît petit avec une contraction vigoureuse (aspect 'swinging heart'). On observe également une compression des cavités droites avec collapsus du VD et de l'OD."
+    },
+    {
+      "id": "q27",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est l'aspect caractéristique de la pression du ventricule droit lors d'un cathétérisme cardiaque droit en cas de péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une pression télédiastolique du ventricule gauche élevée.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un aspect de 'dip plateau'.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une pression artérielle pulmonaire normale.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une pression auriculaire droite réduite.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une augmentation du débit cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le cathétérisme cardiaque droit révèle un aspect caractéristique de 'dip plateau' de la pression du ventricule droit."
+    },
+    {
+      "id": "q28",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Dans quelles conditions les corticoïdes peuvent-ils être envisagés dans le traitement de la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En première intention pour toutes les péricardites virales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "À fortes doses pour résoudre rapidement l'inflammation.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "En seconde intention si contre-indication aux AINS/aspirine et à la colchicine.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Après avoir éliminé une cause infectieuse.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "En association avec une anticoagulation à dose curative.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les corticoïdes sont utilisés à faible dose, en seconde intention si contre-indication aux AINS/aspirine et à la colchicine, et après avoir éliminé une cause infectieuse. L'anticoagulation à dose curative est contre-indiquée."
+    },
+    {
+      "id": "q29",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles mesures sont mentionnées pour la prévention de la péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une péricardiectomie prophylactique systématique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un drainage correct des péricardites purulentes avec lavage.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "L'utilisation de corticoïdes pour diminuer le risque de péricardite constrictive post-tuberculeuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une thérapie à long terme par AINS à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Un drainage chirurgical précoce pour tous les épanchements péricardiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prévention inclut le drainage correct des péricardites purulentes avec lavage, et l'utilisation de corticoïdes pour diminuer le risque de péricardite constrictive post-tuberculeuse."
+    },
+    {
+      "id": "q30",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les étiologies possibles de péricardite chez un patient infecté par le VIH ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uniquement des causes virales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un lymphome.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un sarcome de Kaposi.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une surinfection fongique ou bactérienne.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Uniquement des causes idiopathiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chez les patients VIH, la péricardite peut être virale, due à un lymphome, un sarcome de Kaposi, ou une surinfection fongique ou bactérienne."
+    },
+    {
+      "id": "q31",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles anomalies échocardiographiques (ETT) sont caractéristiques de la péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une dilatation des ventricules avec une taille normale des oreillettes.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un septum paradoxal.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un péricarde épaissi.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation de la VCI et des veines sus-hépatiques.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "L'absence d'épanchement péricardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "L'ETT montre une dilatation des oreillettes avec une taille normale des ventricules, un septum paradoxal, un péricarde épaissi, et une dilatation de la VCI et des veines sus-hépatiques."
+    },
+    {
+      "id": "q32",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels symptômes sont associés à un surdosage en colchicine ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une hypertension artérielle.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des troubles digestifs.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une cytopénie.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des convulsions.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une bradycardie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Un surdosage en colchicine peut entraîner des troubles digestifs, une paralysie, une cytopénie, une alopécie, une atteinte rénale et des convulsions."
+    },
+    {
+      "id": "q33",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels types de péricardite peuvent survenir après une chirurgie cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Le syndrome post-péricardotomie.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un hémopéricarde post-opératoire précoce.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une péricardite purulente.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une péricardite tuberculeuse.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une péricardite myxœdémateuse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Après une chirurgie cardiaque, on peut observer un syndrome post-péricardotomie, un hémopéricarde post-opératoire précoce, et une péricardite purulente (le staphylocoque est mentionné comme germe post-chirurgical)."
+    },
+    {
+      "id": "q34",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels signes cliniques sont caractéristiques de la péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des épisodes récurrents d'insuffisance cardiaque gauche.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dyspnée et une prise de poids.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une turgescence jugulaire et un reflux hépato-jugulaire.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Un anasarque.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un début aigu de douleur thoracique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péricardite constrictive se manifeste par des épisodes d'insuffisance cardiaque droite à répétition avec dyspnée, prise de poids, OMI, turgescence jugulaire, reflux hépato-jugulaire, voire anasarque."
+    },
+    {
+      "id": "q35",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Comment est défini le micro-voltage à l'ECG dans le contexte de la péricardite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une amplitude des QRS < 5 mm dans les dérivations précordiales.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une amplitude des QRS < 10 mm dans les dérivations périphériques.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Une amplitude des QRS < 5 mm dans les dérivations périphériques.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une amplitude des QRS < 10 mm dans les dérivations précordiales.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une amplitude des ondes T < 1 mm dans toutes les dérivations.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le micro-voltage diffus est défini par des QRS < 5 mm en dérivation périphérique ou < 10 mm en précordial."
+    },
+    {
+      "id": "q36",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel traitement médical est associé au drainage pour la tamponnade cardiaque ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des diurétiques pour réduire la surcharge volémique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des vasodilatateurs pour diminuer la post-charge.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Un remplissage vasculaire par colloïdes.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Des agents inotropes.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des bêta-bloquants pour contrôler la tachycardie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement médical associé comprend un remplissage vasculaire (colloïde) ± inotrope."
+    },
+    {
+      "id": "q37",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les principales causes de péricardite chronique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La péricardite virale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La péricardite néoplasique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La péricardite tuberculeuse.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La péricardite post-infarctus.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La péricardite post-radique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Les causes principales de péricardite chronique sont la péricardite néoplasique (principalement) et la péricardite tuberculeuse."
+    },
+    {
+      "id": "q38",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement chirurgical curatif de la péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La création d'une fenêtre péricardique.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La décortication péricardique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "La péricardiectomie.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Le drainage de l'épanchement péricardique.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "La transplantation cardiaque.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement chirurgical curatif est la décortication péricardique, avec des résultats inconstants."
+    },
+    {
+      "id": "q39",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Différenciez la péricardite urémique de la péricardite de l'hémodialysé.",
+      "options": [
+        {
+          "id": "A",
+          "text": "La péricardite urémique survient chez les patients dialysés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La péricardite de l'hémodialysé est typiquement un exsudat.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "La péricardite urémique est un exsudat.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "La péricardite de l'hémodialysé est un transsudat.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Les deux sont causées par un traitement épurateur inadapté.",
+          "correct": false
+        }
+      ],
+      "explanation": "La péricardite urémique chez le patient non dialysé est un exsudat. La péricardite de l'hémodialysé est un transsudat, causée par un traitement épurateur inadapté."
+    },
+    {
+      "id": "q40",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement de première intention pour la péricardite récurrente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des corticoïdes à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des immunoglobulines IV.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "Aspirine/AINS et colchicine sur une durée prolongée jusqu'à 6 mois.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Anakinra.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une péricardiotomie.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement de première intention pour la péricardite récurrente est l'association d'aspirine/AINS et de colchicine sur une durée prolongée jusqu'à 6 mois."
+    },
+    {
+      "id": "q41",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement recommandé pour la péricardite tuberculeuse ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un drainage chirurgical uniquement.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un traitement antituberculeux classique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des corticoïdes pour prévenir la péricardite constrictive, même en cas d'infection VIH associée.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Des corticoïdes pour prévenir la péricardite constrictive, sauf en cas d'infection VIH associée.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des AINS à forte dose pendant 6 mois.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement comprend un traitement antituberculeux classique et des corticoïdes en prévention de la péricardite constrictive (sauf en cas d'infection VIH associée)."
+    },
+    {
+      "id": "q42",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles sont les stratégies de prise en charge de la péricardite néoplasique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uniquement un traitement médical de la néoplasie sous-jacente.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Un drainage transcutané ou chirurgical avec analyse du liquide.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une péricardiectomie immédiate.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "La prise en charge de la néoplasie sous-jacente.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une monothérapie par colchicine à long terme.",
+          "correct": false
+        }
+      ],
+      "explanation": "La prise en charge de la péricardite néoplasique inclut un drainage transcutané ± chirurgical avec analyse, et la prise en charge de la néoplasie."
+    },
+    {
+      "id": "q43",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la signification du sous-décalage du segment PQ à l'ECG dans la péricardite aiguë ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "C'est un signe tardif, apparaissant après la négativation des ondes T.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Il indique un infarctus du myocarde associé.",
+          "correct": false
+        },
+        {
+          "id": "C",
+          "text": "C'est un signe précoce et très évocateur.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Il reflète des anomalies de la repolarisation auriculaire.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "C'est une anomalie non spécifique.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le sous-décalage du segment PQ (repolarisation auriculaire) est un signe précoce et très évocateur."
+    },
+    {
+      "id": "q44",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les indices diagnostiques de la péricardite liée aux maladies systémiques ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une augmentation des lymphocytes dans le liquide péricardiaque.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "La présence d'anticorps anti-sarcolemme dans le liquide péricardiaque.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une myocardite associée.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Le diagnostic est généralement un diagnostic d'élimination.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Des sérologies virales spécifiques.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le diagnostic implique une augmentation des lymphocytes, des anticorps anti-sarcolemme dans le liquide péricardiaque, une myocardite associée, et est un diagnostic d'élimination."
+    },
+    {
+      "id": "q45",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles conditions ou traitements augmentent le risque d'hémopéricarde en cas de péricardite ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un infarctus du myocarde.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une dissection aortique.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une anticoagulation à dose curative.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Une ponction péricardique.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une chirurgie cardiaque récente.",
+          "correct": true
+        }
+      ],
+      "explanation": "L'hémopéricarde peut être causé par une dissection aortique, un traumatisme/chirurgie, une ponction péricardique, une biopsie endo-myocardique, un pacemaker ou une ablation d'électrode épicardique. L'anticoagulation à dose curative est contre-indiquée en raison du risque d'hémopéricarde."
+    },
+    {
+      "id": "q46",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quels sont les traitements de dernière intention pour la péricardite récurrente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Des corticoïdes à forte dose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Des immunoglobulines IV.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Anakinra.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "Azathioprine.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une péricardiotomie.",
+          "correct": true
+        }
+      ],
+      "explanation": "En dernière intention, on peut envisager les immunoglobulines IV, l'anakinra, l'azathioprine, voire une péricardiotomie."
+    },
+    {
+      "id": "q47",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quel est le traitement recommandé pour la péricardite purulente ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une antibiothérapie adaptée aux résultats de la ponction péricardique.",
+          "correct": true
+        },
+        {
+          "id": "B",
+          "text": "Un drainage chirurgical, souvent nécessaire.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Des corticoïdes à long terme.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une antibiothérapie locale via un drain.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Une antibiothérapie générale de courte durée.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le traitement comprend une antibiothérapie adaptée à la ponction péricardique, un drainage chirurgical souvent nécessaire, et une antibiothérapie générale prolongée. Une antibiothérapie locale est également mentionnée."
+    },
+    {
+      "id": "q48",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles anomalies spécifiques peuvent être observées à la TDM/IRM en cas de péricardite constrictive ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une épaisseur péricardique normale.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "La visualisation d'un péricarde épaissi et calcifié.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un épanchement péricardique significatif.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "Une dilatation de l'oreillette gauche.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Une fibrose myocardique.",
+          "correct": false
+        }
+      ],
+      "explanation": "La TDM/IRM cardiaque permet la visualisation du péricarde épaissi et calcifié."
+    },
+    {
+      "id": "q49",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelles caractéristiques sont typiques de la péricardite virale ou idiopathique ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Elle survient principalement chez les sujets âgés.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Elle est souvent précédée d'un épisode viral.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Un début brutal et fébrile.",
+          "correct": true
+        },
+        {
+          "id": "D",
+          "text": "L'échographie trans-thoracique (ETT) est généralement normale à la présentation.",
+          "correct": true
+        },
+        {
+          "id": "E",
+          "text": "Un risque élevé de tamponnade comme complication principale.",
+          "correct": false
+        }
+      ],
+      "explanation": "Elle touche typiquement le sujet jeune, est précédée d'un épisode viral, a un début brutal et fébrile, et l'ETT est généralement normale. Le pronostic principal est la rechute ou récidive (30-50%), la tamponnade étant exceptionnelle."
+    },
+    {
+      "id": "q50",
+      "type": "quiz",
+      "difficulty": "difficile",
+      "question": "Quelle est la recommandation concernant l'anticoagulation dans la péricardite aiguë bénigne ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Une anticoagulation à dose curative est toujours indiquée pour prévenir la thrombose.",
+          "correct": false
+        },
+        {
+          "id": "B",
+          "text": "Une anticoagulation à dose curative est contre-indiquée en raison du risque d'hémopéricarde.",
+          "correct": true
+        },
+        {
+          "id": "C",
+          "text": "Une anticoagulation à faible dose peut être envisagée chez les patients à haut risque.",
+          "correct": false
+        },
+        {
+          "id": "D",
+          "text": "L'anticoagulation est uniquement contre-indiquée s'il y a une myocardite associée.",
+          "correct": false
+        },
+        {
+          "id": "E",
+          "text": "Le texte ne spécifie pas de recommandations pour l'anticoagulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Il existe une contre-indication à toute anticoagulation à dose curative en raison du risque d'hémopéricarde."
+    }
+  ]
+}
