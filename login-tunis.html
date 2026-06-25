@@ -1,406 +1,321 @@
 <!DOCTYPE html>
-<html lang="fr" data-auth-page="tunis">
+<html class="light" lang="fr" data-auth-page="tunis">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Connexion Tunisie &ndash; Prepa Residanat</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Connexion - Résidanat Tunisie | R�siHub</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/native-app.css">
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#9e001f",
+            "primary-container": "#c8102e",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#ffdad8",
+            "secondary": "#146c3c",
+            "on-secondary": "#ffffff",
+            "secondary-container": "#a1f5b7",
+            "surface": "#f9f9fc",
+            "surface-container": "#eeeef0",
+            "surface-container-lowest": "#ffffff",
+            "surface-variant": "#e2e2e5",
+            "on-surface": "#1a1c1e",
+            "on-surface-variant": "#5c403f",
+            "on-background": "#1a1c1e",
+            "background": "#f9f9fc",
+            "outline": "#906f6e",
+            "outline-variant": "#e5bdbb",
+            "error": "#ba1a1a",
+            "surface-tint": "#bf0229",
+          },
+          borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          spacing: { "margin-mobile": "16px", gutter: "20px", sm: "8px", md: "16px", base: "4px", "2xl": "48px", xs: "4px", lg: "24px", xl: "32px" },
+          fontFamily: {
+            "headline-md": ["Manrope"], "headline-lg": ["Manrope"], "headline-lg-mobile": ["Manrope"],
+            "label-bold": ["Inter"], "label-caps": ["Inter"],
+            "body-md": ["Inter"], "body-sm": ["Inter"], "body-lg": ["Inter"],
+          },
+          fontSize: {
+            "headline-md": ["20px", { lineHeight: "1.3", fontWeight: "700" }],
+            "headline-lg": ["32px", { lineHeight: "1.2", fontWeight: "700" }],
+            "headline-lg-mobile": ["24px", { lineHeight: "1.2", fontWeight: "700" }],
+            "label-bold": ["14px", { lineHeight: "1", letterSpacing: "0.02em", fontWeight: "600" }],
+            "label-caps": ["12px", { lineHeight: "1", letterSpacing: "0.05em", fontWeight: "700" }],
+            "body-md": ["16px", { lineHeight: "1.5", fontWeight: "400" }],
+            "body-sm": ["14px", { lineHeight: "1.5", fontWeight: "400" }],
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    :root {
-      --accent: #b91c1c;
-      --accent-dark: #7f1d1d;
-      --accent-soft: #fee2e2;
-      --bg: #f7f8fb;
-      --paper: #ffffff;
-      --ink: #111827;
-      --muted: #667085;
-      --line: #e5e7eb;
-      --field: #f9fafb;
-      --accent-border: rgba(185, 28, 28, 0.2);
-      --accent-shadow: rgba(185, 28, 28, 0.28);
-      --focus-ring: rgba(185, 28, 28, 0.14);
-      --success: #15803d;
-      --warning: #b45309;
-      --info: #2563eb;
-    }
-
-    * { box-sizing: border-box; }
-    [hidden] { display: none !important; }
-
     body {
-      min-height: 100vh;
+      background-color: #f9f9fc;
+      background-image: radial-gradient(at 0% 0%, hsla(349, 100%, 93%, 0.5) 0px, transparent 50%),
+                         radial-gradient(at 100% 100%, hsla(210, 100%, 95%, 0.5) 0px, transparent 50%);
       min-height: 100dvh;
-      margin: 0;
-      background: linear-gradient(180deg, var(--bg), #eef2f7);
-      color: var(--ink);
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      -webkit-font-smoothing: antialiased;
     }
-
-    button, input { font: inherit; }
-
-    .auth-shell {
-      min-height: 100dvh;
-      width: min(100%, 940px);
-      margin: 0 auto;
-      padding: max(18px, env(safe-area-inset-top)) 16px max(18px, env(safe-area-inset-bottom));
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
     }
-
-    .back-link {
-      width: fit-content;
-      color: var(--accent-dark);
-      font-size: 14px;
-      font-weight: 700;
-      text-decoration: none;
-      padding: 8px 0;
+    .glass-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(226, 232, 240, 0.8);
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
     }
-
-    .layout {
-      flex: 1;
-      display: grid;
-      align-content: center;
-      gap: 14px;
+    .input-focus:focus-within {
+      box-shadow: 0 0 0 4px rgba(200, 16, 46, 0.1);
     }
-
-    .hero,
-    .auth-panel {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
-    }
-
-    .hero {
-      padding: 22px;
-      display: grid;
-      gap: 18px;
-    }
-
-    .brand-row {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-
-    .mark {
-      width: 54px;
-      height: 54px;
-      border-radius: 8px;
-      display: grid;
-      place-items: center;
-      background: var(--accent);
-      color: white;
-      font-size: 18px;
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      flex: none;
-    }
-
-    .eyebrow {
-      margin: 0 0 4px;
-      color: var(--accent-dark);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(30px, 8vw, 46px);
-      line-height: 0.98;
-      letter-spacing: -0.04em;
-    }
-
-    .subtitle {
-      margin: 0;
-      color: var(--muted);
-      font-size: 15px;
-      line-height: 1.55;
-    }
-
-    .access-strip {
-      display: grid;
-      gap: 10px;
-      padding: 14px;
-      border-radius: 8px;
-      background: var(--accent-soft);
-      border: 1px solid var(--accent-border);
-    }
-
-    .access-strip small {
-      color: var(--accent-dark);
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .access-main {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .price {
-      font-size: 15px;
-      font-weight: 800;
-      color: var(--ink);
-    }
-
-    .whatsapp-link {
-      color: var(--accent-dark);
-      font-size: 14px;
-      font-weight: 800;
-      text-decoration: none;
-      border-bottom: 1px solid currentColor;
-    }
-
-    .auth-panel {
-      padding: 18px;
-      display: grid;
-      gap: 14px;
-    }
-
-    .segmented {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6px;
-      padding: 4px;
-      background: #eef2f7;
-      border-radius: 8px;
-    }
-
-    .seg-btn {
-      min-height: 42px;
-      border: 0;
-      border-radius: 6px;
-      background: transparent;
-      color: var(--muted);
-      font-weight: 800;
-      cursor: pointer;
-    }
-
-    .seg-btn[aria-pressed="true"] {
-      background: var(--paper);
-      color: var(--ink);
-      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
-    }
-
-    .message {
-      margin: 0;
-      padding: 12px;
-      border-radius: 8px;
-      background: #fef2f2;
-      color: #991b1b;
-      border: 1px solid #fecaca;
-      font-size: 14px;
-      line-height: 1.45;
-    }
-
-    .message[data-type="success"] { background: #f0fdf4; border-color: #bbf7d0; color: var(--success); }
-    .message[data-type="warning"] { background: #fffbeb; border-color: #fde68a; color: var(--warning); }
-    .message[data-type="info"] { background: #eff6ff; border-color: #bfdbfe; color: var(--info); }
-
-    form {
-      display: grid;
-      gap: 12px;
-    }
-
-    .field {
-      display: grid;
-      gap: 6px;
-    }
-
-    .field span {
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    .field input {
-      width: 100%;
-      min-height: 50px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--field);
-      color: var(--ink);
-      padding: 0 13px;
-      outline: none;
-      -webkit-appearance: none;
-    }
-
-    .field input:focus {
-      border-color: var(--accent);
-      background: var(--paper);
-      box-shadow: 0 0 0 4px var(--focus-ring);
-    }
-
-    .primary-btn,
-    .ghost-btn {
-      width: 100%;
-      min-height: 50px;
-      border-radius: 8px;
-      font-weight: 800;
-      cursor: pointer;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .primary-btn {
-      border: 0;
-      background: var(--accent);
-      color: white;
-      box-shadow: 0 10px 24px var(--accent-shadow);
-    }
-
-    .primary-btn:disabled { opacity: 0.65; cursor: wait; }
-    .primary-btn:active,
-    .ghost-btn:active { transform: translateY(1px); }
-
-    .divider {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-
-    .divider::before,
-    .divider::after {
-      content: "";
-      height: 1px;
-      flex: 1;
-      background: var(--line);
-    }
-
-    .ghost-btn {
-      border: 1px solid var(--line);
-      background: var(--paper);
-      color: var(--accent-dark);
-    }
-
-    .footnote {
-      margin: 0;
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.45;
-      text-align: center;
-    }
-
-    @media (min-width: 820px) {
-      .layout {
-        grid-template-columns: 1fr 380px;
-        align-items: stretch;
-      }
-
-      .hero {
-        align-content: space-between;
-        padding: 34px;
-      }
+    [hidden] { display: none !important; }
+    .message { margin: 0; }
+    .message[data-type="error"] { background-color: #fef2f2; border-color: #fecaca; color: #991b1b; }
+    .message[data-type="success"] { background-color: #f0fdf4; border-color: #bbf7d0; color: #15803d; }
+    .message[data-type="warning"] { background-color: #fffbeb; border-color: #fde68a; color: #b45309; }
+    .message[data-type="info"] { background-color: #eff6ff; border-color: #bfdbfe; color: #1d4ed8; }
+    .bankily-gradient {
+      background: linear-gradient(135deg, #10b981 0%, #047857 100%);
     }
   </style>
 </head>
-<body>
-  <main class="auth-shell">
-    <a class="back-link" id="backBtn" href="./index.html">Retour au portail</a>
+<body class="font-body-md text-on-surface overflow-x-hidden page-transition pt-safe pb-safe">
 
-    <div class="layout">
-      <section class="hero" aria-labelledby="authTitle">
-        <div>
-          <div class="brand-row">
-            <div class="mark" aria-hidden="true">FMT</div>
-            <div>
-              <p class="eyebrow">Residanat Tunisie</p>
-              <h1 id="authTitle">Connexion</h1>
+  <!-- Atmospheric Background -->
+  <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+    <div class="absolute -top-[20%] -right-[10%] w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px]"></div>
+    <div class="absolute -bottom-[20%] -left-[10%] w-[600px] h-[600px] bg-secondary/5 rounded-full blur-[120px]"></div>
+  </div>
+
+  <main class="min-h-screen flex items-center justify-center p-margin-mobile relative z-10">
+    <div class="w-full max-w-lg">
+
+      <!-- Header Section -->
+      <div class="text-center mb-xl">
+        <div class="inline-block mb-md">
+          <div class="flex flex-col items-center gap-2">
+            <h1 id="authTitle" class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-surface mt-2">Résidanat Tunisie</h1>
+            <p class="text-body-md text-on-surface-variant max-w-sm mx-auto mt-2" id="authSubtitle">Connectez-vous pour accéder à vos cours FMT, quiz et cas cliniques.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Auth Card -->
+      <div class="glass-card rounded-xl p-xl">
+
+        <!-- Region Indicator -->
+        <div class="flex justify-center mb-lg">
+          <span class="inline-flex items-center gap-sm px-md py-xs bg-primary/10 text-primary font-label-bold text-label-bold rounded-full border border-primary/20">
+            <span class="material-symbols-outlined text-[18px]">location_on</span>
+            Tunisie
+          </span>
+        </div>
+
+        <!-- Tab Switcher -->
+        <div class="flex border-b border-outline-variant/30 mb-lg" role="tablist" aria-label="Mode d'authentification">
+          <button id="signinTab" role="tab" aria-pressed="true" type="button" class="flex-1 pb-3 text-label-bold font-label-bold text-center border-b-2 border-primary text-primary transition-all">Connexion</button>
+          <button id="signupTab" role="tab" aria-pressed="false" type="button" class="flex-1 pb-3 text-label-bold font-label-bold text-center border-b-2 border-transparent text-on-surface-variant hover:text-on-surface transition-all">S'inscrire</button>
+        </div>
+
+        <!-- Message Area -->
+        <p id="authMessage" class="message p-3 rounded-lg text-body-sm font-label-bold border mb-lg" hidden></p>
+
+        <!-- SIGN IN FORM -->
+        <form id="signinForm" class="space-y-lg">
+          <div class="space-y-sm">
+            <label class="font-label-bold text-label-bold text-on-surface block" for="signinEmail">Adresse E-mail</label>
+            <div class="relative group input-focus rounded-lg transition-all duration-200">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">mail</span>
+              <input id="signinEmail" class="native-input w-full pl-12 pr-4 h-14 bg-surface-container-lowest border border-outline rounded-lg font-body-md focus:border-primary-container focus:ring-0 outline-none transition-all duration-200" type="email" autocomplete="email" required placeholder="nom@exemple.tn" inputmode="email">
+            <p class="input-error">Veuillez entrer une adresse e-mail valide.</p>
             </div>
           </div>
-          <p class="subtitle" id="authSubtitle">Connectez-vous avec votre compte approuve.</p>
-        </div>
 
-        <div class="access-strip">
-          <small>Acces annuel</small>
-          <div class="access-main">
-            <span class="price">1 000 MRU / environ 80 TND</span>
-            <a id="whatsappLink" class="whatsapp-link" href="https://wa.me/27265400">WhatsApp 27265400</a>
+          <div class="space-y-sm">
+            <div class="flex justify-between items-center">
+              <label class="font-label-bold text-label-bold text-on-surface" for="signinPassword">Mot de passe</label>
+              <button type="button" id="forgotBtn" class="text-label-bold text-label-bold text-primary hover:underline transition-all">Oublié ?</button>
+            </div>
+            <div class="relative group input-focus rounded-lg transition-all duration-200">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">lock</span>
+              <input id="signinPassword" class="native-input w-full pl-12 pr-12 h-14 bg-surface-container-lowest border border-outline rounded-lg font-body-md focus:border-primary-container focus:ring-0 outline-none transition-all duration-200" type="password" autocomplete="current-password" required placeholder="••••••••">
+            <p class="input-error">Veuillez entrer votre mot de passe.</p>
+              <button class="absolute right-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" type="button" onclick="togglePassword('signinPassword', this)">visibility</button>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section class="auth-panel" aria-label="Connexion Tunisie">
-        <div class="segmented" role="tablist" aria-label="Mode d'authentification">
-          <button id="signinTab" class="seg-btn" role="tab" aria-pressed="true" type="button">Connexion</button>
-          <button id="signupTab" class="seg-btn" role="tab" aria-pressed="false" type="button">Inscription</button>
-        </div>
-
-        <p id="authMessage" class="message" hidden></p>
-
-        <form id="signinForm">
-          <label class="field">
-            <span>Adresse e-mail</span>
-            <input id="signinEmail" class="field-input" type="email" autocomplete="email" required>
-          </label>
-          <label class="field">
-            <span>Mot de passe</span>
-            <input id="signinPassword" class="field-input" type="password" autocomplete="current-password" required>
-          </label>
-          <button class="primary-btn" type="submit">Se connecter</button>
-          <button class="ghost-btn" type="button" id="forgotBtn" style="margin-top:-4px; font-size:13px; min-height:40px; border:0; background:transparent; color:var(--accent-dark); text-decoration:underline; cursor:pointer;">Mot de passe oublie ?</button>
+          <button class="w-full h-14 bg-primary-container text-on-primary font-label-bold text-label-bold rounded-lg shadow-lg hover:bg-primary transition-all duration-300 transform active:scale-[0.98] flex items-center justify-center gap-2" type="submit">
+            Se connecter
+            <span class="material-symbols-outlined text-[20px]">login</span>
+          </button>
         </form>
 
-        <form id="signupForm" hidden>
-          <label class="field">
-            <span>Nom complet</span>
-            <input id="signupName" type="text" autocomplete="name" required>
-          </label>
-          <label class="field">
-            <span>Adresse e-mail</span>
-            <input id="signupEmail" class="field-input" type="email" autocomplete="email" required>
-          </label>
-          <label class="field">
-            <span>Mot de passe</span>
-            <input id="signupPassword" class="field-input" type="password" autocomplete="new-password" minlength="6" required>
-          </label>
-          <button class="primary-btn" type="submit">Demander l'acces</button>
+        <!-- SIGN UP FORM -->
+        <form id="signupForm" class="space-y-lg" hidden>
+          <div class="space-y-sm">
+            <label class="font-label-bold text-label-bold text-on-surface block" for="signupName">Nom Complet</label>
+            <div class="relative">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant opacity-60">person</span>
+              <input id="signupName" class="native-input w-full pl-12 pr-4 h-14 bg-surface-container-lowest border border-outline rounded-lg font-body-md focus:border-primary-container focus:ring-0 outline-none transition-all" type="text" autocomplete="name" required placeholder="Dr. Prénom Nom">
+            <p class="input-error">Veuillez entrer votre nom complet.</p>
+            </div>
+          </div>
+
+          <div class="space-y-sm">
+            <label class="font-label-bold text-label-bold text-on-surface block" for="signupEmail">Adresse E-mail</label>
+            <div class="relative">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant opacity-60">mail</span>
+              <input id="signupEmail" class="native-input w-full pl-12 pr-4 h-14 bg-surface-container-lowest border border-outline rounded-lg font-body-md focus:border-primary-container focus:ring-0 outline-none transition-all" type="email" autocomplete="email" required placeholder="votre@email.com" inputmode="email">
+            <p class="input-error">Veuillez entrer une adresse e-mail valide.</p>
+            </div>
+          </div>
+
+          <div class="space-y-sm">
+            <label class="font-label-bold text-label-bold text-on-surface block" for="signupPassword">Mot de passe</label>
+            <div class="relative">
+              <span class="absolute left-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant opacity-60">lock</span>
+              <input id="signupPassword" class="native-input w-full pl-12 pr-12 h-14 bg-surface-container-lowest border border-outline rounded-lg font-body-md focus:border-primary-container focus:ring-0 outline-none transition-all" type="password" autocomplete="new-password" minlength="6" required placeholder="••••••••">
+            <p class="input-error">Le mot de passe doit contenir au moins 6 caractères.</p>
+              <button class="absolute right-4 top-1/2 -translate-y-1/2 material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" type="button" onclick="togglePassword('signupPassword', this)">visibility</button>
+            </div>
+            <p class="text-[11px] text-on-surface-variant/70 mt-1">Minimum 6 caractères.</p>
+          </div>
+
+          <!-- Bankily Payment Section -->
+          <div class="bankily-gradient rounded-xl p-5 text-white space-y-3 shadow-md mt-2">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex items-center gap-1 text-label-caps font-label-caps bg-white/20 px-2.5 py-1 rounded-full uppercase tracking-widest">
+                <span class="material-symbols-outlined text-[16px]">payments</span>
+                Paiement Bankily
+              </span>
+            </div>
+            <p class="text-body-sm opacity-95 leading-relaxed">
+              Transférez <strong class="font-bold underline">1 000 MRU</strong> (≈80 TND) via Bankily au numéro ci-dessous. Envoyez la capture d'écran sur WhatsApp pour activer votre compte.
+            </p>
+            <div class="bg-surface/30 border border-white/15 rounded-xl p-3 flex flex-col gap-3">
+              <div class="flex items-center justify-between gap-3">
+                <div class="flex flex-col">
+                  <span class="text-[10px] uppercase font-bold opacity-80 tracking-wider">Numéro Bankily</span>
+                  <span id="bankilyNumber" class="text-2xl font-black tracking-wider">026787</span>
+                </div>
+                <button type="button" onclick="copyBankilyNumber(this)" class="inline-flex items-center gap-1.5 bg-white text-green-800 px-3 py-2 rounded-lg text-label-sm font-bold hover:bg-green-50 active:scale-95 transition-all">
+                  <span class="material-symbols-outlined text-[18px]">content_copy</span>
+                  <span class="copy-label">Copier</span>
+                </button>
+              </div>
+              <a href="https://wa.me/49908714" target="_blank" rel="noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-green-600 text-white px-4 py-2.5 rounded-lg text-label-sm font-bold hover:bg-green-500 active:scale-95 transition-all">
+                <span class="material-symbols-outlined text-[18px]">chat</span>
+                Envoyer le reçu sur WhatsApp (49 90 87 14)
+              </a>
+            </div>
+          </div>
+
+          <button class="w-full h-14 bg-primary text-on-primary font-label-bold text-label-bold rounded-lg shadow-lg shadow-primary/20 hover:bg-primary/90 active:scale-[0.98] transition-all flex items-center justify-center gap-2 mt-xl" type="submit">
+            S'inscrire à R�siHub Tunisie
+            <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+          </button>
         </form>
 
-        <div class="divider">ou</div>
-        <button id="guestButton" class="ghost-btn" type="button">Entrer comme invite</button>
-        <p class="footnote">Les nouveaux comptes sont valides par l'administrateur avant activation.</p>
-      </section>
+        <!-- Bottom Section -->
+        <div class="mt-xl pt-lg border-t border-outline-variant/30 text-center space-y-4">
+          <button id="guestButton" type="button" class="inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors text-body-sm font-label-bold">
+            <span class="material-symbols-outlined text-[18px]">person_outline</span>
+            Entrer comme invité
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer Link -->
+      <div class="mt-xl flex flex-col items-center gap-4">
+        <a id="backBtn" class="group flex items-center gap-2 text-label-caps font-label-caps text-on-surface-variant hover:text-primary transition-colors duration-200" href="./index.html">
+          <span class="material-symbols-outlined text-[18px]">arrow_back</span>
+          Retour au choix de l'espace
+        </a>
+      </div>
     </div>
   </main>
 
+  <!-- Footer -->
+  <footer class="py-lg px-margin-mobile text-center relative z-10">
+    <p class="text-label-caps font-label-caps text-on-surface-variant/60 tracking-widest">
+      Chaque espace conserve ses fichiers, son style et ses outils.
+    </p>
+  </footer>
+
   <script src="auth-tunis.js?v=7"></script>
   <script>
-    async function loadWhatsappNumber() {
-      try {
-        const client = window.tunisSupabase || supabase.createClient("https://rsnbcgrtrjfvnoczildf.supabase.co", "sb_publishable_x8DaZHPwJORpR2tE5eClMA_yUsD2NTD");
-        const { data } = await client
-          .from("app_settings")
-          .select("value")
-          .eq("key", "whatsapp_number")
-          .maybeSingle();
-        const num = (data && data.value) || "27265400";
-        const link = document.getElementById("whatsappLink");
-        if (link) {
-          link.textContent = `WhatsApp ${num}`;
-          link.href = `https://wa.me/${num}`;
-        }
-      } catch (err) {
-        console.error("Error loading settings:", err);
+    // Password toggle
+    function togglePassword(inputId, btn) {
+      const input = document.getElementById(inputId);
+      if (input.type === 'password') {
+        input.type = 'text';
+        btn.textContent = 'visibility_off';
+      } else {
+        input.type = 'password';
+        btn.textContent = 'visibility';
       }
     }
-    setTimeout(loadWhatsappNumber, 300);
+
+    // Tab styling
+    function updateTabStyles() {
+      const signinTab = document.getElementById('signinTab');
+      const signupTab = document.getElementById('signupTab');
+      if (signinTab.getAttribute('aria-pressed') === 'true') {
+        signinTab.classList.add('border-primary', 'text-primary');
+        signinTab.classList.remove('border-transparent', 'text-on-surface-variant');
+        signupTab.classList.remove('border-primary', 'text-primary');
+        signupTab.classList.add('border-transparent', 'text-on-surface-variant');
+      } else {
+        signupTab.classList.add('border-primary', 'text-primary');
+        signupTab.classList.remove('border-transparent', 'text-on-surface-variant');
+        signinTab.classList.remove('border-primary', 'text-primary');
+        signinTab.classList.add('border-transparent', 'text-on-surface-variant');
+      }
+    }
+
+    // Observe tab changes via MutationObserver
+    const observer = new MutationObserver(updateTabStyles);
+    observer.observe(document.getElementById('signinTab'), { attributes: true, attributeFilter: ['aria-pressed'] });
+    observer.observe(document.getElementById('signupTab'), { attributes: true, attributeFilter: ['aria-pressed'] });
+
+    // Copy Bankily number to clipboard
+    async function copyBankilyNumber(btn) {
+      const num = document.getElementById("bankilyNumber").textContent.trim();
+      try {
+        await navigator.clipboard.writeText(num);
+        const label = btn.querySelector(".copy-label");
+        const original = label.textContent;
+        label.textContent = "Copié !";
+        btn.querySelector(".material-symbols-outlined").textContent = "check";
+        setTimeout(() => {
+          label.textContent = original;
+          btn.querySelector(".material-symbols-outlined").textContent = "content_copy";
+        }, 1500);
+      } catch (err) {
+        showToast("Impossible de copier automatiquement");
+      }
+    }
+
+    // Auto-focus first visible input for native login feel
+    function focusFirstVisibleInput() {
+      const activeForm = document.getElementById('signinForm').hidden
+        ? document.getElementById('signupForm')
+        : document.getElementById('signinForm');
+      if (activeForm && !window.matchMedia('(pointer: coarse)').matches) {
+        const firstInput = activeForm.querySelector('input');
+        if (firstInput && firstInput.focus) firstInput.focus();
+      }
+    }
+    setTimeout(focusFirstVisibleInput, 400);
   </script>
 </body>
 </html>
