@@ -1,4 +1,4 @@
-const CACHE_VERSION = "residanat-pwa-v21";
+const CACHE_VERSION = "RésiHub-pwa-v22";
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
@@ -20,6 +20,7 @@ const APP_SHELL = [
   "./assets/icons/maskable-512.png",
   "./data/lectures.json",
   "./data/quiz-bank.json",
+  "./data/series-cycle-ecn-2025.json",
   "./exams/examens.json",
   "./clinical-cases/cas-cliniques.json",
   "./residanat-mauritania/index.html",
@@ -108,7 +109,8 @@ self.addEventListener("fetch", (event) => {
     "cdn.tailwindcss.com",
     "cdnjs.cloudflare.com",
     "fonts.googleapis.com",
-    "fonts.gstatic.com"
+    "fonts.gstatic.com",
+    "cdn.jsdelivr.net"
   ]);
 
   if (url.origin !== self.location.origin) {

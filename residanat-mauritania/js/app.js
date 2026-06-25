@@ -1,4 +1,4 @@
-ï»¿// js/app.js
+// js/app.js
 
 // --- APP STATE ---
 let currentUser = null;
@@ -404,7 +404,7 @@ function handleNavClick(e) {
     link.classList.add('active');
     document.getElementById('lecture-title').textContent = currentLecture.title;
     document.getElementById('welcome-title').textContent = `Objectif: ${currentLecture.title}`;
-    document.getElementById('welcome-subtitle').textContent = "PrÃªt Ã  commencer votre rÃ©vision ?";
+    document.getElementById('welcome-subtitle').textContent = "Prêt à commencer votre révision ?";
     document.getElementById('dashboard-grid-container').style.display = 'grid';
     showView('dashboard-view');
     if (window.innerWidth <= 992) closeSidebar();
@@ -430,14 +430,14 @@ async function handleDashboardClick(e) {
         } else alert('Document non disponible pour ce cours.');
     } else if (action === 'read-summary') {
         if (currentLecture.summary) window.open(currentLecture.summary, '_blank');
-        else alert('RÃ©sumÃ© non disponible pour ce cours.');
+        else alert('Résumé non disponible pour ce cours.');
     } else if (action === 'start-training') {
         openExamChoiceModal();
     } else if (action === 'print-quizzes') {
         if (currentLecture) {
             generatePrintQuizzesPdfForCurrentLecture();
         } else {
-            alert('Veuillez sÃ©lectionner un objectif d\'abord.');
+            alert('Veuillez sélectionner un objectif d\'abord.');
         }
     } else if (action === 'view-analytics') {
         showAnalyticsView();
@@ -458,7 +458,7 @@ function handleSessionViewEvents(e) {
         e.preventDefault();
         const selectedLectureIds = Array.from(realExamSelectedLectures);
         if (!selectedLectureIds.length) {
-            alert('Veuillez sÃ©lectionner au moins un objectif avant de dÃ©marrer l\'examen.');
+            alert('Veuillez sélectionner au moins un objectif avant de démarrer l\'examen.');
             return;
         }
         startRealExam(selectedLectureIds);
@@ -466,7 +466,7 @@ function handleSessionViewEvents(e) {
         e.preventDefault();
         showConfirmationDialog(
             'Abandonner l\'examen',
-            'ÃŠtes-vous sÃ»r de vouloir abandonner cet examen ? Votre progression ne sera pas enregistrÃ©e.',
+            'Êtes-vous sûr de vouloir abandonner cet examen ? Votre progression ne sera pas enregistrée.',
             () => {
                 // Clear the timer
                 if (sessionTimerInterval) {
@@ -476,7 +476,7 @@ function handleSessionViewEvents(e) {
                 // Return to dashboard
                 showView('dashboard-view');
                 // Show a message to the user
-                showToast('Examen annulÃ©', 'Votre progression n\'a pas Ã©tÃ© enregistrÃ©e', 'warning');
+                showToast('Examen annulé', 'Votre progression n\'a pas été enregistrée', 'warning');
             }
         );
     } else if (target.matches('.practice-validate-btn')) {
@@ -491,7 +491,7 @@ function handleSessionViewEvents(e) {
         
         if (selected.length > 0) {
             const isCorrect = sameAnswerSet(selected, correctAnswers);
-            feedback.textContent = isCorrect ? 'Correct !' : `Incorrect. La rÃ©ponse correcte Ã©tait : ${formatAnswerList(correctAnswers)}`;
+            feedback.textContent = isCorrect ? 'Correct !' : `Incorrect. La réponse correcte était : ${formatAnswerList(correctAnswers)}`;
             feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
             
             // Add haptic feedback
@@ -503,7 +503,7 @@ function handleSessionViewEvents(e) {
             // Check if all quizzes are completed
             checkAllQuizzesCompleted();
         } else {
-            feedback.textContent = "Veuillez choisir une rÃ©ponse.";
+            feedback.textContent = "Veuillez choisir une réponse.";
             feedback.className = 'feedback incorrect';
             triggerHapticFeedback('warning');
         }
@@ -672,7 +672,7 @@ async function startSession(mode, durationInMinutes = null) {
         currentTrainingData = await fetchTrainingData(currentLecture.training);
         
         if (!currentTrainingData || currentTrainingData.length === 0) {
-            const errorMsg = `Aucun contenu d'entraÃ®nement n'est disponible pour ${currentLecture.title}.`;
+            const errorMsg = `Aucun contenu d'entraînement n'est disponible pour ${currentLecture.title}.`;
             console.error(errorMsg);
             renderEmptyState(errorMsg);
             hideLoader();
@@ -689,7 +689,7 @@ async function startSession(mode, durationInMinutes = null) {
         }
     } catch (error) {
         console.error('Error in startSession:', error);
-        renderEmptyState(`Une erreur est survenue lors du chargement des questions. Veuillez rÃ©essayer.`);
+        renderEmptyState(`Une erreur est survenue lors du chargement des questions. Veuillez réessayer.`);
     } finally {
         hideLoader();
     }
@@ -733,7 +733,7 @@ function startTimer(duration) {
         if (--timer < 0) {
             clearInterval(sessionTimerInterval);
             timerDisplay.textContent = "00:00";
-            alert("Temps Ã©coulÃ© !");
+            alert("Temps écoulé !");
             endExamSession();
         }
     }, 1000);
@@ -899,7 +899,7 @@ const showErrorIndicator = (message) => {
         setTimeout(() => {
             indicator.classList.remove('show');
             // Reset to original content
-            indicator.innerHTML = '<div class="progress-spinner"></div><span>Progression sauvegardÃ©e</span>';
+            indicator.innerHTML = '<div class="progress-spinner"></div><span>Progression sauvegardée</span>';
             indicator.style.background = '#34C759';
         }, 3000);
     }
@@ -919,7 +919,7 @@ function renderEmptyState(message) {
 }
 
 function renderPracticeView(trainingData) {
-    let html = `<div class="session-header"><h2 id="session-title">${currentLecture.title} (EntraÃ®nement)</h2></div>`;
+    let html = `<div class="session-header"><h2 id="session-title">${currentLecture.title} (Entraînement)</h2></div>`;
     trainingData.forEach((item, index) => {
         const bookmarkId = `${currentLecture.id}_${index}`;
         const isBookmarked = bookmarks[currentLecture.id]?.some(b => b.quizIndex === index) || false;
@@ -938,7 +938,7 @@ function renderPracticeView(trainingData) {
         } else {
             html += `<h3><i class="fas fa-edit"></i> Question ${index + 1} (QROC/QRL)</h3>
                      <p class="question">${escapeHTML(questionText)}</p>
-                     <button class="btn btn-primary practice-show-answer-btn" data-target="answer-${index}" style="margin-top: 10px;"><i class="fas fa-eye"></i> Afficher la rÃ©ponse</button>
+                     <button class="btn btn-primary practice-show-answer-btn" data-target="answer-${index}" style="margin-top: 10px;"><i class="fas fa-eye"></i> Afficher la réponse</button>
                      <div class="answer-reveal" id="answer-${index}">${escapeHTML(item.a)}</div>`;
         }
         html += `</form>`;
@@ -975,7 +975,7 @@ function renderExamView(trainingData, duration) {
         } else {
             html += `<h3><i class="fas fa-edit"></i> Question ${index + 1} (QROC/QRL)</h3>
                      <p class="question">${escapeHTML(questionText)}</p>
-                     <textarea name="answer-${index}" placeholder="Votre rÃ©ponse..."></textarea>`;
+                     <textarea name="answer-${index}" placeholder="Votre réponse..."></textarea>`;
         }
         html += `</div>`;
     });
@@ -989,15 +989,15 @@ function renderExamView(trainingData, duration) {
 function renderScoreView(score, totalQuizzes) {
     const hasMistakes = reviewData.incorrectQuizzes.length > 0;
     const hasQrocs = reviewData.submittedQrocs.length > 0;
-    const examTitle = currentLecture ? currentLecture.title : 'Examen RÃ©el';
+    const examTitle = currentLecture ? currentLecture.title : 'Examen Réel';
     const qrocCount = currentTrainingData.filter(item => item.type !== 'quiz').length;
     const isRealExam = isRealExamMode && realExamMetadata;
     const resultMessage = isRealExam
-        ? `QCMs corrects : ${score} / ${totalQuizzes} â€¢ QROCs : ${qrocCount}`
+        ? `QCMs corrects : ${score} / ${totalQuizzes} • QROCs : ${qrocCount}`
         : 'Votre score pour les QCMs';
     const completionMessage = (hasMistakes || hasQrocs)
-        ? 'Vous pouvez revoir vos rÃ©ponses.'
-        : 'FÃ©licitations, score parfait !';
+        ? 'Vous pouvez revoir vos réponses.'
+        : 'Félicitations, score parfait !';
     const printButton = isRealExam
         ? `<button id="print-real-exam-btn" class="btn btn-outline"><i class="fas fa-print"></i> Imprimer l'examen</button>`
         : '';
@@ -1009,7 +1009,7 @@ function renderScoreView(score, totalQuizzes) {
             <div class="score-display">${score} / ${totalQuizzes}</div>
             <p>${completionMessage}</p>
             <div class="btn-group">
-                ${(hasMistakes || hasQrocs) ? `<button id="review-answers-btn" class="btn btn-primary"><i class="fas fa-search"></i> Revoir les rÃ©ponses</button>` : ''}
+                ${(hasMistakes || hasQrocs) ? `<button id="review-answers-btn" class="btn btn-primary"><i class="fas fa-search"></i> Revoir les réponses</button>` : ''}
                 ${printButton}
                 <button id="back-to-dash-btn" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Retour</button>
             </div>
@@ -1017,16 +1017,16 @@ function renderScoreView(score, totalQuizzes) {
 }
 
 function renderReviewView() {
-    const examTitle = currentLecture ? currentLecture.title : 'Examen RÃ©el';
+    const examTitle = currentLecture ? currentLecture.title : 'Examen Réel';
     let html = `<div class="view-header"><h2>Correction de l'Examen</h2><p>${examTitle}</p></div>`;
     if (reviewData.incorrectQuizzes.length > 0) {
         html += `<div class="review-section"><h3 class="review-section-title">QCM Incorrects</h3>`;
-        reviewData.incorrectQuizzes.forEach(item => { html += `<div class="review-card"><p class="question">${escapeHTML(getQuestionText(item.question))}</p><p class="answer-label">Votre rÃ©ponse</p><div class="user-answer">${escapeHTML(formatAnswerList(item.userAnswer))}</div><p class="answer-label">RÃ©ponse correcte</p><div class="correct-answer">${escapeHTML(formatAnswerList(getCorrectAnswers(item.question)))}</div></div>`; });
+        reviewData.incorrectQuizzes.forEach(item => { html += `<div class="review-card"><p class="question">${escapeHTML(getQuestionText(item.question))}</p><p class="answer-label">Votre réponse</p><div class="user-answer">${escapeHTML(formatAnswerList(item.userAnswer))}</div><p class="answer-label">Réponse correcte</p><div class="correct-answer">${escapeHTML(formatAnswerList(getCorrectAnswers(item.question)))}</div></div>`; });
         html += `</div>`;
     }
     if (reviewData.submittedQrocs.length > 0) {
-        html += `<div class="review-section"><h3 class="review-section-title">Vos rÃ©ponses aux QROC/QRL</h3>`;
-        reviewData.submittedQrocs.forEach(item => { html += `<div class="review-card" style="border-left-color: var(--primary-color);"><p class="question">${escapeHTML(getQuestionText(item.question))}</p><p class="answer-label">Votre rÃ©ponse</p><div class="submitted-answer">${escapeHTML(formatAnswerList(item.userAnswer)) || "<i>Non rÃ©pondu</i>"}</div><p class="answer-label">RÃ©ponse attendue</p><div class="correct-answer">${escapeHTML(item.question.a)}</div></div>`; });
+        html += `<div class="review-section"><h3 class="review-section-title">Vos réponses aux QROC/QRL</h3>`;
+        reviewData.submittedQrocs.forEach(item => { html += `<div class="review-card" style="border-left-color: var(--primary-color);"><p class="question">${escapeHTML(getQuestionText(item.question))}</p><p class="answer-label">Votre réponse</p><div class="submitted-answer">${escapeHTML(formatAnswerList(item.userAnswer)) || "<i>Non répondu</i>"}</div><p class="answer-label">Réponse attendue</p><div class="correct-answer">${escapeHTML(item.question.a)}</div></div>`; });
         html += `</div>`;
     }
     html += `<button id="back-to-dash-btn" class="btn btn-secondary" style="width:100%;"><i class="fas fa-arrow-left"></i> Retour</button>`;
@@ -1046,7 +1046,7 @@ const showRealExamView = () => {
         selectedLectures: []
     };
     realExamSelectedLectures = new Set();
-    document.getElementById('lecture-title').textContent = 'Examen RÃ©el';
+    document.getElementById('lecture-title').textContent = 'Examen Réel';
     const dashboardGrid = document.getElementById('dashboard-grid-container');
     if (dashboardGrid) dashboardGrid.style.display = 'none';
     showView('session-view');
@@ -1067,19 +1067,19 @@ const renderRealExamSetup = () => {
     let html = `
         <div class="real-exam-setup">
             <div class="real-exam-setup-header">
-                <h2><i class="fas fa-graduation-cap"></i> PrÃ©parer l'examen rÃ©el</h2>
-                <p>SÃ©lectionnez les objectifs dont vous souhaitez inclure les questions. Chaque objectif ajoute jusqu'Ã  <strong>2 QCMs</strong> et <strong>1 QROC</strong>.</p>
+                <h2><i class="fas fa-graduation-cap"></i> Préparer l'examen réel</h2>
+                <p>Sélectionnez les objectifs dont vous souhaitez inclure les questions. Chaque objectif ajoute jusqu'à <strong>2 QCMs</strong> et <strong>1 QROC</strong>.</p>
             </div>
             <div class="real-exam-setup-controls">
                 <div class="control-buttons">
-                    <button type="button" id="real-exam-select-all" class="btn btn-secondary"><i class="fas fa-check-double"></i> Tout sÃ©lectionner</button>
+                    <button type="button" id="real-exam-select-all" class="btn btn-secondary"><i class="fas fa-check-double"></i> Tout sélectionner</button>
                     <button type="button" id="real-exam-clear-all" class="btn btn-secondary"><i class="fas fa-eraser"></i> Tout effacer</button>
                 </div>
                 <div id="real-exam-selection-summary" class="real-exam-selection-summary"></div>
             </div>
             <div class="real-exam-selection-list">`;
     
-    const excludedCategories = ['Sources SupplÃ©mentaires', 'Quiz AssemblÃ©s'];
+    const excludedCategories = ['Sources Supplémentaires', 'Quiz Assemblés'];
     Object.keys(allLectures).filter(c => !excludedCategories.includes(c)).forEach(category => {
         const lectures = allLectures[category] || [];
         const selectedCount = lectures.filter(lecture => realExamSelectedLectures.has(lecture.id)).length;
@@ -1110,9 +1110,9 @@ const renderRealExamSetup = () => {
             </div>
             <div class="real-exam-setup-footer">
                 <button type="button" id="real-exam-start-btn" class="btn btn-primary" disabled>
-                    <i class="fas fa-play-circle"></i> DÃ©marrer l'examen (120 min)
+                    <i class="fas fa-play-circle"></i> Démarrer l'examen (120 min)
                 </button>
-                <p class="real-exam-note"><i class="fas fa-info-circle"></i> L'examen gÃ©nÃ©rÃ© proposera un PDF professionnel prÃªt Ã  Ãªtre imprimÃ©, avec vos informations.</p>
+                <p class="real-exam-note"><i class="fas fa-info-circle"></i> L'examen généré proposera un PDF professionnel prêt à être imprimé, avec vos informations.</p>
             </div>
         </div>`;
     
@@ -1131,12 +1131,12 @@ const updateRealExamSelectionSummary = (totalLectures = null) => {
         const total = totalLectures ?? Object.values(allLectures || {}).reduce((sum, list) => sum + list.length, 0);
         summaryEl.innerHTML = `
             <div class="selection-badge ${selectedCount > 0 ? 'active' : ''}">
-                <strong>${selectedCount}</strong> objectif${selectedCount > 1 ? 's' : ''} sÃ©lectionnÃ©${selectedCount > 1 ? 's' : ''} / ${total}
+                <strong>${selectedCount}</strong> objectif${selectedCount > 1 ? 's' : ''} sélectionné${selectedCount > 1 ? 's' : ''} / ${total}
             </div>
             <div class="selection-info">
-                <span>Ã¢â€°Ë† ${approximateQuizzes} QCMs</span>
-                <span>Ã¢â€°Ë† ${approximateQrocs} QROCs</span>
-                <span>DurÃ©e : 120 min</span>
+                <span>â‰ˆ ${approximateQuizzes} QCMs</span>
+                <span>â‰ˆ ${approximateQrocs} QROCs</span>
+                <span>Durée : 120 min</span>
             </div>`;
     }
     
@@ -1182,7 +1182,7 @@ const getAllLectureIds = () => {
 
 const startRealExam = async (selectedLectureIds) => {
     if (!selectedLectureIds || selectedLectureIds.length === 0) {
-        alert('Veuillez sÃ©lectionner au moins un objectif avant de dÃ©marrer l\'examen.');
+        alert('Veuillez sélectionner au moins un objectif avant de démarrer l\'examen.');
         return;
     }
     realExamSelectedLectures = new Set(selectedLectureIds);
@@ -1195,7 +1195,7 @@ const startRealExam = async (selectedLectureIds) => {
         const trainingDatasets = await loadAllTrainingData(selectedLectureIds);
         
         if (!trainingDatasets || trainingDatasets.length === 0) {
-            renderEmptyState('Aucune donnÃ©e d\'entraÃ®nement disponible.');
+            renderEmptyState('Aucune donnée d\'entraînement disponible.');
             hideLoader();
             return;
         }
@@ -1222,7 +1222,7 @@ const startRealExam = async (selectedLectureIds) => {
         });
         
         if (aggregatedQuizzes.length === 0 && aggregatedQrocs.length === 0) {
-            renderEmptyState('Impossible de gÃ©nÃ©rer l\'examen rÃ©el : aucune question disponible.');
+            renderEmptyState('Impossible de générer l\'examen réel : aucune question disponible.');
             hideLoader();
             return;
         }
@@ -1248,7 +1248,7 @@ const startRealExam = async (selectedLectureIds) => {
         
     } catch (error) {
         console.error('Error in startRealExam:', error);
-        renderEmptyState('Une erreur est survenue lors du chargement de l\'examen. Veuillez rÃ©essayer.');
+        renderEmptyState('Une erreur est survenue lors du chargement de l\'examen. Veuillez réessayer.');
     } finally {
         hideLoader();
     }
@@ -1329,7 +1329,7 @@ const renderRealExamView = (trainingData, duration) => {
     const selectedCount = realExamMetadata ? (realExamMetadata.totalSelectedLectures ?? realExamMetadata.selectedLectures?.length ?? null) : null;
     let html = `
         <div class="fixed-exam-timer">
-            <div class="exam-title">Examen RÃ©el - 120 minutes</div>
+            <div class="exam-title">Examen Réel - 120 minutes</div>
             <div class="exam-timer-controls">
                 <div id="session-timer" class="timer-display">${duration}:00</div>
                 <button id="abort-exam-btn" class="btn btn-danger btn-sm" title="Abandonner l'examen">
@@ -1346,12 +1346,12 @@ const renderRealExamView = (trainingData, duration) => {
                 </div>
                 ${selectedCount ? `
                 <div class="info-item">
-                    <span class="info-label">Objectifs sÃ©lectionnÃ©s:</span>
+                    <span class="info-label">Objectifs sélectionnés:</span>
                     <span class="info-value"><strong>${selectedCount}</strong></span>
                 </div>` : ''}
                 <div class="info-item">
-                    <span class="info-label">GÃ©nÃ©ration:</span>
-                    <span class="info-value">Jusqu'Ã  2 QCMs et 1 QROC par objectif</span>
+                    <span class="info-label">Génération:</span>
+                    <span class="info-value">Jusqu'à 2 QCMs et 1 QROC par objectif</span>
                 </div>
             </div>
             <form id="exam-form">`;
@@ -1378,19 +1378,19 @@ const renderRealExamView = (trainingData, duration) => {
 
 const printRealExamAsPdf = () => {
     if (!isRealExamMode || !realExamMetadata) {
-        alert('L\'impression est disponible uniquement pour l\'examen rÃ©el aprÃ¨s la correction.');
+        alert('L\'impression est disponible uniquement pour l\'examen réel après la correction.');
         return;
     }
     
     // Check if jsPDF is available
     if (!window.jspdf) {
-        alert('BibliothÃ¨que PDF indisponible. VÃ©rifiez votre connexion Internet.');
+        alert('Bibliothèque PDF indisponible. Vérifiez votre connexion Internet.');
         return;
     }
     const { jsPDF } = window.jspdf;
     
-    let studentName = currentUser?.username || 'InvitÃ©';
-    const promptName = prompt("Nom de l'Ã©tudiant pour le PDF :", studentName);
+    let studentName = currentUser?.username || 'Invité';
+    const promptName = prompt("Nom de l'étudiant pour le PDF :", studentName);
     if (promptName !== null) {
         const trimmed = promptName.trim();
         if (trimmed.length > 0) {
@@ -1447,12 +1447,12 @@ const printRealExamAsPdf = () => {
         doc.setTextColor(255, 255, 255);
         doc.setFont('helvetica', 'bold');
         doc.setFontSize(14);
-        doc.text(sanitizeTextForPdf('Examen RÃ©el - Objectif RÃ©sidanat'), margin, 12);
+        doc.text(sanitizeTextForPdf('Examen Réel - Objectif Résidanat'), margin, 12);
         
         // Subtitle
         doc.setFont('helvetica', 'normal');
         doc.setFontSize(9);
-        doc.text(sanitizeTextForPdf(`Ã‰tudiant : ${studentName} â€¢ DurÃ©e : 120 minutes`), margin, 18);
+        doc.text(sanitizeTextForPdf(`Étudiant : ${studentName} • Durée : 120 minutes`), margin, 18);
         
         // Reset text color
         doc.setTextColor(40, 40, 40);
@@ -1515,10 +1515,10 @@ const printRealExamAsPdf = () => {
     const addSummaryCard = () => {
         const summaryLines = [
             `Nom : ${studentName}`,
-            `GÃ©nÃ©rÃ© le : ${formattedDate}`,
-            `Objectifs sÃ©lectionnÃ©s : ${selectedLectures}`,
-            `QCMs : ${totalQuizzes} â€¢ QROCs : ${totalQrocs}`,
-            score !== null ? `RÃ©sultat : ${score} / ${totalQuizForScore} QCMs corrects` : `RÃ©sultat : en attente de saisie`
+            `Généré le : ${formattedDate}`,
+            `Objectifs sélectionnés : ${selectedLectures}`,
+            `QCMs : ${totalQuizzes} • QROCs : ${totalQrocs}`,
+            score !== null ? `Résultat : ${score} / ${totalQuizForScore} QCMs corrects` : `Résultat : en attente de saisie`
         ];
         const boxHeight = summaryLines.length * 6 + 16;
         
@@ -1532,7 +1532,7 @@ const printRealExamAsPdf = () => {
         doc.setFont('helvetica', 'bold');
         doc.setFontSize(12);
         doc.setTextColor(0, 92, 205);
-        doc.text(sanitizeTextForPdf('RÃ©sumÃ© de l\'examen'), margin + 5, y + 8);
+        doc.text(sanitizeTextForPdf('Résumé de l\'examen'), margin + 5, y + 8);
         
         // Content
         doc.setFont('helvetica', 'normal');
@@ -1561,10 +1561,10 @@ const printRealExamAsPdf = () => {
             addQuestionHeader(index + 1, item, 'QCM', quizColor);
             addBodyText(item.q, { after: 1 });
             if (Array.isArray(item.opts)) {
-                item.opts.forEach(opt => addBodyText(`â€¢ ${opt}`));
+                item.opts.forEach(opt => addBodyText(`• ${opt}`));
             }
             if (item.a) {
-                addBodyText(`RÃ©ponse correcte : ${item.a}`, { fontStyle: 'italic', after: lineHeight });
+                addBodyText(`Réponse correcte : ${item.a}`, { fontStyle: 'italic', after: lineHeight });
             } else {
                 y += lineHeight;
             }
@@ -1580,7 +1580,7 @@ const printRealExamAsPdf = () => {
             addQuestionHeader(index + 1, item, 'QROC', qrocColor);
             addBodyText(item.q, { after: 1 });
             if (item.a) {
-                addBodyText(`RÃ©ponse correcte : ${item.a}`, { fontStyle: 'italic', after: lineHeight });
+                addBodyText(`Réponse correcte : ${item.a}`, { fontStyle: 'italic', after: lineHeight });
             } else {
                 y += lineHeight * 4; // Space for answer
             }
@@ -1603,7 +1603,7 @@ const updatePrintQuizzesSelectionSummary = (totalLectures = null) => {
         const total = totalLectures ?? Object.values(allLectures || {}).reduce((sum, list) => sum + list.length, 0);
         summaryEl.innerHTML = `
             <div class="selection-badge ${selectedCount > 0 ? 'active' : ''}">
-                <strong>${selectedCount}</strong> objectif${selectedCount > 1 ? 's' : ''} sÃ©lectionnÃ©${selectedCount > 1 ? 's' : ''} / ${total}
+                <strong>${selectedCount}</strong> objectif${selectedCount > 1 ? 's' : ''} sélectionné${selectedCount > 1 ? 's' : ''} / ${total}
             </div>`;
     }
     
@@ -1646,13 +1646,13 @@ const clearAllPrintQuizzesLectures = () => {
 
 const generatePrintQuizzesPdfForCurrentLecture = async () => {
     if (!currentLecture) {
-        alert('Aucun objectif sÃ©lectionnÃ©.');
+        alert('Aucun objectif sélectionné.');
         return;
     }
     
     // Check if jsPDF is available
     if (!window.jspdf) {
-        alert('BibliothÃ¨que PDF indisponible. VÃ©rifiez votre connexion Internet.');
+        alert('Bibliothèque PDF indisponible. Vérifiez votre connexion Internet.');
         return;
     }
     const { jsPDF } = window.jspdf;
@@ -1675,7 +1675,7 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
         
         // Load training data for current lecture
         if (!currentLecture.training) {
-            alert('Aucune donnÃ©e d\'entraÃ®nement disponible pour cet objectif.');
+            alert('Aucune donnée d\'entraînement disponible pour cet objectif.');
             hideLoader();
             return;
         }
@@ -1690,7 +1690,7 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
         console.log(`Found ${quizzes.length} quizzes and ${qrocs.length} QROCs/QRLs`);
         
         if (quizzes.length === 0 && qrocs.length === 0) {
-            alert('Aucune question trouvÃ©e pour cet objectif.');
+            alert('Aucune question trouvée pour cet objectif.');
             hideLoader();
             return;
         }
@@ -1768,11 +1768,11 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
         // Header
         addHeader('Questions QCM et QROC', 14, headerColor);
         addBodyText(currentLecture.title, { fontSize: 11, fontStyle: 'bold', after: 1 });
-        addBodyText(`GÃ©nÃ©rÃ© le : ${new Date().toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' })} par ${userName}`, { fontSize: 9, after: 4 });
+        addBodyText(`Généré le : ${new Date().toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' })} par ${userName}`, { fontSize: 9, after: 4 });
         
         // Add quizzes section if any
         if (quizzes.length > 0) {
-            addHeader('Questions Ã  Choix Multiples (QCM)', 11, quizColor);
+            addHeader('Questions à Choix Multiples (QCM)', 11, quizColor);
             
             quizzes.forEach((quiz, index) => {
                 ensureSpace(lineHeight * 5);
@@ -1792,7 +1792,7 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
                 // Correct answer
                 if (quiz.a) {
                     y += 1;
-                    addBodyText(`RÃ©ponse : ${quiz.a}`, { fontSize: 9.5, fontStyle: 'bold', color: answerColor, after: 3 });
+                    addBodyText(`Réponse : ${quiz.a}`, { fontSize: 9.5, fontStyle: 'bold', color: answerColor, after: 3 });
                 } else {
                     y += 3;
                 }
@@ -1808,7 +1808,7 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
         // Add QROCs section if any
         if (qrocs.length > 0) {
             ensureSpace(lineHeight * 3);
-            addHeader('Questions Ã  RÃ©ponse Ouverte Courte (QROC)', 11, qrocColor);
+            addHeader('Questions à Réponse Ouverte Courte (QROC)', 11, qrocColor);
             
             qrocs.forEach((qroc, index) => {
                 ensureSpace(lineHeight * 4);
@@ -1818,7 +1818,7 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
                 
                 // Answer
                 if (qroc.a) {
-                    addBodyText(`RÃ©ponse : ${qroc.a}`, { fontSize: 9.5, fontStyle: 'bold', color: answerColor, after: 3 });
+                    addBodyText(`Réponse : ${qroc.a}`, { fontSize: 9.5, fontStyle: 'bold', color: answerColor, after: 3 });
                 } else {
                     y += 3;
                 }
@@ -1838,7 +1838,7 @@ const generatePrintQuizzesPdfForCurrentLecture = async () => {
         
     } catch (error) {
         console.error('Error generating print quizzes PDF:', error);
-        alert('Une erreur est survenue lors de la gÃ©nÃ©ration du PDF.');
+        alert('Une erreur est survenue lors de la génération du PDF.');
     } finally {
         hideLoader();
     }
@@ -1851,19 +1851,19 @@ const sanitizeTextForPdf = (text) => {
     
     // Replace specific characters not supported by the default PDF font
     return String(text)
-        .replace(/Ã¢â€ â€™/g, '->'); // Replace arrow character
+        .replace(/â†’/g, '->'); // Replace arrow character
 };
 
 const generatePrintQuizzesPdf = async () => {
     const selectedIds = Array.from(printQuizzesSelectedLectures);
     if (selectedIds.length === 0) {
-        alert('Veuillez sÃ©lectionner au moins un objectif.');
+        alert('Veuillez sélectionner au moins un objectif.');
         return;
     }
     
     // Check if jsPDF is available
     if (!window.jspdf) {
-        alert('BibliothÃ¨que PDF indisponible. VÃ©rifiez votre connexion Internet.');
+        alert('Bibliothèque PDF indisponible. Vérifiez votre connexion Internet.');
         return;
     }
     const { jsPDF } = window.jspdf;
@@ -1937,7 +1937,7 @@ const generatePrintQuizzesPdf = async () => {
         }
         
         if (allItems.length === 0) {
-            alert('Aucune question trouvÃ©e dans les objectifs sÃ©lectionnÃ©s.');
+            alert('Aucune question trouvée dans les objectifs sélectionnés.');
             hideLoader();
             return;
         }
@@ -2022,22 +2022,22 @@ const generatePrintQuizzesPdf = async () => {
         // Add logo or title at the top
         doc.setFontSize(24);
         doc.setTextColor(headerColor[0], headerColor[1], headerColor[2]);
-        doc.text(sanitizeTextForPdf('Objectif RÃ©sidanat'), pageWidth / 2, 50, { align: 'center' });
+        doc.text(sanitizeTextForPdf('Objectif Résidanat'), pageWidth / 2, 50, { align: 'center' });
         
         // Add user name
         doc.setFontSize(18);
         doc.setTextColor(userColor[0], userColor[1], userColor[2]);
-        doc.text(sanitizeTextForPdf(`Ã‰tudiant(e) : ${userName}`), pageWidth / 2, 80, { align: 'center' });
+        doc.text(sanitizeTextForPdf(`Étudiant(e) : ${userName}`), pageWidth / 2, 80, { align: 'center' });
         
         // Add document type
         doc.setFontSize(16);
         doc.setTextColor(quizColor[0], quizColor[1], quizColor[2]);
-        doc.text(sanitizeTextForPdf('Fiches de rÃ©vision'), pageWidth / 2, 100, { align: 'center' });
+        doc.text(sanitizeTextForPdf('Fiches de révision'), pageWidth / 2, 100, { align: 'center' });
         
         // Add date
         doc.setFontSize(12);
         doc.setTextColor(100, 100, 100);
-        doc.text(sanitizeTextForPdf(`GÃ©nÃ©rÃ© le : ${new Date().toLocaleString('fr-FR', { 
+        doc.text(sanitizeTextForPdf(`Généré le : ${new Date().toLocaleString('fr-FR', { 
             weekday: 'long', 
             year: 'numeric', 
             month: 'long', 
@@ -2054,9 +2054,9 @@ const generatePrintQuizzesPdf = async () => {
         doc.addPage();
         
         // Content header
-        addHeader('Fiches de rÃ©vision - Objectif RÃ©sidanat', 14, headerColor, 'center');
-        addBodyText(`GÃ©nÃ©rÃ© le : ${new Date().toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' })} par ${userName}`, { fontSize: 10, after: 2, align: 'center' });
-        addBodyText(`Objectifs sÃ©lectionnÃ©s : ${selectedLectures.length}`, { fontSize: 9, after: 1, align: 'center' });
+        addHeader('Fiches de révision - Objectif Résidanat', 14, headerColor, 'center');
+        addBodyText(`Généré le : ${new Date().toLocaleString('fr-FR', { dateStyle: 'long', timeStyle: 'short' })} par ${userName}`, { fontSize: 10, after: 2, align: 'center' });
+        addBodyText(`Objectifs sélectionnés : ${selectedLectures.length}`, { fontSize: 9, after: 1, align: 'center' });
         
         // Count items by type
         const quizCount = allItems.filter(item => item.type === 'quiz').length;
@@ -2099,7 +2099,7 @@ const generatePrintQuizzesPdf = async () => {
             // Add quizzes section if any
             if (lectureItems.quizzes.length > 0) {
                 ensureSpace(lineHeight * 2);
-                addHeader('Questions Ã  Choix Multiples (QCM)', 10, quizColor);
+                addHeader('Questions à Choix Multiples (QCM)', 10, quizColor);
                 
                 lectureItems.quizzes.forEach((quiz, index) => {
                     ensureSpace(lineHeight * 5);
@@ -2115,7 +2115,7 @@ const generatePrintQuizzesPdf = async () => {
                     
                     if (quiz.a) {
                         y += 1;
-                        addBodyText(`RÃ©ponse : ${quiz.a}`, { 
+                        addBodyText(`Réponse : ${quiz.a}`, { 
                             fontSize: 9, 
                             fontStyle: 'bold', 
                             color: answerColor, 
@@ -2136,7 +2136,7 @@ const generatePrintQuizzesPdf = async () => {
             // Add QROCs section if any
             if (lectureItems.qrocs.length > 0) {
                 ensureSpace(lineHeight * 2);
-                addHeader('Questions Ã  RÃ©ponse Ouverte Courte (QROC)', 10, qrocColor);
+                addHeader('Questions à Réponse Ouverte Courte (QROC)', 10, qrocColor);
                 
                 lectureItems.qrocs.forEach((qroc, index) => {
                     // Skip if no question text
@@ -2156,7 +2156,7 @@ const generatePrintQuizzesPdf = async () => {
                     });
                     
                     // Add space for student's answer
-                    addBodyText('Votre rÃ©ponse :', { 
+                    addBodyText('Votre réponse :', { 
                         fontSize: 9, 
                         fontStyle: 'italic',
                         after: 1
@@ -2173,9 +2173,9 @@ const generatePrintQuizzesPdf = async () => {
                     y += 2;
                     
                     // Add model answer section
-                    const modelAnswer = qroc.a || qroc.answer || 'Aucune rÃ©ponse modÃ¨le disponible';
+                    const modelAnswer = qroc.a || qroc.answer || 'Aucune réponse modèle disponible';
                     
-                    addBodyText('RÃ©ponse modÃ¨le :', { 
+                    addBodyText('Réponse modèle :', { 
                         fontSize: 9, 
                         fontStyle: 'italic',
                         after: 1
@@ -2240,8 +2240,8 @@ const generatePrintQuizzesPdf = async () => {
             if (i > 1) {
                 doc.setFontSize(9);
                 doc.setTextColor(150, 150, 150);
-                doc.text(sanitizeTextForPdf(`Ã‰tudiant : ${userName}`), margin, 10);
-                doc.text(sanitizeTextForPdf(`Objectif RÃ©sidanat - Fiches de rÃ©vision`), pageWidth / 2, 10, { align: 'center' });
+                doc.text(sanitizeTextForPdf(`Étudiant : ${userName}`), margin, 10);
+                doc.text(sanitizeTextForPdf(`Objectif Résidanat - Fiches de révision`), pageWidth / 2, 10, { align: 'center' });
                 doc.text(sanitizeTextForPdf(`Page ${i-1}`), pageWidth - margin, 10, { align: 'right' });
                 
                 // Add separator line
@@ -2258,7 +2258,7 @@ const generatePrintQuizzesPdf = async () => {
         closePrintQuizzesModal();
     } catch (error) {
         console.error('Error generating print quizzes PDF:', error);
-        alert('Une erreur est survenue lors de la gÃ©nÃ©ration du PDF.');
+        alert('Une erreur est survenue lors de la génération du PDF.');
     } finally {
         hideLoader();
     }
@@ -2275,8 +2275,8 @@ const populateSidebar = () => {
     const isGuest = currentUser && currentUser.isGuest;
     const nav = document.getElementById('nav-list'); 
     let html = isGuest
-        ? `<li class="empty-lecture"><i class="fa-solid fa-lock" style="width: 20px; color: #8E8E93;"></i>Drive verrouillÃ©</li><li class="empty-lecture"><i class="fa-solid fa-lock" style="width: 20px; color: #8E8E93;"></i>Examen rÃ©el verrouillÃ©</li>`
-        : `<li class="nav-drive-entry"><a href="#" data-view="mednval-drive"><i class="fa-solid fa-cloud-arrow-down" style="width: 20px;"></i>${MEDNVAL_DRIVE_NAME}</a></li><li class="nav-drive-entry"><a href="#" data-view="real-exam"><i class="fa-solid fa-graduation-cap" style="width: 20px;"></i>Examen RÃ©el</a></li>`;
+        ? `<li class="empty-lecture"><i class="fa-solid fa-lock" style="width: 20px; color: #8E8E93;"></i>Drive verrouillé</li><li class="empty-lecture"><i class="fa-solid fa-lock" style="width: 20px; color: #8E8E93;"></i>Examen réel verrouillé</li>`
+        : `<li class="nav-drive-entry"><a href="#" data-view="mednval-drive"><i class="fa-solid fa-cloud-arrow-down" style="width: 20px;"></i>${MEDNVAL_DRIVE_NAME}</a></li><li class="nav-drive-entry"><a href="#" data-view="real-exam"><i class="fa-solid fa-graduation-cap" style="width: 20px;"></i>Examen Réel</a></li>`;
     let i = 1; 
     
     Object.keys(allLectures).forEach(cat => { 
@@ -2382,7 +2382,7 @@ const loadMednvalDrive = async (folderId, breadcrumb = []) => {
     } catch (error) {
         console.error('Mednval Drive load error:', error);
         if (grid) {
-            grid.innerHTML = `<div class="drive-warning"><i class="fa-solid fa-triangle-exclamation"></i><div><strong>Erreur lors du chargement</strong><p>VÃ©rifiez vos autorisations Google Drive et votre connexion Internet, puis rÃ©essayez.</p></div></div>`;
+            grid.innerHTML = `<div class="drive-warning"><i class="fa-solid fa-triangle-exclamation"></i><div><strong>Erreur lors du chargement</strong><p>Vérifiez vos autorisations Google Drive et votre connexion Internet, puis réessayez.</p></div></div>`;
         }
     } finally {
         if (loading) loading.classList.add('hidden');
@@ -2508,11 +2508,11 @@ const renderDriveGrid = (items = []) => {
                 </div>
                 <div>
                     <h3>${escapeHTML(displayName)}</h3>
-                    <p>${formattedDate ? `Mis Ã  jour ${formattedDate}` : 'PDF Google Drive'}${formattedSize ? ` &middot; ${formattedSize}` : ''}</p>
+                    <p>${formattedDate ? `Mis à jour ${formattedDate}` : 'PDF Google Drive'}${formattedSize ? ` &middot; ${formattedSize}` : ''}</p>
                 </div>
                 <div class="drive-card-actions">
                     <button class="drive-open-btn" data-action="open"><i class="fa-solid fa-book-open"></i>Lire</button>
-                    <button class="drive-download-btn" data-action="download"><i class="fa-solid fa-download"></i>TÃ©lÃ©charger</button>
+                    <button class="drive-download-btn" data-action="download"><i class="fa-solid fa-download"></i>Télécharger</button>
                 </div>
             </div>
         `;
@@ -2643,7 +2643,7 @@ const renderProfileModal = () => {
         const totalLectures = allLectures ? Object.values(allLectures).flat().length : 0; 
         const progressPercentage = totalLectures > 0 ? Math.round((completedCount / totalLectures) * 100) : 0; 
         document.getElementById('completed-count').textContent = completedCount; 
-        document.getElementById('progress-percentage').textContent = `${progressPercentage}% (InvitÃ©)`;
+        document.getElementById('progress-percentage').textContent = `${progressPercentage}% (Invité)`;
     } else {
         const progress = currentUser.progress || {}; 
         const completedCount = Object.values(progress).filter(Boolean).length; 
@@ -2712,13 +2712,13 @@ const openPdfViewer = () => {
         
         // Initialize buttons with proper ARIA labels
         const buttons = {
-            'pdf-prev-page': 'Page prÃ©cÃ©dente',
+            'pdf-prev-page': 'Page précédente',
             'pdf-next-page': 'Page suivante',
             'pdf-zoom-in': 'Zoom avant',
-            'pdf-zoom-out': 'Zoom arriÃ¨re',
-            'pdf-reset-zoom': 'RÃ©initialiser le zoom',
-            'pdf-download': 'TÃ©lÃ©charger le PDF',
-            'pdf-fullscreen': 'Plein Ã©cran',
+            'pdf-zoom-out': 'Zoom arrière',
+            'pdf-reset-zoom': 'Réinitialiser le zoom',
+            'pdf-download': 'Télécharger le PDF',
+            'pdf-fullscreen': 'Plein écran',
             'pdf-close': 'Fermer la visionneuse'
         };
         
@@ -3315,7 +3315,7 @@ const showOfflineIndicator = (offline) => {
             indicator.innerHTML = '<i class="fas fa-wifi-slash"></i><span>Mode hors ligne</span>';
         } else {
             indicator.className = 'offline-indicator show online';
-            indicator.innerHTML = '<i class="fas fa-wifi"></i><span>Connexion rÃ©tablie</span>';
+            indicator.innerHTML = '<i class="fas fa-wifi"></i><span>Connexion rétablie</span>';
             // Hide after 3 seconds
             setTimeout(() => {
                 indicator.classList.remove('show');
@@ -3392,7 +3392,7 @@ const updateAnalytics = () => {
     
     // Calculate study streak
     const studyStreak = calculateStudyStreak();
-    document.getElementById('study-streak-days').textContent = `${studyStreak} jours consÃ©cutifs`;
+    document.getElementById('study-streak-days').textContent = `${studyStreak} jours consécutifs`;
 };
 
 const updateProgressRing = (percentage) => {
@@ -3561,9 +3561,9 @@ const renderAnalyticsBookmarks = () => {
     if (allBookmarks.length === 0) {
         bookmarksList.innerHTML = `
             <div style="text-align: center; padding: 40px; color: var(--text-secondary);">
-                <div style="font-size: 2rem; margin-bottom: 16px;">Ã°Å¸â€œâ€“</div>
+                <div style="font-size: 2rem; margin-bottom: 16px;">ðŸ“–</div>
                 <p>Aucune question favorite pour le moment</p>
-                <p style="font-size: 0.9rem; margin-top: 8px;">Marquez des questions pendant vos rÃ©visions pour les retrouver ici</p>
+                <p style="font-size: 0.9rem; margin-top: 8px;">Marquez des questions pendant vos révisions pour les retrouver ici</p>
             </div>
         `;
         return;
@@ -3572,7 +3572,7 @@ const renderAnalyticsBookmarks = () => {
     bookmarksList.innerHTML = allBookmarks.map(bookmark => `
         <div class="bookmark-analytics-item" data-lecture-id="${bookmark.lectureId}" data-quiz-index="${bookmark.quizIndex}">
             <div class="bookmark-question-text">${bookmark.question}</div>
-            <div class="bookmark-answer-text">RÃ©ponse: ${bookmark.answer}</div>
+            <div class="bookmark-answer-text">Réponse: ${bookmark.answer}</div>
             <div class="bookmark-meta">
                 <span class="bookmark-lecture-name">${bookmark.lectureName}</span>
                 <span class="bookmark-date">${new Date(bookmark.date).toLocaleDateString('fr-FR')}</span>

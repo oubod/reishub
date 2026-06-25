@@ -1,4 +1,4 @@
-const CACHE_NAME = 'residanat-nktt-v19';
+const CACHE_NAME = 'RésiHub-mauritania-v19';
 const URLS_TO_CACHE = [
     './',
     './index.html',

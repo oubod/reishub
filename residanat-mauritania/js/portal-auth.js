@@ -194,11 +194,12 @@ function setupMauritaniaLogin() {
             const username = document.getElementById('signupName').value.trim();
             const email = document.getElementById('signupEmail').value.trim();
             const password = document.getElementById('signupPassword').value;
+            const bankily = document.getElementById('signupBankily')?.value.trim() || '';
             const avatar_url = mauritaniaAvatarFor(username);
             const { data, error } = await supabaseClient.auth.signUp({
                 email,
                 password,
-                options: { data: { username, avatar_url, portal: 'mauritania' } }
+                options: { data: { username, avatar_url, portal: 'mauritania', bankily_code: bankily } }
             });
             if (error) return mauritaniaAuthMessage(mauritaniaFriendlyAuthError(error));
             if (!data.user) return mauritaniaAuthMessage('Compte non cree. Verifiez la configuration Supabase.');
@@ -208,10 +209,20 @@ function setupMauritaniaLogin() {
                     email,
                     username,
                     avatar_url,
+                    bankily_code: bankily,
                     progress: {}
                 }, { onConflict: 'id', ignoreDuplicates: true });
                 if (profileError) {
-                    return mauritaniaAuthMessage(`Compte Auth cree, mais profil bloque: ${profileError.message}. Executez les fichiers SQL mis a jour.`, 'warning');
+                    const { error: fallbackError } = await supabaseClient.from(MAURITANIA_AUTH.table).upsert({
+                        id: data.user.id,
+                        email,
+                        username,
+                        avatar_url,
+                        progress: {}
+                    }, { onConflict: 'id', ignoreDuplicates: true });
+                    if (fallbackError) {
+                        return mauritaniaAuthMessage(`Compte Auth cree, mais profil bloque: ${fallbackError.message}.`, 'warning');
+                    }
                 }
             }
             signup.reset();
