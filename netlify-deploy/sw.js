@@ -1,4 +1,4 @@
-const CACHE_VERSION = "resihub-pwa-v27";
+const CACHE_VERSION = "resihub-pwa-v28";
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const CACHE_PREFIXES = ["residanat-pwa-", `R${"\u00e9"}siHub-pwa-`, "resihub-pwa-"];
@@ -9,6 +9,7 @@ const APP_SHELL = [
   "./tunis.html",
   "./login-tunis.html",
   "./auth-tunis.js",
+  "./assets/js/pwa-update.js",
   "./manifest.webmanifest",
   "./logo.png",
   "./favicon.ico",
@@ -84,8 +85,13 @@ self.addEventListener("install", (event) => {
     const cache = await caches.open(APP_SHELL_CACHE);
     const quizUrls = await quizUrlsFromLectures();
     await cache.addAll([...APP_SHELL, ...quizUrls]);
-    await self.skipWaiting();
   })());
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data?.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener("activate", (event) => {

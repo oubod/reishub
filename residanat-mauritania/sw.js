@@ -1,4 +1,4 @@
-const CACHE_NAME = 'resihub-mauritania-v24';
+const CACHE_NAME = 'resihub-mauritania-v25';
 const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
@@ -9,6 +9,7 @@ const URLS_TO_CACHE = [
     './js/app.js',
     './js/supabase-client.js',
     './js/portal-auth.js',
+    '../assets/js/pwa-update.js',
     './manifest.json',
     './favicon.ico',
     './data/lectures.json',
@@ -44,7 +45,12 @@ self.addEventListener('install', event => {
         console.error('Failed to cache core assets:', error);
       })
   );
-  self.skipWaiting();
+});
+
+self.addEventListener('message', event => {
+  if (event.data?.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('activate', event => {

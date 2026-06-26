@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#08783b">
   <title>Connexion - Résidanat Mauritanie | RésiHub</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260626">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626">
+  <link rel="manifest" href="manifest.json?v=resihub-20260626-2">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-2">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-2">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260626-2" data-sw="./sw.js?v=resihub-20260626-2"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-client.js"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -153,7 +154,7 @@
           </div>
           <div class="relative group input-focus rounded-xl transition-all">
             <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-50 group-focus-within:text-primary transition-colors">lock</span>
-            <input id="signinPassword" class="native-input w-full pl-12 pr-12 py-4 bg-white/50 border border-outline/30 rounded-xl outline-none focus:border-primary transition-all font-body-md" type="password" autocomplete="current-password" required placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
+            <input id="signinPassword" class="native-input w-full pl-12 pr-12 py-4 bg-white/50 border border-outline/30 rounded-xl outline-none focus:border-primary transition-all font-body-md" type="password" autocomplete="current-password" required placeholder="••••••••">
             <p class="input-error">Veuillez entrer votre mot de passe.</p>
             <button class="absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-on-surface" type="button" onclick="togglePassword('signinPassword', this)">
               <span class="material-symbols-outlined text-[20px]">visibility</span>
@@ -191,7 +192,7 @@
           <label class="font-label-bold text-label-bold text-on-background block" for="signupPassword">Mot de passe</label>
           <div class="relative">
             <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant opacity-60">lock</span>
-            <input id="signupPassword" class="native-input w-full pl-10 pr-12 py-3 bg-white border border-outline-variant/30 rounded-lg font-body-md focus:border-primary focus:ring-0 outline-none transition-all" type="password" autocomplete="new-password" minlength="6" required placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
+            <input id="signupPassword" class="native-input w-full pl-10 pr-12 py-3 bg-white border border-outline-variant/30 rounded-lg font-body-md focus:border-primary focus:ring-0 outline-none transition-all" type="password" autocomplete="new-password" minlength="6" required placeholder="••••••••">
             <p class="input-error">Le mot de passe doit contenir au moins 6 caractères.</p>
             <button class="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary transition-colors" type="button" onclick="togglePassword('signupPassword', this)">
               <span class="material-symbols-outlined text-[20px]">visibility</span>

@@ -2622,7 +2622,43 @@ const requestFullscreenMode = () => {
     document.addEventListener('touchend', requestFullscreenOnce, true);
     document.addEventListener('mousedown', requestFullscreenOnce, true);
 };
-const setupPWA = () => { if ('serviceWorker' in navigator) { caches.keys().then(cacheNames => { cacheNames.forEach(cacheName => { if (cacheName.startsWith('residanat-nktt') || cacheName.startsWith('resihub-mauritania') || cacheName.startsWith(`R${'\u00e9'}siHub-mauritania`)) { caches.delete(cacheName); console.log('Cleared old cache:', cacheName); } }); }); navigator.serviceWorker.register('./sw.js?v=resihub-20260626').then(registration => { console.log('Service Worker registered:', registration); registration.update(); }).catch(error => console.error('Service Worker registration failed:', error)); } };
+const setupPWA = () => {
+    if (window.__resihubPwaUpdaterActive) return;
+    if (!('serviceWorker' in navigator) || !['http:', 'https:'].includes(window.location.protocol)) return;
+
+    let reloading = false;
+    let promptedWorker = null;
+    const promptForUpdate = (worker) => {
+        if (!worker || promptedWorker === worker) return;
+        promptedWorker = worker;
+        if (window.confirm("Nouvelle mise a jour ResiHub disponible. Appuyez sur OK pour l'installer.")) {
+            worker.postMessage({ type: 'SKIP_WAITING' });
+        }
+    };
+
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloading) return;
+        reloading = true;
+        window.location.reload();
+    });
+
+    navigator.serviceWorker.register('./sw.js?v=resihub-20260626-2').then(registration => {
+        console.log('Service Worker registered:', registration);
+        if (registration.waiting && navigator.serviceWorker.controller) {
+            promptForUpdate(registration.waiting);
+        }
+        registration.addEventListener('updatefound', () => {
+            const worker = registration.installing;
+            if (!worker) return;
+            worker.addEventListener('statechange', () => {
+                if (worker.state === 'installed' && navigator.serviceWorker.controller) {
+                    promptForUpdate(worker);
+                }
+            });
+        });
+        registration.update();
+    }).catch(error => console.error('Service Worker registration failed:', error));
+};
 
 // --- PWA INSTALL FUNCTIONALITY ---
 const setupPWAInstall = () => { const installBtn = document.getElementById('install-btn'); if (installBtn) installBtn.style.display = 'none'; window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredPrompt = e; if (installBtn && !window.matchMedia('(display-mode: standalone)').matches) { installBtn.style.display = 'flex'; } }); window.addEventListener('appinstalled', () => { if (installBtn) installBtn.style.display = 'none'; deferredPrompt = null; }); if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) { if (installBtn) installBtn.style.display = 'none'; } };
