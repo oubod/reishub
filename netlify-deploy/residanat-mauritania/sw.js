@@ -1,4 +1,5 @@
-const CACHE_NAME = 'residanat-nktt-v19';
+const CACHE_NAME = 'resihub-mauritania-v24';
+const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
     './index.html',
@@ -11,8 +12,23 @@ const URLS_TO_CACHE = [
     './manifest.json',
     './favicon.ico',
     './data/lectures.json',
+    './images/favicon-16.png',
+    './images/favicon-32.png',
+    './images/apple-touch-icon.png',
+    './images/icon-16.png',
+    './images/icon-32.png',
+    './images/icon-48.png',
+    './images/icon-72.png',
+    './images/icon-96.png',
+    './images/icon-128.png',
+    './images/icon-144.png',
+    './images/icon-152.png',
+    './images/icon-180.png',
     './images/icon-192.png',
+    './images/icon-384.png',
     './images/icon-512.png',
+    './images/maskable-192.png',
+    './images/maskable-512.png',
     'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css',
     'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'
 ];
@@ -36,7 +52,7 @@ self.addEventListener('activate', event => {
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cacheName => {
-          if (cacheName.startsWith('residanat-nktt-') && cacheName !== CACHE_NAME) {
+          if (CACHE_PREFIXES.some(prefix => cacheName.startsWith(prefix)) && cacheName !== CACHE_NAME) {
             console.log('Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }

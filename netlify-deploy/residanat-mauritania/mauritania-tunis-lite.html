@@ -3,7 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Residanat Mauritanie</title>
+  <meta name="theme-color" content="#08783b">
+  <title>RésiHub Mauritanie</title>
+  <link rel="manifest" href="manifest.json?v=resihub-20260626">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -14,8 +19,10 @@
       --ink: #081830;
       --muted: #485a70;
       --line: rgba(111, 132, 158, .24);
-      --primary: #006fc8;
-      --primary-soft: #daeeff;
+      --primary: #006233;
+      --primary-soft: #e7f5ed;
+      --brand-red: #d71920;
+      --brand-navy: #061d45;
       --surface: rgba(255, 255, 255, .94);
       --surface-low: #eef6ff;
       --ok: #007e70;
@@ -30,13 +37,19 @@
       color: var(--ink);
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(218, 238, 255, .95), transparent 34rem),
-        linear-gradient(180deg, #f6f9ff 0%, #eef6ff 100%);
+        radial-gradient(circle at top left, rgba(0, 98, 51, .1), transparent 34rem),
+        radial-gradient(circle at bottom right, rgba(215, 25, 32, .08), transparent 30rem),
+        linear-gradient(180deg, #ffffff 0%, #f3f9f5 100%);
     }
 
     button, input { font: inherit; }
     button { cursor: pointer; }
     .icon { font-family: "Material Symbols Outlined"; font-weight: normal; font-style: normal; line-height: 1; font-size: 24px; }
+
+    .mobile-shellbar,
+    .sidebar-shade {
+      display: none;
+    }
 
     .app {
       display: grid;
@@ -52,6 +65,8 @@
       border-right: 1px solid var(--line);
       background: rgba(255, 255, 255, .74);
       backdrop-filter: blur(18px);
+      display: flex;
+      flex-direction: column;
     }
 
     .brand {
@@ -62,19 +77,40 @@
       border-bottom: 1px solid var(--line);
     }
 
-    .mark {
+    .brand-logo {
       width: 46px;
       height: 46px;
-      display: grid;
-      place-items: center;
       border-radius: 16px;
-      background: var(--primary-soft);
-      color: var(--primary);
-      font-weight: 800;
+      object-fit: cover;
+      box-shadow: var(--shadow);
     }
 
-    .brand strong { display: block; font-size: 18px; color: var(--primary); }
+    .brand-word {
+      align-items: baseline;
+      display: inline-flex;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .brand-word__resi { color: var(--brand-red); }
+    .brand-word__hub { color: var(--brand-navy); }
     .brand span { color: var(--muted); font-size: 13px; }
+
+    .account-toggle {
+      align-items: center;
+      background: var(--surface-low);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      color: var(--muted);
+      display: none;
+      height: 44px;
+      justify-content: center;
+      margin-left: auto;
+      width: 44px;
+    }
 
     nav {
       display: grid;
@@ -98,9 +134,35 @@
     }
 
     .nav.active {
-      background: rgba(0, 111, 200, .1);
+      background: rgba(0, 98, 51, .1);
       color: var(--primary);
-      border-color: rgba(0, 111, 200, .16);
+      border-color: rgba(0, 98, 51, .16);
+    }
+
+    .sidebar-actions {
+      display: grid;
+      gap: 10px;
+      margin-top: auto;
+      padding-top: 18px;
+    }
+
+    .logout-button {
+      align-items: center;
+      background: rgba(215, 25, 32, .09);
+      border: 1px solid rgba(215, 25, 32, .16);
+      border-radius: 16px;
+      color: var(--brand-red);
+      display: flex;
+      font-weight: 750;
+      gap: 10px;
+      justify-content: center;
+      min-height: 52px;
+      padding: 0 14px;
+      width: 100%;
+    }
+
+    .logout-button:hover {
+      background: rgba(215, 25, 32, .14);
     }
 
     main {
@@ -368,28 +430,108 @@
     }
 
     @media (max-width: 840px) {
+      .mobile-shellbar {
+        align-items: center;
+        background: rgba(255, 255, 255, .92);
+        backdrop-filter: blur(18px);
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        gap: 12px;
+        height: 72px;
+        inset: 0 0 auto;
+        padding: 10px 14px;
+        position: fixed;
+        z-index: 40;
+      }
+
+      .mobile-menu-button {
+        align-items: center;
+        background: var(--surface-low);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        color: var(--brand-navy);
+        display: flex;
+        height: 48px;
+        justify-content: center;
+        width: 48px;
+      }
+
+      .mobile-shellbar .brand-logo {
+        height: 42px;
+        width: 42px;
+      }
+
       .app { grid-template-columns: 1fr; }
       aside {
-        position: sticky;
-        z-index: 10;
-        height: auto;
-        padding: 10px 12px;
+        bottom: 0;
+        box-shadow: 18px 0 48px rgba(16, 52, 92, .18);
+        height: 100dvh;
+        left: 0;
+        max-width: 320px;
+        padding: 18px;
+        position: fixed;
+        top: 0;
+        transform: translateX(-105%);
+        transition: transform 200ms ease;
+        width: min(84vw, 320px);
+        z-index: 60;
       }
+
+      aside.open {
+        transform: translateX(0);
+      }
+
+      .sidebar-shade.open {
+        background: rgba(6, 29, 69, .36);
+        border: 0;
+        display: block;
+        inset: 0;
+        position: fixed;
+        z-index: 50;
+      }
+
       .brand { padding-bottom: 10px; }
-      nav { grid-template-columns: 1fr 1fr; padding-top: 10px; }
-      main { padding-top: 18px; }
+      .account-toggle { display: inline-flex; }
+      .sidebar-actions { display: grid; }
+      nav { grid-template-columns: 1fr; padding-top: 18px; }
+      main { padding-top: 96px; }
       header { display: grid; }
       .search { min-width: 100%; }
     }
   </style>
 </head>
 <body>
+  <div class="mobile-shellbar">
+    <button class="mobile-menu-button" type="button" onclick="openMobileSidebar()" aria-label="Ouvrir le menu">
+      <span class="icon">menu</span>
+    </button>
+    <img class="brand-logo" src="images/icon-192.png?v=resihub-20260626" alt="Logo RésiHub">
+    <div>
+      <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
+      <span>Résidanat Mauritanie</span>
+    </div>
+  </div>
+  <button id="sidebarShade" class="sidebar-shade" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu"></button>
+
   <div class="app">
-    <aside>
+    <aside id="mobileSidebar">
+      <div class="brand">
+        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260626" alt="Logo RésiHub">
+        <div>
+          <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
+          <span>Résidanat Mauritanie</span>
+        </div>
+        <button class="account-toggle" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu">
+          <span class="icon">close</span>
+        </button>
+      </div>
       <nav>
         <button class="nav active" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
         <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
       </nav>
+      <div class="sidebar-actions">
+        <button class="logout-button" type="button" onclick="portalLogout()"><span class="icon">logout</span>Deconnexion</button>
+      </div>
     </aside>
 
     <main>
@@ -460,6 +602,16 @@
 
     function isGuestMode() {
       return Boolean(window.portalAuthProfile?.isGuest || localStorage.getItem("portalGuest") === "mauritania");
+    }
+
+    function openMobileSidebar() {
+      $("mobileSidebar")?.classList.add("open");
+      $("sidebarShade")?.classList.add("open");
+    }
+
+    function closeMobileSidebar() {
+      $("mobileSidebar")?.classList.remove("open");
+      $("sidebarShade")?.classList.remove("open");
     }
 
     function guestAllowedLectureIds() {
@@ -662,10 +814,16 @@
       renderGrouped("quizList", state.lectures.filter((item) => item.training), quizRow);
     }
 
-    document.querySelectorAll(".nav").forEach((btn) => btn.addEventListener("click", () => go(btn.dataset.view)));
+    document.querySelectorAll(".nav").forEach((btn) => btn.addEventListener("click", () => {
+      go(btn.dataset.view);
+      closeMobileSidebar();
+    }));
     $("search").addEventListener("input", (event) => {
       state.query = event.target.value;
       render();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeMobileSidebar();
     });
 
     readJson("data/lectures.json").then((data) => {
