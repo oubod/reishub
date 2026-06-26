@@ -1640,6 +1640,14 @@
       return normalized;
     }
 
+    function getPdfViewerUrl(path) {
+      const url = resolvePdfUrl(path);
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile && url) {        return "https://docs.google.com/gview?embedded=1&url=" + encodeURIComponent(url);
+      }
+      return url;
+    }
+
     const DATA_PATHS = {
       lectures: "data/lectures.json",
       exams: "exams/examens.json",
@@ -2440,7 +2448,7 @@
       document.getElementById("readerSource").classList.toggle("hidden", !lecture.sourceUrl);
       document.getElementById("readerNoteLabel").textContent = "Notes du cours";
       document.getElementById("readerNote").value = findLectureNote(lecture.id)?.content || "";
-      document.getElementById("pdfFrame").src = resolvePdfUrl(lecture.pdf);
+      document.getElementById("pdfFrame").src = getPdfViewerUrl(lecture.pdf);
       state.readerState = { file: lecture.pdf, title: lecture.title, kind: "course", openedAt: new Date().toISOString() };
       saveLocalState();
       updateReaderStatus();
@@ -2479,7 +2487,7 @@
       document.getElementById("readerSource").classList.toggle("hidden", !(documentItem.sourceUrl || documentItem.sourcePage));
       document.getElementById("readerNoteLabel").textContent = "Notes du document";
       document.getElementById("readerNote").value = findDocumentNote(documentItem)?.content || "";
-      document.getElementById("pdfFrame").src = resolvePdfUrl(documentItem.file);
+      document.getElementById("pdfFrame").src = getPdfViewerUrl(documentItem.file);
       state.readerState = { file: documentItem.file, title: documentItem.title, kind: "document", openedAt: new Date().toISOString() };
       saveLocalState();
       setReaderCourseMode(false);
