@@ -2216,6 +2216,10 @@
       return Boolean(window.portalAuthProfile?.isGuest || localStorage.getItem("portalGuest") === "tunis");
     }
 
+    function hasApprovedAccess() {
+      return Boolean(window.portalAuthProfile?.approved && !isGuestMode());
+    }
+
     function guestAllowedLectureIds() {
       const allowed = new Set();
       const seen = new Set();
@@ -3745,6 +3749,7 @@
     }
 
     function buildCommandResults(query = "") {
+      if (!hasApprovedAccess()) return [];
       const q = query.trim().toLowerCase();
       const results = [];
       const push = (type, icon, title, detail, action) => {
@@ -3788,6 +3793,10 @@
     }
 
     function openCommandPalette() {
+      if (!hasApprovedAccess()) {
+        showGuestLocked();
+        return;
+      }
       const palette = document.getElementById("commandPalette");
       palette.classList.remove("hidden");
       palette.classList.add("sheet-open");
@@ -4058,6 +4067,7 @@
 
     // Download progress management
     async function downloadEssentialContent() {
+      if (!hasApprovedAccess()) return;
       const downloadProgress = document.getElementById("downloadProgress");
       const downloadBar = document.getElementById("downloadBar");
       const downloadPercent = document.getElementById("downloadPercent");
@@ -4122,7 +4132,7 @@
     }
 
     function shouldDownloadOfflineContent() {
-      return !localStorage.getItem("fmt_offline_ready_v1");
+      return hasApprovedAccess() && !localStorage.getItem("fmt_offline_ready_v1");
     }
 
     // Pull-to-refresh (mobile only)
