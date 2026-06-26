@@ -23,6 +23,98 @@ const mauritaniaFriendlyAuthError = (error) =>
         ? 'Trop de tentatives. Attendez une minute puis reessayez.'
         : (error && error.message) || 'Erreur Supabase.';
 
+const mauritaniaExistingAccountError = (error) =>
+    /already registered|already exists|user already|email.*exists/i.test(error?.message || '');
+
+const mauritaniaMissingRpcError = (error) =>
+    /could not find|not found|schema cache|function .* does not exist/i.test(error?.message || '');
+
+const mauritaniaIsSuspendedProfile = (profile) =>
+    profile?.suspended_until && new Date(profile.suspended_until) > new Date();
+
+const mauritaniaProfileNameFor = (user, fallbackUsername) =>
+    fallbackUsername ||
+    user?.user_metadata?.username ||
+    user?.email?.split('@')[0] ||
+    'Utilisateur';
+
+async function fetchMauritaniaProfile(userId) {
+    const { data, error } = await supabaseClient
+        .from(MAURITANIA_AUTH.table)
+        .select('*')
+        .eq('id', userId)
+        .maybeSingle();
+    if (error) console.warn('Mauritania profile lookup failed:', error.message);
+    return data || null;
+}
+
+async function insertPendingMauritaniaProfile(user, options = {}) {
+    const username = mauritaniaProfileNameFor(user, options.username);
+    const payload = {
+        id: user.id,
+        email: user.email,
+        username,
+        avatar_url: options.avatar_url || user.user_metadata?.avatar_url || mauritaniaAvatarFor(username),
+        progress: {}
+    };
+    if (options.bankily) payload.bankily_code = options.bankily;
+
+    const { error } = await supabaseClient
+        .from(MAURITANIA_AUTH.table)
+        .upsert(payload, { onConflict: 'id', ignoreDuplicates: true });
+
+    if (!error) return fetchMauritaniaProfile(user.id);
+    if (!('bankily_code' in payload)) {
+        console.warn('Mauritania profile insert failed:', error.message);
+        return null;
+    }
+
+    delete payload.bankily_code;
+    const { error: fallbackError } = await supabaseClient
+        .from(MAURITANIA_AUTH.table)
+        .upsert(payload, { onConflict: 'id', ignoreDuplicates: true });
+    if (fallbackError) {
+        console.warn('Mauritania profile fallback insert failed:', fallbackError.message);
+        return null;
+    }
+    return fetchMauritaniaProfile(user.id);
+}
+
+async function ensureMauritaniaProfile(user, options = {}) {
+    let profile = await fetchMauritaniaProfile(user.id);
+    if (profile) return profile;
+
+    try {
+        const { error } = await supabaseClient.rpc('ensure_cross_app_profile', { target_app: 'mauritania' });
+        if (!error) {
+            profile = await fetchMauritaniaProfile(user.id);
+            if (profile) return profile;
+        } else if (!mauritaniaMissingRpcError(error)) {
+            console.warn('Cross-app profile helper failed:', error.message);
+        }
+    } catch (error) {
+        console.warn('Cross-app profile helper unavailable:', error);
+    }
+
+    return insertPendingMauritaniaProfile(user, options);
+}
+
+async function finishMauritaniaLogin(profile) {
+    if (!profile || profile.rejected || !profile.approved) {
+        await supabaseClient.auth.signOut();
+        return mauritaniaAuthMessage(profile && profile.rejected ? "Demande d'acces rejetee." : "Demande d'acces Mauritanie en attente d'approbation.", 'warning');
+    }
+
+    if (mauritaniaIsSuspendedProfile(profile)) {
+        await supabaseClient.auth.signOut();
+        return mauritaniaAuthMessage(`Votre compte est temporairement suspendu jusqu'au ${new Date(profile.suspended_until).toLocaleString()}.`, 'warning');
+    }
+
+    localStorage.removeItem('portalGuest');
+    logUserSession('mauritania', supabaseClient);
+    window.location.href = mauritaniaAppPath();
+}
+
 async function logUserSession(appKey, supabaseClientInstance) {
     try {
         const res = await fetch('https://ipapi.co/json/');
@@ -71,19 +163,15 @@ async function ensureMauritaniaApprovedSession() {
         return null;
     }
 
-    const { data: profile, error } = await supabaseClient
-        .from(MAURITANIA_AUTH.table)
-        .select('*')
-        .eq('id', session.user.id)
-        .single();
+    const profile = await ensureMauritaniaProfile(session.user);
 
-    if (error || !profile || profile.rejected || !profile.approved) {
+    if (!profile || profile.rejected || !profile.approved) {
         await supabaseClient.auth.signOut();
         window.location.replace(`${mauritaniaLoginPath()}?${profile && profile.rejected ? 'rejected' : 'pending'}=1`);
         return null;
     }
 
-    if (profile.suspended_until && new Date(profile.suspended_until) > new Date()) {
+    if (mauritaniaIsSuspendedProfile(profile)) {
         await supabaseClient.auth.signOut();
         window.location.replace(`${mauritaniaLoginPath()}?suspended=1&until=${encodeURIComponent(profile.suspended_until)}`);
         return null;
@@ -156,24 +244,8 @@ function setupMauritaniaLogin() {
             const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
             if (error) return mauritaniaAuthMessage('Num\u00e9ro ou mot de passe incorrect.');
 
-            const { data: profile } = await supabaseClient
-                .from(MAURITANIA_AUTH.table)
-                .select('*')
-                .eq('id', data.user.id)
-                .single();
-            if (!profile || profile.rejected || !profile.approved) {
-                await supabaseClient.auth.signOut();
-                return mauritaniaAuthMessage(profile && profile.rejected ? "Demande d'acces rejetee." : "Compte en attente d'approbation.", 'warning');
-            }
-
-            if (profile.suspended_until && new Date(profile.suspended_until) > new Date()) {
-                await supabaseClient.auth.signOut();
-                return mauritaniaAuthMessage(`Votre compte est temporairement suspendu jusqu'au ${new Date(profile.suspended_until).toLocaleString()}.`, 'warning');
-            }
-
-            localStorage.removeItem('portalGuest');
-            logUserSession('mauritania', supabaseClient);
-            window.location.href = mauritaniaAppPath();
+            const profile = await ensureMauritaniaProfile(data.user);
+            await finishMauritaniaLogin(profile);
         } finally {
             if (submitButton) submitButton.disabled = false;
         }
@@ -203,29 +275,30 @@ function setupMauritaniaLogin() {
                 password,
                 options: { data: { username, avatar_url, portal: 'mauritania', bankily_code: bankily, phone } }
             });
+            if (error && mauritaniaExistingAccountError(error)) {
+                const login = await supabaseClient.auth.signInWithPassword({ email, password });
+                if (login.error) {
+                    return mauritaniaAuthMessage("Ce numero existe deja. Entrez son mot de passe actuel pour demander l'acces Mauritanie.", 'warning');
+                }
+                const profile = await ensureMauritaniaProfile(login.data.user, { username, bankily, avatar_url });
+                if (profile?.approved && !profile.rejected && !mauritaniaIsSuspendedProfile(profile)) {
+                    return finishMauritaniaLogin(profile);
+                }
+                await supabaseClient.auth.signOut();
+                signup.reset();
+                return mauritaniaAuthMessage(profile?.rejected ? "Demande d'acces rejetee." : "Demande d'acces Mauritanie enregistree. Attendez la validation administrateur.", 'success');
+            }
             if (error) return mauritaniaAuthMessage(mauritaniaFriendlyAuthError(error));
             if (!data.user) return mauritaniaAuthMessage('Compte non cree. Verifiez la configuration Supabase.');
             if (data.session) {
-                const { error: profileError } = await supabaseClient.from(MAURITANIA_AUTH.table).upsert({
-                    id: data.user.id,
-                    email,
-                    username,
-                    avatar_url,
-                    bankily_code: bankily,
-                    progress: {}
-                }, { onConflict: 'id', ignoreDuplicates: true });
-                if (profileError) {
-                    const { error: fallbackError } = await supabaseClient.from(MAURITANIA_AUTH.table).upsert({
-                        id: data.user.id,
-                        email,
-                        username,
-                        avatar_url,
-                        progress: {}
-                    }, { onConflict: 'id', ignoreDuplicates: true });
-                    if (fallbackError) {
-                        return mauritaniaAuthMessage(`Compte Auth cree, mais profil bloque: ${fallbackError.message}.`, 'warning');
-                    }
+                const profile = await ensureMauritaniaProfile(data.user, { username, bankily, avatar_url });
+                if (!profile) {
+                    return mauritaniaAuthMessage("Compte Auth cree, mais la demande Mauritanie n'a pas pu etre enregistree.", 'warning');
                 }
+                if (profile.approved && !profile.rejected && !mauritaniaIsSuspendedProfile(profile)) {
+                    return finishMauritaniaLogin(profile);
+                }
+                await supabaseClient.auth.signOut();
             }
             signup.reset();
             mauritaniaAuthMessage('Compte cree. Il sera accessible apres approbation administrateur.', 'success');

@@ -2642,7 +2642,7 @@ const setupPWA = () => {
         window.location.reload();
     });
 
-    navigator.serviceWorker.register('./sw.js?v=resihub-20260626-2').then(registration => {
+    navigator.serviceWorker.register('./sw.js?v=resihub-20260626-3').then(registration => {
         console.log('Service Worker registered:', registration);
         if (registration.waiting && navigator.serviceWorker.controller) {
             promptForUpdate(registration.waiting);

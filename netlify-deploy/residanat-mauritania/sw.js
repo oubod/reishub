@@ -1,4 +1,4 @@
-const CACHE_NAME = 'resihub-mauritania-v25';
+const CACHE_NAME = 'resihub-mauritania-v26';
 const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
@@ -8,8 +8,8 @@ const URLS_TO_CACHE = [
     './css/style.css',
     './js/app.js',
     './js/supabase-client.js',
-    './js/portal-auth.js',
-    '../assets/js/pwa-update.js',
+    './js/portal-auth.js?v=8',
+    '../assets/js/pwa-update.js?v=resihub-20260626-3',
     './manifest.json',
     './favicon.ico',
     './data/lectures.json',

@@ -25,6 +25,98 @@ const friendlyAuthError = (error) =>
     ? "Trop de tentatives. Attendez une minute puis reessayez."
     : (error && error.message) || "Erreur Supabase.";
 
+const isExistingAccountError = (error) =>
+  /already registered|already exists|user already|email.*exists/i.test(error?.message || "");
+
+const isMissingRpcError = (error) =>
+  /could not find|not found|schema cache|function .* does not exist/i.test(error?.message || "");
+
+const isSuspendedProfile = (profile) =>
+  profile?.suspended_until && new Date(profile.suspended_until) > new Date();
+
+const profileNameFor = (user, fallbackUsername) =>
+  fallbackUsername ||
+  user?.user_metadata?.username ||
+  user?.email?.split("@")[0] ||
+  "Utilisateur";
+
+async function fetchTunisProfile(userId) {
+  const { data, error } = await tunisSupabase
+    .from(TUNIS_AUTH.table)
+    .select("*")
+    .eq("id", userId)
+    .maybeSingle();
+  if (error) console.warn("Tunis profile lookup failed:", error.message);
+  return data || null;
+}
+
+async function insertPendingTunisProfile(user, options = {}) {
+  const username = profileNameFor(user, options.username);
+  const payload = {
+    id: user.id,
+    email: user.email,
+    username,
+    avatar_url: options.avatar_url || user.user_metadata?.avatar_url || avatarFor(username),
+    progress: {}
+  };
+  if (options.bankily) payload.bankily_code = options.bankily;
+
+  const { error } = await tunisSupabase
+    .from(TUNIS_AUTH.table)
+    .upsert(payload, { onConflict: "id", ignoreDuplicates: true });
+
+  if (!error) return fetchTunisProfile(user.id);
+  if (!("bankily_code" in payload)) {
+    console.warn("Tunis profile insert failed:", error.message);
+    return null;
+  }
+
+  delete payload.bankily_code;
+  const { error: fallbackError } = await tunisSupabase
+    .from(TUNIS_AUTH.table)
+    .upsert(payload, { onConflict: "id", ignoreDuplicates: true });
+  if (fallbackError) {
+    console.warn("Tunis profile fallback insert failed:", fallbackError.message);
+    return null;
+  }
+  return fetchTunisProfile(user.id);
+}
+
+async function ensureTunisProfile(user, options = {}) {
+  let profile = await fetchTunisProfile(user.id);
+  if (profile) return profile;
+
+  try {
+    const { error } = await tunisSupabase.rpc("ensure_cross_app_profile", { target_app: "tunisia" });
+    if (!error) {
+      profile = await fetchTunisProfile(user.id);
+      if (profile) return profile;
+    } else if (!isMissingRpcError(error)) {
+      console.warn("Cross-app profile helper failed:", error.message);
+    }
+  } catch (error) {
+    console.warn("Cross-app profile helper unavailable:", error);
+  }
+
+  return insertPendingTunisProfile(user, options);
+}
+
+async function finishTunisLogin(profile, params) {
+  if (!profile || profile.rejected || !profile.approved) {
+    await tunisSupabase.auth.signOut();
+    return authMessage(profile && profile.rejected ? "Demande d'acces rejetee." : "Demande d'acces Tunis en attente d'approbation.", "warning");
+  }
+
+  if (isSuspendedProfile(profile)) {
+    await tunisSupabase.auth.signOut();
+    return authMessage(`Votre compte est temporairement suspendu jusqu'au ${new Date(profile.suspended_until).toLocaleString()}.`, "warning");
+  }
+
+  localStorage.removeItem("portalGuest");
+  logUserSession("tunisia", tunisSupabase);
+  window.location.href = safeNext(params.get("next"), TUNIS_AUTH.appPath);
+}
+
 async function logUserSession(appKey, supabaseClientInstance) {
   try {
     const res = await fetch("https://ipapi.co/json/");
@@ -73,19 +165,15 @@ async function ensureTunisApprovedSession() {
     return null;
   }
 
-  const { data: profile, error } = await tunisSupabase
-    .from(TUNIS_AUTH.table)
-    .select("*")
-    .eq("id", session.user.id)
-    .single();
+  const profile = await ensureTunisProfile(session.user);
 
-  if (error || !profile || profile.rejected || !profile.approved) {
+  if (!profile || profile.rejected || !profile.approved) {
     await tunisSupabase.auth.signOut();
     window.location.replace(`${TUNIS_AUTH.loginPath}?${profile && profile.rejected ? "rejected" : "pending"}=1`);
     return null;
   }
 
-  if (profile.suspended_until && new Date(profile.suspended_until) > new Date()) {
+  if (isSuspendedProfile(profile)) {
     await tunisSupabase.auth.signOut();
     window.location.replace(`${TUNIS_AUTH.loginPath}?suspended=1&until=${encodeURIComponent(profile.suspended_until)}`);
     return null;
@@ -167,20 +255,8 @@ function setupTunisLogin() {
       const { data, error } = await tunisSupabase.auth.signInWithPassword({ email, password });
       if (error) return authMessage("Num\u00e9ro ou mot de passe incorrect.");
 
-      const { data: profile } = await tunisSupabase.from(TUNIS_AUTH.table).select("*").eq("id", data.user.id).single();
-      if (!profile || profile.rejected || !profile.approved) {
-        await tunisSupabase.auth.signOut();
-        return authMessage(profile && profile.rejected ? "Demande d'acces rejetee." : "Compte en attente d'approbation.", "warning");
-      }
-
-      if (profile.suspended_until && new Date(profile.suspended_until) > new Date()) {
-        await tunisSupabase.auth.signOut();
-        return authMessage(`Votre compte est temporairement suspendu jusqu'au ${new Date(profile.suspended_until).toLocaleString()}.`, "warning");
-      }
-
-      localStorage.removeItem("portalGuest");
-      logUserSession("tunisia", tunisSupabase);
-      window.location.href = safeNext(params.get("next"), TUNIS_AUTH.appPath);
+      const profile = await ensureTunisProfile(data.user);
+      await finishTunisLogin(profile, params);
     } finally {
       if (submitButton) submitButton.disabled = false;
     }
@@ -205,34 +281,35 @@ function setupTunisLogin() {
       const password = document.getElementById("signupPassword").value;
       const bankily = document.getElementById("signupBankily")?.value.trim() || "";
       const avatar_url = avatarFor(username);
-      const { data, error } = await tunisSupabase.auth.signUp({
+      let { data, error } = await tunisSupabase.auth.signUp({
         email,
         password,
         options: { data: { username, avatar_url, portal: "tunisia", bankily_code: bankily, phone } }
       });
+      if (error && isExistingAccountError(error)) {
+        const login = await tunisSupabase.auth.signInWithPassword({ email, password });
+        if (login.error) {
+          return authMessage("Ce numero existe deja. Entrez son mot de passe actuel pour demander l'acces Tunis.", "warning");
+        }
+        const profile = await ensureTunisProfile(login.data.user, { username, bankily, avatar_url });
+        if (profile?.approved && !profile.rejected && !isSuspendedProfile(profile)) {
+          return finishTunisLogin(profile, params);
+        }
+        await tunisSupabase.auth.signOut();
+        signup.reset();
+        return authMessage(profile?.rejected ? "Demande d'acces rejetee." : "Demande d'acces Tunis enregistree. Attendez la validation administrateur.", "success");
+      }
       if (error) return authMessage(friendlyAuthError(error));
       if (!data.user) return authMessage("Compte non cree. Verifiez la configuration Supabase.");
       if (data.session) {
-        const { error: profileError } = await tunisSupabase.from(TUNIS_AUTH.table).upsert({
-          id: data.user.id,
-          email,
-          username,
-          avatar_url,
-          bankily_code: bankily,
-          progress: {}
-        }, { onConflict: "id", ignoreDuplicates: true });
-        if (profileError) {
-          const { error: fallbackError } = await tunisSupabase.from(TUNIS_AUTH.table).upsert({
-            id: data.user.id,
-            email,
-            username,
-            avatar_url,
-            progress: {}
-          }, { onConflict: "id", ignoreDuplicates: true });
-          if (fallbackError) {
-            return authMessage(`Compte Auth cree, mais profil bloque: ${fallbackError.message}.`, "warning");
-          }
+        const profile = await ensureTunisProfile(data.user, { username, bankily, avatar_url });
+        if (!profile) {
+          return authMessage("Compte Auth cree, mais la demande Tunis n'a pas pu etre enregistree.", "warning");
         }
+        if (profile.approved && !profile.rejected && !isSuspendedProfile(profile)) {
+          return finishTunisLogin(profile, params);
+        }
+        await tunisSupabase.auth.signOut();
       }
       signup.reset();
       authMessage("Compte cree. Il sera accessible apres approbation administrateur.", "success");

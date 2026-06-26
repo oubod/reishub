@@ -3,7 +3,7 @@
   window.__resihubPwaUpdaterActive = true;
 
   const script = document.currentScript;
-  const swUrl = script?.dataset.sw || "sw.js?v=resihub-20260626-2";
+  const swUrl = script?.dataset.sw || "sw.js?v=resihub-20260626-3";
   const promptText =
     script?.dataset.prompt ||
     "Nouvelle mise à jour RésiHub disponible. Appuyez sur OK pour l'installer.";
