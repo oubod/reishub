@@ -1,4 +1,4 @@
-const CACHE_VERSION = "resihub-pwa-v29";
+const CACHE_VERSION = "resihub-pwa-v30";
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const CACHE_PREFIXES = ["residanat-pwa-", `R${"\u00e9"}siHub-pwa-`, "resihub-pwa-"];
@@ -9,7 +9,7 @@ const APP_SHELL = [
   "./tunis.html",
   "./login-tunis.html",
   "./auth-tunis.js?v=8",
-  "./assets/js/pwa-update.js?v=resihub-20260626-3",
+  "./assets/js/pwa-update.js?v=resihub-20260626-4",
   "./manifest.webmanifest",
   "./logo.png",
   "./favicon.ico",
@@ -31,7 +31,6 @@ const APP_SHELL = [
   "./assets/icons/maskable-192.png",
   "./assets/icons/maskable-512.png",
   "./data/lectures.json",
-  "./data/quiz-bank.json",
   "./data/series-cycle-ecn-2025.json",
   "./exams/examens.json",
   "./clinical-cases/cas-cliniques.json",
@@ -65,26 +64,10 @@ const APP_SHELL = [
   "./residanat-mauritania/images/maskable-512.png"
 ];
 
-async function quizUrlsFromLectures() {
-  try {
-    const response = await fetch("./data/lectures.json", { cache: "no-store" });
-    if (!response.ok) return [];
-    const text = await response.text();
-    const data = JSON.parse(text.replace(/^\uFEFF/, ""));
-    return (data.lectures || [])
-      .map((lecture) => lecture.quiz)
-      .filter(Boolean)
-      .map((path) => `./${path}`);
-  } catch {
-    return [];
-  }
-}
-
 self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(APP_SHELL_CACHE);
-    const quizUrls = await quizUrlsFromLectures();
-    await cache.addAll([...APP_SHELL, ...quizUrls]);
+    await cache.addAll(APP_SHELL);
   })());
 });
 
@@ -132,6 +115,11 @@ async function networkFirst(request) {
   }
 }
 
+function isProtectedAsset(url) {
+  const path = url.pathname.toLowerCase();
+  return path.includes("/quizzes/") || path.endsWith(".pdf") || path.endsWith("/data/quiz-bank.json");
+}
+
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
@@ -152,8 +140,8 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname.toLowerCase().endsWith(".pdf")) {
-    event.respondWith(cacheFirst(request));
+  if (isProtectedAsset(url)) {
+    event.respondWith(fetch(request));
     return;
   }
 

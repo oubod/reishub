@@ -24,11 +24,17 @@
 /data/*
   Cache-Control: public, max-age=3600
 
+/data/quiz-bank.json
+  Cache-Control: no-store, private
+
 /quizzes/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: no-store, private
 
 /pdfs/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: no-store, private
 
 /exams/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: no-store, private
+
+/clinical-cases/*
+  Cache-Control: no-store, private

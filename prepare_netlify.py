@@ -29,7 +29,6 @@ DIRS_TO_COPY = [
 
 DATA_FILES = [
     "lectures.json",
-    "quiz-bank.json",
     "series-cycle-ecn-2025.json",
 ]
 
@@ -90,7 +89,7 @@ def main() -> None:
     readme.write_text(
         "Drag this folder to Netlify Drop.\n"
         "Included: portal shell, Tunis app, Mauritania app, PWA assets, PDFs, quizzes, exams, clinical cases.\n"
-        "Excluded: .env, Gemini logs/scripts, and the large ECN series folder.\n",
+        "Excluded: .env, Gemini logs/scripts, quiz-bank.json, and the large ECN series folder.\n",
         encoding="utf-8",
     )
 
