@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#08783b">
   <title>RésiHub Mauritanie</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260626-3">
+  <link rel="manifest" href="manifest.json?v=resihub-20260712-1">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260626-3" data-sw="./sw.js?v=resihub-20260626-3"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260712-1" data-sw="./sw.js?v=resihub-20260712-1"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -302,7 +302,8 @@
     .view.active { display: block; }
 
     body.clean-mode aside,
-    body.clean-mode main > header {
+    body.clean-mode main > header,
+    body.clean-mode .guest-banner {
       display: none;
     }
 
@@ -430,6 +431,35 @@
       text-align: center;
     }
 
+    .guest-banner {
+      align-items: center;
+      background: var(--primary-soft);
+      border: 1px solid rgba(0, 98, 51, .2);
+      border-radius: 18px;
+      display: flex;
+      gap: 14px;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      padding: 14px 16px;
+    }
+    .guest-banner[hidden] { display: none; }
+    .guest-banner strong { display: block; }
+    .guest-banner span { color: var(--muted); font-size: 13px; }
+    .guest-banner a,
+    .locked-summary {
+      align-items: center;
+      color: var(--primary);
+      display: flex;
+      font-weight: 750;
+      min-height: 46px;
+      text-decoration: none;
+    }
+    .guest-banner a { background: var(--primary); border-radius: 13px; color: #fff; flex: none; padding: 0 14px; }
+    .locked-summary { background: var(--primary-soft); justify-content: space-between; padding: 10px 16px; }
+    .mobile-pdf-callout { color: var(--muted); padding: 28px 18px; text-align: center; }
+    .mobile-bottom-nav { display: none; }
+    .btn:disabled { cursor: not-allowed; opacity: .5; }
+
     @media (max-width: 840px) {
       .mobile-shellbar {
         align-items: center;
@@ -495,10 +525,30 @@
       .account-toggle { display: inline-flex; }
       .sidebar-actions { display: grid; }
       nav { grid-template-columns: 1fr; padding-top: 18px; }
-      main { padding-top: 96px; }
-      body.clean-mode main { padding-top: 96px; }
+      main { padding: 96px 14px calc(98px + env(safe-area-inset-bottom)); }
+      body.clean-mode main { padding: 82px 14px calc(98px + env(safe-area-inset-bottom)); }
       header { display: grid; }
       .search { min-width: 100%; }
+      .guest-banner { align-items: flex-start; }
+      .guest-banner a { min-height: 48px; text-align: center; }
+      .panel-head { align-items: stretch; flex-direction: column; }
+      .panel-actions { display: grid; grid-template-columns: 1fr 1fr; }
+      .panel-actions .btn { min-height: 50px; padding: 8px 10px; text-align: center; }
+      iframe { display: none; }
+      .mobile-bottom-nav {
+        background: rgba(255,255,255,.96);
+        border-top: 1px solid var(--line);
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        left: 0;
+        padding: 7px 10px calc(7px + env(safe-area-inset-bottom));
+        position: fixed;
+        right: 0;
+        z-index: 70;
+      }
+      .mobile-bottom-nav .nav { border-radius: 14px; flex-direction: column; gap: 2px; justify-content: center; min-height: 54px; padding: 5px; text-align: center; }
+      .mobile-bottom-nav .nav .icon { font-size: 23px; }
     }
   </style>
 </head>
@@ -537,6 +587,10 @@
     </aside>
 
     <main>
+      <div id="guestBanner" class="guest-banner" hidden>
+        <div><strong>Aperçu gratuit</strong><span>Un cours par catégorie. Créez un compte pour tout débloquer.</span></div>
+        <a href="login.html?mode=signup">Créer un compte</a>
+      </div>
       <header>
         <div>
           <p class="kicker">Mauritanie</p>
@@ -561,6 +615,11 @@
       <section id="quizRunner" class="view reader-clean"></section>
     </main>
   </div>
+
+  <nav class="mobile-bottom-nav" aria-label="Navigation principale">
+    <button class="nav active" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
+    <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
+  </nav>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-client.js"></script>
@@ -638,7 +697,8 @@
       $(target).innerHTML = groups.length ? groups.map(([category, list]) => `
         <section class="group">
           <div class="group-head"><strong>${esc(category)}</strong><span class="count">${list.length} cours</span></div>
-          ${list.map(row).join("")}
+          ${(isGuestMode() ? list.filter(isAllowedForGuest) : list).map(row).join("")}
+          ${isGuestMode() && list.some((item) => !isAllowedForGuest(item)) ? `<a class="locked-summary" href="login.html?mode=signup"><span>${list.filter((item) => !isAllowedForGuest(item)).length} contenus verrouillés</span><span>Tout débloquer →</span></a>` : ""}
         </section>
       `).join("") : `<div class="empty">Aucun resultat.</div>`;
     }
@@ -673,6 +733,7 @@
       const item = findLecture(id);
       if (!item) return;
       if (!isAllowedForGuest(item)) return showGuestLocked();
+      const mobilePdf = window.matchMedia("(max-width: 767px)").matches;
       $("reader").innerHTML = `
         <div class="panel">
           <div class="panel-head">
@@ -680,15 +741,15 @@
               <button class="btn" type="button" onclick="go('lectures')">${icon("arrow_back")}Retour</button>
             </div>
             <div class="panel-actions">
-              <a class="btn" href="${esc(item.pdf)}" target="_blank" rel="noreferrer">${icon("open_in_new")}PDF</a>
-              <button class="btn primary" type="button" onclick="go('quiz'); startQuiz('${esc(item.id)}')">${icon("quiz")}Quiz</button>
+              <a class="btn primary" href="${esc(item.pdf)}" target="_blank" rel="noreferrer">${icon("open_in_new")}Ouvrir le PDF</a>
+              ${item.training ? `<button class="btn" type="button" onclick="startQuiz('${esc(item.id)}')">${icon("quiz")}Commencer le quiz</button>` : `<button class="btn" type="button" disabled>${icon("quiz")}Quiz indisponible</button>`}
             </div>
           </div>
           <div class="quiz-card">
             <p class="quiz-meta">${esc(item.category)}</p>
             <h2 style="margin:6px 0 14px">${esc(item.title)}</h2>
           </div>
-          <iframe src="${esc(item.pdf)}" title="${esc(item.title)}"></iframe>
+          ${mobilePdf ? `<div class="mobile-pdf-callout">Le PDF s'ouvre dans le lecteur de votre téléphone.<br><a class="btn primary" href="${esc(item.pdf)}" target="_blank" rel="noreferrer">${icon("open_in_new")}Ouvrir maintenant</a></div>` : `<iframe src="${esc(item.pdf)}" title="${esc(item.title)}"></iframe>`}
         </div>
       `;
       go("reader");
@@ -803,7 +864,7 @@
     function go(view) {
       state.view = view;
       document.querySelectorAll(".view").forEach((node) => node.classList.toggle("active", node.id === view));
-      document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active", node.dataset.view === view || (view === "quizRunner" && node.dataset.view === "quiz")));
+      document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active", node.dataset.view === view || (view === "quizRunner" && node.dataset.view === "quiz") || (view === "reader" && node.dataset.view === "lectures")));
       document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
       $("title").textContent = view === "quiz" ? "Quiz" : "Lectures";
       $("subtitle").textContent = view === "quiz" ? "Touchez un cours pour commencer le quiz directement." : "Cours de la partie Mauritanie avec lecture PDF.";
@@ -812,6 +873,7 @@
     }
 
     function render() {
+      $("guestBanner").hidden = !isGuestMode();
       renderGrouped("lectureList", state.lectures, lectureRow);
       renderGrouped("quizList", state.lectures.filter((item) => item.training), quizRow);
     }
