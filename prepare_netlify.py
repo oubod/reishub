@@ -17,6 +17,7 @@ ROOT_FILES = [
     "_redirects",
     "logo.png",
     "favicon.ico",
+    "resihub-explainer.mp4",
 ]
 
 DIRS_TO_COPY = [

@@ -14,12 +14,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="RésiHub">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="manifest" href="manifest.webmanifest?v=resihub-20260626-4">
+  <link rel="manifest" href="manifest.webmanifest?v=resihub-20260712-1">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png?v=resihub-20260626-4">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png?v=resihub-20260626-4">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png?v=resihub-20260626-4">
   <link rel="apple-touch-startup-image" href="assets/icons/apple-touch-icon.png?v=resihub-20260626-4" media="(orientation: portrait)">
-  <script defer src="assets/js/pwa-update.js?v=resihub-20260626-4" data-sw="sw.js?v=resihub-20260626-4"></script>
+  <script defer src="assets/js/pwa-update.js?v=resihub-20260712-1" data-sw="sw.js?v=resihub-20260712-1"></script>
   <script>
     try {
       if (localStorage.getItem("fmt_residanat_theme_v1") === "dark") {
@@ -970,7 +970,7 @@
       </div>
       <h2 class="font-headline-md text-headline-md text-on-surface mb-2">Préparation hors-ligne</h2>
       <p id="downloadStatus" class="font-body-md text-body-md text-on-surface-variant mb-6">Téléchargement des contenus essentiels...</p>
-      
+
       <div class="w-full max-w-sm">
         <div class="flex justify-between items-center mb-2">
           <span id="downloadPercent" class="font-label-sm text-label-sm text-primary font-medium">0%</span>
@@ -980,20 +980,20 @@
           <div id="downloadBar" class="h-full bg-primary rounded-full transition-all duration-300" style="width: 0%"></div>
         </div>
       </div>
-      
+
       <p class="font-label-sm text-label-sm text-on-surface-variant mt-4 max-w-sm">
         Cette étape garantit un fonctionnement optimal même avec une connexion faible.
       </p>
     </div>
   </div>
-  
+
   <div id="offlineIndicator" class="hidden fixed top-4 left-1/2 z-[100] -translate-x-1/2 bg-surface-container-lowest border border-outline-variant/30 px-4 py-2 rounded-full ios-shadow">
     <div class="flex items-center gap-2">
       <span class="material-symbols-outlined text-warning text-[20px]">wifi_off</span>
       <span class="font-label-sm text-label-sm text-on-surface-variant">Mode hors-ligne</span>
     </div>
   </div>
-  
+
   <div id="toast" class="fixed top-4 left-1/2 z-[90] -translate-x-1/2 -translate-y-4 opacity-0 pointer-events-none max-w-[calc(100vw-32px)] rounded-xl bg-inverse-surface px-4 py-3 text-inverse-on-surface text-label-md ios-shadow transition-all duration-200" role="status" aria-live="polite"></div>
   <svg class="absolute h-0 w-0 overflow-hidden" aria-hidden="true" focusable="false">
     <filter id="sketchy">
@@ -1141,6 +1141,10 @@
   </div>
 
   <main id="appMain" class="w-full max-w-[520px] mx-auto md:ml-[304px] md:w-[calc(100%-304px)] md:max-w-none md:px-8 lg:px-12 xl:px-14 pt-20 md:pt-8 pb-24 md:pb-10 flex flex-col gap-stack-lg overflow-y-auto overflow-x-hidden h-[100dvh] overscroll-y-contain">
+    <aside id="guestBanner" class="hidden mx-margin-mobile md:mx-0 max-w-[1040px] md:w-full md:self-center bg-primary/10 border border-primary/25 rounded-2xl px-4 py-3 flex items-center justify-between gap-3">
+      <div class="min-w-0"><strong class="block text-on-surface">Aperçu gratuit</strong><span class="block text-label-sm text-on-surface-variant">Un contenu par catégorie. Créez un compte pour tout débloquer.</span></div>
+      <a class="shrink-0 min-h-[44px] px-4 rounded-xl bg-primary text-on-primary font-label-md flex items-center justify-center" href="login-tunis.html?mode=signup">Créer un compte</a>
+    </aside>
     <section id="view-accueil" class="screen active px-margin-mobile md:px-0">
       <div class="max-w-[1040px] mx-auto flex flex-col gap-stack-lg">
         <section>
@@ -1501,24 +1505,26 @@
           <button class="status-chip shrink-0 px-4 py-2 rounded-full font-label-md text-label-md transition-all active:scale-95 duration-150" type="button" data-status="done">Maîtrisé</button>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-gutter">
-          <button class="bg-primary text-on-primary font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 ios-shadow hover:opacity-90 active:scale-95 transition-transform duration-200" type="button" onclick="readCurrentLecture()">
-            <span class="material-symbols-outlined fill-icon text-[24px]">book_4</span>
-            Lire dans l'app
-          </button>
-          <button class="bg-primary/10 text-primary font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 hover:bg-primary/20 active:scale-95 transition-transform duration-200" type="button" onclick="openCurrentLectureExternal()">
+        <div class="grid grid-cols-2 gap-gutter mt-stack-md">
+          <button class="min-h-[52px] bg-primary text-on-primary font-label-md text-label-md py-3 px-3 rounded-xl flex justify-center items-center gap-2 ios-shadow active:scale-95 transition-all" type="button" onclick="openCurrentLectureExternal()">
             <span class="material-symbols-outlined text-[24px]">open_in_new</span>
-            Externe
+            Ouvrir le PDF
           </button>
-          <button class="bg-primary/10 text-primary font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 hover:bg-primary/20 active:scale-95 transition-transform duration-200" type="button" onclick="openCurrentQuiz()">
+          <button class="min-h-[52px] bg-secondary text-on-secondary font-label-md text-label-md py-3 px-3 rounded-xl flex justify-center items-center gap-2 ios-shadow active:scale-95 transition-all" type="button" onclick="openCurrentQuiz()">
             <span class="material-symbols-outlined text-[24px]">quiz</span>
-            Quiz
+            Commencer le quiz
           </button>
-          <a id="sheetDownload" class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 hover:bg-surface-container-high active:scale-95 transition-transform duration-200" download>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-gutter mt-gutter">
+          <button class="hidden md:flex bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm py-3 px-3 rounded-xl justify-center items-center gap-2 hover:bg-surface-container-high" type="button" onclick="readCurrentLecture()">
+            <span class="material-symbols-outlined text-[22px]">book_4</span>
+            Lecteur intégré
+          </button>
+          <a id="sheetDownload" class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm py-3 px-3 rounded-xl flex justify-center items-center gap-2 hover:bg-surface-container-high" download>
             <span class="material-symbols-outlined text-[24px]">download</span>
-            PDF
+            Télécharger
           </a>
-          <a id="sheetSource" class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 hover:bg-surface-container-high active:scale-95 transition-transform duration-200" target="_blank" rel="noreferrer">
+          <a id="sheetSource" class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm py-3 px-3 rounded-xl flex justify-center items-center gap-2 hover:bg-surface-container-high" target="_blank" rel="noreferrer">
             <span class="material-symbols-outlined text-[24px]">open_in_new</span>
             Source
           </a>
@@ -1550,12 +1556,12 @@
         </div>
         <div class="grid grid-cols-2 gap-gutter mt-stack-lg">
           <button class="bg-primary text-on-primary font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 ios-shadow active:scale-95 transition-all" type="button" onclick="readPendingPdf()">
-            <span class="material-symbols-outlined fill-icon text-[24px]">menu_book</span>
-            Lire dans l'app
+            <span class="material-symbols-outlined fill-icon text-[24px]">picture_as_pdf</span>
+            Ouvrir le PDF
           </button>
           <button class="bg-primary/10 text-primary font-label-md text-label-md py-3 px-4 rounded-xl flex justify-center items-center gap-2 hover:bg-primary/20 active:scale-95 transition-all" type="button" onclick="openPendingPdfExternal()">
             <span class="material-symbols-outlined text-[24px]">open_in_new</span>
-            Ouvrir externe
+            Nouvel onglet
           </button>
         </div>
       </div>
@@ -1642,9 +1648,7 @@
 
     function getPdfViewerUrl(path) {
       const url = resolvePdfUrl(path);
-      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-      if (isMobile && url) {        return "https://docs.google.com/gview?embedded=1&url=" + encodeURIComponent(url);
-      }
+      if (window.matchMedia("(max-width: 767px)").matches) return "";
       return url;
     }
 
@@ -2302,7 +2306,8 @@
             <span class="shrink-0 bg-surface-container-lowest text-on-surface-variant px-2.5 py-1 rounded-full font-label-sm text-label-sm">${group.lectures.length} cours</span>
           </div>
           <div class="divide-y divide-outline-variant/20">
-            ${group.lectures.map(rowRenderer).join("")}
+            ${(isGuestMode() ? group.lectures.filter((lecture) => isLectureAllowedForGuest(lecture.id)) : group.lectures).map(rowRenderer).join("")}
+            ${isGuestMode() && group.lectures.some((lecture) => !isLectureAllowedForGuest(lecture.id)) ? `<a class="min-h-[48px] px-4 py-3 flex items-center justify-between gap-3 bg-primary/5 text-primary font-label-md" href="login-tunis.html?mode=signup"><span>${group.lectures.filter((lecture) => !isLectureAllowedForGuest(lecture.id)).length} contenus verrouillés</span><span>Tout débloquer →</span></a>` : ""}
           </div>
         </section>
       `).join("");
@@ -2390,7 +2395,7 @@
       state.currentLectureId = id;
       document.getElementById("sheetNumber").textContent = `Cours ${lecture.number} • ${lecturePart(lecture)} • ${lectureSpecialty(lecture)}`;
       document.getElementById("sheetTitle").textContent = lecture.title;
-      document.getElementById("sheetDownload").href = lecture.pdf;
+      document.getElementById("sheetDownload").href = resolvePdfUrl(lecture.pdf);
       document.getElementById("sheetSource").href = lecture.sourceUrl;
       document.getElementById("sheetNote").value = findLectureNote(id)?.content || "";
       updateSheetStatus();
@@ -2436,6 +2441,11 @@
       const lecture = currentLecture();
       if (!lecture) return;
       setLectureStatus(lecture.id, "reading");
+      if (window.matchMedia("(max-width: 767px)").matches) {
+        openExternalPdf(lecture.pdf);
+        closeLectureSheet();
+        return;
+      }
       state.readerBackView = "cours";
       state.currentSeriesDocument = null;
       state.currentPdfDocument = {
@@ -2482,6 +2492,10 @@
 
     function openDocumentInReader(documentItem, backView = "examens", meta = "PDF") {
       if (!documentItem) return;
+      if (window.matchMedia("(max-width: 767px)").matches) {
+        openExternalPdf(documentItem.file);
+        return;
+      }
       state.readerBackView = backView;
       state.currentLectureId = null;
       state.currentSeriesDocument = null;
@@ -3214,7 +3228,7 @@
         state.attempts = state.attempts.slice(-30);
         saveLocalState();
       }
-      
+
       const answerGrid = `
         <div class="mb-stack-md bg-surface-container-lowest rounded-xl border border-outline-variant/20 p-3 ios-shadow">
           <div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-2">Grille de réponses</div>
@@ -3237,7 +3251,7 @@
           </div>
         </div>
       `;
-      
+
       document.getElementById(session.containerId).innerHTML = `
         <div class="bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-stack-lg md:p-10 ios-shadow flex flex-col items-center text-center">
           <div class="w-20 h-20 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center mb-stack-md">${materialIcon(timedOut ? "timer_off" : "verified", true, "text-[44px]")}</div>
@@ -3908,6 +3922,7 @@
     }
 
     function renderAll() {
+      document.getElementById("guestBanner").classList.toggle("hidden", !isGuestMode());
       renderDashboard();
       renderCourses();
       if (!state.session) renderQuizList();
@@ -4102,7 +4117,7 @@
             downloadStatus.textContent = `Téléchargement de ${file.split('/').pop()}...`;
             await fetch(file, { cache: "force-cache" });
             completed++;
-            
+
             const percent = Math.round((completed / total) * 100);
             downloadBar.style.width = `${percent}%`;
             downloadPercent.textContent = `${percent}%`;
@@ -4115,7 +4130,7 @@
 
         // Mark download as completed
         localStorage.setItem("fmt_offline_ready_v1", "true");
-        
+
         // Show completion message
         downloadStatus.textContent = "Téléchargement terminé !";
         setTimeout(() => {

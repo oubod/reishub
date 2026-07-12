@@ -225,6 +225,7 @@ function setupMauritaniaLogin() {
 
     signinTab.addEventListener('click', () => setMode('signin'));
     signupTab.addEventListener('click', () => setMode('signup'));
+    if (params.get('mode') === 'signup') setMode('signup');
     if (guestButton) {
         guestButton.addEventListener('click', () => {
             localStorage.setItem('portalGuest', 'mauritania');
