@@ -9,7 +9,6 @@ function authUser() {
   }
   return window.portalAuthUser;
 }
-
 async function waitForAuth() {
   try { await window.portalAuthReady; } catch (_) {}
   return authUser();
@@ -161,7 +160,7 @@ async function openAiView() {
 async function renderAiView(user) {
   const sets = (await dbAction("getAll")).filter((set) => set.ownerId === user.id).sort((a, b) => b.createdAt - a.createdAt);
   const savedKey = localStorage.getItem(geminiKeyName(user.id)) || "";
-  $("ai").innerHTML = `<div class="tool-grid"><section class="tool-card"><p class="kicker">Gemini 2.5 Flash</p><h2>Créer 30 QCM depuis un PDF</h2><p>10 faciles, 12 intermédiaires et 8 difficiles, avec correction.</p><label class="field"><span>Clé API Gemini</span><input id="geminiKey" type="password" value="${esc(savedKey)}" autocomplete="off" placeholder="AIza…"></label><label class="field"><span>Document PDF (20 Mo maximum)</span><input id="geminiPdf" type="file" accept="application/pdf,.pdf"></label><label class="check"><input id="geminiConsent" type="checkbox"> <span>J’accepte l’envoi de ce PDF à Google. L’utilisation peut être facturée et le contenu médical doit être vérifié.</span></label><div id="aiStatus" aria-live="polite"></div><button id="generateAiButton" class="btn primary wide" type="button" onclick="generateAiQuiz()">${icon("auto_awesome")}Générer 30 QCM</button><p class="security-note">La clé reste sur cet appareil, mais une clé persistante dans le navigateur est moins sûre qu’un secret géré par serveur.</p></section><section><div class="dashboard-heading"><div><h2>Mes séries locales</h2><p>${sets.length} série${sets.length === 1 ? "" : "s"} sur cet appareil.</p></div></div><div class="saved-list">${sets.length ? sets.map(aiSetCard).join("") : `<div class="empty-card">Aucune série générée.</div>`}</div></section></div>`;
+  $("ai").innerHTML = `<div class="ai-page"><section class="ai-hero"><span class="ai-hero-icon">${icon("auto_awesome")}</span><div><p class="kicker">Assistant de révision</p><h2>Transformez un PDF en QCM</h2><p>Gemini 2.5 Flash crée une série médicale prête à réviser.</p><div class="ai-pills"><span class="ai-pill">30 QCM</span><span class="ai-pill">Multi-réponses</span><span class="ai-pill">Correction incluse</span></div></div></section><div class="ai-layout"><section class="tool-card ai-generator"><span class="ai-step-label">Étape 1 - Préparer</span><h2>Créer une nouvelle série</h2><p>Votre document est utilisé uniquement pour cette génération et n’est pas enregistré.</p><label class="field"><span>Clé API Gemini</span><input id="geminiKey" type="password" value="${esc(savedKey)}" autocomplete="off" placeholder="Collez votre clé API"></label><label class="field"><span>Document PDF - 20 Mo maximum</span><input id="geminiPdf" type="file" accept="application/pdf,.pdf"></label><label class="check"><input id="geminiConsent" type="checkbox"> <span>J’accepte l’envoi de ce PDF à Google. L’utilisation peut être facturée et le contenu médical doit être vérifié.</span></label><div id="aiStatus" aria-live="polite"></div><button id="generateAiButton" class="btn primary wide" type="button" onclick="generateAiQuiz()">${icon("auto_awesome")}Générer 30 QCM</button><details class="ai-help" open><summary>Comment obtenir ma clé API Gemini ?</summary><ol><li>Ouvrez <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">Google AI Studio</a>.</li><li>Connectez-vous avec votre compte Google.</li><li>Cliquez sur <strong>Créer une clé API</strong>.</li><li>Copiez la clé et collez-la ici. Ne la partagez jamais.</li></ol></details><p class="security-note">La clé reste sur cet appareil, mais une clé dans le navigateur est moins sûre qu’un secret géré par serveur.</p></section><section class="ai-saved"><div class="ai-saved-header"><div><span class="ai-step-label">Étape 2 - Réviser</span><h2>Mes séries locales</h2><p>${sets.length} série${sets.length === 1 ? "" : "s"} enregistrée${sets.length === 1 ? "" : "s"} sur cet appareil.</p></div></div><div class="saved-list">${sets.length ? sets.map(aiSetCard).join("") : `<div class="empty-card">Aucune série générée pour le moment.</div>`}</div></section></div></div>`;
 }
 function aiSetCard(set) {
   const id = esc(encodeURIComponent(set.id));
@@ -222,18 +221,30 @@ async function startAiSet(id) {
 }
 async function renameAiSet(id) { const set = await getAiSet(id); if (!set) return; const title = prompt("Nouveau nom", set.title)?.trim(); if (!title) return; set.title = title.slice(0, 100); await dbAction("put", set); openAiView(); }
 async function deleteAiSet(id) { if (!confirm("Supprimer cette série locale ?")) return; const set = await getAiSet(id); if (!set) return; await dbAction("delete", id); openAiView(); }
+function imageAsDataUrl(url) {
+  return fetch(url).then((response) => response.ok ? response.blob() : Promise.reject(new Error("Logo indisponible"))).then((blob) => new Promise((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(reader.result); reader.onerror = reject; reader.readAsDataURL(blob); }));
+}
 async function exportAiSet(id) {
   const set = await getAiSet(id); if (!set) return;
   const { jsPDF } = window.jspdf || {}; if (!jsPDF) return alert("Le module PDF est indisponible hors ligne.");
-  const doc = new jsPDF({ unit: "mm", format: "a4" }); const margin = 16; const width = 178; let y = 18;
-  const line = (text, size = 10, bold = false, gap = 5) => { doc.setFont("helvetica", bold ? "bold" : "normal"); doc.setFontSize(size); const rows = doc.splitTextToSize(String(text), width); const h = rows.length * size * 0.42 + gap; if (y + h > 282) { doc.addPage(); y = 18; } doc.text(rows, margin, y); y += h; };
-  doc.setTextColor(16, 36, 62); line(set.title, 19, true, 8); line("30 QCM générés avec Gemini 2.5 Flash — contenu médical à vérifier.", 9, false, 9);
-  set.questions.forEach((q, index) => {
-    const blockHeight = doc.splitTextToSize(`${index + 1}. ${q.question}`, width).length * 4.7 + q.options.reduce((sum, opt) => sum + doc.splitTextToSize(`${opt.id}. ${opt.text}`, width).length * 3.9 + 2, 8);
-    if (y + blockHeight > 282) { doc.addPage(); y = 18; }
-    line(`${index + 1}. ${q.question}`, 11, true, 4); q.options.forEach((opt) => line(`${opt.id}. ${opt.text}`, 9, false, 2)); y += 4;
-  });
-  doc.addPage(); y = 18; line("Correction", 19, true, 9);
-  set.questions.forEach((q, index) => { const answer = `${index + 1}. ${q.options.filter((o) => o.correct).map((o) => o.id).join(", ")}`; const blockHeight = doc.splitTextToSize(answer, width).length * 4.7 + doc.splitTextToSize(q.explanation, width).length * 3.9 + 8; if (y + blockHeight > 282) { doc.addPage(); y = 18; } line(answer, 11, true, 3); line(q.explanation, 9, false, 5); });
+  const doc = new jsPDF({ unit: "mm", format: "a4" });
+  const width = 178; const navy = [6, 29, 69]; const green = [36, 107, 79]; const red = [215, 25, 32]; const ivory = [247, 244, 236]; const ink = [16, 36, 62]; let y = 0;
+  let logo = null; try { logo = await imageAsDataUrl("images/icon-192.png"); } catch (_) {}
+  const footer = () => { doc.setDrawColor(220, 226, 222); doc.line(16, 287, 194, 287); doc.setFont("helvetica", "normal"); doc.setFontSize(8); doc.setTextColor(83, 97, 116); doc.text("RésiHub - Résidanat Mauritanie", 16, 293); doc.text(String(doc.getNumberOfPages()), 194, 293, { align: "right" }); };
+  const header = (title, subtitle, accent = green) => { doc.setFillColor(...navy); doc.rect(0, 0, 210, 38, "F"); doc.setFillColor(...accent); doc.rect(0, 35, 210, 3, "F"); if (logo) doc.addImage(logo, "PNG", 16, 8, 20, 20); doc.setFont("helvetica", "bold"); doc.setFontSize(17); doc.setTextColor(255, 255, 255); doc.text("RésiHub", logo ? 41 : 16, 17); doc.setFont("helvetica", "normal"); doc.setFontSize(8); doc.text("RÉSIDANAT MAURITANIE", logo ? 41 : 16, 25); doc.setTextColor(...ink); y = 51; doc.setFont("helvetica", "bold"); doc.setFontSize(18); doc.text(title, 16, y); y += 7; doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(83, 97, 116); doc.text(subtitle, 16, y); y += 12; };
+  const nextPage = (title, subtitle, accent) => { footer(); doc.addPage(); doc.setFillColor(...ivory); doc.rect(0, 0, 210, 297, "F"); header(title, subtitle, accent); };
+  const questionBlock = (q, index, correction = false) => {
+    doc.setFont("helvetica", "bold"); doc.setFontSize(10); const titleRows = doc.splitTextToSize(`${index + 1}. ${q.question}`, 164); const optionRows = correction ? [] : q.options.map((opt) => doc.splitTextToSize(`${opt.id}. ${opt.text}`, 164)); const answer = q.options.filter((opt) => opt.correct).map((opt) => opt.id).join(", "); const answerRows = correction ? doc.splitTextToSize(`Réponses exactes : ${answer}`, 164) : []; const explanationRows = correction ? doc.splitTextToSize(q.explanation, 164) : []; const height = 10 + titleRows.length * 5 + optionRows.reduce((sum, rows) => sum + rows.length * 4 + 1, 0) + answerRows.length * 4 + explanationRows.length * 4 + (correction ? 10 : 4);
+    if (y + height > 276) nextPage(correction ? "Correction" : set.title, correction ? "Réponses exactes et explications" : "Questions - une seule réponse peut être choisie par ligne", correction ? red : green);
+    doc.setFillColor(255, 255, 255); doc.roundedRect(14, y - 5, 182, height, 4, 4, "F"); doc.setFillColor(...(correction ? red : green)); doc.roundedRect(14, y - 5, 4, height, 2, 2, "F");
+    doc.setTextColor(...ink); doc.setFont("helvetica", "bold"); doc.setFontSize(10); doc.text(titleRows, 25, y); y += titleRows.length * 5 + 3;
+    if (correction) { doc.setTextColor(...red); doc.setFontSize(10); doc.text(answerRows, 25, y); y += answerRows.length * 4 + 3; doc.setTextColor(83, 97, 116); doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.text(explanationRows, 25, y); y += explanationRows.length * 4 + 7; }
+    else { doc.setTextColor(83, 97, 116); doc.setFont("helvetica", "normal"); doc.setFontSize(9); optionRows.forEach((rows) => { doc.text(rows, 25, y); y += rows.length * 4 + 1; }); y += 7; }
+  };
+  doc.setFillColor(...ivory); doc.rect(0, 0, 210, 297, "F"); header(set.title, "30 QCM générés avec Gemini 2.5 Flash - contenu médical à vérifier.");
+  set.questions.forEach((q, index) => questionBlock(q, index));
+  nextPage("Correction", "Réponses exactes et explications", red);
+  set.questions.forEach((q, index) => questionBlock(q, index, true));
+  footer();
   doc.save(`${set.title.replace(/[^a-z0-9à-ÿ_-]+/gi, "-").replace(/^-|-$/g, "") || "quiz-ia"}-corrige.pdf`);
 }

@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-4" data-sw="./sw.js?v=resihub-20260829-4"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-5" data-sw="./sw.js?v=resihub-20260829-5"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -301,7 +301,6 @@
     .view { display: none; }
     .view.active { display: block; }
 
-    body.clean-mode aside,
     body.clean-mode main > header {
       display: none;
     }
@@ -613,6 +612,25 @@
     .review p { color: var(--muted); line-height: 1.5; }
     .ok { color: var(--ok); } .bad { color: var(--bad); }
     .tool-grid { display: grid; grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr); gap: 18px; }
+    .ai-page { display: grid; gap: 18px; }
+    .ai-hero { display: flex; align-items: center; gap: 16px; padding: 22px; border-radius: 18px; color: #fff; background: linear-gradient(135deg, #061d45, #246b4f); box-shadow: 0 10px 24px rgba(6, 29, 69, .16); }
+    .ai-hero .kicker, .ai-hero p { color: rgba(255, 255, 255, .78); }
+    .ai-hero h2 { margin: 0; font-size: clamp(22px, 4vw, 30px); }
+    .ai-hero-icon { display: grid; place-items: center; flex: 0 0 auto; width: 56px; height: 56px; border-radius: 17px; background: rgba(255, 255, 255, .14); }
+    .ai-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+    .ai-pill { padding: 5px 9px; border-radius: 999px; background: rgba(255, 255, 255, .13); color: #fff; font-size: 11px; font-weight: 700; }
+    .ai-layout { display: grid; grid-template-columns: minmax(300px, .9fr) minmax(0, 1.1fr); gap: 18px; align-items: start; }
+    .ai-generator { display: grid; gap: 12px; }
+    .ai-step-label { color: var(--primary); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .ai-generator > h2 { margin: 0; font-size: 20px; }
+    .ai-help { margin-top: 4px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .ai-help summary { cursor: pointer; color: var(--ink); font-size: 13px; font-weight: 800; }
+    .ai-help ol { margin: 10px 0 0; padding-left: 20px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+    .ai-help a { color: var(--primary); font-weight: 800; }
+    .ai-saved { min-width: 0; }
+    .ai-saved-header { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin: 2px 0 12px; }
+    .ai-saved-header h2 { margin: 0; font-size: 20px; }
+    .ai-saved-header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
     .tool-card { padding: 20px; align-self: start; }
     .field { display: grid; gap: 7px; margin-top: 16px; color: var(--ink); font-size: 13px; font-weight: 700; }
     .field input { min-height: 48px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); }
@@ -702,7 +720,11 @@
       .category-card { min-height: 0; }
       .continue-card { grid-template-columns: auto minmax(0, 1fr); }
       .continue-card .btn { grid-column: 1 / -1; }
-      .tool-grid { grid-template-columns: 1fr; }
+      .tool-grid, .ai-layout { grid-template-columns: 1fr; }
+    }
+
+    @media (min-width: 841px) {
+      body.clean-mode aside { display: none; }
     }
 
     @media (max-width: 480px) {
@@ -710,12 +732,14 @@
       .stat-card { padding: 14px; }
       .stat-icon { width: 40px; height: 40px; }
       .stat-card strong { font-size: 22px; }
-      .dashboard-heading { align-items: start; }
+    .dashboard-heading { align-items: start; }
       .feature-grid, .breakdown { grid-template-columns: 1fr; }
       .saved-card { align-items: stretch; flex-direction: column; }
       .saved-actions { flex-wrap: wrap; }
       .exam-toolbar .btn { padding: 0 10px; }
       .exam-nav { flex-wrap: wrap; }
+      .ai-hero { align-items: start; padding: 18px; }
+      .ai-hero-icon { width: 46px; height: 46px; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -756,7 +780,7 @@
         <button class="nav active" type="button" data-view="home"><span class="icon">home</span>Accueil</button>
         <button class="nav" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
         <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
-      <button class="nav" type="button" data-view="exam"><span class="icon">assignment</span>Examen (par Dr Sena)</button>
+      <button class="nav" type="button" data-view="exam"><span class="icon">assignment</span>Examen</button>
         <button class="nav" type="button" data-view="ai"><span class="icon">auto_awesome</span>Quiz IA</button>
       </nav>
       <div class="sidebar-actions">
@@ -791,7 +815,7 @@
           <div>
             <div class="dashboard-heading"><div><h2>S’entraîner</h2><p>Simulez l’épreuve complète en 90 minutes.</p></div></div>
             <div class="feature-grid">
-              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM</h3><p>20 fondamentaux · 20 médicaux · 20 chirurgicaux</p></span></button>
+              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM (par Dr Sena)</h3><p>20 fondamentaux · 20 médicaux · 20 chirurgicaux</p></span></button>
             </div>
           </div>
           <div>
@@ -823,8 +847,8 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260829-4"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260829-4"></script>
+  <script src="js/study-tools.js?v=resihub-20260829-5"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260829-5"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;
