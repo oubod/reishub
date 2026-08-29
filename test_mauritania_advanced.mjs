@@ -60,7 +60,7 @@ assert.match(sourcePage, /data-view="exam"><span class="icon">assignment<\/span>
 assert.equal((sourcePage.match(/Examen \(par Dr Sena\)/g) || []).length, 0);
 assert.doesNotMatch(sourcePage, /id="stats"|id="continueCard"|Continuer ma lecture/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v32/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v33/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseSchema: ResiStudyTools\.geminiSchema/);
 assert.doesNotMatch(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseJsonSchema/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /Comment obtenir ma clé API Gemini/);
@@ -69,5 +69,12 @@ assert.equal(
   normalizeLines(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8")),
   normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/js/advanced-tools.js", "utf8"))
 );
+const sourceApp = fs.readFileSync("./residanat-mauritania/js/app.js", "latin1");
+const deployApp = fs.readFileSync("./netlify-deploy/residanat-mauritania/js/app.js", "latin1");
+assert.equal(sourceApp, deployApp);
+assert.match(sourceApp, /practiceQuestionTimes/);
+assert.match(sourceApp, /Med khouna/);
+assert.match(sourceApp, /retry-incorrect-btn/);
+assert.match(sourceApp, /formatPracticeDuration/);
 
 console.log("Mauritania advanced feature checks passed.");

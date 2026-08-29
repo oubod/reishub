@@ -7,6 +7,11 @@ let currentLecture = null;
 const mauritaniaLoginUrl = () => new URL('login.html', window.location.href).href;
 let currentTrainingData = [];
 let sessionTimerInterval = null;
+let practiceTimerInterval = null;
+let practiceQuestionStartedAt = {};
+let practiceQuestionTimes = {};
+let practiceResults = {};
+let practiceQuestionIndexes = [];
 let reviewData = { incorrectQuizzes: [], submittedQrocs: [] };
 let deferredPrompt = null;
 let completedQuizzes = new Set(); // Track completed quizzes in current session
@@ -484,13 +489,17 @@ function handleSessionViewEvents(e) {
         const form = target.closest('form');
         const selected = Array.from(form.querySelectorAll('input[name^="answer"]:checked')).map(input => input.value);
         const feedback = form.querySelector('.feedback');
-        const quizIndex = Array.from(document.querySelectorAll('.question-card')).indexOf(form);
+        const quizIndex = Number(form.dataset.questionIndex);
         const quizItem = currentTrainingData[quizIndex];
         const correctAnswers = getCorrectAnswers(quizItem);
 
         
         if (selected.length > 0) {
             const isCorrect = sameAnswerSet(selected, correctAnswers);
+            const startedAt = practiceQuestionStartedAt[quizIndex] || Date.now();
+            practiceQuestionTimes[quizIndex] = Math.max(0, Math.round((Date.now() - startedAt) / 1000));
+            delete practiceQuestionStartedAt[quizIndex];
+            practiceResults[quizIndex] = { correct: isCorrect, userAnswer: selected, elapsed: practiceQuestionTimes[quizIndex] };
             feedback.textContent = isCorrect ? 'Correct !' : `Incorrect. La réponse correcte était : ${formatAnswerList(correctAnswers)}`;
             feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
             
@@ -499,9 +508,11 @@ function handleSessionViewEvents(e) {
             
             // Mark quiz as completed (regardless of correctness)
             completedQuizzes.add(quizIndex);
+            form.querySelectorAll('input, .practice-validate-btn').forEach(input => { input.disabled = true; });
             
             // Check if all quizzes are completed
-            checkAllQuizzesCompleted();
+            const completedSession = checkAllQuizzesCompleted();
+            if (completedSession) renderPracticeResults();
         } else {
             feedback.textContent = "Veuillez choisir une réponse.";
             feedback.className = 'feedback incorrect';
@@ -518,6 +529,8 @@ function handleSessionViewEvents(e) {
     } else if (target.matches('label')) {
         // Style selected quiz choices
         const parentOptions = target.closest('.quiz-options');
+        const form = target.closest('form[data-question-index]');
+        if (form) startPracticeQuestionTimer(Number(form.dataset.questionIndex));
         if (parentOptions) {
             parentOptions.querySelectorAll('label').forEach(label => {
                 const input = label.querySelector('input');
@@ -525,6 +538,14 @@ function handleSessionViewEvents(e) {
             });
         }
     } else if (target.id === 'finish-exam-btn') endExamSession();
+    else if (target.id === 'retry-incorrect-btn') {
+        e.preventDefault();
+        startPracticeRetry();
+    }
+    else if (target.id === 'practice-new-session-btn') {
+        e.preventDefault();
+        if (currentLecture) startSession('practice');
+    }
     else if (target.id === 'review-answers-btn') renderReviewView();
     else if (target.id === 'print-real-exam-btn') {
         e.preventDefault();
@@ -657,6 +678,8 @@ const initMobileTouchEvents = () => {
 async function startSession(mode, durationInMinutes = null) {
     resetRealExamState();
     showLoader();
+    clearInterval(practiceTimerInterval);
+    practiceTimerInterval = null;
     
     // Reset completed quizzes tracking for new session
     completedQuizzes.clear();
@@ -682,6 +705,10 @@ async function startSession(mode, durationInMinutes = null) {
         console.log(`Successfully loaded ${currentTrainingData.length} training items`);
         
         if (mode === 'practice') {
+            practiceQuestionIndexes = currentTrainingData.map((_, index) => index);
+            practiceQuestionStartedAt = {};
+            practiceQuestionTimes = {};
+            practiceResults = {};
             renderPracticeView(currentTrainingData);
         } else if (mode === 'exam') {
             renderExamView(currentTrainingData, durationInMinutes);
@@ -803,15 +830,18 @@ function calculateAndShowScore(userAnswers) {
 const checkAllQuizzesCompleted = () => {
     if (!currentTrainingData || !currentLecture) return;
     
-    const totalQuizzes = currentTrainingData.filter(isQuizItem).length;
+    const quizIndexes = practiceQuestionIndexes.filter(index => isQuizItem(currentTrainingData[index]));
+    const totalQuizzes = quizIndexes.length;
     
     console.log(`Quiz completion check: ${completedQuizzes.size}/${totalQuizzes} quizzes completed`);
     
-    if (completedQuizzes.size >= totalQuizzes && totalQuizzes > 0) {
+    if (quizIndexes.every(index => completedQuizzes.has(index)) && totalQuizzes > 0) {
         // All quizzes completed, save progress
         console.log('All quizzes completed! Saving progress...');
         saveProgress();
+        return true;
     }
+    return false;
 };
 
 // Function to check if all quizzes are completed in exam mode
@@ -918,23 +948,47 @@ function renderEmptyState(message) {
         </div>`;
 }
 
-function renderPracticeView(trainingData) {
-    let html = `<div class="session-header"><h2 id="session-title">${currentLecture.title} (Entraînement)</h2></div>`;
-    trainingData.forEach((item, index) => {
+const formatPracticeDuration = (seconds = 0) => `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
+
+function startPracticeQuestionTimer(index) {
+    if (practiceQuestionStartedAt[index] || practiceQuestionTimes[index] !== undefined) return;
+    practiceQuestionStartedAt[index] = Date.now();
+    if (!practiceTimerInterval) practiceTimerInterval = setInterval(updatePracticeTimers, 1000);
+    updatePracticeTimers();
+}
+
+function updatePracticeTimers() {
+    const now = Date.now();
+    document.querySelectorAll('[data-question-timer]').forEach(timer => {
+        const index = Number(timer.dataset.questionTimer);
+        if (practiceQuestionStartedAt[index]) timer.textContent = formatPracticeDuration(Math.round((now - practiceQuestionStartedAt[index]) / 1000));
+    });
+}
+
+function renderPracticeView(trainingData, questionIndexes = trainingData.map((_, index) => index)) {
+    practiceQuestionIndexes = questionIndexes;
+    const quizIndexes = questionIndexes.filter(index => isQuizItem(currentTrainingData[index] || trainingData[index]));
+    const quizPosition = new Map(quizIndexes.map((index, position) => [index, position + 1]));
+    let html = `<div class="session-header"><div><h2 id="session-title">${currentLecture.title} (Entraînement)</h2><p class="practice-progress">${quizIndexes.length} QCM à compléter</p></div><span class="practice-timer-note">Un chronomètre par QCM</span></div>`;
+    questionIndexes.forEach(index => {
+        const item = currentTrainingData[index] || trainingData[index];
         const bookmarkId = `${currentLecture.id}_${index}`;
         const isBookmarked = bookmarks[currentLecture.id]?.some(b => b.quizIndex === index) || false;
         const questionText = getQuestionText(item);
         const answerText = isQuizItem(item) ? formatAnswerList(getCorrectAnswers(item)) : item.a;
+        const result = practiceResults[index];
+        const elapsed = practiceQuestionTimes[index] || 0;
         html += `<form class="question-card" data-question-index="${index}">`;
-        html += `<button type="button" class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-bookmark-id="${bookmarkId}" data-question="${escapeHTML(questionText)}" data-answer="${escapeHTML(answerText)}">
+        html += `<button type="button" class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" data-bookmark-id="${bookmarkId}" data-question="${escapeHTML(questionText)}" data-answer="${escapeHTML(answerText || '')}">
                      <i class="fas fa-bookmark"></i>
                  </button>`;
         if (isQuizItem(item)) {
-            html += `<h3><i class="fas fa-question-circle"></i> Question ${index + 1} (QCM)</h3>
+            const disabled = result ? ' disabled' : '';
+            html += `<h3><i class="fas fa-question-circle"></i><span>Question ${quizPosition.get(index)} (QCM)</span><span class="quiz-time"><span>Temps</span> <strong class="quiz-timer" data-question-timer="${index}">${formatPracticeDuration(elapsed)}</strong> <small>(Med khouna)</small></span></h3>
                      <p class="question">${escapeHTML(questionText)}</p>
                      <div class="quiz-options">${renderQuizInputs(item, index, `answer-${index}`)}</div>
-                     <button type="submit" class="btn btn-primary practice-validate-btn" style="margin-top: 15px;"><i class="fas fa-check"></i> Valider</button>
-                     <div class="feedback"></div>`;
+                     <button type="submit" class="btn btn-primary practice-validate-btn" style="margin-top: 15px;"${disabled}><i class="fas fa-check"></i> ${result ? 'Réponse enregistrée' : 'Valider'}</button>
+                     <div class="feedback ${result ? (result.correct ? 'correct' : 'incorrect') : ''}"${result ? ' style="display:block;"' : ''}>${result ? (result.correct ? 'Correct !' : `Incorrect. La réponse correcte était : ${formatAnswerList(getCorrectAnswers(item))}`) : ''}</div>`;
         } else {
             html += `<h3><i class="fas fa-edit"></i> Question ${index + 1} (QROC/QRL)</h3>
                      <p class="question">${escapeHTML(questionText)}</p>
@@ -943,12 +997,41 @@ function renderPracticeView(trainingData) {
         }
         html += `</form>`;
     });
-    
-    // Add bookmarks panel
     html += renderBookmarksPanel();
-    
     html += `<button id="back-to-dash-btn" class="btn btn-secondary" style="width:100%;"><i class="fas fa-arrow-left"></i> Retour</button>`;
     document.getElementById('session-view').innerHTML = html;
+    quizIndexes.filter(index => practiceResults[index]).forEach(index => {
+        document.querySelectorAll(`form[data-question-index="${index}"] input`).forEach(input => { input.disabled = true; });
+    });
+}
+
+function renderPracticeResults() {
+    clearInterval(practiceTimerInterval);
+    practiceTimerInterval = null;
+    const quizIndexes = practiceQuestionIndexes.filter(index => isQuizItem(currentTrainingData[index]));
+    const incorrect = quizIndexes.filter(index => !practiceResults[index]?.correct);
+    const score = quizIndexes.length - incorrect.length;
+    const totalSeconds = quizIndexes.reduce((sum, index) => sum + (practiceQuestionTimes[index] || 0), 0);
+    let html = `<div class="score-card practice-results"><p class="practice-results-kicker">${incorrect.length ? 'Session terminée' : 'Excellent travail'}</p><h2>${currentLecture.title}</h2><div class="score-display">${score} / ${quizIndexes.length}</div><p>${Math.round(score / quizIndexes.length * 100)} % de bonnes réponses · Temps total ${formatPracticeDuration(totalSeconds)}</p><div class="practice-result-actions">${incorrect.length ? `<button id="retry-incorrect-btn" class="btn btn-primary"><i class="fas fa-rotate-right"></i> Refaire les ${incorrect.length} QCM faux</button>` : ''}<button id="practice-new-session-btn" class="btn btn-secondary"><i class="fas fa-redo"></i> Recommencer</button><button id="back-to-dash-btn" class="btn btn-secondary">Retour</button></div></div>`;
+    if (incorrect.length) {
+        html += `<div class="practice-mistakes"><h3>Vos erreurs à revoir</h3>`;
+        incorrect.forEach(index => {
+            const item = currentTrainingData[index];
+            const result = practiceResults[index];
+            html += `<article class="practice-mistake"><p class="question">${escapeHTML(getQuestionText(item))}</p><p><strong>Votre réponse :</strong> ${escapeHTML(formatAnswerList(result.userAnswer))}</p><p><strong>Réponse correcte :</strong> ${escapeHTML(formatAnswerList(getCorrectAnswers(item)))}</p><small>Temps : ${formatPracticeDuration(result.elapsed)} (Med khouna)</small></article>`;
+        });
+        html += `</div>`;
+    }
+    document.getElementById('session-view').innerHTML = html;
+}
+
+function startPracticeRetry() {
+    const incorrect = practiceQuestionIndexes.filter(index => !practiceResults[index]?.correct);
+    if (!incorrect.length) return;
+    completedQuizzes.clear();
+    incorrect.forEach(index => { delete practiceResults[index]; delete practiceQuestionTimes[index]; delete practiceQuestionStartedAt[index]; });
+    renderPracticeView(currentTrainingData, incorrect);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function renderExamView(trainingData, duration) {

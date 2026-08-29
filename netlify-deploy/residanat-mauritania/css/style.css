@@ -879,6 +879,11 @@ a {
 #session-view { padding-top: 72px; max-width: 800px; margin: 0 auto; }
 .session-header { position: fixed; top: var(--header-height); left: var(--sidebar-width); right: 0; background: rgba(242, 242, 247, 0.8); backdrop-filter: blur(12px); padding: 12px 32px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border-color); z-index: 400; height: 72px; transition: left var(--transition-smooth) ease; }
 #session-title { font-size: 1.2rem; font-weight: 600; }
+.practice-progress, .practice-timer-note { color: var(--text-secondary); font-size: .82rem; margin: 3px 0 0; }
+.practice-timer-note { white-space: nowrap; }
+.quiz-time { align-items: baseline; color: var(--text-secondary); display: inline-flex; font-size: .78rem; font-weight: 500; gap: 4px; margin-left: auto; white-space: nowrap; }
+.quiz-timer { color: var(--primary-color); font-variant-numeric: tabular-nums; }
+.quiz-time small { color: var(--text-secondary); font-size: .68rem; font-weight: 500; }
 #session-timer { font-size: 1.3rem; font-weight: 600; color: var(--primary-color); background-color: var(--primary-color-light); padding: 8px 16px; border-radius: 10px; font-variant-numeric: tabular-nums; }
 .question-card { background: var(--surface-color); padding: 24px; border-radius: var(--border-radius); box-shadow: var(--shadow-sm); margin-bottom: 24px; }
 .question-card h3 { font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; gap: 10px; color: var(--text-primary); border-bottom: 1px solid var(--border-color); padding-bottom: 16px; margin-bottom: 20px; }
@@ -901,6 +906,15 @@ textarea:focus { border-color: var(--primary-color); outline: none; }
 .score-card .score-display { font-size: 4rem; font-weight: 700; color: var(--primary-color); margin: 16px 0; }
 .score-card p { font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 32px; }
 .btn-group { display: flex; gap: 16px; justify-content: center; }
+.practice-results { margin-bottom: 28px; }
+.practice-results-kicker { color: var(--primary-color) !important; font-size: .85rem !important; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.practice-result-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.practice-mistakes { margin-top: 28px; }
+.practice-mistakes h3 { margin-bottom: 16px; }
+.practice-mistake { background: var(--surface-color); border-left: 5px solid var(--error-color); border-radius: var(--border-radius); box-shadow: var(--shadow-sm); margin-bottom: 16px; padding: 20px; }
+.practice-mistake p { color: var(--text-secondary); font-size: .95rem; margin: 8px 0; }
+.practice-mistake .question { color: var(--text-primary); font-size: 1.05rem; font-weight: 600; line-height: 1.5; }
+.practice-mistake small { color: var(--text-secondary); }
 
 .view-header { border-bottom: 1px solid var(--border-color); padding-bottom: 16px; margin-bottom: 32px; }
 .view-header h2 { font-size: 2.2rem; }
@@ -1835,6 +1849,9 @@ textarea:focus { border-color: var(--primary-color); outline: none; }
     :root { --header-height: 60px; }
     #session-view { padding-top: 60px; }
     .session-header { height: 60px; padding: 8px 16px; }
+    .practice-timer-note { display: none; }
+    .question-card h3 { align-items: flex-start; flex-wrap: wrap; }
+    .quiz-time { margin-left: 30px; width: calc(100% - 30px); }
     .dashboard-grid { grid-template-columns: 1fr; }
     .btn-group { flex-direction: column; }
     .exam-options { flex-direction: column; }
