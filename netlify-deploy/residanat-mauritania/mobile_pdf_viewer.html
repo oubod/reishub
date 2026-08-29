@@ -312,7 +312,9 @@
     </div>
 
     <script>
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        if (window.pdfjsLib) {
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        }
 
         let pdfDoc = null;
         let pageNum = 1;
@@ -476,41 +478,62 @@
             }
         }
 
-        fileInput.addEventListener('change', (e) => {
+        async function loadPdf(source, name) {
+            loadingScreen.classList.remove('hidden');
+            welcomeScreen.style.display = 'none';
+            currentPdfName = name || 'document.pdf';
+
+            try {
+                if (!window.pdfjsLib) throw new Error('PDF.js unavailable');
+                if (typeof source === 'string') {
+                    const sourceUrl = new URL(source, location.href);
+                    if (sourceUrl.origin !== location.origin) throw new Error('External PDF URL blocked');
+                    const response = await fetch(sourceUrl);
+                    if (!response.ok) throw new Error('PDF request failed: ' + response.status);
+                    pdfData = new Uint8Array(await response.arrayBuffer());
+                } else {
+                    pdfData = source;
+                }
+
+                pdfDoc = await pdfjsLib.getDocument({ data: pdfData }).promise;
+                document.getElementById('pageCount').textContent = pdfDoc.numPages;
+                pageNum = 1;
+                scale = 1.5;
+                renderPage(pageNum);
+                updateButtons();
+                document.getElementById('zoomIn').disabled = false;
+                document.getElementById('zoomOut').disabled = false;
+                document.getElementById('downloadBtn').disabled = false;
+                document.getElementById('fullscreenBtn').disabled = false;
+            } catch (err) {
+                console.error('Error loading PDF:', err);
+                welcomeScreen.style.display = '';
+                welcomeScreen.innerHTML = '<h2>Le lecteur intégré est indisponible</h2><p>Ouvrez le PDF dans le lecteur de votre téléphone.</p>';
+                if (typeof source === 'string') {
+                    const fallback = document.createElement('a');
+                    fallback.className = 'btn';
+                    fallback.href = source;
+                    fallback.target = '_blank';
+                    fallback.rel = 'noreferrer';
+                    fallback.textContent = 'Ouvrir le PDF';
+                    welcomeScreen.appendChild(fallback);
+                }
+            } finally {
+                loadingScreen.classList.add('hidden');
+            }
+        }
+
+        fileInput.addEventListener('change', async (e) => {
             const file = e.target.files[0];
             if (file && file.type === 'application/pdf') {
-                loadingScreen.classList.remove('hidden');
-                welcomeScreen.style.display = 'none';
-                currentPdfName = file.name;
-                
-                const fileReader = new FileReader();
-                fileReader.onload = function() {
-                    pdfData = new Uint8Array(this.result);
-
-                    pdfjsLib.getDocument(pdfData).promise.then(pdf => {
-                        pdfDoc = pdf;
-                        document.getElementById('pageCount').textContent = pdf.numPages;
-                        pageNum = 1;
-                        scale = 1.5;
-                        
-                        renderPage(pageNum);
-                        updateButtons();
-                        
-                        document.getElementById('zoomIn').disabled = false;
-                        document.getElementById('zoomOut').disabled = false;
-                        document.getElementById('downloadBtn').disabled = false;
-                        document.getElementById('fullscreenBtn').disabled = false;
-                        
-                        loadingScreen.classList.add('hidden');
-                    }).catch(err => {
-                        console.error('Error loading PDF:', err);
-                        loadingScreen.classList.add('hidden');
-                        alert('Error loading PDF file');
-                    });
-                };
-                fileReader.readAsArrayBuffer(file);
+                await loadPdf(new Uint8Array(await file.arrayBuffer()), file.name);
             }
         });
+
+        const requestedPdf = new URLSearchParams(location.search).get('file');
+        if (requestedPdf) {
+            loadPdf(requestedPdf, requestedPdf.split('/').pop());
+        }
 
         document.getElementById('prevPage').addEventListener('click', onPrevPage);
         document.getElementById('nextPage').addEventListener('click', onNextPage);

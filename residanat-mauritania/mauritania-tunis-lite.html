@@ -673,6 +673,8 @@
       const item = findLecture(id);
       if (!item) return;
       if (!isAllowedForGuest(item)) return showGuestLocked();
+      const mobilePdf = window.matchMedia("(max-width: 767px)").matches;
+      const previewUrl = mobilePdf ? "mobile_pdf_viewer.html?file=" + encodeURIComponent(item.pdf) : item.pdf;
       $("reader").innerHTML = `
         <div class="panel">
           <div class="panel-head">
@@ -688,7 +690,7 @@
             <p class="quiz-meta">${esc(item.category)}</p>
             <h2 style="margin:6px 0 14px">${esc(item.title)}</h2>
           </div>
-          <iframe src="${esc(item.pdf)}" title="${esc(item.title)}"></iframe>
+          <iframe src="${esc(previewUrl)}" title="${esc(item.title)}"></iframe>
         </div>
       `;
       go("reader");
