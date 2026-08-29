@@ -55,8 +55,10 @@ const deployPage = normalizeLines(fs.readFileSync("./netlify-deploy/residanat-ma
 assert.equal(sourcePage, deployPage);
 assert.match(sourcePage, /data-view="exam"/);
 assert.match(sourcePage, /data-view="ai"/);
+assert.match(sourcePage, /Examen \(par Dr Sena\)/);
+assert.doesNotMatch(sourcePage, /id="stats"|id="continueCard"|Continuer ma lecture/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v30/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v31/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseSchema: ResiStudyTools\.geminiSchema/);
 assert.doesNotMatch(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseJsonSchema/);
 assert.equal(

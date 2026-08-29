@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-3" data-sw="./sw.js?v=resihub-20260829-3"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-4" data-sw="./sw.js?v=resihub-20260829-4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -314,6 +314,9 @@
       width: min(100%, 1180px);
       padding-top: 16px;
     }
+
+    body.home-mode main > header { display: none; }
+    body.home-mode main { padding-top: 28px; }
 
     .reader-clean {
       min-height: calc(100vh - 32px);
@@ -692,6 +695,7 @@
       nav { grid-template-columns: 1fr; padding-top: 18px; }
       main { padding-top: 96px; }
       body.clean-mode main { padding-top: 96px; }
+      body.home-mode main { padding-top: 96px; }
       header { display: grid; }
       .search { min-width: 100%; }
       .category-grid { grid-template-columns: 1fr; }
@@ -752,7 +756,7 @@
         <button class="nav active" type="button" data-view="home"><span class="icon">home</span>Accueil</button>
         <button class="nav" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
         <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
-        <button class="nav" type="button" data-view="exam"><span class="icon">assignment</span>Examen</button>
+      <button class="nav" type="button" data-view="exam"><span class="icon">assignment</span>Examen (par Dr Sena)</button>
         <button class="nav" type="button" data-view="ai"><span class="icon">auto_awesome</span>Quiz IA</button>
       </nav>
       <div class="sidebar-actions">
@@ -775,8 +779,6 @@
 
       <section id="home" class="view active">
         <div class="dashboard">
-          <div id="stats" class="stats"></div>
-          <div id="continueCard"></div>
           <div>
             <div class="dashboard-heading">
               <div>
@@ -821,8 +823,8 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260829-3"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260829-3"></script>
+  <script src="js/study-tools.js?v=resihub-20260829-4"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260829-4"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;
@@ -929,39 +931,6 @@
     }
 
     function renderHome() {
-      const quizSeries = state.lectures.filter((item) => item.training).length;
-      const quizzes = quizSeries * QUESTIONS_PER_QUIZ;
-      $("stats").innerHTML = `
-        <article class="stat-card">
-          <span class="stat-icon">${icon("menu_book")}</span>
-          <div><strong>${state.lectures.length}</strong><span>Cours disponibles</span></div>
-        </article>
-        <article class="stat-card">
-          <span class="stat-icon">${icon("quiz")}</span>
-          <div>
-            <strong>${quizzes.toLocaleString("fr-FR")}</strong>
-            <span>Questions QCM</span>
-            <small>${quizSeries} séries × ${QUESTIONS_PER_QUIZ}</small>
-          </div>
-        </article>
-      `;
-
-      const saved = findLecture(localStorage.getItem(LAST_LECTURE_KEY));
-      const last = saved && isAllowedForGuest(saved) ? saved : null;
-      const next = last || state.lectures.find(isAllowedForGuest);
-      $("continueCard").innerHTML = next ? `
-        <article class="continue-card">
-          <span class="category-mark">${icon(last ? "history" : "play_arrow")}</span>
-          <div>
-            <h2>${last ? "Continuer ma lecture" : "Commencer la préparation"}</h2>
-            <p>${esc(next.title)} · ${esc(next.category)}</p>
-          </div>
-          <button class="btn primary" type="button" onclick="openLecture('${esc(next.id)}')">
-            ${icon(last ? "arrow_forward" : "play_arrow")}${last ? "Continuer" : "Commencer"}
-          </button>
-        </article>
-      ` : "";
-
       $("categoryCards").innerHTML = categoryGroups()
         .map(([category, items]) => categoryCard(category, items))
         .join("");
@@ -1188,6 +1157,7 @@
         (view === "quizRunner" && node.dataset.view === (state.session?.origin === "ai" ? "ai" : "quiz"))
       ));
       document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
+      document.body.classList.toggle("home-mode", view === "home");
       const pages = {
         home: ["Résidanat Mauritanie", "Votre espace de préparation, clair et organisé."],
         lectures: ["Lectures", "Retrouvez les cours de la partie Mauritanie."],
@@ -1234,7 +1204,7 @@
       const initialView = ["#lectures", "#quiz", "#exam", "#ai"].includes(location.hash) ? location.hash.slice(1) : "home";
       go(initialView);
     }).catch(() => {
-      $("continueCard").innerHTML = `<div class="empty">Impossible de charger les contenus.</div>`;
+      $("categoryCards").innerHTML = `<div class="empty">Impossible de charger les contenus.</div>`;
       $("lectureList").innerHTML = `<div class="empty">Impossible de charger data/lectures.json.</div>`;
     });
   </script>
