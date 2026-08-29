@@ -9,26 +9,27 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260626-3" data-sw="./sw.js?v=resihub-20260626-3"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260626-3" data-sw="./sw.js?v=resihub-20260829-1"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #f6f9ff;
-      --ink: #081830;
-      --muted: #485a70;
-      --line: rgba(111, 132, 158, .24);
-      --primary: #006233;
-      --primary-soft: #e7f5ed;
+      --bg: #f7f4ec;
+      --ink: #10243e;
+      --muted: #536174;
+      --line: #dce2de;
+      --primary: #246b4f;
+      --primary-soft: #e9f2ed;
       --brand-red: #d71920;
       --brand-navy: #061d45;
-      --surface: rgba(255, 255, 255, .94);
-      --surface-low: #eef6ff;
+      --surface: #fffdfa;
+      --surface-low: #eef4f1;
+      --terracotta: #b85f43;
       --ok: #007e70;
       --bad: #ba1a1a;
-      --shadow: 0 18px 38px rgba(16, 52, 92, .12);
+      --shadow: 0 8px 24px rgba(16, 36, 62, .08);
     }
 
     * { box-sizing: border-box; }
@@ -38,9 +39,8 @@
       color: var(--ink);
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(0, 98, 51, .1), transparent 34rem),
-        radial-gradient(circle at bottom right, rgba(215, 25, 32, .08), transparent 30rem),
-        linear-gradient(180deg, #ffffff 0%, #f3f9f5 100%);
+        radial-gradient(circle at top left, rgba(36, 107, 79, .08), transparent 32rem),
+        linear-gradient(180deg, #fbfaf6 0%, var(--bg) 100%);
     }
 
     button, input { font: inherit; }
@@ -64,7 +64,7 @@
       height: 100vh;
       padding: 18px;
       border-right: 1px solid var(--line);
-      background: rgba(255, 255, 255, .74);
+      background: rgba(255, 253, 250, .9);
       backdrop-filter: blur(18px);
       display: flex;
       flex-direction: column;
@@ -237,7 +237,7 @@
     .group {
       overflow: hidden;
       border: 1px solid var(--line);
-      border-radius: 18px;
+      border-radius: 16px;
       background: var(--surface);
       box-shadow: var(--shadow);
     }
@@ -269,7 +269,7 @@
 
     .row:last-child { border-bottom: 0; }
     .row:hover { background: rgba(218, 238, 255, .48); }
-    .row.locked { opacity: .58; cursor: not-allowed; }
+    .row.locked { color: #647084; opacity: .7; cursor: not-allowed; }
     .row.locked:hover { background: transparent; }
 
     .badge {
@@ -430,10 +430,163 @@
       text-align: center;
     }
 
+    :focus-visible {
+      outline: 3px solid rgba(36, 107, 79, .38);
+      outline-offset: 3px;
+    }
+
+    .search.is-hidden { display: none; }
+    .dashboard { display: grid; gap: 22px; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .stat-card,
+    .continue-card,
+    .category-card {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--surface);
+      box-shadow: 0 5px 18px rgba(16, 36, 62, .06);
+    }
+
+    .stat-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-height: 96px;
+      padding: 18px;
+    }
+
+    .stat-icon,
+    .category-mark {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 44px;
+      height: 44px;
+      border-radius: 13px;
+      background: var(--primary-soft);
+      color: var(--primary);
+    }
+
+    .stat-card strong { display: block; font-size: 25px; line-height: 1; }
+    .stat-card span:last-child {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    .stat-card small {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .continue-card {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 16px;
+      padding: 18px;
+      border-left: 4px solid var(--terracotta);
+    }
+
+    .continue-card h2,
+    .dashboard-heading h2,
+    .content-heading h2 { margin: 0; font-size: 19px; }
+
+    .continue-card p,
+    .dashboard-heading p,
+    .content-heading p {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .dashboard-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 13px;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .category-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 214px;
+      padding: 18px;
+    }
+
+    .category-card:nth-child(2) .category-mark { background: #edf1f8; color: #365b8c; }
+    .category-card:nth-child(3) .category-mark { background: #f8eee9; color: var(--terracotta); }
+    .category-card h3 { margin: 18px 0 6px; font-size: 17px; line-height: 1.25; }
+    .category-meta { margin: 0; color: var(--muted); font-size: 13px; }
+
+    .category-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: auto;
+      padding-top: 18px;
+    }
+
+    .category-actions.single { grid-template-columns: 1fr; }
+    .category-button {
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: transparent;
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .category-button:hover { background: var(--primary-soft); }
+    .category-button.primary { border-color: var(--primary); background: var(--primary); color: #fff; }
+    .category-button.primary:hover { background: #19583f; }
+
+    .content-heading {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .back-button {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: var(--surface);
+      color: var(--primary);
+    }
+
+    .focus-group { box-shadow: 0 4px 16px rgba(16, 36, 62, .05); }
+    .lock-label { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); }
+    .lock-label .icon { font-size: 16px; }
+
     @media (max-width: 840px) {
       .mobile-shellbar {
         align-items: center;
-        background: rgba(255, 255, 255, .92);
+        background: rgba(255, 253, 250, .95);
         backdrop-filter: blur(18px);
         border-bottom: 1px solid var(--line);
         display: flex;
@@ -499,6 +652,26 @@
       body.clean-mode main { padding-top: 96px; }
       header { display: grid; }
       .search { min-width: 100%; }
+      .category-grid { grid-template-columns: 1fr; }
+      .category-card { min-height: 0; }
+      .continue-card { grid-template-columns: auto minmax(0, 1fr); }
+      .continue-card .btn { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 480px) {
+      .stats { gap: 10px; }
+      .stat-card { padding: 14px; }
+      .stat-icon { width: 40px; height: 40px; }
+      .stat-card strong { font-size: 22px; }
+      .dashboard-heading { align-items: start; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+      }
     }
   </style>
 </head>
@@ -528,7 +701,8 @@
         </button>
       </div>
       <nav>
-        <button class="nav active" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
+        <button class="nav active" type="button" data-view="home"><span class="icon">home</span>Accueil</button>
+        <button class="nav" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
         <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
       </nav>
       <div class="sidebar-actions">
@@ -540,16 +714,32 @@
       <header>
         <div>
           <p class="kicker">Mauritanie</p>
-          <h1 id="title">Lectures</h1>
-          <p id="subtitle" class="summary">Cours et QCM de la partie Mauritanie, dans une interface simple.</p>
+          <h1 id="title">Résidanat Mauritanie</h1>
+          <p id="subtitle" class="summary">Votre espace de préparation, clair et organisé.</p>
         </div>
-        <label class="search">
+        <label id="searchWrap" class="search is-hidden">
           <span class="icon">search</span>
-          <input id="search" type="search" placeholder="Rechercher...">
+          <input id="search" type="search" placeholder="Rechercher..." aria-label="Rechercher dans la matière">
         </label>
       </header>
 
-      <section id="lectures" class="view active">
+      <section id="home" class="view active">
+        <div class="dashboard">
+          <div id="stats" class="stats"></div>
+          <div id="continueCard"></div>
+          <div>
+            <div class="dashboard-heading">
+              <div>
+                <h2>Choisir une matière</h2>
+                <p>Accédez directement aux cours ou aux quiz de chaque partie.</p>
+              </div>
+            </div>
+            <div id="categoryCards" class="category-grid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lectures" class="view">
         <div id="lectureList" class="grid"></div>
       </section>
 
@@ -566,7 +756,9 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script>
-    const state = { view: "lectures", query: "", source: {}, lectures: [], session: null };
+    const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
+    const QUESTIONS_PER_QUIZ = 50;
+    const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null };
     const $ = (id) => document.getElementById(id);
     const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     const icon = (name) => `<span class="icon">${name}</span>`;
@@ -633,22 +825,117 @@
       alert("Mode invite: creez un compte approuve pour debloquer tous les cours et quiz.");
     }
 
-    function renderGrouped(target, items, row) {
-      const groups = group(items.filter(matches));
-      $(target).innerHTML = groups.length ? groups.map(([category, list]) => `
-        <section class="group">
-          <div class="group-head"><strong>${esc(category)}</strong><span class="count">${list.length} cours</span></div>
-          ${list.map(row).join("")}
-        </section>
-      `).join("") : `<div class="empty">Aucun resultat.</div>`;
+    function categoryInfo(category) {
+      if (category === "Sciences Fondamentales") return { icon: "science" };
+      if (category === "Pathologies Médicales") return { icon: "cardiology" };
+      return { icon: "medical_services" };
+    }
+
+    function categoryGroups() {
+      return group(state.lectures).filter(([, items]) => items.length);
+    }
+
+    function categoryCard(category, items, mode = "home") {
+      const encoded = esc(encodeURIComponent(category));
+      const quizCount = items.filter((item) => item.training).length * QUESTIONS_PER_QUIZ;
+      const actions = mode === "home" ? `
+        <div class="category-actions">
+          <button class="category-button primary" type="button" onclick="chooseCategory(decodeURIComponent('${encoded}'), 'lectures')">Cours</button>
+          <button class="category-button" type="button" onclick="chooseCategory(decodeURIComponent('${encoded}'), 'quiz')">Quiz</button>
+        </div>
+      ` : `
+        <div class="category-actions single">
+          <button class="category-button primary" type="button" onclick="chooseCategory(decodeURIComponent('${encoded}'), '${mode}')">
+            Ouvrir ${mode === "quiz" ? "les quiz" : "les cours"}
+          </button>
+        </div>
+      `;
+      return `
+        <article class="category-card">
+          <span class="category-mark">${icon(categoryInfo(category).icon)}</span>
+          <h3>${esc(category)}</h3>
+          <p class="category-meta">${items.length} cours · ${quizCount.toLocaleString("fr-FR")} QCM</p>
+          ${actions}
+        </article>
+      `;
+    }
+
+    function renderHome() {
+      const quizSeries = state.lectures.filter((item) => item.training).length;
+      const quizzes = quizSeries * QUESTIONS_PER_QUIZ;
+      $("stats").innerHTML = `
+        <article class="stat-card">
+          <span class="stat-icon">${icon("menu_book")}</span>
+          <div><strong>${state.lectures.length}</strong><span>Cours disponibles</span></div>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon">${icon("quiz")}</span>
+          <div>
+            <strong>${quizzes.toLocaleString("fr-FR")}</strong>
+            <span>Questions QCM</span>
+            <small>${quizSeries} séries × ${QUESTIONS_PER_QUIZ}</small>
+          </div>
+        </article>
+      `;
+
+      const saved = findLecture(localStorage.getItem(LAST_LECTURE_KEY));
+      const last = saved && isAllowedForGuest(saved) ? saved : null;
+      const next = last || state.lectures.find(isAllowedForGuest);
+      $("continueCard").innerHTML = next ? `
+        <article class="continue-card">
+          <span class="category-mark">${icon(last ? "history" : "play_arrow")}</span>
+          <div>
+            <h2>${last ? "Continuer ma lecture" : "Commencer la préparation"}</h2>
+            <p>${esc(next.title)} · ${esc(next.category)}</p>
+          </div>
+          <button class="btn primary" type="button" onclick="openLecture('${esc(next.id)}')">
+            ${icon(last ? "arrow_forward" : "play_arrow")}${last ? "Continuer" : "Commencer"}
+          </button>
+        </article>
+      ` : "";
+
+      $("categoryCards").innerHTML = categoryGroups()
+        .map(([category, items]) => categoryCard(category, items))
+        .join("");
+    }
+
+    function renderContent(target, mode) {
+      if (!state.activeCategory) {
+        $(target).innerHTML = `
+          <div class="dashboard-heading">
+            <div>
+              <h2>${mode === "quiz" ? "Quiz par matière" : "Cours par matière"}</h2>
+              <p>Choisissez une partie pour afficher une liste courte et ciblée.</p>
+            </div>
+          </div>
+          <div class="category-grid">
+            ${categoryGroups().map(([category, items]) => categoryCard(category, items, mode)).join("")}
+          </div>
+        `;
+        return;
+      }
+
+      const items = state.lectures.filter((item) =>
+        item.category === state.activeCategory && (mode !== "quiz" || item.training) && matches(item)
+      );
+      $(target).innerHTML = `
+        <div class="content-heading">
+          <button class="back-button" type="button" onclick="clearCategory('${mode}')" aria-label="Retour aux matières">${icon("arrow_back")}</button>
+          <div>
+            <h2>${esc(state.activeCategory)}</h2>
+            <p>${items.length} ${mode === "quiz" ? "quiz" : "cours"}</p>
+          </div>
+        </div>
+        ${items.length ? `<section class="group focus-group">${items.map(mode === "quiz" ? quizRow : lectureRow).join("")}</section>` : `<div class="empty">Aucun résultat.</div>`}
+      `;
     }
 
     function lectureRow(item) {
       const locked = !isAllowedForGuest(item);
       return `
         <button class="row${locked ? " locked" : ""}" type="button" onclick="${locked ? "showGuestLocked()" : `openLecture('${esc(item.id)}')`}">
-          <span class="badge">${locked ? icon("lock") : esc(item.id.split("-")[0].toUpperCase())}</span>
-          <span><h3>${esc(item.title)}</h3><p>${locked ? "Verrouille - compte approuve requis" : esc(item.category)}</p></span>
+          <span class="badge">${esc(item.id.split("-")[0].toUpperCase())}</span>
+          <span><h3>${esc(item.title)}</h3><p>${locked ? `<span class="lock-label">${icon("lock")}Accès verrouillé</span>` : esc(item.category)}</p></span>
           <span class="chev">${icon(locked ? "lock" : "chevron_right")}</span>
         </button>
       `;
@@ -659,7 +946,7 @@
       return `
         <button class="row${locked ? " locked" : ""}" type="button" onclick="${locked ? "showGuestLocked()" : `startQuiz('${esc(item.id)}')`}">
           <span class="badge">${icon(locked ? "lock" : "play_circle")}</span>
-          <span><h3>${esc(item.title)}</h3><p>${locked ? "Verrouille - compte approuve requis" : `${esc(item.category)} - demarrer directement`}</p></span>
+          <span><h3>${esc(item.title)}</h3><p>${locked ? `<span class="lock-label">${icon("lock")}Accès verrouillé</span>` : `${esc(item.category)} · démarrer`}</p></span>
           <span class="chev">${icon(locked ? "lock" : "chevron_right")}</span>
         </button>
       `;
@@ -673,6 +960,9 @@
       const item = findLecture(id);
       if (!item) return;
       if (!isAllowedForGuest(item)) return showGuestLocked();
+      state.activeCategory = item.category;
+      localStorage.setItem(LAST_LECTURE_KEY, item.id);
+      renderHome();
       const mobilePdf = window.matchMedia("(max-width: 767px)").matches;
       const previewUrl = mobilePdf ? "mobile_pdf_viewer.html?file=" + encodeURIComponent(item.pdf) : item.pdf;
       $("reader").innerHTML = `
@@ -712,6 +1002,7 @@
       const item = findLecture(id);
       if (!item?.training) return;
       if (!isAllowedForGuest(item)) return showGuestLocked();
+      state.activeCategory = item.category;
       $("quizRunner").innerHTML = `<div class="panel"><div class="empty">Chargement du quiz...</div></div>`;
       go("quizRunner");
       try {
@@ -802,23 +1093,54 @@
       renderQuestion();
     }
 
+    function chooseCategory(category, view) {
+      state.activeCategory = category;
+      state.query = "";
+      $("search").value = "";
+      render();
+      go(view);
+    }
+
+    function clearCategory(view) {
+      state.activeCategory = null;
+      state.query = "";
+      $("search").value = "";
+      render();
+      go(view);
+    }
+
     function go(view) {
       state.view = view;
       document.querySelectorAll(".view").forEach((node) => node.classList.toggle("active", node.id === view));
-      document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active", node.dataset.view === view || (view === "quizRunner" && node.dataset.view === "quiz")));
+      document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active",
+        node.dataset.view === view ||
+        (view === "reader" && node.dataset.view === "lectures") ||
+        (view === "quizRunner" && node.dataset.view === "quiz")
+      ));
       document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
-      $("title").textContent = view === "quiz" ? "Quiz" : "Lectures";
-      $("subtitle").textContent = view === "quiz" ? "Touchez un cours pour commencer le quiz directement." : "Cours de la partie Mauritanie avec lecture PDF.";
+      const page = view === "home"
+        ? ["Résidanat Mauritanie", "Votre espace de préparation, clair et organisé."]
+        : view === "quiz"
+          ? ["Quiz", "Entraînez-vous matière par matière."]
+          : ["Lectures", "Retrouvez les cours de la partie Mauritanie."];
+      $("title").textContent = page[0];
+      $("subtitle").textContent = page[1];
+      $("searchWrap").classList.toggle("is-hidden", !((view === "lectures" || view === "quiz") && state.activeCategory));
       location.hash = view;
-      scrollTo({ top: 0, behavior: "smooth" });
+      scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     }
 
     function render() {
-      renderGrouped("lectureList", state.lectures, lectureRow);
-      renderGrouped("quizList", state.lectures.filter((item) => item.training), quizRow);
+      renderHome();
+      renderContent("lectureList", "lectures");
+      renderContent("quizList", "quiz");
     }
 
     document.querySelectorAll(".nav").forEach((btn) => btn.addEventListener("click", () => {
+      state.activeCategory = null;
+      state.query = "";
+      $("search").value = "";
+      render();
       go(btn.dataset.view);
       closeMobileSidebar();
     }));
@@ -834,8 +1156,10 @@
       state.source = data;
       state.lectures = flatten(data);
       render();
-      if (location.hash === "#quiz") go("quiz");
+      const initialView = ["#lectures", "#quiz"].includes(location.hash) ? location.hash.slice(1) : "home";
+      go(initialView);
     }).catch(() => {
+      $("continueCard").innerHTML = `<div class="empty">Impossible de charger les contenus.</div>`;
       $("lectureList").innerHTML = `<div class="empty">Impossible de charger data/lectures.json.</div>`;
     });
   </script>
