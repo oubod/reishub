@@ -1,4 +1,4 @@
-const CACHE_VERSION = "resihub-pwa-v30";
+const CACHE_VERSION = "resihub-pwa-v31";
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const CACHE_PREFIXES = ["residanat-pwa-", `R${"\u00e9"}siHub-pwa-`, "resihub-pwa-"];
@@ -9,7 +9,7 @@ const APP_SHELL = [
   "./tunis.html",
   "./login-tunis.html",
   "./auth-tunis.js?v=8",
-  "./assets/js/pwa-update.js?v=resihub-20260626-4",
+  "./assets/js/pwa-update.js?v=resihub-20260829-1",
   "./manifest.webmanifest",
   "./logo.png",
   "./favicon.ico",
@@ -68,6 +68,7 @@ self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(APP_SHELL_CACHE);
     await cache.addAll(APP_SHELL);
+    await self.skipWaiting();
   })());
 });
 

@@ -19,7 +19,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png?v=resihub-20260626-4">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png?v=resihub-20260626-4">
   <link rel="apple-touch-startup-image" href="assets/icons/apple-touch-icon.png?v=resihub-20260626-4" media="(orientation: portrait)">
-  <script defer src="assets/js/pwa-update.js?v=resihub-20260626-4" data-sw="sw.js?v=resihub-20260626-4"></script>
+  <script defer src="assets/js/pwa-update.js?v=resihub-20260829-1" data-sw="sw.js?v=resihub-20260829-1"></script>
   <script>
     try {
       if (localStorage.getItem("fmt_residanat_theme_v1") === "dark") {
@@ -4041,7 +4041,7 @@
       if (window.__resihubPwaUpdaterActive) return;
       if (!("serviceWorker" in navigator)) return;
       if (!["http:", "https:"].includes(window.location.protocol)) return;
-      navigator.serviceWorker.register("sw.js?v=resihub-20260626-4").catch(() => {
+      navigator.serviceWorker.register("sw.js?v=resihub-20260829-1").catch(() => {
         console.info("Service worker non disponible pour cette session.");
       });
     }

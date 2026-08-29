@@ -14,7 +14,7 @@ const lectures = groups.flatMap(([, items]) => items);
 
 assert.equal(source, deploy, "source and deployment pages must stay identical");
 assert.equal(sourceWorker, deployWorker, "source and deployment service workers must stay identical");
-assert.match(sourceWorker, /resihub-mauritania-v27/, "cache version must refresh returning users");
+assert.match(sourceWorker, /resihub-mauritania-v28/, "cache version must refresh returning users");
 assert.equal(groups.length, 3, "only the three populated categories should be shown");
 assert.equal(lectures.length, 115, "lecture total should match the current dataset");
 assert.equal(lectures.filter((item) => item.training).length, 115, "quiz total should match the current dataset");

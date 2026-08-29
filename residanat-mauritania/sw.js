@@ -1,4 +1,4 @@
-const CACHE_NAME = 'resihub-mauritania-v27';
+const CACHE_NAME = 'resihub-mauritania-v28';
 const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
@@ -9,7 +9,7 @@ const URLS_TO_CACHE = [
     './js/app.js',
     './js/supabase-client.js',
     './js/portal-auth.js?v=8',
-    '../assets/js/pwa-update.js?v=resihub-20260626-3',
+    '../assets/js/pwa-update.js?v=resihub-20260829-1',
     './manifest.json',
     './favicon.ico',
     './data/lectures.json',
@@ -44,6 +44,7 @@ self.addEventListener('install', event => {
       .catch(error => {
         console.error('Failed to cache core assets:', error);
       })
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -74,6 +75,21 @@ self.addEventListener('fetch', event => {
 
   if (url.pathname.endsWith('.pdf')) {
     event.respondWith(fetch(event.request));
+    return;
+  }
+
+  if (event.request.mode === 'navigate' || url.pathname.endsWith('.html') || url.pathname.endsWith('.json')) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
     return;
   }
 
