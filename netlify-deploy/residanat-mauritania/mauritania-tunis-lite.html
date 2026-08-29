@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-1" data-sw="./sw.js?v=resihub-20260829-1"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-2" data-sw="./sw.js?v=resihub-20260829-2"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -583,6 +583,47 @@
     .lock-label { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); }
     .lock-label .icon { font-size: 16px; }
 
+    .feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .feature-card, .tool-card, .tool-hero, .result-summary, .saved-card, .notice, .empty-card {
+      border: 1px solid var(--line); border-radius: 16px; background: var(--surface); box-shadow: 0 5px 18px rgba(16, 36, 62, .06);
+    }
+    .feature-card { display: flex; align-items: center; gap: 14px; padding: 18px; text-align: left; color: var(--ink); }
+    .feature-card:hover { background: var(--primary-soft); }
+    .feature-card h3, .saved-card h3, .tool-card h2, .tool-hero h2, .notice h2 { margin: 0; }
+    .feature-card p, .saved-card p, .tool-card > p, .tool-hero p, .notice p { margin: 5px 0 0; color: var(--muted); line-height: 1.45; }
+    .feature-icon { display: grid; place-items: center; flex: 0 0 auto; width: 48px; height: 48px; border-radius: 14px; background: var(--primary-soft); color: var(--primary); }
+    .tool-hero { display: flex; gap: 16px; align-items: center; padding: 22px; margin-bottom: 14px; }
+    .wide { width: 100%; min-height: 48px; }
+    .danger { color: var(--bad); }
+    .exam-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 10px; position: sticky; top: 10px; z-index: 4; padding: 10px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,250,.96); box-shadow: var(--shadow); }
+    .timer { color: var(--terracotta); font-size: 20px; font-variant-numeric: tabular-nums; }
+    .exam-nav { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 18px; color: var(--muted); font-size: 13px; }
+    .result-summary { padding: 24px; text-align: center; }
+    .result-summary h2 { margin: 0; font-size: 48px; }
+    .breakdown { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 18px 0; }
+    .breakdown span { padding: 12px; border-radius: 12px; background: var(--surface-low); color: var(--muted); font-size: 12px; }
+    .breakdown strong { display: block; color: var(--ink); font-size: 18px; }
+    .review-list { display: grid; gap: 10px; margin-top: 16px; }
+    .review { padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+    .review summary { display: flex; justify-content: space-between; gap: 14px; cursor: pointer; font-weight: 650; }
+    .review p { color: var(--muted); line-height: 1.5; }
+    .ok { color: var(--ok); } .bad { color: var(--bad); }
+    .tool-grid { display: grid; grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr); gap: 18px; }
+    .tool-card { padding: 20px; align-self: start; }
+    .field { display: grid; gap: 7px; margin-top: 16px; color: var(--ink); font-size: 13px; font-weight: 700; }
+    .field input { min-height: 48px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); }
+    .check { display: flex; gap: 10px; align-items: start; margin: 16px 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
+    .check input { width: 20px; height: 20px; flex: 0 0 auto; }
+    .security-note { font-size: 11px; }
+    .saved-list { display: grid; gap: 10px; }
+    .saved-card { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 15px; }
+    .saved-actions { display: flex; align-items: center; gap: 6px; }
+    .icon-btn { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 12px; background: transparent; color: var(--primary); }
+    .notice, .empty-card { padding: 20px; }
+    .locked-tool { display: flex; gap: 14px; align-items: center; }
+    .notice.error { border-left: 4px solid var(--bad); color: var(--bad); }
+    .loading { color: var(--primary); font-weight: 700; }
+
     @media (max-width: 840px) {
       .mobile-shellbar {
         align-items: center;
@@ -656,6 +697,7 @@
       .category-card { min-height: 0; }
       .continue-card { grid-template-columns: auto minmax(0, 1fr); }
       .continue-card .btn { grid-column: 1 / -1; }
+      .tool-grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 480px) {
@@ -664,6 +706,11 @@
       .stat-icon { width: 40px; height: 40px; }
       .stat-card strong { font-size: 22px; }
       .dashboard-heading { align-items: start; }
+      .feature-grid, .breakdown { grid-template-columns: 1fr; }
+      .saved-card { align-items: stretch; flex-direction: column; }
+      .saved-actions { flex-wrap: wrap; }
+      .exam-toolbar .btn { padding: 0 10px; }
+      .exam-nav { flex-wrap: wrap; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -704,6 +751,8 @@
         <button class="nav active" type="button" data-view="home"><span class="icon">home</span>Accueil</button>
         <button class="nav" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
         <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
+        <button class="nav" type="button" data-view="exam"><span class="icon">assignment</span>Examen</button>
+        <button class="nav" type="button" data-view="ai"><span class="icon">auto_awesome</span>Quiz IA</button>
       </nav>
       <div class="sidebar-actions">
         <button class="logout-button" type="button" onclick="portalLogout()"><span class="icon">logout</span>Deconnexion</button>
@@ -736,6 +785,13 @@
             </div>
             <div id="categoryCards" class="category-grid"></div>
           </div>
+          <div>
+            <div class="dashboard-heading"><div><h2>Outils avancés</h2><p>Simulez l’épreuve ou créez une série depuis votre document.</p></div></div>
+            <div class="feature-grid">
+              <button class="feature-card" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM</h3><p>20 + 20 + 20 · 90 minutes</p></span></button>
+              <button class="feature-card" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>30 QCM depuis votre PDF</p></span></button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -747,6 +803,9 @@
         <div id="quizList" class="grid"></div>
       </section>
 
+      <section id="exam" class="view"></section>
+      <section id="ai" class="view"></section>
+
       <section id="reader" class="view reader-clean"></section>
       <section id="quizRunner" class="view reader-clean"></section>
     </main>
@@ -755,10 +814,13 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
+  <script src="js/vendors/jspdf.umd.min.js"></script>
+  <script src="js/study-tools.js?v=resihub-20260829-2"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260829-2"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;
-    const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null };
+    const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null, exam: null };
     const $ = (id) => document.getElementById(id);
     const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     const icon = (name) => `<span class="icon">${name}</span>`;
@@ -1018,16 +1080,18 @@
     function renderQuestion() {
       const s = state.session;
       if (!s) return;
+      const returnView = s.origin === "ai" ? "ai" : "quiz";
+      const returnLabel = s.origin === "ai" ? "Retour aux séries IA" : "Retour aux quiz";
       if (s.index >= s.questions.length) {
         $("quizRunner").innerHTML = `
           <div class="panel">
             <div class="panel-head">
-              <button class="btn" type="button" onclick="go('quiz')">${icon("arrow_back")}Retour aux quiz</button>
+              <button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button>
             </div>
             <div class="quiz-card">
               <p class="quiz-meta">${esc(s.item.title)}</p>
               <p class="question">Score: ${s.score}/${s.questions.length}</p>
-              <button class="btn primary" type="button" onclick="startQuiz('${esc(s.item.id)}')">${icon("restart_alt")}Recommencer</button>
+              <button class="btn primary" type="button" onclick="${s.origin === "ai" ? `startAiSet('${esc(s.item.id)}')` : `startQuiz('${esc(s.item.id)}')`}">${icon("restart_alt")}Recommencer</button>
             </div>
           </div>
         `;
@@ -1037,7 +1101,7 @@
       $("quizRunner").innerHTML = `
         <div class="panel">
           <div class="panel-head">
-            <button class="btn" type="button" onclick="go('quiz')">${icon("arrow_back")}Retour aux quiz</button>
+            <button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button>
             <span class="count">Question ${s.index + 1}/${s.questions.length}</span>
           </div>
           <div class="quiz-card">
@@ -1115,18 +1179,23 @@
       document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active",
         node.dataset.view === view ||
         (view === "reader" && node.dataset.view === "lectures") ||
-        (view === "quizRunner" && node.dataset.view === "quiz")
+        (view === "quizRunner" && node.dataset.view === (state.session?.origin === "ai" ? "ai" : "quiz"))
       ));
       document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
-      const page = view === "home"
-        ? ["Résidanat Mauritanie", "Votre espace de préparation, clair et organisé."]
-        : view === "quiz"
-          ? ["Quiz", "Entraînez-vous matière par matière."]
-          : ["Lectures", "Retrouvez les cours de la partie Mauritanie."];
+      const pages = {
+        home: ["Résidanat Mauritanie", "Votre espace de préparation, clair et organisé."],
+        lectures: ["Lectures", "Retrouvez les cours de la partie Mauritanie."],
+        quiz: ["Quiz", "Entraînez-vous matière par matière."],
+        exam: ["Examen", "60 QCM équilibrés avec un chronomètre de 90 minutes."],
+        ai: ["Quiz IA", "Transformez un PDF en série d’entraînement locale."]
+      };
+      const page = pages[view] || pages.home;
       $("title").textContent = page[0];
       $("subtitle").textContent = page[1];
       $("searchWrap").classList.toggle("is-hidden", !((view === "lectures" || view === "quiz") && state.activeCategory));
       location.hash = view;
+      if (view === "exam") openExamView();
+      if (view === "ai") openAiView();
       scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     }
 
@@ -1156,7 +1225,7 @@
       state.source = data;
       state.lectures = flatten(data);
       render();
-      const initialView = ["#lectures", "#quiz"].includes(location.hash) ? location.hash.slice(1) : "home";
+      const initialView = ["#lectures", "#quiz", "#exam", "#ai"].includes(location.hash) ? location.hash.slice(1) : "home";
       go(initialView);
     }).catch(() => {
       $("continueCard").innerHTML = `<div class="empty">Impossible de charger les contenus.</div>`;

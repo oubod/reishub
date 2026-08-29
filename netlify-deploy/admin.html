@@ -373,6 +373,7 @@
 
     .ios-card-footer {
       display: flex;
+      flex-wrap: wrap;
       justify-content: flex-end;
       gap: 8px;
       border-top: 0.5px solid var(--border-color);
@@ -845,6 +846,7 @@
               Inscription : ${user.created_at ? new Date(user.created_at).toLocaleDateString() : '-'}
             </div>
             <div class="ios-card-footer">
+              ${currentView === 'mauritania' ? `<button class="action-btn ${user.gemini_enabled ? 'danger' : 'success'}" onclick="toggleGeminiAccess('${escapeAttr(user.id)}', ${!user.gemini_enabled})">IA Gemini : ${user.gemini_enabled ? 'déverrouillée' : 'verrouillée'}</button>` : ''}
               ${!user.approved ? `<button class="action-btn success" onclick="updateUserStatus('${escapeAttr(appKey)}', '${escapeAttr(user.id)}', 'accepted')">Accepter</button>` : ''}
               ${user.approved || !user.rejected ? `<button class="action-btn danger" onclick="updateUserStatus('${escapeAttr(appKey)}', '${escapeAttr(user.id)}', 'rejected')">Rejeter</button>` : ''}
               ${isSuspended(user) ? 
@@ -866,6 +868,17 @@
           profile_id: id,
           next_status: nextStatus
         });
+        if (error) throw error;
+        await loadDashboardData();
+      } catch (err) {
+        alert("Erreur : " + err.message);
+      }
+    }
+
+    async function toggleGeminiAccess(id, enabled) {
+      if (!confirm(`${enabled ? 'Déverrouiller' : 'Verrouiller'} Quiz IA pour ce compte ?`)) return;
+      try {
+        const { error } = await client.rpc("admin_set_gemini_access", { profile_id: id, enabled });
         if (error) throw error;
         await loadDashboardData();
       } catch (err) {

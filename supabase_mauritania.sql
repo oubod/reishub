@@ -7,6 +7,7 @@ create table if not exists public.mauritania_profiles (
   username text not null,
   avatar_url text,
   approved boolean not null default false,
+  gemini_enabled boolean not null default false,
   progress jsonb not null default '{}'::jsonb,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
