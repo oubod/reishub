@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-6" data-sw="./sw.js?v=resihub-20260829-6"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-7" data-sw="./sw.js?v=resihub-20260829-7"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -342,6 +342,16 @@
 
     .panel-head h2 { margin: 0; font-size: 18px; }
     .panel-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .quiz-runner-meta { align-items: flex-end; display: flex; flex-direction: column; gap: 3px; text-align: right; }
+    .quiz-live-timer { color: var(--primary); font-size: 13px; font-variant-numeric: tabular-nums; }
+    .quiz-live-timer strong { font-size: 16px; }
+    .quiz-live-timer small { color: var(--muted); font-size: 10px; }
+    .quiz-result-score { color: var(--primary); font-size: 48px; font-weight: 850; margin: 14px 0 4px; }
+    .quiz-result-summary { color: var(--muted); margin: 0 0 18px; }
+    .quiz-result-actions { justify-content: center; }
+    .quiz-mistakes { margin-top: 24px; }
+    .quiz-mistakes h2 { font-size: 19px; margin: 0 0 12px; }
+    .quiz-mistake-time { color: var(--muted); font-size: 12px; }
     .btn {
       min-height: 42px;
       display: inline-flex;
@@ -382,6 +392,12 @@
       font-size: 20px;
       font-weight: 750;
       line-height: 1.35;
+    }
+
+    @media (max-width: 520px) {
+      .panel-head { align-items: flex-start; }
+      .quiz-runner-meta { align-items: flex-end; }
+      .quiz-live-timer strong { font-size: 15px; }
     }
 
     .options {
@@ -847,11 +863,12 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260829-6"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260829-6"></script>
+  <script src="js/study-tools.js?v=resihub-20260829-7"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260829-7"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;
+    let lectureQuizTimer = null;
     const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null, exam: null };
     const $ = (id) => document.getElementById(id);
     const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -1069,39 +1086,55 @@
       try {
         const payload = await readJson(item.training);
         const questions = normalizeQuestions(payload);
-        state.session = { item, questions, index: 0, selected: new Set(), checked: false, score: 0 };
+        state.session = { item, questions, index: 0, selected: new Set(), checked: false, score: 0, questionStartedAt: Date.now(), questionTimes: {}, results: {}, retrying: false };
         renderQuestion();
       } catch {
         $("quizRunner").innerHTML = `<div class="panel"><div class="empty">Impossible de charger ce quiz.</div></div>`;
       }
     }
 
+    function formatLectureQuizTime(seconds = 0) {
+      return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+    }
+
+    function stopLectureQuizTimer() {
+      clearInterval(lectureQuizTimer);
+      lectureQuizTimer = null;
+    }
+
+    function updateLectureQuizTimer() {
+      const s = state.session;
+      const timer = $("quizQuestionTimer");
+      if (!s || s.checked || !s.questionStartedAt || !timer) return;
+      timer.textContent = formatLectureQuizTime(Math.round((Date.now() - s.questionStartedAt) / 1000));
+    }
+
+    function startLectureQuizTimer() {
+      stopLectureQuizTimer();
+      updateLectureQuizTimer();
+      lectureQuizTimer = setInterval(updateLectureQuizTimer, 1000);
+    }
+
     function renderQuestion() {
       const s = state.session;
       if (!s) return;
+      s.questionTimes ||= {};
+      s.results ||= {};
+      s.questionStartedAt ??= Date.now();
       const returnView = s.origin === "ai" ? "ai" : "quiz";
       const returnLabel = s.origin === "ai" ? "Retour aux séries IA" : "Retour aux quiz";
       if (s.index >= s.questions.length) {
-        $("quizRunner").innerHTML = `
-          <div class="panel">
-            <div class="panel-head">
-              <button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button>
-            </div>
-            <div class="quiz-card">
-              <p class="quiz-meta">${esc(s.item.title)}</p>
-              <p class="question">Score: ${s.score}/${s.questions.length}</p>
-              <button class="btn primary" type="button" onclick="${s.origin === "ai" ? `startAiSet('${esc(s.item.id)}')` : `startQuiz('${esc(s.item.id)}')`}">${icon("restart_alt")}Recommencer</button>
-            </div>
-          </div>
-        `;
+        stopLectureQuizTimer();
+        renderLectureQuizResults(s);
         return;
       }
       const q = s.questions[s.index];
+      const elapsed = s.questionTimes[s.index] || 0;
       $("quizRunner").innerHTML = `
         <div class="panel">
           <div class="panel-head">
             <button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button>
-            <span class="count">Question ${s.index + 1}/${s.questions.length}</span>
+            <span class="quiz-runner-meta"><span class="count">Question ${s.index + 1}/${s.questions.length}</span><span class="quiz-live-timer">Temps <strong id="quizQuestionTimer">${formatLectureQuizTime(elapsed)}</strong> <small>(Med khouna)</small></span></span>
           </div>
           <div class="quiz-card">
             <p class="quiz-meta">${esc(s.item.title)}</p>
@@ -1116,6 +1149,41 @@
           </div>
         </div>
       `;
+      if (!s.checked) startLectureQuizTimer();
+    }
+
+    function answerLabels(q, ids) {
+      const selected = new Set(ids || []);
+      return q.options.filter((opt) => selected.has(opt.id)).map((opt) => `${opt.id}. ${opt.text}`).join(" ; ") || "Aucune";
+    }
+
+    function renderLectureQuizResults(s) {
+      const returnView = s.origin === "ai" ? "ai" : "quiz";
+      const returnLabel = s.origin === "ai" ? "Retour aux séries IA" : "Retour aux quiz";
+      const mistakes = s.questions.map((q, index) => ({ q, index })).filter(({ index }) => !s.results[index]?.correct);
+      const score = s.questions.length - mistakes.length;
+      const totalSeconds = s.questions.reduce((sum, _, index) => sum + (s.questionTimes[index] || 0), 0);
+      const restart = s.origin === "ai" ? `startAiSet('${esc(s.item.id)}')` : `startQuiz('${esc(s.item.id)}')`;
+      let html = `<div class="panel quiz-results"><div class="panel-head"><button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button></div><div class="quiz-card"><p class="quiz-meta">${esc(s.item.title)}</p><h2>Résultats</h2><div class="quiz-result-score">${score} / ${s.questions.length}</div><p class="quiz-result-summary">${Math.round(score / s.questions.length * 100)} % de bonnes réponses · Temps total ${formatLectureQuizTime(totalSeconds)}</p><div class="panel-actions quiz-result-actions">${mistakes.length ? `<button class="btn primary" type="button" onclick="retryLectureQuizMistakes()">${icon("refresh")}Refaire les ${mistakes.length} QCM faux</button>` : ""}<button class="btn" type="button" onclick="${restart}">${icon("restart_alt")}Recommencer</button></div></div></div>`;
+      if (mistakes.length) {
+        html += `<div class="quiz-mistakes"><h2>À revoir</h2><div class="review-list">${mistakes.map(({ q, index }) => `<article class="review"><p class="question">${esc(q.question)}</p><p><strong>Votre réponse :</strong> ${esc(answerLabels(q, s.results[index].selected))}</p><p><strong>Réponse correcte :</strong> ${esc(answerLabels(q, q.options.filter((opt) => opt.correct).map((opt) => opt.id)))}</p><p class="quiz-mistake-time">Temps : ${formatLectureQuizTime(s.questionTimes[index] || 0)} (Med khouna)</p>${q.explanation ? `<p class="explain">${esc(q.explanation)}</p>` : ""}</article>`).join("")}</div></div>`;
+      }
+      $("quizRunner").innerHTML = html;
+    }
+
+    function retryLectureQuizMistakes() {
+      const s = state.session;
+      if (!s) return;
+      s.questions = s.questions.filter((_, index) => !s.results[index]?.correct);
+      s.index = 0;
+      s.selected = new Set();
+      s.checked = false;
+      s.score = 0;
+      s.questionStartedAt = Date.now();
+      s.questionTimes = {};
+      s.results = {};
+      s.retrying = true;
+      renderQuestion();
     }
 
     function optionMarkup(opt) {
@@ -1143,8 +1211,13 @@
       const q = s.questions[s.index];
       const correct = new Set(q.options.filter((opt) => opt.correct).map((opt) => opt.id));
       const ok = s.selected.size === correct.size && [...correct].every((id) => s.selected.has(id));
+      const elapsed = Math.max(0, Math.round((Date.now() - (s.questionStartedAt || Date.now())) / 1000));
+      s.questionTimes[s.index] = elapsed;
+      s.results[s.index] = { correct: ok, selected: [...s.selected], elapsed };
       if (ok) s.score += 1;
       s.checked = true;
+      s.questionStartedAt = null;
+      stopLectureQuizTimer();
       renderQuestion();
     }
 
@@ -1153,6 +1226,7 @@
       s.index += 1;
       s.selected = new Set();
       s.checked = false;
+      s.questionStartedAt = Date.now();
       renderQuestion();
     }
 

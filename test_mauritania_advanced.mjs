@@ -60,7 +60,7 @@ assert.match(sourcePage, /data-view="exam"><span class="icon">assignment<\/span>
 assert.equal((sourcePage.match(/Examen \(par Dr Sena\)/g) || []).length, 0);
 assert.doesNotMatch(sourcePage, /id="stats"|id="continueCard"|Continuer ma lecture/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v33/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v34/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseSchema: ResiStudyTools\.geminiSchema/);
 assert.doesNotMatch(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseJsonSchema/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /Comment obtenir ma clé API Gemini/);
@@ -76,5 +76,8 @@ assert.match(sourceApp, /practiceQuestionTimes/);
 assert.match(sourceApp, /Med khouna/);
 assert.match(sourceApp, /retry-incorrect-btn/);
 assert.match(sourceApp, /formatPracticeDuration/);
+assert.match(sourcePage, /quizQuestionTimer/);
+assert.match(sourcePage, /retryLectureQuizMistakes/);
+assert.match(sourcePage, /Med khouna/);
 
 console.log("Mauritania advanced feature checks passed.");
