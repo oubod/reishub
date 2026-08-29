@@ -77,34 +77,30 @@
   }
 
   const geminiSchema = {
-    type: "object",
+    type: "OBJECT",
     required: ["questions"],
     properties: {
       questions: {
-        type: "array",
-        minItems: 30,
-        maxItems: 30,
+        type: "ARRAY",
         items: {
-          type: "object",
+          type: "OBJECT",
           required: ["question", "difficulty", "options", "explanation"],
           properties: {
-            question: { type: "string" },
-            difficulty: { type: "string", enum: ["facile", "intermediaire", "difficile"] },
+            question: { type: "STRING" },
+            difficulty: { type: "STRING", enum: ["facile", "intermediaire", "difficile"] },
             options: {
-              type: "array",
-              minItems: 4,
-              maxItems: 5,
+              type: "ARRAY",
               items: {
-                type: "object",
+                type: "OBJECT",
                 required: ["id", "text", "correct"],
                 properties: {
-                  id: { type: "string", enum: ["A", "B", "C", "D", "E"] },
-                  text: { type: "string" },
-                  correct: { type: "boolean" }
+                  id: { type: "STRING", enum: ["A", "B", "C", "D", "E"] },
+                  text: { type: "STRING" },
+                  correct: { type: "BOOLEAN" }
                 }
               }
             },
-            explanation: { type: "string" }
+            explanation: { type: "STRING" }
           }
         }
       }

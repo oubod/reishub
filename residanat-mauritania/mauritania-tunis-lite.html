@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-2" data-sw="./sw.js?v=resihub-20260829-2"></script>
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-3" data-sw="./sw.js?v=resihub-20260829-3"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
@@ -584,6 +584,7 @@
     .lock-label .icon { font-size: 16px; }
 
     .feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .feature-grid.single { grid-template-columns: 1fr; }
     .feature-card, .tool-card, .tool-hero, .result-summary, .saved-card, .notice, .empty-card {
       border: 1px solid var(--line); border-radius: 16px; background: var(--surface); box-shadow: 0 5px 18px rgba(16, 36, 62, .06);
     }
@@ -786,10 +787,15 @@
             <div id="categoryCards" class="category-grid"></div>
           </div>
           <div>
-            <div class="dashboard-heading"><div><h2>Outils avancés</h2><p>Simulez l’épreuve ou créez une série depuis votre document.</p></div></div>
+            <div class="dashboard-heading"><div><h2>S’entraîner</h2><p>Simulez l’épreuve complète en 90 minutes.</p></div></div>
             <div class="feature-grid">
-              <button class="feature-card" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM</h3><p>20 + 20 + 20 · 90 minutes</p></span></button>
-              <button class="feature-card" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>30 QCM depuis votre PDF</p></span></button>
+              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM</h3><p>20 fondamentaux · 20 médicaux · 20 chirurgicaux</p></span></button>
+            </div>
+          </div>
+          <div>
+            <div class="dashboard-heading"><div><h2>Assistant IA</h2><p>Créez une série depuis votre propre document PDF.</p></div></div>
+            <div class="feature-grid single">
+              <button class="feature-card feature-card-wide" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>30 QCM avec correction · activation administrateur requise</p></span></button>
             </div>
           </div>
         </div>
@@ -815,8 +821,8 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260829-2"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260829-2"></script>
+  <script src="js/study-tools.js?v=resihub-20260829-3"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260829-3"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;

@@ -47,6 +47,7 @@ const generated = { questions: difficulties.map((difficulty, index) => ({
 })) };
 assert.equal(tools.validateGeneratedQuiz(generated).length, 30);
 assert.throws(() => tools.validateGeneratedQuiz({ questions: generated.questions.slice(0, 29) }), /exactement 30/);
+assert.equal(tools.geminiSchema.type, "OBJECT");
 
 const normalizeLines = (value) => value.replace(/\r\n/g, "\n");
 const sourcePage = normalizeLines(fs.readFileSync("./residanat-mauritania/mauritania-tunis-lite.html", "utf8"));
@@ -55,7 +56,9 @@ assert.equal(sourcePage, deployPage);
 assert.match(sourcePage, /data-view="exam"/);
 assert.match(sourcePage, /data-view="ai"/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v29/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v30/);
+assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseSchema: ResiStudyTools\.geminiSchema/);
+assert.doesNotMatch(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseJsonSchema/);
 assert.equal(
   normalizeLines(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8")),
   normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/js/advanced-tools.js", "utf8"))

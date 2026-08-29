@@ -171,7 +171,9 @@ function fileToBase64(file) {
   return new Promise((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(String(reader.result).split(",")[1]); reader.onerror = () => reject(new Error("Lecture du PDF impossible.")); reader.readAsDataURL(file); });
 }
 function geminiError(status, body) {
-  if (status === 400 || status === 401) return "Clé API invalide ou requête refusée.";
+  const detail = String(body?.error?.message || "").trim();
+  if (/api.?key.*(invalid|not valid)/i.test(detail) || status === 401) return "Clé API Gemini invalide.";
+  if (status === 400) return `Requête Gemini refusée${detail ? ` : ${detail}` : "."}`;
   if (status === 403) return "La clé n’a pas l’autorisation d’utiliser Gemini.";
   if (status === 404) return "Le modèle gemini-2.5-flash est indisponible pour cette clé.";
   if (status === 429) return "Quota Gemini atteint. Vérifiez votre facturation et réessayez manuellement.";
@@ -193,7 +195,7 @@ async function generateAiQuiz() {
     const data = await fileToBase64(file);
     const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent", {
       method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": key },
-      body: JSON.stringify({ contents: [{ parts: [{ inlineData: { mimeType: "application/pdf", data } }, { text: "À partir uniquement de ce PDF médical, crée exactement 30 QCM en français: 10 faciles, 12 intermediaires et 8 difficiles. Chaque QCM comporte 4 ou 5 propositions et une ou plusieurs bonnes réponses. Les distracteurs doivent être plausibles et l'explication concise, fidèle à la source. N'invente aucune information absente du document." }] }], generationConfig: { responseMimeType: "application/json", responseJsonSchema: ResiStudyTools.geminiSchema, temperature: 0.2, maxOutputTokens: 20000 } })
+      body: JSON.stringify({ contents: [{ parts: [{ inlineData: { mimeType: "application/pdf", data } }, { text: "À partir uniquement de ce PDF médical, crée exactement 30 QCM en français: 10 faciles, 12 intermediaires et 8 difficiles. Chaque QCM comporte 4 ou 5 propositions et une ou plusieurs bonnes réponses. Les distracteurs doivent être plausibles et l'explication concise, fidèle à la source. N'invente aucune information absente du document." }] }], generationConfig: { responseMimeType: "application/json", responseSchema: ResiStudyTools.geminiSchema, temperature: 0.2, maxOutputTokens: 20000 } })
     });
     const body = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(geminiError(response.status, body));
