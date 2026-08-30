@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#08783b">
-    <title>Mobile PDF Viewer</title>
-    <link rel="manifest" href="manifest.json?v=resihub-20260626-3">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260830-1" data-sw="./sw.js?v=resihub-20260830-1"></script>
+    <title>Lecteur PDF · RésiHub Mauritanie</title>
+    <link rel="manifest" href="manifest.json?v=resihub-20260830-2">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260830-2">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260830-2">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260830-2">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260830-2" data-sw="./sw.js?v=resihub-20260830-2"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <style>
         * {
@@ -266,16 +266,17 @@
             align-items: center;
         }
     </style>
+    <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260830-2">
 </head>
-<body>
+<body class="mauritania-pdf">
     <div id="toolbar">
         <div class="left-controls">
-            <label for="fileInput" class="btn">Open</label>
+            <a class="pdf-back" href="mauritania-tunis-lite.html#lectures" target="_top" aria-label="Retour aux cours"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></a>
+            <label for="fileInput" class="btn">Importer</label>
             <input type="file" id="fileInput" accept="application/pdf">
-            
             <div id="actionButtons">
-                <button class="action-btn" id="downloadBtn" disabled title="Download">⬇</button>
-                <button class="action-btn" id="fullscreenBtn" disabled title="Fullscreen">⛶</button>
+                <button class="action-btn" id="downloadBtn" disabled aria-label="Télécharger le PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></button>
+                <button class="action-btn" id="fullscreenBtn" disabled aria-label="Afficher en plein écran"><svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg><svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
             </div>
         </div>
         
@@ -285,24 +286,24 @@
 
         <div id="pageControls">
             <div id="zoomControls">
-                <button class="zoom-btn" id="zoomOut" disabled>-</button>
+                <button class="zoom-btn" id="zoomOut" disabled aria-label="Réduire le zoom">−</button>
                 <span id="zoomLevel">100%</span>
-                <button class="zoom-btn" id="zoomIn" disabled>+</button>
+                <button class="zoom-btn" id="zoomIn" disabled aria-label="Agrandir le zoom">+</button>
             </div>
-            <button class="nav-btn" id="prevPage" disabled>‹</button>
-            <button class="nav-btn" id="nextPage" disabled>›</button>
+            <button class="nav-btn" id="prevPage" disabled aria-label="Page précédente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+            <button class="nav-btn" id="nextPage" disabled aria-label="Page suivante"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
         </div>
     </div>
 
-    <div id="loadingScreen" class="hidden">
+    <div id="loadingScreen" class="hidden" role="status" aria-live="polite">
         <div class="loader"></div>
-        <div id="loadingText">Loading PDF...</div>
+        <div id="loadingText">Chargement du PDF…</div>
     </div>
 
     <div id="viewerContainer">
         <div id="welcomeScreen">
-            <h2>📄 Mobile PDF Viewer</h2>
-            <p>Tap "Open" to get started</p>
+            <h2>Lecteur PDF RésiHub</h2>
+            <p>Importez un document PDF pour commencer.</p>
         </div>
         <div id="canvasContainer">
             <div id="canvasWrapper">
@@ -435,7 +436,8 @@
             if (isFullscreen) {
                 toolbar.classList.add('hidden');
                 viewerContainer.classList.add('fullscreen');
-                document.getElementById('fullscreenBtn').textContent = '✕';
+                document.getElementById('fullscreenBtn').classList.add('is-active');
+                document.getElementById('fullscreenBtn').setAttribute('aria-label', 'Quitter le plein écran');
                 
                 if (viewerContainer.requestFullscreen) {
                     viewerContainer.requestFullscreen();
@@ -449,7 +451,8 @@
             } else {
                 toolbar.classList.remove('hidden');
                 viewerContainer.classList.remove('fullscreen');
-                document.getElementById('fullscreenBtn').textContent = '⛶';
+                document.getElementById('fullscreenBtn').classList.remove('is-active');
+                document.getElementById('fullscreenBtn').setAttribute('aria-label', 'Afficher en plein écran');
                 
                 if (document.exitFullscreen) {
                     document.exitFullscreen();
@@ -474,7 +477,8 @@
                 isFullscreen = false;
                 toolbar.classList.remove('hidden');
                 viewerContainer.classList.remove('fullscreen');
-                document.getElementById('fullscreenBtn').textContent = '⛶';
+                document.getElementById('fullscreenBtn').classList.remove('is-active');
+                document.getElementById('fullscreenBtn').setAttribute('aria-label', 'Afficher en plein écran');
             }
         }
 

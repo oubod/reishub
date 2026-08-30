@@ -1,18 +1,20 @@
-const CACHE_NAME = 'resihub-mauritania-v35';
+const CACHE_NAME = 'resihub-mauritania-v36';
 const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
     './index.html',
     './mauritania-tunis-lite.html',
     './login.html',
+    './mobile_pdf_viewer.html',
     './css/style.css',
+    './css/mauritania-ui.css?v=resihub-20260830-2',
     './js/app.js',
     './js/supabase-client.js',
     './js/portal-auth.js?v=8',
-    './js/study-tools.js?v=resihub-20260830-1',
-    './js/advanced-tools.js?v=resihub-20260830-1',
+    './js/study-tools.js?v=resihub-20260830-2',
+    './js/advanced-tools.js?v=resihub-20260830-2',
     './js/vendors/jspdf.umd.min.js',
-    '../assets/js/pwa-update.js?v=resihub-20260830-1',
+    '../assets/js/pwa-update.js?v=resihub-20260830-2',
     './manifest.json',
     './favicon.ico',
     './data/lectures.json',
@@ -32,9 +34,7 @@ const URLS_TO_CACHE = [
     './images/icon-384.png',
     './images/icon-512.png',
     './images/maskable-192.png',
-    './images/maskable-512.png',
-    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css',
-    'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'
+    './images/maskable-512.png'
 ];
 
 self.addEventListener('install', event => {

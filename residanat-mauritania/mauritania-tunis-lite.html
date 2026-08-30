@@ -10,12 +10,11 @@
   <meta name="apple-mobile-web-app-title" content="RésiHub Mauritanie">
   <meta name="mobile-web-app-capable" content="yes">
   <title>RésiHub Mauritanie</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260830-1">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260830-1">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260830-1">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260830-1">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260830-1" data-sw="./sw.js?v=resihub-20260830-1"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json?v=resihub-20260830-2">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260830-2">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260830-2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260830-2">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260830-2" data-sw="./sw.js?v=resihub-20260830-2"></script>
   <style>
     :root {
       --bg: #f7f4ec;
@@ -987,14 +986,15 @@
       .hero-actions .btn { width: 100%; }
     }
   </style>
+  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260830-2">
 </head>
-<body>
+<body class="mauritania-app">
   <button id="sidebarShade" class="sidebar-shade" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu"></button>
 
   <div class="app">
     <aside id="mobileSidebar" aria-label="Navigation principale">
       <div class="brand">
-        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260830-1" alt="Logo RésiHub">
+        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260830-2" alt="Logo RésiHub">
         <div>
           <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
           <span>Résidanat Mauritanie</span>
@@ -1016,7 +1016,11 @@
 
     <main>
       <header>
-        <div>
+        <div class="mobile-app-brand">
+          <img src="images/icon-192.png?v=resihub-20260830-2" alt="Logo RésiHub">
+          <div><strong><span>Rési</span>Hub</strong><small>Résidanat Mauritanie</small></div>
+        </div>
+        <div class="page-heading">
           <p class="kicker">Mauritanie</p>
           <h1 id="title">Accueil</h1>
           <p id="subtitle" class="summary">Votre espace de préparation, clair et organisé.</p>
@@ -1105,8 +1109,8 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260830-1"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260830-1"></script>
+  <script src="js/study-tools.js?v=resihub-20260830-2"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260830-2"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;
@@ -1114,7 +1118,39 @@
     const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null, exam: null };
     const $ = (id) => document.getElementById(id);
     const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-    const icon = (name) => `<span class="icon">${name}</span>`;
+    const ICON_PATHS = {
+      home: '<path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M9.5 20v-6h5v6"/>',
+      menu_book: '<path d="M4 5.5A3.5 3.5 0 0 1 7.5 2H11v17H7.5A3.5 3.5 0 0 0 4 22z"/><path d="M20 5.5A3.5 3.5 0 0 0 16.5 2H13v17h3.5A3.5 3.5 0 0 1 20 22z"/>',
+      quiz: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h5M8 16h3"/>',
+      grid_view: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+      logout: '<path d="M10 17l5-5-5-5M15 12H3"/><path d="M14 3h5a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5"/>',
+      close: '<path d="m6 6 12 12M18 6 6 18"/>',
+      person: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+      search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',
+      arrow_forward: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+      arrow_back: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
+      chevron_right: '<path d="m9 18 6-6-6-6"/>',
+      assignment: '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4.5V3h6v3H9zM9 11h6M9 15h6"/>',
+      auto_awesome: '<path d="m12 3 1.4 3.6L17 8l-3.6 1.4L12 13l-1.4-3.6L7 8l3.6-1.4zM18.5 14l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8zM5 14l.8 2.2L8 17l-2.2.8L5 20l-.8-2.2L2 17l2.2-.8z"/>',
+      download_for_offline: '<circle cx="12" cy="12" r="9"/><path d="M12 7v8M8.5 11.5 12 15l3.5-3.5M8 19h8"/>',
+      science: '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 16h9"/>',
+      cardiology: '<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/><path d="M5 12h3l1.5-3 3 6 1.5-3h5"/>',
+      medical_services: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3M9 13h6M12 10v6"/>',
+      lock: '<rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/>',
+      play_circle: '<circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/>',
+      play_arrow: '<path d="m8 5 11 7-11 7z"/>',
+      open_in_new: '<path d="M14 4h6v6M20 4l-9 9"/><path d="M18 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6"/>',
+      check_circle: '<circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/>',
+      refresh: '<path d="M20 6v5h-5M4 18v-5h5"/><path d="M6.1 9a7 7 0 0 1 11.2-2.5L20 11M4 13l2.7 4.5A7 7 0 0 0 18 15"/>',
+      restart_alt: '<path d="M4 4v6h6M4.8 15a8 8 0 1 0 .6-7.8L4 10"/>',
+      edit: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4z"/>',
+      delete: '<path d="M4 7h16M9 7V4h6v3M7 7l1 14h8l1-14M10 11v6M14 11v6"/>',
+      picture_as_pdf: '<path d="M6 2h8l4 4v16H6z"/><path d="M14 2v5h5M8 15h8M8 18h5"/>'
+    };
+    const icon = (name) => `<span class="icon" data-icon="${esc(name)}" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">${ICON_PATHS[name] || ICON_PATHS.quiz}</svg></span>`;
+    document.querySelectorAll(".icon:not([data-icon])").forEach((node) => {
+      node.outerHTML = icon(node.textContent.trim());
+    });
 
     async function readJson(path) {
       const res = await fetch(path);
@@ -1289,21 +1325,16 @@
       const mobilePdf = window.matchMedia("(max-width: 767px)").matches;
       const previewUrl = mobilePdf ? "mobile_pdf_viewer.html?file=" + encodeURIComponent(item.pdf) : item.pdf;
       $("reader").innerHTML = `
-        <div class="panel">
-          <div class="panel-head">
-            <div>
-              <button class="btn" type="button" onclick="go('lectures')">${icon("arrow_back")}Retour</button>
-            </div>
-            <div class="panel-actions">
-              <a class="btn" href="${esc(item.pdf)}" target="_blank" rel="noreferrer">${icon("open_in_new")}PDF</a>
-              <button class="btn primary" type="button" onclick="go('quiz'); startQuiz('${esc(item.id)}')">${icon("quiz")}Quiz</button>
+        <div class="reader-session">
+          <div class="session-bar">
+            <button class="btn session-back" type="button" onclick="go('lectures')" aria-label="Retour aux cours">${icon("arrow_back")}<span class="button-label">Retour</span></button>
+            <div class="session-title"><strong>${esc(item.title)}</strong><span>${esc(item.category)}</span></div>
+            <div class="reader-actions">
+              <a class="btn" href="${esc(item.pdf)}" target="_blank" rel="noreferrer">${icon("open_in_new")}<span class="button-label">Ouvrir le PDF</span></a>
+              <button class="btn primary" type="button" onclick="go('quiz'); startQuiz('${esc(item.id)}')">${icon("quiz")}<span class="button-label">Démarrer le quiz</span></button>
             </div>
           </div>
-          <div class="quiz-card">
-            <p class="quiz-meta">${esc(item.category)}</p>
-            <h2 style="margin:6px 0 14px">${esc(item.title)}</h2>
-          </div>
-          <iframe src="${esc(previewUrl)}" title="${esc(item.title)}"></iframe>
+          <iframe class="reader-frame" src="${esc(previewUrl)}" title="${esc(item.title)}"></iframe>
         </div>
       `;
       go("reader");
@@ -1326,7 +1357,7 @@
       if (!item?.training) return;
       if (!isAllowedForGuest(item)) return showGuestLocked();
       state.activeCategory = item.category;
-      $("quizRunner").innerHTML = `<div class="panel"><div class="empty">Chargement du quiz...</div></div>`;
+      $("quizRunner").innerHTML = `<div class="session-shell"><div class="notice" role="status" aria-live="polite"><div><strong>Chargement du quiz…</strong><p>Préparation des questions.</p></div></div></div>`;
       go("quizRunner");
       try {
         const payload = await readJson(item.training);
@@ -1334,7 +1365,7 @@
         state.session = { item, questions, index: 0, selected: new Set(), checked: false, score: 0, questionStartedAt: Date.now(), questionTimes: {}, results: {}, retrying: false };
         renderQuestion();
       } catch {
-        $("quizRunner").innerHTML = `<div class="panel"><div class="empty">Impossible de charger ce quiz.</div></div>`;
+        $("quizRunner").innerHTML = `<div class="session-shell"><div class="notice error" role="alert"><div><strong>Quiz indisponible</strong><p>Impossible de charger ce quiz. Vérifiez votre connexion puis réessayez.</p></div></div></div>`;
       }
     }
 
@@ -1375,22 +1406,24 @@
       }
       const q = s.questions[s.index];
       const elapsed = s.questionTimes[s.index] || 0;
+      const progress = Math.round(((s.index + (s.checked ? 1 : 0)) / s.questions.length) * 100);
+      const checkedResult = s.results[s.index];
       $("quizRunner").innerHTML = `
-        <div class="panel">
-          <div class="panel-head">
-            <button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button>
-            <span class="quiz-runner-meta"><span class="count">Question ${s.index + 1}/${s.questions.length}</span><span class="quiz-live-timer">Temps <strong id="quizQuestionTimer">${formatLectureQuizTime(elapsed)}</strong> <small>(Med khouna)</small></span></span>
+        <div class="session-shell">
+          <div class="session-bar">
+            <button class="btn session-back" type="button" onclick="go('${returnView}')" aria-label="${esc(returnLabel)}">${icon("arrow_back")}<span class="button-label">Quitter</span></button>
+            <div class="session-title"><strong>${esc(s.item.title)}</strong><span>Question ${s.index + 1} sur ${s.questions.length}</span></div>
+            <div class="session-meta"><strong id="quizQuestionTimer">${formatLectureQuizTime(elapsed)}</strong><span>Temps par QCM</span><small class="session-credit">Med khouna</small></div>
           </div>
-          <div class="quiz-card">
+          <div class="session-progress" role="progressbar" aria-label="Progression du quiz" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${progress}"><span style="width:${progress}%"></span></div>
+          <div class="session-content">
             <p class="quiz-meta">${esc(s.item.title)}</p>
             <div class="question">${esc(q.question)}</div>
-            <div class="options">
-              ${q.options.map((opt) => optionMarkup(opt)).join("")}
+            <div class="options">${q.options.map((opt) => optionMarkup(opt)).join("")}</div>
+            ${s.checked ? `<div class="answer-feedback ${checkedResult?.correct ? "" : "bad"}" role="status"><div><strong>${checkedResult?.correct ? "Bonne réponse" : "Réponse à revoir"}</strong>${q.explanation ? `<p>${esc(q.explanation)}</p>` : ""}</div></div>` : ""}
+            <div class="session-actions">
+              <button class="btn primary" type="button" onclick="${s.checked ? "nextQuestion()" : "checkAnswer()"}">${s.checked ? "Suivant" + icon("arrow_forward") : icon("check_circle") + "Valider"}</button>
             </div>
-            <div class="panel-actions" style="margin-top:16px">
-              <button class="btn primary" type="button" onclick="${s.checked ? "nextQuestion()" : "checkAnswer()"}">${s.checked ? icon("arrow_forward") + "Suivant" : icon("check_circle") + "Valider"}</button>
-            </div>
-            ${s.checked && q.explanation ? `<div class="explain">${esc(q.explanation)}</div>` : ""}
           </div>
         </div>
       `;
@@ -1409,11 +1442,39 @@
       const score = s.questions.length - mistakes.length;
       const totalSeconds = s.questions.reduce((sum, _, index) => sum + (s.questionTimes[index] || 0), 0);
       const restart = s.origin === "ai" ? `startAiSet('${esc(s.item.id)}')` : `startQuiz('${esc(s.item.id)}')`;
-      let html = `<div class="panel quiz-results"><div class="panel-head"><button class="btn" type="button" onclick="go('${returnView}')">${icon("arrow_back")}${returnLabel}</button></div><div class="quiz-card"><p class="quiz-meta">${esc(s.item.title)}</p><h2>Résultats</h2><div class="quiz-result-score">${score} / ${s.questions.length}</div><p class="quiz-result-summary">${Math.round(score / s.questions.length * 100)} % de bonnes réponses · Temps total ${formatLectureQuizTime(totalSeconds)}</p><div class="panel-actions quiz-result-actions">${mistakes.length ? `<button class="btn primary" type="button" onclick="retryLectureQuizMistakes()">${icon("refresh")}Refaire les ${mistakes.length} QCM faux</button>` : ""}<button class="btn" type="button" onclick="${restart}">${icon("restart_alt")}Recommencer</button></div></div></div>`;
-      if (mistakes.length) {
-        html += `<div class="quiz-mistakes"><h2>À revoir</h2><div class="review-list">${mistakes.map(({ q, index }) => `<article class="review"><p class="question">${esc(q.question)}</p><p><strong>Votre réponse :</strong> ${esc(answerLabels(q, s.results[index].selected))}</p><p><strong>Réponse correcte :</strong> ${esc(answerLabels(q, q.options.filter((opt) => opt.correct).map((opt) => opt.id)))}</p><p class="quiz-mistake-time">Temps : ${formatLectureQuizTime(s.questionTimes[index] || 0)} (Med khouna)</p>${q.explanation ? `<p class="explain">${esc(q.explanation)}</p>` : ""}</article>`).join("")}</div></div>`;
-      }
-      $("quizRunner").innerHTML = html;
+      const accuracy = Math.round(score / s.questions.length * 100);
+      $("quizRunner").innerHTML = `
+        <div class="results-report">
+          <div class="session-bar">
+            <button class="btn session-back" type="button" onclick="go('${returnView}')">${icon("arrow_back")}<span class="button-label">${returnLabel}</span></button>
+            <div class="session-title"><strong>${esc(s.item.title)}</strong><span>Rapport de session</span></div>
+            <div></div>
+          </div>
+          <section class="result-overview">
+            <p class="kicker">Résultats</p>
+            <h2>${accuracy >= 70 ? "Une base solide." : "Les erreurs montrent quoi retravailler."}</h2>
+            <div class="result-score"><strong>${score}</strong><span>/ ${s.questions.length}</span></div>
+            <div class="result-metrics">
+              <div class="result-metric"><strong>${accuracy} %</strong>Précision</div>
+              <div class="result-metric"><strong>${formatLectureQuizTime(totalSeconds)}</strong>Temps total</div>
+              <div class="result-metric"><strong>${mistakes.length}</strong>À revoir</div>
+            </div>
+            <div class="result-actions">
+              ${mistakes.length ? `<button class="btn primary" type="button" onclick="retryLectureQuizMistakes()">${icon("refresh")}Refaire les ${mistakes.length} erreurs</button>` : `<button class="btn primary" type="button" onclick="${restart}">${icon("restart_alt")}Recommencer</button>`}
+              ${mistakes.length ? `<button class="text-action" type="button" onclick="${restart}">Recommencer les ${s.questions.length} QCM</button>` : ""}
+            </div>
+          </section>
+          <section class="correction-section">
+            <h2>Correction détaillée</h2>
+            <div class="review-list">
+              ${s.questions.map((q, index) => {
+                const result = s.results[index] || { correct: false, selected: [] };
+                const correctIds = q.options.filter((opt) => opt.correct).map((opt) => opt.id);
+                return `<details class="review"><summary><span>${index + 1}. ${esc(q.question)}</span><strong class="${result.correct ? "ok" : "bad"}">${result.correct ? "Correct" : "À revoir"}</strong></summary><div class="review-body"><p><strong>Votre réponse :</strong> ${esc(answerLabels(q, result.selected))}</p><p><strong>Réponse correcte :</strong> ${esc(answerLabels(q, correctIds))}</p><p><strong>Temps :</strong> ${formatLectureQuizTime(s.questionTimes[index] || 0)} <span class="session-credit">Med khouna</span></p>${q.explanation ? `<p class="explain">${esc(q.explanation)}</p>` : ""}</div></details>`;
+              }).join("")}
+            </div>
+          </section>
+        </div>`;
     }
 
     function retryLectureQuizMistakes() {
@@ -1436,10 +1497,15 @@
       let cls = s.selected.has(opt.id) ? " selected" : "";
       if (s.checked && opt.correct) cls += " correct";
       if (s.checked && s.selected.has(opt.id) && !opt.correct) cls += " wrong";
+      const status = s.checked && opt.correct
+        ? `<span class="answer-status correct-label">Bonne réponse</span>`
+        : s.checked && s.selected.has(opt.id) && !opt.correct
+          ? `<span class="answer-status wrong-label">Votre choix</span>`
+          : "";
       return `
         <button class="option${cls}" type="button" onclick="toggleOption('${esc(opt.id)}')" ${s.checked ? "disabled" : ""}>
           <span class="letter">${esc(opt.id)}</span>
-          <span>${esc(opt.text)}</span>
+          <span class="option-copy">${esc(opt.text)}${status}</span>
         </button>
       `;
     }
@@ -1491,6 +1557,11 @@
       go(view);
     }
 
+    function setFocusedSession(active) {
+      document.body.classList.toggle("clean-mode", active);
+      document.body.classList.toggle("focus-mode", active);
+    }
+
     function go(view) {
       state.view = view;
       document.querySelectorAll(".view").forEach((node) => node.classList.toggle("active", node.id === view));
@@ -1502,7 +1573,7 @@
         node.classList.toggle("active", active);
         active ? node.setAttribute("aria-current", "page") : node.removeAttribute("aria-current");
       });
-      document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
+      setFocusedSession(view === "reader" || view === "quizRunner" || (view === "exam" && state.exam?.status === "active"));
       document.body.classList.toggle("home-mode", view === "home");
       const pages = {
         home: ["Accueil", "Votre espace de préparation, clair et organisé."],
