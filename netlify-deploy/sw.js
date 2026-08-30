@@ -1,4 +1,4 @@
-const CACHE_VERSION = "resihub-pwa-v31";
+const CACHE_VERSION = "resihub-pwa-v32";
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const CACHE_PREFIXES = ["residanat-pwa-", `R${"\u00e9"}siHub-pwa-`, "resihub-pwa-"];
@@ -42,6 +42,8 @@ const APP_SHELL = [
   "./residanat-mauritania/js/app.js",
   "./residanat-mauritania/js/supabase-client.js",
   "./residanat-mauritania/js/portal-auth.js?v=8",
+  "./residanat-mauritania/js/study-tools.js?v=resihub-20260830-1",
+  "./residanat-mauritania/js/advanced-tools.js?v=resihub-20260830-1",
   "./residanat-mauritania/js/vendors/jspdf.umd.min.js",
   "./residanat-mauritania/js/vendors/jspdf.plugin.autotable.min.js",
   "./residanat-mauritania/data/lectures.json",

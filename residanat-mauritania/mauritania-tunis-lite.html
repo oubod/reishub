@@ -3,16 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#08783b">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="RésiHub Mauritanie">
+  <meta name="mobile-web-app-capable" content="yes">
   <title>RésiHub Mauritanie</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260626-3">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260626-3">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260626-3">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260626-3">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260829-7" data-sw="./sw.js?v=resihub-20260829-7"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;800&display=swap" rel="stylesheet">
+  <link rel="manifest" href="manifest.json?v=resihub-20260830-1">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260830-1">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260830-1">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260830-1">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260830-1" data-sw="./sw.js?v=resihub-20260830-1"></script>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -765,25 +767,234 @@
         animation-duration: .01ms !important;
       }
     }
+
+    /* Approved Mauritania preview shell */
+    :root {
+      color-scheme: light;
+      --bg: #f6f5f1;
+      --surface: #ffffff;
+      --surface-low: #eef5f1;
+      --ink: #112b46;
+      --muted: #476079;
+      --line: #dce4e1;
+      --primary: #1e7968;
+      --primary-soft: #dceee8;
+      --terracotta: #b8753d;
+      --ok: #207b58;
+      --bad: #b5544c;
+      --shadow: 0 1px 2px rgba(17, 43, 70, .04), 0 8px 22px rgba(17, 43, 70, .06);
+    }
+
+    html { min-width: 320px; background: var(--bg); }
+    body {
+      min-width: 320px;
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .mobile-shellbar { display: none !important; }
+    .app {
+      grid-template-columns: 236px minmax(0, 1fr);
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+    aside {
+      padding: 28px 16px;
+      background: rgba(251, 250, 247, .8);
+      backdrop-filter: blur(18px);
+    }
+    .brand {
+      gap: 10px;
+      margin: 0 10px 30px;
+      padding: 0;
+      border: 0;
+    }
+    .brand-logo { width: 42px; height: 42px; border-radius: 13px; box-shadow: none; }
+    .brand-word { font-size: 18px; letter-spacing: -.03em; }
+    .brand span { font-size: 11px; }
+    nav { gap: 6px; padding-top: 0; }
+    .nav {
+      min-height: 48px;
+      padding: 0 13px;
+      border: 0;
+      border-radius: 14px;
+      font-weight: 650;
+    }
+    .nav:hover { background: var(--surface-low); color: var(--ink); }
+    .nav.active { background: var(--primary-soft); color: #0d5145; border: 0; font-weight: 750; }
+    .sidebar-actions { border-top: 1px solid #e9eeeb; padding: 18px 10px 0; }
+    .logout-button { min-height: 48px; border-radius: 14px; }
+    main { width: 100%; max-width: none; padding: 0 28px 110px; }
+    header {
+      align-items: center;
+      margin: 0;
+      padding: calc(20px + env(safe-area-inset-top)) 0 18px;
+    }
+    header > div:first-child { min-width: 0; }
+    header .kicker { margin-bottom: 3px; color: var(--primary); font-size: 11px; letter-spacing: .13em; }
+    #title { font-size: 21px; letter-spacing: -.03em; }
+    .summary { margin-top: 4px; font-size: 13px; }
+    .header-account {
+      display: none;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 42px;
+      height: 42px;
+      border: 0;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+    }
+    body.home-mode main > header { display: flex; }
+    body.home-mode main { padding-top: 0; }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      margin: 4px 0 24px;
+      padding: 26px;
+      border-radius: 24px;
+      background: var(--ink);
+      color: #fff;
+    }
+    .hero::before {
+      position: absolute;
+      inset: 0;
+      content: "";
+      background: repeating-linear-gradient(165deg, transparent 0 17px, rgba(122, 211, 188, .08) 18px 19px);
+    }
+    .hero::after {
+      position: absolute;
+      width: 280px;
+      height: 190px;
+      top: -88px;
+      right: -54px;
+      content: "";
+      border: 1px solid rgba(218, 238, 232, .2);
+      border-radius: 50%;
+    }
+    .hero > * { position: relative; z-index: 1; }
+    .hero .kicker { color: #8bd1bf; }
+    .hero h2 { max-width: 620px; margin: 10px 0; font-size: clamp(28px, 5vw, 42px); line-height: 1.04; letter-spacing: -.055em; }
+    .hero p { max-width: 540px; margin: 0; color: #c8d9d7; line-height: 1.5; }
+    .hero-actions { display: flex; gap: 10px; margin-top: 22px; }
+    .hero .btn { border-color: #fff; background: #fff; color: var(--ink); }
+    .home-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 26px; }
+    .home-stat {
+      min-height: 0;
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: none;
+    }
+    .home-stat strong { display: block; font-size: 25px; letter-spacing: -.04em; }
+    .home-stat span { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; }
+    .dashboard { gap: 26px; }
+    .dashboard-heading { margin-bottom: 16px; }
+    .dashboard-heading h2, .content-heading h2 { font-size: 24px; letter-spacing: -.04em; }
+    .dashboard-heading p, .content-heading p { color: var(--muted); }
+    .category-grid { gap: 13px; }
+    .category-card {
+      min-height: 214px;
+      padding: 18px;
+      border-radius: 18px;
+      box-shadow: none;
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+    .category-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+    .category-mark { width: 42px; height: 42px; border-radius: 13px; }
+    .category-card h3 { margin-top: 17px; letter-spacing: -.02em; }
+    .category-button { border-radius: 13px; }
+    .feature-grid { gap: 12px; }
+    .feature-card, .more-card {
+      min-height: 100px;
+      padding: 17px;
+      border-radius: 18px;
+      box-shadow: none;
+    }
+    .feature-icon { width: 45px; height: 45px; border-radius: 13px; }
+    .more-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .more-card { display: flex; align-items: center; gap: 14px; width: 100%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-align: left; }
+    .more-card:hover { background: var(--surface-low); }
+    .more-card h3 { margin: 0; font-size: 16px; }
+    .more-card p { margin: 5px 0 0; color: var(--muted); font-size: 13px; line-height: 1.4; }
+    .group, .panel, .tool-card, .tool-hero, .result-summary, .saved-card, .notice, .empty-card { border-radius: 18px; box-shadow: none; }
+    .row { min-height: 78px; padding: 13px 15px; }
+    .row:hover { background: var(--surface-low); }
+    .badge { min-width: 40px; width: 40px; height: 40px; border-radius: 11px; }
+    .panel { border-radius: 24px; }
+    .btn { min-height: 44px; border-radius: 13px; }
+    .option { min-height: 52px; border-radius: 13px; }
+    .tabbar { display: none; }
+
+    @media (max-width: 840px) {
+      .app { display: block; max-width: 620px; }
+      main { padding: 0 18px calc(92px + env(safe-area-inset-bottom)); }
+      header { display: flex; padding-top: calc(16px + env(safe-area-inset-top)); }
+      header .summary { display: none; }
+      .header-account { display: grid; margin-left: auto; }
+      .search { order: 3; flex-basis: 100%; }
+      header:has(.search:not(.is-hidden)) { flex-wrap: wrap; }
+      aside { padding: 22px 16px; }
+      .tabbar {
+        position: fixed;
+        z-index: 45;
+        right: 12px;
+        bottom: calc(12px + env(safe-area-inset-bottom));
+        left: 12px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4px;
+        padding: 6px;
+        border: 1px solid var(--line);
+        border-radius: 19px;
+        background: rgba(255, 255, 255, .94);
+        box-shadow: 0 12px 34px rgba(17, 43, 70, .14);
+        backdrop-filter: blur(18px);
+      }
+      .tab {
+        display: flex;
+        min-width: 0;
+        min-height: 53px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3px;
+        border: 0;
+        border-radius: 14px;
+        background: transparent;
+        color: #7c8b98;
+      }
+      .tab .icon { font-size: 22px; }
+      .tab span:last-child { font-size: 10px; }
+      .tab.active { background: var(--primary-soft); color: #0d5145; font-weight: 750; }
+      body.clean-mode .tabbar { display: none; }
+      body.clean-mode main { padding: 16px 18px calc(24px + env(safe-area-inset-bottom)); }
+      .hero { padding: 22px; }
+      .home-stats { gap: 8px; }
+      .home-stat { padding: 13px; }
+      .home-stat strong { font-size: 22px; }
+      .home-stat span { font-size: 11px; }
+      .category-grid, .feature-grid, .more-grid { grid-template-columns: 1fr; }
+      .category-card { min-height: 178px; }
+      .dashboard-heading h2, .content-heading h2 { font-size: 22px; }
+    }
+
+    @media (max-width: 430px) {
+      main { padding-inline: 14px; }
+      #title { font-size: 19px; }
+      .hero h2 { font-size: 30px; }
+      .hero-actions .btn { width: 100%; }
+    }
   </style>
 </head>
 <body>
-  <div class="mobile-shellbar">
-    <button class="mobile-menu-button" type="button" onclick="openMobileSidebar()" aria-label="Ouvrir le menu">
-      <span class="icon">menu</span>
-    </button>
-    <img class="brand-logo" src="images/icon-192.png?v=resihub-20260626-3" alt="Logo RésiHub">
-    <div>
-      <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
-      <span>Résidanat Mauritanie</span>
-    </div>
-  </div>
   <button id="sidebarShade" class="sidebar-shade" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu"></button>
 
   <div class="app">
-    <aside id="mobileSidebar">
+    <aside id="mobileSidebar" aria-label="Navigation principale">
       <div class="brand">
-        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260626-3" alt="Logo RésiHub">
+        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260830-1" alt="Logo RésiHub">
         <div>
           <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
           <span>Résidanat Mauritanie</span>
@@ -794,10 +1005,9 @@
       </div>
       <nav>
         <button class="nav active" type="button" data-view="home"><span class="icon">home</span>Accueil</button>
-        <button class="nav" type="button" data-view="lectures"><span class="icon">menu_book</span>Lectures</button>
+        <button class="nav" type="button" data-view="lectures"><span class="icon">menu_book</span>Cours</button>
         <button class="nav" type="button" data-view="quiz"><span class="icon">quiz</span>Quiz</button>
-      <button class="nav" type="button" data-view="exam"><span class="icon">assignment</span>Examen</button>
-        <button class="nav" type="button" data-view="ai"><span class="icon">auto_awesome</span>Quiz IA</button>
+        <button class="nav" type="button" data-view="more"><span class="icon">grid_view</span>Plus</button>
       </nav>
       <div class="sidebar-actions">
         <button class="logout-button" type="button" onclick="portalLogout()"><span class="icon">logout</span>Deconnexion</button>
@@ -808,17 +1018,33 @@
       <header>
         <div>
           <p class="kicker">Mauritanie</p>
-          <h1 id="title">Résidanat Mauritanie</h1>
+          <h1 id="title">Accueil</h1>
           <p id="subtitle" class="summary">Votre espace de préparation, clair et organisé.</p>
         </div>
         <label id="searchWrap" class="search is-hidden">
           <span class="icon">search</span>
           <input id="search" type="search" placeholder="Rechercher..." aria-label="Rechercher dans la matière">
         </label>
+        <button class="header-account" type="button" onclick="openMobileSidebar()" aria-label="Ouvrir le compte et le menu">
+          <span class="icon">person</span>
+        </button>
       </header>
 
       <section id="home" class="view active">
         <div class="dashboard">
+          <div>
+            <div class="hero">
+              <p class="kicker">Votre espace de préparation</p>
+              <h2>Réviser avec méthode, progresser avec confiance.</h2>
+              <p>Un parcours clair pour les résidents : cours ciblés, QCM corrigés et entraînement régulier.</p>
+              <div class="hero-actions"><button class="btn" type="button" onclick="go('lectures')">Explorer les cours<span class="icon">arrow_forward</span></button></div>
+            </div>
+            <div class="stats home-stats" aria-label="Contenu disponible">
+              <div class="home-stat"><strong id="homeCourseTotal">0</strong><span>Cours disponibles</span></div>
+              <div class="home-stat"><strong id="homeQcmTotal">0</strong><span>QCM d’entraînement</span></div>
+              <div class="home-stat"><strong id="homeCategoryTotal">0</strong><span>Matières structurées</span></div>
+            </div>
+          </div>
           <div>
             <div class="dashboard-heading">
               <div>
@@ -853,18 +1079,34 @@
 
       <section id="exam" class="view"></section>
       <section id="ai" class="view"></section>
+      <section id="more" class="view">
+        <div class="dashboard-heading"><div><h2>Plus</h2><p>Les outils complémentaires de votre préparation.</p></div></div>
+        <div class="more-grid">
+          <button class="more-card" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM</h3><p>Simulation équilibrée de 90 minutes · par Dr Sena</p></span></button>
+          <button class="more-card" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>Créer 30 QCM depuis votre propre PDF</p></span></button>
+          <button class="more-card" type="button" onclick="go('lectures')"><span class="feature-icon"><span class="icon">download_for_offline</span></span><span><h3>Lecture hors ligne</h3><p>Retrouvez les cours déjà enregistrés sur votre appareil</p></span></button>
+          <button class="more-card" type="button" onclick="portalLogout()"><span class="feature-icon"><span class="icon">logout</span></span><span><h3>Se déconnecter</h3><p>Fermer la session sur cet appareil</p></span></button>
+        </div>
+      </section>
 
       <section id="reader" class="view reader-clean"></section>
       <section id="quizRunner" class="view reader-clean"></section>
     </main>
   </div>
 
+  <nav class="tabbar" aria-label="Navigation mobile">
+    <button class="tab active" type="button" data-view="home"><span class="icon">home</span><span>Accueil</span></button>
+    <button class="tab" type="button" data-view="lectures"><span class="icon">menu_book</span><span>Cours</span></button>
+    <button class="tab" type="button" data-view="quiz"><span class="icon">quiz</span><span>Quiz</span></button>
+    <button class="tab" type="button" data-view="more"><span class="icon">grid_view</span><span>Plus</span></button>
+  </nav>
+
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260829-7"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260829-7"></script>
+  <script src="js/study-tools.js?v=resihub-20260830-1"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260830-1"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUESTIONS_PER_QUIZ = 50;
@@ -975,6 +1217,9 @@
       $("categoryCards").innerHTML = categoryGroups()
         .map(([category, items]) => categoryCard(category, items))
         .join("");
+      $("homeCourseTotal").textContent = state.lectures.length.toLocaleString("fr-FR");
+      $("homeQcmTotal").textContent = (state.lectures.filter((item) => item.training).length * QUESTIONS_PER_QUIZ).toLocaleString("fr-FR");
+      $("homeCategoryTotal").textContent = categoryGroups().length.toLocaleString("fr-FR");
     }
 
     function renderContent(target, mode) {
@@ -1249,19 +1494,23 @@
     function go(view) {
       state.view = view;
       document.querySelectorAll(".view").forEach((node) => node.classList.toggle("active", node.id === view));
-      document.querySelectorAll(".nav").forEach((node) => node.classList.toggle("active",
-        node.dataset.view === view ||
-        (view === "reader" && node.dataset.view === "lectures") ||
-        (view === "quizRunner" && node.dataset.view === (state.session?.origin === "ai" ? "ai" : "quiz"))
-      ));
+      document.querySelectorAll(".nav, .tab").forEach((node) => {
+        const active = node.dataset.view === view ||
+          ((view === "exam" || view === "ai") && node.dataset.view === "more") ||
+          (view === "reader" && node.dataset.view === "lectures") ||
+          (view === "quizRunner" && node.dataset.view === (state.session?.origin === "ai" ? "more" : "quiz"));
+        node.classList.toggle("active", active);
+        active ? node.setAttribute("aria-current", "page") : node.removeAttribute("aria-current");
+      });
       document.body.classList.toggle("clean-mode", view === "reader" || view === "quizRunner");
       document.body.classList.toggle("home-mode", view === "home");
       const pages = {
-        home: ["Résidanat Mauritanie", "Votre espace de préparation, clair et organisé."],
-        lectures: ["Lectures", "Retrouvez les cours de la partie Mauritanie."],
+        home: ["Accueil", "Votre espace de préparation, clair et organisé."],
+        lectures: ["Cours", "Retrouvez les cours de la partie Mauritanie."],
         quiz: ["Quiz", "Entraînez-vous matière par matière."],
         exam: ["Examen", "60 QCM équilibrés avec un chronomètre de 90 minutes."],
-        ai: ["Quiz IA", "Transformez un PDF en série d’entraînement locale."]
+        ai: ["Quiz IA", "Transformez un PDF en série d’entraînement locale."],
+        more: ["Plus", "Les outils complémentaires de votre préparation."]
       };
       const page = pages[view] || pages.home;
       $("title").textContent = page[0];
@@ -1279,7 +1528,7 @@
       renderContent("quizList", "quiz");
     }
 
-    document.querySelectorAll(".nav").forEach((btn) => btn.addEventListener("click", () => {
+    document.querySelectorAll(".nav, .tab").forEach((btn) => btn.addEventListener("click", () => {
       state.activeCategory = null;
       state.query = "";
       $("search").value = "";
@@ -1299,7 +1548,7 @@
       state.source = data;
       state.lectures = flatten(data);
       render();
-      const initialView = ["#lectures", "#quiz", "#exam", "#ai"].includes(location.hash) ? location.hash.slice(1) : "home";
+      const initialView = ["#lectures", "#quiz", "#exam", "#ai", "#more"].includes(location.hash) ? location.hash.slice(1) : "home";
       go(initialView);
     }).catch(() => {
       $("categoryCards").innerHTML = `<div class="empty">Impossible de charger les contenus.</div>`;
