@@ -60,7 +60,7 @@ assert.equal((sourcePage.match(/Examen \(par Dr Sena\)/g) || []).length, 0);
 assert.doesNotMatch(sourcePage, /id="continueCard"|Continuer ma lecture/);
 assert.match(sourcePage, /id="homeCourseTotal"/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v36/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v37/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseSchema: ResiStudyTools\.geminiSchema/);
 assert.doesNotMatch(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseJsonSchema/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /Comment obtenir (?:ma|une) clé API Gemini/);
@@ -88,7 +88,7 @@ for (const page of ["login.html", "mobile_pdf_viewer.html"]) {
   const sourceFile = normalizeLines(fs.readFileSync(`./residanat-mauritania/${page}`, "utf8"));
   const deployFile = normalizeLines(fs.readFileSync(`./netlify-deploy/residanat-mauritania/${page}`, "utf8"));
   assert.equal(sourceFile, deployFile, `${page} source/deployment mismatch`);
-  assert.match(sourceFile, /mauritania-ui\.css\?v=resihub-20260830-2/);
+  assert.match(sourceFile, /mauritania-ui\.css\?v=resihub-20260831-1/);
   assert.doesNotMatch(sourceFile, /Material\+Symbols|fonts\.googleapis\.com/);
 }
 
@@ -96,6 +96,6 @@ assert.equal(
   normalizeLines(fs.readFileSync("./residanat-mauritania/css/mauritania-ui.css", "utf8")),
   normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/css/mauritania-ui.css", "utf8"))
 );
-assert.match(fs.readFileSync("./sw.js", "utf8"), /resihub-pwa-v33/);
+assert.match(fs.readFileSync("./sw.js", "utf8"), /resihub-pwa-v34/);
 
 console.log("Mauritania advanced feature checks passed.");

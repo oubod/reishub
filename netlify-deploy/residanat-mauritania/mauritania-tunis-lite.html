@@ -10,11 +10,11 @@
   <meta name="apple-mobile-web-app-title" content="RésiHub Mauritanie">
   <meta name="mobile-web-app-capable" content="yes">
   <title>RésiHub Mauritanie</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260830-2">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260830-2">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260830-2">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260830-2">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260830-2" data-sw="./sw.js?v=resihub-20260830-2"></script>
+  <link rel="manifest" href="manifest.json?v=resihub-20260831-1">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260831-1">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260831-1">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260831-1">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260831-1" data-sw="./sw.js?v=resihub-20260831-1"></script>
   <style>
     :root {
       --bg: #f7f4ec;
@@ -986,7 +986,7 @@
       .hero-actions .btn { width: 100%; }
     }
   </style>
-  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260830-2">
+  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260831-1">
 </head>
 <body class="mauritania-app">
   <button id="sidebarShade" class="sidebar-shade" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu"></button>
@@ -994,7 +994,7 @@
   <div class="app">
     <aside id="mobileSidebar" aria-label="Navigation principale">
       <div class="brand">
-        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260830-2" alt="Logo RésiHub">
+        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260831-1" alt="Logo RésiHub">
         <div>
           <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
           <span>Résidanat Mauritanie</span>
@@ -1017,7 +1017,7 @@
     <main>
       <header>
         <div class="mobile-app-brand">
-          <img src="images/icon-192.png?v=resihub-20260830-2" alt="Logo RésiHub">
+          <img src="images/icon-192.png?v=resihub-20260831-1" alt="Logo RésiHub">
           <div><strong><span>Rési</span>Hub</strong><small>Résidanat Mauritanie</small></div>
         </div>
         <div class="page-heading">
@@ -1109,13 +1109,14 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260830-2"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260830-2"></script>
+  <script src="js/study-tools.js?v=resihub-20260831-1"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260831-1"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
+    const QUIZ_SESSION_KEY = "resihubMauritaniaQuizSession";
     const QUESTIONS_PER_QUIZ = 50;
     let lectureQuizTimer = null;
-    const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null, exam: null };
+    const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null, resumeSession: null, exam: null };
     const $ = (id) => document.getElementById(id);
     const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     const ICON_PATHS = {
@@ -1261,6 +1262,7 @@
     function renderContent(target, mode) {
       if (!state.activeCategory) {
         $(target).innerHTML = `
+          ${mode === "quiz" && state.resumeSession ? quizResumeCard(state.resumeSession) : ""}
           <div class="dashboard-heading">
             <div>
               <h2>${mode === "quiz" ? "Quiz par matière" : "Cours par matière"}</h2>
@@ -1286,6 +1288,24 @@
           </div>
         </div>
         ${items.length ? `<section class="group focus-group">${items.map(mode === "quiz" ? quizRow : lectureRow).join("")}</section>` : `<div class="empty">Aucun résultat.</div>`}
+      `;
+    }
+
+    function quizResumeCard(snapshot) {
+      const total = snapshot.questions?.length || QUESTIONS_PER_QUIZ;
+      const answered = Object.keys(snapshot.results || {}).length;
+      return `
+        <section class="quiz-resume" aria-labelledby="quizResumeTitle">
+          <div>
+            <p class="kicker">Reprise enregistrée</p>
+            <h2 id="quizResumeTitle">Continuer votre quiz</h2>
+            <p>${esc(snapshot.item?.title || "Quiz sauvegardé")} · Question ${Math.min(snapshot.index + 1, total)} sur ${total} · ${answered} réponse${answered > 1 ? "s" : ""} enregistrée${answered > 1 ? "s" : ""}</p>
+          </div>
+          <div class="quiz-resume-actions">
+            <button class="btn primary" type="button" onclick="resumeSavedQuiz()">Continuer</button>
+            <button class="text-action" type="button" onclick="discardSavedQuiz()">Supprimer</button>
+          </div>
+        </section>
       `;
     }
 
@@ -1352,6 +1372,100 @@
       })).filter((question) => question.question && question.options.length);
     }
 
+    function quizSessionStorageKey() {
+      const userId = window.portalAuthUser?.id || (isGuestMode() ? "guest-mauritania" : "anonymous");
+      return `${QUIZ_SESSION_KEY}:${String(userId).replace(/[^a-z0-9_-]/gi, "_")}`;
+    }
+
+    function quizSessionSnapshot(s) {
+      return {
+        item: { id: s.item.id, title: s.item.title, category: s.item.category, training: s.item.training },
+        questions: s.questions,
+        index: s.index,
+        selected: [...(s.selected || [])],
+        selections: s.selections || {},
+        questionTimes: s.questionTimes || {},
+        results: s.results || {},
+        retrying: Boolean(s.retrying),
+        gridOpen: Boolean(s.gridOpen),
+        savedAt: Date.now()
+      };
+    }
+
+    function saveLectureQuizSession() {
+      const s = state.session;
+      if (!s || s.origin === "ai") return;
+      try {
+        const snapshot = quizSessionSnapshot(s);
+        localStorage.setItem(quizSessionStorageKey(), JSON.stringify(snapshot));
+        state.resumeSession = snapshot;
+      } catch {
+        // Local persistence is a convenience; quiz execution should continue if storage is unavailable.
+      }
+    }
+
+    function clearSavedLectureQuiz() {
+      try { localStorage.removeItem(quizSessionStorageKey()); } catch { /* ignore storage errors */ }
+      state.resumeSession = null;
+    }
+
+    function saveQuizDraft({ pause = false } = {}) {
+      const s = state.session;
+      if (!s) return;
+      s.questionTimes ||= {};
+      s.results ||= {};
+      s.selections ||= {};
+      s.selections[s.index] = [...(s.selected || [])];
+      if (pause && !s.checked && s.questionStartedAt) {
+        s.questionTimes[s.index] = (s.questionTimes[s.index] || 0) + Math.max(0, Math.round((Date.now() - s.questionStartedAt) / 1000));
+        s.questionStartedAt = null;
+      }
+      saveLectureQuizSession();
+    }
+
+    async function restoreSavedLectureQuiz() {
+      try { await window.portalAuthReady; } catch { /* auth redirects or guest mode may finish elsewhere */ }
+      let snapshot;
+      try { snapshot = JSON.parse(localStorage.getItem(quizSessionStorageKey()) || "null"); } catch { snapshot = null; }
+      if (!snapshot || snapshot.item?.id === undefined || !Array.isArray(snapshot.questions) || !snapshot.questions.length) return;
+      const item = findLecture(snapshot.item.id);
+      if (!item?.training || snapshot.index < 0 || snapshot.index >= snapshot.questions.length) {
+        clearSavedLectureQuiz();
+        return;
+      }
+      state.resumeSession = { ...snapshot, item };
+    }
+
+    function resumeSavedQuiz() {
+      const snapshot = state.resumeSession;
+      if (!snapshot) return;
+      const item = findLecture(snapshot.item?.id);
+      if (!item?.training || !Array.isArray(snapshot.questions) || !snapshot.questions.length) return clearSavedLectureQuiz();
+      state.activeCategory = item.category;
+      state.session = {
+        item,
+        questions: snapshot.questions,
+        index: snapshot.index,
+        selected: new Set(snapshot.selections?.[snapshot.index] || snapshot.selected || []),
+        selections: snapshot.selections || {},
+        checked: Boolean(snapshot.results?.[snapshot.index]),
+        score: Object.values(snapshot.results || {}).filter((result) => result?.correct).length,
+        questionStartedAt: null,
+        questionTimes: snapshot.questionTimes || {},
+        results: snapshot.results || {},
+        retrying: Boolean(snapshot.retrying),
+        gridOpen: snapshot.gridOpen
+      };
+      state.resumeSession = null;
+      go("quizRunner");
+      renderQuestion();
+    }
+
+    function discardSavedQuiz() {
+      clearSavedLectureQuiz();
+      render();
+    }
+
     async function startQuiz(id) {
       const item = findLecture(id);
       if (!item?.training) return;
@@ -1362,7 +1476,9 @@
       try {
         const payload = await readJson(item.training);
         const questions = normalizeQuestions(payload);
-        state.session = { item, questions, index: 0, selected: new Set(), checked: false, score: 0, questionStartedAt: Date.now(), questionTimes: {}, results: {}, retrying: false };
+        clearSavedLectureQuiz();
+        state.session = { item, questions, index: 0, selected: new Set(), selections: {}, checked: false, score: 0, questionStartedAt: Date.now(), questionTimes: {}, results: {}, retrying: false, gridOpen: undefined };
+        saveLectureQuizSession();
         renderQuestion();
       } catch {
         $("quizRunner").innerHTML = `<div class="session-shell"><div class="notice error" role="alert"><div><strong>Quiz indisponible</strong><p>Impossible de charger ce quiz. Vérifiez votre connexion puis réessayez.</p></div></div></div>`;
@@ -1382,7 +1498,7 @@
       const s = state.session;
       const timer = $("quizQuestionTimer");
       if (!s || s.checked || !s.questionStartedAt || !timer) return;
-      timer.textContent = formatLectureQuizTime(Math.round((Date.now() - s.questionStartedAt) / 1000));
+      timer.textContent = formatLectureQuizTime((s.questionTimes?.[s.index] || 0) + Math.round((Date.now() - s.questionStartedAt) / 1000));
     }
 
     function startLectureQuizTimer() {
@@ -1396,27 +1512,38 @@
       if (!s) return;
       s.questionTimes ||= {};
       s.results ||= {};
-      s.questionStartedAt ??= Date.now();
+      s.selections ||= {};
+      if (s.results[s.index]) {
+        s.checked = true;
+        s.selected = new Set(s.selections[s.index] || s.results[s.index].selected || []);
+        s.questionStartedAt = null;
+      } else {
+        s.checked = false;
+        s.selected = new Set(s.selections[s.index] || s.selected || []);
+        s.questionStartedAt ??= Date.now();
+      }
       const returnView = s.origin === "ai" ? "ai" : "quiz";
       const returnLabel = s.origin === "ai" ? "Retour aux séries IA" : "Retour aux quiz";
       if (s.index >= s.questions.length) {
         stopLectureQuizTimer();
+        if (s.origin !== "ai") clearSavedLectureQuiz();
         renderLectureQuizResults(s);
         return;
       }
       const q = s.questions[s.index];
-      const elapsed = s.questionTimes[s.index] || 0;
+      const elapsed = (s.questionTimes[s.index] || 0) + (!s.checked && s.questionStartedAt ? Math.round((Date.now() - s.questionStartedAt) / 1000) : 0);
       const progress = Math.round(((s.index + (s.checked ? 1 : 0)) / s.questions.length) * 100);
       const checkedResult = s.results[s.index];
       $("quizRunner").innerHTML = `
         <div class="session-shell">
           <div class="session-bar">
-            <button class="btn session-back" type="button" onclick="go('${returnView}')" aria-label="${esc(returnLabel)}">${icon("arrow_back")}<span class="button-label">Quitter</span></button>
+            <button class="btn session-back" type="button" onclick="leaveQuiz('${returnView}')" aria-label="${esc(returnLabel)}">${icon("arrow_back")}<span class="button-label">Quitter</span></button>
             <div class="session-title"><strong>${esc(s.item.title)}</strong><span>Question ${s.index + 1} sur ${s.questions.length}</span></div>
             <div class="session-meta"><strong id="quizQuestionTimer">${formatLectureQuizTime(elapsed)}</strong><span>Temps par QCM</span><small class="session-credit">Med khouna</small></div>
           </div>
           <div class="session-progress" role="progressbar" aria-label="Progression du quiz" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${progress}"><span style="width:${progress}%"></span></div>
           <div class="session-content">
+            ${quizQuestionGrid(s)}
             <p class="quiz-meta">${esc(s.item.title)}</p>
             <div class="question">${esc(q.question)}</div>
             <div class="options">${q.options.map((opt) => optionMarkup(opt)).join("")}</div>
@@ -1428,6 +1555,28 @@
         </div>
       `;
       if (!s.checked) startLectureQuizTimer();
+    }
+
+    function quizQuestionGrid(s) {
+      const open = s.gridOpen ?? !matchMedia("(max-width: 719px)").matches;
+      return `
+        <details class="quiz-navigation" ${open ? "open" : ""} ontoggle="if (state.session) { state.session.gridOpen = this.open; saveQuizDraft(); }">
+          <summary><span>Parcourir les ${s.questions.length} questions</span><small>Aller directement à une question</small></summary>
+          <div class="quiz-grid" role="navigation" aria-label="Navigation entre les questions">
+            ${s.questions.map((_, index) => quizGridButton(s, index)).join("")}
+          </div>
+          <div class="quiz-grid-legend" aria-label="Légende de la grille"><span><i class="grid-dot current"></i>Actuelle</span><span><i class="grid-dot saved"></i>Réponse enregistrée</span><span><i class="grid-dot correct"></i>Correcte</span><span><i class="grid-dot wrong"></i>À revoir</span></div>
+        </details>
+      `;
+    }
+
+    function quizGridButton(s, index) {
+      const result = s.results?.[index];
+      const selected = s.selections?.[index]?.length || (index === s.index && s.selected?.size);
+      const status = result ? (result.correct ? "correct" : "wrong") : selected ? "saved" : "empty";
+      const current = index === s.index ? " current" : "";
+      const label = result ? (result.correct ? "correcte" : "à revoir") : selected ? "réponse enregistrée" : "non répondue";
+      return `<button class="quiz-grid-button${current}" data-state="${status}" type="button" onclick="goToQuizQuestion(${index})" aria-label="Question ${index + 1}, ${label}" ${index === s.index ? 'aria-current="step"' : ""}>${index + 1}</button>`;
     }
 
     function answerLabels(q, ids) {
@@ -1446,7 +1595,7 @@
       $("quizRunner").innerHTML = `
         <div class="results-report">
           <div class="session-bar">
-            <button class="btn session-back" type="button" onclick="go('${returnView}')">${icon("arrow_back")}<span class="button-label">${returnLabel}</span></button>
+            <button class="btn session-back" type="button" onclick="leaveQuiz('${returnView}')">${icon("arrow_back")}<span class="button-label">${returnLabel}</span></button>
             <div class="session-title"><strong>${esc(s.item.title)}</strong><span>Rapport de session</span></div>
             <div></div>
           </div>
@@ -1488,7 +1637,9 @@
       s.questionStartedAt = Date.now();
       s.questionTimes = {};
       s.results = {};
+      s.selections = {};
       s.retrying = true;
+      saveQuizDraft();
       renderQuestion();
     }
 
@@ -1514,31 +1665,60 @@
       const s = state.session;
       if (!s || s.checked) return;
       s.selected.has(id) ? s.selected.delete(id) : s.selected.add(id);
+      saveQuizDraft();
       renderQuestion();
     }
 
     function checkAnswer() {
       const s = state.session;
       const q = s.questions[s.index];
+      if (!q) return;
+      s.questionTimes ||= {};
+      s.results ||= {};
+      s.selections ||= {};
       const correct = new Set(q.options.filter((opt) => opt.correct).map((opt) => opt.id));
       const ok = s.selected.size === correct.size && [...correct].every((id) => s.selected.has(id));
-      const elapsed = Math.max(0, Math.round((Date.now() - (s.questionStartedAt || Date.now())) / 1000));
+      const elapsed = (s.questionTimes[s.index] || 0) + Math.max(0, Math.round((Date.now() - (s.questionStartedAt || Date.now())) / 1000));
       s.questionTimes[s.index] = elapsed;
       s.results[s.index] = { correct: ok, selected: [...s.selected], elapsed };
+      s.selections[s.index] = [...s.selected];
       if (ok) s.score += 1;
       s.checked = true;
       s.questionStartedAt = null;
       stopLectureQuizTimer();
+      saveLectureQuizSession();
       renderQuestion();
     }
 
     function nextQuestion() {
       const s = state.session;
+      saveQuizDraft({ pause: true });
       s.index += 1;
-      s.selected = new Set();
+      s.selected = new Set(s.selections?.[s.index] || []);
       s.checked = false;
-      s.questionStartedAt = Date.now();
+      s.questionStartedAt = null;
+      saveLectureQuizSession();
       renderQuestion();
+    }
+
+    function goToQuizQuestion(index) {
+      const s = state.session;
+      if (!s || !Number.isInteger(index) || index < 0 || index >= s.questions.length || index === s.index) return;
+      saveQuizDraft({ pause: true });
+      s.index = index;
+      s.selected = new Set(s.selections?.[index] || s.results?.[index]?.selected || []);
+      s.checked = Boolean(s.results?.[index]);
+      s.questionStartedAt = null;
+      saveLectureQuizSession();
+      renderQuestion();
+      document.querySelector(".session-content")?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+    }
+
+    function leaveQuiz(view) {
+      if (state.session) saveQuizDraft({ pause: true });
+      stopLectureQuizTimer();
+      state.session = null;
+      go(view);
     }
 
     function chooseCategory(category, view) {
@@ -1615,9 +1795,11 @@
       if (event.key === "Escape") closeMobileSidebar();
     });
 
-    readJson("data/lectures.json").then((data) => {
+    readJson("data/lectures.json").then(async (data) => {
       state.source = data;
       state.lectures = flatten(data);
+      render();
+      await restoreSavedLectureQuiz();
       render();
       const initialView = ["#lectures", "#quiz", "#exam", "#ai", "#more"].includes(location.hash) ? location.hash.slice(1) : "home";
       go(initialView);

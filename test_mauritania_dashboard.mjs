@@ -14,7 +14,7 @@ const lectures = groups.flatMap(([, items]) => items);
 
 assert.equal(source, deploy, "source and deployment pages must stay identical");
 assert.equal(sourceWorker, deployWorker, "source and deployment service workers must stay identical");
-assert.match(sourceWorker, /resihub-mauritania-v36/, "cache version must refresh returning users");
+assert.match(sourceWorker, /resihub-mauritania-v37/, "cache version must refresh returning users");
 assert.equal(groups.length, 3, "only the three populated categories should be shown");
 assert.equal(lectures.length, 115, "lecture total should match the current dataset");
 assert.equal(lectures.filter((item) => item.training).length, 115, "quiz total should match the current dataset");
@@ -29,9 +29,13 @@ assert.match(source, /class="tabbar" aria-label="Navigation mobile"/);
 assert.match(source, /data-view="more"/);
 assert.match(source, /id="homeCourseTotal"/);
 assert.match(source, /Réviser avec méthode, progresser avec confiance/);
-assert.match(source, /css\/mauritania-ui\.css\?v=resihub-20260830-2/);
+assert.match(source, /css\/mauritania-ui\.css\?v=resihub-20260831-1/);
 assert.match(source, /class="mauritania-app"/);
 assert.match(source, /session-progress/);
+assert.match(source, /class="quiz-navigation"/);
+assert.match(source, /QUIZ_SESSION_KEY/);
+assert.match(source, /function restoreSavedLectureQuiz/);
+assert.match(source, /function goToQuizQuestion/);
 assert.doesNotMatch(source, /fonts\.googleapis\.com/);
 
 console.log("Mauritania dashboard wiring: ok");
