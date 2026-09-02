@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>Resihub AI - Clinical Board & Residency Platform</title>
+
+  <!-- Tailwind CSS, Lucide Icons, PDF.js & pdfMake -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.10/vfs_fonts.js"></script>
+
+  <style>
+    :root {
+      --ios-bg: #F8FAFC;
+      --ios-card: rgba(255, 255, 255, 0.96);
+      --ios-border: rgba(226, 232, 240, 0.85);
+      --brand-accent: #2563EB;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--ios-bg);
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .app-glass {
+      background: var(--ios-card);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--ios-border);
+    }
+    .action-pill {
+      box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.22);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .action-pill:active {
+      transform: scale(0.97);
+    }
+    .segmented-control {
+      background-color: rgba(241, 245, 249, 0.9);
+      border: 1px solid rgba(226, 232, 240, 0.8);
+      border-radius: 12px;
+      padding: 3px;
+    }
+    .segmented-btn.active {
+      background-color: #FFFFFF;
+      color: #0F172A;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+      font-weight: 700;
+    }
+    .academic-sheet {
+      background: #FFFFFF;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    }
+    /* Hide scrollbars for clean UI */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="min-h-screen text-slate-800 antialiased pb-28 sm:pb-12">
+
+  <!-- ==================== Header ==================== -->
+  <header class="sticky top-0 z-40 app-glass border-b border-slate-200/80 px-4 py-3 sm:px-6">
+    <div class="max-w-5xl mx-auto flex items-center justify-between">
+      
+      <!-- Brand Emblem -->
+      <div class="flex items-center space-x-3 cursor-pointer" onclick="switchTab('create')">
+        <div class="relative w-10 h-10 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 flex items-center justify-center text-white shadow-md border border-slate-700/40">
+          <i data-lucide="cross" class="w-5 h-5 text-blue-400"></i>
+          <span class="absolute -bottom-1 -right-1 w-3.5 h-3.5 bg-blue-500 rounded-full border-2 border-white flex items-center justify-center text-[7px] font-black text-white">✓</span>
+        </div>
+        <div>
+          <div class="flex items-center space-x-1.5">
+            <h1 class="text-base font-black tracking-tight text-slate-900 leading-tight">RESIHUB</h1>
+            <span class="text-[9px] uppercase tracking-wider font-extrabold bg-blue-50 text-blue-700 border border-blue-200/60 px-1.5 py-0.5 rounded-md">Medical AI</span>
+          </div>
+          <p class="text-[11px] font-medium text-slate-500" id="headerSubtitle">Board Exam & Protocol Synthesizer</p>
+        </div>
+      </div>
+
+      <!-- Desktop Navigation & Controls -->
+      <div class="flex items-center space-x-2">
+        <nav class="hidden md:flex items-center space-x-1 bg-slate-100/80 p-1 rounded-2xl border border-slate-200">
+          <button onclick="switchTab('create')" id="nav-tab-create" class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 bg-white text-slate-900 shadow-xs">
+            <i data-lucide="plus-circle" class="w-3.5 h-3.5 text-blue-600"></i>
+            <span id="tabCreateText">Create Exam</span>
+          </button>
+          <button onclick="switchTab('library')" id="nav-tab-library" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-slate-900 transition flex items-center space-x-1.5">
+            <i data-lucide="library" class="w-3.5 h-3.5"></i>
+            <span id="tabLibraryText">My Quizzes</span>
+            <span id="navVaultCountBadge" class="ml-1 text-[10px] bg-slate-200 text-slate-700 px-1.5 py-0.2 rounded-full font-bold">0</span>
+          </button>
+        </nav>
+
+        <!-- Language Switcher -->
+        <div class="segmented-control flex p-0.5 text-xs font-semibold">
+          <button id="langEnBtn" class="segmented-btn active px-2.5 py-1 rounded-lg transition">EN</button>
+          <button id="langFrBtn" class="segmented-btn px-2.5 py-1 rounded-lg transition">FR</button>
+        </div>
+
+        <!-- API Key Status -->
+        <button id="keyModalBtn" class="flex items-center space-x-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 transition">
+          <i data-lucide="key-round" class="w-3.5 h-3.5"></i>
+          <span id="keyStatusText">API Key</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== Main Content ==================== -->
+  <main class="max-w-5xl mx-auto px-4 pt-6 sm:px-6">
+
+    <!-- ==================== TAB 1: CREATE EXAM ==================== -->
+    <div id="view-create" class="space-y-6">
+      
+      <!-- Input / Upload Card -->
+      <div id="input-panel" class="app-glass rounded-3xl p-5 sm:p-7 shadow-xs">
+        
+        <!-- File Dropzone -->
+        <label for="pdfFileInput" id="dropZone" class="group relative flex flex-col items-center justify-center border-2 border-dashed border-slate-300 hover:border-blue-600 rounded-2xl p-6 sm:p-8 cursor-pointer bg-white/70 hover:bg-blue-50/40 transition duration-200">
+          <input type="file" id="pdfFileInput" accept="application/pdf" class="hidden" />
+          <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-3 group-hover:scale-105 transition shadow-xs border border-blue-100">
+            <i data-lucide="file-text" class="w-7 h-7"></i>
+          </div>
+          <p class="text-sm font-bold text-slate-900" id="fileLabel">Upload Medical PDF / Protocol</p>
+          <p class="text-xs text-slate-500 mt-1 text-center" id="fileSubLabel">Guidelines, residency courses, case files, pharmacology sheets</p>
+          
+          <div id="fileSelectedBadge" class="hidden mt-3 items-center space-x-2 bg-emerald-50 text-emerald-700 text-xs px-3 py-1.5 rounded-full border border-emerald-200">
+            <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+            <span id="selectedFileName" class="font-medium truncate max-w-[220px]">document.pdf</span>
+            <span id="extractedPageCount" class="text-[10px] bg-emerald-200/60 px-1.5 py-0.5 rounded font-bold"></span>
+          </div>
+        </label>
+
+        <!-- Exam Parameters Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-5">
+          
+          <!-- Number of Questions -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 ml-1" id="lblQuizLength">Quiz Length</label>
+            <div class="segmented-control grid grid-cols-3 gap-1 p-1">
+              <button type="button" class="segmented-btn py-2 text-xs font-medium rounded-lg count-btn" data-count="15">15 Qs</button>
+              <button type="button" class="segmented-btn active py-2 text-xs font-semibold rounded-lg count-btn" data-count="30">30 Qs</button>
+              <button type="button" class="segmented-btn py-2 text-xs font-medium rounded-lg count-btn" data-count="45">45 Qs</button>
+            </div>
+          </div>
+
+          <!-- Format Type -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 ml-1" id="lblQcmType">Format</label>
+            <div class="segmented-control grid grid-cols-3 gap-1 p-1">
+              <button type="button" class="segmented-btn py-2 text-[11px] font-medium rounded-lg type-btn" data-type="single">Single</button>
+              <button type="button" class="segmented-btn active py-2 text-[11px] font-semibold rounded-lg type-btn" data-type="multi">Multiple</button>
+              <button type="button" class="segmented-btn py-2 text-[11px] font-medium rounded-lg type-btn" data-type="mixed">Mixed</button>
+            </div>
+          </div>
+
+          <!-- Specialty / Target -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 ml-1" id="lblSpecialty">Specialty / Exam</label>
+            <input type="text" id="specialtyInput" placeholder="Cardiology, USMLE, EDN..." 
+                   class="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs rounded-xl px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition" />
+          </div>
+        </div>
+
+        <!-- Protocol & Guideline Notice -->
+        <div class="mt-4 p-3.5 rounded-2xl bg-blue-50/60 border border-blue-100 flex items-start space-x-2.5 text-slate-700 text-xs">
+          <i data-lucide="sparkles" class="w-4 h-4 text-blue-600 flex-shrink-0 mt-0.5"></i>
+          <div>
+            <span class="font-bold text-slate-900" id="infoTitle">Protocol & 2026 Guideline Synthesis:</span>
+            <span id="infoBody"> <strong>~75% of items</strong> test specific thresholds and facts directly from your PDF, and <strong>~25% of items</strong> challenge modern <strong>2026 clinical guidelines & therapeutics</strong>.</span>
+          </div>
+        </div>
+
+        <!-- Primary Generate Action -->
+        <button id="generateBtn" class="action-pill w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3.5 px-6 rounded-2xl flex items-center justify-center space-x-2 shadow-md transition">
+          <i data-lucide="play" class="w-4 h-4 fill-current"></i>
+          <span id="btnText">Generate Resihub Medical Exam</span>
+        </button>
+      </div>
+
+      <!-- ==================== Progress & Diagnostic Console ==================== -->
+      <div id="progress-panel" class="hidden py-6 space-y-4">
+        <div class="app-glass rounded-3xl p-6 sm:p-8 shadow-xs max-w-lg mx-auto text-center border border-slate-200">
+          <div class="relative w-12 h-12 mx-auto mb-4">
+            <div class="w-12 h-12 rounded-full border-3 border-slate-200 border-t-blue-600 animate-spin"></div>
+          </div>
+          <h3 class="text-base font-bold text-slate-900" id="progressStatus">Analyzing Medical Protocol...</h3>
+          <p class="text-xs text-slate-500 mt-1" id="progressSub">Extracting PDF text and synthesizing high-yield clinical items</p>
+
+          <div class="mt-5 text-left bg-slate-950 text-emerald-400 font-mono text-[11px] p-3.5 rounded-2xl space-y-1.5 max-h-36 overflow-y-auto" id="diagnosticLogs">
+            <div>> Initializing Resihub parser...</div>
+          </div>
+
+          <button id="cancelBtn" class="mt-4 text-xs font-semibold text-rose-600 hover:text-rose-700 transition">
+            Cancel Operation
+          </button>
+        </div>
+      </div>
+
+      <!-- ==================== Token Analytics Widget ==================== -->
+      <div id="token-analytics-card" class="hidden mb-4">
+        <div class="app-glass rounded-2xl p-4 border border-slate-200 shadow-xs flex flex-wrap items-center justify-between gap-3">
+          <div class="flex items-center space-x-3">
+            <div class="p-2 rounded-xl bg-blue-50 text-blue-600 border border-blue-100">
+              <i data-lucide="cpu" class="w-4 h-4"></i>
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900" id="tokenCardTitle">Resihub AI Core Token Metrics</h4>
+              <p class="text-[11px] text-slate-500">Official Rate: $0.30/1M In • $2.50/1M Out</p>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2 text-xs">
+            <div class="bg-slate-100 px-3 py-1.5 rounded-xl text-slate-700">
+              <span class="text-[10px] text-slate-400 uppercase font-semibold block">Input</span>
+              <span id="inputTokensVal" class="font-bold font-mono">0</span>
+            </div>
+            <div class="bg-slate-100 px-3 py-1.5 rounded-xl text-slate-700">
+              <span class="text-[10px] text-slate-400 uppercase font-semibold block">Output</span>
+              <span id="outputTokensVal" class="font-bold font-mono">0</span>
+            </div>
+            <div class="bg-emerald-50 border border-emerald-200 px-3 py-1.5 rounded-xl text-emerald-800">
+              <span class="text-[10px] text-emerald-600 uppercase font-bold block">Est. Cost</span>
+              <span id="estCostVal" class="font-bold font-mono">$0.00000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== Active Quiz Container ==================== -->
+      <div id="quiz-output-container" class="hidden">
+        
+        <!-- Action Toolbar -->
+        <div class="app-glass rounded-2xl p-3 mb-4 flex flex-wrap items-center justify-between gap-3 shadow-xs sticky top-16 z-30">
+          <div class="flex items-center space-x-2 flex-wrap gap-y-2">
+            
+            <!-- Download Single PDF -->
+            <button id="downloadPdfBtn" class="action-pill bg-slate-900 hover:bg-black text-white text-xs font-semibold px-4 py-2.5 rounded-xl flex items-center space-x-2 transition">
+              <i data-lucide="file-down" class="w-4 h-4"></i>
+              <span id="btnDownloadPdfText">Download A4 PDF</span>
+            </button>
+
+            <!-- Study Mode Toggle -->
+            <button id="interactiveToggleBtn" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3.5 py-2.5 rounded-xl flex items-center space-x-1.5 transition">
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+              <span id="toggleModeText">Study Mode (Interactive)</span>
+            </button>
+
+            <!-- Timed Exam Mode -->
+            <button id="examModeToggleBtn" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold px-3.5 py-2.5 rounded-xl flex items-center space-x-1.5 transition">
+              <i data-lucide="timer" class="w-3.5 h-3.5"></i>
+              <span id="examTimerBadge">Exam Simulation</span>
+            </button>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <button id="saveToVaultBtn" class="text-xs font-semibold text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-xl flex items-center space-x-1 transition">
+              <i data-lucide="bookmark-check" class="w-3.5 h-3.5"></i>
+              <span id="btnSavedText">Saved in Vault</span>
+            </button>
+            <button id="resetBtn" class="text-xs font-medium text-slate-500 hover:text-rose-600 px-2.5 py-2 flex items-center space-x-1">
+              <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
+              <span id="btnNewQuizText">New</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Timed Exam Score Board (When Exam Finalized) -->
+        <div id="examResultsScoreBoard" class="hidden mb-6 p-6 rounded-3xl bg-slate-900 text-white shadow-xl">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <span class="text-[10px] uppercase font-bold tracking-widest text-blue-400">Official Exam Result</span>
+              <h3 class="text-2xl font-black mt-1" id="examScoreTitle">Score: 28 / 30 (93.3%)</h3>
+              <p class="text-xs text-slate-400 mt-0.5" id="examScoreMeta">Time spent: 14m 22s • Board Threshold Passed</p>
+            </div>
+            <button onclick="retakeActiveQuiz()" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold transition">
+              Retake Exam
+            </button>
+          </div>
+        </div>
+
+        <!-- Paper Print Sheet Preview -->
+        <div class="academic-sheet rounded-3xl p-6 sm:p-10 border border-slate-200">
+          
+          <!-- Document Header -->
+          <header class="flex justify-between items-end border-b-2 border-slate-900 pb-3 mb-6">
+            <div>
+              <div class="flex items-center space-x-2">
+                <span class="text-xl font-black tracking-widest text-slate-950">RESIHUB</span>
+                <span class="text-[9px] uppercase tracking-wider bg-slate-900 text-white font-bold px-2 py-0.5 rounded">Residency Board Edition</span>
+              </div>
+              <h2 id="docSubject" class="text-base font-bold text-slate-800 mt-1 leading-snug">Medical Assessment</h2>
+              <p id="docMeta" class="text-[11px] text-slate-500 font-medium">Standardized Multiple Choice Questions</p>
+            </div>
+            <div class="text-right text-[10px] text-slate-500 space-y-0.5">
+              <p class="font-bold text-slate-800 uppercase">Resihub Academic Paper</p>
+              <p id="docDate">Date: 2026</p>
+              <p id="docTotalCount">Total: 30 Questions</p>
+            </div>
+          </header>
+
+          <!-- Section 1: Questions Container -->
+          <section id="questionsContainer" class="space-y-6"></section>
+
+          <!-- Submit Exam Button (Exam Mode) -->
+          <div id="submitExamSection" class="hidden my-8 p-6 bg-slate-50 rounded-2xl border border-slate-200 text-center">
+            <p class="text-xs text-slate-600 mb-3 font-medium">Ready to evaluate your clinical board performance?</p>
+            <button onclick="finalizeExamSimulation()" class="action-pill bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-6 py-3 rounded-xl transition">
+              Submit & Grade Examination
+            </button>
+          </div>
+
+          <!-- Section 2: Official Answer Key & Explanations -->
+          <section id="answersContainer" class="mt-12 pt-8 border-t-2 border-slate-900">
+            <div class="flex justify-between items-center border-b-2 border-slate-900 pb-2 mb-6">
+              <div>
+                <h3 class="text-base font-black tracking-wider text-slate-950 uppercase" id="answersSectionTitle">Official Answer Key & Rationales</h3>
+                <p class="text-[10px] text-slate-500 font-medium" id="answersSectionSub">Cross-verified with uploaded protocol and 2026 recommendations.</p>
+              </div>
+              <span class="text-[9px] font-bold text-slate-600 bg-slate-100 px-2 py-1 rounded">SECTION II</span>
+            </div>
+
+            <!-- Quick Reference Key Grid -->
+            <div class="mb-6 p-4 bg-slate-50 rounded-xl border border-slate-200">
+              <h4 class="text-xs font-bold text-slate-700 uppercase tracking-wider mb-2" id="quickKeyTitle">Quick Reference Key</h4>
+              <div id="quickKeyGrid" class="grid grid-cols-5 sm:grid-cols-10 gap-2 text-center text-xs font-mono font-bold text-slate-800"></div>
+            </div>
+
+            <!-- Detailed Rationales -->
+            <div id="rationalesList" class="space-y-4"></div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: MY QUIZZES VAULT & BUNDLER ==================== -->
+    <div id="view-library" class="hidden space-y-6">
+      
+      <!-- Vault Header & Controls -->
+      <div class="app-glass rounded-3xl p-5 sm:p-7 shadow-xs">
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+          <div>
+            <h2 class="text-lg font-black text-slate-900 tracking-tight" id="vaultHeading">My Quizzes & Exam Vault</h2>
+            <p class="text-xs text-slate-500" id="vaultSubHeading">Locally persistent clinical bank. Bundle multiple exams into one combined PDF booklet.</p>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button onclick="exportVaultJSON()" class="text-xs font-semibold px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl flex items-center space-x-1.5 transition">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i>
+              <span>Backup JSON</span>
+            </button>
+            <label for="importVaultInput" class="text-xs font-semibold px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl flex items-center space-x-1.5 cursor-pointer transition">
+              <i data-lucide="upload" class="w-3.5 h-3.5"></i>
+              <span>Import</span>
+              <input type="file" id="importVaultInput" accept="application/json" class="hidden" onchange="importVaultJSON(event)" />
+            </label>
+          </div>
+        </div>
+
+        <!-- Search & Filter Bar -->
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="relative flex-1 min-w-[200px]">
+            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3"></i>
+            <input type="text" id="vaultSearchInput" oninput="renderVaultList()" placeholder="Filter by specialty, topic, date..."
+                   class="w-full bg-slate-50 border border-slate-200 text-xs rounded-xl pl-9 pr-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition" />
+          </div>
+          <button onclick="toggleSelectAllVault()" class="text-xs font-semibold text-slate-700 px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 transition">
+            Select All / None
+          </button>
+        </div>
+      </div>
+
+      <!-- Pack & Bundle Action Banner -->
+      <div id="packActionBar" class="app-glass rounded-3xl p-5 border-2 border-blue-500/30 shadow-md bg-gradient-to-r from-blue-50/50 via-white to-indigo-50/50 flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-2xl bg-blue-600 text-white flex items-center justify-center font-black">
+            <i data-lucide="layers" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h4 class="text-xs font-black text-slate-900 uppercase tracking-wider" id="packTitleText">Multi-Quiz Pack Generator</h4>
+            <p class="text-[11px] text-slate-600" id="packSelectedCountText">0 exams selected for bundling</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-2 w-full sm:w-auto">
+          <input type="text" id="packNameInput" placeholder="Master Exam Booklet Name..." 
+                 class="bg-white border border-slate-300 text-xs rounded-xl px-3 py-2 flex-1 sm:w-64 focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+          <button onclick="generateBundledPdf()" id="btnGeneratePackPdf" class="action-pill bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2.5 rounded-xl flex items-center space-x-1.5 transition whitespace-nowrap">
+            <i data-lucide="file-down" class="w-4 h-4"></i>
+            <span>Export Pack PDF</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quizzes List Grid -->
+      <div id="vaultQuizzesGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+
+      <!-- Empty State -->
+      <div id="vaultEmptyState" class="hidden py-16 text-center app-glass rounded-3xl border border-slate-200">
+        <i data-lucide="inbox" class="w-12 h-12 text-slate-300 mx-auto mb-3"></i>
+        <h3 class="text-sm font-bold text-slate-700" id="emptyVaultTitle">No Quizzes in Vault</h3>
+        <p class="text-xs text-slate-400 mt-1" id="emptyVaultSub">Generate your first exam from a medical protocol to store it here.</p>
+        <button onclick="switchTab('create')" class="mt-4 px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold hover:bg-blue-700 transition">
+          Create Exam Now
+        </button>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ==================== Mobile Bottom Navigation ==================== -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 app-glass border-t border-slate-200 px-6 py-2 flex justify-around items-center">
+    <button onclick="switchTab('create')" id="mobile-tab-create" class="flex flex-col items-center text-blue-600">
+      <i data-lucide="plus-circle" class="w-5 h-5"></i>
+      <span class="text-[10px] font-bold mt-0.5" id="mobTabCreate">Create</span>
+    </button>
+    <button onclick="switchTab('library')" id="mobile-tab-library" class="flex flex-col items-center text-slate-400 relative">
+      <i data-lucide="library" class="w-5 h-5"></i>
+      <span class="text-[10px] font-semibold mt-0.5" id="mobTabVault">My Quizzes</span>
+      <span id="mobVaultBadge" class="absolute -top-1 -right-2 text-[9px] bg-blue-600 text-white rounded-full w-4 h-4 flex items-center justify-center font-bold">0</span>
+    </button>
+  </div>
+
+  <!-- ==================== API Key Modal ==================== -->
+  <div id="keyModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-sm hidden">
+    <div class="app-glass bg-white w-full max-w-md rounded-3xl p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 class="text-base font-bold text-slate-900">API Key</h3>
+        <button id="closeKeyModal" class="text-slate-400 hover:text-slate-600">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <p class="text-xs text-slate-500 leading-relaxed">
+        Enter your API key. Resihub connects securely with Gemini for high-speed clinical synthesis.
+      </p>
+      <div>
+        <input type="password" id="geminiApiKeyInput" placeholder="AIzaSy..." 
+               class="w-full bg-slate-100 border border-slate-200 text-slate-900 text-xs font-mono rounded-xl px-3.5 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      </div>
+      <button id="saveKeyBtn" class="w-full action-pill bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold py-3 rounded-xl transition">
+        Save & Activate
+      </button>
+    </div>
+  </div>
+
+  <!-- ==================== Logic Script ==================== -->
+  <script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    // Application State
+    let currentLang = 'en';
+    let currentTab = 'create';
+    let selectedQuestionCount = 30;
+    let selectedQuestionType = 'multi';
+    let extractedPdfText = "";
+    let activeQuizData = null;
+    let isStudyMode = false;
+    let isExamMode = false;
+    let examStartTime = null;
+    let examTimerInterval = null;
+    let userExamAnswers = {};
+    let abortController = null;
+    let selectedVaultIds = new Set();
+
+    const INPUT_PRICE_PER_M = 0.30;
+    const OUTPUT_PRICE_PER_M = 2.50;
+
+    const STORAGE_KEY_QUIZZES = 'resihub_quizzes_vault_v1';
+    const STORAGE_KEY_ACTIVE = 'resihub_active_exam_state';
+    const STORAGE_KEY_PDF_CACHE = 'resihub_cached_pdf_text';
+
+    const i18n = {
+      en: {
+        title: "RESIHUB",
+        sub: "Board Exam & Protocol Synthesizer",
+        uploadTitle: "Upload Medical PDF / Protocol",
+        uploadSub: "Guidelines, residency courses, case files, pharmacology sheets",
+        length: "Quiz Length",
+        qcmType: "Format",
+        single: "Single",
+        multi: "Multiple",
+        mixed: "Mixed",
+        specialty: "Specialty / Exam",
+        specialtyPlaceholder: "Cardiology, USMLE, EDN, Neurology...",
+        infoTitle: "Protocol & 2026 Guideline Synthesis:",
+        infoBody: " <strong>~75% of items</strong> test specific thresholds and facts directly from your PDF, and <strong>~25% of items</strong> challenge modern <strong>2026 clinical guidelines & therapeutics</strong>.",
+        generateBtn: "Generate Resihub Medical Exam",
+        downloadPdf: "Download A4 PDF",
+        studyMode: "Study Mode (Interactive)",
+        exitStudyMode: "Exit Study Mode",
+        newQuiz: "New",
+        answersTitle: "Official Answer Key & Rationales",
+        answersSub: "Cross-verified with uploaded protocol and 2026 recommendations.",
+        quickKey: "Quick Reference Key",
+        recoBadge: "2026 Reco",
+        sourceDoc: "PDF Source",
+        validateMulti: "Validate Answer",
+        correct: "Correct",
+        incorrect: "Incorrect",
+        tokenTitle: "Resihub AI Core Token Metrics",
+        tabCreate: "Create Exam",
+        tabVault: "My Quizzes",
+        vaultHeading: "My Quizzes & Exam Vault",
+        vaultSubHeading: "Locally persistent clinical bank. Bundle multiple exams into one combined PDF booklet.",
+        packTitle: "Multi-Quiz Pack Generator",
+        packSelected: "{n} exams selected for bundling",
+        emptyVault: "No Quizzes in Vault",
+        emptyVaultSub: "Generate your first exam from a medical protocol to store it here.",
+        examMode: "Exam Simulation",
+        finishExam: "Submit & Grade Exam"
+      },
+      fr: {
+        title: "RESIHUB",
+        sub: "Générateur d'Épreuves Médicales Universitaires",
+        uploadTitle: "Importer un PDF Médical / Protocole",
+        uploadSub: "Collèges des enseignants, conférences de consensus, cas cliniques",
+        length: "Nombre de Questions",
+        qcmType: "Format",
+        single: "QRU (Simple)",
+        multi: "QRM (Multiple)",
+        mixed: "Mixte",
+        specialty: "Spécialité / Concours",
+        specialtyPlaceholder: "Cardiologie, EDN / ECNi, Neurologie, R1...",
+        infoTitle: "Synthèse Protocolique IA :",
+        infoBody: " <strong>~75% des questions</strong> proviennent strictement de votre PDF, et <strong>~25% des questions</strong> testent les <strong>dernières recommandations cliniques 2026</strong>.",
+        generateBtn: "Générer l'Épreuve Resihub",
+        downloadPdf: "Télécharger le PDF A4",
+        studyMode: "Mode Entraînement (Interactif)",
+        exitStudyMode: "Quitter le Mode Entraînement",
+        newQuiz: "Nouveau",
+        answersTitle: "Grille Officielle des Réponses & Réfutations",
+        answersSub: "Conforme au document fourni et aux recommandations 2026.",
+        quickKey: "Grille Synthétique des Réponses",
+        recoBadge: "Recos 2026",
+        sourceDoc: "Issu du PDF",
+        validateMulti: "Valider ma réponse",
+        correct: "Bonne réponse",
+        incorrect: "Erreur",
+        tokenTitle: "Consommation Tokens Resihub AI",
+        tabCreate: "Créer une Épreuve",
+        tabVault: "Mes QCMs",
+        vaultHeading: "Banque & Historique des QCMs",
+        vaultSubHeading: "Stockage local persistant. Fusionnez plusieurs examens en un seul livret PDF A4.",
+        packTitle: "Générateur de Livret Multi-Épreuves",
+        packSelected: "{n} examens sélectionnés pour l'export",
+        emptyVault: "Aucun examen dans la banque",
+        emptyVaultSub: "Générez votre première épreuve à partir d'un PDF pour la retrouver ici.",
+        examMode: "Simulation Concours",
+        finishExam: "Valider & Noter l'Épreuve"
+      }
+    };
+
+    lucide.createIcons();
+
+    // ==================== Local Storage Persistence Engine ====================
+    function getStoredVault() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY_QUIZZES)) || [];
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function saveStoredVault(vault) {
+      localStorage.setItem(STORAGE_KEY_QUIZZES, JSON.stringify(vault));
+      updateVaultBadge();
+    }
+
+    function saveQuizToVault(quiz) {
+      if (!quiz || !quiz.id) return;
+      const vault = getStoredVault();
+      const existingIdx = vault.findIndex(q => q.id === quiz.id);
+      if (existingIdx >= 0) {
+        vault[existingIdx] = quiz;
+      } else {
+        vault.unshift(quiz);
+      }
+      saveStoredVault(vault);
+    }
+
+    function deleteQuizFromVault(quizId) {
+      let vault = getStoredVault();
+      vault = vault.filter(q => q.id !== quizId);
+      saveStoredVault(vault);
+      selectedVaultIds.delete(quizId);
+      renderVaultList();
+    }
+
+    function updateVaultBadge() {
+      const count = getStoredVault().length;
+      document.getElementById('navVaultCountBadge').textContent = count;
+      document.getElementById('mobVaultBadge').textContent = count;
+    }
+
+    // Restore Session on Startup
+    function restoreSession() {
+      try {
+        const cachedPdf = localStorage.getItem(STORAGE_KEY_PDF_CACHE);
+        if (cachedPdf) {
+          extractedPdfText = cachedPdf;
+          document.getElementById('fileLabel').textContent = currentLang === 'fr' ? "PDF Précédent Restauré" : "Previous PDF Restored";
+          document.getElementById('fileSelectedBadge').classList.remove('hidden');
+          document.getElementById('fileSelectedBadge').classList.add('flex');
+          document.getElementById('selectedFileName').textContent = "Cached_Protocol.pdf";
+          document.getElementById('extractedPageCount').textContent = "Ready";
+        }
+
+        const activeSaved = localStorage.getItem(STORAGE_KEY_ACTIVE);
+        if (activeSaved) {
+          const parsed = JSON.parse(activeSaved);
+          if (parsed && parsed.questions && parsed.questions.length > 0) {
+            activeQuizData = parsed;
+            renderQuizOutput(activeQuizData);
+            document.getElementById('quiz-output-container').classList.remove('hidden');
+          }
+        }
+      } catch (err) {
+        console.warn("Session restore note:", err);
+      }
+      updateVaultBadge();
+    }
+
+    // ==================== Navigation Tabs ====================
+    function switchTab(tab) {
+      currentTab = tab;
+      const viewCreate = document.getElementById('view-create');
+      const viewLibrary = document.getElementById('view-library');
+      
+      const navTabCreate = document.getElementById('nav-tab-create');
+      const navTabLib = document.getElementById('nav-tab-library');
+      const mobCreate = document.getElementById('mobile-tab-create');
+      const mobLib = document.getElementById('mobile-tab-library');
+
+      if (tab === 'create') {
+        viewCreate.classList.remove('hidden');
+        viewLibrary.classList.add('hidden');
+
+        navTabCreate.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 bg-white text-slate-900 shadow-xs";
+        navTabLib.className = "px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-slate-900 transition flex items-center space-x-1.5";
+
+        mobCreate.className = "flex flex-col items-center text-blue-600";
+        mobLib.className = "flex flex-col items-center text-slate-400 relative";
+      } else {
+        viewCreate.classList.add('hidden');
+        viewLibrary.classList.remove('hidden');
+
+        navTabLib.className = "px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center space-x-1.5 bg-white text-slate-900 shadow-xs";
+        navTabCreate.className = "px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-slate-900 transition flex items-center space-x-1.5";
+
+        mobLib.className = "flex flex-col items-center text-blue-600 relative";
+        mobCreate.className = "flex flex-col items-center text-slate-400";
+        
+        renderVaultList();
+      }
+      lucide.createIcons();
+    }
+
+    // ==================== Language Switching ====================
+    function applyLanguage(lang) {
+      currentLang = lang;
+      const dict = i18n[lang];
+
+      document.getElementById('headerSubtitle').textContent = dict.sub;
+      document.getElementById('lblQuizLength').textContent = dict.length;
+      document.getElementById('lblQcmType').textContent = dict.qcmType;
+      document.getElementById('lblSpecialty').textContent = dict.specialty;
+      document.getElementById('specialtyInput').placeholder = dict.specialtyPlaceholder;
+      document.getElementById('infoTitle').textContent = dict.infoTitle;
+      document.getElementById('infoBody').innerHTML = dict.infoBody;
+      document.getElementById('btnText').textContent = dict.generateBtn;
+      document.getElementById('btnDownloadPdfText').textContent = dict.downloadPdf;
+      document.getElementById('toggleModeText').textContent = isStudyMode ? dict.exitStudyMode : dict.studyMode;
+      document.getElementById('btnNewQuizText').textContent = dict.newQuiz;
+      document.getElementById('answersSectionTitle').textContent = dict.answersTitle;
+      document.getElementById('answersSectionSub').textContent = dict.answersSub;
+      document.getElementById('quickKeyTitle').textContent = dict.quickKey;
+      document.getElementById('tokenCardTitle').textContent = dict.tokenTitle;
+      document.getElementById('tabCreateText').textContent = dict.tabCreate;
+      document.getElementById('tabLibraryText').textContent = dict.tabVault;
+      document.getElementById('mobTabCreate').textContent = dict.tabCreate;
+      document.getElementById('mobTabVault').textContent = dict.tabVault;
+      document.getElementById('vaultHeading').textContent = dict.vaultHeading;
+      document.getElementById('vaultSubHeading').textContent = dict.vaultSubHeading;
+      document.getElementById('packTitleText').textContent = dict.packTitle;
+      document.getElementById('emptyVaultTitle').textContent = dict.emptyVault;
+      document.getElementById('emptyVaultSub').textContent = dict.emptyVaultSub;
+
+      if (!extractedPdfText) {
+        document.getElementById('fileLabel').textContent = dict.uploadTitle;
+        document.getElementById('fileSubLabel').textContent = dict.uploadSub;
+      }
+
+      const typeBtns = document.querySelectorAll('.type-btn');
+      typeBtns[0].textContent = dict.single;
+      typeBtns[1].textContent = dict.multi;
+      typeBtns[2].textContent = dict.mixed;
+
+      if (lang === 'en') {
+        document.getElementById('langEnBtn').classList.add('active');
+        document.getElementById('langFrBtn').classList.remove('active');
+      } else {
+        document.getElementById('langFrBtn').classList.add('active');
+        document.getElementById('langEnBtn').classList.remove('active');
+      }
+
+      updatePackBannerText();
+      if (activeQuizData) renderQuizOutput(activeQuizData);
+    }
+
+    document.getElementById('langEnBtn').onclick = () => applyLanguage('en');
+    document.getElementById('langFrBtn').onclick = () => applyLanguage('fr');
+
+    // ==================== API Key Modal ====================
+    const keyStatusText = document.getElementById('keyStatusText');
+    const geminiKeyInput = document.getElementById('geminiApiKeyInput');
+    const keyModal = document.getElementById('keyModal');
+
+    function checkKey() {
+      const key = localStorage.getItem('resihub_gemini_key') || '';
+      if (key) {
+        keyStatusText.textContent = "Key Active";
+        keyStatusText.parentElement.className = "flex items-center space-x-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 transition";
+      } else {
+        keyStatusText.textContent = "API Key";
+        keyStatusText.parentElement.className = "flex items-center space-x-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-slate-100 text-slate-700 transition";
+      }
+    }
+    checkKey();
+
+    document.getElementById('keyModalBtn').onclick = () => {
+      geminiKeyInput.value = localStorage.getItem('resihub_gemini_key') || '';
+      keyModal.classList.remove('hidden');
+    };
+    document.getElementById('closeKeyModal').onclick = () => keyModal.classList.add('hidden');
+    document.getElementById('saveKeyBtn').onclick = () => {
+      const val = geminiKeyInput.value.trim();
+      if (val) {
+        localStorage.setItem('resihub_gemini_key', val);
+        checkKey();
+        keyModal.classList.add('hidden');
+      }
+    };
+
+    // Button Selectors
+    document.querySelectorAll('.count-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        document.querySelectorAll('.count-btn').forEach(b => b.classList.remove('active', 'font-semibold'));
+        e.currentTarget.classList.add('active', 'font-semibold');
+        selectedQuestionCount = parseInt(e.currentTarget.dataset.count, 10);
+      });
+    });
+
+    document.querySelectorAll('.type-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active', 'font-semibold'));
+        e.currentTarget.classList.add('active', 'font-semibold');
+        selectedQuestionType = e.currentTarget.dataset.type;
+      });
+    });
+
+    function logStep(msg) {
+      const logs = document.getElementById('diagnosticLogs');
+      const item = document.createElement('div');
+      item.textContent = `> ${msg}`;
+      logs.appendChild(item);
+      logs.scrollTop = logs.scrollHeight;
+    }
+
+    // ==================== PDF Extraction ====================
+    const pdfFileInput = document.getElementById('pdfFileInput');
+    pdfFileInput.addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      document.getElementById('fileLabel').textContent = currentLang === 'fr' ? "Extraction du PDF..." : "Extracting PDF...";
+      document.getElementById('selectedFileName').textContent = file.name;
+
+      try {
+        const arrayBuffer = await file.arrayBuffer();
+        const loadingTask = pdfjsLib.getDocument({ data: arrayBuffer });
+        const pdf = await loadingTask.promise;
+        let fullText = "";
+        
+        for (let i = 1; i <= pdf.numPages; i++) {
+          const page = await pdf.getPage(i);
+          const textContent = await page.getTextContent();
+          const pageText = textContent.items.map(item => item.str).join(' ');
+          fullText += `\n--- [Page ${i}] ---\n` + pageText;
+        }
+
+        extractedPdfText = fullText.trim();
+        localStorage.setItem(STORAGE_KEY_PDF_CACHE, extractedPdfText);
+        
+        document.getElementById('fileLabel').textContent = currentLang === 'fr' ? "PDF Chargé & Sauvegardé" : "PDF Loaded & Cached";
+        document.getElementById('fileSelectedBadge').classList.remove('hidden');
+        document.getElementById('fileSelectedBadge').classList.add('flex');
+        document.getElementById('extractedPageCount').textContent = `${pdf.numPages} Pages`;
+      } catch (err) {
+        console.error(err);
+        alert((currentLang === 'fr' ? "Erreur d'analyse PDF: " : "Failed to parse PDF: ") + err.message);
+        document.getElementById('fileLabel').textContent = i18n[currentLang].uploadTitle;
+      }
+    });
+
+    // ==================== Generation Pipeline ====================
+    document.getElementById('generateBtn').addEventListener('click', async () => {
+      const apiKey = localStorage.getItem('resihub_gemini_key');
+      if (!apiKey) {
+        keyModal.classList.remove('hidden');
+        return;
+      }
+
+      if (!extractedPdfText) {
+        alert(currentLang === 'fr' ? "Veuillez charger un fichier PDF médical." : "Please upload a medical PDF first.");
+        return;
+      }
+
+      const specialty = document.getElementById('specialtyInput').value.trim() || (currentLang === 'fr' ? 'Concours de Médecine / R1' : 'Medical Residency Examination');
+      
+      document.getElementById('input-panel').classList.add('hidden');
+      document.getElementById('progress-panel').classList.remove('hidden');
+      document.getElementById('diagnosticLogs').innerHTML = '';
+      
+      logStep(`Language: ${currentLang.toUpperCase()} | Qty: ${selectedQuestionCount} | Mode: ${selectedQuestionType.toUpperCase()}`);
+      logStep(`Target Specialty: ${specialty}`);
+
+      abortController = new AbortController();
+
+      try {
+        await executeGeneration(apiKey, specialty);
+      } catch (error) {
+        if (error.name === 'AbortError') {
+          logStep("Operation cancelled by user.");
+        } else {
+          logStep(`ERROR: ${error.message}`);
+          alert(`Error: ${error.message}`);
+        }
+        document.getElementById('progress-panel').classList.add('hidden');
+        document.getElementById('input-panel').classList.remove('hidden');
+      }
+    });
+
+    document.getElementById('cancelBtn').addEventListener('click', () => {
+      if (abortController) abortController.abort();
+    });
+
+    async function executeGeneration(apiKey, specialty) {
+      const modelsToTry = [
+        "gemini-2.5-flash",
+        "gemini-2.0-flash",
+        "gemini-1.5-flash"
+      ];
+
+      let lastError = null;
+
+      for (const model of modelsToTry) {
+        try {
+          logStep(`Connecting to AI Engine (${model})...`);
+          document.getElementById('progressStatus').textContent = `Synthesizing ${selectedQuestionCount} High-Yield Items...`;
+
+          const result = await callGeminiAPI(apiKey, model, specialty, abortController.signal);
+          
+          logStep(`Success! Processing examination payload...`);
+          
+          // Generate unique ID and metadata
+          const generatedQuiz = {
+            id: 'quiz_' + Date.now() + '_' + Math.random().toString(36).substring(2, 7),
+            createdAt: new Date().toISOString(),
+            subject: result.quiz.subject || `${specialty} Clinical Exam`,
+            specialty: result.quiz.specialty || specialty,
+            language: currentLang,
+            questions: result.quiz.questions,
+            tokenUsage: result.usageMetadata
+          };
+
+          activeQuizData = generatedQuiz;
+          localStorage.setItem(STORAGE_KEY_ACTIVE, JSON.stringify(activeQuizData));
+          saveQuizToVault(activeQuizData);
+
+          renderTokensAndCost(result.usageMetadata);
+          renderQuizOutput(activeQuizData);
+
+          document.getElementById('progress-panel').classList.add('hidden');
+          document.getElementById('token-analytics-card').classList.remove('hidden');
+          document.getElementById('quiz-output-container').classList.remove('hidden');
+          lucide.createIcons();
+          return;
+        } catch (err) {
+          console.warn(`Attempt with ${model} failed:`, err);
+          lastError = err;
+          logStep(`Notice: Routing fallback engine...`);
+        }
+      }
+
+      throw lastError || new Error("Generation failed. Please verify your API key and connection.");
+    }
+
+    async function callGeminiAPI(apiKey, model, specialty, signal) {
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+
+      const pdfCount = Math.round(selectedQuestionCount * 0.75);
+      const recoCount = selectedQuestionCount - pdfCount;
+
+      const promptLangGuide = currentLang === 'fr' 
+        ? `RÉDIGE STRICTEMENT EN FRANÇAIS MÉDICAL ACADÉMIQUE DE HAUT NIVEAU (format EDN/ECNi/Concours d'Internat).`
+        : `WRITE STRICTLY IN HIGH-LEVEL ACADEMIC MEDICAL ENGLISH (USMLE Step 2/3 / Specialty Board standard).`;
+
+      const qTypeGuide = {
+        single: "Every single question must have EXACTLY ONE correct answer (e.g. correct_answers: [\"B\"]).",
+        multi: "Every question is a Multiple Choice Question (QRM) with 1 to 5 correct answers (e.g. correct_answers: [\"A\", \"C\", \"E\"]).",
+        mixed: "Mix of Single best answer questions (correct_answers: [\"A\"]) and Multiple answers questions (e.g. correct_answers: [\"A\", \"D\"])."
+      }[selectedQuestionType];
+
+      const promptText = `
+You are a senior medical university board examiner and guideline committee director.
+${promptLangGuide}
+
+TASK:
+Create a rigorous ${selectedQuestionCount}-question exam based on the provided document and the latest 2026 clinical guidelines in ${specialty}.
+
+CRITICAL DISTRIBUTION:
+1. Exactly ${pdfCount} questions MUST come directly from the uploaded DOCUMENT CONTENT (details, diagnostic thresholds, contraindications, clinical cases).
+2. Exactly ${recoCount} questions MUST test NEW 2026 clinical guideline recommendations and recent therapeutics in ${specialty}.
+3. Question Type Rule: ${qTypeGuide}
+4. For questions derived from 2026 updates, set "is_2026_update": true and put the guideline name in "source_ref". For document questions, set "is_2026_update": false and mention the section in "source_ref".
+
+JSON OUTPUT SCHEMA ONLY (NO markdown wrappers):
+{
+  "subject": "Concise Examination Title",
+  "specialty": "${specialty}",
+  "questions": [
+    {
+      "id": 1,
+      "is_2026_update": false,
+      "is_multiple_choice": true,
+      "stem": "Detailed clinical case vignette...",
+      "options": {
+        "A": "First clinical proposition",
+        "B": "Second clinical proposition",
+        "C": "Third clinical proposition",
+        "D": "Fourth clinical proposition",
+        "E": "Fifth clinical proposition"
+      },
+      "correct_answers": ["A", "C"],
+      "explanation": "Comprehensive clinical justification explaining why choices A and C are correct, and why distractors B, D, and E are false based on protocol.",
+      "source_ref": "Document Section or 2026 Clinical Guideline"
+    }
+  ]
+}
+
+DOCUMENT CONTENT:
+${extractedPdfText.slice(0, 160000)}
+`;
+
+      const requestBody = {
+        contents: [{ role: "user", parts: [{ text: promptText }] }],
+        generationConfig: {
+          responseMimeType: "application/json",
+          temperature: 0.15
+        }
+      };
+
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody),
+        signal
+      });
+
+      if (!response.ok) {
+        const errJson = await response.json().catch(() => ({}));
+        throw new Error(errJson?.error?.message || `HTTP ${response.status} ${response.statusText}`);
+      }
+
+      const resData = await response.json();
+      const rawText = resData?.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!rawText) throw new Error("Empty candidate received.");
+
+      let cleanJson = rawText.trim();
+      if (cleanJson.startsWith("```json")) {
+        cleanJson = cleanJson.replace(/^```json\s*/, "").replace(/\s*```$/, "");
+      } else if (cleanJson.startsWith("```")) {
+        cleanJson = cleanJson.replace(/^```\s*/, "").replace(/\s*```$/, "");
+      }
+
+      const parsedQuiz = JSON.parse(cleanJson);
+      return {
+        quiz: parsedQuiz,
+        usageMetadata: resData.usageMetadata || { promptTokenCount: 0, candidatesTokenCount: 0, totalTokenCount: 0 }
+      };
+    }
+
+    function renderTokensAndCost(usage) {
+      const inTokens = usage.promptTokenCount || 0;
+      const outTokens = usage.candidatesTokenCount || 0;
+      const totalCost = ((inTokens / 1_000_000) * INPUT_PRICE_PER_M) + ((outTokens / 1_000_000) * OUTPUT_PRICE_PER_M);
+
+      document.getElementById('inputTokensVal').textContent = inTokens.toLocaleString();
+      document.getElementById('outputTokensVal').textContent = outTokens.toLocaleString();
+      document.getElementById('estCostVal').textContent = `$${totalCost.toFixed(5)}`;
+    }
+
+    // ==================== Render Active Quiz ====================
+    function renderQuizOutput(data) {
+      if (!data || !data.questions) return;
+      const dict = i18n[currentLang];
+
+      document.getElementById('docSubject').textContent = data.subject || 'Medical Assessment';
+      document.getElementById('docMeta').textContent = `${data.specialty || 'General Medicine'} • ${data.questions.length} Items • Resihub Medical Standard`;
+      document.getElementById('docDate').textContent = `Date: ${new Date(data.createdAt || Date.now()).toLocaleDateString(currentLang === 'fr' ? 'fr-FR' : 'en-US')}`;
+      document.getElementById('docTotalCount').textContent = `Total: ${data.questions.length} Qs`;
+
+      const questionsContainer = document.getElementById('questionsContainer');
+      const quickKeyGrid = document.getElementById('quickKeyGrid');
+      const rationalesList = document.getElementById('rationalesList');
+
+      questionsContainer.innerHTML = '';
+      quickKeyGrid.innerHTML = '';
+      rationalesList.innerHTML = '';
+
+      data.questions.forEach((q, idx) => {
+        const qNum = idx + 1;
+        const correctArray = Array.isArray(q.correct_answers) ? q.correct_answers : [q.correct_answer || 'A'];
+        const isMulti = correctArray.length > 1 || q.is_multiple_choice;
+
+        const qCard = document.createElement('div');
+        qCard.className = 'border-b border-slate-200 pb-5 mb-5';
+        qCard.id = `q-card-${qNum}`;
+
+        let optionsHtml = '';
+        Object.entries(q.options || {}).forEach(([optKey, optVal]) => {
+          optionsHtml += `
+            <label class="flex items-start space-x-2.5 py-2 px-3 rounded-xl cursor-pointer hover:bg-slate-50 transition border border-transparent has-[:checked]:bg-blue-50/60 has-[:checked]:border-blue-200">
+              <input type="${isMulti ? 'checkbox' : 'radio'}" name="question-${qNum}" value="${optKey}" 
+                     class="mt-1 h-4 w-4 rounded text-blue-600 focus:ring-blue-500 border-slate-300 option-input-${qNum}" />
+              <div class="text-xs leading-relaxed text-slate-800">
+                <strong class="text-slate-950 font-bold mr-1.5">${optKey}.</strong>${optVal}
+              </div>
+            </label>
+          `;
+        });
+
+        const recoBadge = q.is_2026_update 
+          ? `<span class="inline-flex items-center text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+              <i data-lucide="sparkles" class="w-3 h-3 mr-1"></i> ${dict.recoBadge}
+             </span>`
+          : `<span class="text-[10px] font-semibold text-slate-400 bg-slate-100 px-2 py-0.5 rounded-md">${dict.sourceDoc}</span>`;
+
+        const typeBadge = `<span class="text-[9px] uppercase font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-600">${isMulti ? (currentLang === 'fr' ? 'QRM' : 'Multi') : (currentLang === 'fr' ? 'QRU' : 'Single')}</span>`;
+
+        qCard.innerHTML = `
+          <div class="flex items-center justify-between gap-2 mb-2">
+            <div class="flex items-center space-x-2">
+              <span class="text-xs font-bold bg-slate-900 text-white rounded-md px-2 py-0.5">${qNum}</span>
+              ${typeBadge}
+              <span class="text-[11px] font-medium text-slate-500 truncate max-w-[200px]">${q.source_ref || ''}</span>
+            </div>
+            ${recoBadge}
+          </div>
+          <p class="text-[13px] font-semibold text-slate-900 mb-3 leading-relaxed">${q.stem}</p>
+          <div class="space-y-1">${optionsHtml}</div>
+          
+          <div class="mt-3 flex items-center space-x-2 study-action-bar hidden" id="study-bar-${qNum}">
+            <button onclick="checkAnswer(${qNum})" class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition">
+              ${dict.validateMulti}
+            </button>
+            <div id="inline-feedback-${qNum}" class="text-xs font-medium px-3 py-1.5 rounded-lg hidden"></div>
+          </div>
+        `;
+        questionsContainer.appendChild(qCard);
+
+        // Quick Reference Box
+        const keyBox = document.createElement('div');
+        keyBox.className = 'p-2 bg-white border border-slate-200 rounded-lg text-center shadow-xs';
+        keyBox.innerHTML = `<span class="text-slate-400 font-sans text-[10px] block">${qNum}</span><span class="text-blue-700 font-black">${correctArray.join(', ')}</span>`;
+        quickKeyGrid.appendChild(keyBox);
+
+        // Rationale Card
+        const expCard = document.createElement('div');
+        expCard.className = 'rounded-2xl p-4 bg-slate-50 border-l-4 border-slate-900 border border-slate-200';
+        expCard.innerHTML = `
+          <div class="flex items-center justify-between mb-1.5">
+            <div class="flex items-center space-x-2">
+              <span class="font-black text-slate-950 text-xs">Question ${qNum}</span>
+              <span class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">Answer: ${correctArray.join(', ')}</span>
+            </div>
+            ${q.is_2026_update ? '<span class="text-[9px] font-bold text-blue-700 bg-blue-50 border border-blue-200 px-1.5 py-0.5 rounded">2026 Reco</span>' : ''}
+          </div>
+          <p class="text-xs text-slate-700 leading-relaxed">${q.explanation}</p>
+          <p class="text-[10px] text-slate-400 mt-2 font-medium">Source / Reference: ${q.source_ref || 'Resihub Core Protocol'}</p>
+        `;
+        rationalesList.appendChild(expCard);
+      });
+
+      lucide.createIcons();
+    }
+
+    // ==================== Interactive & Exam Modes ====================
+    window.checkAnswer = function(qNum) {
+      if (!activeQuizData) return;
+      const q = activeQuizData.questions[qNum - 1];
+      const correctArray = (Array.isArray(q.correct_answers) ? q.correct_answers : [q.correct_answer || 'A']).map(s => s.trim().toUpperCase());
+      
+      const inputs = document.querySelectorAll(`.option-input-${qNum}:checked`);
+      const selected = Array.from(inputs).map(i => i.value.trim().toUpperCase());
+
+      const feedbackEl = document.getElementById(`inline-feedback-${qNum}`);
+      feedbackEl.classList.remove('hidden', 'bg-emerald-50', 'text-emerald-800', 'bg-rose-50', 'text-rose-800');
+
+      const isExactMatch = correctArray.length === selected.length && correctArray.every(val => selected.includes(val));
+
+      if (isExactMatch) {
+        feedbackEl.classList.add('bg-emerald-50', 'text-emerald-800');
+        feedbackEl.innerHTML = `✓ <strong>${i18n[currentLang].correct} (${correctArray.join(', ')})</strong>`;
+      } else {
+        feedbackEl.classList.add('bg-rose-50', 'text-rose-800');
+        feedbackEl.innerHTML = `✗ <strong>${i18n[currentLang].incorrect}.</strong> Correct: <strong>${correctArray.join(', ')}</strong>`;
+      }
+    };
+
+    document.getElementById('interactiveToggleBtn').addEventListener('click', () => {
+      isStudyMode = !isStudyMode;
+      const textSpan = document.getElementById('toggleModeText');
+      const dict = i18n[currentLang];
+      
+      if (isStudyMode) {
+        textSpan.textContent = dict.exitStudyMode;
+        document.querySelectorAll('.study-action-bar').forEach(el => el.classList.remove('hidden'));
+      } else {
+        textSpan.textContent = dict.studyMode;
+        document.querySelectorAll('.study-action-bar').forEach(el => el.classList.add('hidden'));
+      }
+    });
+
+    document.getElementById('examModeToggleBtn').addEventListener('click', () => {
+      isExamMode = !isExamMode;
+      const badge = document.getElementById('examTimerBadge');
+      const submitSec = document.getElementById('submitExamSection');
+      const answersSec = document.getElementById('answersContainer');
+
+      if (isExamMode) {
+        examStartTime = Date.now();
+        badge.innerHTML = `<span class="animate-pulse text-rose-600 font-bold">● 00:00</span>`;
+        submitSec.classList.remove('hidden');
+        answersSec.classList.add('hidden'); // hide answers during exam
+
+        clearInterval(examTimerInterval);
+        examTimerInterval = setInterval(() => {
+          const diff = Math.floor((Date.now() - examStartTime) / 1000);
+          const mins = String(Math.floor(diff / 60)).padStart(2, '0');
+          const secs = String(diff % 60).padStart(2, '0');
+          badge.innerHTML = `<span class="animate-pulse text-rose-600 font-bold">● ${mins}:${secs}</span>`;
+        }, 1000);
+      } else {
+        clearInterval(examTimerInterval);
+        badge.textContent = i18n[currentLang].examMode;
+        submitSec.classList.add('hidden');
+        answersSec.classList.remove('hidden');
+      }
+    });
+
+    window.finalizeExamSimulation = function() {
+      if (!activeQuizData) return;
+      clearInterval(examTimerInterval);
+      
+      let correctScore = 0;
+      const total = activeQuizData.questions.length;
+
+      activeQuizData.questions.forEach((q, idx) => {
+        const qNum = idx + 1;
+        const correctArray = (Array.isArray(q.correct_answers) ? q.correct_answers : [q.correct_answer || 'A']).map(s => s.trim().toUpperCase());
+        const inputs = document.querySelectorAll(`.option-input-${qNum}:checked`);
+        const selected = Array.from(inputs).map(i => i.value.trim().toUpperCase());
+
+        const isExactMatch = correctArray.length === selected.length && correctArray.every(val => selected.includes(val));
+        if (isExactMatch) correctScore++;
+      });
+
+      const percentage = ((correctScore / total) * 100).toFixed(1);
+      const timeSpentSec = Math.floor((Date.now() - examStartTime) / 1000);
+      const timeSpentMins = Math.floor(timeSpentSec / 60);
+
+      document.getElementById('examScoreTitle').textContent = `Score: ${correctScore} / ${total} (${percentage}%)`;
+      document.getElementById('examScoreMeta').textContent = `Completed in ${timeSpentMins}m ${timeSpentSec % 60}s • ${percentage >= 70 ? 'Pass (Residency Rank Eligible)' : 'Review Recommended'}`;
+      
+      document.getElementById('examResultsScoreBoard').classList.remove('hidden');
+      document.getElementById('answersContainer').classList.remove('hidden');
+      document.getElementById('submitExamSection').classList.add('hidden');
+      document.getElementById('examTimerBadge').textContent = `Done (${percentage}%)`;
+      
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    window.retakeActiveQuiz = function() {
+      document.querySelectorAll('input[type="radio"], input[type="checkbox"]').forEach(i => i.checked = false);
+      document.getElementById('examResultsScoreBoard').classList.add('hidden');
+      document.getElementById('examModeToggleBtn').click();
+    };
+
+    // ==================== Vault (My Quizzes) Logic ====================
+    function updatePackBannerText() {
+      const count = selectedVaultIds.size;
+      const template = i18n[currentLang].packSelected;
+      document.getElementById('packSelectedCountText').textContent = template.replace('{n}', count);
+      document.getElementById('btnGeneratePackPdf').disabled = count === 0;
+      document.getElementById('btnGeneratePackPdf').style.opacity = count === 0 ? '0.6' : '1';
+    }
+
+    function renderVaultList() {
+      const vault = getStoredVault();
+      const grid = document.getElementById('vaultQuizzesGrid');
+      const emptyState = document.getElementById('vaultEmptyState');
+      const searchVal = (document.getElementById('vaultSearchInput')?.value || '').toLowerCase();
+
+      grid.innerHTML = '';
+
+      const filtered = vault.filter(q => {
+        const matchTitle = (q.subject || '').toLowerCase().includes(searchVal);
+        const matchSpec = (q.specialty || '').toLowerCase().includes(searchVal);
+        return matchTitle || matchSpec;
+      });
+
+      if (filtered.length === 0) {
+        emptyState.classList.remove('hidden');
+        grid.classList.add('hidden');
+      } else {
+        emptyState.classList.add('hidden');
+        grid.classList.remove('hidden');
+
+        filtered.forEach(q => {
+          const isSelected = selectedVaultIds.has(q.id);
+          const card = document.createElement('div');
+          card.className = `app-glass rounded-2xl p-5 border ${isSelected ? 'border-blue-500 ring-2 ring-blue-500/20' : 'border-slate-200'} shadow-xs hover:shadow-md transition flex flex-col justify-between`;
+          
+          const dateStr = new Date(q.createdAt || Date.now()).toLocaleDateString(currentLang === 'fr' ? 'fr-FR' : 'en-US');
+
+          card.innerHTML = `
+            <div>
+              <div class="flex items-start justify-between gap-3 mb-2">
+                <div class="flex items-center space-x-2">
+                  <input type="checkbox" ${isSelected ? 'checked' : ''} onchange="toggleVaultSelect('${q.id}')" 
+                         class="h-4 w-4 rounded text-blue-600 focus:ring-blue-500 border-slate-300 cursor-pointer" />
+                  <span class="text-[10px] font-bold uppercase tracking-wider bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200/60">${q.specialty || 'General'}</span>
+                </div>
+                <span class="text-[10px] font-medium text-slate-400">${dateStr}</span>
+              </div>
+              
+              <h4 class="text-sm font-bold text-slate-900 line-clamp-2 leading-snug">${q.subject || 'Clinical Examination'}</h4>
+              <p class="text-xs text-slate-500 mt-1">${q.questions.length} Items • ${q.language ? q.language.toUpperCase() : 'EN'}</p>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <button onclick="loadVaultQuiz('${q.id}')" class="text-xs font-bold text-blue-600 hover:text-blue-700 flex items-center space-x-1">
+                <i data-lucide="play-circle" class="w-4 h-4"></i>
+                <span>Open / Solve</span>
+              </button>
+
+              <div class="flex items-center space-x-1">
+                <button onclick="downloadSinglePdfDirect('${q.id}')" title="Download PDF" class="p-2 rounded-xl text-slate-500 hover:bg-slate-100 hover:text-slate-900 transition">
+                  <i data-lucide="file-down" class="w-4 h-4"></i>
+                </button>
+                <button onclick="deleteQuizFromVault('${q.id}')" title="Delete" class="p-2 rounded-xl text-rose-400 hover:bg-rose-50 hover:text-rose-600 transition">
+                  <i data-lucide="trash-2" class="w-4 h-4"></i>
+                </button>
+              </div>
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      }
+
+      updatePackBannerText();
+      lucide.createIcons();
+    }
+
+    window.toggleVaultSelect = function(id) {
+      if (selectedVaultIds.has(id)) {
+        selectedVaultIds.delete(id);
+      } else {
+        selectedVaultIds.add(id);
+      }
+      renderVaultList();
+    };
+
+    window.toggleSelectAllVault = function() {
+      const vault = getStoredVault();
+      if (selectedVaultIds.size === vault.length) {
+        selectedVaultIds.clear();
+      } else {
+        vault.forEach(q => selectedVaultIds.add(q.id));
+      }
+      renderVaultList();
+    };
+
+    window.loadVaultQuiz = function(id) {
+      const vault = getStoredVault();
+      const target = vault.find(q => q.id === id);
+      if (target) {
+        activeQuizData = target;
+        localStorage.setItem(STORAGE_KEY_ACTIVE, JSON.stringify(activeQuizData));
+        renderQuizOutput(activeQuizData);
+        switchTab('create');
+        document.getElementById('input-panel').classList.add('hidden');
+        document.getElementById('quiz-output-container').classList.remove('hidden');
+      }
+    };
+
+    window.exportVaultJSON = function() {
+      const vault = getStoredVault();
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(vault, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", `Resihub_Vault_Backup_${Date.now()}.json`);
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+    };
+
+    window.importVaultJSON = function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const imported = JSON.parse(e.target.result);
+          if (Array.isArray(imported)) {
+            const vault = getStoredVault();
+            const combined = [...imported, ...vault];
+            // Deduplicate by ID
+            const unique = Array.from(new Map(combined.map(item => [item.id, item])).values());
+            saveStoredVault(unique);
+            renderVaultList();
+            alert(`Successfully imported ${imported.length} exams.`);
+          }
+        } catch (err) {
+          alert("Invalid backup file: " + err.message);
+        }
+      };
+      reader.readAsText(file);
+    };
+
+    // ==================== PDF MAKE EXPORT ENGINE ====================
+    function buildPdfDefinition(quizzes, packTitle = null) {
+      const isFrench = (currentLang === 'fr');
+      const dateStr = new Date().toLocaleDateString(isFrench ? 'fr-FR' : 'en-US');
+      const isPack = quizzes.length > 1;
+
+      const masterTitle = packTitle || (isPack 
+        ? (isFrench ? 'LIVRET D’ÉVALUATION MÉDICALE MULTI-DISCIPLINAIRE' : 'COMPREHENSIVE MULTI-SPECIALTY MEDICAL BOARD PACK')
+        : (quizzes[0].subject || 'Medical Residency Assessment'));
+
+      const docDefinition = {
+        pageSize: 'A4',
+        pageOrientation: 'portrait',
+        pageMargins: [36, 48, 36, 44],
+
+        header: function(currentPage, pageCount) {
+          if (currentPage === 1) return null;
+          return {
+            margin: [36, 20, 36, 0],
+            columns: [
+              { text: 'RESIHUB ACADEMIC SUITE', fontSize: 7.5, bold: true, color: '#64748B' },
+              { text: masterTitle.slice(0, 50), fontSize: 7.5, color: '#94A3B8', alignment: 'right' }
+            ]
+          };
+        },
+
+        footer: function(currentPage, pageCount) {
+          return {
+            margin: [36, 0, 36, 18],
+            stack: [
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 523, y2: 0, lineWidth: 0.5, lineColor: '#E2E8F0' }] },
+              {
+                margin: [0, 6, 0, 0],
+                columns: [
+                  { text: 'Resihub Medical AI Platform • Standardized Board Examination', fontSize: 7.5, color: '#94A3B8' },
+                  { text: `Page ${currentPage} of ${pageCount}`, fontSize: 7.5, bold: true, color: '#64748B', alignment: 'right' }
+                ]
+              }
+            ]
+          };
+        },
+
+        content: []
+      };
+
+      // Header Banner
+      docDefinition.content.push({
+        columns: [
+          {
+            width: 'auto',
+            table: {
+              body: [[{ text: 'RESIHUB', fontSize: 8, bold: true, color: '#FFFFFF', fillColor: '#0F172A', margin: [4, 2, 4, 2] }]]
+            },
+            layout: 'noBorders'
+          },
+          {
+            width: '*',
+            text: isFrench ? 'DOCUMENTATION OFFICIELLE D’ÉVALUATION' : 'OFFICIAL ACADEMIC BOARD COMPENDIUM',
+            fontSize: 8,
+            bold: true,
+            color: '#64748B',
+            margin: [8, 3, 0, 0]
+          },
+          {
+            width: 'auto',
+            text: `${dateStr}  •  ${quizzes.reduce((acc, q) => acc + q.questions.length, 0)} Items`,
+            fontSize: 8,
+            color: '#64748B',
+            alignment: 'right',
+            margin: [0, 3, 0, 0]
+          }
+        ],
+        margin: [0, 0, 0, 4]
+      });
+
+      docDefinition.content.push({
+        text: masterTitle,
+        fontSize: 14,
+        bold: true,
+        color: '#0F172A',
+        margin: [0, 4, 0, 2]
+      });
+
+      docDefinition.content.push({
+        text: isPack 
+          ? (isFrench ? `Pack de ${quizzes.length} Examens • Recommandations 2026 Incluses` : `Pack of ${quizzes.length} Examinations • 2026 Guidelines Included`)
+          : `${quizzes[0].specialty || 'General Medicine'}   •   ${isFrench ? 'Synthèse Protocolique & Recommandations 2026' : 'Protocol & 2026 Guideline Synthesis'}`,
+        fontSize: 9,
+        bold: true,
+        color: '#2563EB',
+        margin: [0, 0, 0, 6]
+      });
+
+      docDefinition.content.push({
+        canvas: [{ type: 'line', x1: 0, y1: 0, x2: 523, y2: 0, lineWidth: 1.2, lineColor: '#0F172A' }],
+        margin: [0, 0, 0, 12]
+      });
+
+      let globalQuestionIndex = 1;
+      const flatQuestionsList = [];
+
+      // SECTION 1: ALL QUESTIONS
+      quizzes.forEach((quiz, qzIndex) => {
+        if (isPack) {
+          docDefinition.content.push({
+            unbreakable: true,
+            table: {
+              widths: ['*'],
+              body: [[{
+                text: `${isFrench ? 'MODULE' : 'MODULE'} ${qzIndex + 1}: ${(quiz.subject || quiz.specialty).toUpperCase()}`,
+                fontSize: 8.5,
+                bold: true,
+                color: '#1E293B',
+                fillColor: '#F1F5F9',
+                margin: [6, 3, 6, 3]
+              }]]
+            },
+            layout: 'noBorders',
+            margin: [0, 8, 0, 8]
+          });
+        }
+
+        quiz.questions.forEach((q) => {
+          const correctArray = Array.isArray(q.correct_answers) ? q.correct_answers : [q.correct_answer || 'A'];
+          const isMulti = correctArray.length > 1 || q.is_multiple_choice;
+          const typeBadge = isMulti ? (isFrench ? '[QRM]' : '[Multi]') : (isFrench ? '[QRU]' : '[Single]');
+          const recoTag = q.is_2026_update ? (isFrench ? '• RECO 2026' : '• 2026 RECO') : '';
+
+          flatQuestionsList.push({
+            globalNum: globalQuestionIndex,
+            correctArray,
+            explanation: q.explanation,
+            source_ref: q.source_ref,
+            is_2026_update: q.is_2026_update
+          });
+
+          const optionRows = [];
+          Object.entries(q.options || {}).forEach(([optKey, optVal]) => {
+            optionRows.push([
+              { text: optKey, fontSize: 8, bold: true, color: '#0F172A', fillColor: '#F1F5F9', alignment: 'center', margin: [0, 1.5, 0, 1.5] },
+              { text: optVal, fontSize: 9, color: '#334155', margin: [4, 1, 0, 2] }
+            ]);
+          });
+
+          docDefinition.content.push({
+            unbreakable: true,
+            margin: [0, 0, 0, 8],
+            stack: [
+              {
+                columns: [
+                  {
+                    width: 'auto',
+                    table: {
+                      body: [[{ text: String(globalQuestionIndex).padStart(2, '0'), fontSize: 8, bold: true, color: '#FFFFFF', fillColor: '#0F172A', margin: [4, 1, 4, 1] }]]
+                    },
+                    layout: 'noBorders'
+                  },
+                  {
+                    width: '*',
+                    text: `${typeBadge} ${recoTag}`,
+                    fontSize: 8,
+                    bold: true,
+                    color: '#475569',
+                    margin: [6, 2, 0, 0]
+                  },
+                  {
+                    width: 'auto',
+                    text: q.source_ref || '',
+                    fontSize: 7.5,
+                    color: '#94A3B8',
+                    alignment: 'right',
+                    margin: [0, 2, 0, 0]
+                  }
+                ],
+                margin: [0, 0, 0, 3]
+              },
+              { text: q.stem, fontSize: 9.5, bold: true, color: '#0F172A', lineHeight: 1.25, margin: [0, 0, 0, 4] },
+              {
+                table: { widths: [16, '*'], body: optionRows },
+                layout: { hLineWidth: () => 0, vLineWidth: () => 0, paddingLeft: () => 2, paddingRight: () => 2, paddingTop: () => 1, paddingBottom: () => 1 },
+                margin: [0, 0, 0, 4]
+              },
+              { canvas: [{ type: 'line', x1: 0, y1: 0, x2: 523, y2: 0, lineWidth: 0.4, lineColor: '#E2E8F0' }], margin: [0, 0, 0, 3] }
+            ]
+          });
+
+          globalQuestionIndex++;
+        });
+      });
+
+      // SECTION 2: OFFICIAL ANSWERS (PAGE BREAK)
+      docDefinition.content.push({
+        pageBreak: 'before',
+        stack: [
+          {
+            table: {
+              widths: ['*'],
+              body: [[{
+                text: isFrench ? 'SECTION II : GRILLE DE CORRECTION OFFICIELLE & RATIONNELS' : 'SECTION II : OFFICIAL ANSWER KEY & CLINICAL RATIONALES',
+                fontSize: 9.5,
+                bold: true,
+                color: '#FFFFFF',
+                fillColor: '#0F172A',
+                margin: [6, 4, 6, 4]
+              }]]
+            },
+            layout: 'noBorders',
+            margin: [0, 0, 0, 10]
+          },
+          {
+            text: isFrench ? 'GRILLE SYNTHÉTIQUE DES RÉPONSES :' : 'QUICK REFERENCE ANSWER GRID:',
+            fontSize: 9,
+            bold: true,
+            color: '#0F172A',
+            margin: [0, 0, 0, 5]
+          }
+        ]
+      });
+
+      // Quick Key Grid
+      const cols = 10;
+      const totalQuestions = flatQuestionsList.length;
+      const numRows = Math.ceil(totalQuestions / cols);
+      const gridTableBody = [];
+
+      for (let r = 0; r < numRows; r++) {
+        const headerRow = [];
+        const ansRow = [];
+        for (let c = 0; c < cols; c++) {
+          const qIdx = (r * cols) + c;
+          if (qIdx < totalQuestions) {
+            const item = flatQuestionsList[qIdx];
+            headerRow.push({ text: `Q${item.globalNum}`, fontSize: 7, bold: true, color: '#64748B', fillColor: '#F8FAFC', alignment: 'center', margin: [0, 2, 0, 2] });
+            ansRow.push({ text: item.correctArray.join(','), fontSize: 8.5, bold: true, color: '#0284C7', alignment: 'center', margin: [0, 3, 0, 3] });
+          } else {
+            headerRow.push({ text: '', fillColor: '#FFFFFF' });
+            ansRow.push({ text: '', fillColor: '#FFFFFF' });
+          }
+        }
+        gridTableBody.push(headerRow);
+        gridTableBody.push(ansRow);
+      }
+
+      docDefinition.content.push({
+        table: { widths: Array(cols).fill('*'), body: gridTableBody },
+        layout: { hLineWidth: () => 0.5, vLineWidth: () => 0.5, hLineColor: () => '#CBD5E1', vLineColor: () => '#CBD5E1' },
+        margin: [0, 0, 0, 14]
+      });
+
+      // Detailed Rationales
+      flatQuestionsList.forEach(item => {
+        const updateNotice = item.is_2026_update ? (isFrench ? '• [Mise à jour 2026]' : '• [2026 Guideline Update]') : '';
+        docDefinition.content.push({
+          unbreakable: true,
+          margin: [0, 0, 0, 7],
+          table: {
+            widths: ['*'],
+            body: [[{
+              fillColor: '#F8FAFC',
+              margin: [8, 6, 8, 6],
+              stack: [
+                {
+                  columns: [
+                    { width: 'auto', text: `Question ${item.globalNum}`, fontSize: 9, bold: true, color: '#0F172A' },
+                    { width: 'auto', text: `${isFrench ? 'Réponse' : 'Answer'} : ${item.correctArray.join(', ')}`, fontSize: 8.5, bold: true, color: '#166534', margin: [8, 0, 0, 0] },
+                    { width: '*', text: updateNotice, fontSize: 8, bold: true, color: '#2563EB', margin: [8, 0, 0, 0] }
+                  ]
+                },
+                { text: item.explanation || 'No rationale available.', fontSize: 8.5, color: '#334155', lineHeight: 1.25, margin: [0, 3, 0, 2] },
+                { text: `Source: ${item.source_ref || 'Resihub Core Protocol'}`, fontSize: 7.5, italics: true, color: '#94A3B8' }
+              ]
+            }]]
+          },
+          layout: {
+            hLineWidth: () => 0.5,
+            vLineWidth: (i) => (i === 0 ? 3 : 0.5),
+            hLineColor: () => '#E2E8F0',
+            vLineColor: (i) => (i === 0 ? '#0F172A' : '#E2E8F0')
+          }
+        });
+      });
+
+      return docDefinition;
+    }
+
+    // Export Active Single PDF
+    document.getElementById('downloadPdfBtn').addEventListener('click', () => {
+      if (!activeQuizData) return;
+      const docDef = buildPdfDefinition([activeQuizData]);
+      const safeFilename = `Resihub_${(activeQuizData.subject || 'Exam').replace(/[^a-zA-Z0-9]/g, '_')}_2026.pdf`;
+      pdfMake.createPdf(docDef).download(safeFilename);
+    });
+
+    window.downloadSinglePdfDirect = function(id) {
+      const vault = getStoredVault();
+      const target = vault.find(q => q.id === id);
+      if (target) {
+        const docDef = buildPdfDefinition([target]);
+        const safeFilename = `Resihub_${(target.subject || 'Exam').replace(/[^a-zA-Z0-9]/g, '_')}_2026.pdf`;
+        pdfMake.createPdf(docDef).download(safeFilename);
+      }
+    };
+
+    // Export Multi-Quiz Pack PDF
+    window.generateBundledPdf = function() {
+      if (selectedVaultIds.size === 0) return;
+      const vault = getStoredVault();
+      const selectedQuizzes = vault.filter(q => selectedVaultIds.has(q.id));
+      const customName = document.getElementById('packNameInput').value.trim();
+
+      const docDef = buildPdfDefinition(selectedQuizzes, customName);
+      const safeFilename = `Resihub_Pack_${(customName || 'Combined_Master_Exam').replace(/[^a-zA-Z0-9]/g, '_')}_2026.pdf`;
+      pdfMake.createPdf(docDef).download(safeFilename);
+    };
+
+    // Reset Flow
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      const msg = currentLang === 'fr' ? 'Créer un nouvel examen ? (Votre quiz actuel reste sauvegardé dans Mes QCMs)' : 'Create a new exam? (Your active quiz remains saved in My Quizzes)';
+      if (confirm(msg)) {
+        document.getElementById('quiz-output-container').classList.add('hidden');
+        document.getElementById('token-analytics-card').classList.add('hidden');
+        document.getElementById('input-panel').classList.remove('hidden');
+        localStorage.removeItem(STORAGE_KEY_ACTIVE);
+        activeQuizData = null;
+      }
+    });
+
+    // Initialize Application
+    applyLanguage('en');
+    restoreSession();
+  </script>
+</body>
+</html>

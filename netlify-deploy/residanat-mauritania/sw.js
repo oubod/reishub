@@ -1,20 +1,21 @@
-const CACHE_NAME = 'resihub-mauritania-v37';
+const CACHE_NAME = 'resihub-mauritania-v39';
 const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
     './index.html',
     './mauritania-tunis-lite.html',
+    './ai-studio.html?v=resihub-20260902-1',
     './login.html',
     './mobile_pdf_viewer.html',
     './css/style.css',
-    './css/mauritania-ui.css?v=resihub-20260831-1',
+    './css/mauritania-ui.css?v=resihub-20260902-1',
     './js/app.js',
     './js/supabase-client.js',
     './js/portal-auth.js?v=8',
-    './js/study-tools.js?v=resihub-20260831-1',
-    './js/advanced-tools.js?v=resihub-20260831-1',
+    './js/study-tools.js?v=resihub-20260902-1',
+    './js/advanced-tools.js?v=resihub-20260902-1',
     './js/vendors/jspdf.umd.min.js',
-    '../assets/js/pwa-update.js?v=resihub-20260831-1',
+    '../assets/js/pwa-update.js?v=resihub-20260902-1',
     './manifest.json',
     './favicon.ico',
     './data/lectures.json',

@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#f6f5f1">
+  <meta name="theme-color" content="#f2f7f7">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="RésiHub Mauritanie">
   <meta name="mobile-web-app-capable" content="yes">
   <title>RésiHub Mauritanie</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260831-1">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260831-1">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260831-1">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260831-1">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260831-1" data-sw="./sw.js?v=resihub-20260831-1"></script>
+  <link rel="manifest" href="manifest.json?v=resihub-20260902-1">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260902-1">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260902-1">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260902-1">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260902-1" data-sw="./sw.js?v=resihub-20260902-1"></script>
   <style>
     :root {
       --bg: #f7f4ec;
@@ -630,6 +630,7 @@
     .ok { color: var(--ok); } .bad { color: var(--bad); }
     .tool-grid { display: grid; grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr); gap: 18px; }
     .ai-page { display: grid; gap: 18px; }
+    .ai-studio-frame { display: block; width: 100%; min-height: calc(100dvh - 150px); border: 0; border-radius: 18px; background: #f8fafc; box-shadow: var(--shadow); }
     .ai-hero { display: flex; align-items: center; gap: 16px; padding: 22px; border-radius: 18px; color: #fff; background: linear-gradient(135deg, #061d45, #246b4f); box-shadow: 0 10px 24px rgba(6, 29, 69, .16); }
     .ai-hero .kicker, .ai-hero p { color: rgba(255, 255, 255, .78); }
     .ai-hero h2 { margin: 0; font-size: clamp(22px, 4vw, 30px); }
@@ -986,7 +987,7 @@
       .hero-actions .btn { width: 100%; }
     }
   </style>
-  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260831-1">
+  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260902-1">
 </head>
 <body class="mauritania-app">
   <button id="sidebarShade" class="sidebar-shade" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu"></button>
@@ -994,7 +995,7 @@
   <div class="app">
     <aside id="mobileSidebar" aria-label="Navigation principale">
       <div class="brand">
-        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260831-1" alt="Logo RésiHub">
+        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260902-1" alt="Logo RésiHub">
         <div>
           <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
           <span>Résidanat Mauritanie</span>
@@ -1017,7 +1018,7 @@
     <main>
       <header>
         <div class="mobile-app-brand">
-          <img src="images/icon-192.png?v=resihub-20260831-1" alt="Logo RésiHub">
+          <img src="images/icon-192.png?v=resihub-20260902-1" alt="Logo RésiHub">
           <div><strong><span>Rési</span>Hub</strong><small>Résidanat Mauritanie</small></div>
         </div>
         <div class="page-heading">
@@ -1038,10 +1039,19 @@
         <div class="dashboard">
           <div>
             <div class="hero">
-              <p class="kicker">Votre espace de préparation</p>
-              <h2>Réviser avec méthode, progresser avec confiance.</h2>
-              <p>Un parcours clair pour les résidents : cours ciblés, QCM corrigés et entraînement régulier.</p>
-              <div class="hero-actions"><button class="btn" type="button" onclick="go('lectures')">Explorer les cours<span class="icon">arrow_forward</span></button></div>
+              <div class="hero-main">
+                <p class="kicker">Votre espace de préparation</p>
+                <h2>Réviser avec méthode, progresser avec confiance.</h2>
+                <p>Un parcours clair pour les résidents : cours ciblés, QCM corrigés et entraînement régulier.</p>
+                <div class="hero-actions"><button class="btn" type="button" onclick="go('lectures')">Explorer les cours<span class="icon">arrow_forward</span></button></div>
+              </div>
+              <div class="hero-plan" aria-label="Parcours conseillé">
+                <p class="hero-plan-label">Parcours conseillé</p>
+                <h3>Trois étapes pour avancer</h3>
+                <div class="hero-plan-item"><span class="icon">menu_book</span><span>Lire et annoter un cours</span></div>
+                <div class="hero-plan-item"><span class="icon">quiz</span><span>S’entraîner sur 50 QCM</span></div>
+                <div class="hero-plan-item"><span class="icon">check_circle</span><span>Revoir les réponses difficiles</span></div>
+              </div>
             </div>
             <div class="stats home-stats" aria-label="Contenu disponible">
               <div class="home-stat"><strong id="homeCourseTotal">0</strong><span>Cours disponibles</span></div>
@@ -1059,15 +1069,10 @@
             <div id="categoryCards" class="category-grid"></div>
           </div>
           <div>
-            <div class="dashboard-heading"><div><h2>S’entraîner</h2><p>Simulez l’épreuve complète en 90 minutes.</p></div></div>
-            <div class="feature-grid">
-              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM (par Dr Sena)</h3><p>20 fondamentaux · 20 médicaux · 20 chirurgicaux</p></span></button>
-            </div>
-          </div>
-          <div>
-            <div class="dashboard-heading"><div><h2>Assistant IA</h2><p>Créez une série depuis votre propre document PDF.</p></div></div>
-            <div class="feature-grid single">
-              <button class="feature-card feature-card-wide" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>30 QCM avec correction · activation administrateur requise</p></span></button>
+            <div class="dashboard-heading"><div><h2>Outils de préparation</h2><p>Testez vos connaissances ou créez une série ciblée.</p></div></div>
+            <div class="feature-grid home-tools">
+              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM (par Dr Sena)</h3><p>Simulation équilibrée de 90 minutes</p></span></button>
+              <button class="feature-card feature-card-wide" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>30 QCM depuis votre PDF · activation requise</p></span></button>
             </div>
           </div>
         </div>
@@ -1087,7 +1092,7 @@
         <div class="dashboard-heading"><div><h2>Plus</h2><p>Les outils complémentaires de votre préparation.</p></div></div>
         <div class="more-grid">
           <button class="more-card" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM</h3><p>Simulation équilibrée de 90 minutes · par Dr Sena</p></span></button>
-          <button class="more-card" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>Créer 30 QCM depuis votre propre PDF</p></span></button>
+          <button class="more-card" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>RésiHub Medical AI</h3><p>Créez, révisez et exportez des épreuves depuis vos PDF</p></span></button>
           <button class="more-card" type="button" onclick="go('lectures')"><span class="feature-icon"><span class="icon">download_for_offline</span></span><span><h3>Lecture hors ligne</h3><p>Retrouvez les cours déjà enregistrés sur votre appareil</p></span></button>
           <button class="more-card" type="button" onclick="portalLogout()"><span class="feature-icon"><span class="icon">logout</span></span><span><h3>Se déconnecter</h3><p>Fermer la session sur cet appareil</p></span></button>
         </div>
@@ -1109,8 +1114,8 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260831-1"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260831-1"></script>
+  <script src="js/study-tools.js?v=resihub-20260902-1"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260902-1"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUIZ_SESSION_KEY = "resihubMauritaniaQuizSession";
@@ -1760,7 +1765,7 @@
         lectures: ["Cours", "Retrouvez les cours de la partie Mauritanie."],
         quiz: ["Quiz", "Entraînez-vous matière par matière."],
         exam: ["Examen", "60 QCM équilibrés avec un chronomètre de 90 minutes."],
-        ai: ["Quiz IA", "Transformez un PDF en série d’entraînement locale."],
+        ai: ["RésiHub Medical AI", "Créez des épreuves personnalisées et gérez votre banque locale."],
         more: ["Plus", "Les outils complémentaires de votre préparation."]
       };
       const page = pages[view] || pages.home;

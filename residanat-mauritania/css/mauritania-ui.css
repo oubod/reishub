@@ -1,22 +1,22 @@
 /* Final clinical-editorial layer shared by the Mauritania app, auth and PDF viewer. */
 :root {
-  --rh-bg: #f6f3ea;
-  --rh-surface: #fffdf8;
-  --rh-surface-muted: #edf3ef;
-  --rh-ink: #10243e;
-  --rh-muted: #586678;
-  --rh-line: #d8dfda;
-  --rh-green: #246b4f;
-  --rh-green-dark: #18523b;
-  --rh-green-soft: #e6f0ea;
-  --rh-red: #b43d35;
-  --rh-red-soft: #f9e9e6;
-  --rh-amber: #8a5b16;
-  --rh-amber-soft: #f8efd9;
-  --rh-blue-soft: #e9eff7;
-  --rh-radius: 12px;
+  --rh-bg: #f2f7f7;
+  --rh-surface: #ffffff;
+  --rh-surface-muted: #e7f1f2;
+  --rh-ink: #102d44;
+  --rh-muted: #587080;
+  --rh-line: #d8e4e7;
+  --rh-green: #087a84;
+  --rh-green-dark: #055e66;
+  --rh-green-soft: #d9eff0;
+  --rh-red: #d8784b;
+  --rh-red-soft: #f9e8df;
+  --rh-amber: #a56036;
+  --rh-amber-soft: #f7eadd;
+  --rh-blue-soft: #e5edf5;
+  --rh-radius: 16px;
   --rh-focus: #0b78d0;
-  --rh-shadow: 0 8px 22px rgba(16, 36, 62, .07);
+  --rh-shadow: 0 18px 45px rgba(25, 57, 76, .1);
   --rh-safe-bottom: env(safe-area-inset-bottom, 0px);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -137,36 +137,75 @@ button, input, label[for], summary, a { touch-action: manipulation; }
 /* Editorial home and category navigation */
 .mauritania-app .dashboard { gap: 34px; }
 .mauritania-app .hero {
+  align-items: center;
+  background: #102f49;
+  border: 0;
+  border-radius: 24px;
+  box-shadow: var(--rh-shadow);
+  display: grid;
+  gap: clamp(24px, 4vw, 42px);
+  grid-template-columns: minmax(0, 1.55fr) minmax(245px, .65fr);
+  padding: clamp(28px, 4vw, 42px);
+}
+.mauritania-app .hero::before {
+  background: repeating-linear-gradient(165deg, transparent 0 18px, rgba(216, 120, 75, .07) 19px 20px);
+  display: block;
+}
+.mauritania-app .hero h2 {
+  color: #fff;
+  font-size: clamp(30px, 4vw, 44px);
+  letter-spacing: -.05em;
+  line-height: 1.06;
+  max-width: 680px;
+}
+.mauritania-app .hero .kicker { color: #f2aa87; }
+.mauritania-app .hero p:not(.kicker) { color: #c9dce9; max-width: 620px; }
+.mauritania-app .hero .btn { background: var(--rh-red); border-color: var(--rh-red); color: #102f49; }
+.mauritania-app .hero .btn:hover { background: #e38a60; }
+.mauritania-app .hero-plan {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(201, 220, 233, .24);
+  border-radius: 18px;
+  padding: 18px;
+}
+.mauritania-app .hero-plan-label {
+  color: #c9dce9 !important;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.mauritania-app .hero-plan h3 { color: #fff; font-size: 17px; margin: 5px 0 13px; }
+.mauritania-app .hero-plan-item {
+  align-items: center;
+  border-top: 1px solid rgba(201, 220, 233, .18);
+  color: #e4eff5;
+  display: flex;
+  font-size: 12px;
+  gap: 9px;
+  padding: 11px 0;
+}
+.mauritania-app .hero-plan-item:last-child { padding-bottom: 0; }
+.mauritania-app .hero-plan-item .icon { color: #f2aa87; }
+.mauritania-app .home-stats {
   background: var(--rh-surface);
   border: 1px solid var(--rh-line);
   border-radius: var(--rh-radius);
-  border-top: 4px solid var(--rh-green);
   box-shadow: none;
-  padding: clamp(24px, 4vw, 44px);
+  gap: 0;
+  margin-top: 16px;
+  overflow: hidden;
 }
-.mauritania-app .hero::before { display: none; }
-.mauritania-app .hero h2 {
-  color: var(--rh-ink);
-  font-size: clamp(28px, 4vw, 46px);
-  letter-spacing: -.035em;
-  line-height: 1.08;
-  max-width: 780px;
-}
-.mauritania-app .hero p:not(.kicker) { color: var(--rh-muted); max-width: 680px; }
-.mauritania-app .hero .btn { background: var(--rh-green); border-color: var(--rh-green); color: #fff; }
-.mauritania-app .home-stats {
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
-  margin-top: 0;
-}
-.mauritania-app .home-stat { border-right-color: var(--rh-line); padding: 18px 4px; }
+.mauritania-app .home-stat { background: transparent; border: 0; border-radius: 0; border-right: 1px solid var(--rh-line); padding: 18px 20px; }
+.mauritania-app .home-stat:last-child { border-right: 0; }
 .mauritania-app .home-stat strong { color: var(--rh-ink); font-size: 28px; }
 .mauritania-app .dashboard-heading { margin-bottom: 14px; }
 .mauritania-app .dashboard-heading h2,
 .mauritania-app .content-heading h2 { font-size: 21px; letter-spacing: -.02em; }
 .mauritania-app .category-grid { gap: 12px; }
+.mauritania-app #home .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.mauritania-app #home .category-card:nth-child(3) { grid-column: 1 / -1; }
 .mauritania-app .category-card,
 .mauritania-app .feature-card,
 .mauritania-app .more-card {
@@ -176,6 +215,14 @@ button, input, label[for], summary, a { touch-action: manipulation; }
   box-shadow: none;
 }
 .mauritania-app .category-card { min-height: 206px; padding: 20px; }
+.mauritania-app #home .category-card {
+  align-content: start;
+  display: grid;
+  gap: 0 14px;
+  grid-template-columns: 42px minmax(0, 1fr);
+  min-height: 148px;
+  padding: 18px;
+}
 .mauritania-app .category-mark,
 .mauritania-app .feature-icon {
   background: var(--rh-green-soft);
@@ -185,6 +232,9 @@ button, input, label[for], summary, a { touch-action: manipulation; }
   width: 42px;
 }
 .mauritania-app .category-card h3 { font-size: 17px; }
+.mauritania-app #home .category-card .category-mark { grid-row: 1 / 3; }
+.mauritania-app #home .category-card h3 { margin: 1px 0 4px; }
+.mauritania-app #home .category-card .category-actions { grid-column: 1 / -1; padding-top: 16px; }
 .mauritania-app .category-button,
 .mauritania-app .btn {
   border-radius: 8px;
@@ -200,6 +250,7 @@ button, input, label[for], summary, a { touch-action: manipulation; }
 .mauritania-app .btn.primary:hover { background: var(--rh-green-dark); }
 .mauritania-app .feature-card,
 .mauritania-app .more-card { min-height: 92px; padding: 18px; }
+.mauritania-app .home-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .mauritania-app .feature-card:hover,
 .mauritania-app .more-card:hover { background: var(--rh-green-soft); }
 
@@ -606,6 +657,8 @@ button, input, label[for], summary, a { touch-action: manipulation; }
 
 @media (max-width: 900px) {
   .mauritania-app .app { grid-template-columns: 1fr; }
+  .mauritania-app .hero { grid-template-columns: 1fr; }
+  .mauritania-app .hero-plan { display: none; }
   .mauritania-app main { padding: 22px 18px calc(92px + var(--rh-safe-bottom)); }
   .mauritania-app main > header {
     align-items: center;
@@ -663,7 +716,9 @@ button, input, label[for], summary, a { touch-action: manipulation; }
   .mauritania-app .home-stat:last-child { border-right: 0; }
   .mauritania-app .home-stat strong { font-size: 23px; }
   .mauritania-app .home-stat span { font-size: 10px; }
-  .mauritania-app .category-grid { grid-template-columns: 1fr; }
+  .mauritania-app .category-grid,
+  .mauritania-app #home .category-grid { grid-template-columns: 1fr; }
+  .mauritania-app #home .category-card:nth-child(3) { grid-column: auto; }
   .mauritania-app .category-card { min-height: 188px; }
   .session-bar { gap: 8px; grid-template-columns: auto minmax(0, 1fr) auto; min-height: 62px; }
   .session-back .button-label { display: none; }
