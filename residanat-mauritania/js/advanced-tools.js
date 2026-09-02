@@ -165,9 +165,7 @@ async function openAiView() {
   } catch (error) { $("ai").innerHTML = `<div class="notice error" role="alert"><div><strong>Accès impossible</strong><p>${esc(error.message)}</p></div></div>`; }
 }
 async function renderAiView(user) {
-  if ($("ai").querySelector(".ai-studio-frame")) return;
-  const src = `ai-studio.html?v=resihub-20260902-1&embed=1&uid=${encodeURIComponent(user.id)}`;
-  $("ai").innerHTML = `<iframe class="ai-studio-frame" src="${src}" title="RésiHub Medical AI" loading="eager"></iframe>`;
+  await window.ResiAiJobs.open(user);
 }
 function aiSetCard(set) {
   const id = esc(encodeURIComponent(set.id));
@@ -222,9 +220,7 @@ async function generateAiQuiz() {
 }
 async function getAiSet(id) { const user = authUser(); if (!user) return null; return (await dbAction("getAll")).find((set) => set.id === id && set.ownerId === user.id) || null; }
 async function startAiSet(id) {
-  const set = await getAiSet(id); if (!set) return;
-  state.session = { item: { id: set.id, title: set.title }, questions: set.questions, index: 0, selected: new Set(), checked: false, score: 0, origin: "ai" };
-  renderQuestion(); go("quizRunner");
+  return window.ResiAiJobs.solve(id);
 }
 async function renameAiSet(id) { const set = await getAiSet(id); if (!set) return; const title = prompt("Nouveau nom", set.title)?.trim(); if (!title) return; set.title = title.slice(0, 100); await dbAction("put", set); openAiView(); }
 async function deleteAiSet(id) { if (!confirm("Supprimer cette série locale ?")) return; const set = await getAiSet(id); if (!set) return; await dbAction("delete", id); openAiView(); }

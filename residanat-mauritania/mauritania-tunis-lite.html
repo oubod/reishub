@@ -10,11 +10,11 @@
   <meta name="apple-mobile-web-app-title" content="RésiHub Mauritanie">
   <meta name="mobile-web-app-capable" content="yes">
   <title>RésiHub Mauritanie</title>
-  <link rel="manifest" href="manifest.json?v=resihub-20260902-1">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260902-1">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260902-1">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260902-1">
-  <script defer src="../assets/js/pwa-update.js?v=resihub-20260902-1" data-sw="./sw.js?v=resihub-20260902-1"></script>
+  <link rel="manifest" href="manifest.json?v=resihub-20260902-3">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v=resihub-20260902-3">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png?v=resihub-20260902-3">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=resihub-20260902-3">
+  <script defer src="../assets/js/pwa-update.js?v=resihub-20260902-3" data-sw="./sw.js?v=resihub-20260902-3"></script>
   <style>
     :root {
       --bg: #f7f4ec;
@@ -630,7 +630,6 @@
     .ok { color: var(--ok); } .bad { color: var(--bad); }
     .tool-grid { display: grid; grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr); gap: 18px; }
     .ai-page { display: grid; gap: 18px; }
-    .ai-studio-frame { display: block; width: 100%; min-height: calc(100dvh - 150px); border: 0; border-radius: 18px; background: #f8fafc; box-shadow: var(--shadow); }
     .ai-hero { display: flex; align-items: center; gap: 16px; padding: 22px; border-radius: 18px; color: #fff; background: linear-gradient(135deg, #061d45, #246b4f); box-shadow: 0 10px 24px rgba(6, 29, 69, .16); }
     .ai-hero .kicker, .ai-hero p { color: rgba(255, 255, 255, .78); }
     .ai-hero h2 { margin: 0; font-size: clamp(22px, 4vw, 30px); }
@@ -987,7 +986,7 @@
       .hero-actions .btn { width: 100%; }
     }
   </style>
-  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260902-1">
+  <link rel="stylesheet" href="css/mauritania-ui.css?v=resihub-20260902-3">
 </head>
 <body class="mauritania-app">
   <button id="sidebarShade" class="sidebar-shade" type="button" onclick="closeMobileSidebar()" aria-label="Fermer le menu"></button>
@@ -995,7 +994,7 @@
   <div class="app">
     <aside id="mobileSidebar" aria-label="Navigation principale">
       <div class="brand">
-        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260902-1" alt="Logo RésiHub">
+        <img class="brand-logo" src="images/icon-192.png?v=resihub-20260902-3" alt="Logo RésiHub">
         <div>
           <strong class="brand-word"><span class="brand-word__resi">Rési</span><span class="brand-word__hub">Hub</span></strong>
           <span>Résidanat Mauritanie</span>
@@ -1018,7 +1017,7 @@
     <main>
       <header>
         <div class="mobile-app-brand">
-          <img src="images/icon-192.png?v=resihub-20260902-1" alt="Logo RésiHub">
+          <img src="images/icon-192.png?v=resihub-20260902-3" alt="Logo RésiHub">
           <div><strong><span>Rési</span>Hub</strong><small>Résidanat Mauritanie</small></div>
         </div>
         <div class="page-heading">
@@ -1071,8 +1070,8 @@
           <div>
             <div class="dashboard-heading"><div><h2>Outils de préparation</h2><p>Testez vos connaissances ou créez une série ciblée.</p></div></div>
             <div class="feature-grid home-tools">
-              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen 60 QCM (par Dr Sena)</h3><p>Simulation équilibrée de 90 minutes</p></span></button>
-              <button class="feature-card feature-card-wide" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Quiz IA</h3><p>30 QCM depuis votre PDF · activation requise</p></span></button>
+              <button class="feature-card feature-card-wide" type="button" onclick="go('exam')"><span class="feature-icon"><span class="icon">assignment</span></span><span><h3>Examen blanc</h3><p>60 QCM · 90 minutes · par Dr Sena</p></span></button>
+              <button class="feature-card feature-card-wide" type="button" onclick="go('ai')"><span class="feature-icon"><span class="icon">auto_awesome</span></span><span><h3>Épreuve depuis un PDF</h3><p>15, 30 ou 45 questions · accès IA requis</p></span></button>
             </div>
           </div>
         </div>
@@ -1114,8 +1113,15 @@
   <script src="js/supabase-client.js"></script>
   <script src="js/portal-auth.js?v=8"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
-  <script src="js/study-tools.js?v=resihub-20260902-1"></script>
-  <script src="js/advanced-tools.js?v=resihub-20260902-1"></script>
+  <script src="js/vendors/tus.min.js"></script>
+  <script src="js/vendors/pdfmake.min.js"></script>
+  <script src="js/vendors/vfs_fonts.js"></script>
+  <script src="js/vendors/pdf.min.js"></script>
+  <script>pdfjsLib.GlobalWorkerOptions.workerSrc = "js/vendors/pdf.worker.min.js";</script>
+  <script src="js/ai-pdf.js?v=resihub-20260902-3"></script>
+  <script src="js/ai-jobs.js?v=resihub-20260902-3"></script>
+  <script src="js/study-tools.js?v=resihub-20260902-3"></script>
+  <script src="js/advanced-tools.js?v=resihub-20260902-3"></script>
   <script>
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUIZ_SESSION_KEY = "resihubMauritaniaQuizSession";
@@ -1554,7 +1560,7 @@
             <div class="options">${q.options.map((opt) => optionMarkup(opt)).join("")}</div>
             ${s.checked ? `<div class="answer-feedback ${checkedResult?.correct ? "" : "bad"}" role="status"><div><strong>${checkedResult?.correct ? "Bonne réponse" : "Réponse à revoir"}</strong>${q.explanation ? `<p>${esc(q.explanation)}</p>` : ""}</div></div>` : ""}
             <div class="session-actions">
-              <button class="btn primary" type="button" onclick="${s.checked ? "nextQuestion()" : "checkAnswer()"}">${s.checked ? "Suivant" + icon("arrow_forward") : icon("check_circle") + "Valider"}</button>
+              <button class="btn primary" type="button" onclick="${s.mode === "simulation" ? (s.index === s.questions.length - 1 ? "finishAiSimulation()" : "nextSimulationQuestion()") : s.checked ? "nextQuestion()" : "checkAnswer()"}">${s.mode === "simulation" ? (s.index === s.questions.length - 1 ? icon("flag") + "Terminer" : "Suivant" + icon("arrow_forward")) : s.checked ? "Suivant" + icon("arrow_forward") : icon("check_circle") + "Valider"}</button>
             </div>
           </div>
         </div>
@@ -1595,7 +1601,7 @@
       const mistakes = s.questions.map((q, index) => ({ q, index })).filter(({ index }) => !s.results[index]?.correct);
       const score = s.questions.length - mistakes.length;
       const totalSeconds = s.questions.reduce((sum, _, index) => sum + (s.questionTimes[index] || 0), 0);
-      const restart = s.origin === "ai" ? `startAiSet('${esc(s.item.id)}')` : `startQuiz('${esc(s.item.id)}')`;
+      const restart = s.origin === "ai" ? (s.mode === "simulation" ? `ResiAiJobs.simulate('${esc(s.item.id)}')` : `startAiSet('${esc(s.item.id)}')`) : `startQuiz('${esc(s.item.id)}')`;
       const accuracy = Math.round(score / s.questions.length * 100);
       $("quizRunner").innerHTML = `
         <div class="results-report">
@@ -1693,6 +1699,25 @@
       stopLectureQuizTimer();
       saveLectureQuizSession();
       renderQuestion();
+    }
+
+    function saveSimulationAnswer() {
+      const s = state.session;
+      s.questionTimes ||= {}; s.selections ||= {};
+      s.questionTimes[s.index] = (s.questionTimes[s.index] || 0) + Math.max(0, Math.round((Date.now() - (s.questionStartedAt || Date.now())) / 1000));
+      s.selections[s.index] = [...s.selected];
+    }
+
+    function nextSimulationQuestion() {
+      const s = state.session; if (!s || s.mode !== "simulation") return;
+      saveSimulationAnswer(); s.index += 1; s.selected = new Set(s.selections[s.index] || []); s.questionStartedAt = Date.now(); renderQuestion();
+    }
+
+    function finishAiSimulation() {
+      const s = state.session; if (!s || s.mode !== "simulation") return;
+      saveSimulationAnswer(); s.results = {}; s.score = 0;
+      s.questions.forEach((q, index) => { const selected = new Set(s.selections[index] || []), correct = new Set(q.options.filter((o) => o.correct).map((o) => o.id)), ok = selected.size === correct.size && [...correct].every((id) => selected.has(id)); s.results[index] = { correct: ok, selected: [...selected], elapsed: s.questionTimes[index] || 0 }; if (ok) s.score += 1; });
+      s.index = s.questions.length; s.questionStartedAt = null; stopLectureQuizTimer(); renderQuestion();
     }
 
     function nextQuestion() {

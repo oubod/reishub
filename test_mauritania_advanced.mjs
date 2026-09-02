@@ -54,22 +54,16 @@ const sourcePage = normalizeLines(fs.readFileSync("./residanat-mauritania/maurit
 const deployPage = normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/mauritania-tunis-lite.html", "utf8"));
 assert.equal(sourcePage, deployPage);
 assert.match(sourcePage, /data-view="more"/);
-assert.match(sourcePage, /<h3>Examen 60 QCM \(par Dr Sena\)<\/h3>/);
+assert.match(sourcePage, /<h3>Examen blanc<\/h3>/);
 assert.match(sourcePage, /class="tab" type="button" data-view="more"/);
 assert.equal((sourcePage.match(/Examen \(par Dr Sena\)/g) || []).length, 0);
 assert.doesNotMatch(sourcePage, /id="continueCard"|Continuer ma lecture/);
 assert.match(sourcePage, /id="homeCourseTotal"/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v39/);
-const aiStudio = normalizeLines(fs.readFileSync("./residanat-mauritania/ai-studio.html", "utf8"));
-assert.equal(aiStudio, normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/ai-studio.html", "utf8")));
-assert.match(aiStudio, /function buildPdfDefinition/);
-assert.match(aiStudio, /window\.generateBundledPdf = function/);
-assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /ai-studio\.html\?v=resihub-20260902-1/);
-assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseSchema: ResiStudyTools\.geminiSchema/);
-assert.doesNotMatch(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /responseJsonSchema/);
-assert.match(aiStudio, /Enter your API key/);
-assert.match(aiStudio, /pdfMake\.createPdf\(docDef\)\.download/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v41/);
+assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /ResiAiJobs\.open/);
+assert.doesNotMatch(sourcePage, /ai-studio\.html|ai-studio-frame/);
+assert.match(fs.readFileSync("./residanat-mauritania/js/ai-jobs.js", "utf8"), /PDF groupé/);
 assert.equal(
   normalizeLines(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8")),
   normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/js/advanced-tools.js", "utf8"))
@@ -93,7 +87,7 @@ for (const page of ["login.html", "mobile_pdf_viewer.html"]) {
   const sourceFile = normalizeLines(fs.readFileSync(`./residanat-mauritania/${page}`, "utf8"));
   const deployFile = normalizeLines(fs.readFileSync(`./netlify-deploy/residanat-mauritania/${page}`, "utf8"));
   assert.equal(sourceFile, deployFile, `${page} source/deployment mismatch`);
-  assert.match(sourceFile, /mauritania-ui\.css\?v=resihub-20260902-1/);
+  assert.match(sourceFile, /mauritania-ui\.css\?v=resihub-20260902-3/);
   assert.doesNotMatch(sourceFile, /Material\+Symbols|fonts\.googleapis\.com/);
 }
 

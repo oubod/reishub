@@ -1,0 +1,24 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import vm from "node:vm";
+
+const read = (path) => fs.readFileSync(path, "utf8");
+const html = read("residanat-mauritania/mauritania-tunis-lite.html");
+const client = read("residanat-mauritania/js/ai-jobs.js");
+const worker = read("supabase/functions/mauritania-ai-worker/index.ts");
+const api = read("supabase/functions/mauritania-ai-jobs/index.ts");
+const sql = read("supabase_mauritania_ai_jobs.sql");
+assert(!html.includes("ai-studio-frame") && !html.includes("ai-studio.html"));
+for (const file of ["tus.min.js", "pdfmake.min.js", "ai-pdf.js", "ai-jobs.js"]) assert(html.includes(file));
+for (const state of ["uploading", "queued", "processing", "building_pdf", "completed", "failed", "cancelling", "cancelled"]) assert(sql.includes(`'${state}'`));
+assert(api.includes("AES-GCM") && api.includes(">= 3") && api.includes("gemini_enabled"));
+assert(worker.includes('gemini-3.8-flash') && worker.includes("chunk_index") && worker.includes("attempts <= 3"));
+assert(client.includes("findPreviousUploads") && client.includes('call("resume-upload"') && client.includes("setInterval(refresh, 10000)"));
+assert(client.includes("Simulation") && html.includes("finishAiSimulation"));
+assert(sql.includes("pg_advisory_xact_lock") && sql.includes("limit_mauritania_ai_jobs_trigger"));
+assert.equal(read("residanat-mauritania/js/ai-jobs.js"), read("netlify-deploy/residanat-mauritania/js/ai-jobs.js"));
+const context = { globalThis: {}, Date }; vm.runInNewContext(read("residanat-mauritania/js/ai-pdf.js"), context);
+const q = Array.from({ length: 15 }, (_, i) => ({ question: `Question ${i + 1}`, type: "QRU", options: { A: "Oui", B: "Non", C: "Parfois", D: "Jamais" }, correct_answers: ["A"], explanation: "Explication française.", reference: `Page ${i + 1}` }));
+const definition = context.globalThis.ResiAiPdf.buildPdfDefinition([{ title: "Test", questions: q }]);
+assert.equal(definition.pageSize, "A4"); assert(definition.content.length > 20);
+console.log("IA Mauritanie : vérifications réussies");
