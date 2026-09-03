@@ -849,6 +849,18 @@ button, input, label[for], summary, a { touch-action: manipulation; }
 .mauritania-app .ai-job h3,
 .mauritania-app .ai-exam strong { overflow-wrap: anywhere; }
 .mauritania-app .ai-actions button { min-height: 44px; }
+.mauritania-app .ai-simple { gap: 16px; margin-inline: auto; max-width: 980px; }
+.mauritania-app .ai-create-card { display: grid; gap: 4px; }
+.mauritania-app .ai-create-card form { max-width: 680px; }
+.mauritania-app .ai-private { align-items: center; background: #edf6f5; border-radius: 12px; color: var(--rh-green-dark) !important; display: flex; font-size: 13px; gap: 8px; margin: 16px 0 0 !important; padding: 11px 12px; }
+.mauritania-app .ai-job-simple { border: 0; border-radius: 14px; background: #f4f8f8; margin-top: 10px; padding: 15px; }
+.mauritania-app .ai-job-simple:first-child { margin-top: 0; }
+.mauritania-app .ai-job-message { color: var(--rh-green-dark) !important; font-size: 13px; line-height: 1.45; margin: 10px 0 !important; }
+.mauritania-app .ai-job-foot { align-items: center; display: flex; gap: 12px; justify-content: space-between; }
+.mauritania-app .ai-clock { color: var(--rh-muted); font-size: 12px; }
+.mauritania-app .ai-pulse { animation: ai-pulse 1.4s ease-in-out infinite; background: var(--rh-green); border-radius: 50%; box-shadow: 0 0 0 5px rgba(8,122,132,.1); flex: 0 0 auto; height: 9px; margin: 8px; width: 9px; }
+.mauritania-app #aiRunningSection[hidden] { display: none; }
+@keyframes ai-pulse { 50% { opacity: .35; transform: scale(.82); } }
 
 @media (hover:hover) {
   .mauritania-app .category-card:hover,
@@ -892,6 +904,9 @@ button, input, label[for], summary, a { touch-action: manipulation; }
   .mauritania-app .ai-exam { align-items: stretch; }
   .mauritania-app .ai-exam .ai-actions { width: 100%; }
   .mauritania-app .ai-toolbar .btn { flex: 1; }
+  .mauritania-app .ai-simple { gap: 12px; }
+  .mauritania-app .ai-create-card form { max-width: none; }
+  .mauritania-app .ai-job-foot { align-items: stretch; flex-direction: column; }
 }
 
 @media (max-width: 390px) {
