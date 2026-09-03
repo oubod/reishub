@@ -3,6 +3,7 @@
   const LABELS = { uploading: "Téléversement", queued: "En attente", processing: "Génération", building_pdf: "Création du PDF", completed: "Terminée", failed: "Échec", cancelling: "Annulation", cancelled: "Annulée" };
   const $ai = () => document.getElementById("ai");
   const h = (value) => String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const frenchError = (error) => /tus:|row-level security|creating upload/i.test(String(error?.message || error)) ? "Le PDF n’a pas pu être téléversé. Vérifiez votre connexion puis réessayez." : String(error?.message || error || "Une erreur est survenue.");
   let user, jobs = [], timer, poller, channel;
 
   async function call(action, payload = {}) {
@@ -64,12 +65,12 @@
       localStorage.removeItem(pendingKey);
       status.textContent = "En attente — vous pouvez fermer l’application en toute sécurité.";
       form.pdf.value = ""; await refresh();
-    } catch (error) { status.textContent = error.message; }
+    } catch (error) { status.textContent = frenchError(error); }
   }
   function upload(file, created, progress) {
     return new Promise(async (resolve, reject) => {
       const { data } = await supabaseClient.auth.getSession();
-      const task = new tus.Upload(file, { endpoint: `${SUPABASE_URL}/storage/v1/upload/resumable`, retryDelays: [0, 3000, 5000, 10000, 20000], headers: { authorization: `Bearer ${data.session.access_token}`, "x-signature": created.uploadToken }, uploadDataDuringCreation: true, removeFingerprintOnSuccess: true, chunkSize: 6 * 1024 * 1024, metadata: { bucketName: "mauritania-ai-inputs", objectName: created.inputPath, contentType: "application/pdf", cacheControl: "3600" }, onError: reject, onProgress: (sent, total) => progress(Math.round(sent / total * 100)), onSuccess: resolve });
+      const task = new tus.Upload(file, { endpoint: `${SUPABASE_URL.replace(".supabase.co", ".storage.supabase.co")}/storage/v1/upload/resumable`, retryDelays: [0, 3000, 5000, 10000, 20000], headers: { authorization: `Bearer ${data.session.access_token}`, "x-signature": created.uploadToken }, uploadDataDuringCreation: true, removeFingerprintOnSuccess: true, chunkSize: 6 * 1024 * 1024, metadata: { bucketName: "mauritania-ai-inputs", objectName: created.inputPath, contentType: "application/pdf", cacheControl: "3600" }, onError: reject, onProgress: (sent, total) => progress(Math.round(sent / total * 100)), onSuccess: resolve });
       const old = await task.findPreviousUploads(); if (old[0]) task.resumeFromPreviousUpload(old[0]); task.start();
     });
   }

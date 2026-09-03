@@ -62,6 +62,20 @@ insert into storage.buckets(id,name,public,file_size_limit,allowed_mime_types) v
  ('mauritania-ai-outputs','mauritania-ai-outputs',false,20971520,array['application/pdf'])
 on conflict(id) do update set public=false,file_size_limit=excluded.file_size_limit,allowed_mime_types=excluded.allowed_mime_types;
 
+drop policy if exists "users upload own active ai sources" on storage.objects;
+create policy "users upload own active ai sources"
+on storage.objects for insert to authenticated
+with check (
+  bucket_id='mauritania-ai-inputs'
+  and (storage.foldername(name))[1]=(select auth.uid())::text
+  and exists (
+    select 1 from public.mauritania_ai_jobs job
+    where job.user_id=(select auth.uid())
+      and job.input_path=storage.objects.name
+      and job.status='uploading'
+  )
+);
+
 create or replace function public.claim_mauritania_ai_job()
 returns setof public.mauritania_ai_jobs language plpgsql security definer set search_path=public as $$
 declare claimed public.mauritania_ai_jobs;
