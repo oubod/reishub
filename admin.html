@@ -490,6 +490,29 @@
       border-color: var(--primary);
       background-color: white;
     }
+    .commerce-panel { margin: 22px 0; padding: 16px; border-radius: 14px; background: #eef8f4; border: 1px solid #cfe9d8; }
+    .commerce-toolbar { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:14px; }
+    .commerce-toolbar h3 { font-size:1.1rem; }
+    .commerce-toolbar select, .commerce-form input, .commerce-form select { border:1px solid var(--border-color); border-radius:8px; background:white; padding:9px; font:inherit; }
+    .commerce-kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:14px; }
+    .commerce-kpi { background:white; border-radius:10px; padding:10px; border:1px solid rgba(0,0,0,.06); }
+    .commerce-kpi small { display:block; color:var(--text-muted); font-size:.7rem; text-transform:uppercase; }
+    .commerce-kpi strong { display:block; margin-top:3px; font-size:1.25rem; }
+    .commerce-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .commerce-box { background:white; border-radius:10px; padding:12px; border:1px solid rgba(0,0,0,.06); }
+    .commerce-box h4 { margin-bottom:10px; }
+    .commerce-list { display:grid; gap:8px; max-height:260px; overflow:auto; }
+    .commerce-row { display:flex; justify-content:space-between; gap:10px; align-items:center; padding:8px 0; border-bottom:1px solid #eee; font-size:.82rem; }
+    .commerce-row:last-child { border-bottom:0; }
+    .commerce-row small { color:var(--text-muted); display:block; }
+    .commerce-actions { display:flex; flex-wrap:wrap; gap:6px; }
+    .commerce-form { display:grid; gap:8px; }
+    .commerce-form .form-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .commerce-note { color:var(--text-muted); font-size:.8rem; margin-top:8px; }
+    .commerce-chart { display:flex; align-items:flex-end; gap:4px; height:90px; border-bottom:1px solid #dfe9e2; padding-top:8px; }
+    .commerce-bar { flex:1; min-width:4px; background:var(--mauritanie); border-radius:4px 4px 0 0; position:relative; }
+    .commerce-bar span { position:absolute; bottom:-18px; left:50%; transform:translateX(-50%); font-size:9px; color:var(--text-muted); }
+    @media (max-width: 650px) { .commerce-kpis { grid-template-columns:repeat(2,1fr); } .commerce-grid { grid-template-columns:1fr; } .commerce-toolbar { align-items:flex-start; flex-direction:column; } }
   </style>
 </head>
 <body>
@@ -594,6 +617,19 @@
           </div>
         </div>
 
+        <section id="commercePanel" class="commerce-panel" style="display:none;">
+          <div class="commerce-toolbar"><div><h3>Vente AI Mauritanie</h3><p class="commerce-note">Crédits, paiements et rentabilité des PDF IA.</p></div><div class="commerce-actions"><select id="commerceRange" onchange="loadCommerceData()"><option value="7">7 jours</option><option value="30" selected>30 jours</option><option value="90">90 jours</option><option value="365">Tout l'historique</option></select><button class="action-btn" type="button" onclick="exportCommerce('payments')">CSV paiements</button><button class="action-btn" type="button" onclick="exportCommerce('customers')">CSV clients</button><button class="action-btn" type="button" onclick="exportCommerce('jobs')">CSV jobs</button></div></div>
+          <div id="commerceKpis" class="commerce-kpis"></div>
+          <div class="commerce-grid">
+            <div class="commerce-box"><h4>Revenus et profit</h4><div id="commerceChart" class="commerce-chart"></div><p class="commerce-note">Montants en MRU · profit estimé selon le coût configuré.</p></div>
+            <div class="commerce-box"><h4>Demandes Bankily</h4><div id="commercePayments" class="commerce-list"></div></div>
+            <div class="commerce-box"><h4>Offres de crédits</h4><div id="commercePackages" class="commerce-list"></div><form id="packageForm" class="commerce-form"><input type="hidden" name="id"><input name="name" placeholder="Nom du pack" required><div class="form-row"><input name="pdfCredits" type="number" min="1" placeholder="PDF" required><input name="priceMru" type="number" min="0" step="0.01" placeholder="Prix MRU" required></div><div class="form-row"><input name="validityDays" type="number" min="1" placeholder="Validité (jours)" required><select name="isActive"><option value="true">Actif</option><option value="false">Inactif</option></select></div><div class="commerce-actions"><button class="action-btn success" type="submit">Enregistrer l'offre</button><button class="action-btn" type="button" onclick="resetPackageForm()">Nouveau</button></div></form></div>
+            <div class="commerce-box"><h4>Paramètres commerciaux</h4><form id="billingSettingsForm" class="commerce-form"><input name="bankilyNumber" placeholder="Numéro Bankily" required><input name="whatsappNumber" placeholder="WhatsApp" required><input name="costPerPdf" type="number" min="0" step="0.01" placeholder="Coût estimé / PDF (MRU)" required><select name="creditSystemEnabled"><option value="true">Système actif</option><option value="false">Système désactivé</option></select><button class="action-btn success" type="submit">Enregistrer les paramètres</button><p id="billingSettingsStatus" class="commerce-note"></p></form></div>
+            <div class="commerce-box"><h4>Clients</h4><div id="commerceCustomers" class="commerce-list"></div></div>
+            <div class="commerce-box"><h4>Générations IA</h4><div id="commerceJobs" class="commerce-list"></div></div>
+          </div>
+        </section>
+
         <!-- Filters & Search -->
         <div class="filter-pill-container" id="userFilters">
           <div class="filter-pill active" onclick="setUserFilter('all')">Tous</div>
@@ -692,6 +728,7 @@
     let auditFilter = 'suspect';
     let activeSuspensionTarget = null;
     let activePasswordResetTarget = null;
+    let commerceData = null;
 
     async function init() {
       const { data } = await client.auth.getSession();
@@ -768,10 +805,85 @@
         usersData = data || [];
         renderStats();
         renderUsers();
+        document.getElementById('commercePanel').style.display = isTunis ? 'none' : 'block';
+        if (!isTunis) await loadCommerceData();
       } catch (err) {
         document.getElementById('usersCardsContainer').innerHTML = `<div style="color: var(--danger); text-align: center; padding: 20px;">Erreur: ${err.message}</div>`;
       }
     }
+
+    const mru = value => `${Number(value || 0).toLocaleString('fr-FR')} MRU`;
+    const commerceStatus = status => status === 'approved' ? '<span class="badge accepted">Validé</span>' : status === 'rejected' ? '<span class="badge rejected">Refusé</span>' : '<span class="badge pending">En attente</span>';
+
+    async function loadCommerceData() {
+      if (currentView !== 'mauritania') return;
+      const panel = document.getElementById('commercePanel');
+      if (!panel) return;
+      panel.style.display = 'block';
+      document.getElementById('commerceKpis').innerHTML = '<div class="commerce-note">Chargement des ventes...</div>';
+      try {
+        const { data, error } = await client.rpc('admin_mauritania_ai_billing_dashboard', { p_days: Number(document.getElementById('commerceRange').value) });
+        if (error) throw error;
+        commerceData = data || {};
+        renderCommerce();
+      } catch (err) { document.getElementById('commerceKpis').innerHTML = `<div style="color:var(--danger)">Erreur commerce : ${escapeHtml(err.message)}</div>`; }
+    }
+
+    function renderCommerce() {
+      const summary = commerceData.summary || {};
+      const profit = Number(summary.revenue_mru || 0) - Number(summary.cost_mru || 0);
+      document.getElementById('commerceKpis').innerHTML = [
+        ['Revenus', mru(summary.revenue_mru)], ['Coûts estimés', mru(summary.cost_mru)], ['Profit brut', mru(profit)], ['PDF terminés', summary.completed_pdfs || 0],
+        ['Clients actifs', summary.active_customers || 0], ['Paiements en attente', summary.pending_payments || 0], ['Crédits bientôt expirés', summary.expiring_credits || 0]
+      ].map(([label, value]) => `<div class="commerce-kpi"><small>${label}</small><strong>${value}</strong></div>`).join('');
+
+      const trend = commerceData.trend || [], max = Math.max(1, ...trend.map(item => Math.max(Number(item.revenue_mru || 0), Number(item.cost_mru || 0))));
+      document.getElementById('commerceChart').innerHTML = trend.slice(-31).map(item => `<div class="commerce-bar" title="${item.date_key}: ${mru(item.revenue_mru)} revenus / ${mru(item.cost_mru)} coûts" style="height:${Math.max(4, Number(item.revenue_mru || 0) / max * 100)}%"><span>${String(item.date_key).slice(5)}</span></div>`).join('') || '<span class="commerce-note">Aucune donnée</span>';
+
+      const payments = commerceData.payments || [];
+      document.getElementById('commercePayments').innerHTML = payments.length ? payments.map(item => `<div class="commerce-row"><div><strong>${escapeHtml(item.customer || item.email)}</strong><small>${escapeHtml(item.package_name)} · ${mru(item.amount_mru)} · ${escapeHtml(item.bankily_reference)}</small></div><div>${commerceStatus(item.status)}${item.status === 'pending' ? `<div class="commerce-actions"><button class="action-btn success" onclick="reviewAiPayment('${escapeAttr(item.id)}','approved')">Valider</button><button class="action-btn danger" onclick="reviewAiPayment('${escapeAttr(item.id)}','rejected')">Refuser</button></div>` : ''}</div></div>`).join('') : '<div class="commerce-note">Aucune demande.</div>';
+
+      const packages = commerceData.packages || [];
+      document.getElementById('commercePackages').innerHTML = packages.length ? packages.map(item => `<div class="commerce-row"><div><strong>${escapeHtml(item.name)}</strong><small>${item.pdf_credits} PDF · ${mru(item.price_mru)} · ${item.validity_days} jours</small></div><div>${item.is_active ? '<span class="badge accepted">Actif</span>' : '<span class="badge suspended">Inactif</span>'}<button class="action-btn" onclick="editAiPackage('${escapeAttr(item.id)}')">Modifier</button></div></div>`).join('') : '<div class="commerce-note">Aucune offre.</div>';
+      document.getElementById('commerceCustomers').innerHTML = (commerceData.customers || []).map(item => `<div class="commerce-row"><div><strong>${escapeHtml(item.username || item.email)}</strong><small>${escapeHtml(item.email)} · ${item.purchased_credits || 0} achetés · ${item.used_credits || 0} utilisés · ${item.remaining_credits || 0} restants</small><small>Expire : ${item.earliest_expiry ? new Date(item.earliest_expiry).toLocaleDateString('fr-FR') : '—'}</small></div><div><strong>${mru(item.profit_mru)} profit<br><small>${mru(item.revenue_mru)} revenus</small></strong><button class="action-btn success" onclick="adjustAiCredits('${escapeAttr(item.user_id)}')">Ajouter</button></div></div>`).join('') || '<div class="commerce-note">Aucun client.</div>';
+      document.getElementById('commerceJobs').innerHTML = (commerceData.jobs || []).slice(0, 30).map(item => `<div class="commerce-row"><div><strong>${escapeHtml(item.customer || item.user_id)}</strong><small>${escapeHtml(item.title)} · ${item.question_count} questions</small></div><div>${escapeHtml(item.status)}<small>${mru(item.cost_mru)}</small></div></div>`).join('') || '<div class="commerce-note">Aucune génération.</div>';
+      const settings = commerceData.settings || {}, settingsForm = document.getElementById('billingSettingsForm');
+      if (settingsForm) { settingsForm.bankilyNumber.value = settings.bankily_number || ''; settingsForm.whatsappNumber.value = settings.whatsapp_number || ''; settingsForm.costPerPdf.value = settings.cost_per_pdf_mru || 0; settingsForm.creditSystemEnabled.value = String(settings.credit_system_enabled !== false); }
+    }
+
+    function exportCommerce(kind) {
+      const rows = commerceData?.[kind] || []; if (!rows.length) return alert('Aucune donnée à exporter.');
+      const keys = Object.keys(rows[0]); const csv = [keys.join(','), ...rows.map(row => keys.map(key => `"${String(row[key] ?? '').replace(/"/g, '""')}"`).join(','))].join('\n');
+      const link = document.createElement('a'); link.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' })); link.download = `resihub-${kind}.csv`; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    }
+
+    async function reviewAiPayment(id, status) {
+      if (!confirm(status === 'approved' ? 'Valider ce paiement et ajouter les crédits ?' : 'Refuser cette demande ?')) return;
+      const { error } = await client.rpc('admin_review_mauritania_ai_payment', { p_payment_id: id, p_status: status });
+      if (error) return alert('Erreur : ' + error.message);
+      await loadCommerceData();
+    }
+
+    async function adjustAiCredits(userId) {
+      const credits = Number(prompt('Combien de crédits ajouter ?', '1')); if (!Number.isInteger(credits) || credits <= 0) return;
+      const note = prompt('Motif de l’ajustement', 'Geste commercial') || ''; if (!note.trim()) return;
+      const { error } = await client.rpc('admin_adjust_mauritania_ai_credits', { p_user_id: userId, p_credits: credits, p_note: note.trim() });
+      if (error) return alert('Erreur : ' + error.message); await loadCommerceData();
+    }
+
+    function resetPackageForm() { const form = document.getElementById('packageForm'); form.reset(); form.elements.id.value = ''; form.isActive.value = 'true'; }
+    function editAiPackage(id) { const item = (commerceData.packages || []).find(pack => pack.id === id); if (!item) return; const form = document.getElementById('packageForm'); form.elements.id.value = item.id; form.name.value = item.name; form.pdfCredits.value = item.pdf_credits; form.priceMru.value = item.price_mru; form.validityDays.value = item.validity_days; form.isActive.value = String(item.is_active); form.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+
+    document.getElementById('packageForm').addEventListener('submit', async event => {
+      event.preventDefault(); const form = event.currentTarget;
+      const { error } = await client.rpc('admin_upsert_mauritania_ai_package', { p_id: form.elements.id.value || null, p_name: form.name.value.trim(), p_pdf_credits: Number(form.pdfCredits.value), p_price_mru: Number(form.priceMru.value), p_validity_days: Number(form.validityDays.value), p_is_active: form.isActive.value === 'true' });
+      if (error) return alert('Erreur : ' + error.message); resetPackageForm(); await loadCommerceData();
+    });
+    document.getElementById('billingSettingsForm').addEventListener('submit', async event => {
+      event.preventDefault(); const form = event.currentTarget;
+      const { error } = await client.rpc('admin_update_mauritania_ai_settings', { p_bankily_number: form.bankilyNumber.value.trim(), p_whatsapp_number: form.whatsappNumber.value.trim(), p_cost_per_pdf_mru: Number(form.costPerPdf.value), p_credit_system_enabled: form.creditSystemEnabled.value === 'true' });
+      const status = document.getElementById('billingSettingsStatus'); status.textContent = error ? 'Erreur : ' + error.message : 'Paramètres enregistrés.'; if (!error) await loadCommerceData();
+    });
 
     function renderStats() {
       const total = usersData.length;

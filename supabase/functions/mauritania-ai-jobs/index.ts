@@ -134,9 +134,26 @@ function normalizeQuiz(raw: any, job: any) {
 
 function friendlyFailure(value: unknown) {
   const message = clean(value instanceof Error ? value.message : value, 240);
+  if (/crédits? ia insuffisants/i.test(message)) return "Crédits IA insuffisants. Achetez un pack pour créer un PDF.";
   if (/401|unauthor|token|credit|billing/i.test(message)) return "Le service IA n'est pas disponible. Vérifiez le crédit Replicate.";
   if (/cancel/i.test(message)) return "La génération a été annulée.";
   return "La génération n'a pas abouti. Vous pouvez la recommencer.";
+}
+
+async function billingSummary(admin: ReturnType<typeof adminClient>, userId: string) {
+  await admin.rpc("expire_mauritania_ai_credits", { p_user_id: userId });
+  const [{ data: settings }, { data: packages }, { data: requests }, { data: grants }] = await Promise.all([
+    admin.from("mauritania_ai_billing_settings").select("bankily_number,whatsapp_number,credit_system_enabled").eq("id", true).single(),
+    admin.from("mauritania_ai_packages").select("id,name,pdf_credits,price_mru,validity_days").eq("is_active", true).order("price_mru"),
+    admin.from("mauritania_ai_payment_requests").select("id,package_name,pdf_credits,validity_days,amount_mru,bankily_reference,status,created_at,reviewed_at").eq("user_id", userId).order("created_at", { ascending: false }).limit(20),
+    admin.from("mauritania_ai_credit_grants").select("id,credits_total,credits_reserved,credits_consumed,credits_expired,expires_at,created_at").eq("user_id", userId).order("expires_at")
+  ]);
+  const active = (grants || []).filter((grant: any) => new Date(grant.expires_at) > new Date());
+  const available = active.reduce((sum: number, grant: any) => sum + Math.max(0, grant.credits_total - grant.credits_reserved - grant.credits_consumed - grant.credits_expired), 0);
+  const reserved = active.reduce((sum: number, grant: any) => sum + Number(grant.credits_reserved || 0), 0);
+  const consumed = (grants || []).reduce((sum: number, grant: any) => sum + Number(grant.credits_consumed || 0), 0);
+  const purchased = (grants || []).reduce((sum: number, grant: any) => sum + Number(grant.credits_total || 0), 0);
+  return { settings, packages: packages || [], requests: requests || [], grants: grants || [], summary: { available, reserved, consumed, purchased, earliestExpiry: active[0]?.expires_at || null } };
 }
 
 async function retryPrediction(admin: ReturnType<typeof adminClient>, job: any, prediction: any, repair: boolean) {
@@ -158,11 +175,12 @@ async function retryPrediction(admin: ReturnType<typeof adminClient>, job: any, 
 
 async function applyPrediction(admin: ReturnType<typeof adminClient>, jobId: string, prediction: any) {
   const { data: job } = await admin.from("mauritania_ai_jobs")
-    .select("id,user_id,title,source_name,specialty,question_count,question_type,status,attempt_count,provider_job_id,cancel_requested")
+    .select("id,user_id,title,source_name,specialty,question_count,question_type,status,attempt_count,provider_job_id,cancel_requested,billing_status")
     .eq("id", jobId).eq("provider", "replicate").maybeSingle();
   if (!job || job.provider_job_id && job.provider_job_id !== prediction?.id || TERMINAL.includes(job.status)) return;
   if (job.cancel_requested) {
     if (["succeeded", "failed", "canceled"].includes(prediction?.status)) {
+      await admin.rpc("release_mauritania_ai_credit", { p_job_id: job.id });
       await admin.from("mauritania_ai_jobs").update({ status: "cancelled", stage: "Annulée", progress: 0, result: null, error_message: null, completed_at: now(), updated_at: now() }).eq("id", job.id);
     }
     return;
@@ -180,6 +198,7 @@ async function applyPrediction(admin: ReturnType<typeof adminClient>, jobId: str
     return;
   }
   if (prediction?.status === "canceled") {
+    await admin.rpc("release_mauritania_ai_credit", { p_job_id: job.id });
     await admin.from("mauritania_ai_jobs").update({ status: "cancelled", stage: "Annulée", progress: 0, error_message: null, completed_at: now(), updated_at: now() }).eq("id", job.id);
     return;
   }
@@ -187,6 +206,7 @@ async function applyPrediction(admin: ReturnType<typeof adminClient>, jobId: str
     if (Number(job.attempt_count || 0) < 1) {
       try { await retryPrediction(admin, job, prediction, false); return; } catch (_) { /* finish below */ }
     }
+    await admin.rpc("release_mauritania_ai_credit", { p_job_id: job.id });
     await admin.from("mauritania_ai_jobs").update({ status: "failed", stage: "Échec", error_message: friendlyFailure(prediction.error), completed_at: now(), updated_at: now() }).eq("id", job.id);
     return;
   }
@@ -194,6 +214,10 @@ async function applyPrediction(admin: ReturnType<typeof adminClient>, jobId: str
 
   try {
     const quiz = normalizeQuiz(parseJson(predictionText(prediction)), job);
+    if (job.billing_status === "reserved") {
+      const { data: consumed, error: consumeError } = await admin.rpc("consume_mauritania_ai_credit", { p_job_id: job.id });
+      if (consumeError || !consumed) throw new Error("Le crédit IA n'est plus disponible.");
+    }
     await admin.from("mauritania_ai_jobs").update({
       status: "completed",
       stage: "Prête à enregistrer",
@@ -264,7 +288,7 @@ Deno.serve(async (req) => {
     if (!user) return json({ error: "Connexion requise." }, 401);
 
     const { data: profile } = await admin.from("mauritania_profiles").select("approved,rejected,suspended_until,gemini_enabled").eq("id", user.id).single();
-    if (!profile?.approved || profile.rejected || profile.suspended_until && new Date(profile.suspended_until) > new Date() || !profile.gemini_enabled) return json({ error: "Accès IA non autorisé." }, 403);
+    if (!profile?.approved || profile.rejected || profile.suspended_until && new Date(profile.suspended_until) > new Date()) return json({ error: "Accès IA non autorisé." }, 403);
 
     const body = await req.json();
     const action = body.action;
@@ -273,6 +297,18 @@ Deno.serve(async (req) => {
       if (!data) throw new Error("Génération introuvable.");
       return data;
     };
+
+    if (action === "billing-summary") return json(await billingSummary(admin, user.id));
+
+    if (action === "create-payment-request") {
+      const reference = clean(body.bankilyReference, 120);
+      if (!reference) return json({ error: "Ajoutez la référence du transfert Bankily." }, 400);
+      const { data: pack } = await admin.from("mauritania_ai_packages").select("id,name,pdf_credits,price_mru,validity_days").eq("id", body.packageId).eq("is_active", true).single();
+      if (!pack) return json({ error: "Ce pack n'est plus disponible." }, 400);
+      const { data: request, error } = await admin.from("mauritania_ai_payment_requests").insert({ user_id: user.id, package_id: pack.id, package_name: pack.name, pdf_credits: pack.pdf_credits, validity_days: pack.validity_days, amount_mru: pack.price_mru, bankily_reference: reference }).select("id,status").single();
+      if (error) throw error;
+      return json({ request });
+    }
 
     if (action === "create") {
       const count = Number(body.questionCount);
@@ -294,6 +330,18 @@ Deno.serve(async (req) => {
       });
       if (insertError) throw insertError;
 
+      const { data: billingSettings } = await admin.from("mauritania_ai_billing_settings").select("credit_system_enabled").eq("id", true).single();
+      if (billingSettings?.credit_system_enabled !== false) {
+        const { error: reserveError } = await admin.rpc("reserve_mauritania_ai_credit", { p_user_id: user.id, p_job_id: id });
+        if (reserveError) {
+          await admin.from("mauritania_ai_jobs").delete().eq("id", id);
+          return json({ error: friendlyFailure(reserveError.message) }, 402);
+        }
+      } else if (!profile.gemini_enabled) {
+        await admin.from("mauritania_ai_jobs").delete().eq("id", id);
+        return json({ error: "Le système de crédits IA est désactivé." }, 403);
+      }
+
       try {
         const prediction = await createPrediction(id, {
           prompt: `${systemInstruction()}\n\n${promptFor({ ...body, title })}`,
@@ -302,6 +350,7 @@ Deno.serve(async (req) => {
         if (["succeeded", "failed", "canceled"].includes(prediction.status)) await applyPrediction(admin, id, prediction);
         return json({ jobId: id, status: prediction.status });
       } catch (error) {
+        await admin.rpc("release_mauritania_ai_credit", { p_job_id: id });
         await admin.from("mauritania_ai_jobs").update({ status: "failed", stage: "Échec", error_message: friendlyFailure(error), completed_at: now(), updated_at: now() }).eq("id", id);
         throw error;
       }

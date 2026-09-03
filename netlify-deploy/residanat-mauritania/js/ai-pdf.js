@@ -46,6 +46,7 @@
               ],
               margin: [0, 0, 0, 4]
             },
+            { text: `Question ${number}`, fontSize: 10, bold: true, color: "#102D44", margin: [0, 0, 0, 2] },
             { text: question.stem || question.question || "", fontSize: 10, bold: true, color: "#102D44", lineHeight: 1.25, margin: [0, 0, 0, 4] },
             {
               table: {

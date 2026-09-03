@@ -10,7 +10,7 @@
   const $ai = () => document.getElementById("ai");
   const h = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
   const errorText = () => "La demande n’a pas abouti. Vérifiez votre connexion puis réessayez.";
-  let user, jobs = [], poller, timer, channel, refreshPending, syncPending;
+  let user, jobs = [], billing = null, poller, timer, channel, refreshPending, syncPending;
 
   async function call(action, payload = {}) {
     const { data, error } = await supabaseClient.functions.invoke("mauritania-ai-jobs", { body: { action, ...payload } });
@@ -95,6 +95,33 @@
     if (syncPending) return syncPending;
     syncPending = (async () => { await call("sync").catch(() => {}); await refresh(); })();
     try { return await syncPending; } finally { syncPending = null; }
+  }
+
+  async function loadBilling() {
+    try { billing = await call("billing-summary"); renderBilling(); }
+    catch (_) { billing = null; renderBilling(); }
+  }
+
+  function renderBilling() {
+    const target = document.getElementById("aiBillingPanel");
+    if (!target) return;
+    if (!billing) { target.innerHTML = `<div class="ai-empty">Les informations de crédit seront disponibles après actualisation.</div>`; return; }
+    const summary = billing.summary || {}, settings = billing.settings || {};
+    const expiry = summary.earliestExpiry ? new Date(summary.earliestExpiry).toLocaleDateString("fr-FR") : "—";
+    if (settings.credit_system_enabled === false) { target.innerHTML = `<div class="ai-section-title"><div><h2>Quiz IA</h2><p>Le système de crédits est temporairement désactivé.</p></div></div>`; return; }
+    const packages = (billing.packages || []).map((pack) => `<option value="${h(pack.id)}">${h(pack.name)} · ${pack.pdf_credits} PDF · ${pack.price_mru} MRU · ${pack.validity_days} jours</option>`).join("");
+    const requests = (billing.requests || []).slice(0, 4).map((request) => `<li><strong>${h(request.package_name)}</strong><span>${request.amount_mru} MRU · ${request.status === "approved" ? "Validé" : request.status === "rejected" ? "Refusé" : "En attente"}</span></li>`).join("");
+    target.innerHTML = `<div class="ai-section-title"><div><h2>Crédits IA</h2><p>Un crédit est utilisé uniquement quand le PDF est terminé.</p></div><strong class="ai-credit-total">${summary.available || 0} disponibles</strong></div><div class="ai-credit-stats"><span><strong>${summary.available || 0}</strong>Disponibles</span><span><strong>${summary.reserved || 0}</strong>En cours</span><span><strong>${summary.consumed || 0}</strong>Utilisés</span><span><strong>${h(expiry)}</strong>Prochaine expiration</span></div><div class="ai-buy-box"><strong>Acheter un pack</strong><p>Transférez le montant au Bankily <b>${h(settings.bankily_number || "")}</b>, puis indiquez la référence du transfert.</p><form id="aiPurchaseForm" class="ai-purchase-form"><select name="packageId" aria-label="Pack de crédits" ${packages ? "" : "disabled"}>${packages || "<option>Aucun pack disponible</option>"}</select><input name="bankilyReference" maxlength="120" placeholder="Référence Bankily" required ${packages ? "" : "disabled"}><button class="btn primary" type="submit" ${packages ? "" : "disabled"}>Envoyer la demande</button></form><p id="aiBillingStatus" class="ai-form-status" aria-live="polite"></p></div>${requests ? `<div class="ai-purchase-history"><strong>Mes demandes récentes</strong><ul>${requests}</ul></div>` : ""}`;
+    document.getElementById("aiPurchaseForm")?.addEventListener("submit", submitPayment);
+  }
+
+  async function submitPayment(event) {
+    event.preventDefault();
+    const form = event.currentTarget, status = document.getElementById("aiBillingStatus"), button = form.querySelector("button");
+    button.disabled = true;
+    try { await call("create-payment-request", { packageId: form.packageId.value, bankilyReference: form.bankilyReference.value.trim() }); form.reset(); status.textContent = "Demande envoyée. Elle sera activée après vérification du transfert."; await loadBilling(); }
+    catch (error) { status.textContent = error.message || "Impossible d’envoyer la demande."; }
+    finally { button.disabled = false; }
   }
 
   function relativeTime(job) {
@@ -186,7 +213,7 @@
       if (picker) picker.textContent = "Aucun fichier choisi";
       await refresh();
     } catch (error) {
-      status.textContent = /numérisé|Sélectionnez|20 Mo/.test(error.message) ? error.message : errorText();
+      status.textContent = /numérisé|Sélectionnez|20 Mo|Crédits|système de crédits/i.test(error.message) ? error.message : errorText();
     } finally { button.disabled = false; }
   }
 
@@ -229,6 +256,10 @@
     if (channel) supabaseClient.removeChannel(channel);
     $ai().innerHTML = `<main class="ai-native ai-simple"><header class="ai-hero"><div><p class="kicker">RésiHub Medical AI</p><h2>Créer une épreuve depuis un PDF</h2><p>Le PDF reste sur votre appareil. La génération continue même si vous fermez l’application.</p></div><span class="ai-durable">Propulsé par Replicate</span></header><section class="ai-panel ai-create-card"><div class="ai-section-title"><div><h2>Nouvelle épreuve</h2><p>Choisissez le document et le format souhaité.</p></div></div><form id="aiCreate"><label>PDF source<input name="pdf" type="file" accept="application/pdf" required><small>PDF avec texte sélectionnable · 20 Mo maximum.</small></label><div class="ai-fields"><label>Questions<select name="question_count"><option>15</option><option>30</option><option>45</option></select></label><label>Format<select name="question_type"><option value="qru">QRU</option><option value="qrm">QRM</option><option value="mixed">Mixte</option></select></label></div><details class="ai-advanced"><summary>Options facultatives</summary><label>Titre<input name="title" maxlength="100" placeholder="Ex. Insuffisance cardiaque"></label><label>Spécialité<input name="specialty" maxlength="80" placeholder="Toutes spécialités"></label></details><button class="btn primary wide" type="submit">Créer l’épreuve</button><p id="aiCreateStatus" class="ai-form-status" aria-live="polite"></p></form><p class="ai-private"><span class="icon">lock</span> Le document n’est pas conservé sur RésiHub. Seul son texte est transmis temporairement à Replicate.</p></section><section class="ai-panel ai-running" id="aiRunningSection" hidden><div class="ai-section-title"><div><h2>En cours</h2><p>Vous pouvez quitter cette page.</p></div></div><div id="aiJobs"></div></section><section class="ai-panel ai-vault"><div class="ai-section-title"><div><h2>Mes épreuves</h2><p>Enregistrées uniquement sur cet appareil.</p></div><div class="ai-toolbar"><input id="aiSearch" type="search" placeholder="Rechercher" oninput="ResiAiJobs.filter()"><label class="btn">Importer<input id="aiImport" type="file" accept="application/json" hidden onchange="ResiAiJobs.importJson(this)"></label><button class="btn" onclick="ResiAiJobs.pack()">PDF groupé</button></div></div><div id="aiLibrary"></div></section></main>`;
 
+    const billingPanel = document.createElement("section");
+    billingPanel.className = "ai-panel";
+    billingPanel.id = "aiBillingPanel";
+    document.querySelector(".ai-create-card")?.before(billingPanel);
     const form = document.getElementById("aiCreate");
     const pdfInput = form.pdf;
     pdfInput.hidden = true;
@@ -243,6 +274,7 @@
     pdfInput.onchange = () => { picker.firstElementChild.textContent = pdfInput.files[0]?.name || "Aucun fichier choisi"; };
     form.addEventListener("submit", submit);
 
+    await loadBilling();
     await loadLocalExams();
     await syncAndRefresh();
     channel = supabaseClient.channel(`ai-jobs-${user.id}`).on("postgres_changes", { event: "*", schema: "public", table: "mauritania_ai_jobs", filter: `user_id=eq.${user.id}` }, refresh).subscribe();
