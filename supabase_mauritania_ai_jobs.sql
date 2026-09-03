@@ -81,7 +81,7 @@ returns setof public.mauritania_ai_jobs language plpgsql security definer set se
 declare claimed public.mauritania_ai_jobs;
 begin
   select * into claimed from public.mauritania_ai_jobs
-  where status in ('queued','processing','building_pdf') and next_attempt_at<=now()
+  where status in ('queued','processing','building_pdf') and cancel_requested=false and next_attempt_at<=now()
     and (lease_until is null or lease_until<now())
   order by created_at for update skip locked limit 1;
   if claimed.id is null then return; end if;
