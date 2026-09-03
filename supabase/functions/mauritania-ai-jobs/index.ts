@@ -134,8 +134,8 @@ function normalizeQuiz(raw: any, job: any) {
 
 function friendlyFailure(value: unknown) {
   const message = clean(value instanceof Error ? value.message : value, 240);
-  if (/crédits? ia insuffisants/i.test(message)) return "Crédits IA insuffisants. Achetez un pack pour créer un PDF.";
-  if (/401|unauthor|token|credit|billing/i.test(message)) return "Le service IA n'est pas disponible. Vérifiez le crédit Replicate.";
+  if (/crédits? ia insuffisants/i.test(message)) return "Votre solde de crédits est épuisé. Demandez des crédits à l’administrateur.";
+  if (/401|unauthor|token|credit|billing/i.test(message)) return "Le service IA est temporairement indisponible.";
   if (/cancel/i.test(message)) return "La génération a été annulée.";
   return "La génération n'a pas abouti. Vous pouvez la recommencer.";
 }
@@ -326,7 +326,7 @@ Deno.serve(async (req) => {
       const { error: insertError } = await admin.from("mauritania_ai_jobs").insert({
         id, user_id: user.id, title, source_name: clean(body.sourceName, 180), specialty: clean(body.specialty, 80),
         question_count: count, question_type: type, chunks_total: 1, estimated_seconds: count * 8,
-        input_path: "local", provider: "replicate", status: "queued", stage: "Envoi à Replicate", progress: 10,
+        input_path: "local", provider: "replicate", status: "queued", stage: "Préparation de l’épreuve", progress: 10,
       });
       if (insertError) throw insertError;
 

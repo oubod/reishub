@@ -16,8 +16,10 @@ assert(api.includes('google/gemini-2.5-flash') && api.includes("verifyWebhook") 
 assert(api.includes('action === "ack-local"') && api.includes("REPLICATE_API_TOKEN") && api.includes(">= 3"));
 assert(api.includes('action === "billing-summary"') && api.includes('action === "create-payment-request"') && api.includes('reserve_mauritania_ai_credit'));
 assert(api.includes('consume_mauritania_ai_credit') && api.includes('release_mauritania_ai_credit'));
-assert(client.includes("indexedDB.open") && client.includes("pdfjsLib.getDocument") && client.includes('call("ack-local"'));
+assert(client.includes("indexedDB.open") && client.includes("pdfjsLib.getDocument") && !client.includes('call("ack-local"'));
 assert(client.includes("createPdfBlob") && client.includes('call("sync")'));
+assert.doesNotMatch(client, /Replicate/, "provider names must stay out of the user-facing AI screen");
+assert(client.includes("1 crédit = 1 PDF"));
 assert(sql.includes("pg_advisory_xact_lock") && sql.includes("limit_mauritania_ai_jobs_trigger"));
 assert(sql.includes("provider_job_id") && !sql.includes("cron.schedule"));
 assert.equal(read("residanat-mauritania/js/ai-jobs.js"), read("netlify-deploy/residanat-mauritania/js/ai-jobs.js"));

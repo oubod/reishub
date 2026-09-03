@@ -35,7 +35,6 @@
         const options = Object.entries(question.options || {});
         flat.push({ number, correct, explanation: question.explanation, source: question.reference || question.source_ref });
         content.push({
-          unbreakable: true,
           margin: [0, 0, 0, 9],
           stack: [
             {
@@ -75,7 +74,6 @@
     }
     content.push({ table: { widths: Array(10).fill("*"), body: grid }, layout: { hLineWidth: () => 0.4, vLineWidth: () => 0.4, hLineColor: () => "#D8E4E7", vLineColor: () => "#D8E4E7" }, margin: [0, 0, 0, 15] });
     flat.forEach((item) => content.push({
-      unbreakable: true,
       table: {
         widths: ["*"],
         body: [[{

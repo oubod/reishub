@@ -21,7 +21,7 @@ assert.match(updater, /controllerchange/);
 assert.match(rootWorker, /resihub-pwa-v34/);
 assert.match(rootWorker, /await self\.skipWaiting\(\)/);
 assert.match(rootWorker, /request\.mode === "navigate"/);
-assert.match(mauritaniaWorker, /resihub-mauritania-v44/);
+assert.match(mauritaniaWorker, /resihub-mauritania-v48/);
 assert.match(mauritaniaWorker, /self\.skipWaiting\(\)/);
 assert.match(mauritaniaWorker, /event\.request\.mode === 'navigate'/);
 assert.match(headers, /\/residanat-mauritania\/sw\.js\s+Cache-Control: no-cache/);
@@ -33,7 +33,7 @@ for (const path of rootPages) {
   assert.match(read(path), /pwa-update\.js\?v=resihub-20260829-1" data-sw="sw\.js\?v=resihub-20260829-1"/);
 }
 for (const path of mauritaniaPages) {
-  assert.match(read(`residanat-mauritania/${path}`), /pwa-update\.js\?v=resihub-20260903-3" data-sw="\.\/sw\.js\?v=resihub-20260903-3"/);
+  assert.match(read(`residanat-mauritania/${path}`), /pwa-update\.js\?v=resihub-20260903-7" data-sw="\.\/sw\.js\?v=resihub-20260903-7"/);
 }
 
 console.log("automatic PWA update wiring: ok");

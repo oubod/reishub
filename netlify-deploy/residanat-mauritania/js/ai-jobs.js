@@ -2,7 +2,7 @@
   "use strict";
 
   const ACTIVE = ["queued", "processing", "cancelling"];
-  const LABELS = { queued: "En attente", processing: "Génération", completed: "Terminée", failed: "À recommencer", cancelling: "Annulation", cancelled: "Annulée" };
+  const LABELS = { queued: "En attente", processing: "En cours", completed: "Terminée", failed: "Échec", cancelling: "Annulation", cancelled: "Annulée" };
   const DB_NAME = "resihub-medical-ai";
   const STORE = "exams";
   const MAX_SOURCE_CHARS = 175000;
@@ -12,8 +12,25 @@
   const errorText = () => "La demande n’a pas abouti. Vérifiez votre connexion puis réessayez.";
   let user, jobs = [], billing = null, poller, timer, channel, refreshPending, syncPending;
 
-  async function call(action, payload = {}) {
-    const { data, error } = await supabaseClient.functions.invoke("mauritania-ai-jobs", { body: { action, ...payload } });
+  async function call(action, payload = {}, retried = false) {
+    const { data: sessionData } = await supabaseClient.auth.getSession();
+    let session = sessionData?.session || null;
+    if (session?.expires_at && session.expires_at * 1000 <= Date.now() + 30000) {
+      const refreshed = await supabaseClient.auth.refreshSession();
+      session = refreshed.data?.session || null;
+    }
+    if (!session?.access_token) throw new Error("Connexion requise. Rechargez la page puis réessayez.");
+
+    const result = await supabaseClient.functions.invoke("mauritania-ai-jobs", {
+      body: { action, ...payload },
+      headers: { Authorization: `Bearer ${session.access_token}` },
+    });
+    const { data, error } = result;
+    const status = error?.context?.status || error?.status;
+    if (error && status === 401 && !retried) {
+      const refreshed = await supabaseClient.auth.refreshSession();
+      if (refreshed.data?.session) return call(action, payload, true);
+    }
     if (error) throw new Error(data?.error || error.message || "Service IA indisponible.");
     if (data?.error) throw new Error(data.error);
     return data;
@@ -71,9 +88,6 @@
     for (const job of jobs.filter((item) => item.status === "completed" && item.result?.quiz)) {
       try {
         if (!localExams.has(job.id)) await saveLocal(job, job.result.quiz);
-        await call("ack-local", { jobId: job.id });
-        job.result = null;
-        job.result_localized_at = new Date().toISOString();
       } catch (_) { /* The server copy remains available for the next attempt. */ }
     }
   }
@@ -109,19 +123,7 @@
     const summary = billing.summary || {}, settings = billing.settings || {};
     const expiry = summary.earliestExpiry ? new Date(summary.earliestExpiry).toLocaleDateString("fr-FR") : "—";
     if (settings.credit_system_enabled === false) { target.innerHTML = `<div class="ai-section-title"><div><h2>Quiz IA</h2><p>Le système de crédits est temporairement désactivé.</p></div></div>`; return; }
-    const packages = (billing.packages || []).map((pack) => `<option value="${h(pack.id)}">${h(pack.name)} · ${pack.pdf_credits} PDF · ${pack.price_mru} MRU · ${pack.validity_days} jours</option>`).join("");
-    const requests = (billing.requests || []).slice(0, 4).map((request) => `<li><strong>${h(request.package_name)}</strong><span>${request.amount_mru} MRU · ${request.status === "approved" ? "Validé" : request.status === "rejected" ? "Refusé" : "En attente"}</span></li>`).join("");
-    target.innerHTML = `<div class="ai-section-title"><div><h2>Crédits IA</h2><p>Un crédit est utilisé uniquement quand le PDF est terminé.</p></div><strong class="ai-credit-total">${summary.available || 0} disponibles</strong></div><div class="ai-credit-stats"><span><strong>${summary.available || 0}</strong>Disponibles</span><span><strong>${summary.reserved || 0}</strong>En cours</span><span><strong>${summary.consumed || 0}</strong>Utilisés</span><span><strong>${h(expiry)}</strong>Prochaine expiration</span></div><div class="ai-buy-box"><strong>Acheter un pack</strong><p>Transférez le montant au Bankily <b>${h(settings.bankily_number || "")}</b>, puis indiquez la référence du transfert.</p><form id="aiPurchaseForm" class="ai-purchase-form"><select name="packageId" aria-label="Pack de crédits" ${packages ? "" : "disabled"}>${packages || "<option>Aucun pack disponible</option>"}</select><input name="bankilyReference" maxlength="120" placeholder="Référence Bankily" required ${packages ? "" : "disabled"}><button class="btn primary" type="submit" ${packages ? "" : "disabled"}>Envoyer la demande</button></form><p id="aiBillingStatus" class="ai-form-status" aria-live="polite"></p></div>${requests ? `<div class="ai-purchase-history"><strong>Mes demandes récentes</strong><ul>${requests}</ul></div>` : ""}`;
-    document.getElementById("aiPurchaseForm")?.addEventListener("submit", submitPayment);
-  }
-
-  async function submitPayment(event) {
-    event.preventDefault();
-    const form = event.currentTarget, status = document.getElementById("aiBillingStatus"), button = form.querySelector("button");
-    button.disabled = true;
-    try { await call("create-payment-request", { packageId: form.packageId.value, bankilyReference: form.bankilyReference.value.trim() }); form.reset(); status.textContent = "Demande envoyée. Elle sera activée après vérification du transfert."; await loadBilling(); }
-    catch (error) { status.textContent = error.message || "Impossible d’envoyer la demande."; }
-    finally { button.disabled = false; }
+    target.innerHTML = `<div class="ai-section-title"><div><span class="ai-credit-kicker">Solde de votre compte</span><h2>Crédits IA</h2><p><strong>1 crédit = 1 PDF.</strong> Il est débité uniquement lorsque l’épreuve est terminée.</p></div><strong class="ai-credit-total">${summary.available || 0}<small> crédits disponibles</small></strong></div><div class="ai-credit-stats"><span><strong>${summary.available || 0}</strong>Disponibles</span><span><strong>${summary.reserved || 0}</strong>En cours</span><span><strong>${summary.consumed || 0}</strong>Utilisés</span><span><strong>${h(expiry)}</strong>Expiration la plus proche</span></div><p class="ai-credit-help">Pour ajouter des crédits à votre compte, contactez l’administrateur.</p>`;
   }
 
   function relativeTime(job) {
@@ -161,7 +163,7 @@
     const list = completed();
     target.innerHTML = list.length ? list.map((job) => {
       const available = !!quiz(job);
-      return `<article class="ai-exam"><label><input class="ai-pack" type="checkbox" value="${h(job.id)}" ${available ? "" : "disabled"}><span><strong>${h(job.title)}</strong><small>${job.question_count} questions · ${available ? "Enregistrée sur cet appareil" : "Disponible sur l’appareil d’origine"}</small></span></label><div class="ai-actions">${available ? `<button class="btn primary" onclick="ResiAiJobs.solve('${job.id}')">S’entraîner</button><button class="btn" onclick="ResiAiJobs.pdf('${job.id}')">PDF</button><button class="btn" onclick="ResiAiJobs.json('${job.id}')">JSON</button>` : job.output_path ? `<button class="btn" onclick="ResiAiJobs.pdf('${job.id}')">PDF</button>` : ""}<button class="icon-btn" title="Renommer" onclick="ResiAiJobs.rename('${job.id}')"><span class="icon">edit</span></button><button class="icon-btn danger" title="Supprimer" onclick="ResiAiJobs.remove('${job.id}')"><span class="icon">delete</span></button></div></article>`;
+      return `<article class="ai-exam"><label><input class="ai-pack" type="checkbox" value="${h(job.id)}" ${available ? "" : "disabled"}><span><span class="ai-status completed">Terminée</span><strong>${h(job.title)}</strong><small>${job.question_count} questions · ${available ? "Disponible sur votre compte" : "Disponible sur l’appareil d’origine"}</small></span></label><div class="ai-actions">${available ? `<button class="btn primary" onclick="ResiAiJobs.pdf('${job.id}')">Télécharger PDF</button><button class="btn" onclick="ResiAiJobs.solve('${job.id}')">S’entraîner</button>` : job.output_path ? `<button class="btn primary" onclick="ResiAiJobs.pdf('${job.id}')">Télécharger PDF</button>` : ""}<button class="btn danger" onclick="ResiAiJobs.remove('${job.id}')">Supprimer</button></div></article>`;
     }).join("") : `<div class="ai-empty">Vos épreuves terminées apparaîtront ici.</div>`;
   }
 
@@ -205,7 +207,7 @@
       if (file.size > 20 * 1024 * 1024) throw new Error("Le PDF dépasse 20 Mo.");
       button.disabled = true;
       const sourceText = await extractPdf(file, status);
-      status.textContent = "Envoi sécurisé à Replicate…";
+      status.textContent = "Traitement IA sécurisé de votre document…";
       await call("create", { sourceName: file.name, sourceSize: file.size, sourceText, title: form.title.value.trim(), specialty: form.specialty.value.trim(), questionCount: Number(form.question_count.value), questionType: form.question_type.value });
       status.textContent = "En attente · vous pouvez fermer l’application.";
       form.pdf.value = "";
@@ -221,17 +223,17 @@
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
     link.download = String(name || "epreuve").replace(/[\\/:*?"<>|]/g, "-");
+    link.hidden = true;
+    document.body.append(link);
     link.click();
-    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    setTimeout(() => { URL.revokeObjectURL(link.href); link.remove(); }, 1000);
   }
 
   async function localPdf(selected) {
-    if (selected.length === 1) {
-      const stored = localExams.get(selected[0].id);
-      if (stored?.pdf) return downloadBlob(stored.pdf, `${selected[0].title}.pdf`);
-    }
     const definitions = selected.map(quiz).filter(Boolean);
-    pdfMake.createPdf(ResiAiPdf.buildPdfDefinition(definitions, selected.length > 1 ? "Recueil de mes épreuves" : undefined)).download(selected.length > 1 ? "resihub-recueil.pdf" : `${selected[0].title}.pdf`);
+    if (!definitions.length) throw new Error("Cette épreuve n’est pas disponible.");
+    const name = selected.length > 1 ? "resihub-recueil.pdf" : `${selected[0].title}.pdf`;
+    pdfMake.createPdf(ResiAiPdf.buildPdfDefinition(definitions, selected.length > 1 ? "Recueil de mes épreuves" : undefined)).getBlob((blob) => downloadBlob(blob, name));
   }
 
   function questionOptions(question) {
@@ -254,8 +256,9 @@
     clearInterval(timer);
     clearInterval(poller);
     if (channel) supabaseClient.removeChannel(channel);
-    $ai().innerHTML = `<main class="ai-native ai-simple"><header class="ai-hero"><div><p class="kicker">RésiHub Medical AI</p><h2>Créer une épreuve depuis un PDF</h2><p>Le PDF reste sur votre appareil. La génération continue même si vous fermez l’application.</p></div><span class="ai-durable">Propulsé par Replicate</span></header><section class="ai-panel ai-create-card"><div class="ai-section-title"><div><h2>Nouvelle épreuve</h2><p>Choisissez le document et le format souhaité.</p></div></div><form id="aiCreate"><label>PDF source<input name="pdf" type="file" accept="application/pdf" required><small>PDF avec texte sélectionnable · 20 Mo maximum.</small></label><div class="ai-fields"><label>Questions<select name="question_count"><option>15</option><option>30</option><option>45</option></select></label><label>Format<select name="question_type"><option value="qru">QRU</option><option value="qrm">QRM</option><option value="mixed">Mixte</option></select></label></div><details class="ai-advanced"><summary>Options facultatives</summary><label>Titre<input name="title" maxlength="100" placeholder="Ex. Insuffisance cardiaque"></label><label>Spécialité<input name="specialty" maxlength="80" placeholder="Toutes spécialités"></label></details><button class="btn primary wide" type="submit">Créer l’épreuve</button><p id="aiCreateStatus" class="ai-form-status" aria-live="polite"></p></form><p class="ai-private"><span class="icon">lock</span> Le document n’est pas conservé sur RésiHub. Seul son texte est transmis temporairement à Replicate.</p></section><section class="ai-panel ai-running" id="aiRunningSection" hidden><div class="ai-section-title"><div><h2>En cours</h2><p>Vous pouvez quitter cette page.</p></div></div><div id="aiJobs"></div></section><section class="ai-panel ai-vault"><div class="ai-section-title"><div><h2>Mes épreuves</h2><p>Enregistrées uniquement sur cet appareil.</p></div><div class="ai-toolbar"><input id="aiSearch" type="search" placeholder="Rechercher" oninput="ResiAiJobs.filter()"><label class="btn">Importer<input id="aiImport" type="file" accept="application/json" hidden onchange="ResiAiJobs.importJson(this)"></label><button class="btn" onclick="ResiAiJobs.pack()">PDF groupé</button></div></div><div id="aiLibrary"></div></section></main>`;
+    $ai().innerHTML = `<main class="ai-native ai-simple"><header class="ai-hero"><div><p class="kicker">RésiHub Medical AI</p><h2>Créer une épreuve depuis un PDF</h2><p>Le PDF reste sur votre appareil. La génération continue même si vous fermez l’application.</p></div><span class="ai-durable">Traitement IA sécurisé</span></header><section class="ai-panel ai-create-card"><div class="ai-section-title"><div><h2>Nouvelle épreuve</h2><p>Choisissez le document et le format souhaité.</p></div></div><form id="aiCreate"><label>PDF source<input name="pdf" type="file" accept="application/pdf" required><small>PDF avec texte sélectionnable · 20 Mo maximum.</small></label><div class="ai-fields"><label>Questions<select name="question_count"><option>15</option><option>30</option><option>45</option></select></label><label>Format<select name="question_type"><option value="qru">QRU</option><option value="qrm">QRM</option><option value="mixed">Mixte</option></select></label></div><details class="ai-advanced"><summary>Options facultatives</summary><label>Titre<input name="title" maxlength="100" placeholder="Ex. Insuffisance cardiaque"></label><label>Spécialité<input name="specialty" maxlength="80" placeholder="Toutes spécialités"></label></details><button class="btn primary wide" type="submit">Créer l’épreuve</button><p id="aiCreateStatus" class="ai-form-status" aria-live="polite"></p></form><p class="ai-private"><span class="icon">lock</span> Votre document source est traité temporairement et n’est pas conservé sur RésiHub.</p></section><section class="ai-panel ai-running" id="aiRunningSection" hidden><div class="ai-section-title"><div><h2>En cours</h2><p>Vous pouvez quitter cette page.</p></div></div><div id="aiJobs"></div></section><section class="ai-panel ai-vault"><div class="ai-section-title"><div><h2>Mes épreuves</h2><p>Enregistrées uniquement sur cet appareil.</p></div><div class="ai-toolbar"><input id="aiSearch" type="search" placeholder="Rechercher" oninput="ResiAiJobs.filter()"><label class="btn">Importer<input id="aiImport" type="file" accept="application/json" hidden onchange="ResiAiJobs.importJson(this)"></label><button class="btn" onclick="ResiAiJobs.pack()">PDF groupé</button></div></div><div id="aiLibrary"></div></section></main>`;
 
+    document.getElementById("aiImport")?.closest("label")?.remove();
     const billingPanel = document.createElement("section");
     billingPanel.className = "ai-panel";
     billingPanel.id = "aiBillingPanel";
@@ -287,14 +290,12 @@
     filter: renderLibrary,
     cancel: async (id) => { const job = jobs.find((item) => item.id === id); if (job) { job.status = "cancelling"; renderJobs(); } try { await call("cancel", { jobId: id }); await refresh(); } catch (_) { await refresh(); alert(errorText()); } },
     retry: (id) => { const job = jobs.find((item) => item.id === id); const form = document.getElementById("aiCreate"); if (!job || !form) return; form.title.value = job.title; form.specialty.value = job.specialty || ""; form.question_count.value = job.question_count; form.question_type.value = job.question_type; form.pdf.click(); form.scrollIntoView({ behavior: "smooth", block: "start" }); },
-    rename: async (id) => { const job = jobs.find((item) => item.id === id); const title = prompt("Nouveau nom", job?.title || ""); if (!title?.trim()) return; try { await call("rename", { jobId: id, title: title.trim() }); const stored = localExams.get(id); if (stored) await saveLocal({ ...job, title: title.trim() }, stored.quiz); await refresh(); } catch (_) { alert(errorText()); } },
     remove: async (id) => { if (!confirm("Supprimer définitivement cette épreuve de cet appareil ?")) return; try { await call("delete", { jobId: id }); await deleteLocal(id); localExams.delete(id); await refresh(); } catch (_) { alert(errorText()); } },
     solve: (id) => startSession(id, "training"),
     simulate: (id) => startSession(id, "simulation"),
-    pdf: async (id) => { const job = jobs.find((item) => item.id === id); if (quiz(job)) return localPdf([job]); try { const { url } = await call("download", { jobId: id }); location.href = url; } catch (_) { alert("Ce PDF n’est pas disponible sur cet appareil."); } },
-    json: (id) => { const job = jobs.find((item) => item.id === id); const body = quiz(job); if (body) downloadBlob(new Blob([JSON.stringify(body, null, 2)], { type: "application/json" }), `${job.title}.json`); },
+    pdf: async (id) => { const job = jobs.find((item) => item.id === id); try { if (quiz(job)) return await localPdf([job]); const { url } = await call("download", { jobId: id }); location.href = url; } catch (_) { alert("Ce PDF n’est pas disponible."); } },
     pack: () => { const ids = [...document.querySelectorAll(".ai-pack:checked")].map((input) => input.value); const selected = jobs.filter((job) => ids.includes(job.id) && quiz(job)); if (selected.length) localPdf(selected); else alert("Sélectionnez au moins une épreuve."); },
-    importJson: async (input) => { try { const body = JSON.parse(await input.files[0].text()); await call("import", { quiz: body }); await refresh(); } catch (_) { alert("Le fichier JSON n’est pas valide."); } input.value = ""; },
+    importJson: async (input) => { try { const body = JSON.parse(await input.files[0].text()); await call("import", { quiz: body }); await refresh(); } catch (_) { alert("Le fichier importé n’est pas valide."); } input.value = ""; },
   };
 
   document.addEventListener("visibilitychange", () => { if (user && document.visibilityState === "visible") syncAndRefresh(); });

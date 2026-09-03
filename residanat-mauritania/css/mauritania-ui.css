@@ -31,6 +31,10 @@
 @media(max-width:850px){.ai-grid{grid-template-columns:1fr}.ai-hero,.ai-section-title,.ai-exam{flex-direction:column}.ai-durable{white-space:normal}.ai-toolbar{width:100%}.ai-toolbar input[type=search]{width:100%}}
 
 .ai-credit-total{color:var(--rh-green-dark);white-space:nowrap}.ai-credit-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}.ai-credit-stats span{background:var(--rh-surface-muted);border-radius:10px;padding:10px;text-align:center;color:var(--rh-muted);font-size:11px}.ai-credit-stats strong{display:block;color:var(--rh-ink);font-size:18px;margin-bottom:2px}.ai-buy-box{border-top:1px solid var(--rh-line);padding-top:14px}.ai-buy-box p{margin:5px 0 10px}.ai-purchase-form{display:grid!important;grid-template-columns:1.3fr 1fr auto;align-items:end;gap:8px!important}.ai-purchase-history{border-top:1px solid var(--rh-line);margin-top:14px;padding-top:12px}.ai-purchase-history ul{display:grid;gap:6px;list-style:none;margin:8px 0 0}.ai-purchase-history li{display:flex;justify-content:space-between;gap:10px;color:var(--rh-muted);font-size:12px}.ai-purchase-history li strong{color:var(--rh-ink)}
+
+/* Premium commerce presentation */
+.ai-simple{max-width:1020px;margin:0 auto;gap:24px}.ai-simple .ai-hero{box-shadow:0 16px 34px rgba(16,45,68,.14);padding:30px}.ai-simple .ai-panel{box-shadow:0 10px 28px rgba(16,45,68,.07);padding:26px}.ai-simple .ai-durable{background:#ffffff18;border-color:#8dd5d2;color:#fff;font-size:12px;letter-spacing:.01em}.ai-credit-total{font-size:20px;font-variant-numeric:tabular-nums}.ai-credit-stats{gap:10px}.ai-credit-stats span{border:1px solid var(--rh-line);background:#f4f9f9;padding:13px 10px}.ai-credit-stats strong{font-size:20px}.ai-buy-box{background:#f7fbfb;border:1px solid var(--rh-line);border-radius:12px;margin-top:18px;padding:18px}.ai-buy-box>strong{display:block;font-size:16px}.ai-buy-box p{line-height:1.5}.ai-purchase-form{grid-template-columns:minmax(0,1.3fr) minmax(170px,1fr) auto!important}.ai-purchase-form select,.ai-purchase-form input,.ai-purchase-form button{min-height:48px}.ai-purchase-history{margin-top:18px;padding-top:18px}.ai-purchase-history li{border-top:1px solid var(--rh-line);padding:10px 0}.ai-purchase-history li:first-child{border-top:0}
+@media(max-width:850px){.ai-simple{gap:16px}.ai-simple .ai-hero,.ai-simple .ai-panel{padding:20px}.ai-simple .ai-durable{align-self:flex-start}.ai-credit-stats{grid-template-columns:repeat(2,1fr)}.ai-purchase-form{grid-template-columns:1fr!important}.ai-purchase-form button{width:100%}.ai-purchase-history li{align-items:flex-start;flex-direction:column;gap:3px}}
 html { color-scheme: light; min-width: 0 !important; }
 *, *::before, *::after { box-sizing: border-box; }
 body { -webkit-font-smoothing: antialiased; min-width: 0 !important; }
@@ -791,6 +795,16 @@ button, input, label[for], summary, a { touch-action: manipulation; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}
+
+.mauritania-app .ai-exam { align-items: start; display: grid; grid-template-columns: minmax(0, 1fr) auto; }
+.mauritania-app .ai-exam .ai-actions { justify-content: flex-end; margin-top: 0; }
+.mauritania-app .ai-exam .ai-actions .danger { color: #a24c2d; }
+
+@media (max-width: 850px) {
+  .mauritania-app .ai-exam { gap: 12px; grid-template-columns: 1fr; }
+  .mauritania-app .ai-exam .ai-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+  .mauritania-app .ai-exam .ai-actions .btn { min-width: 0; width: 100%; }
 }
 
 /* Finition application native : rythme, solidité et débordements sûrs */
