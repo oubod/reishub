@@ -1111,7 +1111,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-client.js"></script>
-  <script src="js/portal-auth.js?v=8"></script>
+  <script src="js/portal-auth.js?v=9"></script>
   <script src="js/vendors/jspdf.umd.min.js"></script>
   <script src="js/vendors/pdfmake.min.js"></script>
   <script src="js/vendors/vfs_fonts.js"></script>
@@ -1190,7 +1190,8 @@
 
     async function portalLogout() {
       localStorage.removeItem("portalGuest");
-      if (window.supabaseClient) await supabaseClient.auth.signOut();
+      if (window.releaseMauritaniaDeviceSession) await releaseMauritaniaDeviceSession();
+      if (window.supabaseClient) await supabaseClient.auth.signOut({ scope: "local" });
       window.location.replace("login.html");
     }
 

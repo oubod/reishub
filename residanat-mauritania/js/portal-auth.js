@@ -4,6 +4,10 @@ const MAURITANIA_AUTH = {
     loginPath: new URL('login.html', location.href).href
 };
 
+const MAURITANIA_DEVICE_KEY = 'resihub-mauritania-device-id';
+const MAURITANIA_MAX_DEVICES = 2;
+let mauritaniaDeviceHeartbeat;
+
 const mauritaniaAppPath = () => new URL('mauritania-tunis-lite.html', location.href).href;
 const mauritaniaLoginPath = () => new URL('login.html', location.href).href;
 
@@ -28,6 +32,53 @@ const mauritaniaExistingAccountError = (error) =>
 
 const mauritaniaMissingRpcError = (error) =>
     /could not find|not found|schema cache|function .* does not exist/i.test(error?.message || '');
+
+function mauritaniaDeviceId() {
+    let deviceId = localStorage.getItem(MAURITANIA_DEVICE_KEY);
+    if (deviceId) return deviceId;
+    deviceId = globalThis.crypto?.randomUUID?.() || `device-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    localStorage.setItem(MAURITANIA_DEVICE_KEY, deviceId);
+    return deviceId;
+}
+
+function mauritaniaDeviceLabel() {
+    return /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent) ? 'Mobile' : 'Ordinateur';
+}
+
+async function registerMauritaniaDeviceSession() {
+    try {
+        const { data, error } = await supabaseClient.rpc('mauritania_register_session', {
+            p_device_id: mauritaniaDeviceId(),
+            p_device_label: mauritaniaDeviceLabel()
+        });
+        if (!error && data) return data;
+        if (error && !mauritaniaMissingRpcError(error)) console.warn('Mauritania device limit unavailable:', error.message);
+    } catch (error) {
+        console.warn('Mauritania device limit unavailable:', error);
+    }
+    return { allowed: true, max_devices: MAURITANIA_MAX_DEVICES };
+}
+
+async function releaseMauritaniaDeviceSession() {
+    const deviceId = localStorage.getItem(MAURITANIA_DEVICE_KEY);
+    if (!deviceId) return;
+    try {
+        await supabaseClient.rpc('mauritania_release_session', { p_device_id: deviceId });
+    } catch (_) { /* Releasing is best effort; inactive sessions expire automatically. */ }
+}
+
+function startMauritaniaDeviceHeartbeat() {
+    clearInterval(mauritaniaDeviceHeartbeat);
+    mauritaniaDeviceHeartbeat = setInterval(async () => {
+        if (document.visibilityState !== 'visible') return;
+        const deviceSession = await registerMauritaniaDeviceSession();
+        if (!deviceSession.allowed) {
+            clearInterval(mauritaniaDeviceHeartbeat);
+            await supabaseClient.auth.signOut({ scope: 'local' });
+            window.location.replace(`${mauritaniaLoginPath()}?device_limit=1`);
+        }
+    }, 5 * 60 * 1000);
+}
 
 const mauritaniaIsSuspendedProfile = (profile) =>
     profile?.suspended_until && new Date(profile.suspended_until) > new Date();
@@ -101,13 +152,19 @@ async function ensureMauritaniaProfile(user, options = {}) {
 
 async function finishMauritaniaLogin(profile) {
     if (!profile || profile.rejected || !profile.approved) {
-        await supabaseClient.auth.signOut();
+        await supabaseClient.auth.signOut({ scope: 'local' });
         return mauritaniaAuthMessage(profile && profile.rejected ? "Demande d'acces rejetee." : "Demande d'acces Mauritanie en attente d'approbation.", 'warning');
     }
 
     if (mauritaniaIsSuspendedProfile(profile)) {
-        await supabaseClient.auth.signOut();
+        await supabaseClient.auth.signOut({ scope: 'local' });
         return mauritaniaAuthMessage(`Votre compte est temporairement suspendu jusqu'au ${new Date(profile.suspended_until).toLocaleString()}.`, 'warning');
+    }
+
+    const deviceSession = await registerMauritaniaDeviceSession();
+    if (!deviceSession.allowed) {
+        await supabaseClient.auth.signOut({ scope: 'local' });
+        return mauritaniaAuthMessage('Ce compte est déjà ouvert sur 2 appareils. Déconnectez un autre appareil, puis réessayez.', 'warning');
     }
 
     localStorage.removeItem('portalGuest');
@@ -166,19 +223,27 @@ async function ensureMauritaniaApprovedSession() {
     const profile = await ensureMauritaniaProfile(session.user);
 
     if (!profile || profile.rejected || !profile.approved) {
-        await supabaseClient.auth.signOut();
+        await supabaseClient.auth.signOut({ scope: 'local' });
         window.location.replace(`${mauritaniaLoginPath()}?${profile && profile.rejected ? 'rejected' : 'pending'}=1`);
         return null;
     }
 
     if (mauritaniaIsSuspendedProfile(profile)) {
-        await supabaseClient.auth.signOut();
+        await supabaseClient.auth.signOut({ scope: 'local' });
         window.location.replace(`${mauritaniaLoginPath()}?suspended=1&until=${encodeURIComponent(profile.suspended_until)}`);
+        return null;
+    }
+
+    const deviceSession = await registerMauritaniaDeviceSession();
+    if (!deviceSession.allowed) {
+        await supabaseClient.auth.signOut({ scope: 'local' });
+        window.location.replace(`${mauritaniaLoginPath()}?device_limit=1`);
         return null;
     }
 
     window.portalAuthUser = session.user;
     window.portalAuthProfile = profile;
+    startMauritaniaDeviceHeartbeat();
     logUserSession('mauritania', supabaseClient);
     return { session, profile };
 }
@@ -208,6 +273,9 @@ function setupMauritaniaLogin() {
     if (params.get('suspended') === '1') {
         const until = params.get('until') ? new Date(params.get('until')).toLocaleString() : 'bientôt';
         mauritaniaAuthMessage(`Votre compte est temporairement suspendu jusqu'au ${until}.`, 'warning');
+    }
+    if (params.get('device_limit') === '1') {
+        mauritaniaAuthMessage('Ce compte est déjà ouvert sur 2 appareils. Déconnectez un autre appareil, puis réessayez.', 'warning');
     }
 
     const setMode = (nextMode) => {
@@ -284,7 +352,7 @@ function setupMauritaniaLogin() {
                 if (profile?.approved && !profile.rejected && !mauritaniaIsSuspendedProfile(profile)) {
                     return finishMauritaniaLogin(profile);
                 }
-                await supabaseClient.auth.signOut();
+                await supabaseClient.auth.signOut({ scope: 'local' });
                 signup.reset();
                 return mauritaniaAuthMessage(profile?.rejected ? "Demande d'acces rejetee." : "Demande d'acces Mauritanie enregistree. Attendez la validation administrateur.", 'success');
             }
@@ -298,7 +366,7 @@ function setupMauritaniaLogin() {
                 if (profile.approved && !profile.rejected && !mauritaniaIsSuspendedProfile(profile)) {
                     return finishMauritaniaLogin(profile);
                 }
-                await supabaseClient.auth.signOut();
+                await supabaseClient.auth.signOut({ scope: 'local' });
             }
             signup.reset();
             mauritaniaAuthMessage('Compte cree. Il sera accessible apres approbation administrateur.', 'success');

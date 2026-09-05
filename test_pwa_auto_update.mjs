@@ -21,7 +21,7 @@ assert.match(updater, /controllerchange/);
 assert.match(rootWorker, /resihub-pwa-v34/);
 assert.match(rootWorker, /await self\.skipWaiting\(\)/);
 assert.match(rootWorker, /request\.mode === "navigate"/);
-assert.match(mauritaniaWorker, /resihub-mauritania-v48/);
+assert.match(mauritaniaWorker, /resihub-mauritania-v49/);
 assert.match(mauritaniaWorker, /self\.skipWaiting\(\)/);
 assert.match(mauritaniaWorker, /event\.request\.mode === 'navigate'/);
 assert.match(headers, /\/residanat-mauritania\/sw\.js\s+Cache-Control: no-cache/);

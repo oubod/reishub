@@ -60,7 +60,7 @@ assert.equal((sourcePage.match(/Examen \(par Dr Sena\)/g) || []).length, 0);
 assert.doesNotMatch(sourcePage, /id="continueCard"|Continuer ma lecture/);
 assert.match(sourcePage, /id="homeCourseTotal"/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v48/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v49/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /ResiAiJobs\.open/);
 assert.doesNotMatch(sourcePage, /ai-studio\.html|ai-studio-frame/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/ai-jobs.js", "utf8"), /PDF groupé/);
