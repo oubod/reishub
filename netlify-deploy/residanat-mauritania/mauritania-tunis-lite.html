@@ -388,6 +388,19 @@
       letter-spacing: .06em;
     }
 
+    .quiz-policy {
+      display: flex;
+      gap: 8px;
+      margin: 0 0 16px;
+      padding: 10px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .quiz-policy strong { color: var(--ink); white-space: nowrap; }
+
     .question {
       margin: 10px 0 16px;
       font-size: 20px;
@@ -1125,9 +1138,11 @@
     const LAST_LECTURE_KEY = "resihubMauritaniaLastLecture";
     const QUIZ_SESSION_KEY = "resihubMauritaniaQuizSession";
     const QUESTIONS_PER_QUIZ = 50;
+    const TRAINING_QUESTION_COUNTS = { "pc-10": 49, "pc-20": 49, "pm-1": 49, "pm-29": 49, "pm-35": 40, "pm-38": 49, "pm-49": 0, "pm-50": 0 };
     let lectureQuizTimer = null;
     const state = { view: "home", query: "", activeCategory: null, source: {}, lectures: [], session: null, resumeSession: null, exam: null };
     const $ = (id) => document.getElementById(id);
+    const questionCountFor = (item) => TRAINING_QUESTION_COUNTS[item.id] ?? QUESTIONS_PER_QUIZ;
     const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     const ICON_PATHS = {
       home: '<path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M9.5 20v-6h5v6"/>',
@@ -1238,7 +1253,7 @@
 
     function categoryCard(category, items, mode = "home") {
       const encoded = esc(encodeURIComponent(category));
-      const quizCount = items.filter((item) => item.training).length * QUESTIONS_PER_QUIZ;
+      const quizCount = items.reduce((sum, item) => sum + (item.training ? questionCountFor(item) : 0), 0);
       const actions = mode === "home" ? `
         <div class="category-actions">
           <button class="category-button primary" type="button" onclick="chooseCategory(decodeURIComponent('${encoded}'), 'lectures')">Cours</button>
@@ -1266,7 +1281,7 @@
         .map(([category, items]) => categoryCard(category, items))
         .join("");
       $("homeCourseTotal").textContent = state.lectures.length.toLocaleString("fr-FR");
-      $("homeQcmTotal").textContent = (state.lectures.filter((item) => item.training).length * QUESTIONS_PER_QUIZ).toLocaleString("fr-FR");
+      $("homeQcmTotal").textContent = state.lectures.reduce((sum, item) => sum + (item.training ? questionCountFor(item) : 0), 0).toLocaleString("fr-FR");
       $("homeCategoryTotal").textContent = categoryGroups().length.toLocaleString("fr-FR");
     }
 
@@ -1336,7 +1351,7 @@
       return `
         <button class="row${locked ? " locked" : ""}" type="button" onclick="${locked ? "showGuestLocked()" : `startQuiz('${esc(item.id)}')`}">
           <span class="badge">${icon(locked ? "lock" : "play_circle")}</span>
-          <span><h3>${esc(item.title)}</h3><p>${locked ? `<span class="lock-label">${icon("lock")}Accès verrouillé</span>` : `${esc(item.category)} · démarrer`}</p></span>
+          <span><h3>${esc(item.title)}</h3><p>${locked ? `<span class="lock-label">${icon("lock")}Accès verrouillé</span>` : `${questionCountFor(item)} QCM · ${esc(item.category)}`}</p></span>
           <span class="chev">${icon(locked ? "lock" : "chevron_right")}</span>
         </button>
       `;
@@ -1372,15 +1387,32 @@
     }
 
     function normalizeQuestions(payload) {
-      return (payload.questions || []).map((question, index) => ({
-        id: question.id || `q${index + 1}`,
-        question: question.question || question.prompt || "",
-        explanation: question.explanation || question.correction || "",
-        options: (question.options || []).map((option, optionIndex) => {
-          const id = String(option.id || "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[optionIndex] || optionIndex + 1).toUpperCase();
-          return { id, text: option.text || option.label || String(option), correct: Boolean(option.correct) };
-        })
-      })).filter((question) => question.question && question.options.length);
+      const legacy = Array.isArray(payload);
+      const source = legacy ? payload.filter((question) => question.type === "quiz") : (payload?.questions || []);
+      return source.map((question, index) => {
+        if (legacy) {
+          const answer = String(question.a || "").trim();
+          return {
+            id: `q${index + 1}`,
+            question: question.q || "",
+            explanation: "",
+            options: (question.opts || []).map((text, optionIndex) => ({
+              id: "ABCDE"[optionIndex] || String(optionIndex + 1),
+              text: String(text),
+              correct: String(text).trim() === answer
+            }))
+          };
+        }
+        return {
+          id: question.id || `q${index + 1}`,
+          question: question.question || question.prompt || "",
+          explanation: question.explanation || question.correction || "",
+          options: (question.options || []).map((option, optionIndex) => {
+            const id = String(option.id || "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[optionIndex] || optionIndex + 1).toUpperCase();
+            return { id, text: option.text || option.label || String(option), correct: Boolean(option.correct) };
+          })
+        };
+      }).filter((question) => question.question && question.options.length && question.options.some((option) => option.correct));
     }
 
     function quizSessionStorageKey() {
@@ -1487,6 +1519,7 @@
       try {
         const payload = await readJson(item.training);
         const questions = normalizeQuestions(payload);
+        if (!questions.length) throw new Error("Ce quiz ne contient encore aucune question vérifiée.");
         clearSavedLectureQuiz();
         state.session = { item, questions, index: 0, selected: new Set(), selections: {}, checked: false, score: 0, questionStartedAt: Date.now(), questionTimes: {}, results: {}, retrying: false, gridOpen: undefined };
         saveLectureQuizSession();
@@ -1542,6 +1575,8 @@
         return;
       }
       const q = s.questions[s.index];
+      const selectedIds = [...s.selected].sort();
+      const correctIds = q.options.filter((opt) => opt.correct).map((opt) => opt.id).sort();
       const elapsed = (s.questionTimes[s.index] || 0) + (!s.checked && s.questionStartedAt ? Math.round((Date.now() - s.questionStartedAt) / 1000) : 0);
       const progress = Math.round(((s.index + (s.checked ? 1 : 0)) / s.questions.length) * 100);
       const checkedResult = s.results[s.index];
@@ -1555,10 +1590,11 @@
           <div class="session-progress" role="progressbar" aria-label="Progression du quiz" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${progress}"><span style="width:${progress}%"></span></div>
           <div class="session-content">
             ${quizQuestionGrid(s)}
+            <div class="quiz-policy" role="note"><strong>Mode de correction</strong><span>QCM à réponses multiples · tout ou rien : 1 point seulement si toutes les bonnes réponses sont cochées et aucune fausse. Réponse incomplète, fausse ou vide : 0 point.</span></div>
             <p class="quiz-meta">${esc(s.item.title)}</p>
             <div class="question">${esc(q.question)}</div>
             <div class="options">${q.options.map((opt) => optionMarkup(opt)).join("")}</div>
-            ${s.checked ? `<div class="answer-feedback ${checkedResult?.correct ? "" : "bad"}" role="status"><div><strong>${checkedResult?.correct ? "Bonne réponse" : "Réponse à revoir"}</strong>${q.explanation ? `<p>${esc(q.explanation)}</p>` : ""}</div></div>` : ""}
+            ${s.checked ? `<div class="answer-feedback ${checkedResult?.correct ? "" : "bad"}" role="status"><div><strong>${checkedResult?.correct ? "Bonne réponse · 1/1" : "Réponse à revoir · 0/1"}</strong><p><strong>Votre choix :</strong> ${esc(selectedIds.join(", ") || "Aucune")}<br><strong>Réponses attendues :</strong> ${esc(correctIds.join(", ") || "Aucune")}</p>${q.explanation ? `<p>${esc(q.explanation)}</p>` : ""}</div></div>` : ""}
             <div class="session-actions">
               <button class="btn primary" type="button" onclick="${s.mode === "simulation" ? (s.index === s.questions.length - 1 ? "finishAiSimulation()" : "nextSimulationQuestion()") : s.checked ? "nextQuestion()" : "checkAnswer()"}">${s.mode === "simulation" ? (s.index === s.questions.length - 1 ? icon("flag") + "Terminer" : "Suivant" + icon("arrow_forward")) : s.checked ? "Suivant" + icon("arrow_forward") : icon("check_circle") + "Valider"}</button>
             </div>
@@ -1613,6 +1649,7 @@
           <section class="result-overview">
             <p class="kicker">Résultats</p>
             <h2>${accuracy >= 70 ? "Une base solide." : "Les erreurs montrent quoi retravailler."}</h2>
+            <p class="quiz-result-summary">Barème : tout ou rien, 1 point uniquement pour une combinaison exacte.</p>
             <div class="result-score"><strong>${score}</strong><span>/ ${s.questions.length}</span></div>
             <div class="result-metrics">
               <div class="result-metric"><strong>${accuracy} %</strong>Précision</div>
@@ -1656,13 +1693,16 @@
 
     function optionMarkup(opt) {
       const s = state.session;
-      let cls = s.selected.has(opt.id) ? " selected" : "";
+      const chosen = s.selected.has(opt.id);
+      let cls = chosen ? " selected" : "";
       if (s.checked && opt.correct) cls += " correct";
-      if (s.checked && s.selected.has(opt.id) && !opt.correct) cls += " wrong";
-      const status = s.checked && opt.correct
-        ? `<span class="answer-status correct-label">Bonne réponse</span>`
-        : s.checked && s.selected.has(opt.id) && !opt.correct
-          ? `<span class="answer-status wrong-label">Votre choix</span>`
+      if (s.checked && chosen && !opt.correct) cls += " wrong";
+      const status = s.checked && opt.correct && chosen
+        ? `<span class="answer-status correct-label">Votre choix · correct</span>`
+        : s.checked && opt.correct
+          ? `<span class="answer-status correct-label">Réponse attendue</span>`
+          : s.checked && chosen
+            ? `<span class="answer-status wrong-label">Votre choix · incorrect</span>`
           : "";
       return `
         <button class="option${cls}" type="button" onclick="toggleOption('${esc(opt.id)}')" ${s.checked ? "disabled" : ""}>

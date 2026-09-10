@@ -1,4 +1,4 @@
-const CACHE_VERSION = "resihub-pwa-v34";
+const CACHE_VERSION = "resihub-pwa-v35";
 const APP_SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const CACHE_PREFIXES = ["residanat-pwa-", `R${"\u00e9"}siHub-pwa-`, "resihub-pwa-"];
