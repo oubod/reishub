@@ -406,7 +406,7 @@
         {
           "id": "E",
           "text": "Elle est améliorée en position déclive.",
-          "correct": false
+          "correct": true
         }
       ],
       "explanation": "La douleur de décubitus est une brûlure intense distale des orteils ou de l’avant-pied, traduisant une ischémie permanente. Elle apparaît au bout de quelques minutes/heures de décubitus et est améliorée en position déclive, obligeant le patient à rester jambes pendantes ou à se lever."
@@ -1206,26 +1206,26 @@
         },
         {
           "id": "B",
-          "text": "Elles sont utilisées uniquement en cas d'indication de revascularisation.",
+          "text": "Elles sont utilisées pour préciser l'anatomie lorsque la revascularisation est envisagée.",
           "correct": true
         },
         {
           "id": "C",
-          "text": "L'angioscanner est l'examen de première intention pour le bilan pré-interventionnel.",
+          "text": "L'angioscanner est souvent privilégié pour le bilan anatomique pré-interventionnel, selon le contexte.",
           "correct": true
         },
         {
           "id": "D",
-          "text": "L'angio-IRM est utilisée en cas de contre-indication au scanner, notamment en cas d'insuffisance rénale sévère.",
+          "text": "L'angio-IRM est systématiquement préférable à l'angioscanner en cas d'insuffisance rénale sévère.",
           "correct": false
         },
         {
           "id": "E",
-          "text": "L'artériographie est le 'gold standard' et est utilisée uniquement si une procédure de revascularisation percutanée est envisagée.",
+          "text": "L'artériographie par cathéter reste une technique de référence et peut être réalisée directement lorsqu'une revascularisation endovasculaire est prévue.",
           "correct": true
         }
       ],
-      "explanation": "Ces techniques sont utilisées uniquement en cas d'indication de revascularisation (ischémie d'effort stade 2 si revascularisation ou ischémie critique stades 3 ou 4). L'angioscanner est en 1ère intention pour le bilan pré-interventionnel. L'angio-IRM est utilisée en cas de contre-indication au scanner (ex: gadolinium CI si IR < 30 ml/min/1,73 m2). L'artériographie est le 'gold standard' et est utilisée uniquement si une procédure de revascularisation percutanée est envisagée."
+      "explanation": "Chez un patient dont le diagnostic est confirmé, ces examens précisent l'anatomie surtout lorsqu'une revascularisation est envisagée ; une imagerie non invasive peut aussi être discutée si l'ABI et les tests physiologiques sont non concluants. L'angioscanner est souvent privilégié pour le bilan anatomique pré-interventionnel, mais le choix dépend du contexte, de la fonction rénale, du contraste et de l'irradiation. L'angio-IRM n'est donc pas systématiquement préférable en cas d'insuffisance rénale sévère, car certains produits de contraste au gadolinium comportent également des risques. L'artériographie par cathéter reste une technique de référence et peut être réalisée directement lorsqu'une revascularisation endovasculaire est prévue."
     },
     {
       "id": "q37",

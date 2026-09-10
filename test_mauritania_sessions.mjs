@@ -29,7 +29,7 @@ for (const path of [
 
 for (const path of ["residanat-mauritania/sw.js", "netlify-deploy/residanat-mauritania/sw.js"]) {
   const serviceWorker = read(path);
-  assert.match(serviceWorker, /resihub-mauritania-v49/);
+  assert.match(serviceWorker, /resihub-mauritania-v50/);
   assert.match(serviceWorker, /portal-auth\.js\?v=9/);
 }
 

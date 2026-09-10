@@ -60,7 +60,7 @@ assert.equal((sourcePage.match(/Examen \(par Dr Sena\)/g) || []).length, 0);
 assert.doesNotMatch(sourcePage, /id="continueCard"|Continuer ma lecture/);
 assert.match(sourcePage, /id="homeCourseTotal"/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /exam:\$\{userId\}/);
-assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v49/);
+assert.match(fs.readFileSync("./residanat-mauritania/sw.js", "utf8"), /resihub-mauritania-v50/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/advanced-tools.js", "utf8"), /ResiAiJobs\.open/);
 assert.doesNotMatch(sourcePage, /ai-studio\.html|ai-studio-frame/);
 assert.match(fs.readFileSync("./residanat-mauritania/js/ai-jobs.js", "utf8"), /PDF groupé/);
@@ -95,6 +95,6 @@ assert.equal(
   normalizeLines(fs.readFileSync("./residanat-mauritania/css/mauritania-ui.css", "utf8")),
   normalizeLines(fs.readFileSync("./netlify-deploy/residanat-mauritania/css/mauritania-ui.css", "utf8"))
 );
-assert.match(fs.readFileSync("./sw.js", "utf8"), /resihub-pwa-v34/);
+assert.match(fs.readFileSync("./sw.js", "utf8"), /resihub-pwa-v35/);
 
 console.log("Mauritania advanced feature checks passed.");
