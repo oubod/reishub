@@ -26,7 +26,7 @@ assert.doesNotMatch(admin, /IA Gemini|Replicate/, "technical provider labels mus
 assert.match(admin, /1 crédit = 1 PDF/);
 assert.doesNotMatch(admin, /Vente AI Mauritanie|CSV paiements|packageForm|billingSettingsForm/);
 assert.equal(sourceWorker, deployWorker, "source and deployment service workers must stay identical");
-assert.match(sourceWorker, /resihub-mauritania-v51/, "cache version must refresh returning users");
+assert.match(sourceWorker, /resihub-mauritania-v52/, "cache version must refresh returning users");
 assert.equal(groups.length, 3, "only the three populated categories should be shown");
 assert.equal(lectures.length, 115, "lecture total should match the current dataset");
 assert.equal(lectures.filter((item) => item.training).length, 115, "quiz total should match the current dataset");

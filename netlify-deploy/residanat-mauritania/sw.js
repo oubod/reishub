@@ -1,4 +1,4 @@
-const CACHE_NAME = 'resihub-mauritania-v51';
+const CACHE_NAME = 'resihub-mauritania-v52';
 const CACHE_PREFIXES = ['residanat-nktt-', `R${'\u00e9'}siHub-mauritania-`, 'resihub-mauritania-'];
 const URLS_TO_CACHE = [
     './',
