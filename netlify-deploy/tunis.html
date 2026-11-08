@@ -1146,8 +1146,28 @@
         <section>
           <div>
             <div class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Prépa résidanat</div>
-            <h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Accueil</h2>
-            <p id="heroCopy" class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">Lectures, quiz, examens et ressources.</p>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Ton résidanat, mieux organisé.</h2>
+            <p id="heroCopy" class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">Cours FMT, quiz, examens blancs et ressources — tout au même endroit.</p>
+          </div>
+        </section>
+
+        <section class="bg-surface-container-lowest rounded-2xl border border-outline-variant/30 ios-shadow p-5">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div class="flex items-start gap-3">
+              <span class="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined fill-icon text-[28px]">trending_up</span></span>
+              <div>
+                <div class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Ta préparation</div>
+                <h3 id="dashboardProgressTitle" class="font-headline-md text-headline-md text-on-surface mt-1">0% du programme maîtrisé</h3>
+                <p id="dashboardProgressDetail" class="font-body-md text-body-md text-on-surface-variant mt-1">0/0 cours maîtrisés</p>
+              </div>
+            </div>
+            <button id="continueStudyButton" class="bg-primary text-on-primary font-label-md text-label-md font-semibold py-3 px-4 rounded-xl flex items-center justify-center gap-2 ios-shadow active:scale-95 transition-all" type="button" onclick="continueLecture()">
+              Continuer
+              <span class="material-symbols-outlined text-[22px]">arrow_forward</span>
+            </button>
+          </div>
+          <div class="w-full h-2 bg-surface-container rounded-full overflow-hidden mt-4" aria-hidden="true">
+            <div id="dashboardProgressBar" class="h-full bg-primary rounded-full transition-all duration-500" style="width: 0%"></div>
           </div>
         </section>
 
@@ -1196,7 +1216,7 @@
       <div class="max-w-3xl mx-auto">
         <div class="mb-stack-md flex items-end justify-between gap-3">
           <div>
-            <div class="font-label-sm text-label-sm text-outline uppercase tracking-wider">5000+ QCM</div>
+            <div id="quizSummaryLabel" class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Séries de QCM</div>
             <h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mt-1">Quiz</h2>
             <p class="font-body-md text-body-md text-on-surface-variant mt-1">Touchez un cours pour commencer directement.</p>
           </div>
@@ -1961,7 +1981,7 @@
       }
       state.source = payload;
       state.lectures = payload.lectures || [];
-      document.getElementById("heroCopy").textContent = "Lectures, quiz, examens et ressources.";
+      document.getElementById("heroCopy").textContent = "Cours FMT, quiz, examens blancs et ressources — tout au même endroit.";
 
       try {
         const series = await readJson(DATA_PATHS.series);
@@ -2116,11 +2136,11 @@
       if (!grid) return;
       const guest = isGuestMode();
       const cards = [
-        { label: "Lectures", icon: "menu_book", detail: `${state.lectures.length} cours FMT`, action: "navigate('cours')" },
+        { label: "Cours FMT", icon: "menu_book", detail: `${state.lectures.length} cours`, action: "navigate('cours')" },
         { label: "Quiz", icon: "quiz", detail: guest ? "Apercu limite" : `${state.lectures.filter(l => l.quiz).length} quiz`, action: "navigate('quiz')" },
-        { label: "Examens", icon: "assignment", detail: guest ? "1 apercu, reste verrouille" : `${state.examDocuments.length} fichiers`, action: "navigate('examens')" },
+        { label: "Examens blancs", icon: "assignment", detail: guest ? "1 apercu, reste verrouille" : `${state.examDocuments.length} fichiers`, action: "navigate('examens')" },
         { label: "Sources ECN", icon: "folder_special", detail: guest ? "1 apercu, reste verrouille" : `${state.seriesPdfCount} PDF`, action: "navigate('series')" },
-        { label: "Notes", icon: "description", detail: `${state.notes.length} notes`, action: "navigate('notes')", locked: guest }
+        { label: "Notes & progression", icon: "description", detail: `${state.notes.length} notes`, action: "navigate('notes')", locked: guest }
       ];
 
       grid.innerHTML = cards.map((card) => `
@@ -2151,6 +2171,11 @@
       document.getElementById("sidebarProgressPercent").textContent = `${progress}%`;
       document.getElementById("sidebarProgressBar").style.width = `${progress}%`;
       document.getElementById("sidebarProgressText").textContent = `${counts.done}/${counts.total} cours maîtrisés`;
+      document.getElementById("dashboardProgressTitle").textContent = `${progress}% du programme maîtrisé`;
+      document.getElementById("dashboardProgressDetail").textContent = `${counts.done}/${counts.total} cours maîtrisés`;
+      document.getElementById("dashboardProgressBar").style.width = `${progress}%`;
+      document.getElementById("continueStudyButton").disabled = !state.lectures.length;
+      document.getElementById("continueStudyButton").classList.toggle("opacity-50", !state.lectures.length);
       const mistakeSummary = document.getElementById("mistakeSummary");
       if (mistakeSummary) {
         const count = unresolvedMistakes().length;
@@ -2564,6 +2589,9 @@
 
     function renderQuizList() {
       const list = document.getElementById("quizList");
+      const quizCount = state.lectures.filter((lecture) => lecture.quiz).length;
+      const summaryLabel = document.getElementById("quizSummaryLabel");
+      if (summaryLabel) summaryLabel.textContent = `${quizCount} série${quizCount === 1 ? "" : "s"} de QCM`;
       const query = state.quizSearch.trim().toLowerCase();
       const filtered = state.lectures.filter((lecture) => {
         if (query && !isLectureAllowedForGuest(lecture.id)) return false;
